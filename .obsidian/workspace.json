@@ -1,0 +1,256 @@
+{
+  "main": {
+    "id": "cf6f84d7d58a5412",
+    "type": "split",
+    "children": [
+      {
+        "id": "23c3d072f18eeca3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77651ffdb8077cf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/career/tti/_wip/tti-comms-log.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "tti-comms-log"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "18855d860216e211",
+    "type": "split",
+    "children": [
+      {
+        "id": "cd8e7ed21589e64a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48fbe0b2cf1dfbe1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6a86c3d76dc7fc1a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "37ee1cbbc3da9f6f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 330.5
+  },
+  "right": {
+    "id": "23bd47ff2297930e",
+    "type": "split",
+    "children": [
+      {
+        "id": "22170f501fa3be2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6915f3f79e15c614",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/ai-os/system-design/opencode/opencode.jsonc.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": true,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for opencode.jsonc"
+            }
+          },
+          {
+            "id": "8975445a0888fc88",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2026-04-12.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2026-04-12"
+            }
+          },
+          {
+            "id": "190126ea271d4de3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d2ffe124330686a7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2ecbfeecdbf72553",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2026-04-12.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2026-04-12"
+            }
+          },
+          {
+            "id": "d9a22ce7a33c11b7",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-local-images-plus:Local Images Plus  0.16.4\r\nLocalize attachments (plugin folder)": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "77651ffdb8077cf7",
+  "lastOpenFiles": [
+    "wiki/career/tti/_wip/tti-engagement-strategy.md",
+    "wiki/career/tti/_wip/tti-ty-brief.md",
+    "wiki/career/tti/_wip/tti-comms-log.md",
+    "wiki/career/tti/_reference/stephan-whatsapp-archive.md",
+    "wiki/career/tti/_reference/_index.md",
+    "wiki/career/tti/_reference/company-profile.md",
+    "wiki/career/tti/_wip/fde-conversation-piece.md",
+    "wiki/career/tti/_wip/artefact-delivery-log.md",
+    "wiki/career/tti/_reference/engagement-history.md",
+    "wiki/career/tti/_wip/stephan-engagements.md",
+    "wiki/projects/tti-role.md",
+    "wiki/career/Uk-vs-hk-earnings-feasibility-codex-review-2026-07-09.md",
+    "wiki/career/uk-150k-feasibility-report.md",
+    "wiki/career/uk-vs-hk-earning-comparison-jh-clarifications-2026-07-09.md",
+    "wiki/career/uk-vs-hk-earning-comparison.md",
+    "wiki/relationships/malvern-state-schools-comparison.md",
+    "wiki/finance/uk-relocation-savings-comparison-number-check-2026-07-17.md",
+    "wiki/finance/uk-relocation-savings-comparison.md",
+    "wiki/finance/uk-relocation-cashflows.md",
+    "wiki/ai-os/system-design/codex/google-drive-connector.md",
+    "wiki/projects/uk-relocation-decision.md",
+    "wiki/ai-os/system-design/claude/memory/feedback-overanalysis-check.md",
+    "wiki/performance/decisions/uk-move/benefits.md",
+    "wiki/performance/decisions/uk-move/uk-relocation-benefits-register-2026-07-16.md",
+    "wiki/ai-os/system-design/codex/google-sheets-mcp.md",
+    "wiki/performance/decisions/uk-move/uk-move-benefits-register-2026-07-16.md",
+    "wiki/performance/decisions/uk-move/uk-move-risk-register-2026-07-12.xlsx",
+    "wiki/ai-os/skills/decision-visualisation-check",
+    "wiki/finance/uk-move-financial-model.md.tmp.27873.0d9c5228fd78",
+    "wiki/performance/decisions/uk-move/uk-move-raid-register-2026-07-12.xlsx",
+    "wiki/performance/decisions/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
+    "wiki/finance/uk-move-runway-burn-comparison-2026-07-11.xlsx",
+    "wiki/career/uk-job-market-remote-hybrid-split-2026-07-11.xlsx",
+    "wiki/finance/uk-vs-hk-income-floor-reconciliation-2026-07-09.xlsx",
+    "wiki/career/uk-vs-hk-earning-comparison.md.tmp.98360.c90fdb51bc31",
+    "tmp/pdfs/council-tax-demand-2.png",
+    "tmp/pdfs/council-tax-demand-1.png",
+    "tmp/pdfs",
+    "Along with all of these.canvas",
+    "8e43659706ea4336d3c9c64a63e640df_MD5.png",
+    "441cfd1d6b267537567eb1908e8bbad1_MD5.png",
+    "06528f3c3998968b52e9430f2348d4cd_MD5.png",
+    "ab1f3cb2dba0e593caf3319c1de64cc0_MD5.png",
+    "b79998d749d1e4ab28b90283b1529c28_MD5.png",
+    "ccdb8c5af3cf251520df533b9fa8d9ba_MD5.png",
+    "de763535ae231042f82d7d8ff1516f9c_MD5.png",
+    "384e80a49ff93fb0e7504d8b61c93829_MD5.png",
+    "Untitled 5.canvas",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas"
+  ]
+}

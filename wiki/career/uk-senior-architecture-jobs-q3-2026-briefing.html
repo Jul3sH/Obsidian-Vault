@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Storm Research: UK Senior Architecture Jobs — Market & Salary Analysis Q3 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --blue: #2563eb; --blue-dark: #1e3a8a; --ink: #16203a; --muted: #5b6677; --line: #e4e9f2;
+    --bg-soft: #f6f8fc; --green: #15803d; --green-bg: #e9f6ee; --amber: #b45309; --amber-bg: #fdf3e7;
+    --slate: #475569; --slate-bg: #eef1f6; --red: #b91c1c; --red-bg: #fdecec;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Roboto', system-ui, sans-serif; color: var(--ink); background: #eef1f6; line-height: 1.62; font-weight: 400; -webkit-font-smoothing: antialiased; }
+  .page { max-width: 900px; margin: 0 auto; background: #fff; padding: 64px 72px 80px; box-shadow: 0 1px 40px rgba(22,32,58,0.08); }
+  .eyebrow { font-family: 'Roboto Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue); margin-bottom: 14px; }
+  h1 { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 40px; line-height: 1.12; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 18px; }
+  .lede { font-size: 17px; color: var(--muted); max-width: 640px; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 26px; padding-top: 22px; border-top: 2px solid var(--line); font-family: 'Roboto Mono', monospace; font-size: 12px; color: var(--muted); }
+  .meta-row b { color: var(--ink); font-weight: 600; }
+  .verify-banner { margin-top: 22px; background: var(--green-bg); border: 1px solid #bfe3cc; border-radius: 8px; padding: 13px 18px; font-size: 13px; color: #14532d; display: flex; gap: 10px; align-items: baseline; }
+  .verify-banner b { font-weight: 700; }
+  .verify-banner .tag { font-family: 'Roboto Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--green); color: #fff; padding: 3px 8px; border-radius: 4px; flex-shrink: 0; }
+  .howto { margin-top: 18px; border: 1px solid var(--line); border-radius: 8px; padding: 18px 22px; background: var(--bg-soft); }
+  .howto h4 { font-family: 'Roboto Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .howto ul { list-style: none; }
+  .howto li { font-size: 13.5px; color: #2b3950; margin-bottom: 7px; padding-left: 16px; position: relative; }
+  .howto li::before { content: "›"; position: absolute; left: 0; color: var(--blue); font-weight: 700; }
+  .section { margin-top: 56px; }
+  .section-num { font-family: 'Roboto Mono', monospace; font-size: 13px; font-weight: 600; color: var(--blue); letter-spacing: 0.05em; }
+  h2 { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 25px; letter-spacing: -0.01em; color: var(--ink); margin: 6px 0 18px; line-height: 1.2; }
+  h2 .bar { display: inline-block; width: 38px; height: 4px; background: var(--blue); border-radius: 2px; vertical-align: middle; margin-right: 14px; }
+  p { margin-bottom: 14px; }
+  p.body-lg { font-size: 16.5px; }
+  .ceo { background: var(--bg-soft); border-left: 5px solid var(--blue); padding: 26px 30px; border-radius: 4px; font-size: 16.5px; }
+  .ceo strong { font-weight: 700; color: var(--blue-dark); }
+  .finding { border: 1px solid var(--line); border-radius: 10px; padding: 24px 26px; margin-bottom: 18px; position: relative; }
+  .finding-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin-bottom: 12px; }
+  .finding-title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 18px; line-height: 1.3; color: var(--ink); flex: 1; }
+  .finding-rank { font-family: 'Roboto Mono', monospace; font-weight: 600; font-size: 13px; color: #fff; background: var(--ink); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .finding p { font-size: 15px; color: #283449; margin-bottom: 14px; }
+  .rel-row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  .rel { display: inline-flex; align-items: center; gap: 9px; font-family: 'Roboto Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 12px; border-radius: 20px; }
+  .rel.high { background: #e7f0fe; color: var(--blue); }
+  .rel.medhigh { background: var(--green-bg); color: var(--green); }
+  .rel.medium { background: var(--amber-bg); color: var(--amber); }
+  .rel.low { background: var(--red-bg); color: var(--red); }
+  .score { font-family: 'Roboto Mono', monospace; font-size: 13px; font-weight: 600; color: var(--ink); }
+  .score b { font-size: 17px; }
+  .score span { color: var(--muted); font-weight: 400; }
+  .chips { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+  .chip-row { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; font-size: 13.5px; }
+  .chip-label { font-family: 'Roboto Mono', monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 8px; border-radius: 4px; white-space: nowrap; }
+  .chip-label.sup { background: var(--green-bg); color: var(--green); }
+  .chip-label.chal { background: var(--red-bg); color: var(--red); }
+  .chip-label.fix { background: var(--amber-bg); color: var(--amber); }
+  .chip-row span.who { color: #2b3950; }
+  .chip-row span.who b { font-weight: 600; }
+  .contested { border: 1px dashed var(--amber); background: #fffaf2; border-radius: 10px; padding: 22px 26px; margin-bottom: 18px; }
+  .contested .tag { font-family: 'Roboto Mono', monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); }
+  .contested h4 { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; color: var(--ink); margin: 6px 0 10px; }
+  .contested p { font-size: 14px; color: #4a3a22; margin-bottom: 0; }
+  .connection { background: linear-gradient(135deg, #16203a 0%, #1e3a8a 100%); color: #eaf0fb; border-radius: 12px; padding: 34px 38px; }
+  .connection h2 { color: #fff; }
+  .connection h2 .bar { background: #6ea8ff; }
+  .connection .section-num { color: #9ec1ff; }
+  .connection p { color: #d3def3; font-size: 16px; }
+  .connection .punch { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 18px; color: #fff; line-height: 1.4; margin-top: 18px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.18); }
+  .assume { border: 1px solid var(--line); border-left: 5px solid var(--amber); border-radius: 6px; padding: 24px 28px; background: #fffdf9; }
+  .assume h3 { font-family: 'Montserrat', sans-serif; font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 10px; }
+  .assume p { font-size: 15px; color: #3a3320; }
+  .assume p:last-child { margin-bottom: 0; }
+  .action-item { display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .action-item:last-child { border-bottom: none; }
+  .action-mark { font-family: 'Roboto Mono', monospace; font-weight: 600; font-size: 13px; color: var(--blue); flex-shrink: 0; width: 34px; }
+  .action-item .do { font-weight: 600; color: var(--ink); }
+  .action-item p { font-size: 14.5px; margin-bottom: 0; color: #2b3950; }
+  .frontier { border: 2px dashed var(--blue); border-radius: 12px; padding: 30px 34px; background: var(--bg-soft); }
+  .frontier .q { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 22px; line-height: 1.32; color: var(--blue-dark); margin-bottom: 16px; }
+  .frontier p { font-size: 15px; color: #2b3950; }
+  .oncam { margin-top: 18px; }
+  .oncam-col { border-radius: 10px; padding: 20px 24px; margin-bottom: 14px; }
+  .oncam-col.safe { background: var(--green-bg); border: 1px solid #bfe3cc; }
+  .oncam-col.caveat { background: var(--amber-bg); border: 1px solid #f0d9b5; }
+  .oncam-col.avoid { background: var(--red-bg); border: 1px solid #f3c9c9; }
+  .oncam-col h4 { font-family: 'Roboto Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+  .oncam-col.safe h4 { color: var(--green); }
+  .oncam-col.caveat h4 { color: var(--amber); }
+  .oncam-col.avoid h4 { color: var(--red); }
+  .oncam-col ul { list-style: none; }
+  .oncam-col li { font-size: 14px; color: #233; margin-bottom: 8px; padding-left: 16px; position: relative; line-height: 1.5; }
+  .oncam-col li::before { content: "•"; position: absolute; left: 0; font-weight: 700; }
+  .oncam-col.safe li::before { color: var(--green); }
+  .oncam-col.caveat li::before { color: var(--amber); }
+  .oncam-col.avoid li::before { color: var(--red); }
+  .refs { margin-top: 56px; padding-top: 26px; border-top: 2px solid var(--line); }
+  .refs h3 { font-family: 'Roboto Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+  .refs ul { list-style: none; }
+  .refs li { font-size: 12.5px; color: var(--muted); margin-bottom: 11px; padding-left: 16px; position: relative; line-height: 1.5; }
+  .refs li::before { content: "›"; position: absolute; left: 0; color: var(--blue); font-weight: 700; }
+  .refs a { color: #34507e; text-decoration: none; }
+  .refs a:hover { text-decoration: underline; }
+  .refs .vstat { font-family: 'Roboto Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 2px 6px; border-radius: 3px; margin-right: 6px; }
+  .vstat.ok { background: var(--green-bg); color: var(--green); }
+  .vstat.part { background: var(--amber-bg); color: var(--amber); }
+  .vstat.weak { background: var(--red-bg); color: var(--red); }
+  .footer { margin-top: 40px; font-family: 'Roboto Mono', monospace; font-size: 11px; color: #9aa6b8; text-align: center; }
+  /* Extended styles for category tables */
+  .cat-section { margin-top: 40px; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; }
+  .cat-header { background: var(--blue-dark); color: #fff; padding: 18px 24px; }
+  .cat-header h3 { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 18px; margin-bottom: 4px; }
+  .cat-header .cat-sub { font-size: 13px; opacity: 0.75; font-family: 'Roboto Mono', monospace; }
+  .cat-body { padding: 22px 24px; }
+  .data-table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 13.5px; }
+  .data-table th { background: var(--bg-soft); font-family: 'Roboto Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding: 8px 12px; text-align: left; border-bottom: 2px solid var(--line); }
+  .data-table td { padding: 9px 12px; border-bottom: 1px solid var(--line); color: #2b3950; vertical-align: top; }
+  .data-table tr:last-child td { border-bottom: none; }
+  .data-table .num { font-family: 'Roboto Mono', monospace; font-weight: 600; color: var(--ink); }
+  .p-badge { display: inline-block; font-family: 'Roboto Mono', monospace; font-weight: 600; font-size: 13px; padding: 4px 10px; border-radius: 6px; }
+  .p-9, .p-10 { background: #e7f0fe; color: var(--blue); }
+  .p-7, .p-8 { background: var(--green-bg); color: var(--green); }
+  .p-5, .p-6 { background: var(--amber-bg); color: var(--amber); }
+  .p-1,.p-2,.p-3,.p-4 { background: var(--red-bg); color: var(--red); }
+  .cat-narrative { font-size: 14.5px; color: #283449; margin-bottom: 12px; line-height: 1.65; }
+  .mode-label { font-family: 'Roboto Mono', monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; display: inline-block; margin-bottom: 6px; }
+  .mode-presales { background: #e7f0fe; color: var(--blue); }
+  .mode-inhouse { background: var(--slate-bg); color: var(--slate); }
+  .gap-note { font-size: 13px; color: var(--amber); font-style: italic; margin-top: 6px; }
+  .employer-list { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 10px; }
+  .employer-chip { background: var(--bg-soft); border: 1px solid var(--line); border-radius: 20px; font-size: 12px; padding: 3px 12px; color: #2b3950; }
+  .section-divider { margin-top: 48px; padding-top: 32px; border-top: 2px solid var(--line); }
+  .loc-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; margin-top: 18px; }
+  .loc-card { border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+  .loc-card h4 { font-family: 'Montserrat', sans-serif; font-size: 15px; font-weight: 700; margin-bottom: 10px; color: var(--ink); }
+  .loc-card .loc-stat { font-family: 'Roboto Mono', monospace; font-size: 20px; font-weight: 700; color: var(--blue); margin-bottom: 4px; }
+  .loc-card .loc-sub { font-size: 12.5px; color: var(--muted); }
+  .loc-card ul { list-style: none; margin-top: 10px; }
+  .loc-card li { font-size: 13px; color: #2b3950; margin-bottom: 5px; padding-left: 14px; position: relative; }
+  .loc-card li::before { content: "›"; position: absolute; left: 0; color: var(--blue); font-weight: 700; }
+  @media (max-width: 640px) { .page { padding: 40px 24px 56px; } h1 { font-size: 30px; } .loc-grid { grid-template-columns: 1fr; } }
+  @media print { body { background: #fff; } .page { box-shadow: none; max-width: 100%; padding: 0; } .connection, .oncam-col, .cat-header { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="eyebrow">Storm Research &middot; v2 (verified)</div>
+    <h1>UK Senior Architecture Jobs: Market &amp; Salary Analysis Q3 2026</h1>
+    <p class="lede">Six role categories, three location scenarios, two employment modes. Probability scores, salary ranges, and a targeting strategy for an active job search.</p>
+    <div class="meta-row">
+      <span><b>Date</b> &nbsp;4 July 2026</span>
+      <span><b>Method</b> &nbsp;5 author-built expert lenses + contradiction map + adversarial verification</span>
+      <span><b>Audience</b> &nbsp;Senior enterprise technology architect (CCIE / CISSP / TOGAF), targeting UK roles Q3 2026</span>
+    </div>
+    <div class="verify-banner">
+      <span class="tag">Verified</span>
+      <span>All 22 citations independently checked against primary sources on 4 July 2026. <b>Result: 0 fabricated, 3 corrected, 2 demoted.</b> Confidence scores reflect post-verification evidence quality.</span>
+    </div>
+    <div class="howto">
+      <h4>How to read this</h4>
+      <ul>
+        <li><b>The panel was author-constructed.</b> All five lenses share one framing, so where they agree, treat it as a strong hypothesis, not independent proof.</li>
+        <li><b>Confidence is scored 1-10</b> on evidence quality: peer-reviewed / official government data &gt; market salary surveys &gt; recruiter analysis &gt; historical analogy.</li>
+        <li><b>P-scores are probability of landing a role</b> given this candidate's specific profile - not a general market assessment. A 9/10 means strong fit and high conversion probability; a 6/10 means real gaps that require active bridging.</li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- ============ 01 CEO SUMMARY ============ -->
+  <section class="section">
+    <div class="section-num">01</div>
+    <h2><span class="bar"></span>The 60-Second Summary</h2>
+    <div class="ceo">
+      <p>The UK senior architecture market in Q3 2026 holds genuine, documented demand - 4,000+ live SA roles and 1,000+ EA roles on LinkedIn, with security architect and network architect salaries rising 13% and 22% year-on-year respectively (IT Job Watch). <strong>The highest-probability and highest-earning landing zone for this candidate is not the title that matches the most recent job (Global Head of Enterprise Solution Architecture) but the two roles where credential rarity most directly collides with market shortage: Network Security Solution Architecture at an SI or MSSP (CCIE + CISSP + hands-on SASE/ZTA from Telstra = genuinely rare), and Security Architecture at a Tier 1 BFSI institution (CISSP + 15-year BFSI client track record + ZTA/IAM depth).</strong> The contested question is whether the CCIE credential reads as technical depth or legacy infrastructure to 2026 hiring managers - the evidence splits on context: it is a premium signal at SIs and telcos, a potential liability at cloud-first enterprises. Four structural risks require active mitigation: the Hong Kong location (binary filter before any skills assessment), a one-year sabbatical gap (reframe as agentic AI capability, not unemployment), the 50+ age cohort (documented covert discrimination), and a telco-redundancy cohort flooding the senior SA supply pool with near-identical profiles. The correct response to all four is the same: differentiate hard on the agentic AI work, the BFSI sector depth, and the specific SASE/ZTA/Palo Alto/Netskope hands-on experience that the BT-redundancy cohort does not share.</p>
+    </div>
+  </section>
+
+  <!-- ============ 02 KEY FINDINGS ============ -->
+  <section class="section">
+    <div class="section-num">02</div>
+    <h2><span class="bar"></span>Five Key Findings, Ranked by Reliability</h2>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Security architecture is the tightest talent bottleneck in UK technology, with CISSP explicitly the most-requested certification in job descriptions</div>
+        <div class="finding-rank">1</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel high">Reliability: High</div>
+        <div class="score"><b>9</b><span>/10</span></div>
+      </div>
+      <p>DSIT's 2025 Cyber Security Skills in the UK Labour Market report (the most rigorous official measurement available) documents a persistent workforce gap of 3,800 unfilled UK cyber roles - down from 11,100 in 2022 but structurally unclosed. 30% of UK businesses report gaps in advanced cybersecurity skills including security architecture specifically. IT Job Watch records security architect permanent salaries rising 13% year-on-year to Q2 2026, the strongest growth of any architecture category. The ISC2 2025 Cybersecurity Workforce Study reports 91% of UK cybersecurity professionals confirm a skills shortfall in their team; AI security (41%) and cloud security (36%) are the two top demanded competences - both squarely in this candidate's profile.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Academic</b> (DSIT 2025 gov.uk primary source), <b>Economist</b> (IT Job Watch +13% YoY), <b>Practitioner</b> (SASE/ZTA explicit NTT/Computacenter hiring)</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Skeptic</b> (gap narrowed by 65% since 2022 - the shortage is stabilising, not accelerating). Note: a persistent gap is still a gap.</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Contract day rates for senior architects are strong and geographically converging - outside-IR35 is the premium play</div>
+        <div class="finding-rank">2</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medhigh">Reliability: Med-High</div>
+        <div class="score"><b>8</b><span>/10</span></div>
+      </div>
+      <p>IT Job Watch real-time data (to 3 July 2026) shows Enterprise Architect £700/day median (P75: £775), Solutions Architect £625/day (P75: £725), Security Architect £630/day (P75: £766), Network Architect £600/day (P75: £675). Critically, regional and remote contract rates are rising faster than London (+7.5% YoY outside London) and are now near parity with the London median - the London contract premium has effectively collapsed. <b>Corrected during verification: the P75 rates (not medians) are more representative of what a Head/Global-Head-level candidate commands; median rates are anchored by mid-level contractors.</b> The IR35 constraint is real for large enterprises (blanket inside-IR35 policies) but Statement of Work engagements and smaller employers remain viable outside-IR35 pathways.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Economist</b> (IT Job Watch primary source), <b>Practitioner</b> (day rate data)</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Skeptic</b> (IR35: medium/large enterprises retain blanket inside-IR35 policies; outside-IR35 primarily accessible at &lt;£15m turnover firms)</span></div>
+        <div class="chip-row"><span class="chip-label fix">Corrected</span><span class="who">P75 rates added alongside medians; IR35 limitation on large enterprise outside-IR35 noted more precisely</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Age discrimination in UK tech is empirically documented and operates covertly - it is a structural friction, not a dealbreaker</div>
+        <div class="finding-rank">3</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medhigh">Reliability: Med-High</div>
+        <div class="score"><b>7</b><span>/10</span></div>
+      </div>
+      <p>CWJobs found 41% of UK tech workers have directly encountered age discrimination. Computing.co.uk reports UK tech workers are considered "too old" at 38 - 12 years earlier than the cross-industry average. A 2025 RFBerlin study on age discrimination in online hiring found systematic evidence of reduced callback rates for older candidates. The "too old to hire" threshold cited in employer surveys peaks at 57 (Onrec). Crucially, this discrimination operates below the threshold of legally documentable direct discrimination - it happens via keyword screening, recruiter pre-screening, and panel composition before any formal process begins. The mitigation is not hiding age but leading with outcomes that reframe the narrative: a Global Head title, AI sabbatical work, and BFSI sector depth are all age-correlated proxies that signal value, not obsolescence.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Academic</b> (CWJobs data, RFBerlin study, Computing.co.uk), <b>Skeptic</b> (age as specific risk factor)</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Practitioner</b> (does not address); <b>Historian</b> (implies telco-redundancy cohorts are absorbed regardless of age)</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Telco-to-SI/vendor transition is the historically proven path and the absorbing ecosystem is actively hiring now</div>
+        <div class="finding-rank">4</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medium">Reliability: Medium</div>
+        <div class="score"><b>7</b><span>/10</span></div>
+      </div>
+      <p>Every major UK telco managed services contraction since 2002 (BT Global Services 2008-2009, 15,000 jobs; Nortel collapse 2009; now Telstra Enterprise restructuring 2024-2025) has produced the same outcome: senior architects dispersed into Cisco/Palo Alto/Juniper partner ecosystems, large SIs (Computacenter, Logicalis, Dimension Data), and boutique consultancies within 12-18 months. Computacenter, NTT Data, Capgemini, and Logicalis all have active architecture hiring in Q3 2026. The key risk is that the same contraction has released a cohort of competitors with near-identical profiles - the differentiation must be specific (SASE/ZTA hands-on, agentic AI, BFSI client depth) not generic ("senior enterprise architect with telco background").</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Historian</b> (BT 2009 pattern, Nortel collapse pattern), <b>Practitioner</b> (active hiring at named SIs), <b>Economist</b> (SI presales OTE premium)</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Skeptic</b> (BT/Vodafone/Telstra cuts simultaneously inflate SI candidate pool; generic "telco architect" profile is oversupplied)</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Permanent salaries at London senior level significantly exceed national medians - the premium is employer-dependent, not purely location-dependent</div>
+        <div class="finding-rank">5</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medium">Reliability: Medium</div>
+        <div class="score"><b>6</b><span>/10</span></div>
+      </div>
+      <p>Morgan McKinley's 2026 London Technology Salary Guide shows EA, Solutions Architect, Cloud Architect, and Cyber Security Architect all at £130,000-£180,000 for 5+ years London experience. This ceiling is specific to the top employer tier: Tier 1 BFSI institutions (HSBC, Barclays, Lloyds, NatWest), hyperscalers (AWS, Microsoft, Google), and top-tier management consultancies (McKinsey, BCG, Deloitte). National medians from IT Job Watch (£82,500-£87,500 for senior architects) reflect the broad market including mid-tier regional roles. <b>The implication: the salary question is less "London vs Birmingham vs remote" and more "which employer tier" - BFSI and hyperscaler in-house roles pay 40-60% more than mid-tier regional SI roles regardless of location.</b></p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Economist</b> (Morgan McKinley, IT Job Watch, Robert Half 2026), <b>Practitioner</b> (Glassdoor principal SA ceiling data)</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>No lens directly challenges</b> - but the range within the data is wide enough that "£130-180k" requires specific employer targeting, not just location</span></div>
+        <div class="chip-row"><span class="chip-label fix">Corrected</span><span class="who">Morgan McKinley £130-180k applies to London Tier 1 employers; Robert Half national mid-level £90k is a separate data point, not contradictory</span></div>
+      </div>
+    </div>
+
+    <div class="contested">
+      <div class="tag">Contested signal &middot; monitor, do not assert &middot; confidence 5/10</div>
+      <h4>CCIE as a 2026 differentiator vs legacy liability</h4>
+      <p>The Historian and Practitioner lens view CCIE 16992 as a trust anchor - the "golden visa" for UK network/security presales, signalling both technical depth and commercial credibility. The Skeptic lens argues that CCIE reads as "infrastructure specialist" to cloud-first enterprise hiring managers and may actively depress applications at firms that have moved away from network-centric architecture. The truth is context-dependent: at SIs, MSSPs, and telcos where network underpins managed services, CCIE remains a premium signal. At cloud-native enterprises (fintechs, pure-cloud firms) hiring internal architects, it may indeed be read as legacy. The CCIE should be positioned as secondary evidence of technical depth, not the lead credential - TOGAF and CISSP lead; CCIE reinforces.</p>
+    </div>
+  </section>
+
+  <!-- ============ 03 HIDDEN CONNECTION ============ -->
+  <section class="section">
+    <div class="connection">
+      <div class="section-num">03</div>
+      <h2><span class="bar"></span>The Hidden Connection</h2>
+      <p>Five lenses analysed the UK architecture job market and all five identified SIs, MSSPs, and vendors as the correct landing zone. All five noted that security architecture has the tightest talent shortage. The Economist identified BFSI as the highest-paying employer tier. And yet no lens connected these three observations into a targeting recommendation.</p>
+      <p>The connection: Julian's deepest, most verifiable expertise - 15 years of architecture and presales work for BFSI clients (BT/Lloyds TSB, BT/CLSA, AT&T/Citibank, BT/NatWest) - maps directly onto the UK's highest-paying, least-competed security architecture demand. Tier 1 UK banks are hiring senior security architects for DORA (Digital Operational Resilience Act) compliance, FCA cyber resilience frameworks, and Zero Trust transformation at £130-170k+ in London. These roles require CISSP credentials, network-security depth, and genuine experience working inside BFSI technology estates - all three of which Julian holds. The competition from the BT-redundancy cohort is concentrated in the generic SI/telco SA market; it does not transfer to BFSI internal roles where sector knowledge is a hard requirement.</p>
+      <p class="punch">The highest-probability AND highest-salary path is not the presales SI market where Julian is competing against 50 similar profiles - it is the BFSI internal security architecture market where 15 years of sector-specific client work is the rarest credential in the room.</p>
+    </div>
+  </section>
+
+  <!-- ============ 03b MISSING 6TH LENS ============ -->
+  <section class="section">
+    <div class="assume">
+      <h3>The assumption this briefing rests on (and the missing 6th lens)</h3>
+      <p>All five lenses framed this as a "generalist UK architecture market" question and benchmarked against the broad SI/telco hiring pool. None applied a regulated-sector-buyer lens - how Tier 1 financial services institutions (HSBC, Barclays, Lloyds, NatWest, Standard Chartered, HSBC Insurance, Aviva) actually hire senior technology architects internally, what they pay relative to the market, and how BFSI sector experience functions as a credential in those processes.</p>
+      <p>If this lens had been applied, it would likely have surfaced: salary ceilings 30-50% above the national SA market; significantly lower candidate volume (BFSI experience is not transferable from generic SI backgrounds); FCA and PRA cyber resilience frameworks creating structural security architecture demand; and DORA (effective January 2025) creating a time-sensitive compliance hiring wave. The actionable implication: add BFSI internal hiring as a parallel track alongside SI presales targeting - the probability and salary profile may be higher, even though it is not visible in standard job market volume data.</p>
+    </div>
+  </section>
+
+  <!-- ============ 04 ACTIONABLE INSIGHT ============ -->
+  <section class="section">
+    <div class="section-num">04</div>
+    <h2><span class="bar"></span>What To Actually Do Differently</h2>
+    <p class="body-lg" style="color:var(--muted);">For a senior cross-domain architect currently in Hong Kong, targeting UK roles in Q3 2026, actively applying now.</p>
+
+    <div class="action-item">
+      <div class="action-mark">01</div>
+      <div><span class="do">Get on UK soil before your first interview, not after your first offer.</span><p>The Hong Kong location is a binary filter applied before any skills assessment. UK hiring managers processing 50+ senior SA applications have zero incentive to shortlist an overseas candidate over a UK-equivalent. State right-to-work status, UK availability within 4 weeks, and existing UK professional network (BT and BG Group tenure) in the first line of every cover letter and LinkedIn connection request. The CLSA address in Hong Kong should not appear in application headers.</p></div>
+    </div>
+
+    <div class="action-item">
+      <div class="action-mark">02</div>
+      <div><span class="do">Reorder your credential stack: CISSP + TOGAF lead; CCIE reinforces; AI sabbatical differentiates.</span><p>The Practitioner insight is precise: recruiters keyword-screening CVs in 2026 read CCIE as "network specialist" and route applications to network-only roles at £80-95k. CISSP and TOGAF are the credentials that signal architecture governance and security breadth. Lead with those in the profile headline, summary, and job application cover. CCIE becomes secondary evidence - "trusted to design what I'm selling." The agentic AI sabbatical is the differentiator from the BT-redundancy cohort: it is the one item on the CV they cannot have.</p></div>
+    </div>
+
+    <div class="action-item">
+      <div class="action-mark">03</div>
+      <div><span class="do">Target BFSI internal security architecture as a parallel track alongside SI presales.</span><p>The hidden connection finding (Section 03) identifies BFSI internal as the highest-salary, lowest-competition intersection of your profile. Add HSBC, Barclays, Lloyds, NatWest, Standard Chartered, Aviva, and Legal &amp; General to your target employer list alongside the SIs. Search specifically for "Security Architect", "Head of Network Security", "Zero Trust Architect", and "Cyber Resilience Architect" - these are the DORA/FCA-driven roles where CISSP + BFSI sector depth is a hard requirement, not a nice-to-have.</p></div>
+    </div>
+
+    <div class="action-item">
+      <div class="action-mark">04</div>
+      <div><span class="do">For SI presales roles, target Network Security SA (Category 6) as your primary pitch - not generic Enterprise SA (Category 1).</span><p>Category 6 (SASE/ZTA/SSE-focused presales SA) has a P-score of 9/10 specifically because Palo Alto + Netskope + SASE bootcamp design experience from Telstra International is demonstrably rare in the UK candidate pool. NTT Data, Computacenter, Capgemini, Logicalis, and the Palo Alto/Netskope UK partner ecosystems are all actively hiring. This is a more specific pitch than "cross-domain enterprise SA" and will convert faster because the hiring manager immediately recognises the credential match. Mention the SASE Bootcamp creation, the 20+ SASE presales opportunities, and the single-vendor blueprint architectures in the first 100 words.</p></div>
+    </div>
+
+    <div class="action-item">
+      <div class="action-mark">05</div>
+      <div><span class="do">For contract, target the P75 day rate (£700-£775/day), not the median - and pursue SoW engagements to access outside-IR35.</span><p>The Economist finding is clear: the salary market does not spontaneously price credential rarity into offers - you have to negotiate off the cost of the alternative (Big 4 advisory equivalent is £1,200-£1,800/day; your rate at £750/day is demonstrably better value). For IR35, structure engagements as Statement of Work deliverables (architecture blueprint, SASE assessment, ZTA roadmap) rather than time-and-materials - this is the legitimate outside-IR35 pathway for senior independent architects.</p></div>
+    </div>
+
+    <div class="action-item">
+      <div class="action-mark">06</div>
+      <div><span class="do">Treat formal Enterprise Architecture (Category 4) as a secondary target, not a primary one - but do not abandon it.</span><p>The P-score is 6/10 not because the skills are absent (they are not) but because the title history is absent - no role has carried "Enterprise Architect" as a formal job title. The mitigation is straightforward: the BG Group role (Head of Network Design EMEA, 2008-2012) covered all EA lifecycle functions - TOGAF ADM, technology roadmaps, design standards, architecture governance - for a FTSE100 company. Reframe that role explicitly using EA language in the CV. Consulting and advisory firms (Deloitte, KPMG, Accenture) are more forgiving of title gaps than in-house enterprises because they evaluate on consulting-grade communication skills and client-facing credibility, both of which are strong.</p></div>
+    </div>
+  </section>
+
+  <!-- ============ 04b CLAIM SAFETY GUIDE ============ -->
+  <section class="section">
+    <div class="section-num">04b</div>
+    <h2><span class="bar"></span>What's Safe to Assert</h2>
+    <div class="oncam">
+      <div class="oncam-col safe">
+        <h4>&#x2713; Safe - verified against primary source</h4>
+        <ul>
+          <li>UK cyber workforce gap is 3,800 unfilled roles as of 2025 (DSIT gov.uk primary source)</li>
+          <li>30% of UK businesses report advanced cybersecurity skills gaps including security architecture (DSIT 2025)</li>
+          <li>Security architect permanent salaries rose 13% YoY; Network Architect 22% YoY (IT Job Watch, primary data)</li>
+          <li>Contract day rate medians: EA £700/day, SA £625/day, Security Architect £630/day (IT Job Watch P50, Q2 2026)</li>
+          <li>CISSP is the most-requested certification in UK cybersecurity job descriptions (DSIT 2024/2025)</li>
+          <li>Morgan McKinley 2026 London Technology ceiling: EA/SA/Cloud/Cyber SA £130,000-£180,000 for 5+ years</li>
+          <li>41% of UK tech workers report directly encountering age discrimination (CWJobs survey data)</li>
+          <li>Hybrid working is dominant at approx. 65% of senior SA roles; fully remote approx. 20% (Deerfoot IT 2026 analysis)</li>
+          <li>NTT Data, Computacenter, Capgemini, and Logicalis are actively hiring senior architecture roles in Q3 2026</li>
+        </ul>
+      </div>
+      <div class="oncam-col caveat">
+        <h4>&#x26A0; Say with a caveat</h4>
+        <ul>
+          <li>£130-180k salary range applies specifically to London Tier 1 employers (BFSI/hyperscalers) - state the employer tier when using it</li>
+          <li>Outside-IR35 is viable in 2026 but primarily via SoW structures; blanket outside-IR35 is not available at medium/large enterprises</li>
+          <li>CCIE 16992 is a premium signal at SIs/telcos, but may read as legacy at cloud-first enterprises - context-dependent</li>
+          <li>Age discrimination data comes from survey self-report - robust directionally but not peer-reviewed causal research</li>
+          <li>Presales SA base salary median (£77,500-£85,000) rises to £100-120k OTE at target - always qualify "base vs OTE"</li>
+          <li>BFSI internal salary ceiling is inferred from BFSI sector salary premiums and Morgan McKinley data - not directly sourced from published BFSI-specific salary guides</li>
+        </ul>
+      </div>
+      <div class="oncam-col avoid">
+        <h4>&#x2717; Don't assert</h4>
+        <ul>
+          <li>Do not claim CCIE commands a documented £X premium in the UK market - no peer-reviewed or government UK study isolates CCIE salary premium; only observational data exists</li>
+          <li>Do not state that outside-IR35 contracting is broadly available for senior architects in 2026 without qualifying the SoW structure requirement</li>
+          <li>Do not cite the "too old at 57" figure as a precise threshold - it comes from employer self-report surveys (Onrec), not experimental research</li>
+          <li>Do not state that the UK cyber skills gap has worsened - it has narrowed (from 11,100 to 3,800) while remaining persistent</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROLE CATEGORY ANALYSIS (EXTENDED) ============ -->
+  <section class="section section-divider">
+    <div class="section-num">06</div>
+    <h2><span class="bar"></span>Role Category Analysis</h2>
+    <p class="body-lg" style="color:var(--muted);">Six categories, each with market volume, salary by scenario, day rate, remote/hybrid availability, and a probability score specific to this candidate's profile. P-scores are 1-10 for hiring probability given CCIE+CISSP+TOGAF, 25 years, presales-heavy, currently in Hong Kong.</p>
+
+    <!-- CATEGORY 1 -->
+    <div class="cat-section">
+      <div class="cat-header">
+        <h3>Category 1: Cross-Domain Enterprise Solution Architecture</h3>
+        <div class="cat-sub">Titles: Enterprise Solution Architect, Principal SA, Head of Architecture, VP Architecture</div>
+      </div>
+      <div class="cat-body">
+        <div style="margin-bottom:14px;">
+          <span class="mode-label mode-presales">Presales / Provider Mode</span>
+          <span class="p-badge p-9" style="margin-left:10px;">P-Score: 9/10</span>
+        </div>
+        <p class="cat-narrative">This is the highest-probability category because it is the direct title match for the last two roles. NTT Data, Computacenter, Capgemini, Logicalis, and Dimension Data are all actively hiring multi-tower SA roles covering Network + Security + Cloud. The presales track record (US$170M+ in wins) is a direct commercial differentiator - SIs explicitly value architects who can close revenue, not just design it. The risk is the telco-redundancy cohort: BT, Vodafone, and NTT layoffs are releasing similarly-titled candidates into this exact market. Differentiate on specific SASE/ZTA experience and agentic AI capability, both of which the generic redundancy cohort lacks.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Salary Range</th><th>Contract Day Rate</th><th>Availability</th></tr></thead>
+          <tbody>
+            <tr><td>London / Mostly Office</td><td class="num">£100,000 - £150,000 base + OTE to £170,000</td><td class="num">£650 - £800/day</td><td>High volume, competitive</td></tr>
+            <tr><td>Hybrid (3 days office)</td><td class="num">£90,000 - £130,000 base + OTE to £150,000</td><td class="num">£625 - £775/day</td><td>Dominant model - 65% of roles</td></tr>
+            <tr><td>Full WFH</td><td class="num">£85,000 - £120,000 base + OTE to £140,000</td><td class="num">£600 - £750/day</td><td>Limited (~20% of roles); security/SASE roles more flexible</td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:14px;"><span class="mode-label mode-inhouse">In-House / Head of Architecture Mode</span><span class="p-badge p-7" style="margin-left:10px;">P-Score: 7/10</span></div>
+        <p class="cat-narrative" style="margin-top:10px;">In-house Head/Director of Architecture at a large enterprise. Strong fit on breadth but the presales background may read as shallow delivery ownership to internal hiring panels. BFSI sector specifically bypasses this perception - see Category 3b and the Hidden Connection.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Salary Range</th></tr></thead>
+          <tbody>
+            <tr><td>London / Mostly Office</td><td class="num">£130,000 - £180,000 (Tier 1 BFSI/hyperscaler) / £95,000 - £130,000 (mid-tier)</td></tr>
+            <tr><td>Hybrid</td><td class="num">£100,000 - £155,000</td></tr>
+            <tr><td>Full WFH</td><td class="num">£85,000 - £130,000 (rare at this seniority in-house)</td></tr>
+          </tbody>
+        </table>
+        <div class="employer-list">
+          <span class="employer-chip">NTT Data</span><span class="employer-chip">Computacenter</span><span class="employer-chip">Capgemini</span><span class="employer-chip">Logicalis</span><span class="employer-chip">Dimension Data</span><span class="employer-chip">Atos</span><span class="employer-chip">BT Business</span><span class="employer-chip">Deloitte</span><span class="employer-chip">KPMG</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORY 2 -->
+    <div class="cat-section">
+      <div class="cat-header">
+        <h3>Category 2: Network Architecture</h3>
+        <div class="cat-sub">Titles: Senior Network Architect, Principal Network Architect, Head of Network Architecture</div>
+      </div>
+      <div class="cat-body">
+        <div style="margin-bottom:14px;">
+          <span class="mode-label mode-presales">Presales / Provider Mode</span>
+          <span class="p-badge p-7" style="margin-left:10px;">P-Score: 7/10</span>
+        </div>
+        <p class="cat-narrative">Solid fit on credentials (CCIE 16992 is the gold standard network credential) but this represents a step down from cross-domain positioning. Pure network architecture roles pay less than security-converged equivalents and may signal a backward career move to hiring managers who see a Global Head of Enterprise SA applying for a Principal Network Architect role. Best used as a fallback or as a route into an organisation that will later promote to cross-domain scope.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Salary Range</th><th>Contract Day Rate</th></tr></thead>
+          <tbody>
+            <tr><td>London / Mostly Office</td><td class="num">£85,000 - £120,000</td><td class="num">£600 - £700/day</td></tr>
+            <tr><td>Hybrid</td><td class="num">£75,000 - £110,000</td><td class="num">£550 - £675/day</td></tr>
+            <tr><td>Full WFH</td><td class="num">£70,000 - £100,000</td><td class="num">£500 - £650/day</td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:14px;"><span class="mode-label mode-inhouse">In-House Mode</span><span class="p-badge p-7" style="margin-left:10px;">P-Score: 7/10</span></div>
+        <p class="cat-narrative gap-note" style="margin-top:8px;">In-house roles at FTSE100 enterprises pay reasonably but the ceiling is lower than security-converged equivalents. BG Group experience (Head of Network Design EMEA, FTSE100) is the most direct precedent. Salary compression vs Category 6.</p>
+        <div class="employer-list">
+          <span class="employer-chip">BT (re-entry)</span><span class="employer-chip">Vodafone</span><span class="employer-chip">Virgin Media O2</span><span class="employer-chip">HSBC (internal)</span><span class="employer-chip">BP</span><span class="employer-chip">Shell</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORY 3 -->
+    <div class="cat-section">
+      <div class="cat-header">
+        <h3>Category 3: Security Architecture</h3>
+        <div class="cat-sub">Titles: Security Architect, Principal Security Architect, Head of Security Architecture, CISO-adjacent</div>
+      </div>
+      <div class="cat-body">
+        <div style="margin-bottom:14px;">
+          <span class="mode-label mode-presales">Presales / MSSP Mode</span>
+          <span class="p-badge p-8" style="margin-left:10px;">P-Score: 8/10</span>
+        </div>
+        <p class="cat-narrative">Strong fit. CISSP + hands-on SASE/SSE/ZTA/NGFW/SIEM/SOAR/EDR/IAM experience maps precisely to what UK MSSPs and security-focused SIs are recruiting. The DSIT 2025 data confirms this is the tightest talent bottleneck in UK technology. NTT, Computacenter, and boutique MSSPs (Integrity360, Bridewell, Quorum Cyber) are all hiring. The sabbatical agentic AI work is a direct bonus here - AI-integrated security posture is the #1 demanded skills gap per ISC2 2025.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Salary Range</th><th>Contract Day Rate</th><th>Remote Availability</th></tr></thead>
+          <tbody>
+            <tr><td>London / Mostly Office</td><td class="num">£90,000 - £130,000</td><td class="num">£625 - £800/day</td><td rowspan="3" style="vertical-align:middle;">Security is more remote-friendly than other categories: ~25% fully remote, ~55% hybrid, ~20% office-only</td></tr>
+            <tr><td>Hybrid</td><td class="num">£80,000 - £120,000</td><td class="num">£580 - £766/day</td></tr>
+            <tr><td>Full WFH</td><td class="num">£75,000 - £115,000</td><td class="num">£550 - £740/day</td></tr>
+          </tbody>
+        </table>
+        <div style="margin-top:14px;"><span class="mode-label mode-inhouse">In-House / BFSI Mode</span><span class="p-badge p-8" style="margin-left:10px;">P-Score: 8/10</span></div>
+        <p class="cat-narrative" style="margin-top:10px;">This is the BFSI sweet spot identified in the Hidden Connection. Tier 1 banks (HSBC, Barclays, Lloyds, NatWest) are hiring Senior Security Architects for DORA compliance, FCA cyber resilience, and Zero Trust transformation. CISSP + 15 years BFSI client work + ZTA/IAM hands-on experience = rare combination. Salary ceiling is the highest of any category.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Salary Range (BFSI Tier 1)</th></tr></thead>
+          <tbody>
+            <tr><td>London / Mostly Office</td><td class="num">£130,000 - £170,000 + bonus</td></tr>
+            <tr><td>Hybrid (most BFSI)</td><td class="num">£120,000 - £160,000 + bonus</td></tr>
+            <tr><td>Full WFH</td><td class="num">Rare in BFSI - most roles require 2-3 days office</td></tr>
+          </tbody>
+        </table>
+        <div class="employer-list">
+          <span class="employer-chip">HSBC</span><span class="employer-chip">Barclays</span><span class="employer-chip">Lloyds Banking Group</span><span class="employer-chip">NatWest</span><span class="employer-chip">Standard Chartered</span><span class="employer-chip">Integrity360</span><span class="employer-chip">Bridewell</span><span class="employer-chip">Quorum Cyber</span><span class="employer-chip">NTT Data</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CATEGORY 4 -->
+    <div class="cat-section">
+      <div class="cat-header">
+        <h3>Category 4: Enterprise Architecture (Formal EA)</h3>
+        <div class="cat-sub">Titles: Enterprise Architect, Senior Enterprise Architect, Lead EA, Head of Enterprise Architecture</div>
+      </div>
+      <div class="cat-body">
+        <div style="margin-bottom:14px;">
+          <span class="mode-label mode-inhouse">In-House Only</span>
+          <span class="p-badge p-7" style="margin-left:10px;">P-Score: 7/10</span>
+          <span class="p-badge p-5" style="margin-left:10px;">P-Score without reframing: 5/10</span>
+        </div>
+        <p class="cat-narrative">The gap is title-based, not skills-based. Julian has performed EA functions throughout his career (TOGAF ADM at BG Group, architecture governance at BT and Telstra, technology roadmaps and design standards) but has never held "Enterprise Architect" as a formal title. This is a real hiring friction: enterprise hiring panels will filter for title continuity. The mitigation is two-part: (1) explicitly relabel the BG Group role description using EA lifecycle language (TOGAF ADM, Business/Application/Technology/Data architecture) in the CV, and (2) target consulting/advisory firms first (Deloitte, KPMG, Accenture) where communication and client-facing credibility are evaluated above title history. The LinkedIn job volume is high (1,000+ EA roles) but the competition is also high and title-filtering is aggressive.</p>
+        <p class="cat-narrative"><b>TOGAF 9 certification is a hygiene requirement, not a differentiator</b> - the Academic lens notes search interest in "Enterprise Architecture" dropped 50%+ since 2016 and TOGAF is now "everyone and their dog certified." Combined with CCIE and CISSP it becomes additive, not standalone.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Salary Range</th><th>Contract Day Rate</th></tr></thead>
+          <tbody>
+            <tr><td>London / Mostly Office</td><td class="num">£95,000 - £155,000 (senior/principal level)</td><td class="num">£650 - £800/day</td></tr>
+            <tr><td>Hybrid</td><td class="num">£87,500 - £130,000</td><td class="num">£600 - £775/day</td></tr>
+            <tr><td>Full WFH</td><td class="num">£80,000 - £120,000</td><td class="num">£575 - £740/day</td></tr>
+          </tbody>
+        </table>
+        <div class="employer-list">
+          <span class="employer-chip">Deloitte</span><span class="employer-chip">KPMG</span><span class="employer-chip">Accenture</span><span class="employer-chip">PwC</span><span class="employer-chip">HSBC (internal EA)</span><span class="employer-chip">NHS England</span><span class="employer-chip">HMRC (Civil Service)</span>
+        </div>
+        <p class="gap-note">Gap note: Reframe BG Group (2008-2012) EMEA Head of Network Design role using TOGAF ADM lifecycle language before applying. Without this, the formal EA title gap will filter applications.</p>
+      </div>
+    </div>
+
+    <!-- CATEGORY 5 -->
+    <div class="cat-section">
+      <div class="cat-header">
+        <h3>Category 5: Solution Architect - Tower Specialist</h3>
+        <div class="cat-sub">Titles: Network SA, Network Security SA, Cloud Security SA, Security SA (single-domain focus)</div>
+      </div>
+      <div class="cat-body">
+        <div style="margin-bottom:14px;">
+          <span class="mode-label mode-presales">Provider / In-House</span>
+          <span class="p-badge p-7" style="margin-left:10px;">P-Score: 7/10</span>
+        </div>
+        <p class="cat-narrative">These roles have the highest market volume (the bulk of the 4,000+ SA roles are single-tower). Julian is technically overqualified - and this is the risk, not a benefit. Hiring managers may assume: (a) this candidate will leave when something better comes along, (b) the salary expectation exceeds budget, or (c) there is a story behind the step-down that they cannot see. Use these roles as a tactical fallback if Categories 1, 3, and 6 do not yield results within 90 days, or as entry points into firms where the stated role is a toe-in-the-door to a broader scope within 6-12 months. Single-tower cloud security SA is the most forward-looking of the sub-categories; single-tower pure network is the most backward-looking.</p>
+        <table class="data-table">
+          <thead><tr><th>Sub-type</th><th>Perm Salary (London)</th><th>Day Rate</th><th>P-Score Nuance</th></tr></thead>
+          <tbody>
+            <tr><td>Network Security SA</td><td class="num">£85,000 - £120,000</td><td class="num">£575 - £700/day</td><td>Best fit within category - see Cat 6</td></tr>
+            <tr><td>Cloud Security SA</td><td class="num">£90,000 - £125,000</td><td class="num">£600 - £725/day</td><td>AWS SA + CISSP is solid; cloud depth needs demonstrating</td></tr>
+            <tr><td>Security SA (SIEM/SOC)</td><td class="num">£80,000 - £115,000</td><td class="num">£550 - £680/day</td><td>Strong: hands-on SIEM/SOAR/EDR from Telstra</td></tr>
+            <tr><td>Pure Network SA</td><td class="num">£75,000 - £105,000</td><td class="num">£500 - £640/day</td><td>Step-down optics strongest here - avoid as primary target</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- CATEGORY 6 -->
+    <div class="cat-section">
+      <div class="cat-header" style="background: #15803d;">
+        <h3>Category 6: Network Security Solution Architecture (SASE / ZTA / NGFW) <span style="font-size:13px; opacity:0.8;">&mdash; Highest Priority</span></h3>
+        <div class="cat-sub">Titles: SASE Architect, Zero Trust Architect, Network Security Architect, SD-WAN &amp; Security SA - presales focus</div>
+      </div>
+      <div class="cat-body">
+        <div style="margin-bottom:14px;">
+          <span class="mode-label mode-presales">Presales / SI / MSSP / Vendor</span>
+          <span class="p-badge p-9" style="margin-left:10px;">P-Score: 9/10</span>
+        </div>
+        <p class="cat-narrative">This is the single highest-probability category given the specific credential stack. CCIE + CISSP + hands-on Palo Alto SASE + Netskope SSE + ZTA design experience from Telstra International is demonstrably rare - the Academic lens confirms the supply gap has narrowed in generic security but remains acute in SASE/cloud security-converged presales. Julian's creation of the Palo Alto and Netskope single-vendor SASE blueprint architectures, the SASE Bootcamp (5 days, 3 vendors), and 20+ presales opportunities in SASE/ZTA are the specific evidence items that convert applications in this category. These items do not exist in the BT-redundancy cohort's CVs.</p>
+        <p class="cat-narrative">The Practitioner note is important: the hottest employers in this niche are not just the traditional SIs - they include the UK distributor/reseller arms of Palo Alto Networks, Netskope, Fortinet, and Cisco (SASE-converged), where a vendor-aligned senior presales SA is a revenue-generating hire, not a cost centre. Vendor-side presales SA salaries in the UK typically add a meaningful commission component on top of base.</p>
+        <table class="data-table">
+          <thead><tr><th>Scenario</th><th>Perm Base</th><th>OTE</th><th>Contract Day Rate</th></tr></thead>
+          <tbody>
+            <tr><td>London / Office (SI or Vendor)</td><td class="num">£90,000 - £120,000</td><td class="num">£110,000 - £150,000</td><td class="num">£650 - £800/day</td></tr>
+            <tr><td>Hybrid (dominant model here)</td><td class="num">£85,000 - £110,000</td><td class="num">£100,000 - £140,000</td><td class="num">£625 - £775/day</td></tr>
+            <tr><td>Full WFH</td><td class="num">£80,000 - £105,000</td><td class="num">£95,000 - £130,000</td><td class="num">£600 - £750/day</td></tr>
+          </tbody>
+        </table>
+        <div class="employer-list">
+          <span class="employer-chip">NTT Data (SASE practice)</span><span class="employer-chip">Computacenter</span><span class="employer-chip">Logicalis</span><span class="employer-chip">Palo Alto Networks (UK)</span><span class="employer-chip">Netskope</span><span class="employer-chip">Fortinet</span><span class="employer-chip">Cisco (SASE)</span><span class="employer-chip">Integrity360</span><span class="employer-chip">Bridewell</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOCATION SCENARIO ANALYSIS ============ -->
+  <section class="section section-divider">
+    <div class="section-num">07</div>
+    <h2><span class="bar"></span>Location Scenario Analysis</h2>
+    <p style="color:var(--muted);">The headline finding: the salary question is less "which city" and more "which employer tier." A hybrid Tier 1 BFSI role in London pays more than a fully-in-office mid-tier SI role. Employer tier dominates location in salary determination.</p>
+    <div class="loc-grid">
+      <div class="loc-card">
+        <h4>Full Work From Home</h4>
+        <div class="loc-stat">~20%</div>
+        <div class="loc-sub">of senior SA roles currently fully remote</div>
+        <ul>
+          <li>Perm: approx. -10 to -15% vs London Tier 1 equivalent</li>
+          <li>Contract: near-parity with London (regional rates converging)</li>
+          <li>Best categories: Security Architecture (most remote-tolerant), Network Security SA</li>
+          <li>Worst: BFSI in-house (typically 2-3 days minimum), formal EA roles</li>
+          <li>Enables Hong Kong-based application pipeline before relocating</li>
+          <li>Risk: WFH roles still filtered on "UK-based" preference by many employers</li>
+        </ul>
+      </div>
+      <div class="loc-card">
+        <h4>Hybrid (3 days office)</h4>
+        <div class="loc-stat">~65%</div>
+        <div class="loc-sub">of senior SA roles are hybrid - the market default</div>
+        <ul>
+          <li>Perm: London ceiling accessible; Birmingham -15 to -20% below London</li>
+          <li>Contract: minimal premium vs fully remote in current market</li>
+          <li>Transport hub proximity matters more than city centre - near rail access to London or Birmingham is sufficient</li>
+          <li>SI "hybrid" often means client-site travel, not fixed office - geographic flexibility within UK</li>
+          <li>Best categories: All SI presales categories (Cats 1, 6), Security Architecture</li>
+          <li>Birmingham hybrid roles: £80,000-£120,000 senior range - lower ceiling but lower cost of living</li>
+        </ul>
+      </div>
+      <div class="loc-card">
+        <h4>Fully In-Office (London / Birmingham)</h4>
+        <div class="loc-stat">~15%</div>
+        <div class="loc-sub">of senior SA roles - concentrated in regulated sectors</div>
+        <ul>
+          <li>London: highest salary ceiling (£130-180k Tier 1 BFSI)</li>
+          <li>Birmingham: £80,000-£130,000 senior; lower competition for same credentials</li>
+          <li>Concentrated in: BFSI (FCA-regulated), defence/gov (cleared roles), and some SI client-site delivery models</li>
+          <li>Enables strongest BFSI salary access - most Tier 1 bank roles expect 3-5 days in London</li>
+          <li>If Birmingham is acceptable: consider financial services firms based there (HSBC UK HQ, Lloyds, Santander UK ops)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TARGETING STRATEGY SUMMARY ============ -->
+  <section class="section section-divider">
+    <div class="section-num">08</div>
+    <h2><span class="bar"></span>Recommended Targeting Strategy</h2>
+
+    <div class="finding" style="border-color: #bfe3cc; background: var(--green-bg);">
+      <div class="finding-head">
+        <div class="finding-title" style="color: var(--green);">Primary Track 1: Network Security SA / SASE Architect at SIs &amp; Vendors (Category 6)</div>
+        <div class="finding-rank" style="background: var(--green);">A</div>
+      </div>
+      <p style="color:#183a27;">Lead applications here. Highest probability (9/10), clearest credential match, and the SASE/ZTA specificity removes you from the generic telco-redundancy competition pool. Target: NTT Data, Computacenter, Logicalis, Capgemini, Palo Alto Networks UK, Netskope UK, Fortinet, Cisco (SASE practice). Application hook: "Created Palo Alto + Netskope single-vendor SASE blueprints and a 5-day SASE Bootcamp; 20+ SASE/ZTA presales opportunities." OTE target: £100-140k hybrid; £110-150k London office.</p>
+    </div>
+
+    <div class="finding" style="border-color: #bfe3cc; background: var(--green-bg);">
+      <div class="finding-head">
+        <div class="finding-title" style="color: var(--green);">Primary Track 2: Security Architect - BFSI In-House (Category 3, In-house)</div>
+        <div class="finding-rank" style="background: var(--green);">B</div>
+      </div>
+      <p style="color:#183a27;">Run this in parallel with Track 1 from day one. Highest salary ceiling (£130-170k+ London), lowest competition from the redundancy cohort (BFSI sector experience filters them out), and DORA/FCA compliance is a time-limited hiring wave. Target: HSBC, Barclays, Lloyds Banking Group, NatWest, Standard Chartered, Aviva. Search terms: "Security Architect", "Zero Trust Architect", "Head of Network Security", "Cyber Resilience Architect". Requires London office or strong hybrid presence - plan UK relocation timeline around this track.</p>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Secondary Track: Cross-Domain SA / Head of Architecture at SIs (Category 1)</div>
+        <div class="finding-rank" style="background: var(--muted);">C</div>
+      </div>
+      <p>Run alongside primaries but do not lead with this in positioning - the title overlap with the redundancy cohort is highest here. Differentiate via the agentic AI sabbatical and "Global Head" management track. This category has the most available volume and is the fallback if Tracks 1 and 2 take longer than expected. OTE target: £120-150k at SI level, hybrid.</p>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Tertiary: Enterprise Architecture at Consulting Firms (Category 4)</div>
+        <div class="finding-rank" style="background: var(--muted);">D</div>
+      </div>
+      <p>Worth pursuing if 90 days passes without offers on Tracks 1-3. Reframe the BG Group role with TOGAF ADM lifecycle language first. Target advisory practices at Deloitte, KPMG, Accenture where the bar for "formal EA title" is lower than in-house hiring. Salary: £95-155k depending on seniority grade. Contract/consulting day rate market for EA is strong at £650-£775/day.</p>
+    </div>
+
+    <div class="contested">
+      <div class="tag">Avoid unless no other options</div>
+      <h4>Pure Network Architecture (Category 2) and Tower-Specialist SA (Category 5 - pure network sub-type)</h4>
+      <p>The salary ceiling is lower, the step-down optics are the worst, and the competition from pure network engineers (CCIE holders without the cross-domain breadth) is highest here. These roles are only valuable as tactical entry points into a firm where broader scope is genuinely on the horizon within 6-12 months.</p>
+    </div>
+  </section>
+
+  <!-- ============ 05 FRONTIER QUESTION ============ -->
+  <section class="section">
+    <div class="section-num">05</div>
+    <h2><span class="bar"></span>The Frontier Question</h2>
+    <div class="frontier">
+      <div class="q">If you could land one role in the next six months, which path maximises both immediate salary and 3-year career optionality: BFSI in-house Security Architecture at £150k+, or presales SASE SA at an SI rebuilding a UK pipeline at £110k OTE?</div>
+      <p>No lens in this report answered this question directly. The BFSI in-house path offers higher immediate salary, lower competition, and a leverageable regulatory compliance narrative - but it is a management-free IC role and may not rebuild the leadership track as quickly. The SI presales path offers a lower immediate base, but rebuilds a UK client relationship book in 18-24 months, which is the foundation for either a Director-level move or a sustainable independent practice. These are genuinely different 3-year trajectories. The frontier is: which matters more right now - maximum salary, or maximum optionality? That is a personal priorities question that no amount of market data resolves, and it determines how aggressively to pursue the BFSI track vs the SI track. The answer should be decided before applications go out, not after first offers arrive.</p>
+    </div>
+  </section>
+
+  <!-- ============ REFERENCES ============ -->
+  <div class="refs">
+    <h3>Evidence base &middot; verification status</h3>
+    <ul>
+      <li><span class="vstat ok">Confirmed</span> DSIT, 2025. <em>Cyber Security Skills in the UK Labour Market 2025</em>. Gov.uk. Workforce gap 3,800; 30% advanced skills gap in businesses. <a href="https://www.gov.uk/government/publications/cyber-security-skills-in-the-uk-labour-market-2025">gov.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> ISC2, 2025. <em>2025 ISC2 Cybersecurity Workforce Study</em>. 91% UK professionals report team shortfall; AI (41%) and cloud (36%) top demands. <a href="https://www.isc2.org/Insights/2025/12/2025-ISC2-Cybersecurity-Workforce-Study">isc2.org</a></li>
+      <li><span class="vstat ok">Confirmed</span> IT Job Watch, July 2026. Contract day rates: EA £700 median; SA £625; Security Architect £630; Network Architect £600. P75 rates confirmed as stated. <a href="https://www.itjobswatch.co.uk/contracts/uk/enterprise%20architect.do">itjobswatch.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> IT Job Watch, July 2026. Permanent salaries YoY: Security Architect +13%, Network Architect +22%. EA national median £87,500; SA £85,000. <a href="https://www.itjobswatch.co.uk/jobs/uk/security%20architect.do">itjobswatch.co.uk</a></li>
+      <li><span class="vstat part">Corrected</span> Morgan McKinley, 2026. UK Technology Permanent Salary Guide - London. £130k-£180k applies to Tier 1 London employers at 5+ years; not a national figure. <a href="https://www.morganmckinley.com/uk/salary-guide/technology/permanent-salaries">morganmckinley.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> Robert Half, 2026. UK Salary Guide - Solution Architect. Mid-level national £90,000; senior P75 £106,750. <a href="https://www.roberthalf.com/gb/en/job-details/solution-architect">roberthalf.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> Glassdoor UK, 2026. Principal Solutions Architect average £118,916 national; £136,083 London; P75 £168,630. Head of Architecture median £95,000; England P75 £153,250. <a href="https://www.glassdoor.co.uk/Salaries/principal-solutions-architect-salary-SRCH_KO0,29.htm">glassdoor.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> CWJobs survey (via Computing.co.uk, 2025). 41% of UK tech workers report directly encountering age discrimination. <a href="https://www.computing.co.uk/opinion/2025/ageism-issue-tech-industry-needs-tackle">computing.co.uk</a></li>
+      <li><span class="vstat part">Corrected</span> Onrec / employer surveys. "Too old at 57" threshold is from employer self-report surveys, not experimental research. Source cited as Onrec 2024; treat as directional, not precise. <a href="https://www.onrec.com/news/news-archive/57-is-the-age-employers-consider-%E2%80%98too-old%E2%80%99-as-hiring-ageism-sees-millions-overlooked-for-job-roles">onrec.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> Shape IT Recruitment, 2025. UK tech workers face age discrimination starting at 29; one-third of over-50s worry about being filtered. <a href="https://shapeitrecruitment.co.uk/uk-tech-workers-face-age-discrimination-at-29/">shapeitrecruitment.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> Hays UK, 2026. IT salaries rose 7.8% year-on-year driven by security, cloud, and automation shortages. <a href="https://www.hays.co.uk/salary-guide">hays.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> Deerfoot IT Recruitment, 2026. Hybrid working: 65% of senior SA roles hybrid; 20% fully remote; 15% office-only. <a href="https://www.deerfoot.co.uk/shift-hybrid-work">deerfoot.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> LightReading, 2025. Telstra to shed 2,800 jobs as Enterprise unit restructured to Infosys and Accenture. <a href="https://www.lightreading.com/business-transformation/telstra-to-shed-2-800-jobs-as-it-resets-enterprise-unit">lightreading.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> LightReading / TotalTelecom, 2026. BT plans further 5,000 job cuts; total reduction toward 27,500 by 2030 confirmed. <a href="https://www.lightreading.com/fttx/bt-plans-mass-layoffs-after-cutting-8-500-jobs-in-last-year">lightreading.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> The Register / Telecoms.com, 2009. BT Global Services 15,000 redundancies following £1.6B contract write-down. <a href="https://www.theregister.com/2009/05/14/bt_cuts_thousands/">theregister.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> IT Job Watch, 2026. Presales Solution Architect UK: median salary £77,500; 517+ live roles (April 2026 snapshot). <a href="https://www.itjobswatch.co.uk/jobs/uk/presales%20solution%20architect.do">itjobswatch.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> Robert Walters, 2026. UK cybersecurity hiring market update; security-converged presales SA reaching £95,000-£130,000 London. <a href="https://www.robertwalters.co.uk/insights/hiring-advice/blog/cybersecurity-hiring-market-update.html">robertwalters.co.uk</a></li>
+      <li><span class="vstat ok">Confirmed</span> IT Tool Kit, 2025. Enterprise Architecture Framework Guide 2025 - TOGAF search interest down 50%+ since 2016; noted as hygiene credential. <a href="https://www.ittoolkit.com/enterprise-architecture-framework-guide-2025-togaf-more/">ittoolkit.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> FirstPassLab, 2026. Is CCIE Worth It in 2026? UK CCIE holders earn £63,750-£90,000+; near-zero unemployment cited. <a href="https://firstpasslab.com/blog/is-ccie-worth-it-2026/">firstpasslab.com</a></li>
+      <li><span class="vstat weak">Demoted</span> PayScale UK / KnowledgeHut, 2025-2026. CISSP UK average £72,500; TOGAF £31k-£106k range. Observational salary data - not peer-reviewed causal studies. Cannot isolate certification premium from seniority/experience effect. <a href="https://www.payscale.com/research/UK/Certification=Certified_Information_Systems_Security_Professional_(CISSP)/Salary">payscale.com</a></li>
+      <li><span class="vstat weak">Demoted</span> Deloitte, 2026. "Architecting an AI-native tech organization" - AI driving architecture headcount compression. Commissioned Deloitte research, not peer-reviewed; directional signal only. <a href="https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/ai-future-it-function.html">deloitte.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> LinkedIn UK job search, July 2026. 4,000+ Solutions Architect roles; 1,000+ Enterprise Architect roles; 146 Principal Enterprise Architect London. Live at time of research. <a href="https://uk.linkedin.com/jobs/solutions-architect-jobs">linkedin.com</a></li>
+    </ul>
+  </div>
+
+  <div class="footer">Storm Research v2 &middot; 22/22 citations independently verified against primary sources, 4 July 2026 &middot; 0 fabricated, 3 corrected, 2 demoted &middot; Reliability = evidence quality, not author confidence</div>
+
+</div>
+</body>
+</html>

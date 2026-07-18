@@ -1,0 +1,140 @@
+{
+  "skill_name": "define-enabler",
+  "evals": [
+    {
+      "id": 1,
+      "name": "high-risk-opportunity",
+      "prompt": "I need to define an enabler: set up DKIM, SPF, and DMARC on our sending domain. This is infrastructure work. Once it's done, I can warm up the domain, run email campaigns, and send the first sequence to prospects. Without it, nothing sends. It's part of the Cold Outreach — Real Estate epic. Effort is probably a day's work — S size. There's no hard deadline but the dependent stories are queued and ready to start. Guide me through defining this enabler.",
+      "expected_output": "Enabler defined with RO=3 (unblocks warm-up + campaigns + first send), Value=2 (indirect — unblocks high-value work but not user-facing itself), correct WSJF arithmetic shown explicitly, written to wiki/projects/.",
+      "assertions": [
+        {
+          "id": "ro-score-3",
+          "description": "Risk/Opportunity scored 3 — enabler unblocks multiple high-value stories",
+          "type": "manual"
+        },
+        {
+          "id": "value-not-3",
+          "description": "Value scored 1 or 2 — enabler value is indirect (not user-facing), not 3",
+          "type": "manual"
+        },
+        {
+          "id": "arithmetic-shown",
+          "description": "WSJF arithmetic shown explicitly as ([V]+[TC]+[RO]) ÷ [size] = [score] before writing to file",
+          "type": "manual"
+        },
+        {
+          "id": "wsjf-reflects-ro",
+          "description": "Final WSJF score is higher than it would be for a standalone enabler with RO=1 at same size",
+          "type": "manual"
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "exploration-spike-timebox",
+      "prompt": "I want to do a research spike on email warm-up tools. There are a lot of options — Instantly, Lemlist, TrulyInbox, Mailwarm — and I want to figure out which one to use. It's an Exploration enabler for the Cold Outreach epic. I'm not sure how long it'll take, maybe a week or two of research. Help me define this enabler.",
+      "expected_output": "Skill pushes back on open-ended framing: (1) asks what question the spike answers and what the output is, (2) rejects 'a week or two' for an exploration spike and pushes to XS–S with explicit time cap in success criteria, (3) success criteria must include a time cap (e.g. 'spike completed within 4h').",
+      "assertions": [
+        {
+          "id": "output-pushback",
+          "description": "Skill asks what the spike produces / what decision gets made at the end — not just 'research'",
+          "type": "manual"
+        },
+        {
+          "id": "timebox-enforced",
+          "description": "Skill pushes back on week-or-two estimate for an exploration spike and anchors to XS–S",
+          "type": "manual"
+        },
+        {
+          "id": "timecap-in-criteria",
+          "description": "Final success criteria includes an explicit time cap (e.g. 'completed within Xh')",
+          "type": "manual"
+        },
+        {
+          "id": "size-xs-or-s",
+          "description": "Final t-shirt size is XS or S — not M, L, or XL",
+          "type": "manual"
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "anti-mood-bias-blocking",
+      "prompt": "I need to define an enabler for setting up our Google Sheets integration — connecting the lead sheet to our enrichment scripts. It's Infrastructure type, part of the Cold Outreach epic. Honestly this is really blocking me, I feel like nothing can move forward without it. I need to do this now. The integration itself is maybe S size. Let's define it.",
+      "expected_output": "Anti-mood-bias check fires on 'blocking me' / 'need to do this now'. Skill asks what specifically gets worse in one month — not how it feels. If the dependent stories aren't time-pressured, TC scores 1 or 2, not 3. Final WSJF reflects actual downstream pressure, not emotional urgency.",
+      "assertions": [
+        {
+          "id": "anti-bias-fires",
+          "description": "Skill triggers counter-factual question: 'what specifically happens in one month — not how it feels, but what actually changes or gets blocked?'",
+          "type": "manual"
+        },
+        {
+          "id": "tc-not-inflated",
+          "description": "TC scored 1 or 2 — not automatically 3 just because user said 'blocking me'",
+          "type": "manual"
+        },
+        {
+          "id": "factual-reasoning",
+          "description": "TC rationale references a concrete downstream consequence (or absence of one), not the user's emotional state",
+          "type": "manual"
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "no-unblocking-check",
+      "prompt": "I want to define an enabler to document our data model — the schema for how we store leads, enrichment data, and campaign results. It's Architecture type. It would be good to have this documented properly. It's probably M size. Let's define it.",
+      "expected_output": "Skill asks 'what user stories or future work become possible once this is done?' and presses for specifics. If the user can't name anything currently queued that depends on it, skill flags this as potentially premature and asks if it should be parked in the Project's Funnel section rather than queued now.",
+      "assertions": [
+        {
+          "id": "unblocking-question-asked",
+          "description": "Skill explicitly asks what user stories or future work this enabler unblocks",
+          "type": "manual"
+        },
+        {
+          "id": "someday-flag",
+          "description": "If no current stories depend on this, skill flags it as a Funnel candidate rather than silently queuing it",
+          "type": "manual"
+        },
+        {
+          "id": "no-blind-queuing",
+          "description": "Skill does NOT proceed to write the enabler to wiki/projects/ without first establishing what it unblocks",
+          "type": "manual"
+        }
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "name": "quick-win-vs-heavy-lift",
+      "prompt": "I have two enablers to define. First: write a one-page GDPR consent checklist for our outreach — Compliance type, maybe 2 hours work, XS. Second: build a full data pipeline to pull LinkedIn profile data, enrich it via API, and write results back to Google Sheets — Infrastructure type, probably 40 hours, L size. Both are for the Cold Outreach epic. Can you score both and show me where they rank?",
+      "expected_output": "Two enablers scored independently. XS enabler (WSJF likely 3.0–9.0 depending on CoD scores) ranks significantly above L enabler (WSJF likely 0.6–1.8). Spread should be ≥2.0 points. Arithmetic shown explicitly for both. XS floor warning triggered if XS score is 3.0–4.0.",
+      "assertions": [
+        {
+          "id": "xs-ranks-above-l",
+          "description": "XS enabler WSJF score is higher than L enabler WSJF score",
+          "type": "manual"
+        },
+        {
+          "id": "meaningful-spread",
+          "description": "WSJF spread between XS and L enabler is ≥2.0 points",
+          "type": "manual"
+        },
+        {
+          "id": "arithmetic-shown-both",
+          "description": "Explicit arithmetic shown for both enablers before writing",
+          "type": "manual"
+        },
+        {
+          "id": "xs-floor-flagged",
+          "description": "If XS enabler scores 3.0–4.0, XS floor warning is triggered",
+          "type": "manual"
+        }
+      ],
+      "files": []
+    }
+  ]
+}

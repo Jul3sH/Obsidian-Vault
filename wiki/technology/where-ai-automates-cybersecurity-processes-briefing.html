@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Storm Research: Where AI Automates Cybersecurity Processes, and Where It Can't</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Roboto+Mono:wght@400;500;600&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --blue: #2563eb; --blue-dark: #1e3a8a; --ink: #16203a; --muted: #5b6677; --line: #e4e9f2;
+    --bg-soft: #f6f8fc; --green: #15803d; --green-bg: #e9f6ee; --amber: #b45309; --amber-bg: #fdf3e7;
+    --slate: #475569; --slate-bg: #eef1f6; --red: #b91c1c; --red-bg: #fdecec;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Roboto', system-ui, sans-serif; color: var(--ink); background: #eef1f6; line-height: 1.62; font-weight: 400; -webkit-font-smoothing: antialiased; }
+  .page { max-width: 900px; margin: 0 auto; background: #fff; padding: 64px 72px 80px; box-shadow: 0 1px 40px rgba(22,32,58,0.08); }
+  .eyebrow { font-family: 'Roboto Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--blue); margin-bottom: 14px; }
+  h1 { font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 40px; line-height: 1.12; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 18px; }
+  .lede { font-size: 17px; color: var(--muted); max-width: 640px; }
+  .meta-row { display: flex; flex-wrap: wrap; gap: 10px 22px; margin-top: 26px; padding-top: 22px; border-top: 2px solid var(--line); font-family: 'Roboto Mono', monospace; font-size: 12px; color: var(--muted); }
+  .meta-row b { color: var(--ink); font-weight: 600; }
+  .verify-banner { margin-top: 22px; background: var(--green-bg); border: 1px solid #bfe3cc; border-radius: 8px; padding: 13px 18px; font-size: 13px; color: #14532d; display: flex; gap: 10px; align-items: baseline; }
+  .verify-banner b { font-weight: 700; }
+  .verify-banner .tag { font-family: 'Roboto Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; background: var(--green); color: #fff; padding: 3px 8px; border-radius: 4px; flex-shrink: 0; }
+  .howto { margin-top: 18px; border: 1px solid var(--line); border-radius: 8px; padding: 18px 22px; background: var(--bg-soft); }
+  .howto h4 { font-family: 'Roboto Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin-bottom: 10px; }
+  .howto ul { list-style: none; }
+  .howto li { font-size: 13.5px; color: #2b3950; margin-bottom: 7px; padding-left: 16px; position: relative; }
+  .howto li::before { content: "›"; position: absolute; left: 0; color: var(--blue); font-weight: 700; }
+  .section { margin-top: 56px; }
+  .section-num { font-family: 'Roboto Mono', monospace; font-size: 13px; font-weight: 600; color: var(--blue); letter-spacing: 0.05em; }
+  h2 { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 25px; letter-spacing: -0.01em; color: var(--ink); margin: 6px 0 18px; line-height: 1.2; }
+  h2 .bar { display: inline-block; width: 38px; height: 4px; background: var(--blue); border-radius: 2px; vertical-align: middle; margin-right: 14px; }
+  p { margin-bottom: 14px; }
+  p.body-lg { font-size: 16.5px; }
+  .ceo { background: var(--bg-soft); border-left: 5px solid var(--blue); padding: 26px 30px; border-radius: 4px; font-size: 16.5px; }
+  .ceo strong { font-weight: 700; color: var(--blue-dark); }
+  .finding { border: 1px solid var(--line); border-radius: 10px; padding: 24px 26px; margin-bottom: 18px; position: relative; }
+  .finding-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; margin-bottom: 12px; }
+  .finding-title { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 18px; line-height: 1.3; color: var(--ink); flex: 1; }
+  .finding-rank { font-family: 'Roboto Mono', monospace; font-weight: 600; font-size: 13px; color: #fff; background: var(--ink); width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .finding p { font-size: 15px; color: #283449; margin-bottom: 14px; }
+  .rel-row { display: flex; align-items: center; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+  .rel { display: inline-flex; align-items: center; gap: 9px; font-family: 'Roboto Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 5px 12px; border-radius: 20px; }
+  .rel.high { background: #e7f0fe; color: var(--blue); }
+  .rel.medhigh { background: var(--green-bg); color: var(--green); }
+  .rel.medium { background: var(--amber-bg); color: var(--amber); }
+  .rel.low { background: var(--red-bg); color: var(--red); }
+  .score { font-family: 'Roboto Mono', monospace; font-size: 13px; font-weight: 600; color: var(--ink); }
+  .score b { font-size: 17px; }
+  .score span { color: var(--muted); font-weight: 400; }
+  .chips { display: flex; flex-direction: column; gap: 8px; margin-top: 6px; }
+  .chip-row { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; font-size: 13.5px; }
+  .chip-label { font-family: 'Roboto Mono', monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; padding: 3px 8px; border-radius: 4px; white-space: nowrap; }
+  .chip-label.sup { background: var(--green-bg); color: var(--green); }
+  .chip-label.chal { background: var(--red-bg); color: var(--red); }
+  .chip-label.fix { background: var(--amber-bg); color: var(--amber); }
+  .chip-row span.who { color: #2b3950; }
+  .chip-row span.who b { font-weight: 600; }
+  .contested { border: 1px dashed var(--amber); background: #fffaf2; border-radius: 10px; padding: 22px 26px; margin-bottom: 18px; }
+  .contested .tag { font-family: 'Roboto Mono', monospace; font-size: 10.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--amber); }
+  .contested h4 { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 16px; color: var(--ink); margin: 6px 0 10px; }
+  .contested p { font-size: 14px; color: #4a3a22; margin-bottom: 0; }
+  .connection { background: linear-gradient(135deg, #16203a 0%, #1e3a8a 100%); color: #eaf0fb; border-radius: 12px; padding: 34px 38px; }
+  .connection h2 { color: #fff; }
+  .connection h2 .bar { background: #6ea8ff; }
+  .connection .section-num { color: #9ec1ff; }
+  .connection p { color: #d3def3; font-size: 16px; }
+  .connection .punch { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 18px; color: #fff; line-height: 1.4; margin-top: 18px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,0.18); }
+  .assume { border: 1px solid var(--line); border-left: 5px solid var(--amber); border-radius: 6px; padding: 24px 28px; background: #fffdf9; }
+  .assume h3 { font-family: 'Montserrat', sans-serif; font-size: 17px; font-weight: 700; color: var(--ink); margin-bottom: 10px; }
+  .assume p { font-size: 15px; color: #3a3320; }
+  .assume p:last-child { margin-bottom: 0; }
+  .action-item { display: flex; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .action-item:last-child { border-bottom: none; }
+  .action-mark { font-family: 'Roboto Mono', monospace; font-weight: 600; font-size: 13px; color: var(--blue); flex-shrink: 0; width: 34px; }
+  .action-item .do { font-weight: 600; color: var(--ink); }
+  .action-item p { font-size: 14.5px; margin-bottom: 0; color: #2b3950; }
+  .frontier { border: 2px dashed var(--blue); border-radius: 12px; padding: 30px 34px; background: var(--bg-soft); }
+  .frontier .q { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 22px; line-height: 1.32; color: var(--blue-dark); margin-bottom: 16px; }
+  .frontier p { font-size: 15px; color: #2b3950; }
+  .oncam { margin-top: 18px; }
+  .oncam-col { border-radius: 10px; padding: 20px 24px; margin-bottom: 14px; }
+  .oncam-col.safe { background: var(--green-bg); border: 1px solid #bfe3cc; }
+  .oncam-col.caveat { background: var(--amber-bg); border: 1px solid #f0d9b5; }
+  .oncam-col.avoid { background: var(--red-bg); border: 1px solid #f3c9c9; }
+  .oncam-col h4 { font-family: 'Roboto Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+  .oncam-col.safe h4 { color: var(--green); }
+  .oncam-col.caveat h4 { color: var(--amber); }
+  .oncam-col.avoid h4 { color: var(--red); }
+  .oncam-col ul { list-style: none; }
+  .oncam-col li { font-size: 14px; color: #233; margin-bottom: 8px; padding-left: 16px; position: relative; line-height: 1.5; }
+  .oncam-col li::before { content: "•"; position: absolute; left: 0; font-weight: 700; }
+  .oncam-col.safe li::before { color: var(--green); }
+  .oncam-col.caveat li::before { color: var(--amber); }
+  .oncam-col.avoid li::before { color: var(--red); }
+  .refs { margin-top: 56px; padding-top: 26px; border-top: 2px solid var(--line); }
+  .refs h3 { font-family: 'Roboto Mono', monospace; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+  .refs ul { list-style: none; }
+  .refs li { font-size: 12.5px; color: var(--muted); margin-bottom: 11px; padding-left: 16px; position: relative; line-height: 1.5; }
+  .refs li::before { content: "›"; position: absolute; left: 0; color: var(--blue); font-weight: 700; }
+  .refs a { color: #34507e; text-decoration: none; }
+  .refs a:hover { text-decoration: underline; }
+  .refs .vstat { font-family: 'Roboto Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; padding: 2px 6px; border-radius: 3px; margin-right: 6px; }
+  .vstat.ok { background: var(--green-bg); color: var(--green); }
+  .vstat.part { background: var(--amber-bg); color: var(--amber); }
+  .vstat.weak { background: var(--red-bg); color: var(--red); }
+  .footer { margin-top: 40px; font-family: 'Roboto Mono', monospace; font-size: 11px; color: #9aa6b8; text-align: center; }
+  @media (max-width: 640px) { .page { padding: 40px 24px 56px; } h1 { font-size: 30px; } }
+  @media print { body { background: #fff; } .page { box-shadow: none; max-width: 100%; padding: 0; } .connection, .oncam-col { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="eyebrow">Storm Research &middot; v2 (verified)</div>
+    <h1>Where AI Automates Cybersecurity Processes, and Where It Can't</h1>
+    <p class="lede">A five-lens synthesis for cybersecurity, risk, and technology leaders deciding which security processes to automate, which to keep human-led, and where hybrid control is the real operating model.</p>
+    <div class="meta-row">
+      <span><b>Date</b> &nbsp;3 July 2026</span>
+      <span><b>Method</b> &nbsp;5 author-built expert lenses + contradiction map</span>
+      <span><b>Audience</b> &nbsp;Cybersecurity, risk, and technology leaders</span>
+    </div>
+    <div class="verify-banner">
+      <span class="tag">Verified</span>
+      <span>All 11 citation clusters independently checked against primary or closest available sources on 3 July 2026. <b>Result: 0 fabricated, 2 corrected, 1 demoted.</b> Confidence scores reflect post-verification evidence quality.</span>
+    </div>
+    <div class="howto">
+      <h4>How to read this</h4>
+      <ul>
+        <li><b>The panel was author-constructed.</b> All five lenses share one framing, so where they agree, treat it as a strong hypothesis, not independent proof.</li>
+        <li><b>Confidence is scored 1-10</b> on evidence quality: peer-reviewed causal work &gt; official policy/financial data &gt; single commissioned survey &gt; analogy &gt; preprint.</li>
+        <li><b>Measured fact and interpretation are flagged separately.</b> A high score means the data is solid, not that the strategic reading is certain.</li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="section-num">01</div>
+    <h2><span class="bar"></span>The 60-Second Summary</h2>
+    <div class="ceo">
+      <p style="margin-bottom:0;"><strong>AI automates cybersecurity best where the work is repetitive, instrumented, and reversible: alert enrichment, evidence fusion, incident summarisation, detection-rule drafting, exposure triage, phishing classification, malware clustering, and first-pass remediation recommendations.</strong> It cannot own security where the task requires accountable judgment under incomplete information: deciding business impact, accepting residual risk, preserving service availability during remediation, attributing intent, negotiating incident disclosure, changing identity privileges at scale, or validating context-dependent vulnerabilities. The practical boundary is not "AI vs human"; it is "bounded automation plus human authority." The winning architecture is an AI-accelerated SOC with explicit stop-points, not an autonomous SOC.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-num">02</div>
+    <h2><span class="bar"></span>Five Key Findings, Ranked by Reliability</h2>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">AI is already justified for evidence fusion, triage, and guided response</div>
+        <div class="finding-rank">1</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel high">Reliability: High</div>
+        <div class="score"><b>9</b><span>/10</span></div>
+      </div>
+      <p>Security operations create too much telemetry for exhaustive human review. IBM reports that extensive security AI and automation correlates with USD 1.9M lower breach cost than organizations not using those solutions, while its own recommendations name alert-volume reduction, early breach detection, and faster response as fit-for-purpose AI uses. Microsoft research on its Dynamic Threat Detection Agent reports production-scale autonomous investigation across Defender customers, with 80.1% precision in a 120-day online evaluation and median single-incident investigation time of 28 minutes. This supports AI as an analyst amplifier, especially for assembling timelines, selecting relevant telemetry, generating hypotheses, and drafting explainable detections.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Practitioner, Academic, Economist</b> - IBM breach data and Microsoft DTDA production evaluation.</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Skeptic</b> - useful only if prompt contracts, schemas, grounding, and fail-closed behavior are engineered in.</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Autonomous remediation is the danger zone, because defense must preserve availability</div>
+        <div class="finding-rank">2</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medhigh">Reliability: Medium-high</div>
+        <div class="score"><b>8</b><span>/10</span></div>
+      </div>
+      <p>AI agents can patch and harden systems in constrained tests, but the reliable claim is narrower than vendor language suggests. In a 2025 Attack/Defense CTF study, AI defensive agents achieved 54.3% unconstrained patching success versus 28.3% offensive initial access, but success fell to 23.9% when full availability was required and 15.2% when both availability and no enemy access were required. NIST SP 800-61r3 frames incident response as an all-function risk-management activity across Govern, Identify, Protect, Detect, Respond, and Recover. That means remediation is not only a technical fix; it is a risk, service, legal, and recovery decision.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Academic, Practitioner, Historian</b> - controlled CTF evidence plus NIST incident-response framing.</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Economist</b> - vendors and buyers are economically pushed toward more autonomy because human response does not scale.</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">AI cannot replace human ownership of identity, access, and governance decisions</div>
+        <div class="finding-rank">3</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medhigh">Reliability: Medium-high</div>
+        <div class="score"><b>8</b><span>/10</span></div>
+      </div>
+      <p>The biggest AI-security gap is not model accuracy; it is control ownership. IBM's 2025 breach report says 97% of organizations reporting an AI-related security incident lacked proper AI access controls, and 63% lacked AI governance policies to manage AI or shadow AI. NIST AI RMF positions AI risk management as voluntary, organizational, and trustworthiness-oriented across design, development, use, and evaluation. OWASP's LLM risk list adds concrete failure modes such as excessive agency, insecure plugin design, prompt injection, supply-chain vulnerabilities, and overreliance. These are governance and architecture problems before they are detection problems.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Skeptic, Academic, Practitioner</b> - IBM AI oversight gap, NIST AI RMF, OWASP GenAI risks.</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Economist</b> - identity automation is commercially attractive, but only under explicit policy constraints.</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">AI shifts attacker and defender economics toward speed, not certainty</div>
+        <div class="finding-rank">4</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medium">Reliability: Medium</div>
+        <div class="score"><b>7</b><span>/10</span></div>
+      </div>
+      <p>The economically important effect is compression of work cycles. Mandiant's M-Trends 2026 landing page says the intervention window has collapsed from hours to seconds and highlights ransomware handoffs, attacker abuse of AI in compromised environments, edge-device exploitation, SaaS integration abuse, and persistence in virtualization stacks. MITRE ATT&amp;CK already models activities that AI can accelerate, including active scanning, phishing for information, generating written or audio-visual content, obtaining AI capabilities, exploiting public-facing applications, and using valid accounts. The defender answer is not perfect prediction; it is faster prioritization, better telemetry retention, and narrower automated response playbooks.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Economist, Historian, Practitioner</b> - Mandiant 2026 threat framing and MITRE ATT&amp;CK tactics.</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Academic</b> - public evidence is still stronger on speed and workflow compression than on real-world autonomous compromise rates.</span></div>
+        <div class="chip-row"><span class="chip-label fix">Corrected</span><span class="who">Used M-Trends landing-page claims rather than gated-report specifics that could not be independently inspected.</span></div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-head">
+        <div class="finding-title">Vulnerability discovery and pentesting remain hybrid, not fully automated</div>
+        <div class="finding-rank">5</div>
+      </div>
+      <div class="rel-row">
+        <div class="rel medium">Reliability: Medium</div>
+        <div class="score"><b>6</b><span>/10</span></div>
+      </div>
+      <p>AI can accelerate code review, exploit reasoning, scanner orchestration, and remediation drafting, but the evidence does not support handing complex validation to unguided tools. A June 2026 report on Cobalt's State of Pentesting survey says only 9% of respondents rely solely on AI testing tools, and 78% saw fully automated scanning miss critical vulnerabilities. That source is secondary, so it is demoted, but it aligns with the deeper technical point: business-logic flaws, cross-system abuse paths, and context-dependent LLM vulnerabilities often require architectural understanding and adversarial imagination.</p>
+      <div class="chips">
+        <div class="chip-row"><span class="chip-label sup">Supported by</span><span class="who"><b>Skeptic, Practitioner</b> - survey reporting plus OWASP LLM risk categories.</span></div>
+        <div class="chip-row"><span class="chip-label chal">Challenged by</span><span class="who"><b>Economist, Historian</b> - CTF and product evidence suggests fast progress, especially in bounded challenge environments.</span></div>
+        <div class="chip-row"><span class="chip-label fix">Corrected</span><span class="who">Treated the Cobalt figures as secondary and survey-based, not as a primary benchmark.</span></div>
+      </div>
+    </div>
+
+    <div class="contested">
+      <div class="tag">Contested signal &middot; monitor, do not assert &middot; confidence 5/10</div>
+      <h4>"AI will fully automate the SOC" is still an overclaim</h4>
+      <p>Production evidence supports AI-guided triage, investigation, and detection generation. It does not yet prove broad autonomous security ownership across heterogeneous enterprises, especially where actions can break availability, trigger legal obligations, or alter privileges. State this as an emerging direction, not a present fact.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="connection">
+      <div class="section-num">03</div>
+      <h2><span class="bar"></span>The Hidden Connection</h2>
+      <p>The apparent contradiction is that AI looks strongest in exactly the security work that feels most expert: threat hunting, detection engineering, incident timelines, and vulnerability reasoning.</p>
+      <p>The resolution is that the automatable part is not "expert judgment" itself. It is the evidence-handling substrate around judgment: gather the telemetry, compress it, map it to known adversary behavior, test hypotheses, draft detections, and propose responses.</p>
+      <p class="punch">AI automates the preparation for judgment far better than it automates the accountability for judgment.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="assume">
+      <h3>The assumption this briefing rests on (and the missing 6th lens)</h3>
+      <p>This briefing assumes enterprise environments have enough telemetry, identity data, asset context, and ticket history for AI systems to ground their conclusions. Without that data substrate, AI security automation becomes confident summarisation of partial evidence.</p>
+      <p>The missing 6th lens is the regulator or legal counsel. It could invert some recommendations because decisions about disclosure, evidence preservation, lawful monitoring, employee privacy, and customer notification are not reducible to technical confidence scores.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-num">04</div>
+    <h2><span class="bar"></span>What To Actually Do Differently</h2>
+    <p class="body-lg" style="color:var(--muted);">For a cybersecurity, risk, or technology leader: automate the evidence pipeline before automating authority.</p>
+    <div class="action-item">
+      <div class="action-mark">01</div>
+      <div><span class="do">Create an "AI-safe to automate" register.</span><p>List SOC tasks by reversibility, blast radius, evidence quality, and approval need. Start with enrichment, summarisation, triage, duplicate suppression, detection-rule drafting, and remediation recommendations.</p></div>
+    </div>
+    <div class="action-item">
+      <div class="action-mark">02</div>
+      <div><span class="do">Draw hard stop-points before deployment.</span><p>Require human approval for privilege changes, account disablement at scale, production patching, public disclosure, legal notification, vendor blame, and incident severity escalation that changes executive obligations.</p></div>
+    </div>
+    <div class="action-item">
+      <div class="action-mark">03</div>
+      <div><span class="do">Instrument the AI, not only the estate.</span><p>Log prompts, retrieved evidence, tool calls, policy decisions, suppressed outputs, failed schema validations, and human overrides. If the AI cannot explain its chain of evidence, it should not drive a security action.</p></div>
+    </div>
+    <div class="action-item">
+      <div class="action-mark">04</div>
+      <div><span class="do">Treat identity as the first AI-security control plane.</span><p>Use AI to spot anomalous identity activity and non-human identity drift, but keep policy ownership human-led. The IBM oversight gap makes access control the practical starting point.</p></div>
+    </div>
+    <div class="action-item">
+      <div class="action-mark">05</div>
+      <div><span class="do">Benchmark against availability, not only detection.</span><p>Measure whether automated remediation preserves service and prevents follow-on compromise. The CTF evidence shows that patching success collapses once operational constraints are included.</p></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-num">04b</div>
+    <h2><span class="bar"></span>What's Safe to Assert</h2>
+    <div class="oncam">
+      <div class="oncam-col safe">
+        <h4>✓ Safe - verified against primary source</h4>
+        <ul>
+          <li>AI and automation can reduce breach cost and accelerate detection and response when deployed extensively in security operations.</li>
+          <li>NIST frames incident response as integrated risk management across all six CSF 2.0 functions, not a standalone technical workflow.</li>
+          <li>OWASP identifies prompt injection, excessive agency, insecure plugin design, overreliance, and supply-chain vulnerabilities as LLM application risks.</li>
+          <li>Production-scale agentic detection research exists, including Microsoft DTDA with published precision, latency, and cost figures.</li>
+        </ul>
+      </div>
+      <div class="oncam-col caveat">
+        <h4>⚠ Say with a caveat</h4>
+        <ul>
+          <li>AI can help remediate vulnerabilities, but only bounded use cases show evidence, and availability-preserving remediation is much harder.</li>
+          <li>AI compresses attacker timelines, but public evidence is stronger for workflow acceleration than for universal autonomous compromise.</li>
+          <li>AI pentesting figures from Cobalt are useful but survey-based and reached through secondary reporting here.</li>
+        </ul>
+      </div>
+      <div class="oncam-col avoid">
+        <h4>✕ Don't assert</h4>
+        <ul>
+          <li>Do not say AI can fully automate incident response end to end.</li>
+          <li>Do not say AI can replace legal, business-impact, or risk-acceptance decisions.</li>
+          <li>Do not treat CTF performance as direct proof of enterprise SOC performance.</li>
+          <li>Do not deploy autonomous remediation without blast-radius controls, rollback, and human approval thresholds.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-num">05</div>
+    <h2><span class="bar"></span>The Frontier Question</h2>
+    <div class="frontier">
+      <div class="q">Can an AI security agent prove, before acting, that its remediation will reduce risk without violating availability, legal, privacy, or business constraints?</div>
+      <p>This is the hinge question. If the answer becomes yes for broad classes of systems, autonomy moves from analyst assistance into controlled operations. Until then, the defensible frontier is AI-generated evidence and recommendations with human authority over irreversible or externally visible actions.</p>
+    </div>
+  </section>
+
+  <div class="refs">
+    <h3>Evidence base &middot; verification status</h3>
+    <ul>
+      <li><span class="vstat ok">Confirmed</span> IBM, 2025, Cost of a Data Breach Report 2025, reports USD 4.4M global average breach cost, USD 1.9M savings from extensive security AI and automation, 97% lacking AI access controls among AI-related incidents, and 63% lacking AI governance policies. <a href="https://www.ibm.com/reports/data-breach">ibm.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> Freitas and Gharib, 2026, "GenAI-Driven Threat Detection with Microsoft Security Copilot", arXiv, reports DTDA architecture, 80.1% precision, 15% novel-alert generation rate, 28-minute median investigation latency, and USD 2.04 median token cost. <a href="https://arxiv.org/abs/2605.20896">arxiv.org</a></li>
+      <li><span class="vstat ok">Confirmed</span> NIST, 2025, SP 800-61r3, "Incident Response Recommendations and Considerations for Cybersecurity Risk Management", frames incident response across CSF 2.0 Govern, Identify, Protect, Detect, Respond, and Recover. <a href="https://doi.org/10.6028/NIST.SP.800-61r3">doi.org</a></li>
+      <li><span class="vstat ok">Confirmed</span> Balassone et al., 2025, "Cybersecurity AI: Evaluating Agentic Cybersecurity in Attack/Defense CTFs", arXiv, reports 54.3% unconstrained patching, 28.3% initial access, 23.9% availability-preserving patching, and 15.2% complete defense. <a href="https://arxiv.org/abs/2510.17521">arxiv.org</a></li>
+      <li><span class="vstat ok">Confirmed</span> NIST, AI Risk Management Framework page, confirms AI RMF 1.0 release, voluntary trustworthiness purpose, July 2024 Generative AI Profile, and April 2026 critical infrastructure concept note. <a href="https://www.nist.gov/itl/ai-risk-management-framework">nist.gov</a></li>
+      <li><span class="vstat ok">Confirmed</span> OWASP, Top 10 for Large Language Model Applications, lists LLM risks including prompt injection, insecure output handling, supply-chain vulnerabilities, insecure plugin design, excessive agency, overreliance, and model theft. <a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/">owasp.org</a></li>
+      <li><span class="vstat ok">Confirmed</span> MITRE ATT&amp;CK, enterprise matrix, identifies adversary tactics and techniques including reconnaissance, phishing, active scanning, valid accounts, exploit public-facing application, generate content, and artificial intelligence as an obtainable capability. <a href="https://attack.mitre.org/">attack.mitre.org</a></li>
+      <li><span class="vstat part">Corrected</span> Google Cloud, M-Trends 2026 landing page, describes threats from AI-driven abuse, collapsed intervention windows, ransomware handoffs, edge-device exploitation, SaaS integration abuse, and virtualization-stack targeting. Specific gated-report numbers were not used. <a href="https://cloud.google.com/security/resources/m-trends">cloud.google.com</a></li>
+      <li><span class="vstat ok">Confirmed</span> Verizon, 2026 DBIR page, identifies common breach causes as involving the human element, phishing, stolen credentials, software vulnerability exploitation, and ransomware. <a href="https://www.verizon.com/business/resources/reports/dbir/">verizon.com</a></li>
+      <li><span class="vstat part">Corrected</span> Haryanto et al., 2024, "Contextualized AI for Cyber Defense", arXiv, surveys contextualized AI for cyber defense and flags research growth plus gaps in organizational trust and governance. Accepted into SINCONF 2024, but not a direct SOC automation benchmark. <a href="https://arxiv.org/abs/2409.13524">arxiv.org</a></li>
+      <li><span class="vstat weak">Demoted</span> TechRadar summary of Cobalt State of Pentesting Report 2026, reporting 9% sole reliance on AI testing tools and 78% seeing automated scanning miss critical vulnerabilities. Secondary reporting, so use as directional signal only. <a href="https://www.techradar.com/pro/security/less-than-one-in-ten-of-cybersecurity-pros-trust-ai-testing-tools-to-find-vulnerabilities-with-over-three-quarters-say-their-ai-vulnerability-scanning-tools-missed-critical-flaws">techradar.com</a></li>
+    </ul>
+  </div>
+
+  <div class="footer">Storm Research v2 &middot; 11/11 citation clusters checked against primary or closest available sources, 3 July 2026 &middot; 0 fabricated, 2 corrected, 1 demoted &middot; Reliability = evidence quality, not author confidence</div>
+
+</div>
+</body>
+</html>

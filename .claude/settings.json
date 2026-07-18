@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm -rf \"/Users/julianhart/.claude/skills/epic-planner/\" && echo \"Deleted ~/.claude/skills/epic-planner/\")",
+      "Edit(~/.claude/skills/project-planner/**)",
+      "Bash(python3 -c ' *)",
+      "Edit(~/.claude/skills/define-task/**)",
+      "Bash(mkdir -p \"/Users/julianhart/Obsidian Vault/wiki/ai-os/skills/define-task\" && cp ~/.claude/skills/define-task/SKILL.md \"/Users/julianhart/Obsidian Vault/wiki/ai-os/skills/define-task/SKILL.md\")",
+      "Bash(node -e ' *)",
+      "Bash(node modify13.js)",
+      "Bash(node rebuild5.js \"/Users/julianhart/Obsidian Vault/wiki/deliverables/goals-roadmap.excalidraw.md\")",
+      "Bash(node -e \"console.log\\(require\\('/tmp/excalidraw-edit/node_modules/lz-string'\\)\\)\")",
+      "Bash(node build-career-goals-diagram.js)",
+      "Bash(grep -n \"100K\\\\|HK\\\\$100\\\\|contract or consulting\\\\|6-12 month\" \"/Users/julianhart/.claude/projects/-Users-julianhart-Obsidian-Vault/ed2c29d2-ff0a-4204-ad5f-d67855c00785.jsonl\")",
+      "mcp__atlassian__jira_search_issues",
+      "mcp__atlassian__jira_get_transitions",
+      "mcp__atlassian__jira_get_issue",
+      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
+      "mcp__atlassian__jira_get_agile_boards",
+      "mcp__atlassian__jira_get_backlog_issues",
+      "Bash(npm info *)",
+      "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
+      "mcp__claude_ai_Atlassian__getJiraIssue",
+      "mcp__atlassian__jira_get_board_issues"
+    ],
+    "additionalDirectories": [
+      "/Users/julianhart/.claude/skills/epic-planner",
+      "/Users/julianhart/.claude/skills/define-task"
+    ]
+  }
+}

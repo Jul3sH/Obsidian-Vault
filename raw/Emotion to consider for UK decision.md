@@ -1,0 +1,3 @@
+I really do detest doing aimless, pointless shit. I mean, I'd be much happier if I was doing something that I felt was meaningful and I could get stuck into it building, but I need to make sure that my visions are based on fact and not pure fantasy. 
+
+Would it be more stressful putting loads of effort in and going to people with no money who are time wasters who don't understand what I want? That would be a lot more frustrating than doing a 9 to 5 for a slightly annoying boss, for example. 
