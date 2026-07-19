@@ -7,22 +7,43 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-06-29
+status-updated: 2026-07-19
 ---
 
 # TTI Role
 
-## Status (as of 2026-07-05)
+## Status (as of 2026-07-19)
 
-**Position:** **Pack sent (4 Jul); awaiting Stephan.** The endorsement pivot went out to Stephan on 4 Jul: WhatsApp message + one-pager PDF + the April CV ([[tti-resume-april-2026]]). As of 5 Jul, **Stephan has read the message but not responded, and appears not to have opened the one-pager.** The ask was for him to raise it with Ty on his Miami trip, not to reply, so read-no-reply is not itself negative; the unopened one-pager is the thing to watch. (Prior approach and the pivot rationale are in the status log below and [[tti-engagement-strategy]].)
+**Position: Direct Ty conversation materialised; permanent HK-based EA/governance role described; Kari (HK tax + IT influence) call incoming this week; positioning for director-level vs principal-level.**
 
-**Next action:** Await Stephan's action with Ty (he is travelling). Do **not** chase hard - the ask was made cleanly once. If nothing surfaces by ~mid next week, consider one light touch. In parallel, Julian's own **HK-or-UK decision is due early next week** (Sophia's schooling) and proceeds regardless: he is leaning UK, with the TTI engagement as a remote buffer valuable in either branch (see [[income-portability]] in the UK-decision workspace).
+**What's moved (12-18 Jul):**
+- **12 Jul:** Stephan committed to forward brief + CV to Ty with the pitch: a versatile, capable veteran who can plug into existing initiatives (cyber, EA, delivery, networking), AI-leveraged.
+- **14 Jul:** Stephan arranged direct call with Ty; handed Ty's priorities: cost saving, cyber, network solutions, Oracle/SAP environment, touch on AI.
+- **15 Jul:** **First direct call with Ty.** Ty described, unprompted, a genuine permanent **HK-based EA/governance gap**: fragmented tech leadership across Asia; too many steering committees needed to coordinate silos; needs an enterprise architect working with the US to **put architecture frameworks and governance in place** (exactly Julian's wheelhouse). Ty suggested August meeting; Julian surfaced his school deadline; Ty committed to discuss with Stephan + Frank same day.
+- **15-16 Jul:** Stephan clarified role is HK-based (flips from "location-independent buffer" to pure stay-in-HK option); cleared Ty's near-miss worry about Julian's flight-risk; repositioned Julian as HK-committed.
+- **18 Jul:** Stephan surfaced Kari (HK tax/IT influence; read CV; spoke with Ty; supportive of adding IT support); wants a call within days. Stephan's endorsement escalated to active steer: *"I feel it is an opportunity to focus on."*
 
-**Detail tier:** [[tti-ty-brief]] (the v1 artefact) · [[tti-engagement-strategy]] (the why) · [[stephan-engagements]] (messages + script to build) · [[peter-speck-briefing]] (Peter's probe) · [[engagement-history]] (events).
+**Current dynamic:** Stephan is risk-shifting (enlisting Kari, Ty, Frank for buy-in to protect himself if it doesn't work). Ty is moving it because of Stephan's seniority/power. Frank (CFO, leaving soon) is the financial sign-off. Tony Chung risk: threatened by Julian's scope; may try to block or limit remit once he learns of it.
+
+**Role positioning gap:** A Principal System Administrator job posting exists (no longer accepting candidates — may be held for this); Julian's wheelhouse aligns with infrastructure/cloud architecture. But the role is junior (Principal, not Director). **Julian's argument:** cannot coordinate between US and APAC teams as a Principal — need Director-level seniority. The positioning: "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos." This leans the conversation back toward the EA role Ty described, not the system admin job.
+
+**Next actions:**
+1. **This week — prep for Kari call:** Build narrative that addresses platform engineering gap (Julian works with existing sysadmins using architecture patterns; doesn't do hands-on platform ops himself) while emphasizing the real gap Ty identified (enterprise architecture + governance framework for steering-committee coordination). Reference [[tti-sysadmin-skills-bridge]] (platform engineering vs. automation/IaC responsibility map) + gap narrative being built.
+2. **Kari call:** Convince him that the engineering gap is addressable, that the real value is EA/governance alignment, and position for director-level role (not principal). Confirm Frank's appetite for sign-off before school deadline (mid-August).
+3. **Post-Kari:** Ty in-person (early Aug, during his HK visit) to firm up structure, title, timeline, and confirm before school decision deadline (mid-August).
+
+**Risk watch:** Tony Chung learning of this and attempting to block/limit remit. Mitigation: keep the narrative focused on Ty's expressed gap (EA/governance), not platform engineering, so Tony has less purchase.
+
+**Detail tier:** [[tti-sysadmin-skills-bridge]] (platform engineering vs. automation gap analysis) · [[tti-engagement-strategy]] (political dynamics + positioning rationale) · [[tti-comms-log]] (artefact delivery log + sent brief) · [[engagement-history]] (full timeline).
 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-07-19 | **Process shifted to multi-node buy-in: Ty moving it (power/Stephan seniority), Kari as next influencer (IT + tax), Frank (CFO) as financial gate.** Direct Ty call (15 Jul) surfaced the actual gap: steering-committee-driven governance is broken; needs an EA/architecture framework to align fragmented tech leadership. Role framing: Ty described permanent HK-based EA/governance role (matches April JD). Principal System Administrator posting exists but junior-level; Julian will position for director-level role by arguing: (1) can't coordinate US/APAC teams as a Principal, need director seniority; (2) platform engineering gap is addressable (work with existing sysadmins using architecture patterns); (3) real value is EA/governance, not platform ops. Kari call imminent; Frank's financial sign-off needed before school deadline (mid-August). Risk watch: Tony Chung learning of this and attempting to block. [[tti-sysadmin-skills-bridge]] built to support this narrative. |
+| 2026-07-18 | **New node: Kari (HK tax + IT influence).** Stephan introduced Kari, who has read CV, spoke with Ty, and is supportive of adding IT support. Wants call within days. Stephan's endorsement escalated to active steer: *"I feel it is an opportunity to focus on."* |
+| 2026-07-15 | **Breakthrough: direct call with Ty.** Ty described genuine, permanent, HK-based EA/governance gap unprompted: fragmented tech leadership across Asia; too many steering committees needed to coordinate silos; needs enterprise architect working with US on frameworks + governance. Ty suggested August meeting; Julian surfaced school deadline; Ty committed to discuss with Stephan + Frank same day. **No offer/structure yet, but real in-wheelhouse role described.** |
+| 2026-07-14 | **Ty call arranged.** Stephan proposed direct call with Ty for 15 Jul ~8pm HK; locked it in. Handed Ty's priorities: cost saving, cyber, network solutions, Oracle/SAP environment, touch on AI. |
+| 2026-07-12 | **Stephan committed to forward brief to Ty.** Responded to personal message (Chris's birthday, Will) warmly and offered to share CV + one-pager with Ty on Monday. Julian re-anchored the conversation to EA role (confirming it's alive); Stephan: *"I will try and have him reach out to you."* Deadline (mid-August school decision) played, landed. |
 | 2026-07-05 | **Pack sent 4 Jul; awaiting Stephan.** The endorsement message + one-pager PDF + April CV went to Stephan on 4 Jul. As of 5 Jul: message read, no response, one-pager apparently not opened. Read-no-reply is expected (the ask was to act with Ty, not to reply); monitoring whether he opens/forwards. Julian's HK-or-UK decision due early next week, proceeding regardless (UK-leaning; TTI is a buffer in either branch). |
 | 2026-07-04 | **Pivot: personal endorsement, not a strategy sell.** Risk assessment (2 independent reads) exposed two flaws: the engagement over-committed Julian to solo hands-on automation delivery he can't evidence, and it required Stephan to back a strategy he can't evaluate/defend under Ty's scrutiny. Reframed to a versatile-veteran personal endorsement: v3 one-pager ([[tti-ty-brief]]) + CV as the forward pack; strategy-sell brief demoted to pull-only [[tti-ai-leverage-working-notes]]; personal-endorsement Stephan message drafted ([[stephan-engagements]]). |
 | 2026-06-28 | **Reframe resolved; brief reframed and drafted (v1).** Silence = Stephan not replying before a month-long holiday (not a freeze, not a soft-no), so follow-up is legitimate and the "commit CLSA/UK" trigger does not fire. Sequencing **reversed**: build the brief first, send the message with it (no longer gated on Stephan's reply). Advocacy reframe resolved: advocate for the *person* not the plan; keep the friendship-floor (a character reference) but let its minimalism carry the read, no voiced threat; drop "I'm in need" and the Horst-in-writing line. Reframe 2 folded into the brief: versatile resource + attach AI to Ty's existing initiatives. v1 brief drafted at [[tti-ty-brief]], supersedes two-pager #1. Still to build: the accompanying Stephan message + spoken conversation script. |

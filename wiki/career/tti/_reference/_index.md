@@ -34,6 +34,5 @@ status: reference
 - [[tti-role-profile-director-ea]] — Invented Director EA role profile (sent 16 Apr)
 - [[tti-value-proposition]] — Multi-section value prop left at Cipriani (re-activatable)
 - [[tti-ai-productivity-gap]] — The brief Stephan read at Cipriani; the anchor argument
-- [[tti-ty-brief]] — One-pager sent to Ty via Stephan (4 Jul); versatile-operator positioning; delivered 12 Jul
 - [[tti-resume-april-2026]] — Current CV (Enterprise Architect / Agentic AI)
 - [[engagement-history]] — Full timeline of TTI interactions, 2021 → present

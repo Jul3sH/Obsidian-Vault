@@ -1,31 +1,67 @@
 ---
-type: prep
-tags: [career, tti, execution, private]
-status: wip
-created: 2026-07-03
-updated: 2026-07-04
-companion-to: tti-ty-brief
-audience: Julian only (verbal prep)
-send: NEVER
+type: artefact + prep
+tags: [career, tti, artefact, one-pager, private-prep]
+status: on-hold
+created: 2026-06-28
+revised: 2026-07-04
+version: v3
+recipient: Ty Staviski (Group Deputy CFO)
+route: via Stephan Pudwill
+sent: 2026-07-04
+delivered: 2026-07-12
+reason-on-hold: First Ty conversation was a 20-minute elevator pitch (15 Jul); full execution conversation still pending. Consolidated execution prep with artefact for re-deployment when real conversation happens.
+consolidation-note: "Merged tti-ty-brief (public artefact) + tti-ty-brief-execution (private prep) into single doc. Public section ships, private execution prep stays for Julian's verbal use and conversation prep."
+supersedes: tti-ai-leverage-working-notes (v2 strategy-sell brief)
 ---
 
-> **PRIVATE PREP. NOT FOR SENDING.** This is the "how" behind every bold claim in
-> [[tti-ty-brief]]. Its job: let Julian answer *"okay, how would you actually do
-> this?"* fluently and concretely in the room with Ty, without giving away the full
-> playbook in writing. **Respects the generosity-leak guardrail** in
-> [[tti-engagement-strategy]]: the brief carries the *what/why*; the *how* is
-> Julian's competence in conversation and the paid deliverable. Verbal use only.
-> Built collaboratively, claim by claim.
+> **CONSOLIDATED DOCUMENT: Public brief + Private execution prep**
+>
+> **v3 (4 Jul 2026). The pivot.** Replaces the v2 strategy-sell brief (now demoted to pull-only [[tti-ai-leverage-working-notes]]). New premise: stop selling a strategy Stephan cannot evaluate and will not defend under Ty's scrutiny. Instead, position Julian as a **versatile, capable senior technology veteran** who plugs into TTI's **existing** initiatives across four evidenced wheelhouses (cyber, EA, delivery, networking), AI-leveraged for efficiency.
+>
+> **Status:** Sent to Stephan 4 Jul. Forwarded by Stephan to Ty ~12 Jul with CV. Delivered (Ty read, 15 Jul elevator pitch call). **First conversation was 20 minutes, not a full execution conversation. Real conversation still pending.** Moved to _on-hold/ to await that full conversation, then re-deploy with execution prep.
+>
+> Strategy: [[tti-engagement-strategy]]. Message: [[stephan-engagements]]. Execution prep below the line (private, verbal use only).
 
-# TTI Ty Brief: Execution Story (the "how" behind the claims)
+---
+
+# PART I: THE PUBLIC BRIEF
+
+## Julian Hart — Senior Technology Operator
+
+**For Ty Staviski, Group Deputy CFO · via Stephan Pudwill · July 2026**
+
+*(Only the content below this section is sent. Strip the frontmatter and the execution prep when forwarding.)*
+
+**In one line:** 25+ years delivering enterprise technology for global telecoms and international banks, across four disciplines that usually take four hires, now AI-leveraged, based in Hong Kong.
+
+### Four wheelhouses, all evidenced
+
+- **Cybersecurity** (CISSP). Solution lead on Telstra's largest-ever cybersecurity deal (US$10M); built a US$25M+ managed-security portfolio: SASE, Zero Trust, SIEM/SOAR, identity.
+- **Enterprise architecture** (TOGAF). Global Head of Enterprise Solution Architecture at Telstra International; across BT and Telstra, governed and assured US$200M+ of complex designs to cost, capability and quality.
+- **Technology and programme delivery.** Governed and assured US$300M+ of managed-services transformation for global MNCs, delivered without business disruption; lead architect on a US$90M network, infrastructure and security transformation across two data centres and 80 global sites.
+- **Networking** (CCIE #16992). A career built on enterprise networks: FTSE100 network design authority, data-centre fabrics, SD-WAN and SASE at global scale.
+
+### The multiplier
+
+I have spent the past year rebuilding how I work around AI: agentic workflows and a personal AI operating system. This is not a strategy I am selling; it is simply how I now work. It means one senior operator covers ground that used to take several, in all four disciplines above.
+
+### How I operate
+
+At whatever altitude the work needs: senior enough to own a programme or govern an architecture, hands-on enough to build what it needs myself. Commercially driven: I run technology with an eye on cost and value, with formal grounding in IT financial management (FinOps, CTBME). A bridge between international leadership and Asia: I have delivered across APAC, EMEA and the Americas for US, British and Asian multinationals.
+
+### The offer
+
+Plug me into an initiative you or your leaders already run: security, architecture, infrastructure, or a delivery programme that needs senior weight in region. Time-boxed consulting engagement through my Hong Kong company: no headcount, delivered remotely wherever the work needs, simple to start, simple to stop. If I am not clearly paying for myself, you will hear it from me first.
+
+---
+
+# PART II: EXECUTION PREP (PRIVATE — VERBAL USE ONLY)
+
+> **PRIVATE PREP. NOT FOR SENDING.** This is the "how" behind every bold claim in the brief above. Its job: let Julian answer *"okay, how would you actually do this?"* fluently and concretely in the room with Ty, without giving away the full playbook in writing. **Respects the generosity-leak guardrail** in [[tti-engagement-strategy]]: the brief carries the *what/why*; the *how* is Julian's competence in conversation and the paid deliverable. Verbal use only. Built collaboratively, claim by claim.
 
 ## Purpose
 
-For each bold claim the brief makes, this doc records the concrete mechanism that
-makes it true and deliverable: the **Claude platform features**, the **AI OS /
-skills** Julian has built, and the **workflow automation** he runs. So that when
-Ty probes the how, Julian speaks from a real, demonstrable operating system, not
-a promise.
+For each bold claim the brief makes, this section records the concrete mechanism that makes it true and deliverable: the **Claude platform features**, the **AI OS / skills** Julian has built, and the **workflow automation** he runs. So that when Ty probes the how, Julian speaks from a real, demonstrable operating system, not a promise.
 
 ---
 
@@ -86,16 +122,16 @@ The sharpest execution story, backed by verified research ([[tbm-vs-finops]], wh
 
 ## C. Claim to How map
 
-*Keyed to [[tti-ty-brief]] sections. Detail for rows 3, 5 and 6 is in the two sections below the table.*
+*Keyed to the Public Brief sections above. Detail for rows 3, 5 and 6 is in the two sections below the table.*
 
 | # | Brief claim | The "how" (mechanism + tools + automation) | Status |
 |---|---|---|---|
-| 1 | "one experienced operator, AI-leveraged, absorbing the work of several" / "produce, solo, at a level that used to take a team" (In brief, §2) | Breadth + orchestration. Julian runs functions that are normally separate people (a PMO, a research analyst, a lead-gen pipeline, a decision board) on one AI OS. **Live proof:** this brief and the three verified research briefings were produced solo, orchestrating 5 to 11 AI agents each (see §B). | drafted |
-| 2 | "agentic workflows and a personal operating system" (§2) | Real and demonstrable: multi-agent orchestration, multi-model review (Fable vs Opus), the ~15-skill library, MCP integrations (see §A). The "operating system" is the wiki + skills that actually run Julian's week. | drafted |
-| 3 | "resource design: what needs human judgment, what AI can carry, how they fit" (§3) | The mechanics of deciding the human/AI line. See **C1: Resource-design mechanics** below: the bottleneck-to-tool toolbox + the A/B/C liability taxonomy. | drafted |
-| 4 | The hiring-arbitrage / cost method: how you'd actually find the savings (§4) | Whole-estate **TBM cost-to-value**, not cloud FinOps. Leverage commodity FinOps tooling for the cloud slice; use AI to build the GL-to-business-capability allocation model across infra, apps, licences and labour, fast. The defensible part is **brokering** the model (Finance + Engineering agree), not the analytics. See B2 + [[tbm-vs-finops]]. | drafted |
-| 5 | "the same discipline covers security and governance… NIST CSF… automates" (§5) | Security instance of resource design: AI carries enrichment, triage, evidence fusion and detection drafting under NIST CSF; humans own risk acceptance, privilege changes and disclosure. Line: **"AI automates the preparation for judgment, not the accountability for judgment."** Framed as EA/risk work (CISSP + EA), not a bolt-on. Safe numbers in §E. | drafted |
-| 6 | What "discovery + first proof on one workflow" actually looks like in the first ~90 days (§6) | The engagement shape. See **C2: The 90-day timebox** below: observe, find the bottleneck, apply the smallest effective tool, measure and expand, as one timebox with the kill-clause at the discovery/build boundary. | drafted |
+| 1 | "one experienced operator, AI-leveraged, absorbing the work of several" / "produce, solo, at a level that used to take a team" | Breadth + orchestration. Julian runs functions that are normally separate people (a PMO, a research analyst, a lead-gen pipeline, a decision board) on one AI OS. **Live proof:** this brief and the three verified research briefings were produced solo, orchestrating 5 to 11 AI agents each (see §B). | drafted |
+| 2 | "agentic workflows and a personal operating system" | Real and demonstrable: multi-agent orchestration, multi-model review (Fable vs Opus), the ~15-skill library, MCP integrations (see §A). The "operating system" is the wiki + skills that actually run Julian's week. | drafted |
+| 3 | "resource design: what needs human judgment, what AI can carry, how they fit" | The mechanics of deciding the human/AI line. See **C1: Resource-design mechanics** below: the bottleneck-to-tool toolbox + the A/B/C liability taxonomy. | drafted |
+| 4 | The hiring-arbitrage / cost method: how you'd actually find the savings | Whole-estate **TBM cost-to-value**, not cloud FinOps. Leverage commodity FinOps tooling for the cloud slice; use AI to build the GL-to-business-capability allocation model across infra, apps, licences and labour, fast. The defensible part is **brokering** the model (Finance + Engineering agree), not the analytics. See B2 + [[tbm-vs-finops]]. | drafted |
+| 5 | "the same discipline covers security and governance… NIST CSF… automates" | Security instance of resource design: AI carries enrichment, triage, evidence fusion and detection drafting under NIST CSF; humans own risk acceptance, privilege changes and disclosure. Line: **"AI automates the preparation for judgment, not the accountability for judgment."** Framed as EA/risk work (CISSP + EA), not a bolt-on. Safe numbers in §E. | drafted |
+| 6 | What "discovery + first proof on one workflow" actually looks like in the first ~90 days | The engagement shape. See **C2: The 90-day timebox** below: observe, find the bottleneck, apply the smallest effective tool, measure and expand, as one timebox with the kill-clause at the discovery/build boundary. | drafted |
 
 ### C1. Resource-design mechanics (fills rows 3 and 5)
 
@@ -166,7 +202,6 @@ The value-prop's four stages, mapped to one timebox:
 ---
 
 ## Related
-- [[tti-ty-brief]] - the artefact this backs (the what/why)
 - [[tbm-vs-finops]] - TBM (whole estate) vs FinOps (cloud) distinction, and the verified Storm briefing on where AI automates cost
 - [[fde-conversation-piece]] - the in-meeting verbal opener + leave-behind (FDE framing)
 - [[tti-engagement-strategy]] - strategy + the generosity-leak guardrail this doc respects
