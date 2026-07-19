@@ -33,9 +33,11 @@ Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." 
 
 **1. Director-level is a structural necessity, not ambition.** TTI APAC has multiple technology directors reporting into Tony Chung. Coordinating across them needs peer-level authority. A Principal is an individual contributor with no cross-director mandate. *This is organizational structure, not a title grab.* (Locked premise — see [[tti-engagement-strategy]] and [[tti-apac-technology-stakeholders]].)
 
-**2. The FinOps analogy: centralise the governance/commercial levers, federate execution.** Just as central FinOps owns commitment purchasing and rate governance (leveraging committed-use discounts nobody captures buying independently) while the SMEs own usage, central EA owns principles, reference architectures and adoption decision rights while the regional solution architects own implementation. The centre can commit to a shared platform because it sees the whole portfolio; a single region can't, so it silos. *(Native language for a finance/tax audience. Sell the shape, not RI-grade precision on the number.)*
+**2. The FinOps analogy: centralise the governance/commercial levers, federate execution.** Just as central FinOps owns commitment purchasing and rate governance (leveraging committed-use discounts nobody captures buying independently) while the SMEs own usage, central EA owns principles, reference architectures and adoption decision rights while the regional solution architects own implementation. The centre can commit to a shared platform because it sees the whole portfolio; a single region can't, so it silos. *(Native language for a finance/tax audience. Sell the shape, not RI-grade precision on the number.)* Full working: [[tti-ea-governance-value]] §2.
 
 **3. EA sits above the solution layer.** The EA value is the coordinating/governing layer, not the implementing layer. You don't design the ERP; you set the target, the principles, the integration standards and the conformance process, and govern it. The regional solution architects (who know SAP/Oracle deeply) work within that frame.
+
+**4. The mandate makes the board ≠ another committee (load-bearing — see [[tti-ea-governance-value]] §4).** Chartered by the CFO/Ty; regional directors sit ON it (their authority pooled, not confiscated); you chair but don't outvote; escalation ends at one named exec; KPI = committees retired. Without this, a hostile listener says "that's just one more committee chaired by the new guy." Have it cold.
 
 ## Candidate lines & messages (the bank)
 
@@ -62,10 +64,14 @@ Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." 
 
 *The killer objection first — have this ready.*
 
-- **"You'll just draw governance diagrams; we need someone who understands our application estate."**
-  > "The governance layer is precisely what's missing, and it's what's causing the committees. I partner with the regional solution architects who hold the deep application knowledge — I coordinate and govern, they implement. My job is to make their expertise compose across regions instead of each region diverging. That's the gap Ty described, and it's exactly the enterprise-architect's job, not the solution-architect's."
+- **"You'll just draw governance diagrams; we need someone who understands our application estate."** *(full three-part version in [[tti-ea-governance-value]] §5)*
+  > "The hard part isn't the diagram, it's getting six regions to actually adopt one and stick to it. Coordinating that is extremely time-consuming, and right now that cost is hidden — your senior people are being kept waiting while decisions bounce between silos and committees. That lost time is the problem the role removes. AI can do the grunt work underneath me; it can't hold the accountability or make the call. And I partner with your regional solution architects who hold the deep application knowledge — I coordinate and govern, they implement."
 
-- **[add more as they occur — Frank's sign-off timing, remit boundaries vs Tony, remote vs in-office, the "why a consultant not a hire" question, etc.]**
+- **"Where does the role report?"** 🟡 *Decide before the call.* Least-bad framing: chartered by the CFO, dotted-line to group technology leadership, explicitly NOT inside the regional (Tony) line. Don't improvise this live.
+- **"Why an external hire, not promote a regional architect?"** An internal regional promotion inherits that region's allegiance and can't be neutral across the others; the coordinating role needs someone with no regional axe — plus cross-industry EA-governance track record.
+- **"Where have you done this before?"** 🟡 *Supply your real story* — the governance forum that demonstrably retired reconciliation overhead (candidate: Telstra International EA governance, US$200M+ designs to one standard). Concrete before/after.
+- **"SAP or Oracle?"** 🟡 Answer the *process*, not the verdict: criteria (TCO, skills concentration, M&A roadmap, integration surface) decided once by the board with regional leads + US, not re-litigated per region.
+- **[add more as they occur — Frank's sign-off timing, remote vs in-office, "why a consultant not a hire", first-90-days.]**
 
 ## Related
 - [[tti-engagement-strategy]] — strategy, political read, director-level premise

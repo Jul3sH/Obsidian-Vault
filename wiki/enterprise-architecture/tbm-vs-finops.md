@@ -32,6 +32,15 @@ Full analysis, five-lens and citation-verified: [[tbm-finops-ai-automation-brief
 - **The unautomatable part is not the analytics, it is the cross-organisational allocation politics and data trust.** AI can generate candidate allocation rules in seconds; it cannot supply the neutral human who gets Finance and Engineering to agree on the model and own the number.
 - **Structural reason it stays defensible:** no single hyperscaler can automate the whole-estate view, because it spans boundaries and systems they do not own (and they have a conflict of interest in tools that might argue against their own bill).
 
+## The FinOps operating model (centralise governance, federate execution)
+
+Distinct from the *scope* distinction above: this is the FinOps *organisational* pattern, and it is a reusable operating-model template beyond cloud cost.
+
+- **Centralise the commercial/governance levers, decentralise execution.** A central function owns commitment purchasing (Reserved Instances, Savings Plans, Committed Use Discounts), rate governance, tagging/allocation policy and provisioning guardrails. The engineering teams (the SMEs) own *usage* — what they run and how — because they hold the domain knowledge. The centre never dictates how to build.
+- **Why centralising captures value: aggregation and commitment risk.** The centre pools demand across teams, so it hits higher discount tiers and can commit with confidence, and it takes the "will we actually use this" risk off individual teams. A single team can't commit, because it lacks the portfolio view and the risk appetite. The centre can, because it sees the aggregate.
+- **This is a general federated-governance pattern.** The same shape applies to enterprise architecture: centralise principles, reference architectures and adoption decision rights; federate implementation to regional/domain solution architects. The centre can commit to a shared platform because it sees the whole portfolio; a single region can't, so it silos. Applied to TTI's regional application-stack alignment in [[tti-ea-governance-value]].
+- **The honest boundary:** FinOps rate optimisation is mechanical and cleanly quantifiable; softer governance domains (EA conformance, standards adoption) are more political and less precisely measurable. The transferable claim is the operating-model *shape*, not the precision of the savings number.
+
 ## Key Takeaways
 
 - **FinOps = cloud financial management (a corner); TBM = the whole technology estate (everything).** Not the same principles scaled up.
@@ -42,3 +51,4 @@ Full analysis, five-lens and citation-verified: [[tbm-finops-ai-automation-brief
 - [[ai-strategy/_index|AI Strategy & Organisation]] — enterprise AI adoption patterns
 - [[tbm-finops-ai-automation-briefing]] — the verified deep dive (Storm Research v2)
 - [[tti-value-proposition]] — where this positioning is applied (career)
+- [[tti-ea-governance-value]] — the FinOps operating-model pattern applied as an EA-governance analogy (career)
