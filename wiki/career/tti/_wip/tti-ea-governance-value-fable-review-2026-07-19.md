@@ -83,7 +83,28 @@ As it stands, the argument **does not survive a hostile room.** It survives a fr
 2. **SAP-or-Oracle criteria** (§6) — confirm the actual evaluation criteria he'd name.
 Plus: supply the real "governance forum that retired committees" prior-proof story (§8).
 
+---
+
+## ROUND 2 (reviewing the hardened v2 → produced v3)
+
+Fable, still in role as hostile Tony. Verdict: **v2 survives the first minute of a hostile room, not the third.** 3 of 8 fully closed (AI-line weld, silo reframe, sequencing); the rest partial; the fatal mandate gap only half-filled. The fixes opened new attacks:
+
+**New FATAL #1 — the charter has no charterer.** "Chartered by the CFO/Ty" collapses on "name them": Frank Chan (Group CFO) is leaving; Ty is only *Deputy*; the CIO (Tom Uva) is absent from the design; and no single named exec sits above both APAC tech and Milwaukee IT (the escalation terminus). A finance-only charter over tech directors = "architecture by spreadsheet."
+→ *Fix applied v3 §4:* joint charter (Ty + group tech leadership), Frank explicitly not load-bearing, 🟡 the above-both-regions escalation name flagged as the top open item.
+
+**New FATAL #2 — the no-outvote board is a suicide clause.** Tony's cleanest kill: instruct his directors to attend politely and never agree. No outvote + no technical arbitration + no deadlock-breaker = board decides nothing, "committees retired" KPI fires Julian.
+→ *Fix applied v3 §4:* decision SLA (auto-escalate) + ratification rule (silence = consent).
+
+**Serious — resource starvation** of a floating coordinator with no line reports. → *Fix v3 §4:* resourcing committed at charter.
+**Serious — the tax model invites the cheaper fix** ("cancel the committees for free"). → *Fix v3 §5:* can't cancel without replacing the decision function; bring one real latency example.
+**Serious — risk-transfer onto an entity with no book.** → *Fix v3 §2:* welded to the charter executive's decision.
+**Minor — "committees retired" is gameable** (rename to "alignment sync"). → *Fix v3 §4:* defined + calendar-audit baseline.
+
+**Round-2 single highest-value remaining fix:** 🟡 **name the charter** — who specifically grants and enforces the decision rights given Frank's exit, Ty's deputy status, and Uva's existence; and the one exec above both regions. Everything else in §4 is scaffolding around that name. Close-second: the parked prior-proof story — survivable before Kari, fatal before Ty.
+
+**Factual flag (out of role):** the doc previously said "chartered by the CFO/Ty" as if interchangeable; the stakeholder file has Frank Chan as Group CFO (leaving) and Ty as Deputy, with Tom Uva (CIO) absent from the governance design. Corrected in v3.
+
 ## Related
-- [[tti-ea-governance-value]] — the source doc under review
+- [[tti-ea-governance-value]] — the source doc under review (now v3)
 - [[tti-kari-call-prep]] — the talking bank these fixes feed
-- [[tti-engagement-strategy]] — director-level premise, Pivar guardrail, political read on Tony
+- [[tti-engagement-strategy]] — director-level premise, mandate principle, Pivar guardrail, political read on Tony

@@ -23,6 +23,22 @@ counterparty: Kari (HK tax + IT influence)
 
 Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." He wants a call within days. This doc is the bank of things to *say* — reviewed before the call, not sent. Pick the sharpest lines for the moment; don't recite the whole thing.
 
+## ⭐ The one thing (from the Fable call sim — [[tti-kari-call-simulation-2026-07-19]])
+
+**Leave the call having changed the sentence Kari says to Frank, without Kari noticing he was corrected.** In: "adding IT support, Julian could be the guy." Out: "the director-level governance role Ty wants, it pays for itself, I can put it to Frank." Mechanism = **attribution**: the altitude comes from *Ty's* description and from *cost logic Kari completes himself* — never from your ambition. Make him feel he *discovered* the bigger role.
+
+## Tactical moves (from the call sim — highest-value, use these)
+
+1. **Never correct "IT support" — redirect.** Open with *"what did you take from your conversation with Ty?"* Let **Ty's words** lift the altitude; Kari authored "IT support," so you contradicting it contradicts *him*.
+2. **"The cheap version isn't cheaper."** Turn director-level from status into *wasted money*: a coordinator below Tony's directors gets politely ignored — full salary, role that structurally can't deliver.
+3. **On the sysadmin role — validate + cost logic:** "a dedicated platform person would do it better at half the cost; putting me there wastes the money *and* the thing Ty asked for." Never disparage it; never claim you'd do it too.
+4. **One sentence of machinery MAX, then the treasury/FinOps analogy.** Charters/SLAs/ratification are Ty-grade and will lose Kari ("I'm a tax guy"). When he improves your analogy (he reframed it as central treasury vs each entity hedging its own FX), **surrender authorship instantly** — now he owns it and repeats it to Frank.
+5. **Refuse the number, offer the self-funding test:** "if it can't cover itself several times over in year one, it shouldn't exist, and I'd say so first." Don't anchor a salary in a call with no role definition.
+6. **Extract his read on Frank:** *"what would Frank need to see for the governance version to be sign-able rather than parkable?"* (His answer in the sim: Ty owns it on paper; a rough number; it must not look like a fight with Tony.)
+7. **School deadline — once, late, candour-with-an-easy-out:** "tell me if it can't move until after Frank goes." Never pressure.
+
+**🆕 NEW DELIVERABLE Kari will ask for:** a **numbers-shaped half-page** ([[tti-cfo-brief]], drafted). After a Fable red-team it's reframed: the ask is **a costless two-week coordination audit** (pull the committee calendar, dollarise the senior-hours) **with a pre-agreed threshold that auto-decides the role** — NOT "fund the role" (circular; a CFO won't spend to discover if spending was justified). Targeted at Ty. Sends only once Julian sets the threshold multiple + role cost. **Sequence Tony first** — he must hear it before it reaches a sign-off desk.
+
 ## The call: objective + altitude guardrail
 
 **Objective:** get Kari to (1) accept that the platform-engineering gap is manageable, (2) see the real value as EA/governance alignment, and (3) back a **director-level** role, then read his appetite for Frank's sign-off before the mid-August school deadline.
