@@ -1,12 +1,12 @@
 ---
 type: reference
-tags: [career, tti, technology, skills, platform-engineering]
+tags: [career, tti, technology, skills, platform-engineering, automation, iac, devops]
 created: 2026-07-19
 ---
 
 # TTI — Platform Engineering Skills Bridge (Sysadmin Capability Plan)
 
-> How Julian closes the one genuine gap in the [[TTI Principle System Administrator|Principal System Administrator]] JD - hands-on **Platform Engineering & Operations** - using a curated, governed catalogue of agent skills and MCP servers, run through OpenCode / Claude Code. Serves two jobs: (1) a real capability-building plan, and (2) talking-track for a live TTI conversation where "could you actually do this?" may come up.
+> How Julian closes the two hands-on blocks of the [[TTI Principle System Administrator|Principal System Administrator]] JD - **Platform Engineering & Operations** (the real gap, §1-4) and **Automation, IaC & DevOps** (a partial gap but the strongest skill-supported block, §5) - using a curated, governed catalogue of agent skills and MCP servers, run through OpenCode / Claude Code. Serves two jobs: (1) a real capability-building plan, and (2) talking-track for a live TTI conversation where "could you actually do this?" may come up.
 
 Related: [[tti-technology-stack]] · [[tti-technology-organisation]] · [[tti-cybersecurity]] · [[master-resume]] · [[TTI Principle System Administrator]]
 
@@ -72,12 +72,15 @@ The right posture is **trust-tiered adoption**: vendor-official first, high-repu
 | Red Hat AAP MCP server (Ansible Automation Platform 2.6.4+) | Official Ansible playbook execution via MCP | TTI runs RHEL + Ansible - direct fit |
 | pulumi/agent-skills (`pulumi-esc`, `pulumi-best-practices`) | Official IaC secrets/config + safe-pattern skills | IaC discipline patterns transferable to Terraform/Ansible |
 
-### Tier 2 — High-reputation community (battle-tested, some in Anthropic marketplace)
-| Source | What it gives | Trust signal |
+### Tier 2 — High-reputation community (contents verified by direct inspection)
+| Source | Skills relevant to this plan | Trust signal |
 |---|---|---|
-| [obra/superpowers](https://github.com/obra/superpowers) | `systematic-debugging` (RCA / hypothesis testing), TDD, collaboration patterns | ~94k stars; **accepted into the Anthropic skills marketplace** |
-| [wshobson/agents](https://github.com/wshobson/agents) | `incident-runbook-templates` (detect→triage→mitigate→resolve→comms), `k8s-security-policies`, `gitops-workflow` | High-star, widely referenced |
-| jeffallan/claude-skills | `monitoring-expert` (structured logging, metrics, tracing, alerting), `devops-engineer` (CI/CD, multi-cloud IaC), `sre-engineer` (SLO/SLI, error budgets, golden signals) | Referenced in Pulumi's DevOps skill roundup |
+| [majiayu000/claude-skill-registry](https://github.com/majiayu000/claude-skill-registry) | `administering-linux` — systemd, process mgmt, filesystem, user admin, performance tuning (sysctl/ulimits/IO scheduler), journald log analysis, firewalld, dnf (RHEL) — the primary OS-level sysadmin skill | Community registry; **contents verified** — covers RHEL specifically |
+| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | `windows-infra-admin` — AD (user/group/OU/trusts/replication), DNS/DHCP, GPO (linking/filtering/WMI/backup), server roles, safe-change engineering (pre/post verification, rollback) | 139 production installs; passing security audit; **contents verified** |
+| [leogallego/claude-ansible-skills](https://github.com/leogallego/claude-ansible-skills) | 7 skills: `ansible-new-role` (role scaffolding for packages/services/configs/users/firewall/storage), `ansible-good-practices` (CoP review, severity classification), `ansible-new-molecule` (test environments), `ansible-new-ee` (execution environment packaging), `ansible-docs`, `ansible-new-collection`, `ansible-zen` | Red Hat Communities of Practice alignment; **contents verified** |
+| [wshobson/agents](https://github.com/wshobson/agents) | `incident-runbook-templates`, `postmortem-writing`, `on-call-handoff-patterns`, `bash-defensive-patterns`, `prometheus-configuration`, `grafana-dashboards`, `slo-implementation`, `gitops-workflow`, `k8s-security-policies`, `terraform-module-library` | High-star, widely referenced; **contents verified** |
+| [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) | `monitoring-expert` (Prometheus/Grafana/OpenTelemetry/k6/alerting), `devops-engineer` (CI/CD pipelines, containers, K8s, blue-green/canary/rolling deployments), `sre-engineer` (SLO/SLI, error budgets, burn rates, chaos engineering, Python auto-remediation) | 66 skills; referenced in Pulumi DevOps roundup; **contents verified** — cloud-native/SRE focus, not OS-level sysadmin |
+| [obra/superpowers](https://github.com/obra/superpowers) | `systematic-debugging` — **software** debugging methodology (4-phase RCA for code, TDD, review patterns). Transferable mindset only; **not** infrastructure ops. Previously mismapped; corrected here. | ~94k stars; Anthropic marketplace — but scope is software development, not sysadmin |
 
 ### Tier 3 — Curated aggregators (discovery only; vet before use)
 | Source | Scale |
@@ -96,24 +99,224 @@ The right posture is **trust-tiered adoption**: vendor-official first, high-repu
 
 ---
 
-## 4. Skill-to-Responsibility Map (Platform Engineering & Operations)
+## 4. Skill-to-Responsibility Map — Platform Engineering & Operations (detailed)
 
-| JD sub-domain | Skill / MCP to adopt | Source tier | Coverage maturity |
-|---|---|---|---|
-| Windows Server / Linux (RHEL) admin | `devops-engineer`, `sre-engineer` + native PowerShell/Bash via Claude Code | T2 | Good |
-| Virtualization (VMware / Hyper-V) | Emerging MCP servers only; **thin skill coverage** | — | **Gap - needs personal ramp** |
-| Storage & backup / DR | `incident-runbook-templates`, DR runbook patterns | T2 | Moderate |
-| Directory services / identity (AD, GPO, DNS, DHCP, PKI, ADFS) | Scripting + MCP; **thin dedicated skill coverage** | — | **Gap - needs personal ramp** |
-| Monitoring, logging, config mgmt | `monitoring-expert` + **New Relic MCP** (TTI already owns New Relic) | T2 / vendor | Good |
-| Incident resolution / RCA | `systematic-debugging` (obra/superpowers), `incident-runbook-templates` | T2 | Strong |
-| Capacity / patching / lifecycle | Red Hat AAP / Ansible skills | T1 | Good |
-| Automation / IaC (Ansible, Terraform) | `hashicorp/terraform-mcp-server`, Red Hat AAP MCP, `pulumi-best-practices` | T1 | Strong |
+> Skills were inspected directly before this map was written. Coverage ratings reflect what each skill actually contains, not what its name implies.
 
-**The two honest holes are VMware/Hyper-V operations and AD/PKI internals** - where the skill ecosystem is thinnest and where Julian therefore needs the most personal lab time. Everything else has credible skill/MCP support today.
+### 4a. Linux / RHEL Administration
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| Service management | Start/stop/restart/enable services; boot persistence; follow service logs | `administering-linux` (majiayu000) | systemd operations: start/stop/restart/enable; journalctl log following; unit file locations and priorities | **Good** |
+| Process management | Monitor running processes; send signals; adjust priority | `administering-linux` | top/htop monitoring; signal management (kill/killall); nice/renice for priority adjustment; process states (running/sleeping/I-O wait/zombie/stopped) | **Good** |
+| Package management & patching | Install, update, remove, search packages; OS patching cycle | `administering-linux` (dnf for RHEL) + `ansible-new-role` (leogallego) for fleet-scale | administering-linux: dnf commands for RHEL/CentOS (install/update/remove/search); ansible-new-role: scaffolds patch management plays with package and service task blocks and handlers | **Strong** |
+| Filesystem & disk management | Disk usage monitoring; filesystem operations; permissions management | `administering-linux` | df/du disk usage and directory analysis; filesystem types (ext4, XFS, Btrfs, ZFS); filesystem hierarchy; permissions management | **Good** |
+| User & group administration | Create/modify/delete users; password management; sudo group assignment | `administering-linux` + `ansible-new-role` | administering-linux: create user with home dir, password mgmt, group assignment (sudo), user deletion; ansible-new-role: scaffolds user management playbooks with variable-driven defaults | **Good** |
+| Performance tuning | Kernel parameter tuning; resource limits; I/O and CPU optimisation | `administering-linux` | sysctl parameter configuration; ulimits via /etc/security/limits.conf; I/O scheduler tuning; CPU governor settings | **Good** |
+| Log analysis | Query systemd journal; filter by time/severity; correlate with metrics | `administering-linux` | journalctl queries with time and severity filters; grep pattern search across logs; correlation of log findings with system metrics | **Good** |
+| Network configuration | IP and routing management; socket statistics; firewall rules | `administering-linux` | IP address management; routing tables; ss socket statistics; **firewalld configuration (RHEL-specific)** — the skill explicitly covers the RHEL firewall tool | **Good** |
+| SSH hardening | SSH config hardening; key management | `administering-linux` | SSH hardening workflow provided as a practical example; key management procedures not detailed | **Partial** — hardening config yes; full key lifecycle no |
+| Configuration management at scale | Drive consistent configuration across multiple RHEL hosts | `ansible-new-role` + `ansible-good-practices` (leogallego) | ansible-new-role: interactive scaffolding for roles managing packages, services, configs, users, firewall, storage — with task componentization and smart handler generation; ansible-good-practices: reviews against Red Hat CoP standards with ERROR/WARNING/INFO severity classification and diff-aware mode | **Strong** |
+| Incident RCA (Linux) | Triage OS-level failures; identify root cause; define corrective actions | `administering-linux` (log/metric correlation) + `incident-runbook-templates` (wshobson) | administering-linux provides the investigation toolset (logs, process, network); incident-runbook-templates provides the procedure structure (detection→triage→mitigation→resolution→comms) | **Good** |
+
+**Linux/RHEL coverage verdict: Good-to-Strong across all major sysadmin activities.** `administering-linux` is a genuine OS-level skill covering the full surface; the leogallego Ansible skills extend it to fleet-scale configuration management. No significant gaps on the Linux/RHEL side.
 
 ---
 
-## 5. TTI-Specific Alignment (why these skills, not generic ones)
+### 4b. Windows Server Administration
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| Active Directory management | User/group/computer/OU CRUD; delegation; access controls; identity lifecycle; trusts; replication; domain/forest config | `windows-infra-admin` (VoltAgent) | Automates full AD identity operations: user/group/computer/OU management, delegation and access control validation, trust and replication management, domain/forest configurations | **Strong** |
+| DNS management | Zone and record management; scavenging; auditing; backup/restore | `windows-infra-admin` | Zone and record management with scavenging and auditing; backup and restoration of DNS | **Good** |
+| DHCP management | Scope configuration; reservations; policies; backup/restore | `windows-infra-admin` | DHCP scope config, reservations, and policies; backup and restore | **Good** |
+| Group Policy | GPO design; linking; security filtering; WMI filters; backup; comparison reporting | `windows-infra-admin` | GPO linking, security filtering, WMI filter management; GPO backup generation and comparison reporting; CIS benchmark GPO hardening | **Strong** |
+| Server roles & services | IIS administration; certificate management; WinRM; SMB configuration | `windows-infra-admin` | Server role, certificate, WinRM, SMB, and IIS administration explicitly covered | **Good** |
+| Safe change engineering | Pre-change verification; post-change validation; rollback procedures; impact assessment; maintenance windows | `windows-infra-admin` | Pre-change verification, post-change validation with rollback options, impact assessments, maintenance window coordination — explicitly a design feature of the skill | **Strong** |
+| PowerShell automation | Automate Windows admin tasks; scripted configuration | Claude Code native + `windows-infra-admin` | Claude Code generates/executes PowerShell natively; windows-infra-admin uses PowerShell as its execution layer throughout all its activities | **Good** |
+| Patching / WSUS | Windows Update management; WSUS server configuration; patch group policy; compliance reporting | **No skill found** | No skill covers WSUS configuration, patch group management, approvals, or Windows patching workflows. PowerShell scripting possible but no encoded procedure. | **GAP** |
+| Hybrid identity | Azure AD Connect; ADFS federation; hybrid SSO; password hash sync | **No skill found** | windows-infra-admin explicitly omits hybrid identity. No dedicated skill found in any repository searched. | **GAP** |
+| Failover Clustering / HA | Windows Server Failover Cluster setup; quorum; witness; cluster-aware patching; live migration | **No skill found** | No skill covers WSFC, quorum configuration, or cluster-aware patching in any repository searched. | **GAP** |
+| Storage / SAN (Windows) | iSCSI initiator; MPIO; Storage Spaces; Disk Management; SAN LUN assignment | **No skill found** | No skill covers the Windows storage stack or SAN integration. Storage for Linux is partially covered via ansible-new-role but not for Windows. | **GAP** |
+| PKI / Certificate Services | Certificate Authority design; CA hierarchy; certificate lifecycle; OCSP | `windows-infra-admin` (broad) | windows-infra-admin covers certificate management broadly; PKI hierarchy design and CA configuration are not detailed. | **Partial** — certificate ops yes; CA/PKI architecture no |
+
+**Windows Server coverage verdict: Strong on AD/GPO/identity core and safe-change engineering. Good on DNS/DHCP/server roles. Four confirmed gaps: WSUS/patching, hybrid identity, Failover Clustering, and Windows storage/SAN.** The skills ecosystem is primarily Linux/cloud-native; the Windows operational surface is thinner by design. These gaps are real and honest.
+
+---
+
+### 4c. Virtualisation (VMware vSphere / Hyper-V)
+
+| Activity | Specific tasks | Skill | Coverage |
+|---|---|---|---|
+| vSphere administration | VM lifecycle, vCenter management, resource pools, snapshots, vMotion | **No skill found** | **GAP** |
+| ESXi host management | Host configuration, patching, networking, storage | **No skill found** | **GAP** |
+| Hyper-V administration | VM lifecycle, virtual switch management, Hyper-V replicas | **No skill found** | **GAP** |
+| vSAN / storage configuration | vSAN cluster setup, datastore management | **No skill found** | **GAP** |
+
+**Virtualisation is a confirmed and consistent gap across the entire skills ecosystem.** VMware and Hyper-V are on-premises platform technologies that the cloud-native and Linux-focused skills community has not yet covered. This is the block requiring the most direct personal ramp.
+
+---
+
+### 4d. Enterprise Storage & Backup / DR
+
+| Activity | Specific tasks | Skill | What the skill covers | Coverage |
+|---|---|---|---|---|
+| Backup strategy & execution | Backup job design; retention policies; backup target management | **No dedicated skill** | No skill found covering enterprise backup tools (Veeam, Commvault, Veritas, NetBackup) | **GAP** |
+| Restore testing | Restore procedure execution; RTO/RPO validation | `sre-engineer` (jeffallan) | RTO/RPO validation as part of chaos engineering/experiment design; not backup-tool-specific | **Partial** — recovery validation methodology yes; backup tool procedures no |
+| DR strategy & runbooks | DR plan documentation; failover/failback procedures; DR test scheduling | `incident-runbook-templates` (wshobson) | Runbook structure (detection→triage→mitigation→resolution) applicable to DR scenarios; not DR-platform-specific | **Partial** — runbook structure yes; DR platform specifics no |
+| NAS/SAN management | iSCSI/FC SAN configuration; NAS share management; LUN provisioning | **No skill found** | **GAP** |
+
+---
+
+### 4e. Monitoring, Logging & Configuration Management
+
+| Activity | Specific tasks | Skill | What the skill covers | Coverage |
+|---|---|---|---|---|
+| Infrastructure monitoring setup | Metric collection; alerting; dashboards | `monitoring-expert` (jeffallan) + `prometheus-configuration` + `grafana-dashboards` (wshobson) | Prometheus metrics (Counter/Histogram/Gauge), RED/USE methods, Grafana dashboards, alerting rules — **cloud/app-native tools** | **Good** — methodology strong; TTI runs New Relic, not Prometheus |
+| New Relic (TTI's actual stack) | APM, infrastructure monitoring, alerts | **New Relic MCP** (wire separately — TTI owns this) | New Relic MCP provides direct integration with TTI's existing investment; zero additional tooling cost | **Strong** — once the MCP is wired |
+| Log management | Centralised log collection; query; retention | `monitoring-expert` (jeffallan) | Structured JSON logging, correlation IDs, log analysis; platform-agnostic logging patterns | **Good** |
+| Configuration management | Enforce consistent config state across fleet | `ansible-new-role` + `ansible-good-practices` (leogallego) + Red Hat AAP MCP | Role scaffolding + CoP review + live playbook execution = end-to-end config management pipeline for the RHEL estate | **Strong** (for RHEL/Linux; Windows config mgmt has no Ansible equivalent in the skill set) |
+| On-call handoff | Context preservation across shifts; alert routing | `on-call-handoff-patterns` (wshobson) | Context preservation and alert routing during on-call transitions | **Good** |
+
+---
+
+### 4f. Incident Resolution & RCA
+
+| Activity | Specific tasks | Skill | What the skill covers | Coverage |
+|---|---|---|---|---|
+| Incident triage | Detection; severity classification; initial response | `incident-runbook-templates` (wshobson) | Runbooks for common incident scenarios with escalation paths; detection→triage→mitigation→resolution→comms structure | **Strong** |
+| Root cause analysis | Systematic investigation; hypothesis testing; evidence gathering | `administering-linux` (log/metric correlation for Linux) + `sre-engineer` (jeffallan) | administering-linux provides the Linux investigation toolset; sre-engineer provides structured chaos experiment design and RCA validation | **Good** (Linux/SRE context; VMware/Windows-specific RCA has no dedicated skill) |
+| Permanent corrective actions | Postmortem writing; action item definition; recurrence prevention | `postmortem-writing` (wshobson) + `sre-engineer` (jeffallan) | wshobson: RCA documentation and action items from incidents; jeffallan: blameless postmortem requirements | **Strong** |
+| Capacity planning | Performance baseline; trend analysis; growth forecasting | `monitoring-expert` (jeffallan) | CPU/memory bottleneck identification; capacity forecasting and scaling guidance | **Good** |
+
+---
+
+### Consolidated Platform Engineering Gap Register
+
+| Confirmed gap | Why it matters for TTI | Mitigation |
+|---|---|---|
+| VMware vSphere / Hyper-V operations | TTI's primary hypervisor platform — no skill exists | **Personal ramp essential**; foundational certification (VCP) recommended |
+| Windows patching / WSUS | Required for Windows Server lifecycle management across TTI's estate | **Personal ramp** + PowerShell-native scripting for now |
+| Hybrid identity (Azure AD Connect / ADFS federation) | TTI runs AD + ADFS + Azure; hybrid identity is live in their stack | **Personal ramp** — ADFS federation particularly important |
+| Failover Clustering / HA | HA for critical Windows workloads | **Personal ramp** if relevant to TTI's estate |
+| Windows storage / SAN | Storage provisioning for Windows workloads | **Personal ramp**; Linux-side covered via Ansible |
+| Enterprise backup tools (Veeam/Commvault etc.) | DR strategy requires hands-on backup platform knowledge | **Personal ramp**; runbook structure supported by skills |
+| PKI / CA hierarchy design | PKI architecture beyond certificate operations | Lower priority; `windows-infra-admin` covers certificate ops |
+
+---
+
+## 5. Automation, IaC & DevOps (dedicated block)
+
+### 5a. The position — Partial gap, strongest skill support
+This is a *separate* JD responsibility block from Platform Engineering & Operations, and Julian's position on it is different: **Partial, fast-learnable, and - importantly - the block where his adopted skill-tier is strongest.** The vendor-official Tier-1 skills (HashiCorp Terraform, Red Hat AAP/Ansible, Pulumi) map directly here, making this the *lowest-risk, highest-trust* part of the whole plan.
+
+What the block asks for (JD):
+- Drive automation of repetitive operational tasks via scripting (PowerShell, Python, Bash) and/or configuration-management tools
+- Promote IaC practices where appropriate (Ansible, Terraform) to improve consistency and repeatability
+- Collaborate with application, DevOps and security teams to streamline environment provisioning, configuration and deployment workflows
+
+Honest resume read:
+- **Have:** scripting/automation exposure; applied-AI sabbatical (agentic workflows, automation); a career setting design standards, ITIL change governance, and provisioning discipline; cloud provisioning familiarity (AWS SAA, Azure).
+- **The third sub-point is a strength, not a gap:** *"collaborate with app/DevOps/security to streamline provisioning"* is cross-functional influence-without-authority plus governance - exactly Julian's track record.
+- **Ramp target:** hands-on authoring of production Terraform modules / Ansible playbooks at operator depth, and CI/CD pipeline tooling hands-on.
+
+### 5b. Skill-to-Responsibility Map — Automation, IaC & DevOps (detailed)
+
+> Skills were inspected directly before this map was written. Coverage ratings reflect what each skill actually contains.
+
+#### Scripting Automation
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| PowerShell automation | Automate Windows admin tasks; scheduled tasks; configuration scripts | Claude Code native + `windows-infra-admin` (VoltAgent) | Claude Code generates and executes PowerShell natively with no additional skill needed; windows-infra-admin uses PowerShell as its execution layer throughout AD/DNS/DHCP/GPO automation | **Good** |
+| Bash scripting | Production-grade Bash for Linux/RHEL operations; operational scripts | `bash-defensive-patterns` (wshobson) | Defensive Bash programming techniques: error handling, input validation, safe patterns for production scripts — explicitly designed for production-grade shell work | **Strong** |
+| Python automation | Operational automation scripts; auto-remediation; monitoring integrations | `sre-engineer` (jeffallan) | Python auto-remediation scripts (e.g. pod restart on error threshold breach); scriptable alerting responses with PromQL integration — SRE/cloud-native context | **Good** — cloud/SRE patterns; RHEL OS-level Python automation not explicitly covered |
+
+---
+
+#### Ansible / Configuration Management
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| Playbook authoring | Write idempotent plays for packages, services, config, users, firewall, storage | `ansible-new-role` (leogallego) | Interactive scaffolding: asks what the role manages (packages / services / configs / users / firewall / storage) and generates realistic variable defaults, tasks, handlers, and templates; includes task componentization and smart handler generation | **Strong** |
+| Code quality & CoP review | Review playbooks against best practices; enforce Red Hat standards | `ansible-good-practices` (leogallego) | Reviews against Red Hat Communities of Practice standards; ERROR/WARNING/INFO severity classification; diff-aware mode for changed files only; category filtering and parallel review | **Strong** |
+| Role testing | Test-driven development for Ansible roles before production | `ansible-new-molecule` (leogallego) | Molecule scaffolding with modern molecule.yml (no legacy driver blocks); self-contained create/destroy playbooks for Docker or Podman with systemd support; enables test-driven role development | **Strong** |
+| Execution environment packaging | Package collections, Python, and system dependencies for consistent deployment | `ansible-new-ee` (leogallego) | Dependency introspection: auto-detects collections, roles, Python, and system dependencies; generates requirements.yml, requirements.txt, bindep.txt; isolates execution environments for consistent deployments across infrastructure | **Strong** |
+| Documentation and Q&A | Answer Ansible questions grounded in official docs | `ansible-docs` (leogallego) | Q&A mode with citations from 6 official Ansible documentation sources; requires ansible-know MCP server | **Good** |
+| Live playbook execution | Run plays against TTI's RHEL estate in real time | Red Hat AAP MCP server (Tier 1) | Live playbook execution via Ansible Automation Platform; job template triggering; inventory management — requires AAP 2.6.4+ | **Strong** |
+| Collection development | Build custom Ansible modules for TTI-specific automation | `ansible-new-collection` (leogallego) | Creates collections using ansible-creator; generates plugin scaffolding for modules, filters, lookup, and action plugins; CI/CD pipeline and changelog setup | **Good** |
+| Design principles | Enforce simplicity and maintainability across Ansible code | `ansible-zen` (leogallego) | Enforces 20 Zen of Ansible principles; Zen Score rating (1-10); review mode evaluates code for simplicity and readability | **Good** |
+
+---
+
+#### Terraform / IaC
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| Module authoring | Write reusable Terraform modules for Azure, AWS, GCP | `terraform-module-library` (wshobson) | Reusable modules for AWS, Azure, and GCP infrastructure — directly aligned with TTI's Azure-primary, AWS-secondary cloud posture | **Good** |
+| State & workspace management | Workspace CRUD; variable management; run execution; HCP Terraform/Enterprise | `hashicorp/terraform-mcp-server` (Tier 1 — official HashiCorp) | Workspace create/update/delete; variable and tag management; run management and execution; HCP Terraform and Terraform Enterprise integration; state interactions; private registry access | **Strong** |
+| Provider & module discovery | Find providers, modules, and policies from the Terraform registry | `hashicorp/terraform-mcp-server` (Tier 1) | Provider searching and detailed lookups; module discovery and analysis; policy information retrieval; private organisation registry access | **Strong** |
+| IaC secrets & safe patterns | Secrets management; OIDC dynamic credentials; drift prevention; safe resource dependencies | `pulumi-esc` + `pulumi-best-practices` (pulumi/agent-skills — Tier 1 official) | ESC: secrets and config management with OIDC, dynamic credentials, and secret store integration; best-practices: prevents apply()-callback mistakes, enforces proper resource dependencies, ensures secret encryption | **Good** — Pulumi-native; principles are fully transferable to Terraform but the implementation detail is Pulumi-specific. For TTI's Terraform stack, HashiCorp MCP is the primary execution layer. |
+
+---
+
+#### CI/CD & Deployment
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| CI/CD pipeline design | GitHub Actions, GitLab CI, Jenkins pipeline creation; release automation | `devops-engineer` (jeffallan) | Pipeline creation for GitHub Actions, GitLab CI, Jenkins; artifact management; release automation with approval gates; rollback procedures with verification steps | **Strong** |
+| Deployment strategies | Blue-green, canary, rolling deployments; minimising risk during releases | `devops-engineer` (jeffallan) | Blue-green, canary, and rolling deployment patterns with concrete implementation examples; rollback commands and verification steps for Kubernetes | **Strong** |
+| GitOps workflows | ArgoCD/Flux CD; declarative cluster state; sync automation | `gitops-workflow` (wshobson) + `devops-engineer` (jeffallan) | gitops-workflow: ArgoCD and Flux CD deployment automation; devops-engineer: GitOps implementations as part of K8s deployment management | **Strong** |
+| Container build & hardening | Multi-stage Dockerfiles; health checks; image scanning in CI | `devops-engineer` (jeffallan) | Multi-stage Dockerfiles with health checks; container scanning in CI/CD pipelines; resource limits enforcement; no "latest" tags in production | **Strong** |
+| Kubernetes deployments | Production K8s; Helm charts; RBAC; network policies; pod security | `devops-engineer` (jeffallan) + `k8s-security-policies` (wshobson) | devops-engineer: K8s deployments, Helm, rollbacks, readiness probes; k8s-security-policies: NetworkPolicy, PodSecurityStandards, RBAC, admission control | **Strong** |
+| Environment provisioning (cross-team) | Streamline provisioning across app, DevOps, and security teams | `devops-engineer` (jeffallan) + Julian's governance/influence strength | Internal developer platform construction; self-service infrastructure tooling — Julian's cross-functional influence-without-authority track record is the differentiator here | **Strong** — this is Julian's existing strength amplified by the toolchain |
+| On-premises workload provisioning | Automate bare-metal or VMware-based environment setup | **Thin skill coverage** | devops-engineer and gitops-workflow are cloud/container-native; on-prem VMware provisioning automation has no dedicated skill | **Partial** — Ansible covers configuration; provisioning automation for VMware is a gap |
+
+---
+
+#### Observability, SRE & Incident Response
+
+| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
+|---|---|---|---|---|
+| Monitoring setup | Metric collection; Prometheus scrape config; RED/USE method dashboards | `monitoring-expert` (jeffallan) + `prometheus-configuration` (wshobson) | Prometheus client libraries (Counter/Histogram/Gauge); RED method (Rate/Errors/Duration) and USE method (Utilization/Saturation/Errors); Grafana dashboards; DataDog also mentioned | **Strong** — methodology; TTI uses New Relic (wire MCP separately) |
+| Distributed tracing | OpenTelemetry instrumentation; span tracking; Jaeger integration | `monitoring-expert` (jeffallan) | OpenTelemetry instrumentation; span creation and attribute tracking; Jaeger integration | **Good** |
+| Alerting | Threshold and anomaly-based alerts; multiwindow burn rate alerts | `monitoring-expert` (jeffallan) + `sre-engineer` (jeffallan) | Prometheus alerting rules; anomaly detection; multiwindow burn rate alerts for fast and slow detection | **Strong** |
+| SLO/SLI definition | Quantitative reliability targets; error budget policies; burn rate escalation | `sre-engineer` (jeffallan) + `slo-implementation` (wshobson) | Quantitative SLO/SLI definition; error budget calculation from targets; burn rate detection; release freeze policies when budgets deplete; PromQL queries for golden signals | **Strong** |
+| Chaos engineering | Fault injection; resilience testing; RTO/RPO validation | `sre-engineer` (jeffallan) | Chaos experiment design and execution; graceful degradation testing; RTO/RPO validation before declaring experiments complete | **Good** |
+| Incident runbooks | Standard procedures for common failures; escalation paths | `incident-runbook-templates` (wshobson) | Runbooks for common incident scenarios; detection→triage→mitigation→resolution→comms structure; escalation path definition | **Strong** |
+| Postmortems & RCA | Blameless postmortem writing; action item definition | `postmortem-writing` (wshobson) + `sre-engineer` (jeffallan) | wshobson: RCA documentation and action items; jeffallan: blameless postmortem requirements and chaos experiment retrospectives | **Strong** |
+| On-call handoff | Context preservation; alert routing during shift transitions | `on-call-handoff-patterns` (wshobson) | Context preservation and alert routing during on-call transitions; structured handoff procedures | **Good** |
+| Performance testing | Load testing; benchmarking; capacity forecasting | `monitoring-expert` (jeffallan) | k6 load testing framework; Artillery referenced; benchmarking and threshold definition; CPU/memory bottleneck identification | **Good** |
+
+---
+
+**Coverage verdict: confirmed as the best-supported block in the plan.** Ansible (7 dedicated skills from a Red Hat CoP-aligned source), Terraform (vendor-official MCP), CI/CD and deployment strategies (jeffallan, all verified), observability and incident response (jeffallan + wshobson, all verified). Two bounded gaps:
+
+| Automation/IaC/DevOps gap | Nature | Mitigation |
+|---|---|---|
+| Windows patching automation (WSUS, Windows Update scripts) | No skill — consistent with the Windows sysadmin gap in §4 | PowerShell-native; personal ramp |
+| On-premises VMware provisioning automation | Skills are cloud/container-native; VMware automation (PowerCLI, Terraform vSphere provider) not covered | Terraform vSphere provider exists; personal ramp |
+
+### 5c. Talking-Track (Automation, IaC & DevOps)
+1. **Strength-first:** *"This is where my toolchain is strongest - the automation and IaC skills I'd use are all vendor-official: HashiCorp for Terraform, Red Hat for Ansible, Pulumi for IaC discipline. Highest-trust tier, lowest adoption risk."*
+2. **Fast ramp, honestly bounded:** *"I already have scripting and DevOps exposure. With those vendor skills the ramp to authoring production Terraform and Ansible is weeks, not months - and I'd govern it properly: state management, secrets, drift, review gates."*
+3. **The collaboration win:** *"The part about streamlining provisioning across app, DevOps and security teams is squarely my strength - I've spent a career landing design standards and change governance across teams I don't manage."*
+4. **Governance framing:** *"I bring IaC under standards rather than treating it as ad-hoc scripting - which is the 'design standards and best practices' line in the JD."*
+
+### 5d. Honest holes / ramp
+
+Coverage gaps identified from actual skill inspection:
+- **Windows patching automation (WSUS)** — no skill exists; PowerShell-native scripting only. Consistent with the Windows gap in §4.
+- **On-premises VMware provisioning automation (PowerCLI, Terraform vSphere provider)** — skills are cloud/container-native; this requires personal ramp. The Terraform vSphere provider exists and would be the right tooling path.
+- **Pulumi-specific implementation detail** — `pulumi-esc` and `pulumi-best-practices` encode Pulumi-native patterns. For TTI's Terraform/Ansible stack the principles transfer but the specific implementation does not; HashiCorp MCP is the primary IaC execution layer for TTI.
+
+Reps gaps (coverage exists, hands-on depth needs building):
+- **Production Terraform module authoring** — `terraform-module-library` + HashiCorp MCP provide the procedure and live tooling; needs reps to make fluent.
+- **CI/CD pipeline construction** — `devops-engineer` covers GitHub Actions/GitLab CI/Jenkins; needs reps on the tooling Julian hasn't used hands-on.
+
+---
+
+## 6. TTI-Specific Alignment (why these skills, not generic ones)
 
 From [[tti-technology-stack]], TTI's confirmed stack lets Julian pick skills that map to *their* environment, not a generic one:
 - **New Relic** - already in TTI's stack (since 2020). A New Relic MCP is zero-adoption-friction and lets Julian speak to *their* observability tool.
@@ -123,7 +326,7 @@ From [[tti-technology-stack]], TTI's confirmed stack lets Julian pick skills tha
 
 ---
 
-## 6. Conversation Talking-Track ("could you do it?")
+## 7. Conversation Talking-Track ("could you do it?")
 
 1. **Reframe:** *"The role is a technical authority for infrastructure - architecture, governance, cloud, AI, leadership. That's four of the six blocks and it's my core. The hands-on platform-ops block is where I'd ramp."*
 2. **Force-multiplier, precisely:** *"I run a curated toolchain of agent skills and MCP servers - skills carry the runbook, MCP servers drive the live tools. I supply the architecture and risk judgment; the toolchain carries the operator muscle. That compresses my ramp from years to weeks."*
@@ -133,20 +336,25 @@ From [[tti-technology-stack]], TTI's confirmed stack lets Julian pick skills tha
 
 ---
 
-## 7. Next Actions
+## 8. Next Actions
 - [ ] Adopt Tier-1 vendor-official skills/MCP first: HashiCorp Terraform MCP, Red Hat AAP/Ansible, Pulumi agent-skills, anthropics/skills template.
 - [ ] Add Tier-2: obra/superpowers (`systematic-debugging`), wshobson/agents (`incident-runbook-templates`), jeffallan (`monitoring-expert`, `sre-engineer`).
 - [ ] Wire a **New Relic MCP** (TTI already owns the platform).
 - [ ] Stand up a minimal home lab: Windows Server + AD + a hypervisor + a backup target; drive routine ops through the toolchain.
-- [ ] Close the two honest holes with focused personal ramp: **VMware/Hyper-V operations** and **AD/GPO/DNS/DHCP/PKI internals**.
-- [ ] Rehearse the §6 talking-track before the TTI conversation.
+- [ ] Build IaC reps in the lab: author one Terraform module + one Ansible role under proper state/secrets/review governance (§5).
+- [ ] Close the two honest platform-ops holes with focused personal ramp: **VMware/Hyper-V operations** and **AD/GPO/DNS/DHCP/PKI internals**.
+- [ ] Rehearse both talking-tracks (§7 platform-ops, §5c automation/IaC) before the TTI conversation.
 
 ---
 
 ## Key Takeaways
 - The gap is real but **narrow**: one of six JD blocks (hands-on Platform Engineering & Operations). The role's centre of gravity is Julian's existing strength.
 - **Skills + MCP servers = force-multiplier, not replacement.** Skills carry the procedure, MCP carries the tools, Julian carries the judgment. Articulating this distinction *is* the credibility.
-- **Adopt by trust tier:** vendor-official (HashiCorp, Red Hat, Pulumi, Anthropic) first, high-reputation community (obra/superpowers, wshobson) second, aggregators for discovery, bundles with caution.
+- **Adopt by trust tier:** vendor-official (HashiCorp, Red Hat, Pulumi, Anthropic) first, inspected community second (majiayu000 `administering-linux`, VoltAgent `windows-infra-admin`, leogallego Ansible skills, wshobson, jeffallan), aggregators for discovery, bundles with caution.
 - **The gap becomes a governance strength:** curating and vetting a safe enterprise skill catalogue is exactly the design-standards + security-partnership work the JD asks for.
-- **Two honest holes** (VMware ops, AD/PKI internals) have thin skill coverage and need personal lab time. Don't over-claim; ramp them directly.
-- Map skills to **TTI's actual stack** (New Relic, Ansible, Terraform, VMware, RHEL, AD) so the pitch is about *their* environment, not a generic one.
+- **Linux/RHEL is well-covered** (§4a): `administering-linux` covers the full OS-level sysadmin surface; leogallego Ansible skills extend it to fleet-scale config management. No significant coverage gaps.
+- **Windows Server is partially covered** (§4b): AD/GPO/DNS/DHCP/server roles/safe-change are Strong-to-Good. Four confirmed gaps: **WSUS/patching, hybrid identity, Failover Clustering, Windows storage/SAN**. These need personal ramp.
+- **VMware/Hyper-V is a confirmed ecosystem gap** (§4c): no skill found anywhere. Most significant personal ramp requirement.
+- **Automation, IaC & DevOps is the strongest-covered block** (§5): Ansible (7 Red Hat CoP skills), Terraform (vendor-official MCP), CI/CD and deployments (jeffallan, verified), observability and incident response (jeffallan + wshobson, verified). Only bounded gaps are Windows patching automation and on-prem VMware provisioning.
+- **obra/superpowers `systematic-debugging` is a software debugging skill, not an infrastructure RCA skill** — corrected from the original file. Do not cite it in infrastructure conversations.
+- Map skills to **TTI's actual stack** (New Relic MCP, Ansible AAP MCP, HashiCorp Terraform MCP, VMware, RHEL, AD) so the pitch is about *their* environment, not a generic one.
