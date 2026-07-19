@@ -20,6 +20,7 @@ Active, live records (drafts in flight plus the living strategy doc, which must 
 | [[tti-comms-log]] | Living direct comms log — sectioned by counterparty (Ty Staviski, Stephan Pudwill). Next message, sent log, audit trail of drafts. Verbatim archive in [[stephan-whatsapp-archive]]. |
 | [[peter-speck-briefing]] | Briefing for Peter's parallel Stephan conversation. |
 | [[fde-conversation-piece]] | Forward Deployed Engineer conversation piece: verbal opener + two-page in-meeting leave-behind mapping FDE to the Director EA role. |
+| [[tti-sysadmin-skills-bridge]] | Platform-engineering capability plan: how skills + MCP servers close the hands-on sysadmin gap in the Principal System Administrator JD. Strategy, trust-tiered repo list, talking-track for the "could you do it?" conversation. |
 
 > **Held in reserve, not active:** [[tti-two-pagers]] (`_on-hold/`) and the deep [[tti-ai-enablement-strategy|AI Enablement Strategy]] in `deliverables/`.
 
