@@ -62,40 +62,62 @@ A demo beats a claim in a technical conversation. Stand up a small home lab (Win
 
 ## 3. Skills & Repositories, Ranked by Trust
 
-The right posture is **trust-tiered adoption**: vendor-official first, high-reputation community second, aggregators for discovery only, large bundles with caution.
+The authoritative registry is **[skills.sh](https://skills.sh/)** - the canonical index used by the `npx skills` CLI and the `/find-skills` command. Install counts come from there and are the primary trust signal. Contents were also verified by direct inspection of each skill file. Skills with under ~100 installs are unvalidated regardless of how good the content looks.
 
-### Tier 1 — Vendor-official (highest trust, adopt first)
-| Source | What it gives | Relevance to TTI |
-|---|---|---|
-| [anthropics/skills](https://github.com/anthropics/skills) | The official Agent Skills spec, template, and reference skills | The standard to author TTI's own skills against |
-| [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) | Official Terraform docs + plan/workspace operations via MCP | TTI runs Terraform (emerging) - direct fit |
-| Red Hat AAP MCP server (Ansible Automation Platform 2.6.4+) | Official Ansible playbook execution via MCP | TTI runs RHEL + Ansible - direct fit |
-| pulumi/agent-skills (`pulumi-esc`, `pulumi-best-practices`) | Official IaC secrets/config + safe-pattern skills | IaC discipline patterns transferable to Terraform/Ansible |
+### Tier 1 — Vendor-official + MCP servers (highest trust, no install count needed)
+| Source | What it gives | Relevance to TTI | Install notes |
+|---|---|---|---|
+| [anthropics/skills](https://github.com/anthropics/skills) | Official Agent Skills spec, template, and reference implementations | The authoring standard to write TTI's own skills against | Vendor-official |
+| [hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server) | Official Terraform MCP: registry lookups, workspace CRUD, variable management, run execution, state ops | TTI runs Terraform (emerging) - direct fit | MCP server, not a skill |
+| Red Hat AAP MCP server | Official Ansible Automation Platform MCP: live playbook execution, inventory, job templates | TTI runs RHEL + Ansible - direct fit | Requires AAP 2.6.4+; MCP server |
+| [pulumi/agent-skills](https://github.com/pulumi/agent-skills) `pulumi-best-practices` | IaC safe patterns: prevents apply()-callback mistakes, resource dependency correctness, secret encryption | Principles transfer to Terraform; Pulumi-native implementation | **1,700 installs**; all security audits passed |
 
-### Tier 2 — High-reputation community (contents verified by direct inspection)
-| Source | Skills relevant to this plan | Trust signal |
-|---|---|---|
-| [majiayu000/claude-skill-registry](https://github.com/majiayu000/claude-skill-registry) | `administering-linux` — systemd, process mgmt, filesystem, user admin, performance tuning (sysctl/ulimits/IO scheduler), journald log analysis, firewalld, dnf (RHEL) — the primary OS-level sysadmin skill | Community registry; **contents verified** — covers RHEL specifically |
-| [VoltAgent/awesome-claude-code-subagents](https://github.com/VoltAgent/awesome-claude-code-subagents) | `windows-infra-admin` — AD (user/group/OU/trusts/replication), DNS/DHCP, GPO (linking/filtering/WMI/backup), server roles, safe-change engineering (pre/post verification, rollback) | 139 production installs; passing security audit; **contents verified** |
-| [leogallego/claude-ansible-skills](https://github.com/leogallego/claude-ansible-skills) | 7 skills: `ansible-new-role` (role scaffolding for packages/services/configs/users/firewall/storage), `ansible-good-practices` (CoP review, severity classification), `ansible-new-molecule` (test environments), `ansible-new-ee` (execution environment packaging), `ansible-docs`, `ansible-new-collection`, `ansible-zen` | Red Hat Communities of Practice alignment; **contents verified** |
-| [wshobson/agents](https://github.com/wshobson/agents) | `incident-runbook-templates`, `postmortem-writing`, `on-call-handoff-patterns`, `bash-defensive-patterns`, `prometheus-configuration`, `grafana-dashboards`, `slo-implementation`, `gitops-workflow`, `k8s-security-policies`, `terraform-module-library` | High-star, widely referenced; **contents verified** |
-| [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) | `monitoring-expert` (Prometheus/Grafana/OpenTelemetry/k6/alerting), `devops-engineer` (CI/CD pipelines, containers, K8s, blue-green/canary/rolling deployments), `sre-engineer` (SLO/SLI, error budgets, burn rates, chaos engineering, Python auto-remediation) | 66 skills; referenced in Pulumi DevOps roundup; **contents verified** — cloud-native/SRE focus, not OS-level sysadmin |
-| [obra/superpowers](https://github.com/obra/superpowers) | `systematic-debugging` — **software** debugging methodology (4-phase RCA for code, TDD, review patterns). Transferable mindset only; **not** infrastructure ops. Previously mismapped; corrected here. | ~94k stars; Anthropic marketplace — but scope is software development, not sysadmin |
+### Tier 2 — High install count community (7,400 - 12,600 installs; all security-audited)
 
-### Tier 3 — Curated aggregators (discovery only; vet before use)
-| Source | Scale |
+These are the genuinely validated community skills. All from **wshobson/agents** (38K GitHub stars) and **jeffallan/claude-skills** (10.6K stars). Contents verified by direct inspection.
+
+| Skill | skills.sh installs | What it covers | Security audits |
+|---|---|---|---|
+| `terraform-module-library` (wshobson) | **12,600** | Reusable Terraform modules for AWS, Azure, GCP, OCI; Terratest validation; production tagging patterns | All passed |
+| `k8s-security-policies` (wshobson) | **12,000** | NetworkPolicy, PodSecurityStandards, RBAC, OPA Gatekeeper, Istio mTLS; CIS K8s Benchmark + NIST CSF alignment | All passed |
+| `grafana-dashboards` (wshobson) | **10,000** | Grafana dashboards via Prometheus; RED/USE methods; dashboard-as-code with Terraform/Ansible integration | All passed |
+| `bash-defensive-patterns` (wshobson) | **9,300** | Production-grade defensive Bash: error handling, input validation, cross-platform safety | All passed |
+| `gitops-workflow` (wshobson) | **8,800** | ArgoCD/Flux CD; declarative K8s delivery; progressive delivery; multi-cluster | Trust Hub: **fail**; Socket: pass; Snyk: warn — **review before use** |
+| `prometheus-configuration` (wshobson) | **8,500** | Prometheus setup: scrape config, recording rules, service discovery, alert rules | Pass / Pass / Warn |
+| `incident-runbook-templates` (wshobson) | **8,200** | Runbooks for common incidents: detection→triage→mitigation→resolution→comms; escalation paths | All passed |
+| `postmortem-writing` (wshobson) | **8,100** | Blameless postmortems: RCA, contributing factors, action items, organisational learning | All passed |
+| `slo-implementation` (wshobson) | **7,900** | SLI/SLO definition, error budget policies, SLO-based alerting, reliability tracking | All passed |
+| `on-call-handoff-patterns` (wshobson) | **7,900** | On-call shift transitions: context preservation, active investigation handoff, alert routing | Pass / Pass / Warn |
+| `devops-engineer` (jeffallan) | **7,400** | CI/CD (GitHub Actions/GitLab CI/Jenkins), containers, K8s, blue-green/canary/rolling deployments, GitOps, incident response | All passed |
+| `monitoring-expert` (jeffallan) | **3,800** | Prometheus metrics (Counter/Histogram/Gauge), RED/USE, Grafana, OpenTelemetry/Jaeger, k6, anomaly alerting | All passed |
+| `sre-engineer` (jeffallan) | **3,400** | SLO/SLI, error budgets, burn rates, multiwindow alerting, chaos engineering, Python auto-remediation | Trust Hub: pass (1 warning); Socket/Snyk: passed |
+
+> **Note on jeffallan and wshobson skills scope:** These are cloud-native/SRE-focused skills. They do NOT cover OS-level sysadmin (patching, package management, Windows Server administration). They are strong for everything in §5 (Automation/IaC/DevOps) and the observability/incident rows of §4 — but they are not Linux or Windows sysadmin tools.
+
+### Tier 3 — Low install count (contents verified, use with review and code-check)
+
+These skills have good content but very low install counts, meaning they have not been validated in production by the community. **Inspect the SKILL.md and any scripts before installing.** The leogallego Ansible skills have a Snyk fail on several; review before enterprise use.
+
+| Skill | skills.sh installs | GitHub stars | Content quality | Security audits |
+|---|---|---|---|---|
+| `windows-infra-admin` (VoltAgent/404kidwiz) | **139** | — | AD/GPO/DNS/DHCP/server roles/safe-change; contents verified | Passed; 139 installs is low but security-audited |
+| `pulumi-esc` (pulumi/agent-skills) | Not checked | 61 | OIDC, dynamic credentials, secret store integration; vendor-official content | Vendor source offsets low stars |
+| `ansible-good-practices` (leogallego) | **10** | 19 | Red Hat CoP review, severity classification; content looks right | Trust Hub: pass; Socket: pass; **Snyk: fail** |
+| `ansible-new-role` (leogallego) | **3** | 19 | Role scaffolding for packages/services/configs/users/firewall/storage | Not fully audited |
+| `ansible-new-molecule` (leogallego) | **1** | 19 | Molecule test scaffolding; Docker/Podman + systemd | Trust Hub: warn; Socket: pass; **Snyk: fail** |
+| `administering-linux` (majiayu000) | **1** | — | systemd, dnf (RHEL), firewalld, sysctl, user admin; content verified | Unaudited |
+
+> **The leogallego Ansible skills are the most important Tier-3 case.** The content is well-structured and Red Hat CoP-aligned, and no other validated skill covers Ansible authoring at this depth. But 3-10 installs and Snyk fails mean they must be treated as **inspect-before-use** rather than install-and-trust. Given TTI is an enterprise environment, code-review each SKILL.md and any scripts before deploying.
+
+### Tier 4 — Aggregators and bundles (discovery only)
+| Source | Use |
 |---|---|
-| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | 1000+ skills from official + community teams (Anthropic, Vercel, Stripe, Cloudflare, Trail of Bits, Sentry) |
-| [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | 1000+ production-ready skills, organised by category |
-| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | 36.8k-star canonical hand-curated list |
-| [travisvn/awesome-claude-skills](https://github.com/travisvn/awesome-claude-skills) | Claude Code-focused curated list |
+| [skills.sh](https://skills.sh/) leaderboard + `npx skills find [query]` | **Primary discovery channel** — use this first, not GitHub search |
+| [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | Discovery only; vet before use |
+| [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | Discovery only |
+| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | Parts bin only; code-review every skill |
 
-### Tier 4 — Large bundles (use with caution; code-review each skill)
-| Source | Note |
-|---|---|
-| [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 345 skills / 30+ agents / 70+ commands - broad but unvetted; treat as a parts bin |
-
-> **Local check:** Julian's installed `~/.claude/skills/` are all career/leadgen/planning skills (project-planner, define-task, linkedin-enrichment, llm-council, etc.). **No infra/sysadmin skills are installed locally** - which is exactly why external adoption is the path. A `find-skills` run confirms the same.
+> **Local check:** Julian's installed `~/.claude/skills/` are all career/leadgen/planning skills. No infra/sysadmin skills are installed locally. Install commands for all skills above are in §8.
 
 ---
 
@@ -105,21 +127,21 @@ The right posture is **trust-tiered adoption**: vendor-official first, high-repu
 
 ### 4a. Linux / RHEL Administration
 
-| Activity | Specific tasks | Skill | What the skill actually covers | Coverage |
-|---|---|---|---|---|
-| Service management | Start/stop/restart/enable services; boot persistence; follow service logs | `administering-linux` (majiayu000) | systemd operations: start/stop/restart/enable; journalctl log following; unit file locations and priorities | **Good** |
-| Process management | Monitor running processes; send signals; adjust priority | `administering-linux` | top/htop monitoring; signal management (kill/killall); nice/renice for priority adjustment; process states (running/sleeping/I-O wait/zombie/stopped) | **Good** |
-| Package management & patching | Install, update, remove, search packages; OS patching cycle | `administering-linux` (dnf for RHEL) + `ansible-new-role` (leogallego) for fleet-scale | administering-linux: dnf commands for RHEL/CentOS (install/update/remove/search); ansible-new-role: scaffolds patch management plays with package and service task blocks and handlers | **Strong** |
-| Filesystem & disk management | Disk usage monitoring; filesystem operations; permissions management | `administering-linux` | df/du disk usage and directory analysis; filesystem types (ext4, XFS, Btrfs, ZFS); filesystem hierarchy; permissions management | **Good** |
-| User & group administration | Create/modify/delete users; password management; sudo group assignment | `administering-linux` + `ansible-new-role` | administering-linux: create user with home dir, password mgmt, group assignment (sudo), user deletion; ansible-new-role: scaffolds user management playbooks with variable-driven defaults | **Good** |
-| Performance tuning | Kernel parameter tuning; resource limits; I/O and CPU optimisation | `administering-linux` | sysctl parameter configuration; ulimits via /etc/security/limits.conf; I/O scheduler tuning; CPU governor settings | **Good** |
-| Log analysis | Query systemd journal; filter by time/severity; correlate with metrics | `administering-linux` | journalctl queries with time and severity filters; grep pattern search across logs; correlation of log findings with system metrics | **Good** |
-| Network configuration | IP and routing management; socket statistics; firewall rules | `administering-linux` | IP address management; routing tables; ss socket statistics; **firewalld configuration (RHEL-specific)** — the skill explicitly covers the RHEL firewall tool | **Good** |
-| SSH hardening | SSH config hardening; key management | `administering-linux` | SSH hardening workflow provided as a practical example; key management procedures not detailed | **Partial** — hardening config yes; full key lifecycle no |
-| Configuration management at scale | Drive consistent configuration across multiple RHEL hosts | `ansible-new-role` + `ansible-good-practices` (leogallego) | ansible-new-role: interactive scaffolding for roles managing packages, services, configs, users, firewall, storage — with task componentization and smart handler generation; ansible-good-practices: reviews against Red Hat CoP standards with ERROR/WARNING/INFO severity classification and diff-aware mode | **Strong** |
-| Incident RCA (Linux) | Triage OS-level failures; identify root cause; define corrective actions | `administering-linux` (log/metric correlation) + `incident-runbook-templates` (wshobson) | administering-linux provides the investigation toolset (logs, process, network); incident-runbook-templates provides the procedure structure (detection→triage→mitigation→resolution→comms) | **Good** |
+| Activity                          | Specific tasks                                                            | Skill                                                                                    | What the skill actually covers                                                                                                                                                                                                                                                                                  | Coverage                                                  |
+| --------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| Service management                | Start/stop/restart/enable services; boot persistence; follow service logs | `administering-linux` (majiayu000)                                                       | systemd operations: start/stop/restart/enable; journalctl log following; unit file locations and priorities                                                                                                                                                                                                     | **Good**                                                  |
+| Process management                | Monitor running processes; send signals; adjust priority                  | `administering-linux`                                                                    | top/htop monitoring; signal management (kill/killall); nice/renice for priority adjustment; process states (running/sleeping/I-O wait/zombie/stopped)                                                                                                                                                           | **Good**                                                  |
+| Package management & patching     | Install, update, remove, search packages; OS patching cycle               | `administering-linux` (dnf for RHEL) + `ansible-new-role` (leogallego) for fleet-scale   | administering-linux: dnf commands for RHEL/CentOS (install/update/remove/search); ansible-new-role: scaffolds patch management plays with package and service task blocks and handlers                                                                                                                          | **Strong**                                                |
+| Filesystem & disk management      | Disk usage monitoring; filesystem operations; permissions management      | `administering-linux`                                                                    | df/du disk usage and directory analysis; filesystem types (ext4, XFS, Btrfs, ZFS); filesystem hierarchy; permissions management                                                                                                                                                                                 | **Good**                                                  |
+| User & group administration       | Create/modify/delete users; password management; sudo group assignment    | `administering-linux` + `ansible-new-role`                                               | administering-linux: create user with home dir, password mgmt, group assignment (sudo), user deletion; ansible-new-role: scaffolds user management playbooks with variable-driven defaults                                                                                                                      | **Good**                                                  |
+| Performance tuning                | Kernel parameter tuning; resource limits; I/O and CPU optimisation        | `administering-linux`                                                                    | sysctl parameter configuration; ulimits via /etc/security/limits.conf; I/O scheduler tuning; CPU governor settings                                                                                                                                                                                              | **Good**                                                  |
+| Log analysis                      | Query systemd journal; filter by time/severity; correlate with metrics    | `administering-linux`                                                                    | journalctl queries with time and severity filters; grep pattern search across logs; correlation of log findings with system metrics                                                                                                                                                                             | **Good**                                                  |
+| Network configuration             | IP and routing management; socket statistics; firewall rules              | `administering-linux`                                                                    | IP address management; routing tables; ss socket statistics; **firewalld configuration (RHEL-specific)** — the skill explicitly covers the RHEL firewall tool                                                                                                                                                   | **Good**                                                  |
+| SSH hardening                     | SSH config hardening; key management                                      | `administering-linux`                                                                    | SSH hardening workflow provided as a practical example; key management procedures not detailed                                                                                                                                                                                                                  | **Partial** — hardening config yes; full key lifecycle no |
+| Configuration management at scale | Drive consistent configuration across multiple RHEL hosts                 | `ansible-new-role` + `ansible-good-practices` (leogallego)                               | ansible-new-role: interactive scaffolding for roles managing packages, services, configs, users, firewall, storage — with task componentization and smart handler generation; ansible-good-practices: reviews against Red Hat CoP standards with ERROR/WARNING/INFO severity classification and diff-aware mode | **Strong**                                                |
+| Incident RCA (Linux)              | Triage OS-level failures; identify root cause; define corrective actions  | `administering-linux` (log/metric correlation) + `incident-runbook-templates` (wshobson) | administering-linux provides the investigation toolset (logs, process, network); incident-runbook-templates provides the procedure structure (detection→triage→mitigation→resolution→comms)                                                                                                                     | **Good**                                                  |
 
-**Linux/RHEL coverage verdict: Good-to-Strong across all major sysadmin activities.** `administering-linux` is a genuine OS-level skill covering the full surface; the leogallego Ansible skills extend it to fleet-scale configuration management. No significant gaps on the Linux/RHEL side.
+**Linux/RHEL coverage verdict: Good-to-Strong on content; lower on validated trust.** `administering-linux` covers the right surface (RHEL-specific: dnf, firewalld, sysctl) but has **1 skills.sh install** — unvalidated. The leogallego Ansible suite covers the right procedures (Red Hat CoP-aligned) but has 3-10 installs and Snyk fails. **Contents are correct; treat both as inspect-before-use, not install-and-trust.** No equivalent high-install skill exists for Linux sysadmin on skills.sh — this is a genuine gap in the validated ecosystem.
 
 ---
 
@@ -140,7 +162,7 @@ The right posture is **trust-tiered adoption**: vendor-official first, high-repu
 | Storage / SAN (Windows) | iSCSI initiator; MPIO; Storage Spaces; Disk Management; SAN LUN assignment | **No skill found** | No skill covers the Windows storage stack or SAN integration. Storage for Linux is partially covered via ansible-new-role but not for Windows. | **GAP** |
 | PKI / Certificate Services | Certificate Authority design; CA hierarchy; certificate lifecycle; OCSP | `windows-infra-admin` (broad) | windows-infra-admin covers certificate management broadly; PKI hierarchy design and CA configuration are not detailed. | **Partial** — certificate ops yes; CA/PKI architecture no |
 
-**Windows Server coverage verdict: Strong on AD/GPO/identity core and safe-change engineering. Good on DNS/DHCP/server roles. Four confirmed gaps: WSUS/patching, hybrid identity, Failover Clustering, and Windows storage/SAN.** The skills ecosystem is primarily Linux/cloud-native; the Windows operational surface is thinner by design. These gaps are real and honest.
+**Windows Server coverage verdict: `windows-infra-admin` covers the right surface (AD/GPO/DNS/DHCP/server roles/safe-change) but has only 139 skills.sh installs.** It is the only Windows Server admin skill found anywhere in the ecosystem. Use with code-review. Four confirmed gaps regardless of skill coverage: WSUS/patching, hybrid identity, Failover Clustering, and Windows storage/SAN — these need direct personal ramp.
 
 ---
 
@@ -290,7 +312,7 @@ Honest resume read:
 
 ---
 
-**Coverage verdict: confirmed as the best-supported block in the plan.** Ansible (7 dedicated skills from a Red Hat CoP-aligned source), Terraform (vendor-official MCP), CI/CD and deployment strategies (jeffallan, all verified), observability and incident response (jeffallan + wshobson, all verified). Two bounded gaps:
+**Coverage verdict: confirmed as the best-supported block in the plan — and the one with the strongest validated install counts.** wshobson skills (7,400-12,600 installs each, all security-audited) cover Terraform modules, CI/CD patterns, GitOps, observability, SLO, incident runbooks, and postmortems. jeffallan skills (3,400-7,400 installs) cover DevOps pipelines, SRE, and monitoring. HashiCorp MCP is vendor-official. The only low-install skills are the leogallego Ansible suite (3-10 installs) — inspect before use. Two bounded gaps regardless:
 
 | Automation/IaC/DevOps gap | Nature | Mitigation |
 |---|---|---|
@@ -350,11 +372,11 @@ From [[tti-technology-stack]], TTI's confirmed stack lets Julian pick skills tha
 ## Key Takeaways
 - The gap is real but **narrow**: one of six JD blocks (hands-on Platform Engineering & Operations). The role's centre of gravity is Julian's existing strength.
 - **Skills + MCP servers = force-multiplier, not replacement.** Skills carry the procedure, MCP carries the tools, Julian carries the judgment. Articulating this distinction *is* the credibility.
-- **Adopt by trust tier:** vendor-official (HashiCorp, Red Hat, Pulumi, Anthropic) first, inspected community second (majiayu000 `administering-linux`, VoltAgent `windows-infra-admin`, leogallego Ansible skills, wshobson, jeffallan), aggregators for discovery, bundles with caution.
-- **The gap becomes a governance strength:** curating and vetting a safe enterprise skill catalogue is exactly the design-standards + security-partnership work the JD asks for.
-- **Linux/RHEL is well-covered** (§4a): `administering-linux` covers the full OS-level sysadmin surface; leogallego Ansible skills extend it to fleet-scale config management. No significant coverage gaps.
-- **Windows Server is partially covered** (§4b): AD/GPO/DNS/DHCP/server roles/safe-change are Strong-to-Good. Four confirmed gaps: **WSUS/patching, hybrid identity, Failover Clustering, Windows storage/SAN**. These need personal ramp.
-- **VMware/Hyper-V is a confirmed ecosystem gap** (§4c): no skill found anywhere. Most significant personal ramp requirement.
-- **Automation, IaC & DevOps is the strongest-covered block** (§5): Ansible (7 Red Hat CoP skills), Terraform (vendor-official MCP), CI/CD and deployments (jeffallan, verified), observability and incident response (jeffallan + wshobson, verified). Only bounded gaps are Windows patching automation and on-prem VMware provisioning.
-- **obra/superpowers `systematic-debugging` is a software debugging skill, not an infrastructure RCA skill** — corrected from the original file. Do not cite it in infrastructure conversations.
-- Map skills to **TTI's actual stack** (New Relic MCP, Ansible AAP MCP, HashiCorp Terraform MCP, VMware, RHEL, AD) so the pitch is about *their* environment, not a generic one.
+- **Use skills.sh as the primary trust signal**, not GitHub search. Install count + security audit status (Gen Agent Trust Hub / Socket / Snyk) are the two criteria. Skills under ~100 installs are unvalidated regardless of content quality.
+- **The gap becomes a governance strength:** 13% of public skills have critical vulnerabilities. Curating a vetted catalogue — install counts checked, security audits passed, code-reviewed before enterprise use — is exactly the design-standards + security-partnership work the JD asks for.
+- **Automation/IaC/DevOps is the strongest block** (§5): wshobson skills (7,400-12,600 installs each) and jeffallan skills (3,400-7,400) cover Terraform, CI/CD, GitOps, observability, SLO, and incident response. HashiCorp MCP is vendor-official. Highest-validated tier across the whole plan.
+- **Linux/RHEL content is right but trust is low** (§4a): `administering-linux` (1 install) and leogallego Ansible (3-10 installs, Snyk fails) cover the correct surface but are unvalidated. No high-install Linux sysadmin skill exists on skills.sh. Inspect before use; treat as best available, not production-validated.
+- **Windows Server: one skill, low install count** (§4b): `windows-infra-admin` (139 installs) is the only option in the ecosystem. AD/GPO/DNS/DHCP/server roles/safe-change covered. Four hard gaps: **WSUS/patching, hybrid identity, Failover Clustering, Windows storage/SAN** — no skill exists; personal ramp required.
+- **VMware/Hyper-V is a confirmed ecosystem gap** (§4c): no skill found anywhere in the registry or on GitHub. The most significant personal ramp requirement.
+- **obra/superpowers `systematic-debugging` is a software development skill**, not infrastructure RCA. Do not cite it in infrastructure conversations.
+- Map skills to **TTI's actual stack** (New Relic MCP, Ansible AAP MCP, HashiCorp Terraform MCP, RHEL, AD) so the pitch is about *their* environment, not a generic one.
