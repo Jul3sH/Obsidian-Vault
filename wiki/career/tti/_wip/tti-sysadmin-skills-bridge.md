@@ -344,7 +344,7 @@ From [[tti-technology-stack]], TTI's confirmed stack lets Julian pick skills tha
 - **New Relic** - already in TTI's stack (since 2020). A New Relic MCP is zero-adoption-friction and lets Julian speak to *their* observability tool.
 - **Ansible + Terraform** - both present but "emerging" per the JD and stack research. Julian arriving with vendor-official Terraform/AAP skills positions him to *mature* exactly the capability they are standing up.
 - **VMware vSphere + Windows Server + RHEL + AD/ADFS** - the core operator surface; the personal-ramp target.
-- **Azure primary + dual-firewall (Palo Alto + Fortinet)** - already Julian's strength (Telstra SASE CoE), reinforcing the security-governance angle in §2d.
+- **Azure primary + dual-firewall** - the APAC Senior Network Engineer LinkedIn profile names Palo Alto + Fortinet, aligning with Julian's Telstra SASE CoE work. Note: vendor names are unverified (LinkedIn-only; the TTI Senior Network Engineer JD lists protocols but not vendor names). The security-governance angle from §2d still holds regardless of specific vendor.
 
 ---
 

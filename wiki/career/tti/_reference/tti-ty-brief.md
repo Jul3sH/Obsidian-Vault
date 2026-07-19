@@ -1,16 +1,18 @@
 ---
 type: artefact
 tags: [career, tti, artefact, one-pager]
-status: wip
+status: sent
 created: 2026-06-28
 revised: 2026-07-04
 version: v3
 recipient: Ty Staviski (Group Deputy CFO)
 route: via Stephan Pudwill
+sent: 2026-07-04
+delivered: 2026-07-12
 supersedes: tti-ai-leverage-working-notes (v2 strategy-sell brief)
 ---
 
-> **WIP, v3 (4 Jul 2026). The pivot.** Replaces the v2 strategy-sell brief (now
+> **v3 (4 Jul 2026). The pivot.** Replaces the v2 strategy-sell brief (now
 > demoted to pull-only [[tti-ai-leverage-working-notes]]). New premise: stop selling
 > a strategy Stephan cannot evaluate and will not defend under Ty's scrutiny.
 > Instead, position Julian as a **versatile, capable senior technology veteran** who
@@ -19,7 +21,11 @@ supersedes: tti-ai-leverage-working-notes (v2 strategy-sell brief)
 > a **personal character endorsement**, not strategy advocacy. **Only the body below
 > the rule ships (strip this banner + frontmatter); goes out with the TTI-tailored
 > CV.** No AI programme, no savings promise, no role ask: nothing Stephan has to
-> defend. Strategy: [[tti-engagement-strategy]]. Message: [[stephan-engagements]].
+> defend.
+>
+> **Status:** Sent to Stephan 4 Jul. Forwarded by Stephan to Ty ~12 Jul with CV. Successfully delivered (Ty called 15 Jul having read the brief).
+>
+> Strategy: [[tti-engagement-strategy]]. Message: [[stephan-engagements]].
 
 ---
 
@@ -47,13 +53,3 @@ At whatever altitude the work needs: senior enough to own a programme or govern 
 ## The offer
 
 Plug me into an initiative you or your leaders already run: security, architecture, infrastructure, or a delivery programme that needs senior weight in region. Time-boxed consulting engagement through my Hong Kong company: no headcount, delivered remotely wherever the work needs, simple to start, simple to stop. If I am not clearly paying for myself, you will hear it from me first.
-
-**The ask:** a 30-minute conversation to identify which initiative that is. I will come back with a scoped, stop-anytime proposal; the rest is my risk, not yours.
-
----
-
-## Related
-- [[tti-ai-leverage-working-notes]] — the demoted v2 savings case, held on pull for "what about numbers"
-- [[tti-engagement-strategy]] — current strategy (personal endorsement, not a strategy sell)
-- [[stephan-engagements]] — the personal-endorsement ask + spoken line
-- [[tti-resume-april-2026]] — the CV that ships with this (TTI-tailored pass pending)
