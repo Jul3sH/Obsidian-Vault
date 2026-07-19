@@ -50,11 +50,30 @@ send: OUTBOUND — but NOT until Julian supplies the two real numbers (threshold
 ---
 
 ## Notes for Julian (do not send)
-- **The two numbers you must set before this moves:** [X] the threshold multiple (e.g. 3×), and [$Y] the fully-loaded director cost. Without both, the gate is empty — the exact flaw that sank v1.
+- **The two numbers (refined by the Ty sim):** **Ty should SET the multiple himself** — it's a feature, it makes the gate his (his instinct in the sim was 4–5×, not 3×, because Julian conceded execution risk). But **Julian must walk in carrying a defensible HK fully-loaded director cost [$Y]** as the denominator — a gate with no denominator is brief-v1's "square brackets" flaw, and Ty reaches for the denominator within 30 seconds. So: leave [X] blank for Ty; fill [$Y] before the meeting.
+- **Protect the audit from capture (the sim's sharpest risk):** Ty may say "great, my finance ops will run it." Let them pull the data — that's the point (zero cost). But **keep the METHOD**: Julian owns the definitions (a "retired committee" = a calendar-audited standing cross-region forum, not self-report, or they get renamed "alignment syncs" and the baseline evaporates) and how decision-latency gets cased (the big half of the cost). *Their team counts; Julian defines what counts.*
 - **The audit is the genius of the reframe:** it's honest (you haven't measured it), costless (existing calendar data), reversible, and it's the on-ramp — running it (or scoping it) is itself a first proof of your value, and it produces the number that charters the role.
 - **Voice:** first person to Ty is fine here — it's your proposal to the initiative owner, not a document pretending to be his. (v1's problem was an anonymous "I" on a doc claiming to be Ty's; that's gone.)
 - **Tony sequencing (Fable, twice):** he must hear this before it reaches a sign-off desk. "Decisions once / committees retired" retires his rooms; naming Oracle EBS HK flags his estate. Get to him first, framed as pooling not confiscating.
 - **Clean the typography if figures stay illustrative:** ranges ("10–14 committees"), one caveat line, no bracket/tilde clutter on the outbound copy.
+
+## Appendix — Fable red-team of v1 (skeptical CFO, 19 Jul)
+
+Full findings that drove the v2 rewrite, preserved for the record.
+
+**Frank's 60-second reaction:** "You walked a page into a CFO's office with square brackets where the numbers should be. The role you want me to fund is the thing that's supposed to find out whether the role was justified. If the number is a calendar audit away, do the audit first. And why is this on my desk and not Ty's?"
+
+**Ranked problems:**
+1. **FATAL — self-funding test has numbers on neither side.** Benefit bracketed, role cost absent entirely; "covers its cost several times over" is an equation with no terms. The missing number is an afternoon in Outlook, so its absence reads as "nobody bothered," not honesty. Hours aren't a CFO's currency — dollarise them.
+2. **FATAL — circular / hire-first-justify-later.** Asks Frank to spend to discover whether spending was right.
+3. **SERIOUS — Ty's ownership asserted, not evidenced; the anonymous "I" betrays it.** Frank's first question: "Has Ty seen this?"
+4. **SERIOUS — Tony landmine armed:** "decisions once / committees retired" retires Tony's rooms; "Oracle EBS HK" names his estate as problem child; "pools authority rather than removing it" begs the question.
+5. **SERIOUS — no reason to act now, no easy action.** The ask is a question, not an executable decision; "park it for my successor" is the rational zero-mess move.
+6. **MINOR — "defined stop point" undefined; "why director-level" reads as grade-lobbying; bracket/tilde typography shouts unfinished draft.**
+
+**Fatal omission:** the role's own cost and which budget carries it. A CFO won't sign a multiple of an unstated number.
+
+**Strategic verdict:** Frank is the wrong primary recipient — a departing CFO structurally can't stand up a new role; his residual value is a cheap blessing that survives his exit. Target Ty (owns it) + the incoming CFO (inherits funding). **The one change:** replace the ask — not "fund a director role" but "approve a two-week, zero-cost coordination audit with a pre-agreed threshold: above X the role is chartered, below it dies." Converts "build structure in my final quarter" into "let someone count meetings." → *All actioned in v2 above.*
 
 ## Related
 - [[tti-kari-call-prep]] — Kari asked for a numbers-shaped page; this is it, reframed as the audit ask

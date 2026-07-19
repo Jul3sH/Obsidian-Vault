@@ -264,7 +264,10 @@ renamed: 2026-07-17
 
 ---
 
-## Artefact Delivery Log
+## Sent log (messages, calls & sends)
+
+> Chronological record of what was communicated to whom. For the registry of
+> *documents* delivered (CV, one-pagers, briefs), see [[artefact-delivery-log]].
 
 | Date | Recipient | What sent | Outcome |
 |------|-----------|-----------|---------|
