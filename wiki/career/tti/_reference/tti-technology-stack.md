@@ -15,6 +15,8 @@ tags: [career, tti, technology]
 
 This report merges findings from two independent AI research runs — Perplexity Deep Research (sources: AppsRunTheWorld, LinkedIn profiles, Oracle case studies, BuiltIn job postings, Precisely customer story, TTI Annual Report 2025) and Gemini (sources: Acquia case study, Jarrang/Salesforce case studies, Avnet Digital Control Tower case study, OSINT fingerprinting, JD analysis) — and validates each claim against primary sources where accessible. Conflicts are flagged explicitly. Blind spots and confidence levels are assigned to every domain.
 
+**Note on source coverage:** The initial research was completed May 27, 2026. Additional primary sources (TTI Senior IT Manager JD and TTI Senior Network Engineer JD) were added to the wiki on June 22, 2026. These have since been integrated into the technology stack. A comprehensive audit was performed July 19, 2026 to identify and incorporate any missed sources.
+
 **Source trust hierarchy used in this report:**
 1. **Primary sources** (highest trust): Job descriptions, vendor case studies with named customers, public case study videos
 2. **Trusted commercial databases** (medium-high trust): AppsRunTheWorld technographics (public/free tier only). Claims cited from paywalled portions are flagged as unverifiable.
@@ -189,6 +191,11 @@ This section documents the criteria used to determine which sources constitute v
 - **Oracle Cloud ERP**: North American financial operations. Perplexity confirmed via Oracle's own 2019 case study video featuring TTI's CFO Christopher Goodman, describing migration from a 35-year-old legacy ERP. Gemini confirmed via technographics OSINT.[^9]
 - **Oracle E-Business Suite (EBS)**: Hong Kong entity legacy ERP. **UNVERIFIED** — cited via LinkedIn profile only; no primary source confirmation.[^10]
 
+**Oracle EPM & Hyperion (Finance Planning & Consolidation):**
+- **Oracle EPM Cloud** (Planning, PCMCS modules): Confirmed via TTI Senior IT Manager JD — explicitly lists hands-on development and enhancement of Oracle EPM Cloud applications.[^2b]
+- **Hyperion Financial Management (HFM)** (on-premises legacy): Confirmed via TTI Senior IT Manager JD — explicitly lists day-to-day production support and maintenance of on-premises HFM system.[^2b]
+- **Assessment**: Oracle EPM Cloud and HFM represent the finance planning and consolidation layer, separate from Oracle Cloud ERP (North America finance operations). This is a distinct system family focused on financial planning rather than transactional ERP.
+
 **Perplexity findings with verified AppsRunTheWorld evidence (public tier):**
 - **Workday Absence Management**: Confirmed via AppsRunTheWorld technographics (public tier, 2021). Note: Only Absence Management module is publicly visible; full suite claims would require paywalled access.[^3]
 
@@ -289,7 +296,8 @@ This section documents the criteria used to determine which sources constitute v
 | Cloud (Tertiary) | GCP | Medium | Job posting language only |
 | ERP (Manufacturing) | SAP | High | Precisely case study [^8] |
 | ERP (NA Finance) | Oracle Cloud ERP | High | Oracle case study video [^9] |
-| ERP (HK Legacy) | Oracle E-Business Suite | **Low (Unverified)** | **LinkedIn only [^10]** |
+| ERP (HK Legacy) | Oracle E-Business Suite | High | TTI Senior IT Manager JD [^2b] |
+| Finance Planning & Consolidation | Oracle EPM Cloud + Hyperion Financial Management | High | TTI Senior IT Manager JD [^2b] |
 | HCM | Workday Absence Management | Medium-High | AppsRunTheWorld (public tier) [^3] |
 | Time & Attendance | UKG Workforce Central (Kronos) | **Low (Unverified)** | **AppsRunTheWorld (paywalled)** [^3] |
 | Revenue Cycle | Model N | **Low (Unverified)** | **AppsRunTheWorld (paywalled)** [^3] |
@@ -331,8 +339,7 @@ This section documents the criteria used to determine which sources constitute v
 ## Unverified Claims Requiring Caution
 
 **LinkedIn-only sources (snapshots in time, unverified):**
-1. **Oracle EBS (HK entity)** — Cited from LinkedIn profile (Benny Yeung). No primary source like a job description or case study.
-2. **Network stack (APAC) detail** — Cisco/Palo Alto/Fortinet/F5/Riverbed cited from LinkedIn profile (Joe Yu). No other independent confirmation.
+1. **Network stack (APAC) detail** — Cisco/Palo Alto/Fortinet/F5/Riverbed cited from LinkedIn profile (Joe Yu). TTI Senior Network Engineer JD lists protocols (VLAN, VXLAN, BGP, OSPF, DMVPN, SDWAN) but does NOT name specific vendors; cannot corroborate vendor names.
 
 **AppsRunTheWorld paywalled sources (cannot verify without subscription):**
 3. **UKG Kronos / Workforce Central** — Claimed as AppsRunTheWorld source but behind paywall.
@@ -369,6 +376,7 @@ This section documents the criteria used to determine which sources constitute v
 
 [^1]: [TTI-Principle-System-Administrator.pdf](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/24970235/285a380f-9609-4b20-a543-266fa912cdff/TTI-Principle-System-Administrator.pdf) — JD (primary source)
 [^2]: [Infrastructure and Cloud Administrator - TTI (BuiltIn)](https://builtin.com/job/infrastructure-and-cloud-administrator/6509630) — Canada JD
+[^2b]: [TTI Senior IT Manager - Oracle EPM & Hyperion](wiki/career/tti/_reference/TTI%20Senior%20It%20Manager.md) — JD (primary source) — describes Oracle EPM Cloud (Planning, PCMCS) and Hyperion Financial Management (on-premises legacy)
 [^3]: [Techtronic Industries North America Technographics (AppsRunTheWorld)](https://www.appsruntheworld.com/customers-database/customers/view/techtronic-industries-tti-united-states)
 [^4]: [Joe Yu - TTI LinkedIn](https://www.linkedin.com/in/joe-yu-84a789110) — APAC Senior Network Engineer profile
 [^5]: [TTI EMEA Careers (Workday)](https://ttiemea.wd3.myworkdayjobs.com/TTI)
