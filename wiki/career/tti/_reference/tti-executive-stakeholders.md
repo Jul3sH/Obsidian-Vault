@@ -640,6 +640,13 @@ Julian's call: position **adjacent and complementary** to Ryan (not subordinate,
 - **Pitch hook:** Product/platform AI thinking + cybersecurity for OT/connected products. The ONE-KEY ecosystem evolution section in the value proposition is aimed at his lens.
 - **Relevant artefact:** ONE-KEY section in [[tti-value-proposition]]
 
+### Tom Uva - CIO, TTI Power Equipment
+- **Frame:** Enterprise technology and business-optimisation leader; closest visible CIO-layer counterpart for ERP, platforms, IT operations, applications, and business process optimisation.
+- **Background noted in TTI Prep:** 25+ years across aerospace / defence, distribution, financial services, utilities, CIO / VP operations / business optimisation roles, M&A, portfolio management, turnaround, rescue and recovery, and business process optimisation.
+- **Education / teaching:** MBA and BS in Information Systems from Rensselaer Polytechnic Institute; adjunct faculty at Clemson University and Syracuse University in business / information studies.
+- **Pitch hook:** operating discipline, portfolio governance, cost optimisation, and emerging-technology translation into commercial outcomes. He is a better audience for execution architecture than for an abstract "AI thought leadership" pitch.
+- **Relevant artefact:** Tom Uva section in [[tti-value-proposition]].
+
 ### Eduardo Ortiz — Group VP, Global Head of Cybersecurity
 *(Source: LinkedIn + TTI employee spotlight, not AR25. Added 31 May 2026.)*
 - **Frame:** The most senior public-facing cybersecurity executive at TTI group level — owns group-wide cybersecurity strategy. At Techtronic Industries since 2021; title elevated from "VP, Global Head of Cybersecurity" to "Group VP of Cybersecurity" (per TTI employee spotlight).

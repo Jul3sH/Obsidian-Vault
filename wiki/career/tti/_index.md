@@ -32,7 +32,7 @@ tags: [career, tti]
 > **Held in reserve:** [[tti-two-pagers]] (`_on-hold/`) and [[tti-ai-enablement-strategy|AI Enablement Strategy]] (deliverable). The strategy doc governs when they deploy.
 
 ## Reference ([[_reference/_index|_reference/]])
-**Company & technology:** [[company-profile]] · [[tti-technology-stack]] · [[tti-technology-organisation]]
+**Company & technology:** [[company-profile]] · [[tti-technology-stack]] · [[tti-technology-organisation]] · [[tti-cybersecurity]]
 **People & politics:** [[tti-executive-stakeholders]] · [[tti-stephan-relationship-analysis]] · [[tti-apac-technology-stakeholders]] · [[tti-pudwill-family-context]] · [[tti-internal-politics]] · [[tti-ai-roles]] · [[stephan-whatsapp-archive]]
 **TTI's own positioning (AR25):** [[tti-2025-ar-key-initiatives]] · [[tti-2025-annual-results-script]] · [[tti-2025-ar-employee-qa-script]]
 **Role & sent artefacts:** [[role-context]] · [[tti-role-profile-director-ea]] · [[tti-value-proposition]] · [[tti-ai-productivity-gap]] · [[tti-resume-april-2026]] · [[engagement-history]]

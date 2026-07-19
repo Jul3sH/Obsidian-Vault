@@ -37,7 +37,7 @@ renamed: 2026-07-17
 - **Timing improved.** A call "in the next couple of days" is movement *inside* the school-decision window, not the "August" meeting that sat past it. This is exactly what the 17 Jul drafted follow-up was trying to engineer, now happening organically, so **both drafts are parked** (see the NEXT block below).
 - **⚠ Altitude guardrail.** Kari's framing - *"adding IT support"* - is lower than the *enterprise architect / architecture frameworks and governance* role Ty described. Position the Kari call at the **EA / architecture-and-governance altitude**, not "IT support" (the anchor-down risk flagged throughout this log). Julian already re-anchored to EA in-thread and Stephan confirmed it is alive.
 
-**NEXT:** prep for and take the **Kari call** (expected within ~2 days) at the EA/governance altitude; treat it as the live channel. Log the call here once it happens. Hold the 17 Jul drafted Stephan message unless this stalls.
+**NEXT:** prep for and take the **Kari call** (expected within ~2 days) at the EA/governance altitude; treat it as the live channel. Talking bank (candidate lines, stories, objection-answers): [[tti-kari-call-prep]]. Log the call here once it happens. Hold the 17 Jul drafted Stephan message unless this stalls.
 
 ---
 

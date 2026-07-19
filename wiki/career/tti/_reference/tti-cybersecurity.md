@@ -39,7 +39,17 @@ created: 2026-06-23
 
 ### Milwaukee Tool security leadership (adjacent)
 - **Ray Farrell** — VP, Enterprise Security & Infrastructure (since Mar 2024). Clearest combined infra + security remit.
+- Prior source note: Ray was listed as Director of Digital and Information Security before moving into the VP Enterprise Security & Infrastructure role.
 - **Mike Donaldson** — Director, IT Architecture, Infrastructure & Security. [linkedin.com/in/donaldsonmike](https://www.linkedin.com/in/donaldsonmike)
+
+---
+
+## Framework and Subsidiary Caveat
+
+- TTI group materials point to NIST CSF as the foundation for cybersecurity governance and risk management.
+- The raw source block also mentions ISO 27001 evidence, but some cited material appears to relate to similarly named TTI entities outside Techtronic Industries Group. Treat ISO 27001 as a point to verify before using externally.
+- No source in the current wiki proves brand-by-brand NIST CSF adoption by Milwaukee, RYOBI, Hoover, AEG, or other subsidiaries as separate declarations.
+- Safer wording: TTI appears to operate group-level cybersecurity governance aligned to NIST CSF, flowing into business units, but public material does not separately certify each brand's framework adoption.
 
 ---
 

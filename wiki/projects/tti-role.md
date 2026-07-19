@@ -25,7 +25,11 @@ status-updated: 2026-07-19
 
 **Current dynamic:** Stephan is risk-shifting (enlisting Kari, Ty, Frank for buy-in to protect himself if it doesn't work). Ty is moving it because of Stephan's seniority/power. Frank (CFO, leaving soon) is the financial sign-off. Tony Chung risk: threatened by Julian's scope; may try to block or limit remit once he learns of it.
 
-**Role positioning gap:** A Principal System Administrator job posting exists (no longer accepting candidates — may be held for this); Julian's wheelhouse aligns with infrastructure/cloud architecture. But the role is junior (Principal, not Director). **Julian's argument:** cannot coordinate between US and APAC teams as a Principal — need Director-level seniority. The positioning: "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos." This leans the conversation back toward the EA role Ty described, not the system admin job.
+**Role positioning gap & organizational reality:** A Principal System Administrator job posting exists (no longer accepting candidates — may be held for this); Julian's wheelhouse aligns with infrastructure/cloud architecture. But the role is junior (Principal, not Director). 
+
+**Critical fact:** TTI APAC has multiple technology directors reporting into Tony Chung. Any role requiring coordination across those directors requires director-level authority — peer-level standing. A Principal-level role is an individual contributor with no cross-director mandate. This makes director-level **structurally non-negotiable** for the EA/governance role Ty described.
+
+**Julian's argument:** "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos. But I can't coordinate directors as a Principal — that's not about ambition, it's about organizational structure. The role requires director-level seniority to have peer authority." This leans the conversation back toward the EA role Ty described, not the system admin job, and frames the director-level requirement as structural necessity, not preferential.
 
 **Next actions:**
 1. **This week — prep for Kari call:** Build narrative that addresses platform engineering gap (Julian works with existing sysadmins using architecture patterns; doesn't do hands-on platform ops himself) while emphasizing the real gap Ty identified (enterprise architecture + governance framework for steering-committee coordination). Reference [[tti-sysadmin-skills-bridge]] (platform engineering vs. automation/IaC responsibility map) + gap narrative being built.
@@ -34,7 +38,7 @@ status-updated: 2026-07-19
 
 **Risk watch:** Tony Chung learning of this and attempting to block/limit remit. Mitigation: keep the narrative focused on Ty's expressed gap (EA/governance), not platform engineering, so Tony has less purchase.
 
-**Detail tier:** [[tti-sysadmin-skills-bridge]] (platform engineering vs. automation gap analysis) · [[tti-engagement-strategy]] (political dynamics + positioning rationale) · [[tti-comms-log]] (artefact delivery log + sent brief) · [[engagement-history]] (full timeline).
+**Detail tier:** [[tti-sysadmin-skills-bridge]] (platform engineering vs. automation gap analysis) · [[tti-technology-organisation]] (group-vs-brand technology model + Milwaukee IT role architecture) · [[tti-apac-technology-stakeholders]] (APAC technology stakeholder map) · [[tti-engagement-strategy]] (political dynamics + positioning rationale) · [[tti-comms-log]] (artefact delivery log + sent brief) · [[engagement-history]] (full timeline).
 
 ### Status log (newest first)
 | Date | Update |

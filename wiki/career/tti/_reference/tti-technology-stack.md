@@ -253,6 +253,7 @@ This section documents the criteria used to determine which sources constitute v
 
 - **Milwaukee ONE-KEY**: BLE cloud-connected tool management platform with iOS, Android, and web interfaces. REST API integration with construction management platforms via middleware (Ryvit).[^17][^18]
 - **Backend stack**: Python, MQTT, SQL and NoSQL databases confirmed from TTI Cloud Software Engineer (Python/IoT) job posting. AWS IoT infrastructure is the likely backend cloud, consistent with TTI's multi-cloud posture.[^6]
+- **ONE-KEY operating model:** the raw TTI Prep source points to a dedicated product organisation around ONE-KEY, including product managers, product owners, customer success, and software development leadership. Named examples in that source include Ryan Garlock as software-development anchor, Josh Marchok and Andrew Schrandt on product, Aaron Wenzel as software product owner, and Dean Gagliano on customer success. Treat names as LinkedIn / source-derived until independently revalidated.
 
 **Confidence: High for ONE-KEY platform existence and BLE/cloud architecture; Medium for specific AWS IoT backend (inferred, not confirmed).**
 
