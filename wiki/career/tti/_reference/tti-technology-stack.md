@@ -15,6 +15,135 @@ tags: [career, tti, technology]
 
 This report merges findings from two independent AI research runs — Perplexity Deep Research (sources: AppsRunTheWorld, LinkedIn profiles, Oracle case studies, BuiltIn job postings, Precisely customer story, TTI Annual Report 2025) and Gemini (sources: Acquia case study, Jarrang/Salesforce case studies, Avnet Digital Control Tower case study, OSINT fingerprinting, JD analysis) — and validates each claim against primary sources where accessible. Conflicts are flagged explicitly. Blind spots and confidence levels are assigned to every domain.
 
+**Source trust hierarchy used in this report:**
+1. **Primary sources** (highest trust): Job descriptions, vendor case studies with named customers, public case study videos
+2. **Trusted commercial databases** (medium-high trust): AppsRunTheWorld technographics (public/free tier only). Claims cited from paywalled portions are flagged as unverifiable.
+3. **Secondary sources** (medium trust): LinkedIn profiles (snapshots in time, subject to change)
+4. **Inference-based** (lowest trust): OSINT fingerprinting, structural analysis, pattern matching — flagged explicitly as inference rather than confirmed fact
+
+When AppsRunTheWorld is cited, only publicly visible information is used as evidence. Paywalled details are noted as unverifiable without a subscription.
+
+---
+
+## Source Trust Assessment Framework
+
+This section documents the criteria used to determine which sources constitute valid evidence for technology claims.
+
+### Tier 1: Primary Sources (Highest Trust)
+**These are accepted as definitive evidence.**
+
+**What qualifies:**
+- **Job descriptions** (from any platform: LinkedIn, BuiltIn, company careers page, etc.) — JDs explicitly list technologies required, confirming live use at the time of posting
+- **LinkedIn job postings** (posted by TTI to LinkedIn careers) — Equivalent to JDs; primary source listing required skills
+- **Vendor case studies with named customers** — Published case studies naming TTI and specific results (e.g., "Acquia case study names TTI, quantifies 28-second load time improvement")
+- **Public case study videos** — Recorded presentations by named company executives (e.g., TTI CFO on Oracle migration)
+- **Official company announcements** — Press releases, SEC filings, annual reports naming specific technologies
+
+**Why they're trusted:**
+- JDs are current and authoritative (required skills = technologies in use)
+- Vendor case studies put the vendor's reputation on the line; false claims invite legal action
+- Executive interviews on record are difficult to misstate
+- Official company statements are legally vetted
+
+**Examples from this report:**
+- ✅ SAP — Precisely Automate customer story (vendor case study naming TTI + specific SAP workflows)
+- ✅ Oracle Cloud ERP — Oracle 2019 case study video (named executive, named technology)
+- ✅ Acquia/Drupal — Acquia case study (vendor case study with specific metrics)
+- ✅ VMware vSphere — Principal System Administrator JD (explicit requirement)
+
+### Tier 2: Trusted Commercial Databases (Medium-High Trust)
+**Public portions are accepted as evidence; paywalled portions are not.**
+
+**What qualifies:**
+- **AppsRunTheWorld technographics (public tier only)** — Commercial database that reverse-engineers company tech stacks from public signals (job postings, careers pages, LinkedIn). Public tier shows core technologies; paywalled tier shows implementation details.
+
+**Why it's trusted (public tier):**
+- AppsRunTheWorld's reputation depends on accuracy (used by thousands of companies for competitive intelligence)
+- Public data is crowd-verifiable (you can cross-check against the same public signals they used)
+- The company does not claim paywalled data is "confirmed"—it's derived through analysis
+
+**Why paywalled portions are NOT trusted:**
+- Cannot independently verify without paying for access
+- Details may be inferred, estimated, or outdated
+- No transparency into methodology
+
+**Examples from this report:**
+- ✅ Workday Absence Management — AppsRunTheWorld public tier, 2021 (verifiable)
+- ❌ Kronos, Model N, New Relic — AppsRunTheWorld paywalled (cannot verify, removed from main findings)
+
+### Tier 3: LinkedIn Profiles (Low Trust, Limited Validity)
+**Accepted only as supporting evidence when combined with primary sources; NOT acceptable as sole source.**
+
+**Important distinction: LinkedIn Profiles vs. LinkedIn Job Postings**
+- **LinkedIn Job Postings** (company posts a JD to LinkedIn) = **Tier 1 (Primary Source)** — treat as equivalent to JDs
+- **LinkedIn User Profiles** (individuals' profiles, not job postings) = **Tier 3 (Low Trust)** — do not use as sole evidence
+
+**What qualifies from LinkedIn profiles:**
+- **Job title + current/recent employment at TTI + explicit technology mention** — LinkedIn profile showing a TTI employee in a role explicitly listing a specific technology (e.g., profile says "Senior Network Engineer - Cisco routing and switching" with current employment at TTI)
+
+**Strict criteria for LinkedIn profile acceptance:**
+1. The person must currently (or recently, within 6 months) work at TTI
+2. The technology must be **explicitly named** in their profile/role description (not inferred from job title)
+3. The technology must be **directly linked to a TTI-specific responsibility** (e.g., "manages Cisco infrastructure at TTI", not just "Cisco experience")
+4. Must be corroborated by at least one primary source (JD, case study, etc.) in the same domain
+
+**Why they're limited:**
+- Snapshots in time (profiles change, people move, technologies are deprecated)
+- Job titles don't guarantee current technology use (someone hired as an "Oracle specialist" may now support SAP)
+- No independent verification of claims
+- Subject to personal editing (accuracy not guaranteed)
+- Personal profiles reflect individual expertise, not necessarily company-wide adoption
+
+**When they're NOT acceptable:**
+- ❌ As sole source for a technology claim (must be corroborated)
+- ❌ When the connection is indirect (e.g., "person works in manufacturing, so company probably uses SAP")
+- ❌ When technology is not explicitly named (e.g., "Network Engineer" without naming Cisco)
+- ❌ For detailed specifications or implementation details (e.g., "person lists VLAN experience" ≠ "company uses VLANs at scale")
+- ❌ When the profile is outdated (more than 6-12 months old with no recent activity)
+
+**Examples from this report:**
+- ❌ Oracle EBS — LinkedIn profile only; technology not explicitly linked to TTI role in the profile; no primary source corroboration (removed to unverified section)
+- ❌ Network stack (Cisco/Palo Alto/Fortinet/F5/Riverbed) — LinkedIn profile (Joe Yu, APAC Senior Network Engineer) mentions technologies, but no JD or case study corroborating these specific vendors at TTI; fails the "must be corroborated" requirement (flagged as unverified)
+- ✅ Example of acceptable LinkedIn profile use (hypothetical): If a JD explicitly required "Palo Alto experience" AND a LinkedIn profile for a TTI network engineer explicitly mentioned "Palo Alto NGFW implementation", the profile would corroborate the JD claim. But profile alone is insufficient.
+
+### Tier 4: OSINT & Inference (Lowest Trust)
+**Not accepted as evidence; noted as inference only.**
+
+**What this includes:**
+- **OSINT fingerprinting** — Reverse-engineering tech stack from DNS records, website headers, error messages, cached pages (e.g., "Cloudflare DNS detected on TTI domain")
+- **Structural analysis** — Inferring technology from business context (e.g., "TTI manufactures globally, so they probably use SAP because that's what global manufacturers use")
+- **Pattern matching** — Guessing based on industry norms or market research
+
+**Why it's not trusted:**
+- OSINT can be outdated or misinterpreted (a cached page may reference legacy technology)
+- Structural analysis is assumption-based, not fact-based
+- Pattern matching conflates "likely" with "confirmed"
+- Easy to confuse inference with evidence
+
+**Examples from this report:**
+- ❌ Cloudflare — Gemini OSINT fingerprinting only (inferred from DNS, not confirmed by case study or JD)
+- ❌ DXC Technology PIM/DAM — Gemini inference ("TTI's scale makes PIM necessary") without source confirmation
+- ❌ GCP as "active third cloud" — Job posting mentions "GCP" but unclear if it's production infrastructure or just Google Workspace
+
+### Summary Decision Tree
+
+**To decide if a source supports a claim:**
+
+1. **Is it a primary source?** (JD, LinkedIn job posting, vendor case study, official announcement, recorded exec interview)
+   - → **YES**: Accept as definitive evidence
+
+2. **Is it a LinkedIn user profile?** (an individual's profile, not a job posting)
+   - → **Does it explicitly name the technology AND link it to a TTI-specific role AND have a primary source corroborating the same technology?**
+      - → **YES to all three**: Accept as supporting evidence only (not sole source)
+      - → **NO to any**: Reject; move to unverified section
+   
+3. **Is it AppsRunTheWorld public tier?** (publicly visible, not behind paywall)
+   - → **YES**: Accept as evidence
+   - → **NO (paywalled)**: Reject; move to unverified section
+
+4. **Is it OSINT, inference, or pattern matching?** (DNS fingerprints, guesses, industry norms)
+   - → **YES**: Reject entirely; do not cite in main findings
+
 ---
 
 ## Consolidated Technology Stack
@@ -58,16 +187,19 @@ This report merges findings from two independent AI research runs — Perplexity
 
 - **SAP**: Both models identify SAP as the global ERP backbone for manufacturing and product operations. Perplexity confirmed via the Precisely Automate customer story (SAP material master workflows, SAP uploads for product data). Gemini confirmed via structural analysis of the JD and manufacturing pattern matching.[^8]
 - **Oracle Cloud ERP**: North American financial operations. Perplexity confirmed via Oracle's own 2019 case study video featuring TTI's CFO Christopher Goodman, describing migration from a 35-year-old legacy ERP. Gemini confirmed via technographics OSINT.[^9]
-- **Oracle E-Business Suite (EBS)**: Hong Kong entity legacy ERP. Perplexity confirmed via a TTI Senior IT Manager's LinkedIn profile showing active Oracle EBS chatbot integration planning.[^10]
+- **Oracle E-Business Suite (EBS)**: Hong Kong entity legacy ERP. **UNVERIFIED** — cited via LinkedIn profile only; no primary source confirmation.[^10]
 
-**Perplexity-only findings:**
-- **Workday** (full suite: Core HR, Payroll, Recruiting, Compensation, Talent, Absence Management): Confirmed via AppsRunTheWorld technographics, deployed 2015–2022. Gemini did not identify Workday independently.[^3]
-- **Model N Channel** (revenue cycle management, 2022): Confirmed via AppsRunTheWorld. Not in Gemini output.[^3]
-- **UKG Workforce Central / Kronos** (time and attendance, since 2008): Confirmed via AppsRunTheWorld. Not in Gemini output.[^3]
+**Perplexity findings with verified AppsRunTheWorld evidence (public tier):**
+- **Workday Absence Management**: Confirmed via AppsRunTheWorld technographics (public tier, 2021). Note: Only Absence Management module is publicly visible; full suite claims would require paywalled access.[^3]
 
-**Assessment**: The ERP landscape is more complex than either model captured alone. The full picture is a three-tier ERP structure: SAP (global manufacturing), Oracle Cloud (NA finance), Oracle EBS (HK legacy) — plus Workday for HCM.
+**Unverified claims (paywalled, LinkedIn-only, or OSINT only) — removed from main confidence rating:**
+- Model N Channel (revenue cycle management) — AppsRunTheWorld source is paywalled; cannot verify publicly
+- UKG Workforce Central / Kronos (time and attendance) — AppsRunTheWorld source is paywalled; cannot verify publicly
+- New Relic (monitoring) — AppsRunTheWorld source is paywalled; cannot verify publicly
 
-**Confidence: High for SAP/Oracle; High for Workday (Perplexity-sourced).**
+**Assessment**: The verifiable ERP landscape from primary sources is: SAP (global manufacturing via Precisely case study), Oracle Cloud ERP (North America finance via Oracle case study video). Workday Absence Management is confirmed via AppsRunTheWorld public tier. Oracle EBS and several other systems are cited via LinkedIn profiles or paywalled sources only.
+
+**Confidence: High for SAP/Oracle Cloud ERP (primary sources); Medium for Workday Absence Management (AppsRunTheWorld public tier); Low/Unverified for Model N, Kronos, New Relic, Oracle EBS (require paywalled or LinkedIn-only sources).**
 
 ---
 
@@ -157,10 +289,10 @@ This report merges findings from two independent AI research runs — Perplexity
 | Cloud (Tertiary) | GCP | Medium | Job posting language only |
 | ERP (Manufacturing) | SAP | High | Precisely case study [^8] |
 | ERP (NA Finance) | Oracle Cloud ERP | High | Oracle case study video [^9] |
-| ERP (HK Legacy) | Oracle E-Business Suite | Medium-High | LinkedIn IT Manager profile [^10] |
-| HCM | Workday (full suite) | High | AppsRunTheWorld [^3] |
-| Time & Attendance | UKG Workforce Central (Kronos) | High | AppsRunTheWorld [^3] |
-| Revenue Cycle | Model N | Medium | AppsRunTheWorld [^3] |
+| ERP (HK Legacy) | Oracle E-Business Suite | **Low (Unverified)** | **LinkedIn only [^10]** |
+| HCM | Workday Absence Management | Medium-High | AppsRunTheWorld (public tier) [^3] |
+| Time & Attendance | UKG Workforce Central (Kronos) | **Low (Unverified)** | **AppsRunTheWorld (paywalled)** [^3] |
+| Revenue Cycle | Model N | **Low (Unverified)** | **AppsRunTheWorld (paywalled)** [^3] |
 | CMS / Web | Drupal on Acquia Cloud | High | Acquia customer case study [^11] |
 | CDN / DNS | Cloudflare | Medium | OSINT fingerprinting (Gemini) |
 | Digital Marketing | Salesforce Marketing Cloud | High | Jarrang case studies × 2 [^12][^13] |
@@ -198,11 +330,22 @@ This report merges findings from two independent AI research runs — Perplexity
 
 ## Unverified Claims Requiring Caution
 
-1. **DXC Technology as PIM/DAM systems integrator** — Gemini-only; no primary source found. Structurally plausible but should not be stated as confirmed.
-2. **Cloudflare as DNS/CDN layer** — Gemini-only OSINT; consistent with Acquia Cloud but not confirmed by a named vendor case study.
-3. **GCP as active third cloud** — Evidence limited to generic job posting language; may reflect Google Workspace rather than meaningful infrastructure workloads.
-4. **Oracle EBS (HK entity)** — Perplexity-sourced via LinkedIn profile inference; not confirmed by a primary Oracle/TTI document.
-5. **Exact breakdown of on-prem vs. migrated cloud workloads** — Not publicly disclosed; internal variable only.
+**LinkedIn-only sources (snapshots in time, unverified):**
+1. **Oracle EBS (HK entity)** — Cited from LinkedIn profile (Benny Yeung). No primary source like a job description or case study.
+2. **Network stack (APAC) detail** — Cisco/Palo Alto/Fortinet/F5/Riverbed cited from LinkedIn profile (Joe Yu). No other independent confirmation.
+
+**AppsRunTheWorld paywalled sources (cannot verify without subscription):**
+3. **UKG Kronos / Workforce Central** — Claimed as AppsRunTheWorld source but behind paywall.
+4. **Model N Channel** — Claimed as AppsRunTheWorld source but behind paywall.
+5. **New Relic APM** — Claimed as AppsRunTheWorld 2020 deployment but behind paywall. (Note: the April 2026 data in this file cites 2020, which may be stale.)
+
+**OSINT/Inference-only (not confirmed by primary sources):**
+6. **DXC Technology as PIM/DAM systems integrator** — Gemini OSINT only; structurally plausible but should not be stated as confirmed.
+7. **Cloudflare as DNS/CDN layer** — Gemini OSINT only; consistent with Acquia Cloud but not named in any case study.
+8. **GCP as active third cloud** — Evidence limited to generic job posting language; may reflect Google Workspace rather than meaningful infrastructure workloads.
+
+**Not publicly disclosed:**
+9. **Exact breakdown of on-prem vs. migrated cloud workloads** — Not publicly disclosed; internal variable only.
 
 ---
 
