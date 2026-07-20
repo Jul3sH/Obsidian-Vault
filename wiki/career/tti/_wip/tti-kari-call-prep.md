@@ -68,6 +68,9 @@ Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." 
 
 *Newest / sharpest first. Add freely.*
 
+- **TESCM / cross-jurisdictional rapport (Kari-specific — use early to build credibility):**
+  > "You spend your career on cross-jurisdictional structure — organising how the group's flows work across regions into one coherent design. I'd do the equivalent for the technology architecture: one coherent target the regions conform to, instead of every cross-border decision going to a committee. Same discipline, different domain."
+
 - **On the "not an application solution architect" gap (Julian's flagged favourite):**
   > "I don't need to be your SAP expert. I need to make sure your ERP, CRM and integration decisions across regions conform to one target and one set of principles, so they stop diverging and stop needing a committee to reconcile each time. The regional solution architects hold the deep application knowledge; my job is to make that expertise compose across regions instead of fragmenting."
 

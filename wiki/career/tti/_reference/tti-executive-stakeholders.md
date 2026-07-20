@@ -617,17 +617,18 @@ Julian's call: position **adjacent and complementary** to Ryan (not subordinate,
 
 ## Kari (surname init. P.) — Finnish; ex-KPMG tax Partner
 
-**Role / Relationship:** Hong Kong-based international-tax adviser, almost certainly **Stephan's personal/trusted "tax guy"** (external adviser, not a TTI employee — inferred from the profile gap post-2015 + Stephan's phrasing). Surfaced by Stephan on 18 Jul 2026; works closely enough with TTI's IT/systems to hold a view on them.
-**Influence:** **High (indirect) — a credibility kingmaker, not merely a gateway.** Stephan *trusts his opinion* (the reason he's been brought in), and unlike Justin his view carries **both** personal trust **and** genuine commercial credibility (KPMG Partner, APAC Leader). In Stephan's consult-trusted-voices decision pattern, Kari is a heavyweight consultee. Also a practical route to **Frank Chan** (Group CFO, leaving soon), and Ty is already confiding in him.
-**Disposition:** **Supportive so far** — read Julian's CV, spoke with Ty, supportive of "adding IT support," asked to speak within days. But this call is a genuine **credibility assessment** by someone Stephan will believe — treat as make-or-break, not a friendly formality.
-**Status:** Newly surfaced (18 Jul 2026); no prior relationship; first call imminent.
+**Role / Relationship:** **Senior Vice President, Techtronic Industries (TTI)** — confirmed 20 Jul. A senior **INTERNAL** executive (peer-level to Tony Chung and Justin, both SVPs), Finnish, with a tax / finance-structure background (ex-KPMG transfer-pricing / TESCM Partner) and a remit that **works closely with TTI's IT and systems**. Also Stephan's trusted "tax guy." Surfaced by Stephan on 18 Jul 2026 as the next node in the engagement.
+**Influence:** **High — a credibility kingmaker AND an internal power node.** Not merely a gateway: Stephan *trusts his opinion* (the reason he's been brought in), and unlike Justin his view carries **both** personal trust **and** genuine commercial credibility (KPMG Partner + TTI SVP). As an internal SVP he has real org standing, a practical internal line to **Frank Chan** (Group CFO, leaving soon), and Ty is already confiding in him.
+**Disposition:** **Supportive so far** — read Julian's CV, spoke with Ty, supportive of "adding IT support," and reached out 20 Jul to schedule a call. But this call is a genuine **credibility assessment** by someone Stephan will believe — treat as make-or-break, not a friendly formality.
+**Status:** Active (first contact 20 Jul); call being scheduled for **Thu 23 / Fri 24 Jul** (Julian in HK; Kari travelling in EMEA — timezone gap to bridge). No prior relationship.
+**⚠ Systems stake:** as the SVP whose tax/TESCM remit runs on the ERP/systems, a new EA/governance role touching technology could affect *his* world — so reassure him his systems interests are protected (coordinate/govern, regional experts implement, pools authority).
 **LinkedIn:** [linkedin.com/in/kari-p-08bb051](https://www.linkedin.com/in/kari-p-08bb051/) (668 followers, no posts — low activity).
 
 ### Background (from LinkedIn, to Jul 2015)
 - **Finnish.** Career start: EU Commission stagiaire (Brussels, 1998); KPMG Finland (International Tax, Helsinki).
 - **Co-Founder, IndexIT Venture Capital Advisory (2000–2003)** — a genuine **IT/tech-adjacent** entrepreneurial stint; the root of "works closely with IT and the systems." He is NOT tax-only.
 - **KPMG (Finland → China/HK), rising to Partner, Asia Pacific Leader — Global Transfer Pricing Services & TESCM** (to Jul 2015). Deep expertise in **transfer pricing and Tax-Efficient Supply Chain Management (TESCM)**: structuring how a multinational's flows are organised across jurisdictions.
-- **Post-2015 role not shown** — consistent with going independent/private (fits "my tax guy in HK"). 🟡 Confirm his current position.
+- **Post-2015: joined TTI, now Senior Vice President** (confirmed 20 Jul). So the KPMG-to-TTI move happened after 2015; he is an internal TTI executive, while also being the trusted "tax guy" Stephan refers to personally.
 
 ### Strategic reads (Julian's intel, 20 Jul)
 - **Credible AND trusted.** Justin rates him a "smart guy"; Stephan trusts his judgement. That combination (commercial credibility + Stephan's personal trust) makes his read on Julian genuinely load-bearing — closer to a kingmaker than a gateway.
@@ -652,7 +653,7 @@ Julian's call: position **adjacent and complementary** to Ryan (not subordinate,
 - [[tti-cfo-brief]] — the audit-first ask he would carry to Frank
 - [[tti-internal-politics]] — the US-vs-HK camp dynamic Kari sits inside
 
-**Last contact:** none yet — first call imminent (surfaced via Stephan 18 Jul 2026).
+**Last contact:** 20 Jul 2026 — Kari messaged Julian directly (WhatsApp) to schedule the call; proposed Thu/Fri or next week while travelling in EMEA. Julian offered HK Thu/Fri, flagged urgency, flexible on time. See [[tti-comms-log]].
 
 ---
 

@@ -23,6 +23,24 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 20 Jul - KARI MADE DIRECT CONTACT: call being scheduled (Thu 23 / Fri 24 Jul); confirmed as SVP TTI
+
+> **The Kari channel is now live and direct.** Kari (confirmed **Senior Vice President, TTI** — internal, not an external adviser) messaged Julian directly to set up the call. He is travelling in EMEA this week; proposed Thu/Fri or next week. Julian pushed for Thu/Fri (HK) citing urgency, offered wide availability. Call likely **Thu 23 or Fri 24 Jul**, bridging the HK–EMEA timezone gap.
+
+**What happened (WhatsApp, 20 Jul):**
+- **Kari (10:58):** *"Hi Julian, I believe Stephan mentioned to you that I would get in touch re: the potential opportunity/IT role in TTI. I'm currently on travel but will be in EMEA region later this coming week so perhaps we could have a call then. Pls let me know your time zone and availability eg for Thursday and Friday. Also next week is an option. Looking forward to speaking with you soon. Best regards, Kari"*
+- **Julian (11:10):** *"Hi Kari, thanks for getting in touch whilst on your travels. I'll be in HK on Thursday and Friday which are preferable due the degree of urgency I have relating to the discussions. I'm flexible on time so please choose what works best for you. I'm an early riser (5am) so anything from 5:30am to around 9pm HK time. All the best for your travels, I look forward to speaking later in the week. Regards, Julian"*
+
+**Strategic read:**
+- **Kari is INTERNAL (SVP TTI), not an external adviser** — a bigger deal than first assumed. Peer-level to Tony Chung; a credible internal power node whom Stephan trusts and Ty confides in. This call carries real weight. Profile + positioning: [[tti-executive-stakeholders#Kari (surname init. P.) — Finnish; ex-KPMG tax Partner]].
+- **"the potential opportunity/IT role"** — Kari's own framing still leans "IT role," so the altitude lift (to EA/governance, via Ty's description) remains the core task. Do NOT correct him; attribute the altitude to Ty.
+- **Tone:** warm, professional, well-organised. Julian's reply well-judged — urgency flagged without desperation, generous availability, no over-pitching.
+- **⚠ Prep before Thu:** the Kari-specific positioning matters most — HK-anchored-bridge framing (he's HK old-school camp), the TESCM rapport hook, and reassurance his systems remit is protected. See [[tti-kari-call-prep]].
+
+**NEXT:** confirm the slot (Kari to choose); prep to [[tti-kari-call-prep]] with the HK-bridge + TESCM angles; take the call Thu/Fri.
+
+---
+
 ## ✅ 18 Jul - PROCESS MOVING: an internal HK stakeholder (Kari) wants a call within days; Stephan endorses it as "an opportunity to focus on"
 
 > **The process took a concrete step inside the school window, and Stephan's endorsement escalated from advocacy to active steer.** Stephan surfaced **Kari** (his "tax guy in HK" who *also works closely with IT and the systems*), who has **read Julian's CV**, is **supportive of adding IT support**, has **spoken with Ty**, and **wants a call in the next couple of days**. Stephan is passing Julian's number to him. Asked directly for his read on the EA role, Stephan: *"I feel it is an opportunity to focus on."*
@@ -277,6 +295,7 @@ renamed: 2026-07-17
 | 15 Jul 2026 | Ty Staviski | Direct call (no artefacts, live discussion). Ty described unprompted: permanent HK-based EA/governance role addressing fragmented tech leadership in Asia; suggested August meeting. Julian surfaced his school deadline. | **Strong on fit, not yet an offer.** Real permanent role in-wheelhouse; no structure/timeline; August past school deadline. |
 | 15-16 Jul 2026 | Stephan | WhatsApp: follow-up clarifications. Re-anchored Julian toward April JD + aligned resume; confirmed role is HK-based; cleared misconception about Julian's intentions to stay vs. leave HK. | **Positive.** Stephan actively advocating + repositioned Julian as HK-committed. |
 | 18 Jul 2026 | Stephan | WhatsApp: availability/openness to call from Kari (HK tax + IT influence contact). Re-anchored to EA role altitude. | **Strong positive.** Kari call incoming; Stephan's endorsement escalated to active steer. |
+| 20 Jul 2026 | Kari (SVP TTI) | WhatsApp reply scheduling the call — offered HK Thu/Fri, flagged urgency, wide availability (5:30am–9pm HK). | First direct Kari contact; call being scheduled Thu 23 / Fri 24 Jul (Kari travelling EMEA). Kari confirmed as SVP TTI (internal). |
 
 (Prior sends - CV, Feb reframe, Cipriani materials, April CV + JD + salary - are logged in [[engagement-history]].)
 
