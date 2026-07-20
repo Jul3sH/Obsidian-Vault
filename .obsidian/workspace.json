@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/career/tti/_reference/tti-apac-technology-stakeholders.md",
+                "file": "wiki/career/tti/_wip/tti-engagement-strategy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tti-apac-technology-stakeholders"
+              "title": "tti-engagement-strategy"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/career/tti/_reference/tti-apac-technology-stakeholders.md",
     "wiki/career/tti/_wip/tti-ty-call-simulation-2026-07-19.md",
     "wiki/career/tti/_wip/tti-cfo-brief.md",
     "wiki/career/tti/_wip/tti-frank-brief.md",
@@ -212,7 +213,6 @@
     "wiki/career/tti/_on-hold/tti-ty-brief.md",
     "wiki/career/tti/_reference/tti-ty-brief.md",
     "wiki/career/tti/_reference/tti-executive-stakeholders.md",
-    "wiki/career/tti/_reference/tti-apac-technology-stakeholders.md",
     "wiki/career/tti/_wip/tti-engagement-strategy.md",
     "wiki/career/tti/_wip/artefact-delivery-log.md",
     "wiki/career/tti/_on-hold/tti-consulting-brief.md",
