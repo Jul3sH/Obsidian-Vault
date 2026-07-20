@@ -615,6 +615,47 @@ Julian's call: position **adjacent and complementary** to Ryan (not subordinate,
 
 ---
 
+## Kari (surname init. P.) — Finnish; ex-KPMG tax Partner
+
+**Role / Relationship:** Hong Kong-based international-tax adviser, almost certainly **Stephan's personal/trusted "tax guy"** (external adviser, not a TTI employee — inferred from the profile gap post-2015 + Stephan's phrasing). Surfaced by Stephan on 18 Jul 2026; works closely enough with TTI's IT/systems to hold a view on them.
+**Influence:** **High (indirect) — a credibility kingmaker, not merely a gateway.** Stephan *trusts his opinion* (the reason he's been brought in), and unlike Justin his view carries **both** personal trust **and** genuine commercial credibility (KPMG Partner, APAC Leader). In Stephan's consult-trusted-voices decision pattern, Kari is a heavyweight consultee. Also a practical route to **Frank Chan** (Group CFO, leaving soon), and Ty is already confiding in him.
+**Disposition:** **Supportive so far** — read Julian's CV, spoke with Ty, supportive of "adding IT support," asked to speak within days. But this call is a genuine **credibility assessment** by someone Stephan will believe — treat as make-or-break, not a friendly formality.
+**Status:** Newly surfaced (18 Jul 2026); no prior relationship; first call imminent.
+**LinkedIn:** [linkedin.com/in/kari-p-08bb051](https://www.linkedin.com/in/kari-p-08bb051/) (668 followers, no posts — low activity).
+
+### Background (from LinkedIn, to Jul 2015)
+- **Finnish.** Career start: EU Commission stagiaire (Brussels, 1998); KPMG Finland (International Tax, Helsinki).
+- **Co-Founder, IndexIT Venture Capital Advisory (2000–2003)** — a genuine **IT/tech-adjacent** entrepreneurial stint; the root of "works closely with IT and the systems." He is NOT tax-only.
+- **KPMG (Finland → China/HK), rising to Partner, Asia Pacific Leader — Global Transfer Pricing Services & TESCM** (to Jul 2015). Deep expertise in **transfer pricing and Tax-Efficient Supply Chain Management (TESCM)**: structuring how a multinational's flows are organised across jurisdictions.
+- **Post-2015 role not shown** — consistent with going independent/private (fits "my tax guy in HK"). 🟡 Confirm his current position.
+
+### Strategic reads (Julian's intel, 20 Jul)
+- **Credible AND trusted.** Justin rates him a "smart guy"; Stephan trusts his judgement. That combination (commercial credibility + Stephan's personal trust) makes his read on Julian genuinely load-bearing — closer to a kingmaker than a gateway.
+- **⭐ Old-school / HK camp, NOT the US camp** (see [[tti-internal-politics]]). Aligned with the HK TTI leadership (Horst/Stephan/Frank/Tony world), not the US side (Richman/US leadership). **Likely probing whether Julian bridges the US–HK gap or threatens the HK position.** This is the key new variable.
+- **TESCM = the rapport/credibility bridge.** His whole career is *cross-jurisdictional structural optimisation* — organising a multinational's flows across regions to one coherent design. That is *structurally the same shape* as Julian's cross-region technology governance. Draw the analogy explicitly: "you do this for the tax and supply-chain structure; I'd do it for the technology architecture." It also makes the FinOps/treasury cost analogy land natively — he lives in this world.
+- **Real IT affinity (IndexIT)** — don't over-simplify the technology story the way you would for a pure finance reader; he can engage more substance (but keep the money framing — he's finance-fluent).
+
+### How to position (the US–HK bridge)
+- **Position as the HK-anchored bridge, not a US-imported change agent.** The role "coordinates with the US" — to an HK-camp adviser that can read as *US encroachment on HK autonomy*. Frame it as **protecting and empowering HK's seat at the table while coordinating with the US** — a two-way bridge, HK-based, HK-committed.
+- **Lean on the HK credentials that are genuinely yours:** HK-based, staying long-term, decades-deep in the Pudwill family (the ultimate HK old-school node). You ARE the HK camp's kind of person — a trusted local with globally-capable, US-fluent credentials. That is exactly the bridge profile the HK camp would want.
+- **The "outside Tony's org" framing needs extra care with Kari** (Tony is HK-camp too): lead hard with *pools authority, doesn't confiscate it*; never a whiff of "US finance annexing HK technology."
+
+### Watch-outs
+- ⚠ **Altitude:** his "IT support" framing is low; never correct it, lift it via Ty's description (see [[tti-kari-call-prep]]).
+- **He talks across the HK office** — assume anything said about Tony reaches Tony verbatim. Never criticise Tony.
+- **Don't play US-champion.** To an HK-camp adviser, over-identifying with the US side is the fastest way to lose him. Bridge, don't pick a side.
+- Don't negotiate title/money with him (not the decider); give him the value test, not a price.
+
+### Reference
+- [[tti-kari-call-prep]] — the talking bank for the imminent call
+- [[tti-kari-call-simulation-2026-07-19]] — Fable dry run + receiver-profile + conversion plan
+- [[tti-cfo-brief]] — the audit-first ask he would carry to Frank
+- [[tti-internal-politics]] — the US-vs-HK camp dynamic Kari sits inside
+
+**Last contact:** none yet — first call imminent (surfaced via Stephan 18 Jul 2026).
+
+---
+
 ## Target Executives at TTI (per AR25)
 
 *These are the people Julian's pitches are aimed at — not relational contacts. No direct relationship with any of them. Profiles are kept brief; depth lives in [[tti-2025-ar-key-initiatives]], [[tti-2025-annual-results-script]], and [[tti-2025-ar-employee-qa-script]].*

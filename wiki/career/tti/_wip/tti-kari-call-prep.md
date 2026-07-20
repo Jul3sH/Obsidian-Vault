@@ -45,6 +45,15 @@ Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." 
 
 **⚠ Altitude guardrail.** Kari's framing is *"adding IT support"* — that is lower than the enterprise-architect / governance role Ty described. Position every answer at the **EA / architecture-and-governance altitude**, not "IT support". Do not let the conversation settle at the platform-engineering / system-admin level.
 
+## Kari-specific intel (his profile + camp — 20 Jul)
+
+*He is not a generic finance gatekeeper. Calibrate to the real person.*
+
+- **He's a credibility kingmaker Stephan trusts.** Ex-KPMG Partner (APAC transfer-pricing leader), rated "smart" by Justin, and Stephan weights his opinion — that's *why* he's been brought in. This call is a genuine credibility test whose result reaches Stephan, not a friendly formality.
+- **⭐ He's HK old-school camp, NOT US camp.** He may be quietly assessing whether you **bridge** the US–HK gap or **threaten** HK's position. **Position as the HK-anchored bridge:** protecting and empowering HK's seat *while* coordinating with the US — two-way, HK-based, HK-committed. Lean on your genuine HK credentials (based here, staying long-term, decades with the Pudwill family). **Never play US-champion.** Extra care on "the role sits outside Tony's org" — lead with *pools authority, doesn't confiscate it*; no whiff of "US finance annexing HK technology."
+- **TESCM rapport hook (use early).** His whole career is cross-jurisdictional structural optimisation (transfer pricing / tax-efficient supply chain) — the same *shape* as your cross-region technology governance. Say it: *"You do this for the tax and supply-chain structure across jurisdictions; I'd do the equivalent for the technology architecture."* Instant credibility, and it makes the FinOps/treasury analogy land natively — he lives in this world.
+- **He has real IT affinity** (co-founded an IT venture-capital advisory) — don't dumb the tech down as much as for a pure finance reader; he can take more substance. But keep the money framing; he's finance-fluent.
+
 ## Framing devices (the spines to hang lines on)
 
 **1. Director-level is a structural necessity, not ambition.** TTI APAC has multiple technology directors reporting into Tony Chung. Coordinating across them needs peer-level authority. A Principal is an individual contributor with no cross-director mandate. *This is organizational structure, not a title grab.* (Locked premise — see [[tti-engagement-strategy]] and [[tti-apac-technology-stakeholders]].)
