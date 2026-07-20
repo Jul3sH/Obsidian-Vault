@@ -645,7 +645,8 @@ Julian's call: position **adjacent and complementary** to Ryan (not subordinate,
 - ⚠ **Altitude:** his "IT support" framing is low; never correct it, lift it via Ty's description (see [[tti-kari-call-prep]]).
 - **He talks across the HK office** — assume anything said about Tony reaches Tony verbatim. Never criticise Tony.
 - **Don't play US-champion.** To an HK-camp adviser, over-identifying with the US side is the fastest way to lose him. Bridge, don't pick a side.
-- Don't negotiate title/money with him (not the decider); give him the value test, not a price.
+- **Stay HK-committed; keep the UK / school-deadline framing OFF this channel entirely.** He's HK-camp and internal, assessing whether Julian is a committed local *bridge* or a flight risk — and he talks to everyone. Any "decide by X or I leave HK" signal would undercut the whole bridge positioning. Urgency is fine framed as wanting to get *settled and started in HK*, never as an exit threat.
+- Don't negotiate title/money with him (not the decider on the role); give him the value test, not a price.
 
 ### Reference
 - [[tti-kari-call-prep]] — the talking bank for the imminent call

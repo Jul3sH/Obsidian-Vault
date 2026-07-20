@@ -8,13 +8,13 @@ tags: [career, tti]
 > *Company knowledge and engagement for the TTI opportunity. Organised by workflow
 > state — see the folder map below.*
 
-> 📌 **New session? Start with [[tti-engagement-strategy]]** (in `_wip/`) — the living strategy doc holds the current position. (The old dated handover is archived.)
+> 📌 **New here, or lost in the artifacts? Open [[tti-start-here]]** — the reading map: what every doc is, grouped into three layers, and the order to read them by goal. (For live status go to [[tti-role]]; for strategy, [[tti-engagement-strategy]].)
 
 ## Folder map — where things live
 
 | Folder | What's in it | Look here when… |
 |--------|-------------|-----------------|
-| **(root)** | This index only | Always — start here |
+| **(root)** | This index + [[tti-start-here]] (the reading map) | Always — start here |
 | **[[_wip/_index\|_wip/]]** | The living strategy doc + active drafts | Working on a live deliverable |
 | **[[_reference/_index\|_reference/]]** | Stable knowledge — company, stakeholders, politics, AR25, role/value-prop artefacts | Producing anything — this is the standing library |
 | **[[_on-hold/_index\|_on-hold/]]** | Paused artefacts, may be repurposed | Only if reviving a parked approach |

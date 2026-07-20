@@ -82,7 +82,9 @@ Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." 
 
 ## Stories & proof points
 
-*Slots to fill with your real detail. Pick the ones that best show "governance that dissolved silos / killed committees", not just scale. Confirm specifics before using.*
+> **Canonical home is now [[tti-story-bank]]** — build/keep stories there, deploy them here. The slots below are retained as quick reminders; the full versions (with honest kernels + boundaries) live in the bank.
+
+*Pick the ones that best show "governance that dissolved silos / killed committees", not just scale. Confirm specifics before using.*
 
 - **US$200M+ EA design assurance (Telstra International, Global Head of Enterprise Solution Architecture)** — candidate story for *governance-at-scale that held divergent designs to one standard*. [needs your concrete "here's the committee/silo it removed" detail]
 - **US$300M+ managed-services transformation governance** — candidate story for *coordinating many delivery streams to one target without disruption*. [needs your detail]

@@ -9,6 +9,8 @@ status: wip
 > working. When a draft is finished — sent, delivered, or decided — move it to
 > `_archived/` (if done) or `_on-hold/` (if paused) and update both indexes.*
 
+> 📌 Lost in the artifacts? Open [[tti-start-here]] — the reading map (what each doc is + read-by-goal order).
+
 Active, live records (drafts in flight plus the living strategy doc, which must stay current):
 
 | File | What it is |
