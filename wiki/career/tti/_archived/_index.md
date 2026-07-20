@@ -11,6 +11,7 @@ status: archived
 
 | File | Why archived | Date |
 |------|-------------|------|
+| [[tti-ea-governance-value-fable-review-2026-07-19]] | Fable adversarial review (2 rounds, hostile Tony Chung) of the EA-governance argument. Verdict summary + fix table now embedded in [[tti-ea-governance-value]] top section; this file is the full paper trail only. | 2026-07-20 |
 | [[stephan-lunch-gameplan]] | Game plan for the 23 Jun Stephan lunch; the lunch happened and converted (Stephan to pitch Ty). Spent. Outcome logged in [[engagement-history]]. | 2026-06-23 |
 | [[HANDOVER-2026-06-02]] | Superseded by the living [[tti-engagement-strategy]] doc, now the start-here. Build plan migrated to the AI Enablement Strategy deliverable. | 2026-06-07 |
 | [[justin-may-2026-reconnaissance]] | The 29 May Justin–Stephan ambient catch-up has passed; brief is spent. Diagnose-first uses Peter (not Justin) as the parallel channel. | 2026-06-07 |

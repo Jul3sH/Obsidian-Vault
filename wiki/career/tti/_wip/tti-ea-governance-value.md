@@ -9,6 +9,57 @@ audience: Julian only (conversation prep)
 send: NEVER
 ---
 
+## Fable verdict summary — what was attacked, what was fixed, what is still open
+
+> **Two adversarial passes by Fable (hostile Tony Chung role).** Read this block instead of the separate review file. Full detail: [[tti-ea-governance-value-fable-review-2026-07-19]].
+
+### What Fable attacked (both rounds, most dangerous first)
+
+| # | Attack | Severity | Round |
+|---|--------|----------|-------|
+| 1 | Mandate void: Architecture Board has no charter, no enforcement — "just another committee, with your salary" | FATAL | 1 |
+| 2 | No charterer: "CFO/Ty" collapses — Frank leaving, Ty only Deputy, no exec above both regional lines named | FATAL | 2 |
+| 3 | No-outvote board is a suicide clause: Tony's directors attend and never agree; no deadlock-breaker | FATAL | 2 |
+| 4 | No coordination-tax number for a CFO audience that already asked for one | Serious | 1 |
+| 5 | FinOps analogy inverts: no accountability number owned, centre-vs-implementation contradiction | Serious | 1 |
+| 6 | AI grunt-work line hands Tony his cheapest kill: "principal + Copilot, half the cost, in my org" | Serious | 1 |
+| 7 | Credibility gap at reference-architecture layer: can't arbitrate SAP/Oracle expert dispute | Serious | 1 |
+| 8 | Silo diagnosis insults the room; silent on Milwaukee geography of authority | Serious | 1 |
+| 9 | TOGAF sequencing gap: leading with G/H implies a target that doesn't yet exist | Serious | 1 |
+| 10 | Four director-hire questions unanswered: reporting line, why-external, prior proof, 90-day plan | Serious | 1 |
+| 11 | Resource starvation: floating coordinator with no line reports; Tony keeps teams "very busy" | Serious | 2 |
+| 12 | Cheaper fix invited: "just cancel the committees for free" | Serious | 2 |
+| 13 | "Committees retired" KPI is gameable: rename to "alignment sync" and baseline disappears | Minor | 2 |
+
+### What was fixed (applied in v3)
+
+| Fix | Where |
+|-----|-------|
+| Mandate: joint charter (Ty + group tech leadership), Frank explicitly not load-bearing | §4 |
+| Deadlock-breaker: decision SLA (auto-escalate) + ratification rule (silence = consent) | §4 |
+| Resourcing committed at charter, not negotiated per meeting | §4 |
+| "Committees retired" defined as calendar-audited standing forum, not self-reported | §4 |
+| CEO-chip fallback: Uva tier as day-to-day ratifier; CEO as rarely-used backstop, formalised later | §4 |
+| FinOps reframed: risk-transfer only; role owns a named number; welded to charter executive's decision | §2 |
+| AI grunt-work line fused to authority clause so it cannot be detached and used against director-level | §7 |
+| Silo diagnosis reframed: "rational residue of M&A"; Milwaukee as most mature, board starts from its patterns | §1 |
+| TOGAF sequencing: principles + board deliver value week one; reference architecture builds behind them | §3 |
+| Reference-architecture method: authored by regional experts through the board, not Julian solo | §6 |
+| Reporting line decided: NOT inside Tony's org — firm position, hold it plainly | §8 |
+| Prior-proof: honest bridge drafted, welded to the de-risk; instruction to build one Telstra before/after | §8 |
+| Coordination-tax: illustrative model + "can't cancel without replacing the decision function" | §5 |
+
+### Still open (must close before the Ty room)
+
+| Item | Priority | Where |
+|------|----------|-------|
+| 🟡 Name the charter: who sits above BOTH regional tech lines as escalation terminus | Highest | §4 |
+| 🟡 Prior-proof story: one concrete Telstra before/after — named forum, what replaced it, what stopped | Critical for Ty | §8 |
+| 🟡 SAP-or-Oracle criteria: the evaluation factors you would actually name | Secondary | §6 |
+| 🟡 Latency example: one real cross-region decision that stalled while spend or a project waited | Secondary | §5 |
+
+---
+
 > **CONVERSATION PREP. NOT AN ARTEFACT TO SHARE.** The argument, in memorable
 > chunks, for how enterprise-architecture governance aligns TTI's regional
 > application stack (ERP, CRM, integration) and dissolves the endless steering
