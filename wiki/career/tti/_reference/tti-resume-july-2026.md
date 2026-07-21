@@ -11,7 +11,9 @@ sendable: Downloads/Julian-Hart-TTI-CV.pdf
 > senior technology operator** across four evidenced wheelhouses (cyber, EA, delivery,
 > networking), AI-native, available for remote consulting. Updates the April version's
 > "Enterprise Architect" lead into the four-wheelhouse framing. Ships with the one-pager
-> to Ty via Stephan.*
+> to Ty via Stephan.
+> 
+> **NOTE: It looks like I never sent this out, and I can't ind a copy of it aywhere in dropbox ***
 
 ---
 
