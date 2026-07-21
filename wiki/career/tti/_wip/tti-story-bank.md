@@ -43,6 +43,7 @@ send: NEVER
 - **Honest kernel:** your whole EA / solution-architecture career *is* systems analysis, design & integration — designing how systems fit together, setting integration standards and reference architectures, assuring multi-tower solutions across network / cloud / security.
 - **Evidence:** Global Head of Enterprise Solutions Architecture (assured **US$60M+ multi-tower solutions**; **+20% right-first-time** via a solution-assurance restructure); the **US$90M** network/infra/security transformation across **2 data centres + 80 sites**; the Computacenter **DC integration for a two-Telco merger**; rooted in your **BSc Computer Information Systems Design**.
 - **Altitude to claim it at:** the architecture / design-and-integration **strategy** layer — how systems connect, integration governance, the target reference architecture. NOT hands-on middleware/ETL coding.
+- **What "systems" means (the reclaim — locked 21 Jul):** the architecture/telco sense — security systems, identity systems, network/infrastructure systems, the OSS stack — and *integration* in the systems-integrator sense (composing security + network products into one governed whole). **NOT** platform-admin or ERP. Define the word at this altitude before Kari fills it in with the open sysadmin seat. Per the [[tti-engagement-strategy]] guardrail: Track A is the play; **never offer sysadmin capability**, and never claim you did a sysadmin role. (Verbal reclaim line + telco justification is Julian's live build — see [[tti-kari-call-prep]].)
 - **Boundary to hold:** *"I design and govern how systems integrate; I don't hand-code the integrations — that's the engineers, working to the standards I set."* (Same shape as "I govern, they implement.")
 - **The bonus:** this IS the TTI pitch. "Make ERP, CRM and integration decisions conform to one target" *is* systems analysis, design & integration. Your weakest-feeling claim is the centre of your governance argument.
 - **Say it like this:** *"Systems analysis and integration, for me, is the architecture layer — analysing how a fragmented estate should fit together, setting the integration standards and the target, and governing conformance. I've done it assuring US$60M+ of multi-tower solutions and on a US$90M transformation across two data centres and eighty sites. I'm not the engineer hand-wiring the middleware — I'm the one who designs the target they build to."*
@@ -77,5 +78,5 @@ send: NEVER
 ## Related
 - [[tti-ea-governance-value]] — the argument these stories back
 - [[tti-kari-call-prep]] · [[tti-ty-call-simulation-2026-07-19]] — where you deploy them
-- [[tti-resume-july-2026]] — the CV claims these defend
+- [[tti-resume-april-2026]] — the CV Ty/Kari actually saw; the claims these stories defend (incl. "Systems analysis, design & integration"). Note: the newer [[tti-resume-july-2026]] was **never sent** and drops that line, so April is the version in circulation.
 - [[tti-start-here]] — the reading map

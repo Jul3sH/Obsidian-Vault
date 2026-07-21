@@ -129,15 +129,6 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 - **Positioning strategy:** (1) Can't coordinate US/APAC teams as a Principal — need director seniority. (2) Platform engineering gap is addressable by working with existing sysadmins using architecture patterns (EA work, not hands-on ops). (3) Real value is EA/governance alignment (Ty's stated gap: steering committees are broken). Reference [[tti-sysadmin-skills-bridge]] for the gap analysis. (4) Kari call this week — convince him engineering gap is manageable, EA/governance is the value, role should be director-level. Get Frank's appetite before school deadline (mid-August).
 - **Why it matters:** Stepping up to director-level + EA framing means the role is defensible and differentiated from the principal posting. It plays to Julian's actual wheelhouse (governance, frameworks, cross-enterprise alignment) and to what Ty explicitly asked for.
 
-### 4 July 2026 — Personal endorsement pivot
-- **Trigger:** Capability/risk assessment exposed two fatal flaws: strategy-sell over-committed Julian to hands-on automation delivery he cannot evidence; required Stephan to back a strategy he cannot evaluate and would fear failing under Ty's scrutiny.
-- **Change:** Moved entirely to personal character endorsement (not strategy sell). Pitch: versatile, capable senior technology veteran (cyber + EA + delivery + networking), AI-leveraged, available to plug into TTI's existing initiatives on a stop-anytime consulting basis. Forward pack: CV + v3 one-pager ([[tti-ty-brief]]) only. AI savings work demoted to pull-only working notes ([[tti-ai-leverage-working-notes]]): never forwarded, only if Ty asks for numbers. Close on discovery conversation, not a role ask. **Trades low-probability big sell for high-probability small yes.**
-- **Refinements:** Concrete ask = initial 6 months (TTI's default). CLSA is dead. Julian leaning UK, but TTI engagement valuable in both branches (remote, London/US hours). Pack sent 4 Jul; Stephan forwarded to Ty ~12 Jul.
-
-### 28 June 2026 — Reframe resolved
-- **Trigger:** Silence from Stephan (24 Jun message unanswered) was diagnosed as "not replying before a month-long holiday," not a freeze or soft-no.
-- **Change:** (1) Advocate for the person, not the plan — character advocacy framed as friendship favour; drop "I'm in need" and Horst-in-writing. (2) Stop selling twice — present Julian as versatile AI-native operator; attach AI to Ty's *existing* initiatives, not a novel programme. Sequencing reversed: build brief first, send message *with* it (no longer gated on Stephan's reply). Brief: [[tti-ty-brief]] (v1). Message: [[stephan-engagements]].
-
 ---
 
 ## The Pitch (stable across strategy changes)
@@ -174,10 +165,6 @@ Only relevant *after* a name + conversation is secured. Preserved here as the re
 - **The Horst window.** Horst is 82–83; the protective canopy has finite duration. Monitor via Peter; compress if a health signal appears.
 - **Consumed-but-not-converted.** The recurring failure mode (Cipriani brief, the CV, the JD). The diagnose-first gate is the direct response: stop sending into a channel of unproven function.
 - **Generosity leak.** An excellent strategy doc can be implemented without Julian. Mitigation: artefacts describe *what/why*, not the full *how*; implementation detail is the consulting deliverable.
-
----
-
-## Strategy Evolution Log (newest first)
 
 ### 4 July 2026 - Pivot to personal endorsement, not a strategy sell (current)
 - **Trigger:** a capability/risk assessment (two independent model reads) plus Julian's own gut that the strategy-sell was a long shot.
