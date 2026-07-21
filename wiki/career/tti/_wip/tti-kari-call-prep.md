@@ -45,6 +45,11 @@ Kari has read the CV, spoken with Ty, and is supportive of "adding IT support." 
 
 **⚠ Altitude guardrail.** Kari's framing is *"adding IT support"* — that is lower than the enterprise-architect / governance role Ty described. Position every answer at the **EA / architecture-and-governance altitude**, not "IT support". Do not let the conversation settle at the platform-engineering / system-admin level.
 
+**⚠ Never offer or imply sysadmin capability (decided 21 Jul 2026).** Track A (director-level EA) is the sole active pitch; the [[tti-sysadmin-skills-bridge]] "could you do the sysadmin role" talking track is a **silent fallback, NOT for this call**. Do not claim you did a sysadmin role in any form.
+- **Define "systems" in the architecture/telco sense** — the systems that support the business processes (security, identity, network/infrastructure, the OSS stack), and *integration* in the systems-integrator sense (composing security + network products into one governed whole). That is the honest referent for the "Systems analysis, design & integration" CV line. **Name your kind of systems before Kari fills the word in for you** — no defensive backtrack, one confident line, move on.
+- **If Kari asks whether the principles are transportable:** answer at the architecture/principles level (the technical consistency common to any system), never by claiming hands-on administration.
+- 🟡 **Julian building:** the sharpened one-line verbal reclaim of "systems" + the telco-systems justification (from a design/review perspective; systems-integration in the SI sense). Slot the line here once done. Working draft of the reclaim: *"systems in the architecture sense — integrating security, identity and network systems so they compose into one governed estate, rather than administering a single platform."*
+
 ## Kari-specific intel (his profile + camp — 20 Jul)
 
 *He is not a generic finance gatekeeper. Calibrate to the real person.*

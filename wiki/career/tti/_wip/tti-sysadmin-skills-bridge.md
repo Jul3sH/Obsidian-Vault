@@ -6,6 +6,8 @@ created: 2026-07-19
 
 # TTI — Platform Engineering Skills Bridge (Sysadmin Capability Plan)
 
+> **⚠ STATUS (21 Jul 2026): HELD FALLBACK — not for proactive use.** Track A (director-level EA/governance, [[tti-engagement-strategy]]) is the sole active pitch. This doc is **Track B**: a genuine private last-resort, activated **only if the EA/director track is confirmed dead**. Do **not** deploy the "could you do the sysadmin role" talking track in the Kari call or any live pursuit; Julian does not offer or imply sysadmin capability. Kept up the sleeve, not on the table. Rationale + guardrail: [[tti-engagement-strategy]] (Guardrails).
+
 > How Julian closes the two hands-on blocks of the [[TTI Principle System Administrator|Principal System Administrator]] JD - **Platform Engineering & Operations** (the real gap, §1-4) and **Automation, IaC & DevOps** (a partial gap but the strongest skill-supported block, §5) - using a curated, governed catalogue of agent skills and MCP servers, run through OpenCode / Claude Code. Serves two jobs: (1) a real capability-building plan, and (2) talking-track for a live TTI conversation where "could you actually do this?" may come up.
 
 Related: [[tti-technology-stack]] · [[tti-technology-organisation]] · [[tti-cybersecurity]] · [[master-resume]] · [[TTI Principle System Administrator]]
