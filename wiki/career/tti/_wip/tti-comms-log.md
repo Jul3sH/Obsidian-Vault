@@ -23,9 +23,31 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 21 Jul - KARI CALL CONFIRMED: Friday 25 Jul, 2pm HK time, Teams
+
+> **The Kari call is locked.** Friday 25 Jul at 2pm HK time via Microsoft Teams. Kari organised the invite to julianhart@gmail.com. This is Julian's last Friday in HK before he departs for the UK — he flagged this to Kari, who moved the slot to afternoon to avoid clashing with Friday evening. **Prep: [[tti-kari-call-prep]].**
+
+**What happened (WhatsApp, 21 Jul):**
+- **Julian (9:45):** flagged that Friday *evening* was less preferable (last Friday before UK departure) but offered to make it work if no other options existed
+- **Kari (12:05):** *"for sure it won't be Friday evening. I'm looking if we could do 2pm/2.30pm on Friday (HK time) - would that work on your side?"*
+- **Julian (12:06):** confirmed it works
+- **Kari (12:08):** *"Great, I will organise a Teams invite. Speak soon"*
+- **Julian (12:17):** provided email (julianhart@gmail.com) for the invite
+
+**Strategic read:**
+- Kari's accommodation of the evening constraint is a warm signal — he is not making this difficult
+- Julian's disclosure that it is his "last Friday before UK" is exactly the right ambient signal on the Kari channel (not a pressure play, just honest context he can absorb and factor into his read of urgency)
+- **The call is now the single highest-priority item.** Everything in [[tti-kari-call-prep]] needs to be sharp before 2pm Friday.
+
+**NEXT:** prep [[tti-kari-call-prep]] fully before Friday 2pm; take the call at EA/governance altitude; use it to surface the process and timeline question (what happens after Kari — Frank, HR, what does the runway look like); log the call here immediately after.
+
+---
+
 ## ✅ 20 Jul - KARI MADE DIRECT CONTACT: call being scheduled (Thu 23 / Fri 24 Jul); confirmed as SVP TTI
 
-> **The Kari channel is now live and direct.** Kari (confirmed **Senior Vice President, TTI** — internal, not an external adviser) messaged Julian directly to set up the call. He is travelling in EMEA this week; proposed Thu/Fri or next week. Julian pushed for Thu/Fri (HK) citing urgency, offered wide availability. Call likely **Thu 23 or Fri 24 Jul**, bridging the HK–EMEA timezone gap.
+> **The Kari channel is now live and direct.** Kari (confirmed **Senior Vice President, TTI** — internal, not an external adviser) messaged Julian directly to set up the call. He is travelling in EMEA this week; proposed Thu/Fri or next week. Julian pushed for Thu/Fri (HK) citing urgency, offered wide availability. Call **confirmed Fri 25 Jul 2pm HK** (see entry above).
+
+> *Update 21 Jul: call slot locked — see 21 Jul entry above.*
 
 **What happened (WhatsApp, 20 Jul):**
 - **Kari (10:58):** *"Hi Julian, I believe Stephan mentioned to you that I would get in touch re: the potential opportunity/IT role in TTI. I'm currently on travel but will be in EMEA region later this coming week so perhaps we could have a call then. Pls let me know your time zone and availability eg for Thursday and Friday. Also next week is an option. Looking forward to speaking with you soon. Best regards, Kari"*
@@ -105,6 +127,33 @@ renamed: 2026-07-17
 ---
 
 ## Stephan Pudwill
+
+---
+
+## ⏳ DRAFT (21 Jul) - Post-Kari message on school timing + process; CHANGES NEEDED before send
+
+> **Status: DRAFT — not sent. Julian wants to make changes to this before it goes.** Come back to this at the next session.
+>
+> **Trigger:** the school-placement bind — once in the UK, offers arrive with ~1 week to accept or lose the slot; accepting commits to the move and closes off the HK role. Cannot take a place while TTI is live; cannot turn one down and then find TTI hasn't firmed up. Stephan is the only person who can give an honest read on whether the timeline is compatible.
+>
+> **Sequencing:** send after the Kari call (Fri 25 Jul), not before. Kari's process/timeline read informs what Julian can put to Stephan. Also: Stephan set Kari up, so messaging on process before that call runs would feel jumpy.
+
+**Draft (Claude, 21 Jul):**
+
+> Hey Stephan, good to speak with Kari - [one honest line on how it went].
+>
+> I wanted to be straight with you on timing, as you're the one person who can help me read it. The role Ty described is exactly what I want, and I'd far rather build it here than uproot Sophia. But I'm hitting a hard corner on the school side. Once we're in the UK we start getting offered places, and they come with about a week to accept or they go to someone else. Accepting one effectively commits me to the move, and that's the single thing that would close this off, because the role sits here in HK. So I can't take a place while this is live, and I can't turn one down and then find this hasn't firmed up.
+>
+> What would really help is a feel for the process and timing from here. After Kari, what are the next steps, does it move to Frank and HR, and roughly what does that look like? Is it realistic for this to take shape in the next couple of weeks, or is it a longer runway? I'm not asking you to promise anything, just your honest read as a friend on whether it's worth me holding the line against these school deadlines, and anything you can do to help it move while the window's open.
+
+**Design logic:**
+- Business-led, no apology, no sympathy-ask (standing tone rules)
+- School clock does the urgency work without a threat; frames the bind honestly so Stephan understands what "hold on" actually costs
+- Every question is one Stephan can genuinely answer (process + timeline + his honest steer as a friend)
+- Opens on the Kari call (warm bridge from what Stephan just set up); closes on a decidable ask
+- UK/school framing stays on the Stephan channel only, never to Ty
+
+**Gate reminder:** whatever Stephan comes back with, warmth is not the signal. "Hold on, it'll be fine" is not a yes. Concrete process and timeline that can beat the school deadline is the signal. See [[decision-journal]].
 
 ---
 
@@ -295,7 +344,8 @@ renamed: 2026-07-17
 | 15 Jul 2026 | Ty Staviski | Direct call (no artefacts, live discussion). Ty described unprompted: permanent HK-based EA/governance role addressing fragmented tech leadership in Asia; suggested August meeting. Julian surfaced his school deadline. | **Strong on fit, not yet an offer.** Real permanent role in-wheelhouse; no structure/timeline; August past school deadline. |
 | 15-16 Jul 2026 | Stephan | WhatsApp: follow-up clarifications. Re-anchored Julian toward April JD + aligned resume; confirmed role is HK-based; cleared misconception about Julian's intentions to stay vs. leave HK. | **Positive.** Stephan actively advocating + repositioned Julian as HK-committed. |
 | 18 Jul 2026 | Stephan | WhatsApp: availability/openness to call from Kari (HK tax + IT influence contact). Re-anchored to EA role altitude. | **Strong positive.** Kari call incoming; Stephan's endorsement escalated to active steer. |
-| 20 Jul 2026 | Kari (SVP TTI) | WhatsApp reply scheduling the call — offered HK Thu/Fri, flagged urgency, wide availability (5:30am–9pm HK). | First direct Kari contact; call being scheduled Thu 23 / Fri 24 Jul (Kari travelling EMEA). Kari confirmed as SVP TTI (internal). |
+| 20 Jul 2026 | Kari (SVP TTI) | WhatsApp reply scheduling the call — offered HK Thu/Fri, flagged urgency, wide availability (5:30am–9pm HK). | First direct Kari contact; Kari travelling EMEA, proposed Thu/Fri or next week. |
+| 21 Jul 2026 | Kari (SVP TTI) | WhatsApp scheduling exchange — flagged Friday evening less preferable (last Friday before UK departure); Kari confirmed 2pm HK time on Friday 25 Jul via Teams; invite to julianhart@gmail.com. | **Call confirmed: Fri 25 Jul 2pm HK, Teams.** Kari accommodated the evening constraint immediately; warm signal. |
 
 (Prior sends - CV, Feb reframe, Cipriani materials, April CV + JD + salary - are logged in [[engagement-history]].)
 
