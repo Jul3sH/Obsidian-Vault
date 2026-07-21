@@ -21,7 +21,7 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 
 ---
 
-## Current Strategy (updated 19 July 2026) - Multi-node buy-in orchestration; EA role positioning; director-level anchor
+## Current Strategy (updated 21 July 2026) - Multi-node buy-in orchestration; EA role positioning; director-level anchor
 
 > **Status:** breakthrough (Ty moved on 15 Jul); now positioning for director-level vs principal-level and building the Kari conversation.
 >
