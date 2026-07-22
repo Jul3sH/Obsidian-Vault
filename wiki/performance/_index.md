@@ -9,6 +9,7 @@ Covers personal productivity systems, execution discipline, habit formation, and
 ## Goals & Habits
 - [[goals-register|Goals Register]] — Single-view of all active goals across all workstreams, with project and habit alignment
 - [[habits-register|Habits Register]] — All active habits across workstreams, with goal alignment
+- [[systems-register|Systems Register]] — Inventory of every self-built system/tool/process and whether it's actually being used (accountability against build-don't-adopt)
 - [[performance-workstream|Performance Workstream]] — Quarterly Objectives and Key Results (performance workstream only)
 
 ---

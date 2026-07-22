@@ -45,10 +45,18 @@ Understanding your own ADHD tendencies is a competitive advantage if you design 
 - Review it daily; treat deviations as violations, not flexibility
 - Having a pre-committed schedule removes the decision from the moment — you just follow it
 
+### Build vs Adopt — a System Isn't Done When It's Designed, It's Done When It's Used
+- The ADHD reward is in *designing* a system (novel, creative, open-ended), not *running* it (repetitive, boring, executive-function-heavy). Systems get built and silently abandoned the moment they stop being novel
+- This is distinct from dropping a *working* system for a shiny one — here the system is never adopted in the first place. It looks like productivity (you built something), but it produced nothing because it was never used
+- A new system is not "finished" at design. It's finished when it has been *used* for a set period (e.g. two weeks) and survived the boredom
+- Every new system needs an **adoption forcing-function** baked in at creation, not just a design: a scheduled first-use, a trigger that starts it, or an accountability surface that flags non-use. Without one, the build is wasted effort
+- Track every system you build and its live/lapsed status in the [[systems-register]] — an "Abandoned" label next to days of build effort is the accountability signal
+- Related failure at the starting gate: the [[self-sabotage-and-fear|false prerequisite]] — talking yourself out of ever *using* it by inventing a setup requirement
+
 ### Manage Distractions Actively
 - Know your scheduled priorities before each day begins — mental note, not just a diary glance
 - When a distraction appears, compare it explicitly to your schedule: "Is this more important than X?"
-- Recognise that many "convincing distractions" are fear-driven avoidance of the real priority
+- Recognise that many "convincing distractions" are fear-driven avoidance of the real priority — including the *false prerequisite* ("I can't start until I've built the perfect X"); see [[self-sabotage-and-fear]]
 
 ## Context Switching — The Hyperfocus Problem
 
@@ -106,3 +114,4 @@ This is one of the most directly applicable articles in the wiki — ADHD traits
 | Pre-wiki | After seven months of decision-making paralysis on development goals, simply getting started on a few things produced measurably better wellbeing and momentum. | Doing something with limited scope beats pondering indefinitely; a high say-do ratio is itself a source of confidence. |
 | Pre-wiki | Was forced into doing work for Adam, resisted, then entered hyperfocus, then became intensely irritated when new work interrupted mid-flow. | ADHD hyperfocus inertia: once locked in, context-switching feels like a threat, triggering disproportionate emotional reactivity — this is neurological, not a character flaw. |
 | Pre-wiki | During presentation and interview prep, entered flow state polishing and researching to avoid discomfort, deferred feedback, then discovered on dry-run that the approach was wrong. | ADHD hyperfocus latches onto emotionally safe busywork (knowledge acquisition, polish) as a substitute for the uncomfortable step of clarifying requirements. |
+| 2026-07-23 | Spent significant time building a Jira/sprint system with Claude integration, then stopped using it almost immediately. The resistance was to *adopting* something new and boring, not to the system's design — confirmed by ADHD content that building systems is the dopamine hit while running them is the discipline gap. | A system isn't done when designed, it's done when used. Bake an adoption forcing-function into every new system at creation, and track live/lapsed status in the [[systems-register]] — don't let a built system die silently. |

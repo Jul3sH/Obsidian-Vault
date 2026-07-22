@@ -26,6 +26,13 @@ tags: [the-human-mind, personal-mba]
 - Being cantankerous is displacing personal frustration onto others; it is victim behaviour dressed up as strength
 - The world does not care about the meaning you make — *"be empty and meaningless to be fearless"*
 
+### The false prerequisite (overcomplication as an exit ramp)
+- A subtler sabotage that strikes *before* you start, not when it gets tough: you invent a precondition that makes a dull or uncomfortable task look impossible — *"I can't start the sprints until I've designed the perfect sprint plan"* — then believe your own excuse because you're the one who built it
+- The driver isn't fear of failing; it's aversion to something **boring, novel, or requiring a context-switch**. The mind manufactures a plausible-sounding blocker to justify not starting
+- You are dangerously convincing to yourself here — the precondition sounds like diligence ("I'm just planning it properly"), which is why it slips past you. Perfectionism is the costume; avoidance is the body
+- **The tell:** the "requirement" is one you invented, and it's far larger than the task actually needs
+- **The test:** try the crude version immediately. Almost always the precondition was false — with Jira you just *start the sprint and move things in and out*; no perfect plan was ever needed. See [[perfectionism-vs-speed-of-delivery]] and [[adhd-aware-work-patterns]]
+
 ## Fear and Confidence
 
 ### How confidence actually works
@@ -57,7 +64,8 @@ Fear dressed as consideration, the "I could do it if I tried" position protectin
 - Drama and cantankerous behaviour are forms of victimhood, not strength
 - Regularly acknowledge achievements to counterbalance the brain's negativity bias
 - Conscious, reasoned decisions to stop are fine; unconscious drift-out is not
-- Related: [[confirmation-bias-and-assumptions]], [[decision-making-under-pressure]]
+- Sabotage can strike *before* you start: a self-invented "precondition" that inflates a boring task's setup cost is an exit ramp — test it with the crude version immediately
+- Related: [[confirmation-bias-and-assumptions]], [[decision-making-under-pressure]], [[perfectionism-vs-speed-of-delivery]]
 
 ## Personal Log
 
@@ -74,3 +82,4 @@ Fear dressed as consideration, the "I could do it if I tried" position protectin
 | Pre-wiki | In the ILP, sat at the front and shared in class but failed to get results; as soon as it got tough, shifted into confirmation bias to validate the decision to quit. | Spot the pattern: when things get tough, the brain immediately starts building an exit ramp; push through and remind yourself what the outcome actually is. |
 | Pre-wiki | After ILP ended on a low having not delivered results, felt the internal labelling of being a loser who quit. | It is how you know yourself that matters; going all out and failing is better than quitting with great excuses — at least you confronted the fear of failure. |
 | Pre-wiki | Throughout the ILP was focused on what had not been achieved yet and beating myself up — until someone asked what to be acknowledged for, and mood immediately shifted. | Actively acknowledge achievements regularly — the default is selective attention to what is missing; accurate accounting of what has actually been done corrects the negativity bias. |
+| 2026-07-23 | Built a full Jira/sprint system, then never used it — told myself it needed extensive sprint planning before I could start. The real blocker was resistance to a boring, novel, context-switching task; the "needs a perfect plan first" precondition was invented and false (you just start the sprint and move items in/out). | Self-sabotage at the starting gate: when a task feels dull or uncomfortable, watch for a manufactured precondition that inflates the setup cost. Test it by doing the crude version immediately — the barrier is almost always fake. |
