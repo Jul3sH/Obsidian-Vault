@@ -80,6 +80,25 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
 
 ---
 
+# Deliverable-First Working Rule (all agents)
+
+Every piece of substantive work Julian does should be linked to a deliverable in `wiki/deliverables/`. Before starting any substantive work, apply this two-step check in order:
+
+**Step 1 - Is this linked to a deliverable?**
+Ask: which deliverable does this work serve? If the link is clear, name it and move to Step 2. If the work cannot be linked to a deliverable, pause and ask: "I can't link this to a deliverable - why are we doing this?" The work may be justified (a quick question, a legitimate one-off, an exploratory conversation), but the question must be asked. Do not silently proceed with unanchored work.
+
+**Step 2 - Has the deliverable been scoped and brainstormed?**
+Before going into detail, check whether the deliverable has been through a scoping and brainstorm phase. Look for: a clear scope, the key areas to cover, and a plan of attack in the deliverable file. If those are absent, ask: "Have you scoped this out and brainstormed it before going into the detail?" Do not begin detailed work on an unscoped deliverable. The risk is spending depth on one area while neglecting others. If the deliverable is already scoped, proceed.
+
+**Exceptions - the rule does not apply to:**
+- Routine system operations: compiling, logging, mirroring, updating indexes
+- Quick factual or conversational questions
+- Work Julian explicitly flags as exploratory or thinking-aloud (no output expected)
+
+The rule applies whenever Julian is producing something: research, analysis, a draft, a review, a framework, or a plan.
+
+---
+
 # Project Status Updates (all agents)
 
 Whenever any agent produces output that is linked to a Project (a new file, a corrected artefact,

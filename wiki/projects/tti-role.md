@@ -7,7 +7,7 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-07-19
+status-updated: 2026-07-22
 ---
 
 # TTI Role
@@ -35,7 +35,7 @@ status-updated: 2026-07-19
 1. **Build the prior-proof story (BLOCKER for the Ty room).** Reconstruct one concrete Telstra International before/after (a named forum the design authority + waiver process made unnecessary) + a US$300M-transformation equivalent. The honest bridge survives Ty once but NOT his retelling to Tom Uva. See [[tti-ea-governance-value]] §8.
 2. **Get a defensible HK fully-loaded director cost** (the audit gate's denominator) + finalise the one-page audit scope [[tti-cfo-brief]], deliverable within 48h of the Ty meeting. Ty sets the multiple; Julian carries the denominator.
 3. **Pre-build the CEO-chip charter fallback** (day-to-day ratifier at Tom Uva's tier; CEO terminus a later backstop). See [[tti-ea-governance-value]] §4. Still open: 🟡 **name the charter authority** (the exec above both APAC tech + Milwaukee).
-4. **Kari call (scheduling — Thu 23 / Fri 24 Jul; Kari travelling EMEA):** Kari confirmed as **SVP TTI** (internal, peer to Tony; credibility kingmaker Stephan trusts). Talking bank + dry run ready ([[tti-kari-call-prep]], [[tti-kari-call-simulation-2026-07-19]]). Lift "IT role" → EA/governance via attribution to Ty; **position as HK-anchored bridge** (he's HK old-school camp), use the **TESCM rapport hook**, reassure his systems remit is protected, convert him into advocate to Frank.
+4. **Kari call confirmed Fri 24 Jul 2pm HK time (Teams):** Kari confirmed as **SVP TTI** (internal, peer to Tony; credibility kingmaker Stephan trusts). Talking bank + dry run ready ([[tti-kari-call-prep]], [[tti-kari-call-simulation-2026-07-19]]). Lift "IT role" → EA/governance via attribution to Ty; **position as HK-anchored bridge** (he's HK old-school camp), use the **TESCM rapport hook**, reassure his systems remit is protected, convert him into advocate to Frank.
 5. **Ty meeting (early Aug):** close on the smallest Ty-owned action — approve the one-page audit + set the multiple — NOT the role. Full dry run: [[tti-ty-call-simulation-2026-07-19]].
 6. **Sequence Tony FIRST** — he must hear it (from Ty, framed as pooling authority not confiscating) before it reaches any sign-off desk.
 
@@ -72,9 +72,9 @@ status-updated: 2026-07-19
 Secure a full-time role at TTI that funds my current Hong Kong lifestyle.
 
 ## Outcomes / Outputs
-1. Output: Pitch deck demonstrating how I could do the existing advertised role efficiently with AI
-2. Output: Pitch deck making the case for a Chief AI Officer (or similar) new role in the region
-3. Output: Pitch deck showing consulting services I can provide to TTI
+1. Output: Kari (Fri 24 Jul) converted to advocate - carries the EA/governance framing to Frank
+2. Output: Ty August meeting closed - audit mandate agreed, role structure and level confirmed as director
+3. Output: Director-level EA/governance role offer received and accepted
 
 ## Hypothesis
 N/A — Output-only Project.
