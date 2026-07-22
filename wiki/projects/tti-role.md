@@ -116,12 +116,15 @@ Nothing completed yet.
 
 Strategy and current position: see [[tti-engagement-strategy]].
 
-| Deliverable | Size | Hours | Status |
-|-------------|------|-------|--------|
-| [[tti-ai-enablement-strategy\|TTI — AI Enablement Strategy]] (Artefact 1) | 8 | 40+h | On Hold |
-| [[tti-ai-leadership-brief\|TTI — AI Leadership Brief]] (Door 2) | 3 | 9–16h | Closed (superseded 2026-05-29) |
-| [[tti-consulting-brief\|TTI — Consulting Brief]] (Door 1) | 1 | 1–4h | Closed (superseded 2026-05-29) |
-| [[tti-existing-role-brief\|TTI — Existing Role Brief]] | 1 | 1–4h | Closed (superseded 2026-05-27) |
+| Deliverable | Hours | Status |
+|-------------|-------|--------|
+| [[tti-kari-prep-framework-content\|Kari Prep: Framework Content]] | 5h | queued |
+| [[tti-kari-prep-case-studies\|Kari Prep: Case Studies]] | 6h | queued |
+| [[tti-kari-prep-notebooklm-practice\|Kari Prep: NotebookLM Practice]] | 4h | queued |
+| [[tti-ai-enablement-strategy\|TTI — AI Enablement Strategy]] (Artefact 1) | 40+h | On Hold |
+| [[tti-ai-leadership-brief\|TTI — AI Leadership Brief]] (Door 2) | 9–16h | Closed (superseded 2026-05-29) |
+| [[tti-consulting-brief\|TTI — Consulting Brief]] (Door 1) | 1–4h | Closed (superseded 2026-05-29) |
+| [[tti-existing-role-brief\|TTI — Existing Role Brief]] | 1–4h | Closed (superseded 2026-05-27) |
 
 ## Funnel
 | Item | Intent | Added |
