@@ -118,6 +118,7 @@ Strategy and current position: see [[tti-engagement-strategy]].
 
 | Deliverable | Hours | Status |
 |-------------|-------|--------|
+| [[tti-stephan-followup-email\|Stephan Follow-Up Email]] | 1h | queued |
 | [[tti-kari-prep-framework-content\|Kari Prep: Framework Content]] | 5h | queued |
 | [[tti-kari-prep-case-studies\|Kari Prep: Case Studies]] | 6h | queued |
 | [[tti-kari-prep-notebooklm-practice\|Kari Prep: NotebookLM Practice]] | 4h | queued |

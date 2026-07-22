@@ -5,7 +5,7 @@ workstream: career
 hours: 5h
 created: 2026-07-22
 status: queued
-jira-key:
+jira-key: BWS-36
 ---
 
 # TTI Kari Prep: Framework Content
