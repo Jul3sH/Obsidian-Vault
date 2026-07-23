@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/career/tti/_wip/tti-ea-governance-value.md",
+                "file": "wiki/career/tti/_reference/TTI Principle System Administrator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tti-ea-governance-value"
+              "title": "TTI Principle System Administrator"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/career/tti/_wip/tti-ea-governance-value.md",
     "wiki/ai-os/system-design/claude/memory/feedback-build-dont-adopt.md",
     "wiki/ai-os/system-design/claude/memory/memory-system-explained.md",
     "wiki/performance/systems-register.md",
@@ -210,7 +211,6 @@
     "wiki/deliverables/tti-kari-prep-case-studies.md",
     "wiki/deliverables/tti-kari-prep-framework-content.md",
     "wiki/career/tti/tti-start-here.md",
-    "wiki/career/tti/_wip/tti-ea-governance-value.md",
     "wiki/career/tti/_reference/tti-resume-april-2026.md",
     "wiki/career/tti/_reference/tti-resume-july-2026.md",
     "wiki/career/tti/_reference/TTI Principle System Administrator.md",
