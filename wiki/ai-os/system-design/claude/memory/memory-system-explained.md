@@ -62,3 +62,28 @@ Claude referenced a rule called `feedback-overanalysis-check`. The questions it 
 - Memories are created by a **two-key process**: Claude proposes, I approve. The only unilateral case is capturing a correction I've just flagged.
 - **It's my system.** Defined in files I own (CLAUDE.md, AGENTS.md), indexed where I can see it (MEMORY.md), and every entry mirrored into the wiki. Nothing is baked into the model — delete the `# Memory` block and the scheme stops. Claude operates it; I define it.
 - Related: [[memory-convention]], [[memory-operations]], [[hidden-file-sync]]
+
+---
+
+## Parked — to finish (2026-07-23)
+
+> Deliberately parked mid-deep-dive: understanding the memory system turned into a rabbit hole / distraction. This section captures what the follow-up conversation surfaced so it can be resumed cleanly. Funnel item: [[funnel|Project Funnel]] (Performance). **This is a "when I have a documentation session" task, not urgent.**
+
+**The clarifications this doc still needs folded in** (the article body above predates them):
+
+1. **The naming trap** (the thing that caused the confusion). Three terms got used interchangeably but mean different things:
+   - **Auto-memory** = **the memory folder** — *same thing, two names.* The folder `~/.claude/projects/<proj>/memory/`. Opened via `/memory` → option 4 "Open auto-memory folder".
+   - **MEMORY.md** = **one file inside that folder** — the index / table-of-contents listing the other files. NOT the folder, NOT the memories.
+   - **The memories** = the other files in the folder (`user.md`, `feedback-*.md`, ...) — the actual content.
+   - Analogy: folder = filing cabinet; MEMORY.md = index card on the front; memory files = the documents inside.
+
+2. **There are three distinct NATIVE memory concepts** (all shipped by Claude Code):
+   - **Auto-memory** (= the memory folder + its MEMORY.md index) — curated facts.
+   - **CLAUDE.md rulebook** — instruction files (project `./CLAUDE.md`, imported `AGENTS.md`, global `~/.claude/CLAUDE.md`). Rules, not facts.
+   - **Transcripts** (`.jsonl` session logs, one level up from `memory/`) — automatic, comprehensive, but *inert* (latent memory: only becomes "memory" when explicitly read; not auto-loaded).
+
+3. **The `/memory` command is a hub for two of those:** lines 1-3 = the rulebook (Project / AGENTS.md / global User memory); option 4 = the auto-memory folder. Note line 3 is a *global* `~/.claude/CLAUDE.md` that affects ALL projects — currently unaudited.
+
+4. **Hidden system labels I see but Julian doesn't:** the harness tags MEMORY.md with descriptions like *"user's auto-memory, persists across conversations"* when it loads it into my context. That label is NOT in the folder — it only exists in my view. Root of much of the confusion: Julian's view (plain files) vs the system's hidden labels on them.
+
+**The restructure to do when resumed:** reorganise this whole article under one clean frame — **Auto-memory (index + content) vs Rulebook vs Transcripts** — with the naming trap called out up front. Also decide whether to keep the custom table format of MEMORY.md vs the native bullet format, and audit the global `~/.claude/CLAUDE.md`.

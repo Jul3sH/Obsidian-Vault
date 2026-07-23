@@ -1,6 +1,6 @@
 ---
 type: funnel
-updated: 2026-06-15
+updated: 2026-07-23
 ---
 
 # Project Funnel
@@ -35,6 +35,7 @@ Each item carries just enough information to make a meaningful go/no-go decision
 |------|------------|---------|-------|------|
 | Early Adopters ClaudClaw OS | Deploying ClaudClaw OS with early adopters will produce concrete findings for Agile Claw MVP, build skills for AI leverage and AI agentic engineering development, and generate enough conviction to commit to testing AI consulting as a real revenue stream | Treat as a hobby until I decide consulting is a path | 2026-06-17 | [POR-10](https://agileict.atlassian.net/browse/POR-10) |
 | Agentic Academy Agentic OS | Hands-on testing of Agentic Academy's Agentic OS will produce concrete findings for Agile Claw MVP, build skills for AI leverage and AI agentic engineering development, and generate enough conviction to commit to testing AI consulting as a real revenue stream | Treat as a hobby until I decide consulting is a path | 2026-06-17 | [POR-12](https://agileict.atlassian.net/browse/POR-12) |
+| [[memory-system-explained\|Claude Memory System — understand & document]] | A clean, correct mental model + permanent reference for how Claude's memory works (auto-memory vs rulebook vs transcripts; the folder/index/naming trap) stops this recurring as a distraction and lets me govern memory deliberately. Summary + open threads already parked in [[memory-system-explained]] (§ Parked). | A dedicated AI-OS documentation session — NOT during a job-search / relocation timebox. Resume by finishing the restructure listed in the doc's Parked section. | 2026-07-23 | TBD (create on next `/jira-sync`) |
 
 ## Personal
 
