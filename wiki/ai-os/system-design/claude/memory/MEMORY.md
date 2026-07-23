@@ -21,5 +21,7 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-commitment-forcing.md | feedback | Julian stalls at commitment not analysis — impose deadlines, force a written choice, separate gut from analysis |
 | feedback-decision-reopening.md | feedback | Defend LOCKED decisions from emotional U-turns — run the F-N-M-T reopen test + 48h stand-down before re-engaging |
 | feedback-visual-representation-bias.md | feedback | Julian builds vivid but incomplete mental images of decision options; pleasant frame crystallises first (ADHD-amplified); ask for both images before preference solidifies |
+| feedback-overanalysis-check.md | feedback | Before large analytical work (registers, matrices, scoring frameworks), ask: is this level of detail warranted for the objective, or overanalysis? |
+| feedback-build-dont-adopt.md | feedback | When Julian builds a new system, force an adoption forcing-function + a systems-register row — he gets dopamine from designing but abandons systems unadopted (Jira/sprints). |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)
