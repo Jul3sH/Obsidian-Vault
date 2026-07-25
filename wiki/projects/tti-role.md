@@ -7,14 +7,25 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-07-22
+status-updated: 2026-07-25
 ---
 
 # TTI Role
 
-## Status (as of 2026-07-19)
+## Status (as of 2026-07-25)
 
-**Position: Direct Ty conversation materialised; permanent HK-based EA/governance role described; Kari (HK tax + IT influence) call incoming this week; positioning for director-level vs principal-level.**
+**Position: Kari call done (Fri 24 Jul). Strongly positive. Kari independently described the need as EA/governance and sponsored the 12-month consulting frame himself. Decision expected end of next week (week of 28 Jul). Ty August meeting remains the critical path.**
+
+**Kari call outcome (24 Jul):**
+- Kari described the need unprompted in pure EA terms: look holistically at the business, the processes, the structure, then the technology to support it. No sell required.
+- Confirmed alignment with Ty - both see the need the same way. Genuine paradigm shift, not just framing.
+- Old leadership (Joe) saw technology as a necessary evil; burnt by overruns; new leadership is sponsoring the change.
+- Kari suggested 12 months himself. Julian agreed: 6 months forces quick wins, 12 months allows strategic long-term gains.
+- Acknowledged the TBM/data gap: "We lack having that type of data available to us in the organisation."
+- Confirmed activities would need to be sponsored top-down.
+- Acknowledged outsider onboarding time unprompted - practical thinking, not resistance.
+- Julian disclosed the school deadline and the timeline pressure. Kari initially said "couple of weeks" then committed to end of next week.
+- See full call record: [[kari-meeting-note-2026-07-24]]
 
 **What's moved (12-18 Jul):**
 - **12 Jul:** Stephan committed to forward brief + CV to Ty with the pitch: a versatile, capable veteran who can plug into existing initiatives (cyber, EA, delivery, networking), AI-leveraged.
@@ -31,11 +42,11 @@ status-updated: 2026-07-22
 
 **Julian's argument:** "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos. But I can't coordinate directors as a Principal — that's not about ambition, it's about organizational structure. The role requires director-level seniority to have peer authority." This leans the conversation back toward the EA role Ty described, not the system admin job, and frames the director-level requirement as structural necessity, not preferential.
 
-**Next actions (updated 19 Jul, post-simulations):**
-1. **Build the prior-proof story (BLOCKER for the Ty room).** Reconstruct one concrete Telstra International before/after (a named forum the design authority + waiver process made unnecessary) + a US$300M-transformation equivalent. The honest bridge survives Ty once but NOT his retelling to Tom Uva. See [[tti-ea-governance-value]] §8.
-2. **Get a defensible HK fully-loaded director cost** (the audit gate's denominator) + finalise the one-page audit scope [[tti-cfo-brief]], deliverable within 48h of the Ty meeting. Ty sets the multiple; Julian carries the denominator.
-3. **Pre-build the CEO-chip charter fallback** (day-to-day ratifier at Tom Uva's tier; CEO terminus a later backstop). See [[tti-ea-governance-value]] §4. Still open: 🟡 **name the charter authority** (the exec above both APAC tech + Milwaukee).
-4. **Kari call confirmed Fri 24 Jul 2pm HK time (Teams):** Kari confirmed as **SVP TTI** (internal, peer to Tony; credibility kingmaker Stephan trusts). Talking bank + dry run ready ([[tti-kari-call-prep]], [[tti-kari-call-simulation-2026-07-19]]). Lift "IT role" → EA/governance via attribution to Ty; **position as HK-anchored bridge** (he's HK old-school camp), use the **TESCM rapport hook**, reassure his systems remit is protected, convert him into advocate to Frank.
+**Next actions (updated 25 Jul, post-Kari call):**
+1. **Stephan follow-up (BWS-39, now unblocked):** Draft and send the post-Kari message. School deadline drives urgency - Kari has committed to a decision by end of next week; Stephan needs to be primed. See [[tti-comms-log]] for the draft.
+2. **Build the prior-proof story (BLOCKER for the Ty room).** Reconstruct one concrete Telstra International before/after (a named forum the design authority + waiver process made unnecessary) + a US$300M-transformation equivalent. The honest bridge survives Ty once but NOT his retelling to Tom Uva. See [[tti-ea-governance-value]] §8.
+3. **Get a defensible HK fully-loaded director cost** (the audit gate's denominator) + finalise the one-page audit scope [[tti-cfo-brief]], deliverable within 48h of the Ty meeting. Ty sets the multiple; Julian carries the denominator.
+4. **Pre-build the CEO-chip charter fallback** (day-to-day ratifier at Tom Uva's tier; CEO terminus a later backstop). See [[tti-ea-governance-value]] §4. Still open: 🟡 **name the charter authority** (the exec above both APAC tech + Milwaukee).
 5. **Ty meeting (early Aug):** close on the smallest Ty-owned action — approve the one-page audit + set the multiple — NOT the role. Full dry run: [[tti-ty-call-simulation-2026-07-19]].
 6. **Sequence Tony FIRST** — he must hear it (from Ty, framed as pooling authority not confiscating) before it reaches any sign-off desk.
 
@@ -46,6 +57,7 @@ status-updated: 2026-07-22
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-07-24 | **Kari call done. Strongly positive.** Kari independently described the need as EA/governance without prompting. Sponsored the 12-month consulting frame himself. Acknowledged the TBM/data gap ("we lack having that type of data"). Confirmed top-down sponsorship. Acknowledged outsider onboarding time. Decision by end of next week (28 Jul week). Full call record: [[kari-meeting-note-2026-07-24]]. |
 | 2026-07-19 | **Argument hardened + two call dry-runs built.** EA-governance argument ([[tti-ea-governance-value]]) taken through 2 Fable adversarial passes (mandate/authority machinery now the strongest material). Outbound ask reframed to a costless two-week coordination audit with a pre-agreed gate ([[tti-cfo-brief]]), targeted at Ty. Kari call simulated ([[tti-kari-call-simulation-2026-07-19]]) — key: lift "IT support" by attribution to Ty, never correction; convert Kari → advocate to Frank. Ty conversation simulated ([[tti-ty-call-simulation-2026-07-19]]) — verdict ~80% ready: the mandate machinery holds under Ty's hardest push, and the audit-first ask neutralises the prior-proof gap + Frank vacuum + Tony risk at once. **Three prep priorities before the Ty meeting (now the critical path): (1) the prior-proof story [genuine blocker], (2) the HK loaded-cost denominator + audit one-pager, (3) the CEO-chip charter fallback.** Tony must be sequenced first. |
 | 2026-07-19 | **Process shifted to multi-node buy-in: Ty moving it (power/Stephan seniority), Kari as next influencer (IT + tax), Frank (CFO) as financial gate.** Direct Ty call (15 Jul) surfaced the actual gap: steering-committee-driven governance is broken; needs an EA/architecture framework to align fragmented tech leadership. Role framing: Ty described permanent HK-based EA/governance role (matches April JD). Principal System Administrator posting exists but junior-level; Julian will position for director-level role by arguing: (1) can't coordinate US/APAC teams as a Principal, need director seniority; (2) platform engineering gap is addressable (work with existing sysadmins using architecture patterns); (3) real value is EA/governance, not platform ops. Kari call imminent; Frank's financial sign-off needed before school deadline (mid-August). Risk watch: Tony Chung learning of this and attempting to block. [[tti-sysadmin-skills-bridge]] built to support this narrative. |
 | 2026-07-18 | **New node: Kari (HK tax + IT influence).** Stephan introduced Kari, who has read CV, spoke with Ty, and is supportive of adding IT support. Wants call within days. Stephan's endorsement escalated to active steer: *"I feel it is an opportunity to focus on."* |
@@ -118,7 +130,7 @@ Strategy and current position: see [[tti-engagement-strategy]].
 
 | Deliverable | Hours | Status |
 |-------------|-------|--------|
-| [[tti-kari-scenario-prep\|Kari Scenario Prep]] | 2h | queued |
+| [[tti-kari-scenario-prep\|Kari Scenario Prep]] | 2h | done |
 | [[tti-kari-prep-framework-content\|Kari Prep: Framework Content]] | 5h | queued |
 | [[tti-kari-prep-case-studies\|Kari Prep: Case Studies]] | 6h | queued |
 | [[tti-kari-prep-notebooklm-practice\|Kari Prep: NotebookLM Practice]] | 4h | queued |
