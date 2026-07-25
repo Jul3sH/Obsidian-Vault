@@ -43,6 +43,7 @@ Claude Code asks for permission before running commands or editing files. You ca
 - [[claude-md-and-memory]] — how to give Claude persistent instructions
 - [[claude-cowork]] — multi-agent collaboration features
 - [[claude-chat]] — the browser-based chat interface
+- [[session-transcripts-and-memory]] — where session history is stored and how the memory layer consumes it
 
 ---
 
