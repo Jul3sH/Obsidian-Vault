@@ -118,6 +118,14 @@ renamed: 2026-07-17
 >
 > I've held off pulling the trigger on the UK because this looks like it could genuinely work for both TTI and me. But I can't push it past mid-August, or I'll be too late to pack up here and get Sophia into a UK school for September. Do you think we can make that work, and is it worth me holding on for?
 
+**Draft 3 (17 Jul) — direct variation (para 2 reworked again: drops the HK in-person meeting entirely as unnecessary; goes straight at Stephan with an honest, low-friction ask — how did it go, is it promising, what can I do to help):**
+
+> Hey Stephan, I've kept thinking about the role Ty described and it really is an excellent fit. An enterprise architect working closely with the US to get technology aligned behind the business goals, with the frameworks and governance to back it up, is exactly what I set out in that JD and resume I sent you in April. I genuinely believe I could deliver real value on what he's looking for, and there's an obvious benefit to you having someone here in HK you trust, joined up tightly with the US.
+>
+> How did your discussion with Ty go? I'd really value your honest read on whether it's looking promising. And is there anything I can do to help move it forward, more detail on how I'd approach the role, or anything you or he need from me? I'm keen to keep the momentum going.
+>
+> I've held off pulling the trigger on the UK because this looks like it could genuinely work for both TTI and me. But I can't push it past mid-August, or I'll be too late to pack up here and get Sophia into a UK school for September. Do you think we can make that work, and is it worth me holding on for?
+
 **Guardrails carried into this send:**
 - **UK-exit framing stays on the Stephan channel only**, never to Ty (to Ty it is pure fit/value). "Held off pulling the trigger on the UK" is honest intel Stephan needs to push the timing, but is not language to reach Ty, who just had the flight-risk read cleared.
 - **The "scope" offer is a discussion, not a pushed document** (Stephan absorbs paper but does not act; the 4 Jul pivot deliberately stopped dropping work on him). If Ty/Stephan *ask* for something written, that is a pull - send it then, framed, direct to whoever asked.
