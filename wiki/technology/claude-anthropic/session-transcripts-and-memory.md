@@ -61,6 +61,51 @@ Two distinct surfaces sit on top of the raw transcripts:
 
 ---
 
+## Verbatim Recall: MemPalace vs. Raw JSONL
+
+The [[claude-memory-systems|Claude Memory Systems]] doc places verbatim recall at **Level 4**, and documents exactly one system there: **MemPalace** (the "Memory Palace"). Verbatim recall is the strongest case for "just search the JSONL" — because unlike semantic memory, it needs no summarization; the transcripts already hold the exact words losslessly. So why does MemPalace exist?
+
+**Because the JSONL contains the verbatim text but has no way to find it.** MemPalace's value is the index, structure, and entity graph layered on top — not the storage of verbatim text (the JSONL does that too).
+
+**MemPalace design:**
+- Nested structure: **Wings** (projects) → **Rooms** (sessions) → **Closets** (topics) → **Drawers** (verbatim text)
+- Two stores: **SQL** for entity relationships + **Chroma** vector DB for searchable chunks
+- A "dense symbolic dialect" (AA language) to scan thousands of drawers in ~42 ms
+- Explicit goal: exact words/decisions **without summarization loss**
+
+**What MemPalace has that raw JSONL lacks:**
+
+| Dimension | Raw JSONL | MemPalace |
+|---|---|---|
+| Structure | Flat, keyed by session-UUID + cwd; one 8 MB session mixes many topics | Wings→Rooms→Closets→Drawers; topic-addressable |
+| Retrieval unit | Verbatim buried in `message.content`, split by `parentUuid`, mixed with tool noise | Pre-segmented topic-coherent "drawers" |
+| Index | None — linear byte scan + literal grep | SQL (entity/relationship) + Chroma (semantic vectors) |
+| Meaning match | No — "deadline" won't find "decide by Wednesday" | Yes — vector rank + entity join |
+| Speed at scale | Re-reads growing 103 MB per query, unindexed | ~42 ms via maintained index |
+| Cross-session entities | None — each file an island | SQL links entities across all rooms |
+| Durability | Volatile, cwd-keyed, CLI-owned; orphans on vault rename | Owns its store, decoupled |
+
+**Why no documented system points at the JSONL:** (1) it's a *replay log, not a retrieval structure* — to search it you'd have to build MemPalace's index on top anyway, leaving only the choice of copying text vs. storing byte-offset pointers into a volatile foreign format; (2) the ecosystem is deliberately *tool-agnostic* (esp. L6 OpenBrain/Mem0, built to span Claude/ChatGPT/Cursor), and JSONL is Claude-Code-only.
+
+**Neighbours on verbatim:** Claude Mem (L3) stores summaries/observations, not verbatim (lossy). MemSearch (L3) vectorises markdown chunks (lossy on phrasing). OpenBrain/Mem0 (L6) store facts in a portable `thoughts` table (fact-oriented, not a structured verbatim archive). MemPalace is the only one in the doc treating verbatim-with-structure as the goal.
+
+---
+
+## Where agentic-os sits on the 6-level map
+
+From the same doc's tiering (L1 native → L6 universal brain):
+
+- **L1 Native** — uses CLAUDE.md, SOUL.md, USER.md context injection. ✅
+- **L2 Structured** — curated size-capped MEMORY.md + daily logs, hook-promoted. ✅
+- **L3 Semantic/vector** — local PGLite + pgvector, three-tier retrieval with rerank/authority/recency. ✅ (this is the core)
+- **L4 Verbatim** — **not** a MemPalace-style structured verbatim archive; the raw JSONL is the only verbatim source, and it's unindexed. ⚠️ Gap.
+- **L5 Research wiki** — the Obsidian vault itself (Karpathy LLM-wiki pattern, knowledge graph). ✅ (separate from the memory pipeline)
+- **L6 Universal brain** — foundation present (per-tenant visibility, local-vs-hosted-Postgres branch), not fully realised. 🟡
+
+**Net:** agentic-os is a strong **L2+L3** operational memory with an **L5** wiki alongside, an emerging **L6** scoping layer, and **no dedicated L4** verbatim tier (it leans on raw transcripts for that).
+
+---
+
 ## Key Takeaways
 
 - **Raw transcripts are default Claude Code, full and verbatim, stored centrally under `~/.claude/projects/` — never inside the project/vault folder.**
