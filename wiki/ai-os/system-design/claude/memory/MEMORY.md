@@ -10,10 +10,7 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | File | Type | Description |
 |------|------|-------------|
 | user.md | user | Julian's profile: role, location, ADHD traits, workstreams |
-| projects.md | project | Pointer to wiki/projects/_index.md + current active project |
-| deliverables.md | project | Pointer to wiki/deliverables/_index.md + current timebox focus |
-| project-dad-inheritance.md | project | Felix Hart inheritance/care dispute; hard rule: never concede a contribution to Wendy in writing |
-
+| project-dad-inheritance.md | feedback | Felix Hart inheritance/care dispute; hard rule: never concede a contribution to Wendy in writing |
 | feedback-stephan-spelling.md | feedback | TTI contact's name is Stephan (not Stefan) |
 | feedback-stephan-no-phone-assumption.md | feedback | Don't assume Stephan reads on his phone — no evidence |
 | feedback-goal-listing-order.md | feedback | Always list workstreams/goals in priority order (Wellbeing→Relationships→Finance→Career→Performance→Personal), not alphabetically |
