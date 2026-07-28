@@ -75,7 +75,7 @@
       "Skill(schedule)",
       "Skill(schedule:*)",
       "Bash(crontab -l)",
-      "Bash(osascript -e 'display notification \"Switch ExpressVPN to Split Tunnel mode before running!\" with title \"LinkedIn Enrichment \u2014 VPN Required\" sound name \"Ping\"')",
+      "Bash(osascript -e 'display notification \"Switch ExpressVPN to Split Tunnel mode before running!\" with title \"LinkedIn Enrichment — VPN Required\" sound name \"Ping\"')",
       "WebFetch(domain:rapidapi.com)",
       "WebFetch(domain:fresh-linkedin-scraper-api.p.rapidapi.com)",
       "WebFetch(domain:www.google.com)",
@@ -161,7 +161,7 @@
       "Bash(grep -v \"^total\\\\|^d.*\\\\.$\\\\|^d.*\\\\.\\\\.$\\\\|DS_Store\")",
       "Bash(awk '{print $NF}')",
       "Bash(mkdir -p _processed)",
-      "Bash(mv 'Auntie Hil Whatsapp messages.md' 'Codex 5.4 Stephan relationship analysis.md' 'Gemini 3.5 flash Summary of Stephan Pudwill conversations.md' 'Stephan Pudwill Whatsapp messages.md' 'TTI Engagement Timeline.md' 'Dad inheritance timeline feb to august 2023.md' 'Felix Hart Whatsapp messages.md' 'Felix Hart Will.md' 'Felix Health whatsapp messages.md' 'Felix Health whatsapp messages.txt' 'Felix Health whatsapp messages 1.txt' 'Wendy Whatsapp messages.md' 'Wendy evidence of undue influnce.md' 'Campaign & Sequence Management.md' 'Cold Email Outreach skill.md' 'Cold email outreach use case categories.md' 'Converting a Claude skill into a plugin makes it more likely to be executed.md' 'Do options use system 1 and does this introduce more bias.md' 'Email Personalisation & Content.md' 'Email Verification use case catalog.md' 'Email warmup use case catalog.md' 'Lemlist vs Instantly.ai vs Saleshandy \u2013 A Complete Guide for Marketing Leaders in 2026.md' 'Lesson leaned - context switching.md' Lessonlearnt1st100 Lessonlearnt2nd100 lessonslearnt3rd100 lessonslearntlast3 'Prospecting Use Case Catalog.md' 'SNOV email finder.md' 'SNOV pricing.md' 'Snov.io Use-Case Based Product CatalogLead Gen Product Catalog.md' 'Unified inbox and reply management.md' 'Use Claude'\\\\''s chat search and memory to build on previous context.md' apollo-person-match _processed/)",
+      "Bash(mv 'Auntie Hil Whatsapp messages.md' 'Codex 5.4 Stephan relationship analysis.md' 'Gemini 3.5 flash Summary of Stephan Pudwill conversations.md' 'Stephan Pudwill Whatsapp messages.md' 'TTI Engagement Timeline.md' 'Dad inheritance timeline feb to august 2023.md' 'Felix Hart Whatsapp messages.md' 'Felix Hart Will.md' 'Felix Health whatsapp messages.md' 'Felix Health whatsapp messages.txt' 'Felix Health whatsapp messages 1.txt' 'Wendy Whatsapp messages.md' 'Wendy evidence of undue influnce.md' 'Campaign & Sequence Management.md' 'Cold Email Outreach skill.md' 'Cold email outreach use case categories.md' 'Converting a Claude skill into a plugin makes it more likely to be executed.md' 'Do options use system 1 and does this introduce more bias.md' 'Email Personalisation & Content.md' 'Email Verification use case catalog.md' 'Email warmup use case catalog.md' 'Lemlist vs Instantly.ai vs Saleshandy – A Complete Guide for Marketing Leaders in 2026.md' 'Lesson leaned - context switching.md' Lessonlearnt1st100 Lessonlearnt2nd100 lessonslearnt3rd100 lessonslearntlast3 'Prospecting Use Case Catalog.md' 'SNOV email finder.md' 'SNOV pricing.md' 'Snov.io Use-Case Based Product CatalogLead Gen Product Catalog.md' 'Unified inbox and reply management.md' 'Use Claude'\\\\''s chat search and memory to build on previous context.md' apollo-person-match _processed/)",
       "Bash(mkdir -p ~/.claude/skills/llm-council)",
       "Bash(mv \"_wip/tti-two-pagers.md\" \"_on-hold/tti-two-pagers.md\")",
       "Bash(mv \"_wip/justin-may-2026-reconnaissance.md\" \"_archived/justin-may-2026-reconnaissance.md\")",
@@ -249,7 +249,8 @@
       "mcp__claude_ai_Google_Drive__download_file_content",
       "Edit(~/.claude/skills/decision-visualisation-check/**)",
       "Skill(claude-api)",
-      "Skill(claude-api:*)"
+      "Skill(claude-api:*)",
+      "mcp__claude_ai_Atlassian__getVisibleJiraProjects"
     ],
     "additionalDirectories": [
       "/Users/julianhart/.claude/skills/project-planner",
