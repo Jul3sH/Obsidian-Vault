@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/agentic-os/memory-system-architecture.md",
+                "file": "wiki/technology/agentic-os/three-layer-architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory-system-architecture"
+              "title": "three-layer-architecture"
             }
           }
         ]
@@ -201,13 +201,13 @@
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
     "wiki/technology/agentic-os/session-capture-and-storage.md",
+    "wiki/technology/agentic-os/multi-client-architecture.md",
+    "wiki/technology/agentic-os/memory-database-schema.md",
+    "wiki/technology/agentic-os/command-centre.md",
     "wiki/technology/agentic-os/memory-system-architecture.md",
     "wiki/technology/agentic-os/three-layer-architecture.md",
-    "wiki/technology/agentic-os/multi-client-architecture.md",
     "wiki/ai-os/system-design/claude/memory/feedback-assumption-audit.md",
-    "wiki/technology/agentic-os/memory-database-schema.md",
     "CLAUDE.md",
-    "wiki/technology/agentic-os/command-centre.md",
     "wiki/technology/agentic-os/_index.md",
     "wiki/technology/agentic-os",
     "wiki/ai-os/system-design/generic/agent-instruction-architecture.md",
