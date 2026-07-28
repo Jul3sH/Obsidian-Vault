@@ -250,7 +250,11 @@
       "Edit(~/.claude/skills/decision-visualisation-check/**)",
       "Skill(claude-api)",
       "Skill(claude-api:*)",
-      "mcp__claude_ai_Atlassian__getVisibleJiraProjects"
+      "mcp__claude_ai_Atlassian__getVisibleJiraProjects",
+      "Bash(cp /Users/julianhart/.claude/skills/define-user-story/SKILL.md \"/Users/julianhart/Obsidian Vault/wiki/ai-os/skills/define-user-story/SKILL.md\" && echo \"mirrored define-user-story\")",
+      "Edit(~/.claude/skills/define-task/**)",
+      "Bash(cp /Users/julianhart/.claude/skills/define-task/SKILL.md \"/Users/julianhart/Obsidian Vault/wiki/ai-os/skills/define-task/SKILL.md\" && echo \"mirrored define-task\")",
+      "Bash(cp /Users/julianhart/.claude/skills/define-enabler/SKILL.md \"/Users/julianhart/Obsidian Vault/wiki/ai-os/skills/define-enabler/SKILL.md\" && echo \"mirrored define-enabler\")"
     ],
     "additionalDirectories": [
       "/Users/julianhart/.claude/skills/project-planner",
@@ -258,7 +262,10 @@
       "/Users/julianhart/Obsidian Vault",
       "/Users/julianhart/claudeclaw",
       "/Users/julianhart/.claudeclaw",
-      "/Users/julianhart/.claude/projects/-Users-julianhart-Obsidian-Vault/e2e20e85-b536-4324-8a6d-21d3663274ca/tool-results"
+      "/Users/julianhart/.claude/projects/-Users-julianhart-Obsidian-Vault/e2e20e85-b536-4324-8a6d-21d3663274ca/tool-results",
+      "/Users/julianhart/.claude/skills/define-user-story",
+      "/Users/julianhart/.claude/skills/define-task",
+      "/Users/julianhart/.claude/skills/define-enabler"
     ]
   },
   "disabledMcpjsonServers": [

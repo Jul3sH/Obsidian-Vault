@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "wiki/technology/agentic-os/memory-system-architecture.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "memory-system-architecture"
             }
           }
         ]
@@ -198,14 +198,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
-    "wiki/technology/agentic-os/multi-client-architecture.md",
-    "wiki/technology/agentic-os/three-layer-architecture.md",
-    "wiki/technology/agentic-os/command-centre.md",
     "wiki/technology/agentic-os/session-capture-and-storage.md",
-    "wiki/technology/agentic-os/memory-database-schema.md",
     "wiki/technology/agentic-os/memory-system-architecture.md",
+    "wiki/technology/agentic-os/three-layer-architecture.md",
+    "wiki/technology/agentic-os/multi-client-architecture.md",
+    "wiki/ai-os/system-design/claude/memory/feedback-assumption-audit.md",
+    "wiki/technology/agentic-os/memory-database-schema.md",
+    "CLAUDE.md",
+    "wiki/technology/agentic-os/command-centre.md",
     "wiki/technology/agentic-os/_index.md",
     "wiki/technology/agentic-os",
     "wiki/ai-os/system-design/generic/agent-instruction-architecture.md",
@@ -225,8 +227,6 @@
     "wiki/career/tti/_wip/kari-meeting-note-2026-07-24.md",
     "wiki/career/tti/_wip/tti-ea-governance-value.md",
     "wiki/ai-os/system-design/claude/memory/memory-system-explained.md",
-    "wiki/performance/systems-register.md",
-    "wiki/deliverables/tti-formal-interview-prep.md",
     "wiki/performance/decisions/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/ai-os/skills/decision-visualisation-check",
     "wiki/finance/uk-move-financial-model.md.tmp.27873.0d9c5228fd78",

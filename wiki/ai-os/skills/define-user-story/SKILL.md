@@ -167,6 +167,29 @@ that checks every box but still misses the point. Common failure modes include:
 Write the answer into the story file as a "What Wrong Looks Like" section.
 This becomes a constraint when the AI actually produces the deliverable.
 
+### 1.6 — Assumption Audit
+
+**Always run this step — human-executed and AI-produced work alike.**
+
+Ask: "What are the load-bearing assumptions here — the beliefs that, if they
+turned out to be false, would make this story misdirected or unnecessary? Name
+one or two."
+
+For each assumption, apply the challenge before accepting it:
+- **Invert it:** "What would have to be true for this to be the *wrong* work?"
+- **Test it cheaply:** "What's the cheapest piece of evidence that would confirm
+  or break this assumption before you invest the hours?"
+- **Check your own record:** "Have you already reached a conclusion on this in a
+  prior deliverable, note, or decision? Does that prior conclusion still agree
+  with the assumption you're making now?" (A settled conclusion re-adopted
+  wrongly under pressure is a known failure mode — see the `feedback-assumption-audit`
+  and `feedback-decision-reopening` memories.)
+
+If a load-bearing assumption is untested, the cheap test often *is* the first
+thing to do — surface it before committing hours to the work it underpins. Write
+the assumptions and their tests into the file's `## Load-Bearing Assumptions`
+section.
+
 ---
 
 ## Step 2 — Sizing
@@ -273,6 +296,11 @@ value-rationale: [leave blank if Project-linked; required for standalone stories
 
 ## Definition of Done
 [2–3 sentence end-state description]
+
+## Load-Bearing Assumptions
+[The 1–2 beliefs that, if false, make this story misdirected. For each: the
+assumption, and the cheapest test that would confirm or break it. Challenge hard
+before writing "none".]
 
 ## What Wrong Looks Like
 [Optional — AI-produced deliverables only. The subtle failure mode that

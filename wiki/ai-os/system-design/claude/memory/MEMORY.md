@@ -20,5 +20,6 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-visual-representation-bias.md | feedback | Julian builds vivid but incomplete mental images of decision options; pleasant frame crystallises first (ADHD-amplified); ask for both images before preference solidifies |
 | feedback-overanalysis-check.md | feedback | Before large analytical work (registers, matrices, scoring frameworks), ask: is this level of detail warranted for the objective, or overanalysis? |
 | feedback-build-dont-adopt.md | feedback | When Julian builds a new system, force an adoption forcing-function + a systems-register row — he gets dopamine from designing but abandons systems unadopted (Jira/sprints). |
+| feedback-assumption-audit.md | feedback | Surface + challenge load-bearing assumptions at work-definition/sprint-planning time; invert them, cheap-test them, and check against Julian's own prior conclusions before he invests effort. |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)

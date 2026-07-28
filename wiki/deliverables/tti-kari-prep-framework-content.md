@@ -4,7 +4,9 @@ project: tti-role
 workstream: career
 hours: 5h
 created: 2026-07-22
-status: queued
+status: completed
+completed: 2026-07-28
+actual-points: 5
 jira-key: BWS-36
 ---
 
