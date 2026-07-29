@@ -201,6 +201,8 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/ai-os/system-design/generic/memory-claudeclaw-vs-agentic-os.md",
+    "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
     "wiki/ai-os/skills/youtube-notebook/scripts/build_notebook.md",
     "wiki/ai-os/skills/youtube-notebook/scripts/enumerate_channel.md",
     "wiki/ai-os/skills/youtube-notebook/scripts/nlm.md",
@@ -229,8 +231,6 @@
     "wiki/ai-os/system-design/generic/pointer-vs-copy.md",
     "wiki/ai-os/system-design/claude/memory/MEMORY.md",
     "wiki/ai-os/system-design/claude/skill-conventions.md",
-    "wiki/ai-os/system-design/claude/risk-framework.md",
-    "wiki/ai-os/system-design/claude/memory/memory-convention.md",
     "wiki/performance/decisions/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/ai-os/skills/decision-visualisation-check",
     "wiki/finance/uk-move-financial-model.md.tmp.27873.0d9c5228fd78",
