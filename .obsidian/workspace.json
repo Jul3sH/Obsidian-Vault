@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77651ffdb8077cf7",
+  "active": "6a86c3d76dc7fc1a",
   "lastOpenFiles": [
     "wiki/ai-os/system-design/generic/claudeclaw-vs-agentic-os.md",
     "wiki/ai-os/system-design/generic/skill-scoping-user-vs-project.md",
