@@ -25,6 +25,7 @@ type: index
 | tco | Cold email vendor TCO analysis (defined in CLAUDE.md) | Outreach |
 | [[ai-os/skills/llm-council/SKILL\|llm-council]] | "council this", "pressure-test this", "war room this" | Cross-domain |
 | [[ai-os/skills/notebooklm-py/SKILL\|notebooklm-py]] | `/notebooklm`, "make flashcards from [topic]", "create a notebook about [topic]" | Performance / Learning |
+| [[ai-os/skills/youtube-notebook/SKILL\|youtube-notebook]] | "create a notebook of [channel]'s videos from [month]", "all [topic] videos from [channel]" — verified-complete YouTube channel ingest with one native briefing doc per video | Performance / Learning |
 | [[ai-os/skills/resume-tailor/SKILL\|resume-tailor]] | Tailor resume to JD; "resume tailoring", "JD mapping" | Career |
 | [[ai-os/skills/ats-checker/SKILL\|ats-checker]] | Check if resume will pass ATS; "ATS score", "will this get through the bots" | Career |
 | [[ai-os/skills/define-task/_index\|define-task]] | "Define a task", "add this as a task" — generic deliverables that aren't a story or enabler | Cross-domain |

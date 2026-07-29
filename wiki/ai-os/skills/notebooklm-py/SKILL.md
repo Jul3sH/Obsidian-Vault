@@ -1,11 +1,15 @@
-<!-- Mirror of ~/.claude/skills/notebooklm-py/SKILL.md — do not edit here; edit the source file -->
-
 ---
 name: notebooklm-py
 description: Automate Google NotebookLM — create notebooks, add wiki sources, generate flashcards and other study artifacts from Personal Log and wiki content.
 ---
 
+<!-- Mirror of ~/.claude/skills/notebooklm-py/SKILL.md — do not edit here; edit the source file -->
+
 # notebooklm-py Skill
+
+> **Scope:** wiki content only. For **YouTube channels** use the `youtube-notebook` skill.
+> **Command surface verified against CLI v0.7.0 on 2026-07-29.** The pre-0.7 signatures
+> previously documented here were all broken; see `references/TESTING.md`.
 
 Uses the `notebooklm-py` Python package (unofficial Google NotebookLM client) to automate notebook creation, source ingestion, and artifact generation. Primary use case: extract Personal MBA model content from the wiki and generate flashcards for spaced-repetition review.
 
@@ -45,7 +49,7 @@ notebooklm auth check --test --json
 ## Confirmation Rules
 
 **Run without confirmation:**
-- List notebooks: `notebooklm notebook list`
+- List notebooks: `notebooklm list`
 - Check auth: `notebooklm auth check --test`
 - Status checks and artifact listing
 - Chat queries without note-saving
@@ -69,20 +73,22 @@ When the user asks to create flashcards from a wiki topic:
 
 ```bash
 # Create notebook
-NOTEBOOK_ID=$(notebooklm notebook create "Personal MBA: [Topic]" --json | python3 -c "import sys,json; print(json.load(sys.stdin)['notebook']['id'])")
+NOTEBOOK_ID=$(notebooklm create "Personal MBA: [Topic]" --json | python3 -c "import sys,json; print(json.load(sys.stdin)['notebook']['id'])")
 
 # Add wiki content as file source
-SOURCE_ID=$(notebooklm source add file "$NOTEBOOK_ID" /tmp/wiki_content.txt --json | python3 -c "import sys,json; print(json.load(sys.stdin)['source']['id'])")
+# NOTE: resolve the path first — on macOS /tmp is a symlink and uploads of
+# symlinked paths are refused. Use $(python3 -c "import os;print(os.path.realpath('/tmp/wiki_content.txt'))")
+SOURCE_ID=$(notebooklm source add -n "$NOTEBOOK_ID" /private/tmp/wiki_content.txt --json | python3 -c "import sys,json; print(json.load(sys.stdin)['source']['id'])")
 
 # Wait for source processing (30 seconds to 10 minutes)
-notebooklm source wait "$NOTEBOOK_ID" "$SOURCE_ID"
+notebooklm source wait -n "$NOTEBOOK_ID" "$SOURCE_ID"
 
 # Generate flashcards
-TASK_ID=$(notebooklm generate flashcards "$NOTEBOOK_ID" --json | python3 -c "import sys,json; print(json.load(sys.stdin)['task_id'])")
+TASK_ID=$(notebooklm generate flashcards -n "$NOTEBOOK_ID" --json | python3 -c "import sys,json; print(json.load(sys.stdin)['task_id'])")
 
 # Wait and download
-notebooklm artifact wait "$NOTEBOOK_ID" "$TASK_ID"
-notebooklm download flashcards "$NOTEBOOK_ID" "$TASK_ID" --format md --output ~/Downloads/
+notebooklm artifact wait -n "$NOTEBOOK_ID" "$TASK_ID"
+notebooklm download flashcards -n "$NOTEBOOK_ID" -a "$TASK_ID" ~/Downloads/flashcards.md --force --format markdown
 ```
 
 ---
@@ -146,8 +152,8 @@ For long operations, use the subagent pattern from the repo (spawn a background 
 | Error | Likely cause | Fix |
 |-------|-------------|-----|
 | Auth failure | Expired OAuth cookie | `notebooklm login` |
-| Source timeout | Large file or slow processing | Re-check with `notebooklm source list <notebook_id>` |
-| Generation timeout | Long-running task | Check `notebooklm artifact list <notebook_id> --json` |
+| Source timeout | Large file or slow processing | Re-check with `notebooklm source list -n <notebook_id>` |
+| Generation timeout | Long-running task | Check `notebooklm artifact list -n <notebook_id> --json` |
 | Rate limit | Too many concurrent requests | Wait and retry |
 | CLI not found | Package not installed | `pip install "notebooklm-py[browser]"` |
 
@@ -157,7 +163,7 @@ For long operations, use the subagent pattern from the repo (spawn a background 
 
 Commands that support `--json` return structured data for scripting:
 
-- `notebook create` → `{ "notebook": { "id": "..." } }`
+- `create` → `{ "notebook": { "id": "..." } }`
 - `source add` → `{ "source": { "id": "..." } }`
 - `generate *` → `{ "task_id": "...", "status": "..." }`
 

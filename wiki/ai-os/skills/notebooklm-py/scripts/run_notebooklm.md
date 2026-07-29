@@ -3,26 +3,13 @@
 
 # run_notebooklm.py
 
+tags: [technical, skills, notebooklm, scripts]
+
+> *Wiki topic folder -> one concatenated source -> one artifact. Repaired 2026-07-29 after being found entirely non-functional against CLI v0.7.0 (7 breakages).*
+
 **Source:** `~/.claude/skills/notebooklm-py/scripts/run_notebooklm.py`
 
-Orchestration script: reads all wiki articles in a topic folder, creates a NotebookLM notebook with the content as source, and generates a study artifact (flashcards, quiz, podcast, mind map, or report).
-
-## Usage
-
-```bash
-python ~/.claude/skills/notebooklm-py/scripts/run_notebooklm.py \
-  --topic <topic> \
-  --artifact <type> \
-  [--output <path>]
-```
-
-| Argument | Required | Values |
-|----------|----------|--------|
-| `--topic` | Yes | `working-with-others`, `working-with-yourself`, `the-human-mind`, `career`, `relationships`, `wellbeing` |
-| `--artifact` | Yes | `flashcards`, `quiz`, `podcast`, `mind-map`, `report` |
-| `--output` | No | Output directory path (default: `~/Downloads/`) |
-
-## Script
+---
 
 ```python
 #!/usr/bin/env python3
@@ -39,13 +26,49 @@ Examples:
 
 import argparse
 import json
+import os
+import shutil
 import subprocess
 import sys
+import tempfile
 from pathlib import Path
 
 WIKI_ROOT = Path.home() / "Obsidian Vault" / "wiki"
 DEFAULT_OUTPUT = Path.home() / "Downloads"
-TMP_SOURCE = Path("/tmp/notebooklm_wiki_content.txt")
+# .resolve() is REQUIRED: on macOS /tmp is a symlink to /private/tmp, and
+# `source add` refuses symlinked paths ("pass --follow-symlinks") as an
+# exfiltration guard. Resolving up front avoids relaxing that guard.
+TMP_SOURCE = (Path(tempfile.gettempdir()) / "notebooklm_wiki_content.txt").resolve()
+
+# `notebooklm` is a SHELL ALIAS, not a binary on PATH. subprocess never sees
+# shell aliases, so a bare "notebooklm" raises FileNotFoundError. Resolve the
+# real executable once, up front.
+NLM_CANDIDATES = [
+    Path.home() / ".venvs" / "notebooklm" / "bin" / "notebooklm",
+    Path("/opt/homebrew/bin/notebooklm"),
+    Path("/usr/local/bin/notebooklm"),
+]
+
+
+def notebooklm_bin() -> str:
+    env = os.environ.get("NOTEBOOKLM_BIN")
+    if env and Path(env).expanduser().exists():
+        return str(Path(env).expanduser())
+    for cand in NLM_CANDIDATES:
+        if cand.exists():
+            return str(cand)
+    found = shutil.which("notebooklm")
+    if found:
+        return found
+    print(
+        'notebooklm CLI not found. Install with: pip install "notebooklm-py[browser]"\n'
+        "or set NOTEBOOKLM_BIN. A shell alias is not enough - scripts cannot see aliases.",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+
+
+NLM = None
 
 TOPIC_FOLDERS = {
     "working-with-others": WIKI_ROOT / "performance" / "working-with-others",
@@ -64,19 +87,24 @@ ARTIFACT_COMMANDS = {
     "report": "report",
 }
 
+# (download --format value, file extension). v0.7.0 accepts json|markdown|html
+# only: "md" is NOT valid. Audio takes no --format flag.
 ARTIFACT_FORMATS = {
-    "flashcards": "md",
-    "quiz": "md",
-    "podcast": "mp3",
-    "mind-map": "json",
-    "report": "md",
+    "flashcards": ("markdown", "md"),
+    "quiz": ("markdown", "md"),
+    "podcast": (None, "mp3"),
+    "mind-map": ("json", "json"),
+    "report": ("markdown", "md"),
 }
 
 
-def run(cmd: list[str], capture: bool = True) -> str:
+def run(args: list[str], capture: bool = True) -> str:
+    """Run a notebooklm subcommand. `args` excludes the executable itself."""
+    cmd = [NLM, *args]
     result = subprocess.run(cmd, capture_output=capture, text=True)
     if result.returncode != 0:
-        print(f"Error running {cmd[0]}: {result.stderr.strip()}", file=sys.stderr)
+        err = (result.stderr or "").strip() if capture else ""
+        print(f"Error running: notebooklm {' '.join(args)}\n{err}", file=sys.stderr)
         sys.exit(1)
     return result.stdout.strip() if capture else ""
 
@@ -113,6 +141,9 @@ def main() -> None:
     parser.add_argument("--output", default=str(DEFAULT_OUTPUT))
     args = parser.parse_args()
 
+    global NLM
+    NLM = notebooklm_bin()
+
     folder = TOPIC_FOLDERS[args.topic]
     if not folder.exists():
         print(f"Wiki topic folder not found: {folder}", file=sys.stderr)
@@ -128,35 +159,35 @@ def main() -> None:
     print(f"Extracted {len(content):,} characters from {len(list(folder.glob('*.md')))} articles")
 
     print(f"Creating notebook: {notebook_title}")
-    raw = run(["notebooklm", "notebook", "create", notebook_title, "--json"])
+    raw = run(["create", notebook_title, "--json"])
     notebook_id = parse_json_field(raw, "notebook", "id")
     print(f"Notebook ID: {notebook_id}")
 
     print("Adding wiki content as source...")
-    raw = run(["notebooklm", "source", "add", "file", notebook_id, str(TMP_SOURCE), "--json"])
+    raw = run(["source", "add", "-n", notebook_id, str(TMP_SOURCE), "--json"])
     source_id = parse_json_field(raw, "source", "id")
     print(f"Source ID: {source_id}")
 
     print("Waiting for source processing (may take several minutes)...")
-    run(["notebooklm", "source", "wait", notebook_id, source_id], capture=False)
+    run(["source", "wait", "-n", notebook_id, source_id], capture=False)
 
     print(f"Generating {args.artifact}...")
     artifact_cmd = ARTIFACT_COMMANDS[args.artifact]
-    raw = run(["notebooklm", "generate", artifact_cmd, notebook_id, "--json"])
+    raw = run(["generate", artifact_cmd, "-n", notebook_id, "--json"])
     task_id = parse_json_field(raw, "task_id")
     print(f"Task ID: {task_id}")
 
     print(f"Waiting for {args.artifact} generation (this may take 5-20 minutes)...")
-    run(["notebooklm", "artifact", "wait", notebook_id, task_id], capture=False)
+    run(["artifact", "wait", "-n", notebook_id, task_id], capture=False)
 
-    fmt = ARTIFACT_FORMATS[args.artifact]
-    print(f"Downloading to {output_dir}...")
-    run([
-        "notebooklm", "download", artifact_cmd,
-        notebook_id, task_id,
-        "--format", fmt,
-        "--output", str(output_dir),
-    ], capture=False)
+    fmt, ext = ARTIFACT_FORMATS[args.artifact]
+    target = output_dir / f"{notebook_title.replace('/', '-')}.{ext}"
+    print(f"Downloading to {target}...")
+    dl = ["download", artifact_cmd, "-n", notebook_id, "-a", task_id,
+          str(target), "--force"]
+    if fmt:
+        dl += ["--format", fmt]
+    run(dl, capture=False)
 
     TMP_SOURCE.unlink(missing_ok=True)
     print(f"Done. Check {output_dir} for your {args.artifact}.")
@@ -164,12 +195,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
 ```
-
-## Notes
-
-- Uses `notebooklm source add file` (not `add text`) to handle large content without shell argument length issues
-- Writes wiki content to `/tmp/notebooklm_wiki_content.txt` as an intermediate file; cleaned up on exit
-- Skips `_index.md` files (starts with `_`) to avoid ingesting navigation content
-- No API keys required: auth handled by `notebooklm login` OAuth cookie
-- No VPN needed: Google APIs route direct in HK
