@@ -6,6 +6,29 @@
 
 ---
 
+## Capabilities
+
+On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory layer, a scheduler, and multi-agent orchestration. The list below is **verified against the `claudeclaw-os` repo** (2026-07-25), not just marketing copy.
+
+| Capability | What it does | Verified in repo |
+|---|---|---|
+| **Telegram bridge** | Send a message from your phone; it runs the real Claude Code CLI on your Mac and replies. Same skills, tools, files, context as your terminal. | `src/bot.ts` |
+| **Persistent memory** | SQLite DB remembers facts, decisions and session state across conversations. | `store/claudeclaw.db` (640 KB) |
+| **Scheduled tasks** | Cron-scheduled prompts (e.g. "every Monday 9am"). | `dist/schedule-cli.js`, `scheduled_tasks` table |
+| **Multi-agent** | Specialist sub-agents, each its own Telegram bot, with task delegation between them. | `agents/`: comms, content, health, ops, research |
+| **Mission Control** | Web dashboard to monitor tasks and agents; async mission-task delegation. | `dist/mission-cli.js`, `web/` |
+| **Voice in/out** | Voice notes transcribed to text; spoken audio replies. | `ELEVENLABS_API_KEY`, bot media handling |
+| **Video/photo analysis** | Send media from your phone; analysed (Gemini for video). | `GOOGLE_API_KEY` (Gemini) |
+| **WhatsApp bridge** | Read and reply to WhatsApp from within Telegram. | `wa_messages` / `wa_outbox` tables |
+| **File sending** | Bot sends files back as Telegram attachments via `[SEND_FILE:...]` markers. | bot marker parsing |
+| **Security layers** | PIN lock, idle auto-lock, emergency kill phrase, destructive-command confirmation, audit log. | `audit_log` table, `.env` config |
+
+**In one line:** a phone interface + memory layer + scheduling system + multi-agent orchestrator, all running on top of Claude Code.
+
+> Status note (2026-07-25): the **WhatsApp** (`wa_messages`) and **scheduled_tasks** tables currently hold 0 rows — the capabilities are wired in but not yet in active use. Source detail for the feature framing: the "Claude Claw" working doc; this section is the copied-in synthesis (see [[pointer-vs-copy|Pointer vs. Copy]]).
+
+---
+
 ## Two Editions
 
 | | ClaudeClaw (Public) | ClaudeClaw OS (Members) |
