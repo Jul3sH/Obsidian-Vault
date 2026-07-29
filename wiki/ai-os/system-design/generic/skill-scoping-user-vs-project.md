@@ -79,6 +79,7 @@ The skill set is a property of **the repo**. Wherever the repo goes, the skills 
 ---
 
 ## See Also
+- [[claudeclaw-vs-agentic-os|ClaudeClaw vs. agentic-os]] — the full system comparison this dimension feeds into
 - [[pointer-vs-copy|Pointer vs. Copy]] — the same own-it-locally instinct applied to knowledge
 - [[skill-conventions|Skill Conventions]] — how skills are structured
 - [[claudeclaw-business-os-overview|ClaudeClaw Business OS Overview]]
