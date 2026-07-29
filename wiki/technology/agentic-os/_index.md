@@ -35,6 +35,12 @@ The memory system consists of four layers:
 
 - **[[agentic-os/multi-client-architecture|Multi-Client Architecture]]** — Run multiple isolated clients (`clients/{slug}/`), per-client brand context and memory, scope isolation prevents cross-client leakage
 
+### Comparisons
+
+- **[[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]]** - Both are query-time database systems on Postgres plus pgvector. Differences in tenancy axis (multi-tool versus multi-client), capture model (human-curated versus auto-captured with Haiku pre-compile), and deployment posture.
+- **[[ai-memory-paradigms|AI Memory Paradigms: Write-Time vs Query-Time]]** - The framework these comparisons use: when the AI does the hard thinking, at ingest or at query.
+- **[[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]]** - What the storage stack terms mean; only Postgres is a database engine.
+
 ## Key Facts at a Glance
 
 | Component | Details |

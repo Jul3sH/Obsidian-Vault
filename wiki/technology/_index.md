@@ -24,6 +24,16 @@ This folder is for **technical reference material**: product capabilities, prici
 | [[technology/claude-anthropic/_index\|Claude & Anthropic]] | Platform documentation: Claude Code, Claude Chat, Claude Cowork, and CLAUDE.md memory system |
 | [[technology/claudeclaw-business-os/_index\|ClaudeClaw Business OS]] | Telegram bot that pipes Claude Code to your phone: public vs members editions, versioning, and relationship to Claude Code |
 | [[technology/claudeclaw-enterprise-os/_index\|ClaudeClaw Enterprise OS]] | Enterprise product line placeholder, to be documented |
+| [[technology/agentic-os/_index\|Agentic OS]] | Turn Claude Code into an agentic operating system: identity, skills, semantic memory, multi-client isolation |
+
+## AI Memory Architecture
+
+How AI context layers are structured, and how the main implementations compare.
+
+- [[ai-memory-paradigms|AI Memory Paradigms: Write-Time vs Query-Time]] - The fork every AI knowledge system must answer, Karpathy's wiki versus OpenBrain, where each wins and breaks, and the hybrid resolution.
+- [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - Two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
+- [[openbrain-vs-personal-ai-os|OpenBrain (OB1) vs This Wiki]] - Why this vault is a Karpathy wiki, and how its wiki-to-Jira flow inverts the proposed hybrid.
+- [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - What each term actually is. Only one of them is a database engine.
 
 ## Data Sources
 
