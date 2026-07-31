@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/openbrain-vs-personal-ai-os.md",
+                "file": "wiki/technology/postgres-pgvector.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openbrain-vs-personal-ai-os"
+              "title": "postgres-pgvector"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,44 +198,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77651ffdb8077cf7",
+  "active": "48fbe0b2cf1dfbe1",
   "lastOpenFiles": [
+    "wiki/technology/Databases",
+    "wiki/technology/where-ai-automates-cybersecurity-processes-briefing.md",
+    "wiki/technology/Memory systems/openbrain-vs-personal-ai-os.md",
+    "wiki/technology/Job search tech/adzuna-uk-job-market-data-source.md",
+    "wiki/technology/Job search tech",
+    "wiki/technology/postgres-pgvector.md",
+    "wiki/technology/Memory systems",
+    "wiki/technology/Memory systems/ai-memory-paradigms.md",
+    "wiki/ai-os/system-design/generic/skill-scoping-user-vs-project.md",
+    "wiki/ai-os/system-design/generic/system-design-principles.md",
+    "wiki/ai-os/system-design/generic/multi-agent-protocol.md",
     "wiki/ai-os/system-design/generic/memory-claudeclaw-vs-agentic-os.md",
+    "wiki/ai-os/system-design/generic/documentation-conventions.md",
+    "wiki/ai-os/system-design/generic/claudeclaw-vs-agentic-os.md",
+    "wiki/ai-os/system-design/generic/agent-instruction-architecture.md",
+    "wiki/ai-os/system-design/claude/risk-framework.md",
+    "wiki/ai-os/system-design/claude/permissions.md",
+    "wiki/ai-os/system-design/claude/memory/memory-operations.md",
+    "wiki/ai-os/system-design/claude/memory/memory-convention.md",
+    "wiki/ai-os/system-design/claude/plugins/codex-plugin.md",
+    "wiki/ai-os/system-design/claude/plugins/_index.md",
+    "wiki/ai-os/system-design/claude/notebooklm-tenglin.md",
+    "wiki/ai-os/system-design/claude/hidden-file-sync.md",
+    "wiki/ai-os/system-design/claude/memory/project-dad-inheritance.md",
+    "wiki/ai-os/system-design/claude/memory/memory-system-explained.md",
+    "wiki/ai-os/system-design/claude/memory/MEMORY.md",
     "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
     "wiki/ai-os/skills/youtube-notebook/scripts/build_notebook.md",
-    "wiki/ai-os/skills/youtube-notebook/scripts/enumerate_channel.md",
-    "wiki/ai-os/skills/youtube-notebook/scripts/nlm.md",
-    "wiki/ai-os/skills/youtube-notebook/references/notebooklm-cli.md",
-    "wiki/ai-os/skills/youtube-notebook/references/TESTING.md",
     "wiki/ai-os/skills/youtube-notebook/scripts",
     "wiki/ai-os/skills/youtube-notebook/references",
-    "wiki/ai-os/skills/youtube-notebook/SKILL.md",
     "wiki/ai-os/skills/youtube-notebook",
-    "wiki/ai-os/system-design/generic/claudeclaw-vs-agentic-os.md",
-    "wiki/ai-os/system-design/generic/skill-scoping-user-vs-project.md",
-    "wiki/technology/agentic-os/three-layer-architecture.md",
-    "wiki/technology/agentic-os/session-capture-and-storage.md",
-    "wiki/technology/agentic-os/multi-client-architecture.md",
-    "wiki/technology/agentic-os/memory-database-schema.md",
-    "wiki/technology/agentic-os/command-centre.md",
-    "wiki/technology/agentic-os/memory-system-architecture.md",
-    "wiki/ai-os/system-design/claude/memory/feedback-assumption-audit.md",
-    "CLAUDE.md",
-    "wiki/technology/agentic-os/_index.md",
     "wiki/technology/agentic-os",
-    "wiki/ai-os/system-design/generic/agent-instruction-architecture.md",
-    "wiki/ai-os/system-design/claude/memory/feedback-stephan-spelling.md",
-    "wiki/ai-os/system-design/claude/memory/project-dad-inheritance.md",
-    "wiki/ai-os/system-design/generic/system-design-principles.md",
-    "wiki/ai-os/system-design/generic/pointer-vs-copy.md",
-    "wiki/ai-os/system-design/claude/memory/MEMORY.md",
-    "wiki/ai-os/system-design/claude/skill-conventions.md",
     "wiki/performance/decisions/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/ai-os/skills/decision-visualisation-check",
     "wiki/finance/uk-move-financial-model.md.tmp.27873.0d9c5228fd78",
     "wiki/performance/decisions/uk-move/uk-move-raid-register-2026-07-12.xlsx",
-    "wiki/performance/decisions/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
-    "wiki/finance/uk-move-runway-burn-comparison-2026-07-11.xlsx",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
