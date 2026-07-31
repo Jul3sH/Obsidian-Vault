@@ -72,6 +72,37 @@ The resulting model, used throughout these two articles:
 
 See [[memory-semantic-search]] for the Injection and Recall pillars, including the two distinct types of injection.
 
+## Storage has two branches: canonical and behavioural
+
+The Storage pillar is usually treated as one thing. In practice it splits into two stores that answer different questions, are authored differently, and fail differently. Conflating them is what makes the question "is a wiki memory?" feel unanswerable.
+
+| | **Canonical layer** | **Behavioural layer** |
+|---|---|---|
+| Question it answers | **"Is this true?"** | **"Does this change how I act?"** |
+| Content | Decisions, evidence, domain knowledge, synthesis | User profile, standing behavioural corrections |
+| Typical form | A maintained wiki or document store | Memory files loaded by the agent |
+| Authored by | An agent acting as librarian, deliberately | Proposed by the agent, approved by the human |
+| Volume | Large, grows without bound | Small by design, bloat degrades it |
+| Loading | Recall, on demand | Index injected, bodies on demand |
+| Cost of being wrong | Stale or incorrect facts | Repeated mistakes |
+
+**The filing test:** a fact about the world belongs in the canonical layer however important it is. A rule about behaviour belongs in the behavioural layer however trivial it is. Importance does not decide the question; the *kind of claim* being made does.
+
+### Why the distinction gets lost
+
+"Memory" is used at two scales, and both usages are legitimate:
+
+- **Broad sense:** any mechanism that persists knowledge across sessions. Under this definition a maintained wiki *is* a memory paradigm. See [[ai-memory-paradigms]], where a write-time wiki is one of the two paradigms on offer.
+- **Narrow sense:** the small curated behavioural store an agent loads at session start, and which must be protected from bloat.
+
+A knowledge base can therefore be "memory" in the first sense while its own rules correctly forbid putting knowledge-base content into "memory" in the second sense. The two stop contradicting each other once both are recognised as branches of Storage.
+
+### Consequence for assessment
+
+**A strong canonical layer can make Capture look unnecessary while leaving Injection and Recall entirely unaddressed.** That is precisely the pattern found in the environment assessed below: an unusually well-maintained canonical layer, no capture gap at all, and the binding constraint sitting at injection.
+
+Judging a memory system by the health of its canonical layer alone will systematically miss this, because the canonical layer is the most visible pillar and the one whose quality is easiest to mistake for the health of the whole system.
+
 ## What counts as an observation layer
 
 Any mechanism whose purpose is to record session activity into durable storage: session transcripts, event logs, tool-call traces, behavioural summaries written at session close, or a live process that watches conversations and extracts patterns.

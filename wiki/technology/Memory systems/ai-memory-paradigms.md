@@ -124,8 +124,26 @@ Jones's proposed architecture, rather than choosing one:
 - **Both camps agree** on owning your own artifact, human curation, intentional structure, and agent-first access.
 - **The hybrid answer**: database as source of truth, wiki as a regenerated compiled view that is never edited directly.
 
+## Scope note: which "memory" this article means
+
+This article uses **memory** in the broad sense: any mechanism that persists knowledge
+across sessions. In that sense a maintained wiki is a memory paradigm, which is why
+it appears here as one of the two options.
+
+That is a different sense from the narrow one used by an agent's own memory rules,
+where "memory" means the small curated behavioural store loaded at session start and
+protected from bloat. A knowledge base can be memory in the first sense while rules
+correctly forbid putting knowledge-base content into memory in the second sense.
+
+Both are branches of the **Storage** pillar, split by the question they answer:
+"is this true?" versus "does this change how I act?". See
+[[memory-observation-layer]] for the derivation, and the four-pillar model
+(Capture, Storage, Injection, Recall) that both sit inside.
+
 ## Related
 
+- [[memory-observation-layer]] - the capture pillar, and where the canonical and behavioural branches of Storage divide
+- [[memory-semantic-search]] - the injection and recall pillars, including scheduled versus triggered injection
 - [[openbrain-vs-agentic-os]] - OB1 and the Agentic OS memory system compared, both query-time
 - [[openbrain-vs-personal-ai-os]] - how this vault maps onto the paradigms
 - [[postgres-pgvector]] - what Postgres, pgvector, PGLite, and Supabase each actually are

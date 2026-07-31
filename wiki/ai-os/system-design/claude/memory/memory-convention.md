@@ -54,6 +54,25 @@ Content here.
 - Feedback files can be retired individually when a pattern is internalised
 - Easier to audit "what is permanent vs. what was learned in a session"
 
+## The Positive Definition: Two Branches of Storage
+
+The rules below say what memory excludes. The positive framing, which decides the
+question rather than fencing it:
+
+| | **Canonical layer** (the wiki) | **Behavioural layer** (memory files) |
+|---|---|---|
+| Question it answers | **"Is this true?"** | **"Does this change how I act?"** |
+| Content | Decisions, evidence, domain knowledge | Profile, standing behavioural corrections |
+| Volume here | 528 files | 13 files |
+| Loading | Recall, on demand | Index injected, bodies on demand |
+
+**The test:** a fact about the world goes in the wiki however important it is. A rule
+about behaviour goes in memory however trivial it is. Importance does not decide;
+the kind of claim does.
+
+Both are branches of the **Storage** pillar, not different categories. Full derivation:
+[[memory-observation-layer]].
+
 ## What NOT to Store in Memory
 
 - Code patterns or wiki content (read the source instead)
