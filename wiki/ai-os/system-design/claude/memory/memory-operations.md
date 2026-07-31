@@ -10,7 +10,7 @@ updated: 2026-07-31
 For the memory file types, format, and loading rule, see [[_index|Memory]].
 
 > [!warning] Framework superseded
-> This article previously defined memory as three operations, **Store, Inject, Recall**. That framing is superseded by the four-pillar model (**Capture → Storage → Injection → Recall**) in [[memory-observation-layer]] and [[memory-semantic-search]], which splits capture out of storage and distinguishes scheduled from triggered injection. Use the four-pillar model for any new analysis. This article now covers only how those pillars are **configured here**.
+> This article previously defined memory as three operations, **Store, Inject, Recall**. That framing is superseded by the four-pillar model (**Capture → Storage → Injection → Recall**) in [[memory-pillars]], which splits capture out of storage and gives each pillar its two sub-types. Use the four-pillar model for any new analysis. This article now covers only how those pillars are **configured here**.
 
 ## Current configuration
 
@@ -46,7 +46,7 @@ Assessed against the five-criteria test in [[memory-semantic-search]], the wiki 
 
 ## Key Takeaways
 
-- The **Store/Inject/Recall** framing is superseded. Use **Capture → Storage → Injection → Recall** ([[memory-observation-layer]], [[memory-semantic-search]]).
+- The **Store/Inject/Recall** framing is superseded. Use **Capture → Storage → Injection → Recall** ([[memory-pillars]]).
 - Injection here is **scheduled only**: `user.md` and the `MEMORY.md` index at session start. Nothing injects mid-session, so recall depends on the human asking.
 - Injection is proactive and pays a fixed cost; recall is reactive and risks missing items. Promote knowledge to injection only when it is hot enough to justify the cost.
 - A recall problem can be partly solved by converting the hot path into injection. That is what the two-tier principles-and-lessons design does.

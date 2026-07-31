@@ -15,4 +15,4 @@ updated: 2026-07-31
 
 ## Related
 
-Generic memory-systems theory (capture, storage, injection, recall) is reference material and lives under `wiki/technology/Memory systems/`, not here: [[memory-observation-layer]], [[memory-semantic-search]], [[ai-memory-paradigms]].
+Generic memory-systems theory is reference material and lives under `wiki/technology/Memory systems/`, not here. The model is [[memory-pillars]] (Capture, Storage, Injection, Recall); the enabler articles are [[memory-observation-layer]] (Capture), [[memory-curated-index]] (Recall, write-time) and [[memory-semantic-search]] (Recall query-time, and triggered Injection). See also [[ai-memory-paradigms]].

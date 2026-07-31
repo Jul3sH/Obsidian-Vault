@@ -7,7 +7,7 @@ updated: 2026-06-08
 
 > *How the cross-session memory system works: types, file format, loading rule, and what not to store.*
 
-For how memory is operated at runtime here, see [[memory-operations|Memory Operations]]. For the generic four-pillar model (Capture, Storage, Injection, Recall), see [[memory-observation-layer]] and [[memory-semantic-search]].
+For how memory is operated at runtime here, see [[memory-operations|Memory Operations]]. For the generic four-pillar model (Capture, Storage, Injection, Recall), see [[memory-pillars]].
 
 ## How It Works
 
@@ -71,7 +71,7 @@ about behaviour goes in memory however trivial it is. Importance does not decide
 the kind of claim does.
 
 Both are branches of the **Storage** pillar, not different categories. Full derivation:
-[[memory-observation-layer]].
+[[memory-pillars]].
 
 ## What NOT to Store in Memory
 

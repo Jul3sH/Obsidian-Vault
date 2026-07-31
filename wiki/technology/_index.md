@@ -34,8 +34,10 @@ How AI context layers are structured, and how the main implementations compare.
 - [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - Two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
 - [[openbrain-vs-personal-ai-os|OpenBrain (OB1) vs This Wiki]] - Why this vault is a Karpathy wiki, and how its wiki-to-Jira flow inverts the proposed hybrid.
 - [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - What each term actually is. Only one of them is a database engine.
-- [[memory-observation-layer|Observation Layer]] - the **capture** pillar: what an observation layer is, why capture belongs outside storage as a fourth pillar, and when a capture mechanism is justified at all.
-- [[memory-semantic-search|Semantic Search]] - the **injection and recall** pillars: the two types of injection (scheduled versus triggered), the five-criteria test for justifying a vector index, and scoring of the commonly-cited use cases.
+- [[memory-pillars|The Four Pillars of Memory Systems]] - **the model.** Capture, Storage, Injection, Recall, each with its two sub-types; the pillar-versus-enabler distinction; and the amendment splitting capture out of Simon Scrapes' three pillars.
+- [[memory-observation-layer|Observation Layer]] - **enabler for Capture.** What counts as one, when it is justified, and three hypotheses that would have required one, all tested and failed.
+- [[memory-curated-index|Curated Index Retrieval]] - **enabler for Recall (write-time).** The hand-authored index and wikilink scheme: how the hop chain works, why the one-line descriptions are the ranking function, and its dominant failure mode of invocation.
+- [[memory-semantic-search|Semantic Search]] - **enabler for Recall (query-time) and Injection (triggered).** The five-criteria test for justifying a vector index, and scoring of the commonly-cited use cases.
 
 ## Data Sources
 
