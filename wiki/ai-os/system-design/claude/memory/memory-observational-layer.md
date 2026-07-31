@@ -6,15 +6,17 @@ authority: analysis-backed
 
 # Observational Memory Layer
 
-> *Assessed 2026-07-31. Verdict: not required. Claude Code's JSONL session transcripts already hold the complete observational record, so retrospective behavioural analysis needs a periodic script, not a live capture layer.*
+> *Assessed 2026-07-31. Verdict: no observational **capture** layer is required, because the JSONL session transcripts already hold the complete record. A narrow **retrieval** gap does exist over that same material. This article also sets out a transferable five-criteria test for judging the question in any agentic OS.*
 
 ## Key Takeaways
 
-- **The JSONL transcripts are already an observational store.** Every user turn, assistant turn, tool call, tool input, timestamp and session boundary is written to `~/.claude/projects/[project]/*.jsonl`. Nothing needs to be captured live because nothing is being lost.
-- **An observational layer would pay a continuous cost to reconstruct what is already on disk for free.** The analysis that produced this article was run entirely from existing files, in one session, with no prior instrumentation.
-- **The session-memory case for observational memory did not survive testing.** Two separate hypotheses (procedural agreements lost to context rot; corrections clustering after compaction) were tested against the corpus and both failed.
-- **The real gap is aggregate visibility, not recall.** Frequency and distribution facts are invisible from inside any single session, and the wiki cannot hold them by construction: the wiki records what is true, not where effort went.
-- **Therefore: a periodic audit script, not a live layer.** Anything else adds a system to maintain, which is itself the pattern the audit exposes.
+- **Separate capture from retrieval before deciding anything.** A vector store is a retrieval technology; it adds nothing to capture. Conflating the two is what produces the wrong engineering choice.
+- **The JSONL transcripts are already an observational store.** Every user turn, assistant turn, tool call, tool input, timestamp and session boundary is written to `~/.claude/projects/[project]/*.jsonl`. Nothing needs capturing live because nothing is being lost.
+- **An observational capture layer would pay a continuous cost to reconstruct what is already on disk for free.** The analysis behind this article ran entirely from existing files, in one session, with no prior instrumentation.
+- **Three session-memory hypotheses were tested and all three failed:** procedural agreements lost to context rot; corrections clustering after compaction; and a human re-narration tax after compaction.
+- **The decision hinges on the retrieval-key problem, not on subject matter.** A semantic layer wins specifically when the user remembers the *content* but not the *name or phrasing*, which is where grep fails. Engineering workloads exhibit this strongly, but they do not own it.
+- **The retrieval needs here are real but low-frequency and decision-support shaped**, not engineering shaped: provenance of self-stated figures, recall over unstructured pastes, and pre-wiki history.
+- **Therefore: index the existing transcripts, do not build a runtime capture-and-embed pipeline.** And run the aggregate audit as a periodic script, since those findings are retrospective by nature.
 
 ---
 
@@ -57,7 +59,7 @@ Measured correction language in the 15 turns following each of the 28 compaction
 
 The signal is an artefact. Reading the 13 matched turns, roughly 11 are false positives: post-compaction turns are disproportionately context-reloading turns, where reported speech about third parties ("she said", "we agreed", "that was wrong") triggers correction patterns. Stripped of those, the post-compaction rate is not distinguishable from baseline.
 
-**Corollary worth keeping:** the compaction tax is real but it lands on the human, not the assistant. The cost is re-narrating background, not forgotten rules.
+**A third hypothesis was also tested and failed.** The suggestion that compaction shifts cost onto the human, who must re-narrate background afterwards, does not hold either. Mean user turn length in the 10 turns after a compaction is 651 characters against a 1,001-turn baseline of 682, a ratio of **0.95x**. Post-compaction turns are marginally *shorter*, not longer. There is no measurable re-narration tax.
 
 ## What retrospective analysis surfaced
 
@@ -72,6 +74,54 @@ These are the findings that justified the exercise. All four are aggregate facts
 **There is a measurable interrupt threshold.** 11 hard "stop" interrupts. Tool runs before the user regains a turn: median 3.5, p90 11, max 90. Interrupts concentrate in the tail, including an explicit cost objection (*"this is not a good usage of credits"*). Nothing in the wiki records this threshold.
 
 **Model routing is decided 113 times without consulting existing doctrine.** `/model` is the most-used command by roughly 50x. A Model roles table already exists at [[multi-agent-protocol]]. This is a wiring problem, not an authoring one: tier-2 doctrine that is never read at the decision point.
+
+## Capture versus retrieval: the distinction that decides this
+
+The verdict above is about **capture**. It is not a verdict on **retrieval**, and conflating the two produces the wrong engineering decision.
+
+| Axis | Question | Status here |
+|---|---|---|
+| **Capture** | Does the material exist in durable storage? | **Solved.** 100MB of complete JSONL, no instrumentation needed |
+| **Retrieval** | Can you find the right piece of it on demand? | **Not solved.** grep over 100MB of JSONL is genuinely bad |
+
+A semantic (vector) layer is a *retrieval* technology. It adds nothing to capture. So the only defensible reason to build one is a demonstrated retrieval failure over material that is already being captured.
+
+## When a semantic layer is justified: a transferable test
+
+Applicable to any agentic OS, not just this one. A vector store pays for itself only when **all five** hold. The third is the crux.
+
+1. **Volume exceeds browsing capacity.** If a human can scan the file list, they do not need embeddings.
+2. **Material is unstructured and untitled at capture time.** No filename, no tag, no link was ever assigned.
+3. **The retrieval key is unknown at query time.** The user remembers the *content* but not the *name or phrasing*. This is precisely where grep fails and embeddings win: grep requires you to already know a distinctive string.
+4. **The material is not already curated into a canonical store.** Otherwise the layer duplicates an existing index.
+5. **Query frequency is high enough to amortise build and maintenance cost.**
+
+**Why generic advice on this topic reads as engineering-flavoured:** software engineering workloads score high on 1, 2 and 3 automatically. Error traces, stack dumps and dead-end approaches are high-volume, never titled, and recalled by symptom rather than by name. That is a *correlation with the criteria*, not a property of engineering itself. The underlying driver is the retrieval-key problem in criterion 3, and non-engineering workloads can exhibit it too.
+
+## Scoring the common use cases against this environment
+
+The five use cases most often cited for observational memory, tested against the corpus:
+
+| Use case | Verdict here | Evidence |
+|---|---|---|
+| **Vocabulary bridging** over unstructured pastes | **Strong** | 128 pastes over 1,200 chars (10% of turns), largest 16,704. Untitled, untagged, grep-hostile |
+| **Cross-tool continuity** across agents | **Real need, misdiagnosed** | The claim that the material "does not exist as files" is false. Codex persists `~/.codex/sessions/`, `session_index.jsonl`, `memories_1.sqlite`. A further 48 Claude sessions sit under `claudeclaw-os`. This is a **federation** problem, not a capture problem, and the fix is far cheaper |
+| **Session residue**, rejected options and reasoning | **Partly valid, overstated** | The "0% reaches the vault" claim fails here: [[decision-journal]], the decision register, `uk-move/capture.md` (31 edits) and the Cause-Event-Effect-Response risk register exist specifically to record roads not taken. The gap is only the *unfiled* residue |
+| **Negative knowledge**, failures and dead ends | **Weak here** | 119 tool errors across 24,581 events (0.5%). Edits are 98% prose (1,615 markdown vs 29 code/config); Bash is navigation (`cd` 389, `grep` 79, `ls` 61), not build-test-debug. High-value negative knowledge already got written because pain forced it, e.g. the HK VPN routing constraints in [[CLAUDE]] |
+| **Temporal queries** | **Already solved** | JSONL carries timestamps and vault-backup commits carry dates. Questions of this exact shape were answered during this analysis, e.g. establishing that `multi-agent-protocol.md` was first written 2026-07-09T11:17 |
+
+**This is not simply an engineering-versus-not split.** Two of the five fail here because this environment is a decision-support workload rather than a build workload, but genuine retrieval needs remain, and they are not engineering-shaped.
+
+## The retrieval use cases that do apply here
+
+Derived from the corpus rather than adapted from a generic list.
+
+- **Provenance of self-stated facts.** 25 instances of the user asking where a figure originated or what they themselves previously stated: *"where's the AR cap come from?"*, *"what did we say the MPF pot is?"*, *"What did I say my ISA investments are currently worth and also what did I say the value of my UK current account is?"* These are decision-support queries, not engineering ones, and they satisfy criterion 3 exactly: the content is remembered, the phrasing is not.
+- **Unstructured paste recall.** The 128 large pastes: WhatsApp archives, meeting recaps, salary and job-market dumps, call debriefs. Some are filed into the wiki; the remainder are recoverable only from transcripts.
+- **Pre-structure history.** Explicitly requested: *"do you have any visibility of the tasks that I did when I was preparing for my Cisco interview? I think it might have been pre-wiki."* Material predating the current wiki conventions has no canonical home by definition.
+- **Cross-agent federation.** Real, but currently low volume (6 Codex session files against 47 Claude ones), and partially addressed already by [[AGENTS]] acting as the deliberate shared layer.
+
+Against the five criteria, these clear 1, 2 and 3 but are marginal on 5: roughly 25 provenance queries across ten weeks is a low amortisation base. That argues for indexing existing transcripts rather than building a runtime capture-and-embed pipeline.
 
 ## Why an audit, not a layer
 

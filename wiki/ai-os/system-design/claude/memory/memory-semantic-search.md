@@ -1,0 +1,113 @@
+---
+type: doctrine
+updated: 2026-07-31
+authority: analysis-backed
+concept: retrieval
+---
+
+# Semantic Search
+
+> *Semantic search (vector or embedding search) is a **retrieval** mechanism: an index over material that already exists, enabling lookup by meaning rather than by exact string. It answers "can I find what I know is there?" It captures nothing. Paired concept: [[memory-observation-layer]].*
+
+## Key Takeaways
+
+- **Semantic search retrieves. It does not capture.** It adds an index over an existing store and creates no new record.
+- **Never use "semantic search" and "observation layer" interchangeably.** See the terminology note below; the confusion causes real overspend.
+- **The decision hinges on the retrieval-key problem, not on subject matter.** A semantic index wins specifically when the user remembers the *content* but not the *name or phrasing*, which is exactly where grep fails.
+- **Engineering workloads are not the only qualifying case**, they simply hit the criteria more often. Decision-support work can qualify too.
+- **Verdict for this environment: narrowly justified, marginal on frequency.** Index existing transcripts; do not build a runtime capture-and-embed pipeline.
+
+---
+
+## Terminology note: do not use these terms interchangeably
+
+| | **Semantic search** (this article) | **Observation layer** ([[memory-observation-layer]]) |
+|---|---|---|
+| Axis | **Retrieval** | **Capture** |
+| Answers | "Can I find what I know is there?" | "Is anything going unrecorded?" |
+| Fails when | You must know the exact string to grep | Events vanish unlogged |
+| Output | An index over a store | A durable store |
+
+**The error to watch for runs in this direction:** retrieval benefits get used to justify capture spend. A proposal listing "recall past decisions", "surface old error traces", "find that meeting note" is making a *retrieval* argument. If capture already exists, those benefits justify an index, which is far cheaper than a new capture system. Score every claimed benefit onto an axis before approving anything.
+
+## When semantic search is justified: a transferable test
+
+Applicable to any agentic OS. A vector store pays for itself only when **all five** hold. The third is the crux; the fifth is where most proposals die.
+
+| # | Criterion | Fails when |
+|---|---|---|
+| 1 | Volume exceeds browsing capacity | A human can scan the file list |
+| 2 | Material is unstructured and untitled at capture time | It already has names, tags, links |
+| 3 | **The retrieval key is unknown at query time** | They know the filename, so grep works |
+| 4 | Not already curated into a canonical store | You would be duplicating an index |
+| 5 | Query frequency amortises build and maintenance cost | A handful of queries per quarter |
+
+**Criterion 3 is the whole argument.** grep requires you to already know a distinctive string. Embeddings do not. Everything else is qualification.
+
+**Why generic advice on this topic reads as engineering-flavoured:** software engineering workloads score high on 1, 2 and 3 automatically. Error traces, stack dumps and dead-end approaches are high-volume, never titled, and recalled by symptom rather than by name. That is a *correlation with the criteria*, not a property of engineering. Non-engineering workloads exhibit the same pattern whenever the user recalls content but not phrasing.
+
+**Practical note for assessing other systems:** all five criteria are measurable from someone's session transcripts. Count paste volume, error density, prose-to-code ratio, and provenance-question rate. This converts an architecture preference into a number.
+
+## Scoring the five commonly-cited use cases
+
+The use cases most often advanced for a semantic memory layer, tested against this corpus.
+
+| Use case | Verdict here | Evidence |
+|---|---|---|
+| **Vocabulary bridging** over unstructured pastes | **Strong** | 128 pastes over 1,200 chars (10% of turns), largest 16,704. Untitled, untagged, grep-hostile |
+| **Cross-tool continuity** across agents | **Real need, misdiagnosed cause** | The claim that the material "does not exist as files" is false. Codex persists `~/.codex/sessions/`, `session_index.jsonl`, `memories_1.sqlite`. A further 48 Claude sessions sit under `claudeclaw-os`. This is a **federation** problem, not a capture or embedding problem, and the fix is far cheaper |
+| **Session residue**, rejected options and reasoning | **Partly valid, overstated** | The "0% reaches the vault" claim fails here: [[decision-journal]], the decision register, `uk-move/capture.md` (31 edits) and the Cause-Event-Effect-Response risk register exist specifically to record roads not taken. The gap is only the *unfiled* residue |
+| **Negative knowledge**, failures and dead ends | **Weak here** | 119 tool errors across 24,581 events (0.5%). Edits are 98% prose (1,615 markdown vs 29 code/config); Bash is navigation (`cd` 389, `grep` 79, `ls` 61), not build-test-debug. High-value negative knowledge already got written because pain forced it, e.g. the HK VPN routing constraints in [[CLAUDE]] |
+| **Temporal queries** | **Already solved** | JSONL carries timestamps and vault-backup commits carry dates. Questions of this exact shape were answered during the assessment itself, e.g. establishing that `multi-agent-protocol.md` was first written 2026-07-09T11:17 |
+
+**This is not a simple engineering-versus-not split.** Two of the five fail here because this is a decision-support workload rather than a build workload. Genuine retrieval needs remain, and they are not engineering-shaped.
+
+## The retrieval use cases that do apply here
+
+Derived from the corpus rather than adapted from a generic list.
+
+- **Provenance of self-stated facts.** 25 instances of asking where a figure originated or what was previously stated: *"where's the AR cap come from?"*, *"what did we say the MPF pot is?"*, *"What did I say my ISA investments are currently worth and also what did I say the value of my UK current account is?"* These satisfy criterion 3 exactly: the fact is remembered, the phrasing is not.
+- **Unstructured paste recall.** The 128 large pastes: WhatsApp archives, meeting recaps, salary and job-market dumps, call debriefs. Some are filed into the wiki; the remainder are recoverable only from transcripts.
+- **Pre-structure history.** Explicitly requested: *"do you have any visibility of the tasks that I did when I was preparing for my Cisco interview? I think it might have been pre-wiki."* Material predating current wiki conventions has no canonical home by definition.
+- **Cross-agent federation.** Real, but currently low volume (6 Codex session files against 47 Claude ones), and partially addressed already by [[AGENTS]] acting as the deliberate shared layer.
+
+## Assessment for this environment, 2026-07-31
+
+**Verdict: narrowly justified, marginal on criterion 5.**
+
+Scored against the test: criteria 1, 2 and 3 clear comfortably. Criterion 4 partly clears, since the wiki curates much but not all of the material. Criterion 5 is the weak point: roughly 25 provenance queries across ten weeks is a thin amortisation base.
+
+**Therefore: index the existing transcripts. Do not build a runtime capture-and-embed pipeline.** The substrate already exists ([[memory-observation-layer]]), so the work is an index, not a system.
+
+**Restraint argument, from this environment's own data:** `ai-os` is already 24% of total effort, and skill non-adoption is empirically confirmed. A vector store is precisely the kind of artefact that gets built, documented, mirrored, and then never invoked. If it is built, the adoption forcing-function matters more than the architecture. See [[feedback-build-dont-adopt]].
+
+## Relationship to the observation layer
+
+**Hard dependency, one direction only.**
+
+- This concept **depends on** [[memory-observation-layer]]. You cannot embed what was never recorded. Capture is upstream; retrieval is downstream.
+- The observation layer does **not** depend on this. Aggregate audit value is delivered by scripted analysis with no index at all.
+
+**Consequence for decision-making:** assess capture first, always. If capture is missing, a semantic search project cannot proceed until it is fixed. If capture is already solved, as it is here, the only live question is whether retrieval justifies an index.
+
+**Synergies:**
+
+- **Capture quality sets the retrieval ceiling.** Because the JSONL carries timestamps, session ids and tool inputs, an index can filter on metadata before ranking by similarity. Hybrid filtering is substantially more precise than pure similarity.
+- **Retrieval preserves the value of capture.** Without an index, a large capture store is effectively write-only and its practical value decays as it grows.
+- **They serve different halves of the same audit.** Capture yields the aggregate statistics; semantic retrieval yields the qualitative examples behind them.
+
+**Trap:** building both at once when capture is already solved. That doubles the maintenance surface for zero added recall.
+
+## Caveats
+
+- The corpus begins 2026-05-18; earlier sessions may have rotated out of local storage.
+- Query-frequency figures are lower bounds, derived from pattern matching over phrasing and likely to undercount.
+- JSONL retention is not guaranteed indefinitely, which is a dependency for any index built over it.
+
+## Related
+
+- [[memory-observation-layer]] - the paired capture concept; read both before deciding
+- [[memory-operations]] - store, inject, recall; the existing no-vector-DB rationale
+- [[memory-convention]] - what memory stores and what it must not
+- [[ai-memory-paradigms]] - generic memory-architecture reference
+- [[feedback-build-dont-adopt]] - why adoption, not architecture, is the risk here
