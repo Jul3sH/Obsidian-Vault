@@ -200,6 +200,7 @@
   },
   "active": "48fbe0b2cf1dfbe1",
   "lastOpenFiles": [
+    "wiki/ai-os/system-design/claude/memory/memory-observational-layer.md",
     "wiki/technology/agentic-os/memory-system-architecture.md",
     "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
     "wiki/technology/agentic-os/multi-client-architecture.md",
@@ -228,7 +229,6 @@
     "wiki/ai-os/system-design/claude/notebooklm-tenglin.md",
     "wiki/ai-os/system-design/claude/hidden-file-sync.md",
     "wiki/ai-os/system-design/claude/memory/project-dad-inheritance.md",
-    "wiki/ai-os/system-design/claude/memory/memory-system-explained.md",
     "wiki/ai-os/skills/youtube-notebook/scripts",
     "wiki/ai-os/skills/youtube-notebook/references",
     "wiki/ai-os/skills/youtube-notebook",
