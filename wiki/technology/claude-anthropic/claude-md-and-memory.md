@@ -42,6 +42,39 @@ When Claude Code is opened in any other folder, it uses only the global `~/.clau
 
 ---
 
+## The Three Native Memory Concepts
+
+Claude Code ships three distinct persistence mechanisms. They are routinely confused because all three get called "memory".
+
+| Concept | What it is | Auto-loaded? | Holds |
+|---|---|---|---|
+| **Auto-memory** | The `memory/` folder in the project directory, plus its `MEMORY.md` index | Index yes, bodies on demand | Curated facts |
+| **CLAUDE.md rulebook** | Instruction files: project `./CLAUDE.md`, imported `AGENTS.md`, global `~/.claude/CLAUDE.md` | Yes, in full | Rules, not facts |
+| **Session transcripts** | `.jsonl` logs, one level up from `memory/` | **No** | Complete session history |
+
+Transcripts are **latent** memory: comprehensive and automatic, but inert. They only become memory when something explicitly reads them. See [[session-transcripts-and-memory]].
+
+### The naming trap
+
+Three terms get used interchangeably and mean different things:
+
+- **Auto-memory** = the memory *folder*. Same thing, two names. Opened via `/memory` → option 4, "Open auto-memory folder".
+- **MEMORY.md** = one *file inside* that folder: the index listing the others. Not the folder, and not the memories.
+- **The memories** = the other files in the folder (`user.md`, `feedback-*.md`). The actual content.
+
+Filing-cabinet analogy: the folder is the cabinet, `MEMORY.md` is the index card on the front, the memory files are the documents inside.
+
+### The `/memory` command is a hub for two of the three
+
+| Menu line | Opens |
+|---|---|
+| 1-3 | The rulebook: project `CLAUDE.md`, imported `AGENTS.md`, global user `CLAUDE.md` |
+| 4 | The auto-memory folder |
+
+Line 3 is a **global** `~/.claude/CLAUDE.md` affecting every project, not just the current one. Worth auditing: rules placed there apply everywhere and are easy to forget.
+
+Transcripts are not exposed by `/memory` at all, which is part of why they are overlooked.
+
 ## Memory Files
 
 Beyond `CLAUDE.md`, Claude Code supports a second persistence mechanism: **memory files**. These hold session-learned context — user profile, active project state, corrections — that doesn't belong in the permanent rulebook.

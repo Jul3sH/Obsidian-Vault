@@ -77,12 +77,7 @@ Claude referenced a rule called `feedback-overanalysis-check`. The questions it 
    - **The memories** = the other files in the folder (`user.md`, `feedback-*.md`, ...) — the actual content.
    - Analogy: folder = filing cabinet; MEMORY.md = index card on the front; memory files = the documents inside.
 
-2. **There are three distinct NATIVE memory concepts** (all shipped by Claude Code):
-   - **Auto-memory** (= the memory folder + its MEMORY.md index) — curated facts.
-   - **CLAUDE.md rulebook** — instruction files (project `./CLAUDE.md`, imported `AGENTS.md`, global `~/.claude/CLAUDE.md`). Rules, not facts.
-   - **Transcripts** (`.jsonl` session logs, one level up from `memory/`) — automatic, comprehensive, but *inert* (latent memory: only becomes "memory" when explicitly read; not auto-loaded).
-
-3. **The `/memory` command is a hub for two of those:** lines 1-3 = the rulebook (Project / AGENTS.md / global User memory); option 4 = the auto-memory folder. Note line 3 is a *global* `~/.claude/CLAUDE.md` that affects ALL projects — currently unaudited.
+2. ~~**There are three distinct NATIVE memory concepts**~~ and 3. ~~**The `/memory` command is a hub**~~ — **DONE 2026-07-31.** Both were generic Claude Code product facts rather than descriptions of this setup, so they were written up in [[claude-md-and-memory]] under "The Three Native Memory Concepts", covering auto-memory versus rulebook versus transcripts, the naming trap, and the `/memory` menu map. The global `~/.claude/CLAUDE.md` remains **unaudited**; that action stays open.
 
 4. **Hidden system labels I see but Julian doesn't:** the harness tags MEMORY.md with descriptions like *"user's auto-memory, persists across conversations"* when it loads it into my context. That label is NOT in the folder — it only exists in my view. Root of much of the confusion: Julian's view (plain files) vs the system's hidden labels on them.
 

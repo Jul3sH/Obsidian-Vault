@@ -196,6 +196,12 @@ understand them.
 - **Update the mirror immediately** after creating or changing the source file.
 - **Confirm to Julian** which wiki file mirrors which hidden source path: this
   confirmation is how he knows a file he cannot see has become visible.
+- **Mirrors are pinned and are never refiled.** A mirror's location is fixed by the
+  mirror map, not by any taxonomy or filing decision. Mirrors, and the running
+  configuration they reflect, stay in `wiki/ai-os/` because they *are* the AI OS
+  currently in use. Generic theory about how such systems work belongs in
+  `wiki/technology/`. If a mirror looks misfiled, the answer is that mirrors are
+  exempt, not that the mirror should move. Full test: `wiki/ai-os/taxonomy.md`.
 - **Never mirror secrets or noise:** no credentials, API keys, auth tokens, OAuth
   files, logs, caches, or session/transient state.
   - When a config file **mixes** secrets with useful settings, mirror the file but

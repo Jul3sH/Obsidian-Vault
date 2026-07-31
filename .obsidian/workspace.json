@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/ai-os/system-design/claude/memory/memory-observation-layer.md",
+                "file": "wiki/technology/Memory systems/ai-memory-paradigms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory-observation-layer"
+              "title": "ai-memory-paradigms"
             }
           }
         ]
@@ -200,8 +200,14 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
-    "wiki/ai-os/system-design/claude/memory/memory-semantic-search.md",
+    "wiki/technology/Memory systems/memory-observation-layer.md",
+    "wiki/ai-os/system-design/claude/memory/memory-operations.md",
+    "wiki/ai-os/system-design/claude/memory/memory-system-explained.md",
+    "wiki/ai-os/system-design/claude/memory/project-dad-inheritance.md",
+    "wiki/ai-os/system-design/claude/memory/memory-convention.md",
     "wiki/ai-os/system-design/claude/memory/memory-observation-layer.md",
+    "wiki/technology/Memory systems/memory-semantic-search.md",
+    "wiki/ai-os/system-design/claude/memory/memory-semantic-search.md",
     "wiki/technology/Memory systems/ai-memory-paradigms.md",
     "wiki/technology/agentic-os/three-layer-architecture.md",
     "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
@@ -223,12 +229,6 @@
     "wiki/ai-os/system-design/generic/documentation-conventions.md",
     "wiki/ai-os/system-design/generic/claudeclaw-vs-agentic-os.md",
     "wiki/ai-os/system-design/generic/agent-instruction-architecture.md",
-    "wiki/ai-os/system-design/claude/risk-framework.md",
-    "wiki/ai-os/system-design/claude/permissions.md",
-    "wiki/ai-os/system-design/claude/memory/memory-operations.md",
-    "wiki/ai-os/system-design/claude/memory/memory-convention.md",
-    "wiki/ai-os/system-design/claude/plugins/codex-plugin.md",
-    "wiki/ai-os/system-design/claude/plugins/_index.md",
     "wiki/ai-os/skills/youtube-notebook/scripts",
     "wiki/ai-os/skills/youtube-notebook/references",
     "wiki/ai-os/skills/youtube-notebook",

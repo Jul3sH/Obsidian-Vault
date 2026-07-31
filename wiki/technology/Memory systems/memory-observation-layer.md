@@ -1,5 +1,5 @@
 ---
-type: doctrine
+type: reference
 updated: 2026-07-31
 authority: analysis-backed
 concept: capture
@@ -8,6 +8,9 @@ concept: capture
 # Observation Layer
 
 > *An observation layer is a **capture** mechanism: it records what happened during agent sessions. It answers "is anything going unrecorded?" It is not a search technology. Paired concept: [[memory-semantic-search]].*
+
+> [!note] Status: technology theory, not an adopted design
+> This article is reference material on how agent memory systems work. It is **not** a description of what has been chosen or built here. The assessment sections record a point-in-time evaluation against one real corpus, used as a worked example to make the theory testable.
 
 ## Key Takeaways
 
@@ -31,6 +34,43 @@ This is the single most common category error in agentic OS design, and it is ex
 | Output | A durable store | An index over a store |
 
 The error to watch for: **a proposal that argues retrieval benefits in order to justify capture spend.** Phrases like "we would be able to recall past decisions" or "we could surface old error traces" are retrieval arguments. If capture already exists, they justify an index, not a new capture system. Ask which axis every claimed benefit sits on before approving anything.
+
+## Where capture sits: the four-pillar model
+
+The widely cited framing is Simon Scrapes' **Three Pillars of Memory Systems** (from "Master Claude Memory", Google Doc *Claude Memory Systems*):
+
+| Pillar | His definition |
+|---|---|
+| **Storage** | "The mechanism and timing of saving data... deciding what is memory-worthy... and how it is organized" |
+| **Injection** | "Pushing relevant memory into the model's context window... loading only the right information at the right time" |
+| **Recall** | "Finding and recovering past information... keyword to semantic" |
+
+**The proposed amendment: capture is a fourth pillar, currently bundled inside Storage.**
+
+His Storage definition contains two functions that are not merely separable but philosophically opposed:
+
+- *"the mechanism and timing of saving data"* is **capture**: indiscriminate, records everything
+- *"deciding what is memory-worthy and how it is organized"* is **storage**: curated, decides what to keep
+
+**His own document already splits them twice.** First, his comparative table carries a *Data Philosophy* row contrasting MemSearch ("Comprehensive: captures everything") against Hermes ("Curated: agent decides what is worth keeping"). That row **is** the capture-versus-storage axis: he identified it, used it to differentiate frameworks, then did not promote it to a pillar. Second, his implementation section "Stage 1: Optimized Storage" lists three bullets that are three different functions: Automatic Transcript Capture (capture), Curated Fact Writing (storage), Nightly Indexing (indexing).
+
+**Why the separation matters practically: capture and storage have different owners.**
+
+| | Capture | Storage |
+|---|---|---|
+| Fails when | Events never get recorded | Records are lost, corrupted, or rotated out |
+| Cost shape | Per-turn runtime cost, a hook | Ongoing infrastructure |
+| Usually | **Given free by the platform** | **Built by you** |
+
+A model that fuses them cannot express the most common real-world state: *capture is already paid for, storage is not*. Claude Code writes complete JSONL transcripts at no cost to the user, while nothing durably stores or curates them. Bundling therefore prices a build that is unnecessary, which is the single most expensive error in this domain.
+
+**Indexing is deliberately not promoted to a pillar.** Unlike capture, it has no independent "is this solved by the platform?" answer; it is an implementation detail of storage and recall.
+
+The resulting model, used throughout these two articles:
+
+**Capture → Storage → Injection → Recall**
+
+See [[memory-semantic-search]] for the Injection and Recall pillars, including the two distinct types of injection.
 
 ## What counts as an observation layer
 

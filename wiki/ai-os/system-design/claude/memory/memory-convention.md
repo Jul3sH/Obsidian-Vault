@@ -7,7 +7,7 @@ updated: 2026-06-08
 
 > *How the cross-session memory system works: types, file format, loading rule, and what not to store.*
 
-For how memory is operated at runtime (Store, Inject, Recall), see [[memory-operations|Memory Operations]].
+For how memory is operated at runtime here, see [[memory-operations|Memory Operations]]. For the generic four-pillar model (Capture, Storage, Injection, Recall), see [[memory-observation-layer]] and [[memory-semantic-search]].
 
 ## How It Works
 
@@ -22,12 +22,15 @@ Memory uses **Option 2**: `CLAUDE.md` holds permanent rules; memory files hold s
 
 ## Memory Types
 
+Memory holds **three things only**, per `CLAUDE.md`. Everything else belongs in the wiki.
+
 | Type | File(s) | Purpose | When updated |
 |------|---------|---------|--------------|
 | **user** | `user.md` | Who Julian is: role, location, ADHD traits, workstreams, preferences | When new persistent facts about the user emerge |
-| **projects** | `projects.md` | Pointer to `wiki/projects/_index.md` + currently active project | When active project changes |
-| **deliverables** | `deliverables.md` | Pointer to `wiki/deliverables/_index.md` + current timebox focus | When timebox changes or top-of-queue shifts |
-| **feedback** | `feedback-*.md` (multiple) | Corrections that should not be repeated | When Julian corrects Claude's behaviour |
+| **feedback** | `feedback-*.md` (multiple) | Behavioural corrections that should not be repeated in any future session | When Julian corrects Claude's behaviour |
+| **hard rule** | e.g. `project-dad-inheritance.md` | A standing rule where getting it wrong risks real legal, financial or relational harm. Rare; must justify why memory rather than the wiki | When the underlying situation materially changes |
+
+**Retired types.** `projects.md` and `deliverables.md` were removed. Project and deliverable state lives in the wiki (`wiki/projects/`, `wiki/deliverables/`) and is read on demand, not carried in memory.
 
 ## File Format
 
@@ -37,7 +40,7 @@ Each file has frontmatter:
 ---
 name: short memory name
 description: one-line summary used to judge relevance
-type: user | project | epic | reference | feedback
+type: user | feedback
 created: YYYY-MM-DD
 ---
 

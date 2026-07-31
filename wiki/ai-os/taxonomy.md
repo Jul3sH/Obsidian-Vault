@@ -39,9 +39,44 @@ If it is a reusable scaffold for producing a specific type of artifact, it goes 
 
 ---
 
+## Gate 0: Is this AI OS at all?
+
+Apply this **before** the filing test below. AI OS holds the operating layer *actually
+in use here*. Generic knowledge about how a class of system works is reference
+material and belongs in `wiki/technology/`.
+
+> **Would this document still be true if this entire environment were deleted and
+> rebuilt from scratch?**
+>
+> - Yes, it describes how a kind of system works → **`wiki/technology/`**
+> - No, it describes what is actually running → **`wiki/ai-os/`**
+
+### Worked example: memory
+
+Memory content splits across both indexes, which makes it the clearest illustration.
+
+| Document | Home | Reasoning |
+|---|---|---|
+| `memory-observation-layer`, `memory-semantic-search`, `ai-memory-paradigms` | `technology/Memory systems/` | Capture, storage, injection and recall theory; vendor comparisons; decision tests. True regardless of what runs here |
+| `memory-convention`, `memory-operations`, `memory-system-explained` | `ai-os/system-design/claude/memory/` | Describe the memory system actually in use, its types, format and loading rules |
+| `user.md`, `MEMORY.md`, `feedback-*.md`, `project-*.md` | `ai-os/system-design/claude/memory/` | Mirrors of live hidden files. These **are** the running system |
+
+### Hard constraint: mirrors never move
+
+Any file mirroring a hidden source (skills, memory, harness config) is **pinned** to
+the mirror path defined in its harness mirror map. It is never refiled by a taxonomy
+decision, because the mirror path is what makes an otherwise invisible file
+discoverable in Obsidian. If a mirror looks misfiled, mirrors are exempt; the mirror
+does not move. See the Hidden File Visibility rule in `AGENTS.md`.
+
+The same holds for the auto-memory files themselves. They stay in AI OS not because
+of their subject matter but because they are live operating state, not reference.
+
+---
+
 ## The Filing Test
 
-When creating a new AI OS document, ask:
+Once Gate 0 has placed a document inside AI OS, ask:
 
 > **Is this about people/process/operations, or about the tools that support them?**
 

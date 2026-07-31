@@ -34,6 +34,8 @@ How AI context layers are structured, and how the main implementations compare.
 - [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - Two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
 - [[openbrain-vs-personal-ai-os|OpenBrain (OB1) vs This Wiki]] - Why this vault is a Karpathy wiki, and how its wiki-to-Jira flow inverts the proposed hybrid.
 - [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - What each term actually is. Only one of them is a database engine.
+- [[memory-observation-layer|Observation Layer]] - the **capture** pillar: what an observation layer is, why capture belongs outside storage as a fourth pillar, and when a capture mechanism is justified at all.
+- [[memory-semantic-search|Semantic Search]] - the **injection and recall** pillars: the two types of injection (scheduled versus triggered), the five-criteria test for justifying a vector index, and scoring of the commonly-cited use cases.
 
 ## Data Sources
 

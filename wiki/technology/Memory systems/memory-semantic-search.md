@@ -1,5 +1,5 @@
 ---
-type: doctrine
+type: reference
 updated: 2026-07-31
 authority: analysis-backed
 concept: retrieval
@@ -8,6 +8,9 @@ concept: retrieval
 # Semantic Search
 
 > *Semantic search (vector or embedding search) is a **retrieval** mechanism: an index over material that already exists, enabling lookup by meaning rather than by exact string. It answers "can I find what I know is there?" It captures nothing. Paired concept: [[memory-observation-layer]].*
+
+> [!note] Status: technology theory, not an adopted design
+> This article is reference material on how agent memory systems work. It is **not** a description of what has been chosen or built here. The assessment sections record a point-in-time evaluation against one real corpus, used as a worked example to make the theory testable.
 
 ## Key Takeaways
 
@@ -71,17 +74,57 @@ Derived from the corpus rather than adapted from a generic list.
 - **Pre-structure history.** Explicitly requested: *"do you have any visibility of the tasks that I did when I was preparing for my Cisco interview? I think it might have been pre-wiki."* Material predating current wiki conventions has no canonical home by definition.
 - **Cross-agent federation.** Real, but currently low volume (6 Codex session files against 47 Claude ones), and partially addressed already by [[AGENTS]] acting as the deliberate shared layer.
 
-## The third concept: injection, and why it matters most
+## Injection: the pillar that decides whether retrieval ever runs
 
-Capture and retrieval are not the whole pipeline. A working system has **three** stages, and conflating the last two hides the real failure mode.
+Retrieval and injection are distinct. **Retrieval finds material. Injection decides to look, and puts the result into the context window.** Retrieval quality is irrelevant if nothing triggers a lookup.
 
-| Stage | Function | Status here |
+Under the four-pillar model (**Capture → Storage → Injection → Recall**, see [[memory-observation-layer]] for the derivation and the argument for splitting capture out of storage):
+
+| Pillar | Function | Status in the assessed environment |
 |---|---|---|
-| 1. **Capture** | Get events into durable storage | **Already solved.** See [[memory-observation-layer]] |
-| 2. **Retrieval** | Find the right material in that store | Not solved; this article |
-| 3. **Injection** | Decide *to look at all*, and put the result back into context | **The binding constraint** |
+| Capture | Get events recorded | **Solved.** JSONL transcripts |
+| Storage | Decide what to keep, and how organised | Partial. Files, no retention guarantee |
+| **Injection** | Decide to look; place material in context | **The binding constraint** |
+| Recall | Find the right material | Not built; grep only |
 
-Stage 3 is where this environment actually fails. Retrieval quality is irrelevant if nothing triggers a lookup.
+### The two types of injection
+
+These have different triggers, different cost profiles, and defend against different failures. Conflating them hides the failure mode that actually bites.
+
+| | **Scheduled injection** | **Triggered injection** |
+|---|---|---|
+| When | Once, at session start | Mid-session, in response to a turn |
+| Trigger | Deterministic, time-based | Something must *decide* a lookup is needed |
+| Typical form | "Frozen snapshot" of consolidated files, roughly 1,300 to 3,000 tokens: `CLAUDE.md`, `SOUL.md`, `user.md` | Vector query against the store, top-k results injected |
+| Token cost | Fixed and predictable; cacheable | Variable; risks bloating context |
+| Defends against | **Cold-start amnesia.** The agent begins each session knowing who the user is and what the rules are | **Compaction loss and context rot.** Material that left the window, or decayed in salience, is brought back |
+| Cannot fix | Anything that degrades *during* the session, because it fires once, before the degradation | Nothing structural; but it is the harder of the two to build well |
+
+**Simon Scrapes' Injection pillar is the scheduled type.** His recommended architecture specifies frozen snapshots at session start. That is a sound defence against cold-start amnesia and it is cheap, because it caches. It does **not** address mid-session degradation, because it has already fired by the time degradation begins.
+
+**The trigger problem is what makes triggered injection hard.** Something has to decide a lookup is warranted. The options, in ascending reliability:
+
+1. **The user asks.** Fragile: depends on the human remembering that relevant material exists.
+2. **The agent decides.** Measured below at roughly 25% reliability in this corpus.
+3. **A hook fires on every turn.** Deterministic. Pays a retrieval cost per turn whether or not it is needed.
+
+Only option 3 removes the human and the agent's judgement from the loop, which is why hook-based designs exist despite their cost.
+
+### Measured: the trigger fails in this environment
+
+All 744 vault `Read` calls across 47 sessions were decomposed. A read that precedes an edit of the same file is mechanical, not recall:
+
+| Category | Count | Share |
+|---|---|---|
+| User mentioned the wiki in the preceding turn | 259 | 34% |
+| Unflagged, but read-then-edit same file (mechanical) | 298 | 40% |
+| Unflagged, no subsequent edit (**genuine discovery**) | 187 | **25%** |
+
+Only a quarter of wiki reads are autonomous consultation. Worse, `_master-index.md` was read **5 times across 47 sessions**, against an explicit [[AGENTS]] instruction to read it first when answering questions: roughly 11% compliance with a documented navigation protocol. Inspecting the 187 discovery reads, most are continuations inside an already-active thread rather than recall of dormant material.
+
+**Conclusion:** the agent reliably reads files that are named by the user, about to be edited, or already in the active thread. It does **not** reliably seek out dormant relevant context, because it does not know that context exists. Recall therefore depends on the human remembering to say "check the wiki", which is a heavy and fragile dependency, and it is a trigger failure rather than a retrieval failure.
+
+**This is the strongest argument for a semantic index in this environment,** and it is stronger than any of the five commonly-cited use cases above. A vector index queried by a per-turn hook needs neither party to know in advance that relevant material exists. Neither a wiki nor grep can close that gap, because both require a deliberate act of recall by the human.
 
 **Measured, 2026-07-31.** All 744 vault `Read` calls across 47 sessions were decomposed. A read that precedes an edit of the same file is mechanical, not recall:
 
