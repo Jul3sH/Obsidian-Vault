@@ -89,6 +89,23 @@ Capture without retrieval still delivers value, through **aggregate analysis**. 
 
 **Implementation shape:** a periodic script over existing transcripts, output as a dated article under `wiki/ai-os/logs/`. Not a runtime component.
 
+## Does capture fix compaction or context rot?
+
+**Capture alone: no. As one stage of a three-stage pipeline: yes.**
+
+Neither phenomenon is a storage failure:
+
+| | What happens | Anything lost from disk? |
+|---|---|---|
+| **Compaction** | Material leaves the context window, replaced by a summary | **No.** Every turn remains in the JSONL |
+| **Context rot** | Material stays in the window; attention and salience degrade | **No.** Nothing left anywhere |
+
+An observation layer writes to disk, and neither problem is caused by things failing to reach disk. So capture in isolation cannot fix either.
+
+**However**, the commonly proposed architecture (a hook captures each turn, stores it in a vector-indexed database, and material is retrieved and injected back when relevant) *does* address compaction. The fix is not the capture stage but the **injection** stage, which returns material to the context window. See [[memory-semantic-search]] for the three-stage breakdown.
+
+**The implication for this environment is a cost one, not a rejection.** Because JSONL already captures everything a hook would, only the retrieval and injection stages need building. Any proposal that includes a capture stage here is paying twice.
+
 ## Relationship to semantic search
 
 **Hard dependency, one direction only.**

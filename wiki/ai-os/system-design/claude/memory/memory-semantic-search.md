@@ -71,6 +71,45 @@ Derived from the corpus rather than adapted from a generic list.
 - **Pre-structure history.** Explicitly requested: *"do you have any visibility of the tasks that I did when I was preparing for my Cisco interview? I think it might have been pre-wiki."* Material predating current wiki conventions has no canonical home by definition.
 - **Cross-agent federation.** Real, but currently low volume (6 Codex session files against 47 Claude ones), and partially addressed already by [[AGENTS]] acting as the deliberate shared layer.
 
+## The third concept: injection, and why it matters most
+
+Capture and retrieval are not the whole pipeline. A working system has **three** stages, and conflating the last two hides the real failure mode.
+
+| Stage | Function | Status here |
+|---|---|---|
+| 1. **Capture** | Get events into durable storage | **Already solved.** See [[memory-observation-layer]] |
+| 2. **Retrieval** | Find the right material in that store | Not solved; this article |
+| 3. **Injection** | Decide *to look at all*, and put the result back into context | **The binding constraint** |
+
+Stage 3 is where this environment actually fails. Retrieval quality is irrelevant if nothing triggers a lookup.
+
+**Measured, 2026-07-31.** All 744 vault `Read` calls across 47 sessions were decomposed. A read that precedes an edit of the same file is mechanical, not recall:
+
+| Category | Count | Share |
+|---|---|---|
+| User mentioned the wiki in the preceding turn | 259 | 34% |
+| Unflagged, but read-then-edit same file (mechanical) | 298 | 40% |
+| Unflagged, no subsequent edit (**genuine discovery**) | 187 | **25%** |
+
+Only a quarter of wiki reads are autonomous consultation. Worse, `_master-index.md` was read **5 times across 47 sessions**, against an explicit [[AGENTS]] instruction to read it first when answering questions: roughly 11% compliance with a documented navigation protocol. Inspecting the 187 discovery reads, most are continuations inside an already-active thread rather than recall of dormant material.
+
+**Conclusion:** the agent reliably reads files that are named by the user, about to be edited, or already in the active thread. It does **not** reliably seek out dormant relevant context, because it does not know that context exists. Recall therefore depends on the human remembering to say "check the wiki", which is a heavy and fragile dependency.
+
+**This is the strongest argument for a semantic index in this environment,** and it is stronger than any of the five commonly-cited use cases above. A vector index can be queried **proactively on every turn**, without either party knowing in advance that relevant material exists. Neither the wiki nor grep can close that gap, because both require a deliberate act of recall by the human.
+
+## Compaction and context rot: what actually fixes them
+
+Neither phenomenon is a storage failure, so neither is fixed by capture. But both are addressable by stages 2 and 3.
+
+| Phenomenon | What happens | Fixed by |
+|---|---|---|
+| **Compaction** | Material leaves the context window; it remains on disk | **Injection.** Retrieve relevant prior material and put it back in |
+| **Context rot** | Material stays in the window but salience decays | **Injection plus structure.** Re-surface, restate, use auto-loaded rules and checklists |
+
+**The wiki is a session-boundary mechanism, not a mid-session one.** Summaries and conclusions are written at session end, so the wiki defends against loss *between* sessions but cannot defend against salience decay *within* one. Nothing gets re-read unless something triggers a read, which returns to the stage 3 problem above.
+
+**Consequence for design:** a hook-based capture-store-inject pipeline does address compaction. But in this environment only stages 2 and 3 need building, because stage 1 already exists in the JSONL transcripts. Proposals should be costed accordingly.
+
 ## Assessment for this environment, 2026-07-31
 
 **Verdict: narrowly justified, marginal on criterion 5.**
