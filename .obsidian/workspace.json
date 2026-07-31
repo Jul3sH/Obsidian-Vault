@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/postgres-pgvector.md",
+                "file": "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "postgres-pgvector"
+              "title": "openbrain-vs-agentic-os"
             }
           }
         ]
@@ -200,12 +200,16 @@
   },
   "active": "48fbe0b2cf1dfbe1",
   "lastOpenFiles": [
+    "wiki/technology/agentic-os/memory-system-architecture.md",
+    "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
+    "wiki/technology/agentic-os/multi-client-architecture.md",
+    "wiki/technology/agentic-os/memory-database-schema.md",
+    "wiki/technology/postgres-pgvector.md",
     "wiki/technology/Databases",
     "wiki/technology/where-ai-automates-cybersecurity-processes-briefing.md",
     "wiki/technology/Memory systems/openbrain-vs-personal-ai-os.md",
     "wiki/technology/Job search tech/adzuna-uk-job-market-data-source.md",
     "wiki/technology/Job search tech",
-    "wiki/technology/postgres-pgvector.md",
     "wiki/technology/Memory systems",
     "wiki/technology/Memory systems/ai-memory-paradigms.md",
     "wiki/ai-os/system-design/generic/skill-scoping-user-vs-project.md",
@@ -225,9 +229,6 @@
     "wiki/ai-os/system-design/claude/hidden-file-sync.md",
     "wiki/ai-os/system-design/claude/memory/project-dad-inheritance.md",
     "wiki/ai-os/system-design/claude/memory/memory-system-explained.md",
-    "wiki/ai-os/system-design/claude/memory/MEMORY.md",
-    "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
-    "wiki/ai-os/skills/youtube-notebook/scripts/build_notebook.md",
     "wiki/ai-os/skills/youtube-notebook/scripts",
     "wiki/ai-os/skills/youtube-notebook/references",
     "wiki/ai-os/skills/youtube-notebook",
@@ -235,7 +236,6 @@
     "wiki/performance/decisions/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/ai-os/skills/decision-visualisation-check",
     "wiki/finance/uk-move-financial-model.md.tmp.27873.0d9c5228fd78",
-    "wiki/performance/decisions/uk-move/uk-move-raid-register-2026-07-12.xlsx",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
