@@ -16,7 +16,7 @@ concept: model
 
 - **Four pillars, in dependency order: Capture → Storage → Injection → Recall.** Every memory system implements all four, however crudely.
 - **Do not confuse a pillar with an enabler.** Pillars are *functions*; semantic search, capture hooks and curated indexes are *technologies* that implement them. Mixing the two levels is the most common modelling error in this domain.
-- **Storage has two branches**, canonical and behavioural, split by whether the content answers "is this true?" or "does this change how I act?".
+- **Storage divides on two independent axes.** *Kind of claim*: canonical versus behavioural, split by whether the content answers "is this true?" or "does this change how I act?". *Form and retention*: synthesise at ingest versus store faithfully, crossed with comprehensive versus curated retention. The second axis is what separates MemSearch, Hermes, OpenBrain and a Karpathy wiki from each other.
 - **Injection has two types**, scheduled and triggered, and only the second can defend against mid-session degradation.
 - **Assess each pillar separately.** Each has its own "is this solved, and by whom?" answer. Bundling them prices work that is already done.
 
@@ -82,9 +82,13 @@ Capture is indiscriminate by nature. It does not judge importance; that judgemen
 
 Native platform transcripts are usually continuous. Hook-based summarisers are usually boundary. Full treatment, including when a capture mechanism is justified at all: [[memory-observation-layer]].
 
-## Pillar 2: Storage, and its two branches
+## Pillar 2: Storage, and its two axes
 
-Storage decides what is kept and how it is organised. In practice it splits into two stores that answer different questions, are authored differently, and fail differently. Conflating them is what makes the question "is a wiki memory?" feel unanswerable.
+Storage decides what is kept and how it is organised. It divides twice, on **independent** axes: *what kind of claim* the content makes, and *what form it takes and how much survives*. A system's position on one says nothing about its position on the other.
+
+### First axis: what kind of claim (canonical vs behavioural)
+
+In practice this splits into two stores that answer different questions, are authored differently, and fail differently. Conflating them is what makes the question "is a wiki memory?" feel unanswerable.
 
 | | **Canonical branch** | **Behavioural branch** |
 |---|---|---|
@@ -97,6 +101,35 @@ Storage decides what is kept and how it is organised. In practice it splits into
 | Cost of being wrong | Stale or incorrect facts | Repeated mistakes |
 
 **The filing test:** a fact about the world belongs in the canonical branch however important it is. A rule about behaviour belongs in the behavioural branch however trivial it is. Importance does not decide; the *kind of claim* does.
+
+**"Behavioural" means rules *for* behaviour, not records *of* it.** Captured session activity is the Capture pillar's output and belongs nowhere near this branch. A user profile qualifies only because its contents are operating instructions: a fact about the person that does not change how the agent acts belongs in the canonical branch.
+
+### Second axis: what form, and what survives
+
+Two sub-questions, and together they explain why the product landscape looks inconsistent.
+
+**Form: when does synthesis happen?**
+
+- **Synthesise at ingest (write-time).** What lands in the store is already processed. Cheap to read, lossy: the editorial decisions are baked in.
+- **Store faithfully, synthesise at query (query-time).** What lands is raw. Nothing is lost, but every read pays the synthesis cost.
+
+This is the same decision that appears as Recall's write-time/query-time sub-types, seen from the other end. It is *made* at write and it *constrains* how retrieval can work, which is why it belongs to both pillars. Treated in depth in [[wiki-vs-openbrain]].
+
+**Retention: what survives?**
+
+- **Comprehensive.** Keep everything, prune nothing.
+- **Curated.** An agent or human decides what is worth keeping; the rest is pruned or capped.
+
+Simon Scrapes' comparison table calls this the *Data Philosophy* row. It is also the axis that justified splitting Capture out of Storage in the first place, since indiscriminate capture and curated retention are opposite instincts.
+
+**The two are independent**, which is what makes the products legible:
+
+| | **Comprehensive retention** | **Curated retention** |
+|---|---|---|
+| **Synthesise at ingest** (write-time) | **MemSearch** - Haiku summarises every turn at capture and the summary is vectorised; raw dialogue retained only as a last-resort retrieval tier | **Karpathy wiki** - compiles articles on ingest, raw kept but not primary. **Hermes** - agent-curated `memory.md`/`user.md` with character caps, prunes raw transcripts every 7 days |
+| **Store faithfully** (query-time) | **OpenBrain** - faithful `thoughts` table, no synthesis until asked | Rare and mostly incoherent: pruning raw while deferring synthesis discards the material the synthesis would need |
+
+**A common misreading:** MemSearch is often described as "the one that stores raw data". Its own documentation says the opposite - it summarises each turn with Haiku *at capture* and indexes that summary. Its distinctive property is **completeness of retention**, not rawness of form. Both MemSearch and Hermes process at ingest; they differ on what they throw away.
 
 ### Why "memory" gets used at two scales
 

@@ -38,6 +38,18 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
 - This is an LLM-maintained knowledge base. You are the librarian.
 - The wiki/ folder is YOUR domain: you write and maintain everything in it.
   The user rarely edits wiki files directly.
+- **Agree the filename with Julian BEFORE creating any new wiki file.** Propose the
+  basename, say where it will sit, and wait for agreement. Do not create first and
+  rename later. Renaming is expensive and the cost is not obvious at creation time:
+  bare links break, every inbound link *and* every backticked filename mention must
+  be found and repointed, and each index listing it needs updating. Applies to new
+  articles, new folders, and new `_index.md` files.
+  **Exception:** artefacts whose naming pattern is already agreed and fixed, e.g.
+  quarterly logs (`log-YYYY-QN.md`) and review files
+  (`[topic]-[reviewer]-review-[date].md`). Those follow the pattern without asking.
+- **Before proposing a name, check whether the content already has a home.** A new
+  file that overlaps an existing one creates the duplication-and-drift problem that
+  renaming was meant to avoid. Search first, then propose.
 - raw/ is the inbox. When the user dumps files here, you process them into the wiki
   during a "compile" step.
 - After every compile, move the processed raw file(s) to raw/_processed/.
