@@ -44,7 +44,7 @@ pillar: injection
 Something has to decide a lookup is warranted. In ascending reliability:
 
 1. **The user asks.** Fragile: depends on the human remembering that relevant material exists.
-2. **The agent decides.** Measured at roughly 25% in one real corpus; see [[memory-curated-index]].
+2. **The agent decides.** Measured at roughly 25% in one real corpus; see [[memory-features#Curated Index Retrieval|curated index retrieval]].
 3. **A deterministic per-turn nudge primes the agent to decide.** A hook fires every turn but injects no content itself, only a hint that memory exists and may be relevant, leaving the actual retrieval to option 2. Cheaper than full triggered injection since no retrieval runs unless the agent acts on the hint; more reliable than option 2 alone since the reminder is unconditional. Verified example: MemSearch's `UserPromptSubmit` hook, which posts `"[memsearch] Memory available"` on every turn.
 4. **A hook fires on every turn and injects retrieved content directly.** Deterministic. Pays a retrieval cost per turn whether needed or not. Verified example: ClaudeClaw's `buildMemoryContext`.
 
@@ -128,7 +128,7 @@ Transposed from the four product scorecards. This is the pillar with the widest 
 
 The environment has scheduled injection only in a weak form: `CLAUDE.md` and `AGENTS.md` load every session, but the user profile (`user.md`) is fetched by *instruction*, not injected by a hook - and instruction-following was measured at 8%. There is no triggered injection at all.
 
-Measured evidence of the gap, from [[memory-curated-index]]:
+Measured evidence of the gap, from [[memory-features#Curated Index Retrieval|curated index retrieval]]:
 
 | Signal | Result |
 |---|---|
@@ -143,5 +143,5 @@ Measured evidence of the gap, from [[memory-curated-index]]:
 - [[memory-recall]] - the pillar Injection invokes; distinct from it
 - [[memory-storage]] - what is eligible for injection, and the canonical/behavioural split that determines which tier is hot
 - [[memory-capture]] - upstream; event-triggered capture, not injection, is the fix when compaction causes true disk loss
-- [[memory-semantic-search]] - the only practical enabler of triggered injection
+- [[memory-features#Semantic Search|Semantic search]] - feature family for query-time recall and triggered injection
 - [[pillars-claudeclaw]] - [[pillars-agentic-os]] - [[pillars-memsearch]] - [[pillars-mempalace]] - the four product scorecards this capability catalogue is transposed from

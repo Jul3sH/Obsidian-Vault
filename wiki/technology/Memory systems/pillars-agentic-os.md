@@ -5,9 +5,9 @@ concept: product-evaluation
 product: Agentic OS
 ---
 
-# Agentic OS, Scored Against the Four Pillars
+# Agentic OS, Scored Against Pillars, Use Cases, and Capabilities
 
-> *How the Agentic OS memory layer scores on **Capture, Storage, Injection, Recall**. Scoring only. For how it is built (layers, schema, scope model), see [[agentic-os/memory-system-architecture|Memory System Architecture]] and [[agentic-os/memory-database-schema|Memory Database Schema]]. Model: [[memory-pillars]].*
+> *How the Agentic OS memory layer scores on **Capture, Storage, Injection, Recall**, plus the [[memory-use-cases]] and [[memory-capabilities]] those pillars support. For how it is built (layers, schema, scope model), see [[agentic-os/memory-system-architecture|Memory System Architecture]] and [[agentic-os/memory-database-schema|Memory Database Schema]]. Model: [[memory-pillars]].*
 
 > [!note] Status: reference, not an adopted design
 > An assessment of someone else's product against the four-pillar model. Nothing here is running in this vault.
@@ -21,6 +21,7 @@ product: Agentic OS
 - **Capture is continuous, not boundary.** The `Stop` hook fires at the end of every agent turn in Claude Code, and `memory-capture.js`'s own comment confirms it captures "the transcript's **last turn**" each time, not a session-level summary.
 - **A cron layer exists beyond the four documented layers**: `daily-memory-distill`, `nightly-memory-index`, `nightly-memory-backup`, `weekly-memory-curator`, `weekly-memory-gaps`. None of this appears in [[agentic-os/memory-system-architecture|the architecture doc]].
 - **Best-in-class scope isolation:** `private` / `client` / `team` / `system` enforced in both application code and the database, with no-leak tests.
+- **Capability shape:** strong on query-time recall, source traceability, retention maintenance, and scope-isolated recall; partial on "know the user" and "resume the work" because the machinery exists but the working memory file is unpopulated; weak on compaction survival and unlocated context discovery because there is no triggered injection.
 - **"Built but never ingested" now has direct corroboration**, not just the ClaudeClaw doc's claim. `context/MEMORY.md` in the actual repo is empty template scaffolding - the Active Threads, Environment Notes, and Pending Decisions sections are all unpopulated.
 - **Revised finding:** this is no longer the clean "best Storage/Recall, zero Injection" case it first appeared to be. It has injection - just the weaker, scheduled kind. The sharper contrast with ClaudeClaw is specifically *triggered* injection, which only ClaudeClaw has.
 
@@ -36,6 +37,26 @@ product: Agentic OS
 | **Storage** | Retention | **Comprehensive for summaries**; raw kept but outside the searchable set |
 | **Injection** | Scheduled / triggered | **Scheduled only.** `load-memory-snapshot.js` on `SessionStart`; nothing on `UserPromptSubmit` |
 | **Recall** | Write-time / query-time | **Query-time**, the most developed here: hybrid BGE-M3 vector plus Postgres full-text, three-rung ladder |
+
+## Use Case and Capability Coverage
+
+| Use case | Capability | Coverage | Why |
+|---|---|---|---|
+| [[memory-use-cases|Know the user]] | [[memory-capabilities|Identity persistence]] | **Partial** | `USER.md` is scheduled into context, but this depends on the store being populated and current |
+| [[memory-use-cases|Resume the work]] | [[memory-capabilities|Critical context availability]] | **Partial** | `MEMORY.md` and the day's log are injected, but `MEMORY.md` was verified as an empty template in the inspected repo |
+| [[memory-use-cases|Survive compaction]] | [[memory-capabilities|Compaction survival]] | **Weak / partial** | Capture is continuous, so disk loss is unlikely, but no triggered injection reasserts critical material after compaction |
+| [[memory-use-cases|Preserve reasoning]] | [[memory-capabilities|Working reasoning preservation]] | **Partial** | Per-turn summaries and archived transcripts preserve some reasoning, but raw transcripts are not indexed by default and no mid-session refresh exists |
+| [[memory-use-cases|Recall old knowledge]] | [[memory-capabilities|Long-term knowledge recall]] | **Strong** | Hybrid vector plus Postgres full-text search, with search -> expand -> transcript escalation |
+| [[memory-use-cases|Reconstruct what happened]] | [[memory-capabilities|Episodic recall]] | **Partial / strong** | Search can expand to surrounding context and transcript, but the raw archive is not itself the primary indexed tier |
+| [[memory-use-cases|Keep memory healthy]] | [[memory-capabilities|Retention management]] | **Strong in design** | Daily distill, nightly index/backup, weekly curator, and weekly gaps jobs exist beyond the documented layers |
+| [[memory-use-cases|Turn patterns into rules]] | [[memory-capabilities|Pattern-to-rule promotion]] | **Partial** | `daily-memory-distill` promotes durable facts into `MEMORY.md`, but the inspected `MEMORY.md` was unpopulated |
+| [[memory-use-cases|Find unlocated context]] | [[memory-capabilities|Unlocated context discovery]] | **Strong when asked, weak when dormant** | Recall is strong, but nothing on `UserPromptSubmit` triggers lookup without the human or agent deciding |
+| [[memory-use-cases|Navigate curated knowledge]] | [[memory-capabilities|Curated knowledge navigation]] | **Missing** | This system is query-time database recall, not a hand-curated index and wikilink system |
+| [[memory-use-cases|Share memory across agents]] | [[memory-capabilities|Cross-agent memory federation]] | **Missing** | Agentic OS is designed around scoped workspaces, not a shared cross-tool memory bus |
+| [[memory-use-cases|Keep scopes separate]] | [[memory-capabilities|Scope-isolated recall]] | **Strong** | Scope columns and no-leak tests make this the clearest strength of the system |
+| [[memory-use-cases|Recall what was true then]] | [[memory-capabilities|Temporal fact recall]] | **Missing** | No temporal validity model or entity graph was identified |
+| [[memory-use-cases|Trace to source]] | [[memory-capabilities|Source-grounded recall]] | **Partial / strong** | Expand and transcript rungs provide an escape hatch back to source context |
+| [[memory-use-cases|Turn workflows into procedures]] | [[memory-capabilities|Procedural memory generation]] | **Missing** | No equivalent to MemSearch's Skills from Memory was identified |
 
 ## Capture
 
@@ -87,7 +108,7 @@ The escalation design is sound: it is the same instinct as MemSearch's tiered re
 |---|---|
 | **Would add** | Query-time Recall, the strongest implementation assessed. Scheduled Injection, of the kind this environment currently lacks entirely (`user.md` here is fetched by instruction, not injected by a hook - see [[memory-model-adoption]]). Scope isolation, though this environment is single-user so that is unused capability |
 | **Would duplicate** | Capture, already covered by native JSONL |
-| **Would partially solve** | **Injection - the scheduled half only.** Mid-session triggered recall, the sharper gap measured in [[memory-curated-index]] (11% invocation, 25% autonomous discovery), would still be unaddressed |
+| **Would partially solve** | **Injection - the scheduled half only.** Mid-session triggered recall, the sharper gap measured in [[memory-features#Curated Index Retrieval|curated index retrieval]] (11% invocation, 25% autonomous discovery), would still be unaddressed |
 | **Cautionary** | Its own track record. More complete infrastructure than first credited, and still recorded as unused in practice |
 
 ## Related
@@ -95,6 +116,9 @@ The escalation design is sound: it is the same instinct as MemSearch's tiered re
 - [[agentic-os/memory-system-architecture|Memory System Architecture]] - how it is built: the four layers, PGLite, BGE-M3
 - [[agentic-os/memory-database-schema|Memory Database Schema]] - tables, indexes, canonical query
 - [[memory-pillars]] - the model being applied
+- [[memory-use-cases]] - use case catalogue used for the coverage table
+- [[memory-capabilities]] - capability catalogue used for the coverage table
+- [[memory-features]] - feature catalogue used for implementation examples
 - [[pillars-claudeclaw]] - the contrast: weaker storage, triggered injection, actually in use
 - [[pillars-memsearch]] - the system this one replaced; appears to have kept its 3-rung recall ladder
 - [[pillars-mempalace]] - the contrast: verbatim storage instead of synthesis, and a compaction-safe capture hook this system lacks

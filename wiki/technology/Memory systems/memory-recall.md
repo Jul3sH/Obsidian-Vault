@@ -33,7 +33,7 @@ pillar: recall
 | Cost profile | Costly on write, near-free at query | Near-free on write, cost recurs per query |
 | Wins on | Precision, transparency, zero infrastructure | Coverage, and finding material nobody indexed |
 | Fails when | Nothing invokes it, or the corpus outgrows authoring effort | Similarity approximates intent badly; drift on edit |
-| Enabler | [[memory-curated-index]] | [[memory-semantic-search]], keyword search |
+| Feature family | [[memory-features#Curated Index Retrieval|curated index retrieval]] | [[memory-features#Semantic Search|semantic search]], keyword search |
 
 **The decisive difference is not quality, it is who pays and when.** Write-time recall front-loads human judgement; query-time recall defers it to the machine. A hybrid - a curated index over the canonical branch plus a computed index over raw captured material - is usually stronger than either alone because they fail differently.
 
@@ -153,8 +153,8 @@ Transposed from the four product scorecards. All four implement query-time recal
 
 Two separate decisions, reached independently and for different reasons:
 
-- **Over the wiki corpus (~38 lesson docs):** no vector index. The curated `_index` descriptions plus `[[wikilinks]]` already form a precise retrieval layer at that scale. Revisit trigger: ~100-150 docs. See [[memory-curated-index]].
-- **Over the JSONL transcript corpus:** narrowly justified but marginal, failing on query frequency (roughly 25 provenance queries in ten weeks). See [[memory-semantic-search]].
+- **Over the wiki corpus (~38 lesson docs):** no vector index. The curated `_index` descriptions plus `[[wikilinks]]` already form a precise retrieval layer at that scale. Revisit trigger: ~100-150 docs. See [[memory-features#Curated Index Retrieval|curated index retrieval]].
+- **Over the JSONL transcript corpus:** narrowly justified but marginal, failing on query frequency (roughly 25 provenance queries in ten weeks). See [[memory-features#Semantic Search|semantic search]].
 
 **The sharper finding is that Recall quality was never the constraint.** The curated index is precise when used; it was invoked in 11% of sessions. That is an [[memory-injection|Injection]] failure, not a Recall failure, and no improvement to ranking would have fixed it.
 
@@ -163,7 +163,7 @@ Two separate decisions, reached independently and for different reasons:
 - [[memory-pillars]] - the four-pillar model overview
 - [[memory-injection]] - the pillar that invokes Recall; the most common reason good Recall fails
 - [[memory-storage]] - the form axis (synthesise-at-ingest vs store-faithfully) is this same fork seen from the write side
-- [[memory-curated-index]] - enabler for write-time recall
-- [[memory-semantic-search]] - enabler for query-time recall, and the only practical enabler of triggered injection
+- [[memory-features#Curated Index Retrieval|Curated index retrieval]] - feature family for write-time recall
+- [[memory-features#Semantic Search|Semantic search]] - feature family for query-time recall, and a practical feature family for triggered injection
 - [[pillars-claudeclaw]] - [[pillars-agentic-os]] - [[pillars-memsearch]] - [[pillars-mempalace]] - the four product scorecards this capability catalogue is transposed from
 - [[wiki-vs-openbrain|AI Memory Paradigms]] - the write-time versus query-time fork in its original framing

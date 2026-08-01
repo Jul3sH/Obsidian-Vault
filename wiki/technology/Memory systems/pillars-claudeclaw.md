@@ -5,9 +5,9 @@ concept: product-evaluation
 product: ClaudeClaw Business OS
 ---
 
-# ClaudeClaw, Scored Against the Four Pillars
+# ClaudeClaw, Scored Against Pillars, Use Cases, and Capabilities
 
-> *How the ClaudeClaw memory system scores on **Capture, Storage, Injection, Recall**. Scoring only. For how it is built (tables, functions, decay factors), see [[claudeclaw-memory-system]]. Model: [[memory-pillars]].*
+> *How the ClaudeClaw memory system scores on **Capture, Storage, Injection, Recall**, plus the [[memory-use-cases]] and [[memory-capabilities]] those pillars support. For how it is built (tables, functions, decay factors), see [[claudeclaw-memory-system]]. Model: [[memory-pillars]].*
 
 > [!note] Status: reference, not an adopted design
 > An assessment of someone else's product against the four-pillar model. Nothing here is running in this vault.
@@ -20,6 +20,7 @@ Source: originally from [[claudeclaw-memory-system]] (verified against `claudecl
 - **Aggressively curated capture.** An LLM extraction agent scores each turn and **discards anything below importance 0.5**. Most exchanges are never stored.
 - **Layered on form**, like MemSearch: synthesised `memories` for retrieval, verbatim `conversation_log` underneath for exact recall.
 - **It has a retention *policy*, not just a retention *setting*:** importance-tiered daily salience decay, with pinning as an exemption.
+- **Capability shape:** strongest on triggered context discovery and memory health; good on reconstruction through `conversation_log`; partial on identity and current-work context because there is no explicit scheduled identity/current-project tier.
 - **It is actually in use.** Contrast [[pillars-agentic-os]], which has better storage infrastructure and is "built but never ingested".
 
 ---
@@ -34,6 +35,26 @@ Source: originally from [[claudeclaw-memory-system]] (verified against `claudecl
 | **Storage** | Retention | **Curated, with a decay policy** - hard filter at importance < 0.5, then importance-tiered daily salience decay |
 | **Injection** | Scheduled / triggered | **Triggered** - `buildMemoryContext` runs every turn, six layers |
 | **Recall** | Write-time / query-time | **Query-time** - embedding cosine similarity (> 0.3, top 5), FTS5/LIKE keyword fallback |
+
+## Use Case and Capability Coverage
+
+| Use case | Capability | Coverage | Why |
+|---|---|---|---|
+| [[memory-use-cases|Know the user]] | [[memory-capabilities|Identity persistence]] | **Partial** | User-relevant memories can be retrieved per turn, but there is no explicit always-loaded identity tier in the assessed design |
+| [[memory-use-cases|Resume the work]] | [[memory-capabilities|Critical context availability]] | **Partial** | Recent high-importance memories and team activity can surface context, but there is no derived current-project payload |
+| [[memory-use-cases|Survive compaction]] | [[memory-capabilities|Compaction survival]] | **Strong where capture is continuous** | `buildMemoryContext` re-runs every turn and can re-inject relevant memory; continuous capture avoids the disk-loss problem |
+| [[memory-use-cases|Preserve reasoning]] | [[memory-capabilities|Working reasoning preservation]] | **Partial** | `conversation_log` keeps verbatim turns, but the summarised memory layer is aggressively gated by importance |
+| [[memory-use-cases|Recall old knowledge]] | [[memory-capabilities|Long-term knowledge recall]] | **Strong** | Query-time embedding recall plus keyword fallback |
+| [[memory-use-cases|Reconstruct what happened]] | [[memory-capabilities|Episodic recall]] | **Strong** | The verbatim `conversation_log` layer holds real exchanges even when extraction compresses them away |
+| [[memory-use-cases|Keep memory healthy]] | [[memory-capabilities|Retention management]] | **Strong** | Importance gate, duplicate detection, salience decay, and pinning form a real retention policy |
+| [[memory-use-cases|Turn patterns into rules]] | [[memory-capabilities|Pattern-to-rule promotion]] | **Partial** | Consolidation derives insights while keeping sources, but this is not the same as promoting standing behavioural rules |
+| [[memory-use-cases|Find unlocated context]] | [[memory-capabilities|Unlocated context discovery]] | **Strong** | Per-turn triggered semantic retrieval removes reliance on the human or agent remembering to search |
+| [[memory-use-cases|Navigate curated knowledge]] | [[memory-capabilities|Curated knowledge navigation]] | **Missing** | No curated index hierarchy is part of the assessed memory system |
+| [[memory-use-cases|Share memory across agents]] | [[memory-capabilities|Cross-agent memory federation]] | **Partial** | Team activity and a shared tier support some cross-agent awareness, but this is not a general multi-tool memory bus |
+| [[memory-use-cases|Keep scopes separate]] | [[memory-capabilities|Scope-isolated recall]] | **Strong** | Agent-scoped memories plus an explicit shared tier create a clear isolation model |
+| [[memory-use-cases|Recall what was true then]] | [[memory-capabilities|Temporal fact recall]] | **Missing** | No temporal validity model or entity graph was identified |
+| [[memory-use-cases|Trace to source]] | [[memory-capabilities|Source-grounded recall]] | **Strong / partial** | `conversation_log` gives source grounding, though normal retrieval first surfaces synthesised memories |
+| [[memory-use-cases|Turn workflows into procedures]] | [[memory-capabilities|Procedural memory generation]] | **Missing** | No skill-generation path was identified |
 
 ## Capture
 
@@ -101,6 +122,9 @@ Query-time hybrid: embeddings (`gemini-embedding-001`, corrected from "Google em
 
 - [[claudeclaw-memory-system]] - how it is built: tables, functions, decay factors, known issues
 - [[memory-pillars]] - the model being applied
+- [[memory-use-cases]] - use case catalogue used for the coverage table
+- [[memory-capabilities]] - capability catalogue used for the coverage table
+- [[memory-features]] - feature catalogue used for implementation examples
 - [[pillars-agentic-os]] - the contrast: better storage, no injection, never ingested
 - [[pillars-memsearch]] - the contrast: per-turn nudge rather than true content injection
 - [[pillars-mempalace]] - the contrast: no injection at all, but the only one with a compaction-safe capture hook

@@ -7,15 +7,16 @@ concept: model
 
 # The Four Pillars of Memory Systems
 
-> *The functional model every agent memory system implements, whatever technology it uses: **Capture → Storage → Injection → Recall**. This is the overview. Each pillar has its own article carrying its sub-types and a catalogue of capabilities observed across real products.*
+> *The architecture-function model every agent memory system implements, whatever technology it uses: **Capture → Storage → Injection → Recall**. The pillars are the jobs underneath memory, not the user-facing capabilities themselves. Capabilities describe what those jobs make possible; features are the concrete mechanisms that implement them.*
 
 > [!note] Status: theory. The model is adopted; no implementation is.
 > The **model** has been adopted as the reasoning frame for this environment, recorded separately at [[memory-model-adoption]]. The **enablers, assessments and verdicts** remain theory: nothing has been chosen or built. Where one real environment is quoted, it is a worked example to make the model testable.
 
 ## Key Takeaways
 
-- **Four pillars, in dependency order: Capture → Storage → Injection → Recall.** Every memory system implements all four, however crudely.
-- **Do not confuse a pillar with an enabler.** Pillars are *functions*; semantic search, capture hooks and curated indexes are *technologies* that implement them. Mixing the two levels is the most common modelling error in this domain.
+- **Four pillars, in dependency order: Capture → Storage → Injection → Recall.** Every memory system implements all four architecture functions, however crudely.
+- **Pillars are not use cases, capabilities, features, or enablers.** They are the jobs a memory system must perform. Use cases describe actor-outcome journeys; capabilities describe reusable abilities; features are concrete mechanisms; enablers are technology patterns.
+- **Do not confuse a pillar with an enabler.** Pillars are architecture functions; semantic search, capture hooks and curated indexes are technologies or feature patterns that implement them. Mixing the two levels is the most common modelling error in this domain.
 - **Assess each pillar separately.** Each has its own "is this solved, and by whom?" answer. Bundling them prices work that is already done.
 - **Injection is the pillar most systems under-build**, and the one whose absence is hardest to see, because a healthy Storage layer makes the whole system look fine.
 - **Other published memory models are mostly content taxonomies, not functional ones.** They answer "what kinds of memory are there?" rather than "what must a memory system do?" - the two are complementary, not competing. See the correlation section below.
@@ -24,12 +25,31 @@ concept: model
 
 ## The model
 
-| Pillar | Function | Fails when | Article |
+| Pillar | Architecture function | Fails when | Article |
 |---|---|---|---|
 | **1. Capture** | Get events into a durable record | Events never get recorded | [[memory-capture]] |
 | **2. Storage** | Decide what to keep and how it is organised | Records are lost, corrupted, or rot | [[memory-storage]] |
 | **3. Injection** | Decide to look, and place material into the context window | Nothing triggers a lookup | [[memory-injection]] |
 | **4. Recall** | Find the right material in the store | The right item is never surfaced | [[memory-recall]] |
+
+**Where this sits in the wider taxonomy:**
+
+```text
+Use case: actor-outcome journey
+Capability: reusable ability the system provides
+Architecture function: Capture, Storage, Injection, Recall
+Enabler: technology pattern that serves one or more functions
+Feature: concrete product mechanism a user or system can invoke, configure, test, or release
+```
+
+Example:
+
+| Level | Example |
+|---|---|
+| Use case | When a long session starts drifting, the AI agent preserves working reasoning so it does not repeat rejected paths |
+| Capability | Working reasoning preservation |
+| Architecture functions | Capture + Storage + Injection |
+| Features | Reasoning checkpoint, working scratchpad, triggered context refresh, compaction summary |
 
 **Dependency runs one way.** Recall cannot return what Storage never kept; Storage cannot keep what Capture never recorded. Injection depends on Recall having something to give it. Assess in order, and stop early if an upstream pillar is broken.
 
@@ -79,13 +99,15 @@ External memory models are worth mapping onto the pillars rather than treated as
 - **"Working Memory" is not memory** in the four-pillar sense. Treating the context window as a memory layer alongside persistent stores is a category error, though a common and understandable one.
 - **The two models are complementary.** Use the pillars to ask *what must this system do, and is each part solved?* Use a layer model like Kashef's to ask *what content tiers exist, and what is each one's injection budget?* Neither answers the other's question.
 
-## Pillars versus enablers: keep the levels apart
+## Keep the levels apart
 
-A **pillar** is a function the system must perform. An **enabler** is a technology that performs it. One enabler can serve more than one pillar, and one pillar can be served by several competing enablers.
+A **pillar** is an architecture function the system must perform. An **enabler** is a technology pattern that performs or supports that function. One enabler can serve more than one pillar, and one pillar can be served by several competing enablers.
 
-A third term, **capability**, names what you *get* once a pillar is implemented - not a technology, an outcome. The Observation Layer is the capability Capture produces: the standing ability to answer "what happened?" for any past session. Observation does not implement Capture; it is what having Capture gives you.
+A **capability** names what you *get* once the necessary architecture functions are working. A capability is not a technology and not a component; it is the reusable ability the system provides. The current catalogue lives in [[memory-capabilities]] and links each capability to its primary use case and representative features.
 
-**Capabilities are cross-pillar and are catalogued separately, in [[memory-capabilities]].** Every capability draws on two or more pillars, so none can be filed inside a single pillar article. A pillar article may link to the capabilities it *participates in*, but participation is never ownership: no pillar owns a capability, and a capability never "enables" a pillar. When a capability is absent, name the pillar **and sub-type** at fault ("compaction survival is missing because Injection (triggered) is unimplemented"), not the pillar alone.
+A **feature** is a concrete mechanism a user or system can invoke, configure, test, release, or buy. `PreCompact` hooks, `SessionStart` injection, vector search, BM25, temporal graphs, and scope predicates are features or feature families. They implement or expose capabilities; they are not capabilities just because they are valuable.
+
+**Capabilities are usually cross-pillar and are catalogued separately, in [[memory-capabilities]].** A pillar article may link to the capabilities it *participates in*, but participation is not ownership: no pillar owns a capability, and a capability never "enables" a pillar. When a capability is absent, name the pillar **and sub-type** at fault ("compaction survival is missing because Injection (triggered) is unimplemented"), not the pillar alone.
 
 | Enabler | Serves | Article |
 |---|---|---|
@@ -93,9 +115,9 @@ A third term, **capability**, names what you *get* once a pillar is implemented 
 | Session-end summarising hooks | Capture (boundary) | [[memory-capture]] |
 | Interval checkpoint hooks | Capture (periodic) | [[pillars-mempalace]] |
 | Compaction-event capture hooks | Capture (event-triggered) | [[pillars-mempalace]] |
-| Curated index hierarchy plus bare wikilinks | **Recall (write-time)** | [[memory-curated-index]] |
+| Curated index hierarchy plus bare wikilinks | **Recall (write-time)** | [[memory-features#Curated Index Retrieval|Memory Features]] |
 | Keyword search, grep | **Recall (query-time)** | (no dedicated article) |
-| Vector / embedding index | **Recall (query-time)**, and the most *scalable* enabler of **Injection (triggered)** | [[memory-semantic-search]] |
+| Vector / embedding index | **Recall (query-time)**, and the most *scalable* enabler of **Injection (triggered)** | [[memory-features#Semantic Search|Memory Features]] |
 | Curated trigger table | **Injection (triggered)**, hand-written topic-to-file rules, no embeddings. Cheap and exact, but scales only to a handful of rules and depends on the agent noticing the trigger | [[memory-injection]] |
 | Frozen snapshot of consolidated files | **Injection (scheduled)** | [[memory-injection]] |
 | Deterministic per-turn hint with agent-decided retrieval | **Injection**, trigger rung 3 - injects no content itself | [[pillars-memsearch]] |
@@ -128,6 +150,7 @@ Neither phenomenon is a storage failure *on the assumption that capture already 
 
 **The model**
 - [[memory-capabilities]] - the cross-pillar capability catalogue: what you get, as opposed to what the system does
+- [[memory-use-cases]] - actor-outcome journeys that explain why memory is needed
 
 **The four pillars**
 - [[memory-capture]] - Capture, and the Observation capability it produces
@@ -136,8 +159,7 @@ Neither phenomenon is a storage failure *on the assumption that capture already 
 - [[memory-recall]] - Recall, and the write-time/query-time fork
 
 **Enablers**
-- [[memory-curated-index]] - write-time recall
-- [[memory-semantic-search]] - query-time recall and triggered injection
+- [[memory-features]] - feature catalogue including curated index retrieval, semantic search, hooks, graphs, and ranking features
 
 **Context**
 - [[memory-model-adoption]] - the decision record adopting this frame here

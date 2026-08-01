@@ -8,7 +8,7 @@ authority: reviewer-analysis
 
 # Memory Systems Taxonomy Codex Review 2026-08-01
 
-> Review of the Memory Systems documentation against Julian's use case, capability, feature distinction. Source documents reviewed: [[memory-pillars]], [[memory-capabilities]], [[memory-capture]], [[memory-storage]], [[memory-injection]], [[memory-recall]], [[memory-curated-index]], [[memory-semantic-search]], [[wiki-vs-openbrain]], [[openbrain-vs-agentic-os]], [[pillars-claudeclaw]], [[pillars-agentic-os]], [[pillars-memsearch]], and [[pillars-mempalace]].
+> Review of the Memory Systems documentation against Julian's use case, capability, feature distinction. Source documents reviewed: [[memory-pillars]], [[memory-capabilities]], [[memory-capture]], [[memory-storage]], [[memory-injection]], [[memory-recall]], the feature-family material now folded into [[memory-features]], [[wiki-vs-openbrain]], [[openbrain-vs-agentic-os]], [[pillars-claudeclaw]], [[pillars-agentic-os]], [[pillars-memsearch]], and [[pillars-mempalace]].
 
 ## Review Standard
 
@@ -40,7 +40,7 @@ Features implement or expose capabilities.
 | Severity | Finding | Evidence | Recommended fix |
 |---|---|---|---|
 | High | Product tables labelled as capabilities contain mostly features | [[memory-capture]], [[memory-storage]], [[memory-injection]], and [[memory-recall]] all have "Capabilities and features across systems" tables listing hooks, vector search, BM25, decay policies, and backend choices | Rename those sections to "Observed features and implementation patterns" |
-| High | Use cases are not explicitly modelled | [[memory-semantic-search]] has "Scoring the five commonly-cited use cases", but most of those rows are retrieval scenarios rather than actor-outcome use cases | Add a dedicated "Memory Use Cases" article or section using the sentence stem: "When [trigger], [actor] wants to [goal] so that [value]" |
+| High | Use cases are not explicitly modelled | The semantic-search feature-family material has "Scoring the five commonly-cited use cases", but most of those rows are retrieval scenarios rather than actor-outcome use cases | Add a dedicated "Memory Use Cases" article or section using the sentence stem: "When [trigger], [actor] wants to [goal] so that [value]" |
 | Medium | Some current capabilities are named like mechanisms | "Query-time search" and "Write-time navigation" in [[memory-capabilities]] are close to enablers; they describe retrieval method more than outcome | Rename around outcomes, e.g. "Unprompted relevant-context discovery" and "Curated knowledge navigation" |
 | Medium | Product-specific features are being promoted into cross-system capability language | Examples: "pluggable storage backend", "SHA-256 content hashing", "frozen snapshot semantics", "keyword fallback" | Keep these as feature rows under product scorecards or feature catalogue, not in the capability catalogue |
 | Medium | "Observation Layer" is partly capability, partly architectural label | [[memory-capture]] says Capture enables Observation, but [[memory-capabilities]] lists "Observation / episodic recall", which also requires Recall | Keep "Observation" as a capability only when it means the ability to answer what happened, not merely the existence of a durable log |
@@ -77,8 +77,8 @@ These are stable abilities and mostly independent of any particular product impl
 | Episodic recall | [[memory-capabilities]], [[memory-capture]] | Good capability if it means answer "what happened?" from past sessions |
 | Retention management | [[memory-capabilities]], [[memory-storage]] | Good capability |
 | Pattern promotion | [[memory-capabilities]], [[memory-storage]] | Good capability |
-| Curated knowledge navigation | [[memory-capabilities]], [[memory-curated-index]] | Better capability name than "write-time navigation" |
-| Unprompted relevant-context discovery | [[memory-semantic-search]], [[memory-injection]] | Better capability framing than "query-time search" |
+| Curated knowledge navigation | [[memory-capabilities]], [[memory-features#Curated Index Retrieval|curated index retrieval]] | Better capability name than "write-time navigation" |
+| Unprompted relevant-context discovery | [[memory-features#Semantic Search|semantic search]], [[memory-injection]] | Better capability framing than "query-time search" |
 | Cross-agent memory federation | [[pillars-memsearch]], [[memory-recall]] | Should be added as a capability |
 | Scope-isolated recall | [[pillars-agentic-os]], [[pillars-claudeclaw]], [[memory-recall]] | Should be added as a capability |
 | Temporal fact recall | [[pillars-mempalace]], [[memory-recall]] | Should be added as a capability |
@@ -182,7 +182,7 @@ Keep the existing docs, but tighten the taxonomy:
 | 3 | Add the missing capabilities identified above |
 | 4 | Create a use-case catalogue only after agreeing the filename with Julian |
 | 5 | Add a traceability table linking use cases -> capabilities -> example features |
-| 6 | Keep enabler docs separate: [[memory-curated-index]] and [[memory-semantic-search]] should stay as enablers, not capabilities |
+| 6 | Keep feature-family material in [[memory-features]], not in the capability catalogue |
 
 ## Verdict
 

@@ -23,7 +23,7 @@ For the memory file types, format, and loading rule, see [[_index|Memory]].
 
 **Injection is proactive; recall is reactive.** Injection pays a fixed context cost every session to guarantee presence. Recall pays nothing until needed but risks missing the relevant item. The craft is deciding which knowledge is hot enough to deserve injection, and leaving the rest to recall.
 
-**Known gap:** because injection here is scheduled only, nothing pulls relevant material back in mid-session. Recall depends on the human asking for it. See the trigger analysis in [[memory-semantic-search]].
+**Known gap:** because injection here is scheduled only, nothing pulls relevant material back in mid-session. Recall depends on the human asking for it. See the trigger analysis in [[memory-features#Semantic Search|semantic search]].
 
 ## Worked example: principles and lessons learned
 
@@ -36,13 +36,13 @@ The lessons-learned corpus (~38 docs: career office-politics, the Personal MBA f
 
 ## Why no vector index over the wiki corpus (yet)
 
-**Scope note:** this decision concerns the **wiki article corpus**. The separate question of indexing the **JSONL transcript corpus** is assessed in [[memory-semantic-search]] and reaches a different conclusion, because the material has different properties. Do not read one as settling the other.
+**Scope note:** this decision concerns the **wiki article corpus**. The separate question of indexing the **JSONL transcript corpus** is assessed in [[memory-features#Semantic Search|semantic search]] and reaches a different conclusion, because the material has different properties. Do not read one as settling the other.
 
 At ~38 docs the hand-curated `_index` descriptions plus `[[wikilinks]]` already form a semantic retrieval layer that is more precise than embedding similarity, with no embedding pipeline, chunking, or re-embed-on-edit drift.
 
 **Revisit trigger:** when the corpus passes ~100-150 docs, or when the model is observed systematically missing relevant cross-folder lessons. At that point, embed Tier 2 only; Tier 1 stays in context.
 
-Assessed against the five-criteria test in [[memory-semantic-search]], the wiki corpus currently fails criteria 1 (volume is browsable), 2 (articles are titled, tagged and linked) and 4 (already curated into a canonical store). That is why the answer differs from the transcript corpus, which fails none of those.
+Assessed against the five-criteria test in [[memory-features#Semantic Search|semantic search]], the wiki corpus currently fails criteria 1 (volume is browsable), 2 (articles are titled, tagged and linked) and 4 (already curated into a canonical store). That is why the answer differs from the transcript corpus, which fails none of those.
 
 ## Key Takeaways
 

@@ -5,9 +5,9 @@ concept: product-evaluation
 product: MemPalace
 ---
 
-# MemPalace, Scored Against the Four Pillars
+# MemPalace, Scored Against Pillars, Use Cases, and Capabilities
 
-> *How MemPalace scores on **Capture, Storage, Injection, Recall**. Scoring only. Model: [[memory-pillars]].*
+> *How MemPalace scores on **Capture, Storage, Injection, Recall**, plus the [[memory-use-cases]] and [[memory-capabilities]] those pillars support. Model: [[memory-pillars]].*
 
 > [!note] Status: reference, not an adopted design
 > An assessment of someone else's product against the four-pillar model. Nothing here is running in this vault.
@@ -23,6 +23,7 @@ Source: verified directly against `/Users/julianhart/mempalace` on 2026-08-01 - 
 - **An unusual dual-mode capture design**: the default ("silent") mode saves programmatically with no agent involvement; a legacy opt-in mode instead *blocks* the Stop event and instructs the agent to write its own diary entry via MCP tools - agent-authored capture, not external summarisation.
 - **Cites an external benchmark** - 96.6% R@5 on LongMemEval - the only one of the four systems assessed to ground a capability claim in a named, published benchmark rather than internal description.
 - **The only system with entity retrieval, and with temporal validity.** A real knowledge graph (`knowledge_graph.py` and four sibling modules): typed entity-relationship triples with `valid_from`/`valid_to` on every edge, so it can answer what was true at a past date rather than only what is true now. Neither semantic nor keyword search can do this at all. Added 2026-08-01 after an initial pass scored Recall without it.
+- **Capability shape:** strongest on verbatim reconstruction, source grounding, temporal fact recall, and capture-before-compaction; weakest on "know the user", "resume the work", and unprompted context discovery because there is no injection layer.
 
 ---
 
@@ -36,6 +37,26 @@ Source: verified directly against `/Users/julianhart/mempalace` on 2026-08-01 - 
 | **Storage** | Retention | **Comprehensive** by default; no importance gate found |
 | **Injection** | Scheduled / triggered | **Neither. No injection layer exists** - confirmed by reading `hook_session_start` directly, not inferred from a missing doc |
 | **Recall** | Write-time / query-time | **Query-time, and the only system assessed with a third retrieval signal**: semantic search over verbatim content (ChromaDB by default) *plus* a temporal entity-relationship knowledge graph queried via `mempalace_kg_query` |
+
+## Use Case and Capability Coverage
+
+| Use case | Capability | Coverage | Why |
+|---|---|---|---|
+| [[memory-use-cases|Know the user]] | [[memory-capabilities|Identity persistence]] | **Weak / pull-only** | User facts may be stored and found, but nothing injects identity at session start |
+| [[memory-use-cases|Resume the work]] | [[memory-capabilities|Critical context availability]] | **Weak / pull-only** | Project context can be searched by wing or room, but no scheduled current-work payload exists |
+| [[memory-use-cases|Survive compaction]] | [[memory-capabilities|Compaction survival]] | **Strong for capture, weak for re-injection** | `PreCompact` prevents disk loss before compaction, but no triggered injection returns material to context afterwards |
+| [[memory-use-cases|Preserve reasoning]] | [[memory-capabilities|Working reasoning preservation]] | **Strong for storage, weak for refresh** | Verbatim capture preserves reasoning, especially before compaction, but recall depends on the agent choosing to search |
+| [[memory-use-cases|Recall old knowledge]] | [[memory-capabilities|Long-term knowledge recall]] | **Strong** | Semantic search plus the temporal knowledge graph provide broad query-time recall |
+| [[memory-use-cases|Reconstruct what happened]] | [[memory-capabilities|Episodic recall]] | **Strong** | Verbatim storage is the product's defining design choice |
+| [[memory-use-cases|Keep memory healthy]] | [[memory-capabilities|Retention management]] | **Weak / missing** | Comprehensive retention and verbatim storage were found, but no importance gate, decay, or pruning policy was identified |
+| [[memory-use-cases|Turn patterns into rules]] | [[memory-capabilities|Pattern-to-rule promotion]] | **Weak / partial** | Legacy agent-authored capture can record judgement, but no recurring-pattern promotion process was identified |
+| [[memory-use-cases|Find unlocated context]] | [[memory-capabilities|Unlocated context discovery]] | **Strong when invoked, weak when dormant** | Semantic search and graph query are strong, but the search-before-answer protocol depends on agent judgement |
+| [[memory-use-cases|Navigate curated knowledge]] | [[memory-capabilities|Curated knowledge navigation]] | **Partial** | Wings, Rooms, and Drawers provide structural scoping, but this is not a hand-authored wiki-style index |
+| [[memory-use-cases|Share memory across agents]] | [[memory-capabilities|Cross-agent memory federation]] | **Missing** | No cross-tool shared memory bus was identified |
+| [[memory-use-cases|Keep scopes separate]] | [[memory-capabilities|Scope-isolated recall]] | **Weak / partial** | Wings and rooms scope content, but they are not an access-isolation model like Agentic OS scopes |
+| [[memory-use-cases|Recall what was true then]] | [[memory-capabilities|Temporal fact recall]] | **Strong** | The temporal entity-relationship knowledge graph stores validity windows and supports `as_of` queries |
+| [[memory-use-cases|Trace to source]] | [[memory-capabilities|Source-grounded recall]] | **Strong** | Verbatim storage and closet references preserve a path back to original content |
+| [[memory-use-cases|Turn workflows into procedures]] | [[memory-capabilities|Procedural memory generation]] | **Missing** | No skill-generation or procedure-promotion path was identified |
 
 ## Capture
 
@@ -98,6 +119,9 @@ Two capture modes exist, selected by config, and the default changed at v3.3.0:
 ## Related
 
 - [[memory-pillars]] - the model being applied; the PreCompact finding is directly relevant to its "Compaction and context rot" section and the periodic-capture finding to its Capture sub-types
+- [[memory-use-cases]] - use case catalogue used for the coverage table
+- [[memory-capabilities]] - capability catalogue used for the coverage table
+- [[memory-features]] - feature catalogue used for implementation examples
 - [[pillars-memsearch]] - contrast: MemSearch's per-turn nudge vs. MemPalace's total absence of any injection signal
 - [[pillars-claudeclaw]] - contrast: true per-turn content injection vs. none
 - [[pillars-agentic-os]] - contrast: scheduled injection vs. none

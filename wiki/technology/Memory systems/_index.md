@@ -14,19 +14,16 @@ These build on each other. Read top to bottom the first time; the overview in (1
 **The model**
 
 1. [[memory-pillars|The Four Pillars of Memory Systems]] - **start here.** The overview: dependency order, the pillar-versus-enabler-versus-capability distinction, the amendment splitting Capture out of Simon Scrapes' three pillars, correlation with other published memory models, and the cross-pillar compaction analysis.
-2. [[memory-capabilities|Memory Capabilities]] - the demand-side companion to (1). What you *get* rather than what the system *does*. Ten catalogued capabilities, each spanning two or more pillars, with the rule that pillars participate in a capability but never own it. Open list.
+2. [[memory-use-cases|Memory Use Cases]] - memorable actor-outcome journeys explaining why memory is needed.
+3. [[memory-capabilities|Memory Capabilities]] - the demand-side companion to (1). What you *get* rather than what the system *does*. Fifteen catalogued capabilities, each linked to a primary use case and representative features.
+4. [[memory-features|Memory Features]] - concrete mechanisms and feature families observed across products, mapped to architecture functions and capabilities.
 
 **The four pillars** (one article each, in dependency order; each carries its sub-types and links to the capabilities it participates in)
 
-3. [[memory-capture|Capture]] - getting events into a durable record. Three modes plus an event-triggered firing condition. The capability it produces is the **Observation Layer**.
-4. [[memory-storage|Storage]] - what is kept and how it is organised. Two independent axes: canonical vs behavioural, and form crossed with retention.
-5. [[memory-injection|Injection]] - deciding to look at all, and placing material in context. Scheduled vs triggered, and the four-rung trigger hierarchy. The pillar most systems under-build.
-6. [[memory-recall|Recall]] - finding the right material. Write-time vs query-time.
-
-**The enablers** (technologies that implement a pillar)
-
-7. [[memory-curated-index|Curated Index Retrieval]] - enabler for **Recall (write-time)**. The hand-authored index and wikilink scheme: the hop chain, why one-line descriptions are the ranking function, and its dominant failure mode of invocation.
-8. [[memory-semantic-search|Semantic Search]] - enabler for **Recall (query-time)** and **Injection (triggered)**. The five-criteria test for justifying a vector index, and scoring of the commonly-cited use cases.
+5. [[memory-capture|Capture]] - getting events into a durable record. Three modes plus an event-triggered firing condition. The capability it produces is the **Observation Layer**.
+6. [[memory-storage|Storage]] - what is kept and how it is organised. Two independent axes: canonical vs behavioural, and form crossed with retention.
+7. [[memory-injection|Injection]] - deciding to look at all, and placing material in context. Scheduled vs triggered, and the four-rung trigger hierarchy. The pillar most systems under-build.
+8. [[memory-recall|Recall]] - finding the right material. Write-time vs query-time.
 
 **The wider debate**
 
