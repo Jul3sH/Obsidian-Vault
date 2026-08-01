@@ -9,8 +9,8 @@ concept: model
 
 > *The functional model every agent memory system implements, whatever technology it uses: **Capture → Storage → Injection → Recall**. This article defines the pillars. The technologies that implement them are covered in separate enabler articles.*
 
-> [!note] Status: technology theory, not an adopted design
-> Reference material on how agent memory systems work. Not a description of what has been chosen or built here. Where an assessment of one real environment is quoted, it is a worked example to make the model testable.
+> [!note] Status: theory. The model is adopted; no implementation is.
+> Reference material on how agent memory systems work. The **model** on this page has been adopted as the reasoning frame for this environment, recorded separately at [[memory-model-adoption]]. The **enablers, assessments and verdicts** remain theory: nothing has been chosen or built. Where one real environment is quoted, it is a worked example to make the model testable.
 
 ## Key Takeaways
 

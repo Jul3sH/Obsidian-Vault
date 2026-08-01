@@ -58,6 +58,7 @@ Memory content splits across both indexes, which makes it the clearest illustrat
 | Document | Home | Reasoning |
 |---|---|---|
 | `memory-pillars`, `memory-observation-layer`, `memory-curated-index`, `memory-semantic-search`, `ai-memory-paradigms` | `technology/Memory systems/` | The four-pillar model, its enabler technologies, vendor comparisons and decision tests. True regardless of what runs here |
+| `memory-model-adoption` | `ai-os/system-design/generic/` | The **decision** to adopt the four-pillar frame. A decision record, not a copy of the model |
 | `memory-convention`, `memory-operations`, `memory-system-explained` | `ai-os/system-design/claude/memory/` | Describe the memory system actually in use, its types, format and loading rules |
 | `user.md`, `MEMORY.md`, `feedback-*.md`, `project-*.md` | `ai-os/system-design/claude/memory/` | Mirrors of live hidden files. These **are** the running system |
 

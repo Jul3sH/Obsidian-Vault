@@ -5,7 +5,7 @@ updated: 2026-07-31
 
 # Memory
 
-> *Cross-session memory for Claude. Persists user profile, active project state, learned corrections, and operational pointers across conversations.*
+> *Cross-session memory for Claude: the **behavioural branch** of the Storage pillar. Persists the user profile and learned behavioural corrections across conversations. Project and deliverable state live in the wiki, not here.*
 
 ## Articles
 
@@ -15,4 +15,4 @@ updated: 2026-07-31
 
 ## Related
 
-Generic memory-systems theory is reference material and lives under `wiki/technology/Memory systems/`, not here. The model is [[memory-pillars]] (Capture, Storage, Injection, Recall); the enabler articles are [[memory-observation-layer]] (Capture), [[memory-curated-index]] (Recall, write-time) and [[memory-semantic-search]] (Recall query-time, and triggered Injection). See also [[ai-memory-paradigms]].
+The adopted reasoning frame is recorded at [[memory-model-adoption]]. Generic memory-systems theory is reference material and lives under `wiki/technology/Memory systems/`, not here. The model is [[memory-pillars]] (Capture, Storage, Injection, Recall); the enabler articles are [[memory-observation-layer]] (Capture), [[memory-curated-index]] (Recall, write-time) and [[memory-semantic-search]] (Recall query-time, and triggered Injection). See also [[ai-memory-paradigms]].

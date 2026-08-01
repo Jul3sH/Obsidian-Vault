@@ -200,6 +200,7 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/ai-os/system-design/generic/memory-model-adoption.md",
     "wiki/ai-os/system-design/claude/memory/memory-operations.md",
     "wiki/technology/Memory systems/memory-curated-index.md",
     "wiki/technology/Memory systems/memory-pillars.md",
@@ -228,7 +229,6 @@
     "wiki/ai-os/system-design/generic/system-design-principles.md",
     "wiki/ai-os/system-design/generic/multi-agent-protocol.md",
     "wiki/ai-os/system-design/generic/memory-claudeclaw-vs-agentic-os.md",
-    "wiki/ai-os/system-design/generic/documentation-conventions.md",
     "wiki/ai-os/skills/youtube-notebook/scripts",
     "wiki/ai-os/skills/youtube-notebook/references",
     "wiki/ai-os/skills/youtube-notebook",

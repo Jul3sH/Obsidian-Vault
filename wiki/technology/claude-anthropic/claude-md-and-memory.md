@@ -77,7 +77,7 @@ Transcripts are not exposed by `/memory` at all, which is part of why they are o
 
 ## Memory Files
 
-Beyond `CLAUDE.md`, Claude Code supports a second persistence mechanism: **memory files**. These hold session-learned context — user profile, active project state, corrections — that doesn't belong in the permanent rulebook.
+Beyond `CLAUDE.md`, Claude Code supports a second persistence mechanism: **memory files**. These hold session-learned context - the user profile and behavioural corrections - that doesn't belong in the permanent rulebook.
 
 ### Where they live
 
@@ -92,7 +92,7 @@ Beyond `CLAUDE.md`, Claude Code supports a second persistence mechanism: **memor
 | Location | What it is | Visible in Obsidian? |
 |----------|-----------|----------------------|
 | `~/.claude/projects/.../memory/` | Actual runtime memory files | ❌ No — hidden path |
-| `wiki/ai-os/system-design/memory/_index.md` | Documentation *about* the memory system | ✅ Yes — wiki article |
+| `wiki/ai-os/system-design/claude/memory/_index.md` | Documentation *about* the memory system | ✅ Yes — wiki article |
 
 The wiki article explains the structure and conventions. The actual files that Claude reads are at the hidden path above.
 
@@ -106,7 +106,7 @@ Claude reads memory files at session start, before responding to the first messa
 ---
 name: short name
 description: one-line summary (used to judge relevance)
-type: user | project | epic | feedback
+type: user | feedback
 created: YYYY-MM-DD
 ---
 
@@ -121,6 +121,6 @@ A `MEMORY.md` index in the same folder lists all active memory files.
 - `CLAUDE.md` is how you give Claude permanent, session-to-session rules
 - Memory files are the learning layer — session-learned corrections and current state
 - **Memory files live at a hidden path outside Obsidian** — `~/.claude/projects/.../memory/`
-- The wiki article at `wiki/ai-os/system-design/memory/_index.md` documents the convention; it is not the memory itself
+- The wiki article at `wiki/ai-os/system-design/claude/memory/_index.md` documents the convention; it is not the memory itself
 - Multiple `CLAUDE.md` files at different scopes are all loaded and combined
 - Project-level `CLAUDE.md` only activates when working inside that folder
