@@ -20,6 +20,7 @@ pillar: recall
 - **Progressive disclosure is the convergent design.** Three of four systems assessed independently built a tiered ladder that escalates from cheap summary search to expensive raw transcript only when needed.
 - **Recall is not Injection.** The most common way a good Recall implementation fails is that nothing invokes it.
 - **A hybrid is usually stronger than either pole**, because write-time and query-time fail differently: one loses on invocation and authoring cost, the other on precision and drift.
+- **Three retrieval signals exist, not one: semantic, keyword and entity.** They fail differently, which is why mature systems run several and fuse the rankings. **Entity retrieval is the one most systems lack** - only MemPalace implements it, via a temporal knowledge graph that can answer what was true at a past date.
 
 ---
 
@@ -38,6 +39,91 @@ pillar: recall
 
 **Recall and Injection are distinct.** Recall finds material; [[memory-injection|Injection]] decides to look and puts the result in context. A system can have excellent recall and still fail entirely, because nothing invokes it. That is the single most common failure pattern across the systems assessed.
 
+## Multi-signal retrieval: the three signals and their fusion
+
+Write-time versus query-time answers *when the signal is computed*. A separate question is *what kind of signal it is* - and mature systems run several in parallel rather than picking one.
+
+> **Source note.** The three-signal framing and the token-efficiency figures below come from Mark Kashef's memory model, quoted second-hand rather than read from source. The mechanisms themselves are verified against product source; the efficiency claim is not.
+
+| Signal | Finds by | Strength | Blind spot |
+|---|---|---|---|
+| **Semantic** | Meaning. Search "logins", find "authentication" | Recovers material whose wording you cannot guess | Approximates intent; similarity is not relevance |
+| **Keyword** | Exact match | Fast, simple, reliable, no embedding dependency | Misses everything phrased differently |
+| **Entity** | Connections. "Supabase" mentioned across 50 conversations, all linked | Answers questions about a *thing* rather than a *phrase*, and survives rewording entirely | Only as good as entity extraction; needs a graph to traverse |
+
+**They fail differently, which is the whole argument for running all three.** Semantic search misses exact identifiers; keyword search misses paraphrase; neither can answer "everything we ever said about Supabase" without retrieving fifty separate results and hoping the ranking cooperates.
+
+**Rank fusion is what makes combining them affordable.** Rather than concatenating three result sets and paying for all of them, fusion (typically reciprocal rank fusion) interleaves the rankings and takes the top slice. The claimed efficiency is roughly **7,000 tokens versus 25,000 for brute-force retrieval at equivalent accuracy** - the saving comes from not passing three full result sets into context.
+
+### Coverage across the systems assessed
+
+| Signal | Who implements it |
+|---|---|
+| **Semantic** | All four |
+| **Keyword** | MemSearch (BM25 sparse), agentic-os (Postgres full-text), ClaudeClaw (FTS5, as fallback) |
+| **Entity** | **MemPalace only** - a temporal entity-relationship knowledge graph, see below. ClaudeClaw extracts `entities[]` at ingest but folds them into the embedding text rather than exposing an entity-first query path |
+| **Rank fusion** | MemSearch (RRF over dense + sparse). agentic-os combines vector and full-text but the fusion method is not documented in its architecture doc |
+
+**No assessed system runs all three signals with fusion across them.** MemSearch fuses two (semantic + keyword); MemPalace has the third (entity) but does not fuse it with the others. The full three-signal-plus-fusion pattern is an aspiration in the source material, not something observed working in these four products.
+
+### What a temporal entity-relationship knowledge graph actually is
+
+The term is used above without unpacking, and each word in it is doing work. Taken in pieces:
+
+**Knowledge graph.** A store of *facts* rather than *documents*. Instead of chunks of text you later search, it holds discrete statements, each one a **triple**: a subject, a relationship, and an object.
+
+```
+Max  -[child_of]->  Alice
+Max  -[does]->      swimming
+Max  -[loves]->     chess
+```
+
+**Entity-relationship.** The subjects and objects are **entities** (nodes: people, projects, tools, concepts) and the arrows are **typed relationships** (edges: `child_of`, `does`, `loves`). The type matters - it is not a generic "related to" link. That typing is what lets a query ask for *a particular kind* of connection rather than everything adjacent.
+
+**Temporal.** Each edge carries a validity window, `valid_from` and `valid_to`, so the graph records not just that a fact holds but *when* it held. A fact that stops being true is closed off, not deleted:
+
+```
+Max  -[does]->  swimming   valid_from 2025-01-01   valid_to 2025-09-30
+Max  -[loves]-> chess      valid_from 2025-10-01   valid_to (open)
+```
+
+The graph can then be queried "as of" a date and will return the answer that was correct *then*, not the answer that is correct now.
+
+### Why this retrieves differently
+
+The mechanical difference from the other two signals is **traversal versus ranking**.
+
+| | Semantic | Keyword | Entity graph |
+|---|---|---|---|
+| Query is | A sentence, embedded | A string | A node, plus a relationship type |
+| Returns | Chunks of text, ranked by similarity | Chunks containing the string | **Structured facts**, by walking edges |
+| Result quality | Probabilistic - "most similar" | Binary - contains it or not | **Deterministic** - the edge exists or it does not |
+| Fails by | Returning plausible but wrong material | Missing paraphrase | Returning nothing, if the fact was never extracted |
+
+Because the answer is a traversal rather than a ranked list, three question shapes become answerable that the other two signals cannot handle at all:
+
+- **Aggregation.** "Everything we ever said about Supabase" - one node, all its edges. Semantic search returns the fifty most similar chunks and hopes the ranking cooperates.
+- **Multi-hop.** "Who works on the project Max loves" - two hops, `Max -[loves]-> X` then `Y -[works_on]-> X`. Neither similarity nor string matching can chain.
+- **Temporal.** "What was true in January?" - filter edges by validity window. A changed fact produces two equally-similar embeddings and two equally-valid keyword hits; only the graph separates current from superseded.
+
+### The cost, and why most systems skip it
+
+**Everything depends on extraction.** A triple only exists if something parsed it out of the raw text at ingest and chose the right entity and relationship type. That is an upfront LLM cost per turn, plus a schema decision (which relationship types exist), plus an entity-resolution problem (is "Supabase", "supabase" and "the database" one node or three?).
+
+Semantic search needs none of that - embed the text and you are done. That asymmetry is why three of the four systems assessed have semantic and keyword retrieval but no graph: **the graph is the only signal that requires the system to understand the content at write time rather than at read time.** It is the write-time end of the [[wiki-vs-openbrain|write-time versus query-time]] fork applied to structure rather than prose.
+
+### MemPalace's entity layer, in detail
+
+Verified against `/Users/julianhart/mempalace/mempalace/knowledge_graph.py` and its sibling modules (`entity_registry.py`, `entity_detector.py`, `entities.py`, `palace_graph.py`). This is a genuine third retrieval signal, not a variant of semantic search:
+
+- **Entity nodes** for people, projects, tools and concepts, with **typed relationship edges** (`child_of`, `works_on`, `loves`, and so on) - a real triple store, not a tag list.
+- **Temporal validity on every edge** (`valid_from` → `valid_to`), so the graph knows *when* a fact was true and can answer `query_entity("Max", as_of="2026-01-15")`. Facts can be superseded without being deleted.
+- **Back-references to the verbatim source** ("closet references"), so a graph answer can always be traced to the original stored content.
+- Exposed to the agent as a distinct tool, `mempalace_kg_query`, alongside `mempalace_search`. Its recall skill instructs the agent to prefer the graph's time-valid answer when facts conflict.
+- Stored in local SQLite, positioned in its own source comments as a free local alternative to Zep's hosted Neo4j temporal graph.
+
+**Why this matters beyond MemPalace:** temporal validity is the capability that answers "what was true *then*", which neither semantic nor keyword search can do at all. A fact that changed produces two equally-similar embeddings and two equally-valid keyword hits; only a time-aware graph distinguishes the current answer from the superseded one.
+
 ## Capabilities and features across systems
 
 Transposed from the four product scorecards. All four implement query-time recall; they differ in ranking sophistication and escalation design.
@@ -49,6 +135,9 @@ Transposed from the four product scorecards. All four implement query-time recal
 | **Hybrid vector + full-text** | agentic-os | BGE-M3 vector search plus Postgres full-text keyword search |
 | **Keyword fallback when embeddings unavailable** | ClaudeClaw | FTS5 mirror kept in sync by triggers; degrades to LIKE if needed, so recall never hard-fails on a missing embedding provider |
 | **Progressive disclosure / tiered escalation** (stop at the cheapest rung that answers the question) | agentic-os, MemSearch, ClaudeClaw | agentic-os: search → expand → transcript. MemSearch: search → expand → transcript. ClaudeClaw: summaries first, raw `conversation_log` only when keyword-triggered. Convergent design across independent products |
+| **Entity-first retrieval over a knowledge graph** | MemPalace only | Typed entity-relationship triples (`child_of`, `works_on`) queried via `mempalace_kg_query`, distinct from semantic search |
+| **Temporal validity on facts** (knowing *when* something was true, not just that it was) | MemPalace only | `valid_from`/`valid_to` on every edge; `query_entity(..., as_of=...)` returns the answer correct at that date. Superseded facts are retained, not overwritten |
+| **Entity extraction at ingest without an entity query path** | ClaudeClaw | `entities[]` extracted per turn but folded into the embedding text, so entities improve semantic ranking rather than enabling entity-first traversal |
 | **Structural scoping of the search space** | MemPalace | Wings/Rooms/Drawers hierarchy means a search can be scoped to a person, project, or topic rather than run flat |
 | **Multi-tenant scope filtering on every query** | agentic-os | `private`/`client`/`team`/`system` predicate applied to every search, enforced in code and database |
 | **Per-agent recall isolation with a shared tier** | ClaudeClaw | Scoped to calling agent plus explicitly shared memories; a `/keep-shared` toggle opts back into cross-agent recall, read per-turn without restart |

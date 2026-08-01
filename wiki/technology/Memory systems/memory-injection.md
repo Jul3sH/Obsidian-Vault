@@ -20,6 +20,7 @@ pillar: injection
 - **Four rungs on the trigger hierarchy**, ascending in reliability, from "the user remembers to ask" to "a hook injects content every turn".
 - **This is the pillar most products skip.** Of four systems assessed: one has triggered injection, two have scheduled only, one has none at all.
 - **Measured failure of the weak rungs:** in one real corpus, agent-decided lookup ran at roughly 25%, and a documented navigation instruction was followed 11% of the time.
+- **The scheduled budget needs dividing, not just sizing.** A tier model (identity ~100 tokens, critical context ~300, everything else left to Recall) turns an undifferentiated snapshot into a ranking. See "Allocating the scheduled injection budget" below.
 
 ---
 
@@ -48,6 +49,51 @@ Something has to decide a lookup is warranted. In ascending reliability:
 4. **A hook fires on every turn and injects retrieved content directly.** Deterministic. Pays a retrieval cost per turn whether needed or not. Verified example: ClaudeClaw's `buildMemoryContext`.
 
 Only option 4 removes both the human and the agent's judgement from the loop, which is why hook-based content-injection designs exist despite their cost. Option 3 is the cheaper compromise: it does not remove the agent's judgement, but it removes the risk of the agent simply forgetting to ask.
+
+## Allocating the scheduled injection budget
+
+The two-types table above prices scheduled injection at roughly 1,300 to 3,000 tokens and stops there. It says nothing about **how to divide that budget**, which is the question that actually arises when building one. This section fills that gap.
+
+> **Source and status.** The tier structure and token figures below are from Mark Kashef's six-layer memory model, quoted second-hand rather than read from source. It is an **external contribution**, not derived from the four pillars, and is recorded here because it answers a question the pillar model leaves open. The mapping of his layers onto the pillars is in [[memory-pillars]].
+
+### Tiers are Storage x Injection, not a separate taxonomy
+
+Kashef's layers are often read as a rival model to the pillars. They are not: each layer is a **product cell** - a slice of stored content with an injection policy attached. That is why they cannot be filed under Storage or Injection alone.
+
+| Tier | Storage branch | Injection policy | Budget |
+|---|---|---|---|
+| **Identity** - who the agent is working with, and who it is | Behavioural | **Always injected**, never varies | ~100 tokens |
+| **Critical context** - current project, active blockers | Behavioural, some canonical | **Always injected**, and must *survive compaction* | ~300 tokens |
+| **Long-term knowledge** - facts, decisions, patterns | Canonical | **Not injected.** Reached by [[memory-recall|Recall]] on demand | Unbounded |
+| **Episodic** - full conversation history | [[memory-capture|Capture]] output, verbatim form | **Not injected**, rarely recalled. Archive | Unbounded |
+
+**The organising principle is access temperature**, the same shape as a hardware memory hierarchy: a small hot tier that is always present, a large cold tier that is searched, and an archive that is almost never touched.
+
+**Two corrections when applying it:**
+
+- **"Working memory" is not a tier.** In the original list it sits between the injected tiers and the searched ones, but it is the *context window itself* - the target injection writes into, not a store injection reads from. Treating it as a memory layer is a category error.
+- **"Decay" is not a tier either.** It is the transition function that moves content *down* the hierarchy as it cools: eviction policy, not a level. Its natural home is [[memory-storage|Storage's retention axis]], and ClaudeClaw's importance-tiered salience decay is a working implementation.
+
+### Why the budget split matters
+
+**A fixed budget forces a ranking, and the ranking is the design decision.** An undifferentiated "~1,300-3,000 token snapshot" hides the fact that some content must be present on turn one or the session starts wrong, while other content merely benefits from being present.
+
+- **Identity is the smallest tier and the least negotiable.** ~100 tokens, and if it is missing the agent gets the user wrong from the first turn, in a way no later retrieval corrects, because nothing will prompt a lookup for something the agent does not know it lacks.
+- **Critical context is the tier with the hardest requirement.** "Survives compaction" is not satisfiable by scheduled injection alone: scheduled injection fires once, before compaction. Meeting it needs either re-injection after a compaction event, or an [[memory-capture|event-triggered capture]] mechanism, or triggered injection. This is the tier that most exposes the scheduled/triggered gap.
+- **Everything else should not be in the budget at all.** Long-term knowledge and episodic history are Recall's job. Pulling them into scheduled injection is the most common way a snapshot bloats past its budget and stops being cacheable.
+
+### Applied to this environment
+
+The tier model diagnoses a specific, live failure that the pillar model alone frames only as "Injection is weak":
+
+| Tier | Should be | Actually is |
+|---|---|---|
+| Identity (`user.md`) | Always injected, ~100 tokens, tier 1 | **Fetched by instruction, measured 8% compliance.** Tier 1 is effectively absent |
+| Critical context | Always injected, survives compaction | No equivalent artefact exists |
+| Long-term knowledge (the wiki) | Recall on demand | Correct, though invocation runs at 11% |
+| Episodic (JSONL transcripts) | Archived, rarely touched | Correct |
+
+**The reframe:** `user.md` at 8% is not a compliance problem to be nagged about, it is **the hottest tier in the hierarchy sitting on the coldest delivery mechanism**. The fix is not a better instruction, it is moving it onto a `SessionStart` hook so it becomes injected rather than fetched - which is exactly what agentic-os's `load-memory-snapshot.js` does, and what [[pillars-agentic-os]] scores as its one genuine strength.
 
 ## Capabilities and features across systems
 

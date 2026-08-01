@@ -22,6 +22,7 @@ Source: verified directly against `/Users/julianhart/mempalace` on 2026-08-01 - 
 - **No injection layer exists at all**, confirmed by direct code inspection, not by absence of a doc. `hook_session_start` initialises tracking state only and injects nothing; there is no `UserPromptSubmit` hook. Recall is 100% pull, driven by a "search-before-answer" skill protocol.
 - **An unusual dual-mode capture design**: the default ("silent") mode saves programmatically with no agent involvement; a legacy opt-in mode instead *blocks* the Stop event and instructs the agent to write its own diary entry via MCP tools - agent-authored capture, not external summarisation.
 - **Cites an external benchmark** - 96.6% R@5 on LongMemEval - the only one of the four systems assessed to ground a capability claim in a named, published benchmark rather than internal description.
+- **The only system with entity retrieval, and with temporal validity.** A real knowledge graph (`knowledge_graph.py` and four sibling modules): typed entity-relationship triples with `valid_from`/`valid_to` on every edge, so it can answer what was true at a past date rather than only what is true now. Neither semantic nor keyword search can do this at all. Added 2026-08-01 after an initial pass scored Recall without it.
 
 ---
 
@@ -34,7 +35,7 @@ Source: verified directly against `/Users/julianhart/mempalace` on 2026-08-01 - 
 | **Storage** | Form | **Verbatim.** Explicitly not summarised, extracted, or paraphrased - the only system assessed on this pole |
 | **Storage** | Retention | **Comprehensive** by default; no importance gate found |
 | **Injection** | Scheduled / triggered | **Neither. No injection layer exists** - confirmed by reading `hook_session_start` directly, not inferred from a missing doc |
-| **Recall** | Write-time / query-time | **Query-time**, semantic search over verbatim content via a pluggable backend (ChromaDB by default) |
+| **Recall** | Write-time / query-time | **Query-time, and the only system assessed with a third retrieval signal**: semantic search over verbatim content (ChromaDB by default) *plus* a temporal entity-relationship knowledge graph queried via `mempalace_kg_query` |
 
 ## Capture
 
@@ -69,7 +70,19 @@ Two capture modes exist, selected by config, and the default changed at v3.3.0:
 
 ## Recall
 
-Semantic search over verbatim text via the pluggable backend (ChromaDB by default), scoped by the Wings/Rooms/Drawers structure. The README cites a specific external benchmark: **96.6% R@5 raw on LongMemEval, zero API calls** - the only one of the four systems in this comparison to ground a retrieval-quality claim in a named published benchmark rather than an internal description.
+**Two distinct retrieval signals, which makes this the most capable Recall implementation assessed on signal breadth** (though not on ranking sophistication - MemSearch's RRF fusion is stronger there).
+
+**1. Semantic search** over verbatim text via the pluggable backend (ChromaDB by default), scoped by the Wings/Rooms/Drawers structure.
+
+**2. A temporal entity-relationship knowledge graph** (`mempalace/knowledge_graph.py`, with `entity_registry.py`, `entity_detector.py`, `entities.py`, `palace_graph.py`), exposed to the agent as `mempalace_kg_query`:
+
+- Entity nodes for people, projects, tools and concepts, with **typed relationship edges** (`child_of`, `works_on`, `loves`) - a triple store, not a tag list.
+- **Temporal validity on every edge** (`valid_from` → `valid_to`), supporting `query_entity("Max", as_of="2026-01-15")`. Superseded facts are retained rather than overwritten, so the graph knows *when* something was true.
+- **Closet references** back to the verbatim source, so any graph answer traces to original stored content.
+- Its own source comments position it as a free local SQLite alternative to Zep's hosted Neo4j temporal graph.
+- The recall skill instructs the agent to **prefer the graph's time-valid answer when facts conflict** - an explicit precedence rule between the two signals.
+
+**The two signals are not fused.** They are separate tools the agent chooses between, unlike MemSearch's RRF over dense and sparse. See [[memory-recall]] for the three-signal framing. The README cites a specific external benchmark: **96.6% R@5 raw on LongMemEval, zero API calls** - the only one of the four systems in this comparison to ground a retrieval-quality claim in a named published benchmark rather than an internal description.
 
 "Zero API calls" implies the default embedding path runs locally, consistent with the "local-first" framing throughout the README, though the exact embedding model was not verified in this pass.
 
