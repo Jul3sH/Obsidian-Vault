@@ -89,11 +89,19 @@ The tier model diagnoses a specific, live failure that the pillar model alone fr
 | Tier | Should be | Actually is |
 |---|---|---|
 | Identity (`user.md`) | Always injected, ~100 tokens, tier 1 | **Fetched by instruction, measured 8% compliance.** Tier 1 is effectively absent |
-| Critical context | Always injected, survives compaction | No equivalent artefact exists |
+| Critical context | Always injected, survives compaction | No equivalent artefact exists - **and none needs to be authored.** See below |
 | Long-term knowledge (the wiki) | Recall on demand | Correct, though invocation runs at 11% |
 | Episodic (JSONL transcripts) | Archived, rarely touched | Correct |
 
-**The reframe:** `user.md` at 8% is not a compliance problem to be nagged about, it is **the hottest tier in the hierarchy sitting on the coldest delivery mechanism**. The fix is not a better instruction, it is moving it onto a `SessionStart` hook so it becomes injected rather than fetched - which is exactly what agentic-os's `load-memory-snapshot.js` does, and what [[pillars-agentic-os]] scores as its one genuine strength.
+**The reframe:** `user.md` at 8% is not a compliance problem to be nagged about, it is **the hottest tier in the hierarchy sitting on the coldest delivery mechanism**. The fix is not a better instruction, it is moving it onto a `SessionStart` hook so it becomes injected rather than fetched - which is exactly what agentic-os's `load-memory-snapshot.js` does, and what [[pillars-agentic-os]] scores as its one genuine strength. *(Independently re-measured 2026-08-01 on a >20KB-session denominator: 5 of 47, 10%. The two figures corroborate.)*
+
+### The critical-context tier needs no authored artefact
+
+"No equivalent artefact exists" reads as an instruction to create one - typically a `context.md` holding current project, blockers and next step. **That is the wrong build**, because it copies state the canonical record already owns, so it drifts the moment the real document moves on and it breaks single-source-of-truth.
+
+**Where the store already carries machine-readable state, the critical-context payload should be *computed at injection time* instead.** Verified in this environment: every file in `wiki/projects/` carries `status`, `flow` and `status-updated` frontmatter, so the live-project list is derivable by filtering `flow: implementing` and sorting by date. No second copy exists, so nothing can go stale, and the injected payload is ~50 tokens.
+
+**The general test, before building any critical-context store:** *does the canonical record already encode this, and can the injector simply read it?* An authored context file is only justified for state that genuinely lives nowhere else. A derived payload also inherits a free diagnostic - surfacing `status-updated` every session makes a project still flagged live but untouched for weeks continuously visible, where an authored file would simply repeat its own stale claim.
 
 ## Capabilities and features across systems
 

@@ -85,6 +85,8 @@ A **pillar** is a function the system must perform. An **enabler** is a technolo
 
 A third term, **capability**, names what you *get* once a pillar is implemented - not a technology, an outcome. The Observation Layer is the capability Capture produces: the standing ability to answer "what happened?" for any past session. Observation does not implement Capture; it is what having Capture gives you.
 
+**Capabilities are cross-pillar and are catalogued separately, in [[memory-capabilities]].** Every capability draws on two or more pillars, so none can be filed inside a single pillar article. A pillar article may link to the capabilities it *participates in*, but participation is never ownership: no pillar owns a capability, and a capability never "enables" a pillar. When a capability is absent, name the pillar **and sub-type** at fault ("compaction survival is missing because Injection (triggered) is unimplemented"), not the pillar alone.
+
 | Enabler | Serves | Article |
 |---|---|---|
 | Native session transcripts | Capture (continuous) | [[memory-capture]] |
@@ -123,6 +125,9 @@ Neither phenomenon is a storage failure *on the assumption that capture already 
 **Where capture is already solved by the platform and is continuous, only the retrieval and injection stages need building.** A proposal that includes a capture stage in that situation is paying twice. That changes if the platform's capture is periodic or boundary.
 
 ## Related
+
+**The model**
+- [[memory-capabilities]] - the cross-pillar capability catalogue: what you get, as opposed to what the system does
 
 **The four pillars**
 - [[memory-capture]] - Capture, and the Observation capability it produces
