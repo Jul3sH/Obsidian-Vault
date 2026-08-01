@@ -98,4 +98,3 @@ Rung 3 is the escape hatch back to ground truth: the discipline Jones says most 
 - [[agentic-os/memory-database-schema|Memory Database Schema]] - tables, scope model, no-leak boundary
 - [[agentic-os/session-capture-and-storage|Session Capture and Storage]] - how the Stop hook and transcript archive work
 - [[postgres-pgvector]] - what Postgres, pgvector, PGLite, and Supabase each actually are
-- [[openbrain-vs-personal-ai-os]] - OB1 compared to this wiki

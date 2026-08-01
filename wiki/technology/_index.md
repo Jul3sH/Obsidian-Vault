@@ -25,19 +25,12 @@ This folder is for **technical reference material**: product capabilities, prici
 | [[technology/claudeclaw-business-os/_index\|ClaudeClaw Business OS]] | Telegram bot that pipes Claude Code to your phone: public vs members editions, versioning, and relationship to Claude Code |
 | [[technology/claudeclaw-enterprise-os/_index\|ClaudeClaw Enterprise OS]] | Enterprise product line placeholder, to be documented |
 | [[technology/agentic-os/_index\|Agentic OS]] | Turn Claude Code into an agentic operating system: identity, skills, semantic memory, multi-client isolation |
+| [[technology/Memory systems/_index\|Memory Systems]] | How agent memory is structured: the four-pillar model, its enabler technologies, and the main product comparisons. Sequenced as a reading order |
 
 ## AI Memory Architecture
 
-How AI context layers are structured, and how the main implementations compare.
-
-- [[wiki-vs-openbrain|AI Memory Paradigms: Write-Time vs Query-Time]] - The fork every AI knowledge system must answer, Karpathy's wiki versus OpenBrain, where each wins and breaks, and the hybrid resolution.
-- [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - Two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
-- [[openbrain-vs-personal-ai-os|OpenBrain (OB1) vs This Wiki]] - Why this vault is a Karpathy wiki, and how its wiki-to-Jira flow inverts the proposed hybrid.
-- [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - What each term actually is. Only one of them is a database engine.
-- [[memory-pillars|The Four Pillars of Memory Systems]] - **the model.** Capture, Storage, Injection, Recall, each with its two sub-types; the pillar-versus-enabler distinction; and the amendment splitting capture out of Simon Scrapes' three pillars.
-- [[memory-observation-layer|Observation Layer]] - **enabler for Capture.** What counts as one, when it is justified, and three hypotheses that would have required one, all tested and failed.
-- [[memory-curated-index|Curated Index Retrieval]] - **enabler for Recall (write-time).** The hand-authored index and wikilink scheme: how the hop chain works, why the one-line descriptions are the ranking function, and its dominant failure mode of invocation.
-- [[memory-semantic-search|Semantic Search]] - **enabler for Recall (query-time) and Injection (triggered).** The five-criteria test for justifying a vector index, and scoring of the commonly-cited use cases.
+- **[[technology/Memory systems/_index\|Memory Systems]]** - the full set in reading order: the four-pillar model, its three enabler technologies, and the paradigm and product comparisons.
+- [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - what each storage term actually is. Only one of them is a database engine. Filed at this level rather than in the folder, as general storage reference.
 
 ## Data Sources
 

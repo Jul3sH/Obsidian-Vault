@@ -147,6 +147,5 @@ Both are branches of the **Storage** pillar, split by the question they answer:
 - [[memory-observation-layer]] - the capture pillar, and where the canonical and behavioural branches of Storage divide
 - [[memory-semantic-search]] - the injection and recall pillars, including scheduled versus triggered injection
 - [[openbrain-vs-agentic-os]] - OB1 and the Agentic OS memory system compared, both query-time
-- [[openbrain-vs-personal-ai-os]] - how this vault maps onto the paradigms
 - [[postgres-pgvector]] - what Postgres, pgvector, PGLite, and Supabase each actually are
 - [[agentic-os/memory-system-architecture|Agentic OS Memory System Architecture]]
