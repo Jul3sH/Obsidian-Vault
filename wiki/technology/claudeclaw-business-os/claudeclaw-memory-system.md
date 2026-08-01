@@ -6,21 +6,35 @@ Part of [[claudeclaw-business-os-overview|ClaudeClaw Business OS]]. For how this
 
 ---
 
+## Scope
+
+Memory is not universal across the user by default. ClaudeClaw treats it as runtime conversation state:
+
+| Boundary | Meaning |
+|---|---|
+| `chat_id` | Keeps recall inside the Telegram chat or synthetic war-room chat that produced it. |
+| `agent_id` | Keeps each specialist agent's memory separate by default. |
+| `shared = 1` | Explicit shared tier for facts that every agent should see. |
+| `session_id` | Used for provider session resumption and session summaries, not as the main long-term memory boundary. |
+
+This is why global skills can be shared while memory is scoped: skills are reusable installed capabilities, but memories can carry behavioural dispositions, stale work context, and agent-specific assumptions.
+
 ## Storage (SQLite `store/claudeclaw.db`)
 
 | Table | Role |
 |---|---|
-| `memories` | The atomic unit. `raw_text` (verbatim exchange), `summary`, `entities[]`, `topics[]`, `connections[]`, `importance` (0-1), `salience` (decays), `embedding` (Google `embedding-001`), `agent_id`, `superseded_by`, `pinned`, `shared`. |
-| `memories_fts` | FTS5 mirror kept in sync by triggers (summary/raw_text/entities/topics), keyword fallback when embeddings are unavailable. |
-| `consolidations` | Merged cross-memory insights (`source_ids`, `summary`, `insight`, `embedding`), the `Insights:` block. |
-| `session_summaries` | Per-session summary + `key_decisions` + turn count + cost. |
-| `conversation_log` | Full turn log, verbatim history recall (holds real exchanges even when extraction compressed them away). |
+| `memories` | Atomic extracted memories, including `chat_id`, `agent_id`, `raw_text`, `summary`, `entities[]`, `topics[]`, `importance`, `salience`, `embedding`, `pinned`, `shared`, and `superseded_by`. |
+| `memories_fts` | FTS5 mirror kept in sync by triggers, used as keyword fallback when embeddings are unavailable. |
+| `consolidations` | Merged cross-memory insights, used for the `Insights:` block. |
+| `session_summaries` | Summary, `key_decisions`, turn count, and cost for a provider session. |
+| `conversation_log` | Full turn log for verbatim history recall when extraction compressed away details. |
 
 ---
 
 ## Capture (`memory-ingest.ts`)
 
-- After a turn, `ingestConversationTurn` runs an LLM **"memory extraction agent"** (this is the `queue-operation` event seen in raw transcripts). The bar is deliberately HIGH, most exchanges are skipped.
+- After a turn, `ingestConversationTurn` runs an LLM **memory extraction agent**. The current code tries the selected provider first, then falls back to Gemini if configured.
+- The bar is deliberately high, most exchanges are skipped.
 - It returns `summary`, `importance` (0-1), `entities`, `topics`.
 - **Hard filter: `importance < 0.5` is discarded.** Only genuinely useful context is saved.
 - The memory is embedded (Google `embedding-001`) for semantic search.
@@ -49,9 +63,9 @@ Each day, `salience` is multiplied by an importance-tiered factor:
 
 | Importance | Daily factor |
 |---|---|
-| ≥ 0.8 | × 0.99 (fades slowest) |
-| ≥ 0.5 | × 0.98 |
-| < 0.5 | × 0.95 (fades fastest) |
+| >= 0.8 | x 0.99 (fades slowest) |
+| >= 0.5 | x 0.98 |
+| < 0.5 | x 0.95 (fades fastest) |
 
 `pinned = 1` memories are exempt. Low-value memories decay out; important ones persist. Runs on startup and every 24h.
 
@@ -65,8 +79,8 @@ Clusters unconsolidated memories, has an LLM produce a merged `summary` + **one 
 
 ## Isolation & scoping
 
-- Recall is scoped to the **calling agent + the shared tier** (`agent_id`, `shared = 1`), fixing the cross-agent "Hive Mind" leak (#95).
-- `/keep-shared` opts a multi-agent install back into cross-agent recall (#96); read per-turn, no restart needed.
+- Recall is scoped to **the current `chat_id` plus the calling `agent_id` plus the shared tier** (`shared = 1`), fixing the cross-agent "Hive Mind" leak (#95).
+- `/keep-shared` opts a multi-agent install back into cross-agent recall inside the same chat (#96); read per-turn, no restart needed.
 
 ---
 
@@ -82,9 +96,9 @@ The `checkpoint` command documented in `~/.claudeclaw/CLAUDE.md` inserts with co
 
 ---
 
-## Status (2026-07-25)
+## Observed State (2026-07-25)
 
-Live and populated: 3 memories, 2 consolidations, 134 conversation-log rows. This is the memory system actually in use for the Telegram assistant, unlike the agentic-os layer, which is built but never ingested.
+Observed in the local install on 2026-07-25: 3 memories, 2 consolidations, 134 conversation-log rows. Treat these counts as a point-in-time snapshot, not a current operating total.
 
 ---
 

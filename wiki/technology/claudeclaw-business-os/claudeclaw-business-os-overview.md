@@ -6,6 +6,17 @@
 
 ---
 
+## Repository Mapping
+
+| Resource | Role |
+|---|---|
+| `/Users/julianhart/claudeclaw-business-os` | Local Business OS repo checkout |
+| `Jul3sH/claudeclaw-business-os` | Private GitHub copy of the local checkout |
+| `earlyaidopters/claudeclaw-os` | Upstream source line for the local checkout |
+| `Jul3sH/claudeclaw-os` | Old private GitHub copy, pending manual deletion |
+
+The local and private GitHub names now use `claudeclaw-business-os` to distinguish this product line from the placeholder [[technology/claudeclaw-enterprise-os/_index|ClaudeClaw Enterprise OS]] area. The upstream provider source line still uses `claudeclaw-os`.
+
 ## Capabilities
 
 On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory layer, a scheduler, and multi-agent orchestration. The list below is **verified against the local `claudeclaw-business-os` repo** (2026-07-25), not just marketing copy.
@@ -29,21 +40,21 @@ On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory lay
 
 ---
 
-## Two Editions
+## Editions
 
-| | ClaudeClaw (Public) | ClaudeClaw OS (Members) |
+| | ClaudeClaw (Public) | ClaudeClaw Business OS (Private copy) |
 |---|---|---|
 | **Access** | Public repo, free | Token-authenticated download, AI Early Adopters members only |
 | **Repo** | [Jul3sH/claudeclaw](https://github.com/Jul3sH/claudeclaw) (fork of `earlyaidopters/claudeclaw`) | [Jul3sH/claudeclaw-business-os](https://github.com/Jul3sH/claudeclaw-business-os) (private copy of the `earlyaidopters/claudeclaw-os` source line) |
 | **Created** | May 2026 | June 2026 |
-| **Status** | Older, open-source baseline | Latest version |
+| **Status** | Older, open-source baseline | Local private copy of the downloaded members edition |
 | **Distribution** | GitHub fork | Downloaded via token from AI Early Adopters |
 
 The members edition was obtained by downloading a token-authenticated package from AI Early Adopters. The local checkout is now named `~/claudeclaw-business-os`; its upstream source line remains `earlyaidopters/claudeclaw-os`.
 
 ## Versioning and Updates
 
-Versions 1-5 are visible on the AI Early Adopters website. Current install is the latest available. To check for updates: watch the AI Early Adopters community for announcements of v6 or later. There is no `git pull` update path - a new version requires downloading a new package via the same token process.
+Versions 1-5 were visible on the AI Early Adopters website when this page was first written. Treat the available product version as time-sensitive: check the AI Early Adopters community before assuming this local checkout is current. There is no upstream `git pull` update path from the private copy; a provider update may require downloading a new package via the same token process, then preserving local state.
 
 **What to preserve across updates:**
 - `.env` - API keys and config

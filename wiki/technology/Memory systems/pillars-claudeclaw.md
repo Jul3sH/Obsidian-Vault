@@ -73,7 +73,7 @@ An LLM "memory extraction agent" runs after each turn and returns `summary`, `im
 
 Five SQLite tables. The two that matter for the model:
 
-- `memories` - the synthesised layer. Carries `embedding`, `importance`, `salience`, `superseded_by`, `pinned`, `shared`.
+- `memories` - the synthesised layer. Carries `embedding`, `importance`, `salience`, `superseded_by`, `pinned`, `shared`. The `superseded_by` column is this system's **[[memory-storage|revision]]** mechanism, in its destructive behavioural-branch form: a corrected memory replaces its predecessor rather than sitting alongside it with a validity window, which is the right trade for a layer judged on brevity because it competes for injection budget.
 - `conversation_log` - the verbatim layer, "holds real exchanges even when extraction compressed them away".
 
 **Retention is an active policy, not passive accumulation.** Daily sweep multiplies `salience` by an importance-tiered factor:

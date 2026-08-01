@@ -77,6 +77,24 @@ The bot runs on the **Claude Code CLI provider** (`claude-opus-4-8`), not the ra
 
 ---
 
+## After a repo folder rename
+
+Renaming the checkout changes the Claude Code project-session path. If the bot was previously running from `~/claudeclaw-os`, existing Claude Code session files may live under:
+
+```text
+~/.claude/projects/-Users-julianhart-claudeclaw-os/
+```
+
+After the rename to `~/claudeclaw-business-os`, new sessions use:
+
+```text
+~/.claude/projects/-Users-julianhart-claudeclaw-business-os/
+```
+
+If the bot starts replying with `Done.` after the rename, treat it as a stale session pointer: send `/forget` in Telegram, then retry. Also check launchd plists, shell aliases, notify scripts, and any hidden live config for hardcoded `/Users/julianhart/claudeclaw-os` paths.
+
+---
+
 ## Safe update procedure (avoid data loss)
 
 The official instructions say "delete your old install folder, then re-clone." Do **not** `rm` it - the folder holds gitignored, non-recoverable state (`.env`, `store/`). Rename instead:
@@ -96,7 +114,7 @@ The official instructions say "delete your old install folder, then re-clone." D
 
 ## Key Takeaways
 
-- **Bot says only "Done."** → send **`/forget`** in Telegram, then retry. That is the whole fix 99% of the time.
+- **Bot says only "Done."** -> send **`/forget`** in Telegram, then retry. That is the whole fix 99% of the time.
 - Cause is a **stale session pointer** in `store/claudeclaw.db`, not a broken model or a bad install.
 - The Claude-SDK provider does not auto-recover from a dead session - it must be cleared.
 - **Never `rm` the install folder to update** - rename it, because `.env` and `store/` are not in the repo.

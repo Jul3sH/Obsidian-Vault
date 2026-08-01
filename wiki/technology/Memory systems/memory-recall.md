@@ -124,6 +124,8 @@ Verified against `/Users/julianhart/mempalace/mempalace/knowledge_graph.py` and 
 
 **Why this matters beyond MemPalace:** temporal validity is the capability that answers "what was true *then*", which neither semantic nor keyword search can do at all. A fact that changed produces two equally-similar embeddings and two equally-valid keyword hits; only a time-aware graph distinguishes the current answer from the superseded one.
 
+**Read from Storage's side, this is one of the two revision strategies.** Closing off a validity window rather than overwriting is exactly [[memory-storage|add-only revision on the canonical branch]]; the behavioural branch corrects destructively instead. Recall is what makes the retained history *useful*: add-only revision only pays off if something can query as-of a date, otherwise superseded facts are cost without benefit.
+
 ## Capabilities and features across systems
 
 Transposed from the four product scorecards. All four implement query-time recall; they differ in ranking sophistication and escalation design.

@@ -20,7 +20,8 @@ pillar: storage
 - **The form axis is the single biggest differentiator between real products.** MemPalace stores verbatim; every other system assessed synthesises at ingest.
 - **A common misreading corrected:** MemSearch is often described as storing raw data. It summarises at capture; its distinctive property is comprehensive *retention*, not raw *form*.
 - **A strong canonical branch can make Capture look unnecessary while leaving Injection and Recall entirely unaddressed.** The trap this vault's own history walked into.
-- **Content moves within Storage via four distinct transformations**: promotion (deletes its sources), consolidation (keeps them), compression (rewrites shorter), decay (reweights without rewriting). Promotion and add-only storage are in direct tension and coexist only if scoped to different branches.
+- **Content moves within Storage via five distinct transformations**: promotion (deletes its sources), consolidation (keeps them), compression (rewrites shorter), decay (reweights without rewriting), revision (corrects what is now wrong). Promotion and add-only storage are in direct tension and coexist only if scoped to different branches.
+- **Revision is the only transformation driven by correctness**, and the only one whose *trigger* is usually missing: the other four fire on recurrence, relatedness, budget, or time, all of which a system can detect for itself. Nothing detects that a stored fact has quietly become false.
 
 ---
 
@@ -82,7 +83,7 @@ Simon Scrapes' comparison table calls this the *Data Philosophy* row. It is also
 
 ## Transformations: how content moves within Storage
 
-Both axes above describe where content *sits*. A third question is how it *moves* once stored, because material does not stay in the form it arrived in. Four distinct transformations, often conflated:
+Both axes above describe where content *sits*. A third question is how it *moves* once stored, because material does not stay in the form it arrived in. Five distinct transformations, often conflated:
 
 | Transformation | What happens | Sources kept? | Verified example |
 |---|---|---|---|
@@ -90,6 +91,7 @@ Both axes above describe where content *sits*. A third question is how it *moves
 | **Consolidation** | Related memories are merged into a derived insight | **Yes - retained** | ClaudeClaw `runConsolidation` |
 | **Compression** | Existing content is rewritten shorter | Superseded in place | agentic-os `weekly-memory-curator` |
 | **Decay** | Content loses ranking weight without changing | Yes, until pruned | ClaudeClaw salience decay |
+| **Revision** | Content that has become wrong is corrected or retired | **Branch-dependent** - retained on the canonical branch, replaced on the behavioural | MemPalace `valid_from`/`valid_to`; ClaudeClaw `superseded_by` |
 
 ### Promotion
 
@@ -122,6 +124,25 @@ Promotion and **add-only** storage pull in opposite directions, and a system can
 - **Promotion** deliberately destroys its inputs.
 
 **They coexist only if scoped to different content.** The workable split is that the canonical branch is add-only, preserving the record, while the behavioural branch permits promotion, keeping the rule set small enough to stay injectable. That is not a compromise so much as a recognition that the two branches have opposite requirements: the canonical branch is judged on completeness, the behavioural branch on brevity, since it competes for [[memory-injection|scheduled injection budget]].
+
+### Revision
+
+**A stored item stops being true, and the store has to stop asserting it.** This is the transformation the other four cannot perform: promotion generalises, consolidation merges, compression shortens, decay demotes. None of them corrects.
+
+**Its driver is correctness, and that is what makes it structurally different.** The other four are driven by recurrence, relatedness, budget and time respectively - all properties the system can observe about *itself*. Correctness is a property of the world, so nothing internal to the store can detect that a fact has gone stale. **Revision is therefore the transformation most likely to have a mechanism but no trigger:** editing a file is trivial, knowing it needs editing is not.
+
+**The two strategies fall out of the canonical/behavioural split**, the same division that resolves the promotion tension above.
+
+| Branch | Strategy | Sources | Verified example |
+|---|---|---|---|
+| **Canonical** | **Add-only revision.** Append the corrected fact with its own validity window and close the old one off | Retained. The store can still answer what was true *then* | MemPalace: `valid_from` → `valid_to` on every edge, superseded facts retained rather than overwritten, with an explicit precedence rule when facts conflict |
+| **Behavioural** | **Destructive revision.** Supersede or overwrite in place | Replaced, because the branch is judged on brevity and competes for [[memory-injection|injection budget]] | ClaudeClaw: a `superseded_by` column on the `memories` table |
+
+That the same branch split resolves both the promotion tension and the revision strategy is evidence the split is real rather than a convenience.
+
+**Deletion is revision's terminal case, not a separate transformation.** Retiring an item that is simply wrong, rather than replacing it, is the degenerate form where the corrected value is empty. On the canonical branch it should still be a closed validity window rather than a true delete, so the record of having believed it survives.
+
+**This vault runs revision manually, with no trigger.** `user.md` and the `feedback-*.md` rules are edited by hand when someone notices they have gone wrong. Nothing surfaces a candidate. A worked instance: `user.md` carries a Hong Kong environment block (VPN routing constraints) that becomes false on a relocation that is already committed and dated, and no mechanism connects the project's completion to the memory that depends on it. The mechanism is fine; the trigger does not exist.
 
 ### Compression versus decay
 

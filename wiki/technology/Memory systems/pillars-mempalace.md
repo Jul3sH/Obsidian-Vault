@@ -98,7 +98,7 @@ Two capture modes exist, selected by config, and the default changed at v3.3.0:
 **2. A temporal entity-relationship knowledge graph** (`mempalace/knowledge_graph.py`, with `entity_registry.py`, `entity_detector.py`, `entities.py`, `palace_graph.py`), exposed to the agent as `mempalace_kg_query`:
 
 - Entity nodes for people, projects, tools and concepts, with **typed relationship edges** (`child_of`, `works_on`, `loves`) - a triple store, not a tag list.
-- **Temporal validity on every edge** (`valid_from` → `valid_to`), supporting `query_entity("Max", as_of="2026-01-15")`. Superseded facts are retained rather than overwritten, so the graph knows *when* something was true.
+- **Temporal validity on every edge** (`valid_from` → `valid_to`), supporting `query_entity("Max", as_of="2026-01-15")`. Superseded facts are retained rather than overwritten, so the graph knows *when* something was true. This is **[[memory-storage|revision]]** in its add-only canonical-branch form, the opposite pole from ClaudeClaw's destructive `superseded_by`: the correction is expressed by closing a window, never by deleting the prior belief.
 - **Closet references** back to the verbatim source, so any graph answer traces to original stored content.
 - Its own source comments position it as a free local SQLite alternative to Zep's hosted Neo4j temporal graph.
 - The recall skill instructs the agent to **prefer the graph's time-valid answer when facts conflict** - an explicit precedence rule between the two signals.

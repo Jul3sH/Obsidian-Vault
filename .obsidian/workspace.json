@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
+                "file": "wiki/technology/claudeclaw-business-os/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claudeclaw-memory-system"
+              "title": "_index"
             }
           }
         ]
@@ -200,12 +200,12 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
-    "wiki/technology/claudeclaw-business-os/_index.md",
-    "wiki/technology/Memory systems/_index.md",
     "wiki/technology/claudeclaw-business-os/claudeclaw-business-os-overview.md",
     "wiki/technology/claudeclaw-business-os/claudeclaw-agent-config.md",
-    "wiki/technology/claudeclaw-business-os/claudeclaw-os-troubleshooting.md",
     "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
+    "wiki/technology/claudeclaw-business-os/_index.md",
+    "wiki/technology/Memory systems/_index.md",
+    "wiki/technology/claudeclaw-business-os/claudeclaw-os-troubleshooting.md",
     "wiki/technology/claudeclaw-enterprise-os/_index.md",
     "wiki/technology/agentic-os/multi-client-architecture.md",
     "wiki/technology/agentic-os/memory-system-architecture.md",
