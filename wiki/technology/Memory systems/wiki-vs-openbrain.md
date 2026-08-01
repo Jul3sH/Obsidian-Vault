@@ -139,12 +139,13 @@ correctly forbid putting knowledge-base content into memory in the second sense.
 
 Both are branches of the **Storage** pillar, split by the question they answer:
 "is this true?" versus "does this change how I act?". See
-[[memory-observation-layer]] for the derivation, and the four-pillar model
+[[memory-storage]] for the derivation, and the four-pillar model
 (Capture, Storage, Injection, Recall) that both sit inside.
 
 ## Related
 
-- [[memory-observation-layer]] - the capture pillar, and where the canonical and behavioural branches of Storage divide
+- [[memory-storage]] - where the canonical and behavioural branches of Storage divide
+- [[memory-capture]] - the Capture pillar
 - [[memory-semantic-search]] - the injection and recall pillars, including scheduled versus triggered injection
 - [[openbrain-vs-agentic-os]] - OB1 and the Agentic OS memory system compared, both query-time
 - [[postgres-pgvector]] - what Postgres, pgvector, PGLite, and Supabase each actually are

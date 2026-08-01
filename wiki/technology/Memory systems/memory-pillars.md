@@ -1,40 +1,48 @@
 ---
 type: reference
-updated: 2026-07-31
+updated: 2026-08-01
 authority: analysis-backed
 concept: model
 ---
 
 # The Four Pillars of Memory Systems
 
-> *The functional model every agent memory system implements, whatever technology it uses: **Capture → Storage → Injection → Recall**. This article defines the pillars. The technologies that implement them are covered in separate enabler articles.*
+> *The functional model every agent memory system implements, whatever technology it uses: **Capture → Storage → Injection → Recall**. This is the overview. Each pillar has its own article carrying its sub-types and a catalogue of capabilities observed across real products.*
 
 > [!note] Status: theory. The model is adopted; no implementation is.
-> Reference material on how agent memory systems work. The **model** on this page has been adopted as the reasoning frame for this environment, recorded separately at [[memory-model-adoption]]. The **enablers, assessments and verdicts** remain theory: nothing has been chosen or built. Where one real environment is quoted, it is a worked example to make the model testable.
+> The **model** has been adopted as the reasoning frame for this environment, recorded separately at [[memory-model-adoption]]. The **enablers, assessments and verdicts** remain theory: nothing has been chosen or built. Where one real environment is quoted, it is a worked example to make the model testable.
 
 ## Key Takeaways
 
 - **Four pillars, in dependency order: Capture → Storage → Injection → Recall.** Every memory system implements all four, however crudely.
 - **Do not confuse a pillar with an enabler.** Pillars are *functions*; semantic search, capture hooks and curated indexes are *technologies* that implement them. Mixing the two levels is the most common modelling error in this domain.
-- **Capture has three modes**, not two: continuous, periodic, and boundary. Periodic (checkpoint every N turns) was missing from earlier versions of this model; MemPalace's default 15-exchange interval is the verified example. A fourth firing condition, event-triggered, sits alongside the three and is the only verified structural fix for compaction-caused data loss.
-- **Storage divides on two independent axes.** *Kind of claim*: canonical versus behavioural, split by whether the content answers "is this true?" or "does this change how I act?". *Form and retention*: synthesise at ingest versus store faithfully, crossed with comprehensive versus curated retention. The second axis is what separates MemSearch, Hermes, OpenBrain and a Karpathy wiki from each other.
-- **Injection has two types**, scheduled and triggered, and only the second can defend against mid-session degradation. A third pattern sits between them: a deterministic per-turn *nudge* that primes the agent to decide to look, without injecting content itself. MemSearch's `UserPromptSubmit` hook is the verified example.
 - **Assess each pillar separately.** Each has its own "is this solved, and by whom?" answer. Bundling them prices work that is already done.
+- **Injection is the pillar most systems under-build**, and the one whose absence is hardest to see, because a healthy Storage layer makes the whole system look fine.
+- **Other published memory models are mostly content taxonomies, not functional ones.** They answer "what kinds of memory are there?" rather than "what must a memory system do?" - the two are complementary, not competing. See the correlation section below.
 
 ---
 
 ## The model
 
-| Pillar | Function | Fails when |
-|---|---|---|
-| **1. Capture** | Get events into a durable record | Events never get recorded |
-| **2. Storage** | Decide what to keep and how it is organised | Records are lost, corrupted, or rot |
-| **3. Injection** | Decide to look, and place material into the context window | Nothing triggers a lookup |
-| **4. Recall** | Find the right material in the store | The right item is never surfaced |
+| Pillar | Function | Fails when | Article |
+|---|---|---|---|
+| **1. Capture** | Get events into a durable record | Events never get recorded | [[memory-capture]] |
+| **2. Storage** | Decide what to keep and how it is organised | Records are lost, corrupted, or rot | [[memory-storage]] |
+| **3. Injection** | Decide to look, and place material into the context window | Nothing triggers a lookup | [[memory-injection]] |
+| **4. Recall** | Find the right material in the store | The right item is never surfaced | [[memory-recall]] |
 
 **Dependency runs one way.** Recall cannot return what Storage never kept; Storage cannot keep what Capture never recorded. Injection depends on Recall having something to give it. Assess in order, and stop early if an upstream pillar is broken.
 
 **Each pillar has an independent owner.** Capture is frequently given free by the platform; the other three are almost always built. That is why they must be scored separately: a fused model prices a build that is already paid for.
+
+**Every pillar sub-divides.** Naming the sub-type is not optional, because "improve Recall" and "improve Recall (query-time)" are different pieces of work. Full sub-types live in each pillar's article:
+
+| Pillar | Sub-types |
+|---|---|
+| Capture | Continuous / periodic / boundary, plus a separate *event-triggered* firing condition |
+| Storage | Two independent axes: canonical vs behavioural; and form (synthesise-at-ingest vs store-faithfully) crossed with retention (comprehensive vs curated) |
+| Injection | Scheduled / triggered, plus a four-rung trigger hierarchy |
+| Recall | Write-time / query-time |
 
 ## Provenance: an amendment to three pillars
 
@@ -49,161 +57,55 @@ That definition contains two philosophically opposed functions:
 
 **Indexing is deliberately not promoted to a pillar.** Unlike capture it has no independent "is this solved by the platform?" answer; it is an implementation detail of storage and recall.
 
+## Correlating other published models
+
+External memory models are worth mapping onto the pillars rather than treated as rivals, because most of them are answering a **different question**. The pillars are a *functional* taxonomy: what must the system do? Most published models are *content* taxonomies: what kinds of memory exist, and how hot is each?
+
+### Mark Kashef's six layers
+
+| Kashef layer | Maps to | Notes |
+|---|---|---|
+| **Identity** (~100 tokens, always loaded, never changes) | **Storage** (behavioural branch) + **Injection** (scheduled) | A storage tier defined by its injection policy. "Always loaded" is an injection statement, not a storage one |
+| **Critical Context** (~300 tokens, current project and blockers, survives compaction) | **Storage** (behavioural) + **Injection** (scheduled, with a compaction requirement) | "Survives compaction" is the interesting part: it demands either re-injection after compaction or a [[memory-capture|PreCompact-style]] mechanism |
+| **Working Memory** (session-scoped, resets on close) | **Not a pillar at all** | This is the context window itself, the *target* of Injection rather than a memory store. It is what the other layers are injected *into* |
+| **Long-Term Knowledge** (searched: facts, decisions, patterns) | **Storage** (canonical branch) + **Recall** (query-time) | "Searched" is the giveaway that a Recall mechanism is assumed |
+| **Episodic Memory** (archived, full conversation history, preserves the WHY) | **Capture** output + **Storage** (verbatim form) | Exactly what native JSONL transcripts are, and what MemPalace stores by design |
+| **Decay** (background: old memories compress, frequently used resist) | **Storage** (retention axis) | A retention *process*. ClaudeClaw's importance-tiered salience decay is a working implementation |
+
+**What the correlation reveals:**
+
+- **Kashef's model is largely a Storage-tier taxonomy with injection policy baked into each tier.** The token budgets (~100, ~300) are injection budgets, and they refine Simon's single undifferentiated ~1,300-3,000 token frozen snapshot into graded tiers. That is a genuine contribution the pillar model does not currently make: it says nothing about *how to divide* the scheduled-injection budget.
+- **There is no Kashef layer for Capture or Recall as functions.** Both are implied inside "archived" and "searched" - which is the same conflation the pillar model exists to prevent. A system could satisfy all six layers on paper and still have no working Injection trigger.
+- **"Working Memory" is not memory** in the four-pillar sense. Treating the context window as a memory layer alongside persistent stores is a category error, though a common and understandable one.
+- **The two models are complementary.** Use the pillars to ask *what must this system do, and is each part solved?* Use a layer model like Kashef's to ask *what content tiers exist, and what is each one's injection budget?* Neither answers the other's question.
+
 ## Pillars versus enablers: keep the levels apart
 
 A **pillar** is a function the system must perform. An **enabler** is a technology that performs it. One enabler can serve more than one pillar, and one pillar can be served by several competing enablers.
 
+A third term, **capability**, names what you *get* once a pillar is implemented - not a technology, an outcome. The Observation Layer is the capability Capture produces: the standing ability to answer "what happened?" for any past session. Observation does not implement Capture; it is what having Capture gives you.
+
 | Enabler | Serves | Article |
 |---|---|---|
-| Native session transcripts | Capture (continuous) | [[memory-observation-layer]] |
-| Session-end summarising hooks | Capture (boundary) | [[memory-observation-layer]] |
-| Interval checkpoint hooks (fire every N turns) | Capture (periodic) | [[pillars-mempalace]] |
+| Native session transcripts | Capture (continuous) | [[memory-capture]] |
+| Session-end summarising hooks | Capture (boundary) | [[memory-capture]] |
+| Interval checkpoint hooks | Capture (periodic) | [[pillars-mempalace]] |
 | Compaction-event capture hooks | Capture (event-triggered) | [[pillars-mempalace]] |
 | Curated index hierarchy plus bare wikilinks | **Recall (write-time)** | [[memory-curated-index]] |
 | Keyword search, grep | **Recall (query-time)** | (no dedicated article) |
 | Vector / embedding index | **Recall (query-time)**, and the only practical enabler of **Injection (triggered)** | [[memory-semantic-search]] |
-| Frozen snapshot of consolidated files | **Injection (scheduled)** | [[memory-pillars]], below |
-| Deterministic per-turn hint with agent-decided retrieval | **Injection-adjacent nudge** - primes trigger option 2, injects no content itself | [[pillars-memsearch]] |
+| Frozen snapshot of consolidated files | **Injection (scheduled)** | [[memory-injection]] |
+| Deterministic per-turn hint with agent-decided retrieval | **Injection**, trigger rung 3 - injects no content itself | [[pillars-memsearch]] |
 
-Every pillar sub-divides, so name the sub-type when stating what an enabler serves. "Serves Recall" is ambiguous; "serves Recall (write-time)" is not.
-
-Naming a file or a design after an enabler and then filling it with pillar doctrine is the same category error as bundling capture into storage, one level up. Ask of any component: *is this a job the system must do, or a way of doing that job?*
-
----
-
-## Pillar 1: Capture, and its three modes
-
-Getting events into a durable record. The defining test is that **it creates a record that did not previously exist**.
-
-Capture is indiscriminate by nature. It does not judge importance; that judgement belongs to Storage. It divides on **granularity**:
-
-| | **Continuous capture** | **Periodic capture** | **Boundary capture** |
-|---|---|---|---|
-| Fires | Every turn | Every N turns (a fixed interval) | At session end, or another boundary |
-| Completeness | Total, verbatim | Total at each checkpoint; nothing since the last one is captured until the next fires | Lossy; usually a summary |
-| Cost | Per-turn runtime cost | One cost per interval | One cost per session |
-| Risk | Volume; store grows fast | **A gap between checkpoints**: anything since the last one is uncaptured until the next fires | Loses detail the summariser dropped |
-
-Native platform transcripts are usually continuous. Hook-based summarisers are usually boundary. **Periodic** is the missing middle case: MemPalace's default capture hook checkpoints every 15 exchanges rather than every turn or only at session end, trading completeness for lower cost than continuous capture without going as coarse as boundary capture.
-
-### Firing condition versus granularity
-
-The table above answers *how often*. A separate question is *what triggers it*: a schedule, or an event.
-
-**Event-triggered capture** fires in response to something about to happen that would otherwise cause loss, rather than on a fixed cadence. The verified case: MemPalace's `PreCompact` hook fires unconditionally, synchronously, immediately before every compaction event, and flushes the transcript into durable storage first. This is not a fourth granularity, it is a **firing condition that can be layered onto any of the three above** - MemPalace runs it alongside its periodic checkpoint specifically because periodic capture alone leaves a gap that compaction could fall into.
-
-**This is the structural fix for compaction-caused data loss**, and it is a Capture-pillar mechanism, not an Injection-pillar one. See the corrected finding below.
-
-Full treatment, including when a capture mechanism is justified at all: [[memory-observation-layer]].
-
-## Pillar 2: Storage, and its two axes
-
-Storage decides what is kept and how it is organised. It divides twice, on **independent** axes: *what kind of claim* the content makes, and *what form it takes and how much survives*. A system's position on one says nothing about its position on the other.
-
-### First axis: what kind of claim (canonical vs behavioural)
-
-In practice this splits into two stores that answer different questions, are authored differently, and fail differently. Conflating them is what makes the question "is a wiki memory?" feel unanswerable.
-
-| | **Canonical branch** | **Behavioural branch** |
-|---|---|---|
-| Question it answers | **"Is this true?"** | **"Does this change how I act?"** |
-| Content | Decisions, evidence, domain knowledge, synthesis | User profile, standing behavioural corrections |
-| Typical form | A maintained wiki or document store | Memory files loaded by the agent |
-| Authored by | An agent acting as librarian, deliberately | Proposed by the agent, approved by the human |
-| Volume | Large, grows without bound | Small by design, bloat degrades it |
-| Loading | Recall, on demand | Index injected, bodies on demand |
-| Cost of being wrong | Stale or incorrect facts | Repeated mistakes |
-
-**The filing test:** a fact about the world belongs in the canonical branch however important it is. A rule about behaviour belongs in the behavioural branch however trivial it is. Importance does not decide; the *kind of claim* does.
-
-**"Behavioural" means rules *for* behaviour, not records *of* it.** Captured session activity is the Capture pillar's output and belongs nowhere near this branch. A user profile qualifies only because its contents are operating instructions: a fact about the person that does not change how the agent acts belongs in the canonical branch.
-
-### Second axis: what form, and what survives
-
-Two sub-questions, and together they explain why the product landscape looks inconsistent.
-
-**Form: when does synthesis happen?**
-
-- **Synthesise at ingest (write-time).** What lands in the store is already processed. Cheap to read, lossy: the editorial decisions are baked in.
-- **Store faithfully, synthesise at query (query-time).** What lands is raw. Nothing is lost, but every read pays the synthesis cost.
-
-This is the same decision that appears as Recall's write-time/query-time sub-types, seen from the other end. It is *made* at write and it *constrains* how retrieval can work, which is why it belongs to both pillars. Treated in depth in [[wiki-vs-openbrain]].
-
-**Retention: what survives?**
-
-- **Comprehensive.** Keep everything, prune nothing.
-- **Curated.** An agent or human decides what is worth keeping; the rest is pruned or capped.
-
-Simon Scrapes' comparison table calls this the *Data Philosophy* row. It is also the axis that justified splitting Capture out of Storage in the first place, since indiscriminate capture and curated retention are opposite instincts.
-
-**The two are independent**, which is what makes the products legible:
-
-| | **Comprehensive retention** | **Curated retention** |
-|---|---|---|
-| **Synthesise at ingest** (write-time) | **MemSearch** - Haiku summarises every turn at capture and the summary is vectorised; raw dialogue retained only as a last-resort retrieval tier | **Karpathy wiki** - compiles articles on ingest, raw kept but not primary. **Hermes** - agent-curated `memory.md`/`user.md` with character caps, prunes raw transcripts every 7 days |
-| **Store faithfully** (query-time) | **OpenBrain** - faithful `thoughts` table, no synthesis until asked | Rare and mostly incoherent: pruning raw while deferring synthesis discards the material the synthesis would need |
-
-**A common misreading:** MemSearch is often described as "the one that stores raw data". Its own documentation says the opposite - it summarises each turn with Haiku *at capture* and indexes that summary. Its distinctive property is **completeness of retention**, not rawness of form. Both MemSearch and Hermes process at ingest; they differ on what they throw away.
-
-### Why "memory" gets used at two scales
-
-- **Broad sense:** any mechanism that persists knowledge across sessions. A maintained wiki *is* a memory paradigm in this sense. See [[wiki-vs-openbrain|AI Memory Paradigms]].
-- **Narrow sense:** the small curated behavioural store an agent loads at session start, protected from bloat.
-
-A knowledge base can be memory in the first sense while its own rules correctly forbid putting knowledge-base content into memory in the second sense. Both usages are legitimate once both are recognised as branches of Storage.
-
-### The assessment trap
-
-**A strong canonical branch can make Capture look unnecessary while leaving Injection and Recall entirely unaddressed.** The canonical branch is the most visible pillar and the easiest to mistake for the health of the whole system. Judging a memory system by it alone will systematically miss an injection failure.
-
-## Pillar 3: Injection, and its two types
-
-Injection decides **to look at all**, and places material into the context window. Retrieval quality is irrelevant if nothing triggers a lookup.
-
-| | **Scheduled injection** | **Triggered injection** |
-|---|---|---|
-| When | Once, at session start | Mid-session, in response to a turn |
-| Trigger | Deterministic, time-based | Something must *decide* a lookup is needed |
-| Typical form | "Frozen snapshot" of consolidated files, roughly 1,300 to 3,000 tokens | Query against the store, top-k results injected |
-| Token cost | Fixed, predictable, cacheable | Variable, risks bloating context |
-| Defends against | **Cold-start amnesia** | **Compaction loss and context rot** |
-| Cannot fix | Anything degrading *during* a session, because it fires once, before the degradation | Nothing structural, but far harder to build well |
-
-**Simon's Injection pillar is the scheduled type**: frozen snapshots at session start. Sound against cold-start amnesia, and cheap because it caches. It cannot address mid-session degradation, because it has already fired by the time degradation begins.
-
-### The trigger problem
-
-Something has to decide a lookup is warranted. In ascending reliability:
-
-1. **The user asks.** Fragile: depends on the human remembering that relevant material exists.
-2. **The agent decides.** Measured at roughly 25% in one real corpus; see [[memory-curated-index]].
-3. **A deterministic per-turn nudge primes the agent to decide.** A hook fires every turn but injects no content itself, only a hint that memory exists and may be relevant, leaving the actual retrieval to option 2. Cheaper than full triggered injection since no retrieval runs unless the agent acts on the hint; more reliable than option 2 alone since the reminder is unconditional rather than left to the agent's judgement whether to check. Verified example: MemSearch's `UserPromptSubmit` hook, which posts `"[memsearch] Memory available"` on every turn; see [[pillars-memsearch]].
-4. **A hook fires on every turn and injects retrieved content directly.** Deterministic. Pays a retrieval cost per turn whether needed or not. Verified example: ClaudeClaw's `buildMemoryContext`; see [[pillars-claudeclaw]].
-
-Only option 4 removes both the human and the agent's judgement from the loop, which is why hook-based content-injection designs exist despite their cost. Option 3 is the cheaper compromise: it does not remove the agent's judgement, but it removes the risk of the agent simply forgetting to ask.
-
-## Pillar 4: Recall, and its two types
-
-Finding the right material in the store. Recall divides on **when the retrieval signal is computed**, which is the same fork as write-time versus query-time in [[wiki-vs-openbrain|AI Memory Paradigms]].
-
-| | **Write-time recall** | **Query-time recall** |
-|---|---|---|
-| Signal authored | In advance, by a human or agent | Computed at query, from the content |
-| Typical form | Index descriptions, tags, curated links | Embeddings, keyword match |
-| Cost profile | Costly on write, near-free at query | Near-free on write, cost recurs per query |
-| Wins on | Precision, transparency, zero infrastructure | Coverage, and finding material nobody indexed |
-| Fails when | Nothing invokes it, or the corpus outgrows authoring effort | Similarity approximates intent badly; drift on edit |
-| Enabler | [[memory-curated-index]] | [[memory-semantic-search]], keyword search |
-
-**The decisive difference is not quality, it is who pays and when.** Write-time recall front-loads human judgement; query-time recall defers it to the machine. A hybrid, curated index over the canonical branch plus a computed index over raw captured material, is usually stronger than either alone because they fail differently.
-
-**Recall and Injection are distinct.** Recall finds material; Injection decides to look and puts the result in context. A system can have excellent recall and still fail entirely, because nothing invokes it.
+Naming a file or a design after an enabler and then filling it with pillar doctrine is the same category error as bundling capture into storage, one level up. Ask of any component: *is this a job the system must do, a way of doing that job, or something you get once the job is done?*
 
 ---
 
 ## Compaction and context rot: which pillars actually fix them
 
-Neither phenomenon is a storage failure *on the assumption that capture already has everything durably recorded*. That assumption holds for continuous capture. It does not always hold for periodic or boundary capture, which is the correction below.
+This spans Capture and Injection together, which is why it lives in the overview rather than in either pillar's article.
+
+Neither phenomenon is a storage failure *on the assumption that capture already has everything durably recorded*. That assumption holds for continuous capture. It does not always hold for periodic or boundary capture.
 
 | | What happens | Anything lost from disk? | Fixed by |
 |---|---|---|---|
@@ -212,17 +114,26 @@ Neither phenomenon is a storage failure *on the assumption that capture already 
 
 **Two distinct fixes exist for compaction, addressing two distinct failure modes, and they are easy to conflate.**
 
-- **Injection (triggered)** answers "material left the context window, get it back." It presumes the material is still safely on disk and only needs to be re-surfaced. This is the correct fix when capture is continuous, as native platform transcripts usually are.
-- **Event-triggered Capture** answers a sharper question: "is the material on disk in the first place?" A system with periodic or boundary capture has, by construction, a window of uncaptured material sitting between checkpoints. If compaction fires inside that window, the material is compacted out of context *and was never durably recorded* - lost twice over, and triggered injection has nothing to restore, because there is nothing in the store to retrieve. The fix is a capture hook that fires on the compaction event itself, ahead of the schedule, closing the gap before it can be exploited. **Verified example:** MemPalace's `PreCompact` hook, which runs synchronously and ingests the transcript immediately before every compaction; see [[pillars-mempalace]].
+- **Injection (triggered)** answers "material left the context window, get it back." It presumes the material is still safely on disk and only needs re-surfacing. This is the correct fix when capture is continuous, as native platform transcripts usually are.
+- **Event-triggered Capture** answers a sharper question: "is the material on disk in the first place?" A system with periodic or boundary capture has, by construction, a window of uncaptured material between checkpoints. If compaction fires inside that window, the material is compacted out of context *and was never durably recorded* - lost twice over, and triggered injection has nothing to restore. The fix is a capture hook firing on the compaction event itself. **Verified example:** MemPalace's `PreCompact` hook; see [[pillars-mempalace]].
 
-**Which fix a system needs depends entirely on its own Capture mode.** Continuous capture needs only the Injection fix. Periodic or boundary capture needs the event-triggered Capture fix as well, or it has a genuine, structural compaction-loss exposure that Injection alone cannot close.
+**Which fix a system needs depends entirely on its own Capture mode.** Continuous capture needs only the Injection fix. Periodic or boundary capture needs the event-triggered Capture fix as well.
 
-**Where capture is already solved by the platform and is continuous, only the retrieval and injection stages need building.** A proposal that includes a capture stage in that situation is paying twice. That changes if the platform's capture is periodic or boundary: in that case, the compaction-triggered capture hook is not redundant, it is the specific piece closing the gap.
+**Where capture is already solved by the platform and is continuous, only the retrieval and injection stages need building.** A proposal that includes a capture stage in that situation is paying twice. That changes if the platform's capture is periodic or boundary.
 
 ## Related
 
-- [[memory-observation-layer]] - enabler for Capture
-- [[memory-curated-index]] - enabler for Recall, the manual approach
-- [[memory-semantic-search]] - enabler for Recall and triggered Injection
+**The four pillars**
+- [[memory-capture]] - Capture, and the Observation capability it produces
+- [[memory-storage]] - Storage, and its two independent axes
+- [[memory-injection]] - Injection, the pillar most systems under-build
+- [[memory-recall]] - Recall, and the write-time/query-time fork
+
+**Enablers**
+- [[memory-curated-index]] - write-time recall
+- [[memory-semantic-search]] - query-time recall and triggered injection
+
+**Context**
+- [[memory-model-adoption]] - the decision record adopting this frame here
 - [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time, the broad sense of "memory"
 - [[openbrain-vs-agentic-os]] - two query-time implementations compared

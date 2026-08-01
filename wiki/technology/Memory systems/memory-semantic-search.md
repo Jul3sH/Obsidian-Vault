@@ -25,7 +25,7 @@ serves: recall (query-time), injection (triggered)
 
 ## Terminology note: retrieval is not capture
 
-| | **Semantic search** (this article) | **Observation layer** ([[memory-observation-layer]]) |
+| | **Semantic search** (this article) | **Capture** ([[memory-capture]]) |
 |---|---|---|
 | Pillar served | **Recall (query-time)**, and **Injection (triggered)** | **Capture** |
 | Answers | "Can I find what I know is there?" | "Is anything going unrecorded?" |
@@ -89,13 +89,13 @@ That matters because the competing Recall enabler fails precisely there. In the 
 
 Criteria 1, 2 and 3 cleared comfortably. Criterion 4 partly cleared, since the knowledge base curated much but not all of the material. Criterion 5 was the weak point: roughly 25 provenance queries across ten weeks is a thin amortisation base.
 
-**Therefore: index the existing transcripts. Do not build a runtime capture-and-embed pipeline.** The substrate already existed ([[memory-observation-layer]]), so the work is an index, not a system.
+**Therefore: index the existing transcripts. Do not build a runtime capture-and-embed pipeline.** The substrate already existed ([[memory-capture]]), so the work is an index, not a system.
 
 **Restraint argument, from that environment's own data:** system-maintenance was already 24% of total effort, and non-adoption of previously built tooling was empirically confirmed. A vector store is precisely the kind of artefact that gets built, documented, and then never invoked. If it is built, the adoption forcing-function matters more than the architecture.
 
 ## Relationship to the other enablers
 
-- **Depends on Capture.** You cannot embed what was never recorded. Assess [[memory-observation-layer]] first.
+- **Depends on Capture.** You cannot embed what was never recorded. Assess [[memory-capture]] first.
 - **Competes with, and composes with, [[memory-curated-index]].** A write-time index over the canonical branch of Storage plus a query-time index over raw captured material is usually stronger than either alone, because they fail differently: one loses on invocation, the other on precision.
 - **Enables Injection (triggered)**, which nothing else practically does. See [[memory-pillars]].
 
@@ -109,5 +109,5 @@ Criteria 1, 2 and 3 cleared comfortably. Criterion 4 partly cleared, since the k
 
 - [[memory-pillars]] - the four-pillar model; this enabler serves Recall (query-time) and Injection (triggered)
 - [[memory-curated-index]] - the write-time counterpart, and the invocation measurement
-- [[memory-observation-layer]] - the Capture pillar, upstream dependency
+- [[memory-capture]] - the Capture pillar, upstream dependency
 - [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time, the fork this sits on

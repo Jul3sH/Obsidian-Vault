@@ -108,5 +108,5 @@ Against the five-criteria test in [[memory-semantic-search]], a curated index wi
 
 - [[memory-pillars]] - the four-pillar model; this enabler serves Recall (write-time)
 - [[memory-semantic-search]] - the query-time counterpart, and the five-criteria test
-- [[memory-observation-layer]] - the Capture pillar
+- [[memory-capture]] - the Capture pillar
 - [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time, the fork this sits on

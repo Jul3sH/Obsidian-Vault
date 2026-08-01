@@ -13,11 +13,12 @@ Applies to every harness (Claude, Codex, OpenCode), not just one.
 ## The adopted frame
 
 ```
-Capture   (continuous | boundary)
+Capture   (continuous | periodic | boundary; + event-triggered firing)
    ↓
-Storage   (canonical | behavioural)
+Storage   (canonical | behavioural)  x  (form: synthesise-at-ingest | store-faithfully)
+                                     x  (retention: comprehensive | curated)
    ↓
-Injection (scheduled | triggered)
+Injection (scheduled | triggered; 4-rung trigger hierarchy)
    ↓
 Recall    (write-time | query-time)
 ```
@@ -34,8 +35,8 @@ The previous framing was **Store, Inject, Recall** (Simon Scrapes' three pillars
 
 1. **Any memory proposal is scored per pillar**, in dependency order, with a separate "is this solved, and by whom?" answer for each. A proposal that prices a pillar the platform already provides is rejected on that basis alone.
 2. **Any new memory document names the pillar and sub-type it addresses.** Enabler documents declare it in frontmatter (`serves: recall (write-time)`).
-3. **Pillars are never conflated with enablers.** A pillar is a function the system must perform; an enabler is a technology that performs it. Naming a design after an enabler and then filling it with pillar doctrine is the error this model exists to prevent, and it has been made twice here already.
-4. **Terminology is fixed.** "Observation layer" means Capture. "Semantic search" means Recall (query-time) plus triggered Injection. They are not interchangeable, and a retrieval argument never justifies capture spend.
+3. **Pillars, enablers and capabilities are never conflated.** A **pillar** is a function the system must perform; an **enabler** is a technology that performs it; a **capability** is what you get once the pillar is implemented. Naming a design after an enabler and then filling it with pillar doctrine is the error this model exists to prevent, and it has been made twice here already.
+4. **Terminology is fixed.** The **Observation Layer** is the *capability* the Capture pillar produces, not an enabler of it. "Semantic search" means Recall (query-time) plus triggered Injection. They are not interchangeable, and a retrieval argument never justifies capture spend.
 
 ## How the pillars are currently configured here
 
@@ -43,9 +44,9 @@ Recorded in [[memory-operations]], not duplicated. Summary of where the environm
 
 | Pillar | State |
 |---|---|
-| Capture | **Solved.** Native JSONL transcripts, continuous, complete |
+| Capture | **Solved.** Native JSONL transcripts, continuous, complete. No event-triggered (PreCompact) capture, but continuous capture makes that unnecessary here |
 | Storage | Curated markdown. Canonical branch is the wiki; behavioural branch is the memory files |
-| Injection | **Scheduled only.** No triggered injection exists |
+| Injection | **Scheduled only, and weakly.** `CLAUDE.md`/`AGENTS.md` load per session, but `user.md` is fetched by instruction (measured 8% compliance), not injected by a hook. No triggered injection, and no per-turn nudge |
 | Recall | Write-time only: curated index plus bare wikilinks. No query-time index |
 
 **The binding constraint is Injection**, not Capture or Storage. This was not visible before the model separated the pillars, because a strong canonical Storage branch made the whole system look healthy.
@@ -64,7 +65,8 @@ It can be modelled as Storage with multiple backends, which is probably right, b
 
 ## Related
 
-- [[memory-pillars]] - the model itself, its derivation, and the enabler map (theory)
+- [[memory-pillars]] - the model overview: derivation, the enabler map, and cross-pillar analysis (theory)
+- [[memory-capture]] - [[memory-storage]] - [[memory-injection]] - [[memory-recall]] - one article per pillar, each with its sub-types and a catalogue of capabilities observed across real products
 - [[memory-operations]] - how the pillars are configured here, and the standing no-query-time-index decision
 - [[memory-convention]] - the behavioural branch of Storage: types, format, loading rule
 - [[agent-instruction-architecture]] - the parallel three-layer model for instructions
