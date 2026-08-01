@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/Memory systems/memory-curated-index.md",
+                "file": "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory-curated-index"
+              "title": "openbrain-vs-agentic-os"
             }
           }
         ]
@@ -200,18 +200,18 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/technology/Memory systems/memory-storage.md",
+    "wiki/technology/Memory systems/memory-semantic-search.md",
+    "wiki/technology/Memory systems/memory-recall.md",
+    "wiki/technology/Memory systems/memory-pillars.md",
+    "wiki/technology/Memory systems/memory-injection.md",
+    "wiki/technology/Memory systems/memory-capture.md",
     "wiki/technology/Memory systems/memory-capabilities.md",
+    "wiki/technology/Memory systems/memory-curated-index.md",
     "wiki/performance/working-with-yourself/payoff-vs-prestige-bias.md",
     "wiki/ai-os/skills/memory-architect/SKILL.md",
     "wiki/ai-os/skills/memory-architect",
-    "wiki/technology/Memory systems/memory-recall.md",
-    "wiki/technology/Memory systems/memory-injection.md",
-    "wiki/technology/Memory systems/memory-storage.md",
     "wiki/technology/Memory systems/memory-observation-layer.md",
-    "wiki/technology/Memory systems/memory-capture.md",
-    "wiki/technology/Memory systems/memory-curated-index.md",
-    "wiki/technology/Memory systems/memory-semantic-search.md",
-    "wiki/technology/Memory systems/memory-pillars.md",
     "wiki/technology/Memory systems/_index.md",
     "wiki/technology/Memory systems/pillars-mempalace.md",
     "wiki/technology/Memory systems/pillars-memsearch.md",
