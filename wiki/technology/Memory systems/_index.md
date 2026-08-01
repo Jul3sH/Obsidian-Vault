@@ -26,6 +26,13 @@ These build on each other. Read top to bottom the first time; the model in (1) s
 5. [[wiki-vs-openbrain|Wiki vs OpenBrain: Write-Time vs Query-Time]] - the paradigm fork underneath Recall's two sub-types: compile on ingest, or synthesise on query. Where each wins, where each breaks, and the hybrid resolution.
 6. [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
 
+**Products scored against the model** (one file per system, scoring only; each links to its architecture doc)
+
+7. [[pillars-claudeclaw|ClaudeClaw]] - the only system assessed with genuine triggered injection; aggressively curated capture; actually in use.
+8. [[pillars-agentic-os|Agentic OS]] - strongest storage and recall assessed, no injection pillar at all, and recorded as "built but never ingested".
+9. `pillars-memsearch` - *not yet written, awaiting authoritative repo source.*
+10. `pillars-mempalace` - *not yet written, awaiting authoritative repo source.*
+
 ## Related, filed elsewhere
 
 - [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - what each storage term actually means. Only one of them is a database engine. Lives at `wiki/technology/` root as general storage reference.
