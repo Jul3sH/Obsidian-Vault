@@ -93,7 +93,8 @@ A third term, **capability**, names what you *get* once a pillar is implemented 
 | Compaction-event capture hooks | Capture (event-triggered) | [[pillars-mempalace]] |
 | Curated index hierarchy plus bare wikilinks | **Recall (write-time)** | [[memory-curated-index]] |
 | Keyword search, grep | **Recall (query-time)** | (no dedicated article) |
-| Vector / embedding index | **Recall (query-time)**, and the only practical enabler of **Injection (triggered)** | [[memory-semantic-search]] |
+| Vector / embedding index | **Recall (query-time)**, and the most *scalable* enabler of **Injection (triggered)** | [[memory-semantic-search]] |
+| Curated trigger table | **Injection (triggered)**, hand-written topic-to-file rules, no embeddings. Cheap and exact, but scales only to a handful of rules and depends on the agent noticing the trigger | [[memory-injection]] |
 | Frozen snapshot of consolidated files | **Injection (scheduled)** | [[memory-injection]] |
 | Deterministic per-turn hint with agent-decided retrieval | **Injection**, trigger rung 3 - injects no content itself | [[pillars-memsearch]] |
 
