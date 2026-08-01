@@ -110,4 +110,4 @@ Criteria 1, 2 and 3 cleared comfortably. Criterion 4 partly cleared, since the k
 - [[memory-pillars]] - the four-pillar model; this enabler serves Recall (query-time) and Injection (triggered)
 - [[memory-curated-index]] - the write-time counterpart, and the invocation measurement
 - [[memory-observation-layer]] - the Capture pillar, upstream dependency
-- [[ai-memory-paradigms]] - write-time versus query-time, the fork this sits on
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time, the fork this sits on

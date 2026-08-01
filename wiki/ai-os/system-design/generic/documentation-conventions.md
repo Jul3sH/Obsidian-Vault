@@ -107,6 +107,52 @@ Folders appear **as the project grows**. Because links are bare, foldering later
 - **Use a path link only to disambiguate a duplicate filename.** Better still: keep basenames **unique across the vault** so disambiguation is never needed. (Known collision to clean up: `tti-ai-leadership-brief` / `tti-consulting-brief` exist in both `career/tti/_on-hold/` and `deliverables/`.)
 - Path links (`[[../../area/file]]`) are the thing that made the one-time TTI migration expensive. Avoid creating new ones.
 
+#### Exemption: structurally-named files always use path links
+
+Some filenames are **fixed by a convention, not chosen for uniqueness**, so they collide by design and can never be linked bare. This is not a defect to clean up; it is forced.
+
+| Structural name | Why it is fixed | Count |
+|---|---|---|
+| `SKILL.md` | Mirror filename must match `~/.claude/skills/[name]/SKILL.md` exactly | 22 |
+| `_index.md` | Index convention, one per folder | many |
+| `TESTING.md`, `architecture.md`, `capabilities.md`, `pricing.md` | Fixed slot names inside a skill or vendor folder | several each |
+
+**A skill's name is a folder, not a file.** `[[commitment-guard]]` can never resolve, because the file is `commitment-guard/SKILL.md`. `[[SKILL]]` is ambiguous across all 22.
+
+**Canonical form, always use this:**
+
+```
+[[ai-os/skills/commitment-guard/SKILL|commitment-guard]]
+```
+
+Path from `wiki/`, plus a pipe alias so the rendered text stays readable. Inside a table, escape the pipe: `\|`.
+
+**The rule in one line:** names you *choose* get bare links and must be unique; names fixed by *convention* get path links with an alias.
+
+### File lifecycle: which operations break links
+
+The bare-link convention makes **moves** free. It does nothing for renames or deletions, and the ease of moving makes those feel free too. They are not: this is how link rot happens.
+
+| Operation | Inbound links | Indexes |
+|---|---|---|
+| **Create** | n/a | Add to the destination `_index` |
+| **Move** between state folders | **Untouched.** Bare links survive | Update source `_index`, destination `_index`, and master if listed |
+| **Rename** | **Repoint every inbound link.** Bare links break on a basename change | Update every index that lists it |
+| **Delete** | **Repoint or remove every inbound link.** Decide per link | Remove from every index |
+| **Supersede / merge** | **Repoint inbound links to the successor**, never leave them dangling | Remove the old entry; confirm the successor is listed |
+
+**Before any rename, delete, or merge, find the inbound links first:**
+
+```bash
+grep -rnE "\[\[[^]]*old-note-name" wiki/
+```
+
+**Do not anchor the pattern to `[[`.** A bare link starts with the name, but a path link starts with the *path* (`[[ai-os/skills/commitment-guard/SKILL|…]]`), so an anchored grep silently misses every path link. The unanchored form above catches both.
+
+Do that *before* the operation, not after, so the list is still accurate. For a delete, each hit is a decision: repoint it to the successor, or remove the link and its sentence.
+
+**Why this matters:** an audit on 2026-07-31 found 51 broken links across 12 missing targets, one deleted note accounting for 21 of them. Every one was a rename or delete performed as if it were a move.
+
 ### The cost model
 - **Day-one cost: ~zero.** A file created in the right folder with bare links needs no fixing.
 - **Per-state-move cost: small.** Move the file, then update the source `_index`, the destination `_index`, and the master `_index` if it lists the item. **Links are not touched** (bare links don't break). The librarian does the index update as part of the move.

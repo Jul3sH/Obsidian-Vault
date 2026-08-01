@@ -100,7 +100,7 @@ Storage decides what is kept and how it is organised. In practice it splits into
 
 ### Why "memory" gets used at two scales
 
-- **Broad sense:** any mechanism that persists knowledge across sessions. A maintained wiki *is* a memory paradigm in this sense. See [[ai-memory-paradigms]].
+- **Broad sense:** any mechanism that persists knowledge across sessions. A maintained wiki *is* a memory paradigm in this sense. See [[wiki-vs-openbrain|AI Memory Paradigms]].
 - **Narrow sense:** the small curated behavioural store an agent loads at session start, protected from bloat.
 
 A knowledge base can be memory in the first sense while its own rules correctly forbid putting knowledge-base content into memory in the second sense. Both usages are legitimate once both are recognised as branches of Storage.
@@ -136,7 +136,7 @@ Only option 3 removes both the human and the agent's judgement from the loop, wh
 
 ## Pillar 4: Recall, and its two types
 
-Finding the right material in the store. Recall divides on **when the retrieval signal is computed**, which is the same fork as write-time versus query-time in [[ai-memory-paradigms]].
+Finding the right material in the store. Recall divides on **when the retrieval signal is computed**, which is the same fork as write-time versus query-time in [[wiki-vs-openbrain|AI Memory Paradigms]].
 
 | | **Write-time recall** | **Query-time recall** |
 |---|---|---|
@@ -171,5 +171,5 @@ The commonly proposed architecture (a hook captures each turn, stores it in a ve
 - [[memory-observation-layer]] - enabler for Capture
 - [[memory-curated-index]] - enabler for Recall, the manual approach
 - [[memory-semantic-search]] - enabler for Recall and triggered Injection
-- [[ai-memory-paradigms]] - write-time versus query-time, the broad sense of "memory"
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time, the broad sense of "memory"
 - [[openbrain-vs-agentic-os]] - two query-time implementations compared

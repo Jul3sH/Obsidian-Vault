@@ -119,4 +119,4 @@ For what capture cannot fix, including compaction and context rot, see [[memory-
 - [[memory-pillars]] - the four-pillar model; this enabler serves Capture
 - [[memory-semantic-search]] - enabler for Recall and triggered Injection
 - [[memory-curated-index]] - enabler for Recall, the manual approach
-- [[ai-memory-paradigms]] - write-time versus query-time
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time

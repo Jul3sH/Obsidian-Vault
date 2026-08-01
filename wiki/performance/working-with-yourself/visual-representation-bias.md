@@ -40,7 +40,7 @@ When evaluating an option with emotional pull, ask: **"What does the ordinary ba
 
 If the bad-day image is materially worse than was pictured: name it, log it in the subject's own words, and ask whether it changes the weighting. If both images are present and the option still wins: accept it. That is a genuine preference, not a bias-driven one.
 
-This is embedded in the [[decision-visualisation-check]] skill: the check fires automatically when Julian is evaluating life, career, or relationship options and expresses a preference based on feel.
+This is embedded in the [[ai-os/skills/decision-visualisation-check/SKILL|decision-visualisation-check]] skill: the check fires automatically when Julian is evaluating life, career, or relationship options and expresses a preference based on feel.
 
 ## Key Takeaways
 
@@ -48,4 +48,4 @@ This is embedded in the [[decision-visualisation-check]] skill: the check fires 
 - The pleasant image builds first; the unpleasant image must be deliberately constructed
 - Fatigue and time pressure make the bias worse
 - The intervention is simple: ask for both images, not just the one that formed naturally
-- This check fires BEFORE commitment; [[commitment-guard]] defends the decision AFTER commitment
+- This check fires BEFORE commitment; [[ai-os/skills/commitment-guard/SKILL|commitment-guard]] defends the decision AFTER commitment

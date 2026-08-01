@@ -24,7 +24,7 @@
 
 ## Reference Libraries
 
-- [[technology/_index|Technology]] — Technical reference library: tools, products, APIs, and vendor catalogues; includes [[technology/sales-marketing-tech/_index|Sales & Marketing Technology]], [[technology/claude-anthropic/_index|Claude & Anthropic]], [[technology/agentic-os/_index|Agentic OS]], and the AI memory architecture comparisons ([[ai-memory-paradigms|write-time vs query-time]])
+- [[technology/_index|Technology]] — Technical reference library: tools, products, APIs, and vendor catalogues; includes [[technology/sales-marketing-tech/_index|Sales & Marketing Technology]], [[technology/claude-anthropic/_index|Claude & Anthropic]], [[technology/agentic-os/_index|Agentic OS]], and the AI memory architecture comparisons ([[wiki-vs-openbrain|write-time vs query-time]])
 - [[enterprise-architecture/_index|Enterprise Architecture]] — EA frameworks, governance, service design, organisational patterns, and market intelligence; includes [[enterprise-architecture/ai-strategy/_index|AI Strategy & Organisation]]
 
 ---

@@ -31,7 +31,7 @@ A retrieval scheme with three parts:
 2. **Bare wikilinks** (`[[note-name]]`) connecting related documents, resolved by filename rather than path.
 3. **Filing discipline** that keeps both current as documents are created and moved.
 
-The defining property: **the retrieval signal is written in advance by a human or agent, not computed at query time.** That is the exact inverse of [[memory-semantic-search]], and it maps onto the write-time versus query-time fork in [[ai-memory-paradigms]].
+The defining property: **the retrieval signal is written in advance by a human or agent, not computed at query time.** That is the exact inverse of [[memory-semantic-search]], and it maps onto the write-time versus query-time fork in [[wiki-vs-openbrain|AI Memory Paradigms]].
 
 ## How retrieval actually works
 
@@ -109,4 +109,4 @@ Against the five-criteria test in [[memory-semantic-search]], a curated index wi
 - [[memory-pillars]] - the four-pillar model; this enabler serves Recall (write-time)
 - [[memory-semantic-search]] - the query-time counterpart, and the five-criteria test
 - [[memory-observation-layer]] - the Capture pillar
-- [[ai-memory-paradigms]] - write-time versus query-time, the fork this sits on
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - write-time versus query-time, the fork this sits on

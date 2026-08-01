@@ -357,6 +357,14 @@ engagement-strategy doc). TTI (`wiki/career/tti/`) is the reference implementati
 - **On a state-move:** move the file and update the source `_index`, destination
   `_index`, and master `_index` if it lists the item. Links are NOT touched
   (they're bare). The index update is mandatory: skipping it rots the structure.
+- **On a rename, delete, or merge: links DO break.** Bare links survive moves only.
+  Before the operation, run `grep -rnE "\[\[[^]]*old-note-name" wiki/` (unanchored,
+  so it catches path links too) and repoint every
+  inbound link (to the successor on a merge) or remove it. Doing this afterwards
+  loses the list. Full lifecycle table: `documentation-conventions.md`.
+- **Structurally-named files (`SKILL.md`, `_index.md`, `TESTING.md`, `capabilities.md`)
+  can never be linked bare** - their names are fixed by convention, so they collide by
+  design. Use the path-plus-alias form: `[[ai-os/skills/[name]/SKILL|[name]]]`.
 
 ---
 

@@ -30,7 +30,7 @@ This folder is for **technical reference material**: product capabilities, prici
 
 How AI context layers are structured, and how the main implementations compare.
 
-- [[ai-memory-paradigms|AI Memory Paradigms: Write-Time vs Query-Time]] - The fork every AI knowledge system must answer, Karpathy's wiki versus OpenBrain, where each wins and breaks, and the hybrid resolution.
+- [[wiki-vs-openbrain|AI Memory Paradigms: Write-Time vs Query-Time]] - The fork every AI knowledge system must answer, Karpathy's wiki versus OpenBrain, where each wins and breaks, and the hybrid resolution.
 - [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - Two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
 - [[openbrain-vs-personal-ai-os|OpenBrain (OB1) vs This Wiki]] - Why this vault is a Karpathy wiki, and how its wiki-to-Jira flow inverts the proposed hybrid.
 - [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - What each term actually is. Only one of them is a database engine.

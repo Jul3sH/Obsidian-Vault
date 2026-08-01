@@ -6,7 +6,7 @@ tags: [technology, ai, memory, architecture, comparison]
 
 # OpenBrain (OB1) vs This Wiki
 
-> *How Nate B Jones's OpenBrain compares to the Obsidian wiki plus Claude memory setup documented in [[ai-os/_index|AI OS]]. Assessed against the framework in [[ai-memory-paradigms]].*
+> *How Nate B Jones's OpenBrain compares to the Obsidian wiki plus Claude memory setup documented in [[ai-os/_index|AI OS]]. Assessed against the framework in [[wiki-vs-openbrain|AI Memory Paradigms]].*
 
 **Headline:** this vault is **Karpathy's wiki, not OpenBrain.** It is the write-time, file-over-app, single-maintainer compiled artifact that OpenBrain was explicitly built as an alternative to. The system Jones compares *against* is, structurally, the one already running here.
 
@@ -82,7 +82,7 @@ This is the genuine capability gap. There is no way to ask "every deliverable to
 
 ## Related
 
-- [[ai-memory-paradigms]] - the write-time versus query-time framework this assessment uses
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - the write-time versus query-time framework this assessment uses
 - [[openbrain-vs-agentic-os]] - OB1 compared to the Agentic OS memory system
 - [[postgres-pgvector]] - what Postgres, pgvector, PGLite, and Supabase each actually are
 - [[memory-system-explained]] - how the Claude memory layer in this vault works

@@ -86,4 +86,4 @@ Concepts that appear alongside these four in AI memory documentation.
 
 - [[openbrain-vs-agentic-os]] - the two systems that use this stack, compared
 - [[agentic-os/memory-database-schema|Agentic OS Memory Database Schema]] - a concrete pgvector schema with HNSW indexes and scope constraints
-- [[ai-memory-paradigms]] - why these systems are database-backed in the first place
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - why these systems are database-backed in the first place

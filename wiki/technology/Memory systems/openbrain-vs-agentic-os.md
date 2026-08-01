@@ -6,7 +6,7 @@ tags: [technology, agentic-os, ai, memory, architecture, comparison]
 
 # OpenBrain (OB1) vs Agentic OS Memory
 
-> *Two database-backed AI memory systems compared: [OB1](https://github.com/NateBJones-Projects/OB1) by Nate B Jones, and the PGLite plus pgvector memory layer inside Agentic OS. Assessed against the framework in [[ai-memory-paradigms]].*
+> *Two database-backed AI memory systems compared: [OB1](https://github.com/NateBJones-Projects/OB1) by Nate B Jones, and the PGLite plus pgvector memory layer inside Agentic OS. Assessed against the framework in [[wiki-vs-openbrain|AI Memory Paradigms]].*
 
 **Headline:** both are **query-time systems** in Jones's own taxonomy. Unlike a Karpathy-style wiki, both store faithfully on ingest and let the AI synthesise when asked. They are architectural cousins. The differences are about *what they are a memory of*, *how data arrives*, and *deployment posture*.
 
@@ -49,7 +49,7 @@ This is where Jones's own framework bites his neighbour.
 - **OB1 is pure OpenBrain.** It stores thoughts faithfully and defers *all* synthesis to query time.
 - **Agentic OS performs a small write-time compile.** Haiku turns each session into a 2 to 10 bullet summary *before* it is embedded. What gets retrieved later is the summary, not the conversation.
 - That makes Agentic OS a **light hybrid**: a lossy synthesis step at capture feeding a query-time vector store. It buys cheap, dense recall.
-- It also walks directly into the editorial nuance-drop trap described in [[ai-memory-paradigms]]. The AI's framing of the session silently becomes the record.
+- It also walks directly into the editorial nuance-drop trap described in [[wiki-vs-openbrain|AI Memory Paradigms]]. The AI's framing of the session silently becomes the record.
 - **Its mitigation is Karpathy's.** Raw transcripts are archived to `context/transcripts/{date}/` (gitignored, not indexed by default) and exposed through the third rung of the recall ladder when exact wording matters.
 
 ## The Three-Rung Recall Ladder
@@ -93,7 +93,7 @@ Rung 3 is the escape hatch back to ground truth: the discipline Jones says most 
 
 ## Related
 
-- [[ai-memory-paradigms]] - the write-time versus query-time framework
+- [[wiki-vs-openbrain|AI Memory Paradigms]] - the write-time versus query-time framework
 - [[agentic-os/memory-system-architecture|Memory System Architecture]] - the four layers in detail
 - [[agentic-os/memory-database-schema|Memory Database Schema]] - tables, scope model, no-leak boundary
 - [[agentic-os/session-capture-and-storage|Session Capture and Storage]] - how the Stop hook and transcript archive work
