@@ -398,6 +398,21 @@ Ask: "What specifically gets better in your life or career when this Project is 
 - Score 2 if minor — marginal improvement, easily deferred
 - Score 1 if negligible — maintenance-level, no meaningful impact
 
+**Payoff-route evidence (Career and Performance Projects only).** For these two
+workstreams, a Value score of 5 or 8 must be backed by a named payoff route, via
+whichever branch applies:
+- **Commercial:** a named buyer segment plus the artefact they would pay for.
+- **Corporate:** a named role responsibility plus two or more named deliverables
+  the Project creates AI leverage for, with the saving stated.
+
+If neither can be named, Value is capped at 3 — real but indirect. This is not a
+veto: the Project can still be defined and ranked, it just cannot claim a high
+Value score on the strength of "I'd know more" or "I could advise better". That
+phrasing is the prestige payoff, and left unchecked it inflates Value on exactly
+the work Julian is most drawn to and least likely to convert into output. Do not
+apply this to Wellbeing, Relationships, Personal, or Finance Projects. See
+`wiki/performance/working-with-yourself/payoff-vs-prestige-bias.md`.
+
 **Time Criticality (what's the cost of waiting?):**
 Ask: "What specifically gets worse if you delay this Project by one month?"
 - Score 8 if a window closes — severe concrete consequence if missed this month

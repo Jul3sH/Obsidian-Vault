@@ -165,6 +165,50 @@ thing to do — surface it before committing hours to the work it underpins. Wri
 the assumptions and their tests into the file's `## Load-Bearing Assumptions`
 section.
 
+### 1.6 — Payoff Test
+
+**Scope:** run this for Career and Performance work only — anything whose payoff
+is money earned or a corporate deliverable landed. Skip it for Wellbeing,
+Relationships, Personal, and Finance tasks. A payoff gate applied to family,
+health, or life-admin work produces obviously wrong answers, and a gate that
+produces wrong answers is one Julian learns to route around.
+
+The failure this catches: work selected because it would be impressive to
+explain, rather than because it produces something. Full context in
+`wiki/performance/working-with-yourself/payoff-vs-prestige-bias.md`.
+
+**Q1 — Payoff.** Ask via the branch that applies:
+- **Commercial:** "Who pays, and what would they pay for once this is done?"
+  Passes on a named buyer segment plus the artefact they would exchange money for.
+- **Corporate:** "Name the role and responsibility this sits under, and how this
+  activity creates AI leverage for related deliverables." Passes on a named
+  responsibility plus **two or more named deliverables** it makes faster,
+  cheaper, or better, with the saving stated.
+
+The corporate branch fails if the activity serves only the one deliverable in
+front of him: that is not leverage, that is just doing the deliverable. It also
+fails on advisory-sounding answers ("so I can advise better", "so I understand
+the space") — that is the prestige answer wearing a corporate suit.
+
+**Q2 — Silence test.** "If you could never tell anyone you knew this, would you
+still do it?" A "no" means the prestige payoff is carrying the work. This does
+not automatically kill the task, but the Q1 answer must then stand entirely on
+its own without it.
+
+**Q3 — Good Enough.** "Complete this sentence: *this is good enough when
+[observable condition]*." Passes only if the condition is observable by someone
+other than Julian. "When the client accepts the draft without rework" passes;
+"when I properly understand it" fails — an unbounded stopping condition is the
+mechanism by which useful learning turns academic. Capture the line now so it
+can be checked at completion rather than renegotiated mid-flow under hyperfocus.
+
+**Escape hatch.** Foundational work with no buyer or named deliverable yet is
+legitimate. It may pass Q1 as **"speculative — no payoff route yet"**, provided
+it is labelled that way in the file and speculative work stays within 5 of the
+40 sprint hours. Do not invent a fake buyer to get through the gate.
+
+Write the answers into the file's `## Payoff Test` section.
+
 ---
 
 ## Step 2 — Sizing
@@ -269,6 +313,16 @@ value-rationale: [leave blank if Project-linked; required for standalone tasks]
 assumption, and the cheapest test that would confirm or break it. Challenge hard
 before writing "none".]
 
+## Payoff Test
+[Career and Performance work only - delete this section for Wellbeing,
+Relationships, Personal, or Finance tasks.]
+- **Payoff:** [commercial: named buyer + the artefact they pay for | corporate:
+  role and responsibility + the 2+ named deliverables this leverages, with the
+  saving stated | speculative - no payoff route yet]
+- **Silence test:** [pass / fail - if fail, why the payoff answer stands alone]
+- **Good enough when:** [observable stopping condition, checkable by someone
+  other than Julian]
+
 ## Links
 - **Project:** [[../projects/[project-slug]|[Project Name]]]
 - **Workstream:** [[../[workstream]/_index|[workstream]]]
@@ -276,11 +330,14 @@ before writing "none".]
 
 ### 4.2 — Update the Project's Deliverables table
 
-Before adding, confirm all three backlog admission gates are met:
+Before adding, confirm the backlog admission gates are met:
 - **Scoped** — completion criteria defined ✓ (completed in Step 1.3)
 - **Sized** — hours estimate assigned ✓ (completed in Step 2)
 - **Value-linked** — Project Outcome/Output identified, or standalone value
   rationale written ✓ (confirmed in Step 1.1)
+- **Payoff-tested** — payoff route named, silence test run, "good enough when"
+  line written ✓ (completed in Step 1.6). Career and Performance work only;
+  mark N/A for other workstreams.
 
 If all three pass: add a row to the `## Deliverables` table in
 `wiki/projects/[project-slug].md` (create the section if it doesn't exist yet).

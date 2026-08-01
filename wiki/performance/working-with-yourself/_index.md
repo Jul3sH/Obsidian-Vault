@@ -21,3 +21,4 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 - [[competence-as-fuel]] — Terminal work (building, analysing, learning) is a primary energy and confidence source; extended absence silently erodes self-esteem
 - [[commitment-avoidance]] — The open-options trap: keeping options open past usefulness, substituting analysis for commitment; forcing-function counter-moves. Cross-links to the [[decision-maker-profile|Decision-Maker Profile]].
 - [[visual-representation-bias]] — When a vivid but incomplete mental image substitutes for analysis: the pleasant frame crystallises first and builds strong; the bad-day version must be deliberately constructed before a feel-based decision is made.
+- [[payoff-vs-prestige-bias]] — When learning is selected by the image of explaining it impressively rather than by what it produces; the Payoff Test (payoff route, silence test, "good enough when") and where it fires across the define/plan/retro skills.

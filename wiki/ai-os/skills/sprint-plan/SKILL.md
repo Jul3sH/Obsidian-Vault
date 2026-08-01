@@ -130,6 +130,27 @@ user already reached in a prior deliverable or decision (a known failure mode �
 see `feedback-assumption-audit`). This is a 30-second gut check per story, not a
 full audit — that happens at definition time in the `/define-*` skills.
 
+**Payoff check (Career and Performance stories only):**
+For each Career or Performance story the user wants to commit, ask one question:
+"Who pays for this, or which named deliverables does it create leverage for?"
+
+A good answer names a buyer plus what they'd pay for, or a role responsibility
+plus two or more deliverables it makes faster, cheaper, or better. A weak answer
+— "it'll make me better at X", "so I can advise on this properly" — is the
+prestige answer, and the story should either be re-scoped toward an output or
+dropped down the rank. Skip this entirely for Wellbeing, Relationships, Personal,
+and Finance stories.
+
+If the story's file has a `## Payoff Test` section from `/define-*`, read it
+rather than re-asking. If it doesn't, that is the signal the story was defined
+before this gate existed — ask the question now.
+
+Speculative learning with no payoff route yet is allowed but capped: keep the
+sprint total of speculative stories at or below 5 SP. If the commitment exceeds
+that, flag it: "You've got [X] SP of speculative learning committed against a 5
+SP cap — which one earns its place?" This is a 30-second check per story, not a
+full audit. Background: `wiki/performance/working-with-yourself/payoff-vs-prestige-bias.md`.
+
 **Confirm the final list:** Once the user is satisfied, summarise:
 ```
 Sprint commitment:

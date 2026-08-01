@@ -212,6 +212,56 @@ If a load-bearing assumption is untested, the cheap test often *is* the enabler
 itself, or should precede it. Write the assumptions and their tests into the
 file's `## Load-Bearing Assumptions` section.
 
+### 1.8 — Payoff Test
+
+**Enablers are the highest-risk deliverable type for this gate.** An enabler's
+value is indirect by design, which makes "this unblocks future work" an easy
+cover story for work chosen because it would be impressive to explain. Exploration
+spikes are the sharpest case. Run this step carefully here.
+
+**Scope:** run this for Career and Performance work only — anything whose payoff
+is money earned or a corporate deliverable landed. Skip it for Wellbeing,
+Relationships, Personal, and Finance enablers. A payoff gate applied to family,
+health, or life-admin work produces obviously wrong answers, and a gate that
+produces wrong answers is one Julian learns to route around.
+
+Full context in `wiki/performance/working-with-yourself/payoff-vs-prestige-bias.md`.
+
+**Q1 — Payoff.** Ask via the branch that applies:
+- **Commercial:** "Who pays, and what would they pay for once this is done?"
+  Passes on a named buyer segment plus the artefact they would exchange money for.
+- **Corporate:** "Name the role and responsibility this sits under, and how this
+  activity creates AI leverage for related deliverables." Passes on a named
+  responsibility plus **two or more named deliverables** it makes faster,
+  cheaper, or better, with the saving stated.
+
+Step 1.4 already named what this enabler unblocks. Q1 is stricter: it requires
+the unblocked items to be **two or more named deliverables** and the saving to be
+stated. If Step 1.4's answer was a single downstream item, the enabler is not
+creating leverage, it is a step inside that item — fold it in rather than
+defining it separately. Advisory-sounding answers ("so I can advise better", "so
+I understand the space") fail; that is the prestige answer wearing a corporate suit.
+
+**Q2 — Silence test.** "If you could never tell anyone you knew this, would you
+still do it?" A "no" means the prestige payoff is carrying the work. This does
+not automatically kill the enabler, but the Q1 answer must then stand entirely on
+its own without it.
+
+**Q3 — Good Enough.** "Complete this sentence: *this is good enough when
+[observable condition]*." Passes only if the condition is observable by someone
+other than Julian. For an Exploration spike this is the timebox plus the decision
+it feeds ("good enough when I can say yes or no to X, capped at 4 hours"), never
+"when I properly understand it" — an unbounded stopping condition is the mechanism
+by which useful learning turns academic. Capture the line now so it can be checked
+at completion rather than renegotiated mid-flow under hyperfocus.
+
+**Escape hatch.** Foundational work with no buyer or named deliverable yet is
+legitimate. It may pass Q1 as **"speculative — no payoff route yet"**, provided
+it is labelled that way in the file and speculative work stays within 5 of the
+40 sprint hours. Do not invent a fake buyer to get through the gate.
+
+Write the answers into the file's `## Payoff Test` section.
+
 ---
 
 ## Step 2 — Sizing
@@ -338,6 +388,16 @@ explaining what this type means in this context]
 assumption, and the cheapest test that would confirm or break it. For Exploration
 spikes, the assumption under test goes here. Challenge hard before writing "none".]
 
+## Payoff Test
+[Career and Performance work only — delete this section for Wellbeing,
+Relationships, Personal, or Finance enablers.]
+- **Payoff:** [commercial: named buyer + the artefact they pay for | corporate:
+  role and responsibility + the 2+ named deliverables this leverages, with the
+  saving stated | speculative — no payoff route yet]
+- **Silence test:** [pass / fail — if fail, why the payoff answer stands alone]
+- **Good enough when:** [observable stopping condition, checkable by someone
+  other than Julian. For Exploration spikes: the timebox + the decision it feeds.]
+
 ## Links
 - **Project:** [[../projects/[project-slug]|[Project Name]]]
 - **Workstream:** [[../[workstream]/_index|[workstream]]]
@@ -345,10 +405,13 @@ spikes, the assumption under test goes here. Challenge hard before writing "none
 
 ### 4.2 — Update the Project's Deliverables table
 
-Before adding, confirm all three backlog admission gates are met:
+Before adding, confirm the backlog admission gates are met:
 - **Scoped** — success criteria defined ✓ (completed in Step 1.5)
 - **Sized** — story points assigned ✓ (completed in Step 2)
 - **Value-linked** — unblocks a named story/Project result, or standalone value rationale written ✓ (confirmed in Steps 1.1 and 1.4)
+- **Payoff-tested** — payoff route named, silence test run, "good enough when"
+  line written ✓ (completed in Step 1.8). Career and Performance work only;
+  mark N/A for other workstreams.
 
 If all three pass: add a row to the `## Deliverables` table in
 `wiki/projects/[project-slug].md` (create the section if it doesn't exist yet).

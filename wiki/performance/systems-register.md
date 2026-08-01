@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-07-23
+updated: 2026-08-01
 ---
 
 # Systems Register
@@ -21,7 +21,9 @@ A live inventory of every **system, process, or tool** Julian has built for hims
 - **Purpose** — what it was meant to do
 - **Adoption forcing-function** — the mechanism that should make you actually use it (scheduled first-use, a trigger, an accountability surface). If blank, that's the gap — the system has no reason to survive contact with boredom
 - **Last used** — when it was last genuinely run
-- **Status** — **Live** (used regularly) / **Lapsed** (built and adopted but has drifted) / **Abandoned** (built, never truly adopted) / **Retired** (deliberately stopped)
+- **Status** — **New** (built, adoption not yet proven) / **Live** (used regularly) / **Lapsed** (built and adopted but has drifted) / **Abandoned** (built, never truly adopted) / **Retired** (deliberately stopped)
+
+A **New** row is not a pass. It is a row on the clock: if it has not moved to **Live** within roughly two weeks of real use, it moves to **Abandoned**.
 
 ---
 
@@ -36,6 +38,7 @@ Every time a new system is built, it gets a row here **at creation**, with its a
 | ID | System | Built | Purpose | Adoption forcing-function | Last used | Status |
 |----|--------|-------|---------|--------------------------|-----------|--------|
 | SYS-1 | Jira sprint system (BWS Development Sprints + Claude integration; ceremony skills: `/sprint-plan`, `/standup`, `/retro`, `/morning`, `/jira-sync`, `/jira-pull`) | 2026 (mid) | Run personal work as sprints — plan, track, review deliverables against WSJF priority | Ceremony skills scheduled at fixed times (morning 6am, standup/retro 4pm) — but no habit was formed to honour them | Shortly after build | **Lapsed** — overcomplicated the start ("needs a perfect sprint plan first"), then dropped it. The ceremonies exist as a ready-made re-adoption forcing-function if restarted |
+| SYS-2 | Payoff Test gate (see [[payoff-vs-prestige-bias]]) — embedded in `/define-task`, `/define-user-story`, `/define-enabler`, `/project-planner`, `/sprint-plan`, `/retro` | 1 Aug 2026 | Stop Career/Performance work being selected because it would be impressive to explain rather than because it produces something. Three questions: payoff route, silence test, "good enough when" | **Automatic** — fires inside skills already run; nothing new to remember. Accountability surface is the `/retro` question *"what did you spend time on this week you couldn't invoice for?"*, and the 5 SP speculative cap checked at `/sprint-plan` | Not yet — first use is the next `/define-*` run | **New** — not yet adopted. Adopted only once it has survived two consecutive retros without being skipped |
 
 ---
 
