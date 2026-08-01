@@ -115,7 +115,7 @@ This should NOT be a formal written brief to Justin. It's a 5-minute conversatio
 
 ## Related
 
-- [[tti-artefact-first-strategy]] — The strategy this briefing supports.
+- [[tti-engagement-strategy|tti-artefact-first-strategy]] — The strategy this briefing supports.
 - [[tti-executive-stakeholders#Justin Gilbert]] — Full Justin profile with influence layers, drinking pattern, post-senior-role personality, "keep him involved" master rule.
 - [[tti-executive-stakeholders#Stephan Pudwill]] — Stephan profile with empathy-as-action-engine, "what do you think?" decision pattern.
 - [[tti-stephan-relationship-analysis]] — Relationship analysis with Material Correction (empathy is primary, not business case).

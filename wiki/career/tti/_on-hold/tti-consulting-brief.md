@@ -10,7 +10,7 @@ linked-story: "[[../../../deliverables/tti-consulting-brief|BWS-8]]"
 ---
 
 > **ON HOLD (paused 2026-05-29) — not retired.**
-> The artefact-first pivot absorbed generic consulting positioning into per-artefact "two modes" closing language, so this brief is paused, not killed. Kept as a foundation that may be repurposed later. See [[tti-artefact-first-strategy]] for context; current first artefact: [[../../../deliverables/tti-ai-enablement-strategy]].
+> The artefact-first pivot absorbed generic consulting positioning into per-artefact "two modes" closing language, so this brief is paused, not killed. Kept as a foundation that may be repurposed later. See [[tti-engagement-strategy|tti-artefact-first-strategy]] for context; current first artefact: [[../../../deliverables/tti-ai-enablement-strategy]].
 
 # Julian Hart — Consulting *(ON HOLD)*
 *AI-Led Programme Delivery*

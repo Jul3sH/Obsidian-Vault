@@ -9,7 +9,7 @@ linked-story: "[[../../../deliverables/tti-ai-leadership-brief|BWS-7]]"
 ---
 
 > **ON HOLD (paused 2026-05-29) — not retired.**
-> The AI-leadership positioning carried unwinnable political risk against Brian Pivar's existing "VP Enterprise Data & AI" mandate (see [[tti-ai-roles]]), so the strategy paused it in favour of demonstrating capability via director-grade artefacts. Kept as a foundation that may be repurposed if the political landscape shifts. See [[tti-artefact-first-strategy]]; current first artefact: [[../../../deliverables/tti-ai-enablement-strategy]] (employee AI enablement — the unoccupied layer between Pivar's platform and Ty's EBIT target).
+> The AI-leadership positioning carried unwinnable political risk against Brian Pivar's existing "VP Enterprise Data & AI" mandate (see [[tti-ai-roles]]), so the strategy paused it in favour of demonstrating capability via director-grade artefacts. Kept as a foundation that may be repurposed if the political landscape shifts. See [[tti-engagement-strategy|tti-artefact-first-strategy]]; current first artefact: [[../../../deliverables/tti-ai-enablement-strategy]] (employee AI enablement — the unoccupied layer between Pivar's platform and Ty's EBIT target).
 
 # Julian Hart — AI Leadership *(ON HOLD)*
 *Director-Level Role, APAC-Based*

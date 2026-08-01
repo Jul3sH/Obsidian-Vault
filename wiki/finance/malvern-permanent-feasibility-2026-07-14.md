@@ -155,4 +155,4 @@ Ranked 1 (best) to 4 (worst) on each axis Julian has named:
 - [[financial-status-2026-07-07]] - balance sheet source
 - [[uk-relocation-decision]] - project status surface
 - [[decision-journal]] - the committed decision + the TTI gate
-- [[stephan-engagements]] - the TTI call prep
+- [[engagement-history|stephan-engagements]] - the TTI call prep

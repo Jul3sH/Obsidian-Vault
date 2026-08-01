@@ -52,4 +52,4 @@ If money comes up: "It's nominal at TTI's scale - happy to put it in an SOW or t
 - [[fde-conversation-piece]] - full opener + two-page leave-behind
 - [[tti-consulting-brief]] - three shapes + AR25 initiative→owner map
 - [[independent-consulting-pricing]] - rate detail
-- [[stephan-engagements]] - the comms line that got here
+- [[engagement-history|stephan-engagements]] - the comms line that got here

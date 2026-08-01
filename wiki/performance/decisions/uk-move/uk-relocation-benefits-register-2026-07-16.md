@@ -47,7 +47,7 @@ tags: [decision, uk-move, benefits, london, malvern, hong-kong]
 |---|---|---|
 | London-direct | Sophia settles once in the intended London life; Julian is home nightly; strongest social and dating platform; largest job market and best permanent-role access; no six-year commute; no Mum operational dependency; SW19 has a school floor; MPF unlock gives pension-buffer runway | [[uk-relocation-decision]], [[sw19-schools-london]], [[uk-job-market-remote-hybrid-split-2026-07-11]], [[uk-move-financial-model]], [[malvern-permanent-feasibility-2026-07-14]] |
 | Malvern crash-pad interim | Search-phase burn is materially lower; runway is longer; Cecil rent keeps flowing; Mum support lowers childcare / help costs; Sophia has credible Malvern school options if timing works; still targets London hybrid jobs rather than only the thin local pool | [[uk-move-financial-model]], [[fable-review-jobdata-2026-07-11]], [[schooling-malvern-area]], [[malvern-state-schools-comparison]] |
-| Stay HK via real TTI perm | Highest-quality stay case: no school move, no relocation stress, low-tax senior earnings, role described by Ty as a real Asia architecture/governance gap, Stephan actively advocating and positioning Julian as staying | [[stephan-engagements]], [[decision-journal]], [[uk-move-financial-model]], [[uk-vs-hk-earning-comparison]] |
+| Stay HK via real TTI perm | Highest-quality stay case: no school move, no relocation stress, low-tax senior earnings, role described by Ty as a real Asia architecture/governance gap, Stephan actively advocating and positioning Julian as staying | [[engagement-history|stephan-engagements]], [[decision-journal]], [[uk-move-financial-model]], [[uk-vs-hk-earning-comparison]] |
 | Permanent Malvern semi-retirement | Feasible life if chosen deliberately: low burn, Sophia and Mum proximity, no London crash-pad, possibility of modest income making the plan sustainable, post-Sophia Cecil rent covers much of solo life | [[malvern-permanent-feasibility-2026-07-14]], [[uk-move-financial-model]], [[financial-status-2026-07-07]] |
 
 ## What Was Scattered Where
@@ -61,7 +61,7 @@ tags: [decision, uk-move, benefits, london, malvern, hong-kong]
 | [[schooling-malvern-area]] | Hanley Castle / The Chase benefits for Sophia under Malvern, plus the new timing caveat |
 | [[sw19-schools-london]] | SW19 school upside and Raynes Park fallback under London-direct |
 | [[malvern-permanent-feasibility-2026-07-14]] | Permanent-Malvern benefits and why commute variant is dominated |
-| [[stephan-engagements]] | TTI Branch A upside: real HK-based senior architecture need, but not yet concrete |
+| [[engagement-history|stephan-engagements]] | TTI Branch A upside: real HK-based senior architecture need, but not yet concrete |
 
 ## Gaps
 

@@ -168,4 +168,4 @@ If Julian talks to Peter before the Stephan meeting, the essential briefing:
 - [[tti-pudwill-family-context]] — Horst–Stephan family dynamic
 - [[tti-stephan-relationship-analysis]] — Strategic analysis (note: current moment overrides "trust the pace" guidance)
 - [[engagement-history]] — Timeline including the 28 May Peter–Horst lunch
-- [[stephan-whatsapp|Stephan WhatsApp draft]] — The covering note Julian will send to Stephan first
+- [[stephan-whatsapp-archive|Stephan WhatsApp draft]] — The covering note Julian will send to Stephan first

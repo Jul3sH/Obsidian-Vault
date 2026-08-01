@@ -20,7 +20,7 @@ supersedes: tti-ai-leverage-working-notes (v2 strategy-sell brief)
 >
 > **Status:** Sent to Stephan 4 Jul. Forwarded by Stephan to Ty ~12 Jul with CV. Delivered (Ty read, 15 Jul elevator pitch call). **First conversation was 20 minutes, not a full execution conversation. Real conversation still pending.** Moved to _on-hold/ to await that full conversation, then re-deploy with execution prep.
 >
-> Strategy: [[tti-engagement-strategy]]. Message: [[stephan-engagements]]. Execution prep below the line (private, verbal use only).
+> Strategy: [[tti-engagement-strategy]]. Message: [[engagement-history|stephan-engagements]]. Execution prep below the line (private, verbal use only).
 
 ---
 

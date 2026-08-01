@@ -43,7 +43,7 @@ tags: [career, tti]
 - **11 Jun - warm bonding call; job deliberately parked.** Julian relayed a message from Anne (Stephan and Justin had each quietly visited Fred in hospital) and said he was visiting Fred the next day and his own father in Baptist Hospital that day. Stephan replied *"Good you are seeing him"* and then **called Julian**: a warm 30-min+ catch-up about Fred and Hannah. Julian led with "sorry, I don't mean to pressure you about the job" and left the job there. Consistent with the empathy action-engine that moves Stephan ([[tti-stephan-relationship-analysis]]).
 - **12 Jun - Julian visited Fred** in hospital; plans to visit again ~17 Jun.
 - **Peter (across two calls plus the 14 Jun lunch with Adam):** Peter and Stephan executed a private "plan they cracked together" (re Stephan's risky Horst/inheritance situation) that **worked**. Stephan is in a good mood with Peter and now feels **indebted**; he has **agreed to a lunch** with Peter, at which **Peter is determined to advocate for Julian** (reaffirmed three times). **Sequencing agreed: Peter's lunch lands first, then Julian books his own meeting with Stephan.**
-- **State:** meeting agreed in principle but unscheduled. Next move: a light Fred-anchored scheduling message to lock the date (behind Peter's lunch), then walk into the meeting with a bounded engagement proposal. Message-level detail in [[stephan-engagements]]; strategy in [[tti-engagement-strategy]].
+- **State:** meeting agreed in principle but unscheduled. Next move: a light Fred-anchored scheduling message to lock the date (behind Peter's lunch), then walk into the meeting with a bounded engagement proposal. Message-level detail above; strategy in [[tti-engagement-strategy]].
 
 ---
 
@@ -61,7 +61,7 @@ tags: [career, tti]
   - **Agreed (the crux):** asking Stephan to *route* Julian to other people reproduces the **Tony Chung dead-end** (Sep 2025) — a non-committal hand-off with no advocacy or pressure behind it goes nowhere; the recipients go through the motions.
 - **Julian's strategic conclusion:** Stephan needs to make a **decision**, not perform a hand-off. The right ask is a small, concrete, decidable proposition Stephan can sponsor himself.
 - **Peter call:** Julian had sent Peter v5.0 earlier; Peter hadn't responded. Julian called and said he's changing the approach: *"I won't get any advocacy if he passes it on, it'll just go nowhere. I need to just ask Stephan."* New phrasing: *"Stephan, why not take me on through my limited company on a six-month consulting engagement? I can set up discovery calls and uncover real needs, and I guarantee I'll find value to deliver in the six months. We can take an assessment after that."* **Peter agreed — "that sounds much better"** — and will follow up via his own channel with the agreed "Julian needs to leave HK" urgency.
-- **v5.0 shared with both Justin and Peter** before the pivot. Full message-level record in [[stephan-engagements]] (v6.0 entry).
+- **v5.0 shared with both Justin and Peter** before the pivot. Full message-level record above (v6.0 entry).
 
 #### 5 June 2026 — Julian–Peter dinner; strategic revision to Stephan message
 
@@ -79,7 +79,7 @@ tags: [career, tti]
 #### 3 June 2026 — Julian forwards draft message to Peter for review
 
 - **Source:** Julian, direct.
-- **What happened:** Julian forwarded Peter the Stephan WhatsApp message text (the v4.0 draft from [[stephan-whatsapp]]) for review before sending.
+- **What happened:** Julian forwarded Peter the Stephan WhatsApp message text (the v4.0 draft from [[stephan-whatsapp-archive|stephan-whatsapp]]) for review before sending.
 - **Peter's initial response:** Said he would get back to Julian. Then sat on it for a couple of days (no reply before the Friday dinner).
 - **Implication:** Peter's silence was not a positive signal on the message as-is; his feedback came in person on 5 Jun (see above).
 
@@ -115,7 +115,7 @@ tags: [career, tti]
   1. **Peter→Horst** (this lunch, done) — surfaced personal stakes + business credibility
   2. **Peter→Stephan** (probable, ~Day +2–4) — peer-level vouching; Peter knows Stephan independently and Stephan keen to meet before Peter departs HK; see [[peter-speck-briefing]]
   3. **Horst→Stephan** (probable, ~Day +7–10) — family-level prompt
-  4. **Julian→Stephan** (this week, pending; see [[stephan-whatsapp|Stephan WhatsApp draft]]) — direct business case
+  4. **Julian→Stephan** (this week, pending; see [[stephan-whatsapp-archive|Stephan WhatsApp draft]]) — direct business case
 - **Horst–Stephan power dynamic now relevant:** Julian's Christmas party observation — Horst still orders Stephan around (e.g. directing him to fetch water); Stephan retains lingering deference / mild fear of dad. Means anything on Horst's radar that Stephan is seen as not addressing creates real internal pressure on Stephan.
 
 ---

@@ -27,7 +27,7 @@ tags: [uk-relocation, london-vs-malvern]
 | Sophia | Her stated preference; Edie there; no double-disruption | "Soft landing" year; but double-disruption risk + not her preference |
 | Julian | Gets a life immediately; near the BFSI job market | Struggles ("no life"), frames as a productive buckle-down year |
 | Money | ~£3,339/mo burn; funded ~5 yrs | ~£905/mo (near net-worth-neutral); near-perpetual |
-| Career | In the London BFSI market the [[uk-senior-architecture-jobs-q3-2026-briefing|report]] identifies as his best path | Upskilling year (cyber/AWS), but away from that market |
+| Career | In the London BFSI market the [[uk-senior-architecture-jobs-q3-2026-briefing.html|report]] identifies as his best path | Upskilling year (cyber/AWS), but away from that market |
 | Logistics | Cecil Road tenants on notice → ~1-2 mo temp accommodation for a Sept start | Clean 4-month notice; better planned |
 | Proximity to Mum | Distant | Close (she is elderly; free housing; reciprocity) |
 
@@ -50,7 +50,7 @@ Julian's stated core motivation for Malvern-first is **not** lifestyle - he has 
 ## Buffer test - does it serve its own goal (protect the bottom line)?
 
 1. **The bottom line isn't at risk in London.** ~£216k spendable runway before the floor; ISAs (£326.6k) + property equity untouched behind it; London funded **~5 years**. The feared £80k is ~4% of a £1.2M net worth and nowhere near the floor. **The safety net Julian wants from Mum's, he already owns - it lives in his bank/ISAs and travels to London.**
-2. **The buffer's saving is small and leaky.** Saving only exists while jobless (~£2,400/mo). But "commute 3 days from Malvern" isn't a commute (Malvern↔London ~2h45 each way) - it needs a London crash-pad, reintroducing the avoided cost. And job-hunting from a village, upskilling first, is the opposite of the [[uk-senior-architecture-jobs-q3-2026-briefing|report]]'s prescription (be on UK soil, present, networking now). **London-direct likely shortens the search; Malvern likely lengthens it.**
+2. **The buffer's saving is small and leaky.** Saving only exists while jobless (~£2,400/mo). But "commute 3 days from Malvern" isn't a commute (Malvern↔London ~2h45 each way) - it needs a London crash-pad, reintroducing the avoided cost. And job-hunting from a village, upskilling first, is the opposite of the [[uk-senior-architecture-jobs-q3-2026-briefing.html|report]]'s prescription (be on UK soil, present, networking now). **London-direct likely shortens the search; Malvern likely lengthens it.**
 3. **Age maths runs backwards.** Waiting a year → age **56**, delaying entry to the BFSI-London market where his *existing* profile is the rare credential. Upskilling (AWS/cyber) isn't his edge; 15 years BFSI depth is. The buffer weakens his strongest card.
 4. **Human cost on his two priorities.** The plan puts him in a London flat ~3 nights/week during Sophia's first UK year (parented midweek by Grandma) - against his anchor promise *"as long as we're together"* - and is her **second** uprooting, away from the London she asked for.
 
@@ -58,7 +58,7 @@ Julian's stated core motivation for Malvern-first is **not** lifestyle - he has 
 
 **Tax fear checked and cleared (7 Jul, see model §12):** the feared UK tax on the HK rent is neutralised for the relevant window - the **4-year FIG regime exempts foreign rental income** (and foreign gains) from UK tax for his first 4 UK-resident years (subject to the 10-year non-residence condition, to confirm). Location-neutral, so it doesn't move the comparison - but it removes a source of anxiety from both sides.
 
-**London-only advantage surfaced (7 Jul): the network.** Julian lived in London ~20 years and has a **warm professional network there** - ex-Telstra colleagues, BG Group contacts, tech friends - plus local business scope (e.g. Wimbledon) for AI work. This maps directly onto the [[uk-senior-architecture-jobs-q3-2026-briefing|report]]'s #1 prescription (network into the market, be present). He has a network in **London and none in Malvern** - a further, previously-overlooked reason London shortens the search. Culturally he also fits London over a village.
+**London-only advantage surfaced (7 Jul): the network.** Julian lived in London ~20 years and has a **warm professional network there** - ex-Telstra colleagues, BG Group contacts, tech friends - plus local business scope (e.g. Wimbledon) for AI work. This maps directly onto the [[uk-senior-architecture-jobs-q3-2026-briefing.html|report]]'s #1 prescription (network into the market, be present). He has a network in **London and none in Malvern** - a further, previously-overlooked reason London shortens the search. Culturally he also fits London over a village.
 
 ## Supporting context (7 Jul): Clodagh → a London-specific factor
 
@@ -73,7 +73,7 @@ New context that further favours London (details: [[clodagh|Clodagh]]):
 
 **2. The three pillars of Julian's Malvern-first case, tested:**
 - **Soft landing for Sophia** - *real but contested.* It collides directly with the double-disruption risk (making friends twice; "why invest if I'm leaving") **and** with her stated London preference. A gentle village year may help, or may read as being parked somewhere she'd rather not be while her preferred, affordable option waited.
-- **Upskilling year** - *weak / possibly off-strategy.* He can upskill anywhere, including London while job-hunting. And the [[uk-senior-architecture-jobs-q3-2026-briefing|market report]] says his edge is his **existing** BFSI + security profile positioned for London roles - not a from-scratch AWS/cyber retrain. A village upskilling year could be a year *not* networking into the market where his real opportunity sits.
+- **Upskilling year** - *weak / possibly off-strategy.* He can upskill anywhere, including London while job-hunting. And the [[uk-senior-architecture-jobs-q3-2026-briefing.html|market report]] says his edge is his **existing** BFSI + security profile positioned for London roles - not a from-scratch AWS/cyber retrain. A village upskilling year could be a year *not* networking into the market where his real opportunity sits.
 - **LDR stress-test with Joanne** - *location-neutral.* The test is the distance, not the town. A year in London tests it identically. Does not favour Malvern.
 
 **3. Julian's own wellbeing points to London, yet he's bracing to endure Malvern.** He can afford the option that gives him a life; he's steeling himself for a sacrificial year he doesn't financially need. Worth examining honestly (connects to [[decision-maker-profile|commitment-avoidance]]): is the Malvern year prudence, or a deferral of the full commitment (London home + Joanne decision) dressed as prudence?

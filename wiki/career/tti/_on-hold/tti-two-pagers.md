@@ -8,8 +8,8 @@ route: via Stephan Pudwill
 
 > **WIP — drafted, held in reserve.** The four per-executive two-pagers — the
 > routing layer of the (now re-sequenced) strategy. **Not being sent yet.** The
-> current move is the direct status message to Stephan ([[stephan-whatsapp]]);
-> these deploy only if his read comes back live. See [[tti-artefact-first-strategy]]
+> current move is the direct status message to Stephan ([[stephan-whatsapp-archive|stephan-whatsapp]]);
+> these deploy only if his read comes back live. See [[tti-engagement-strategy|tti-artefact-first-strategy]]
 > status banner.
 
 # TTI — The Four Two-Pagers
@@ -30,7 +30,7 @@ One short, forwardable, per-executive report. Unifying spine: **process re-engin
 - [ ] **Length** — comfortable for a forwardable two-pager, or tighten?
 - [ ] **Proof-point figures** (35% / $200M / 6% / $300M / $90M / $45M / 100% RFT / $25M / 90%) — happy standing on each to these executives?
 - [ ] **"Two modes" closing italic line** — keep on all four, or cut and hold entirely for the meeting?
-- [ ] **Service-design tenure** — "15 years" in the Stephan message vs ~12 in [[tti-artefact-first-strategy]] / "10+" in the EA JD. Reconcile across two-pagers + CV + props. (Note: *total-career* figure is settled at **25+ years** as of 9 Jun 2026 — this item is the distinct *service-design-specific* count only.)
+- [ ] **Service-design tenure** — "15 years" in the Stephan message vs ~12 in [[tti-engagement-strategy|tti-artefact-first-strategy]] / "10+" in the EA JD. Reconcile across two-pagers + CV + props. (Note: *total-career* figure is settled at **25+ years** as of 9 Jun 2026 — this item is the distinct *service-design-specific* count only.)
 
 ---
 
@@ -193,7 +193,7 @@ Not a role — a **30-minute conversation about one candidate process** (control
 ---
 
 ## Related
-- [[stephan-whatsapp]] — the direct message that precedes these (their delivery is gated on Stephan's read)
-- [[tti-artefact-first-strategy]] — strategy (re-sequenced to signal-first 2 Jun)
+- [[stephan-whatsapp-archive|stephan-whatsapp]] — the direct message that precedes these (their delivery is gated on Stephan's read)
+- [[tti-engagement-strategy|tti-artefact-first-strategy]] — strategy (re-sequenced to signal-first 2 Jun)
 - [[tti-executive-stakeholders]] — recipient profiles + per-exec pitch hooks
 - [[tti-value-proposition]] — the Cipriani deck these supersede as the per-exec layer

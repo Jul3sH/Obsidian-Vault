@@ -13,7 +13,7 @@ supersedes: tti-existing-role-brief
 ---
 
 > **CLOSED 2026-05-29 — superseded by the artefact-first strategy pivot.**
-> The AI leadership positioning carried unwinnable political risk against Brian Pivar's existing "VP Enterprise Data & AI" mandate and the US-based AI team (see [[tti-ai-roles]]). The pivot moves to demonstrating capability via director-grade artefacts produced in advance of any role decision — see [[../career/tti/tti-artefact-first-strategy]]. First artefact replacing this: [[tti-ai-enablement-strategy]] (employee AI enablement, the unoccupied layer between Pivar's platform and Ty's EBIT target).
+> The AI leadership positioning carried unwinnable political risk against Brian Pivar's existing "VP Enterprise Data & AI" mandate and the US-based AI team (see [[tti-ai-roles]]). The pivot moves to demonstrating capability via director-grade artefacts produced in advance of any role decision — see [[tti-engagement-strategy]]. First artefact replacing this: [[tti-ai-enablement-strategy]] (employee AI enablement, the unoccupied layer between Pivar's platform and Ty's EBIT target).
 
 # TTI — AI Leadership Brief
 

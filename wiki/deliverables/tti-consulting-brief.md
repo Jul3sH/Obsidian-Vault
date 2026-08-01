@@ -11,7 +11,7 @@ jira-key: BWS-8
 ---
 
 > **CLOSED 2026-05-29 — superseded by the artefact-first strategy pivot.**
-> The consulting positioning has been absorbed into per-artefact "two modes" closing language (each artefact offers pilot-as-consulting or pilot-as-first-role-deliverable). See [[../career/tti/tti-artefact-first-strategy]] for the strategic context. First artefact replacing this: [[tti-ai-enablement-strategy]].
+> The consulting positioning has been absorbed into per-artefact "two modes" closing language (each artefact offers pilot-as-consulting or pilot-as-first-role-deliverable). See [[tti-engagement-strategy]] for the strategic context. First artefact replacing this: [[tti-ai-enablement-strategy]].
 
 # TTI — Consulting Brief
 

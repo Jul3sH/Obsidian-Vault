@@ -63,7 +63,7 @@ Two distinct surfaces sit on top of the raw transcripts:
 
 ## Verbatim Recall: MemPalace vs. Raw JSONL
 
-The [[claude-memory-systems|Claude Memory Systems]] doc places verbatim recall at **Level 4**, and documents exactly one system there: **MemPalace** (the "Memory Palace"). Verbatim recall is the strongest case for "just search the JSONL" — because unlike semantic memory, it needs no summarization; the transcripts already hold the exact words losslessly. So why does MemPalace exist?
+The [Claude Memory Systems](https://docs.google.com/document/d/1d5Xk2G3xoyGUqYV_-vwwZRLjeFRhULrpvQIkGGGdKYQ) doc (Google Doc, external) places verbatim recall at **Level 4**, and documents exactly one system there: **MemPalace** (the "Memory Palace"). Verbatim recall is the strongest case for "just search the JSONL" — because unlike semantic memory, it needs no summarization; the transcripts already hold the exact words losslessly. So why does MemPalace exist?
 
 **Because the JSONL contains the verbatim text but has no way to find it.** MemPalace's value is the index, structure, and entity graph layered on top — not the storage of verbatim text (the JSONL does that too).
 

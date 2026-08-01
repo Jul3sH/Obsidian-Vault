@@ -358,9 +358,10 @@ engagement-strategy doc). TTI (`wiki/career/tti/`) is the reference implementati
   `_index`, and master `_index` if it lists the item. Links are NOT touched
   (they're bare). The index update is mandatory: skipping it rots the structure.
 - **On a rename, delete, or merge: links DO break.** Bare links survive moves only.
-  Before the operation, run `grep -rnE "\[\[[^]]*old-note-name" wiki/` (unanchored,
-  so it catches path links too) and repoint every
-  inbound link (to the successor on a merge) or remove it. Doing this afterwards
+  Before the operation, run both `grep -rnE "\[\[[^]]*old-note-name" wiki/`
+  (unanchored, so it catches path links) and `grep -rn "old-note-name" wiki/`
+  (catches backticked filename mentions that are never links but still go stale).
+  Repoint or remove every hit (to the successor on a merge). Doing this afterwards
   loses the list. Full lifecycle table: `documentation-conventions.md`.
 - **Structurally-named files (`SKILL.md`, `_index.md`, `TESTING.md`, `capabilities.md`)
   can never be linked bare** - their names are fixed by convention, so they collide by

@@ -148,7 +148,7 @@ For cold email personalisation beyond the current 4-endpoint set:
 - Must pair with a campaign tool (Instantly, Lemlist) for sending
 
 ## Integration Notes
-Used in the [[technology/linkedin-enrichment|LinkedIn Enrichment skill]] pipeline:
+Used in the [[ai-os/skills/linkedin-enrichment/SKILL|LinkedIn Enrichment skill]] pipeline:
 ```
 email list → Apollo (reverse lookup → LinkedIn URL + username) → Fresh LinkedIn Scraper → Claude Haiku (icebreaker) → sequencer
 ```

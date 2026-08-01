@@ -204,4 +204,4 @@ The figures above are as good as desk research gets; these are the holes a recru
 - [[uk-ir35-contracting-feasibility-2026|UK IR35 Contracting Feasibility 2026]] - separate IR35 note for contract-route validation
 - [[uk-relocation-decision|UK Relocation Decision]] - the committed decision this sharpens the income arm of
 - [[income-portability|Income Portability]] - the remote-consulting income insight (complementary)
-- [[uk-senior-architecture-jobs-q3-2026-briefing|UK Senior Architecture Jobs Briefing (4 Jul)]] - the earlier Storm briefing this supersedes on the £150k question
+- [[uk-senior-architecture-jobs-q3-2026-briefing.html|UK Senior Architecture Jobs Briefing (4 Jul)]] - the earlier Storm briefing this supersedes on the £150k question

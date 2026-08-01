@@ -42,7 +42,7 @@ On 28 May 2026, Peter Speck briefed Horst Pudwill (HK lunch before Horst flew to
 - **Window:** Julian's WhatsApp + briefs should land before Horst returns from Germany (~2 Jun) and the probable Horst–Stephan family conversation (~7–8 Jun). If Stephan doesn't have a fresh, current answer when Horst asks, he defaults to the stale Tony Chung introduction — exactly the routing Door 2 is designed to bypass.
 - **The broader framework below still holds** — no apology, business-led, "who internally best appreciates this scope" framing, no return to the Sophia line. The override is specifically on cadence: act now, don't wait.
 
-See: [[engagement-history#28 May 2026 — Peter Speck briefed Horst Pudwill (HK lunch before Germany travel)]] · [[stephan-whatsapp|Stephan WhatsApp draft]] · [[peter-speck-briefing]]
+See: [[engagement-history#28 May 2026 — Peter Speck briefed Horst Pudwill (HK lunch before Germany travel)]] · [[stephan-whatsapp-archive|Stephan WhatsApp draft]] · [[peter-speck-briefing]]
 
 ---
 

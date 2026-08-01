@@ -40,8 +40,8 @@ Personalisation **cannot happen without enriched contact data**. If you are star
 | 3. AI icebreaker generation | Profile data → personalised copy | Claude Haiku, Clay Claygent, Lemlist AI Variables |
 
 **Existing implementation in this wiki:**
-- [[technology/linkedin-enrichment\|LinkedIn Enrichment skill]] — step 2 (RapidAPI Fresh LinkedIn Scraper → Claude Haiku → Google Sheets)
-- [[technology/apollo-person-match\|Apollo Person Match skill]] — step 1 (email → LinkedIn URL via Apollo)
+- [[ai-os/skills/linkedin-enrichment/SKILL\|LinkedIn Enrichment skill]] — step 2 (RapidAPI Fresh LinkedIn Scraper → Claude Haiku → Google Sheets)
+- [[ai-os/skills/apollo-person-match/SKILL\|Apollo Person Match skill]] — step 1 (email → LinkedIn URL via Apollo)
 
 > ✅ Validation check: Before recommending a personalisation vendor, confirm the user has a plan for steps 1 and 2 above. If they only have an email list, steps 1 and 2 must be costed into the TCO.
 

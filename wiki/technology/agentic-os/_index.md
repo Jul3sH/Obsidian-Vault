@@ -29,7 +29,7 @@ The memory system consists of four layers:
 1. **[[agentic-os/session-capture-and-storage|Session Capture and Storage]]** — Auto-capture at session end, stored as .aos.md summaries (git-tracked) and raw transcripts (archived locally)
 2. **[[agentic-os/memory-system-architecture|Memory System Architecture]]** — Indexing pipeline (discover → chunk → embed), PGLite + pgvector database, hybrid search (vector + keyword), three-rung recall ladder
 3. **[[agentic-os/memory-database-schema|Memory Database Schema]]** — Five tables (sources, chunks, index_jobs, search_events, schema_migrations), scope model (private/client/team/system), indexes, no-leak guarantees
-4. **[[agentic-os/command-centre-dashboard|Command Centre Dashboard]]** — Web UI and CLI hub for all operations (indexing, search, recall, backup, restore)
+4. **[[agentic-os/command-centre|Command Centre Dashboard]]** — Web UI and CLI hub for all operations (indexing, search, recall, backup, restore)
 
 ### Multi-Client & Isolation
 

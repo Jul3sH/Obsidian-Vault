@@ -21,13 +21,13 @@ tags: [career, tti]
 
 ## Historical Context — The Two Doors (superseded 2026-05-29)
 
-The previous strategy was a "two doors" structure: Door 1 = consulting engagement brief, Door 2 = AI leadership role brief. Both were superseded on 29 May 2026 following the political-risk analysis in [[tti-ai-roles]] and the strategic session captured in [[tti-artefact-first-strategy]].
+The previous strategy was a "two doors" structure: Door 1 = consulting engagement brief, Door 2 = AI leadership role brief. Both were superseded on 29 May 2026 following the political-risk analysis in [[tti-ai-roles]] and the strategic session captured in [[tti-engagement-strategy|tti-artefact-first-strategy]].
 
 **Why the two doors were retired:**
 - **Door 2 (AI Leadership):** Argued for an AI leadership role that could not be politically won — competing directly with Brian Pivar's existing "VP Enterprise Data & AI" mandate and the US-based AI team. The roles file made the political risk concrete.
 - **Door 1 (Consulting):** Generic positioning. Replaced by per-artefact consulting fallback baked into each deliverable's closing — concrete and tied to specific work, not abstract.
 
-Paused artefacts (kept as foundations, may be repurposed — not retired) now live in [[_on-hold/_index|_on-hold/]]: [[_on-hold/tti-consulting-brief|consulting brief]], [[_on-hold/tti-ai-leadership-brief|AI leadership brief]]. The 29 May WhatsApp draft has been succeeded by the live [[stephan-whatsapp|Stephan WhatsApp draft]].
+Paused artefacts (kept as foundations, may be repurposed — not retired) now live in [[_on-hold/_index|_on-hold/]]: [[_on-hold/tti-consulting-brief|consulting brief]], [[_on-hold/tti-ai-leadership-brief|AI leadership brief]]. The 29 May WhatsApp draft has been succeeded by the live [[stephan-whatsapp-archive|Stephan WhatsApp draft]].
 
 ## Related
 - [[engagement-history]] — Full timeline of TTI interactions

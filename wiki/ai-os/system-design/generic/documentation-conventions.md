@@ -149,9 +149,17 @@ grep -rnE "\[\[[^]]*old-note-name" wiki/
 
 **Do not anchor the pattern to `[[`.** A bare link starts with the name, but a path link starts with the *path* (`[[ai-os/skills/commitment-guard/SKILL|…]]`), so an anchored grep silently misses every path link. The unanchored form above catches both.
 
-Do that *before* the operation, not after, so the list is still accurate. For a delete, each hit is a decision: repoint it to the successor, or remove the link and its sentence.
+**Also grep the plain filename, unbracketed.** A name can appear as a backticked filename in a table or prose (`` `old-note-name` ``) without ever being a wikilink. Obsidian does not track these, so they never show as broken, but they still go stale the moment the target is renamed.
 
-**Why this matters:** an audit on 2026-07-31 found 51 broken links across 12 missing targets, one deleted note accounting for 21 of them. Every one was a rename or delete performed as if it were a move.
+```bash
+grep -rn "old-note-name" wiki/
+```
+
+Run both searches. The bracketed one finds live links to repoint; the plain one finds mentions to update by hand, since there is nothing to repoint automatically.
+
+Do this *before* the operation, not after, so the lists are still accurate. For a delete, each hit is a decision: repoint it to the successor, or remove the link and its sentence.
+
+**Why this matters:** an audit on 2026-07-31 found 51 broken links across 12 missing targets, one deleted note accounting for 21 of them. Every one was a rename or delete performed as if it were a move. A rename on 2026-08-01 then caught a second gap the same way: the bracketed-only search missed a backticked filename reference in a table, found only by a manual follow-up check.
 
 ### The cost model
 - **Day-one cost: ~zero.** A file created in the right folder with bare links needs no fixing.
