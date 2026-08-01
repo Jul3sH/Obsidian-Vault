@@ -7,7 +7,7 @@ created: 2026-07-07
 
 > Operational fixes for the running ClaudeClaw OS Telegram bot. Start here before touching the database or reinstalling.
 
-Part of [[claudeclaw-business-os-overview|ClaudeClaw Business OS]]. Install lives at `~/claudeclaw-os`; config at `~/.claudeclaw`; runs via launchd job `com.claudeclaw.app`.
+Part of [[claudeclaw-business-os-overview|ClaudeClaw Business OS]]. Install lives at `~/claudeclaw-business-os`; config at `~/.claudeclaw`; runs via launchd job `com.claudeclaw.app`.
 
 ---
 
@@ -35,7 +35,7 @@ Two ways to restart (they do the same thing - reload the process):
 ### Why it happens
 
 - ClaudeClaw stores one Claude Code **session ID per chat** in `store/claudeclaw.db` (table `sessions`, keyed by `chat_id` + `agent_id`).
-- Every turn, the Claude-SDK provider tries to **resume** that stored session by passing it to the `claude` binary. The actual conversation lives in Claude Code's own store at `~/.claude/projects/-Users-julianhart-claudeclaw-os/<session-id>.jsonl`.
+- Every turn, the Claude-SDK provider tries to **resume** that stored session by passing it to the `claude` binary. The actual conversation lives in Claude Code's own store at `~/.claude/projects/-Users-julianhart-claudeclaw-business-os/<session-id>.jsonl`.
 - If that `.jsonl` is gone (session store rotated/cleared, ID left over from an old install, or a stale row restored during an update), the resume fails with `No conversation found with session ID: ...`. The turn ends with `hasResult: false` and no text, so the bot sends its `Done.` placeholder.
 - The Claude-SDK adapter has **no "start fresh on failed resume" fallback** (the ACP adapter does). So once the pointer is stale, *every* message fails until the session is cleared.
 
@@ -45,19 +45,19 @@ Clear the stale row directly, then restart the service:
 
 ```bash
 # back up first
-cp ~/claudeclaw-os/store/claudeclaw.db ~/claudeclaw-os/store/claudeclaw.db.bak
+cp ~/claudeclaw-business-os/store/claudeclaw.db ~/claudeclaw-business-os/store/claudeclaw.db.bak
 
 # inspect what's stored
-sqlite3 ~/claudeclaw-os/store/claudeclaw.db "SELECT * FROM sessions;"
+sqlite3 ~/claudeclaw-business-os/store/claudeclaw.db "SELECT * FROM sessions;"
 
 # clear the stale session (all chats, or add WHERE chat_id='<id>')
-sqlite3 ~/claudeclaw-os/store/claudeclaw.db "DELETE FROM sessions;"
+sqlite3 ~/claudeclaw-business-os/store/claudeclaw.db "DELETE FROM sessions;"
 
 # restart so no in-memory copy lingers
 launchctl kickstart -k gui/$(id -u)/com.claudeclaw.app
 ```
 
-To confirm a stored ID is genuinely orphaned: check whether `~/.claude/projects/-Users-julianhart-claudeclaw-os/<session-id>.jsonl` exists. Missing file = resume will fail.
+To confirm a stored ID is genuinely orphaned: check whether `~/.claude/projects/-Users-julianhart-claudeclaw-business-os/<session-id>.jsonl` exists. Missing file = resume will fail.
 
 > **Root cause was pre-existing, not update-related.** This first surfaced with a session row dated a month before a version update; the update did not cause it and reinstalling would not have fixed it (the stale pointer lives in `store/`, which is preserved across updates).
 
@@ -68,8 +68,8 @@ To confirm a stored ID is genuinely orphaned: check whether `~/.claude/projects/
 | Question | Command |
 |----------|---------|
 | Is it running? | `launchctl list \| grep claw` (shows PID + exit code for `com.claudeclaw.app`) |
-| What version? | `grep '"version"' ~/claudeclaw-os/package.json` |
-| Which model/provider? | `cd ~/claudeclaw-os && npm run status` |
+| What version? | `grep '"version"' ~/claudeclaw-business-os/package.json` |
+| Which model/provider? | `cd ~/claudeclaw-business-os && npm run status` |
 | Boot log / errors | `tail -30 /tmp/claudeclaw.log` and `/tmp/claudeclaw.err` |
 | Restart clean | `launchctl kickstart -k gui/$(id -u)/com.claudeclaw.app` |
 
@@ -79,16 +79,16 @@ The bot runs on the **Claude Code CLI provider** (`claude-opus-4-8`), not the ra
 
 ## Safe update procedure (avoid data loss)
 
-The official instructions say "delete your old `claudeclaw-os` folder, then re-clone." Do **not** `rm` it - the folder holds gitignored, non-recoverable state (`.env`, `store/`). Rename instead:
+The official instructions say "delete your old install folder, then re-clone." Do **not** `rm` it - the folder holds gitignored, non-recoverable state (`.env`, `store/`). Rename instead:
 
 1. Stop: `launchctl bootout gui/$(id -u)/com.claudeclaw.app`
-2. Rename (don't delete): `mv ~/claudeclaw-os ~/claudeclaw-os.old`
-3. Re-clone via the token link into `~/claudeclaw-os`
-4. Restore state: copy `.env` and `store/` from `~/claudeclaw-os.old`
+2. Rename (don't delete): `mv ~/claudeclaw-business-os ~/claudeclaw-business-os.old`
+3. Re-clone via the token link into `~/claudeclaw-business-os`
+4. Restore state: copy `.env` and `store/` from `~/claudeclaw-business-os.old`
 5. Build: `npm install && npm run build`
 6. Migrate DB: `npm run migrate` (the app also migrates on boot)
 7. Restart: `launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.claudeclaw.app.plist`
-8. Verify version + bot online, then delete `~/claudeclaw-os.old`
+8. Verify version + bot online, then delete `~/claudeclaw-business-os.old`
 
 **Preserved across updates** (never lives in the repo): `.env`, `store/claudeclaw.db`, and `~/.claudeclaw/` config. See [[claudeclaw-business-os-overview]] for the version/distribution model.
 

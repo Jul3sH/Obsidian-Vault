@@ -8,7 +8,7 @@
 
 ## Capabilities
 
-On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory layer, a scheduler, and multi-agent orchestration. The list below is **verified against the `claudeclaw-os` repo** (2026-07-25), not just marketing copy.
+On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory layer, a scheduler, and multi-agent orchestration. The list below is **verified against the local `claudeclaw-business-os` repo** (2026-07-25), not just marketing copy.
 
 | Capability | What it does | Verified in repo |
 |---|---|---|
@@ -25,7 +25,7 @@ On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory lay
 
 **In one line:** a phone interface + memory layer + scheduling system + multi-agent orchestrator, all running on top of Claude Code.
 
-> Status note (2026-07-25): the **WhatsApp** (`wa_messages`) and **scheduled_tasks** tables currently hold 0 rows — the capabilities are wired in but not yet in active use. Source detail for the feature framing: the "Claude Claw" working doc; this section is the copied-in synthesis (see [[pointer-vs-copy|Pointer vs. Copy]]).
+> Status note (2026-07-25): the **WhatsApp** (`wa_messages`) and **scheduled_tasks** tables currently hold 0 rows. The capabilities are wired in but not yet in active use. Source detail for the feature framing: the "Claude Claw" working doc; this section is the copied-in synthesis (see [[pointer-vs-copy|Pointer vs. Copy]]).
 
 ---
 
@@ -34,12 +34,12 @@ On top of the core Telegram-to-`claude`-CLI bridge, ClaudeClaw adds a memory lay
 | | ClaudeClaw (Public) | ClaudeClaw OS (Members) |
 |---|---|---|
 | **Access** | Public repo, free | Token-authenticated download, AI Early Adopters members only |
-| **Repo** | [Jul3sH/claudeclaw](https://github.com/Jul3sH/claudeclaw) (fork of `earlyaidopters/claudeclaw`) | [Jul3sH/claudeclaw-os](https://github.com/Jul3sH/claudeclaw-os) (private) |
+| **Repo** | [Jul3sH/claudeclaw](https://github.com/Jul3sH/claudeclaw) (fork of `earlyaidopters/claudeclaw`) | [Jul3sH/claudeclaw-business-os](https://github.com/Jul3sH/claudeclaw-business-os) (private copy of the `earlyaidopters/claudeclaw-os` source line) |
 | **Created** | May 2026 | June 2026 |
 | **Status** | Older, open-source baseline | Latest version |
 | **Distribution** | GitHub fork | Downloaded via token from AI Early Adopters |
 
-The members edition (claudeclaw-os) was obtained by downloading a token-authenticated package from AI Early Adopters. Because it was downloaded rather than forked, GitHub shows no parent repo.
+The members edition was obtained by downloading a token-authenticated package from AI Early Adopters. The local checkout is now named `~/claudeclaw-business-os`; its upstream source line remains `earlyaidopters/claudeclaw-os`.
 
 ## Versioning and Updates
 

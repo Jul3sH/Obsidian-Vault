@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-06-28
+updated: 2026-08-01
 ---
 
 # ClaudeClaw Business OS
@@ -9,12 +9,19 @@ updated: 2026-06-28
 
 Two versions exist under the Business OS product line:
 
+| Resource | Role |
+|---|---|
+| `/Users/julianhart/claudeclaw-business-os` | Local Business OS repo checkout |
+| `Jul3sH/claudeclaw-business-os` | Private GitHub copy of the local checkout |
+| `earlyaidopters/claudeclaw-os` | Upstream source line for the local checkout |
+| `Jul3sH/claudeclaw-os` | Old private GitHub copy, pending manual deletion |
+
 | File | What's in it |
 |------|-------------|
 | [[claudeclaw-business-os-overview]] | Version history, public vs members editions, how to check for updates, relationship to Claude Code |
 | [[claudeclaw-os-troubleshooting]] | Operational fixes for the running bot: the "Done." reply fix (`/forget`), health checks, and the safe update procedure |
-| [[claudeclaw-agent-config]] | Mirror of `~/.claudeclaw/CLAUDE.md` — the persistent system prompt loaded into every bot session (persona, environment, skills, special commands) |
+| [[claudeclaw-agent-config]] | Mirror of `~/.claudeclaw/CLAUDE.md`, the persistent system prompt loaded into every bot session (persona, environment, skills, special commands) |
 
 For the Enterprise OS product, see [[technology/claudeclaw-enterprise-os/_index\|ClaudeClaw Enterprise OS]].
 
-For everything else, see the [repo README](https://github.com/Jul3sH/claudeclaw/blob/main/README.md).
+For everything else, see the [repo README](https://github.com/Jul3sH/claudeclaw-business-os/blob/main/README.md).
