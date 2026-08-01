@@ -40,6 +40,10 @@ These build on each other. Read top to bottom the first time; the overview in (1
 13. [[pillars-memsearch|MemSearch]] - the only system assessed with genuine cross-agent federation; markdown-canonical/vector-disposable storage; a per-turn nudge that is not true triggered injection.
 14. [[pillars-mempalace|MemPalace]] - the only system that directly answers the compaction question (a PreCompact hook flushes before every compaction); verbatim storage, the opposite pole from the other three; no injection layer at all.
 
+**Reviews**
+
+- [[memory-systems-taxonomy-codex-review-2026-08-01]] - Review of the Memory Systems folder against the use case, capability, feature distinction.
+
 ## Related, filed elsewhere
 
 - [[postgres-pgvector|Postgres, pgvector, PGLite and Supabase]] - what each storage term actually means. Only one of them is a database engine. Lives at `wiki/technology/` root as general storage reference.
