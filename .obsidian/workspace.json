@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/Memory systems/memory-pillars.md",
+                "file": "wiki/technology/Memory systems/memory-observation-layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory-pillars"
+              "title": "memory-observation-layer"
             }
           }
         ]
@@ -200,13 +200,15 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
-    "wiki/technology/Memory systems/pillars-agentic-os.md",
-    "wiki/technology/Memory systems/pillars-claudeclaw.md",
-    "wiki/technology/Memory systems/_index.md",
-    "wiki/technology/Memory systems/memory-observation-layer.md",
     "wiki/technology/Memory systems/memory-curated-index.md",
     "wiki/technology/Memory systems/memory-semantic-search.md",
     "wiki/technology/Memory systems/memory-pillars.md",
+    "wiki/technology/Memory systems/_index.md",
+    "wiki/technology/Memory systems/pillars-mempalace.md",
+    "wiki/technology/Memory systems/pillars-memsearch.md",
+    "wiki/technology/Memory systems/pillars-agentic-os.md",
+    "wiki/technology/Memory systems/pillars-claudeclaw.md",
+    "wiki/technology/Memory systems/memory-observation-layer.md",
     "wiki/technology/Memory systems/wiki-vs-openbrain.md",
     "wiki/technology/Memory systems/openbrain-vs-personal-ai-os.md",
     "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
@@ -224,9 +226,7 @@
     "wiki/technology/agentic-os/memory-system-architecture.md",
     "wiki/technology/agentic-os/multi-client-architecture.md",
     "wiki/technology/agentic-os/memory-database-schema.md",
-    "wiki/technology/postgres-pgvector.md",
     "wiki/technology/Databases",
-    "wiki/technology/where-ai-automates-cybersecurity-processes-briefing.md",
     "wiki/technology/Job search tech",
     "wiki/technology/Memory systems",
     "wiki/ai-os/skills/youtube-notebook/scripts",

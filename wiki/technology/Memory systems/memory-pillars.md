@@ -16,8 +16,9 @@ concept: model
 
 - **Four pillars, in dependency order: Capture → Storage → Injection → Recall.** Every memory system implements all four, however crudely.
 - **Do not confuse a pillar with an enabler.** Pillars are *functions*; semantic search, capture hooks and curated indexes are *technologies* that implement them. Mixing the two levels is the most common modelling error in this domain.
+- **Capture has three modes**, not two: continuous, periodic, and boundary. Periodic (checkpoint every N turns) was missing from earlier versions of this model; MemPalace's default 15-exchange interval is the verified example. A fourth firing condition, event-triggered, sits alongside the three and is the only verified structural fix for compaction-caused data loss.
 - **Storage divides on two independent axes.** *Kind of claim*: canonical versus behavioural, split by whether the content answers "is this true?" or "does this change how I act?". *Form and retention*: synthesise at ingest versus store faithfully, crossed with comprehensive versus curated retention. The second axis is what separates MemSearch, Hermes, OpenBrain and a Karpathy wiki from each other.
-- **Injection has two types**, scheduled and triggered, and only the second can defend against mid-session degradation.
+- **Injection has two types**, scheduled and triggered, and only the second can defend against mid-session degradation. A third pattern sits between them: a deterministic per-turn *nudge* that primes the agent to decide to look, without injecting content itself. MemSearch's `UserPromptSubmit` hook is the verified example.
 - **Assess each pillar separately.** Each has its own "is this solved, and by whom?" answer. Bundling them prices work that is already done.
 
 ---
@@ -56,10 +57,13 @@ A **pillar** is a function the system must perform. An **enabler** is a technolo
 |---|---|---|
 | Native session transcripts | Capture (continuous) | [[memory-observation-layer]] |
 | Session-end summarising hooks | Capture (boundary) | [[memory-observation-layer]] |
+| Interval checkpoint hooks (fire every N turns) | Capture (periodic) | [[pillars-mempalace]] |
+| Compaction-event capture hooks | Capture (event-triggered) | [[pillars-mempalace]] |
 | Curated index hierarchy plus bare wikilinks | **Recall (write-time)** | [[memory-curated-index]] |
 | Keyword search, grep | **Recall (query-time)** | (no dedicated article) |
 | Vector / embedding index | **Recall (query-time)**, and the only practical enabler of **Injection (triggered)** | [[memory-semantic-search]] |
 | Frozen snapshot of consolidated files | **Injection (scheduled)** | [[memory-pillars]], below |
+| Deterministic per-turn hint with agent-decided retrieval | **Injection-adjacent nudge** - primes trigger option 2, injects no content itself | [[pillars-memsearch]] |
 
 Every pillar sub-divides, so name the sub-type when stating what an enabler serves. "Serves Recall" is ambiguous; "serves Recall (write-time)" is not.
 
@@ -67,20 +71,30 @@ Naming a file or a design after an enabler and then filling it with pillar doctr
 
 ---
 
-## Pillar 1: Capture, and its two modes
+## Pillar 1: Capture, and its three modes
 
 Getting events into a durable record. The defining test is that **it creates a record that did not previously exist**.
 
 Capture is indiscriminate by nature. It does not judge importance; that judgement belongs to Storage. It divides on **granularity**:
 
-| | **Continuous capture** | **Boundary capture** |
-|---|---|---|
-| Fires | Every turn | At session end, or another boundary |
-| Completeness | Total, verbatim | Lossy; usually a summary |
-| Cost | Per-turn runtime cost | One cost per session |
-| Risk | Volume; store grows fast | Loses detail the summariser dropped |
+| | **Continuous capture** | **Periodic capture** | **Boundary capture** |
+|---|---|---|---|
+| Fires | Every turn | Every N turns (a fixed interval) | At session end, or another boundary |
+| Completeness | Total, verbatim | Total at each checkpoint; nothing since the last one is captured until the next fires | Lossy; usually a summary |
+| Cost | Per-turn runtime cost | One cost per interval | One cost per session |
+| Risk | Volume; store grows fast | **A gap between checkpoints**: anything since the last one is uncaptured until the next fires | Loses detail the summariser dropped |
 
-Native platform transcripts are usually continuous. Hook-based summarisers are usually boundary. Full treatment, including when a capture mechanism is justified at all: [[memory-observation-layer]].
+Native platform transcripts are usually continuous. Hook-based summarisers are usually boundary. **Periodic** is the missing middle case: MemPalace's default capture hook checkpoints every 15 exchanges rather than every turn or only at session end, trading completeness for lower cost than continuous capture without going as coarse as boundary capture.
+
+### Firing condition versus granularity
+
+The table above answers *how often*. A separate question is *what triggers it*: a schedule, or an event.
+
+**Event-triggered capture** fires in response to something about to happen that would otherwise cause loss, rather than on a fixed cadence. The verified case: MemPalace's `PreCompact` hook fires unconditionally, synchronously, immediately before every compaction event, and flushes the transcript into durable storage first. This is not a fourth granularity, it is a **firing condition that can be layered onto any of the three above** - MemPalace runs it alongside its periodic checkpoint specifically because periodic capture alone leaves a gap that compaction could fall into.
+
+**This is the structural fix for compaction-caused data loss**, and it is a Capture-pillar mechanism, not an Injection-pillar one. See the corrected finding below.
+
+Full treatment, including when a capture mechanism is justified at all: [[memory-observation-layer]].
 
 ## Pillar 2: Storage, and its two axes
 
@@ -163,9 +177,10 @@ Something has to decide a lookup is warranted. In ascending reliability:
 
 1. **The user asks.** Fragile: depends on the human remembering that relevant material exists.
 2. **The agent decides.** Measured at roughly 25% in one real corpus; see [[memory-curated-index]].
-3. **A hook fires on every turn.** Deterministic. Pays a retrieval cost per turn whether needed or not.
+3. **A deterministic per-turn nudge primes the agent to decide.** A hook fires every turn but injects no content itself, only a hint that memory exists and may be relevant, leaving the actual retrieval to option 2. Cheaper than full triggered injection since no retrieval runs unless the agent acts on the hint; more reliable than option 2 alone since the reminder is unconditional rather than left to the agent's judgement whether to check. Verified example: MemSearch's `UserPromptSubmit` hook, which posts `"[memsearch] Memory available"` on every turn; see [[pillars-memsearch]].
+4. **A hook fires on every turn and injects retrieved content directly.** Deterministic. Pays a retrieval cost per turn whether needed or not. Verified example: ClaudeClaw's `buildMemoryContext`; see [[pillars-claudeclaw]].
 
-Only option 3 removes both the human and the agent's judgement from the loop, which is why hook-based designs exist despite their cost.
+Only option 4 removes both the human and the agent's judgement from the loop, which is why hook-based content-injection designs exist despite their cost. Option 3 is the cheaper compromise: it does not remove the agent's judgement, but it removes the risk of the agent simply forgetting to ask.
 
 ## Pillar 4: Recall, and its two types
 
@@ -188,16 +203,21 @@ Finding the right material in the store. Recall divides on **when the retrieval 
 
 ## Compaction and context rot: which pillars actually fix them
 
-Neither phenomenon is a storage failure, so neither is fixed by Capture.
+Neither phenomenon is a storage failure *on the assumption that capture already has everything durably recorded*. That assumption holds for continuous capture. It does not always hold for periodic or boundary capture, which is the correction below.
 
 | | What happens | Anything lost from disk? | Fixed by |
 |---|---|---|---|
-| **Compaction** | Material leaves the context window, replaced by a summary | **No** | **Injection** (triggered) |
+| **Compaction** | Material leaves the context window, replaced by a summary | **No, if capture is continuous. Possibly yes, if capture is periodic or boundary and compaction lands inside the gap between checkpoints** | **Injection** (triggered) restores it to context; **event-triggered Capture** prevents the disk-loss case from happening at all |
 | **Context rot** | Material stays in the window; attention and salience degrade | **No** | **Injection** (triggered) plus structure: restatement, checklists, auto-loaded rules |
 
-The commonly proposed architecture (a hook captures each turn, stores it in a vector-indexed database, and material is retrieved and injected back when relevant) does address compaction. The fix is not the capture stage but the **injection** stage.
+**Two distinct fixes exist for compaction, addressing two distinct failure modes, and they are easy to conflate.**
 
-**Where capture is already solved by the platform, only the retrieval and injection stages need building.** A proposal that includes a capture stage in that situation is paying twice.
+- **Injection (triggered)** answers "material left the context window, get it back." It presumes the material is still safely on disk and only needs to be re-surfaced. This is the correct fix when capture is continuous, as native platform transcripts usually are.
+- **Event-triggered Capture** answers a sharper question: "is the material on disk in the first place?" A system with periodic or boundary capture has, by construction, a window of uncaptured material sitting between checkpoints. If compaction fires inside that window, the material is compacted out of context *and was never durably recorded* - lost twice over, and triggered injection has nothing to restore, because there is nothing in the store to retrieve. The fix is a capture hook that fires on the compaction event itself, ahead of the schedule, closing the gap before it can be exploited. **Verified example:** MemPalace's `PreCompact` hook, which runs synchronously and ingests the transcript immediately before every compaction; see [[pillars-mempalace]].
+
+**Which fix a system needs depends entirely on its own Capture mode.** Continuous capture needs only the Injection fix. Periodic or boundary capture needs the event-triggered Capture fix as well, or it has a genuine, structural compaction-loss exposure that Injection alone cannot close.
+
+**Where capture is already solved by the platform and is continuous, only the retrieval and injection stages need building.** A proposal that includes a capture stage in that situation is paying twice. That changes if the platform's capture is periodic or boundary: in that case, the compaction-triggered capture hook is not redundant, it is the specific piece closing the gap.
 
 ## Related
 

@@ -12,11 +12,11 @@ product: ClaudeClaw Business OS
 > [!note] Status: reference, not an adopted design
 > An assessment of someone else's product against the four-pillar model. Nothing here is running in this vault.
 
-Source: [[claudeclaw-memory-system]], verified against `claudeclaw-os/src` on 2026-07-25.
+Source: originally from [[claudeclaw-memory-system]] (verified against `claudeclaw-os/src` on 2026-07-25). Re-verified directly against `/Users/julianhart/claudeclaw-os/src/memory-ingest.ts`, `memory.ts`, and `db.ts` on 2026-08-01. All decay factors and thresholds in the wiki doc checked out exactly (0.99/0.98/0.95 salience decay; importance < 0.5 filter). Three details below were not in the wiki doc.
 
 ## Key Takeaways
 
-- **The only system assessed so far with genuine *triggered* injection.** `buildMemoryContext` runs **every turn**, assembling context live from six layers. That is trigger option 3, the deterministic one.
+- **The only system assessed so far with genuine *triggered* injection.** `buildMemoryContext` runs **every turn**, assembling context live from six layers. That is trigger option 4 in [[memory-pillars]], the deterministic content-injecting one, not to be confused with option 3 (a nudge with no content, MemSearch's pattern).
 - **Aggressively curated capture.** An LLM extraction agent scores each turn and **discards anything below importance 0.5**. Most exchanges are never stored.
 - **Layered on form**, like MemSearch: synthesised `memories` for retrieval, verbatim `conversation_log` underneath for exact recall.
 - **It has a retention *policy*, not just a retention *setting*:** importance-tiered daily salience decay, with pinning as an exemption.
@@ -28,7 +28,7 @@ Source: [[claudeclaw-memory-system]], verified against `claudeclaw-os/src` on 20
 
 | Pillar | Sub-type | ClaudeClaw |
 |---|---|---|
-| **Capture** | Continuous / boundary | **Continuous** - `ingestConversationTurn` fires after each turn |
+| **Capture** | Continuous / periodic / boundary | **Continuous** - `ingestConversationTurn` fires after each turn |
 | **Storage** | Kind of claim | **Undifferentiated** - no canonical/behavioural split; `importance` and `pinned` are the only value signals |
 | **Storage** | Form | **Layered** - synthesised `memories` (summary, entities, topics) over verbatim `conversation_log` |
 | **Storage** | Retention | **Curated, with a decay policy** - hard filter at importance < 0.5, then importance-tiered daily salience decay |
@@ -39,9 +39,12 @@ Source: [[claudeclaw-memory-system]], verified against `claudeclaw-os/src` on 20
 
 An LLM "memory extraction agent" runs after each turn and returns `summary`, `importance` (0-1), `entities`, `topics`.
 
-- **The bar is deliberately high.** The source doc states "most exchanges are skipped" and applies a **hard filter: `importance < 0.5` is discarded**.
+- **A cheap pre-filter runs before the LLM is even called.** `ingestConversationTurn` returns immediately if the user message is 15 characters or shorter, or starts with `/` (a command) - the extraction model is never invoked for these. Only past that gate does the importance filter apply.
+- **The bar is deliberately high.** The extraction prompt states "most exchanges should be skipped" and applies a **hard filter: `importance < 0.5` is discarded**.
+- **Semantic duplicate detection at ingest, not just at storage.** Before saving, the candidate memory's embedding is compared by cosine similarity against existing memories for that chat; anything above **0.85 similarity is skipped as a duplicate**. This is a second curation pass beyond the importance threshold.
 - `importance >= 0.8` fires a callback offering the user a **pin**, exempting the memory from decay.
 - Separately, `conversation_log` retains the full turn log regardless, so nothing is lost even when extraction compresses it away.
+- **Resilience detail:** extraction primarily runs via the selected agent provider (Claude), with Gemini as fallback. A quota-aware backoff (5-minute cooldown on `429`) prevents repeated failed calls from spamming logs once a quota wall is hit.
 
 **Consequence worth noting:** the high bar produces a sparse store. At the 2026-07-25 snapshot: **3 memories, 2 consolidations, 134 conversation-log rows.** Curation this aggressive means the synthesised layer is nearly empty while the verbatim layer carries the volume.
 
@@ -79,7 +82,9 @@ Layer 1 is triggered injection in the strict sense: it fires on every turn witho
 
 ## Recall
 
-Query-time hybrid: embeddings (Google `embedding-001`) with cosine similarity, and an FTS5 mirror kept in sync by triggers as keyword fallback when embeddings are unavailable.
+Query-time hybrid: embeddings (`gemini-embedding-001`, corrected from "Google embedding-001") with cosine similarity, and an FTS5 mirror kept in sync by triggers as keyword fallback when embeddings are unavailable.
+
+**A seventh context source exists beyond the six documented layers.** `buildMemoryContext` also calls `buildObsidianContext`, appending an Obsidian-vault context block when the agent has one configured (`agentObsidianConfig`). Not covered in [[claudeclaw-memory-system]] and not scored as a separate layer here, since it is vault-reading rather than memory-system behaviour, but worth flagging: the product this scorecard evaluates already bridges into an Obsidian vault, the same substrate this wiki runs on.
 
 **A second synthesis pass exists.** `runConsolidation` clusters unconsolidated memories, has an LLM produce a merged summary plus one key insight, and stores that with its own embedding. So synthesis happens twice: once at ingest, once periodically across memories. That is not a pillar, but it is a real capability the model does not currently name.
 
@@ -97,4 +102,6 @@ Query-time hybrid: embeddings (Google `embedding-001`) with cosine similarity, a
 - [[claudeclaw-memory-system]] - how it is built: tables, functions, decay factors, known issues
 - [[memory-pillars]] - the model being applied
 - [[pillars-agentic-os]] - the contrast: better storage, no injection, never ingested
+- [[pillars-memsearch]] - the contrast: per-turn nudge rather than true content injection
+- [[pillars-mempalace]] - the contrast: no injection at all, but the only one with a compaction-safe capture hook
 - [[memory-claudeclaw-vs-agentic-os]] - the existing head-to-head comparison

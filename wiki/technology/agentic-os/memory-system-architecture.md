@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-07-28
+updated: 2026-08-01
 ---
 
 # Memory System Architecture
@@ -9,12 +9,12 @@ Agentic OS replaces the legacy MemSearch semantic memory system with a **PGLite 
 
 ## System Overview
 
-The memory system consists of **four interconnected layers**:
+The memory system consists of **five interconnected layers**. Session Injection (Layer 0) is easy to miss because it runs at session start, upstream of the capture-index-recall pipeline the other four layers form:
 
 ```
-Session ends
-    ↓
-[Session Capture Hook] → Summarize + archive raw transcript
+[SessionStart] → Layer 0: inject curated snapshot into context
+                     ↓
+[Every agent turn, Stop hook] → Layer 1: Session Capture → summarize + archive raw transcript
     ↓
 [Indexing Pipeline] → Discover files → chunk → embed → store
     ↓
@@ -23,9 +23,21 @@ Session ends
 [Search & Recall Layer] → Vector + keyword retrieval → scope filter → rerank → return
 ```
 
+A cron layer runs alongside all five (see below), performing maintenance no hook covers.
+
+### Layer 0: Session Injection
+
+Fires on `SessionStart`, before the first turn. Three hooks:
+
+- **`load-memory-snapshot.js`** — reads `context/SOUL.md`, `context/USER.md`, `context/MEMORY.md`, and today's (or yesterday's, as fallback) daily log, then injects them as `additionalContext` so the agent has them "available at session start without needing the user to prompt". `MEMORY.md` is explicitly a **frozen snapshot**, capped at 2,500 characters: mid-session writes to it only take effect next session.
+- **`memory-bootstrap-index.js`** — on a freshly cloned workspace the local PGLite store is empty, so Tier 1 semantic recall would be dark until the Stop-hook capture or nightly cron eventually populated it. This backfills the store once from on-disk memory, so recall works from the first session.
+- **`memory-watch-start.js`** — starts a live file-watcher (self-guarded with a PID lock) so memory edited outside a Claude session becomes searchable without waiting for the next capture.
+
+**This is scheduled injection, not triggered.** Nothing is wired to `UserPromptSubmit` to re-inject memory mid-session. See [[../Memory systems/memory-pillars|The Four Pillars of Memory Systems]] for the scheduled/triggered distinction.
+
 ### Layer 1: Session Capture
 
-Fires at every session end (Stop hook):
+**Fires on every `Stop` event — the end of each agent turn, not session end.** (Previous revisions of this doc described this as "session end"; that undersold the cadence. `memory-capture.js`'s own comment is explicit: "On every Stop it spawns memory-capture.cjs detached: that captures **the transcript's last turn**".)
 
 - **Extract** — pulls the latest user→assistant turn from the session
 - **Summarize** — Claude Haiku generates 2-10 bullet summary
@@ -108,6 +120,20 @@ CLI: `npm run memory:recall`
 - **Distance metric:** Cosine similarity
 - **Why BGE-M3:** Strong multilingual support, good semantic richness
 
+## Cron Layer (maintenance outside the hook chain)
+
+Found in `cron/jobs/`, none previously documented here:
+
+| Job | Cadence | Role |
+|---|---|---|
+| `nightly-memory-index` | Nightly | Catch-up indexing for anything the Stop-hook capture missed |
+| `nightly-memory-backup` | Nightly | Backup of the memory store |
+| `daily-memory-distill` | Daily | Distillation pass over captured material |
+| `weekly-memory-curator` | Weekly | Curation pass |
+| `weekly-memory-gaps` | Weekly | Gap detection |
+
+These run independently of any Claude Code hook, so they continue even across headless or scheduled runs where the session-bound hooks never fire.
+
 ## No-Leak Guarantee
 
 **Scope invariant (checked in application code AND enforced by database):**
@@ -120,3 +146,4 @@ Every search query filters by this predicate. No-leak tests prove zero cross-ten
 
 - [[agentic-os/memory-database-schema|Memory Database Schema]] — tables, indexes, canonical query
 - [[agentic-os/session-capture-and-storage|Session Capture and Storage]] — transcript handling and storage
+- [[Memory systems/pillars-agentic-os|Agentic OS, Scored Against the Four Pillars]] — this system evaluated against the Capture/Storage/Injection/Recall model, source-verified 2026-08-01

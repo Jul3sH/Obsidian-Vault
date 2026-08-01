@@ -30,7 +30,7 @@ product: Agentic OS
 
 | Pillar | Sub-type | Agentic OS |
 |---|---|---|
-| **Capture** | Continuous / boundary | **Continuous** - `Stop` hook fires every turn; `memory-capture.js` captures "the transcript's last turn" each time |
+| **Capture** | Continuous / periodic / boundary | **Continuous** - `Stop` hook fires every turn; `memory-capture.js` captures "the transcript's last turn" each time |
 | **Storage** | Kind of claim | **Undifferentiated**, but **scope-partitioned** (`private`/`client`/`team`/`system`) |
 | **Storage** | Form | **Synthesised, with an unindexed raw archive** - summaries are indexed; raw transcripts are archived, gitignored, "not indexed by default" |
 | **Storage** | Retention | **Comprehensive for summaries**; raw kept but outside the searchable set |
@@ -65,7 +65,7 @@ Storage cost is modest: roughly 5-6 KB per chunk, so ~25-30 MB for six months of
 
 `MEMORY.md` is explicitly labelled a **frozen snapshot** in its own header comment: *"mid-session writes only take effect next session"* - confirming scheduled, not triggered, by the system's own design intent, capped at 2,500 characters.
 
-**What is genuinely missing is triggered injection.** Nothing is wired to `UserPromptSubmit` that reads memory; that event fires only a notification hook and a session-sync hook. So per the trigger hierarchy in [[memory-pillars]], mid-session recall still depends on option 1 (the human asks) or option 2 (the agent decides to invoke the CLI) - the two unreliable rungs. Only ClaudeClaw's `buildMemoryContext`, wired to run on every turn, reaches trigger option 3.
+**What is genuinely missing is triggered injection.** Nothing is wired to `UserPromptSubmit` that reads memory; that event fires only a notification hook and a session-sync hook. So per the trigger hierarchy in [[memory-pillars]], mid-session recall still depends on option 1 (the human asks) or option 2 (the agent decides to invoke the CLI) - the two unreliable rungs. Only ClaudeClaw's `buildMemoryContext`, wired to run on every turn, reaches trigger option 4 (deterministic content injection). This system has neither that nor option 3's cheaper nudge.
 
 **The "built but never ingested" claim now has independent corroboration.** [[claudeclaw-memory-system]] states it; direct inspection of the repo adds to it - `context/MEMORY.md` in this workspace is the unpopulated template (Active Threads, Environment Notes, Pending Decisions all empty), not a working scratchpad with real content. Sophisticated scheduled-injection infrastructure exists and appears unused in practice, even though it is more complete than the first assessment credited it for.
 
@@ -96,4 +96,6 @@ The escalation design is sound: it is the same instinct as MemSearch's tiered re
 - [[agentic-os/memory-database-schema|Memory Database Schema]] - tables, indexes, canonical query
 - [[memory-pillars]] - the model being applied
 - [[pillars-claudeclaw]] - the contrast: weaker storage, triggered injection, actually in use
+- [[pillars-memsearch]] - the system this one replaced; appears to have kept its 3-rung recall ladder
+- [[pillars-mempalace]] - the contrast: verbatim storage instead of synthesis, and a compaction-safe capture hook this system lacks
 - [[memory-claudeclaw-vs-agentic-os]] - the existing head-to-head comparison

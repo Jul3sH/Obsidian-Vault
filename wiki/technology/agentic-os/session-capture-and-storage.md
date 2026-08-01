@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-07-28
+updated: 2026-08-01
 ---
 
 # Session Capture and Storage
@@ -9,10 +9,10 @@ How Agentic OS automatically captures, summarizes, and stores session transcript
 
 ## Session Capture Flow
 
-Runs automatically at every session end (Stop hook):
+**Runs on every `Stop` event — the end of each agent turn, not session end.** (Corrected 2026-08-01: this doc previously said "every session end", which undersold the cadence. In Claude Code, `Stop` fires per turn, and `memory-capture.js` captures "the transcript's last turn" each time it fires, confirmed against source.)
 
 ```
-Session ends
+[Agent turn ends]
   ↓
 [Stop hook] fire-and-forget
   → Start memory-capture.cjs in detached process (non-blocking)
@@ -29,6 +29,8 @@ Session ends
 ```
 
 **Fire-and-forget design:** The Stop hook returns immediately, never blocking the agent turn.
+
+**This is Layer 1 of five.** Layer 0 (Session Injection, on `SessionStart`) runs before any of this and puts curated memory *into* context; this flow is what puts new material *into the store*. See [[agentic-os/memory-system-architecture|Memory System Architecture]].
 
 ## Storage Locations
 

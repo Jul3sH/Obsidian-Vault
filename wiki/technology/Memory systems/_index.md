@@ -30,8 +30,8 @@ These build on each other. Read top to bottom the first time; the model in (1) s
 
 7. [[pillars-claudeclaw|ClaudeClaw]] - the only system assessed with genuine triggered injection; aggressively curated capture; actually in use.
 8. [[pillars-agentic-os|Agentic OS]] - strongest storage and recall assessed, no injection pillar at all, and recorded as "built but never ingested".
-9. `pillars-memsearch` - *not yet written, awaiting authoritative repo source.*
-10. `pillars-mempalace` - *not yet written, awaiting authoritative repo source.*
+9. [[pillars-memsearch|MemSearch]] - the only system assessed with genuine cross-agent federation; markdown-canonical/vector-disposable storage; a per-turn nudge that is not true triggered injection.
+10. [[pillars-mempalace|MemPalace]] - the only system that directly answers the compaction question (a PreCompact hook flushes before every compaction); verbatim storage, the opposite pole from the other three; no injection layer at all.
 
 ## Related, filed elsewhere
 
