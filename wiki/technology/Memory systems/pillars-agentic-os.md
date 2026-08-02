@@ -15,13 +15,18 @@ product: Agentic OS
 > [!warning] Corrected 2026-08-01 against source
 > The first version of this file was written from the wiki architecture doc alone and got Injection wrong (claimed none exists) and Capture wrong (claimed boundary, not continuous). Corrected against `/Users/julianhart/agentic-os` source: `.claude/settings.json`, the `memory-*.js` hooks, and `cron/jobs/*memory*.md`. See [[feedback-verify-before-writing]].
 
+> [!warning] Peer-reviewed 2026-08-02 against source
+> Every claim below was re-checked directly against `/Users/julianhart/agentic-os`. All prior claims held (Capture continuous, Injection scheduled-only, `MEMORY.md` empty, scope isolation with `no-leak.test.cjs` present). Two corrections: the cron list in the first version omitted two memory-relevant jobs, and two of the ten cron jobs found ship **inactive by default** (`active: 'false'`), which the "Strong in design" retention claim did not previously distinguish from the active ones.
+
 ## Key Takeaways
 
 - **Has scheduled injection, not none.** `load-memory-snapshot.js` fires on `SessionStart` and injects `SOUL.md`, `USER.md`, `MEMORY.md`, and the day's log as `additionalContext`. The gap is narrower than first assessed: it has scheduled injection like Hermes, but **no triggered injection** - nothing wired to `UserPromptSubmit` reads memory.
 - **Capture is continuous, not boundary.** The `Stop` hook fires at the end of every agent turn in Claude Code, and `memory-capture.js`'s own comment confirms it captures "the transcript's **last turn**" each time, not a session-level summary.
-- **A cron layer exists beyond the four documented layers**: `daily-memory-distill`, `nightly-memory-index`, `nightly-memory-backup`, `weekly-memory-curator`, `weekly-memory-gaps`. None of this appears in [[agentic-os/memory-system-architecture|the architecture doc]].
-- **Best-in-class scope isolation:** `private` / `client` / `team` / `system` enforced in both application code and the database, with no-leak tests.
-- **Capability shape:** strong on query-time recall, source traceability, retention maintenance, and scope-isolated recall; partial on "know the user" and "resume the work" because the machinery exists but the working memory file is unpopulated; weak on compaction survival and unlocated context discovery because there is no triggered injection.
+- **The cron layer has ten jobs, not five, and two of them ship disabled.** Active: `daily-memory-distill`, `nightly-memory-index`, `nightly-memsearch-index`, `weekly-memory-curator`, `weekly-memory-gaps`, plus three unrelated to memory. **Inactive (`active: 'false'`) by default:** `nightly-memory-backup` (needs a hosted Postgres URL that may not be configured) and `monthly-learnings-health` (a correctness/contradiction audit of `learnings.md`). None of this appears in [[agentic-os/memory-system-architecture|the architecture doc]].
+- **`weekly-memory-curator` performs genuine Revision, not just Retention.** Alongside removing resolved threads (retention), it explicitly checks Environment Notes for entries "superseded by a newer entry" and removes the stale one - destructive revision on the behavioural branch, the same mechanism [[memory-storage|Storage's Revision transformation]] documents via ClaudeClaw's `superseded_by`. This is a second verified example of it, previously uncredited.
+- **`weekly-memory-gaps` is a separate detection job, not part of the curator.** It runs read-only, finds stale threads, date gaps, and orphaned decisions, and writes a report for the curator to act on the following stage. **Detection and mutation are split into two different jobs.** That is architecturally significant: [[memory-storage|Revision]] is the one Storage transformation usually missing a trigger because correctness cannot be observed by the store itself, and this is a working instance of a system supplying that trigger on a schedule.
+- **Best-in-class scope isolation:** `private` / `client` / `team` / `system` enforced in both application code and the database, with a `no-leak.test.cjs` suite confirmed present.
+- **Capability shape:** strong on query-time recall, source traceability, scope-isolated recall; partial on retention and revision, since the two jobs backing "strong in design" are one active-with-detection-split and two inactive-by-default; partial on "know the user" and "resume the work" because the machinery exists but the working memory file is unpopulated; weak on compaction survival and unlocated context discovery because there is no triggered injection.
 - **"Built but never ingested" now has direct corroboration**, not just the ClaudeClaw doc's claim. `context/MEMORY.md` in the actual repo is empty template scaffolding - the Active Threads, Environment Notes, and Pending Decisions sections are all unpopulated.
 - **Revised finding:** this is no longer the clean "best Storage/Recall, zero Injection" case it first appeared to be. It has injection - just the weaker, scheduled kind. The sharper contrast with ClaudeClaw is specifically *triggered* injection, which only ClaudeClaw has.
 
@@ -48,7 +53,7 @@ product: Agentic OS
 | [[memory-use-cases|Preserve reasoning]] | [[memory-capabilities|Working reasoning preservation]] | **Partial** | Per-turn summaries and archived transcripts preserve some reasoning, but raw transcripts are not indexed by default and no mid-session refresh exists |
 | [[memory-use-cases|Recall old knowledge]] | [[memory-capabilities|Long-term knowledge recall]] | **Strong** | Hybrid vector plus Postgres full-text search, with search -> expand -> transcript escalation |
 | [[memory-use-cases|Reconstruct what happened]] | [[memory-capabilities|Episodic recall]] | **Partial / strong** | Search can expand to surrounding context and transcript, but the raw archive is not itself the primary indexed tier |
-| [[memory-use-cases|Keep memory healthy]] | [[memory-capabilities|Retention management]] | **Strong in design** | Daily distill, nightly index/backup, weekly curator, and weekly gaps jobs exist beyond the documented layers |
+| [[memory-use-cases|Keep memory healthy]] | [[memory-capabilities|Retention management]] | **Partial - split across two jobs, one inactive** | `weekly-memory-curator` (active) handles both retention (resolved-thread removal) and revision (superseded-note removal); `weekly-memory-gaps` (active) supplies the detection trigger; `nightly-memory-backup` (**inactive by default**) is the durability leg |
 | [[memory-use-cases|Turn patterns into rules]] | [[memory-capabilities|Pattern-to-rule promotion]] | **Partial** | `daily-memory-distill` promotes durable facts into `MEMORY.md`, but the inspected `MEMORY.md` was unpopulated |
 | [[memory-use-cases|Find unlocated context]] | [[memory-capabilities|Unlocated context discovery]] | **Strong when asked, weak when dormant** | Recall is strong, but nothing on `UserPromptSubmit` triggers lookup without the human or agent deciding |
 | [[memory-use-cases|Navigate curated knowledge]] | [[memory-capabilities|Curated knowledge navigation]] | **Missing** | This system is query-time database recall, not a hand-curated index and wikilink system |
@@ -66,7 +71,19 @@ Two further `SessionStart` hooks support capture rather than performing it:
 - `memory-bootstrap-index.js` - on a freshly cloned workspace, backfills the empty local PGLite store once from on-disk memory, so recall works from the first session rather than staying dark until the nightly cron catches up.
 - `memory-watch-start.js` - starts a live file-watcher so memory edited outside a Claude session becomes searchable without waiting for the next capture.
 
-**A cron layer extends capture and maintenance beyond the hooks**, found in `cron/jobs/` and absent from the architecture doc: `nightly-memory-index`, `nightly-memory-backup`, `daily-memory-distill`, `weekly-memory-curator`, `weekly-memory-gaps`.
+**A cron layer extends capture and maintenance beyond the hooks**, found in `cron/jobs/` and absent from the architecture doc. Ten jobs total, five memory-related plus five unrelated (activity digest, newsletter, skill-update check, etc.):
+
+| Job | Cadence | Active | Function |
+|---|---|---|---|
+| `daily-memory-distill` | daily 23:00 | yes | Promotion + compression - extracts durable facts from the day's log into `MEMORY.md`, consolidating on overflow |
+| `nightly-memory-index` | daily 23:45 | yes | Re-embeds changed sources into the PGLite/Postgres index, prunes stale chunks |
+| `nightly-memsearch-index` | daily 23:30 | yes | A second, legacy-named re-index job, overlapping with the one above |
+| `weekly-memory-gaps` | Sun 09:30 | yes | Read-only detection: date gaps, stale threads, orphaned decisions -> writes a report |
+| `weekly-memory-curator` | Sun 10:00 | yes | Acts on the gap report: retention (resolved threads) and [[memory-storage\|revision]] (superseded notes) |
+| `nightly-memory-backup` | daily 02:30 | **no** | `pg_dump` of the hosted database - requires `MEMORY_DATABASE_URL`, not configured out of the box |
+| `monthly-learnings-health` | monthly | **no** | Audits `learnings.md` for bloat and **contradictions** - a second revision-family job, dormant by default |
+
+Two of these ship inactive. A retention/revision assessment that counts all five active-sounding names without checking `active:` overstates what actually runs.
 
 **The raw archive is not part of the memory system in practice.** It is gitignored and "not indexed by default", so unlike ClaudeClaw's `conversation_log` it cannot be queried. The verbatim layer exists as backup, not as a retrieval tier.
 

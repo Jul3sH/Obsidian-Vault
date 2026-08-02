@@ -33,10 +33,11 @@ These build on each other. Read top to bottom the first time: start with the fai
 
 **Products scored against the model** (one file per system, scoring only; each links to its architecture doc)
 
-12. [[pillars-claudeclaw|ClaudeClaw]] - the only system assessed with genuine triggered injection; aggressively curated capture; actually in use.
-13. [[pillars-agentic-os|Agentic OS]] - strongest storage and recall assessed, scheduled injection only, and recorded as "built but never ingested".
-14. [[pillars-memsearch|MemSearch]] - the only system assessed with genuine cross-agent federation; markdown-canonical/vector-disposable storage; a per-turn nudge that is not true triggered injection.
-15. [[pillars-mempalace|MemPalace]] - the only system that directly answers the compaction question (a PreCompact hook flushes before every compaction); verbatim storage, the opposite pole from the other three; no injection layer at all.
+12. [[pillars-agile-os|Agile OS]] - the current Obsidian Vault memory system: strong curated storage and navigation, weak triggered injection, no query-time index.
+13. [[pillars-claudeclaw|ClaudeClaw]] - the only system assessed with genuine triggered injection; aggressively curated capture; actually in use.
+14. [[pillars-agentic-os|Agentic OS]] - strongest storage and recall assessed, scheduled injection only, and recorded as "built but never ingested".
+15. [[pillars-memsearch|MemSearch]] - the only system assessed with genuine cross-agent federation; markdown-canonical/vector-disposable storage; a per-turn nudge that is not true triggered injection.
+16. [[pillars-mempalace|MemPalace]] - the only system that directly answers the compaction question (a PreCompact hook flushes before every compaction); verbatim storage, the opposite pole from the other three; no injection layer at all.
 
 **Reviews**
 

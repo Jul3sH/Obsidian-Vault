@@ -91,7 +91,7 @@ Both axes above describe where content *sits*. A third question is how it *moves
 | **Consolidation** | Related memories are merged into a derived insight | **Yes - retained** | ClaudeClaw `runConsolidation` |
 | **Compression** | Existing content is rewritten shorter | Superseded in place | agentic-os `weekly-memory-curator` |
 | **Decay** | Content loses ranking weight without changing | Yes, until pruned | ClaudeClaw salience decay |
-| **Revision** | Content that has become wrong is corrected or retired | **Branch-dependent** - retained on the canonical branch, replaced on the behavioural | MemPalace `valid_from`/`valid_to`; ClaudeClaw `superseded_by` |
+| **Revision** | Content that has become wrong is corrected or retired | **Branch-dependent** - retained on the canonical branch, replaced on the behavioural | MemPalace `valid_from`/`valid_to`; ClaudeClaw `superseded_by`; agentic-os `weekly-memory-curator` |
 
 ### Promotion
 
@@ -136,9 +136,11 @@ Promotion and **add-only** storage pull in opposite directions, and a system can
 | Branch | Strategy | Sources | Verified example |
 |---|---|---|---|
 | **Canonical** | **Add-only revision.** Append the corrected fact with its own validity window and close the old one off | Retained. The store can still answer what was true *then* | MemPalace: `valid_from` → `valid_to` on every edge, superseded facts retained rather than overwritten, with an explicit precedence rule when facts conflict |
-| **Behavioural** | **Destructive revision.** Supersede or overwrite in place | Replaced, because the branch is judged on brevity and competes for [[memory-injection|injection budget]] | ClaudeClaw: a `superseded_by` column on the `memories` table |
+| **Behavioural** | **Destructive revision.** Supersede or overwrite in place | Replaced, because the branch is judged on brevity and competes for [[memory-injection|injection budget]] | ClaudeClaw: a `superseded_by` column on the `memories` table; agentic-os: `weekly-memory-curator` retires Environment Notes it judges "superseded by a newer entry" |
 
 That the same branch split resolves both the promotion tension and the revision strategy is evidence the split is real rather than a convenience.
+
+**agentic-os is also the one verified case where the missing trigger is supplied.** The claim above - that revision usually has a mechanism but no detector - holds for the store itself, but agentic-os splits detection and mutation into two separate cron jobs: `weekly-memory-gaps` runs read-only every Sunday morning, flags stale threads and superseded-looking entries, and writes a report; `weekly-memory-curator` runs an hour later and acts on it. The system does not solve "know when a fact went stale" in general - the gaps job's own staleness rule is a crude one, ">7 days without update" - but it demonstrates that a scheduled detection pass is a workable trigger even when true correctness-checking is out of reach. **Caveat:** `monthly-learnings-health`, the one job actually described as checking for "contradictions" rather than staleness-by-age, ships `active: 'false'` - the closer a job gets to real correctness detection, the less confidently the design commits to running it automatically.
 
 **Deletion is revision's terminal case, not a separate transformation.** Retiring an item that is simply wrong, rather than replacing it, is the degenerate form where the corrected value is empty. On the canonical branch it should still be a closed validity window rather than a true delete, so the record of having believed it survives.
 

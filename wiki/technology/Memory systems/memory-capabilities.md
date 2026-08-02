@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-08-01
+updated: 2026-08-02
 authority: analysis-backed
 concept: catalogue
 ---
@@ -64,24 +64,471 @@ This file keeps use cases inline for now. A dedicated use-case catalogue can be 
 
 **State legend:** have / partial or manual / missing. Confirmed = assessed in detail; Provisional = first-pass judgement, not yet worked through.
 
-| # | Capability | Primary use case | What you get | Functions spanned | Representative features / evidence | State here | Confidence |
-|---|---|---|---|---|---|---|---|
-| 1 | **Identity persistence** | When a new session starts, the AI agent needs to know who it is working with so that the user does not have to re-establish preferences, identity, and working style | The agent knows who you are without being told, every session | Storage (behavioural) + Injection (scheduled) | `SessionStart` injection in [[pillars-agentic-os]] and [[pillars-memsearch]]; `USER.md` / `user.md` stores | Partial: store excellent, delivery 10% | Confirmed |
-| 2 | **Critical context availability** | When a new session starts or resumes work, the AI agent needs to know the active project, blockers, and next action so that work resumes from the right place | The agent knows what you are working on without being told | Storage (behavioural/canonical pointer) + Injection (scheduled) | Derived live-project payload; `PROJECT.md` distillation in [[pillars-memsearch]]; scheduled snapshot in [[pillars-agentic-os]] | Missing: content exists, no mechanism | Confirmed |
-| 3 | **Compaction survival** | When context compaction occurs, the AI agent needs critical material to return mid-session so that important facts do not silently disappear | Material pushed out by compaction returns mid-session | Injection (triggered); plus Capture (event-triggered) where capture is not continuous | `PreCompact` hook in [[pillars-mempalace]]; triggered context injection in [[pillars-claudeclaw]] | Partial: largely native, not deterministic | Confirmed |
-| 4 | **Working reasoning preservation** | When a long analytical session accumulates assumptions, dead ends and rejected options, the AI agent needs to preserve and re-surface the working reasoning so that later answers do not repeat old paths or drift after context rot | Dead ends, rejected options, assumptions, and rationale remain recoverable during and after a long session | Capture + Storage + Injection (triggered or scheduled refresh) | Working scratchpad; reasoning checkpoints; compaction summary; triggered context refresh | Missing: no deliberate mechanism | Provisional |
-| 5 | **Long-term knowledge recall** | When a user or agent needs a fact, decision, or pattern recorded months ago, the system needs to retrieve it so that current work stays consistent with prior knowledge | Find a fact, decision, or pattern recorded months ago | Storage (canonical) + Recall | Wiki articles, [[memory-features#Curated Index Retrieval|curated index retrieval]], [[memory-features#Semantic Search|semantic search]], vector/full-text search in product scorecards | Have: 541-file wiki | Provisional |
-| 6 | **Episodic recall** | When a user asks what happened, why a choice was made, or how a conclusion developed, the system needs to recover past session events so that reasoning and provenance can be inspected | Answer "what happened?" or "why did we decide X?" for any past session | Capture (continuous) + Storage (verbatim) + Recall (query-time) | Native JSONL transcripts; transcript rung in [[pillars-agentic-os]] and [[pillars-memsearch]]; source references in [[pillars-mempalace]] | Partial: transcripts captured, not searchable | Provisional |
-| 7 | **Retention management** | When memory grows over time, the system needs to compress, archive, decay, or prune material so that useful memory does not drown in stale material | Old material compresses or archives rather than accumulating indefinitely | Storage (retention axis) | `_archived/` folders; salience decay in [[pillars-claudeclaw]]; curator jobs in [[pillars-agentic-os]] | Partial: manual `_archived/` folders | Provisional |
-| 8 | **Pattern-to-rule promotion** | When repeated observations reveal a stable preference, correction, or workflow, the system needs to promote the pattern into a standing rule so that future sessions improve | Observations seen repeatedly become durable operating rules | Storage + promotion process + Injection (where behavioural) | Feedback rules; `daily-memory-distill` in [[pillars-agentic-os]]; `PROJECT.md` / `USER.md` distillation in [[pillars-memsearch]] | Partial: manual, two-key process | Provisional |
-| 9 | **Unlocated context discovery** | When the user or agent remembers the substance of something but not where it lives, the system needs to find the relevant material so that dormant or poorly filed context can still influence the work | Find relevant prior material when the actor does not know the filename, topic area, exact wording, or source location | Recall (query-time) + Injection (triggered where automatic) | [[memory-features#Semantic Search|semantic search]]; dense vector search; hybrid search; per-turn retrieval in [[pillars-claudeclaw]] | Partial: grep only | Provisional |
-| 10 | **Curated knowledge navigation** | When the actor knows the domain or likely topic area, the system needs to navigate a curated knowledge structure so that the right material is found transparently and cheaply | Curated indexes and links surface the right material without computed search | Storage (canonical) + Recall (write-time) | [[memory-features#Curated Index Retrieval|curated index retrieval]]; topic `_index.md` files; bare wikilinks | Have: index hierarchy + bare wikilinks | Provisional |
-| 11 | **Cross-agent memory federation** | When work moves between AI tools, the user's prior context needs to be available across agents so that knowledge is not fragmented by client boundary | Multiple agents can share or query the same memory substrate | Capture + Storage + Recall + access protocol | Shared store in [[pillars-memsearch]]; MCP-style bus in [[openbrain-vs-agentic-os]] | Missing | Provisional |
-| 12 | **Scope-isolated recall** | When multiple clients, agents, or tenants share infrastructure, the system needs to retrieve only permitted memory so that private context does not leak | Recall respects user, client, team, or agent boundaries | Storage (scope model) + Recall + Injection | Scope columns and no-leak tests in [[pillars-agentic-os]]; per-agent plus shared tier in [[pillars-claudeclaw]] | Mostly not needed here: single-user vault | Provisional |
-| 13 | **Temporal fact recall** | When facts change over time, the system needs to answer what was true at a past date so that current truth is not mistaken for historical truth | Retrieve time-valid facts and superseded facts correctly | Storage (temporal form) + Recall | Temporal entity graph and `mempalace_kg_query` in [[pillars-mempalace]] | Missing | Provisional |
-| 14 | **Source-grounded recall** | When a retrieved answer matters, the system needs to trace it back to original source material so that the user can verify it | Answers can be traced from summary or graph result back to verbatim source | Storage (faithful/source references) + Recall | Transcript rung in [[pillars-agentic-os]] and [[pillars-memsearch]]; closet references in [[pillars-mempalace]] | Partial: source docs exist, transcript recall absent | Provisional |
-| 15 | **Procedural memory generation** | When a workflow recurs, the system needs to turn it into a reusable procedure so that future work is faster and more reliable | Repeated workflows become skills, procedures, or standing playbooks | Capture + Storage + promotion process; may generate a new enabler | "Skills from Memory" in [[pillars-memsearch]]; feedback rules and skills in AI OS | Partial: manual skill creation only | Provisional |
-| 16 | **Memory correctness maintenance** | When a stored fact or standing rule becomes wrong, the system needs to surface and correct or retire it so that the agent stops confidently acting on outdated memory | Memory that has gone false is detected and revised, rather than asserted indefinitely | Storage (revision transformation) + a detection trigger, which is the part usually absent | `superseded_by` in [[pillars-claudeclaw]]; `valid_from`/`valid_to` in [[pillars-mempalace]]; manual edits to `user.md` and `feedback-*.md` here | Partial: mechanism trivial, no detection trigger | Confirmed |
+### 1. Identity Persistence
+
+#### Primary use case
+
+- When a new session starts, the AI agent needs to know who it is working with so that the user does not have to re-establish preferences, identity, and working style.
+
+#### What you get
+
+- The agent knows who you are without being told, every session.
+
+#### Functions spanned
+
+- Storage (behavioural)
+- Injection (scheduled)
+
+#### Representative features and evidence
+
+- `SessionStart` injection in [[pillars-agentic-os]] and [[pillars-memsearch]]
+- `USER.md` / `user.md` stores
+
+#### State here
+
+- Partial: store excellent, delivery 10%.
+
+#### Confidence
+
+- Confirmed.
+
+### 2. Critical Context Availability
+
+#### Primary use case
+
+- When a new session starts or resumes work, the AI agent needs to know the active project, blockers, and next action so that work resumes from the right place.
+
+#### What you get
+
+- The agent knows what you are working on without being told.
+
+#### Functions spanned
+
+- Storage (behavioural or canonical pointer)
+- Injection (scheduled)
+
+#### Representative features and evidence
+
+- Derived live-project payload
+- `PROJECT.md` distillation in [[pillars-memsearch]]
+- Scheduled snapshot in [[pillars-agentic-os]]
+
+#### State here
+
+- Missing: content exists, no mechanism.
+
+#### Confidence
+
+- Confirmed.
+
+### 3. Compaction Survival
+
+#### Primary use case
+
+- When context compaction occurs, the AI agent needs critical material to return mid-session so that important facts do not silently disappear.
+
+#### What you get
+
+- Material pushed out by compaction returns mid-session.
+
+#### Functions spanned
+
+- Injection (triggered)
+- Capture (event-triggered) where capture is not continuous
+
+#### Representative features and evidence
+
+- `PreCompact` hook in [[pillars-mempalace]]
+- Triggered context injection in [[pillars-claudeclaw]]
+
+#### State here
+
+- Partial: largely native, not deterministic.
+
+#### Confidence
+
+- Confirmed.
+
+### 4. Working Reasoning Preservation
+
+#### Primary use case
+
+- When a long analytical session accumulates assumptions, dead ends and rejected options, the AI agent needs to preserve and re-surface the working reasoning so that later answers do not repeat old paths or drift after context rot.
+
+#### What you get
+
+- Dead ends, rejected options, assumptions, and rationale remain recoverable during and after a long session.
+
+#### Functions spanned
+
+- Capture
+- Storage
+- Injection (triggered or scheduled refresh)
+
+#### Representative features and evidence
+
+- Working scratchpad
+- Reasoning checkpoints
+- Compaction summary
+- Triggered context refresh
+
+#### State here
+
+- Missing: no deliberate mechanism.
+
+#### Confidence
+
+- Provisional.
+
+### 5. Long-Term Knowledge Recall
+
+#### Primary use case
+
+- When a user or agent needs a fact, decision, or pattern recorded months ago, the system needs to retrieve it so that current work stays consistent with prior knowledge.
+
+#### What you get
+
+- Find a fact, decision, or pattern recorded months ago.
+
+#### Functions spanned
+
+- Storage (canonical)
+- Recall
+
+#### Representative features and evidence
+
+- Wiki articles
+- [[memory-features#Curated Index Retrieval|Curated index retrieval]]
+- [[memory-features#Semantic Search|Semantic search]]
+- Vector and full-text search in product scorecards
+
+#### State here
+
+- Have: 541-file wiki.
+
+#### Confidence
+
+- Provisional.
+
+### 6. Episodic Recall
+
+#### Primary use case
+
+- When a user asks what happened, why a choice was made, or how a conclusion developed, the system needs to recover past session events so that reasoning and provenance can be inspected.
+
+#### What you get
+
+- Answer "what happened?" or "why did we decide X?" for any past session.
+
+#### Functions spanned
+
+- Capture (continuous)
+- Storage (verbatim)
+- Recall (query-time)
+
+#### Representative features and evidence
+
+- Native JSONL transcripts
+- Transcript rung in [[pillars-agentic-os]] and [[pillars-memsearch]]
+- Source references in [[pillars-mempalace]]
+
+#### State here
+
+- Partial: transcripts captured, not searchable.
+
+#### Confidence
+
+- Provisional.
+
+### 7. Retention Management
+
+#### Primary use case
+
+- When memory grows over time, the system needs to compress, archive, decay, or prune material so that useful memory does not drown in stale material.
+
+#### What you get
+
+- Old material compresses or archives rather than accumulating indefinitely.
+
+#### Functions spanned
+
+- Storage (retention axis)
+
+#### Representative features and evidence
+
+- `_archived/` folders
+- Salience decay in [[pillars-claudeclaw]]
+- Curator jobs in [[pillars-agentic-os]]
+
+#### State here
+
+- Partial: manual `_archived/` folders.
+
+#### Confidence
+
+- Provisional.
+
+### 8. Pattern-to-Rule Promotion
+
+#### Primary use case
+
+- When repeated observations reveal a stable preference, correction, or workflow, the system needs to promote the pattern into a standing rule so that future sessions improve.
+
+#### What you get
+
+- Observations seen repeatedly become durable operating rules.
+
+#### Functions spanned
+
+- Storage
+- Promotion process
+- Injection where behavioural
+
+#### Representative features and evidence
+
+- Feedback rules
+- `daily-memory-distill` in [[pillars-agentic-os]]
+- `PROJECT.md` / `USER.md` distillation in [[pillars-memsearch]]
+
+#### State here
+
+- Partial: manual, two-key process.
+
+#### Confidence
+
+- Provisional.
+
+### 9. Unlocated Context Discovery
+
+#### Primary use case
+
+- When the user or agent remembers the substance of something but not where it lives, the system needs to find the relevant material so that dormant or poorly filed context can still influence the work.
+
+#### What you get
+
+- Find relevant prior material when the actor does not know the filename, topic area, exact wording, or source location.
+
+#### Functions spanned
+
+- Recall (query-time)
+- Injection (triggered where automatic)
+
+#### Representative features and evidence
+
+- [[memory-features#Semantic Search|Semantic search]]
+- Dense vector search
+- Hybrid search
+- Per-turn retrieval in [[pillars-claudeclaw]]
+
+#### State here
+
+- Partial: grep only.
+
+#### Confidence
+
+- Provisional.
+
+### 10. Curated Knowledge Navigation
+
+#### Primary use case
+
+- When the actor knows the domain or likely topic area, the system needs to navigate a curated knowledge structure so that the right material is found transparently and cheaply.
+
+#### What you get
+
+- Curated indexes and links surface the right material without computed search.
+
+#### Functions spanned
+
+- Storage (canonical)
+- Recall (write-time)
+
+#### Representative features and evidence
+
+- [[memory-features#Curated Index Retrieval|Curated index retrieval]]
+- Topic `_index.md` files
+- Bare wikilinks
+
+#### State here
+
+- Have: index hierarchy and bare wikilinks.
+
+#### Confidence
+
+- Provisional.
+
+### 11. Cross-Agent Memory Federation
+
+#### Primary use case
+
+- When work moves between AI tools, the user's prior context needs to be available across agents so that knowledge is not fragmented by client boundary.
+
+#### What you get
+
+- Multiple agents can share or query the same memory substrate.
+
+#### Functions spanned
+
+- Capture
+- Storage
+- Recall
+- Access protocol
+
+#### Representative features and evidence
+
+- Shared store in [[pillars-memsearch]]
+- MCP-style bus in [[openbrain-vs-agentic-os]]
+
+#### State here
+
+- Missing.
+
+#### Confidence
+
+- Provisional.
+
+### 12. Scope-isolated Recall
+
+#### Primary use case
+
+- When multiple clients, agents, or tenants share infrastructure, the system needs to retrieve only permitted memory so that private context does not leak.
+
+#### What you get
+
+- Recall respects user, client, team, or agent boundaries.
+
+#### Functions spanned
+
+- Storage (scope model)
+- Recall
+- Injection
+
+#### Representative features and evidence
+
+- Scope columns and no-leak tests in [[pillars-agentic-os]]
+- Per-agent plus shared tier in [[pillars-claudeclaw]]
+
+#### State here
+
+- Mostly not needed here: single-user vault.
+
+#### Confidence
+
+- Provisional.
+
+### 13. Temporal Fact Recall
+
+#### Primary use case
+
+- When facts change over time, the system needs to answer what was true at a past date so that current truth is not mistaken for historical truth.
+
+#### What you get
+
+- Retrieve time-valid facts and superseded facts correctly.
+
+#### Functions spanned
+
+- Storage (temporal form)
+- Recall
+
+#### Representative features and evidence
+
+- Temporal entity graph and `mempalace_kg_query` in [[pillars-mempalace]]
+
+#### State here
+
+- Missing.
+
+#### Confidence
+
+- Provisional.
+
+### 14. Source-grounded Recall
+
+#### Primary use case
+
+- When a retrieved answer matters, the system needs to trace it back to original source material so that the user can verify it.
+
+#### What you get
+
+- Answers can be traced from summary or graph result back to verbatim source.
+
+#### Functions spanned
+
+- Storage (faithful or source references)
+- Recall
+
+#### Representative features and evidence
+
+- Transcript rung in [[pillars-agentic-os]] and [[pillars-memsearch]]
+- Closet references in [[pillars-mempalace]]
+
+#### State here
+
+- Partial: source docs exist, transcript recall absent.
+
+#### Confidence
+
+- Provisional.
+
+### 15. Procedural Memory Generation
+
+#### Primary use case
+
+- When a workflow recurs, the system needs to turn it into a reusable procedure so that future work is faster and more reliable.
+
+#### What you get
+
+- Repeated workflows become skills, procedures, or standing playbooks.
+
+#### Functions spanned
+
+- Capture
+- Storage
+- Promotion process
+- May generate a new enabler
+
+#### Representative features and evidence
+
+- "Skills from Memory" in [[pillars-memsearch]]
+- Feedback rules and skills in AI OS
+
+#### State here
+
+- Partial: manual skill creation only.
+
+#### Confidence
+
+- Provisional.
+
+### 16. Memory Correctness Maintenance
+
+#### Primary use case
+
+- When a stored fact or standing rule becomes wrong, the system needs to surface and correct or retire it so that the agent stops confidently acting on outdated memory.
+
+#### What you get
+
+- Memory that has gone false is detected and revised, rather than asserted indefinitely.
+
+#### Functions spanned
+
+- Storage (revision transformation)
+- A detection trigger, which is the part usually absent
+
+#### Representative features and evidence
+
+- `superseded_by` in [[pillars-claudeclaw]]
+- `valid_from` / `valid_to` in [[pillars-mempalace]]
+- Manual edits to `user.md` and `feedback-*.md` here
+
+#### State here
+
+- Partial: mechanism trivial, no detection trigger.
+
+#### Confidence
+
+- Confirmed.
 
 ## Notes on individual capabilities
 
