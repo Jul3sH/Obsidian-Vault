@@ -17,5 +17,6 @@ This section documents how the Claude harness integrates with the Obsidian Vault
 - [[memory/_index|Memory]] — Cross-session memory convention: types, file format, loading rule, and what not to store
 - [[notebooklm-tenglin|NotebookLM Tenglin Integration]] — Claude-specific integration with Google NotebookLM; auth model, capabilities, planned use cases, and known risks
 - [[plugins/_index|Plugins]] — Third-party and custom Claude Code plugins (extensions adding skills, agents, commands, hooks); currently the OpenAI Codex plugin
+- [[commands/tco|tco Command]] - Mirror of the `/tco` slash command (source: `<vault>/.claude/commands/tco.md`)
 
 > [[jira-system-design|Jira System Design]] moved to [[generic/_index|Generic System Design]] on 2026-06-27: the board design and field mappings are harness-agnostic (any agent could sync), even though the current automation is Claude skills.

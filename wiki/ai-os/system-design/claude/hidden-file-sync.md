@@ -88,6 +88,7 @@ updated: 2026-07-28
 | File | Source | Wiki Mirror | Last Synced |
 |------|--------|-------------|-------------|
 | settings.json (project) | `<vault>/.claude/settings.json` | [[permissions\|permissions.md]] (allowlist embedded verbatim) | 2026-06-30 (added 10 read-only MCP/Bash entries via /fewer-permission-prompts) |
+| tco.md (command) | `<vault>/.claude/commands/tco.md` | [[commands/tco\|tco.md]] | 2026-08-02 (new: mirrored, no secrets found) |
 
 > **Unmirrored (gap):** global `~/.claude/settings.json` and both `settings.local.json` files are not yet mirrored. Tracked in [[brain-dump]] (Wiki / AI OS).
 
