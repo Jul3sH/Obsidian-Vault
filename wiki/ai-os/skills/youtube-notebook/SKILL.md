@@ -1,9 +1,7 @@
 ---
 name: youtube-notebook
-description: Ingest a YouTube channel's videos into a NotebookLM notebook with verified-complete enumeration, date-prefixed source titles, and one native briefing doc per video whose title matches its source. Use when the user wants to turn a YouTube channel (a blogger, creator, or commentator) into a NotebookLM notebook, restricted by month, date range, topic, or a combination — e.g. "all AI workflow videos from November", "put NateBJones June into NotebookLM", "make me a notebook of X's videos".
+description: Ingest a YouTube channel's videos into a NotebookLM notebook with verified-complete enumeration, date-prefixed source titles, and one native briefing doc per video whose title matches its source. Use when the user wants to turn a YouTube channel (a blogger, creator, or commentator) into a NotebookLM notebook, restricted by month, date range, topic, or a combination - e.g. "all AI workflow videos from November", "put NateBJones June into NotebookLM", "make me a notebook of X's videos".
 ---
-
-<!-- Mirror of ~/.claude/skills/youtube-notebook/SKILL.md — do not edit here; edit the source file -->
 
 # youtube-notebook Skill
 
@@ -136,6 +134,22 @@ wait for processing -> generate one briefing per source -> wait and retitle ->
 download -> reconcile. State is checkpointed to `run-state.json` after every
 item, so `--resume` never duplicates work.
 
+### Extending an existing notebook
+
+`--notebook-id` adds a new window to a notebook that already holds earlier ones
+(e.g. adding July to a June notebook). Pass `--notebook-title` alongside it so
+the briefings folder is named correctly; renaming the notebook first keeps the
+title honest about what it now contains.
+
+Reconciliation adapts: a reused notebook legitimately holds more than this run's
+manifest, so completeness becomes a **subset** test (every expected item present)
+rather than equality (expected is all there is). Equality would fail every
+incremental run even with nothing missing. Artifact health is likewise scoped to
+this run's titles, so a hand-made audio overview from months ago cannot fail the
+report. `run-report.json` records `notebook_reused` plus the notebook's total
+counts so the superset is visible. Without `--notebook-id`, strict equality still
+applies - a fresh notebook should contain exactly the manifest and nothing else.
+
 ---
 
 ## The correlation rules (the point of this skill)
@@ -196,6 +210,10 @@ that cost real debugging time:
 2. **`artifact get` returns `status` at the top level**, not nested under `artifact`.
 3. **The CLI writes warnings to stderr and data to stdout**, so `--json` output is
    clean if you read stdout only.
+4. **Never pipe `build_notebook.py` into `tail`/`head`.** The pipeline reports the
+   *last* command's status, so a hard failure mid-run still exits 0 and reads as
+   success. Redirect to a file and read it instead. This is why the rule above is
+   "read `run-report.json`", not "check the exit code".
 
 ---
 
