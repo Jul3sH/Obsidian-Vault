@@ -5,7 +5,7 @@ updated: 2026-08-01
 tags: [technology, ai, memory, architecture]
 aliases: [ai-memory-paradigms, AI Memory Paradigms]
 ---
-
+	
 # Wiki vs OpenBrain: Write-Time vs Query-Time
 
 > *The two fundamental ways to structure an AI context layer, and the trade-offs that follow from each. Source: Nate B Jones, "Karpathy's Wiki vs. OpenBrain" (2026-04-22), [YouTube](https://www.youtube.com/watch?v=dxq7WtWxi44).*

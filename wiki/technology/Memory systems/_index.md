@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-08-01
+updated: 2026-08-02
 ---
 
 # Memory Systems
@@ -9,33 +9,34 @@ updated: 2026-08-01
 
 ## Reading order
 
-These build on each other. Read top to bottom the first time; the overview in (1) supplies the vocabulary the rest depend on.
+These build on each other. Read top to bottom the first time: start with the failure modes, then the actor journeys, capabilities, features, and architecture.
 
 **The model**
 
-1. [[memory-pillars|The Four Pillars of Memory Systems]] - **start here.** The overview: dependency order, the pillar-versus-enabler-versus-capability distinction, the amendment splitting Capture out of Simon Scrapes' three pillars, correlation with other published memory models, and the cross-pillar compaction analysis.
+1. [[memory-challanges|Memory Challenges]] - **start here.** Recurring memory failure modes, mapped to capabilities, features, and platform responses.
 2. [[memory-use-cases|Memory Use Cases]] - memorable actor-outcome journeys explaining why memory is needed.
-3. [[memory-capabilities|Memory Capabilities]] - the demand-side companion to (1). What you *get* rather than what the system *does*. Fifteen catalogued capabilities, each linked to a primary use case and representative features.
+3. [[memory-capabilities|Memory Capabilities]] - the demand-side companion to the use cases. What you *get* rather than what the system *does*. Sixteen catalogued capabilities, each linked to a primary use case and representative features.
 4. [[memory-features|Memory Features]] - concrete mechanisms and feature families observed across products, mapped to architecture functions and capabilities.
+5. [[memory-pillars|The Four Pillars of Memory Systems]] - the architecture overview: dependency order, the pillar-versus-enabler-versus-capability distinction, the amendment splitting Capture out of Simon Scrapes' three pillars, correlation with other published memory models, and the cross-pillar compaction analysis.
 
 **The four pillars** (one article each, in dependency order; each carries its sub-types and links to the capabilities it participates in)
 
-5. [[memory-capture|Capture]] - getting events into a durable record. Three modes plus an event-triggered firing condition. The capability it produces is the **Observation Layer**.
-6. [[memory-storage|Storage]] - what is kept and how it is organised. Two independent axes: canonical vs behavioural, and form crossed with retention.
-7. [[memory-injection|Injection]] - deciding to look at all, and placing material in context. Scheduled vs triggered, and the four-rung trigger hierarchy. The pillar most systems under-build.
-8. [[memory-recall|Recall]] - finding the right material. Write-time vs query-time.
+6. [[memory-capture|Capture]] - getting events into a durable record. Three modes plus an event-triggered firing condition. The capability it produces is the **Observation Layer**.
+7. [[memory-storage|Storage]] - what is kept and how it is organised. Two independent axes: canonical vs behavioural, and form crossed with retention.
+8. [[memory-injection|Injection]] - deciding to look at all, and placing material in context. Scheduled vs triggered, and the four-rung trigger hierarchy. The pillar most systems under-build.
+9. [[memory-recall|Recall]] - finding the right material. Write-time vs query-time.
 
 **The wider debate**
 
-9. [[wiki-vs-openbrain|Wiki vs OpenBrain: Write-Time vs Query-Time]] - the paradigm fork underneath Recall's two sub-types: compile on ingest, or synthesise on query. Where each wins, where each breaks, and the hybrid resolution.
-10. [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
+10. [[wiki-vs-openbrain|Wiki vs OpenBrain: Write-Time vs Query-Time]] - the paradigm fork underneath Recall's two sub-types: compile on ingest, or synthesise on query. Where each wins, where each breaks, and the hybrid resolution.
+11. [[openbrain-vs-agentic-os|OpenBrain (OB1) vs Agentic OS Memory]] - two query-time database systems compared: multi-tool bus versus multi-client runtime, faithful store versus Haiku pre-compile.
 
 **Products scored against the model** (one file per system, scoring only; each links to its architecture doc)
 
-11. [[pillars-claudeclaw|ClaudeClaw]] - the only system assessed with genuine triggered injection; aggressively curated capture; actually in use.
-12. [[pillars-agentic-os|Agentic OS]] - strongest storage and recall assessed, scheduled injection only, and recorded as "built but never ingested".
-13. [[pillars-memsearch|MemSearch]] - the only system assessed with genuine cross-agent federation; markdown-canonical/vector-disposable storage; a per-turn nudge that is not true triggered injection.
-14. [[pillars-mempalace|MemPalace]] - the only system that directly answers the compaction question (a PreCompact hook flushes before every compaction); verbatim storage, the opposite pole from the other three; no injection layer at all.
+12. [[pillars-claudeclaw|ClaudeClaw]] - the only system assessed with genuine triggered injection; aggressively curated capture; actually in use.
+13. [[pillars-agentic-os|Agentic OS]] - strongest storage and recall assessed, scheduled injection only, and recorded as "built but never ingested".
+14. [[pillars-memsearch|MemSearch]] - the only system assessed with genuine cross-agent federation; markdown-canonical/vector-disposable storage; a per-turn nudge that is not true triggered injection.
+15. [[pillars-mempalace|MemPalace]] - the only system that directly answers the compaction question (a PreCompact hook flushes before every compaction); verbatim storage, the opposite pole from the other three; no injection layer at all.
 
 **Reviews**
 
