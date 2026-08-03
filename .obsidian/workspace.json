@@ -200,6 +200,7 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/ai-os/system-design/claude/memory/feedback-graduated-chase-tone.md",
     "wiki/ai-os/system-design/claude/commands/tco.md",
     "wiki/ai-os/system-design/claude/commands",
     "wiki/technology/Memory systems/pillars-mempalace.md",
@@ -226,7 +227,6 @@
     "wiki/technology/claudeclaw-enterprise-os/_index.md",
     "wiki/technology/agentic-os/multi-client-architecture.md",
     "wiki/technology/agentic-os/memory-system-architecture.md",
-    "wiki/technology/agentic-os/memory-database-schema.md",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",
     "wiki/technology/Job search tech",

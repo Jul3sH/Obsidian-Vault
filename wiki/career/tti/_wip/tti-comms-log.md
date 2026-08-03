@@ -19,6 +19,29 @@ renamed: 2026-07-17
 
 ---
 
+## Justin Gilbert
+
+---
+
+## ✅ 3 Aug - JUSTIN CHECK-IN: Stephan vague, no real clarity; IT "on the to-do list"; Clodagh now blocking the agreed Sophia handover
+
+> **Julian checked with Justin before messaging Kari directly, to confirm whether Stephan actually has clarity on where things stand.** Justin's answer confirms Stephan does NOT have real clarity: he "seemed to think things went well" and there was brief talk (2 Aug) of "straitening out IT" - vague, on TTI's internal to-do list, no specifics. This supports going to Kari directly rather than via Stephan.
+
+**What happened (WhatsApp, 3 Aug):**
+- **Julian (7:56):** *"Hi mate, about to message Kari. To confirm, Stephan seemed pretty unaware of where it is at when you mentioned it?"*
+- **Julian (7:57):** *"How was your 'yeeehaa' Sunday?"*
+- **Justin (8:04):** *"I spoke to Stephan briefly and he seemed to think things went well. There was brief talk yesterday of straitening out IT - it is on their list of to do's, so hopefully it will materialize, i am sure it will… i did say that you told him that you needed to go back to the UK to see your mum. How is it going with Clodagh?"*
+- **Julian (8:12):** *"Thanks Justin, I appreciate you raising it with him. I think things are gong well in Ireland, so well in fact Clodagh is now refusing to bring Sophia to uk on the date we agreed. 😬"*
+
+**Strategic read:**
+- **Confirms the diagnosis, not just Julian's suspicion.** Stephan's "things went well" + "on their list of to do's" is warm-but-vague - the same absorb-don't-act pattern this log has flagged repeatedly (16 Jul, 4 Jul, 28 Jun). It is not the "line of sight on a decision" Julian is now asking Kari for directly.
+- **⚠ Cover-story mismatch to track.** Justin told Stephan Julian is away "to see your mum" - a different reason than the Sophia-schooling framing used on the Ty/Kari channel (15 Jul, 24 Jul). Low probability these cross-check directly, but worth knowing which cover story is live on which channel if it ever comes up.
+- **New development, outside TTI but material to timing:** Clodagh is now refusing to bring Sophia to the UK on the agreed handover date. This bears directly on the mid-August school deadline the whole TTI ask has been timed against. **Flagging only** - this needs its own tracking in the Sophia/UK-relocation thread, not resolution here.
+
+**NEXT:** Kari message going out now (direct, dated ask). Watch the Stephan channel passively; no action needed there until Kari or Ty responds.
+
+---
+
 ## Ty Staviski
 
 ---

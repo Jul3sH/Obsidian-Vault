@@ -17,5 +17,6 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-build-dont-adopt.md | feedback | When Julian builds a new system, force an adoption forcing-function + a systems-register row — he gets dopamine from designing but abandons systems unadopted (Jira/sprints). |
 | feedback-assumption-audit.md | feedback | Surface + challenge load-bearing assumptions at work-definition/sprint-planning time; invert them, cheap-test them, and check against Julian's own prior conclusions before he invests effort. |
 | feedback-verify-before-writing.md | feedback | Verify a checkable claim in the same turn you write it into a file, not after Julian questions it |
+| feedback-graduated-chase-tone.md | feedback | Chasing a stalled third party: open warm, not direct; escalate only if silence continues; don't pre-plan follow-ups before seeing the reply |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)
