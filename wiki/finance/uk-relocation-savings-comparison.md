@@ -19,6 +19,7 @@ source: UK Relocation Savings Comparison Google Sheet
 
 - London does not stack up on pure savings unless materially higher London pay is much easier to land than medium/high work in Malvern or Hong Kong.
 - Malvern is the strongest savings route at low, medium, and high salaries only under the living-with-Mum assumption. It is a desperate-measure bridge, not a normal 10-year lifestyle plan.
+- Malvern Zero makes the downside explicit: with no earnings, the Malvern case loses HKD 303,492/yr and HKD 3,034,920 over 10 years before any starting pot is used.
 - If Julian lives independently in Malvern, the model breaks: add roughly HKD 10,000/mo accommodation plus bills and a car, and the Malvern savings advantage is no longer reliable.
 - Hong Kong becomes the strongest savings route at extra-high salary and is financially better than London at every identical salary band.
 - The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
@@ -27,6 +28,7 @@ source: UK Relocation Savings Comparison Google Sheet
 
 - **At the same gross salary, London is financially weakest in every band.** The key drag is UK tax, not day-to-day cashflow: London annual cashflow is only HKD 22,212 lower than Hong Kong.
 - **At GBP 75k / HKD 750k, Malvern is the only location that clearly saves cash**. London loses HKD 129,414/yr and Hong Kong loses HKD 29,256/yr.
+- **At GBP 0 / HKD 0, Malvern is a pure burn scenario**: HKD 303,492/yr, using the current Malvern cashflow assumption.
 - **At GBP 110k / HKD 1.1m,** London is only thinly positive at HKD 53,586/yr. Hong Kong saves HKD 261,244/yr and Malvern saves HKD 420,078/yr.
 - **At GBP 150k / HKD 1.5m,** Malvern and Hong Kong are effectively tied, while London remains far behind.
 - **At GBP 200k / HKD 2.0m,** Hong Kong pulls clearly ahead because the HK tax cap keeps more of the extra salary.
@@ -41,14 +43,15 @@ The sheet is the paste-in output of the earnings model built from the [[uk-reloc
 Structural notes:
 - The live Google Sheet is the data and assumptions surface for the earnings and savings comparison, not the source model or narrative readout.
 - London, Malvern, and Hong Kong are compared at four identical salary bands: Low, Medium, High, and Extra High.
+- Malvern also has one zero-earnings stress-case column.
 - Findings are deliberately held in this companion note so the spreadsheet stays focused on numbers and assumptions.
 - Source figures, assumptions, and calculations live in [[uk-relocation-cashflows]].
 
 | Section | Content |
 |---|---|
 | Cashflow summary | Monthly and annual HKD cashflow by location (London / Malvern / HK). Source: Relocation Cash Flows sheet row 177. |
-| Salary, tax and savings | 12-column table: gross salary (GBP + HKD), income tax, NI, effective rate, net take-home, annual cashflow, annual net savings. Columns: London / Malvern / HK x Low / Med / High / Extra High. |
-| 10-year cumulative | Formula-driven Y1-Y10 cumulative savings for all 12 columns. Rows 2-11 calculate `annual net savings x year`; row 12 validates each scenario column. |
+| Salary, tax and savings | Formula-driven 13-column table: gross salary (GBP + HKD), income tax, NI, effective rate, net take-home, annual cashflow, annual net savings. Columns: London x Low / Med / High / Extra High; Malvern x Zero / Low / Med / High / Extra High; HK x Low / Med / High / Extra High. Rows 15-23 calculate from the scenario headers, tax assumptions, FX, and monthly cashflow inputs; row 24 validates each scenario column. |
+| 10-year cumulative | Formula-driven Y1-Y10 cumulative savings for all 13 columns. Rows 2-11 calculate `annual net savings x year`; row 12 validates each scenario column. |
 | Assumptions | Exchange rate, UK 2026/27 tax bands, HK salaries tax, salary band sources, modelling constraints. |
 
 ---
@@ -59,6 +62,7 @@ Structural notes:
 
 | Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
+| Zero: GBP 0 / HKD 0 | n/a | -303,492 | n/a |
 | Low: GBP 75k / HKD 750k | -129,414 | 237,078 | -29,256 |
 | Medium: GBP 110k / HKD 1.1m | 53,586 | 420,078 | 261,244 |
 | High: GBP 150k / HKD 1.5m | 242,876 | 609,368 | 593,244 |
@@ -66,6 +70,7 @@ Structural notes:
 
 ### Cost Base
 
+- Malvern Zero is a stress-case, not a like-for-like salary band: it shows the annual burn if no income is earned while the current Malvern cashflow assumption still applies.
 - Malvern's annual cashflow is HKD 366,492 lower than London and HKD 388,704 lower than Hong Kong. That is why Malvern dominates the lower and middle bands despite using the same UK tax rates as London.
 - London cashflow is only HKD 22,212/yr lower than Hong Kong. The financial weakness of London is tax, not day-to-day cashflow.
 
@@ -97,6 +102,7 @@ Structural notes:
 
 ### 10-Year Readout
 
+- Malvern Zero compounds to HKD -3,034,920 over 10 years before any starting pot is considered.
 - London Low remains negative over 10 years: HKD -1,294,140. Hong Kong Low is also negative but much less so: HKD -292,560.
 - At Medium, 10-year savings are London HKD 535,860, Hong Kong HKD 2,612,440, and Malvern HKD 4,200,780.
 - At Extra High, 10-year savings are London HKD 5,078,760, Malvern HKD 8,743,680, and Hong Kong HKD 10,082,440.
@@ -107,6 +113,8 @@ Structural notes:
 
 | Date | What changed |
 |---|---|
+| 2026-08-04 | Added a Malvern Zero stress-case column to the Google Sheet. The scenario uses GBP 0 / HKD 0 gross earnings, applies Malvern cashflow, and validates cleanly across rows 12 and 24. Updated [[uk-relocation-cashflows]] and this findings note. |
+| 2026-08-04 | Corrected the Google Sheet's annual cashflow formula path so row 22 explicitly calculates annual cashflow from monthly cashflow inputs (`monthly cashflow x 12`) before row 23 subtracts it from net take-home. Row 24 returns `OK` if each scenario column ties through salary, tax, deductions, take-home, cashflow, and annual net savings. |
 | 2026-08-04 | Replaced the Google Sheet's 10-year cumulative values with formulas and added a row 12 validation check. Each cumulative cell now references row 23 annual net savings multiplied by the year number in column A; row 12 returns `OK` if the cumulative series ties back to row 23. |
 | 2026-08-04 | Added the Malvern false-economy caveat to the executive summary: the savings case depends on living with Mum and breaks if independent Malvern accommodation, bills, and car costs are required. |
 | 2026-08-04 | Reworked this companion note so the Bottom Line appears first as an executive summary with real key takeaways. Moved the old structural notes into `What the Sheet Contains`. |
@@ -131,9 +139,10 @@ When updating numbers:
 1. Check the [Relocation Cash Flows sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) row 177 for the latest cashflow figures.
 2. Recalculate via [[uk-relocation-cashflows]] (update that file's sections too, and add a change log row there).
 3. Paste the updated data tables and assumptions into this Google Sheet.
-4. Keep `Sheet1!B2:M11` formula-driven from `Sheet1!B23:M23`, and confirm `Sheet1!B12:M12` reads `OK` after the update.
-5. Keep findings and observations in this companion note, not in the spreadsheet.
-6. Add a row here only if the structure changed.
+4. Keep `Sheet1!B15:N23` formula-driven, and confirm `Sheet1!B24:N24` reads `OK` after the update.
+5. Keep `Sheet1!B2:N11` formula-driven from `Sheet1!B23:N23`, and confirm `Sheet1!B12:N12` reads `OK` after the update.
+6. Keep findings and observations in this companion note, not in the spreadsheet.
+7. Add a row here only if the structure changed.
 
 ---
 
