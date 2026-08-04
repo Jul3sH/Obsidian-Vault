@@ -60,7 +60,7 @@ renamed: 2026-07-17
 - Kari's reply is warm-but-deferred: no line of sight given, but a concrete next step (catching up with Stephan) with a date attached — better than silence, though still not the signal itself.
 - "Tomorrow HK time" from 3 Aug is **4 Aug HK — today.** This is the next thing to watch on this channel.
 
-**NEXT:** Watch for Kari's follow-up after she speaks with Stephan (expected 4 Aug HK time). No action needed from Julian's side until she reverts.
+**NEXT (decided 4 Aug):** Hold off messaging Stephan today - let Kari's 4 Aug conversation with him land first. **Julian's plan: message Stephan Wed 5 Aug morning UK time if nothing has come back.** Reasoning: Ty leaves HK Thursday, so this timing still leaves Stephan one, possibly two, opportunities to raise it with Ty before he goes - no need to stack a direct ask on top of Kari's same-day chase. Message content and framing (e.g. prompting Stephan to raise it with Ty, dinner or otherwise, "if he needs to") not yet drafted - pick up Wed once it's clear whether Kari's chase produced anything.
 
 ---
 

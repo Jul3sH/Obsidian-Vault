@@ -18,7 +18,8 @@ source: UK Relocation Savings Comparison Google Sheet
 ### Bottom Line
 
 - London does not stack up on pure savings unless materially higher London pay is much easier to land than medium/high work in Malvern or Hong Kong.
-- Malvern is the strongest savings route at low, medium, and high salaries because both properties are rented out and the cost base is much lower.
+- Malvern is the strongest savings route at low, medium, and high salaries only under the living-with-Mum assumption. It is a desperate-measure bridge, not a normal 10-year lifestyle plan.
+- If Julian lives independently in Malvern, the model breaks: add roughly HKD 10,000/mo accommodation plus bills and a car, and the Malvern savings advantage is no longer reliable.
 - Hong Kong becomes the strongest savings route at extra-high salary and is financially better than London at every identical salary band.
 - The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
 
@@ -29,7 +30,7 @@ source: UK Relocation Savings Comparison Google Sheet
 - **At GBP 110k / HKD 1.1m,** London is only thinly positive at HKD 53,586/yr. Hong Kong saves HKD 261,244/yr and Malvern saves HKD 420,078/yr.
 - **At GBP 150k / HKD 1.5m,** Malvern and Hong Kong are effectively tied, while London remains far behind.
 - **At GBP 200k / HKD 2.0m,** Hong Kong pulls clearly ahead because the HK tax cap keeps more of the extra salary.
-- **Malvern Low nearly matches London High on annual savings**, which shows how much the lower Malvern cost base offsets salary upside.
+- **Malvern Low nearly matches London High on annual savings**, but only because the Malvern case assumes living with Mum and renting out both properties.
 
 ---
 
@@ -106,6 +107,7 @@ Structural notes:
 
 | Date | What changed |
 |---|---|
+| 2026-08-04 | Added the Malvern false-economy caveat to the executive summary: the savings case depends on living with Mum and breaks if independent Malvern accommodation, bills, and car costs are required. |
 | 2026-08-04 | Reworked this companion note so the Bottom Line appears first as an executive summary with real key takeaways. Moved the old structural notes into `What the Sheet Contains`. |
 | 2026-08-04 | Moved the findings and observations out of `Sheet1!A57:D110` into this companion note. The Google Sheet now stays focused on data and related assumptions. |
 | 2026-08-04 | Normalised the Sheet to four identical salary bands across all three scenarios: Low GBP 75k / HKD 750k, Medium GBP 110k / HKD 1.1m, High GBP 150k / HKD 1.5m, Extra High GBP 200k / HKD 2.0m. Rows 1-23 were rebuilt from 9 to 12 scenario columns and rows 29-55 assumptions were refreshed. The like-for-like findings readout now lives in this companion note. |
