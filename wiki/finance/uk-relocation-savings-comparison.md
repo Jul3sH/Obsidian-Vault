@@ -48,7 +48,7 @@ Structural notes:
 |---|---|
 | Cashflow summary | Monthly and annual HKD cashflow by location (London / Malvern / HK). Source: Relocation Cash Flows sheet row 177. |
 | Salary, tax and savings | 12-column table: gross salary (GBP + HKD), income tax, NI, effective rate, net take-home, annual cashflow, annual net savings. Columns: London / Malvern / HK x Low / Med / High / Extra High. |
-| 10-year cumulative | Y1-Y10 cumulative savings for all 12 columns. |
+| 10-year cumulative | Formula-driven Y1-Y10 cumulative savings for all 12 columns. Rows 2-11 calculate `annual net savings x year`; row 12 validates each scenario column. |
 | Assumptions | Exchange rate, UK 2026/27 tax bands, HK salaries tax, salary band sources, modelling constraints. |
 
 ---
@@ -107,6 +107,7 @@ Structural notes:
 
 | Date | What changed |
 |---|---|
+| 2026-08-04 | Replaced the Google Sheet's 10-year cumulative values with formulas and added a row 12 validation check. Each cumulative cell now references row 23 annual net savings multiplied by the year number in column A; row 12 returns `OK` if the cumulative series ties back to row 23. |
 | 2026-08-04 | Added the Malvern false-economy caveat to the executive summary: the savings case depends on living with Mum and breaks if independent Malvern accommodation, bills, and car costs are required. |
 | 2026-08-04 | Reworked this companion note so the Bottom Line appears first as an executive summary with real key takeaways. Moved the old structural notes into `What the Sheet Contains`. |
 | 2026-08-04 | Moved the findings and observations out of `Sheet1!A57:D110` into this companion note. The Google Sheet now stays focused on data and related assumptions. |
@@ -130,8 +131,9 @@ When updating numbers:
 1. Check the [Relocation Cash Flows sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) row 177 for the latest cashflow figures.
 2. Recalculate via [[uk-relocation-cashflows]] (update that file's sections too, and add a change log row there).
 3. Paste the updated data tables and assumptions into this Google Sheet.
-4. Keep findings and observations in this companion note, not in the spreadsheet.
-5. Add a row here only if the structure changed.
+4. Keep `Sheet1!B2:M11` formula-driven from `Sheet1!B23:M23`, and confirm `Sheet1!B12:M12` reads `OK` after the update.
+5. Keep findings and observations in this companion note, not in the spreadsheet.
+6. Add a row here only if the structure changed.
 
 ---
 
