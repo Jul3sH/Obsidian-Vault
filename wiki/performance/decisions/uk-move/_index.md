@@ -4,45 +4,89 @@ type: index
 
 # UK Relocation Decision - Workspace
 
-Decision-explicit material for the UK relocation decision. Holds **only** what is specific to THIS decision. Reusable context (financial analyses, relationship reference, market data) lives in its own domain index and is linked from here with bare `[[links]]`, never copied.
+Decision-explicit material for the UK relocation decision. Read this folder as a **BRAINED** decision run first, then as a workspace for the later London-vs-Malvern and TTI follow-on decisions.
 
-## Canonical record
-- [[decision-journal|Decision Journal]] - the "Whether to move back to the UK" entry is the canonical decision record: framing, anchored deadline (2026-07-09), branches, committed choice, and review. Current state and next action live there, not in this index.
+**BRAINED = B-R-A-I-N-D:** Benefits, Risks, Alternatives, Intuition, Need time / Nothing, Decision. The "E" is only there to make the name readable.
 
-## Framework
-- [[why-brained|Why BRAINED for this decision]] - the decision model used (BRAINED = B-R-A-I-N-D) and the reasoning behind choosing it over the 7-step.
+## Canonical Record
 
-## Decision-specific working docs
-- [[capture|Brain dump]] - Stage 0 raw capture, sorted into BRAINED buckets across all six domains
-- [[analysis|Stage 1 Analysis]] - structured scenarios + Beliefs & Assumptions Register, ready for the Stage 3 challenge
-- [[b1-relationship-belief|B1 belief test]] - Stage 3 challenge on "single/can't date in the UK", re-run after the relationship deep-dive
-- [[b7-lifestyle|B7 belief test]] - Stage 3 challenge on "the lifestyle drop will be huge and will matter"
-- [[benefits|B - Benefits]] - upside per scenario per domain; asymmetric challenge on S1/S2; S3 maps best to Julian's stated ideal life; one surviving S1/S2 benefit: dating optionality
-- [[uk-relocation-benefits-register-2026-07-16]] - current benefits register for the live option set; upside sibling to the risk register
-- [[alternatives|A - Alternatives]] - the four scenarios head-to-head; scenario 2 costed (cake business = marriage-enabled HK anchor); the live set
-- [[risks|R - Risks]] - marriage exposure (R1, = belief B5); execution risk + remaining beliefs; all nine beliefs - no veto survives
-- [[need-time|N - Need time / Nothing]] - no rational case for waiting; TTI tracked as D contingency not a waiting reason; do-nothing costs ~£2,100/wk + drift; decide by 9 Jul
-- [[income-portability|Income portability (4 Jul insight)]] - the TTI/US-aligned remote engagement makes income location-independent; strengthens the MOVE case (S3), de-risks its execution/drift weakness, raises the bar STAY must clear
-- [[reconciliation|D - Reconciliation worksheet]] - all BRAINED steps complete; staged for Fable adversarial review; gut-override test written out; pre-mortem and committed choice for Fable to complete
-- [[fable-review|Fable adversarial review]] - hostile review: analysis directionally right, locally sloppy (8 corrections); gut-override fails (real but insufficient); committed choice drafted; verdict: MOVE, S3+S4 in parallel
-- [[london-vs-malvern|London vs Malvern (post-MOVE sub-decision)]] - the live phase: where to land (London direct vs a year at Mum's). Phase timeline, stakeholder positions (Sophia, Julian), the three-pillar test, and the committed-vs-option distinction. What Fable reviews next.
-- [[why-london|Why London - read this when the fear comes back]] - the decision anchor: every fear paired with the fact that answers it, the asymmetry, and the new-fact-vs-re-dressed-fear test. Re-read before acting on doubt. (Corrected post-Fable to honest numbers.)
-- [[fable-review-london-vs-malvern|Fable review - London vs Malvern (7 Jul)]] - hostile review: **verdict SURVIVES WITH CONDITIONS → London-direct.** Motivated-reasoning audit, the school-place tripwire, the mother debt, the month-10 ambush, and the 7-day behavioural commitment test.
-- [[fable-review-malvern-reopen-2026-07-10|Fable review - Malvern-first reopen + TTI gate (10 Jul)]] - hostile review of the 10 Jul reopen: **verdict MALVERN-FIRST DOES NOT YET SURVIVE (nor a naked return to London-direct).** Numbers audit, the school-calendar trigger flaw, the hardened TTI gate, the directional-error audit, and the conditions under which a dated staged-via-Malvern plan is admissible.
+- [[decision-journal|Decision Journal]] - canonical decision record for the "Whether to move back to the UK" entry: framing, deadline, branches, committed choice, wobble log, and review.
+- [[uk-relocation-decision]] - project status surface and file map for the wider relocation project.
 
-## Decision-support surfaces
-- [[decision-criteria-matrix|Decision Criteria Matrix (planned)]] - the rationale for a single filterable place holding what the decision turns on (weighted criteria x three scenarios); sibling to the risk register; build after the risk register is complete.
-- [[uk-relocation-benefits-register-2026-07-16|UK Move Benefits Register]] - consolidated benefits for London-direct, Malvern interim, Stay-HK via concrete TTI perm, and permanent Malvern fallback.
+## 0. Framework Choice
 
-## Relationship reference (lives in wiki/relationships/, linked here)
-- [[relationship-views]] · [[joanne]] · [[clodagh]] · [[hannah]] - the source material behind the B1 test
+- [[why-brained|Why BRAINED for this decision]] - why this decision used BRAINED rather than the 7-step process: the failure mode was commitment, not lack of analysis.
 
-## Reusable context (lives elsewhere, linked here)
-- [[uk-move-financial-model|UK Move Financial Model]] (the "£100k bet") → filed in `wiki/finance/`. Corrected burn (~92k/mo, trending 84k), the breakeven-probability model (~45-50%), and the drift rider.
-- Relationship reference → relevant articles under `wiki/relationships/` as created.
+## 1. Capture And Structure
 
-## Related
-- [[decision-maker-profile|Decision-Maker Profile]] - the standing context behind how this decision is run
-- [[commitment-lock-protocol|Commitment-Lock Protocol]] - the bias register + reopen test built from this decision's Fable meta-evaluation; defends the committed choice against the emotional U-turn
-- [[sophia-london-schools|Sophia's London school options]] - SW19 shortlist for Year 8 in-year entry
-- [[tti-engagement-strategy|TTI Engagement Strategy]] - the lead that selects Branch A vs Branch B
+Read these first. They explain what the decision was trying to resolve before the lettered BRAINED steps began.
+
+- [[capture|Stage 0 - Brain dump capture]] - raw capture of gut feel, benefits, risks, alternatives, and loose material across the six workstreams.
+- [[analysis|Stage 1 - Structure and label]] - turns the raw capture into four scenarios plus a Beliefs and Assumptions Register.
+- [[b1-relationship-belief|B1 belief test]] - tests the strongest gut argument for staying in HK: dating, attraction, autonomy, and fear of being single in the UK.
+- [[b7-lifestyle|B7 belief test]] - tests the second gut argument for staying in HK: lifestyle, sunshine, flat, and fear of a UK quality-of-life drop.
+
+## 2. B - Benefits
+
+- [[benefits|B - Benefits]] - original upside analysis across the four scenarios: HK corporate, HK build, UK build, and UK corporate.
+- [[uk-relocation-benefits-register-2026-07-16|UK Relocation Benefits Register]] - later consolidated upside surface for the current live option set: London-direct, Malvern interim, Stay-HK via concrete TTI permanent role, and permanent Malvern fallback.
+
+## 3. R - Risks
+
+- [[risks|R - Risks]] - original BRAINED risk and belief-challenge file, including marriage exposure, execution risk, and the final status of the nine beliefs.
+- [[fable-review-unknowns|Fable Review - Unknown Unknowns Sweep]] - later adversarial sweep for execution, timing, career, relationships, and Sophia risks not fully covered in the first reviews.
+- [[uk-move-decision-risk-register-2026-07-12.xlsx]] - static Excel snapshot of the decision risk register.
+- [[uk-move-risk-register-2026-07-12.xlsx]] - second static workbook snapshot from the risk-register build.
+
+## 4. A - Alternatives
+
+- [[alternatives|A - Alternatives]] - reframes the options as a two-by-two: HK vs UK crossed with job vs build; identifies what each scenario depends on.
+- [[income-portability|Income portability]] - 4 July input showing that TTI / US-aligned consulting may be location-flexible, which updates the alternatives and strengthens the move case.
+
+## 5. I - Intuition
+
+- [[capture|Stage 0 - Brain dump capture]] - raw intuition is captured first so it is visible before the analysis rationalises it.
+- [[analysis|Stage 1 - Structure and label]] - records the core split: gut leans stay-HK, emerging analysis leans UK.
+- [[b1-relationship-belief|B1 belief test]] and [[b7-lifestyle|B7 belief test]] - the main places where intuition is converted into testable claims.
+
+## 6. N - Need Time / Nothing
+
+- [[need-time|N - Need time / Nothing]] - tests whether waiting past the 9 July 2026 deadline had a rational basis, and prices the cost of doing nothing.
+
+## 7. D - Decision
+
+- [[reconciliation|D - Reconciliation worksheet]] - brings B, R, A, I, and N together; applies the gut-vs-analysis rule; prepares the committed choice.
+- [[fable-review|Fable adversarial review - primary move decision]] - hostile review of the completed BRAINED analysis; closes the primary decision as MOVE, with S3 plus S4 in parallel.
+
+## 8. Post-MOVE Sub-Decision: London Vs Malvern
+
+These files are not the original HK-vs-UK BRAINED run. They are follow-on decision material after the primary MOVE decision.
+
+- [[london-vs-malvern|London vs Malvern]] - working doc for where to land after the MOVE decision: London direct or Malvern first.
+- [[why-london|Why London]] - decision anchor for the London-direct choice, designed to be reread when fear tries to reopen the decision.
+- [[fable-review-london-vs-malvern|Fable review - London vs Malvern]] - 7 July hostile review of the London-direct decision.
+- [[fable-review-malvern-reopen-2026-07-10|Fable review - Malvern-first reopen and TTI gate]] - 10 July hostile review of the attempted Malvern-first reopen.
+- [[fable-review-jobdata-2026-07-11|Fable review - job data and London-direct lean]] - 11 July hostile review and addenda after the job-market evidence and crash-pad-interim strategy emerged.
+- [[uk-relocation-fable-consistency-review-2026-07-13|Fable consistency review]] - full-record audit for contradictions across the decision journal, project page, finance model, risk register, and review files.
+
+## 9. Decision-Support Surfaces
+
+- [[decision-criteria-matrix|Decision Criteria Matrix]] - planned weighted criteria matrix intended to sit beside the risk register.
+- [[uk-relocation-benefits-register-2026-07-16|UK Relocation Benefits Register]] - current benefits surface for the live options.
+
+## 10. Reference Context Outside This Folder
+
+- [[uk-move-financial-model|UK Move Financial Model]] - canonical financial model for burn, pot, runway, property, MPF, FIG tax, and breakeven logic.
+- [[relationship-views]] - relationship patterns and beliefs feeding the B1 test.
+- [[joanne]] - current relationship context and marriage / visa implications.
+- [[clodagh]] - Sophia's mother and UK-proximity context.
+- [[hannah]] - prior decision evidence behind the commitment pattern.
+- [[sophia]] - Sophia stakeholder profile and transition context.
+- [[sophia-london-schools|Sophia's London school options]] - SW19 shortlist for Year 8 entry.
+- [[tti-engagement-strategy|TTI Engagement Strategy]] - TTI gate that could select the stay-HK branch if it becomes concrete.
+
+## 11. Decision-System Context
+
+- [[decision-maker-profile|Decision-Maker Profile]] - standing model of how Julian makes decisions.
+- [[belief-assumption-testing|Belief and Assumption Testing]] - input-cleaning tool used inside the BRAINED process.
+- [[commitment-lock-protocol|Commitment-Lock Protocol]] - F-N-M-T reopen test and bias register generated from this decision.

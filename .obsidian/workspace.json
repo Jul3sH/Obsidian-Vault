@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decisions/uk-move/why-brained.md",
+                "file": "wiki/performance/decisions/uk-move/b1-relationship-belief.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "why-brained"
+              "title": "b1-relationship-belief"
             }
           }
         ]
@@ -200,9 +200,12 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/performance/decisions/uk-move/b7-lifestyle.md",
+    "wiki/performance/decisions/uk-move/risks.md",
     "wiki/performance/decisions/uk-move/_index.md",
-    "wiki/performance/decisions/uk-move/why-brained.md",
+    "wiki/performance/decisions/uk-move/reconciliation.md",
     "wiki/performance/decisions/uk-move/why-london.md",
+    "wiki/performance/decisions/uk-move/why-brained.md",
     "wiki/performance/decisions/uk-move/b1-relationship-belief.md",
     "wiki/performance/decisions/uk-move/analysis.md",
     "wiki/performance/decisions/uk-move/alternatives.md",
@@ -211,9 +214,7 @@
     "wiki/performance/decisions/brain-brand-framework.md",
     "wiki/performance/decisions/commitment-lock-protocol.md",
     "wiki/performance/decisions/choosing-a-decision-framework.md",
-    "wiki/performance/decisions/uk-move/risks.md",
     "wiki/performance/decisions/uk-move/fable-review-unknowns.md",
-    "wiki/performance/decisions/uk-move/b7-lifestyle.md",
     "wiki/projects/uk-relocation-decision.md",
     "wiki/finance/uk-relocation-cashflows.md",
     "wiki/finance/uk-relocation-savings-comparison.md",
@@ -226,7 +227,6 @@
     "wiki/technology/Memory systems/pillars-claudeclaw.md",
     "wiki/technology/Memory systems/pillars-agile-os.md",
     "wiki/technology/Memory systems/memory-capabilities.md",
-    "wiki/technology/Memory systems/memory-challanges.md",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",
     "wiki/technology/Job search tech",
