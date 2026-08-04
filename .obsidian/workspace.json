@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/Memory systems/wiki-vs-openbrain.md",
+                "file": "wiki/finance/uk-relocation-savings-comparison.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wiki-vs-openbrain"
+              "title": "uk-relocation-savings-comparison"
             }
           }
         ]
@@ -200,6 +200,10 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/projects/uk-relocation-decision.md",
+    "wiki/projects/tti-role.md",
+    "wiki/finance/uk-relocation-cashflows.md",
+    "wiki/technology/Memory systems/wiki-vs-openbrain.md",
     "wiki/ai-os/system-design/claude/memory/feedback-graduated-chase-tone.md",
     "wiki/ai-os/system-design/claude/commands/tco.md",
     "wiki/ai-os/system-design/claude/commands",
@@ -213,7 +217,6 @@
     "wiki/technology/Memory systems/_index.md",
     "wiki/technology/Memory systems/memory-use-cases.md",
     "wiki/technology/Memory systems/pillars-memsearch.md",
-    "wiki/technology/Memory systems/wiki-vs-openbrain.md",
     "wiki/technology/Memory systems/memory-systems-taxonomy-codex-review-2026-08-01.md",
     "wiki/technology/Memory systems/memory-recall.md",
     "wiki/technology/Memory systems/memory-pillars.md",
@@ -224,9 +227,6 @@
     "wiki/technology/claudeclaw-business-os/claudeclaw-agent-config.md",
     "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
     "wiki/technology/claudeclaw-business-os/claudeclaw-os-troubleshooting.md",
-    "wiki/technology/claudeclaw-enterprise-os/_index.md",
-    "wiki/technology/agentic-os/multi-client-architecture.md",
-    "wiki/technology/agentic-os/memory-system-architecture.md",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",
     "wiki/technology/Job search tech",
