@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decisions/uk-move/benefits.md",
+                "file": "wiki/projects/uk-relocation-decision.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "benefits"
+              "title": "uk-relocation-decision"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/performance/decisions/uk-move/benefits.md",
     "wiki/performance/decisions/uk-move/_index.md",
     "wiki/performance/decisions/uk-move/b1-relationship-belief.md",
     "wiki/performance/decisions/uk-move/b7-lifestyle.md",
@@ -226,7 +227,6 @@
     "wiki/technology/Memory systems/pillars-mempalace.md",
     "wiki/technology/Memory systems/pillars-claudeclaw.md",
     "wiki/technology/Memory systems/pillars-agile-os.md",
-    "wiki/technology/Memory systems/memory-capabilities.md",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",
     "wiki/technology/Job search tech",

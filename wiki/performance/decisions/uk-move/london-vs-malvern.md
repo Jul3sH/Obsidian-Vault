@@ -9,6 +9,8 @@ tags: [uk-relocation, london-vs-malvern]
 # London vs Malvern - the post-MOVE landing decision
 
 > The MOVE direction is committed (see [[fable-review|Fable review]]: MOVE, S3+S4). This is the live **sub-decision: where to land** - straight to **London** (live in Cecil Road) or a year at **Mum's in Malvern** first. It is the [[alternatives|S3-vs-S4]] sequencing fork wearing geography. Home for this phase; what Fable will review next.
+>
+> **Short on time? Go straight to [the 7 decision-movers](#the-7-decision-movers-4-aug-read-this-instead-of-the-register) at the foot of this doc.** That section replaces reading the 102-row risk register.
 
 ## Phase timeline
 
@@ -95,6 +97,35 @@ Fable's hostile review ([[fable-review-london-vs-malvern|full review]]) rules **
 5. Carry over the 4-Jul riders: S4/BFSI apps week one, weekly cadence, **90-day tripwire**, month-9 review that adjusts tactics not location.
 
 **Behavioural commitment test:** notice served + school application in + MPF paperwork started by 14 Jul = committed. If not done → it was another feeling; re-read [[why-london]].
+
+## The 7 decision-movers (4 Aug) - read this instead of the register
+
+> **Why this exists.** The **UK Relocation Risks** Google Sheet holds 102 rows and tags **42 as Material**, which is why filtering it does not reduce the reading load. This section is the distillation: the rows that actually differentiate **London-direct vs Malvern-staged**, taken from both the risk register and [[uk-relocation-benefits-register-2026-07-16|the benefits register]]. Everything else in the register is real risk to *manage*, not evidence that helps *choose*. Read this section, not the sheet.
+
+**Why 42 Material is inflated.** Three reasons, all correctable:
+1. **11 Material rows are Stay-in-HK scenarios.** The MOVE was committed 4 Jul and re-tested and held on 4 Aug ([[decision-journal]] wobble #3), so those rows were material to a question that is closed. French curriculum gap, overseas uni fee status, HK cash burn: dead weight for this choice.
+2. **2 rows ("Move to UK" / DB flat let) are common to both live options**, so by the register's own definition they are Immaterial to the choice, however real the risk.
+3. **16 rows carry `Low`/`low` in the Decision Impact column**, which is an Impact value in the wrong column. Those rows are invisible to a Material filter, and several are genuinely decision-moving (the Malvern-interim double-move cluster).
+
+Strip those and merge the 8 near-duplicate wellbeing rows and you are left with 7.
+
+| # | Theme | Pulls | Why it differentiates |
+|---|---|---|---|
+| 1 | **Search runway** | Malvern | ~30 months at Mum's vs ~11 months London-direct. London-direct funds the search from MPF then ISAs, i.e. out of the only private pension, which also raises panic-hire probability. The largest quantified gap in the register. |
+| 2 | **Sophia: single vs double disruption** | London | Malvern-staged uniquely means Year 8 Malvern then Year 9 London, and she knows it is temporary while making friends. High/high, residual still **high**, RAG Red, and the only response written is "talk to her." The leg [[fable-review-malvern-reopen-2026-07-10|Fable]] found the Malvern reopen never rebutted. |
+| 3 | **School admissions access** | Malvern | London requires a valid SW19 address before an application can be made, the top three are oversubscribed, and entry is in-year. High/high, Red, **no response text written at all**. Malvern has Mum's address, and the Hanley Castle risk is Low probability. |
+| 4 | **Cecil Road vacant possession** | London | Malvern-interim only, and load-bearing twice: the let funds the interim *and* dated vacant possession is the exit to London. Renters' Rights and Section 21 abolition make that hard to guarantee. Red. If it fails, the staged plan fails on its own terms. |
+| 5 | **Sophia's autonomy in Malvern** | London | Village isolation, no independent access to friends, dependent on Julian and Mum for transport while he is in London Tue to Thu. High/high/high **pre and post** mitigation, Red, response recorded as "Impact: TBD". |
+| 6 | **Julian's isolation and dating** | London | Eight rows, one theme. Three are tagged "London direct" but describe the Malvern first-six-months, so this is really a cost of **the Malvern leg**, which makes it an argument about interim *duration*, not about location. |
+| 7 | **Mum's daily support for Sophia** | Malvern | Granny covering the day-to-day while Julian searches from the crash-pad. Unverified: her capacity and informed consent are not confirmed and the paid-carer contingency is not priced. |
+
+**Three reads that matter more than the list:**
+
+1. **Everything hinges on one unverified claim.** Item 1's runway advantage only counts if the crash-pad genuinely reaches the London hybrid market. The register's own opportunity row scores that 3/3/9 and flags "confirm the actual presence requirement." That is the same **search-duration-by-location** input [[fable-review-jobdata-2026-07-11|Fable]] named as the deciding factor. If the crash-pad reaches the market, Malvern wins on runway. If it does not, item 1 collapses and there is no Malvern case left.
+2. **Items 3 and 5 are Red with no real response written.** They are the cheapest to move, and item 3 is time-boxed by admissions deadlines.
+3. **Items 2 and 6 partly cancel.** One says the interim hurts Sophia, the other says it hurts Julian, and both scale with how long the interim runs. That argues for a **hard dated end to the interim**, which is the [[decision-journal|anti-drift rule]] already on record, rather than for London-direct outright.
+
+**Not a BRAINED B/R step.** [[benefits|B]] and [[risks|R]] are the closed 3 Jul run over the four Move-vs-Stay scenarios (S1-S4) and are not to be edited with post-MOVE material. For this sub-decision the equivalents are [[uk-relocation-benefits-register-2026-07-16|the benefits register]] (B) and the risks Google Sheet (R), distilled here.
 
 ## Related
 - [[_index|UK relocation workspace]] · [[fable-review|Fable review]] · [[alternatives|S3/S4 alternatives]] · [[uk-move-financial-model|Financial model §9-11]] · [[sophia|Sophia]] · [[joanne|Joanne]] · [[decision-maker-profile|Decision-Maker Profile]]
