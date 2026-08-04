@@ -13,18 +13,35 @@ source: UK Relocation Savings Comparison Google Sheet
 
 ---
 
-## Key Takeaways
+## Executive Summary
 
-- The live Google Sheet is the data and assumptions surface for the earnings and savings comparison, not the source model or narrative readout.
-- Current structure: London, Malvern, and Hong Kong are compared at four identical salary bands: Low, Medium, High, and Extra High.
-- The findings are deliberately held in this companion note so the spreadsheet stays focused on numbers and assumptions.
-- For source figures, assumptions, and calculations, use [[uk-relocation-cashflows]].
+### Bottom Line
+
+- London does not stack up on pure savings unless materially higher London pay is much easier to land than medium/high work in Malvern or Hong Kong.
+- Malvern is the strongest savings route at low, medium, and high salaries because both properties are rented out and the cost base is much lower.
+- Hong Kong becomes the strongest savings route at extra-high salary and is financially better than London at every identical salary band.
+- The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
+
+### Key Takeaways
+
+- **At the same gross salary, London is financially weakest in every band.** The key drag is UK tax, not day-to-day cashflow: London annual cashflow is only HKD 22,212 lower than Hong Kong.
+- **At GBP 75k / HKD 750k, Malvern is the only location that clearly saves cash**. London loses HKD 129,414/yr and Hong Kong loses HKD 29,256/yr.
+- **At GBP 110k / HKD 1.1m,** London is only thinly positive at HKD 53,586/yr. Hong Kong saves HKD 261,244/yr and Malvern saves HKD 420,078/yr.
+- **At GBP 150k / HKD 1.5m,** Malvern and Hong Kong are effectively tied, while London remains far behind.
+- **At GBP 200k / HKD 2.0m,** Hong Kong pulls clearly ahead because the HK tax cap keeps more of the extra salary.
+- Malvern Low nearly matches London High on annual savings, which shows how much the lower Malvern cost base offsets salary upside.
 
 ---
 
 ## What the Sheet Contains
 
 The sheet is the paste-in output of the earnings model built from the [[uk-relocation-cashflows]] wiki file and the [Relocation Cash Flows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit). It holds three data sections plus assumptions:
+
+Structural notes:
+- The live Google Sheet is the data and assumptions surface for the earnings and savings comparison, not the source model or narrative readout.
+- London, Malvern, and Hong Kong are compared at four identical salary bands: Low, Medium, High, and Extra High.
+- Findings are deliberately held in this companion note so the spreadsheet stays focused on numbers and assumptions.
+- Source figures, assumptions, and calculations live in [[uk-relocation-cashflows]].
 
 | Section | Content |
 |---|---|
@@ -83,21 +100,15 @@ The sheet is the paste-in output of the earnings model built from the [[uk-reloc
 - At Medium, 10-year savings are London HKD 535,860, Hong Kong HKD 2,612,440, and Malvern HKD 4,200,780.
 - At Extra High, 10-year savings are London HKD 5,078,760, Malvern HKD 8,743,680, and Hong Kong HKD 10,082,440.
 
-### Bottom Line
-
-- London does not stack up on pure savings unless materially higher London pay is much easier to land than medium/high work in Malvern or Hong Kong.
-- Malvern is the strongest savings route at low, medium, and high salaries because both properties are rented out and the cost base is much lower.
-- Hong Kong becomes the strongest savings route at extra-high salary and is financially better than London at every identical salary band.
-- The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
-
 ---
 
 ## Change Log
 
 | Date | What changed |
 |---|---|
-| 2026-08-04 | Moved the findings and observations out of `Sheet1!A57:D99` into this companion note. The Google Sheet now stays focused on data and related assumptions. |
-| 2026-08-04 | Normalised the Sheet to four identical salary bands across all three scenarios: Low GBP 75k / HKD 750k, Medium GBP 110k / HKD 1.1m, High GBP 150k / HKD 1.5m, Extra High GBP 200k / HKD 2.0m. Rows 1-23 were rebuilt from 9 to 12 scenario columns, rows 29-55 assumptions were refreshed, and rows 57-99 findings were rebuilt as a full like-for-like readout. |
+| 2026-08-04 | Reworked this companion note so the Bottom Line appears first as an executive summary with real key takeaways. Moved the old structural notes into `What the Sheet Contains`. |
+| 2026-08-04 | Moved the findings and observations out of `Sheet1!A57:D110` into this companion note. The Google Sheet now stays focused on data and related assumptions. |
+| 2026-08-04 | Normalised the Sheet to four identical salary bands across all three scenarios: Low GBP 75k / HKD 750k, Medium GBP 110k / HKD 1.1m, High GBP 150k / HKD 1.5m, Extra High GBP 200k / HKD 2.0m. Rows 1-23 were rebuilt from 9 to 12 scenario columns and rows 29-55 assumptions were refreshed. The like-for-like findings readout now lives in this companion note. |
 | 2026-07-17 | Added a Hong Kong conclusion to the Sheet: if HK work is available, HK is financially much better; the management issue is explaining and controlling why HK actual spending has been high. |
 | 2026-07-17 | Added a bottom-line conclusion to the Sheet: London does not stack up financially unless high bracket London work is materially easier to land than lower bracket work in Malvern or Hong Kong. |
 | 2026-07-17 | Replaced the Sheet's long Honest Read with four one-line summaries: HK Low beats London High; Malvern Low nearly matches London High; London has broader job-market upside while HK Low equals London Median gross; Malvern High is near HK Median. |
