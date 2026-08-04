@@ -7,23 +7,88 @@ source: UK Relocation Savings Comparison Google Sheet
 
 # UK Relocation Savings Comparison
 
-> Wiki companion to the **[UK Relocation Savings Comparison Google Sheet](https://docs.google.com/spreadsheets/d/1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM/edit)** (file ID: 1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM). The Google Sheet is the live visual output surface for the earnings and savings comparison. This file logs structural changes to the sheet so any agent can understand what it contains and how it has evolved.
+> Wiki companion to the **[UK Relocation Savings Comparison Google Sheet](https://docs.google.com/spreadsheets/d/1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM/edit)** (file ID: 1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM). The Google Sheet is the live data and assumptions surface for the earnings and savings comparison. This file is the home for the findings, observations, structural change log, and update instructions.
 
-**All source data, assumptions, and detailed model workings live in [[uk-relocation-cashflows]], not here.**
+**All source data, assumptions, and detailed model workings live in [[uk-relocation-cashflows]]. Observations and findings from the savings comparison live here.**
+
+---
+
+## Key Takeaways
+
+- The live Google Sheet is the data and assumptions surface for the earnings and savings comparison, not the source model or narrative readout.
+- Current structure: London, Malvern, and Hong Kong are compared at four identical salary bands: Low, Medium, High, and Extra High.
+- The findings are deliberately held in this companion note so the spreadsheet stays focused on numbers and assumptions.
+- For source figures, assumptions, and calculations, use [[uk-relocation-cashflows]].
 
 ---
 
 ## What the Sheet Contains
 
-The sheet is the paste-in output of the earnings model built from the [[uk-relocation-cashflows]] wiki file and the [Relocation Cash Flows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit). It holds four sections:
+The sheet is the paste-in output of the earnings model built from the [[uk-relocation-cashflows]] wiki file and the [Relocation Cash Flows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit). It holds three data sections plus assumptions:
 
 | Section | Content |
 |---|---|
 | Cashflow summary | Monthly and annual HKD cashflow by location (London / Malvern / HK). Source: Relocation Cash Flows sheet row 177. |
-| Salary, tax and savings | 9-column table: gross salary (GBP + HKD), income tax, NI, effective rate, net take-home, annual cashflow, annual net savings. Columns: London Low / Med / High, Malvern Low / Med / High, HK Low / Med / High. |
-| 10-year cumulative | Y1-Y10 cumulative savings for all 9 columns. |
+| Salary, tax and savings | 12-column table: gross salary (GBP + HKD), income tax, NI, effective rate, net take-home, annual cashflow, annual net savings. Columns: London / Malvern / HK x Low / Med / High / Extra High. |
+| 10-year cumulative | Y1-Y10 cumulative savings for all 12 columns. |
 | Assumptions | Exchange rate, UK 2026/27 tax bands, HK salaries tax, salary band sources, modelling constraints. |
-| Why London savings look poor | Narrative analysis: London cashflow penalty (Cecil Road foregone rent + higher bills) and UK tax differential vs HK. |
+
+---
+
+## Findings
+
+### Annual Net Savings By Gross Salary
+
+| Band | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Low: GBP 75k / HKD 750k | -129,414 | 237,078 | -29,256 |
+| Medium: GBP 110k / HKD 1.1m | 53,586 | 420,078 | 261,244 |
+| High: GBP 150k / HKD 1.5m | 242,876 | 609,368 | 593,244 |
+| Extra High: GBP 200k / HKD 2.0m | 507,876 | 874,368 | 1,008,244 |
+
+### Cost Base
+
+- Malvern's annual cashflow is HKD 366,492 lower than London and HKD 388,704 lower than Hong Kong. That is why Malvern dominates the lower and middle bands despite using the same UK tax rates as London.
+- London cashflow is only HKD 22,212/yr lower than Hong Kong. The financial weakness of London is tax, not day-to-day cashflow.
+
+### Tax Rate
+
+| Band | UK effective rate | HK effective rate | Tax gap |
+|---|---:|---:|---:|
+| Low | 27.92% | 11.61% | UK +16.31pp |
+| Medium | 34.22% | 13.32% | UK +20.90pp |
+| High | 39.14% | 14.30% | UK +24.84pp |
+| Extra High | 41.11% | 14.98% | UK +26.13pp |
+
+### Same Salary Readout
+
+- At 75k, Malvern is the only location that clearly saves cash. Hong Kong is close to breakeven. London loses HKD 129,414/yr.
+- At 110k, all three are positive, but London is thin: HKD 53,586/yr versus Hong Kong at HKD 261,244/yr and Malvern at HKD 420,078/yr.
+- At 150k, Malvern and Hong Kong are essentially tied: HKD 609,368/yr vs HKD 593,244/yr. London remains far behind at HKD 242,876/yr.
+- At 200k, Hong Kong leads on savings at HKD 1,008,244/yr. Malvern is second at HKD 874,368/yr. London remains third at HKD 507,876/yr.
+
+### Key Comparisons
+
+| Comparison | Difference | Meaning |
+|---|---|---|
+| Malvern Medium vs London Medium | Malvern +HKD 366,492/yr | Same salary, same UK tax, lower cost base |
+| Hong Kong Medium vs London Medium | HK +HKD 207,658/yr | Same salary, similar cashflow, lower tax |
+| Malvern Low vs London High | London +HKD 5,798/yr | Almost identical savings despite a GBP 75k salary gap |
+| Malvern High vs Hong Kong High | Malvern +HKD 16,124/yr | Effectively tied at the 150k band |
+| Hong Kong Extra High vs London Extra High | HK +HKD 500,368/yr | At high pay, HK's tax advantage dominates |
+
+### 10-Year Readout
+
+- London Low remains negative over 10 years: HKD -1,294,140. Hong Kong Low is also negative but much less so: HKD -292,560.
+- At Medium, 10-year savings are London HKD 535,860, Hong Kong HKD 2,612,440, and Malvern HKD 4,200,780.
+- At Extra High, 10-year savings are London HKD 5,078,760, Malvern HKD 8,743,680, and Hong Kong HKD 10,082,440.
+
+### Bottom Line
+
+- London does not stack up on pure savings unless materially higher London pay is much easier to land than medium/high work in Malvern or Hong Kong.
+- Malvern is the strongest savings route at low, medium, and high salaries because both properties are rented out and the cost base is much lower.
+- Hong Kong becomes the strongest savings route at extra-high salary and is financially better than London at every identical salary band.
+- The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
 
 ---
 
@@ -31,6 +96,8 @@ The sheet is the paste-in output of the earnings model built from the [[uk-reloc
 
 | Date | What changed |
 |---|---|
+| 2026-08-04 | Moved the findings and observations out of `Sheet1!A57:D99` into this companion note. The Google Sheet now stays focused on data and related assumptions. |
+| 2026-08-04 | Normalised the Sheet to four identical salary bands across all three scenarios: Low GBP 75k / HKD 750k, Medium GBP 110k / HKD 1.1m, High GBP 150k / HKD 1.5m, Extra High GBP 200k / HKD 2.0m. Rows 1-23 were rebuilt from 9 to 12 scenario columns, rows 29-55 assumptions were refreshed, and rows 57-99 findings were rebuilt as a full like-for-like readout. |
 | 2026-07-17 | Added a Hong Kong conclusion to the Sheet: if HK work is available, HK is financially much better; the management issue is explaining and controlling why HK actual spending has been high. |
 | 2026-07-17 | Added a bottom-line conclusion to the Sheet: London does not stack up financially unless high bracket London work is materially easier to land than lower bracket work in Malvern or Hong Kong. |
 | 2026-07-17 | Replaced the Sheet's long Honest Read with four one-line summaries: HK Low beats London High; Malvern Low nearly matches London High; London has broader job-market upside while HK Low equals London Median gross; Malvern High is near HK Median. |
@@ -49,8 +116,9 @@ When you make structural changes to the sheet (add a section, add a scenario, ch
 When updating numbers:
 1. Check the [Relocation Cash Flows sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) row 177 for the latest cashflow figures.
 2. Recalculate via [[uk-relocation-cashflows]] (update that file's sections too, and add a change log row there).
-3. Paste the updated tables into this Google Sheet.
-4. Add a row here only if the structure changed.
+3. Paste the updated data tables and assumptions into this Google Sheet.
+4. Keep findings and observations in this companion note, not in the spreadsheet.
+5. Add a row here only if the structure changed.
 
 ---
 
