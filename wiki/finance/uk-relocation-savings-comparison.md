@@ -29,7 +29,7 @@ source: UK Relocation Savings Comparison Google Sheet
 - **At GBP 110k / HKD 1.1m,** London is only thinly positive at HKD 53,586/yr. Hong Kong saves HKD 261,244/yr and Malvern saves HKD 420,078/yr.
 - **At GBP 150k / HKD 1.5m,** Malvern and Hong Kong are effectively tied, while London remains far behind.
 - **At GBP 200k / HKD 2.0m,** Hong Kong pulls clearly ahead because the HK tax cap keeps more of the extra salary.
-- Malvern Low nearly matches London High on annual savings, which shows how much the lower Malvern cost base offsets salary upside.
+- **Malvern Low nearly matches London High on annual savings**, which shows how much the lower Malvern cost base offsets salary upside.
 
 ---
 

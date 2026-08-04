@@ -46,6 +46,37 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 3 Aug - DIRECT ASK TO KARI: no line of sight yet; Kari to catch up with Stephan 4 Aug (HK time)
+
+> **The direct Kari message flagged as "going out now" in the same-day Justin check-in (see Justin Gilbert section above) was sent.** Julian asked Kari directly for a line of sight on the decision. Kari did not have an answer to hand but committed to a concrete next step with a date: catching up with Stephan on 4 Aug HK time. **Context for why Julian is chasing:** the Kari call (see entry below) ended with "decision expected by end of last week (w/c 28 Jul)" - that came and went with no word, so this is a missed-deadline chase, not a cold restart.
+
+**What happened (WhatsApp, 3 Aug):**
+- **Julian (2:23pm):** *"Hi Kari, hope you're getting the same decent weather we are in the UK. Do you have any line of sight on the decision?"*
+- **Kari (9:47pm):** *"Hi Julian, thanks and good to hear weather is treating you well in the UK. Let me revert shortly, I'll catch up with Stephan tomorrow HK time."*
+- **Julian (9:57pm):** *"Thanks Kari, much appreciated."*
+
+**Strategic read:**
+- Warm opener (weather) before the ask, consistent with the standing tone rules — no apology, no pressure, a question Kari can actually answer.
+- Kari's reply is warm-but-deferred: no line of sight given, but a concrete next step (catching up with Stephan) with a date attached — better than silence, though still not the signal itself.
+- "Tomorrow HK time" from 3 Aug is **4 Aug HK — today.** This is the next thing to watch on this channel.
+
+**NEXT:** Watch for Kari's follow-up after she speaks with Stephan (expected 4 Aug HK time). No action needed from Julian's side until she reverts.
+
+---
+
+## ✅ 24 Jul - THE KARI CALL HAPPENED: positive, EA-aligned, 12-month engagement proposed by Kari; decision due w/c 28 Jul
+
+> **The call ran a day earlier than the confirmed slot (Fri 24 Jul, not the scheduled Fri 25 Jul — date mismatch, not logged elsewhere).** Informal, walking-around format. Kari described the need unprompted in EA terms with no pushback on scope or framing; read the alignment between himself and Ty as genuine, not political. He proposed a **12-month consulting engagement himself** (Julian had argued 12 over 6 - six months forces a quick-win focus - and Kari agreed unprompted). Julian disclosed the school-deadline timeline; Kari's response walked back from "a couple of weeks" to **"decision by end of next week" (w/c 28 Jul)**. Full meeting note: [[kari-meeting-note-2026-07-24]].
+
+**Strategic read:**
+- Strongest signal in the arc so far: unprompted EA framing, unprompted 12-month proposal, explicit alignment claim with Ty — none of this was Julian leading the witness.
+- **That decision deadline (w/c 28 Jul) passed with no word**, which is the direct cause of the 3 Aug chase above (entries run newest-first, so read that one first).
+- Still short of the Branch A bar: warm and structurally aligned, but no written offer, no named destination/date yet.
+
+**NEXT:** superseded by the 3 Aug chase above - watch for Kari's reply after she speaks to Stephan (expected today, 4 Aug HK).
+
+---
+
 ## ✅ 21 Jul - KARI CALL CONFIRMED: Friday 25 Jul, 2pm HK time, Teams
 
 > **The Kari call is locked.** Friday 25 Jul at 2pm HK time via Microsoft Teams. Kari organised the invite to julianhart@gmail.com. This is Julian's last Friday in HK before he departs for the UK — he flagged this to Kari, who moved the slot to afternoon to avoid clashing with Friday evening. **Prep: [[tti-kari-call-prep]].**
