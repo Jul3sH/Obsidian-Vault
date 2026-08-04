@@ -24,6 +24,7 @@ Related: [[uk-relocation-decision]], [[benefits]], [[risks]], [[b1-relationship-
 **Wellbeing**
 
 - Risk: illness in either parent becomes harder to manage with the family split across Hong Kong, Ireland, and the UK.
+- Risk: if Clodagh becomes seriously ill while Sophia remains in Hong Kong, Sophia is separated from her mother during a high-stakes family health event.
 - Risk: staying avoids the relocation shock but may keep Julian inside the same stress loop if the career answer does not become concrete.
 - Risk: Hong Kong wellbeing is only strong under normal circumstances. No income makes the same city feel like a holding pattern under financial stress.
 - Opportunity: Hong Kong continuity avoids an immediate life upheaval, preserves familiar routines, and keeps climate, school, and city familiarity intact.
