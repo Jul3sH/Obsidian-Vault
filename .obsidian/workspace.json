@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/finance/uk-relocation-cashflows.md",
+                "file": "wiki/performance/decisions/uk-move/why-brained.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uk-relocation-cashflows"
+              "title": "why-brained"
             }
           }
         ]
@@ -200,10 +200,24 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/performance/decisions/uk-move/_index.md",
+    "wiki/performance/decisions/uk-move/why-brained.md",
+    "wiki/performance/decisions/uk-move/why-london.md",
+    "wiki/performance/decisions/uk-move/b1-relationship-belief.md",
+    "wiki/performance/decisions/uk-move/analysis.md",
+    "wiki/performance/decisions/uk-move/alternatives.md",
+    "wiki/performance/decisions/decision-maker-profile.md",
+    "wiki/performance/decisions/decision-journal.md",
+    "wiki/performance/decisions/brain-brand-framework.md",
+    "wiki/performance/decisions/commitment-lock-protocol.md",
+    "wiki/performance/decisions/choosing-a-decision-framework.md",
+    "wiki/performance/decisions/uk-move/risks.md",
+    "wiki/performance/decisions/uk-move/fable-review-unknowns.md",
+    "wiki/performance/decisions/uk-move/b7-lifestyle.md",
     "wiki/projects/uk-relocation-decision.md",
+    "wiki/finance/uk-relocation-cashflows.md",
     "wiki/finance/uk-relocation-savings-comparison.md",
     "wiki/projects/tti-role.md",
-    "wiki/finance/uk-relocation-cashflows.md",
     "wiki/technology/Memory systems/wiki-vs-openbrain.md",
     "wiki/ai-os/system-design/claude/memory/feedback-graduated-chase-tone.md",
     "wiki/ai-os/system-design/claude/commands/tco.md",
@@ -213,20 +227,6 @@
     "wiki/technology/Memory systems/pillars-agile-os.md",
     "wiki/technology/Memory systems/memory-capabilities.md",
     "wiki/technology/Memory systems/memory-challanges.md",
-    "wiki/technology/Memory systems/memory-storage.md",
-    "wiki/technology/Memory systems/memory-capture.md",
-    "wiki/technology/Memory systems/_index.md",
-    "wiki/technology/Memory systems/memory-use-cases.md",
-    "wiki/technology/Memory systems/pillars-memsearch.md",
-    "wiki/technology/Memory systems/memory-systems-taxonomy-codex-review-2026-08-01.md",
-    "wiki/technology/Memory systems/memory-recall.md",
-    "wiki/technology/Memory systems/memory-pillars.md",
-    "wiki/technology/Memory systems/memory-injection.md",
-    "wiki/technology/Memory systems/memory-features.md",
-    "wiki/technology/claudeclaw-business-os/_index.md",
-    "wiki/technology/claudeclaw-business-os/claudeclaw-business-os-overview.md",
-    "wiki/technology/claudeclaw-business-os/claudeclaw-agent-config.md",
-    "wiki/technology/claudeclaw-business-os/claudeclaw-memory-system.md",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",
     "wiki/technology/Job search tech",

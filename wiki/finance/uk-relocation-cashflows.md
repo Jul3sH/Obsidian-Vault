@@ -19,6 +19,7 @@ source: UK Relocation Cashflows Google Sheet
 
 - This file is the auditable model companion for the relocation savings comparison: cashflow source, tax assumptions, salary bands, annual net savings, and 10-year cumulative savings.
 - The live source cashflow comes from the Relocation Cash Flows Google Sheet row 177: London HKD 669,984/yr, Malvern HKD 303,492/yr, and Hong Kong HKD 692,196/yr.
+- The burn-rate inputs are based purely on current cash plus investments as of 1 August 2026. No salary income is considered in those burn-rate figures.
 - The comparison uses four identical gross salary bands for London, Malvern, and Hong Kong: GBP 75k / HKD 750k, GBP 110k / HKD 1.1m, GBP 150k / HKD 1.5m, and GBP 200k / HKD 2.0m.
 - Each location also has a zero-income stress case with its own cashflow still applied: London HKD -669,984/yr, Malvern HKD -303,492/yr, and Hong Kong HKD -692,196/yr.
 - This file keeps the assumptions and calculations. The interpretive findings and observations live in [[uk-relocation-savings-comparison]].
@@ -37,6 +38,7 @@ source: UK Relocation Cashflows Google Sheet
 
 | Date | What changed |
 |---|---|
+| 2026-08-04 | Added an executive-summary caveat that the source burn-rate inputs are based purely on current cash plus investments as of 1 August 2026, with no salary income considered in those burn-rate figures. |
 | 2026-08-04 | Added an executive summary so the model companion opens with the bottom line, key takeaways, source cashflow numbers, zero-income stress cases, and document boundary. |
 | 2026-08-04 | Added London Zero and Hong Kong Zero stress-case columns to the live savings comparison. The model now has one GBP 0 / HKD 0 earnings case per location, with each location's own annual cashflow still applied. Updated the mirrored salary and 10-year cumulative tables here. |
 | 2026-08-04 | Added a Malvern Zero stress-case column to the live savings comparison: GBP 0 / HKD 0 gross earnings with Malvern annual cashflow still applied. Updated the mirrored salary and 10-year cumulative tables here. |

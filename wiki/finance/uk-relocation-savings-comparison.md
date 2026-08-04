@@ -21,6 +21,7 @@ source: UK Relocation Savings Comparison Google Sheet
 - **Malvern is the strongest savings route at low, medium, and high** salaries only under the living-with-Mum assumption. It is a desperate-measure bridge, not a normal 10-year lifestyle plan.
 - **Zero-income stress** cases make the downside explicit: with no earnings, London loses HKD 669,984/yr and HKD 6,699,840 over 10 years, **Malvern loses HKD 303,492/yr** and HKD 3,034,920 over 10 years, and Hong Kong loses HKD 692,196/yr and HKD 6,921,960 over 10 years before any starting pot is used.
 - **If Julian lives independently in Malvern, the model breaks**: add roughly HKD 10,000/mo accommodation plus bills and a car, and the Malvern savings advantage is no longer reliable.
+- **The savings figures exclude investment growth**: no stock appreciation, dividends, deposit interest, or other investment returns are modelled on existing assets or accumulated savings.
 - **Hong Kong becomes the strongest savings route at extra-high salary** and is financially better than London at every identical salary band.
 - The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
 
@@ -113,6 +114,7 @@ Structural notes:
 
 | Date | What changed |
 |---|---|
+| 2026-08-04 | Added an executive-summary caveat that savings figures exclude stock appreciation, dividends, deposit interest, and other investment returns on existing assets or accumulated savings. |
 | 2026-08-04 | Added London Zero and Hong Kong Zero stress-case columns to the Google Sheet. The model now runs across `Sheet1!B:P`, with one zero-income column plus low, medium, high, and extra-high columns for each location. `Sheet1!B12:P12` and `Sheet1!B24:P24` validate `OK`; assumptions now describe zero stress cases for all locations. Updated [[uk-relocation-cashflows]] and this findings note. |
 | 2026-08-04 | Added a Malvern Zero stress-case column to the Google Sheet. The scenario uses GBP 0 / HKD 0 gross earnings, applies Malvern cashflow, and validates cleanly across rows 12 and 24. Updated [[uk-relocation-cashflows]] and this findings note. |
 | 2026-08-04 | Corrected the Google Sheet's annual cashflow formula path so row 22 explicitly calculates annual cashflow from monthly cashflow inputs (`monthly cashflow x 12`) before row 23 subtracts it from net take-home. Row 24 returns `OK` if each scenario column ties through salary, tax, deductions, take-home, cashflow, and annual net savings. |
