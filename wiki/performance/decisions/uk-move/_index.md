@@ -35,6 +35,9 @@ Read these first. They explain what the decision was trying to resolve before th
 
 - [[risks|R - Risks]] - original BRAINED risk and belief-challenge file, including marriage exposure, execution risk, and the final status of the nine beliefs.
 - [[fable-review-unknowns|Fable Review - Unknown Unknowns Sweep]] - later adversarial sweep for execution, timing, career, relationships, and Sophia risks not fully covered in the first reviews.
+- [[London-BRAIND|London-BRAIND]] - scenario-level benefits and risks from the live risk register, organised by workstream.
+- [[Malvern-BRAIND|Malvern-BRAIND]] - scenario-level benefits and risks from the live risk register, organised by workstream.
+- [[HK-BRAIND|HK-BRAIND]] - scenario-level benefits and risks from the live risk register, organised by workstream.
 - [[uk-move-decision-risk-register-2026-07-12.xlsx]] - static Excel snapshot of the decision risk register.
 - [[uk-move-risk-register-2026-07-12.xlsx]] - second static workbook snapshot from the risk-register build.
 
