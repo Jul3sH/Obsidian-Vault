@@ -192,9 +192,36 @@ renamed: 2026-07-17
 
 ---
 
-## ⏳ DRAFT (21 Jul) - Post-Kari message on school timing + process; CHANGES NEEDED before send
+## ✅ SENT 5 Aug - TO STEPHAN: the school-offer mechanic + one ask he can act on today (raise it with Ty before he flies)
 
-> **Status: DRAFT - not sent. Julian wants to make changes to this before it goes.** Come back to this at the next session.
+> **Sent morning of 5 Aug UK.** Executes the decision logged 4 Aug: message Stephan Wed 5 Aug if nothing came back from Kari. Nothing did. Kari's "revert shortly" (Mon 3 Aug) and his committed 4 Aug HK catch-up with Stephan both passed with no word.
+
+**Sent (5 Aug):**
+
+> Hi Stephan, wanted to check in and see where the role has got to, and whether there's any chance of moving it while Ty is in town. I'm in a bit of a corner, schools will be releasing places soon and I'll only get days to respond or lose the place. Our preference is absolutely to stay in Hong Kong, but I can't turn a place down without something firm to hold on to. Any chance you could raise it with him before he heads off?
+
+**Why this shape (drafting history, 5 Aug):**
+- **A long three-paragraph version was written and rejected as too heavy for WhatsApp to a 40-year friend.** The content that mattered, the school-offer mechanic, survived into the short form. Length was the right call: this channel is conversational, not epistolary.
+- **"The consulting gig opportunity" was caught and changed to "the role".** An intermediate draft used it. Since 15 Jul the whole effort has been lifting this from "IT support" and "a consulting gig" up to the director-level EA/governance role Ty described and Kari sponsored at 12 months. **Stephan repeats Julian's own framing when he talks to Ty**, so Julian's words set the ceiling. This is the standing anchor-down guardrail, and it nearly went out in writing.
+- **"Is it going to conclude this week?" was dropped.** Perfectly shaped for Stephan's documented warm-vague reply ("hopefully", "it's on their list"), and it risks a flat no on a question that is not the real one. Consistent with the 22 Jun ruling: do NOT force a verdict from a non-decision-maker.
+- **"Any chance of grabbing him before he flies" was corrected to "raise it with him".** Julian's own catch: **Stephan is already with Ty**, so access is not the constraint, having the conversation is. Naming the actual act makes the ask smaller, more precise, and uniquely Stephan's to give.
+- **No offer of a call.** There has already been a Ty call and a Kari call; offering another conversation supplies more of what there has been plenty of, when what is missing is a decision.
+- **Kari deliberately left out.** Keeps it short and avoids opening a second thread. If Stephan comes back vague, "have you and Kari had a chance to speak?" is the natural follow-up, and by then Julian will know whether Kari ever did what he said he would on Monday.
+- **"Our preference is absolutely to stay in Hong Kong"** reinforces, on the one channel where UK framing is permitted, what Stephan himself told Ty on 16 Jul (that Julian would stay). Never near Ty.
+
+**What Stephan can do with it:** one action (raise it with Ty before he flies Thu 6 Aug) and one implicit answer (where the role has got to). Neither is a verdict, so there is no easy-no point that could kill the thread.
+
+**Gate reminder:** a warm "hold on, it'll be fine" is NOT the signal. **"Something firm to hold on to" was chosen precisely to tell him reassurance will not do it.** Concrete process and timing that beats the school deadline is the signal. See [[decision-journal]].
+
+**⚠ Open risk to the anchor:** the message implies a mid-August drop-dead. The 3 Aug Clodagh development (refusing to bring Sophia to the UK on the agreed date) bears directly on that date. Prior hard dates ("early next week" 4 Jul, "by Wednesday" 16 Jul) both slipped; a third slip removes its forcing power with Stephan entirely.
+
+**NEXT:** log Stephan's reply here. The live question is whether he raises it with Ty before Ty flies Thu 6 Aug. If nothing from Kari by Fri 7 Aug, one warm follow-up on that channel.
+
+---
+
+## 🗄 SUPERSEDED (21 Jul draft) - Post-Kari message on school timing + process; never sent
+
+> **Status: SUPERSEDED 5 Aug by the entry above. Never sent.** Julian wanted changes before it went, and it was then overtaken by events: the "after Kari, what are the next steps" ask died once Julian chased Kari directly on 3 Aug, and its opener ("good to speak with Kari") went stale over the two weeks it sat. **Its core content, the school-placement bind, survived and became the spine of the 5 Aug message.** Retained for the record.
 >
 > **Trigger:** the school-placement bind — once in the UK, offers arrive with ~1 week to accept or lose the slot; accepting commits to the move and closes off the HK role. Cannot take a place while TTI is live; cannot turn one down and then find TTI hasn't firmed up. Stephan is the only person who can give an honest read on whether the timeline is compatible.
 >

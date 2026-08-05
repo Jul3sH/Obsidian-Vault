@@ -7,14 +7,22 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-07-25
+status-updated: 2026-08-05
 ---
 
 # TTI Role
 
-## Status (as of 2026-07-25)
+## Status (as of 2026-08-05)
 
-**Position: Kari call done (Fri 24 Jul). Strongly positive. Kari independently described the need as EA/governance and sponsored the 12-month consulting frame himself. Decision expected end of next week (week of 28 Jul). Ty August meeting remains the critical path.**
+**Position: the promised decision deadline (w/c 28 Jul) passed with no word, and the process has gone quiet at exactly the point it was meant to conclude. Both routes are now chased. Kari was chased directly 3 Aug and committed to catch up with Stephan on 4 Aug HK; he has not reverted. Stephan was messaged directly 5 Aug. Still no offer, no structure, no date. The immediate critical path is whether Stephan raises it with Ty before Ty flies out of HK on Thu 6 Aug, the last in-person window.**
+
+**What has happened since the Kari call (3-5 Aug):**
+- **3 Aug - Justin check-in.** Stephan has no real clarity: "seemed to think things went well"; IT is "on their list of to do's". This is the absorb-don't-act pattern, not a withheld answer. It is what justified going to Kari directly.
+- **3 Aug - direct chase to Kari.** *"Do you have any line of sight on the decision?"* Kari: *"Let me revert shortly, I'll catch up with Stephan tomorrow HK time."* Warm but deferred, and a concrete next step with a date attached.
+- **4 Aug - decision logged.** Hold Stephan for a day and let Kari's catch-up land first; message Stephan Wed 5 Aug if nothing came back. Reasoning: Ty leaves Thursday, so this still left one or two chances for Stephan to raise it in person.
+- **5 Aug - nothing came back, so the Stephan message went.** Short, WhatsApp-native. Gives him the school-offer mechanic for the first time (places released soon, days to respond or lose one, and accepting is the single act that closes off the HK role), restates the stay-in-HK preference, and closes on one thing he can do today: raise it with Ty before he heads off. Full wording and drafting rationale: [[tti-comms-log]].
+
+**Two things that nearly went wrong in the drafting, worth carrying forward:** an intermediate draft called it "the consulting gig opportunity", which would have handed Stephan the low anchor in writing on a role being positioned at director-level EA (he repeats Julian's framing to Ty). And a "will this conclude this week?" close was dropped as perfectly shaped for a warm-vague non-answer.
 
 **Kari call outcome (24 Jul):**
 - Kari described the need unprompted in pure EA terms: look holistically at the business, the processes, the structure, then the technology to support it. No sell required.
@@ -42,9 +50,11 @@ status-updated: 2026-07-25
 
 **Julian's argument:** "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos. But I can't coordinate directors as a Principal — that's not about ambition, it's about organizational structure. The role requires director-level seniority to have peer authority." This leans the conversation back toward the EA role Ty described, not the system admin job, and frames the director-level requirement as structural necessity, not preferential.
 
-**Next actions (updated 25 Jul, post-Kari call):**
-1. **Stephan follow-up (BWS-39, now unblocked):** Draft and send the post-Kari message. School deadline drives urgency - Kari has committed to a decision by end of next week; Stephan needs to be primed. See [[tti-comms-log]] for the draft.
-2. **Build the prior-proof story (BLOCKER for the Ty room).** Reconstruct one concrete Telstra International before/after (a named forum the design authority + waiver process made unnecessary) + a US$300M-transformation equivalent. The honest bridge survives Ty once but NOT his retelling to Tom Uva. See [[tti-ea-governance-value]] §8.
+**Next actions (updated 5 Aug):**
+1. **Watch the Stephan channel (BWS-39 done, sent 5 Aug).** The live question is whether he raises it with Ty before Ty flies Thu 6 Aug. Log his reply in [[tti-comms-log]] and read it against the gate rule: warmth is not the signal, concrete process and timing is.
+2. **If nothing from Kari by Fri 7 Aug, one warm follow-up on that channel.** He was chased 3 Aug and committed to revert; do not stack a second chase inside the same week.
+3. **Re-check the mid-August drop-dead before relying on it again.** The 3 Aug Clodagh development (refusing to bring Sophia to the UK on the agreed handover date) bears directly on the date this whole timeline is anchored to. Two prior hard dates have already slipped; a third would remove its forcing power entirely.
+4. **Build the prior-proof story (BLOCKER for the Ty room).** Reconstruct one concrete Telstra International before/after (a named forum the design authority + waiver process made unnecessary) + a US$300M-transformation equivalent. The honest bridge survives Ty once but NOT his retelling to Tom Uva. See [[tti-ea-governance-value]] §8.
 3. **Get a defensible HK fully-loaded director cost** (the audit gate's denominator) + finalise the one-page audit scope [[tti-cfo-brief]], deliverable within 48h of the Ty meeting. Ty sets the multiple; Julian carries the denominator.
 4. **Pre-build the CEO-chip charter fallback** (day-to-day ratifier at Tom Uva's tier; CEO terminus a later backstop). See [[tti-ea-governance-value]] §4. Still open: 🟡 **name the charter authority** (the exec above both APAC tech + Milwaukee).
 5. **Ty meeting (early Aug):** close on the smallest Ty-owned action — approve the one-page audit + set the multiple — NOT the role. Full dry run: [[tti-ty-call-simulation-2026-07-19]].
@@ -57,6 +67,8 @@ status-updated: 2026-07-25
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-08-05 | **Stephan messaged directly; school-offer mechanic disclosed for the first time.** Nothing came back from Kari, so the 4 Aug contingent decision fired. Short WhatsApp: where has the role got to, the school bind (days to respond or lose a place; accepting closes off the HK role), stay-in-HK preference restated, and one action ask - raise it with Ty before he flies Thu 6 Aug. Two drafting saves logged: "the consulting gig opportunity" caught and lifted to "the role" (anchor-down guardrail, since Stephan repeats Julian's framing to Ty), and a "will it conclude this week?" close dropped as an invitation to a warm-vague non-answer. Wording + full rationale: [[tti-comms-log]]. Completes BWS-39. |
+| 2026-08-03 | **Decision deadline missed; both channels chased.** The w/c 28 Jul decision Kari committed to came and went with no word. Justin check-in confirmed Stephan has no real clarity ("seemed to think things went well"; IT "on their list of to do's") - absorb-don't-act, not a withheld answer. Julian chased Kari directly; Kari replied warm but deferred: *"Let me revert shortly, I'll catch up with Stephan tomorrow HK time."* That catch-up window (4 Aug HK) passed without a revert. Also logged, outside TTI but material to the timeline: Clodagh is refusing to bring Sophia to the UK on the agreed handover date, which bears on the mid-August anchor. |
 | 2026-07-24 | **Kari call done. Strongly positive.** Kari independently described the need as EA/governance without prompting. Sponsored the 12-month consulting frame himself. Acknowledged the TBM/data gap ("we lack having that type of data"). Confirmed top-down sponsorship. Acknowledged outsider onboarding time. Decision by end of next week (28 Jul week). Full call record: [[kari-meeting-note-2026-07-24]]. |
 | 2026-07-19 | **Argument hardened + two call dry-runs built.** EA-governance argument ([[tti-ea-governance-value]]) taken through 2 Fable adversarial passes (mandate/authority machinery now the strongest material). Outbound ask reframed to a costless two-week coordination audit with a pre-agreed gate ([[tti-cfo-brief]]), targeted at Ty. Kari call simulated ([[tti-kari-call-simulation-2026-07-19]]) — key: lift "IT support" by attribution to Ty, never correction; convert Kari → advocate to Frank. Ty conversation simulated ([[tti-ty-call-simulation-2026-07-19]]) — verdict ~80% ready: the mandate machinery holds under Ty's hardest push, and the audit-first ask neutralises the prior-proof gap + Frank vacuum + Tony risk at once. **Three prep priorities before the Ty meeting (now the critical path): (1) the prior-proof story [genuine blocker], (2) the HK loaded-cost denominator + audit one-pager, (3) the CEO-chip charter fallback.** Tony must be sequenced first. |
 | 2026-07-19 | **Process shifted to multi-node buy-in: Ty moving it (power/Stephan seniority), Kari as next influencer (IT + tax), Frank (CFO) as financial gate.** Direct Ty call (15 Jul) surfaced the actual gap: steering-committee-driven governance is broken; needs an EA/architecture framework to align fragmented tech leadership. Role framing: Ty described permanent HK-based EA/governance role (matches April JD). Principal System Administrator posting exists but junior-level; Julian will position for director-level role by arguing: (1) can't coordinate US/APAC teams as a Principal, need director seniority; (2) platform engineering gap is addressable (work with existing sysadmins using architecture patterns); (3) real value is EA/governance, not platform ops. Kari call imminent; Frank's financial sign-off needed before school deadline (mid-August). Risk watch: Tony Chung learning of this and attempting to block. [[tti-sysadmin-skills-bridge]] built to support this narrative. |
