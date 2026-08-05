@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
+                "file": "wiki/deliverables/vanguard-outreach-go-no-go-report.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Malvern-BRAIND"
+              "title": "vanguard-outreach-go-no-go-report"
             }
           }
         ]
@@ -200,9 +200,12 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
+    "wiki/deliverables/vanguard-outreach-go-no-go.md",
+    "wiki/deliverables/vanguard-outreach-go-no-go-report.md",
+    "wiki/projects/cold-outreach-real-estate.md",
+    "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
     "wiki/technology/sales-marketing-tech/hk-b2c-outreach-uemo-pdpo.md",
     "wiki/deliverables/vanguard-outreach-go-no-go-prompt-zero.md",
-    "wiki/deliverables/vanguard-outreach-go-no-go.md",
     "wiki/performance/systems-register.md.tmp.96457.6a57f9e20a1c",
     "wiki/ai-os/skills/prompt-zero/SKILL.md",
     "wiki/ai-os/skills/prompt-zero",
@@ -211,7 +214,6 @@
     "wiki/performance/decisions/uk-move/alternatives.md",
     "wiki/performance/decisions/uk-move/b1-relationship-belief.md",
     "wiki/performance/decisions/uk-move/decision-criteria-matrix.md",
-    "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
     "wiki/performance/decisions/uk-move/reconciliation.md",
     "wiki/performance/decisions/uk-move/income-portability.md",
     "wiki/performance/decisions/uk-move/fable-review-london-vs-malvern.md",
@@ -226,8 +228,6 @@
     "wiki/performance/decisions/uk-move/why-brained.md",
     "wiki/performance/decisions/uk-move/uk-relocation-fable-consistency-review-2026-07-13.md",
     "wiki/performance/decisions/uk-move/fable-review-unknowns.md",
-    "wiki/performance/decisions/uk-move/fable-review-jobdata-2026-07-11.md",
-    "wiki/performance/decisions/uk-move/capture.md",
     "wiki/ai-os/system-design/claude/commands",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",

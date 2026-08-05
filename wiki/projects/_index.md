@@ -21,7 +21,7 @@ Use `/project-planner` to create a new Project through a structured interview.
 - [[job-search-pipeline|Job Search Pipeline]] — Standing top-of-funnel pipeline: trawling, screening, and cold applications; active opportunities spin out as separate projects
 - [[genai-sa-market-validation|GenAI SA: Go/No-Go Validation]] — Reach a recruiter-validated go/no-go decision on whether a GenAI SA pivot will materially improve employability
 - [[automated-linkedin-networking|Automated LinkedIn Networking]] — Build and warm a LinkedIn pipeline of relevant industry contacts ahead of the brand/KPI foundation
-- [[cold-outreach-real-estate|Cold Outreach — Real Estate]] — Prove I can generate qualified leads at <HK$1,000/lead to unlock a partnership income stream
+- [[cold-outreach-real-estate|Cold Outreach — Real Estate]] — Prove I can generate qualified leads at <HK$1,000/lead for a friend's UK property business; currently gated on a personal-liability go/no-go
 
 ## Performance
 - [[agile-claw-mvp|Agile Claw MVP]] — Validate that HK enterprises will pay a commercially viable rate for AI OS consulting

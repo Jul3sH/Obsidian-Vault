@@ -29,6 +29,37 @@ status-updated: 2026-06-09
 
 **Detail tier:** see `## Deliverables` below (7 items; 1 queued, 1 blocked, 5 downstream).
 
+---
+
+## Project Summary File Map
+
+Supporting files and where they sit. The seven work items are in `## Deliverables` below and are not repeated here.
+
+**Decision control**
+
+| File | Role |
+|------|------|
+| [[vanguard-outreach-go-no-go]] | The live gate. 2h spike deciding whether Julian participates at all, and on what terms. Everything else waits on it. |
+| [[vanguard-outreach-go-no-go-prompt-zero]] | Julian's own brief for that spike, written 5 Aug via `/prompt-zero`. Read before starting it. Holds the context that exists nowhere else: list provenance, what is in whose name, and what "wrong" looks like. |
+
+**Domain evidence**
+
+| File | Role |
+|------|------|
+| [[hk-b2c-outreach-uemo-pdpo]] | The regulatory map. UEMO (how you send) and PDPO (the data), with quoted official guidance. §4.9 and §2.3 answer two of the spike's three assumptions. Excludes SFC, AML and estate-agency rules. |
+
+**Tooling and cost**
+
+| File | Role |
+|------|------|
+| [[active-subscriptions]] | What is being paid for now, including the SalesHandy subscription currently warming two domains in Julian's name. |
+| [[domain-strategy]] | Domain count, mailbox configuration and TLD trust tiers behind the current warm-up. |
+| [[comparison-snov-vs-saleshandy]] | The head-to-head that led to the SalesHandy choice. |
+| [[decision-framework]] | Vendor selection logic by workflow type and volume. |
+| [[functional-architecture]] | End-to-end pipeline options per stage. Full library at [[technology/sales-marketing-tech/_index\|sales-marketing-tech]]. |
+
+---
+
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
@@ -39,7 +70,15 @@ status-updated: 2026-06-09
 ---
 
 ## Objective
-Prove that I can generate qualified real estate investor leads at a cost far below market rate, giving my friend the confidence to partner with me and creating a new income stream.
+
+**Current (corrected 2026-08-05):** Help Adam generate qualified real estate investor leads at a cost far below the HK$1,000 market benchmark. **This is a favour to a friend. There is no income, partnership, or other return to Julian from this project.** If a partnership does follow, it would run through separate legal routes such as LinkedIn advertising, which are not in this project's scope.
+
+> **Superseded 2026-08-05:** *"Prove that I can generate qualified real estate investor leads at a cost far below market rate, giving my friend the confidence to partner with me and creating a new income stream."* The partnership-and-income framing was written 6 May and confirmed no longer true during a `/prompt-zero` interview on 5 Aug. Kept visible rather than deleted so the change of basis is auditable.
+
+> [!warning] Prioritisation consequence, unresolved
+> This is an **XL project in the Career workstream with no payoff to Julian**, running while a job search and a UK relocation are live. That combination would not pass the Payoff Test if the project were being defined today. The Outcomes below are also still written as a proof-of-model for Julian's benefit, which no longer matches the objective above.
+>
+> **This needs a `/project-planner` pass to re-score and, most likely, to reduce scope.** Rewriting the objective does not fix the priority; it only makes the mismatch visible. Do not treat the correction above as closing the question.
 
 ## Outcomes / Outputs
 1. Generate 20 qualified leads (understands the offer, has capital to invest, wants a meeting) from a 2,000-contact list within 2 months — ≥1% conversion rate

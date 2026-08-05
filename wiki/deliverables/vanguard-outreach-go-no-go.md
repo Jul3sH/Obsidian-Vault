@@ -47,6 +47,9 @@ All three surfaced during `/prompt-zero`. Assumption 1 is the one the spike exis
 - **Silence test:** pass. Julian would do this if he could never tell anyone.
 - **Good enough when:** 2 hours are up and every risk has a named treatment, so Julian can tell Adam yes, no, or yes-on-these-terms. **Not** when he fully understands Hong Kong marketing law.
 
+## Output
+**[[vanguard-outreach-go-no-go-report]]** (draft, 2026-08-05). Verdict: **no-go on execution, go on advice.** All 11 risks classified; R6 (Julian pressing send) and R8 (SFO s.114, HK$5m and 7 years) cannot be transferred, mitigated, or accepted by Adam, and are avoidable only by Julian not executing. Awaiting Julian's review.
+
 ## Prompt Zero
 Written 2026-08-05, graduated to its own file for length: **[[vanguard-outreach-go-no-go-prompt-zero]]**. Read it in full before starting this enabler.
 
