@@ -99,8 +99,14 @@ Every piece of substantive work Julian does should be linked to a deliverable in
 **Step 1 - Is this linked to a deliverable?**
 Ask: which deliverable does this work serve? If the link is clear, name it and move to Step 2. If the work cannot be linked to a deliverable, pause and ask: "I can't link this to a deliverable - why are we doing this?" The work may be justified (a quick question, a legitimate one-off, an exploratory conversation), but the question must be asked. Do not silently proceed with unanchored work.
 
-**Step 2 - Has the deliverable been scoped and brainstormed?**
-Before going into detail, check whether the deliverable has been through a scoping and brainstorm phase. Look for: a clear scope, the key areas to cover, and a plan of attack in the deliverable file. If those are absent, ask: "Have you scoped this out and brainstormed it before going into the detail?" Do not begin detailed work on an unscoped deliverable. The risk is spending depth on one area while neglecting others. If the deliverable is already scoped, proceed.
+**Step 2 - Does the deliverable have a Prompt Zero?**
+Open the deliverable file and look for a `## Prompt Zero` section: the grounding brief Julian writes **in his own words** before work starts (outcome, non-goals, good-enough-when, depth warranted, assumptions, constraints, and what the model must not do).
+
+- **Section present:** read it in full before doing anything else, and work inside it. It is the scope of the work, and it outranks your own reading of the request. Re-read it at the start of every session that resumes this deliverable, not just the first.
+- **Section absent:** stop and run `/prompt-zero`. Do not begin detailed work. This gate applies to **every deliverable regardless of size**, with one exception: at `size: 1` (1-4h) Julian may waive it, and the waiver is written into the section with a date and a reason. A waiver is recorded, never silent. At `size: 2` and above there is no waiver; if he overrides the gate anyway, comply and write the override into the deliverable as a dated line.
+- **Work drifting off the brief:** run `/prompt-zero` in drift mode. Amendments are appended and dated, never a silent rewrite.
+
+The risk this closes is not just spending depth on one area while neglecting others. It is that an unbriefed model fills every gap Julian left with its own assumptions, and the work quietly becomes the model's idea of the task rather than his.
 
 **Exceptions - the rule does not apply to:**
 - Routine system operations: compiling, logging, mirroring, updating indexes
