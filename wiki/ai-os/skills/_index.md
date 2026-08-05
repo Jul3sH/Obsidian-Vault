@@ -32,6 +32,7 @@ type: index
 | [[ai-os/skills/find-skills/SKILL\|find-skills]] | "Find a skill for X", "is there a skill for X", "how do I do X" — discover and install skills from the ecosystem | Cross-domain |
 | [[ai-os/skills/storm-research/SKILL\|storm-research]] | "storm research this", "storm report on X", "STORM briefing on X" — 5-lens multi-perspective HTML research briefing with adversarial citation verification | Cross-domain |
 | [[ai-os/skills/commitment-guard/SKILL\|commitment-guard]] | *Reopening* a LOCKED decision (doubt/second-thoughts naming a committed decision), or "lock it in" / "/commitment-guard" — runs the F-N-M-T reopen test + 48h stand-down; defends decisions from emotional U-turns | Decisions |
+| [[ai-os/skills/prompt-zero/SKILL\|prompt-zero]] | `/prompt-zero`, "prompt zero"; and automatically before substantive work on any deliverable whose file has no `## Prompt Zero` section. Interviews Julian through the Seven Questions so the grounding brief is written in his own words | Cross-domain |
 | [[ai-os/skills/memory-architect/SKILL\|memory-architect]] | "/memory-architect", "design my memory system", "add a memory layer", "explain how memory decay works" — guided interview then builds a custom Claude Code memory system. **Third-party (Mark Kashef), not authored here.** Incomplete: `references/` files missing | AI OS |
 
 **Status:** see [[skills-status|Skills Status]] for Active/Parked state.

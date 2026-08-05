@@ -1,7 +1,7 @@
 ---
 type: reference
 created: 2026-05-08
-updated: 2026-07-28
+updated: 2026-08-05
 ---
 
 # Hidden File Sync Checklist
@@ -36,7 +36,8 @@ updated: 2026-07-28
 | define-enabler | `~/.claude/skills/define-enabler/SKILL.md` | [[../../skills/define-enabler/SKILL\|SKILL.md]] | 2026-08-01 (new Step 1.8 Payoff Test + `## Payoff Test` template section + fourth admission gate "Payoff-tested"; flagged as the highest-risk deliverable type, Exploration spikes must express "good enough" as timebox + decision fed, and Q1 tightens Step 1.4 to require 2+ named deliverables. Prior: 2026-07-28 (new Step 1.7 Assumption Audit + `## Load-Bearing Assumptions` template section, with an Exploration-spike note that the spike's success criteria should be "assumption confirmed/broken"; paired with feedback-assumption-audit memory. Prior: 2026-06-25 frontmatter "sized, not WSJF-scored"; 2026-06-15 Step 4.4 scoped hrs + deliverables-in-project refactor)) |
 | define-user-story | `~/.claude/skills/define-user-story/SKILL.md` | [[../../skills/define-user-story/SKILL\|SKILL.md]] | 2026-08-01 (new Step 1.7 Payoff Test + `## Payoff Test` template section + fourth admission gate "Payoff-tested"; notes the "good enough when" line is not a duplicate of acceptance criteria. Prior: 2026-07-28 (new Step 1.6 Assumption Audit + `## Load-Bearing Assumptions` template section, runs for human- and AI-produced work alike; paired with feedback-assumption-audit memory. Prior: 2026-06-25 frontmatter "sized, not WSJF-scored"; 2026-06-15 Step 4.4 scoped hrs + deliverables-in-project refactor)) |
 | sprint-plan | `~/.claude/skills/sprint-plan/SKILL.md` | [[../../skills/sprint-plan/SKILL\|SKILL.md]] | 2026-08-01 (Step 3: added 30-second payoff check per Career/Performance story at the DoD gate, reads the story's `## Payoff Test` if present, enforces the 5 SP speculative cap. Prior: 2026-07-28 (Step 3: added 30-second assumption challenge at the DoD gate — one inversion question per story, flag untested load-bearing assumptions and any that contradict a prior conclusion; paired with feedback-assumption-audit memory. Prior: 2026-05-22 BWS renamed to Agile Sprints)) |
-| standup | `~/.claude/skills/standup/SKILL.md` | [[../../skills/standup/SKILL\|SKILL.md]] | 2026-05-08 |
+| standup | `~/.claude/skills/standup/SKILL.md` | [[../../skills/standup/SKILL\|SKILL.md]] | 2026-08-05 (new Step 3.5 Prompt Zero Backstop: for every story worked on today, check its deliverable for a `## Prompt Zero` section; absent means one prompt to run `/prompt-zero` or log the miss in the scope-creep column. Adds no fourth question. Prior: 2026-05-08) |
+| prompt-zero | `~/.claude/skills/prompt-zero/SKILL.md` | [[../../skills/prompt-zero/SKILL\|SKILL.md]] | 2026-08-05 (new: instruction-only skill; interviews Julian through the Seven Questions so he writes the grounding brief himself, written as a `## Prompt Zero` section in the deliverable file. Gate lives in AGENTS.md Deliverable-First Step 2, every deliverable, waiver only at size 1) |
 | skill-conventions | `~/.claude/skills/skill-conventions.md` | [[skill-conventions\|skill-conventions.md]] | 2026-06-03 (full-folder mirror rule added) |
 | notebooklm-py | `~/.claude/skills/notebooklm-py/SKILL.md` | [[../../skills/notebooklm-py/SKILL\|SKILL.md]] | 2026-07-29 (command surface corrected to CLI v0.7.0) |
 | notebooklm-py/scripts | `~/.claude/skills/notebooklm-py/scripts/run_notebooklm.py` | [[../../skills/notebooklm-py/scripts/run_notebooklm\|run_notebooklm.md]] | 2026-07-29 (REPAIRED: script was non-functional — alias/PATH resolution, 5 stale command signatures, /tmp symlink rejection) |

@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-06-15
+updated: 2026-08-05
 ---
 
 # Skills Status
@@ -25,3 +25,4 @@ Active/Parked status for each skill. See [[_index|Skills]] for triggers and doma
 | resume-tailor | Active |
 | ats-checker | Active |
 | define-task | Active |
+| prompt-zero | Active (new 2026-08-05, adoption unproven: see [[systems-register]] SYS-3) |

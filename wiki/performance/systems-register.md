@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-08-01
+updated: 2026-08-05
 ---
 
 # Systems Register
@@ -38,6 +38,7 @@ Every time a new system is built, it gets a row here **at creation**, with its a
 | ID | System | Built | Purpose | Adoption forcing-function | Last used | Status |
 |----|--------|-------|---------|--------------------------|-----------|--------|
 | SYS-1 | Jira sprint system (BWS Development Sprints + Claude integration; ceremony skills: `/sprint-plan`, `/standup`, `/retro`, `/morning`, `/jira-sync`, `/jira-pull`) | 2026 (mid) | Run personal work as sprints — plan, track, review deliverables against WSJF priority | Ceremony skills scheduled at fixed times (morning 6am, standup/retro 4pm) — but no habit was formed to honour them | Shortly after build | **Lapsed** — overcomplicated the start ("needs a perfect sprint plan first"), then dropped it. The ceremonies exist as a ready-made re-adoption forcing-function if restarted |
+| SYS-3 | Prompt Zero (`/prompt-zero` skill + the `## Prompt Zero` section in every deliverable file) | 5 Aug 2026 | Force Julian to write the grounding brief for a piece of work **in his own words** before any model touches it, using the Seven Questions (outcome, stakes, done, wrong, unwritten context, pieces, hard part). Stops the work quietly becoming the model's idea of the task | **Automatic** - the gate is in `AGENTS.md` Deliverable-First Step 2, so every agent checks it on every session that starts or resumes a deliverable. No ceremony to remember. Backstop is the `/standup` Step 3.5 check, which logs a miss when work was done without a brief. Waiver allowed only at size 1, and it is written down | Not yet: first use is the next deliverable started | **New** - not yet adopted. Adopted only once three consecutive deliverables have started with a brief written before the work, not backfilled after |
 | SYS-2 | Payoff Test gate (see [[payoff-vs-prestige-bias]]) — embedded in `/define-task`, `/define-user-story`, `/define-enabler`, `/project-planner`, `/sprint-plan`, `/retro` | 1 Aug 2026 | Stop Career/Performance work being selected because it would be impressive to explain rather than because it produces something. Three questions: payoff route, silence test, "good enough when" | **Automatic** — fires inside skills already run; nothing new to remember. Accountability surface is the `/retro` question *"what did you spend time on this week you couldn't invoice for?"*, and the 5 SP speculative cap checked at `/sprint-plan` | Not yet — first use is the next `/define-*` run | **New** — not yet adopted. Adopted only once it has survived two consecutive retros without being skipped |
 
 ---
