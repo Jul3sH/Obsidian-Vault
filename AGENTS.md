@@ -26,6 +26,27 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   (" - ") instead. This applies to everything written from now on, including
   drafts intended for the user to send onward.
 
+- **Length is a defect, not a virtue. Julian has to hold the output in his head to
+  use it.** In his own words: *"a lot of these outputs are so detailed my head
+  explodes, and ultimately I'm going to have to make the decision. I need to
+  understand it."* This is the standing failure mode across everything he
+  orchestrates through AI models, not a one-off preference. Apply it to analyses,
+  reports, registers, reviews, and chat responses alike.
+  - **Default to the shortest thing that answers the question.** If a one-liner
+    works, a paragraph is wrong. Lead with the answer, not the reasoning that got
+    there.
+  - **Depth is earned by stakes, not by available material.** Ask what decision
+    the output feeds and write to that. Having more to say is not a reason to say
+    it. (This is the same test as the `feedback-overanalysis-check` memory, applied
+    at writing time rather than at scoping time.)
+  - **Push detail downstream.** A high-level artefact that names where the detail
+    will live beats one that contains it. "Detail belongs in later artefacts" is
+    usually the right call, and Julian will ask when he wants it.
+  - **Never pad to look thorough.** Restating the question, previewing structure,
+    summarising what was just said, and listing options that will not be pursued
+    are all pure cost.
+  - When a long output is genuinely required, say why in one line before it.
+
 ---
 
 # Knowledge Base Rules

@@ -22,6 +22,17 @@ The output is not a prompt to paste. It is a section in the deliverable file tha
 
 Find the deliverable by grepping `wiki/deliverables/` for the name or the `jira-key`.
 
+### Match check: run this the moment Q1 locks
+
+**Existence is not a match.** Read the target's Definition of Done and compare it to his Q1 answer. If they describe different work, stop and say so before asking Q2.
+
+Three outcomes:
+- **Q1 is narrower than the deliverable** (a 2h decision inside a 16h piece) → this is a new, smaller deliverable. Run `/define-enabler` or `/define-task`, then bring the brief to it.
+- **Q1 is a different deliverable that already exists** → switch target, name the file, continue.
+- **Q1 is wider than the deliverable** → he is describing the Project, not this item. Ask which deliverable he is actually starting.
+
+*Why this exists: on the skill's first run the target was corrected twice, at Q1 and again at Q6, because the gate only checked that a deliverable existed. Six questions were asked against the wrong file. Catching it at Q1 costs one comparison.*
+
 ## Write path
 
 **Waiver check first.** Read `size` from the deliverable frontmatter.

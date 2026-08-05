@@ -68,6 +68,7 @@ Step 6 — Inbox & Reply Management   Replies triaged, routed, responded to
 | [[technology/sales-marketing-tech/AUDIT-SOURCE-ATTRIBUTION\|Source Attribution Audit]] | Pricing file verification status (live vs estimated) for all 20 vendors |
 | [[technology/sales-marketing-tech/pipeline-diagram\|Pipeline Diagram]] | Excalidraw diagram of the 7-stage pipeline with build status and data transformation labels |
 | [[technology/sales-marketing-tech/active-subscriptions\|Active Subscriptions]] | Current paid subscriptions ($85/mo), renewal dates, and cancelled/lapsed tools |
+| [[technology/sales-marketing-tech/hk-b2c-outreach-uemo-pdpo\|HK B2C Outreach: UEMO and PDPO]] | Hong Kong compliance map for B2C outreach to named individuals: the two regimes, consent standard, list provenance, sender rules, and agent/contractor exposure |
 
 ### Use Cases
 
