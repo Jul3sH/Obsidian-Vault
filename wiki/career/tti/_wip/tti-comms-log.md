@@ -194,7 +194,7 @@ renamed: 2026-07-17
 
 ## ⏳ DRAFT (21 Jul) - Post-Kari message on school timing + process; CHANGES NEEDED before send
 
-> **Status: DRAFT — not sent. Julian wants to make changes to this before it goes.** Come back to this at the next session.
+> **Status: DRAFT - not sent. Julian wants to make changes to this before it goes.** Come back to this at the next session.
 >
 > **Trigger:** the school-placement bind — once in the UK, offers arrive with ~1 week to accept or lose the slot; accepting commits to the move and closes off the HK role. Cannot take a place while TTI is live; cannot turn one down and then find TTI hasn't firmed up. Stephan is the only person who can give an honest read on whether the timeline is compatible.
 >
