@@ -73,6 +73,35 @@ Rule of thumb: 25-35% premium for a quasi-full-time contract that replaces emplo
 
 The two models reconcile at ~220 billable days (same annual outcome).
 
+### Worked billable-days calculation - 12-month contract from 1 September 2026
+
+Contract window **1 Sep 2026 to 31 Aug 2027**. Holiday dates verified against gov.hk (6 Aug 2026); see sources below.
+
+| Step | Days | Note |
+|------|------|------|
+| Calendar weekdays (Mon-Fri) in the window | 261 | 365 days = 52 weeks + 1; the window opens and closes on a Tuesday, so Tuesday falls 53 times |
+| Less HK general holidays falling Mon-Fri | -12 | 3 in 2026 + 9 in 2027 (lists below) |
+| **Available working days** | **249** | |
+| Less annual leave | -20 to -27 | 20 = standard assumption; 27 = Julian's actual Telstra accrual |
+| Less sick / contingency buffer | -2 to -5 | |
+| **Billable days** | **220 to 227** | |
+
+**HK general holidays falling Mon-Fri, 1 Sep - 31 Dec 2026 (3):**
+Thu 1 Oct (National Day) · Mon 19 Oct (day following Chung Yeung) · Fri 25 Dec (Christmas Day)
+
+**HK general holidays falling Mon-Fri, 1 Jan - 31 Aug 2027 (9):**
+Fri 1 Jan (New Year's Day) · Mon 8 Feb (3rd day LNY) · Tue 9 Feb (4th day LNY) · Fri 26 Mar (Good Friday) · Mon 29 Mar (Easter Monday) · Mon 5 Apr (Ching Ming) · Thu 13 May (Buddha's Birthday) · Wed 9 Jun (Tuen Ng) · Thu 1 Jul (HKSAR Establishment Day)
+
+**Free holidays (fall on a Saturday, so cost nothing against a Mon-Fri pattern):** Sat 26 Sep 2026 (day following Mid-Autumn), Sat 26 Dec 2026 (first weekday after Christmas), Sat 6 Feb 2027 (LNY Day 1), Sat 27 Mar 2027 (day following Good Friday), Sat 1 May 2027 (Labour Day). Hong Kong treats Saturday as a weekday for substitution purposes (only Sunday is the weekly general holiday), so these are genuine holidays that simply do not reduce billable days.
+
+**Which divisor to use.** Both are derivable from the same 249:
+- **227** = 249 − 20 leave − 2 buffer. The conservative reading.
+- **220** = 249 − 27 leave − 2 buffer, and 27 is *evidenced*: the final Telstra payslip paid out 27 accrued leave days ([[tax-hk-2025-2026]]). Caveat: an accrual balance at cessation may include carry-forward, so it is not proof of a 27-day annual entitlement.
+
+A lower divisor raises the day rate. At target 1.35x on total cash HK$2,082,631 (= HK$2,811,552/yr): **220 days → HK$12,781/day; 227 days → HK$12,386/day**, a ~3% difference. Do not accept a divisor proposed by the client without deriving it; a higher divisor is a rate cut in disguise.
+
+**Sources:** [GovHK 2026 general holidays](https://www.gov.hk/en/about/abouthk/holiday/2026.htm) · [GovHK 2027 general holidays](https://www.gov.hk/en/about/abouthk/holiday/2027.htm)
+
 ## Worked example (current benchmark)
 
 On total cash HK$2,082,631:
@@ -103,7 +132,7 @@ On total cash HK$2,082,631:
 - **Conversational principle (what you say): "last base + employer pension, plus 25%" = ~HK$2.5M/yr.** This is the floor logic, deliberately conservative so it's unarguable. Say it; don't let it become the anchor.
 - Anchor on total cash comp, not base and not the benefits-inclusive package.
 - Hard replacement costs (~HK$250k/yr, MPF-dominated) justify ~+12%; risk and profit take it to +25-35% (retainer) or 1.5-2.0x (specialist).
-- "No holidays" applies only to day-rate billing, via the /220 divisor - never double-count it on a retainer.
+- "No holidays" applies only to day-rate billing, via the /220 divisor - never double-count it on a retainer. For a 1 Sep 2026 start the divisor is derived, not assumed: 261 weekdays − 12 HK weekday holidays = 249, less leave and sick buffer = 220-227.
 - Prefer a monthly retainer with defined scope; keep the day rate as a fallback and don't volunteer it.
 - The real legal risk is HK worker classification - defend it with a proper SOW.
 
