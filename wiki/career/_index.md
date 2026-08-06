@@ -54,6 +54,7 @@ tags: [career]
 - [[objective-interview-preparation]] — Prepare for what the role requires, not what you find interesting; validate requirements and prepare the edges
 - [[interview-fearlessness-self-doubt-as-self-sabotage]] — Self-doubt is contagious; back yourself, close the deal, and recognise relief at failure as fear
 - [[independent-consulting-pricing]] — How to price independent consulting work in HK: total-cash benchmark, premium justification stack, retainer vs day-rate, classification rules
+- [[hk-architecture-salary-benchmarks]] — HK employee salary bands for EA and senior tech-leadership roles. **Sources conflict:** three of four cluster at HK$1.3-1.44M for director grade; Robert Half's EA P75 (HK$2.16M) is a likely-inflated outlier, and the commonly-quoted "Head of EA 1.8-2.2M" band is unevidenced
 
 ## Career-relevant articles across the wiki
 

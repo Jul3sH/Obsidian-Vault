@@ -16,6 +16,8 @@ created: 2026-06-17
 >
 > *My base salary at Telstra was HK$1.85M (~US$240k). If I add 25%, we're looking at around HK$2.4M (~US$300k)."*
 
+> ⚠ **Provenance caveat on the two bands quoted above.** The HK$1.5m-1.8m and HK$1.8m-2.2m figures come from a Perplexity search (6 Aug 2026), not from a verified salary guide. The HK$1.8m-2.2m "Head of EA" band in particular rests on an **unevidenced step-up** above the Head-of-IT data cited in the same research. See [[hk-architecture-salary-benchmarks]] before quoting either band to a counterparty.
+
 ## Telstra Final Salary
 
 The starting benchmark - Julian's verified final Telstra compensation, cumulative row by row. Source: [[last-salary]].
@@ -39,6 +41,35 @@ Same figures expressed as a day rate, divided across two billable-days assumptio
 | 3) + Bonus | 9,754 | 1,251 | 9,885 | 1,267 |
 
 *Same 7.80 HKD/USD assumption as above. A lower divisor (224) produces a higher day rate for the same annual figure - this is the mechanic, not a recommendation of which to use.*
+
+## The consulting ask - three anchors, all +25%
+
+The same 25% premium applied to three different starting points. **Which starting point is chosen is worth more than the premium itself.**
+
+| Anchor | Annual HK$ | Monthly HK$ | Annual US$ | Monthly US$ |
+|---|---|---|---|---|
+| Base only | 2,336,594 | 194,716 | 299,563 | 24,964 |
+| **Base + voluntary pension** | **2,501,021** | **208,418** | **320,644** | **26,720** |
+| Base + pension + bonus (total cash) | 2,767,716 | 230,643 | 354,835 | 29,570 |
+
+**Base + voluntary pension is the correct anchor**, because it is what the spoken principle below actually says: *"my last base salary, **including the pension contribution my employer made**, plus 25%."* Anchoring on base alone drops that clause and costs **HK$164,428 (US$21,080) a year**.
+
+**Why base-only is not a consulting price at all.** 25% of base is HK$467,319. Replacement costs alone consume it:
+
+| Item | HK$ |
+|---|---|
+| Bonus forgone | 213,356 |
+| Voluntary MPF forgone | 131,542 |
+| Mandatory MPF now self-funded | 18,000 |
+| Medical insurance (family) | 40,000 |
+| Life insurance | 20,000 |
+| **Subtotal** | **422,898** |
+| Remaining for business overhead, risk, profit | 44,421 |
+| ...after ~40k overhead | **4,421 (0.2%)** |
+
+At the base-only anchor there is **no margin** for absent severance, absent notice, utilisation risk, or profit. It is a break-even employee-equivalent, not a consulting rate.
+
+> **Market context:** for how these figures sit against HK employee salary bands, see [[hk-architecture-salary-benchmarks]]. Note the published sources conflict materially, and employee bands are in any case the wrong comparator for a supplier fee.
 
 ## The benchmark: employee-equivalent total cash
 
