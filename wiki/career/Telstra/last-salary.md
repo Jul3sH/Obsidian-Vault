@@ -1,6 +1,6 @@
 ---
 type: reference
-tags: [career, cv, salary]
+tags: [career, telstra, salary]
 status: verified
 created: 2026-06-16
 ---
@@ -70,4 +70,4 @@ So `131,542` is the best **payslip-derived** estimate, **not** a rule-based figu
 
 ## Related
 - [[../CLSA/clsa-salary-strategy|CLSA Salary Strategy]] - the live negotiation using these figures
-- [[master-resume]] - employment dates and history
+- [[master-resume|Master Resume]] - employment dates and history

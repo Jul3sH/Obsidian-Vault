@@ -74,7 +74,7 @@ Julian raised dropping the ask to **HK$140k** because he is anxious to secure wo
 | **Julian's last Telstra salary (basic)** | **155,772.98** | **Verified - from payslip.** This is the figure he will disclose as current/last salary. |
 | Julian's Telstra employer voluntary MPF | 10,961.84 | From payslip. On top of basic (total effective ~166,735/month before mandatory MPF). |
 
-### Annual (verified - see [[../cv/last-salary]] for full breakdown)
+### Annual (verified - see [[last-salary]] for full breakdown)
 
 | Figure | Amount (HKD/year) | Notes |
 |--------|------------------|-------|
@@ -83,7 +83,7 @@ Julian raised dropping the ask to **HK$140k** because he is anxious to secure wo
 | **Bonus** | **213,356** | Last tax form. Julian was on a **12.5% target bonus**. |
 | **Total cash comp** | **~2,082,631** | Final-rate base + bonus. |
 
-> Use the **payslip 155,772.98/month** (annualised 1,869,275) as the "current salary" figure. The tax-form base (1,842,858) understates it because the Jul 2024 raise didn't apply for the full year. Employer voluntary MPF (~131k/year) is **optional to disclose** - for CLSA, likely omit it since the salary is already above HR's band. Canonical figures live in [[../cv/last-salary]].
+> Use the **payslip 155,772.98/month** (annualised 1,869,275) as the "current salary" figure. The tax-form base (1,842,858) understates it because the Jul 2024 raise didn't apply for the full year. Employer voluntary MPF (~131k/year) is **optional to disclose** - for CLSA, likely omit it since the salary is already above HR's band. Canonical figures live in [[last-salary]].
 
 ### Intel (per Rob, 16 Jun - approximate)
 

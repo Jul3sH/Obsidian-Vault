@@ -8,6 +8,30 @@ created: 2026-06-17
 
 > How to price independent consulting work as a Hong Kong-based solo operator. Reusable across any engagement, not TTI-specific. Live benchmark figures come from [[last-salary]]; the current live application is the [[tti-engagement-strategy|TTI engagement]].
 
+## Telstra Final Salary
+
+The starting benchmark - Julian's verified final Telstra compensation, cumulative row by row. Source: [[last-salary]].
+
+| | Annual HK$ | Monthly HK$ | Annual US$ | Monthly US$ |
+|---|---|---|---|---|
+| 1) Base | 1,869,275 | 155,772.98 | 239,651 | 19,971 |
+| 2) + Voluntary pension | 2,000,817 | 166,734.82 | 256,515 | 21,376 |
+| 3) + Bonus | 2,214,173 | 184,514.49 | 283,868 | 23,656 |
+
+*USD figures use 7.80 HKD/USD (mid-point of the official 7.75-7.85 peg band) - not a specific spot rate. Bonus is only recorded annually in the source (last tax form, 12.5% target); the monthly bonus column is an even annual/12 split, not a paid monthly amount.*
+
+## Telstra Final Salary - Daily Rate
+
+Same figures expressed as a day rate, divided across two billable-days assumptions (see the worked billable-days calculation below for how these divisors are derived).
+
+| | 227 days HK$ | 227 days US$ | 224 days HK$ | 224 days US$ |
+|---|---|---|---|---|
+| 1) Base | 8,235 | 1,056 | 8,345 | 1,070 |
+| 2) + Voluntary pension | 8,814 | 1,130 | 8,932 | 1,145 |
+| 3) + Bonus | 9,754 | 1,251 | 9,885 | 1,267 |
+
+*Same 7.80 HKD/USD assumption as above. A lower divisor (224) produces a higher day rate for the same annual figure - this is the mechanic, not a recommendation of which to use.*
+
 ## The benchmark: employee-equivalent total cash
 
 - Anchor the premium on **total cash compensation** (base + target bonus), not base alone and not the benefits-inclusive package.

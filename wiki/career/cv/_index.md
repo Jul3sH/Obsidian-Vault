@@ -15,7 +15,6 @@ tags: [career, cv]
 
 ## Documents
 - [[master-resume|Master Resume]] - the single source of truth for all tailoring
-- [[last-salary|Last Salary]] - verified Telstra compensation figures; the canonical "current/last salary" to disclose to employers
 
 ## Tailored versions (by opportunity)
 - [[../../deliverables/clsa-head-network-services|CLSA — Head of Network Services]] (in progress)

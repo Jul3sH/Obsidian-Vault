@@ -31,6 +31,9 @@ tags: [career]
 ## CV / Resume
 - [[cv/_index|CV / Resume]] — Canonical master resume (single source of truth) and tailored per-application versions
 
+## Telstra
+- [[Telstra/_index|Telstra]] — Employment record for Julian's last role (Jul 2020 - Jul 2025), including verified last-salary figures
+
 ## GenAI Solution Architect (superseded as primary)
 - [[forward-deployment-engineer/_index|GenAI Solution Architect]] — HK-era AI-led positioning track. **Demoted 2026-07-08:** AI is now a differentiator, not the primary target. Retained as reference. See [[target-role-profile]] for current positioning.
 
