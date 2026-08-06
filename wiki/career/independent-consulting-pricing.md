@@ -12,6 +12,10 @@ created: 2026-06-17
 
 > *"For a Principal Enterprise Architect role with enterprise-wide architecture ownership, I would be looking for a base in the HK$1.5m-1.8m range. For a Head of Enterprise Architecture mandate with team and governance accountability, I would expect HK$1.8m-2.2m base, with the final package reflecting bonus, pension, and benefits."*
 
+> *"Assuming that as a consultant I won't be getting benefits such as a bonus, pension, and life and health insurance, a typical approach is to take my base salary and add 25%.*
+>
+> *My base salary at Telstra was HK$1.85M (~US$240k). If I add 25%, we're looking at around HK$2.4M (~US$300k)."*
+
 ## Telstra Final Salary
 
 The starting benchmark - Julian's verified final Telstra compensation, cumulative row by row. Source: [[last-salary]].
