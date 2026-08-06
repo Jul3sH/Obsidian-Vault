@@ -8,6 +8,10 @@ created: 2026-06-17
 
 > How to price independent consulting work as a Hong Kong-based solo operator. Reusable across any engagement, not TTI-specific. Live benchmark figures come from [[last-salary]]; the current live application is the [[tti-engagement-strategy|TTI engagement]].
 
+## Executive Summary
+
+> *"For a Principal Enterprise Architect role with enterprise-wide architecture ownership, I would be looking for a base in the HK$1.5m-1.8m range. For a Head of Enterprise Architecture mandate with team and governance accountability, I would expect HK$1.8m-2.2m base, with the final package reflecting bonus, pension, and benefits."*
+
 ## Telstra Final Salary
 
 The starting benchmark - Julian's verified final Telstra compensation, cumulative row by row. Source: [[last-salary]].
