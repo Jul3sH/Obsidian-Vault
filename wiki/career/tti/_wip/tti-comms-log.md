@@ -192,7 +192,33 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 6 Aug - STRONGEST SIGNAL YET: Ty asking for comp expectations (6 or 12 months consulting); Stephan raising again at dinner tonight
+
+> **Reply to the 5 Aug message below.** Stephan confirmed he'd talk to Ty "today/tomorrow." On 6 Aug he reported back that **Ty wants a feel for comp expectations for 6 or 12 months consulting** - the first time a number/structure question has come from Ty himself, not just a warm description. A mix-up over which channel Ty would use (Stephan assumed Ty and Julian had already spoken on WhatsApp - that was actually the Zoom call, Kari was the WhatsApp contact) delayed nothing materially; Stephan is now raising it with Ty again in person at dinner tonight.
+
+**What happened (WhatsApp, 5-6 Aug):**
+- **Stephan (5 Aug, 7:56am):** *"I am talking with Ty today/tomorrow"*
+- **Julian (5 Aug, 7:58am):** *"Thanks Stephan, I appreciate it's probably a very busy week for you."*
+- **Stephan (6 Aug, 9:30am):** *"Ty mentioned that he would reach out to get a feeling of what comp you would expect assuming 6 or 12 months consulting"*
+- **Julian (6 Aug, 9:38am):** *"Ok thanks Stephan. Is that likely to be today and does he have my WhatsApp?"*
+- **Stephan (9:38-9:39am):** *"I think he does. I thought you spoke with him already via WhatsApp. A few weeks ago"*
+- **Julian (9:39am):** *"Nope it was on zoom I think. I spoke to Kari on Whatsapp"*
+- **Stephan (9:45am):** *"I will ask him"*
+- **Julian (12:33pm):** *"Ok he has my number, he called me, just not on WhatsApp"*
+- **Stephan (12:33pm):** *"I will talk with him at dinner"*
+
+**Strategic read:**
+- **First concrete ask from Ty himself, and it's about terms.** Comp-for-6-or-12-months is structure, not sentiment - a step past every prior "sounds good," "on the list," "let me revert" reply logged on this channel. Matches the 6/12-month framing already live from the Kari call (24 Jul, 12 months proposed) and the original Stephan lunch (23 Jun, 6+6).
+- **Open task: no comp figure exists yet.** Nothing has been prepared for this on any channel. This is now the most time-sensitive item in the whole log - Ty could reach out directly (he has the number) before a number is ready.
+- Channel confusion resolved without friction; Stephan is handling it face-to-face at dinner rather than leaving it to Ty's own initiative, which is a stronger form of the "raise it with him" ask than the 5 Aug message got.
+
+**NEXT:** prepare a comp figure/range for 6 vs 12 months before Ty makes contact - top priority. Watch for Ty reaching out directly. Log Stephan's dinner outcome here.
+
+---
+
 ## ✅ SENT 5 Aug - TO STEPHAN: the school-offer mechanic + one ask he can act on today (raise it with Ty before he flies)
+
+> *Reply received - see 6 Aug entry above.*
 
 > **Sent morning of 5 Aug UK.** Executes the decision logged 4 Aug: message Stephan Wed 5 Aug if nothing came back from Kari. Nothing did. Kari's "revert shortly" (Mon 3 Aug) and his committed 4 Aug HK catch-up with Stephan both passed with no word.
 

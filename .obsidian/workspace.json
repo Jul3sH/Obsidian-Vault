@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/deliverables/vanguard-outreach-go-no-go-report.md",
+                "file": "wiki/career/cv/last-salary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vanguard-outreach-go-no-go-report"
+              "title": "last-salary"
             }
           }
         ]
@@ -200,8 +200,13 @@
   },
   "active": "77651ffdb8077cf7",
   "lastOpenFiles": [
-    "wiki/deliverables/vanguard-outreach-go-no-go.md",
+    "wiki/career/independent-consulting-pricing.md",
+    "wiki/career/tti/_wip/tti-ty-call-simulation-2026-07-19.md",
+    "wiki/career/tti/_wip/tti-story-bank.md",
+    "wiki/career/tti/_wip/tti-cfo-brief.md",
+    "wiki/career/tti/_wip/tti-engagement-strategy.md",
     "wiki/deliverables/vanguard-outreach-go-no-go-report.md",
+    "wiki/deliverables/vanguard-outreach-go-no-go.md",
     "wiki/projects/cold-outreach-real-estate.md",
     "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
     "wiki/technology/sales-marketing-tech/hk-b2c-outreach-uemo-pdpo.md",
@@ -223,11 +228,6 @@
     "wiki/performance/decisions/uk-move/uk-relocation-benefits-register-2026-07-16.md",
     "wiki/performance/decisions/uk-move/_index.md",
     "wiki/performance/decisions/uk-move/London-risks.md",
-    "wiki/performance/decisions/uk-move/Malvern-risks.md",
-    "wiki/performance/decisions/uk-move/HK-risks.md",
-    "wiki/performance/decisions/uk-move/why-brained.md",
-    "wiki/performance/decisions/uk-move/uk-relocation-fable-consistency-review-2026-07-13.md",
-    "wiki/performance/decisions/uk-move/fable-review-unknowns.md",
     "wiki/ai-os/system-design/claude/commands",
     "wiki/ai-os/skills/memory-architect",
     "wiki/technology/Databases",
