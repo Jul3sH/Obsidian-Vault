@@ -1,93 +1,149 @@
 ---
 type: reference
 tags: [career, salary, hong-kong, benchmarks, architecture]
-status: partial - sources conflict
+status: verified sources only - see quarantine section
 created: 2026-08-06
+verified: 2026-08-06
 ---
 
 # Hong Kong Architecture Salary Benchmarks
 
-> Market **base-salary** bands for enterprise-architecture and senior technology-leadership roles in Hong Kong. Employee salaries only. Feeds [[independent-consulting-pricing]], where a consulting premium is applied on top, and the live [[tti-engagement-strategy|TTI engagement]].
->
-> **Read the "Sources conflict" section before quoting any figure.** The published sources disagree materially, and the most commonly cited target band rests on an unevidenced step-up.
+> Market salary bands for enterprise-architecture and senior technology roles in Hong Kong. Feeds [[independent-consulting-pricing]], where a consulting premium is applied on top, and the live [[tti-engagement-strategy|TTI engagement]].
+
+> **Sourcing standard applied here:** every figure in the tables below was retrieved from its primary source directly on 6 Aug 2026, not relayed by an AI search tool. Claims that could not be traced to a primary source are quarantined in §5 and must not be quoted as market data.
 
 ---
 
-## The headline bands (as researched)
+## 1. Randstad HK 2025 Job Market Outlook & Salary Guide
 
-From a Perplexity search (6 Aug 2026). **These are the bands Julian was preparing to quote. They are reproduced here as researched, not as verified.**
+Extracted directly from the published PDF. **Figures are HKD, basic monthly salary, excluding AWS and fixed/variable bonus.** Columns are the guide's own `low / middle / high`.
 
-| Role | Annual base HK$ | Monthly base HK$ | Suggested target for a strong candidate |
+### Permanent - technology (p51)
+| Role | Low | Middle | High | High, annualised |
+|---|---|---|---|---|
+| CIO / CTO / COO / CDO | 150,000 | 180,000 | 220,000 | HK$2.64M |
+| IT director / head of IT | 75,000 | 90,000 | 120,000 | HK$1.44M |
+| **enterprise architect** | **50,000** | **70,000** | **120,000** | **HK$1.44M** |
+
+### Permanent - information technology, financial services (p52)
+| Role | Low | Middle | High | High, annualised |
+|---|---|---|---|---|
+| CIO / CTO / COO | 170,000 | 230,000 | 300,000 | HK$3.60M |
+| IT director / head of IT | 80,000 | 110,000 | 150,000 | HK$1.80M |
+| software - solutions / technical architect | 65,000 | 90,000 | 150,000 | HK$1.80M |
+| cybersecurity architect | 65,000 | 75,000 | 100,000 | HK$1.20M |
+
+*No "enterprise architect" row in the FS permanent table.*
+
+### Contracting - information technology (p57)
+| Role | Low | Middle | High | High, annualised |
+|---|---|---|---|---|
+| CIO / CTO / COO / CDO | 120,500 | 165,000 | 220,000 | HK$2.64M |
+| IT director / head of IT | 82,500 | 99,000 | 130,000 | HK$1.56M |
+| **enterprise architect** | **65,000** | **75,000** | **120,000** | **HK$1.44M** |
+| software architect / solution architect | 55,000 | 78,000 | 110,000 | HK$1.32M |
+
+### Contracting - information technology, finance (p58)
+| Role | Low | Middle | High | High, annualised |
+|---|---|---|---|---|
+| CIO / CTO / COO | 110,000 | 192,500 | 330,000 | HK$3.96M |
+| IT director / head of IT | 82,500 | 110,000 | 154,000 | HK$1.85M |
+
+**Source:** [Randstad Hong Kong SAR 2025 Job Market Outlook & Salary Guide (PDF)](https://www.randstad.com.hk/s3fs-media/hk/public/2025-01/Randstad-Hong-Kong-SAR-2025-Job-Market-Outlook-Salary-Guide.pdf), published January 2025. **~19 months old as of Aug 2026.**
+
+---
+
+## 2. Robert Half HK Salary Guide 2026
+
+| Role | P25 | P50 | P75 |
 |---|---|---|---|
-| Principal Enterprise Architect | 1.2M - 1.8M | 100k - 150k | 1.5M - 1.7M |
-| Head of Enterprise Architecture | 1.5M - 2.4M+ | 125k - 200k+ | 1.8M - 2.2M, plus bonus/LTI |
+| Enterprise Architect | HK$1,000,000 | HK$1,500,000 | HK$2,160,000 |
 
-Title calibration varies sharply by employer, particularly between financial services and non-regulated corporates. Treat as market bands, not fixed grades.
+**Annual gross. The guide states these exclude bonuses, benefits and MPF** - so they are directly comparable to a base salary figure.
 
----
-
-## Sources, annualised for comparison
-
-| Source | Role | Annual HK$ | Notes |
-|---|---|---|---|
-| **Robert Half HK Salary Guide 2026** | Enterprise Architect | **P25 1.00M / P50 1.50M / P75 2.16M** | Also load-bearing in [[uk-vs-hk-earning-comparison]]; the highest of all sources |
-| **Randstad HK 2025 Job Market Outlook** | IT Director / Head of IT | **900k - 1.44M** (75k-120k/mo) | |
-| **Morgan McKinley HK** | IT Director | **840k - 1.32M** (70k-110k/mo) | |
-| Live job advertisement | Lead Architect / Associate Director, enterprise information architecture | **1.35M** + 25k bonus, pension, family healthcare | Single real posting; a datapoint, not a band |
-| Indeed HK | "Principal Enterprise Architect" average | 985,934 | **Low confidence** - sparse sample, self-flagged as unreliable in the source research |
-
-**Links:** [Robert Half HK](https://www.roberthalf.com/hk/en/job-details/enterprise-architect/hong-kong) · [Randstad HK 2025 Salary Guide (PDF)](https://www.randstad.com.hk/s3fs-media/hk/public/2025-01/Randstad-Hong-Kong-SAR-2025-Job-Market-Outlook-Salary-Guide.pdf) · [Indeed HK](https://hk.indeed.com/career/salaries/Principal%20Enterprise%20Architect/Hong%20Kong)
+**Source:** [Robert Half HK - Enterprise Architect](https://www.roberthalf.com/hk/en/job-details/enterprise-architect/hong-kong), retrieved 6 Aug 2026.
 
 ---
 
-## Sources conflict - read before quoting
+## 3. The two sources disagree by 50%
 
-**1. The "Head of EA 1.8M-2.2M" target is an unevidenced step-up.** The research cites Randstad Head of IT at a HK$1.44M ceiling and Morgan McKinley IT Director at HK$1.32M, then recommends positioning Head of EA at HK$1.5M-2.16M. That is **+4% to +50% above the Head-of-IT band it just cited**, with no evidence offered for the uplift. No dedicated "Head of EA" salary series was found in any source.
+| | Monthly equivalent | Annual |
+|---|---|---|
+| Randstad EA, high | HK$120,000 | HK$1.44M |
+| Robert Half EA, P75 | HK$180,000 | HK$2.16M |
 
-**2. Robert Half is the outlier and is probably inflated.** Its EA P75 of HK$2.16M sits **50% above the top of the Randstad Head-of-IT band**. An individual-contributor architect out-earning the head of the entire function by half, across a whole market, is implausible. Two likely causes:
-- **Recruiter inflation.** [[uk-vs-hk-earning-comparison]] documents exactly this on the UK side: £150k reads as P75 on Robert Half but **P90 on ITJobsWatch** job-board data. If HK carries the same skew, the true P75 is well below HK$2.16M.
-- **Sector mix.** Recruiter guides for HK skew to financial services. Banks and insurers pay materially above non-regulated corporates.
+Robert Half's upper figure is **1.5x** Randstad's. Both are recruiter-published, both claim to cover the same market and the same title. This is a sample and methodology difference, not a market fact, and it is not resolvable from the published material.
 
-**3. Three of four sources cluster low.** Randstad (1.44M), Morgan McKinley (1.32M) and the live advertisement (1.35M) all land in a tight HK$1.3M-1.44M range for director-grade technology roles. Only Robert Half disagrees.
+**Known inflation pattern:** [[uk-vs-hk-earning-comparison]] documents the same effect on the UK side, where £150k reads as P75 on Robert Half but **P90 on ITJobsWatch** job-board data. Recruiter guides skew high. Robert Half is also likely finance-services weighted; Randstad publishes FS separately, which suggests its general table is genuinely non-FS.
 
 ---
 
-## Where Julian sits against these
+## 4. Analysis: the "high" column is a rounded ceiling, not a percentile
 
-Base of **HK$1,869,275** ([[last-salary]]):
+*This section is analysis of the source data, not source data.*
+
+The value `120,000` appears as the high for **enterprise architect, IT director and head of IT** alike. `220,000` appears as the high for CIO/CTO in both the permanent and contracting tables. These are bucket boundaries, not measured upper quartiles.
+
+**Consequence:** the band cannot distinguish "top of market" from "anything above this figure." A candidate priced above HK$120,000/month is not demonstrably out of market; they are off the top of a coarse scale. Any statement of the form "X is 1.6x the top of the band" is measuring against an artifact and overstates the case.
+
+**A tested hypothesis, rejected:** agency overhead was proposed as the reason contracting rates look low. The data does not support it - contracting sits *at or above* permanent for every comparable role (IT director high: 130,000 contracting vs 120,000 permanent), which is the expected direction given contractors carry no benefits or security. Agency margin exists but is not visibly depressing these bands.
+
+---
+
+## 5. Quarantine - unverified claims, do not quote
+
+These came from a Perplexity search (6 Aug 2026) and **could not be traced to a primary source**. Recorded so the provenance is not lost, and because Julian was preparing to quote the first one to a counterparty.
+
+| Claim | Status |
+|---|---|
+| **"Head of Enterprise Architecture = HK$1.8M-2.2M base"** | **No primary source exists.** The search itself conceded no dedicated Head-of-EA salary series is available, then produced a band anyway, sitting **+4% to +50% above the Head-of-IT data cited in the same search**, with no evidence for the step-up. This is an AI inference, not market data. |
+| "Principal Enterprise Architect = HK$1.2M-1.8M" | Same origin, same problem. No primary source located. |
+| Morgan McKinley, IT Director HK$70k-110k/month | Not verified. Plausible and consistent with Randstad, but not retrieved from source. |
+| Indeed HK, "Principal Enterprise Architect" average HK$985,934 | Not verified. Self-flagged as a sparse sample in the source research. Low confidence; not usable. |
+
+**The search also materially under-reported Randstad**, citing only its IT Director line while missing the enterprise-architect rows and both contracting tables entirely - the tables most relevant to a consulting engagement.
+
+---
+
+## 6. Where Julian sits
+
+Base **HK$1,869,275/year = HK$155,773/month** ([[last-salary]]):
 
 | Comparison | Position |
 |---|---|
-| vs Randstad Head-of-IT ceiling (1.44M) | **1.30x - above the band** |
-| vs Morgan McKinley IT Director ceiling (1.32M) | **1.42x - above the band** |
-| vs live Associate Director EA ad (1.35M) | **1.38x - above** |
-| vs Robert Half EA P75 (2.16M) | 0.87x - below P75 (~P70) |
+| vs Randstad EA high (120,000/mo) | 1.30x - above the ceiling, but see §4 |
+| vs Randstad IT director / head of IT high, general (120,000/mo) | 1.30x |
+| vs Randstad IT director / head of IT high, FS (150,000/mo) | 1.04x |
+| vs Randstad CIO / CTO high, general (220,000/mo) | 0.71x |
+| vs Robert Half EA P75 (180,000/mo) | 0.87x - below P75 |
 
-**Implication:** his last base was set in a **provider/telco landscape** (Telstra), which pays above end-user corporates. Against HK corporate IT-leadership bands he is already at or above the ceiling. This supports caution about how an internal finance stakeholder would read a high ask, and is the evidence behind his own instinct that *"they are never as high as they are in a provider landscape."*
+His base was set in a **telco/provider** landscape (Telstra), which pays above end-user corporates. TTI is a manufacturer.
 
 ---
 
-## What is missing (the load-bearing gaps)
+## 7. What is still unknown
 
-- **No consultancy / professional-services firm rates.** For a *consulting* engagement, the governing comparator is what a firm would charge for the same person, not what an employee earns. A Big 4 or Accenture principal in HK bills at a large multiple of these bands. This benchmark is absent from the wiki and from the source research, and it is arguably the *correct* one for [[independent-consulting-pricing]].
-- **No manufacturing / consumer-products sector band.** All sources are generalist or FS-weighted. TTI is a manufacturer, so the applicable internal band is unknown.
-- **No TTI-internal comparator.** What TTI's own directors earn is unknown and would be the most decisive figure of all.
+- **TTI's own internal band.** The only figure that would actually settle a pricing decision. Not obtainable from any published guide.
+- **Manufacturing / consumer-products sector bands for HK.** All published sources are generalist or FS-weighted.
+- **Professional-services firm rates.** What a consultancy would charge for an equivalent principal. Largely not public, and arguably not the right comparator for an individual contracting directly.
+- **A 2026 Randstad guide**, if one exists. The 2025 edition is ~19 months stale.
 
 ---
 
 ## Key Takeaways
 
-- **Do not quote the HK$1.8M-2.2M "Head of EA" band as sourced.** It rests on an unevidenced step-up above the Head-of-IT data in the same research.
-- **Three of four sources put HK director-grade technology roles at HK$1.3M-1.44M.** Robert Half's EA P75 of HK$2.16M is a 50%-higher outlier, likely recruiter-inflated and FS-weighted.
-- **Julian's HK$1.87M base is above the HK corporate IT-leadership ceiling**, because it was set at a telco/provider. It is below Robert Half's EA P75.
-- **Employee bands are the wrong comparator for a consulting fee.** The right one - what a professional-services firm would charge - is missing and should be sourced before a rate conversation.
-- Bands are base only. Bonus, pension and benefits sit on top and materially change total package.
+- **Never quote the HK$1.8M-2.2M "Head of EA" band.** It has no primary source and sits above the director-level data in the same research.
+- **The two verified sources disagree by 50%** (Randstad EA high HK$1.44M vs Robert Half EA P75 HK$2.16M). The uncertainty is real and not resolvable from published data.
+- **The "high" column is a rounded bucket ceiling, not a percentile.** Do not treat exceeding it as evidence of being out of market.
+- **Agency overhead was tested as an explanation for low contracting rates and rejected** - contracting sits at or above permanent throughout.
+- **Julian's HK$1.87M base is ~1.30x the Randstad EA/IT-director ceiling** and ~0.87x Robert Half's EA P75, i.e. above one source's top and below the other's upper quartile.
+- Employee bands are the wrong comparator for a supplier fee, and the right one is unavailable. **A pricing decision here is a judgement under irreducible uncertainty, not a data-lookup.**
 
 ---
 
 ## Related
-- [[independent-consulting-pricing]] - applies a premium on top of these employee bands to reach a consulting rate
-- [[last-salary]] - Julian's verified Telstra figures, the personal anchor
-- [[uk-vs-hk-earning-comparison]] - holds the same Robert Half HK band and documents the recruiter-inflation pattern
+- [[independent-consulting-pricing]] - applies a premium on top of these bands
+- [[last-salary]] - Julian's verified Telstra figures
+- [[uk-vs-hk-earning-comparison]] - documents the recruiter-inflation pattern
 - [[tti-engagement-strategy]] - the live engagement this feeds
-- [[target-role-profile]] - canonical positioning, which titles to benchmark against
+- [[target-role-profile]] - which titles to benchmark against
