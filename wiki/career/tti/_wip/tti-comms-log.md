@@ -212,7 +212,27 @@ renamed: 2026-07-17
 - **Open task: no comp figure exists yet.** Nothing has been prepared for this on any channel. This is now the most time-sensitive item in the whole log - Ty could reach out directly (he has the number) before a number is ready.
 - Channel confusion resolved without friction; Stephan is handling it face-to-face at dinner rather than leaving it to Ty's own initiative, which is a stronger form of the "raise it with him" ask than the 5 Aug message got.
 
-**NEXT:** prepare a comp figure/range for 6 vs 12 months before Ty makes contact - top priority. Watch for Ty reaching out directly. Log Stephan's dinner outcome here.
+**NEXT:** ✅ figure decided same day - see below. Watch for Ty reaching out directly. Log Stephan's dinner outcome here.
+
+### ✅ RATE DECIDED 6 Aug - US$320,644/yr (HK$2.50M), 12 months; US$27,981/mo for 6 months
+
+**The number:** HK$208,418/month (US$26,720) for 12 months. **HK$218,252/month (US$27,981) for 6 months** - the annual fixed costs (medical, life, company admin, mandatory MPF = HK$118,000) do not halve over a shorter term.
+
+**Basis: full cost recovery, no risk or profit loading.** Last base + employer voluntary pension, +25%. Derivation and the two rejected alternatives are in [[independent-consulting-pricing]] §DECIDED.
+
+**Why this and not more.** Julian's call, stated explicitly: *"It's more defensible (especially when Tony is consulted as he may well be) and I need this to happen."* Closing outranks maximising. The defence is a sentence needing no market data: **this is what I cost my last employer, and I now carry my own severance, notice and cover.** HK$2.50M is 1.10x his own fully-loaded Telstra cost (HK$2.28M).
+
+**Accepted trade-offs, recorded so they are not re-litigated:**
+- 0.2% contingency (HK$4,421). No cover for early termination or the gap to the next engagement.
+- Two cost inputs (medical HK$40k, life HK$20k) are still unpriced estimates; if either is wrong the contingency is gone.
+- The figure is a ceiling, not a floor - expect to be negotiated down from it.
+- An [[llm-council]] run the same day recommended US$360k (cost + risk loading) and was **considered and declined**.
+
+**⚠ Framing risk carried into the conversation.** At HK$2.50M he is **0.95x** the Randstad contracting CIO/CTO ceiling but **1.38x** a fully-loaded HK IT director. Which multiple gets applied depends entirely on how the role is described - and **Stephan repeats Julian's own words verbatim to Ty**. Anchor on *establishing architecture and governance across Asia*, never on "enterprise architect" as a title or "IT support". Benchmarks: [[hk-architecture-salary-benchmarks]].
+
+**Two asks the council raised that are NOT yet actioned and are separate from the rate:**
+1. **A decision date tied to the school placement**, delivered to **Ty directly in writing** - not via Stephan. All four prior slipped commitments were routed through intermediaries.
+2. **The right-to-work question.** Whether a consulting contract preserves Julian's right to live and work in HK is **unverified**. If it does not, the rate is irrelevant. Nothing in the vault confirms his post-Telstra status.
 
 ---
 

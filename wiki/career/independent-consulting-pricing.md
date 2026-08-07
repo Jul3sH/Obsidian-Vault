@@ -8,6 +8,29 @@ created: 2026-06-17
 
 > How to price independent consulting work as a Hong Kong-based solo operator. Reusable across any engagement, not TTI-specific. Live benchmark figures come from [[last-salary]]; the current live application is the [[tti-engagement-strategy|TTI engagement]].
 
+## ✅ DECIDED 6 Aug 2026 - the TTI number
+
+**HK$2,501,021/year (US$320,644) = HK$208,418/month (US$26,720) for a 12-month engagement.**
+**HK$218,252/month (US$27,981) for a 6-month engagement** - annual fixed costs (medical, life, company admin, mandatory MPF = HK$118,000) do not halve over six months, so HK$59,000 must be recovered over 6 months rather than 12, adding HK$9,833/month.
+
+**Basis: full cost recovery, no risk or profit loading.** Last base + employer voluntary pension, plus 25%. The 25% funds the forgone bonus, the forgone employer pension, self-funded mandatory MPF, family medical, life cover and company admin - which together come to **24.76% of base**, leaving HK$4,421 (0.2%).
+
+**Why this basis over a higher one (Julian's decision, 6 Aug):** it is the most defensible number if Tony Chung (SVP Finance APAC, documented probable detractor) is consulted, and closing the deal outranks maximising the rate. *"This is what I cost my last employer, and I now carry my own severance, notice and cover"* survives a finance review in a way a market-multiple argument does not. **Accepted trade-off:** no contingency for early termination or the gap to the next engagement, and the figure will be negotiated down from rather than up to. An [[llm-council]] session the same day recommended US$360k (cost + risk loading); this was considered and declined for the reasons above.
+
+**Sense-check against employer cost:** HK$2.50M is **1.10x Julian's own fully-loaded Telstra cost** (HK$2.28M) and **0.95x** the Randstad contracting CIO/CTO ceiling, but **1.38x** a fully-loaded HK IT director at the top of band. The framing therefore decides which multiple gets applied - see [[hk-architecture-salary-benchmarks]].
+
+### The three options considered (kept for comparison)
+
+| Option | Basis | Annual HK$ | Annual US$ | Monthly HK$ | Verdict |
+|---|---|---|---|---|---|
+| **Original cost model** | Base + 25% | 2,336,594 | 299,563 | 194,716 | Rejected - under-recovers the employer pension by US$21,080/yr. Round in USD, but the pension is a **cost lost, not a premium added**, so this sits *below* true cost recovery. |
+| **✅ DECIDED** | Base + employer pension + 25% | **2,501,021** | **320,644** | **208,418** | **Chosen.** Exact cost recovery, zero risk loading. Matches Julian's own June script verbatim, incl. the pension clause. |
+| Council recommendation | Total cash + risk loading | 2,808,000 | 360,000 | 234,000 | Declined - adds ~US$60k of risk/gap loading, but raises the fully-loaded comparison to 1.55x an IT director and weakens the Tony Chung defence. |
+
+**The gap between the original and the decided figure, decomposed:** pension clause +US$21,080. That is the whole difference; there is no premium in it.
+
+---
+
 ## Executive Summary
 
 > *"For a Principal Enterprise Architect role with enterprise-wide architecture ownership, I would be looking for a base in the HK$1.5m-1.8m range. For a Head of Enterprise Architecture mandate with team and governance accountability, I would expect HK$1.8m-2.2m base, with the final package reflecting bonus, pension, and benefits."*
