@@ -12,6 +12,9 @@ value-rationale:
 
 # TTI — Ty Proposal (12-month engagement)
 
+## Prompt Zero
+**Waived 2026-08-07** under the `size: 1` (1-4h) exception, on deadline grounds - Ty makes contact Mon 10 Aug and the interview would have consumed the drafting window. The brief was instead set by Julian in-flight through four rounds of correction on the draft, and the resulting decisions are locked at the top of [[tti-ty-engagement-proposal]]: no break clause, the 6-month option closed rather than offered, "I'll work on your initiatives within the context of enterprise architecture" as the organising message, and no anchoring above HK$2.5M. Recorded rather than silent, per the AGENTS.md gate.
+
 ## Task Description
 Write the proposal Julian takes Ty Staviski through on Monday 10 Aug: what he would do, the scope, a 12-month structure whose first month is a discovery audit that sets the scope for months 2-12, and the compensation figure.
 
