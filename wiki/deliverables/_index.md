@@ -40,6 +40,12 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 - [[../projects/cold-outreach-real-estate|Cold Outreach — Real Estate]]
 - [[../projects/agile-claw-mvp|Agile Claw MVP]]
 
+## Standalone Deliverables
+
+| Deliverable | Workstream | Hours | Status |
+|-------------|-----------|-------|--------|
+| [[techtronic-covid-essay-ideas|Techtronic Covid Essay Ideas]] | Relationships | 2h | queued |
+
 ## BAU / Standalone
 
 Completed deliverables not linked to an active Project — ongoing reference artefacts, regenerated periodically rather than queued for delivery.

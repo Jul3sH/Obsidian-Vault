@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transcript of interview - CNBC Interview March  2024-en-US.md",
+                "file": "z Finn Report/Transcript of interview - CNBC Interview March  2024-en-US.md",
                 "mode": "source",
                 "source": false
               },
@@ -190,26 +190,12 @@
             }
           },
           {
-            "id": "5e688b01ec073193",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled"
-            }
-          },
-          {
             "id": "1da46a1f382401e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transcript of interview - CNBC Interview August 2023-en-US.md",
+                "file": "z Finn Report/Transcript of interview - CNBC Interview August 2023-en-US.md",
                 "mode": "source",
                 "source": false
               },
@@ -223,7 +209,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US.md",
+                "file": "z Finn Report/Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US.md",
                 "mode": "source",
                 "source": false
               },
@@ -232,26 +218,12 @@
             }
           },
           {
-            "id": "0f23fc2a68ee4d9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
             "id": "ef6782cc371b03c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Press release in 2020 - Global coronovirus situation.pdf.md",
+                "file": "z Finn Report/Press release in 2020 - Global coronovirus situation.pdf.md",
                 "mode": "source",
                 "source": false
               },
@@ -272,9 +244,23 @@
               "icon": "lucide-file",
               "title": "Home Depots Latest Quarter of"
             }
+          },
+          {
+            "id": "9789ac9f446e5c02",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "z Finn Report/Evolution of remote wrok essay idea.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Evolution of remote wrok essay idea"
+            }
           }
         ],
-        "currentTab": 18
+        "currentTab": 17
       }
     ],
     "direction": "vertical"
@@ -451,15 +437,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "9789ac9f446e5c02",
   "lastOpenFiles": [
-    "Press release in 2020 - Global coronovirus situation.pdf.md",
-    "z Finn Report/Home Depots Latest Quarter of.md",
+    "wiki/deliverables/techtronic-covid-essay-ideas.md",
     "Untitled 1.md",
-    "Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US.md",
-    "Transcript of interview - CNBC Interview August 2023-en-US.md",
     "Untitled.md",
-    "Transcript of interview - CNBC Interview March  2024-en-US.md",
+    "z Finn Report/Evolution of remote wrok essay idea.md",
+    "z Finn Report/Home Depots Latest Quarter of.md",
+    "z Finn Report/Press release in 2020 - Global coronovirus situation.pdf.md",
+    "z Finn Report/Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US.md",
+    "z Finn Report/Transcript of interview - CNBC Interview August 2023-en-US.md",
+    "z Finn Report/Transcript of interview - CNBC Interview March  2024-en-US.md",
     "z Finn Report/Transcript of interview - CNBC Interview March 2023-en-US.md",
     "z Finn Report/Transcript of interview - No excuses for TTI despite the pandemic CEO -  Aug 12 2021.md",
     "z Finn Report/Transcript of interview - TTI 2021 Annnual Results CNBC Interview-en-US.md",
@@ -480,9 +468,7 @@
     "wiki/career/hk-architecture-salary-benchmarks.md",
     "wiki/career/Telstra/_index.md",
     "wiki/career/Telstra/last-salary.md",
-    "wiki/career/cv/last-salary.md",
     "wiki/career/Telstra",
-    "wiki/career/tti/_wip/tti-ty-call-simulation-2026-07-19.md",
     "wiki/performance/systems-register.md.tmp.96457.6a57f9e20a1c",
     "wiki/ai-os/skills/prompt-zero",
     "wiki/ai-os/system-design/claude/commands",
