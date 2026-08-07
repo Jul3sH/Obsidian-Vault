@@ -17,6 +17,8 @@ created: 2026-06-17
 
 **Why this basis over a higher one (Julian's decision, 6 Aug):** it is the most defensible number if Tony Chung (SVP Finance APAC, documented probable detractor) is consulted, and closing the deal outranks maximising the rate. *"This is what I cost my last employer, and I now carry my own severance, notice and cover"* survives a finance review in a way a market-multiple argument does not. **Accepted trade-off:** no contingency for early termination or the gap to the next engagement, and the figure will be negotiated down from rather than up to. An [[llm-council]] session the same day recommended US$360k (cost + risk loading); this was considered and declined for the reasons above.
 
+**Reaffirmed 7 Aug, with a stronger reason: a high number buys delay, and delay is what kills this.** Julian's words: *"I do not want to blow out this opportunity. If it's too high he is going to start baseline activities that will cause even bigger delays."* A figure above cost recovery gives Ty a reason to commission benchmarking and baselining to justify it, and that runs for weeks against a live school deadline. The Tony Chung defence (6 Aug) is about surviving scrutiny; **this is about not triggering it in the first place**, and it is the operative reason. Anything in this file that reads as "anchor higher" is superseded - see Pricing posture.
+
 **Sense-check against employer cost:** HK$2.50M is **1.10x Julian's own fully-loaded Telstra cost** (HK$2.28M) and **0.95x** the Randstad contracting CIO/CTO ceiling, but **1.38x** a fully-loaded HK IT director at the top of band. The framing therefore decides which multiple gets applied - see [[hk-architecture-salary-benchmarks]].
 
 ### The three options considered (kept for comparison)
@@ -107,8 +109,8 @@ Lead the conversation with a principle, not a number pulled from the air. The cl
 > *"I take my last base salary, including the pension contribution my employer made, and add around 25% to cover the bonus I no longer earn, health and life insurance, and the MPF I now fund myself."*
 
 - Base (final run-rate) HK$1,869,275 + employer voluntary MPF HK$131,542 = HK$2,000,817. Add 25% = **~HK$2.5M/year (~HK$208k/month)**. See [[last-salary]].
-- **This is your floor logic, not your opening.** It is deliberately conservative (it starts from base, not total cash, and adds only 25%), which is exactly what makes it sound reasonable and unarguable in conversation.
-- **Do not let HK$2.5M become the anchor.** State the principle so the floor sounds fair, then anchor and settle higher (see bands below). The principle justifies the floor; it does not set the price.
+- **This is the number, not a floor to open above** (decided 6 Aug, reaffirmed 7 Aug). It is deliberately conservative - it starts from base, not total cash, and adds only 25% - which is exactly what makes it unarguable in conversation. That is the point of choosing it.
+- ~~Do not let HK$2.5M become the anchor; state the principle then anchor and settle higher.~~ **Superseded 7 Aug.** HK$2.5M *is* the anchor. See Pricing posture below for why speed outranks rate here. The principle justifies the floor; it does not set the price.
 
 ## What the premium pays for (the justification stack)
 
@@ -132,6 +134,12 @@ Two layers. Lead a negotiation with the hard costs - they are documentable.
 - Profit margin - it is a business, not a salary.
 
 ## The premium bands
+
+> **⚠ Reference only - NOT the TTI instruction.** These bands were the pre-decision
+> framework. For TTI the number is settled at HK$2.5M (see DECIDED at the top); the
+> "Anchor" and "Stretch" rows are **not** to be used on that engagement. Retained
+> because they remain valid for pricing a *future* engagement where speed is not the
+> binding constraint.
 
 | Position | Multiple on total cash | Use when |
 |----------|------------------------|----------|
@@ -190,6 +198,10 @@ A lower divisor raises the day rate. At target 1.35x on total cash HK$2,082,631 
 
 ## Worked example (current benchmark)
 
+> **⚠ Reference only - NOT the TTI instruction.** Same caveat as the bands above. The
+> TTI figure is HK$208,418/month (12 months) or HK$218,252/month (6 months), from the
+> DECIDED block at the top of this file. Nothing in the table below overrides it.
+
 On total cash HK$2,082,631:
 
 | Position | Retainer/month | 12-mo total | Day rate (~220 days) |
@@ -207,16 +219,24 @@ On total cash HK$2,082,631:
 
 ## Pricing posture
 
-- **Say the principle, anchor above it.** Lead with the base+vMPF+25% principle (~HK$2.5M) as floor *justification* - it sounds fair and is unarguable. Then open the negotiation at the anchor (1.5x on total cash, ~HK$3.12M) and expect to settle at target (~HK$2.81M).
-- **Floor: ~HK$2.5M** (the principle). Don't go below the number your own stated logic produces.
-- The principle is what you *say*; the bands are where you *aim*. Never let the conservative principle become the opening figure.
+> **⚠ Rewritten 7 Aug 2026 to match the DECIDED block at the top of this file.** The
+> previous version said "say the principle, anchor above it - open at 1.5x (~HK$3.12M)
+> and never let HK$2.5M become the opening figure." That instruction predates the 6 Aug
+> decision and **directly contradicted it.** It has been removed rather than softened,
+> because it was the kind of thing Julian would read under time pressure and act on.
+> Superseded text is preserved in the "premium bands" and "worked example" sections
+> below, which are now **comparison only, not instruction.**
+
+- **State HK$2.5M as the number, not as a floor to be negotiated up from.** The principle and the price are the same figure: *"I take my last base salary, including the pension contribution my employer made, and add around 25% to cover the bonus I no longer earn, health and life insurance, and the MPF I now fund myself."* Say it, and stop.
+- **Do not anchor high. Speed outranks rate on this engagement** (Julian, 7 Aug). A figure above cost recovery invites the counterparty to start benchmarking and baselining exercises to justify it - and those take weeks. With a live school deadline, a delay caused by a higher ask costs more than the extra money is worth. This is the operative reason, and it is stronger than the Tony Chung defence recorded on 6 Aug.
+- **Expect to be negotiated down from HK$2.5M, not up to it.** There is 0.2% contingency in the figure, so there is genuinely nothing to give. That is a defensible position to hold, but know that holding it is the job - the number has no built-in concession room.
 - Keep the fee **off** any leave-behind or briefing that travels to procurement or third parties - it anchors low and invites scrutiny. Disclose verbally or in the SOW.
 - "Nominal to the client" and "excellent for you" coexist at enterprise scale: a fee that is trivial on a large P&L can still be strong personal income.
 
 ## Key Takeaways
 
-- **Conversational principle (what you say): "last base + employer pension, plus 25%" = ~HK$2.5M/yr.** This is the floor logic, deliberately conservative so it's unarguable. Say it; don't let it become the anchor.
-- Anchor on total cash comp, not base and not the benefits-inclusive package.
+- **The TTI number is HK$2.5M/yr and it is the anchor, not a floor to open above** (decided 6 Aug, reaffirmed 7 Aug). Say the principle - *"last base + employer pension, plus 25%"* - and stop. **Speed outranks rate:** a higher ask invites benchmarking and baselining exercises that cost weeks against a live school deadline.
+- Analytically, the premium belongs on total cash comp rather than base or the benefits-inclusive package - but the TTI figure was deliberately set on the more conservative base+pension anchor, and that choice is settled.
 - Hard replacement costs (~HK$250k/yr, MPF-dominated) justify ~+12%; risk and profit take it to +25-35% (retainer) or 1.5-2.0x (specialist).
 - "No holidays" applies only to day-rate billing, via the /220 divisor - never double-count it on a retainer. For a 1 Sep 2026 start the divisor is derived, not assumed: 261 weekdays − 12 HK weekday holidays = 249, less leave and sick buffer = 220-227.
 - Prefer a monthly retainer with defined scope; keep the day rate as a fallback and don't volunteer it.
