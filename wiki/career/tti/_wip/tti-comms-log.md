@@ -23,6 +23,25 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 7 Aug - JUSTIN WALKED INTO STEPHAN'S OFFICE, AND THAT IS WHAT MOVED IT
+
+> **The proposal request came about an hour after Justin pushed Stephan in person.** Ty had already flown out of HK ("gone at lunchtime"), so the 5 Aug message did not produce a visible result on its own. Justin went into Stephan's office and made the case that Julian has a lot going on and needs to know where this stands. Stephan called Julian at ~08:00 UK. Justin had also already anchored the term at 12 months.
+
+**What happened (WhatsApp, 7 Aug, times UK):**
+- **Julian (05:23):** *"Clodagh is about to make life very complicated. After being sober for 5 days she's suggesting Sophia goes to school in ireland and expect a fight."*
+- **Julian (05:24):** *"..is Ty off this morning or evening?"*
+- **Justin (06:52):** *"Call Stephan after lunch, pin it down"* / *"State that Ty never called and you knew he was busy…"*
+- **Justin (06:53):** *"I will work on what your AI bot does later when I get home."* / *"Maybe you can show me how it all works when you are back as I want to overall materials for TTI"*
+- **Justin (08:20), after Stephan had called:** *"Glad things have moved forward, I told him 12 months and seemed to think is okay as he wrote 12 months, I said for something to be effective 12 is better."*
+
+**Strategic read:**
+- **The channel learning, and it is the important one: a person in the room outperformed a well-drafted message.** Four prior commitments have slipped, all routed through messages or intermediaries at a distance. The 5 Aug message was carefully built and did not visibly move it; Justin standing in Stephan's office did, within the hour. Weight in-person escalation accordingly on this channel for whatever comes after Monday.
+- **Justin anchored the term before Julian ever spoke.** *"I told him 12 months… I said for something to be effective 12 is better"* - and Stephan then wrote 12 months into his own brief. That aligns with what Kari sponsored unprompted on 24 Jul, so 12 months now has two independent internal advocates and reached Stephan in writing without Julian having to argue for it.
+- **Justin is also asking to be shown the AI tooling and wants to "overall materials for TTI."** Not urgent, but he is an active internal advocate volunteering more surface area. Worth a deliberate answer once Monday is done.
+- **Clodagh escalation logged here because Julian used it on the Stephan call.** Ireland schooling is a new development on top of the refused UK handover, and it is now doing real work in the TTI conversation as the reason the timeline cannot slip again.
+
+---
+
 ## ✅ 3 Aug - JUSTIN CHECK-IN: Stephan vague, no real clarity; IT "on the to-do list"; Clodagh now blocking the agreed Sophia handover
 
 > **Julian checked with Justin before messaging Kari directly, to confirm whether Stephan actually has clarity on where things stand.** Justin's answer confirms Stephan does NOT have real clarity: he "seemed to think things went well" and there was brief talk (2 Aug) of "straitening out IT" - vague, on TTI's internal to-do list, no specifics. This supports going to Kari directly rather than via Stephan.
@@ -43,6 +62,24 @@ renamed: 2026-07-17
 ---
 
 ## Ty Staviski
+
+---
+
+## ⏳ 7 Aug - KARI RE-ENGAGED (by Stephan, live on the call); Julian followed up directly - awaiting reply
+
+> **Julian asked Stephan on the 7 Aug call whether to bring Kari back in; Stephan messaged him there and then.** Julian followed up directly at 15:23. Kari is now the cheapest route to two of the three load-bearing assumptions behind [[tti-ty-proposal]], and both are answerable in a single conversation.
+
+**What was sent (WhatsApp, times UK):**
+- **Julian (3 Aug, 21:57):** *"Thanks Kari, much appreciated."*
+- **Julian (7 Aug, 15:23):** *"Hi Kari, did Stephan reach out to you today? I'm keen to understand if you and Ty had an alignment call."* - plus the offer to update him on the Justin conversation. Julian has been asked to take Ty through a proposal on Monday.
+
+**What to get from him before Monday (both cheap, both load-bearing):**
+1. **Will Ty accept scope being set in month 1 rather than named up front?** Kari sponsored the 12-month frame himself on 24 Jul and described the need in pure EA terms without prompting. If discovery-first will not fly with Ty, the proposal's whole structure is wrong and it is better to know on Saturday than on Monday.
+2. **Does a consulting contract preserve Julian's right to live and work in HK?** Unverified since 6 Aug, flagged by the council, and Kari holds HK tax and IT influence - he is the right person to ask. If the answer is no, the rate and the scope are both irrelevant.
+
+**Strategic read:**
+- **Stephan initiating the Kari contact is better than Julian doing it.** It came from inside, unprompted by Kari, and it does not read as Julian working a side channel around Stephan - the exact risk that made the 3 Aug direct approach a judgement call.
+- **Kari remains the only counterparty who has described TTI's needs accurately without being sold to.** For a proposal whose weakest section is "what TTI actually needs," he is the highest-value input available before Monday.
 
 ---
 
@@ -189,6 +226,32 @@ renamed: 2026-07-17
 ---
 
 ## Stephan Pudwill
+
+---
+
+## ✅ 7 Aug - THE ASK LANDED: Stephan called, then put it in writing - a proposal for 6 or 12 months, scope and amount, Ty making contact Monday
+
+> **First time in the entire engagement that TTI has asked for a priced offer with a term attached.** Every prior movement was advocacy, framing or access. Stephan called at ~08:00 UK (prompted by Justin, see the Justin section above) and followed it in writing three minutes later. The question is no longer whether TTI will engage; it is whether Julian can close it in one call.
+
+**What happened (WhatsApp, 7 Aug, times UK):**
+- **Stephan (08:03):** *"Ty will be reaching out to you on Monday. Please think about a proposal for either 6 or 12 months on what you could offer and what you would see the scope as being including the amount"*
+- **Julian (08:10):** *"Ok will do, thanks Stephan. Should I re-align with Kari on this? We had a good conversation and he understands TTIs needs well. He was intending to talk to Ty about this."*
+- **Stephan then messaged Kari while still on the phone to Julian** - roughly "did you speak to Ty, or do you want to chat to Julian." Julian followed up with Kari directly at 15:23.
+
+**The call itself (~08:00 UK, short, deliberately unlaboured):**
+- Julian opened warm, thanked Stephan for pushing it, and apologised for pressing while acknowledging he has to.
+- Disclosed the Clodagh/Ireland development and restated that he cannot return to Hong Kong without something secured.
+- Did not over-labour the position. Closed the call himself (*"I'm gonna let you go, Stephan, I know you're busy"*) rather than pressing further - Stephan was heading out on the boat.
+- Confirmed Monday works despite Sophia's airport pickup.
+
+**Strategic read:**
+- **Stephan asked for 6 *or* 12 months. Price both.** A single number concedes the shorter option free - the [[llm-council]] blind spot flagged on 6 Aug. 12 months: HK$208,418/month. 6 months: HK$218,252/month.
+- **Julian closing the call himself was right.** Stephan was busy and heading out; the ask was already secured in writing. Pressing further could only have degraded it. This is the graduated-tone discipline working.
+- **⚠ The framing risk from 6 Aug is now live, not theoretical.** Stephan repeats Julian's words verbatim to Ty, and Julian is about to hand him a written scope. Anchor on *establishing architecture and governance across Asia*; never "enterprise architect" as a title, never "IT support", never "consulting gig" (the 5 Aug near-miss).
+- **Open risk is decision speed, not receptiveness.** Ty is back at his desk late Monday US time; Julian needs an answer inside ~24h. Untested. **Ask Stephan on Monday whether Ty can actually move it forward - before the call, not after.** If he cannot, the proposal's job changes from closing to setting a dated next step, and it should be written differently.
+- **The right-to-work question from 6 Aug is still unverified** and is now load-bearing on a document about to be sent. Kari is the correct person to answer it and the channel is already open.
+
+**NEXT:** ✅ deliverable defined - [[tti-ty-proposal]] (4h, due Mon 10 Aug). 12-month engagement with month 1 as a priced discovery audit that sets months 2-12, which absorbs the [[tti-cfo-brief]] audit ask into the engagement instead of leaving it as a separate approval.
 
 ---
 
