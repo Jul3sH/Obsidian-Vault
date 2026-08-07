@@ -23,6 +23,8 @@ tags: [career, tti]
 > **Working rule:** `_reference` is always in your sightline; `_on-hold` and `_archived` are out of the way unless you deliberately need them.
 
 ## In progress ([[_wip/_index|_wip/]])
+- **[[tti-ty-engagement-proposal]]** - the 12-month engagement proposal for Ty Staviski, requested 7 Aug. Full document plus a five-line spoken version for the call. Draft, pending adversarial review.
+- [[tti-ty-engagement-proposal-codex-review-prompt]] - the Codex adversarial-review prompt for the above.
 - **[[tti-engagement-strategy]]** - the single living strategy doc. **Read first.** Holds the current position, the pitch, the role-conversion mechanic, and the strategy evolution log.
 - [[tti-comms-log]] - living direct comms log, sectioned by counterparty (Ty Staviski, Stephan Pudwill). Next message, sent log, audit trail of drafts.
 - [[peter-speck-briefing]] - briefing for Peter's parallel conversation with Stephan.
