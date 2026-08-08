@@ -30,7 +30,9 @@ send: NEVER
 > current text as final.
 
 ### 1a. The governance forum that retired committees — 🟡 PRIOR-PROOF BLOCKER
-*Answers Ty's hardest question: "where have you run a chartered forum that demonstrably retired standing committees?" Scale answers (US$200M/US$300M) do NOT satisfy it — he wants a before/after.*
+*Answers the hardest predictable question: "where have you run a chartered forum that demonstrably retired standing committees?" Scale answers (US$200M/US$300M) do NOT satisfy it — the answer needs a before/after.*
+
+> **⚠ Sourcing correction, 8 Aug: the real Ty has never asked this.** The before/after demand comes from the **Fable simulation** ([[tti-ty-call-simulation-2026-07-19]] line 56), not the 15 Jul call, whose record contains no such question. It is a well-reasoned prediction worth preparing for - a finance buyer asks what *changed*, not how *big* it was - but it is not a stated requirement, and this file should not have asserted it as one.
 
 - **Honest kernel:** at Telstra International you ran a design authority + waiver process the regions couldn't route around — a standing governance mechanism that held divergent designs to one standard.
 - **The honest boundary (the Ty sim exposed this):** you ran every *component* (standing authority, standards that held across regions, a waiver process with teeth, escalation that got used) — but those forums sat *above* your authority, so you have not assembled the whole machine (a charter to *retire* the committees) under one roof. Say that plainly, welded to the audit de-risk.

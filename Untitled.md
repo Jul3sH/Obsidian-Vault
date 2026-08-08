@@ -1,3 +1,0 @@
-Not a parallel programme, not a new function competing for sponsorship. You already have momentum — a North American ERP conversion that went in on a one-team model when those projects routinely go wrong elsewhere, and an AI agenda pointed at structural G&A cost. Each has its own owner and its own drive behind it.
-
-What tends to go missing at group scale is the layer that keeps a standard holding as it extends across regions — whether that is an ERP target state, **one consistent way of reading cost and margin**, or the data discipline an AI agenda needs underneath it. Standards don't fail at the point they're agreed; they fail quietly afterwards, as each region interprets them slightly differently and the reconciliation comes back. That layer is what I do.
