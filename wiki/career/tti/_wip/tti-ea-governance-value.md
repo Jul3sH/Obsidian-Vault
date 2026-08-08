@@ -43,25 +43,25 @@ Full audit against [[tti-ea-requirements]]. Every stated requirement now has an 
 
 | Requirement | Status |
 |---|---|
-| ~~**K3**~~ Whole-enterprise scope | **CLOSED — §1 scope guard.** Design enterprise-wide, deploy where the gap is. Also an explicit "On scope" paragraph in [[tti-ty-engagement-proposal]]. |
-| ~~**K4**~~ Leadership burnt by overruns | **CLOSED — now §5b.** Inverted from objection to argument: assurance separates the design judgement from the delivery pressure. Hard guardrail on naming anything. |
-| ~~**K5**~~ Strategic gains, not quick wins | **CLOSED.** Month 1 delivers *proof the mechanism works*, not a quick win; months 2-12 are "a structure that holds after I've gone". **Standing guardrail: never say "quick win"** - Kari sponsored the 12-month term on that distinction. |
-| ~~**K6**~~ Take the bits of frameworks that work | **CLOSED — §3**, which was always this argument but was unmapped until 8 Aug. |
-| ~~**T13**~~ Global P&L platform | **CLOSED — §2b**, as an ask-never-assert opening, because T13 is INTERNAL and quoting it would reveal Julian holds an employee-Q&A transcript. |
-| ~~**T9, T15-T18**~~ H1 2026 results (SG&A/margin, FCF target, buyback, capacity expansion) | **CLOSED — new §0**, added 8 Aug. Opens the document with why the argument is urgent this half, ahead of §1's mechanism. Full workup: [[tti-h1-2026-results-talking-points]]. |
+| ~~**K3**~~ Kari said the scope should be the whole enterprise, not just US/HK | **Closed, now §1's scope guard.** The resolution is to design the capability enterprise-wide but deploy effort where the gap actually is, and the same point is made explicitly in an "On scope" paragraph in [[tti-ty-engagement-proposal]]. |
+| ~~**K4**~~ Kari said past leadership had been burnt by programmes that overran | **Closed, now §5b.** This was inverted from an objection to survive into an argument to lead with: assurance separates the design judgement from the delivery pressure. A hard guardrail sits alongside it against ever naming a specific programme. |
+| ~~**K5**~~ Kari wanted strategic long-term gains, not quick wins | **Closed.** Month 1 in the proposal delivers proof that the mechanism works rather than a quick win, and months 2-12 are described explicitly as a structure that holds after Julian has gone. There is a standing guardrail never to say the words "quick win" on this engagement, because Kari sponsored the 12-month term on exactly that distinction. |
+| ~~**K6**~~ Kari said not to shove a whole framework down people's throats | **Closed.** §3 was always making this argument, it just had not been mapped to the requirement until 8 Aug. |
+| ~~**T13**~~ The global P&L platform Ty co-drives with Casey and Frank | **Closed, now §2b.** Because this is INTERNAL information from the employee Q&A, it is built as a question Julian asks rather than a fact he states, so quoting it never reveals that he holds an internal transcript. |
+| ~~**T9, T15-T18**~~ The H1 2026 results (the SG&A/margin finding, the raised free cash flow target, the buyback, the capacity expansion) | **Closed, in the new §0.** This opens the whole document with why the argument is urgent this half, before §1 explains the underlying mechanism. Full workup in [[tti-h1-2026-results-talking-points]]. |
 
-### Deliberately not addressed (decision, not oversight)
+### Deliberately not addressed (a decision, not an oversight)
 
-| Requirement | Why |
+| Requirement | Why it is left out |
 |---|---|
-| **T10** Margin expansion via factory leverage and supply-base collaboration | Manufacturing and procurement cost, not technology estate. Outside what an EA engagement can credibly influence. Reaching for it would look like claiming everything. |
-| **T11** Net interest expense down to 0.2% of turnover | Treasury and capital management. No EA lever exists. |
-| **T19** Effective tax rate / tax efficiency | Kari's territory (ex-KPMG transfer pricing), not Ty's. Held in [[tti-h1-2026-results-talking-points]] for the Kari channel rather than argued here. |
-| **T20** MILWAUKEE ERP "planned timing impact" | **Do not use as overrun evidence** - the word is "planned", and the CEO's public position is that it executed flawlessly. Its only safe use (neutral evidence that large ERP conversions have lasting financial effects) is already folded into §5b without naming it. |
+| **T10** Ty is credited with margin expansion from factory and supply-base leverage | This is manufacturing and procurement cost, not the technology estate, and sits outside what an EA engagement can credibly influence. Reaching for it would read as Julian claiming to fix everything. |
+| **T11** Net interest expense fell to 0.2% of turnover | This is treasury and capital management. There is no EA lever that touches it. |
+| **T19** The effective tax rate and TTI's tax-efficiency language | This is Kari's territory, given his background in transfer pricing, not Ty's. It is held in [[tti-h1-2026-results-talking-points]] for the Kari channel rather than argued in this document. |
+| **T20** The MILWAUKEE ERP conversion's "planned timing impact" | **Must never be used as evidence of an overrun** - the word TTI itself uses is "planned," and the CEO's public position is that the conversion executed flawlessly. Its only safe use, as neutral evidence that large ERP conversions have lasting financial effects, is already folded into §5b without naming it. |
 
-### Requirements needing no argument (process, timing or signal, not a stated need)
+### Requirements that need no argument at all
 
-**T5** August meeting suggested · **T7** 12 months seemed acceptable · **T14** no offer or structure given · **K2** no pushback on the EA framing · **K10** positive on the AI/service-design pitch · **K11**–**K13** decision timing and the pending Kari reply. **J1/P1/P2** are the overrun intel and public record; they inform §5b rather than being requirements themselves.
+These are process, timing, or simple signals rather than a stated need, so nothing was built for them: **T5** (an August meeting was suggested), **T7** (12 months seemed acceptable to Ty), **T14** (no offer or structure was given at the 15 Jul call), **K2** (no pushback on the EA framing), **K10** (a positive reaction to the AI/service-design pitch), and **K11 through K13** (decision timing, including the still-pending Kari reply). **J1, P1 and P2** are the overrun intel and the public record behind it; they inform §5b rather than being requirements in their own right.
 
 **One note on where AI sits.** Kari responded positively to the AI framing (K10), but the AI *value* argument lives in [[tti-ty-engagement-proposal]] and [[tti-story-bank]] §1c, not here. This document carries only §7's defensive AI line, welded to the authority clause. That is deliberate - here AI is a thing to be defended, not sold.
 
@@ -113,10 +113,10 @@ Full audit against [[tti-ea-requirements]]. Every stated requirement now has an 
 
 | Item | Priority | Where |
 |------|----------|-------|
-| 🟡 **Name the charter:** who sits above BOTH regional tech lines as escalation terminus | Highest | §4 |
-| 🟡 **Latency/stuck-decision example:** one real cross-region decision that stalled, or is stalling now, while spend or a project waited | Secondary, but load-bearing for month 1 | §5 - **same gap as** "no named stuck cross-region decision" in [[tti-ea-requirements]] Gaps. Kari is the route to it; see [[tti-role]] Next Actions. |
-| ~~Prior-proof story~~ | — | **CLOSED 8 Aug.** BG Group Design Authority - [[tti-story-bank]] §1a. |
-| ~~SAP-or-Oracle criteria~~ | — | **Not actually open.** §6 already names them (TCO, skills concentration, M&A roadmap, integration surface) with a note to swap in your real ones - a polish item, not a blocker. |
+| 🟡 **Name the charter.** Nobody has yet been named as the executive who sits above both regional technology lines, which is the escalation terminus the whole mandate design in §4 depends on. | Highest | §4 has a full answer to this now: it is a choice, not a missing requirement, and the CEO-chip fallback already gives Julian a complete answer even without a name. |
+| 🟡 **Find a stuck-decision example.** Julian needs one real cross-region decision, currently stalled or stalled recently, to use as evidence for §5's coordination-tax argument and as the candidate for month 1's first deliverable. | Secondary on its own, but load-bearing for month 1 of the proposal | This is the same gap as "no named stuck cross-region decision" in the Gaps section of [[tti-ea-requirements]]. Kari is the only realistic route to it; see [[tti-role]] Next Actions. |
+| ~~The prior-proof story~~ | — | **Closed on 8 Aug.** The answer is the BG Group Design Authority Julian designed, stood up and chaired - see [[tti-story-bank]] §1a. |
+| ~~The SAP-or-Oracle criteria~~ | — | **This was never actually open.** §6 already names the criteria (total cost of ownership, existing skills concentration, the M&A roadmap, and integration surface), with a note that Julian should swap in whichever ones he would genuinely cite. It is a polish item, not a blocker. |
 
 ---
 
