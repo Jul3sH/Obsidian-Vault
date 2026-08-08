@@ -103,6 +103,17 @@ send: NEVER
 
 ---
 
+## §3 — Predictable role-specific questions (have an answer for each)
+
+*Moved here from [[tti-ea-governance-value]] §8 on 8 Aug - these are positioning/credibility answers specific to the TTI role, not arguments mapped to a stated requirement, so they belong here rather than in the argument bank. Distinct from general behavioural interview prep (kept separately, outside this vault).*
+
+- **"Where does the role report?"** (Decided, 19 Jul.) The role must **not** sit inside Tony Chung's organisation. Chartered by Ty plus group technology leadership, dotted-line to CIO tier. This is a firm position, not a preference: an inside-Tony reporting line would gut the cross-region mandate before it started - you cannot coordinate peers from inside one peer's org. Hold it plainly if asked.
+- **"Why an external hire, not promote a regional architect who knows the estate?"** An internal regional promotion inherits that region's allegiance and cannot be neutral across the others - the coordinating role needs someone with no regional axe, plus the cross-industry EA-governance track record most internal candidates will not have.
+- **"Where have you done this before?"** Closed 8 Aug - see §1a above (BG Group Global Networks Design Authority). The residual honest gap: Julian has not held a charter to retire *business* steering committees at group level: the machine is proven at domain scale, not yet at the altitude TTI needs.
+- **"What do you actually do in the first 90 days?"** Charter the board and its decision rights; stand up the principles that resolve live decisions immediately; measure the coordination-tax baseline; pick the first cross-region decision to settle through the board, not a committee, as the proof. Value visible in weeks, not years.
+
+---
+
 ## Related
 - [[tti-ea-governance-value]] — the argument these stories back
 - [[tti-kari-call-prep]] · [[tti-ty-call-simulation-2026-07-19]] — where you deploy them

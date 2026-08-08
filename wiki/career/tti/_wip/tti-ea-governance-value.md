@@ -29,8 +29,8 @@ Requirement IDs refer to [[tti-ea-requirements]], the sourced verbatim log of wh
 | **0b** | The FCF Lever. TTI raised its 2026 free cash flow target mid-year by 30%, and because free cash flow is operating cash minus capex, technology capex avoided through governance flows directly into that number - the same mechanism as §0a, pointed at a different, more recently-moved metric. | T16 |
 | **0c** | The Capacity Window. New manufacturing capacity is being built in Vietnam and the Americas over the next 12-18 months, which is a forward-looking argument for embedding a standard at build time rather than retrofitting governance later. | T18 |
 | **1** | TTI's technology fragmentation is the rational result of acquisition-led growth, not incompetence - the steering committees are a symptom, and the missing coordination layer is the actual cause. This section also carries a scope guard (design the capability enterprise-wide, but concentrate effort where the gap actually is) and a geography guard on how to talk about Milwaukee without it sounding like Hong Kong governing the US. | T1, T2, K1, K3 |
-| **2a** | This restates the FinOps analogy on risk transfer: a central function can commit to a shared platform because it spreads the risk across the whole portfolio, whereas a single region cannot justify carrying that risk alone, which is why regions default to building their own. | T9, T12 |
-| **2b** | This answers Kari's own admission that TTI lacks technology cost data, using TBM (not FinOps) cost transparency. It is written as a question Julian asks rather than a fact he states, so he never appears to already know about TTI's internal finance platform. | K7, T13 |
+| **2a** | An authority argument, independent of 2b: a central function can commit to a shared platform because it spreads the risk across the whole portfolio, whereas a single region cannot justify carrying that risk alone, which is why regions default to building their own. Not about cost. | T9, T12 |
+| **2b** | A cost argument, independent of 2a: this answers Kari's own admission that TTI lacks technology cost data, using TBM (not FinOps) cost transparency. It is written as a question Julian asks rather than a fact he states, so he never appears to already know about TTI's internal finance platform. | K7, T13 |
 | **3** | This walks through the specific TOGAF components that kill silo behaviour - principles, the Architecture Board, reference architectures, ADM phases G and H, and architecture contracts - plus the sequencing answer for how governance starts delivering value immediately rather than after a long design phase. It also states plainly that Julian would take only the useful parts of a framework rather than impose the whole thing on TTI, which directly answers Kari's own comment on that. | T1, T3, K6 |
 | **4** | This is the mandate section, and it is the load-bearing argument in the whole document: who actually charters the board's authority, how a deadlock gets broken instead of stalling forever, and how the resourcing to do the work is secured at the point of charter rather than negotiated meeting by meeting. | T3, K8 |
 | **5** | This gives Ty the shape of the coordination-tax cost honestly, as an unmeasured estimate, with an explicit offer to measure the real number properly in week one rather than presenting an invented figure as fact. | T6, T8, T9 |
@@ -103,13 +103,13 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 | Resourcing committed at charter, not negotiated per meeting | §4 |
 | "Committees retired" defined as calendar-audited standing forum, not self-reported | §4 |
 | CEO-chip fallback: Uva tier as day-to-day ratifier; CEO as rarely-used backstop, formalised later | §4 |
-| FinOps reframed: risk-transfer only; role owns a named number; welded to charter executive's decision | §2 |
+| FinOps reframed: risk-transfer only; role owns a named number; welded to charter executive's decision | §2a |
 | AI grunt-work line fused to authority clause so it cannot be detached and used against director-level | §7 |
 | Silo diagnosis reframed: "rational residue of M&A"; Milwaukee as most mature, board starts from its patterns | §1 |
 | TOGAF sequencing: principles + board deliver value week one; reference architecture builds behind them | §3 |
 | Reference-architecture method: authored by regional experts through the board, not Julian solo | §6 |
-| Reporting line decided: NOT inside Tony's org — firm position, hold it plainly | §8 |
-| Prior-proof: honest bridge drafted, welded to the de-risk; instruction to build one Telstra before/after | §8 |
+| Reporting line decided: NOT inside Tony's org — firm position, hold it plainly | Moved 8 Aug to [[tti-story-bank]] §3 |
+| Prior-proof: honest bridge drafted, welded to the de-risk; instruction to build one Telstra before/after | Superseded 8 Aug — the real answer is BG Group, [[tti-story-bank]] §1a |
 | Coordination-tax: illustrative model + "can't cancel without replacing the decision function" | §5 |
 
 ### Still open (must close before the Ty room)
@@ -125,26 +125,9 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 
 ---
 
-> **CONVERSATION PREP. NOT AN ARTEFACT TO SHARE.** The argument, in memorable
-> chunks, for how enterprise-architecture governance aligns TTI's regional
-> application stack (ERP, CRM, integration) and dissolves the endless steering
-> committees Ty described. Carry the points in conversation; don't read them off.
-> Draw the sharpest lines into [[tti-kari-call-prep]].
->
-> **v3 — hardened against TWO Fable adversarial passes**
-> ([[tti-ea-governance-value-fable-review-2026-07-19]]). Round 2 added: the joint-charter
-> design + deadlock-breaker (SLA + ratification) + resourcing commitment in §4, the
-> committee-replacement pre-empt in §5, and the risk-transfer weld in §2.
->
-> **⚠ ONE FATAL ITEM STILL NEEDS YOUR ORG KNOWLEDGE (🟡 §4): name the charter.** Who
-> specifically grants and enforces the board's decision rights, given Frank (CFO) is
-> leaving, Ty is only Deputy, and there's a CIO (Tom Uva)? And who is the single exec
-> above BOTH APAC tech and Milwaukee IT (the escalation terminus)? Until that has a
-> name, the mandate is scaffolding around a blank. **Close-second:** the parked
-> prior-proof story (§8) — survivable in front of Kari, fatal in front of Ty.
->
-> Strategy: [[tti-engagement-strategy]]. Their estate: [[tti-technology-stack]].
-> FinOps source: [[tbm-vs-finops]].
+> **⚠ Removed 8 Aug — this banner duplicated the purpose block at the top of the
+> document and had gone stale (it still claimed a fatal blocker that §4 resolved
+> weeks ago).** All of its links already live in the Related section at the bottom.
 
 ---
 
@@ -210,13 +193,9 @@ The fragmentation is the rational residue of acquisition-led growth. TTI bought 
 
 **Geography guard (Milwaukee):** never frame this as HK governing the US. Milwaukee is the most mature IT shop and the target should start *from* its patterns; its architecture leads are among the first board members. Position yourself as the coordination point pulling Asia's tiers toward the group standard, working *with* the US, exactly as Ty framed it, not a throne over it.
 
-## 2. FinOps and TBM — the two finance-native arguments
+## 2a. Why the Centre Can Commit
 
-*Two distinct arguments, both in a CFO's own language. **2a** is an operating-model analogy (why a centre can commit when a region cannot). **2b** is a capability offer (cost transparency across the whole estate). Keep them separate: 2a is a way of explaining EA, 2b is a thing Julian would actually build.*
-
-> **⚠ Seniority signal — do not conflate the two disciplines.** **FinOps is the cloud slice; TBM is the whole estate** (infrastructure, applications, licences, labour, outsourced services *and* cloud). They are not the same principles at different sizes. Getting this distinction right lands as senior in a CFO conversation; getting it wrong is a tell. Source: [[tbm-vs-finops]].
-
-### 2a. Risk transfer — why the centre can commit when a region cannot
+> **⚠ Genuinely separate from 2b below, not two halves of one argument (corrected 8 Aug).** They used to share a parent section on the grounds that both use financial vocabulary - but that was the only thing they had in common. This one is an **authority argument**: why decisions should sit centrally. It has no relationship to cost, saving money, or TBM. Read it on its own.
 
 The transferable idea is **not** discount mechanics (a finance-literate skeptic will correctly say SAP and Oracle licences don't pool like fungible compute, and licence consolidation is already procurement's job). The idea that transfers is **risk transfer through the centre**:
 
@@ -231,9 +210,11 @@ The transferable idea is **not** discount mechanics (a finance-literate skeptic 
 
 > **Say it like this:** "It's the FinOps risk-transfer principle. A single region won't commit to a shared platform because a failed bet is theirs alone — so it silos. The centre can commit because it carries that bet across the portfolio. Same reason a central FinOps team holds the commitment risk so the engineers don't have to."
 
-### 2b. Cost transparency (TBM) — answering K7, and the opening to a group cost standard
+## 2b. Cost Transparency (TBM)
 
-*This answers a requirement Kari stated to Julian's face, so unlike most of this document it rests on something quotable.*
+*This answers a requirement Kari stated to Julian's face, so unlike most of this document it rests on something quotable. Independent of 2a above - that one is about authority, this one is about money.*
+
+> **⚠ Seniority signal — do not conflate FinOps and TBM.** **FinOps is the cloud slice; TBM is the whole estate** (infrastructure, applications, licences, labour, outsourced services *and* cloud). They are not the same principles at different sizes. Getting this distinction right lands as senior in a CFO conversation; getting it wrong is a tell. This distinction matters here, not in 2a - 2a never claimed to be either discipline, it only borrowed FinOps's risk-transfer logic as an analogy. Source: [[tbm-vs-finops]].
 
 **The stated requirement (K7, DIRECT — safe to reference):** responding to Julian's TBM point about shared data letting finance and IT discuss trade-offs in the same language, Kari said: **"We lack having that type of data available to us in the organisation."** He volunteered it as a real gap.
 
