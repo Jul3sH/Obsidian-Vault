@@ -25,17 +25,17 @@ Requirement IDs refer to [[tti-ea-requirements]], the sourced verbatim log of wh
 
 | § | The argument | Answers |
 |---|---|---|
-| **0** | **The live urgency** - H1 2026 results show SG&A eating most of a record gross-margin gain; opens the case with why now, before §1 argues the mechanism | T9, T15-T18 |
-| **1** | Silo diagnosis - fragmentation is rational M&A residue, not incompetence; the committees are the symptom, the missing layer is the cause. Plus the **scope guard** (design enterprise-wide, deploy where the gap is) and the Milwaukee geography guard | T1, T2, K1, K3 |
-| **2a** | FinOps analogy, restated on **risk transfer** - the centre can commit to a shared platform because it spreads the bet; a single region cannot | T9, T12 |
-| **2b** | **TBM cost transparency** - answers Kari's stated data gap; the ask-never-assert opening to a group cost standard | K7, T13 |
-| **3** | The TOGAF components that kill specific silo behaviours (principles, Architecture Board, reference architectures, ADM G/H, contracts) + the sequencing answer. **Take the bits that work, never impose a whole framework** - which is K6 | T1, T3, K6 |
-| **4** | **The mandate** - where the board's authority comes from. Joint charter, deadlock-breaker, resourcing at charter. *The load-bearing section.* | T3, K8 |
-| **5** | The coordination-tax number - the shape of the cost, offered to be measured properly in week one | T6, T8, T9 |
-| **5b** | **Assurance** - why governed programmes overrun less; nobody marks their own homework. Lead with it, never defend against it | K4 |
-| **6** | EA-vs-solution-architect boundary - how the deep work gets done without claiming SAP/Oracle depth | T2, K9 |
-| **7** | The killer objection pre-empted - "you'll just draw diagrams"; authority is the scarce thing, which is why it must be director-level | T2 |
-| **8** | Predictable director-hire questions - reporting line, why external, prior proof, first 90 days | T4, K9 |
+| **0** | The H1 2026 results show that SG&A growth consumed most of a record gross-margin gain, so the next margin point has to come from structural cost. This section opens the whole document with why the argument is urgent right now, before §1 explains the underlying mechanism. | T9, T15-T18 |
+| **1** | TTI's technology fragmentation is the rational result of acquisition-led growth, not incompetence - the steering committees are a symptom, and the missing coordination layer is the actual cause. This section also carries a scope guard (design the capability enterprise-wide, but concentrate effort where the gap actually is) and a geography guard on how to talk about Milwaukee without it sounding like Hong Kong governing the US. | T1, T2, K1, K3 |
+| **2a** | This restates the FinOps analogy on risk transfer: a central function can commit to a shared platform because it spreads the risk across the whole portfolio, whereas a single region cannot justify carrying that risk alone, which is why regions default to building their own. | T9, T12 |
+| **2b** | This answers Kari's own admission that TTI lacks technology cost data, using TBM (not FinOps) cost transparency. It is written as a question Julian asks rather than a fact he states, so he never appears to already know about TTI's internal finance platform. | K7, T13 |
+| **3** | This walks through the specific TOGAF components that kill silo behaviour - principles, the Architecture Board, reference architectures, ADM phases G and H, and architecture contracts - plus the sequencing answer for how governance starts delivering value immediately rather than after a long design phase. It also states plainly that Julian would take only the useful parts of a framework rather than impose the whole thing on TTI, which directly answers Kari's own comment on that. | T1, T3, K6 |
+| **4** | This is the mandate section, and it is the load-bearing argument in the whole document: who actually charters the board's authority, how a deadlock gets broken instead of stalling forever, and how the resourcing to do the work is secured at the point of charter rather than negotiated meeting by meeting. | T3, K8 |
+| **5** | This gives Ty the shape of the coordination-tax cost honestly, as an unmeasured estimate, with an explicit offer to measure the real number properly in week one rather than presenting an invented figure as fact. | T6, T8, T9 |
+| **5b** | This explains why governed programmes overrun less often than ungoverned ones: the people accountable for a delivery date should not also be the people judging whether their own design is sound. It is written to be led with as a strength, not held back as a defence against Kari's comment on past overruns. | K4 |
+| **6** | This draws the boundary between enterprise architecture and solution architecture, showing how the detailed technical work still gets done properly without Julian needing to claim SAP or Oracle expertise he doesn't have. | T2, K9 |
+| **7** | This pre-empts the most damaging objection Julian could face - that he would just draw governance diagrams and nothing more - by arguing that authority to make a decision stick, not the diagrams themselves, is the genuinely scarce resource, and that is exactly why the role needs to sit at director level. | T2 |
+| **8** | This holds prepared answers to the predictable questions any external director-level hire gets asked: where the role reports, why hire externally instead of promoting from within, the prior-proof story, and what actually happens in the first 90 days. | T4, K9 |
 
 ## ✅ Requirements coverage — all closed as of 8 Aug
 
@@ -109,12 +109,14 @@ Full audit against [[tti-ea-requirements]]. Every stated requirement now has an 
 
 ### Still open (must close before the Ty room)
 
+> **⚠ Corrected 8 Aug — this table had gone stale.** Two of the original four items were already closed and the table hadn't been updated; that is the exact failure mode this whole document restructure exists to fix. Verified against current content, not assumed.
+
 | Item | Priority | Where |
 |------|----------|-------|
-| 🟡 Name the charter: who sits above BOTH regional tech lines as escalation terminus | Highest | §4 |
-| 🟡 Prior-proof story: one concrete Telstra before/after — named forum, what replaced it, what stopped | Critical for Ty | §8 |
-| 🟡 SAP-or-Oracle criteria: the evaluation factors you would actually name | Secondary | §6 |
-| 🟡 Latency example: one real cross-region decision that stalled while spend or a project waited | Secondary | §5 |
+| 🟡 **Name the charter:** who sits above BOTH regional tech lines as escalation terminus | Highest | §4 |
+| 🟡 **Latency/stuck-decision example:** one real cross-region decision that stalled, or is stalling now, while spend or a project waited | Secondary, but load-bearing for month 1 | §5 - **same gap as** "no named stuck cross-region decision" in [[tti-ea-requirements]] Gaps. Kari is the route to it; see [[tti-role]] Next Actions. |
+| ~~Prior-proof story~~ | — | **CLOSED 8 Aug.** BG Group Design Authority - [[tti-story-bank]] §1a. |
+| ~~SAP-or-Oracle criteria~~ | — | **Not actually open.** §6 already names them (TCO, skills concentration, M&A roadmap, integration surface) with a note to swap in your real ones - a polish item, not a blocker. |
 
 ---
 
@@ -242,6 +244,11 @@ Each component kills a specific silo behaviour:
 - **Frank's departure must NOT be load-bearing.** Frank Chan (Group CFO) is leaving; a charter resting on him dies at his farewell. It must rest on people who will still be there.
 - 🟡 **DECISION NEEDED (your org knowledge):** name the single executive whose authority sits above BOTH the APAC technology directors (Tony's) AND Milwaukee / US IT — that is the escalation terminus. It is probably CEO-level or a jointly-constructed authority, not Ty alone. Until it has a name, the escalation stop does not yet exist. *This is now the single highest-value open item for the pitch.*
 - **CEO-chip fallback (from the Ty sim — have this ready, or the qualification-gate line boomerangs).** Ty's realistic answer is "above both lines is the CEO, and I won't spend that chip on a role that doesn't exist yet, in the quarter our CFO is leaving." So don't require the CEO charter up front: **day-to-day ratifier is Tom Uva's tier** for anything inside the technology line, with the finance sponsor carrying the cost case; the **CEO-level terminus is a rarely-used backstop you design in but formalise later**, once the board has a track record and a number behind it. Charter what Ty + Uva can charter now; the backstop gets formalised once it's proven it converges. *(Caveat Ty will raise: a backstop added later is one Tony's people know isn't there yet — accept it, it's the price of a startable version.)*
+- **⭐ Why this is genuinely hard, and the choice it leaves you (added 8 Aug, in answer to "why isn't there a documented answer here?").** This isn't undone through neglect - it requires org knowledge nobody but Julian has, and the two people who could supply a name (Uva, Butts) are candidates from the Ty simulation, not confirmed. Two ways to close it, and **this is a choice, not a missing requirement**:
+  1. **The strong version:** Julian names an actual person before the Ty room - so if asked "who ratifies," the answer is a name, not a tier. Requires org knowledge Julian may or may not have yet.
+  2. **The workable version, already fully built above:** don't name anyone yet. The CEO-chip fallback carries the room on its own - charter what Ty + Uva's tier can charter now, say the CEO backstop is designed in but not yet formalised. This is a complete, defensible answer; it is not a placeholder for the strong version.
+  
+  **The document does not need Julian to pick before Monday.** The CEO-chip fallback is sufficient by itself. Naming a real person is an upgrade if the knowledge exists, not a blocker if it doesn't.
 
 **The board pools authority, it doesn't confiscate it.** The regional technology directors sit **on** the board; its decisions are *their* authority exercised together against an agreed standard, not taken from them. You chair the process; you do not outvote peers.
 
@@ -270,6 +277,18 @@ Don't walk in with an unmeasured saving. Bring the **shape** of the number, and 
 **Pre-empt the cheaper fix** (a hostile "then just cancel half the committees for free"): a committee can't be cancelled without replacing its *decision function* — that's why they exist and why they multiply. The board replaces the function; that's what makes retirement stick. Meeting-hours are the visible cost; the decision function is the load-bearing one.
 
 **Bring one concrete latency example** 🟡 *(supply a real one):* a single named or anonymised cross-region decision that bounced for months while spend or a project stalled. One real story beats the algebra, and it evidences the latency cost the model can only assert.
+
+**⭐ Why this one is genuinely unfinished, not just undone (added 8 Aug).** Unlike the charter question, there is no fallback that fully closes this - and it does double duty, which raises the cost of leaving it open:
+- **It's the evidence for the coordination-tax argument here in §5** (the model above is otherwise pure algebra, bracketed variables, nothing real).
+- **It's also the candidate for the actual first deliverable in month 1** of [[tti-ty-engagement-proposal]] - "one live cross-region decision taken through the mechanism." Same gap, doing two jobs.
+
+**Why Julian can't supply it alone.** He is an outsider without visibility into which decisions are currently stuck inside TTI - and this is not a personal gap, it is the exact thing Kari named unprompted (K9, [[tti-ea-requirements]]): *"coming in as an outsider takes time - you need to get to know people and elicit information."* Kari is the route because he is the one person who has already described TTI's real organisational pain directly (K1, K7, K8) - not a cold ask, a continuation of a channel already open.
+
+**The two ways to close it, and only one is fully built:**
+1. **Best case:** Kari names an actual stuck decision before Monday. Closes §5's evidence gap *and* gives month 1 a concrete proof case, in one answer.
+2. **Fallback, already written into the proposal's spoken version:** no example in hand, say so - *"I'd pick it with you in week one, against criteria: stuck across regions, someone senior waiting on it, real cost to the delay."* This closes month 1 (the mechanism is what's being sold, not the specific decision). **It does NOT close §5** - the coordination-tax model here still has no real evidence behind it either way, and stays illustrative until Kari answers or discovery runs in week one.
+
+**The one thing to actively avoid: inventing a plausible-sounding example.** Same failure class as the ERP-tier attribution caught earlier the same day - a specific, wrong detail is worse than an honest "I don't have one yet."
 
 > **Say it like this:** "I haven't measured your number yet — that's week one of discovery. But the shape is this: [N] committees, [8] senior people, [fortnightly], is already hundreds of director-hours a year just in the room, and the real cost is the decisions those rooms hold up — [your one concrete example]. You can't just cancel them; you have to replace what they decide, which is the board. My KPI is retiring them, measured and held to."
 
