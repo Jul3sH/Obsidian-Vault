@@ -76,7 +76,42 @@ Give me TTI's WACC and I'll re-run it at your rate.
 
 ---
 
-# SPOKEN VERSION (for the call - five lines, do not read the document at him)
+# SPOKEN VERSION (for the call - do not read the document at him)
+
+> **⭐ THIS IS THE ONLY THING TO OPEN BEFORE THE TY CALL.** Everything you need to say
+> is in this section. The document above is what he reads; this is what you say.
+
+---
+
+## ⭐ THE LINE - say this early, close to these words
+
+> *"I want to spend the first weeks understanding the landscape and talking to the
+> people running each line of business - but not as a study. I want to be delivering
+> something you care about from week one. **Give me the thing that's stuck, that
+> everyone knows needs doing and no one can get moving, and let me land it.** That's
+> how I learn your organisation, and it's how you find out whether this works."*
+
+**Why this line and not the others (Julian, 8 Aug):** he works best with something real
+to deliver against within days; a month of analysis is where he loses direction. So
+execution-first is not a sales device here, it is how the engagement has to be built to
+succeed. It also happens to be the fix for the Codex FATAL - Ty cannot defend a no-break
+12-month commitment where the value case only appears after signature.
+
+**The frame underneath it, in Ty's head (from the Codex review):**
+> *"I'm not buying a theory of enterprise architecture. I'm buying a mechanism that
+> takes one stuck cross-region technology decision and gives it an owner, a standard,
+> a ratifier and a date."*
+
+**⚠ NEVER say "an extra pair of hands", "help out", or "where people are too busy".**
+The instinct behind those words is right; the words are a contractor framing. Stephan
+repeats Julian's phrasing verbatim, and it reaches Tony Chung as "we've got someone
+helping with the backlog" - which kills the director-level argument that the whole
+engagement rests on. Say **"land it"**, **"get it moving"**, **"make it resolve"**.
+The quick win is the *proof of the mechanism*, never a substitute for it.
+
+---
+
+## The five lines
 
 1. **"What I'd like to do is work on the initiatives you already have, but in an enterprise-architecture context.** You've got the global P&L platform, the IT cost leverage work, the AI agenda on G&A. They're each run well. What's missing is the layer that makes them fit together rather than collide."
 
