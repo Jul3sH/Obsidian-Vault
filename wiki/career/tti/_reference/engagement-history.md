@@ -1,6 +1,18 @@
 This was the second file that I sent on # TTI — Engagement History
 
 > *Full timeline of interactions with TTI, from initial referral to current pitch.*
+>
+> **Live again, redefined 8 Aug 2026** to remove the overlap with [[tti-comms-log]]
+> that caused confusion on 7-8 Aug. The split is by **who the event is with**, not by
+> granularity: **this file logs events involving anyone other than a direct message
+> exchange with a TTI counterparty** — third-party and family-political moves (Peter
+> Speck, Horst, Barbara), origin-story events (2021 referral, Tony Chung 2025), and
+> anything that isn't a message/artefact sent to Stephan, Ty, or Kari. **Direct
+> messages, calls, and artefact deliveries to Stephan, Ty, or Kari go in
+> [[tti-comms-log]] instead — never both.** If an event has both a third-party
+> component and a direct-comms component (e.g. Stephan messaged Kari live on a call
+> with Julian), log the direct-comms half in comms-log and cross-link from here rather
+> than duplicating the narrative in both.
 
 tags: [career, tti]
 

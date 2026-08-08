@@ -29,7 +29,7 @@ tags: [career, tti]
 - [[tti-comms-log]] - living direct comms log, sectioned by counterparty (Ty Staviski, Stephan Pudwill). Next message, sent log, audit trail of drafts.
 - [[peter-speck-briefing]] - briefing for Peter's parallel conversation with Stephan.
 - [[fde-conversation-piece]] - Forward Deployed Engineer conversation piece: verbal opener + two-page in-meeting leave-behind mapping FDE to the Director EA role.
-- [[artefact-delivery-log]] - live record of artefacts shared with Stephan (dates, delivery, engagement).
+- [[artefact-delivery-log]] - folded into [[tti-comms-log]] (7 Aug 2026); kept as a pointer only.
 
 > **Held in reserve:** [[tti-two-pagers]] (`_on-hold/`) and [[tti-ai-enablement-strategy|AI Enablement Strategy]] (deliverable). The strategy doc governs when they deploy.
 

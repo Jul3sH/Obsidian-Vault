@@ -35,13 +35,12 @@ Every artifact is one of three things. Hold **Orientation → Argument → Prep*
 ## Layer 3 — Prep (how you handle a specific person/call)
 - **Kari** (SVP TTI, HK camp — call imminent): [[tti-kari-call-prep]] (talking bank) + [[tti-kari-call-simulation-2026-07-19]] (dry run + receiver profile).
 - **Ty** (Group Deputy CFO — the hard room): [[tti-ty-call-simulation-2026-07-19]] (dry run + readiness verdict).
-- **The outbound artifact**: [[tti-cfo-brief]] — the audit-ask half-page (DRAFT; not sent yet).
+- **The outbound artifact**: [[tti-ty-engagement-proposal]] — the 12-month engagement proposal for Ty (DRAFT, pending adversarial review); absorbs [[tti-cfo-brief]]'s audit-first ask as month 1.
 
 ## Reference (dip in, don't read cover-to-cover)
 - [[tti-executive-stakeholders]] — who's who (Ty, Kari, Frank, Tony, the Pudwills…).
 - [[tti-internal-politics]] — the US-vs-HK camp dynamic.
-- [[tti-comms-log]] — the conversation record (what was said, to whom).
-- [[artefact-delivery-log]] — the registry of documents delivered to people.
+- [[tti-comms-log]] — the canonical conversation + artefact-delivery record (what was said/sent, to whom). Log new TTI correspondence here.
 - [[tti-sysadmin-skills-bridge]] — the platform-engineering gap analysis.
 
 ## Paused (deploy only if the play changes)

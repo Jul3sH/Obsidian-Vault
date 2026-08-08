@@ -13,11 +13,16 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 > **This is the single, continuously-updated strategy for the TTI engagement.**
 > The **Current Strategy** section at the top is always the live position. As the
 > strategy changes, update that section and add a dated row to the **Strategy
-> Evolution Log** at the bottom (newest first). This mirrors [[engagement-history]],
-> which logs *what happened*; this logs *what we decided to do about it*.
+> Evolution Log** at the bottom (newest first). This holds *decisions* - what we
+> decided to do and why. It is distinct from [[tti-comms-log]] (the message-level
+> record of *what was actually said*, from late June 2026 onward) and [[engagement-history]]
+> (the pre-June 2026 origin story, no longer live).
 >
-> Companion docs: [[engagement-history]] (events), [[role-context]] (the role + inputs),
-> [[tti-stephan-relationship-analysis]] (how Stephan moves).
+> **Routing: log a new decision or strategy shift here. Log a new message or
+> artefact send in [[tti-comms-log]] instead.**
+>
+> Companion docs: [[engagement-history]] (pre-Jun 2026 events), [[role-context]] (the
+> role + inputs), [[tti-stephan-relationship-analysis]] (how Stephan moves).
 
 ---
 
@@ -220,7 +225,7 @@ Only relevant *after* a name + conversation is secured. Preserved here as the re
 
 ## Related
 - [[fde-conversation-piece]] — the in-meeting leave-behind + verbal opener (Forward Deployed Engineer framing mapped to the Director EA role); deploy in the meeting, not before
-- [[independent-consulting-pricing]] — the rate to walk in with (12-month retainer: HK$260k anchor / HK$235k target / ~HK$208k floor = the "base+pension+25%" principle you say out loud); kept off the leave-behind, disclosed verbally / in the SOW
+- [[independent-consulting-pricing]] — the rate to walk in with. **Superseded 6-7 Aug:** the number is HK$208,418/month (US$320,644/yr), stated as the anchor itself, not a floor to open above - see the file's DECIDED block for why (speed outranks rate on this engagement). Kept off the leave-behind, disclosed verbally / in the SOW.
 - [[engagement-history]] — Timeline of what happened (the events companion to this doc)
 - [[role-context]] — The role + the strategic inputs to read before producing anything
 - [[stephan-whatsapp-archive|stephan-whatsapp]] — The direct message (v5.0 rewrite pending)

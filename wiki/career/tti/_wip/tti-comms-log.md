@@ -8,14 +8,41 @@ renamed: 2026-07-17
 
 # TTI — Direct Comms Log (living)
 
-> **The single ongoing record of Julian's direct communications with TTI counterparties.**
-> Holds the *next message to send* at the top, a log of *messages actually sent*, and an
-> **audit trail of drafts and approaches considered and decided against** (with the
-> reasoning). Mirrors [[engagement-history]] (events) and [[tti-engagement-strategy]]
-> (strategy) at the message level. Sectioned by counterparty. Verbatim WhatsApp archive
-> for Stephan in [[stephan-whatsapp-archive]].
+> **The record of Julian's direct communications with TTI counterparties (Stephan, Ty,
+> Kari) — messages, calls, and artefacts sent to them.** Holds the *next message to
+> send* at the top, a log of *messages actually sent*, and an **audit trail of drafts
+> and approaches considered and decided against** (with the reasoning). Sectioned by
+> counterparty. Verbatim WhatsApp archive for Stephan in [[stephan-whatsapp-archive]].
+> Artefact deliveries (documents sent, not messages) are logged below in **Artefacts
+> Delivered**.
+>
+> **Routing (redefined 8 Aug 2026, by who the event is with, not by granularity):**
+> a message, call, or artefact sent **directly to Stephan, Ty, or Kari** goes here.
+> Anything involving a third party (Peter Speck, Horst, Barbara) or the pre-2024 origin
+> story goes in [[engagement-history]] instead — never both. A mixed event (e.g. Stephan
+> messaging Kari live on a call with Julian) logs its direct-comms half here and
+> cross-links to the fuller narrative in engagement-history rather than duplicating it.
 >
 > **Strategy context:** see [[tti-engagement-strategy]] for the current position.
+
+---
+
+## Artefacts Delivered
+
+> Folded in from `artefact-delivery-log` (7 Aug 2026) - documents sent, as distinct from
+> messages/conversations above. What was sent, to whom, how, and how it landed.
+
+| Date | Artefact | Recipient | Delivery | How it landed | Notes |
+|------|----------|-----------|----------|---------------|-------|
+| 27 Jun 2025 | [[tti-resume-june-2025]] | Stephan | WhatsApp | Acknowledged receipt | First CV send; used at Tony Chung interview (11 Sep 2025) |
+| 8 Apr 2026 | [[tti-value-proposition]] | Stephan | Printed — taken away | Received; likely unread as intended | Multi-section doc, one section per TTI exec — concept not explained at lunch |
+| 8 Apr 2026 | [[tti-ai-productivity-gap]] | Stephan | Printed — taken away | Read at the table | Stephan asked to read it; reviewed it properly; no deep discussion |
+| 16 Apr 2026 | [[tti-resume-april-2026]] | Stephan | WhatsApp | Received | Updated post-Cipriani; leads with Enterprise Architect / Agentic AI |
+| 16 Apr 2026 | [[tti-role-profile-director-ea]] | Stephan | WhatsApp | Received | Invented role profile defining the Director EA scope at group level |
+| 4 Jul 2026 | [[tti-ty-brief]] (v3 one-pager) + [[tti-resume-april-2026]] | Stephan (to forward) | WhatsApp + PDF | Read 4 Jul; forwarded to Ty ~12 Jul | The personal-endorsement pivot pack; AI savings work held pull-only |
+| ~12 Jul 2026 | [[tti-ty-brief]] (v3 one-pager) + [[tti-resume-april-2026]] | **Ty Staviski** (via Stephan) | Forwarded by Stephan | Read; Ty called Julian 15 Jul | First artefact to reach the decision-maker |
+
+**Pending (drafted, not yet delivered):** [[tti-ty-engagement-proposal]] — the Ty proposal, due Mon 10 Aug; logs here once actually sent.
 
 ---
 
