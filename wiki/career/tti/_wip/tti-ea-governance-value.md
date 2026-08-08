@@ -26,7 +26,8 @@ Requirement IDs refer to [[tti-ea-requirements]], the sourced verbatim log of wh
 | § | The argument | Answers |
 |---|---|---|
 | **1** | Silo diagnosis - fragmentation is rational M&A residue, not incompetence; the committees are the symptom, the missing layer is the cause | T1, T2, K1 |
-| **2** | FinOps analogy, restated on **risk transfer** - the centre can commit to a shared platform because it spreads the bet; a single region cannot | T9, T12, K7 |
+| **2a** | FinOps analogy, restated on **risk transfer** - the centre can commit to a shared platform because it spreads the bet; a single region cannot | T9, T12 |
+| **2b** | **TBM cost transparency** - answers Kari's stated data gap; the ask-never-assert opening to a group cost standard | K7, T13 |
 | **3** | The TOGAF components that kill specific silo behaviours (principles, Architecture Board, reference architectures, ADM G/H, contracts) + the sequencing answer | T1, T3 |
 | **4** | **The mandate** - where the board's authority comes from. Joint charter, deadlock-breaker, resourcing at charter. *The load-bearing section.* | T3, K8 |
 | **5** | The coordination-tax number - the shape of the cost, offered to be measured properly in week one | T6, T8, T9 |
@@ -43,7 +44,7 @@ Surfaced by mapping against [[tti-ea-requirements]] on 8 Aug. These are gaps in 
 | **K4** | Old leadership *"had been burnt by programmes that overran and cost a lot of money"* | **The sharpest unanswered objection in the corpus, and the biggest missed opportunity.** Nothing here answers *"how do I know this won't be another one?"* - the natural question behind a 12-month commitment. But the stronger move is to invert it: **architectural assurance stops people marking their own homework**, which makes EA the answer to a pain TTI has already felt rather than a cost needing justification. The argument must stay generic - never name a programme, number or business unit - because the CEO's public position is that the recent Milwaukee ERP conversion *"executed flawlessly."* Full intel, public record and the safe wording: [[tti-ea-requirements]] § The overrun question. |
 | **K3** | Scope should be **the whole enterprise**, not just US/HK - *"if we are doing this it should be done everywhere"*; Australia and Europe are okay, the gap is elsewhere | §1's geography guard covers Milwaukee/US only. The argument is framed US-HK throughout, which is narrower than Kari's stated scope. |
 | **K5** | 12 months, and explicitly **strategic long-term gains, not quick wins** | Sits in tension with the execution-first month-1 design now going into [[tti-ty-engagement-proposal]]. Not a contradiction - early delivery proves the mechanism rather than being the point - but the language must not read as quick-win chasing to Kari. |
-| **T13** | The **global P&L platform** Ty co-drives with Casey and Frank - one standard system for reading P&Ls and gross margin | Named in the proposal but absent from this argument bank, despite being the most natural hook for §2's FinOps material. |
+| ~~**T13**~~ | ~~The global P&L platform~~ | **CLOSED 8 Aug — now §2b.** Built as an ask-never-assert opening, because T13 is INTERNAL (employee Q&A) and quoting it would reveal Julian holds an internal transcript. |
 
 ---
 
@@ -131,9 +132,13 @@ The fragmentation is the rational residue of acquisition-led growth. TTI bought 
 
 **Geography guard (Milwaukee):** never frame this as HK governing the US. Milwaukee is the most mature IT shop and the target should start *from* its patterns; its architecture leads are among the first board members. Position yourself as the coordination point pulling Asia's tiers toward the group standard, working *with* the US, exactly as Ty framed it, not a throne over it.
 
-## 2. FinOps analogy (a separate talking point — restated on RISK TRANSFER)
+## 2. FinOps and TBM — the two finance-native arguments
 
-*Flagged deliberately as a distinct discipline — an operating-model analogy, native language for a finance audience, not a claim that EA is FinOps.*
+*Two distinct arguments, both in a CFO's own language. **2a** is an operating-model analogy (why a centre can commit when a region cannot). **2b** is a capability offer (cost transparency across the whole estate). Keep them separate: 2a is a way of explaining EA, 2b is a thing Julian would actually build.*
+
+> **⚠ Seniority signal — do not conflate the two disciplines.** **FinOps is the cloud slice; TBM is the whole estate** (infrastructure, applications, licences, labour, outsourced services *and* cloud). They are not the same principles at different sizes. Getting this distinction right lands as senior in a CFO conversation; getting it wrong is a tell. Source: [[tbm-vs-finops]].
+
+### 2a. Risk transfer — why the centre can commit when a region cannot
 
 The transferable idea is **not** discount mechanics (a finance-literate skeptic will correctly say SAP and Oracle licences don't pool like fungible compute, and licence consolidation is already procurement's job). The idea that transfers is **risk transfer through the centre**:
 
@@ -147,6 +152,28 @@ The transferable idea is **not** discount mechanics (a finance-literate skeptic 
 **Honest caveat:** don't claim the centre "never touches implementation" — a group ERP reference architecture visibly shapes what regions run. The line is: the centre owns the *target and the decision rights*; the regions own *how they get there*.
 
 > **Say it like this:** "It's the FinOps risk-transfer principle. A single region won't commit to a shared platform because a failed bet is theirs alone — so it silos. The centre can commit because it carries that bet across the portfolio. Same reason a central FinOps team holds the commitment risk so the engineers don't have to."
+
+### 2b. Cost transparency (TBM) — answering K7, and the opening to a group cost standard
+
+*This answers a requirement Kari stated to Julian's face, so unlike most of this document it rests on something quotable.*
+
+**The stated requirement (K7, DIRECT — safe to reference):** responding to Julian's TBM point about shared data letting finance and IT discuss trade-offs in the same language, Kari said: **"We lack having that type of data available to us in the organisation."** He volunteered it as a real gap.
+
+**What TBM actually is, and why the distinction is the argument.** TBM maps general-ledger technology spend up to business capabilities across infrastructure, applications, licences, labour and outsourced services — so the question shifts from *"what did technology cost?"* to *"is our total technology spend delivering business value?"* You cannot reduce a cost estate you cannot read, and today TTI's technology cost is a lump in the P&L rather than something anyone can manage line by line.
+
+**Why this is defensible work and not a tooling purchase** ([[tbm-vs-finops]]): the cloud-FinOps layer is commoditising toward free and native — the hyperscalers ship it. What stays unautomated is the whole-estate allocation: mapping spend to capabilities is org-specific business-rule logic, the data is fragmented across the GL, CMDBs, HR, licence managers and contracts, and **the genuinely hard part is not the analytics but getting Finance and Engineering to agree the model and own the number.** That needs a neutral human with standing. It is exactly the coordinating role, and it is exactly what a tool cannot supply.
+
+**The hook to a group cost standard — ⚠ ASK, NEVER ASSERT.** TTI is standing up a global platform for reading P&Ls and gross margin one consistent way (T13). **That is INTERNAL, from the employee Q&A — Julian must not reveal he knows it.** See [[tti-ea-requirements]] § Quotability. Raise the principle and let Ty supply the specific:
+
+> *"Cross-functional platforms that give the business one consistent way of reading its numbers are exactly what architecture governance exists to protect — they fragment the moment each region interprets the standard slightly differently. Is there work like that underway?"*
+
+If he says yes, the argument opens on his invitation: **a group P&L standard is how the *business* reads its money; TBM is how the *technology estate* reads its money — the same discipline in an adjacent domain, and the second feeds the first.** Without it, technology stays an unexplained lump inside the very platform he is building.
+
+**And the EA close, which is the point:** one standard system across an organisation is an **architectural commitment, not a software purchase.** It stays standard only while something governs it; the moment each region interprets it locally you are back to reconciliation. Cross-business, cross-functional systems of exactly this kind are what enterprise architecture exists to encourage and then protect.
+
+**Guardrail:** Casey owns that programme, with Frank and Ty. Never sound like you are taking it. The frame is strictly additive — you make sure the technology-cost view underneath exists, and that the standard holds across regions.
+
+> **Say it like this (once he has raised it):** "That's the business view of the money. The bit that usually goes missing underneath is the technology view — mapping what the estate actually costs up to the capabilities it supports, so technology stops being one line in the P&L. That's TBM rather than FinOps; FinOps is just the cloud corner. The hard part isn't the tooling, it's getting Finance and Engineering to agree the model and own the number — and that needs someone neutral with the standing to settle it."
 
 ## 3. The TOGAF parts that map to his pain (memorable set) + the sequencing answer
 

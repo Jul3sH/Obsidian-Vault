@@ -17,9 +17,28 @@ created: 2026-08-08
 **Sourcing key:**
 - **DIRECT** — said by the stakeholder directly to Julian (call, meeting)
 - **RELAYED** — said by the stakeholder to a third party (usually Stephan), reported to Julian secondhand
-- **PUBLIC** — said publicly (AR25 results call, employee Q&A), not addressed to Julian or about this engagement specifically, but evidences the stakeholder's own stated priorities
+- **PUBLIC** — said in the annual report or the investor-facing results announcement. Externally published, so safe to reference without explaining how Julian knows it.
+- **INTERNAL** — said in the **employee Q&A town hall**, which is not an external publication. Julian holds a transcript, but **must not quote or allude to it in a way that reveals he has read internal material.** Evidences a stakeholder's real priorities and is valuable for *shaping* an argument; it is not citable. See "Quotability" below.
 - **INTEL (unverified)** — a factual claim about TTI from a third party (usually Justin), not a stated requirement and not confirmed. Recorded because it shapes how a requirement should be handled, but **never quotable to TTI** and never to be treated as established.
 - **SIMULATED — excluded.** Fable/Codex role-play simulations of Ty or Kari are prep material, not real statements. None are included below. If a simulated line is ever quoted elsewhere as if real (as nearly happened with pricing multiples), that is a sourcing error - flag it.
+
+## Quotability — what can be said out loud, and what cannot
+
+| Source type | Can Julian reference it to TTI? |
+|---|---|
+| **DIRECT** | Yes. They said it to him. Reflecting it back is proof he listened, and is the strongest available move (see the attribution mechanic in [[tti-kari-call-simulation-2026-07-19]]). |
+| **RELAYED** | Carefully. It came via Stephan or Justin, so it carries their interpretation. Never attribute a relayed line to the original speaker as if heard first-hand. |
+| **PUBLIC** | Yes. Annual report and investor-facing results announcement are published; referencing them shows homework, not access. |
+| **INTERNAL** | **No.** Quoting the employee Q&A reveals Julian holds an internal transcript. That raises "how does he know that?", exposes whoever shared it (likely Justin), and cuts against being assessed on merit rather than back-channel access. |
+| **INTEL (unverified)** | **No.** Never quotable, and not established fact even privately. |
+
+**The workaround for INTERNAL material — put the specific in their mouth.** Raise the *principle* generically, then ask a question that invites them to supply the detail themselves. Once Ty describes an initiative, it is his information, freely given, and Julian can engage with it fully. This is the same mechanic that works elsewhere on this engagement: let Ty set the multiple, let Ty name his own example.
+
+Worked example for **T13** (the global P&L platform), which must not be named:
+> ❌ *"You have a global P&L platform in flight."*
+> ✅ *"Cross-functional platforms that give the business one consistent way of reading its numbers are exactly the kind of thing architecture governance exists to protect — they fragment the moment each region interprets the standard differently. Is there work like that underway?"*
+
+If the answer is yes, Ty has just told Julian about it and the whole TBM/FinOps argument opens up on his invitation.
 
 ## Where these requirements are answered
 
@@ -49,8 +68,8 @@ created: 2026-08-08
 | T9 | **10% EBIT margin target by 2027**, driven by using AI and asset leverage to *"take out the structural corporate admin and G&A cost."* | [[tti-2025-ar-key-initiatives]], AR25 document | PUBLIC | AR25 (2026) |
 | T10 | Credited with margin expansion from *"leverage and drive leverage costs in our factories"* and collaborating with the supply base to mitigate tariffs and lower costs | [[tti-2025-ar-key-initiatives]], AR25 document | PUBLIC | AR25 (2026) |
 | T11 | Oversaw a decrease in **net interest expense** (down to 0.2% of turnover) through efficient management of financial resources, freeing room for tech investment | [[tti-2025-ar-key-initiatives]], AR25 document | PUBLIC | AR25 (2026) |
-| T12 | **(Steve Richman, CEO, describing Ty's remit — not Ty's own words, included because it names a live workstream Ty owns):** *"Ty has the organisation leading from an IT perspective to be able to say where can we leverage best cost all of our systems and we already got major reductions on that."* | [[tti-2025-ar-key-initiatives]], employee Q&A transcript | PUBLIC (about Ty, not by Ty) | AR25 (2026) |
-| T13 | **(Steve Richman describing a live cross-enterprise initiative Ty co-drives — not Ty's own words):** *"Casey has been working on with all the finance group with Frank and Ty, a global platform for how we look at our P&Ls, how we look at our gross margin, how we look at everything so we have one standard system across the organisation."* | [[tti-2025-ar-key-initiatives]], employee Q&A transcript | PUBLIC (about Ty, not by Ty) | AR25 (2026) |
+| T12 | **(Steve Richman, CEO, describing Ty's remit — not Ty's own words, included because it names a live workstream Ty owns):** *"Ty has the organisation leading from an IT perspective to be able to say where can we leverage best cost all of our systems and we already got major reductions on that."* | [[tti-2025-ar-employee-qa-script]] line 494 | **INTERNAL — not quotable** (about Ty, not by Ty) | AR25 (2026) |
+| T13 | **(Steve Richman describing a live cross-enterprise initiative Ty co-drives — not Ty's own words):** *"Casey has been working on with all the finance group with Frank and Ty, a global platform for how we look at our P&Ls, how we look at our gross margin, how we look at everything so we have one standard system across the organisation."* | [[tti-2025-ar-employee-qa-script]] line 494 | **INTERNAL — not quotable** (about Ty, not by Ty) | AR25 (2026) |
 | T14 | No offer, no structure, no timeline commitment was given at the 15 Jul call — noted explicitly so this isn't over-read as more than it was | [[tti-comms-log]], 15 Jul call record | DIRECT (absence of a requirement, logged for completeness) | 2026-07-15 |
 
 ---

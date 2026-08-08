@@ -30,9 +30,11 @@ deliverable: tti-ty-proposal
 
 ## Enterprise Architecture & Governance - 12-month engagement
 
-**The offer in one line: I'd work on your existing initiatives, in an enterprise-architecture context.** Not a parallel programme, not a new function competing for sponsorship. You have a global P&L platform in flight, an IT cost leverage workstream that has already delivered, an ERP estate that has just proven it can execute, and an AI agenda aimed at structural G&A. Each is run well on its own. What's missing is the layer that makes them compose instead of collide - and that layer is what I do.
+**The offer in one line: I'd work on your existing initiatives, in an enterprise-architecture context.** Not a parallel programme, not a new function competing for sponsorship. You already have momentum - a North American ERP conversion that went in on a one-team model when those projects routinely go wrong elsewhere, and an AI agenda pointed at structural G&A cost. Each has its own owner and its own drive behind it.
 
-**Your target, not my proposal.** You've set a path to a 10% EBIT margin by 2027 by taking structural corporate admin and G&A cost out of the business. This extends that workstream. The lever I add is architectural: cost that comes out once and stays out, because the structure that generated it has changed.
+What tends to go missing at group scale is the layer that keeps a standard holding as it extends across regions - whether that is an ERP target state, one consistent way of reading cost and margin, or the data discipline an AI agenda needs underneath it. Standards don't fail at the point they're agreed; they fail quietly afterwards, as each region interprets them slightly differently and the reconciliation comes back. That layer is what I do.
+
+**Your target, not my proposal.** You've set the path to a 10% EBIT margin by taking structural corporate admin and G&A cost out of the business, and said you're on the way to it. This extends that workstream. The lever I add is architectural: cost that comes out once and stays out, because the structure that generated it has changed.
 
 **Where the money is.**
 
@@ -45,7 +47,7 @@ deliverable: tti-ty-proposal
 
 **Two capabilities I'd stand up inside that.**
 
-**FinOps and cost transparency.** Kari's assessment was that TTI lacks this data in the organisation, and you can't reduce a cost estate you can't read. A FinOps capability puts unit economics on technology spend - what each service costs, who consumes it, and what drives the variance - which does two things at once: it exposes recurring savings in run-rate spend that is already being paid, so payback is unusually fast, and it produces the technology cost view the global P&L platform needs underneath it. This is the same discipline you're already applying to gross margin, applied to the technology estate.
+**Cost transparency across the technology estate.** Kari's assessment was that TTI lacks this data in the organisation, and you can't reduce a cost estate you can't read. This is TBM rather than FinOps - FinOps is the cloud corner and it is commoditising toward native tooling; the whole-estate view maps what infrastructure, applications, licences, labour and contracts actually cost, up to the capabilities they support. It does two things at once: it exposes recurring savings in run-rate spend you are already paying, so payback is unusually fast, and it turns technology from one lump in the P&L into a line the business can actually read. Wherever the group is standardising how it reads cost and margin, this is the technology view that belongs underneath it.
 
 **AI leverage inside existing workflows.** Your own framing is AI and asset leverage taking out structural admin and G&A. The constraint on that isn't the models, it's knowing which workflows are safe to change and how the output gets checked. My background is twelve years designing end-to-end operational workflows; AI slots into that as another entity in the process rather than a technology to be adopted separately. So the contribution is identifying where AI genuinely removes structural cost, and putting the governance around it - repeatable, checked, endorsed, with defined levels of human judgment - so the savings survive audit and scale past the pilot. Not building tools in a corner.
 
@@ -62,11 +64,11 @@ deliverable: tti-ty-proposal
 
 Give me TTI's WACC and I'll re-run it at your rate.
 
-**Put the hurdle against the spend it governs.** I don't have your group technology spend - you do. Whatever it is, US$141,800 is the fraction of it this has to improve to wash its face, and on any plausible figure for a US$15.3bn business that fraction is a few basis points. Your team has already delivered reductions larger than that. The question isn't whether the hurdle is clearable; it's whether a group architecture layer is worth a few basis points of the estate it governs.
+**Put the hurdle against the spend it governs.** I don't have your group technology spend - you do. Whatever it is, US$141,800 is the fraction of it this has to improve to wash its face, and on any plausible figure for a US$15.3bn business that fraction is a few basis points. The first question is whether the measured estate clears that hurdle - not whether a group architecture layer is worth a few basis points of what it governs.
 
 **Month 1 sets the targets I'm then held to.** Thirty days, three outputs: the coordination and duplication cost measured from calendar and portfolio data; a map of which cross-region decisions escalate, to which forum, and how long each takes to clear; and a sequenced plan for months 2-12 priced against that baseline. That turns the table above into TTI's actual numbers and gives you something concrete to hold me to for the remaining eleven months. Your finance ops team can pull the data - I define what counts, so a renamed "alignment sync" doesn't quietly leave the baseline.
 
-**Months 2-12 build the layer** - a group reference architecture and the governance that makes it bind, so cross-region decisions get made once, by a defined owner, against a standard, with the FinOps view underneath telling you what each decision costs.
+**Months 2-12 build the layer** - a group reference architecture and the governance that makes it bind, so cross-region decisions get made once, by a defined owner, against a standard, with the cost view underneath telling you what each decision costs.
 
 **Why 12 and not 6.** Six months buys tactical fixes that revert the moment I leave. Month one is baseline either way, governance takes three to four months to stand up, and you need two full quarterly cycles running through it to know the structure holds rather than the person holding it up. Six months stops before that test - and it costs more per month, because the annual fixed costs I carry don't halve over a shorter term. The cheaper-looking option is dearer and leaves less behind.
 
@@ -113,9 +115,9 @@ The quick win is the *proof of the mechanism*, never a substitute for it.
 
 ## The five lines
 
-1. **"What I'd like to do is work on the initiatives you already have, but in an enterprise-architecture context.** You've got the global P&L platform, the IT cost leverage work, the AI agenda on G&A. They're each run well. What's missing is the layer that makes them fit together rather than collide."
+1. **"What I'd like to do is work on the initiatives you already have, but in an enterprise-architecture context.** You've got the ERP work in North America, the AI agenda on G&A - each with its own owner and its own momentum. What tends to go missing at group scale is the layer that keeps a standard holding as it extends, so it doesn't quietly fragment region by region." **⚠ Do NOT name the global P&L platform or the IT cost-leverage results** - both are internal (employee Q&A) and naming them reveals you hold an internal transcript. If you want to open that door, ask instead: *"Is there work underway to standardise how the business reads its cost and margin?"* See [[tti-ea-requirements]] § Quotability.
 
-2. **"The reason that layer pays is that cross-region decisions currently have no owner, so they go to a committee.** Every one that waits defers whatever was behind it - and I'd add two capabilities inside that: FinOps, so you can actually read the technology cost estate, and AI governance so the workflow savings survive an audit."
+2. **"The reason that layer pays is that cross-region decisions currently have no owner, so they go to a committee.** Every one that waits defers whatever was behind it - and I'd add two capabilities inside that: cost transparency across the estate, so you can actually read what technology costs, and AI governance so the workflow savings survive an audit." **If he probes the cost discipline, say TBM, not FinOps** - FinOps is the cloud corner and it's commoditising; the whole-estate view is the scarce work. Getting that distinction right lands as senior; getting it wrong is a tell.
 
 3. **"I'm not going to quote you a benefit number I haven't measured. What I can tell you is the hurdle.** At US$320,644 this breaks even on a recurring saving of about US$142,000 a year, on a three-year view at ten percent. Put that against whatever your group technology spend is - it's a few basis points."
 
