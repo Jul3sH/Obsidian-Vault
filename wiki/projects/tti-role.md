@@ -62,14 +62,15 @@ status-updated: 2026-08-07
 
 **Julian's argument:** "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos. But I can't coordinate directors as a Principal — that's not about ambition, it's about organizational structure. The role requires director-level seniority to have peer authority." This leans the conversation back toward the EA role Ty described, not the system admin job, and frames the director-level requirement as structural necessity, not preferential.
 
-**Next actions (updated 7 Aug):**
-1. **Fix [[tti-ty-engagement-proposal]] before sending.** Apply [[tti-ty-engagement-proposal-codex-review-2026-08-07]] F1: month 1 must be framed as execution on one live decision plus concrete 10-day and 30-day outputs, not discovery that decides whether the no-break engagement is justified.
-2. **Get Kari before Monday.** He answers two load-bearing assumptions at near-zero cost: whether Ty will accept scope being set in month 1 rather than named up front, and whether a consulting contract actually confers the right to work in HK.
+**Next actions (updated 8 Aug):**
+1. **⭐ REVIEW [[tti-ea-governance-value]] when you're back online.** Restructured today with a purpose block, a section map against [[tti-ea-requirements]], a new §0 (live H1 2026 urgency) and a new §5b (assurance/overrun answer) - and the prior-proof blocker in §8 is now closed (BG Group, not Telstra). Read it before Monday; it changed substantially and you haven't seen the current version.
+2. **Get Kari before Monday.** He answers two load-bearing items at near-zero cost: whether Ty will accept scope being set in month 1 rather than named up front, and whether a consulting contract actually confers the right to work in HK.
 3. **Ask Stephan on Monday whether Ty can actually decide fast** - before the call, not after. If no, the proposal's job changes from closing to setting a dated next step.
-4. **Build the prior-proof story (still a BLOCKER for the Ty room).** One concrete Telstra International before/after plus a US$300M-transformation equivalent. Keep it honest: components run at scale, not the exact TTI machine end-to-end.
+4. **Consider a fresh adversarial pass on [[tti-ty-engagement-proposal]].** It has changed substantially since the 7 Aug Codex review - new opening, execution-first month 1, the overrun answer, the scope paragraph, the H1 2026 line - and hasn't been re-reviewed since.
 5. **Sequence Tony FIRST** - he must hear it from Ty, framed as pooling authority not confiscating, before it reaches any sign-off desk.
 6. **Re-check the mid-August drop-dead before relying on it again.**
-7. **Held, not dropped:** the CEO-chip charter fallback and the standalone one-page audit scope in [[tti-cfo-brief]], now absorbed into month 1 of the proposal rather than left as a separate approval.
+
+**Done since 7 Aug, for the record:** the Codex F1 fatal is fixed (month 1 is now execution, not discovery); all four [[tti-ea-requirements]] gaps (K3, K4, K5, T13) are closed; the prior-proof story is built (BG Group Design Authority - [[tti-story-bank]] §1a); internal-sourced claims and the unverified ERP-tier claim are out of the proposal; H1 2026 results are folded into the argument bank (§0) and the proposal opening. The CEO-chip charter fallback and the standalone [[tti-cfo-brief]] audit scope remain held, absorbed into month 1 rather than a separate approval.
 
 **Risk watch:** Tony Chung learning of this and attempting to block/limit remit. Mitigation: keep the narrative focused on Ty's expressed gap (EA/governance), not platform engineering, so Tony has less purchase.
 

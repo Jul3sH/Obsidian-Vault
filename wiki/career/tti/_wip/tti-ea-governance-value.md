@@ -17,7 +17,7 @@ send: NEVER
 
 **Why it was created (19 Jul 2026):** Ty described the gap unprompted on the 15 Jul call - fragmented technology leadership across Asia, too many steering committees to coordinate between the silos, needing frameworks and governance put in place. This document was built to have a hardened answer ready for the conversations that would follow, rather than composing one live in the room.
 
-**How it is used:** Julian only. `send: NEVER` - it is not an artefact to share, and several sections would be actively damaging if they reached Tony Chung. Read the section that matches the objection you expect, carry the argument, and draw the sharpest lines into the artefact you are actually writing. The numbers-shaped distillation for a finance audience is [[tti-cfo-brief]]; the live proposal it feeds is [[tti-ty-engagement-proposal]].
+**How it is used:** Julian only. `send: NEVER` - it is not an artefact to share, and several sections would be actively damaging if they reached Tony Chung. Read §0 first for why the argument is urgent right now, then the section that matches the objection you expect. Carry the argument, don't read it out, and draw the sharpest lines into the artefact you are actually writing. The numbers-shaped distillation for a finance audience is [[tti-cfo-brief]]; the live proposal it feeds is [[tti-ty-engagement-proposal]].
 
 ## Section map — which argument answers which stated requirement
 
@@ -25,26 +25,45 @@ Requirement IDs refer to [[tti-ea-requirements]], the sourced verbatim log of wh
 
 | § | The argument | Answers |
 |---|---|---|
+| **0** | **The live urgency** - H1 2026 results show SG&A eating most of a record gross-margin gain; opens the case with why now, before §1 argues the mechanism | T9, T15-T18 |
 | **1** | Silo diagnosis - fragmentation is rational M&A residue, not incompetence; the committees are the symptom, the missing layer is the cause. Plus the **scope guard** (design enterprise-wide, deploy where the gap is) and the Milwaukee geography guard | T1, T2, K1, K3 |
 | **2a** | FinOps analogy, restated on **risk transfer** - the centre can commit to a shared platform because it spreads the bet; a single region cannot | T9, T12 |
 | **2b** | **TBM cost transparency** - answers Kari's stated data gap; the ask-never-assert opening to a group cost standard | K7, T13 |
-| **3** | The TOGAF components that kill specific silo behaviours (principles, Architecture Board, reference architectures, ADM G/H, contracts) + the sequencing answer | T1, T3 |
+| **3** | The TOGAF components that kill specific silo behaviours (principles, Architecture Board, reference architectures, ADM G/H, contracts) + the sequencing answer. **Take the bits that work, never impose a whole framework** - which is K6 | T1, T3, K6 |
 | **4** | **The mandate** - where the board's authority comes from. Joint charter, deadlock-breaker, resourcing at charter. *The load-bearing section.* | T3, K8 |
 | **5** | The coordination-tax number - the shape of the cost, offered to be measured properly in week one | T6, T8, T9 |
+| **5b** | **Assurance** - why governed programmes overrun less; nobody marks their own homework. Lead with it, never defend against it | K4 |
 | **6** | EA-vs-solution-architect boundary - how the deep work gets done without claiming SAP/Oracle depth | T2, K9 |
 | **7** | The killer objection pre-empted - "you'll just draw diagrams"; authority is the scarce thing, which is why it must be director-level | T2 |
 | **8** | Predictable director-hire questions - reporting line, why external, prior proof, first 90 days | T4, K9 |
 
-## ⚠ Stated requirements this document does NOT yet answer
+## ✅ Requirements coverage — all closed as of 8 Aug
 
-Surfaced by mapping against [[tti-ea-requirements]] on 8 Aug. These are gaps in the argument bank, not gaps in the requirements.
+Full audit against [[tti-ea-requirements]]. Every stated requirement now has an argument, is out of scope by decision, or is a process/signal item needing none.
 
-| Requirement | What it says | Why the gap matters |
-|---|---|---|
-| **K4** | Old leadership *"had been burnt by programmes that overran and cost a lot of money"* | **The sharpest unanswered objection in the corpus, and the biggest missed opportunity.** Nothing here answers *"how do I know this won't be another one?"* - the natural question behind a 12-month commitment. But the stronger move is to invert it: **architectural assurance stops people marking their own homework**, which makes EA the answer to a pain TTI has already felt rather than a cost needing justification. The argument must stay generic - never name a programme, number or business unit - because the CEO's public position is that the recent Milwaukee ERP conversion *"executed flawlessly."* Full intel, public record and the safe wording: [[tti-ea-requirements]] § The overrun question. |
-| ~~**K3**~~ | ~~Whole-enterprise scope~~ | **CLOSED 8 Aug — now §1 scope guard.** Design enterprise-wide, deploy where the gap is. Also carried into [[tti-ty-engagement-proposal]] as an explicit "On scope" paragraph. |
-| ~~**K5**~~ | ~~Strategic gains, not quick wins~~ | **CLOSED 8 Aug.** Reconciled in [[tti-ty-engagement-proposal]]: month 1 delivers *proof the mechanism works*, not a quick win, and months 2-12 are explicitly "a structure that holds after I've gone". **Standing guardrail: never say "quick win" on this engagement** - Kari sponsored the 12-month term on precisely that distinction, so the phrase contradicts your own sponsor. |
-| ~~**T13**~~ | ~~The global P&L platform~~ | **CLOSED 8 Aug — now §2b.** Built as an ask-never-assert opening, because T13 is INTERNAL (employee Q&A) and quoting it would reveal Julian holds an internal transcript. |
+| Requirement | Status |
+|---|---|
+| ~~**K3**~~ Whole-enterprise scope | **CLOSED — §1 scope guard.** Design enterprise-wide, deploy where the gap is. Also an explicit "On scope" paragraph in [[tti-ty-engagement-proposal]]. |
+| ~~**K4**~~ Leadership burnt by overruns | **CLOSED — now §5b.** Inverted from objection to argument: assurance separates the design judgement from the delivery pressure. Hard guardrail on naming anything. |
+| ~~**K5**~~ Strategic gains, not quick wins | **CLOSED.** Month 1 delivers *proof the mechanism works*, not a quick win; months 2-12 are "a structure that holds after I've gone". **Standing guardrail: never say "quick win"** - Kari sponsored the 12-month term on that distinction. |
+| ~~**K6**~~ Take the bits of frameworks that work | **CLOSED — §3**, which was always this argument but was unmapped until 8 Aug. |
+| ~~**T13**~~ Global P&L platform | **CLOSED — §2b**, as an ask-never-assert opening, because T13 is INTERNAL and quoting it would reveal Julian holds an employee-Q&A transcript. |
+| ~~**T9, T15-T18**~~ H1 2026 results (SG&A/margin, FCF target, buyback, capacity expansion) | **CLOSED — new §0**, added 8 Aug. Opens the document with why the argument is urgent this half, ahead of §1's mechanism. Full workup: [[tti-h1-2026-results-talking-points]]. |
+
+### Deliberately not addressed (decision, not oversight)
+
+| Requirement | Why |
+|---|---|
+| **T10** Margin expansion via factory leverage and supply-base collaboration | Manufacturing and procurement cost, not technology estate. Outside what an EA engagement can credibly influence. Reaching for it would look like claiming everything. |
+| **T11** Net interest expense down to 0.2% of turnover | Treasury and capital management. No EA lever exists. |
+| **T19** Effective tax rate / tax efficiency | Kari's territory (ex-KPMG transfer pricing), not Ty's. Held in [[tti-h1-2026-results-talking-points]] for the Kari channel rather than argued here. |
+| **T20** MILWAUKEE ERP "planned timing impact" | **Do not use as overrun evidence** - the word is "planned", and the CEO's public position is that it executed flawlessly. Its only safe use (neutral evidence that large ERP conversions have lasting financial effects) is already folded into §5b without naming it. |
+
+### Requirements needing no argument (process, timing or signal, not a stated need)
+
+**T5** August meeting suggested · **T7** 12 months seemed acceptable · **T14** no offer or structure given · **K2** no pushback on the EA framing · **K10** positive on the AI/service-design pitch · **K11**–**K13** decision timing and the pending Kari reply. **J1/P1/P2** are the overrun intel and public record; they inform §5b rather than being requirements themselves.
+
+**One note on where AI sits.** Kari responded positively to the AI framing (K10), but the AI *value* argument lives in [[tti-ty-engagement-proposal]] and [[tti-story-bank]] §1c, not here. This document carries only §7's defensive AI line, welded to the authority clause. That is deliberate - here AI is a thing to be defended, not sold.
 
 ---
 
@@ -121,6 +140,28 @@ Surfaced by mapping against [[tti-ea-requirements]] on 8 Aug. These are gaps in 
 > FinOps source: [[tbm-vs-finops]].
 
 ---
+
+## 0. The live urgency (H1 2026 results — why now, not just why architecture)
+
+*Everything below is PUBLIC (30 Jun 2026 HKEX results announcement) - fully quotable. Full workup: [[tti-h1-2026-results-talking-points]].*
+
+**The numbers, in order:**
+
+| | H1 2026 | Movement |
+|---|---|---|
+| Gross margin | 42.9% (record) | +258 bps |
+| SG&A / sales | 33.0% | +173 bps |
+| EBIT margin | 9.9% (record) | +86 bps |
+
+**Roughly two-thirds of a record gross-margin gain was consumed by SG&A growth before it reached EBIT.** TTI's own explanation is mostly deliberate investment - new product development, field resources, commercialisation, write-offs from rationalising underperforming categories - **not waste, and do not imply otherwise.** But the arithmetic still stands, and it lands on the exact lever Ty has already named publicly: taking out *structural* corporate admin and G&A cost, on the way to the 10% EBIT target by 2027 (now independently confirmed in this same announcement - TTI is already at 9.9%).
+
+**Why this goes first, ahead of the silo diagnosis.** Everything from §1 onward argues that architecture removes structural cost. This section is the reason that argument is urgent *this half*, not evergreen: the easy operational margin has been taken, and TTI's own numbers say the next point has to come from the structural side. Open here, then move to §1's mechanism.
+
+> **Say it like this:** "One thing that struck me in the half-year numbers - 258 basis points of gross margin is a serious operational result, but only 86 of it reached EBIT, because SG&A moved 173. Most of that looks like deliberate investment, not waste. But it does mean the next margin point has to come from the structural side, and that's the part architecture actually touches."
+
+**Two other live signals, lower priority, useful if the conversation opens onto them:**
+- **Free cash flow target raised mid-year** from >US$1.0bn to >US$1.3bn, and a **US$500m buyback** already running (US$42m repurchased by end July). Use the buyback as evidence the fee is small, never as evidence the value is large - US$320,644 is a rounding error against it, which is the breakeven-hurdle framing already in the proposal, not a new claim.
+- **Capacity expansion in Vietnam and the Americas over the next 12-18 months.** A forward-looking, non-remedial architecture hook - new sites need a standard to conform to, not a legacy one to be untangled from.
 
 ## 1. The silo diagnosis (respectful — it's M&A residue, not incompetence)
 
@@ -232,6 +273,24 @@ Don't walk in with an unmeasured saving. Bring the **shape** of the number, and 
 
 > **Say it like this:** "I haven't measured your number yet — that's week one of discovery. But the shape is this: [N] committees, [8] senior people, [fortnightly], is already hundreds of director-hours a year just in the room, and the real cost is the decisions those rooms hold up — [your one concrete example]. You can't just cancel them; you have to replace what they decide, which is the board. My KPI is retiring them, measured and held to."
 
+## 5b. Assurance — why governed programmes overrun less (answers K4)
+
+*Numbered 5b deliberately: other files cite §4, §6 and §8 by number, so renumbering would break them.*
+
+**The stated requirement (K4, DIRECT from Kari — safe to reference).** Old leadership *"had been burnt by programmes that overran and cost a lot of money"* and therefore did not believe in spending on technology leadership or EA. Kari framed this as the *old* regime, improved under new leadership.
+
+**Invert it — this is the strongest argument FOR the capability, not an objection to survive.** The pain is already felt and already believed inside TTI. That makes architecture governance the answer to a known problem rather than a cost needing justification. Do not defend against it; lead with it.
+
+**The mechanism, in one idea.** Large technology programmes overshoot mostly not through incompetence, but because **the people accountable for hitting a date are also the people judging whether the design is sound.** When the design decision and the delivery pressure sit in the same hands, optimism is structural rather than personal. Independent architecture assurance separates those two jobs, so problems surface while they are still cheap to fix rather than at integration.
+
+**Why it is an EA argument and not a PMO one.** A PMO tracks whether the plan is being followed; assurance tests whether the thing being built is the right shape and conforms to the standard. The second is what stops rework, and rework is the mechanism by which programmes overrun.
+
+**The proof (now available — [[tti-story-bank]] §1a).** BG Group: 20+ design standards, design cycle times down up to 30%, **measured**. That is the same causal chain - a standard removes the re-litigated decision, so the work gets faster and lands right first time more often.
+
+> **⚠ HARD GUARDRAIL — never name a programme, a number or a business unit.** The CEO's public position is that the North American ERP conversion *"executed flawlessly"*, and it is Shane Mall's business. Justin's ~US$50M overrun figure is unverified hearsay and must never be spoken. **Let Ty supply his own example.** Full intel and public record: [[tti-ea-requirements]] § The overrun question.
+
+> **Say it like this:** "The reason big technology programmes overrun usually isn't incompetence. It's that the people accountable for the date are also the people judging whether the design is sound - so optimism is built into the structure, not the person. Assurance separates those two jobs. Nobody marks their own homework, and problems surface while they're still cheap. That's why a governed estate costs less to change than an ungoverned one."
+
 ## 6. The EA-vs-solution-architect boundary + how the deep work actually gets done
 
 The EA value sits **above** the solution layer: you set the target, the principles, the integration standards and the conformance process, and govern them. This is a strength — the coordinating layer is what's missing. But the honest gap (Fable's hit) is that *reference architectures* and *compliance reviews* need domain depth to arbitrate an expert dispute. The answer is **method**, not pretending you have SAP/Oracle depth:
@@ -257,7 +316,8 @@ The EA value sits **above** the solution layer: you set the target, the principl
 
 - **"Where does the role report?" (DECIDED — Julian, 19 Jul):** The role must **not** sit inside Tony Chung's organization. Chartered by the CFO/Ty, positioned to coordinate *across* the regions, dotted-line to group technology leadership. This is a firm position, not a preference: an inside-Tony reporting line would gut the cross-region mandate before it started (you cannot coordinate peers from inside one peer's org). Hold it plainly if asked.
 - **"Why an external hire, not promote a regional architect who knows the estate?"** Precisely because an internal regional promotion inherits a region's allegiance and can't be neutral across the others — the coordinating role needs someone with no regional axe. Plus the cross-industry EA-governance track record most internal candidates won't have.
-- **"Where have you done this before?"** 🟡 **PARKED — GENUINE BLOCKER for the Ty room (the sim confirmed it bites hardest here).** The prior-proof of an actual *governance forum that retired reconciliation overhead* — the evidentiary backbone of the pitch. **The honest bridge survives a receptive Ty ONCE, but NOT Ty retelling it to Tom Uva** — so it must be tightened in writing and backed by at least one concrete story.
+- **"Where have you done this before?"** ✅ **LARGELY CLOSED 8 Aug — the answer is BG Group, not Telstra.** Julian designed, stood up and **chaired** the BG Group Global Networks Design Authority (2011): three regions (EMEA/US/QGC), a board of regional design-authority peers, real approval rights, a waiver/exception process, fortnightly cadence, interfacing up into a Global Design Authority Forum. Outcome: 20+ design standards, design cycle times down up to 30%. Structurally the same shape as the TTI proposal, one domain down. Full story, the say-it-like-this line, and the two cautions ("up to 30%" needs a measurement basis; don't volunteer the chair handover): [[tti-story-bank]] §1a. The residual gap is narrower than it was - he has not held a charter to retire *business* steering committees at group level. Original parked note retained below for the record.
+  - ~~🟡 **PARKED — GENUINE BLOCKER for the Ty room (the sim confirmed it bites hardest here).**~~ The prior-proof of an actual *governance forum that retired reconciliation overhead* — the evidentiary backbone of the pitch. **The honest bridge survives a receptive Ty ONCE, but NOT Ty retelling it to Tom Uva** — so it must be tightened in writing and backed by at least one concrete story.
   - **The honest bridge (rehearse until it's one breath long):** *"Straight answer: I haven't run this exact machine end to end under one charter, and I won't pretend otherwise. What I've run are its load-bearing parts at larger scale than you need — at Telstra International I held US$200M+ of regional designs a year to one group standard with a waiver process the regions couldn't route around. What I've never held is the charter to retire the committees around it. That gap is exactly why my ask isn't 'trust my track record' — it's a two-week audit and a threshold that kills the role before it starts if the number isn't there."* The confession must arrive **welded to the de-risk in the same breath**, never as a standalone admission.
   - **Build (≈one working session):** reconstruct ONE concrete Telstra International before/after — a named reconciliation forum / approval loop / recurring escalation that the design authority + waiver process made unnecessary: what it was, what replaced it, what stopped happening. Same for the US$300M transformation's design authority. *Scale answers ("US$200M/US$300M") do NOT satisfy this question. **⚠ Sourcing correction, 8 Aug: the real Ty has never asked this.** The before/after demand comes from the **Fable simulation** ([[tti-ty-call-simulation-2026-07-19]] line 56), not the 15 Jul call — the actual call record contains no such question. Treat it as a well-reasoned prediction worth preparing for, not a stated requirement. The prediction is sound (a finance buyer asks what changed, not how big it was), and reaching for scale would read as evasion if it comes — but do not tell yourself Ty demanded it.*
 - **"What do you actually do in the first 90 days?"** Charter the board and its decision rights; stand up the principles that resolve live decisions immediately; measure the coordination-tax baseline; pick the first cross-region decision to settle through the board (not a committee) as the proof. Value visible in weeks, not years.

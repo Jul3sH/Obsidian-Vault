@@ -29,15 +29,41 @@ send: NEVER
 > inputs to fold in. Build these *with* him, then Fable stress-tests. Do not treat the
 > current text as final.
 
-### 1a. The governance forum that retired committees — 🟡 PRIOR-PROOF BLOCKER
+### 1a. The design authority I built and chaired (BG Group, 2011) — ✅ PRIOR-PROOF, largely closed
 *Answers the hardest predictable question: "where have you run a chartered forum that demonstrably retired standing committees?" Scale answers (US$200M/US$300M) do NOT satisfy it — the answer needs a before/after.*
 
 > **⚠ Sourcing correction, 8 Aug: the real Ty has never asked this.** The before/after demand comes from the **Fable simulation** ([[tti-ty-call-simulation-2026-07-19]] line 56), not the 15 Jul call, whose record contains no such question. It is a well-reasoned prediction worth preparing for - a finance buyer asks what *changed*, not how *big* it was - but it is not a stated requirement, and this file should not have asserted it as one.
 
-- **Honest kernel:** at Telstra International you ran a design authority + waiver process the regions couldn't route around — a standing governance mechanism that held divergent designs to one standard.
-- **The honest boundary (the Ty sim exposed this):** you ran every *component* (standing authority, standards that held across regions, a waiver process with teeth, escalation that got used) — but those forums sat *above* your authority, so you have not assembled the whole machine (a charter to *retire* the committees) under one roof. Say that plainly, welded to the audit de-risk.
-- 🟡 **NEEDS: one concrete before/after** — a named reconciliation forum / approval loop / recurring escalation that your design authority + waiver process made unnecessary. What it was, what replaced it, what stopped happening. *This is the single highest-value thing to build before the Ty room.*
-- **Say it like this:** *"I haven't run this exact machine end to end under one charter, and I won't pretend otherwise. What I've run are its load-bearing parts at larger scale than you need — [the concrete Telstra before/after]. That gap is exactly why my ask isn't 'trust my track record' — it's a two-week audit with a threshold that kills the role if the number isn't there."*
+> **✅ LARGELY CLOSED 8 Aug — the story is BG Group, not Telstra.** Julian designed, stood up and chaired the **BG Group Global Networks Design Authority** (2011). Source material: four operating-model packs in his personal Dropbox (Playbook, Process Pack, Role/Responsibilities & Interactions Pack, Toolkit), reviewed 8 Aug. **⚠ These will NEVER be shared with TTI**, so the story must stand on Julian telling it fluently from memory - no artefact to fall back on. Detail below is therefore what he needs to be able to *say*, not what he can show.
+
+**The structural match to TTI is close to exact — this is the point of the story:**
+
+| BG Group (2011) | TTI (proposed) |
+|---|---|
+| Global IT → Global Networks → **Networks Design Authority** | Group → **the missing layer** |
+| EMEA / US / QGC regional networks beneath it | Asia / US / Europe regional technology beneath it |
+| Networks DA interfaced up into the **Global Design Authority Forum** | Group layer interfaces up to a CIO-tier ratifier (§4) |
+
+**He built the missing layer, one domain down — and chaired it alongside the other two regional design authorities.** That last detail is the one that matters most: a board of regional peers, decisions made against a common standard, one of them chairing. That is §4's *"pools authority, does not confiscate it"*, run in practice. It is also the practical answer to the seniority argument - precedent for **chairing peers**, not advising them.
+
+**The machinery he can describe, all of it real:**
+- **Decision rights:** the forum approved changes to network architecture across all projects and programmes - approval, not advice.
+- **Standards enforced across geographies:** approving design approaches common to various regions and enforcing common global standards.
+- **A waiver process with teeth:** exception requests managed against the standards, tracked in a standing Exception Log.
+- **Escalation that got used**, and a fortnightly cadence with submissions required in advance.
+- **Regional architects authored, the DA governed** - which is exactly §6's answer to "you don't have the deep application knowledge".
+
+**The outcome (from [[master-resume]], BG Group):** creation of **20+ network and security design standards, reducing design cycle times by up to 30%**, plus *"creation, transition and management of global network architecture capability with dramatically improved governance, QA, risk and change management."*
+
+**Why this is the right shape of proof for a finance buyer.** It is not "committees retired", but it is the same causal chain: put a standard in, the repeated decision stops being re-litigated, time drops. It converts to money without a second step, and it feeds **K4** ([[tti-ea-requirements]]) directly - faster, more consistent design is less rework, and rework is how programmes overrun.
+
+- ✅ **The 30% was MEASURED, not estimated** (confirmed by Julian, 8 Aug). **Say so out loud** - *"that was measured, not estimated"* - because volunteering the provenance of your own number is a credibility signal to a finance buyer, and it pre-empts the probe instead of absorbing it. It also reinforces the same discipline running through the proposal, where the refusal to quote unmeasured benefits is the credibility spine.
+  - 🟡 **Still worth recalling before the call: what was measured, and against what baseline.** Design cycle time for what unit - a solution blueprint, a full design, an approval pass? And compared to what - pre-standards designs, or non-conforming designs running alongside? One sentence is enough. If "up to 30%" reflects a measured *range* topping at 30%, that is honest reporting and should be said that way: *"up to thirty percent across [n] designs."*
+- **Do not volunteer** that the designated chair stopped chairing and it came to Julian. True, but it can be heard as *"the governance lacked the sponsorship it was designed to have"* - the exact failure mode §4 warns against. If pressed on the formal design: *"that was the initial design; in practice I ran it."*
+
+**The honest boundary (narrower now than it was).** He designed, stood up and chaired a design authority with real decision rights, a waiver process and cross-region standards. What he has **not** done is hold a charter to retire *business* steering committees at group level - the machine is proven at domain scale, not at the altitude TTI needs. Say that plainly, welded to the de-risk, never as a standalone confession.
+
+- **Say it like this:** *"The closest thing I've done is at BG Group. I set up the Global Networks Design Authority - the operating model, the standards, the exception process - and chaired the forum with the other two regional design authorities. Three regions, one standard, decisions made once instead of renegotiated per project. We wrote twenty-odd design standards and took up to thirty percent out of design cycle time - and that was measured, not estimated. What I haven't done is hold a charter to retire business steering committees at group level, and I won't pretend otherwise - which is exactly why month one is execution on one live decision rather than asking you to trust a track record."*
 
 ### 1b. Systems analysis, design & integration
 *A CV claim to defend — genuinely backed, at ARCHITECTURE altitude.*

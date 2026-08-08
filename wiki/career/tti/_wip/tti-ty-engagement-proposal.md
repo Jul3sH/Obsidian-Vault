@@ -34,7 +34,7 @@ deliverable: tti-ty-proposal
 
 The momentum is there. The North American ERP conversion went in on a one-team model when those projects routinely go wrong elsewhere, and the AI agenda is aimed at structural G&A. What goes missing at group scale is the layer that keeps a standard holding as it spreads - an ERP target state, one consistent way of reading cost and margin, the data discipline AI needs underneath it. Standards don't fail when they're agreed. They fail quietly afterwards, region by region, until the reconciliation comes back.
 
-That layer is what I'd build, against your own target: 10% EBIT, by taking structural admin and G&A cost out. The lever is architectural - cost that comes out once and stays out, because the structure that generated it has changed.
+That layer is what I'd build, against your own target: 10% EBIT, by taking structural admin and G&A cost out. You're already close - 9.9% in H1, a record - and the half-year numbers show why the next point has to come from the structural side: gross margin moved 258 basis points, but SG&A absorbed most of it before it reached EBIT. The lever is architectural - cost that comes out once and stays out, because the structure that generated it has changed.
 
 **Where the money is.**
 
