@@ -18,7 +18,19 @@ created: 2026-08-08
 - **DIRECT** — said by the stakeholder directly to Julian (call, meeting)
 - **RELAYED** — said by the stakeholder to a third party (usually Stephan), reported to Julian secondhand
 - **PUBLIC** — said publicly (AR25 results call, employee Q&A), not addressed to Julian or about this engagement specifically, but evidences the stakeholder's own stated priorities
+- **INTEL (unverified)** — a factual claim about TTI from a third party (usually Justin), not a stated requirement and not confirmed. Recorded because it shapes how a requirement should be handled, but **never quotable to TTI** and never to be treated as established.
 - **SIMULATED — excluded.** Fable/Codex role-play simulations of Ty or Kari are prep material, not real statements. None are included below. If a simulated line is ever quoted elsewhere as if real (as nearly happened with pricing multiples), that is a sourcing error - flag it.
+
+## Where these requirements are answered
+
+[[tti-ea-governance-value]] is the response side of this list: each of its eight sections is an argument answering one or more requirements below. Its **Section map** carries the forward mapping (§ → requirement ID), and its **"Stated requirements this document does NOT yet answer"** table carries the gaps. Four requirements currently have no argument built for them - **K4** (leadership burnt by overrunning programmes), **K3** (whole-enterprise scope, not just US/HK), **K5** (strategic gains not quick wins), and **T13** (the global P&L platform) - and K4 is the sharpest, since nothing yet answers *"how do I know this won't overrun like the last ones?"*
+
+## Related
+- [[tti-ty-engagement-proposal]] — the live proposal this list is feeding
+- [[tti-ea-governance-value]] — the argument bank that answers these requirements; see its Section map
+- [[kari-meeting-note-2026-07-24]] — full source for the Kari entries
+- [[tti-comms-log]] — full source for the Ty entries and the 3-7 Aug Kari exchanges
+- [[tti-2025-ar-key-initiatives]] — full source for the public AR25 entries
 
 ---
 
@@ -63,22 +75,37 @@ created: 2026-08-08
 
 ---
 
+## The overrun question — intel and public record bearing on K4
+
+> **Why this block exists.** K4 (Kari: old leadership *"had been burnt by programmes that overran and cost a lot of money"*) is the sharpest unanswered objection in the corpus, because Julian is asking for a 12-month no-break commitment. What follows is everything known about TTI and programme overruns, separated strictly by what is verified and what is not. **None of it is quotable to TTI.** The purpose is to shape the argument, not to be repeated.
+
+| # | Statement | Source | Type | Date |
+|---|---|---|---|---|
+| J1 | The new ERP system (believed Oracle or SAP) **overran by roughly US$50M**. Julian's recollection of what Justin told him; **to be confirmed with Justin directly.** | Justin Gilbert, verbal to Julian | **INTEL (unverified)** | undated, recalled 2026-08-08 |
+| P1 | **Steve Richman (CEO), publicly:** *"How many of you have heard of disasters with ERP implementation at companies that shut down distribution, shut down manufacturing, shut down sales... Our teams in North America were relentless about this. They understood the risk. They put a robust plan together... And guess what? **They executed flawlessly.**"* | [[tti-2025-annual-results-script]] | PUBLIC | AR25 |
+| P2 | **Ty himself, publicly, same call:** *"The main driver of the adjusted sales growth relates to the major ERP conversion that Steve mentioned that we did in the **Milwaukee business on July first**. This required the pull forward of sales from the second half into the first half and this inflated the first half sales by one point nine percent and impacted the second half sales."* | [[tti-2025-annual-results-script]] | PUBLIC | AR25 |
+
+**What this actually establishes, stated carefully:**
+
+- **A Milwaukee ERP conversion happened on 1 July**, and it was material enough to distort half-year sales reporting by 1.9%. Verified, from Ty's own mouth.
+- **The CEO's public position is that execution was flawless.** Contradicting that in any room is a direct challenge to the CEO's public statement, and Milwaukee is Shane Mall's business.
+- **P2 is not evidence of an overrun.** Pulling sales forward ahead of a system cutover is normal, prudent practice, not a failure signal. It confirms the event and that Ty tracks its financial consequences - nothing more. Reading it as evidence of a problem would repeat exactly the over-reach caught on 8 Aug with the ERP-tier attribution.
+- **⚠ K4 and J1 may not be the same thing.** Kari framed K4 as *old* leadership and *past* programmes - implicitly the Joe era, before the improvement of "the last couple of years." Justin's anecdote concerns a recent conversion the CEO publicly calls a success. **These may be two entirely different eras.** Do not silently merge them; the distinction changes what is safe to say.
+
+**How to use it — the argument, not the anecdote.** Never reference a specific programme, number, or business unit. The usable form is the generic governance principle, which Ty can attach his own example to:
+
+> **Architectural assurance stops people marking their own homework.** Programmes that self-certify their own architecture are how large overruns happen - not through incompetence, but because the people accountable for delivering to a date are also the people judging whether the design is sound. Independent, proportionate architecture assurance separates those two jobs.
+
+This is a standard EA capability and needs no incident to justify it. Ty, as the finance owner, will supply his own instance. **Let him.**
+
+**The reframe worth noting:** K4 is not only an objection to survive. It is the strongest available *argument for* the capability - the pain is already felt and already believed, so EA becomes the answer to a known problem rather than a cost needing justification. Handle it that way round.
+
+---
+
 ## Gaps and open questions (not requirements — noted so they aren't mistaken for one)
 
 - **No verified statement from either Ty or Kari names a specific ERP or technology system.** The three-ERP-tier claim (SAP / Oracle Cloud / Oracle EBS HK) that appeared in an early proposal draft came from [[tti-technology-stack]] desk research, not from either stakeholder, and one leg (Oracle EBS HK) is itself unverified there. Do not attribute it to Ty or Kari.
 - **No stated TTI group technology spend figure exists anywhere in the corpus.** The NPV hurdle in [[tti-ty-engagement-proposal]] is deliberately built to route around this gap rather than assume a number.
 - **No named charter authority above both APAC tech and Milwaukee/US IT.** Open since 19 Jul in [[tti-ea-governance-value]] §4.
 - **No named "stuck" cross-region decision.** Needed for the month-1 proof case in the proposal rewrite; the best route to it is asking Kari directly (K13's channel is already open).
-
----
-
-## Where these requirements are answered
-
-[[tti-ea-governance-value]] is the response side of this list: each of its eight sections is an argument answering one or more requirements below. Its **Section map** carries the forward mapping (§ → requirement ID), and its **"Stated requirements this document does NOT yet answer"** table carries the gaps. Four requirements currently have no argument built for them - **K4** (leadership burnt by overrunning programmes), **K3** (whole-enterprise scope, not just US/HK), **K5** (strategic gains not quick wins), and **T13** (the global P&L platform) - and K4 is the sharpest, since nothing yet answers *"how do I know this won't overrun like the last ones?"*
-
-## Related
-- [[tti-ty-engagement-proposal]] — the live proposal this list is feeding
-- [[tti-ea-governance-value]] — the argument bank that answers these requirements; see its Section map
-- [[kari-meeting-note-2026-07-24]] — full source for the Kari entries
-- [[tti-comms-log]] — full source for the Ty entries and the 3-7 Aug Kari exchanges
-- [[tti-2025-ar-key-initiatives]] — full source for the public AR25 entries
+- **J1 (the ~US$50M ERP overrun) is unconfirmed and needs checking with Justin.** Until then it is one person's recollection of another person's remark. It changes nothing that can be said aloud either way - the assurance argument stands without it - but knowing whether it refers to the Joe era or the recent Milwaukee conversion determines whether K4 is safely historical or uncomfortably current.
