@@ -18,5 +18,6 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-assumption-audit.md | feedback | Surface + challenge load-bearing assumptions at work-definition/sprint-planning time; invert them, cheap-test them, and check against Julian's own prior conclusions before he invests effort. |
 | feedback-verify-before-writing.md | feedback | Verify a checkable claim in the same turn you write it into a file, not after Julian questions it |
 | feedback-graduated-chase-tone.md | feedback | Chasing a stalled third party: open warm, not direct; escalate only if silence continues; don't pre-plan follow-ups before seeing the reply |
+| feedback-bare-identifiers.md | feedback | Never use a bare identifier (F1, S3, §4, BWS-39) for work Julian isn't actively holding — give the identifier plus what it says and which document |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)
