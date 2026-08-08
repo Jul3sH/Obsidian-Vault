@@ -111,6 +111,32 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
 - When the user asks you to "audit" or "lint", review the wiki for inconsistencies,
   broken links, gaps, and suggest improvements.
 
+## Purpose Block (mandatory, every deliverable and artefact)
+
+**Every file must open with a purpose block, before any other content.** Two to four
+sentences in plain language answering three questions:
+
+1. **What is this?** In one sentence, what the document actually is.
+2. **Why was it created?** What prompted it, and what it is for.
+3. **How is it used?** Who reads it, when, and what they do with it (including
+   `send: NEVER` / internal-only status where that applies).
+
+**It goes above everything else** - above status callouts, revision history, review
+verdicts, warning banners, and frontmatter-adjacent notes. Where a document is long
+or sectioned, follow the purpose block with a one-line-per-section map so the reader
+can navigate without reading it end to end.
+
+**Why this rule exists.** A document whose first content is its own revision history,
+a review verdict table, or a hardening log forces the reader to reverse-engineer what
+the document is for before they can use it. Meta-content *about* a document is not the
+document. This was written after [[tti-ea-governance-value]] - genuinely high-value
+material - went unused for three weeks partly because opening it presented an
+adversarial-review attack table rather than a statement of what it was.
+
+**Applies to:** wiki articles, deliverables, artefacts, prep documents, reviews,
+registers, and meeting notes. Index files are exempt (their purpose is self-evident
+and the [[#Index Files Are Navigation Only (hard rule)]] rule already governs them).
+
 ---
 
 # Deliverable-First Working Rule (all agents)

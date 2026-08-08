@@ -9,6 +9,44 @@ audience: Julian only (conversation prep)
 send: NEVER
 ---
 
+# TTI — EA Governance Value (conversation prep)
+
+## What this is, and why it exists
+
+**What it is:** a bank of conversation arguments that map a *capability* Julian can bring - enterprise-architecture governance, TOGAF mechanics, FinOps operating-model thinking - onto a *problem a TTI stakeholder has actually stated*. Each section is one argument, written in memorable chunks with a "say it like this" line, so it can be carried in conversation rather than read out.
+
+**Why it was created (19 Jul 2026):** Ty described the gap unprompted on the 15 Jul call - fragmented technology leadership across Asia, too many steering committees to coordinate between the silos, needing frameworks and governance put in place. This document was built to have a hardened answer ready for the conversations that would follow, rather than composing one live in the room.
+
+**How it is used:** Julian only. `send: NEVER` - it is not an artefact to share, and several sections would be actively damaging if they reached Tony Chung. Read the section that matches the objection you expect, carry the argument, and draw the sharpest lines into the artefact you are actually writing. The numbers-shaped distillation for a finance audience is [[tti-cfo-brief]]; the live proposal it feeds is [[tti-ty-engagement-proposal]].
+
+## Section map — which argument answers which stated requirement
+
+Requirement IDs refer to [[tti-ea-requirements]], the sourced verbatim log of what TTI stakeholders have actually said. **T** = Ty, **K** = Kari.
+
+| § | The argument | Answers |
+|---|---|---|
+| **1** | Silo diagnosis - fragmentation is rational M&A residue, not incompetence; the committees are the symptom, the missing layer is the cause | T1, T2, K1 |
+| **2** | FinOps analogy, restated on **risk transfer** - the centre can commit to a shared platform because it spreads the bet; a single region cannot | T9, T12, K7 |
+| **3** | The TOGAF components that kill specific silo behaviours (principles, Architecture Board, reference architectures, ADM G/H, contracts) + the sequencing answer | T1, T3 |
+| **4** | **The mandate** - where the board's authority comes from. Joint charter, deadlock-breaker, resourcing at charter. *The load-bearing section.* | T3, K8 |
+| **5** | The coordination-tax number - the shape of the cost, offered to be measured properly in week one | T6, T8, T9 |
+| **6** | EA-vs-solution-architect boundary - how the deep work gets done without claiming SAP/Oracle depth | T2, K9 |
+| **7** | The killer objection pre-empted - "you'll just draw diagrams"; authority is the scarce thing, which is why it must be director-level | T2 |
+| **8** | Predictable director-hire questions - reporting line, why external, prior proof, first 90 days | T4, K9 |
+
+## ⚠ Stated requirements this document does NOT yet answer
+
+Surfaced by mapping against [[tti-ea-requirements]] on 8 Aug. These are gaps in the argument bank, not gaps in the requirements.
+
+| Requirement | What it says | Why the gap matters |
+|---|---|---|
+| **K4** | Old leadership *"had been burnt by programmes that overran and cost a lot of money"* | **The sharpest unanswered objection in the corpus.** TTI has direct experience of technology programmes overrunning. Nothing here answers *"how do I know this won't be another one?"* - and it is the natural question behind a 12-month commitment. |
+| **K3** | Scope should be **the whole enterprise**, not just US/HK - *"if we are doing this it should be done everywhere"*; Australia and Europe are okay, the gap is elsewhere | §1's geography guard covers Milwaukee/US only. The argument is framed US-HK throughout, which is narrower than Kari's stated scope. |
+| **K5** | 12 months, and explicitly **strategic long-term gains, not quick wins** | Sits in tension with the execution-first month-1 design now going into [[tti-ty-engagement-proposal]]. Not a contradiction - early delivery proves the mechanism rather than being the point - but the language must not read as quick-win chasing to Kari. |
+| **T13** | The **global P&L platform** Ty co-drives with Casey and Frank - one standard system for reading P&Ls and gross margin | Named in the proposal but absent from this argument bank, despite being the most natural hook for §2's FinOps material. |
+
+---
+
 ## Fable verdict summary — what was attacked, what was fixed, what is still open
 
 > **Two adversarial passes by Fable (hostile Tony Chung role).** Read this block instead of the separate review file. Full detail: [[tti-ea-governance-value-fable-review-2026-07-19]].

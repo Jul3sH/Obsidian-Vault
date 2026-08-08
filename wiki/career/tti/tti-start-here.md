@@ -28,6 +28,7 @@ Every artifact is one of three things. Hold **Orientation → Argument → Prep*
 - [[tti-engagement-strategy]] — the **why & how**: political landscape, mandate principle, positioning. (Read the sub-headings.)
 
 ## Layer 2 — The argument (what you're selling)
+- [[tti-ea-requirements]] — **read this before any of the above.** Flat, sourced, verbatim log of every requirement Ty or Kari have actually stated, so the pitch is built on what they said, not on desk research or paraphrase drift.
 - [[tti-ea-governance-value]] — the EA-governance pitch: silo diagnosis, FinOps analogy, TOGAF/mandate machinery, killer-objection answers.
 - [[tti-ea-governance-value-fable-review-2026-07-19]] — *optional*: the two adversarial passes that hardened it.
 - [[tti-story-bank]] — **the single home for all stories & proof-points** that back the argument: credibility / weak-area answers (systems, agentic AI, the prior-proof forum) + the big-number track record. *(Being built collaboratively.)*
