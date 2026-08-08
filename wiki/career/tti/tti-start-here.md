@@ -37,7 +37,7 @@ Every artifact is one of three things. Hold **Orientation → Argument → Prep*
 - **Kari** (SVP TTI, HK camp — call imminent): [[tti-kari-call-prep]] (talking bank) + [[tti-kari-call-simulation-2026-07-19]] (dry run + receiver profile).
 - **Ty** (Group Deputy CFO — the hard room): [[tti-ty-call-simulation-2026-07-19]] (dry run + readiness verdict).
 - **⭐ BEFORE THE TY CALL, OPEN THIS AND NOTHING ELSE:** [[tti-ty-engagement-proposal]] → the **SPOKEN VERSION** section. It carries "THE LINE" (the execution-first opener), the five talking points, the holding lines for pushback on price and on 6-vs-12 months, and the phrases never to use. The document above it is what Ty reads; the spoken section is what Julian says.
-- **The outbound artifact**: [[tti-ty-engagement-proposal]] — the 12-month engagement proposal for Ty (DRAFT, pending F1 fix from [[tti-ty-engagement-proposal-codex-review-2026-08-07]]); absorbs [[tti-cfo-brief]]'s audit-first ask as month 1.
+- **The outbound artifact**: [[tti-ty-engagement-proposal]] — the 12-month engagement proposal for Ty. F1 fixed, absorbs [[tti-cfo-brief]]'s audit-first ask as month 1. **Round 2 adversarial review pending** — prompt ready at [[tti-ty-engagement-proposal-codex-review-prompt-2026-08-08]], run it and check the output before Monday.
 
 ## Reference (dip in, don't read cover-to-cover)
 - [[tti-executive-stakeholders]] — who's who (Ty, Kari, Frank, Tony, the Pudwills…).

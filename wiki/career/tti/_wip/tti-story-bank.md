@@ -17,7 +17,8 @@ send: NEVER
 > detail only Julian can supply.
 >
 > **How to use:** rehearse §1 (the must-tell-fluently ones); drop §2 numbers as
-> evidence. Pick the 2–3 that fit the room — never recite the bank.
+> evidence; have §3 ready as prepared answers if asked directly. Pick the 2–3 that fit
+> the room — never recite the bank.
 
 ---
 
@@ -92,6 +93,7 @@ send: NEVER
 
 | Proof-point | The number | Strongest for |
 |---|---|---|
+| Design authority built and chaired (BG Group) | **20+ design standards; design cycle times down up to 30%, measured** | prior-proof, chairing a board of regional peers - full story at §1a |
 | Transformation governed & assured | **US$300M+** | delivery discipline, governance at scale |
 | EA design assurance | **US$60M+ multi-tower; +20% right-first-time** | architecture governance that held a standard |
 | Network/infra/security transformation | **US$90M, 2 DCs + 80 sites** | systems integration at scale, multi-site |

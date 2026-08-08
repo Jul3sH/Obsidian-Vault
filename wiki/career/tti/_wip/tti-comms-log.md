@@ -100,9 +100,12 @@ renamed: 2026-07-17
 - **Julian (3 Aug, 21:57):** *"Thanks Kari, much appreciated."*
 - **Julian (7 Aug, 15:23):** *"Hi Kari, did Stephan reach out to you today? I'm keen to understand if you and Ty had an alignment call."* - plus the offer to update him on the Justin conversation. Julian has been asked to take Ty through a proposal on Monday.
 
-**What to get from him before Monday (both cheap, both load-bearing):**
-1. **Will Ty accept scope being set in month 1 rather than named up front?** Kari sponsored the 12-month frame himself on 24 Jul and described the need in pure EA terms without prompting. If discovery-first will not fly with Ty, the proposal's whole structure is wrong and it is better to know on Saturday than on Monday.
+**What to get from him before Monday (updated 8 Aug - the original #1 below is stale, see note):**
+1. **Whether he and Ty have had their alignment call** - already asked in the 15:23 message above, awaiting reply.
 2. **Does a consulting contract preserve Julian's right to live and work in HK?** Unverified since 6 Aug, flagged by the council, and Kari holds HK tax and IT influence - he is the right person to ask. If the answer is no, the rate and the scope are both irrelevant.
+3. **A candidate stuck cross-region decision.** Needed for two things at once: the month-1 proof case in [[tti-ty-engagement-proposal]] (taking one live decision through the mechanism) and the missing evidence in [[tti-ea-governance-value]] §5's coordination-tax argument. Julian cannot supply this alone - he lacks the insider visibility, which is the exact thing Kari himself named unprompted (K9).
+
+> **⚠ Superseded item, kept for the record:** "will Ty accept scope being set in month 1 rather than named up front" was the original #1 here. It belonged to the old discovery-first proposal design. Month 1 was rewritten 8 Aug to be execution (one live decision taken through the mechanism), so this question no longer applies in its original form.
 
 **Strategic read:**
 - **Stephan initiating the Kari contact is better than Julian doing it.** It came from inside, unprompted by Kari, and it does not read as Julian working a side channel around Stephan - the exact risk that made the 3 Aug direct approach a judgement call.

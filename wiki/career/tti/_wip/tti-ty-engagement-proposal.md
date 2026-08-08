@@ -34,7 +34,7 @@ deliverable: tti-ty-proposal
 
 The momentum is there. The North American ERP conversion went in on a one-team model when those projects routinely go wrong elsewhere, and the AI agenda is aimed at structural G&A. What goes missing at group scale is the layer that keeps a standard holding as it spreads - an ERP target state, one consistent way of reading cost and margin, the data discipline AI needs underneath it. Standards don't fail when they're agreed. They fail quietly afterwards, region by region, until the reconciliation comes back.
 
-That layer is what I'd build, against your own target: 10% EBIT, by taking structural admin and G&A cost out. You're already close - 9.9% in H1, a record - and the half-year numbers show why the next point has to come from the structural side: gross margin moved 258 basis points, but SG&A absorbed most of it before it reached EBIT. The lever is architectural - cost that comes out once and stays out, because the structure that generated it has changed.
+That layer is what I'd build, against your own target: 10% EBIT, by taking structural admin and G&A cost out. You're already close - 9.9% in H1, a record - and the half-year numbers show why the next point has to come from the structural side: gross margin moved 258 basis points, but SG&A absorbed most of it before it reached EBIT. You also raised the free cash flow target mid-year, from over a billion to over one-point-three - and because free cash flow is operating cash minus capex, technology capex avoided through governance flows straight into that number too, not just into EBIT. The lever is architectural - cost that comes out once and stays out, because the structure that generated it has changed.
 
 **Where the money is.**
 
@@ -43,7 +43,7 @@ That layer is what I'd build, against your own target: 10% EBIT, by taking struc
 | **Portfolio duplication** | Multiple ERP platforms across regions and brands, with no group reference architecture aligning them. Duplicate capability stays invisible until something governs the estate as one portfolio. |
 | **Decision latency** | Cross-region decisions escalate to committee because no group layer owns them. A deferred decision defers the benefit stream behind it - a direct NPV loss, not a soft cost. |
 | **Rework avoidance** | Programmes that mis-align to the estate get re-cut late. The NA ERP result is what it looks like when planning holds; the value is in making that repeatable rather than exceptional. |
-| **Procurement leverage** | Steve's point - leverage negotiating costs on IT. Group standards cut variant count, which is what makes consolidated negotiation possible. |
+| **Procurement leverage** | Steve's own stated goal - leverage negotiating costs on IT. Fewer regional variants means fewer, larger vendor negotiations instead of several small ones. Standardising is what makes that possible; the negotiating itself stays procurement's job. |
 
 **Two capabilities I'd stand up inside that.**
 
@@ -82,6 +82,8 @@ The first is the point. The other three turn the hurdle above into your actual n
 **On scope.** The standards and the decision rights have to be group-level - a standard that only covers two regions isn't a standard. Where the effort concentrates is wherever the alignment gap actually is, and my understanding from talking to Kari is that's the Asia-US interface rather than Europe or Australia, though I'd want to confirm that early. Group design, targeted effort: you get a group capability without paying for coverage you don't need.
 
 **Why 12 and not 6.** Six months buys tactical fixes that revert the moment I leave. Month one is baseline either way, governance takes three to four months to stand up, and you need two full quarterly cycles running through it to know the structure holds rather than the person holding it up. Six months stops before that test - and it costs more per month, because the annual fixed costs I carry don't halve over a shorter term. The cheaper-looking option is dearer and leaves less behind.
+
+**Why this needs to sit at director level, not a cheaper principal with an AI tool.** AI makes candidate options cheap now - draft standards, reference models, documentation. What it doesn't do is judge which option is actually sound, which risk is real and which is noise, or when an exception is genuinely warranted - that discrimination comes from years of watching decisions go right and wrong, and it doesn't come bundled with the tool. And even where the judgement is right, a principal still lacks the standing to make it stick across regional directors who don't report to them. AI closes the drafting gap; it doesn't close the judgement gap or the authority gap, and this role needs both.
 
 **Commercial.** HK$208,418 per month, twelve months, US$320,644 total. Monthly retainer, broadly full-time, normal leave. The basis: my last base salary including the employer pension contribution, plus 25% covering the bonus I no longer earn, health and life cover, and the MPF I now fund myself. That's what I cost my last employer, and I now carry my own severance, notice and cover.
 
