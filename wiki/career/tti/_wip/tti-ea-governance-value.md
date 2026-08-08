@@ -25,7 +25,9 @@ Requirement IDs refer to [[tti-ea-requirements]], the sourced verbatim log of wh
 
 | § | The argument | Answers |
 |---|---|---|
-| **0** | The H1 2026 results show that SG&A growth consumed most of a record gross-margin gain, so the next margin point has to come from structural cost. This section opens the whole document with why the argument is urgent right now, before §1 explains the underlying mechanism. | T9, T15-T18 |
+| **0a** | The SG&A Squeeze. H1 2026 SG&A growth consumed roughly two-thirds of a record gross-margin gain, so the next EBIT point has to come from structural cost - answered by the same portfolio-duplication and rework-avoidance levers argued in the proposal. This opens the whole document with why the argument is urgent right now, before §1 explains the underlying mechanism. | T9, T15 |
+| **0b** | The FCF Lever. TTI raised its 2026 free cash flow target mid-year by 30%, and because free cash flow is operating cash minus capex, technology capex avoided through governance flows directly into that number - the same mechanism as §0a, pointed at a different, more recently-moved metric. | T16 |
+| **0c** | The Capacity Window. New manufacturing capacity is being built in Vietnam and the Americas over the next 12-18 months, which is a forward-looking argument for embedding a standard at build time rather than retrofitting governance later. | T18 |
 | **1** | TTI's technology fragmentation is the rational result of acquisition-led growth, not incompetence - the steering committees are a symptom, and the missing coordination layer is the actual cause. This section also carries a scope guard (design the capability enterprise-wide, but concentrate effort where the gap actually is) and a geography guard on how to talk about Milwaukee without it sounding like Hong Kong governing the US. | T1, T2, K1, K3 |
 | **2a** | This restates the FinOps analogy on risk transfer: a central function can commit to a shared platform because it spreads the risk across the whole portfolio, whereas a single region cannot justify carrying that risk alone, which is why regions default to building their own. | T9, T12 |
 | **2b** | This answers Kari's own admission that TTI lacks technology cost data, using TBM (not FinOps) cost transparency. It is written as a question Julian asks rather than a fact he states, so he never appears to already know about TTI's internal finance platform. | K7, T13 |
@@ -48,7 +50,9 @@ Full audit against [[tti-ea-requirements]]. Every stated requirement now has an 
 | ~~**K5**~~ Kari wanted strategic long-term gains, not quick wins | **Closed.** Month 1 in the proposal delivers proof that the mechanism works rather than a quick win, and months 2-12 are described explicitly as a structure that holds after Julian has gone. There is a standing guardrail never to say the words "quick win" on this engagement, because Kari sponsored the 12-month term on exactly that distinction. |
 | ~~**K6**~~ Kari said not to shove a whole framework down people's throats | **Closed.** §3 was always making this argument, it just had not been mapped to the requirement until 8 Aug. |
 | ~~**T13**~~ The global P&L platform Ty co-drives with Casey and Frank | **Closed, now §2b.** Because this is INTERNAL information from the employee Q&A, it is built as a question Julian asks rather than a fact he states, so quoting it never reveals that he holds an internal transcript. |
-| ~~**T9, T15-T18**~~ The H1 2026 results (the SG&A/margin finding, the raised free cash flow target, the buyback, the capacity expansion) | **Closed, in the new §0.** This opens the whole document with why the argument is urgent this half, before §1 explains the underlying mechanism. Full workup in [[tti-h1-2026-results-talking-points]]. |
+| ~~**T9, T15**~~ The H1 2026 SG&A/margin finding | **Closed, in §0a.** Opens the whole document with why the argument is urgent this half, before §1 explains the underlying mechanism. |
+| ~~**T16**~~ The raised free cash flow target | **Closed, in §0b.** Split out from the SG&A finding on 8 Aug because it is a genuinely separate mechanism (capex avoided, not EBIT protected), not a repeat of the same point. |
+| ~~**T18**~~ The Vietnam/Americas capacity expansion | **Closed, in §0c.** The only forward-looking finding of the three; full workup for all of §0 in [[tti-h1-2026-results-talking-points]]. |
 
 ### Deliberately not addressed (a decision, not an oversight)
 
@@ -58,6 +62,7 @@ Full audit against [[tti-ea-requirements]]. Every stated requirement now has an 
 | **T11** Net interest expense fell to 0.2% of turnover | This is treasury and capital management. There is no EA lever that touches it. |
 | **T19** The effective tax rate and TTI's tax-efficiency language | This is Kari's territory, given his background in transfer pricing, not Ty's. It is held in [[tti-h1-2026-results-talking-points]] for the Kari channel rather than argued in this document. |
 | **T20** The MILWAUKEE ERP conversion's "planned timing impact" | **Must never be used as evidence of an overrun** - the word TTI itself uses is "planned," and the CEO's public position is that the conversion executed flawlessly. Its only safe use, as neutral evidence that large ERP conversions have lasting financial effects, is already folded into §5b without naming it. |
+| **T17** The US$500m share buyback | **Moved out of §0 on 8 Aug**, at Julian's direction: the organising rule for that section is that every finding must name a specific EA/TBM/AI capability that addresses it, and capital allocation has no such lever. Survives only as a fee-sizing aside in §0c's closing note - never as an urgency or capability claim. |
 
 ### Requirements that need no argument at all
 
@@ -143,11 +148,13 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 
 ---
 
-## 0. The live urgency (H1 2026 results — why now, not just why architecture)
+## 0. The live urgency (H1 2026 results — three findings, each tied to a specific capability)
 
 *Everything below is PUBLIC (30 Jun 2026 HKEX results announcement) - fully quotable. Full workup: [[tti-h1-2026-results-talking-points]].*
 
-**The numbers, in order:**
+**The organising rule for this whole section, restated 8 Aug at Julian's direction: every finding here must name the specific EA/TBM/AI capability that addresses it.** A financial fact from the results is only worth including if it connects to something Julian would actually *do*. The share buyback was cut from this section on that basis - a real signal, but there is no EA lever that touches capital allocation, so it does not belong under "what architecture can achieve." It survives only as a fee-sizing aside; see the note at the end of §0c.
+
+### 0a. The SG&A Squeeze
 
 | | H1 2026 | Movement |
 |---|---|---|
@@ -157,13 +164,35 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 
 **Roughly two-thirds of a record gross-margin gain was consumed by SG&A growth before it reached EBIT.** TTI's own explanation is mostly deliberate investment - new product development, field resources, commercialisation, write-offs from rationalising underperforming categories - **not waste, and do not imply otherwise.** But the arithmetic still stands, and it lands on the exact lever Ty has already named publicly: taking out *structural* corporate admin and G&A cost, on the way to the 10% EBIT target by 2027 (now independently confirmed in this same announcement - TTI is already at 9.9%).
 
+**The capability that addresses it:** the portfolio-duplication and rework-avoidance levers already argued in [[tti-ty-engagement-proposal]]'s "Where the money is" table. Duplicate capability and re-cut programmes are structural G&A; architecture governance is what removes them and keeps them removed.
+
 **Why this goes first, ahead of the silo diagnosis.** Everything from §1 onward argues that architecture removes structural cost. This section is the reason that argument is urgent *this half*, not evergreen: the easy operational margin has been taken, and TTI's own numbers say the next point has to come from the structural side. Open here, then move to §1's mechanism.
 
 > **Say it like this:** "One thing that struck me in the half-year numbers - 258 basis points of gross margin is a serious operational result, but only 86 of it reached EBIT, because SG&A moved 173. Most of that looks like deliberate investment, not waste. But it does mean the next margin point has to come from the structural side, and that's the part architecture actually touches."
 
-**Two other live signals, lower priority, useful if the conversation opens onto them:**
-- **Free cash flow target raised mid-year** from >US$1.0bn to >US$1.3bn, and a **US$500m buyback** already running (US$42m repurchased by end July). Use the buyback as evidence the fee is small, never as evidence the value is large - US$320,644 is a rounding error against it, which is the breakeven-hurdle framing already in the proposal, not a new claim.
-- **Capacity expansion in Vietnam and the Americas over the next 12-18 months.** A forward-looking, non-remedial architecture hook - new sites need a standard to conform to, not a legacy one to be untangled from.
+### 0b. The FCF Lever
+
+**The signal:** TTI raised its 2026 free cash flow target mid-year, from over US$1.0bn to over US$1.3bn - a 30% increase in a target it had already committed to publicly, revised upward before the year was even half over.
+
+**Why this is a genuinely different argument from the SG&A finding, not a repeat of it.** Free cash flow is operating cash flow minus capital expenditure. It is a specific, calculated number - not a general synonym for "cash flow," which is the broader term covering operating, investing and financing activity together. Because capex is subtracted to arrive at FCF, **any technology capex avoided through governance flows directly into this number.** A duplicate ERP or CRM build that never happens, a design that does not need re-cutting after the fact - both are capital that was never spent, which is capital that stays inside free cash flow rather than leaving it.
+
+**The capability that addresses it:** the same portfolio-duplication and rework-avoidance levers as §0a, pointed at a different TTI metric. This is not a new mechanism - it is evidence that the mechanism already argued for touches a number TTI has just told the market it cares about more than it did six months ago.
+
+**Why it may be the stronger hook of the two.** The EBIT target has existed since AR25; TTI is simply on track to hit it. The FCF target is the one that just moved, upward, mid-year - it is evidence of a live, current priority rather than a standing one.
+
+> **Say it like this:** "You also raised the free cash flow target mid-year, from over a billion to over one-point-three - that's not a small revision. Free cash flow is operating cash minus capex, so anything on the technology side that avoids a duplicate build or a design that has to be re-cut isn't just an EBIT saving, it's capital that never left free cash flow in the first place."
+
+### 0c. The Capacity Window
+
+**The signal:** capital expenditure in H1 2026 included *"automation and productivity initiatives around the globe,"* with planned capacity expansion in **Vietnam and the Americas over the next 12-18 months.**
+
+**Why this is a different kind of urgency from §0a and §0b.** Those two are about cost already being lost. This one is about cost not yet committed - new manufacturing capacity is about to be built, and it will either be built to a group standard from day one, or it will be built to whatever the local team already has, adding a fourth or fifth pattern to the estate that will need reconciling later. The cheaper moment to set a standard is before the capacity exists, not after.
+
+**The capability that addresses it:** the same reference-architecture and standards machinery in §3 and §4, applied at the point of new build rather than as a retrofit. This is the only one of the three findings that is genuinely forward-looking rather than remedial.
+
+> **Say it like this:** "The capacity expansion you've got coming in Vietnam and the Americas is actually the easiest place to start, not the hardest - it's cheaper to build to one standard from day one than to unpick five different patterns in eighteen months' time."
+
+**A note on the share buyback (deliberately not included above as a finding).** TTI commenced a US$500m automatic repurchase plan in June 2026 (US$42m done by end of July). There is no EA, TBM or AI lever that touches capital allocation, so it does not belong in this section. Its only legitimate use anywhere in this engagement is as a scale comparison for the fee - US$320,644 is a rounding error against a US$500m buyback - which is the same breakeven-hurdle framing already in the proposal, not a new claim, and not evidence that architecture creates value at that scale.
 
 ## 1. The silo diagnosis (respectful — it's M&A residue, not incompetence)
 
