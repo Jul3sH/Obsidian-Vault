@@ -8,258 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "77651ffdb8077cf7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/career/tti/_reference/engagement-history.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "engagement-history"
-            }
-          },
-          {
-            "id": "80e55e049184b494",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Walmart Boosts Outlook as Back-to-school Sales Return.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Walmart Boosts Outlook as Back-to-school Sales Return"
-            }
-          },
-          {
-            "id": "b527df7b98a1697c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Wallmart and Home Depot earning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wallmart and Home Depot earning"
-            }
-          },
-          {
-            "id": "9e886ab56fb84a86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Wallmart and Home Depot earning.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Wallmart and Home Depot earning"
-            }
-          },
-          {
-            "id": "1358b5ee468f42de",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Welcome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Welcome"
-            }
-          },
-          {
-            "id": "7594f3e3c4262e54",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview -TTI 2021 Interim Results CNBC Interview-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview -TTI 2021 Interim Results CNBC Interview-en-US"
-            }
-          },
-          {
-            "id": "4ff5fe8edac7c9dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview -TTI 2020 Interim Results CNBC Interview-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview -TTI 2020 Interim Results CNBC Interview-en-US"
-            }
-          },
-          {
-            "id": "06edfe71d82dd822",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview -TTI 2020 Annual Results CNBC Interview-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview -TTI 2020 Annual Results CNBC Interview-en-US"
-            }
-          },
-          {
-            "id": "762004fe72392705",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - TTI 2022 Interim Results CNBC Interview-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - TTI 2022 Interim Results CNBC Interview-en-US"
-            }
-          },
-          {
-            "id": "133e0689b68d7080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - TTI 2021 Annnual Results CNBC Interview-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - TTI 2021 Annnual Results CNBC Interview-en-US"
-            }
-          },
-          {
-            "id": "1f73902ae73ca53a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - No excuses for TTI despite the pandemic CEO -  Aug 12 2021.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - No excuses for TTI despite the pandemic CEO -  Aug 12 2021"
-            }
-          },
-          {
-            "id": "ec6e7ea127c07ec2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - CNBC Interview March 2023-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - CNBC Interview March 2023-en-US"
-            }
-          },
-          {
-            "id": "03aacda1893c0a79",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - CNBC Interview March  2024-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - CNBC Interview March  2024-en-US"
-            }
-          },
-          {
-            "id": "1da46a1f382401e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - CNBC Interview August 2023-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - CNBC Interview August 2023-en-US"
-            }
-          },
-          {
-            "id": "1c34aa0190d4255e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US"
-            }
-          },
-          {
-            "id": "ef6782cc371b03c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Press release in 2020 - Global coronovirus situation.pdf.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Press release in 2020 - Global coronovirus situation.pdf"
-            }
-          },
-          {
-            "id": "03016e002f265016",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "TTI covid report/Home Depots Latest Quarter of.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Home Depots Latest Quarter of"
-            }
-          },
-          {
-            "id": "9789ac9f446e5c02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "wiki/career/tti/_wip/tti-ea-requirements.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "tti-ea-requirements"
-            }
-          },
-          {
             "id": "ae20498a6ad02b8e",
             "type": "leaf",
             "state": {
@@ -273,8 +21,7 @@
               "title": "tti-ty-engagement-proposal"
             }
           }
-        ],
-        "currentTab": 18
+        ]
       }
     ],
     "direction": "vertical"
@@ -454,9 +201,20 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/career/tti/_reference/engagement-history.md",
+    "wiki/career/tti/_wip/tti-ty-engagement-proposal.md",
+    "TTI covid report/Transcript of interview -TTI 2020 Annual Results CNBC Interview-en-US.md",
+    "wiki/career/tti/_wip/tti-ea-requirements.md",
+    "TTI covid report/Home Depots Latest Quarter of.md",
+    "TTI covid report/Press release in 2020 - Global coronovirus situation.pdf.md",
+    "TTI covid report/Transcript of interview - 05032020_Joseph_Galli_EARNINGS-en-US.md",
+    "TTI covid report/Transcript of interview - CNBC Interview August 2023-en-US.md",
+    "TTI covid report/Transcript of interview - CNBC Interview March  2024-en-US.md",
+    "TTI covid report/Transcript of interview - TTI 2021 Annnual Results CNBC Interview-en-US.md",
+    "TTI covid report/Transcript of interview - No excuses for TTI despite the pandemic CEO -  Aug 12 2021.md",
+    "TTI covid report/Transcript of interview - CNBC Interview March 2023-en-US.md",
     "wiki/career/tti/_wip/tti-ty-engagement-proposal-fable-perplexity-assessment-2026-08-09.md",
     "wiki/career/tti/tti-start-here.md",
-    "wiki/career/tti/_wip/tti-ty-engagement-proposal.md",
     "wiki/career/tti/_wip/TTI EA Proposal Perplexity Draft.md",
     "wiki/career/tti/_reference/perplexity-defensible-ea-benefits.md",
     "wiki/ai-os/system-design/claude/memory/feedback-plain-writing-not-riddles.md",
@@ -468,18 +226,7 @@
     "wiki/career/tti/_wip/tti-ty-engagement-proposal-codex-review-prompt-2026-08-08.md",
     "wiki/career/tti/_reference/TTI IR announcement 2026-06-30.md",
     "wiki/career/tti/_wip/tti-h1-2026-results-talking-points.md",
-    "wiki/career/tti/_wip/tti-ea-requirements.md",
     "wiki/career/tti/_wip/tti-cfo-brief.md",
-    "wiki/career/tti/_archived/tti-ea-governance-value-fable-review-2026-07-19.md",
-    "wiki/ai-os/system-design/claude/memory/feedback-bare-identifiers.md",
-    "wiki/career/tti/_wip/tti-kari-call-prep.md",
-    "wiki/career/tti/_wip/tti-kari-call-simulation-2026-07-19.md",
-    "wiki/career/tti/_wip/tti-ty-engagement-proposal-codex-review-2026-08-07.md",
-    "wiki/career/independent-consulting-pricing.md",
-    "wiki/career/tti/_wip/tti-ty-engagement-proposal-codex-review-prompt.md",
-    "TTI covid report/Evolution of remote wrok essay idea.md",
-    "wiki/deliverables/tti-ty-proposal.md",
-    "wiki/deliverables/techtronic-covid-essay-ideas.md",
     "FINN-REPORT",
     "Untitled 1",
     "TTI covid report",

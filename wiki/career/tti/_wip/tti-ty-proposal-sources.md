@@ -40,7 +40,7 @@ paired-with: tti-ty-engagement-proposal
 | S9 | *"Kari's assessment was that TTI lacks this data in the organisation"* | Kari, to Julian: *"We lack having that type of data available to us in the organisation."* | [[kari-meeting-note-2026-07-24]] · K7 | **DIRECT** |
 | S10 | *"my understanding from talking to Kari is that's the Asia-US interface rather than Europe or Australia"* | Kari, to Julian: scope should be enterprise-wide, *"if we are doing this it should be done everywhere"*; named Australia and Europe as already fine | [[kari-meeting-note-2026-07-24]] · K3 | **DIRECT** |
 | S11 | *"a US$15.3bn business"* | *"revenue growth to US dollar fifteen point three billion"* (FY2025) | [[tti-2025-annual-results-script]] L49 | **PUBLIC** ⚠ see F4 |
-| S12 | *"Multiple ERP platforms across regions and brands"* | Deliberately generalised. Verified primary-source: SAP group-wide, Oracle Cloud ERP in NA finance. **Oracle EBS HK is unverified** (LinkedIn only) and was removed from the proposal on 8 Aug | [[tti-technology-stack]] §ERP | **PUBLIC** (the two verified tiers only) |
+| S12 | **Reworded 9 Aug - the direct claim is out of the proposal.** The Portfolio rationalisation lever now says only *"finance platforms are the classic case"* as a generic example, asserting nothing about TTI's estate; Ty decodes it himself. The verification is retained here in case he probes: SAP group-wide, Oracle Cloud ERP in NA finance, both primary-sourced. **Oracle EBS HK remains unverified** (LinkedIn only, removed 8 Aug) - do not name it even if he opens the topic. | [[tti-technology-stack]] §ERP | **PUBLIC** (the two verified tiers only) |
 
 ---
 

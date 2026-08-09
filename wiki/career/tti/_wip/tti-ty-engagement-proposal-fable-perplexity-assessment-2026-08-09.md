@@ -8,7 +8,7 @@ scope: targeted assessment, not a full adversarial round
 source: tti-ty-engagement-proposal
 ---
 
-# TTI — Ty Proposal: Fable Assessment of the Perplexity Report (9 Aug 2026)
+# TTI - Ty Proposal: Fable Assessment of the Perplexity Report (9 Aug 2026)
 
 ## What this is, and why it exists
 
