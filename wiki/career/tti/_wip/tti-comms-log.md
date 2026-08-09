@@ -50,6 +50,24 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 8 Aug - JUSTIN ON RATES: Julian's salary likely sits above even Tony Chung's senior team
+
+> **The conversation that changed the rate.** Julian and Justin discussed rates and Julian's current salary. **Justin's read: it is likely higher than even the senior members of Tony Chung's team.** This is Justin's belief, not verified data - but it is the first internal read anyone has offered on where Julian's number sits against TTI's own APAC technology band, and it directly changed the pricing decision the following day.
+
+**What Justin said:**
+- Julian's current salary is **likely higher than even senior members of Tony Chung's team**. Not a precise figure, and not verified - Justin's assessment.
+
+**Why it mattered enough to move the number:**
+- It compounds a concern already documented in [[independent-consulting-pricing]]: the figure is **already high for an enterprise architect who is not running a team**. Justin's read makes that concrete against the specific band Ty would benchmark against.
+- **Ty may well benchmark with Tony**, who is a documented probable detractor ([[tti-engagement-strategy]]). A number visibly above Tony's own senior people hands him the easiest possible objection - one that needs no argument, just a comparison.
+- The 6 Aug rate decision was made on *defensibility if Tony is consulted*. This refines that: it is not only about surviving scrutiny, but about the gap being small enough that benchmarking does not kill it on sight.
+
+**What changed as a result (9 Aug):** the rate dropped from HK$2,501,021 (US$320,644) to **HK$2,336,594 (US$299,563)** - base only plus 25%, dropping the employer-pension clause from the anchor. Full decision, arithmetic and accepted trade-offs: [[independent-consulting-pricing]] § DECIDED. Presentation instruction attached to it: lead with the **base** figure of ~HK$155,773/month, not the consulting rate, because Stephan repeats Julian's framing verbatim and the base is the number that narrows the perceived gap.
+
+**⚠ Sourcing:** Justin's claim is **INTEL, unverified** - logged as J2 in [[tti-ea-requirements]]. It is not quotable to TTI in any form, and must never be repeated to Ty, Stephan or Kari. Its only legitimate use is shaping Julian's own pricing judgement.
+
+---
+
 ## ✅ 7 Aug - JUSTIN WALKED INTO STEPHAN'S OFFICE, AND THAT IS WHAT MOVED IT
 
 > **The proposal request came about an hour after Justin pushed Stephan in person.** Ty had already flown out of HK ("gone at lunchtime"), so the 5 Aug message did not produce a visible result on its own. Justin went into Stephan's office and made the case that Julian has a lot going on and needs to know where this stands. Stephan called Julian at ~08:00 UK. Justin had also already anchored the term at 12 months.

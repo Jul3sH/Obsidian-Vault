@@ -36,8 +36,9 @@ Every artifact is one of three things. Hold **Orientation → Argument → Prep*
 ## Layer 3 — Prep (how you handle a specific person/call)
 - **Kari** (SVP TTI, HK camp — call imminent): [[tti-kari-call-prep]] (talking bank) + [[tti-kari-call-simulation-2026-07-19]] (dry run + receiver profile).
 - **Ty** (Group Deputy CFO — the hard room): [[tti-ty-call-simulation-2026-07-19]] (dry run + readiness verdict).
-- **⭐ BEFORE THE TY CALL, OPEN THIS AND NOTHING ELSE:** [[tti-ty-engagement-proposal]] → the **SPOKEN VERSION** section. It carries "THE LINE" (the execution-first opener), the five talking points, the holding lines for pushback on price and on 6-vs-12 months, and the phrases never to use. The document above it is what Ty reads; the spoken section is what Julian says.
-- **The outbound artifact**: [[tti-ty-engagement-proposal]] — the 12-month engagement proposal for Ty. F1 fixed, absorbs [[tti-cfo-brief]]'s audit-first ask as month 1. **Round 2 adversarial review pending** — prompt ready at [[tti-ty-engagement-proposal-codex-review-prompt-2026-08-08]], run it and check the output before Monday.
+- **⭐ BEFORE THE TY CALL, OPEN THIS AND NOTHING ELSE:** [[tti-ty-call-script]] — "THE LINE" (the execution-first opener), the five talking points, holding lines for price / 6-vs-12 months / overruns / prior-proof, and the phrases never to use. Split out of the proposal on 9 Aug so this is one clean open.
+- **The outbound artifact**: [[tti-ty-engagement-proposal]] — the 12-month engagement proposal Ty reads. Both Codex review rounds closed ([[tti-ty-engagement-proposal-codex-review-2026-08-08]]); absorbs [[tti-cfo-brief]]'s audit-first ask as month 1.
+- **⚠ THESE TWO ARE A MATCHED PAIR AND MUST STAY IN SYNC.** They drifted once already (8 Aug), leaving the spoken half giving guidance the proposal had already corrected. **Any edit to one requires checking the other in the same session** — most at risk: the numbers, the month-1 design, and anything tagged INTERNAL in [[tti-ea-requirements]]. The proposal is authoritative on content; the script on delivery.
 
 ## Reference (dip in, don't read cover-to-cover)
 - [[tti-executive-stakeholders]] — who's who (Ty, Kari, Frank, Tony, the Pudwills…).

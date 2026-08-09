@@ -8,12 +8,33 @@ created: 2026-06-17
 
 > How to price independent consulting work as a Hong Kong-based solo operator. Reusable across any engagement, not TTI-specific. Live benchmark figures come from [[last-salary]]; the current live application is the [[tti-engagement-strategy|TTI engagement]].
 
-## ✅ DECIDED 6 Aug 2026 - the TTI number
+## ✅ REVISED 9 Aug 2026 - the TTI number
 
-**HK$2,501,021/year (US$320,644) = HK$208,418/month (US$26,720) for a 12-month engagement.**
-**HK$218,252/month (US$27,981) for a 6-month engagement** - annual fixed costs (medical, life, company admin, mandatory MPF = HK$118,000) do not halve over six months, so HK$59,000 must be recovered over 6 months rather than 12, adding HK$9,833/month.
+**HK$2,336,594/year (US$299,563) = HK$194,716/month (US$24,964) for a 12-month engagement.**
+**HK$204,549/month for a 6-month engagement** - annual fixed costs (medical, life, company admin, mandatory MPF = HK$118,000) do not halve over six months, so HK$59,000 must be recovered over 6 months rather than 12, adding HK$9,833/month. *(6 months is a closed option, not offered - kept only for coherence.)*
 
-**Basis: full cost recovery, no risk or profit loading.** Last base + employer voluntary pension, plus 25%. The 25% funds the forgone bonus, the forgone employer pension, self-funded mandatory MPF, family medical, life cover and company admin - which together come to **24.76% of base**, leaving HK$4,421 (0.2%).
+**Basis: last base only, plus 25%.** The employer-pension clause is **deliberately dropped from the anchor** (it was in the 6 Aug figure). The 25% premium is HK$467,319 against documented replacement costs of HK$462,898, leaving **HK$4,421 - 0.24%, effectively nothing.**
+
+### Why it was lowered from HK$2,501,021 (the 6 Aug decision)
+
+**The trigger: Justin's read, 8 Aug** (J2 in [[tti-ea-requirements]], INTEL/unverified, never quotable): **Julian's current salary is likely higher than even senior members of Tony Chung's team.** That makes concrete a concern already recorded here - the figure is high for an enterprise architect who is not running a team - against the specific band Ty would benchmark against.
+
+**Why that outranks the margin.** Ty may well benchmark with Tony, who is a documented probable detractor. A number visibly above Tony's own senior people hands him the easiest possible objection: one requiring no argument, just a comparison. The 6 Aug decision optimised for *surviving scrutiny*; this optimises for *not triggering it*. Closing the deal outranks maximising the rate - Julian's own stated principle since 6 Aug.
+
+**⚠ Accepted trade-off, recorded so it is not silently re-litigated.** This is the option the 6 Aug analysis explicitly rejected, on the grounds that at the base-only anchor there is **no margin at all** - it is a break-even employee-equivalent, not a consulting rate. That analysis was correct and still stands; it has simply been outweighed. Concretely, this figure carries **no contingency** for early termination, for the gap to the next engagement, or for the two unpriced estimates (medical HK$40,000, life HK$20,000) being wrong. If either estimate is low, Julian is below cost recovery.
+
+**Presentation instruction: give the number two ways, because they answer two different questions.**
+
+| Purpose | Figure | Why this one |
+|---|---|---|
+| **Budget / 12-month business case** | **US$299,563 all-in** (~US$300k) | The whole cost of the engagement. No expenses loading, no benefits line, no employer on-costs. This is what goes in a business case. |
+| **Benchmarking against TTI's own people** | **~HK$155,773/month salary-equivalent** | Julian's last base. The like-for-like comparison against a salaried position, and the number that survives a comparison with Tony Chung's senior team. |
+
+**The 25% is the bridge between them, and it must travel with both numbers:** the bonus no longer earned, health and life cover, self-funded MPF, and the severance and notice Julian now carries rather than TTI. Given unprompted, this pre-empts the benchmark question rather than waiting to be caught by it.
+
+**Do not open on HK$194,716.** It is the arithmetic result, not a framing - on its own it invites the comparison without the explanation attached. Stephan repeats Julian's wording verbatim, so both numbers will travel; make sure they travel together.
+
+**Caveat to hold honestly:** the contract number *is* HK$194,716/month, and a finance function will eventually compare that. The dual framing makes the comparison fair rather than avoiding it.
 
 **Why this basis over a higher one (Julian's decision, 6 Aug):** it is the most defensible number if Tony Chung (SVP Finance APAC, documented probable detractor) is consulted, and closing the deal outranks maximising the rate. *"This is what I cost my last employer, and I now carry my own severance, notice and cover"* survives a finance review in a way a market-multiple argument does not. **Accepted trade-off:** no contingency for early termination or the gap to the next engagement, and the figure will be negotiated down from rather than up to. An [[llm-council]] session the same day recommended US$360k (cost + risk loading); this was considered and declined for the reasons above.
 
@@ -25,11 +46,11 @@ created: 2026-06-17
 
 | Option | Basis | Annual HK$ | Annual US$ | Monthly HK$ | Verdict |
 |---|---|---|---|---|---|
-| **Original cost model** | Base + 25% | 2,336,594 | 299,563 | 194,716 | Rejected - under-recovers the employer pension by US$21,080/yr. Round in USD, but the pension is a **cost lost, not a premium added**, so this sits *below* true cost recovery. |
-| **✅ DECIDED** | Base + employer pension + 25% | **2,501,021** | **320,644** | **208,418** | **Chosen.** Exact cost recovery, zero risk loading. Matches Julian's own June script verbatim, incl. the pension clause. |
+| **✅ CHOSEN 9 Aug** | Base + 25% | **2,336,594** | **299,563** | **194,716** | **Chosen.** Under-recovers the employer pension by US$21,080/yr and therefore sits *below* true cost recovery - accepted deliberately, because the benchmarking risk against Tony Chung's team outweighs the margin. Rounds cleanly to ~US$300k. |
+| ~~Decided 6 Aug~~ | Base + employer pension + 25% | ~~2,501,021~~ | ~~320,644~~ | ~~208,418~~ | **Superseded 9 Aug.** Was exact cost recovery with zero risk loading, and matched Julian's June script including the pension clause. Lowered after Justin's read that Julian's salary likely exceeds Tony's senior team (J2). |
 | Council recommendation | Total cash + risk loading | 2,808,000 | 360,000 | 234,000 | Declined - adds ~US$60k of risk/gap loading, but raises the fully-loaded comparison to 1.55x an IT director and weakens the Tony Chung defence. |
 
-**The gap between the original and the decided figure, decomposed:** pension clause +US$21,080. That is the whole difference; there is no premium in it.
+**The gap between the chosen and the superseded figure, decomposed:** the pension clause, US$21,080/yr. That is the whole difference - the reduction gives up recovery of a real lost cost, not a premium.
 
 ---
 
@@ -73,11 +94,11 @@ The same 25% premium applied to three different starting points. **Which startin
 
 | Anchor | Annual HK$ | Monthly HK$ | Annual US$ | Monthly US$ |
 |---|---|---|---|---|
-| Base only | 2,336,594 | 194,716 | 299,563 | 24,964 |
-| **Base + voluntary pension** | **2,501,021** | **208,418** | **320,644** | **26,720** |
+| **✅ Base only (CHOSEN 9 Aug)** | **2,336,594** | **194,716** | **299,563** | **24,964** |
+| Base + voluntary pension | 2,501,021 | 208,418 | 320,644 | 26,720 |
 | Base + pension + bonus (total cash) | 2,767,716 | 230,643 | 354,835 | 29,570 |
 
-**Base + voluntary pension is the correct anchor**, because it is what the spoken principle below actually says: *"my last base salary, **including the pension contribution my employer made**, plus 25%."* Anchoring on base alone drops that clause and costs **HK$164,428 (US$21,080) a year**.
+**On pure cost-recovery logic, base + voluntary pension is the correct anchor**, because it is what the spoken principle below actually says: *"my last base salary, **including the pension contribution my employer made**, plus 25%."* Anchoring on base alone drops that clause and costs **HK$164,428 (US$21,080) a year**. **That reasoning is still sound and was deliberately overridden on 9 Aug** for the benchmarking-risk reason in the DECIDED block at the top of this file. When speaking the principle aloud, say *"my last base salary plus 25%"* and **omit the pension clause** - quoting the June wording while charging the lower figure would be internally inconsistent if anyone did the arithmetic.
 
 **Why base-only is not a consulting price at all.** 25% of base is HK$467,319. Replacement costs alone consume it:
 
@@ -106,7 +127,11 @@ At the base-only anchor there is **no margin** for absent severance, absent noti
 
 Lead the conversation with a principle, not a number pulled from the air. The cleanest, hardest-to-argue version:
 
-> *"I take my last base salary, including the pension contribution my employer made, and add around 25% to cover the bonus I no longer earn, health and life insurance, and the MPF I now fund myself."*
+> **⚠ REVISED 9 Aug — say this version to TTI:** *"I take my last base salary and add around 25% to cover the bonus I no longer earn, health and life insurance, and the MPF I now fund myself."*
+>
+> **Lead with the base figure: ~HK$155,773 a month.** Derive the +25% from it rather than opening on HK$194,716 - Stephan repeats Julian's framing verbatim, so the base is the number that travels, and it is the one that narrows the perceived gap against Tony Chung's team.
+
+> ~~*"I take my last base salary, **including the pension contribution my employer made**, and add around 25%..."*~~ **Superseded 9 Aug.** This June wording matched the higher figure. Quoting it while charging the lower one would be internally inconsistent to anyone doing the arithmetic - so the pension clause comes out of the spoken line as well as the number.
 
 - Base (final run-rate) HK$1,869,275 + employer voluntary MPF HK$131,542 = HK$2,000,817. Add 25% = **~HK$2.5M/year (~HK$208k/month)**. See [[last-salary]].
 - **This is the number, not a floor to open above** (decided 6 Aug, reaffirmed 7 Aug). It is deliberately conservative - it starts from base, not total cash, and adds only 25% - which is exactly what makes it unarguable in conversation. That is the point of choosing it.
@@ -199,8 +224,9 @@ A lower divisor raises the day rate. At target 1.35x on total cash HK$2,082,631 
 ## Worked example (current benchmark)
 
 > **⚠ Reference only - NOT the TTI instruction.** Same caveat as the bands above. The
-> TTI figure is HK$208,418/month (12 months) or HK$218,252/month (6 months), from the
-> DECIDED block at the top of this file. Nothing in the table below overrides it.
+> TTI figure is **HK$194,716/month (12 months)**, or HK$204,549/month for the closed
+> 6-month option, from the DECIDED block at the top of this file. Nothing in the table
+> below overrides it.
 
 On total cash HK$2,082,631:
 
