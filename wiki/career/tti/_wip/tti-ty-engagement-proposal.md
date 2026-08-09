@@ -4,14 +4,15 @@ tags: [career, tti, artefact, proposal, ty, outbound]
 status: ready
 created: 2026-08-07
 updated: 2026-08-09
-version: v3.1 (both adversarial rounds closed; rate revised 9 Aug; two Perplexity-assessment tightenings applied 9 Aug)
+version: v4 (substantially revised 9 Aug in Julian's own editing pass, after both closed reviews)
 recipient: Ty Staviski (Deputy CFO)
 occasion: Ty making contact Mon 10 Aug 2026, requested by Stephan Pudwill 7 Aug
-send: OUTBOUND - stopping condition met, no open FATAL findings
+send: PENDING round-3 adversarial review - stopping condition not yet re-met for v4
 deliverable: tti-ty-proposal
 ---
 
-> **✅ As of 9 Aug 2026 - v3, both adversarial rounds closed. No open FATAL findings; the stopping condition in [[tti-ty-proposal]] is met.**
+> **⚠ As of 9 Aug 2026 (evening) - v4: substantially revised in Julian's own editing pass AFTER the two closed reviews, so their "no open FATAL" verdicts cover a version that no longer exists. Round 3 commissioned: Codex reviews first ([[tti-ty-engagement-proposal-codex-review-prompt-2026-08-09]]), Fable adjudicates the findings before any fix is applied. The stopping condition in [[tti-ty-proposal]] is NOT currently met for v4.**
+> - **9 Aug editing pass (v4), the short version:** levers renamed to capabilities with architect-owned metrics; new "Scope: three capabilities, one engagement" section (architecture capability with TOGAF Preliminary Phase, cost transparency, Gen AI skills distribution); month 1 redesigned to three artefacts within Julian's sole control (live decision now unwritten overdelivery; plan removed); months 2-12 reframed as baseline-target-gap-roadmap; Kari citations, NPV-of-delay claim, WACC offer, honest-gap sentence and overrun paragraph all removed; track record rebuilt as precedent per capability.
 > - **Round 1** ([[tti-ty-engagement-proposal-codex-review-2026-08-07]]): one FATAL - month 1 read as discovery, so Ty committed before the value case existed. **Fixed** - month 1 is now execution on one live cross-region decision.
 > - **Round 2** ([[tti-ty-engagement-proposal-codex-review-2026-08-08]]): its FATAL was **verified as a false positive** - the procurement quote is public (annual results call), not internal. All six SERIOUS and three MINOR findings applied.
 > - **9 Aug, targeted assessment (not a full round)** ([[tti-ty-engagement-proposal-fable-perplexity-assessment-2026-08-09]]): Fable reviewed the Perplexity report [[perplexity-defensible-ea-benefits]] against this document. Five levers confirmed; two tightenings applied (decision-latency NPV claim anchored to month 1; fund/defer/kill recommendation logged with the decision staying with Ty); the report's OKR framework held back as post-yes material, not sales content.
@@ -89,7 +90,7 @@ The measure follows the same rule as everything else in this document: each skil
 | US$1,000,000 | US$1,961,000 | 7.5x |
 | US$2,000,000 | US$4,222,000 | 15.1x |
 
-**Put the hurdle against the spend it governs.** I don't have sight of your group technology spend. Whatever it is, US$132,500 is the fraction of it this has to improve to wash its face. If the estate is anything like the scale I'd expect for a US$15.3bn business, that fraction is small - but the first question is whether the measured estate actually clears the hurdle, and that's what month one settles.
+**Put the hurdle against the spend it governs.** I don't have sight of your group technology spend. Whatever it is, US$132,500 is the fraction of it this has to improve to wash its face. If the estate is anything like the scale I'd expect for a US$15.3bn business, that fraction is small - but the first question is whether the measured estate actually clears the hurdle, and month one starts putting your own numbers on it.
 
 **Month 1 is execution, not a study.** I'm not asking you to fund a month of discovery and then decide. Thirty days, three things delivered:
 
@@ -105,9 +106,11 @@ Every one of these is mine to deliver - none of them waits on anyone else moving
 
 **Why 12 and not 6.** Six months buys tactical fixes that revert the moment I leave. Month one is baseline either way, governance takes three to four months to stand up, and you need two full quarterly cycles running through it to know the structure holds rather than the person holding it up. Six months stops before that test. The cheaper-looking option leaves less behind.
 
-**Why the role needs peer-level authority.** AI makes candidate options cheap now - draft standards, reference models, documentation. What it doesn't do is judge which option is actually sound, which risk is real and which is noise, or when an exception is genuinely warranted; that discrimination comes from years of watching decisions go right and wrong, and it doesn't ship with the tool. The second constraint is structural rather than personal: these decisions cross director lines, so whoever holds them has to sit at that level to make them stick. Regional directors keep their teams, budgets and line authority throughout - the mechanism only settles the cross-region calls that already leave any one region's control. AI closes the drafting gap; it closes neither the judgement gap nor the authority one, and the work needs both.
+**Why the work needs expert judgement.** Gen AI makes candidate options cheap now - draft standards, reference models, documentation. What it doesn't do is judge which option is actually sound, which risk is real and which is noise, or when an exception is genuinely warranted. That discrimination comes from years of watching decisions go right and wrong, and it doesn't ship with the tool.
 
-**Commercial. US$299,563 all-in for the twelve months, full-time with normal leave.** This is based on my previous Global Head of Enterprise Solution Architecture salary of HK$155,773 a month, with 25% added as there are no benefits, bonus or employer costs on top.
+**Why the role needs peer-level authority.** The decisions this engagement settles cross director lines, so whoever holds them has to sit at that level to make them stick - a structural constraint, not a personal preference. Regional directors keep their teams, budgets and line authority throughout; the mechanism only settles the cross-region calls that already leave any one region's control.
+
+**Commercial. US$299,563 all-in for the twelve months, full-time with normal leave.** This is based on my previous Head of Enterprise Solution Architecture base salary of HK$155,773 a month, with 25% added as there are no benefits, bonus or employer costs on top.
 
 **What this is not.** Not a reorganisation and not a new function. Regional technology directors keep their teams, budgets and line authority. I work inside the initiatives you already have. The only decisions that reach a group layer are the cross-region ones already going to committee today.
 
