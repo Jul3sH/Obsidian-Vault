@@ -28,7 +28,8 @@ Enterprise AI adoption patterns, leadership role design, governance, productivit
 
 ### Cost Management (TBM / FinOps)
 IT cost-management disciplines and how AI is changing them. (Root-level files for now; will graduate to a `cost-management/` subfolder as it grows.)
-- [[tbm-vs-finops]] - TBM (whole-estate) vs FinOps (cloud) distinction, relationship, and automation status.
+- [[tbm-vs-finops]] - TBM (strategic, top-down) vs FinOps (real-time, operational): the relationship, scope, and automation status.
+- [[tbm-taxonomy-value-evidence]] - when a TBM taxonomy produces savings vs becomes shelf-ware: case evidence, the two failure modes, and the four-part success pattern.
 - [AI in IT cost management: TBM vs FinOps](tbm-finops-ai-automation-briefing.html) - verified five-lens Storm briefing: where AI automates cost (FinOps) vs where it can't (whole-estate TBM cost-to-value).
 
 ### AI & Automation in EA

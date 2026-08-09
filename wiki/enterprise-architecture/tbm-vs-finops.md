@@ -2,11 +2,12 @@
 type: reference
 tags: [enterprise-architecture, cost-management, tbm, finops]
 created: 2026-07-03
+updated: 2026-08-09 (reframed - altitude, not scope, as the primary TBM/FinOps distinction)
 ---
 
 # TBM vs FinOps
 
-> Two IT cost-management disciplines that are often conflated. They are not the same thing at different sizes: **FinOps is the cloud slice; TBM is the whole estate.** Getting this distinction right is a seniority signal in any CFO/CIO conversation.
+> Two IT cost-management disciplines that are often conflated. The clean cut (reframed 9 Aug 2026): **TBM is the strategic, top-down discipline; FinOps is the real-time, operational one. Same principle - see cost clearly, tie it to value, decide together - just lighter and faster.** Scope still differs (TBM spans the whole estate; FinOps grew up in cloud and is expanding beyond it via Scopes), but **altitude, not scope, is the primary distinction** - the earlier "FinOps is the cloud slice" headline understated where FinOps has got to. Getting this relationship right is a seniority signal in any CFO/CIO conversation.
 
 ## The distinction
 
@@ -43,11 +44,13 @@ Distinct from the *scope* distinction above: this is the FinOps *organisational*
 
 ## Key Takeaways
 
-- **FinOps = cloud financial management (a corner); TBM = the whole technology estate (everything).** Not the same principles scaled up.
-- The commoditising, low-defensibility work is cloud FinOps; the scarce, defensible work is **whole-estate TBM cost-to-value**.
-- The strategic play for an operator: **leverage commodity FinOps tooling** for the cloud slice, and **own the whole-estate TBM allocation and brokering** where no vendor can reach.
+- **TBM = strategic, top-down; FinOps = real-time, operational. Same principle, lighter and faster.** (Reframed 9 Aug 2026 - the earlier "FinOps = a cloud corner" takeaway is superseded: FinOps's Scopes expansion reaches SaaS, on-prem and AI spend, so the scope gap is narrowing while the altitude difference persists.)
+- **Full TBM is heavy machinery and only pays at very large spend.** Agreeing the taxonomy alone can absorb a team for months, and programmes tend to run out of steam. The operator's pattern is principles-only: a simple agreed taxonomy, existing data (GL, cloud bills, data lake), AI doing the categorisation, a directionally-right view both sides trust. Evidence and failure modes: [[tbm-taxonomy-value-evidence]].
+- The commoditising, low-defensibility work is operational cloud cost tooling; the scarce, defensible work is **whole-estate cost-to-value allocation** - the politics and data trust no vendor can automate.
+- The strategic play for an operator: **leverage commodity FinOps tooling** where it exists, and **own the whole-estate allocation and brokering** where no vendor can reach.
 
 ## Related
+- [[tbm-taxonomy-value-evidence]] — when a TBM taxonomy produces savings vs becomes shelf-ware
 - [[ai-strategy/_index|AI Strategy & Organisation]] — enterprise AI adoption patterns
 - [[tbm-finops-ai-automation-briefing]] — the verified deep dive (Storm Research v2)
 - [[tti-value-proposition]] — where this positioning is applied (career)
