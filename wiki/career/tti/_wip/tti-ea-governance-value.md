@@ -169,7 +169,7 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 
 Both are capex that comes out once and stays out.
 
-**The hook into TTI's own words (added 9 Aug, now in [[tti-ty-engagement-proposal]]).** Steve asked this at the annual results briefing: *"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* FinOps, TBM and TOGAF are the frameworks that answer both questions - cost transparency, and adoption of global standards. **This is the pattern to use generally: state the TTI goal in their own words, then name the architecture response that closes it.**
+**The hook into TTI's own words (added 9 Aug, now in [[tti-ty-engagement-proposal]]).** Steve asked this at the annual results briefing: *"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* Cost management frameworks like FinOps and TBM enable informed trade-off conversations between IT and finance. Architecture frameworks like TOGAF ensure adoption of global standards. **This is the pattern to use generally: state the TTI goal in their own words, then name the architecture response that closes it** - and note the distinction itself is worth making: cost frameworks and architecture frameworks do different jobs, not interchangeable ones.
 
 > **Say it like this:** "TTI also raised the free cash flow target mid-year. Technology capex avoided through governance supports that too, not only EBIT. Two ways that happens: a region that reuses a group standard instead of building its own never spends the capital, and a design checked against the standard before it's built doesn't need rebuilding after. Both are capex that comes out once and stays out."
 

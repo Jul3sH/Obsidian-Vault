@@ -35,9 +35,9 @@ deliverable: tti-ty-proposal
 
 The North American ERP conversion is proof of what's possible: a hard project done right because one team rallied around it. The risk with a win like that in a federated business is the lessons stay with the people who lived it and never reach the next region that needs them. Standards rarely fail at approval. They fail in adoption, quietly, region by region, until the reconciliation comes back.
 
-You named the levers yourself: leverage synergies, AI and your assets. I'd build the governed layer that puts those levers to work, against your own target of 10% EBIT. You're already close at 9.9% in H1 - gross margin expanded 258 bps, but SG&A absorbed most of it before it reached EBIT.
+You named the levers yourself: leverage synergies, AI and your assets. We'd build the governed layer that puts those levers to work, against your own target of 10% EBIT. With SG&A rising 173 bps in H1, we need to identify additional levers that ensure gross margin gains reach EBIT.
 
-The next point could easily come from the structural side. Steve asked exactly that at the annual results briefing: *"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* FinOps, TBM and TOGAF answer both: cost transparency, and adoption of global standards. It also feeds the free cash flow target raised mid-year - capex avoided through reuse and upfront design checks comes out once and stays out.
+The next point could easily come from the structural side. Steve asked exactly that at the annual results briefing: *"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* Cost management frameworks like FinOps and TBM enable informed trade-off conversations between IT and finance. Architecture frameworks like TOGAF ensure adoption of global standards. It also feeds the free cash flow target raised mid-year. A region that reuses a group standard reduces capital up front, and robust assurance reduces capital spend on rework.
 
 **Where the money is.**
 
