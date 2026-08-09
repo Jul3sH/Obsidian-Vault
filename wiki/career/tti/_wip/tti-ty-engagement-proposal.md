@@ -78,16 +78,16 @@ The measure follows the same rule as everything else in this document: each work
 | US$1,000,000 | US$1,961,000 | 7.5x |
 | US$2,000,000 | US$4,222,000 | 15.1x |
 
-**Put the hurdle against the spend it governs.** I don't have your group technology spend - you do. Whatever it is, US$132,500 is the fraction of it this has to improve to wash its face. If the estate is anything like the scale I'd expect for a US$15.3bn business, that fraction is small - but the first question is whether the measured estate actually clears the hurdle, and that's what month one settles.
+**Put the hurdle against the spend it governs.** I don't have sight of your group technology spend. Whatever it is, US$132,500 is the fraction of it this has to improve to wash its face. If the estate is anything like the scale I'd expect for a US$15.3bn business, that fraction is small - but the first question is whether the measured estate actually clears the hurdle, and that's what month one settles.
 
 **Month 1 is execution, not a study.** I'm not asking you to fund a month of discovery and then decide. Thirty days, four things delivered:
 
-1. **One live cross-region decision taken through the mechanism** - the one everyone knows needs settling and nobody can move. It gets a named owner, a standard it's decided against, a named ratifier and a date, with the escalation clock running. You'll see how the layer works on something real before you've paid for two months of it. **You and I pick it together in week one**, against three criteria so it's neither cherry-picked nor impossible: it genuinely crosses regions, someone senior is waiting on it, and the delay has a cost we can name.
-2. **The decision map** - which cross-region calls escalate today, to which forum, and how long each takes to clear.
-3. **The coordination and duplication cost, measured** - from calendar and portfolio data. Your finance ops team can pull it; I define what counts, so a renamed "alignment sync" doesn't quietly leave the baseline.
+1. **One live cross-region decision, made ready to decide.** We pick it together in week one - the one everyone knows needs settling and nobody can move: it crosses regions, someone senior is waiting on it, and the delay has a cost we can name. By day 30 it is ready to decide - the standard drafted, the options and the cost of delay laid out, and a proposed route to the decision. The decision itself is made by the owner you name; that's the point of the mechanism.
+2. **Cost transparency, started.** The simple taxonomy drafted, and the first slice of spend categorised from data you already have - the GL and the cloud bills, with Gen AI doing the heavy lifting. Alongside it, the coordination and duplication cost measured from calendar and portfolio data. Your finance ops team pulls the data; I define what counts, so a renamed "alignment sync" doesn't quietly leave the baseline.
+3. **Gen AI governance, started.** The first governance pattern for Gen AI-enabled workflow changes drafted, with one candidate workflow selected together and its before-and-after measure defined - the template every workflow after it reuses.
 4. **A sequenced plan for months 2-12**, priced against that baseline.
 
-The first is the point. The other three turn the hurdle above into your actual numbers and give you something concrete to hold me to for the remaining eleven months.
+Every one of these is mine to deliver - none of them waits on anyone else moving first. Together they turn the hurdle above into your actual numbers, put visible movement on both capabilities inside the first thirty days, and give you something concrete to hold me to for the remaining eleven months.
 
 **And on programmes that overrun.** The reason large technology programmes overshoot is rarely incompetence - it's that the people accountable for hitting a date are also the people judging whether the design is sound. Architectural assurance separates those two jobs. Nobody marks their own homework, and problems surface while they're still cheap to fix. That discipline is part of what I'd put in, and it's the reason a governed estate costs less to change than an ungoverned one.
 
