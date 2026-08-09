@@ -1,28 +1,29 @@
 ---
 type: artefact
 tags: [career, tti, artefact, proposal, ty, outbound]
-status: draft
+status: ready
 created: 2026-08-07
-version: v1 (pre-adversarial-pass)
+updated: 2026-08-09
+version: v3 (both adversarial rounds closed; rate revised 9 Aug)
 recipient: Ty Staviski (Deputy CFO)
 occasion: Ty making contact Mon 10 Aug 2026, requested by Stephan Pudwill 7 Aug
-send: OUTBOUND - not until an independent adversarial pass returns no FATAL findings
+send: OUTBOUND - stopping condition met, no open FATAL findings
 deliverable: tti-ty-proposal
 ---
 
-> **⚠ DRAFT v1. Not yet adversarially reviewed.**
-> Stopping condition per [[tti-ty-proposal]]: an independent adversarial pass (skeptical
-> Ty / finance lens, run by a **different model than the one that drafted it**) returns no
-> FATAL findings, and every claim is one Julian can evidence if pushed. SERIOUS and MINOR
-> findings do not block the send.
+> **✅ v3 — both adversarial rounds closed. No open FATAL findings; the stopping condition in [[tti-ty-proposal]] is met.**
+> - **Round 1** ([[tti-ty-engagement-proposal-codex-review-2026-08-07]]): one FATAL - month 1 read as discovery, so Ty committed before the value case existed. **Fixed** - month 1 is now execution on one live cross-region decision.
+> - **Round 2** ([[tti-ty-engagement-proposal-codex-review-2026-08-08]]): its FATAL was **verified as a false positive** - the procurement quote is public (annual results call), not internal. All six SERIOUS and three MINOR findings applied.
+>
+> **⚠ Paired with [[tti-ty-call-script]] — any edit here requires checking that file in the same session.** This document is authoritative on content; the script on delivery.
 >
 > **Decisions locked by Julian (do not silently reverse):**
 > - **No break clause.** Once committed it is 12 months.
 > - **The 6-month option is closed**, not offered - it produces tactical work that reverts.
 > - **The organising message is "I'll work on your initiatives within the context of
 >   enterprise architecture."** Everything serves that line.
-> - **Do not anchor above HK$2.5M.** A higher number invites benchmarking and baselining
->   exercises that cost weeks against a live school deadline. See [[independent-consulting-pricing]].
+> - **The rate is US$299,563 (HK$2,336,594), revised down 9 Aug** from HK$2,501,021 after Justin's read that Julian's salary likely exceeds Tony Chung's senior team. **Do not go up, and do not go down** - at this figure there is HK$4,421 of headroom, effectively nothing, so any concession falls below cost recovery. Full reasoning: [[independent-consulting-pricing]] § REVISED.
+> - **Never claim "market rate".** State the role instead - *"my previous Global Head of Enterprise Solution Architecture salary"*. The market evidence is genuinely split and the supporting band has no primary source.
 
 ---
 
@@ -87,9 +88,7 @@ The first is the point. The other three turn the hurdle above into your actual n
 
 **Why the role needs peer-level authority.** AI makes candidate options cheap now - draft standards, reference models, documentation. What it doesn't do is judge which option is actually sound, which risk is real and which is noise, or when an exception is genuinely warranted; that discrimination comes from years of watching decisions go right and wrong, and it doesn't ship with the tool. The second constraint is structural rather than personal: these decisions cross director lines, so whoever holds them has to sit at that level to make them stick. Regional directors keep their teams, budgets and line authority throughout - the mechanism only settles the cross-region calls that already leave any one region's control. AI closes the drafting gap; it closes neither the judgement gap nor the authority one, and the work needs both.
 
-**Commercial. US$299,563 all-in for the twelve months** - HK$194,716 a month, monthly retainer, broadly full-time, normal leave. No expenses loading, no separate benefits line, no employer on-costs. That figure is the whole cost of the engagement, and it's what would go in a business case.
-
-**The basis.** My last base was HK$155,773 a month, as Global Head of Enterprise Solution Architecture. I add 25% to that, which covers what changes moving from employment to a contract: the bonus I no longer earn, health and life cover, the MPF I now fund myself, and the severance and notice I carry rather than you. That's what I cost my last employer, and I now carry my own cover.
+**Commercial. US$299,563 all-in for the twelve months, full-time with normal leave.** This is based on my previous Global Head of Enterprise Solution Architecture salary of HK$155,773 a month, with 25% added as there are no benefits, bonus or employer costs on top.
 
 **What this is not.** Not a reorganisation and not a new function. Regional technology directors keep their teams, budgets and line authority. I work inside the initiatives you already have. The only decisions that reach a group layer are the cross-region ones already going to committee today.
 

@@ -59,15 +59,15 @@ paired-with: tti-ty-engagement-proposal
 
 4. **"Month one is execution, not a study.** In thirty days I'd take one live cross-region decision - the one everyone knows needs settling and nobody can move - and put an owner, a standard, a ratifier and a date on it. You see the mechanism work on something real. **You and I would pick it together in week one** - it has to genuinely cross regions, have someone senior waiting on it, and have a delay cost we can name. Alongside that you get the decision map, the coordination cost measured, and a costed plan for the remaining eleven months." **⚠ Never say "quick win"** - Kari sold the 12 months on strategic gains, not quick wins. Say *"proof the mechanism works."*
 
-5. **"It's twelve months, not six - six buys tactical fixes that revert when I leave, and it's actually dearer per month."** Then give the number **two ways**, because they answer two different questions:
+5. **"It's twelve months, not six - six buys tactical fixes that revert when I leave, and it's actually dearer per month."** Then the number, stated plainly:
 
-   > *"For your budget it's **US$300,000 all-in for the twelve months** - that's the whole cost, no expenses loading, no benefits line, no employer on-costs on top.*
-   >
-   > *If you're benchmarking me against your own people, the salary-equivalent is **about HK$155,000 a month** - that was my last base. The 25% on top is what changes moving from employment to a contract: the bonus I no longer earn, health and life cover, the MPF I fund myself, and the severance and notice I carry rather than you."*
+   > *"It's **US$299,563 all-in for the twelve months**, full-time with normal leave. That's based on my previous **Global Head of Enterprise Solution Architecture** salary of HK$155,773 a month, with 25% added as there are no benefits, bonus or employer costs on top."*
 
-   **⚠ Why both, and in that order.** US$300k is the number Ty puts in a business case. HK$155k is the number that survives a comparison with Tony Chung's senior team - and giving it *unprompted*, framed as the like-for-like salary equivalent, pre-empts the benchmark rather than waiting to be caught by it. Stephan repeats Julian's framing verbatim, so both numbers travel; make sure they travel together with the 25% explanation between them.
-   
-   **Do NOT say "including the pension contribution my employer made"** - that was the June wording for the higher figure, and quoting it now would be inconsistent with the number being charged. **Do NOT open on HK$194,716** - it is the arithmetic result, not the framing, and on its own it invites the comparison without the explanation attached.
+   **⚠ Do not mention benchmarking.** The goal is that he signs it off, not that he goes and compares. The base figure is there because it explains where the number comes from - and it is available to him if he *is* under pressure to benchmark - but framing it as a comparison aid invites the exercise Julian just lowered the rate to avoid.
+
+   **Say the role, never "market rate".** "Global Head of Enterprise Solution Architecture" tells Ty what level the number bought and is an unarguable fact about Julian's history. **A market-rate claim is contestable and the evidence is genuinely split** - see the holding line below.
+
+   **Do NOT say "including the pension contribution my employer made"** - that was the June wording for the higher figure, and quoting it now would be inconsistent with the number being charged. **Do NOT open on HK$194,716** - it is the arithmetic result, not the framing.
 
 ---
 
@@ -76,6 +76,16 @@ paired-with: tti-ty-engagement-proposal
 **If he pushes on the number:** *"This is what I cost my last employer, and I now carry my own severance, notice and cover."* Do not go up. Do not offer a range. **And do not go down** - the rate was already lowered on 9 Aug from US$320,644 specifically to stay close to Tony's band, and at US$299,563 there is HK$4,421 of headroom, effectively nothing. Any further concession is below cost recovery.
 
 **If he asks for six months:** *"I'd rather not - you'd be paying more per month for work that reverts."*
+
+**If he challenges the level - "is that what someone at that level actually earns here?"**
+
+> *"Robert Half's Hong Kong guide puts enterprise architect at HK$2.16M at the seventy-fifth percentile - and they define that percentile as extensive experience, advanced skills, specialised certifications. That's the profile: twenty-five years, TOGAF, CISSP, CCIE. My base was HK$1.87M. So I was below the level their own guide says that profile commands."*
+
+**Verified live 9 Aug** - figures and definitions confirmed on the Robert Half site ([[hk-architecture-salary-benchmarks]] §2).
+
+**⚠ Use only if directly challenged, and only this source.** Randstad's guide caps enterprise architect at HK$120,000/month, which would put Julian 30% *above* their ceiling. The two verified sources disagree by 50% and the gap is not resolvable from published data. **Volunteering a comparison hands whoever is checking the choice of which guide to use** - and Randstad is the one that hurts.
+
+**Never claim "market rate."** The one band that would cleanly support it (Head of EA at HK$1.8-2.2M) has no primary source and is quarantined in Julian's own research as an AI inference, not market data.
 
 **If he raises overruns, or you sense the history is in the room:** *"The reason those programmes overshoot is usually that the people accountable for the date are also the people judging whether the design is sound. Assurance separates those two jobs - nobody marks their own homework."* **Never name a programme, a number or a business unit.** The CEO's public position is that the North American ERP executed flawlessly, and it is Shane Mall's business. Let Ty supply his own example. Background: [[tti-ea-requirements]] § The overrun question.
 

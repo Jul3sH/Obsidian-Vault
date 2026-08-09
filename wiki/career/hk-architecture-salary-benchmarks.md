@@ -61,7 +61,19 @@ Extracted directly from the published PDF. **Figures are HKD, basic monthly sala
 
 **Annual gross. The guide states these exclude bonuses, benefits and MPF** - so they are directly comparable to a base salary figure.
 
-**Source:** [Robert Half HK - Enterprise Architect](https://www.roberthalf.com/hk/en/job-details/enterprise-architect/hong-kong), retrieved 6 Aug 2026.
+**Source:** [Robert Half HK - Enterprise Architect](https://www.roberthalf.com/hk/en/job-details/enterprise-architect/hong-kong), retrieved 6 Aug 2026. **✅ Re-verified live 9 Aug 2026** - page still current, all three figures unchanged.
+
+### What each percentile means (Robert Half's own definitions - retrieved 9 Aug, missed in the original extraction)
+
+| Percentile | Robert Half's definition of the candidate |
+|---|---|
+| **P25** | New to the role, limited experience, building the necessary skills |
+| **P50** | Moderate experience, meets most requirements, potentially with certifications |
+| **P75** | **Extensive experience, advanced skills, and possibly specialised certifications** |
+
+**Why this matters, and it strengthens Julian's position considerably.** The P75 definition describes his profile precisely - 25+ years, TOGAF, CISSP, CCIE. Yet his base of HK$1,869,275 sits **below** their P75 of HK$2,160,000, at roughly **P64** (56% of the way from P50 to P75; 0.87x P75).
+
+So on this source the honest, defensible statement is not "I'm within range" but the stronger: **by Robert Half's own definition of the profile, Julian is a P75 candidate who was paid below their P75.** That is a defensive line, not a market-rate claim - use only if the level is directly challenged, and note the Randstad contradiction below before relying on it.
 
 ---
 

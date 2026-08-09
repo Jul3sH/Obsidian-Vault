@@ -23,18 +23,20 @@ created: 2026-06-17
 
 **⚠ Accepted trade-off, recorded so it is not silently re-litigated.** This is the option the 6 Aug analysis explicitly rejected, on the grounds that at the base-only anchor there is **no margin at all** - it is a break-even employee-equivalent, not a consulting rate. That analysis was correct and still stands; it has simply been outweighed. Concretely, this figure carries **no contingency** for early termination, for the gap to the next engagement, or for the two unpriced estimates (medical HK$40,000, life HK$20,000) being wrong. If either estimate is low, Julian is below cost recovery.
 
-**Presentation instruction: give the number two ways, because they answer two different questions.**
+**Presentation instruction (revised 9 Aug): lead with the all-in annual figure; give the base only as the basis, never as a benchmarking aid.**
 
-| Purpose | Figure | Why this one |
-|---|---|---|
-| **Budget / 12-month business case** | **US$299,563 all-in** (~US$300k) | The whole cost of the engagement. No expenses loading, no benefits line, no employer on-costs. This is what goes in a business case. |
-| **Benchmarking against TTI's own people** | **~HK$155,773/month salary-equivalent** | Julian's last base. The like-for-like comparison against a salaried position, and the number that survives a comparison with Tony Chung's senior team. |
+| Figure | Role in the conversation |
+|---|---|
+| **US$299,563 all-in** (~US$300k) | **The headline.** The whole cost of the engagement - no expenses loading, no benefits line, no employer on-costs. This is the number that goes in a business case, and the one Julian leads with. |
+| **~HK$155,773/month base** | **The basis, not a comparison.** Stated to explain where the number comes from. It is *available* to Ty if he is under pressure to benchmark, but must never be framed as an aid to doing so. |
 
-**The 25% is the bridge between them, and it must travel with both numbers:** the bonus no longer earned, health and life cover, self-funded MPF, and the severance and notice Julian now carries rather than TTI. Given unprompted, this pre-empts the benchmark question rather than waiting to be caught by it.
+**The 25% is the bridge and travels with both:** the bonus no longer earned, health and life cover, self-funded MPF, and the severance and notice Julian now carries rather than TTI.
 
-**Do not open on HK$194,716.** It is the arithmetic result, not a framing - on its own it invites the comparison without the explanation attached. Stephan repeats Julian's wording verbatim, so both numbers will travel; make sure they travel together.
+**⚠ Do not mention benchmarking, and do not claim "market rate."** The goal is sign-off, not comparison - and Julian lowered the rate specifically to avoid triggering a benchmarking exercise, so inviting one undoes the reason for the reduction. **Instead, name the role:** *"my last base, as Global Head of Enterprise Solution Architecture."* That signals the level the number corresponds to, and it is an unarguable fact about Julian's history rather than a contestable claim about the market.
 
-**Caveat to hold honestly:** the contract number *is* HK$194,716/month, and a finance function will eventually compare that. The dual framing makes the comparison fair rather than avoiding it.
+**Why "market rate" is unsafe here** ([[hk-architecture-salary-benchmarks]]): the two verified sources disagree by 50% and the gap is not resolvable from published data. Julian's HK$155,773/month sits at **1.30x above Randstad's enterprise-architect ceiling** (HK$120,000/mo) but **0.87x Robert Half's 75th percentile** (HK$180,000/mo, i.e. he is below their upper quartile at roughly P60-65). The one band that would cleanly support a market-rate claim - Head of EA at HK$1.8M-2.2M - **has no primary source** and is quarantined in that file as an AI inference. Use the Robert Half figure only as a defensive holding line **if the level is directly challenged**; volunteering it hands the other party the choice of which guide to use.
+
+**Do not open on HK$194,716.** It is the arithmetic result, not a framing. Stephan repeats Julian's wording verbatim, so whatever is said will travel.
 
 **Why this basis over a higher one (Julian's decision, 6 Aug):** it is the most defensible number if Tony Chung (SVP Finance APAC, documented probable detractor) is consulted, and closing the deal outranks maximising the rate. *"This is what I cost my last employer, and I now carry my own severance, notice and cover"* survives a finance review in a way a market-multiple argument does not. **Accepted trade-off:** no contingency for early termination or the gap to the next engagement, and the figure will be negotiated down from rather than up to. An [[llm-council]] session the same day recommended US$360k (cost + risk loading); this was considered and declined for the reasons above.
 
