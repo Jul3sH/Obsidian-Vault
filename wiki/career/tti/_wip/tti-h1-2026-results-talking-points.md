@@ -14,7 +14,7 @@ source: TTI IR announcement 2026-06-30 (H1 2026 results, HKEX Stock Code 669)
 
 **Why it was created (8 Aug 2026):** TTI announced record half-year results on 30 June 2026, and the people Julian is talking to spent the preceding weeks producing them. Knowing the numbers cold is the cheapest available credibility, and one of them points directly at the cost line his proposal targets.
 
-**How it is used:** Julian only, before the Ty call on Mon 10 Aug. **Everything here is PUBLIC** — an HKEX results announcement — so unlike [[tti-ea-requirements]]'s INTERNAL material, all of it is safe to reference without explaining how he knows it. Pick two or three; do not recite. Source: `TTI IR announcement 2026-06-30` in `_reference/`.
+**How it is used:** Julian only, before the Ty call on Mon 10 Aug. **Everything here is PUBLIC**, so unlike [[tti-ea-requirements]]'s INTERNAL material, all of it is safe to reference without explaining how he knows it. Pick two or three; do not recite. **⚠ Two different sources, added 9 Aug — don't conflate them:** the H1 2026 numbers (items 1-6) are from `TTI IR announcement 2026-06-30`; talking point 7 (Steve's quote) is from the earlier, separate [[tti-2025-annual-results-script]] (AR25 annual call). Different events, months apart.
 
 ---
 
@@ -67,7 +67,10 @@ TTI attributes the SG&A rise to *"continued investment in new product developmen
 The 10% is essentially in hand. The interesting question is what produces the upside *after* it, and structural cost is the honest answer. **This also publicly confirms the 2027 date**, which until now was only in a summary note.
 
 **2. The free cash flow target was raised — from over US$1.0bn to over US$1.3bn for 2026.**
-A 30% increase in a target, mid-year. Cash generation is the priority, and it says capital discipline is high right now.
+A 30% increase in a target, mid-year. Cash generation is the priority, and it says capital discipline is high right now. **The direct architecture link:** technology capex avoided through governance supports this target too, not only EBIT. Two mechanisms, not one vague "architectural lever": a region that reuses a group standard instead of building its own never spends the capital, and a design checked against the standard before it's built doesn't need rebuilding after. Both are capex that comes out once and stays out. Full argument: [[tti-ea-governance-value]] §0b.
+
+**7. Steve's own framing points straight at the pitch — but it's from the AR25 annual call, ⚠ not H1 2026, do not conflate the two events:**
+*"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* (full quote also names "leverage our back office"; drop that clause, it adds nothing). **FinOps, TBM and TOGAF are the frameworks that answer both questions directly** — cost transparency, and adoption of global standards. This is the strongest available bridge from TTI's own words to the pitch, and the pattern to reuse generally: state the goal in their words, then name the architecture response. Logged as P3 in [[tti-ea-requirements]]. Now built into [[tti-ty-engagement-proposal]] and [[tti-ty-call-script]].
 
 **3. A US$500m buyback started in June** (US$42m done by end July).
 Relevant in a way worth thinking about before saying: when a company is returning capital, every dollar of new spend competes with the buyback. **This is an argument for the fee being small and the hurdle being low, not for the value being big.** US$320,644 against a US$500m repurchase programme is a rounding error — which is exactly the framing the breakeven hurdle in the proposal already uses.
@@ -113,6 +116,8 @@ Feeds back into [[tti-ea-requirements]]:
 
 ## Related
 - [[tti-ty-engagement-proposal]] — the proposal these numbers support
-- [[tti-ea-requirements]] — the sourced requirements log this feeds
-- [[tti-ea-governance-value]] — §5b (assurance) and §2b (cost transparency) are the arguments the SG&A finding supports
-- `TTI IR announcement 2026-06-30` (in `_reference/`) — the full source
+- [[tti-ty-call-script]] — the spoken version of the same points
+- [[tti-ea-requirements]] — the sourced requirements log this feeds; Steve's quote is P3
+- [[tti-ea-governance-value]] — §5b (assurance), §2b (cost transparency) and §0b (the FCF lever, capex mechanism) are the arguments these findings support
+- `TTI IR announcement 2026-06-30` (in `_reference/`) — source for items 1-6
+- [[tti-2025-annual-results-script]] — source for item 7 (Steve's quote), a separate, earlier event

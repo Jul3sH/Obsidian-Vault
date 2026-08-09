@@ -35,9 +35,9 @@ deliverable: tti-ty-proposal
 
 The North American ERP conversion is proof of what's possible: a hard project done right because one team rallied around it. The risk with a win like that in a federated business is the lessons stay with the people who lived it and never reach the next region that needs them. Standards rarely fail at approval. They fail in adoption, quietly, region by region, until the reconciliation comes back.
 
-You named the levers yourself: leverage synergies, AI and your assets. I'd build the governed layer that puts those levers to work. That also serves your own target of 10% EBIT. You've already named taking structural admin and G&A cost out as one of the ways you're getting there. You're already close. 9.9% in H1, a record. Gross margin expanded 258 bps, but SG&A absorbed most of it before it reached EBIT. 
+You named the levers yourself: leverage synergies, AI and your assets. I'd build the governed layer that puts those levers to work, against your own target of 10% EBIT. You're already close at 9.9% in H1 - gross margin expanded 258 bps, but SG&A absorbed most of it before it reached EBIT.
 
-The next point could easily come from the structural side. Steve asked exactly that on the same call: *"How can we leverage our back office? How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* You also raised the free cash flow target mid-year, from over a billion to over one-point-three - and because free cash flow is operating cash minus capex, technology capex avoided through governance supports that target as well, not only the EBIT line. The lever is architectural - cost that comes out once and stays out, because the structure that generated it has changed.
+The next point could easily come from the structural side. Steve asked exactly that at the annual results briefing: *"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* FinOps, TBM and TOGAF answer both: cost transparency, and adoption of global standards. It also feeds the free cash flow target raised mid-year - capex avoided through reuse and upfront design checks comes out once and stays out.
 
 **Where the money is.**
 

@@ -163,7 +163,17 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 
 **Why it may be the stronger hook of the two.** The EBIT target has existed since AR25; TTI is simply on track to hit it. The FCF target is the one that just moved, upward, mid-year - it is evidence of a live, current priority rather than a standing one.
 
-> **Say it like this:** "You also raised the free cash flow target mid-year, from over a billion to over one-point-three - that's not a small revision. Free cash flow is operating cash minus capex, so anything on the technology side that avoids a duplicate build or a design that has to be re-cut isn't just an EBIT saving, it's capital that never left free cash flow in the first place."
+**The two mechanisms, stated plainly (sharpened 9 Aug - don't just assert "the lever is architectural," say what that means):**
+1. **Avoided spend.** A region that reuses a group standard instead of building or buying its own system never spends that capital at all.
+2. **Avoided rework.** A design checked against the standard before it's built doesn't need rebuilding after. Without that check, misalignment surfaces late, and the fix is capital spent on top of the original spend.
+
+Both are capex that comes out once and stays out.
+
+**The hook into TTI's own words (added 9 Aug, now in [[tti-ty-engagement-proposal]]).** Steve asked this at the annual results briefing: *"How can we leverage our negotiating costs on IT? How can we do the things globally to be able to free up more cash?"* FinOps, TBM and TOGAF are the frameworks that answer both questions - cost transparency, and adoption of global standards. **This is the pattern to use generally: state the TTI goal in their own words, then name the architecture response that closes it.**
+
+> **Say it like this:** "TTI also raised the free cash flow target mid-year. Technology capex avoided through governance supports that too, not only EBIT. Two ways that happens: a region that reuses a group standard instead of building its own never spends the capital, and a design checked against the standard before it's built doesn't need rebuilding after. Both are capex that comes out once and stays out."
+
+**⚠ Do not say "you raised the target" or restate the FCF figures.** This is a formal Board announcement in collective corporate voice - Ty is not even a named director on that filing, Frank is. And Ty already knows his own targets; restating them reads as explaining his own numbers back to him.
 
 ### 0c. The Capacity Window
 
