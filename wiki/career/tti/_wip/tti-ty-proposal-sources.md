@@ -52,7 +52,9 @@ paired-with: tti-ty-engagement-proposal
 | J1 | *"built and chaired a global networks design authority spanning three regions - the standards, the exception process, and a board of regional design-authority peers"* | Four BG Group operating-model packs (Playbook, Process Pack, Role/Responsibilities & Interactions, Toolkit), Aug-Sep 2011, in Julian's personal Dropbox. Full write-up: [[tti-story-bank]] §1a. **⚠ These will never be shared** - the story must stand on fluent telling | **OWN** |
 | J2 | *"Twenty-plus design standards came out of it and design cycle time fell by up to 30%, measured"* | *"Creation of 20+ network and security design standards reducing design cycle times by up to 30%"* | [[master-resume]] L184 · **OWN** |
 | J3 | *"my previous Global Head of Enterprise Solution Architecture salary of HK$155,773 a month"* | Base HK$1,869,275/yr ÷ 12. Title verified in [[master-resume]] L50 | [[last-salary]] · **OWN** |
-| J4 | **Removed from the proposal 9 Aug** (now "extensive background in service design", no year count). **Tenure settled same day: 12 years, confirmed by Julian** - the "vs 15" was confusion with the separate 15+ BFSI CV figure; no document ever claimed 15. If a count is wanted in writing or aloud, it is 12. | **OWN - settled** |
+| J4 | *"twelve years leading service-design teams on end-to-end operational workflows"* - **back in writing 9 Aug (late), now safe**: tenure settled at 12 same day (confirmed by Julian; the "vs 15" was confusion with the separate 15+ BFSI CV figure - no document ever claimed 15). | **OWN - settled** |
+| J5 | *"restructured solution assurance across US$60M+ of multi-tower solutions and lifted right-first-time delivery by 20%"* (added to the proposal 9 Aug in the precedent-per-capability rewrite; previously the script's held-in-reserve second example) | [[tti-story-bank]] · Global Head of Enterprise Solutions Architecture role, [[master-resume]] | **OWN** |
+| J6 | *"complex solutions ship with complex cost models, and I have built them throughout my career"* (added 9 Aug) - deliberately qualitative, no count, no named client; presales/solution-architecture track record | **OWN** |
 
 ---
 

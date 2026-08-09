@@ -73,7 +73,7 @@ status-updated: 2026-08-09
 **Next actions (updated 9 Aug):**
 1. ~~Decide the no-break-clause answer before the call~~ **Adopted 9 Aug** - the no-off-ramp holding line is now in [[tti-ty-call-script]] ("month one isn't a go/no-go gate... it sizes and aims the months 2-12 plan; month one replaces my judgement with your numbers"), alongside a mechanics note on how month 1 measures the addressable pool. Do not improvise past the adopted line on the call.
 2. ~~Settle the F3 tenure flag~~ **Fully closed 9 Aug** - the year count came out of the proposal, and Julian then confirmed the service-design tenure is 12 years (the "vs 15" was confusion with the 15+ BFSI CV figure; no document ever claimed 15). 12 is safe to use anywhere.
-3. **Decide on the redundant overrun paragraph.** "And on programmes that overrun" now duplicates the Design assurance lever row (renamed from Risk control 9 Aug). Cut one, or keep both deliberately.
+3. ~~Decide on the redundant overrun paragraph~~ **Resolved 9 Aug: cut.** The Design assurance lever row carries the argument; assurance additionally now surfaces as a finding of the new month-1 architecture capability baseline deliverable. The spoken overrun holding line in [[tti-ty-call-script]] is unchanged.
 4. **Ask Stephan on Monday whether Ty can actually decide fast** - before the call, not after. If no, the proposal's job changes from closing to setting a dated next step.
 5. **Chase Kari.** Still unanswered since 7 Aug 15:23. He covers the right-to-work question and a candidate stuck cross-region decision for Month 1.
 6. **Sequence Tony FIRST** - he must hear it from Ty, framed as pooling authority not confiscating, before it reaches any sign-off desk.
