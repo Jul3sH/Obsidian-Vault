@@ -661,7 +661,7 @@ Referenced the two retired briefs (consulting + AI leadership). **Decided agains
 - **Business-led, no low-status sympathy-ask.** Empathy/urgency rides third-party channels (Peter, Horst), never Julian's direct message.
 - **No apologetic framing** ("forgive me for chasing"). The relationship has earned direct asks.
 - **No crude humour in the job thread** — the warm/irreverent register is fine for pure personal touchpoints, clean for business asks.
-- **Total-career figure is 25+ years** (standardised 9 Jun 2026, matches the CV). The *service-design-specific* tenure (**12 vs 15**) is a separate, still-unresolved figure — reconcile only if a service-design year-count goes into writing.
+- **Total-career figure is 25+ years** (standardised 9 Jun 2026, matches the CV). The *service-design-specific* tenure is **12 years - settled by Julian 9 Aug 2026** (the "vs 15" was confusion with the separate 15+ BFSI figure; no document ever claimed 15).
 
 ## Related
 - [[tti-engagement-strategy]] — current strategy (diagnose-first); this doc executes its WhatsApp probe

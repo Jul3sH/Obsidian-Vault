@@ -7,7 +7,7 @@ created: 2026-08-09
 paired-with: tti-ty-engagement-proposal
 ---
 
-# TTI — Ty Proposal: Source List
+# TTI - Ty Proposal: Source List
 
 ## What this is, and why it exists
 
@@ -41,6 +41,7 @@ paired-with: tti-ty-engagement-proposal
 | S10 | *"my understanding from talking to Kari is that's the Asia-US interface rather than Europe or Australia"* | Kari, to Julian: scope should be enterprise-wide, *"if we are doing this it should be done everywhere"*; named Australia and Europe as already fine | [[kari-meeting-note-2026-07-24]] · K3 | **DIRECT** |
 | S11 | *"a US$15.3bn business"* | *"revenue growth to US dollar fifteen point three billion"* (FY2025) | [[tti-2025-annual-results-script]] L49 | **PUBLIC** ⚠ see F4 |
 | S12 | **Reworded 9 Aug - the direct claim is out of the proposal.** The Portfolio rationalisation lever now says only *"finance platforms are the classic case"* as a generic example, asserting nothing about TTI's estate; Ty decodes it himself. The verification is retained here in case he probes: SAP group-wide, Oracle Cloud ERP in NA finance, both primary-sourced. **Oracle EBS HK remains unverified** (LinkedIn only, removed 8 Aug) - do not name it even if he opens the topic. | [[tti-technology-stack]] §ERP | **PUBLIC** (the two verified tiers only) |
+| S13 | *"From the outside I can see many pockets of AI initiative across TTI"* (added 9 Aug) | Backed by [[tti-ai-roles]] (May 2026 outside-in catalogue from LinkedIn, job postings, TTI filings): VP Enterprise Data & AI (Pivar, infrastructure scope), Director ML (Endean, product-embedded), Solutions Architect Agentic AI (Romine), APAC digital execution directors - multiple pockets, **no enterprise-wide AI governance owner identified**. "What I can't tell" is the polite outbound rendering of that finding; the honest basis is public data, so safe if probed. The hyperscaler-pace comparison is deliberately qualitative - no benchmark stat, per the no-unmeasured-numbers discipline. | [[tti-ai-roles]] · [[tti-ai-productivity-gap]] | **OWN** (analysis of public data) |
 
 ---
 
@@ -51,7 +52,7 @@ paired-with: tti-ty-engagement-proposal
 | J1 | *"built and chaired a global networks design authority spanning three regions - the standards, the exception process, and a board of regional design-authority peers"* | Four BG Group operating-model packs (Playbook, Process Pack, Role/Responsibilities & Interactions, Toolkit), Aug-Sep 2011, in Julian's personal Dropbox. Full write-up: [[tti-story-bank]] §1a. **⚠ These will never be shared** - the story must stand on fluent telling | **OWN** |
 | J2 | *"Twenty-plus design standards came out of it and design cycle time fell by up to 30%, measured"* | *"Creation of 20+ network and security design standards reducing design cycle times by up to 30%"* | [[master-resume]] L184 · **OWN** |
 | J3 | *"my previous Global Head of Enterprise Solution Architecture salary of HK$155,773 a month"* | Base HK$1,869,275/yr ÷ 12. Title verified in [[master-resume]] L50 | [[last-salary]] · **OWN** |
-| J4 | *"twelve years designing end-to-end operational workflows"* | ⚠ **See F3 - this figure is flagged unresolved and is now in writing** | **OWN, unconfirmed** |
+| J4 | **Removed from the proposal 9 Aug** (now "extensive background in service design", no year count). **Tenure settled same day: 12 years, confirmed by Julian** - the "vs 15" was confusion with the separate 15+ BFSI CV figure; no document ever claimed 15. If a count is wanted in writing or aloud, it is 12. | **OWN - settled** |
 
 ---
 
@@ -73,14 +74,14 @@ paired-with: tti-ty-engagement-proposal
 |---|---|---|
 | **F1** | **T9 in [[tti-ea-requirements]] cites [[tti-2025-ar-key-initiatives]]** - a summary someone wrote - rather than the primary transcript. A summary can paraphrase or drift; if challenged, Julian wants the transcript line. | Repoint T9 to [[tti-2025-annual-results-script]] ~L818-820 (S2 above) |
 | **F2** | **S1 (the NA ERP one-team claim) is used in the proposal but was never logged** in the requirements list at all. | Add as a PUBLIC requirement row |
-| **F3** | **J4, "twelve years", is a live unresolved flag.** [[tti-engagement-strategy]] L109 records the service-design tenure as **"12 vs 15 - UNRESOLVED; reconcile only when a service-design year-count goes into writing."** It is now in writing, in the proposal. The trigger has fired and was not noticed. | Julian to settle 12 or 15 before sending, or remove the number |
+| **F3** | **✅ Fully closed 9 Aug.** First by removal (the "twelve years" count came out of the proposal), then by resolution: **Julian confirmed the service-design tenure is 12 years**, and a vault-wide search showed no document ever claimed 15 (confusion with the 15+ BFSI figure). Guardrails in [[tti-engagement-strategy]] and [[tti-comms-log]] updated to SETTLED. | None. 12 is safe to use anywhere |
 | **F4** | **S11 uses FY2025 revenue (US$15.3bn).** H1 2026 was US$8.3bn, +5.9%, so FY2026 will land higher. The figure is defensible as the last reported full year, but a CFO may register it as slightly dated. | Optional - could say "a business your size" instead |
 
 ---
 
 ## Related
-- [[tti-ty-engagement-proposal]] — the document these sources back. Authoritative on content.
-- [[tti-ty-call-script]] — what Julian says. Authoritative on delivery.
-- [[tti-ea-requirements]] — the broader sourced log of everything TTI stakeholders have said, including the Quotability table
-- [[tti-story-bank]] — §1a the full BG Group story behind J1 and J2
-- [[hk-architecture-salary-benchmarks]] — the salary evidence behind the challenge-only holding line
+- [[tti-ty-engagement-proposal]] - the document these sources back. Authoritative on content.
+- [[tti-ty-call-script]] - what Julian says. Authoritative on delivery.
+- [[tti-ea-requirements]] - the broader sourced log of everything TTI stakeholders have said, including the Quotability table
+- [[tti-story-bank]] - §1a the full BG Group story behind J1 and J2
+- [[hk-architecture-salary-benchmarks]] - the salary evidence behind the challenge-only holding line

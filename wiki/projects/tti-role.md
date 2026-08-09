@@ -72,8 +72,8 @@ status-updated: 2026-08-09
 
 **Next actions (updated 9 Aug):**
 1. ⭐ **Decide the no-break-clause answer before the call, do not improvise it.** This is the sharpest unanswered objection found in three review rounds. Draft holding line is in the Status section above; Julian needs to either adopt it or write his own.
-2. **Settle the F3 tenure flag.** "Twelve years designing end-to-end operational workflows" is now in writing in the proposal, which fires the UNRESOLVED 12-vs-15 trigger recorded at [[tti-engagement-strategy]] L109. Settle on a number or cut it before sending.
-3. **Decide on the redundant overrun paragraph.** "And on programmes that overrun" now duplicates the Risk control lever row. Cut one, or keep both deliberately.
+2. ~~Settle the F3 tenure flag~~ **Fully closed 9 Aug** - the year count came out of the proposal, and Julian then confirmed the service-design tenure is 12 years (the "vs 15" was confusion with the 15+ BFSI CV figure; no document ever claimed 15). 12 is safe to use anywhere.
+3. **Decide on the redundant overrun paragraph.** "And on programmes that overrun" now duplicates the Design assurance lever row (renamed from Risk control 9 Aug). Cut one, or keep both deliberately.
 4. **Ask Stephan on Monday whether Ty can actually decide fast** - before the call, not after. If no, the proposal's job changes from closing to setting a dated next step.
 5. **Chase Kari.** Still unanswered since 7 Aug 15:23. He covers the right-to-work question and a candidate stuck cross-region decision for Month 1.
 6. **Sequence Tony FIRST** - he must hear it from Ty, framed as pooling authority not confiscating, before it reaches any sign-off desk.
