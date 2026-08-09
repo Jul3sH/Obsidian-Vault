@@ -277,6 +277,18 @@ renamed: 2026-07-17
 
 ---
 
+## 📤 NEXT MESSAGE - drafted 9 Aug, send Monday 10 Aug morning HK time, BEFORE the Ty call
+
+> **Two jobs:** (1) learn before the call whether Ty can decide fast - if not, the call's job changes from closing to setting a dated next step; (2) seed Stephan with the exact framing to repeat to Ty: 12 months, the group-level anchor phrase, no fee figure.
+
+**The message (WhatsApp):**
+
+> Morning Stephan. All set for Ty - the proposal is ready: 12 months, working on the initiatives they already have, establishing architecture and governance across the group, with the number included as you asked. One thing that would help me pitch it right: is this Ty's decision to make, or will he need to bring others in? With the school deadline I'm working in days rather than weeks, so it helps to know whether Monday can be decisive or is the first step.
+
+**Design notes:** "12 months" pre-seeds the locked position through the channel Justin already anchored; *"establishing architecture and governance across the group"* is the current anchor phrase (updated 9 Aug from "across Asia" - the proposal is group-level scope); the decision question is asked as information, not pressure, and surfaces the sign-off path without naming anyone; "days rather than weeks" gives the question its practical reason. Deliberately absent: chase energy, any "will this conclude" close, and the fee.
+
+---
+
 ## ✅ 7 Aug - THE ASK LANDED: Stephan called, then put it in writing - a proposal for 6 or 12 months, scope and amount, Ty making contact Monday
 
 > **First time in the entire engagement that TTI has asked for a priced offer with a term attached.** Every prior movement was advocacy, framing or access. Stephan called at ~08:00 UK (prompted by Justin, see the Justin section above) and followed it in writing three minutes later. The question is no longer whether TTI will engage; it is whether Julian can close it in one call.
