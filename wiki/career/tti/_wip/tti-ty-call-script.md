@@ -17,18 +17,21 @@ paired-with: tti-ty-engagement-proposal
 
 **How it is used:** open this and nothing else before the call. `send: NEVER` - several lines here would be actively damaging if they reached Ty, Stephan or Tony Chung.
 
-> ## ⚠ THESE TWO FILES MUST STAY IN SYNC
+> ## ⚠ THREE FILES MUST STAY IN SYNC (as of 9 Aug 2026)
 >
-> **This file and [[tti-ty-engagement-proposal]] are a matched pair.** They drifted apart
-> once already, on 8 Aug, during the round-2 review fixes - the proposal was corrected
-> but this half still carried superseded guidance, including a figure that had been
-> deliberately removed for being an overreach.
+> | File | Role | Authority |
+> |---|---|---|
+> | [[tti-ty-engagement-proposal]] | What Ty reads | **Content** |
+> | **This file** | What Julian says | **Delivery** |
+> | [[tti-ty-proposal-sources]] | The evidence behind every claim | **Verification** |
 >
-> **The rule: any edit to one requires checking the other in the same session.** Most
-> at risk are the numbers (the fee, the hurdle, the H1 figures), the month-1 design,
-> and anything tagged INTERNAL / not-quotable in [[tti-ea-requirements]]. If the two
-> disagree, **the proposal is authoritative on content** and this file is authoritative
-> on delivery - but neither should be left disagreeing.
+> **They drifted apart once already, on 8 Aug**, during the round-2 review fixes: the
+> proposal was corrected but this file still carried superseded guidance, including a
+> figure deliberately removed for being an overreach.
+>
+> **The rule: any edit to one requires checking the other two in the same session.**
+> Most at risk are the numbers (fee, hurdle, H1 figures), the month-1 design, and
+> anything tagged INTERNAL / not-quotable in [[tti-ea-requirements]].
 
 ---
 
@@ -51,7 +54,7 @@ paired-with: tti-ty-engagement-proposal
 
 ## The five lines
 
-1. **"What I'd like to do is work on the initiatives you already have, but in an enterprise-architecture context.** You've got the ERP work in North America, the AI agenda on G&A - each with its own owner and its own momentum. What tends to go missing at group scale is the layer that keeps a standard holding as it extends, so it doesn't quietly fragment region by region." **⚠ Do NOT name the global P&L platform or the IT cost-leverage results** - both are internal (employee Q&A) and naming them reveals you hold an internal transcript. If you want to open that door, ask instead: *"Is there work underway to standardise how the business reads its cost and margin?"* See [[tti-ea-requirements]] § Quotability.
+1. **"What I'd like to do is work on the initiatives you already have, but in an enterprise-architecture context.** Take the North American ERP win. Hard project, done right, because one team rallied around it. That's real experience, and the risk with a win like that is it stays with the people who lived it and never reaches the next region. You said it yourself: leverage synergies, AI and your assets. That's a common gap in federated businesses, and it fits the pattern here: what worked, and what didn't, rarely gets captured, mapped into a standard, and governed, so the next project builds on it instead of relearning it from scratch." **⚠ Do NOT name the global P&L platform or the IT cost-leverage results** - both are internal (employee Q&A) and naming them reveals you hold an internal transcript. If you want to open that door, ask instead: *"Is there work underway to standardise how the business reads its cost and margin?"* See [[tti-ea-requirements]] § Quotability. **⚠ Do not say "AI agenda aimed at G&A"** - that overclaims. Ty's quote lists G&A cost reduction and leveraging synergies/AI/assets as separate drivers, not AI pointed specifically at G&A.
 
 2. **"The reason that layer pays is that cross-region decisions currently have no owner, so they go to a committee.** Every one that waits defers whatever was behind it - and I'd add two capabilities inside that: cost transparency across the estate, so you can actually read what technology costs, and a governance pattern for AI-enabled workflow changes that TTI's own teams then operate." **If he probes the cost discipline, say TBM, not FinOps** - FinOps is the cloud corner and it's commoditising; the whole-estate view is the scarce work. Getting that distinction right lands as senior; getting it wrong is a tell. **On AI, stay bounded** - the first pattern, then their teams run it. Never sound like an AI transformation programme.
 

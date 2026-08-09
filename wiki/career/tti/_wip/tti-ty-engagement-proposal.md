@@ -11,11 +11,11 @@ send: OUTBOUND - stopping condition met, no open FATAL findings
 deliverable: tti-ty-proposal
 ---
 
-> **✅ v3 — both adversarial rounds closed. No open FATAL findings; the stopping condition in [[tti-ty-proposal]] is met.**
+> **✅ As of 9 Aug 2026 — v3, both adversarial rounds closed. No open FATAL findings; the stopping condition in [[tti-ty-proposal]] is met.**
 > - **Round 1** ([[tti-ty-engagement-proposal-codex-review-2026-08-07]]): one FATAL - month 1 read as discovery, so Ty committed before the value case existed. **Fixed** - month 1 is now execution on one live cross-region decision.
 > - **Round 2** ([[tti-ty-engagement-proposal-codex-review-2026-08-08]]): its FATAL was **verified as a false positive** - the procurement quote is public (annual results call), not internal. All six SERIOUS and three MINOR findings applied.
 >
-> **⚠ Paired with [[tti-ty-call-script]] — any edit here requires checking that file in the same session.** This document is authoritative on content; the script on delivery.
+> **⚠ Now a set of THREE paired files — any edit requires checking all three in the same session.** [[tti-ty-call-script]] (what Julian says; authoritative on delivery) and [[tti-ty-proposal-sources]] (the evidence behind every claim here). This document is authoritative on content.
 >
 > **Decisions locked by Julian (do not silently reverse):**
 > - **No break clause.** Once committed it is 12 months.
@@ -33,7 +33,7 @@ deliverable: tti-ty-proposal
 
 **I'd work on the initiatives you already have, in an enterprise-architecture context** - not a parallel programme, not a new function competing for sponsorship.
 
-The momentum is there. The North American ERP conversion went in on a one-team model when those projects routinely go wrong elsewhere, and the AI agenda is aimed at structural G&A. What goes missing at group scale is the layer that keeps a standard holding as it spreads - an ERP target state, one consistent way of reading cost and margin, the data discipline AI needs underneath it. Standards rarely fail at approval. They fail in adoption - quietly, region by region, until the reconciliation comes back.
+The North American ERP conversion is proof of what's possible: a hard project done right because one team rallied around it. The risk with a win like that is the lessons stay with the people who lived it and never reach the next region that needs them. You named the levers yourself: leverage synergies, AI and your assets. That's a common gap in federated businesses, and TTI fits that pattern: what worked, and what didn't, rarely gets captured, mapped into a standard, and governed, so the next project builds on it instead of relearning it from scratch. Standards rarely fail at approval. They fail in adoption, quietly, region by region, until the reconciliation comes back.
 
 That layer is what I'd build, against your own target: 10% EBIT, by taking structural admin and G&A cost out. You're already close - 9.9% in H1, a record - and the half-year numbers show why the next point has to come from the structural side: gross margin expanded 258 bps, but SG&A absorbed most of it before it reached EBIT. You also raised the free cash flow target mid-year, from over a billion to over one-point-three - and because free cash flow is operating cash minus capex, technology capex avoided through governance supports that target as well, not only the EBIT line. The lever is architectural - cost that comes out once and stays out, because the structure that generated it has changed.
 
@@ -50,7 +50,7 @@ That layer is what I'd build, against your own target: 10% EBIT, by taking struc
 
 **Cost transparency across the technology estate.** Kari's assessment was that TTI lacks this data in the organisation, and you can't reduce a cost estate you can't read. This is TBM rather than FinOps - FinOps is the cloud corner and it is commoditising toward native tooling; the whole-estate view maps what infrastructure, applications, licences, labour and contracts actually cost, up to the capabilities they support. It does two things at once: it exposes recurring savings in run-rate spend you are already paying, so payback is unusually fast, and it turns technology from one lump in the P&L into a line the business can actually read. Wherever the group is standardising how it reads cost and margin, this is the technology view that belongs underneath it.
 
-**AI leverage inside existing workflows.** Your own framing is AI and asset leverage taking out structural admin and G&A. The constraint on that isn't the models, it's knowing which workflows are safe to change and how the output gets checked. My background is twelve years designing end-to-end operational workflows; AI slots into that as another entity in the process rather than a technology to be adopted separately. So the contribution is bounded: I'd define the first governance pattern for AI-enabled workflow changes - repeatable, checked, endorsed, with defined levels of human judgment - and TTI's teams operate it from there. The point is that the first savings stand up to audit, so the ones after them scale. Not building tools in a corner, and not an AI transformation programme.
+**AI leverage inside existing workflows.** You said it yourself: leverage synergies, AI and your assets. Leveraging assets is reuse, and reuse is what enterprise architecture is for, designing something once and applying it across the business instead of every region rebuilding it. AI is one form that takes: the constraint on it isn't the models, it's knowing which workflows are safe to change and how the output gets checked. My background is twelve years designing end-to-end operational workflows; AI slots into that as another entity in the process rather than a technology to be adopted separately. So the contribution is bounded: I'd define the first governance pattern for AI-enabled workflow changes - repeatable, checked, endorsed, with defined levels of human judgment - and TTI's teams operate it from there. The point is that the first savings stand up to audit, so the ones after them scale. Not building tools in a corner, and not an AI transformation programme.
 
 **The number this turns on.** I won't hand you a benefit figure I haven't measured. Here is the hurdle instead:
 

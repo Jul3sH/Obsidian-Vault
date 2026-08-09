@@ -19,5 +19,6 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-verify-before-writing.md | feedback | Verify a checkable claim in the same turn you write it into a file, not after Julian questions it |
 | feedback-graduated-chase-tone.md | feedback | Chasing a stalled third party: open warm, not direct; escalate only if silence continues; don't pre-plan follow-ups before seeing the reply |
 | feedback-bare-identifiers.md | feedback | Never use a bare identifier (F1, S3, §4, BWS-39) for work Julian isn't actively holding — give the identifier plus what it says and which document |
+| feedback-plain-writing-not-riddles.md | feedback | Write plainly, not in AI-tell riddle-like rhetorical patterns; when paraphrasing a source quote, don't compress it into a claim that overreaches the original |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)

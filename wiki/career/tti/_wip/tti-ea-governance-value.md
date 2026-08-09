@@ -112,7 +112,7 @@ These are process, timing, or simple signals rather than a stated need, so nothi
 | Prior-proof: honest bridge drafted, welded to the de-risk; instruction to build one Telstra before/after | Superseded 8 Aug — the real answer is BG Group, [[tti-story-bank]] §1a |
 | Coordination-tax: illustrative model + "can't cancel without replacing the decision function" | §5 |
 
-### Still open (must close before the Ty room)
+### Still open as of 9 Aug 2026 (must close before the Ty room)
 
 > **⚠ Corrected 8 Aug — this table had gone stale.** Two of the original four items were already closed and the table hadn't been updated; that is the exact failure mode this whole document restructure exists to fix. Verified against current content, not assumed.
 

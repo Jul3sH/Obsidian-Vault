@@ -137,6 +137,39 @@ adversarial-review attack table rather than a statement of what it was.
 registers, and meeting notes. Index files are exempt (their purpose is self-evident
 and the [[#Index Files Are Navigation Only (hard rule)]] rule already governs them).
 
+## Status Claims Must Carry a Date (mandatory)
+
+**Any claim inside a document about its own state must be dated.** This covers draft
+and version banners, "still open" / "blocked on" / "pending" lists, readiness verdicts,
+review status, and any "next action" written into a document body.
+
+**Format:** lead with the date. *"⚠ As of 7 Aug: not yet adversarially reviewed"* -
+never a bare *"not yet adversarially reviewed."*
+
+**Why the date is the mechanism, not the reminder.** An undated status claim reads as
+current forever, so it stays wrong silently. A dated one **flags itself to the reader**
+the moment the date looks old - no memory or discipline required, and it works even
+when the agent forgets. That is the point: the rule has to survive the agent not
+following it.
+
+**And on every edit, re-read the document's own status claims.** If you change what a
+document says, check what it claims about itself in the same operation. Editing content
+does not automatically update a banner three screens above it.
+
+**This is the [[#Index Files Are Navigation Only (hard rule)]] doctrine applied inside
+documents.** Same root cause, stated there: *state copied away from its source goes
+stale because the update obligation is silent and easy to miss.* Indexes were fixed by
+banning state outright; document bodies cannot be, because a draft genuinely does need
+to say it is a draft - so the fix is dating it instead.
+
+**Evidence (8-9 Aug 2026, four instances in one working session, every one found by
+Julian reading the file rather than by any audit):** a "still open" table listing two
+items closed hours earlier; a duplicated banner asserting a blocker resolved weeks
+before; an ask-list carrying a question from a superseded design; and an outbound
+proposal headed *"DRAFT v1, not yet adversarially reviewed"* after two completed review
+rounds - which also still carried a pricing lock the rate change had superseded, so the
+document's own locked decisions contradicted its commercial section.
+
 ---
 
 # Deliverable-First Working Rule (all agents)
