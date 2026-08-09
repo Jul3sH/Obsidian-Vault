@@ -100,9 +100,9 @@ paired-with: tti-ty-engagement-proposal
 
 **If he asks how he'd measure me - "what do I hold you to?"** *(added 9 Aug from [[perplexity-defensible-ea-benefits]]; the leading/lagging split)*
 
-> *"You hold me to numbers I control, and you can inspect them at quarter-end: time-to-decision on cross-region calls, assurance coverage on major programmes, variant count per capability - plus the decision map and the costed plan from month one. The savings those enable show up in your numbers, not mine - I won't claim them, because the moment an architect starts claiming other people's savings you should stop believing him. What I will show you, every quarter, is the metric and the decision it fed."*
+> *"You hold me to numbers I control, and you can inspect them at quarter-end: how much of the project portfolio is mapped with a recommendation logged, time-to-decision on cross-region calls, assurance coverage on major programmes, variant count per capability. The savings those enable show up in your numbers, not mine - I won't claim them, because the moment an architect starts claiming other people's savings you should stop believing him. What I will show you, every quarter, is the metric and the decision it fed."*
 
-**The three metrics match the lever table in the proposal** (Decision rights, Design assurance, Vendor standardisation rows) - if either surface changes its metrics, change the other.
+**The four metrics match the lever table in the proposal** (Capability mapping, Decision rights, Design assurance, Vendor standardisation rows) - if either surface changes its metrics, change the other.
 
 **Why this framing:** it is the same discipline as talking point 3 - refusing to claim what isn't measured or owned - applied to his accountability question instead of the benefit question. Do not soften it into shared credit; the strength is the refusal.
 
