@@ -23,7 +23,8 @@ tags: [relationships]
 - [[sophia-london-schools]] — SW19 school options for Year 8 in-year entry: Ricards Lodge (Outstanding), Ursuline (Good, Catholic), Harris (best sport)
 - [[banter-trainer-mvp]] — Parked idea: a Claude app to drill Sophia on responding to UK banter (five rehearsed moves, coaching rubric, seed scenarios, pre-build conditions)
 - [[hannah]] — Former long-distance partner (Indonesian); now moved on
-- [[FINNv2]] — Markdown conversion of Finn's v2 Covid-and-ways-of-working essay draft, with a per-section word count
+- [[FINNv2]] - Faithful markdown conversion of Finn's v2 Covid-and-ways-of-working essay draft, with a per-section word count
+- [[FINNv2-cut]] - The same essay cut to the course limits (1,500 body / 500 reflection), with a log of every change
 
 ## Articles
 - [[communicating-in-close-relationships]] — Empathy-first communication, choosing the right moment, influencing rather than dictating, and approaching interactions without baggage
