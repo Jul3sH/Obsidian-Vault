@@ -52,7 +52,7 @@ paired-with: tti-ty-engagement-proposal
 
 ---
 
-## The five lines
+## The six talking points
 
 1. **"What I'd like to do is work on the initiatives you already have, but in an enterprise-architecture context.** Take the North American ERP win. Hard project, done right, because one team rallied around it. The risk with a win like that in a federated business is the lessons stay with the people who lived it and never reach the next region that needs them. You said it yourself: leverage synergies, AI and your assets. We'd build the governed layer that puts those levers to work." **⚠ Do NOT name the global P&L platform or the IT cost-leverage results** - both are internal (employee Q&A) and naming them reveals you hold an internal transcript. If you want to open that door, ask instead: *"Is there work underway to standardise how the business reads its cost and margin?"* See [[tti-ea-requirements]] § Quotability. **⚠ Do not say "AI agenda aimed at G&A"** - that overclaims. Ty's quote lists G&A cost reduction and leveraging synergies/AI/assets as separate drivers, not AI pointed specifically at G&A.
 

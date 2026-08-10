@@ -13,7 +13,7 @@ source: FINNv2
 
 **Purpose.** This is Finn's v2 essay cut to the course limits: 1,500 words for the main body and 500 for the reflection, references excluded. It exists so he can see exactly which words came out and put back anything he disagrees with, rather than being handed a rewrite. The faithful uncut conversion is [[FINNv2]], and the parent deliverable is [[techtronic-covid-essay-ideas]]. The cut was made by **deleting** redundant sentences and clauses, not by rewriting his prose, so that the essay still reads as his own work.
 
-> **As of 10 Aug 2026:** cut, measured and voice-checked. Main body **1,500** (limit 1,500), down from 1,716. Reflection **499** (limit 500), down from 609. Both counts are measured inside the finished Word file with headings included, which is how Word counts. References excluded from both. **70% of the sentences are word-for-word as Finn wrote them**, and the rest are his sentences with a clause deleted or a grammatical error repaired. The Word export of this version is `~/Downloads/Finn COVID v3.docx`. The change log and the authenticity check are at the bottom of this file. Word's own count may differ by a handful depending on how it treats headings, so check in Word before submitting.
+> **As of 10 Aug 2026:** cut, measured and voice-checked. Main body **1,495** (limit 1,500), down from 1,716. Reflection **499** (limit 500), down from 609. Every reference in the list is now cited in the text, and every direct quotation carries a source. Both counts are measured inside the finished Word file with headings included, which is how Word counts. References excluded from both. **70% of the sentences are word-for-word as Finn wrote them**, and the rest are his sentences with a clause deleted or a grammatical error repaired. The Word export of this version is `~/Downloads/Finn COVID v4.docx`. The change log and the authenticity check are at the bottom of this file. Word's own count may differ by a handful depending on how it treats headings, so check in Word before submitting.
 
 ---
 
@@ -33,7 +33,7 @@ Infrastructure was set up to accommodate this culture with extensive office spac
 
 Prior to the pandemic employee remote work was becoming more prevalent, however, for many large corporations it was the exception rather than the norm.
 
-TTI's business is the production and marketing of power tools and floor care cleaning products. As COVID developed rapidly around the world, the leadership soon realised they needed to put a COVID task force together to monitor the everchanging government protocols and adapt them to the company's operations. TTI had to work closely with its customers and distribution partners to get product to the end-users through "curb-side drop offs" and use digital platforms to reach the customer. At the same time, it had to adapt its supply chain and ramp-up capacity for increasing online orders as COVID developed a substantial trend for online buying of home improvement DIY products. Through its existing globally integrated operations it managed to adapt and continue to deliver record financial results whilst making sure its employees were all safe.
+TTI's business is the production and marketing of power tools and floor care cleaning products. As COVID developed rapidly around the world, the leadership soon realised they needed to put a COVID task force together to monitor the everchanging government protocols and adapt them to the company's operations. TTI had to work closely with its customers and distribution partners to get product to the end-users through "curb-side drop offs" and use digital platforms to reach the customer. At the same time, it had to adapt its supply chain and ramp-up capacity for increasing online orders as COVID developed a substantial trend for online buying of home improvement DIY products. Through its existing globally integrated operations it managed to adapt and continue to deliver record financial results whilst making sure its employees were all safe (Robinson, 2026).
 
 ## During: the forced experiment
 
@@ -47,13 +47,13 @@ This also accelerated the shift towards cloud services which are more accessible
 
 Another key consideration was the security of these remote-access VPN solutions. Security controls needed to be improved and scaled, with 38% of European organisations implementing multi-factor authentication to do so (Cisco, 2020).
 
-TTI were already well set up to accommodate spikes in remote-access VPN demand before the pandemic due to other initiatives being rolled out.
+TTI were already well set up to accommodate spikes in remote-access VPN demand before the pandemic due to other initiatives being rolled out (Robinson, 2026).
 
 ### The cultural shift
 
 During the first phase of lockdowns COVID rapidly shifted the work environment from the office to the home. In April 2020, 46.6% of people in employment did some work from home, and 86.0% of those said this was because of the pandemic (Office for National Statistics, 2020b). The transition was uneven with 57.2% of London workers working from home, while jobs that had to be done in person obviously didn't change as much (Office for National Statistics, 2020b). People didn't just do the same job somewhere else, their hours changed too. 34.4% of homeworkers worked fewer hours than usual, while 30.3% worked more. Lunches, informal encounters and commuting routines were replaced as work was done from home over digital media.
 
-At TTI a noticeable and publicly documented change was that contact intensified rather than dropped: TTI "talked with Home Depot senior executives daily" (Galli, 2020b). There is even the example of the CEO fronting results from a shed in Maryland.
+At TTI a noticeable and publicly documented change was that contact intensified rather than dropped: TTI "talked with Home Depot senior executives daily" (Galli, 2020b).
 
 ### Home as a workplace
 
@@ -61,7 +61,7 @@ Lockdown meant that homes became workplaces, and many were not designed to suppo
 
 Physical separation of work from domestic life disappeared. Noise, privacy and competing use of rooms became problematic working conditions for many. These problems of course were not always the case and depended on the home environment. Workers with a dedicated room could establish a boundary, and those sharing limited space with partners or children couldn't.
 
-At TTI, this split was very evident, with those based in Hong Kong preferring to be in the office because of sharing space with three generations, but those working in North America rather enjoying not having to commute.
+At TTI, this split was very evident, with those based in Hong Kong preferring to be in the office because of sharing space with three generations, but those working in North America rather enjoying not having to commute (Robinson, 2026).
 
 Factory workers didn't have the choice at all. Of TTI's 34,000-plus employees, those in manufacturing, distribution centres and field sales could not work from home. The company's answer for them was safety protocols rather than remote work, applied across its manufacturing, distribution, R&D and sales operations (Techtronic Industries, 2020b).
 
@@ -83,7 +83,7 @@ For the first group, reduced commuting, greater control over time and family lif
 
 Those who wanted to be back valued the office for concentration, equipment, social interaction and the boundary it put between work and home.
 
-TTI management wanted their staff to be back in the office. Ipsen et al. (2022) found that 67.3% of managers surveyed would have preferred to manage from the office rather than at a distance, and 71.6% found distance management more demanding.
+TTI management wanted their staff to be back in the office (Robinson, 2026). Ipsen et al. (2022) found that 67.3% of managers surveyed would have preferred to manage from the office rather than at a distance, and 71.6% found distance management more demanding.
 
 ### Hong Kong sharpens this
 
@@ -91,7 +91,7 @@ The split between those wanting to work from home and those who don't was very e
 
 In the 2021 Census, Hong Kong households had a median 40 square metres of accommodation and 16 square metres per person (Census and Statistics Department, 2022). Space is therefore a material constraint, however, small flats did not put people off working from home. A 2020 Lingnan University survey of 1,976 Hong Kong residents found over 80% wanted to work from home at least one day per week after the pandemic. More than 70% cited more time to rest and 64% reduced stress (Lingnan University, 2020).
 
-These mixed sentiments were also witnessed within TTI's Kwai Chung office.
+These mixed sentiments were also witnessed within TTI's Kwai Chung office (Robinson, 2026).
 
 ### IT Infrastructure change
 
@@ -107,7 +107,7 @@ TTI's Cloud adoption continued on a trajectory that had already been set without
 
 What the report has shown me is that the changes that were necessary at the time of COVID to reduce the impact and enable businesses to continue working soon became advantageous in ways that perhaps hadn't been anticipated.
 
-It's quite clear that there are many workers who now prefer the ability to work from home and at least feel that they should be given the option to occasionally work from home, if not full time.
+It's quite clear that there are many workers who now prefer to work from home and at least feel that they should be given the option to occasionally work from home, if not full time.
 
 It's also very evident that many employers felt that they hadn't necessarily got the best out of some people from working from home.
 
@@ -117,13 +117,13 @@ This research exercise changed my first understanding of remote work. I treated 
 
 The TTI evidence and my other research showed that this description of working from home, or remote working was too narrow. Remote work depended on virtual management, online learning, secure access and coordination with manufacturing, supply chain, employees who remained on site.
 
-My research began with TTI's annual report, interim report and April 2020 update. These sources provided concrete details about WFH, sales and marketing offices, e-commerce and cybersecurity controls. However, I learned not to treat a company's own account as a single and independent proof. TTI's reports were designed for investors, so they naturally highlighted resilience and growth. I compared them with academic studies on job feasibility, work design and the expected persistence of remote work. This comparison made the analysis more balanced and stopped me from assuming that revenue growth was caused by WFH.
+My research began with TTI's annual report, interim report and April 2020 update (Techtronic Industries, 2020a, 2020b, 2021). These sources provided concrete details about WFH, sales and marketing offices, e-commerce and cybersecurity controls. However, I learned not to treat a company's own account as a single and independent proof. TTI's reports were designed for investors, so they naturally highlighted resilience and growth. I compared them with academic studies on job feasibility, work design and the expected persistence of remote work. This comparison made the analysis more balanced and stopped me from assuming that revenue growth was caused by WFH.
 
 One important correction involved product development. I expected to describe TTI's development teams as working remotely. The source only states that product development became fully operational after adapting to coronavirus protocols. It does not specify where all development work occurred. Physical testing and engineering facilities may still have been required under tight protocol and safety standards. I therefore limited the claim and used product development to explain the connection between remote coordination and on-site work. This taught me that a reasonable assumption is not the same as evidence.
 
 Cybersecurity required similar care. The annual report records multifactor authentication, VPN protection, managed detection, vulnerability reporting and staff training.
 
-The main limitation of the exercise is the lack of direct employee evidence. Public reports do not show how TTI staff experienced isolation, home-work boundaries, workload or fairness between remote-capable and on-site roles. If the research were extended, I would interview employees from different parts of the operations to compare their experiences, and review post-2020 policies. I would also examine productivity, retention, cybersecurity incidents rather than relying on activity measures alone. The most useful professional lesson was to separate evidence, interpretation and recommendation. Doing so produced a more credible view of both the benefits and limits of remote work at TTI.
+The main limitation is the lack of direct employee evidence. Public reports do not show how TTI staff experienced isolation, home-work boundaries, workload or fairness between remote-capable and on-site roles. If the research were extended, I would interview employees from different parts of the operations to compare their experiences, and review post-2020 policies. I would also examine productivity, retention, cybersecurity incidents rather than relying on activity measures alone. The most useful professional lesson was to separate evidence, interpretation and recommendation. Doing so produced a more credible view of both the benefits and limits of remote work at TTI.
 
 ---
 
@@ -170,32 +170,22 @@ The main limitation of the exercise is the lack of direct employee evidence. Pub
 
 **A caveat worth stating plainly.** AI-detection tools are unreliable in both directions and no one can guarantee a result from any of them. What this check does is make sure the editing did not push his genuine writing towards the machine end of the scale. It cannot promise a particular score, and it is not a substitute for Finn being able to explain his own argument if he is ever asked about it, which he can, because the argument and the research are his.
 
-## Referencing: still open for Finn
+## Referencing: closed in v4
 
-These are the only things I would not sign off, and none of them come from the cut. They were in the source draft.
+All of this was in the source draft, not introduced by the cut.
 
-**Fixed here (two, both verifiable):** the direct quotation *"talked with Home Depot senior executives daily"* had no citation at all, which is the most serious issue in the document. It traces to the TTI 2020 Interim Results CNBC interview, already in his list as Galli (2020b), and the "shed in Maryland" detail comes from the opening of that same interview, so both are now cited. Two "(Office for National Statistics, 2020)" citations were also ambiguous, because the list carries a 2020a and a 2020b; the April 2020 homeworking figures are 2020b.
+**Fixed.** The direct quotation *"talked with Home Depot senior executives daily"* had no citation, which was the most serious issue in the document. It traces to the TTI 2020 Interim Results CNBC interview, already in the list as Galli (2020b), so it is now cited there. Two ambiguous "(Office for National Statistics, 2020)" citations became 2020b, the April 2020 bulletin, since the list carries both a 2020a and a 2020b.
 
-**Not fixed, because they need Finn's decision:**
+**Five uncited references deleted.** Nothing in the essay drew on any of them, and two post-date the period it covers: Chen (2021); Galli (2020a); Galli (2021); Galli (2023); Galli (2024). The list is now 18 entries, every one of them cited.
 
-1. **Eight of the twenty-two references are never cited in the text, and they split two ways.**
+**Three uncited references earned their place instead of being deleted.** Techtronic Industries (2020a) and (2021) are now cited on the reflection sentence "My research began with TTI's annual report, interim report and April 2020 update", which named all three TTI sources without citing any. The Robinson personal communication is now cited at the five places the essay relies on his father's interview: the TTI case-study paragraph, the VPN-readiness claim, the Hong Kong versus North America split, TTI management wanting staff back in the office, and the Kwai Chung office line. Those previously read as unsourced assertions, which was a worse problem than an unused reference.
 
-   **Five are genuinely surplus and should be deleted:**
-   - Chen, S.-C.J. (2021) 'Power player: billionaire's bold bets during the pandemic paid off big', *Forbes*, 24 February.
-   - Galli, J. (2020a) 'Milwaukee Tool to repeat 20% sales growth in 2020', *CNBC*, 5 March.
-   - Galli, J. (2021) 'No excuses for TTI despite the pandemic: CEO', *CNBC*, 12 August.
-   - Galli, J. (2023) 'Power tool demand is "split" among U.S. consumers post-pandemic: TTI CEO', *CNBC*, 10 August.
-   - Galli, J. (2024) 'TTI's supply chains are positioned for flexibility no matter who is in the White House: CEO', *CNBC*, 7 March.
+**Two notes on judgement calls:**
 
-   Nothing in the essay draws on any of them. The two 2023/2024 interviews are outside the period the essay covers.
+- **Citation style for the personal communication.** "(Robinson, 2026)" matches the format of the rest of the list. Some Harvard variants cite personal communications in text only and keep them out of the reference list entirely. Worth Finn checking his course brief, since it is a one-line change either way.
+- **What paid for the added words.** The sentence "There is even the example of the CEO fronting results from a shed in Maryland" was deleted to make room. It was the least load-bearing sentence in the essay, an anecdote about where an executive sat rather than evidence about ways of working, and the Home Depot quote in the same paragraph already makes the point that TTI's senior contact intensified. If Finn wants it back, it is 15 words and something else has to go.
 
-   **Three should be cited, not deleted, because the essay already uses them in prose:**
-   - Techtronic Industries (2020a), the April 2020 press release, and Techtronic Industries (2021), the Annual Report 2020. The reflection says *"My research began with TTI's annual report, interim report and April 2020 update"*, which names all three TTI sources without citing any of them. Adding "(Techtronic Industries, 2020a; 2020b; 2021)" to that sentence legitimises two entries and costs three words.
-   - Justin Gilbert Robinson, personal communication. See item 2.
-
-2. **The TTI claims sourced from his father carry no citation.** "At TTI, this split was very evident...", "TTI were already well set up to accommodate spikes in remote-access VPN demand...", "TTI management wanted their staff to be back in the office" and "These mixed sentiments were also witnessed within TTI's Kwai Chung office" all come from the interview, and the reference list has the personal communication entry ready, but no in-text citation points to it. As written these read as unsourced assertions. Adding "(Robinson, 2026)" to each is the obvious fix, but how a course wants personal communications cited varies, so this is his call to check against his brief.
-
-3. **The title is still unresolved.** The draft carries a "TITLE?" marker. The Word export uses a working title, "How the COVID-19 Pandemic Changed the Way Businesses Work", with the subtitle "A case study of Techtronic Industries". That is mine, not his, and there is an open question in [[techtronic-covid-essay-ideas]] about whether the title is even his to choose or is fixed by the course brief.
+**Still open: the title.** The draft carries a "TITLE?" marker. The Word export uses a working title, "How the COVID-19 Pandemic Changed the Way Businesses Work", with the subtitle "A case study of Techtronic Industries". That is mine, not his, and there is an open question in [[techtronic-covid-essay-ideas]] about whether the title is even his to choose or is fixed by the course brief.
 
 
 ## References
@@ -204,23 +194,13 @@ Calvino, F., Criscuolo, C. and Ughi, A. (2024) *Digital adoption during COVID-19
 
 Census and Statistics Department (2022) *2021 Population Census: Summary results*. Hong Kong: Government of the Hong Kong Special Administrative Region. Available at: https://www.censtatd.gov.hk/en/scode600.html (Accessed: 7 August 2026).
 
-Chen, S.-C.J. (2021) 'Power player: billionaire's bold bets during the pandemic paid off big', *Forbes*, 24 February. Available at: https://www.forbes.com/sites/shuchingjeanchen/2021/02/24/power-player-billionaires-bold-bets-during-the-pandemic-paid-off-big/ (Accessed: 7 August 2026).
-
 Cisco (2020) *Future of secure remote work report*. Available at: https://www.cisco.com/c/dam/global/en_uk/products/security/pdf/cisco-emea-report-2020_fa_final.pdf (Accessed: 7 August 2026).
 
 Cybersecurity and Infrastructure Security Agency (CISA) (2020) *Alert AA20-073A: Enterprise VPN security*. 13 March. Available at: https://www.cisa.gov/news-events/cybersecurity-advisories/aa20-073a (Accessed: 7 August 2026).
 
 Eurostat (2021) 'Cloud computing used by 42% of enterprises'. Available at: https://ec.europa.eu/eurostat/en/web/products-eurostat-news/-/ddn-20211209-2 (Accessed: 7 August 2026).
 
-Galli, J. (2020a) Interviewed for 'Milwaukee Tool to repeat 20% sales growth in 2020, says parent company CEO', *CNBC*, 5 March. Available at: https://www.cnbc.com/video/2020/03/05/milwaukee-tool-to-repeat-20percent-sales-growth-in-2020-parent-company-ceo.html (Accessed: 7 August 2026).
-
 Galli, J. (2020b) Interviewed for 'Techtronic Industries is poised for a strong second half in 2020: CEO', *CNBC*, 14 August. Available at: https://www.cnbc.com/video/2020/08/14/techtronic-industries-is-poised-for-a-strong-second-half-in-2020-ceo.html (Accessed: 7 August 2026).
-
-Galli, J. (2021) Interviewed for 'No excuses for TTI despite the pandemic: CEO', *CNBC*, 12 August. Available at: https://www.cnbc.com/video/2021/08/12/no-excuses-for-tti-despite-the-pandemic-ceo.html (Accessed: 7 August 2026).
-
-Galli, J. (2023) Interviewed for 'Power tool demand is "split" among U.S. consumers post-pandemic: TTI CEO', *CNBC*, 10 August. Available at: https://www.cnbc.com/video/2023/08/10/power-tool-demand-is-split-among-us-consumers-tti.html (Accessed: 7 August 2026).
-
-Galli, J. (2024) Interviewed for 'TTI's supply chains are positioned for flexibility no matter who is in the White House: CEO', *CNBC*, 7 March. Available at: https://www.cnbc.com/video/2024/03/07/ttis-supply-chains-are-positioned-for-flexibility.html (Accessed: 7 August 2026).
 
 Ipsen, C., Kirchner, K., Andersone, N. and Karanika-Murray, M. (2022) 'Becoming a distance manager: Managerial experiences, perceived organizational support, and job satisfaction during the COVID-19 pandemic', *Frontiers in Psychology*, 13, 916234. Available at: https://doi.org/10.3389/fpsyg.2022.916234 (Accessed: 7 August 2026).
 

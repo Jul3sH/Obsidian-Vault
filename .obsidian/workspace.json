@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/career/tti/_wip/tti-ty-engagement-proposal.md",
+                "file": "wiki/career/tti/_wip/tti-ty-call-script.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tti-ty-engagement-proposal"
+              "title": "tti-ty-call-script"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
-    "collapsed": true
+    "width": 483.5
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -201,9 +200,12 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/career/tti/_wip/Enterprise Architecture & Technology Leadership - Julian Hart - Aug 2026 copy.pdf",
+    "wiki/career/tti/_wip/Ty Call Script - INTERNAL - 10 Aug 2026 copy.pdf",
+    "wiki/career/tti/_wip/Ty Call Script - INTERNAL - 10 Aug 2026.pdf",
+    "wiki/career/tti/_wip/tti-ty-engagement-proposal.md",
     "wiki/career/tti/_wip/Enterprise Architecture & Technology Leadership - Julian Hart - Aug 2026.pdf",
     "wiki/relationships/FINNv2-cut.md",
-    "wiki/career/tti/_wip/tti-ty-engagement-proposal.md",
     "wiki/ai-os/system-design/claude/memory/feedback-outbound-punctuation.md",
     "wiki/relationships/FINNv2.md",
     "wiki/career/tti/_reference/tti-role-profile-director-ea.md",
@@ -234,9 +236,6 @@
     "TTI covid report",
     "wiki/career/Telstra",
     "wiki/performance/systems-register.md.tmp.96457.6a57f9e20a1c",
-    "wiki/ai-os/skills/prompt-zero",
-    "wiki/ai-os/system-design/claude/commands",
-    "wiki/ai-os/skills/memory-architect",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
