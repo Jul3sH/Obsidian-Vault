@@ -3,14 +3,16 @@ type: artefact
 tags: [career, tti, artefact, proposal, ty, outbound]
 status: ready
 created: 2026-08-07
-updated: 2026-08-09
-version: v4.1 (round-3 review closed and adjudicated fixes applied, 9 Aug late)
+updated: 2026-08-10
+version: v4.2 (scope broadened + payback de-emphasised, 10 Aug morning)
 recipient: Ty Staviski (Deputy CFO)
 occasion: Ty making contact Mon 10 Aug 2026, requested by Stephan Pudwill 7 Aug
 send: OUTBOUND - stopping condition met (round 3 closed 9 Aug: no FATAL findings, verdict send-as-is)
 deliverable: tti-ty-proposal
 ---
 
+> **✅ As of 10 Aug 2026 (morning) - v4.2: scope broadened, payback de-emphasised.** Three changes from Julian's morning re-read after Stephan's overnight reply ([[tti-comms-log]] 9-10 Aug entry): (1) a new "Use me where the need is" section scopes in **ad hoc projects** (Stephan's own 10 Aug suggestion, reframed at senior altitude) and **cybersecurity** (CISSP, US$25M+ managed-security portfolio - a need Stephan flagged as a Ty priority on 14 Jul that the EA-only framing left out); (2) the US$132,500 breakeven is **off the at-a-glance headline** and its section reframed as context ("Where the fee breaks even"), with a closing line widening the value case to full-time delivery capacity - this reduces the rod-for-own-back risk if big-ticket savings initiatives prove hard to find, and serves the real goal (converting to full-time employment) by selling versatility, going where the need is; (3) [[tti-ty-call-script]] gained a sixth talking point and [[tti-ty-proposal-sources]] gained J7. No locked decision touched. **Later the same morning: role-profile mapping pass.** Julian walked [[tti-role-profile-director-ea]] (the April JD) through this document section by section and adopted four additions: the US-APAC bridge sentence in the Scope paragraph; the not-a-team-build practitioner sentence in "What this is not"; delivery-without-line-authority in the ad hoc bullet; and the cyber bullet's domain sweep (network, cloud, identity, data, applications). Deliberately NOT adopted: the security acronym list, and any AI-capability-programme language (protects the bounded skills-distribution framing).
+>
 > **✅ As of 9 Aug 2026 (late evening) - v4.1: round 3 CLOSED, stopping condition in [[tti-ty-proposal]] met.** Codex reviewed v4 cold ([[tti-ty-engagement-proposal-codex-review-2026-08-09]]): verdict **send as-is, no FATAL findings**; it judged the round-1 FATAL partially regressed (month 1 without the live decision) but survivable given the artefact design, the spoken stuck-decision play and the sponsored-entry context. Fable adjudicated all ten findings: seven confirmed and applied (month-1 heading now "starts delivery"; scope connective sentence; variant-count metric tightened to candidates-logged; capability-mapping row generalised to any-federated-business per Julian's wording choice; skills endorsement routed through existing approval and risk controls; data-lake claim sourced as S14; two show-me examples added to call prep), two refuted (data-lake removal - sourceable via Pivar's Databricks estate; TOGAF naming - deliberate seniority signal for this buyer chain), one deferred to spoken-only (hyperscaler pace, already logged).
 > - **9 Aug editing pass (v4), the short version:** levers renamed to capabilities with architect-owned metrics; new "Scope: three capabilities, one engagement" section (architecture capability with TOGAF Preliminary Phase, cost transparency, Gen AI skills distribution); month 1 redesigned to three artefacts within Julian's sole control (live decision now unwritten overdelivery; plan removed); months 2-12 reframed as baseline-target-gap-roadmap; Kari citations, NPV-of-delay claim, WACC offer, honest-gap sentence and overrun paragraph all removed; track record rebuilt as precedent per capability.
 > - **Round 1** ([[tti-ty-engagement-proposal-codex-review-2026-08-07]]): one FATAL - month 1 read as discovery, so Ty committed before the value case existed. **Fixed** - month 1 is now execution on one live cross-region decision.
@@ -33,7 +35,7 @@ deliverable: tti-ty-proposal
 
 ## Enterprise Architecture & Governance: 12-month engagement
 
-**At a glance: 12 months, US$299,563 all-in, breaking even on a recurring saving of US$132,500/year.**
+**At a glance: 12 months, US$299,563 all-in, full-time, working inside the initiatives you already have.**
 
 **I'd work on the initiatives you already have, in an enterprise-architecture context.** Not a parallel programme, not a new function competing for sponsorship.
 
@@ -53,7 +55,7 @@ The next point could well come from the structural side. Steve asked exactly tha
 | **Design assurance**          | Programmes that self-certify their own design are how overruns and late re-cuts happen: the people accountable for the date are also the people judging whether the design is sound. An independent assurance gate separates those two jobs, so problems surface while they're still cheap to fix. The metric is coverage: the share of major programmes clearing independent design review before their dates lock. Overruns are your number, not mine. But rework falls where assurance holds, and the NA ERP conversion shows what that discipline looks like when it's in the room. |
 | **Vendor standardisation**    | Steve's point on the results call: leveraging negotiating costs on IT to free up cash. A reference architecture defines the standard platform per capability, so the estate converges from many regional variants toward few group standards. The metric is variant count per capability: baselined, with reduction candidates logged against contract end dates. Fewer variants means fewer, larger negotiations: the leverage Steve asked for. The negotiated saving is procurement's number; the variant count that makes it possible is mine.                                                                       |
 
-**Scope: three capabilities, one engagement.** All of it inside the enterprise-architecture context, working on the initiatives you already have. These are not three programmes; they are three applications of the same architecture layer: standards, decision rights, cost visibility and reusable patterns.
+**Scope: five capabilities, one engagement.** All of it inside the enterprise-architecture context, working on the initiatives you already have. These are not five programmes. The first three are applications of the same architecture layer: standards, decision rights, cost visibility and reusable patterns. The last two are where else you can point me: deep security specialism, and senior delivery leadership on your priorities. And the layer works as a bridge between your US and APAC technology organisations: group objectives translated into executable plans in the regions, and regional realities surfaced back early enough to inform strategy rather than arriving as escalations.
 
 **1. The architecture capability.** Standing it up follows TOGAF's Preliminary Phase, tailored to TTI rather than adopted wholesale:
 
@@ -79,7 +81,11 @@ The savings this surfaces are in run-rate spend you are already paying, so payba
 
 The measure follows the same rule as everything else in this document: each skill that gets endorsed and published carries a before-and-after measured on its own, so the returns are counted as they land, not promised up front. This initiative is aligned with my extensive background in service design.
 
-**The number this turns on.** I won't hand you a benefit figure I haven't measured. Here is the hurdle instead:
+**4. Cybersecurity.** Deep background, not an adjacency: CISSP-certified, security architecture delivered across the key domains - network, cloud, identity, data and applications - and a US$25M+ managed-security portfolio built, including solution lead on Telstra's largest ever cybersecurity engagement. If security is where the pressure is, point me there - it sits naturally inside the same governed layer.
+
+**5. Ad hoc projects.** Where you or the team have a project that needs senior technical leadership, I'll take it on and land it, with a named outcome agreed before I start. Leading cross-functional delivery without a dedicated reporting structure is how I have always worked: rallying stakeholders, vendors and functional teams that don't report to me. For twelve months you have a full-time senior technology operator, and the priority list is yours.
+
+**Where the fee breaks even.** I won't hand you a benefit figure I haven't measured. Here is the hurdle instead, for context:
 
 > **At US$299,563, this breaks even on a recurring saving of US$132,500 a year**: three-year benefit horizon, 10% discount rate, no benefit assumed in year one while the structure is built.
 
@@ -90,7 +96,7 @@ The measure follows the same rule as everything else in this document: each skil
 | US$1,000,000 | US$1,961,000 | 7.5x |
 | US$2,000,000 | US$4,222,000 | 15.1x |
 
-**Put the hurdle against the spend it governs.** I don't have sight of your group technology spend. Whatever it is, US$132,500 is the fraction of it this has to improve to wash its face. If the estate is anything like the scale I'd expect for a US$15.3bn business, that fraction is small. But the first question is whether the measured estate actually clears the hurdle, and month one starts putting your own numbers on it.
+**Put the hurdle against the spend it governs.** I don't have sight of your group technology spend. Whatever it is, US$132,500 is the fraction of it this has to improve to wash its face. If the estate is anything like the scale I'd expect for a US$15.3bn business, that fraction is small. But the first question is whether the measured estate actually clears the hurdle, and month one starts putting your own numbers on it. And the hurdle is one lens on the fee, not the whole of it: the same fee buys a full-time senior operator delivering inside your initiatives all year.
 
 **Month 1 starts delivery, not a study.** I'm not asking you to fund a month of discovery and then decide. Thirty days, three things delivered:
 
@@ -98,7 +104,7 @@ The measure follows the same rule as everything else in this document: each skil
 2. **Cost transparency, started.** The simple taxonomy drafted, and the first slice of spend categorised from data you already have: the GL and the cloud bills, with Gen AI doing the heavy lifting. Alongside it, the measurement of coordination and duplication cost defined and underway: I define what counts, so a renamed "alignment sync" doesn't quietly leave the baseline; your finance ops team runs the pulls.
 3. **Gen AI skills distribution, started.** The framework drafted: how a Gen AI skill (a repeatable way of doing a task) gets evaluated, endorsed, and published where every team can find it. The first candidate skill selected together, with its before-and-after measure defined: the template every skill after it reuses.
 
-Every one of these is mine to deliver: none of them waits on anyone else moving first. Together they start all three capabilities visibly inside the first thirty days, turn the hurdle above into your actual numbers as the baseline fills in, and give you something concrete to hold me to for the remaining eleven months.
+Every one of these is mine to deliver: none of them waits on anyone else moving first. Together they start the three architecture capabilities visibly inside the first thirty days (capabilities four and five are demand-driven: they start the day you point me at something), turn the hurdle above into your actual numbers as the baseline fills in, and give you something concrete to hold me to for the remaining eleven months.
 
 **Where I've done this before.** Each part of this has a precedent. The decision layer: at BG Group I built and chaired a global networks design authority spanning three regions: the standards, the exception process, and a board of regional design-authority peers deciding against one agreed target. Twenty-plus design standards came out of it, and design cycle time fell by up to 30%, measured. The assurance gate: as Head of Enterprise Solution Architecture I restructured solution assurance across US$60M+ of multi-tower solutions and lifted right-first-time delivery by 20%. The cost view: complex solutions ship with complex cost models, and I have built them throughout my career. The workflow side: twelve years leading service-design teams on end-to-end operational workflows.
 
@@ -112,7 +118,7 @@ Every one of these is mine to deliver: none of them waits on anyone else moving 
 
 **Commercial. US$299,563 all-in for the twelve months, full-time with normal leave.** This is based on my previous Head of Enterprise Solution Architecture base salary of HK$155,773 a month, with 25% added as there are no benefits, bonus or employer costs on top.
 
-**What this is not.** Not a reorganisation and not a new function. Regional technology directors keep their teams, budgets and line authority. I work inside the initiatives you already have. The only decisions that reach a group layer are the cross-region ones already going to committee today.
+**What this is not.** Not a reorganisation and not a new function. Regional technology directors keep their teams, budgets and line authority. I work inside the initiatives you already have. The only decisions that reach a group layer are the cross-region ones already going to committee today. And it is not a team build: I arrive and deliver personally - the blueprints, the standards, the designs - and manage the stakeholder work myself.
 
 ---
 

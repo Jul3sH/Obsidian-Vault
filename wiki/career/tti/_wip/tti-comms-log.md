@@ -277,15 +277,29 @@ renamed: 2026-07-17
 
 ---
 
-## 📤 NEXT MESSAGE - drafted 9 Aug, send Monday 10 Aug morning HK time, BEFORE the Ty call
+## ✅ 9-10 Aug - SENT to Stephan; decision speed confirmed fast; Kari paused (bereavement); send-before-call decided
 
-> **Two jobs:** (1) learn before the call whether Ty can decide fast - if not, the call's job changes from closing to setting a dated next step; (2) seed Stephan with the exact framing to repeat to Ty: 12 months, the group-level anchor phrase, no fee figure.
+> **Sent as drafted (with the proposal PDF attached), reply came back overnight. Three material answers: Ty can decide quickly and has already been reminded about the call; the proposal goes to Ty *before* the call, not during or after; and Kari is not to be contacted - his mother has just died.** Stephan will not forward the proposal to Ty himself - that conversation is Julian's to have directly.
 
-**The message (WhatsApp):**
+**What happened (WhatsApp, 9-10 Aug, times as sent):**
+- **Julian (9 Aug, 21:51):** sent the drafted message, attaching the proposal PDF: *"Morning Stephan, all set for Ty and I've attached the proposal for your reference. One thing that would help me pitch it right: is this Ty's decision to make, or will he need to bring others in? With the school deadline I'm working in days rather than weeks, so it helps to know whether Monday can be decisive."*
+- **Stephan (10 Aug, 01:07):** *"I assume you will discuss this with Ty and I will not send to him"* - confirms Stephan is not the forwarding channel; the proposal reaches Ty only through Julian.
+- **Stephan (01:11):** *"Ty should be able to make a pretty quick decision. I have reminded him about the call with you and he responded."* - **answers the decision-speed question directly: fast.**
+- **Stephan (01:12-01:13):** asked whether Julian will send the proposal before the meeting or during/after, and offered both as valid: send beforehand and let Ty digest it, or walk him through everything live (including the amount) and fine-tune afterward based on his reaction. **Julian chose: send before**, so Ty has time to digest it first.
+- **Stephan (01:15):** unprompted advice - *"You should also tell him that you are happy to work with the team and him and any other ad hoc projects they would like to do."* New positioning suggestion, not yet folded into any document.
+- **Stephan (01:16):** *"I would also send to Kari however his mum just passed away so I don't want to bother him."* **Julian agreed: do not send, and separately confirmed he wants this to be Ty's own agenda** rather than Kari-mediated.
+- **Stephan confirmed Ty uses WhatsApp and iMessage**, already has Julian's WhatsApp contact, and Stephan has already flagged the call to him on that channel.
+- Personal exchange: Julian said he'd review the proposal once more in the morning after sleeping on it. Stephan's son Alexander is unwell; the family flies to Korea the next day for a boys' tournament, alongside Stephan's own work. Julian is picking Sophia up from the airport at lunch.
 
-> Morning Stephan. All set for Ty - the proposal is ready: 12 months, working on the initiatives they already have, establishing architecture and governance across the group, with the number included as you asked. One thing that would help me pitch it right: is this Ty's decision to make, or will he need to bring others in? With the school deadline I'm working in days rather than weeks, so it helps to know whether Monday can be decisive or is the first step.
+**Strategic read:**
+- **The open risk flagged in every prior entry - decision speed - is now resolved, and resolved well.** Stephan has already primed Ty for the call and reports he can move fast. The proposal's "job" stays as closing, not setting a dated next step.
+- **Send-before-call is now the plan, which changes what the call itself has to do.** Ty will read the document cold before Julian ever speaks to him - so the call may open with Ty's own reaction or question rather than Julian leading with THE LINE from [[tti-ty-call-script]]. Worth a read of the script with that in mind before the call: it should still work if Ty opens the conversation, not just if Julian does.
+- **Kari must not be contacted.** This pauses (not just delays) the "chase Kari" next action - continuing to chase would be the wrong instinct given the bereavement. The right-to-work question and the candidate stuck-decision example he was covering both remain unverified, with no near-term route to close them. This is a genuine open risk, now simply unresolvable on this timeline - not a task to keep nudging.
+- **The proposal (with the fee) has already reached Stephan**, marked "for your reference." He has independently confirmed he won't forward it to Ty, so the "keep the fee off anything that travels" constraint (aimed at material reaching procurement) is not breached - Stephan is a contained, trusted recipient, not a forwarding risk.
+- **Stephan's "ad hoc projects" suggestion is additive, not yet decided.** It could strengthen the "not a rigid function" framing already in "What this is not" - or it could dilute the tightly-scoped pitch the document worked hard to build. Flagging for a decision, not assuming one. **✅ Decided 10 Aug: scoped in.** Proposal v4.2 adds a "Use me where the need is" section (ad hoc projects at senior altitude + cybersecurity, which Stephan's 14 Jul steer named as a Ty priority and the EA-only framing had left out) and takes the US$132,500 breakeven off the at-a-glance headline - versatility is the sell, so the case no longer hangs on finding big-ticket savings initiatives. Script and sources synced.
+- A quiet, separate note: Kari's bereavement is worth a personal message from Julian whenever feels right - not part of this thread, and not drafted here unless asked.
 
-**Design notes:** "12 months" pre-seeds the locked position through the channel Justin already anchored; *"establishing architecture and governance across the group"* is the current anchor phrase (updated 9 Aug from "across Asia" - the proposal is group-level scope); the decision question is asked as information, not pressure, and surfaces the sign-off path without naming anyone; "days rather than weeks" gives the question its practical reason. Deliberately absent: chase energy, any "will this conclude" close, and the fee.
+**NEXT:** ~~re-read the proposal; decide on the "ad hoc projects" line~~ ✅ done 10 Aug morning (v4.2 - ad hoc + cyber scoped in, breakeven de-emphasised; see strategic read above). Still to do: send the PDF to Ty ahead of the call per Stephan's steer; ~~re-check the call script against a Ty who has already read the document~~ ✅ note added to [[tti-ty-call-script]] 10 Aug (talking points must work as answers, not only openers).
 
 ---
 
