@@ -615,7 +615,7 @@ Julian's call: position **adjacent and complementary** to Ryan (not subordinate,
 
 ---
 
-## Kari (surname init. P.) — Finnish; ex-KPMG tax Partner
+## Kari (surname init. P.) - Finnish; ex-KPMG tax Partner
 
 **Role / Relationship:** **Senior Vice President, Techtronic Industries (TTI)** — confirmed 20 Jul. A senior **INTERNAL** executive (peer-level to Tony Chung and Justin, both SVPs), Finnish, with a tax / finance-structure background (ex-KPMG transfer-pricing / TESCM Partner) and a remit that **works closely with TTI's IT and systems**. Also Stephan's trusted "tax guy." Surfaced by Stephan on 18 Jul 2026 as the next node in the engagement.
 **Influence:** **High — a credibility kingmaker AND an internal power node.** Not merely a gateway: Stephan *trusts his opinion* (the reason he's been brought in), and unlike Justin his view carries **both** personal trust **and** genuine commercial credibility (KPMG Partner + TTI SVP). As an internal SVP he has real org standing, a practical internal line to **Frank Chan** (Group CFO, leaving soon), and Ty is already confiding in him.

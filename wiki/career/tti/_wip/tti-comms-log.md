@@ -6,10 +6,10 @@ created: 2026-06-02
 renamed: 2026-07-17
 ---
 
-# TTI — Direct Comms Log (living)
+# TTI - Direct Comms Log (living)
 
 > **The record of Julian's direct communications with TTI counterparties (Stephan, Ty,
-> Kari) — messages, calls, and artefacts sent to them.** Holds the *next message to
+> Kari) - messages, calls, and artefacts sent to them.** Holds the *next message to
 > send* at the top, a log of *messages actually sent*, and an **audit trail of drafts
 > and approaches considered and decided against** (with the reasoning). Sectioned by
 > counterparty. Verbatim WhatsApp archive for Stephan in [[stephan-whatsapp-archive]].
@@ -19,7 +19,7 @@ renamed: 2026-07-17
 > **Routing (redefined 8 Aug 2026, by who the event is with, not by granularity):**
 > a message, call, or artefact sent **directly to Stephan, Ty, or Kari** goes here.
 > Anything involving a third party (Peter Speck, Horst, Barbara) or the pre-2024 origin
-> story goes in [[engagement-history]] instead — never both. A mixed event (e.g. Stephan
+> story goes in [[engagement-history]] instead - never both. A mixed event (e.g. Stephan
 > messaging Kari live on a call with Julian) logs its direct-comms half here and
 > cross-links to the fuller narrative in engagement-history rather than duplicating it.
 >
@@ -35,14 +35,14 @@ renamed: 2026-07-17
 | Date | Artefact | Recipient | Delivery | How it landed | Notes |
 |------|----------|-----------|----------|---------------|-------|
 | 27 Jun 2025 | [[tti-resume-june-2025]] | Stephan | WhatsApp | Acknowledged receipt | First CV send; used at Tony Chung interview (11 Sep 2025) |
-| 8 Apr 2026 | [[tti-value-proposition]] | Stephan | Printed — taken away | Received; likely unread as intended | Multi-section doc, one section per TTI exec — concept not explained at lunch |
-| 8 Apr 2026 | [[tti-ai-productivity-gap]] | Stephan | Printed — taken away | Read at the table | Stephan asked to read it; reviewed it properly; no deep discussion |
+| 8 Apr 2026 | [[tti-value-proposition]] | Stephan | Printed - taken away | Received; likely unread as intended | Multi-section doc, one section per TTI exec - concept not explained at lunch |
+| 8 Apr 2026 | [[tti-ai-productivity-gap]] | Stephan | Printed - taken away | Read at the table | Stephan asked to read it; reviewed it properly; no deep discussion |
 | 16 Apr 2026 | [[tti-resume-april-2026]] | Stephan | WhatsApp | Received | Updated post-Cipriani; leads with Enterprise Architect / Agentic AI |
 | 16 Apr 2026 | [[tti-role-profile-director-ea]] | Stephan | WhatsApp | Received | Invented role profile defining the Director EA scope at group level |
 | 4 Jul 2026 | [[tti-ty-brief]] (v3 one-pager) + [[tti-resume-april-2026]] | Stephan (to forward) | WhatsApp + PDF | Read 4 Jul; forwarded to Ty ~12 Jul | The personal-endorsement pivot pack; AI savings work held pull-only |
 | ~12 Jul 2026 | [[tti-ty-brief]] (v3 one-pager) + [[tti-resume-april-2026]] | **Ty Staviski** (via Stephan) | Forwarded by Stephan | Read; Ty called Julian 15 Jul | First artefact to reach the decision-maker |
 
-**Pending (drafted, not yet delivered):** [[tti-ty-engagement-proposal]] — the Ty proposal, due Mon 10 Aug; logs here once actually sent.
+**Pending (drafted, not yet delivered):** [[tti-ty-engagement-proposal]] - the Ty proposal, due Mon 10 Aug; logs here once actually sent.
 
 ---
 
@@ -141,9 +141,9 @@ renamed: 2026-07-17
 - **Julian (9:57pm):** *"Thanks Kari, much appreciated."*
 
 **Strategic read:**
-- Warm opener (weather) before the ask, consistent with the standing tone rules — no apology, no pressure, a question Kari can actually answer.
-- Kari's reply is warm-but-deferred: no line of sight given, but a concrete next step (catching up with Stephan) with a date attached — better than silence, though still not the signal itself.
-- "Tomorrow HK time" from 3 Aug is **4 Aug HK — today.** This is the next thing to watch on this channel.
+- Warm opener (weather) before the ask, consistent with the standing tone rules - no apology, no pressure, a question Kari can actually answer.
+- Kari's reply is warm-but-deferred: no line of sight given, but a concrete next step (catching up with Stephan) with a date attached - better than silence, though still not the signal itself.
+- "Tomorrow HK time" from 3 Aug is **4 Aug HK - today.** This is the next thing to watch on this channel.
 
 **NEXT (decided 4 Aug):** Hold off messaging Stephan today - let Kari's 4 Aug conversation with him land first. **Julian's plan: message Stephan Wed 5 Aug morning UK time if nothing has come back.** Reasoning: Ty leaves HK Thursday, so this timing still leaves Stephan one, possibly two, opportunities to raise it with Ty before he goes - no need to stack a direct ask on top of Kari's same-day chase. Message content and framing (e.g. prompting Stephan to raise it with Ty, dinner or otherwise, "if he needs to") not yet drafted - pick up Wed once it's clear whether Kari's chase produced anything.
 
@@ -151,10 +151,10 @@ renamed: 2026-07-17
 
 ## ✅ 24 Jul - THE KARI CALL HAPPENED: positive, EA-aligned, 12-month engagement proposed by Kari; decision due w/c 28 Jul
 
-> **The call ran a day earlier than the confirmed slot (Fri 24 Jul, not the scheduled Fri 25 Jul — date mismatch, not logged elsewhere).** Informal, walking-around format. Kari described the need unprompted in EA terms with no pushback on scope or framing; read the alignment between himself and Ty as genuine, not political. He proposed a **12-month consulting engagement himself** (Julian had argued 12 over 6 - six months forces a quick-win focus - and Kari agreed unprompted). Julian disclosed the school-deadline timeline; Kari's response walked back from "a couple of weeks" to **"decision by end of next week" (w/c 28 Jul)**. Full meeting note: [[kari-meeting-note-2026-07-24]].
+> **The call ran a day earlier than the confirmed slot (Fri 24 Jul, not the scheduled Fri 25 Jul - date mismatch, not logged elsewhere).** Informal, walking-around format. Kari described the need unprompted in EA terms with no pushback on scope or framing; read the alignment between himself and Ty as genuine, not political. He proposed a **12-month consulting engagement himself** (Julian had argued 12 over 6 - six months forces a quick-win focus - and Kari agreed unprompted). Julian disclosed the school-deadline timeline; Kari's response walked back from "a couple of weeks" to **"decision by end of next week" (w/c 28 Jul)**. Full meeting note: [[kari-meeting-note-2026-07-24]].
 
 **Strategic read:**
-- Strongest signal in the arc so far: unprompted EA framing, unprompted 12-month proposal, explicit alignment claim with Ty — none of this was Julian leading the witness.
+- Strongest signal in the arc so far: unprompted EA framing, unprompted 12-month proposal, explicit alignment claim with Ty - none of this was Julian leading the witness.
 - **That decision deadline (w/c 28 Jul) passed with no word**, which is the direct cause of the 3 Aug chase above (entries run newest-first, so read that one first).
 - Still short of the Branch A bar: warm and structurally aligned, but no written offer, no named destination/date yet.
 
@@ -164,7 +164,7 @@ renamed: 2026-07-17
 
 ## ✅ 21 Jul - KARI CALL CONFIRMED: Friday 25 Jul, 2pm HK time, Teams
 
-> **The Kari call is locked.** Friday 25 Jul at 2pm HK time via Microsoft Teams. Kari organised the invite to julianhart@gmail.com. This is Julian's last Friday in HK before he departs for the UK — he flagged this to Kari, who moved the slot to afternoon to avoid clashing with Friday evening. **Prep: [[tti-kari-call-prep]].**
+> **The Kari call is locked.** Friday 25 Jul at 2pm HK time via Microsoft Teams. Kari organised the invite to julianhart@gmail.com. This is Julian's last Friday in HK before he departs for the UK - he flagged this to Kari, who moved the slot to afternoon to avoid clashing with Friday evening. **Prep: [[tti-kari-call-prep]].**
 
 **What happened (WhatsApp, 21 Jul):**
 - **Julian (9:45):** flagged that Friday *evening* was less preferable (last Friday before UK departure) but offered to make it work if no other options existed
@@ -174,29 +174,29 @@ renamed: 2026-07-17
 - **Julian (12:17):** provided email (julianhart@gmail.com) for the invite
 
 **Strategic read:**
-- Kari's accommodation of the evening constraint is a warm signal — he is not making this difficult
+- Kari's accommodation of the evening constraint is a warm signal - he is not making this difficult
 - Julian's disclosure that it is his "last Friday before UK" is exactly the right ambient signal on the Kari channel (not a pressure play, just honest context he can absorb and factor into his read of urgency)
 - **The call is now the single highest-priority item.** Everything in [[tti-kari-call-prep]] needs to be sharp before 2pm Friday.
 
-**NEXT:** prep [[tti-kari-call-prep]] fully before Friday 2pm; take the call at EA/governance altitude; use it to surface the process and timeline question (what happens after Kari — Frank, HR, what does the runway look like); log the call here immediately after.
+**NEXT:** prep [[tti-kari-call-prep]] fully before Friday 2pm; take the call at EA/governance altitude; use it to surface the process and timeline question (what happens after Kari - Frank, HR, what does the runway look like); log the call here immediately after.
 
 ---
 
 ## ✅ 20 Jul - KARI MADE DIRECT CONTACT: call being scheduled (Thu 23 / Fri 24 Jul); confirmed as SVP TTI
 
-> **The Kari channel is now live and direct.** Kari (confirmed **Senior Vice President, TTI** — internal, not an external adviser) messaged Julian directly to set up the call. He is travelling in EMEA this week; proposed Thu/Fri or next week. Julian pushed for Thu/Fri (HK) citing urgency, offered wide availability. Call **confirmed Fri 25 Jul 2pm HK** (see entry above).
+> **The Kari channel is now live and direct.** Kari (confirmed **Senior Vice President, TTI** - internal, not an external adviser) messaged Julian directly to set up the call. He is travelling in EMEA this week; proposed Thu/Fri or next week. Julian pushed for Thu/Fri (HK) citing urgency, offered wide availability. Call **confirmed Fri 25 Jul 2pm HK** (see entry above).
 
-> *Update 21 Jul: call slot locked — see 21 Jul entry above.*
+> *Update 21 Jul: call slot locked - see 21 Jul entry above.*
 
 **What happened (WhatsApp, 20 Jul):**
 - **Kari (10:58):** *"Hi Julian, I believe Stephan mentioned to you that I would get in touch re: the potential opportunity/IT role in TTI. I'm currently on travel but will be in EMEA region later this coming week so perhaps we could have a call then. Pls let me know your time zone and availability eg for Thursday and Friday. Also next week is an option. Looking forward to speaking with you soon. Best regards, Kari"*
 - **Julian (11:10):** *"Hi Kari, thanks for getting in touch whilst on your travels. I'll be in HK on Thursday and Friday which are preferable due the degree of urgency I have relating to the discussions. I'm flexible on time so please choose what works best for you. I'm an early riser (5am) so anything from 5:30am to around 9pm HK time. All the best for your travels, I look forward to speaking later in the week. Regards, Julian"*
 
 **Strategic read:**
-- **Kari is INTERNAL (SVP TTI), not an external adviser** — a bigger deal than first assumed. Peer-level to Tony Chung; a credible internal power node whom Stephan trusts and Ty confides in. This call carries real weight. Profile + positioning: [[tti-executive-stakeholders#Kari (surname init. P.) — Finnish; ex-KPMG tax Partner]].
-- **"the potential opportunity/IT role"** — Kari's own framing still leans "IT role," so the altitude lift (to EA/governance, via Ty's description) remains the core task. Do NOT correct him; attribute the altitude to Ty.
-- **Tone:** warm, professional, well-organised. Julian's reply well-judged — urgency flagged without desperation, generous availability, no over-pitching.
-- **⚠ Prep before Thu:** the Kari-specific positioning matters most — HK-anchored-bridge framing (he's HK old-school camp), the TESCM rapport hook, and reassurance his systems remit is protected. See [[tti-kari-call-prep]].
+- **Kari is INTERNAL (SVP TTI), not an external adviser** - a bigger deal than first assumed. Peer-level to Tony Chung; a credible internal power node whom Stephan trusts and Ty confides in. This call carries real weight. Profile + positioning: [[tti-executive-stakeholders#Kari (surname init. P.) - Finnish; ex-KPMG tax Partner]].
+- **"the potential opportunity/IT role"** - Kari's own framing still leans "IT role," so the altitude lift (to EA/governance, via Ty's description) remains the core task. Do NOT correct him; attribute the altitude to Ty.
+- **Tone:** warm, professional, well-organised. Julian's reply well-judged - urgency flagged without desperation, generous availability, no over-pitching.
+- **⚠ Prep before Thu:** the Kari-specific positioning matters most - HK-anchored-bridge framing (he's HK old-school camp), the TESCM rapport hook, and reassurance his systems remit is protected. See [[tti-kari-call-prep]].
 
 **NEXT:** confirm the slot (Kari to choose); prep to [[tti-kari-call-prep]] with the HK-bridge + TESCM angles; take the call Thu/Fri.
 
@@ -241,7 +241,7 @@ renamed: 2026-07-17
 
 **NEXT (follow-up to Stephan - DRAFTED 17 Jul, pending final language tweaks + send):** The strategy shifted (17 Jul) from "my constraint" to **Ty's win**: arm Stephan with fit/value language he can repeat to Ty (Stephan is risk-averse but pushes what is good for Ty; Ty acts to keep Stephan happy), and offer an **in-person meeting during Ty's HK visit** (per Justin: Ty arrives Sat 1 Aug, Justin meets him Sun 2 Aug, likely in office from Mon 3 Aug, busy week). Julian will postpone his Europe trip by a week to meet early in the visit. The Sophia/schooling deadline is now set at **mid-August** (accommodates the early-Aug meeting; anchored to UK school starting September) as the drift-stopper. The close asks a question Stephan *can* answer (timeline + his honest steer as a friend), not an outcome verdict he cannot underwrite.
 
-**Draft 1 (17 Jul) — pending final language tweaks:**
+**Draft 1 (17 Jul) - pending final language tweaks:**
 
 > Hey Stephan, I've kept thinking about the role Ty described and it really is an excellent fit. An enterprise architect working closely with the US to get technology aligned behind the business goals, with the frameworks and governance to back it up, is exactly what I set out in that JD and resume I sent you in April. I genuinely believe I could deliver real value on what he's looking for, and there's an obvious benefit to you having someone here in HK you trust, joined up tightly with the US.
 >
@@ -249,7 +249,7 @@ renamed: 2026-07-17
 >
 > I've held off pulling the trigger on the UK because this looks like it could genuinely work for both TTI and me. But I can't push it past mid-August, or I'll be too late to pack up here and get Sophia into a UK school for September. Do you think we can make that work, and is it worth me holding on for?
 
-**Draft 2 (17 Jul) — remote-first variation (para 2 reworked: drops the trip-postponement offer, which reads as optics and causes real disruption; proposes settling the substance remotely, with an in-person meeting welcome but not the gating step):**
+**Draft 2 (17 Jul) - remote-first variation (para 2 reworked: drops the trip-postponement offer, which reads as optics and causes real disruption; proposes settling the substance remotely, with an in-person meeting welcome but not the gating step):**
 
 > Hey Stephan, I've kept thinking about the role Ty described and it really is an excellent fit. An enterprise architect working closely with the US to get technology aligned behind the business goals, with the frameworks and governance to back it up, is exactly what I set out in that JD and resume I sent you in April. I genuinely believe I could deliver real value on what he's looking for, and there's an obvious benefit to you having someone here in HK you trust, joined up tightly with the US.
 >
@@ -257,7 +257,7 @@ renamed: 2026-07-17
 >
 > I've held off pulling the trigger on the UK because this looks like it could genuinely work for both TTI and me. But I can't push it past mid-August, or I'll be too late to pack up here and get Sophia into a UK school for September. Do you think we can make that work, and is it worth me holding on for?
 
-**Draft 3 (17 Jul) — direct variation (para 2 reworked again: drops the HK in-person meeting entirely as unnecessary; goes straight at Stephan with an honest, low-friction ask — how did it go, is it promising, what can I do to help):**
+**Draft 3 (17 Jul) - direct variation (para 2 reworked again: drops the HK in-person meeting entirely as unnecessary; goes straight at Stephan with an honest, low-friction ask - how did it go, is it promising, what can I do to help):**
 
 > Hey Stephan, I've kept thinking about the role Ty described and it really is an excellent fit. An enterprise architect working closely with the US to get technology aligned behind the business goals, with the frameworks and governance to back it up, is exactly what I set out in that JD and resume I sent you in April. I genuinely believe I could deliver real value on what he's looking for, and there's an obvious benefit to you having someone here in HK you trust, joined up tightly with the US.
 >
@@ -296,7 +296,7 @@ renamed: 2026-07-17
 - **Send-before-call is now the plan, which changes what the call itself has to do.** Ty will read the document cold before Julian ever speaks to him - so the call may open with Ty's own reaction or question rather than Julian leading with THE LINE from [[tti-ty-call-script]]. Worth a read of the script with that in mind before the call: it should still work if Ty opens the conversation, not just if Julian does.
 - **Kari must not be contacted.** This pauses (not just delays) the "chase Kari" next action - continuing to chase would be the wrong instinct given the bereavement. The right-to-work question and the candidate stuck-decision example he was covering both remain unverified, with no near-term route to close them. This is a genuine open risk, now simply unresolvable on this timeline - not a task to keep nudging.
 - **The proposal (with the fee) has already reached Stephan**, marked "for your reference." He has independently confirmed he won't forward it to Ty, so the "keep the fee off anything that travels" constraint (aimed at material reaching procurement) is not breached - Stephan is a contained, trusted recipient, not a forwarding risk.
-- **Stephan's "ad hoc projects" suggestion is additive, not yet decided.** It could strengthen the "not a rigid function" framing already in "What this is not" - or it could dilute the tightly-scoped pitch the document worked hard to build. Flagging for a decision, not assuming one. **✅ Decided 10 Aug: scoped in.** Proposal v4.2 adds a "Use me where the need is" section (ad hoc projects at senior altitude + cybersecurity, which Stephan's 14 Jul steer named as a Ty priority and the EA-only framing had left out) and takes the US$132,500 breakeven off the at-a-glance headline - versatility is the sell, so the case no longer hangs on finding big-ticket savings initiatives. Script and sources synced.
+- **Stephan's "ad hoc projects" suggestion is additive, not yet decided.** It could strengthen the "not a rigid function" framing already in "What this is not" - or it could dilute the tightly-scoped pitch the document worked hard to build. Flagging for a decision, not assuming one. **✅ Decided 10 Aug: scoped in.** Proposal v4.2 makes the Scope section "five capabilities, one engagement" - the three architecture-layer applications plus 4. Cybersecurity (which Stephan's 14 Jul steer named as a Ty priority and the EA-only framing had left out) and 5. Ad hoc projects at senior altitude - and takes the US$132,500 breakeven off the at-a-glance headline. Versatility is the sell, so the case no longer hangs on finding big-ticket savings initiatives. Script and sources synced.
 - A quiet, separate note: Kari's bereavement is worth a personal message from Julian whenever feels right - not part of this thread, and not drafted here unless asked.
 
 **NEXT:** ~~re-read the proposal; decide on the "ad hoc projects" line~~ ✅ done 10 Aug morning (v4.2 - ad hoc + cyber scoped in, breakeven de-emphasised; see strategic read above). Still to do: send the PDF to Ty ahead of the call per Stephan's steer; ~~re-check the call script against a Ty who has already read the document~~ ✅ note added to [[tti-ty-call-script]] 10 Aug (talking points must work as answers, not only openers).
@@ -406,7 +406,7 @@ renamed: 2026-07-17
 
 > **Status: SUPERSEDED 5 Aug by the entry above. Never sent.** Julian wanted changes before it went, and it was then overtaken by events: the "after Kari, what are the next steps" ask died once Julian chased Kari directly on 3 Aug, and its opener ("good to speak with Kari") went stale over the two weeks it sat. **Its core content, the school-placement bind, survived and became the spine of the 5 Aug message.** Retained for the record.
 >
-> **Trigger:** the school-placement bind — once in the UK, offers arrive with ~1 week to accept or lose the slot; accepting commits to the move and closes off the HK role. Cannot take a place while TTI is live; cannot turn one down and then find TTI hasn't firmed up. Stephan is the only person who can give an honest read on whether the timeline is compatible.
+> **Trigger:** the school-placement bind - once in the UK, offers arrive with ~1 week to accept or lose the slot; accepting commits to the move and closes off the HK role. Cannot take a place while TTI is live; cannot turn one down and then find TTI hasn't firmed up. Stephan is the only person who can give an honest read on whether the timeline is compatible.
 >
 > **Sequencing:** send after the Kari call (Fri 25 Jul), not before. Kari's process/timeline read informs what Julian can put to Stephan. Also: Stephan set Kari up, so messaging on process before that call runs would feel jumpy.
 
@@ -584,7 +584,7 @@ renamed: 2026-07-17
 
 ---
 
-### Superseded — v5.0 free-discovery offer (locked then superseded, 9 Jun)
+### Superseded - v5.0 free-discovery offer (locked then superseded, 9 Jun)
 
 > Well, it looks like I don't have to worry about prenups. My silicon investment backfired and Hannah used her new assets to capture another man, but at least I'm off the hook for marriage now 😂
 >
@@ -593,11 +593,11 @@ renamed: 2026-07-17
 > I forgot to mention, I've got a registered company here in HK which makes consulting engagements an option too if headcount's ever the constraint.
 
 **Design notes (how this draft meets the strategy):**
-- **Two governing principles for the final (Julian, 9 Jun):** *no mention of the imminent deadline* (keeps the costless-inaction exit ramp off the table — Peter's 5 Jun feedback) and *de-risk Stephan's part* (he only points; the offer carries all the risk).
-- **Opener kept.** Warm, self-deprecating, high-status — activates Stephan's empathy/personal-connection action-engine (the [[tti-stephan-relationship-analysis]] v1.2 correction: empathy moves him, not the business case).
-- **The free-discovery offer is the engine.** It lowers the barrier to near-zero for a risk-averse man ("only lost 45 minutes"), and — critically — **forces a name**: he can only take it up by pointing Julian at specific people. This is the diagnose-first gate satisfied (terminate in a named pain owner) *inside* a low-risk offer.
+- **Two governing principles for the final (Julian, 9 Jun):** *no mention of the imminent deadline* (keeps the costless-inaction exit ramp off the table - Peter's 5 Jun feedback) and *de-risk Stephan's part* (he only points; the offer carries all the risk).
+- **Opener kept.** Warm, self-deprecating, high-status - activates Stephan's empathy/personal-connection action-engine (the [[tti-stephan-relationship-analysis]] v1.2 correction: empathy moves him, not the business case).
+- **The free-discovery offer is the engine.** It lowers the barrier to near-zero for a risk-averse man ("only lost 45 minutes"), and - critically - **forces a name**: he can only take it up by pointing Julian at specific people. This is the diagnose-first gate satisfied (terminate in a named pain owner) *inside* a low-risk offer.
 - **Generosity-leak guarded.** Offer is a *discovery + recommendations* (what/why), not finished deliverables (the full *how* = the paid engagement). One named problem, not speculative free work into the void.
-- **Credential recap cut.** Stephan has absorbed the pitch 5× already; the council's finding is the bottleneck is *not* the quality/format of what Julian sends. Re-pitching wastes words. The one genuinely new, friction-removing element — the HK consulting company — is kept as a casual aside that pre-empts the "no open req" objection.
+- **Credential recap cut.** Stephan has absorbed the pitch 5× already; the council's finding is the bottleneck is *not* the quality/format of what Julian sends. Re-pitching wastes words. The one genuinely new, friction-removing element - the HK consulting company - is kept as a casual aside that pre-empts the "no open req" objection.
 - **Horst lead deliberately held for the meeting** (decided 9 Jun): the only recent Horst sanction came *through Peter*, and the message must stay Peter-free, so Horst's encouragement is deployed verbally in person, not written here.
 - **Channel:** WhatsApp. **Peter-free.** No tenure number in the text (credential recap dropped), so the 25+/service-design figure reconciliation is moot for this send.
 
@@ -616,8 +616,8 @@ renamed: 2026-07-17
 | 15 Jul 2026 | Ty Staviski | Direct call (no artefacts, live discussion). Ty described unprompted: permanent HK-based EA/governance role addressing fragmented tech leadership in Asia; suggested August meeting. Julian surfaced his school deadline. | **Strong on fit, not yet an offer.** Real permanent role in-wheelhouse; no structure/timeline; August past school deadline. |
 | 15-16 Jul 2026 | Stephan | WhatsApp: follow-up clarifications. Re-anchored Julian toward April JD + aligned resume; confirmed role is HK-based; cleared misconception about Julian's intentions to stay vs. leave HK. | **Positive.** Stephan actively advocating + repositioned Julian as HK-committed. |
 | 18 Jul 2026 | Stephan | WhatsApp: availability/openness to call from Kari (HK tax + IT influence contact). Re-anchored to EA role altitude. | **Strong positive.** Kari call incoming; Stephan's endorsement escalated to active steer. |
-| 20 Jul 2026 | Kari (SVP TTI) | WhatsApp reply scheduling the call — offered HK Thu/Fri, flagged urgency, wide availability (5:30am–9pm HK). | First direct Kari contact; Kari travelling EMEA, proposed Thu/Fri or next week. |
-| 21 Jul 2026 | Kari (SVP TTI) | WhatsApp scheduling exchange — flagged Friday evening less preferable (last Friday before UK departure); Kari confirmed 2pm HK time on Friday 25 Jul via Teams; invite to julianhart@gmail.com. | **Call confirmed: Fri 25 Jul 2pm HK, Teams.** Kari accommodated the evening constraint immediately; warm signal. |
+| 20 Jul 2026 | Kari (SVP TTI) | WhatsApp reply scheduling the call - offered HK Thu/Fri, flagged urgency, wide availability (5:30am-9pm HK). | First direct Kari contact; Kari travelling EMEA, proposed Thu/Fri or next week. |
+| 21 Jul 2026 | Kari (SVP TTI) | WhatsApp scheduling exchange - flagged Friday evening less preferable (last Friday before UK departure); Kari confirmed 2pm HK time on Friday 25 Jul via Teams; invite to julianhart@gmail.com. | **Call confirmed: Fri 25 Jul 2pm HK, Teams.** Kari accommodated the evening constraint immediately; warm signal. |
 
 (Prior sends - CV, Feb reframe, Cipriani materials, April CV + JD + salary - are logged in [[engagement-history]].)
 
@@ -640,26 +640,26 @@ The locked recommendation is at the top of this doc. Drafting context:
 **Outcome:** sent AM 10 Jun; Stephan replied within hours *"Yes, let's meet up and discuss."* The pivot was correct: a decidable ask converted where five rounds of artefacts had not. See the sent log above and [[engagement-history]] (10-14 Jun entry).
 
 **Trigger:** two 9 Jun conversations (Justin Gilbert + Peter Speck) plus Julian's own read. **v5.0 was shared with both Justin and Peter** before the pivot.
-- **Justin's unprompted nudge:** "Have you reached out to Stephan yet? I think now is a good time" (no reason given). Then on a call: keep it real and direct; TTI has dangled a job for a year with increasingly specific mentions — they owe Julian a *decision* (project or job); frame it around providing for his daughter (Stephan "knows" — no need to name Clodagh). Justin's earlier point (this week): TTI is a ~US$14bn / 15,000+ employee company — a consulting engagement is immaterial on the P&L.
-- **Where Julian split from Justin:** **rejected** Justin's "put Stephan on the spot / make it his problem" (guilt-pressure — the wrong strategy per [[tti-stephan-relationship-analysis]], settled long ago). **Accepted the crux:** asking Stephan to *route* Julian onward reproduces the **Tony Chung dead-end** — a non-committal hand-off with no advocacy goes nowhere. This is the fatal flaw in v5.0's "point me at a couple of the right people": it relies on the very channel-conversion diagnose-first said was unproven.
-- **The pivot:** stop asking Stephan to *route*; ask him to *decide* — sponsor a small, bounded, self-contained consulting engagement he can authorise himself. The $14bn/P&L framing de-risks the money; "I guarantee I'll find value" is a confident, high-status claim (vs. proving himself for free).
-- **Peter (9 Jun call):** Julian had sent Peter v5.0; no reply. Julian called, said he's changing it ("no advocacy if he passes it on — it'll go nowhere; I need to just ask Stephan"). **Peter agreed — "sounds much better"** — and will follow up via his own channel with the agreed "Julian needs to leave HK" urgency.
+- **Justin's unprompted nudge:** "Have you reached out to Stephan yet? I think now is a good time" (no reason given). Then on a call: keep it real and direct; TTI has dangled a job for a year with increasingly specific mentions - they owe Julian a *decision* (project or job); frame it around providing for his daughter (Stephan "knows" - no need to name Clodagh). Justin's earlier point (this week): TTI is a ~US$14bn / 15,000+ employee company - a consulting engagement is immaterial on the P&L.
+- **Where Julian split from Justin:** **rejected** Justin's "put Stephan on the spot / make it his problem" (guilt-pressure - the wrong strategy per [[tti-stephan-relationship-analysis]], settled long ago). **Accepted the crux:** asking Stephan to *route* Julian onward reproduces the **Tony Chung dead-end** - a non-committal hand-off with no advocacy goes nowhere. This is the fatal flaw in v5.0's "point me at a couple of the right people": it relies on the very channel-conversion diagnose-first said was unproven.
+- **The pivot:** stop asking Stephan to *route*; ask him to *decide* - sponsor a small, bounded, self-contained consulting engagement he can authorise himself. The $14bn/P&L framing de-risks the money; "I guarantee I'll find value" is a confident, high-status claim (vs. proving himself for free).
+- **Peter (9 Jun call):** Julian had sent Peter v5.0; no reply. Julian called, said he's changing it ("no advocacy if he passes it on - it'll go nowhere; I need to just ask Stephan"). **Peter agreed - "sounds much better"** - and will follow up via his own channel with the agreed "Julian needs to leave HK" urgency.
 
-**Open for discussion before v6.0 locks:** (1) Does Stephan have the standing to authorise a consulting engagement himself, or does "take me on" still bounce to a budget owner — reintroducing the routing problem? (2) Is a direct 6-month ask the right size, or does it corner a risk-averse man? (3) Sequencing with Peter's lunch.
+**Open for discussion before v6.0 locks:** (1) Does Stephan have the standing to authorise a consulting engagement himself, or does "take me on" still bounce to a budget owner - reintroducing the routing problem? (2) Is a direct 6-month ask the right size, or does it corner a risk-averse man? (3) Sequencing with Peter's lunch.
 
-### v5.0 — Free-discovery offer that forces a name (superseded same day — routing flaw)
+### v5.0 - Free-discovery offer that forces a name (superseded same day - routing flaw)
 The locked draft is at the top of this doc. The arc of the 9 Jun drafting session:
 - Started from the v5.0 brief (keep opener, cut pressure, lead Horst, steer to a named person).
-- **Horst lead dropped from the text** — held for the meeting (Peter-free sourcing constraint).
-- An early variant re-stated credentials + "any movement on my prospects?" — **rejected**: the credential recap is a 6th restatement of what Stephan already has (council: format isn't the bottleneck), and "any movement on my prospects?" pokes Stephan's risk-aversion (makes him accountable for the outcome) and invites a vague reply that doesn't yield a name.
-- **Landed on a free-discovery offer.** Julian's instinct: "an offer he can't refuse." Calibrated away from open-ended free *deliverables* (generosity leak) toward a *discovery + recommendations on named problems* — which both caps the leak and forces Stephan to supply a name to action it. "Only lost 45 minutes" carries the zero-risk framing.
+- **Horst lead dropped from the text** - held for the meeting (Peter-free sourcing constraint).
+- An early variant re-stated credentials + "any movement on my prospects?" - **rejected**: the credential recap is a 6th restatement of what Stephan already has (council: format isn't the bottleneck), and "any movement on my prospects?" pokes Stephan's risk-aversion (makes him accountable for the outcome) and invites a vague reply that doesn't yield a name.
+- **Landed on a free-discovery offer.** Julian's instinct: "an offer he can't refuse." Calibrated away from open-ended free *deliverables* (generosity leak) toward a *discovery + recommendations on named problems* - which both caps the leak and forces Stephan to supply a name to action it. "Only lost 45 minutes" carries the zero-risk framing.
 - HK consulting-company line added as a casual closer to pre-empt the "no open req" objection.
 
 **What worked (the keepers):** the self-aware artefact-drop line; the free-discovery offer as a name-forcing device; the low-risk "45 minutes" close; the casual HK-company aside.
 **What failed (retired this round):** the credential recap (redundant); "any movement on my prospects?" (accountability framing that triggers avoidance, yields no name).
 
-### v4.0 — Direct status message with UK-vs-HK pressure (HELD, then superseded)
-**Decided against** (5 Jun Peter / 7 Jun council). The draft below was complete and was forwarded to Peter on 3 Jun for review. Peter's verdict at the 5 Jun dinner: remove the departure-pressure line — telling a risk-averse man that your problem disappears if he does nothing hands him a costless exit. The council confirmed and went further (diagnose-first). **The pressure passage is retired; the rest of the draft is the basis for v5.0.**
+### v4.0 - Direct status message with UK-vs-HK pressure (HELD, then superseded)
+**Decided against** (5 Jun Peter / 7 Jun council). The draft below was complete and was forwarded to Peter on 3 Jun for review. Peter's verdict at the 5 Jun dinner: remove the departure-pressure line - telling a risk-averse man that your problem disappears if he does nothing hands him a costless exit. The council confirmed and went further (diagnose-first). **The pressure passage is retired; the rest of the draft is the basis for v5.0.**
 
 > Well, it looks like I don't have to worry about prenups anymore. My silicon investment backfired and Hannah used her new assets to capture another man, but at least I'm off the hook for marriage, I guess 😂
 >
@@ -670,15 +670,15 @@ The locked draft is at the top of this doc. The arc of the 9 Jun drafting sessio
 > Any chance of a coffee or a call in the next week or two? Be good to see you either way.
 
 **What worked (carry into v5.0):** relationship-first humour opener; assumed value ("a lot of value… get in front of the right people"); AI leverage; permanent-or-consulting flexibility; light close.
-**What failed:** the departure-pressure passage; and (council) the generic "coffee?" ask — should steer toward a *named* person.
+**What failed:** the departure-pressure passage; and (council) the generic "coffee?" ask - should steer toward a *named* person.
 
-### v3.0 — Pivot to direct friendship-led status message (2 Jun)
+### v3.0 - Pivot to direct friendship-led status message (2 Jun)
 Pivoted away from the two-pager cascade covering note. Assume value, ask where-it's-at + how-fast, summer/next-year risk angle, discovery-call mechanic. The "where it's at / how fast" instinct survives into diagnose-first; the risk-angle framing was later cut.
 
-### v2.0 — Four-pager routing-layer covering note (2 Jun, superseded same day)
-A covering note to route the four per-exec two-pagers. **Decided against** — too heavy; presumed Stephan would forward four artefacts (the same single-distributor problem the council later named). Two-pagers now held in [[tti-two-pagers]] (`_on-hold`).
+### v2.0 - Four-pager routing-layer covering note (2 Jun, superseded same day)
+A covering note to route the four per-exec two-pagers. **Decided against** - too heavy; presumed Stephan would forward four artefacts (the same single-distributor problem the council later named). Two-pagers now held in [[tti-two-pagers]] (`_on-hold`).
 
-### v1.0 — Original two-door WhatsApp draft (29 May, never sent)
+### v1.0 - Original two-door WhatsApp draft (29 May, never sent)
 Referenced the two retired briefs (consulting + AI leadership). **Decided against** with the 29 May artefact-first pivot.
 
 ---
@@ -686,13 +686,13 @@ Referenced the two retired briefs (consulting + AI leadership). **Decided agains
 ## Standing tone rules (from [[tti-stephan-relationship-analysis]])
 - **Business-led, no low-status sympathy-ask.** Empathy/urgency rides third-party channels (Peter, Horst), never Julian's direct message.
 - **No apologetic framing** ("forgive me for chasing"). The relationship has earned direct asks.
-- **No crude humour in the job thread** — the warm/irreverent register is fine for pure personal touchpoints, clean for business asks.
+- **No crude humour in the job thread** - the warm/irreverent register is fine for pure personal touchpoints, clean for business asks.
 - **Total-career figure is 25+ years** (standardised 9 Jun 2026, matches the CV). The *service-design-specific* tenure is **12 years - settled by Julian 9 Aug 2026** (the "vs 15" was confusion with the separate 15+ BFSI figure; no document ever claimed 15).
 
 ## Related
-- [[tti-engagement-strategy]] — current strategy (diagnose-first); this doc executes its WhatsApp probe
-- [[peter-speck-briefing]] — the parallel probe; coordinate v5.0 with Peter before sending
-- [[tti-stephan-relationship-analysis]] — tonal source (relationship moves Stephan, not the business case)
-- [[engagement-history]] — log every actual send here too
-- [[stephan-whatsapp-archive]] — verbatim WhatsApp export archive (Stephan only)
-- [[tti-two-pagers]] — held in reserve (`_on-hold`); deploy only on a named pain owner
+- [[tti-engagement-strategy]] - current strategy (diagnose-first); this doc executes its WhatsApp probe
+- [[peter-speck-briefing]] - the parallel probe; coordinate v5.0 with Peter before sending
+- [[tti-stephan-relationship-analysis]] - tonal source (relationship moves Stephan, not the business case)
+- [[engagement-history]] - log every actual send here too
+- [[stephan-whatsapp-archive]] - verbatim WhatsApp export archive (Stephan only)
+- [[tti-two-pagers]] - held in reserve (`_on-hold`); deploy only on a named pain owner
