@@ -13,7 +13,7 @@ source: FINNv2
 
 **Purpose.** This is Finn's v2 essay cut to the course limits: 1,500 words for the main body and 500 for the reflection, references excluded. It exists so he can see exactly which words came out and put back anything he disagrees with, rather than being handed a rewrite. The faithful uncut conversion is [[FINNv2]], and the parent deliverable is [[techtronic-covid-essay-ideas]]. The cut was made by **deleting** redundant sentences and clauses, not by rewriting his prose, so that the essay still reads as his own work.
 
-> **As of 10 Aug 2026:** cut, measured and voice-checked. Main body **1,499** (limit 1,500), down from 1,716. Reflection **499** (limit 500), down from 609. References excluded from both. **77% of the sentences are word-for-word as Finn wrote them**, and the rest are his sentences with a clause deleted or a grammatical error repaired. The change log and the authenticity check are at the bottom of this file. Word's own count may differ by a handful depending on how it treats headings, so check in Word before submitting.
+> **As of 10 Aug 2026:** cut, measured and voice-checked. Main body **1,500** (limit 1,500), down from 1,716. Reflection **499** (limit 500), down from 609. Both counts are measured inside the finished Word file with headings included, which is how Word counts. References excluded from both. **70% of the sentences are word-for-word as Finn wrote them**, and the rest are his sentences with a clause deleted or a grammatical error repaired. The Word export of this version is `~/Downloads/Finn COVID v3.docx`. The change log and the authenticity check are at the bottom of this file. Word's own count may differ by a handful depending on how it treats headings, so check in Word before submitting.
 
 ---
 
@@ -33,15 +33,15 @@ Infrastructure was set up to accommodate this culture with extensive office spac
 
 Prior to the pandemic employee remote work was becoming more prevalent, however, for many large corporations it was the exception rather than the norm.
 
-TTI's business is the production and marketing of power tools and floor care cleaning products. As COVID developed rapidly around the world, the leadership and management team soon realised that they needed to put a COVID task force together to monitor the everchanging government protocols and adapt them to the company's operations. TTI had to work closely with its customers and distribution partners to get product to the end-users through "curb-side drop offs" and use digital platforms to reach the customer. At the same time, it had to adapt its supply chain, product development and R&D teams and ramp-up capacity for increasing online orders as COVID developed a substantial trend for online buying of home improvement DIY products. Through its existing globally integrated operations it managed to adapt and continue to deliver record financial results whilst making sure its employees were all safe.
+TTI's business is the production and marketing of power tools and floor care cleaning products. As COVID developed rapidly around the world, the leadership soon realised they needed to put a COVID task force together to monitor the everchanging government protocols and adapt them to the company's operations. TTI had to work closely with its customers and distribution partners to get product to the end-users through "curb-side drop offs" and use digital platforms to reach the customer. At the same time, it had to adapt its supply chain and ramp-up capacity for increasing online orders as COVID developed a substantial trend for online buying of home improvement DIY products. Through its existing globally integrated operations it managed to adapt and continue to deliver record financial results whilst making sure its employees were all safe.
 
 ## During: the forced experiment
 
 ### Infrastructure was never built for this
 
-The pandemic created needs for organisations to rapidly scale their remote-access capabilities in certain emergency situations, and exposed many organisations inability to do so.
+The pandemic created needs for organisations to rapidly scale their remote-access capabilities, and exposed many organisations inability to do so.
 
-Demand went far beyond anything the systems had been sized for. Before COVID only 16% of European organisations reported that more than half of their workforce worked remotely. The UK experienced the sharpest shift in the survey. Organisations with more than half their workforce remote increased from 18% before the pandemic to 85% during it (Cisco, 2020).
+Demand went far beyond anything the systems had been sized for. Before COVID only 16% of European organisations reported that more than half of their workforce worked remotely. The UK experienced the sharpest shift. Organisations with more than half their workforce remote increased from 18% before the pandemic to 85% during it (Cisco, 2020).
 
 This also accelerated the shift towards cloud services which are more accessible from remote locations. Across 20 European countries, cloud adoption increased by 46% during the pandemic (Calvino, Criscuolo and Ughi, 2024).
 
@@ -51,19 +51,19 @@ TTI were already well set up to accommodate spikes in remote-access VPN demand b
 
 ### The cultural shift
 
-During the first phase of lockdowns COVID rapidly shifted the work environment from the office to the home. In April 2020, 46.6% of people in employment did some work from home, and 86.0% of those said this was because of the pandemic (Office for National Statistics, 2020). The transition was uneven with 57.2% of London workers working from home, while jobs that had to be done in person obviously didn't change as much (Office for National Statistics, 2020). People didn't just do the same job somewhere else, their hours changed too. 34.4% of homeworkers worked fewer hours than usual, while 30.3% worked more. Lunches, informal encounters and commuting routines were replaced as work was done from home over digital media.
+During the first phase of lockdowns COVID rapidly shifted the work environment from the office to the home. In April 2020, 46.6% of people in employment did some work from home, and 86.0% of those said this was because of the pandemic (Office for National Statistics, 2020b). The transition was uneven with 57.2% of London workers working from home, while jobs that had to be done in person obviously didn't change as much (Office for National Statistics, 2020b). People didn't just do the same job somewhere else, their hours changed too. 34.4% of homeworkers worked fewer hours than usual, while 30.3% worked more. Lunches, informal encounters and commuting routines were replaced as work was done from home over digital media.
 
-At TTI a noticeable and publicly documented change was that contact intensified rather than dropped: TTI "talked with Home Depot senior executives daily." There is even the example of the CEO fronting results from a shed in Maryland, August 2020.
+At TTI a noticeable and publicly documented change was that contact intensified rather than dropped: TTI "talked with Home Depot senior executives daily" (Galli, 2020b). There is even the example of the CEO fronting results from a shed in Maryland.
 
 ### Home as a workplace
 
-Lockdown meant that homes were converted into workplaces, and many homes were not designed to support this. For London adults living in shared accommodation, 69% lived with someone else also working from home. Of those working from home, 46% reported that there weren't enough suitable work surfaces, and 42% advised that there was insufficient space. 37% worked from bedrooms and 37% from living rooms (LSE London, 2020).
+Lockdown meant that homes became workplaces, and many were not designed to support this. For London adults living in shared accommodation, 69% lived with someone else also working from home. Of those working from home, 46% reported there weren't enough suitable work surfaces, and 42% insufficient space. 37% worked from bedrooms and 37% from living rooms (LSE London, 2020).
 
 Physical separation of work from domestic life disappeared. Noise, privacy and competing use of rooms became problematic working conditions for many. These problems of course were not always the case and depended on the home environment. Workers with a dedicated room could establish a boundary, and those sharing limited space with partners or children couldn't.
 
 At TTI, this split was very evident, with those based in Hong Kong preferring to be in the office because of sharing space with three generations, but those working in North America rather enjoying not having to commute.
 
-Factory workers didn't have the choice at all. Of TTI's 34,000-plus employees, those in manufacturing, distribution centres and field sales could not work from home. The company's answer for them was safety protocols rather than remote work, applied across its manufacturing, distribution, R&D, head office and sales operations (Techtronic Industries, 2020b).
+Factory workers didn't have the choice at all. Of TTI's 34,000-plus employees, those in manufacturing, distribution centres and field sales could not work from home. The company's answer for them was safety protocols rather than remote work, applied across its manufacturing, distribution, R&D and sales operations (Techtronic Industries, 2020b).
 
 ### Cyber security had to be rethought
 
@@ -71,13 +71,13 @@ Perimeter-based security is based on a legacy usage pattern where all computer s
 
 COVID challenged the security perimeter model because people were now working remotely outside the perimeter, and communicating with corporate resources over the remote-access VPNs. Robust perimeter security controls would no longer suffice alone, and remote-access VPN solutions now need to be tested for reliability, and patched to stop bad actors from exploiting vulnerabilities.
 
-In March 2020, CISA advised organisations to patch VPNs and remote-access services, test and increase capacity, implement multi-factor authentications, enhance monitoring, and update incident-response plans for a distributed workforce (CISA, 2020).
+In March 2020, CISA advised organisations to patch VPNs and remote-access services, implement multi-factor authentications, enhance monitoring, and update incident-response plans for a distributed workforce (CISA, 2020).
 
 ## After: divergence, and what actually stuck
 
 ### People split into two camps
 
-Post pandemic there wasn't a dominant preference for office versus remote work. In a 2021 YouGov survey, 57% of British workers wanted to retain some homeworking after the pandemic, including 20% who wanted it full time; 37% wanted never to work from home (YouGov, 2021).
+Post pandemic there wasn't a dominant preference. In a 2021 YouGov survey, 57% of British workers wanted to retain some homeworking after the pandemic, including 20% who wanted it full time; 37% wanted never to work from home (YouGov, 2021).
 
 For the first group, reduced commuting, greater control over time and family life were important gains. ONS evidence similarly found that 78% of people who worked from home reported better work-life balance (Office for National Statistics, 2022).
 
@@ -91,7 +91,7 @@ The split between those wanting to work from home and those who don't was very e
 
 In the 2021 Census, Hong Kong households had a median 40 square metres of accommodation and 16 square metres per person (Census and Statistics Department, 2022). Space is therefore a material constraint, however, small flats did not put people off working from home. A 2020 Lingnan University survey of 1,976 Hong Kong residents found over 80% wanted to work from home at least one day per week after the pandemic. More than 70% cited more time to rest and 64% reduced stress (Lingnan University, 2020).
 
-These mixed sentiments were also witnessed within TTI's Kwai Chung office, with staff coming from a mixture of demographics and household circumstances.
+These mixed sentiments were also witnessed within TTI's Kwai Chung office.
 
 ### IT Infrastructure change
 
@@ -160,8 +160,8 @@ The main limitation of the exercise is the lack of direct employee evidence. Pub
 
 | Signal | Finn's original | This cut | First (rejected) attempt |
 |---|---|---|---|
-| Sentences kept word-for-word | - | **77%** | not measured |
-| Sentence-length variation (stdev) | 10.9 | 8.0 | 8.0 |
+| Sentences kept word-for-word | - | **70%** | not measured |
+| Sentence-length variation (stdev) | 10.9 | 7.9 | 8.0 |
 | Informal hedges ("obviously", "of course") | 5 | 2 | 1 |
 | "however" | 3 | 3 | 1 |
 | Semicolons | 1 | 1 | 2 |
@@ -169,6 +169,34 @@ The main limitation of the exercise is the lack of direct employee evidence. Pub
 **The one honest cost.** Sentence-length variation is still below his original, and that is almost entirely down to deleting the second introduction paragraph. That paragraph contains his longest sentence (71 words), missing sentence capitals and several run-ons, and it is the single most obviously human-written passage in the essay. It is also the weakest writing in it, and it duplicates the section that follows. Keeping it would cost 127 words that would have to come out of the analysis instead. **That trade-off is Finn's call, not mine.** If he would rather keep it, the words have to come from somewhere else and the cut has to be reopened.
 
 **A caveat worth stating plainly.** AI-detection tools are unreliable in both directions and no one can guarantee a result from any of them. What this check does is make sure the editing did not push his genuine writing towards the machine end of the scale. It cannot promise a particular score, and it is not a substitute for Finn being able to explain his own argument if he is ever asked about it, which he can, because the argument and the research are his.
+
+## Referencing: still open for Finn
+
+These are the only things I would not sign off, and none of them come from the cut. They were in the source draft.
+
+**Fixed here (two, both verifiable):** the direct quotation *"talked with Home Depot senior executives daily"* had no citation at all, which is the most serious issue in the document. It traces to the TTI 2020 Interim Results CNBC interview, already in his list as Galli (2020b), and the "shed in Maryland" detail comes from the opening of that same interview, so both are now cited. Two "(Office for National Statistics, 2020)" citations were also ambiguous, because the list carries a 2020a and a 2020b; the April 2020 homeworking figures are 2020b.
+
+**Not fixed, because they need Finn's decision:**
+
+1. **Eight of the twenty-two references are never cited in the text, and they split two ways.**
+
+   **Five are genuinely surplus and should be deleted:**
+   - Chen, S.-C.J. (2021) 'Power player: billionaire's bold bets during the pandemic paid off big', *Forbes*, 24 February.
+   - Galli, J. (2020a) 'Milwaukee Tool to repeat 20% sales growth in 2020', *CNBC*, 5 March.
+   - Galli, J. (2021) 'No excuses for TTI despite the pandemic: CEO', *CNBC*, 12 August.
+   - Galli, J. (2023) 'Power tool demand is "split" among U.S. consumers post-pandemic: TTI CEO', *CNBC*, 10 August.
+   - Galli, J. (2024) 'TTI's supply chains are positioned for flexibility no matter who is in the White House: CEO', *CNBC*, 7 March.
+
+   Nothing in the essay draws on any of them. The two 2023/2024 interviews are outside the period the essay covers.
+
+   **Three should be cited, not deleted, because the essay already uses them in prose:**
+   - Techtronic Industries (2020a), the April 2020 press release, and Techtronic Industries (2021), the Annual Report 2020. The reflection says *"My research began with TTI's annual report, interim report and April 2020 update"*, which names all three TTI sources without citing any of them. Adding "(Techtronic Industries, 2020a; 2020b; 2021)" to that sentence legitimises two entries and costs three words.
+   - Justin Gilbert Robinson, personal communication. See item 2.
+
+2. **The TTI claims sourced from his father carry no citation.** "At TTI, this split was very evident...", "TTI were already well set up to accommodate spikes in remote-access VPN demand...", "TTI management wanted their staff to be back in the office" and "These mixed sentiments were also witnessed within TTI's Kwai Chung office" all come from the interview, and the reference list has the personal communication entry ready, but no in-text citation points to it. As written these read as unsourced assertions. Adding "(Robinson, 2026)" to each is the obvious fix, but how a course wants personal communications cited varies, so this is his call to check against his brief.
+
+3. **The title is still unresolved.** The draft carries a "TITLE?" marker. The Word export uses a working title, "How the COVID-19 Pandemic Changed the Way Businesses Work", with the subtitle "A case study of Techtronic Industries". That is mine, not his, and there is an open question in [[techtronic-covid-essay-ideas]] about whether the title is even his to choose or is fixed by the course brief.
+
 
 ## References
 

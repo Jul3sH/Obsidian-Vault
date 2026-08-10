@@ -33,7 +33,7 @@ deliverable: tti-ty-proposal
 
 # PART THAT GOES OUT
 
-## Enterprise Architecture & Governance: 12-month engagement
+## Enterprise Architecture & Technology Leadership: 12-month engagement
 
 **At a glance: 12 months, US$299,563 all-in, full-time, five capabilities in one engagement.**
 
