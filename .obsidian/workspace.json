@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/claude-anthropic/claude-cowork.md",
+                "file": "wiki/ai-os/service-design/routing-work-to-agents-evidence.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "claude-cowork"
+              "title": "routing-work-to-agents-evidence"
             }
           }
         ],
@@ -215,6 +215,7 @@
   },
   "active": "5499e2742ba6ca1d",
   "lastOpenFiles": [
+    "wiki/technology/claude-anthropic/claude-cowork.md",
     "wiki/technology/claude-anthropic/claude-chat.md",
     "wiki/ai-os/service-design/routing-work-mental-model.md",
     "wiki/ai-os/service-design/routing-work-to-agents.md",
@@ -246,7 +247,6 @@
     "TTI covid report/Transcript of interview - CNBC Interview August 2023-en-US.md",
     "TTI covid report/Transcript of interview - CNBC Interview March  2024-en-US.md",
     "TTI covid report/Transcript of interview - TTI 2021 Annnual Results CNBC Interview-en-US.md",
-    "TTI covid report/Transcript of interview - No excuses for TTI despite the pandemic CEO -  Aug 12 2021.md",
     "FINN-REPORT",
     "Untitled 1",
     "TTI covid report",
