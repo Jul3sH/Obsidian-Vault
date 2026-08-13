@@ -17,8 +17,12 @@ correcting the places where that tool's own logic turned out to be wrong or blin
 Use it before setting up any substantial piece of AI work: walk the four questions
 in the ladder below, in order. The sections after that explain why the answers fall
 where they do, and the numbers near the end are only needed when a case sits right
-on a line. The test data behind every claim is in
-[[routing-work-to-agents-evidence]].
+on a line.
+
+Two companions. [[routing-work-mental-model]] is the same model stripped to
+one screen of statements, for recall once you already understand it.
+[[routing-work-to-agents-evidence]] holds the test data behind every claim made
+here.
 
 ## Key Takeaways
 
@@ -204,12 +208,22 @@ checks is not a check. It earns the name only if it can fail independently: diff
 information, different criteria, or a ground truth to compare against. Independence
 is not just a property of the workers. It applies to the verifier too.
 
-**Samplable structure.** Human checking made cheap by design rather than automated
-away. Required source citations you can click, so you verify three of thirty and
-trust the pattern. Output structured so that a wrong answer looks wrong. Still your
-attention, but sub-linear.
+**Human judgement.** The irreducible layer. Whether this is the right thing at all,
+whether it matches what you know to be true, whether the framing is acceptable. No
+other layer can do this, and its failure mode is volume, which it meets quietly
+rather than loudly.
 
-If you cannot name which of these three you would use, you do not have a check.
+Which means human judgement has to be made affordable by design rather than by
+resolve. Require source citations you can click, so you verify three of thirty and
+trust the pattern. Structure the output so a wrong answer looks wrong. Sample rather
+than sweep. The aim is to keep your attention sub-linear to the volume, because
+attention spent on things the first two layers would have caught is attention you no
+longer have for the judgement calls.
+
+**Most real checks combine all three, layered cheapest first.** Deterministic where
+something can be asserted, agent eval where meaning has to be judged at volume, your
+own judgement reserved for what only you can settle. If you cannot name which of the
+three you would use, you do not have a check.
 
 ## The one move worth remembering
 

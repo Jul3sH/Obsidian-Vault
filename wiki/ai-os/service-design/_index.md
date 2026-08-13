@@ -30,6 +30,7 @@ For the taxonomy that decides what belongs here vs. System Design, see [[../taxo
 - [[api-skill-troubleshooting|API Skill Troubleshooting]] — Isolation testing methodology and environment-specific gotchas (VPN routing, billing checks, curl isolation)
 - [[prioritization-framework|Prioritization Framework]] — How to decide what to work on and when: workstream hierarchy, WSJF within workstreams, cross-workstream scheduling rules (draft)
 - [[estimation-baseline|Estimation Baseline]] — Estimate vs actuals for every Project (three estimate points: t-shirt, scoped, actual); calibrates future sizing against real history
+- [[routing-work-mental-model|Routing Work: Mental Model]] — One-screen recall card: which input decides which routing question, and what each failure costs
 - [[routing-work-to-agents|Routing Work to Agents]] — Four-question ladder for choosing chat vs one agent vs several agents vs by hand, plus the things the model cannot see
 - [[routing-work-to-agents-evidence|Routing Work to Agents: Evidence]] — Test record behind the model: confirmed formulas, superseded claims, and the questions still open
 ## Archived
