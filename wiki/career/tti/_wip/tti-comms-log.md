@@ -41,8 +41,7 @@ renamed: 2026-07-17
 | 16 Apr 2026 | [[tti-role-profile-director-ea]] | Stephan | WhatsApp | Received | Invented role profile defining the Director EA scope at group level |
 | 4 Jul 2026 | [[tti-ty-brief]] (v3 one-pager) + [[tti-resume-april-2026]] | Stephan (to forward) | WhatsApp + PDF | Read 4 Jul; forwarded to Ty ~12 Jul | The personal-endorsement pivot pack; AI savings work held pull-only |
 | ~12 Jul 2026 | [[tti-ty-brief]] (v3 one-pager) + [[tti-resume-april-2026]] | **Ty Staviski** (via Stephan) | Forwarded by Stephan | Read; Ty called Julian 15 Jul | First artefact to reach the decision-maker |
-
-**Pending (drafted, not yet delivered):** [[tti-ty-engagement-proposal]] - the Ty proposal, due Mon 10 Aug; logs here once actually sent.
+| 10 Aug 2026 (10:00am) | [[tti-ty-engagement-proposal]] (v4.2 PDF) | **Ty Staviski** (direct) | WhatsApp | Read before the 6pm call; Ty called it "possibly more mature than anything they've got" | First artefact Julian sent Ty directly, not via Stephan; also being forwarded by Ty to TTI's cybersecurity lead |
 
 ---
 
@@ -107,6 +106,49 @@ renamed: 2026-07-17
 ---
 
 ## Ty Staviski
+
+---
+
+## ✅ 10 Aug evening - THE TY CALL HAPPENED: landed well, "more mature than anything they've got"; Tony's gap acknowledged unprompted; a cybersecurity counterpart introduction offered
+
+> **Ty called as promised, around 8pm UK Monday evening. Very short - about 5 minutes - and strongly positive.** He opened by thanking Julian for the proposal and said what's in it is possibly more mature than anything TTI currently has. He'd already given it to "a couple of people to look at" because he's "not an IT guy" himself - this is the source of the "couple of people" line Julian later reported to Stephan (11 Aug entry below). **Two things volunteered unprompted, neither led by Julian:** (1) Ty acknowledged that Tony is doing a "sort of pseudo role" covering Asia and that TTI doesn't have a proper architecture role - direct validation, from the decision-maker himself, of the exact gap the whole proposal is built on. (2) Ty asked to send the proposal and resume on to TTI's cybersecurity lead, who doesn't have a proper counterpart in Asia, and floated that this person might want to talk to Julian directly. He closed by saying he should have a decision in the next couple of days.
+
+**What was said (Julian's recollection, not verbatim):**
+- Ty opened casually: *"How you doing?"* Julian: *"Yeah, dealing with jet lag."*
+- Julian raised the urgency directly: *"I apologise for the sense of urgency that's been created around this"* - a deliberate reminder, not an actual apology, that the timeline is real. Ty's response was pragmatic and unbothered: *"Hey, well, look, this is what we do."*
+- Thanks for the proposal.
+- "In terms of what's detailed in there, it was possibly more mature than anything they've got at the moment."
+- He's given it to a couple of people to look at, "because I'm not an IT guy."
+- TTI recognises Tony is doing a "sort of pseudo role" in Asia, and they don't have a proper architecture role.
+- Asked to send the proposal + resume to TTI's cybersecurity lead, who doesn't have a proper counterpart in Asia; suggested that person might want to talk to Julian.
+- Said he should be able to give a decision in the next couple of days.
+
+**Strategic read:**
+- **Ty absorbed the urgency reminder without friction - "this is what we do" reads as pragmatic, not defensive.** He did not treat the urgency framing as pressure; worth reusing the same register (matter-of-fact, not apologetic-sounding) if urgency needs restating again.
+- **This is the strongest unprompted validation in the whole engagement.** Ty naming Tony's role as a "pseudo role" and confirming no proper architecture function exists is exactly the structural gap the director-level argument has been built on since 15 Jul - and it came from Ty without Julian raising it.
+- **The "more mature than anything they've got" line is a direct, unsolicited quality signal on the proposal itself** - worth carrying into any future round as evidence the document format and depth are working, not just the pitch.
+- **The cybersecurity introduction is a new stakeholder and a new thread**, distinct from the Ty/Stephan/Kari triangle tracked so far. It also explains capability 5 (cybersecurity, scoped into v4.2 on 10 Aug morning at Stephan's suggestion) landing at exactly the right moment - Ty read a document that already had a cyber capability in it. Watch for this person reaching out directly.
+- **"A couple of people" is now understood: at minimum, the cybersecurity lead, and possibly others reviewing on Ty's behalf given he says he's "not an IT guy."** This softens the Tony-sequencing risk somewhat (next action 6) - if the couple of people are technical reviewers rather than a formal approval chain including Tony, the sequencing plan may still hold, but this is not yet confirmed either way.
+- **No pushback, no objection, no question about price is recorded in Julian's recollection of the call - and the ~5 minute duration makes this more plausible than a gap in memory.** A call this short is a warm initial reaction, not a working session; commercials likely weren't reached at all rather than having been raised and cleared.
+
+**NEXT:** watch for the cybersecurity lead making contact; watch for Ty's decision (~12-13 Aug per the 11 Aug Stephan message below); if the cybersecurity lead reaches out, treat it as a live channel and log it here.
+
+---
+
+## ✅ 10 Aug morning - PROPOSAL SENT DIRECTLY TO TY; Ty pushed the call to evening (investor calls)
+
+> **The proposal PDF went to Ty directly by WhatsApp on the morning of 10 Aug, ahead of the call, per the plan agreed with Stephan on 9-10 Aug (send-before-call).** Ty replied within a couple of hours to say he was tied up with investor calls and would call after 6pm UK - which he then did (see the 10 Aug evening entry above).
+
+**What happened (WhatsApp, 10 Aug, times UK):**
+- **Julian (10:00am):** *"Hi Ty, Stephan mentioned you'd like to discuss a proposal, so I've taken the liberty of preparing something for you to review in advance (attached). It covers the scope, how I'd start delivering in month one, and the commercials. I'm out this morning collecting my daughter from the airport, but I'll be back by around 5pm UK time and after that I can make any time work that suits you. Looking forward to speaking. Julian"*
+- **Ty (12:27pm):** *"Julian - I am tied up with investor calls this morning. I will give you a call after 6PM your time."*
+
+**Strategic read:**
+- Executes the 9-10 Aug decision cleanly: PDF sent cold, with time to digest before the call, exactly as Stephan advised.
+- Ty's reply is short and businesslike but responsive within hours - no sign of the message sitting unread, unlike some earlier Stephan-channel sends.
+- This is the first artefact Julian has sent Ty directly (all prior contact was via Stephan or Kari relaying), consistent with Stephan's 9-10 Aug confirmation that he would not forward it himself.
+
+**NEXT:** superseded by the 10 Aug evening call entry above.
 
 ---
 
@@ -274,6 +316,30 @@ renamed: 2026-07-17
 ---
 
 ## Stephan Pudwill
+
+---
+
+## ✅ 11 Aug - STEPHAN FOLLOWED UP: WhatsApp check-in then a 20-minute call; actively invested and coaching Julian to chase Ty directly if silence continues
+
+> **Stephan checked in twice on Tuesday 11 Aug - first by WhatsApp, then a 20-minute phone call.** On the call he asked whether Julian had folded his "ad hoc projects" suggestion into the proposal (see the 9-10 Aug entry below); Julian confirmed yes and thanked him for the idea, which visibly fed Stephan's sense of being invested in the outcome, not just relaying it. Stephan recounted that he had personally thanked Ty before heading off to Korea, and - the most material line - **told Julian directly: if nothing happens in the next couple of days, message Ty yourself.** This is Stephan actively coaching a chase, not just passively waiting to be asked. Personal note: Sophia successfully collected from Ireland (Clodagh nearly u-turned).
+
+**What happened (WhatsApp, 11 Aug, times as sent):**
+- **Stephan (1:18am):** *"Did you speak with Ty?"*
+- **Julian (5:36am):** *"Hi Stephan, yes we spoke yesterday evening. He's got a couple of people looking into it for him and advised he should have an answer in these next couple of days."*
+- **Julian (5:41am):** *"Thanks again for your advocacy Stephan, I'm genuinely very grateful. I managed to get Sophia from Ireland too, so a good day. Clodagh almost u-turned on the arrangement! You may well be on your way to Korea so I hope the tournament goes well."*
+
+**The follow-up phone call (Tue 11 Aug morning, ~20 minutes):**
+- Stephan asked whether Julian had added the ad hoc-projects line to the proposal as he'd suggested on 9-10 Aug. Julian confirmed yes and thanked him, telling him it was a genuinely good idea - Stephan visibly appreciated being told his input was used, which is reinforcing his sense of investment in helping the cause.
+- Stephan recounted he had said "thank you" to Ty directly before Ty/Stephan headed off (Stephan to Korea) - he is following up with Ty on his own initiative, not only relaying Julian's questions.
+- **Stephan's instruction: "if nothing happens in the next couple of days, message him [Ty]."** He is actively managing the chase, telling Julian to go direct to Ty rather than routing everything back through Stephan.
+
+**Strategic read:**
+- **"A couple of people looking into it" is now understood** (see the 10 Aug evening Ty-call entry above): at minimum the cybersecurity lead Ty is forwarding the proposal to. Stephan's 9-10 Aug "quick decision" assurance is not contradicted, just working through an extra step.
+- **Stephan telling Julian to message Ty directly if nothing happens is a strong, proactive signal** - a risk-averse relay-only contact volunteering escalation permission in advance is new. Worth using without hesitation if the couple of days pass with no word; no need to check back with Stephan first.
+- **Crediting Stephan for his suggestions (ad hoc projects) in the moment is working as advocacy fuel** - he is not just carrying messages, he is now personally invested in specific content landing. Worth continuing deliberately: tell him what of his input was used, when it was used.
+- **"Answer in the next couple of days" from 11 Aug puts the expected response window at roughly 12-13 Aug** - i.e. now/imminent as of today.
+
+**NEXT:** watch for Ty's answer (expected by ~13 Aug per this message); if nothing has come by then, message Ty directly - pre-cleared by Stephan, no need to loop back through him first.
 
 ---
 

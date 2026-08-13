@@ -22,6 +22,45 @@ on a line.
 Companion: [[routing-work-mental-model]] is the same model stripped to one screen of
 statements, for recall once you already understand it.
 
+## The One-Minute Test, and what this article does to it
+
+Nate B Jones's tool is a single screen. You set **six sliders** from 0 to 100, and it
+returns one of four verdicts in about a minute, with a one-sentence explanation of
+why.
+
+The sliders are not equal partners. Two of them combine into a single score, one is a
+pass/fail gate that only applies in some cases, two are an economic veto, and one
+mostly just sorts the leftovers. What each is really doing:
+
+| Slider | What it asks | What it actually controls |
+|---|---|---|
+| **Separation** | How separable are the parts? | 60% of the split score. The heaviest single input in the model |
+| **Independence** | How much do the parts need to *not* see each other's work? | The other 40% of the split score |
+| **Checkability** | How cheaply can you verify the result? | A hard pass/fail gate at 60, but only for work already headed for a split. Ignored everywhere else |
+| **Size** | How big is the job? | Sorts work that is *not* splitting into chat or one agent. Above 40, it also switches the economics question on |
+| **Recurrence** | How often will this come up again? | One of two economic bars, passing at about 33 |
+| **Value** | How much does it matter? | The other economic bar, passing at about 48. Either bar alone is enough |
+
+**The four verdicts:** *Chat*, *One agent*, *Several agents*, and *Don't bother*. This
+article renames the last one **by hand**, which is what the tool's own description
+says to do: it means do the work yourself rather than build the apparatus, not
+abandon it.
+
+The tool also shows a **Spend Pressure** score, which looks like a verdict input and
+is not one. See [[#Spend Pressure is a display, not a gate]].
+
+**This article is not a manual for the tool.** It is the model that survived testing
+it, and it departs from the tool in two ways.
+
+One is a place where the tool **actively misinforms**: for work routed to a single
+agent, its explanation text claims a check you can afford at every checkability
+value, including zero. That branch uses a fixed template and never reads the input.
+It is flagged at the end of [[#What the model cannot see]].
+
+The other is what the tool has **no lever for at all** - blast radius, how hard one
+output is intrinsically to check, latency and cost. Those are additions, not
+findings, and they are the rest of that same section.
+
 ## Key Takeaways
 
 - **Split on need, not on size.** Big work still goes to one agent when there is
