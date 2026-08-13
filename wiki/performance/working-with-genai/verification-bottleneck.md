@@ -114,6 +114,12 @@ evals, human judgement) are set out in [[routing-work-to-agents]].
 volume of AI work you are answerable for should be costed against the checking it
 creates, not just the producing it saves.
 
+**Where the judging is the work, no architecture helps.** Product naming is the clean
+example: generating options is nearly free, and picking the winner is the entire job.
+More agents produce a larger pile of fluent candidates without making the final call
+any cheaper. The test that catches this is comparative - **is checking cheaper than
+producing?** - and taste-only work fails it by definition.
+
 ## Where this applies
 
 Beyond choosing how to route work, this is live wherever generated volume lands on

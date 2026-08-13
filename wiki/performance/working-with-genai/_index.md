@@ -12,3 +12,4 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[verification-bottleneck|The Verification Bottleneck]] - Why checking, not producing, is the limit on how much AI work is worth having, and why "I'll review it" is an intention rather than a plan
 - [[routing-work-to-agents|Routing Work to Agents]] - Four-question ladder for choosing chat vs one agent vs several agents vs by hand, plus the things the model cannot see
 - [[routing-work-mental-model|Routing Work: Mental Model]] - One-screen recall card for the routing ladder: which input decides which question, and what each failure costs
+- [[routing-work-prompts|Routing Work: Setup Prompts]] - The four setup templates, one per verdict, including the one-agent run card that forces the check to be named before the run

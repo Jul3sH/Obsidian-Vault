@@ -76,3 +76,8 @@ This is the only statement here that changes what you do first.
 1. Split on need, not on size.
 2. Never split what you cannot check.
 3. Never build what will not repeat or will not matter.
+
+And the one-line version of all of it: **pick the lightest tool that still leaves you
+a result you can inspect.** Chat is not the weak answer, it is the clean one.
+
+Setup templates for each route: [[routing-work-prompts]].

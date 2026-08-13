@@ -9,7 +9,8 @@ status: active
 
 This decides one thing: how to run a piece of work. There are four answers. Paste it
 into chat, give it to one agent, split it across several agents, or do it by hand
-yourself.
+yourself. The skill it is trying to build is Jones's own one-liner: **pick the
+lightest tool that still leaves you a result you can inspect.**
 
 It came from reverse-engineering Nate B Jones's One-Minute Test in August 2026, then
 correcting the places where that tool's own logic turned out to be wrong or blind.
@@ -34,12 +35,22 @@ mostly just sorts the leftovers. What each is really doing:
 
 | Slider | What it asks | What it actually controls |
 |---|---|---|
-| **Separation** | How separable are the parts? | 60% of the split score. The heaviest single input in the model |
-| **Independence** | How much do the parts need to *not* see each other's work? | The other 40% of the split score |
-| **Checkability** | How cheaply can you verify the result? | A hard pass/fail gate at 60, but only for work already headed for a split. Ignored everywhere else |
-| **Size** | How big is the job? | Sorts work that is *not* splitting into chat or one agent. Above 40, it also switches the economics question on |
+| *Can the parts proceed in parallel?* | Are there pieces that could genuinely be worked at the same time? | Combines with the row below into a single **split score**, weighted roughly 60/40 |
+| *Does any step need a fresh mind?* | Does something get worse if the same mind both makes and judges it? | The other half of the split score. The half people drop |
+| **Checkability** | Is checking cheaper **than producing**? | A hard pass/fail gate at 60, but only for work already headed for a split. Ignored everywhere else |
+| **Size** | How much source material has to stay **in view**? | Sorts work that is *not* splitting into chat or one agent. Above 40, it also switches the economics question on |
 | **Recurrence** | How often will this come up again? | One of two economic bars, passing at about 33 |
 | **Value** | How much does it matter? | The other economic bar, passing at about 48. Either bar alone is enough |
+
+The first two sliders are labelled *Separation* and *Independence*. Which label sits
+on which question is not settled here, and nothing in this article depends on it: you
+rate both, and the tool applies its own weights to its own labels. The 60/40 split
+between them is confirmed, but **which of the two carries the 60 is unverified** and
+is flagged again where the arithmetic appears.
+
+Note the shape of the size question. It is not "how big is the job" but how much
+material has to stay resident, which is why the tool's own vocabulary for the
+smallest band is *fits one window*.
 
 **The four verdicts:** *Chat*, *One agent*, *Several agents*, and *Don't bother*. This
 article renames the last one **by hand**, which is what the tool's own description
@@ -57,9 +68,16 @@ agent, its explanation text claims a check you can afford at every checkability
 value, including zero. That branch uses a fixed template and never reads the input.
 It is flagged at the end of [[#What the model cannot see]].
 
-The other is what the tool has **no lever for at all** - blast radius, how hard one
-output is intrinsically to check, latency and cost. Those are additions, not
-findings, and they are the rest of that same section.
+The other is what the six sliders have **no lever for**, chiefly blast radius and how
+hard one output is intrinsically to check. These are not oversights. Jones sets out a
+seven-question human version alongside the tool, adding *how much is judgment doing*
+and *do the access and consequence earn setup* precisely because the sliders leave
+them out. So the additions in [[#What the model cannot see]] are less a correction to
+his thinking than a restoration of the parts his interface dropped.
+
+**Once you have a verdict**, the setup templates for each route are in
+[[routing-work-prompts]]. The one-agent run card is the one to internalise: it makes
+you name the check before the run rather than after.
 
 ## Key Takeaways
 
@@ -84,6 +102,11 @@ Four questions. The first one branches, the last one applies to everything.
 4. **Then, for anything you are about to set up: does it repeat often, or does it
    matter a lot?** Neither, so do it by hand this once. Chat is exempt from this
    one.
+
+**Chat is not the weak answer.** It is the clean one when the job is small enough to
+do in a single exchange, and landing there means you have avoided building anything.
+Treating it as a failure to reach the "real" options is how you end up with apparatus
+you did not need.
 
 ## The three rules in full
 
@@ -151,15 +174,20 @@ building it.
 
 ## What the model cannot see
 
-Hold these yourself. Nothing in the four questions asks about them.
+Hold these yourself. Nothing in the four questions asks about them, and the first two
+are ones Jones himself asks in his longer human version but left off the sliders.
 
 - **Blast radius.** Cheap-to-check and catastrophic scores identically to
-  cheap-to-check and trivial. There is no lever for how bad being wrong is.
+  cheap-to-check and trivial. There is no lever for how bad being wrong is. His
+  version asks it as *access and consequence*: a pasted note is not private files,
+  and a calendar action is not money or account risk.
 - **Intrinsic check cost.** The model treats verification as a volume problem. One
   output can still be genuinely hard to check: a legal summary, a financial model,
   a confident claim in a domain you do not know. One output is not the same as
-  inspectable. Ask which kind of hard-to-check you are facing.
-- **Latency and cost.** No lever for either.
+  inspectable. Ask which kind of hard-to-check you are facing. His version asks it
+  as *how much is judgment doing*, and pushes high-judgment work back to a person,
+  or narrows it until the AI part is clearly support.
+- **Latency and cost.** No lever for either, and not in his version either.
 
 Related to the second point: in single-agent mode the source tool reports the check
 as affordable at every value including zero, so substantial unverifiable work routed
@@ -193,6 +221,12 @@ Not specifically an agent-run eval. "Can you check it" is about the **cost of
 verification**, whoever or whatever performs it. The test is whether that cost stays
 flat as the work multiplies, rather than consuming your attention one output at a
 time. Three things achieve that.
+
+The sharper form of the question is comparative: **is checking cheaper than
+producing?** That gives you a clean fail case, which is taste-only work. Judging
+which of thirty product names is best costs about what generating them costs, so
+generating more of them buys nothing. Wherever the judging is the work, the check
+cannot be cheap by definition, and no architecture fixes it.
 
 **Deterministic checks.** A test that runs, a number that reconciles, a schema that
 validates, a link that resolves. The strongest kind, because they cannot be wrong in
@@ -238,9 +272,13 @@ all, and no other input in the model offers that.
 This is the source tool's arithmetic, on its 0 to 100 sliders. Skip it unless a case
 sits right on a line.
 
-- **How much it wants splitting** = (0.6 x how separable the parts are) + (0.4 x how
-  much they need to not see each other). Separability counts for one and a half
-  times as much. Above roughly 50 and you are a split candidate, whatever the size.
+- **How much it wants splitting** is a plain weighted average of the two split
+  sliders, 0.6 and 0.4, with no intercept. Above roughly 50 and you are a split
+  candidate, whatever the size. **Which of the two carries the 0.6 is unverified**:
+  the weights were measured against slider positions, not against the meaning of the
+  labels, and Jones's own writing suggests the fresh-mind question may be the heavier
+  one rather than the separability question. It only changes an outcome when the two
+  differ sharply and the total sits near 50, so it is recorded rather than resolved.
 - **How easy it is to check must clear 60** before a split is allowed. A fixed bar,
   unrelated to anything else, and set above the midpoint on purpose, so anything
   ambiguous counts as a fail. The burden of proof sits on the check. It is an
@@ -301,8 +339,13 @@ smaller gaps remain: the split threshold is known only to sit somewhere between 
 and 56, and whether the size-40 economics trigger also applies inside split mode is
 untested.
 
-The blind spots listed above are corrections to the source tool, not findings from
-it. The tool encodes its whole state in the URL fragment, in the order
+Two things are recorded rather than settled: which split slider carries the 0.6
+weight, and the verdict name for a split (testing recorded *Several agents*, Jones's
+own write-up calls it *Agent Team*). Neither changes a routing decision.
+
+The blind spots listed above are restorations of questions Jones asks in his
+seven-question human version but left off the six sliders, not disagreements with
+him. The tool encodes its whole state in the URL fragment, in the order
 `#Size.Independence.Separation.Checkability.Recurrence.Value`; setting states by URL
 rather than dragging sliders is how the rules above were measured and how to resume.
 Source analysis sits at `raw/Nate B Jones one-minute-test analysis.md`, not yet
