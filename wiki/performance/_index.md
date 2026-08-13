@@ -22,6 +22,14 @@ Covers personal productivity systems, execution discipline, habit formation, and
 
 ---
 
+## Working With GenAI
+
+> The fourth "working with", added outside the Personal MBA framework, which predates the problem.
+
+- [[performance/working-with-genai/_index|Working With GenAI]] - Concepts for working alongside generative AI: attention, trust, judgement, verification, and deciding what to hand over
+
+---
+
 ## Decisions
 > The **home of the decision-making system**. Every workstream's `## Decisions` section points back here for the shared method + journal.
 - [[decisions/_index|Decisions]] — Frameworks and mental models for structured decision-making, plus Julian's own profile and journal

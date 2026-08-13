@@ -17,7 +17,7 @@
 
 - [[career/_index|Career]] — Professional progression, workplace navigation, interviews, and career strategy; includes [[career/tti/_index|TTI]] engagement context *(OKRs)*
 - [[finance/_index|Finance]] — Personal finances: budgeting, savings, and investments *(SMART Goals)*
-- [[performance/_index|Performance]] — Personal effectiveness, productivity, self-management, and working with others; includes the Personal MBA framework *(OKRs)*
+- [[performance/_index|Performance]] — Personal effectiveness, productivity, self-management, and working with others and with GenAI; includes the Personal MBA framework *(OKRs)*
 - [[personal/_index|Personal]] — Hobbies, enjoyment, and life goals *(SMART Goals)*
 - [[relationships/_index|Relationships]] — Personal relationships: communication, conflict, and connection *(SMART Goals)*
 - [[wellbeing/_index|Wellbeing]] — Physical and mental state: sleep, alcohol, energy, and recovery *(SMART Goals)*

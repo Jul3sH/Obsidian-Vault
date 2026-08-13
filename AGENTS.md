@@ -426,6 +426,19 @@ Articles within them should reference relevant Personal MBA concepts where appli
 - **wiki/performance/working-with-others/** - Interpersonal effectiveness:
   communication, influence, leadership, conflict resolution, trust, and group dynamics.
 
+## Working With GenAI (inside wiki/performance/, outside the Personal MBA framework)
+
+- **wiki/performance/working-with-genai/** - The fourth "working with", added because
+  Kaufman predates the problem. Concepts for working alongside generative AI:
+  attention, trust, judgement, verification, and deciding what work to hand over.
+
+**Filing test against wiki/ai-os/:** a principle that would hold for anyone working
+with generative AI goes here, however it happens to be wired up in Julian's setup.
+`wiki/ai-os/` is for his own operating layer: the skills, mirrors, conventions, and
+locked-down process actually running. Concepts here, machinery there. If an article
+would still be true and useful for someone who had never seen this vault, it belongs
+in this folder.
+
 ## Flagging Rule
 If raw material covers "how things work" in a domain not listed above (e.g. a
 new subject area), DO NOT create a new index. Instead, flag it to the user with

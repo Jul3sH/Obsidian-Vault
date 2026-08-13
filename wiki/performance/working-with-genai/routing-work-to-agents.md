@@ -19,10 +19,8 @@ in the ladder below, in order. The sections after that explain why the answers f
 where they do, and the numbers near the end are only needed when a case sits right
 on a line.
 
-Two companions. [[routing-work-mental-model]] is the same model stripped to
-one screen of statements, for recall once you already understand it.
-[[routing-work-to-agents-evidence]] holds the test data behind every claim made
-here.
+Companion: [[routing-work-mental-model]] is the same model stripped to one screen of
+statements, for recall once you already understand it.
 
 ## Key Takeaways
 
@@ -131,46 +129,14 @@ question is only asked of splits, so ask it yourself of everything else.
 
 ## Why verification is the bottleneck
 
-This is the reason the check is a hard gate rather than a preference, and it is the
-most important section in this document.
+The check is a hard gate rather than a preference for one reason: generation scaled
+and verification did not. The capacity to produce work has gone up by orders of
+magnitude; the capacity to confirm it is correct is still one human reading one thing
+at a time. Every rule above follows from that asymmetry.
 
-Generation scaled and verification did not. The capacity to produce work has gone up
-by orders of magnitude; the capacity to confirm it is correct is still one human
-reading one thing at a time. Every rule above follows from that asymmetry.
-
-The burden goes by several names depending on who is writing: the **verification
-gap**, **review fatigue** or **approval fatigue**, and in older human-factors
-research **automation bias** and **automation complacency**. The last two are the
-useful ones, because they are decades old, they come from aviation and clinical
-medicine rather than from anyone selling a tool, and they describe the mechanism
-rather than the symptom.
-
-Three findings from that literature matter here.
-
-**Reliability makes it worse, not better.** Parasuraman and colleagues found that
-when automation was consistently reliable, operators detected only about 30% of its
-errors. When the system visibly failed from time to time, detection rose to roughly
-75%. This is the finding to sit with: a long run of good output is the condition
-under which you stop catching things. "It has been fine so far" is not evidence that
-you are checking. It is the mechanism by which you stopped.
-
-**Expertise does not protect you.** In a 2023 radiology study, experienced
-radiologists reviewing mammograms alongside incorrect AI suggestions fell from 82%
-accuracy to 45.5%. Inexperienced ones fell from around 80% to under 20%. Seniority
-softened the fall; it did not prevent it.
-
-**Intention is not behaviour.** Sonar's survey found 96% of developers do not fully
-trust AI output while only 48% verify it. Everyone knows to check. Under volume,
-roughly half do.
-
-The failure mode is not that you catch fewer errors. It is that **you keep believing
-you are checking while you have stopped**, and the record still says the work was
-reviewed. Oversight quietly becomes a rubber stamp, which is worse than no oversight
-because it manufactures confidence. Reviewing AI output also invites skimming in a
-way human output does not: it is fluent, consistently formatted and structurally
-repetitive, so it reads as correct, a habit sometimes called **template blindness**.
-
-Two consequences for routing.
+The full principle, the automation-bias research behind it, and the other places it
+applies are in [[verification-bottleneck]]. Two consequences for routing
+specifically.
 
 **"I'll review it" is not a check.** It is an intention, and it degrades under
 exactly the volume that splitting the work creates. That is why the check has to be
@@ -179,15 +145,8 @@ the midpoint: anything you cannot name counts as a fail.
 
 **This is what makes an unverifiable split worse than no split.** It does not just
 leave errors uncaught. It produces fluent, plausible, high-volume output that
-consumes the attention you would need to catch them, and returns a feeling of
-progress either way.
-
-Sources:
-[Parasuraman on automation complacency](https://github.com/brennhill/looprails/blob/main/article-automation-bias.md),
-[the HITL rubber-stamp problem](https://tianpan.co/blog/2026-04-15-human-in-the-loop-rubber-stamp),
-[Sonar's verification-gap survey](https://www.sonarsource.com/company/press-releases/sonar-data-reveals-critical-verification-gap-in-ai-coding/),
-[human oversight and overload (arXiv)](https://arxiv.org/pdf/2606.05770),
-[automation bias in medical decision-making (arXiv)](https://arxiv.org/pdf/2411.00998).
+consumes the very attention those errors required, and returns a feeling of progress
+either way.
 
 ## What counts as a check
 
@@ -245,22 +204,67 @@ sits right on a line.
   times as much. Above roughly 50 and you are a split candidate, whatever the size.
 - **How easy it is to check must clear 60** before a split is allowed. A fixed bar,
   unrelated to anything else, and set above the midpoint on purpose, so anything
-  ambiguous counts as a fail. The burden of proof sits on the check.
-- **Size only sorts work that is not splitting.** Below 36 it goes to chat, which is
-  also exempt from the repeat-or-matter test. From 40 up, that test is live.
+  ambiguous counts as a fail. The burden of proof sits on the check. It is an
+  absolute bar, not a comparison against the split score: a case can beat its own
+  split score on checkability and still fail.
+- **Size only sorts work that is not splitting**, into three bands: chat below 36,
+  one agent from 36 to 39, and one agent again from 40 up. The bands matter for one
+  reason only. **Repeat-or-matter is consulted in the top band alone**, so anything
+  below 40 passes zero recurrence and zero value untouched. And 40 is where that
+  question starts being asked, not where it fails: a large job with both levers at
+  the midpoint still routes to one agent.
 - **Repeat-or-matter passes at recurrence above roughly 33, or value above roughly
   48.** Two separate bars, either one sufficient, and no adding them together.
+  Recurrence is the easier bar to clear, at about two thirds of the value threshold.
+
+### Spend Pressure is a display, not a gate
+
+The tool shows a Spend Pressure score with a Low/Moderate/High label. **It decides
+nothing.** A case showing Moderate 49 fails while a case showing High 65 passes, which
+rules out any threshold reading of it.
+
+What it represents: roughly the total work the job implies, discounted by how valuable
+it is. A cost-justification readout, which is why it moves with almost everything and
+gates nothing.
+
+What changes it, per unit of each input:
+
+| Input | Effect |
+|---|---|
+| Size | about +0.35, the strongest driver |
+| Recurrence | about +0.25 |
+| Value | about **-0.16**, higher value *lowers* displayed pressure |
+| Separation | about +0.15 |
+| Independence | about +0.11 |
+| Checkability | none at all, confirmed flat across a full sweep |
+
+Fitted: `28 + 0.35(Size) + 0.15(Sep) + 0.11(Indep) + 0.25(Recur) - 0.16(Value)`. This
+reproduces every recorded observation within about a point, but the Separation and
+Independence coefficients are soft, as no deliberate single-lever sweep was run for
+them.
+
+**The practical point is the minus sign on Value.** Two jobs of identical size and
+frequency display different pressure purely because one is worth more, so a high
+reading can mean "this is big" or it can mean "this is not worth much". It is not a
+warning, and it is not an input to any of the four questions.
 
 ## Status
 
 As of 13 Aug 2026: the split formula and the checkability bar are confirmed by
-repeated testing across widely spaced inputs. The economic veto is confirmed as
-universal (it kills a fully qualified split), but the OR rule and its two thresholds
-are fitted to a partial grid and should be treated as provisional until the
-compensating cases are tested. Whether the size-40 economics trigger also applies
-inside split mode is untested. The blind spots listed above are corrections to the
-source tool, not findings from it.
+repeated testing across widely spaced inputs, the blend formula exactly across seven
+observations and the checkability bar at three widely separated split scores. The
+economic veto is confirmed as universal (it kills a fully qualified split), but the
+OR rule and its two thresholds are fitted to boundary cells only and are provisional.
 
-Full test data, including the two observations that overturned the original model,
-is in [[routing-work-to-agents-evidence]]. Source analysis sits at
-`raw/Nate B Jones one-minute-test analysis.md`, not yet compiled into the wiki.
+**One test would settle the OR rule:** recurrence 30 with value 45, both just short
+of their bars. OR predicts it fails; any additive rule predicts it passes. Two
+smaller gaps remain: the split threshold is known only to sit somewhere between 51
+and 56, and whether the size-40 economics trigger also applies inside split mode is
+untested.
+
+The blind spots listed above are corrections to the source tool, not findings from
+it. The tool encodes its whole state in the URL fragment, in the order
+`#Size.Independence.Separation.Checkability.Recurrence.Value`; setting states by URL
+rather than dragging sliders is how the rules above were measured and how to resume.
+Source analysis sits at `raw/Nate B Jones one-minute-test analysis.md`, not yet
+compiled into the wiki.
