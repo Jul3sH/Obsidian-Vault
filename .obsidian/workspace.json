@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "raw/Nate B Jones one-minute-test analysis.md",
+                "file": "wiki/ai-os/service-design/routing-work-to-agents.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nate B Jones one-minute-test analysis"
+              "title": "routing-work-to-agents"
             }
           }
         ],
@@ -213,10 +213,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "5499e2742ba6ca1d",
   "lastOpenFiles": [
-    "wiki/career/tti/_wip/tti-ty-call-script.md",
     "raw/Nate B Jones one-minute-test analysis.md",
+    "wiki/ai-os/service-design/routing-work-to-agents.md",
+    "wiki/career/tti/_wip/tti-ty-call-script.md",
     "wiki/career/tti/_wip/Enterprise Architecture & Technology Leadership - Julian Hart - Aug 2026 copy.pdf",
     "wiki/career/tti/_wip/Ty Call Script - INTERNAL - 10 Aug 2026 copy.pdf",
     "wiki/career/tti/_wip/Ty Call Script - INTERNAL - 10 Aug 2026.pdf",
@@ -246,7 +247,6 @@
     "wiki/career/tti/tti-start-here.md",
     "wiki/career/tti/_wip/TTI EA Proposal Perplexity Draft.md",
     "wiki/career/tti/_reference/perplexity-defensible-ea-benefits.md",
-    "wiki/ai-os/system-design/claude/memory/feedback-plain-writing-not-riddles.md",
     "FINN-REPORT",
     "Untitled 1",
     "TTI covid report",
