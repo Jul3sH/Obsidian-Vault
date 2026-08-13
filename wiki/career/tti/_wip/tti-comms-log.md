@@ -109,6 +109,24 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ SENT 13 Aug - FIRST DIRECT CHASE TO TY: warm check-in, no urgency restated
+
+> **Sent Thursday 13 Aug, after the "couple of days" window from the Monday call passed with no word from Ty or the cybersecurity lead.** Pre-cleared by Stephan on 11 Aug ("if nothing happens in the next couple of days, message him"), so this is an authorised chase, not an escalation around him.
+
+**Sent (13 Aug):**
+
+> Hey Ty, just a quick check-in to see if there's anything you need from me at this point to help with the progression.
+
+**Why this shape (drafting decisions, 13 Aug):**
+- **The urgency line was deliberately dropped.** A second sentence restating the school-deadline clock was drafted and cut: Julian raised the urgency on the Monday call itself and Ty absorbed it without friction ("this is what we do"), so restating it three days later risked reading as hassling. The check-in does the reminding job just by arriving. Consistent with the graduated-chase-tone rule: open warm, escalate only if silence continues.
+- **A "no one reached out to me directly this week" qualifier was drafted and cut** - it turned the check-in into a logged grievance about Ty's team and justified a message that needs no justification.
+- **A Stephan-first alternative ("should I chase him or would you ping him?") was considered and dropped** - Stephan had already answered that question on 11 Aug; re-asking would reopen it and burn a day waiting on his reply.
+- **Accepted trade-off:** this shape lets Ty reply "nothing needed, will revert" with no date attached. If that comes back, or silence continues into next week, the timing line earns its place then, with Stephan's backing already in hand.
+
+**NEXT:** watch for Ty's reply. If silence continues into next week, escalate with the timing line (school-decision deadline, steer-on-timing ask) and consider a Stephan heads-up.
+
+---
+
 ## ✅ 10 Aug evening - THE TY CALL HAPPENED: landed well, "more mature than anything they've got"; Tony's gap acknowledged unprompted; a cybersecurity counterpart introduction offered
 
 > **Ty called as promised, around 8pm UK Monday evening. Very short - about 5 minutes - and strongly positive.** He opened by thanking Julian for the proposal and said what's in it is possibly more mature than anything TTI currently has. He'd already given it to "a couple of people to look at" because he's "not an IT guy" himself - this is the source of the "couple of people" line Julian later reported to Stephan (11 Aug entry below). **Two things volunteered unprompted, neither led by Julian:** (1) Ty acknowledged that Tony is doing a "sort of pseudo role" covering Asia and that TTI doesn't have a proper architecture role - direct validation, from the decision-maker himself, of the exact gap the whole proposal is built on. (2) Ty asked to send the proposal and resume on to TTI's cybersecurity lead, who doesn't have a proper counterpart in Asia, and floated that this person might want to talk to Julian directly. He closed by saying he should have a decision in the next couple of days.
