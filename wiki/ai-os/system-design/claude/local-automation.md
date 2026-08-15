@@ -4,9 +4,15 @@ created: 2026-08-15
 updated: 2026-08-15
 ---
 
-# Local Automation (launchd)
+# Local Automation (launchd) - DISCONTINUED 2026-08-15
 
-This document is what it is: the record of a persistent, unattended, local scheduled job that runs Claude Code on Julian's Mac without a human watching each action. It exists because Claude Code's two built-in scheduling mechanisms cannot do this job, and because creating this kind of automation is a safety-sensitive action that Claude Code's own auto-mode classifier gates behind explicit, specific user consent - so that consent is recorded here, not just implied.
+**⚠ As of 15 Aug 2026: this automation was built, tested, and then turned off the same day.** The plist has been deleted and the launchd job unloaded. [[../../skills/whatsapp-someday/SKILL|whatsapp-someday]] is manual-only now (`/whatsapp-someday`). This document is kept as a record of what was built and why it was dropped, not as documentation of something currently running.
+
+**Why it was dropped:** the last unresolved piece was getting Julian a real notification when a run succeeded, since nobody watches an unattended run. The sanctioned in-session tool (`PushNotification`) turned out to depend on a terminal context that a headless launchd-invoked process doesn't have, so it silently did nothing. Chasing a working replacement (native macOS notifications via a file-based handoff from the headless session to the wrapper script, verified through `launchctl kickstart` rather than Claude's own sandboxed Bash tool) turned into enough back-and-forth debugging that Julian called it: *"This is getting too complicated... Let's forget the automation part."* Given the actual weekly volume is one file, manually running `/whatsapp-someday` costs Julian little and keeps him watching the run in real time - which was always a cleaner solution to "how do I know it worked" than any notification mechanism could be.
+
+## Original rationale (historical)
+
+This document was originally the record of a persistent, unattended, local scheduled job that ran Claude Code on Julian's Mac without a human watching each action. It existed because Claude Code's two built-in scheduling mechanisms cannot do this job, and because creating this kind of automation is a safety-sensitive action that Claude Code's own auto-mode classifier gates behind explicit, specific user consent - so that consent was recorded here, not just implied. The rest of this document is left as written at the time, for the record.
 
 ## Why this exists instead of a built-in scheduler
 

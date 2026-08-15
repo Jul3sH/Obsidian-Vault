@@ -18,6 +18,6 @@ This section documents how the Claude harness integrates with the Obsidian Vault
 - [[notebooklm-tenglin|NotebookLM Tenglin Integration]] — Claude-specific integration with Google NotebookLM; auth model, capabilities, planned use cases, and known risks
 - [[plugins/_index|Plugins]] — Third-party and custom Claude Code plugins (extensions adding skills, agents, commands, hooks); currently the OpenAI Codex plugin
 - [[commands/tco|tco Command]] - Mirror of the `/tco` slash command (source: `<vault>/.claude/commands/tco.md`)
-- [[local-automation|Local Automation (launchd)]] — Why Claude Code's built-in schedulers (`CronCreate`, `RemoteTrigger`) can't run recurring local-filesystem jobs, the consent record for the `whatsapp-someday` launchd job, and how to check on or stop it
+- [[local-automation|Local Automation (launchd)]] — DISCONTINUED 2026-08-15. Why Claude Code's built-in schedulers (`CronCreate`, `RemoteTrigger`) can't run recurring local-filesystem jobs, the consent record for the `whatsapp-someday` launchd job that was built and then dropped the same day, and why
 
 > [[jira-system-design|Jira System Design]] moved to [[generic/_index|Generic System Design]] on 2026-06-27: the board design and field mappings are harness-agnostic (any agent could sync), even though the current automation is Claude skills.

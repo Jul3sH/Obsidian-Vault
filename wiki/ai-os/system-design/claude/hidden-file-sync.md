@@ -52,8 +52,8 @@ updated: 2026-08-05
 | llm-council | `~/.claude/skills/llm-council/lessons-learned.md` | [[../../skills/llm-council/lessons-learned\|lessons-learned.md]] | 2026-06-09 (new curated improvement loop; L1 = TTI routing-flaw) |
 | commitment-guard | `~/.claude/skills/commitment-guard/SKILL.md` | [[../../skills/commitment-guard/SKILL\|SKILL.md]] | 2026-07-07 (new: instruction-only skill; defends LOCKED decisions from emotional U-turns via the F-N-M-T reopen test + 48h stand-down; commit-path lock checklist) |
 | decision-visualisation-check | `~/.claude/skills/decision-visualisation-check/SKILL.md` | [[../../skills/decision-visualisation-check/SKILL\|SKILL.md]] | 2026-07-15 (new: instruction-only skill; fires when Julian evaluates life/career/relationship options by feel; asks for full mental image - pleasant + bad-day version - to complete the incomplete frame before it biases the decision; paired with feedback-visual-representation-bias memory and visual-representation-bias article) |
-| whatsapp-someday | `~/.claude/skills/whatsapp-someday/SKILL.md` | [[../../skills/whatsapp-someday/SKILL\|SKILL.md]] | 2026-08-15 (new: processes a WhatsApp "Someday" export from the Dropbox drop folder into raw/brain-dump.md + existing wiki homes; automated weekly via local launchd - see Config Files below) |
-| whatsapp-someday/scripts | `~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh` | [[../../skills/whatsapp-someday/scripts/run_weekly\|run_weekly.md]] | 2026-08-15 (new) |
+| whatsapp-someday | `~/.claude/skills/whatsapp-someday/SKILL.md` | [[../../skills/whatsapp-someday/SKILL\|SKILL.md]] | 2026-08-15 (manual-only: processes a WhatsApp "Someday" export from the Dropbox drop folder into raw/brain-dump.md + existing wiki homes. A same-day launchd automation attempt was built, tested, and discontinued - see [[local-automation]]) |
+| whatsapp-someday/scripts | `~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh` | [[../../skills/whatsapp-someday/scripts/run_weekly\|run_weekly.md]] | 2026-08-15 (archived reference only - the launchd job that used this script was unloaded and its plist deleted the same day; kept for the debugging notes embedded in it, see [[local-automation]]) |
 
 ## Plugin Skill Files
 
@@ -93,7 +93,7 @@ updated: 2026-08-05
 |------|--------|-------------|-------------|
 | settings.json (project) | `<vault>/.claude/settings.json` | [[permissions\|permissions.md]] (allowlist embedded verbatim) | 2026-06-30 (added 10 read-only MCP/Bash entries via /fewer-permission-prompts) |
 | tco.md (command) | `<vault>/.claude/commands/tco.md` | [[commands/tco\|tco.md]] | 2026-08-02 (new: mirrored, no secrets found) |
-| com.julianhart.whatsapp-someday.plist (launchd) | `~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist` | [[local-automation\|local-automation.md]] (exact copy embedded) | 2026-08-15 (new: local launchd job, created with Julian's explicit consent - see the file for the consent record and why neither built-in scheduler could be used) |
+| ~~com.julianhart.whatsapp-someday.plist (launchd)~~ | ~~`~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`~~ | [[local-automation\|local-automation.md]] (former content kept as historical record) | 2026-08-15 (DELETED same day - job unloaded and plist removed; see [[local-automation]] for why) |
 
 > **Unmirrored (gap):** global `~/.claude/settings.json` and both `settings.local.json` files are not yet mirrored. Tracked in [[brain-dump]] (Wiki / AI OS).
 

@@ -5,6 +5,8 @@ created: 2026-08-15
 
 # WhatsApp Someday - Run Log
 
+**⚠ As of 15 Aug 2026: DISCONTINUED, no more rows will be added.** The launchd automation this file was tracking was built, tested, and turned off the same day it was created (unloaded, plist deleted) - see [[../system-design/claude/local-automation|local-automation]] for why. [[../../skills/whatsapp-someday/SKILL|whatsapp-someday]] is manual-only now, so there's no unattended run left to audit. Kept below as a record of the test session, not as a live compliance surface.
+
 > One line per Saturday the automated job actually checked the drop folder. Written by the wrapper script itself (`~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh`), not by the headless Claude session it launches - so a row lands here even if the inner Claude session times out or fails partway through. This is the compliance trail: check this file, not the hidden per-run logs, to see whether the automation is actually firing and succeeding.
 
 **How to read a gap:** if a Saturday is missing from this table entirely, the job never fired that day at all (laptop never on/logged-in that Saturday, or the launchd job got unloaded - check with `launchctl list | grep whatsapp-someday`). If a Saturday is present with a `FAILURE` outcome, the job fired but didn't complete - check the referenced log file.
@@ -37,3 +39,4 @@ New rows are appended by the wrapper script below this line - keep this table th
 | 2026-08-15 | FAILURE (exit 127) | see logs/run_2026-08-15_095339.log |
 | 2026-08-15 | success | see today's row in log-2026-Q3.md for what was actually processed |
 | 2026-08-15 | success | see today's row in log-2026-Q3.md for what was actually processed |
+| 2026-08-15 | no-op | no new export found |
