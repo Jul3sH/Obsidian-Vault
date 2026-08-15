@@ -52,6 +52,14 @@ The pattern has a second act, discovered in the UK-move decision. Once a forcing
 - **The tell:** a spike to certainty ("100% convinced") right after an emotionally warm conversation. Treat >~90% conviction as a warning light, not a green light.
 - **The fix is not more analysis (that feeds it) but a *defence of the close*:** the [[commitment-lock-protocol|Commitment-Lock Protocol]] - the F-N-M-T reopen test, a 48-hour stand-down after any warm contact, and a 60-second wobble drill. A wobble is information about who you spoke to, not about the decision.
 
+## The TTI-news escape hatch (added 16 Jul 2026)
+
+Self-observed in a personal note: "Biggest lesson learnt: every time I got promising news related to TTI I used that to avoid things I disliked (applying for jobs etc.), to do things I liked (learning AI)."
+
+- **The mechanism:** good news on one open door (TTI) was used as licence to defer the disliked-but-necessary action (job applications) in favour of the preferred one (learning AI). Optionality on TTI didn't just sit there passively - it was actively spent as an excuse.
+- **Same day, the counter-mantra:** "Get used to doing hard things and living with emotional discomfort. Especially emotions ... I need to push empathy into the back of my brain and go into 'psychopath mode' to avoid sabotaging myself based on emotional blackmail and guilt." Read alongside [[eq-integrity-and-ease-of-grace|EQ, Integrity and Ease of Grace]] - guilt and emotional appeals (his own or others') are a live sabotage vector, not just background noise.
+- Cross-ref: [[decision-journal|Decision Journal]] if a TTI-linked instance recurs.
+
 ## Key Takeaways
 
 - The weak link is **commitment, not analysis.** Don't build more analysis; build forcing functions.

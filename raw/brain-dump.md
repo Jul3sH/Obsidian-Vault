@@ -120,6 +120,31 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 - https://www.instagram.com/reel/DY5SPASumP8/
 - https://www.instagram.com/reels/DZe8A9SjQzX/
 
+| WhatsApp Someday queue, AI/comms LinkedIn posts (imported 15 Aug 2026) | Item descriptions inferred from the LinkedIn URL slug only, not read - flag if a slug guess is wrong |
+| Agentic AI / LLM engineering post | rakeshgohel01, topic tags only |
+| "Your words matter" - on word choice/rhetoric | mobunnell |
+| Agentic AI strategy pack (possible near-duplicate of "Executive AI Strategy Playbook" above) | aliaksandr |
+| Cybersecurity + AI | yildizokan, topic tags only |
+| "Most AI reports say the same thing, these [are different]" | jasonmoccia |
+| "79% of enterprises say they've adopted AI" (possible near-duplicate of the Enterprise Adoption Metrics row above, different post) | stephaniehillsphd |
+| "Your speaking skills shape how people view you" | oliver-aust |
+| Claude-certification prep post | author not visible in slug |
+| "I hacked Substack's AI detector" | charliehills Substack, directly relevant to the vault's own AI-writing-tell rules |
+| OmniRoute - AI/dev tool (site + GitHub repo, diegosouzapw) | not evaluated |
+
+**Source links:**
+- https://www.linkedin.com/posts/rakeshgohel01_aiengineering-aiagents-llms-share-7474076365072535552-89YT/
+- https://www.linkedin.com/posts/mobunnell_your-words-matter-and-some-are-saying-the-share-7475883755983863808-Hu-d/
+- https://www.linkedin.com/posts/aliaksandr_the-most-recent-agentic-ai-strategy-pack-share-7474733242319974400-Fu9R/
+- https://www.linkedin.com/posts/yildizokan_cybersecurity-artificialintelligence-ai-share-7476972884276613121-jYwv
+- https://www.linkedin.com/posts/jasonmoccia_most-ai-reports-say-the-same-thing-these-share-7481035230133456896-9QBA
+- https://www.linkedin.com/posts/stephaniehillsphd_79-of-enterprises-say-theyve-adopted-ai-share-7482914503110836225-kwBL/
+- https://www.linkedin.com/posts/oliver-aust_your-speaking-skills-shape-how-people-view-share-7491090170251866112-qs-H
+- https://www.linkedin.com/posts/most-people-preparing-for-the-claude-certified-share-7490812800391376896-VBwr
+- https://charliehills.substack.com/p/i-hacked-substacks-ai-detector
+- https://omniroute.online/
+- https://github.com/diegosouzapw/OmniRoute
+
 ## Wiki / AI OS
 
 | Item | Note |
@@ -130,6 +155,10 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 | `/define-task` overhead review: add a fast-track path for tasks under ~2h | Current skill has the same ceremony for a 1h task as a 6h task - negative ROI for small, well-understood work. Consider a lightweight mode: if the task is already clear and under 2h, skip Steps 1.3/1.4 ceremony and go straight to writing the file. Surfaced 30 Jun during CLSA Second Interview MVP definition. |
 | Build activity-benchmarks surface + add effort-logging to skills | New `wiki/ai-os/service-design/activity-benchmarks.md` tracking *focused effort time* per recurring activity (skill/ceremony/definition runs) for forecasting + WSJF Job Size calibration + bloat detection. Columns: Activity / Date / Focused effort (min) / Notes / Rolling avg. Each skill/ceremony ends by asking "focused minutes?" and logs a row. **Open question to resolve when building: define the relationship between activity-benchmarks (per recurring-activity effort) and [[estimation-baseline]] (per-Project delivery estimate-vs-actual) - they feel intrinsically linked and may share structure or cross-feed (activity averages → bottom-up Project scoped estimates).** First datapoint: /project-planner CLSA Second Interview = 30 min focused effort (rounded from ~22 min; first baseline, estimation-heavy session), 2026-06-30. Surfaced 30 Jun during CLSA Second Interview planning. |
 | Personal profile unification in AGENTS.md | Draft written 2026-06-27 (see session context). Add a "Personal Profile" section to AGENTS.md so Codex and OpenCode get Julian's working style, capacity model, and stable behavioural rules. Retire the separate Claude user.md once content is in AGENTS.md. Exclude family scheduling details and sensitive topic memories (those stay Claude-only). Stephan TTI spelling correction moves to the Stephan profile under wiki/career/tti/ rather than into the cross-agent profile. |
+| "Stay Human" - a free Claude skill (Notion doc, saved 19 Jul 2026) | Not read yet; worth a look given the vault's own AI-writing-tell rules (no em dashes, plain writing, etc.) |
+
+**Source links (additions, 15 Aug 2026):**
+- https://app.notion.com/p/stay-human-a-free-Claude-skill-39de396e06bb81eda8b4ef8144b5b142
 
 ## Personal
 

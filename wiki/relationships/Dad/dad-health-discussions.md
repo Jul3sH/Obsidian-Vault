@@ -6,7 +6,7 @@ Sources:
 - Felix Health WhatsApp messages (group chat: Wendy, Hilary, Julian) — Jan 27 – May 30, 2026
 - Auntie Hil WhatsApp messages (direct chat: Julian and Hilary) — Feb 2023 – May 2026
 
-Last updated: 2026-06-16
+Last updated: 2026-08-15
 
 ---
 
@@ -665,3 +665,14 @@ Physical therapy and speech therapy visits occur daily and Felix is receiving on
 - Julian later deleted this message to check whether Sophia could join - they ultimately decided to visit on Father's Day (Sunday June 22, probably early afternoon) instead.
 - **Wendy (16 June, 2:45 PM):** "Yes, We are planning to move Felix to the rehabilitation center on Thursday [June 19], I am waiting to hear from the center the confirmations of the cost to see if I and my family could afford it, if not Felix will have come to home. I will let you know."
 - **Clinical note:** The planned rehabilitation centre move marks the next phase of Felix's post-operative care. If the cost is unaffordable, Felix will return home. See [[dad-finance-discussions]] for the significance of Wendy's statement about who would fund this.
+
+---
+
+### 22 June 2026 — Father's Day Visit; Distressing Decline; No Recognition
+
+**22 June 2026 — Julian's Message to Hilary**
+*(Source: Julian's personal WhatsApp self-chat, logged there rather than sent directly in the Hilary thread)*
+
+- Julian: "Hi Hil, unfortunately it was an upsetting visit to Dad on father's Day because he has gone downhill since moving, Sophia found it very distressing seeing Dad like that and I'm not sure he recognised her."
+- Julian: "I have zero influence over Wendy, but it really isn't in Dad's interest to protract his 'existence'. He may improve as he gets more familiar with the facility, and despite it feeling a bit run down the staff are nice, but he really has no quality of life at all."
+- **Note:** Confirms the rehabilitation centre move (flagged 16 June, above) went ahead. First record of Dad possibly failing to recognise Sophia, and of the facility itself ("a bit run down," but staff "nice"). Julian again states no influence over Wendy's decisions and reiterates the quality-of-life position held consistently since May 2026 (see 25 May and 6 May entries above).
