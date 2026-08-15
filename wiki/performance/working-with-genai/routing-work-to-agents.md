@@ -20,8 +20,9 @@ in the ladder below, in order. The sections after that explain why the answers f
 where they do, and the numbers near the end are only needed when a case sits right
 on a line.
 
-Companion: [[routing-work-mental-model]] is the same model stripped to one screen of
-statements, for recall once you already understand it.
+Companion: [[genai-mental-models]] carries the routing model stripped to one screen of
+statements, alongside the verification and steering models, for recall once you
+already understand them.
 
 ## The One-Minute Test, and what this article does to it
 
