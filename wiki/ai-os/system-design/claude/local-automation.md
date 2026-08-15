@@ -88,10 +88,19 @@ The job is naturally idempotent: [[../../skills/whatsapp-someday/SKILL|the skill
 </plist>
 ```
 
+## Tested end to end (2026-08-15)
+
+The job was initially activated without ever having actually fired on a real file - only the "nothing to do" no-op path had been exercised. Julian flagged this directly, correctly. Running it for real with a test file surfaced three bugs a reasoning-only build had missed: macOS has no built-in `timeout` command (GNU coreutils, not BSD - the first live run errored out before Claude was even invoked), the timeout replacement's own first draft crashed on a zsh-reserved variable name (`status`), and the tool allowlist was missing `Grep`/`Glob`, which the skill's wiki-search step needs. The second bug's crash happened *after* the real Claude process had already been launched in the background, which then ran to completion orphaned and unsupervised while the parent script logged nothing at all - proving the exact silent-failure risk the compliance section below exists to catch, live. All three are fixed in the current script, plus a `trap`-based safety net that kills any orphaned child and guarantees a compliance row gets written no matter how the script dies. Verified clean on a second full test run (exit 0, correct wiki writes, file moved, compliance row written, no orphaned process).
+
+## Compliance / observability (added 2026-08-15)
+
+Nobody watches this job run. The compliance question - did it actually fire, did it succeed, or did it fail silently - can't be answered by looking at `raw/brain-dump.md` alone, because "nothing new this week" and "it broke" both look identical from there (no new content either way). [[../../logs/whatsapp-someday-runs|whatsapp-someday-runs.md]] closes that gap: the **wrapper script itself** appends one row per Saturday it actually checks (no-op / success / FAILURE + reason), written by plain shell file I/O rather than by the headless Claude session - so a row lands even if that inner session times out or crashes before finishing. Check that file, not this one, to see whether the automation is healthy. A missing Saturday in that table means the job never fired at all that day (worth checking `launchctl list | grep whatsapp-someday` - see below).
+
 ## How to check on it / turn it off
 
-- **See if it's loaded:** `launchctl list | grep whatsapp-someday`
-- **See recent run logs:** `ls -lt ~/.claude/skills/whatsapp-someday/logs/` then read the newest `run_*.log`
+- **Compliance / did it run and succeed:** read [[../../logs/whatsapp-someday-runs|whatsapp-someday-runs.md]]
+- **See if the job is still loaded:** `launchctl list | grep whatsapp-someday`
+- **See a specific run's full transcript:** `ls -lt ~/.claude/skills/whatsapp-someday/logs/` then read the newest `run_*.log`
 - **Turn it off (unload, keeps the files):** `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`
 - **Remove entirely:** unload as above, then delete the plist and the skill folder
 

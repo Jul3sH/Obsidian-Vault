@@ -81,7 +81,17 @@ If any dropped/unavailable links exist, list them under a `**Dropped as unavaila
 
 1. `mkdir -p` a `_processed/` subfolder inside the Dropbox "Whatsapp someday" folder if it doesn't exist, and move the processed `.txt` file into it (mirrors the vault's own `raw/` → `raw/_processed/` convention). This is what makes the next run's Step 0 naturally idempotent - a file that's been moved out won't be picked up again.
 2. Append a row to `wiki/ai-os/logs/raw-manifest.md` recording the source filename, its wiki destination(s), and today's date.
-3. Append one row to the current quarter's ops log (`wiki/ai-os/logs/log-2026-Q3.md` or whichever quarter is current - check `CLAUDE.md`'s "current log file" pointer) as type `Compile`, summarising: how many personal notes were routed and where, how many links were categorised per workstream, and how many were dropped as unavailable.
+3. Append one row to the current quarter's ops log (`wiki/ai-os/logs/log-2026-Q3.md` or whichever quarter is current - check `CLAUDE.md`'s "current log file" pointer) as type `Compile`, summarising: how many personal notes were routed and where, how many links were categorised per workstream, and how many were dropped as unavailable. Keep the exact per-workstream counts on hand - Step 6 needs them.
+
+## Step 6 - Notify (added 2026-08-15, Julian's explicit request)
+
+Once Step 5 is done, call `PushNotification` exactly once with a compact summary - this is the thing that actually tells Julian a run happened and succeeded, since nobody is watching the wiki in real time. Only send it when real work was done (Step 0 found and processed at least one file); never send anything on a no-op run - that would just be noise.
+
+Format: total link count, then the per-workstream breakdown, then the note/dropped counts. Keep it under 200 characters (the tool truncates on mobile) - use short workstream labels (Career, Perf, AI OS, Personal) rather than full names.
+
+Example: `"WhatsApp Someday: 47 links processed (Career 10, Perf 15, AI OS 12, Personal 10). 3 notes routed, 5 dropped as unavailable."`
+
+If the run failed partway through (an unexpected error, not the normal timeout/failure path the wrapper script's own compliance log already covers), it's fine to send a short notification saying so too - that is exactly the kind of thing Julian would want to know now rather than discover later.
 
 ## Manual invocation
 
@@ -91,4 +101,4 @@ Run `/whatsapp-someday` any time to process whatever's currently sitting in the 
 
 A local launchd LaunchAgent (`com.julianhart.whatsapp-someday`, see `wiki/ai-os/system-design/claude/local-automation.md` for the mirrored config and rationale) fires on a schedule confined to Saturdays and invokes this skill headlessly via `claude -p "/whatsapp-someday"`. Because Step 0 is naturally idempotent (processed files are moved out of the drop folder), the job can fire more than once on a Saturday without duplicating work - it only ever acts on files that are still sitting unprocessed.
 
-The automated run operates in full-auto mode per Julian's explicit instruction (2026-08-15): no approval is sought before writing to the wiki or moving files. It uses a scoped tool allowlist (Read/Edit/Write/WebFetch plus a narrow set of Bash commands for the file-move) rather than a blanket permission bypass, so the blast radius of an unexpected action stays bounded even though nobody is watching the run. See `local-automation.md` for the exact allowlist and the reasoning against `--dangerously-skip-permissions`.
+The automated run operates in full-auto mode per Julian's explicit instruction (2026-08-15): no approval is sought before writing to the wiki or moving files. It uses a scoped tool allowlist (Read/Edit/Write/WebFetch/Grep/Glob/PushNotification plus a narrow set of Bash commands for the file-move) rather than a blanket permission bypass, so the blast radius of an unexpected action stays bounded even though nobody is watching the run. See `local-automation.md` for the exact allowlist and the reasoning against `--dangerously-skip-permissions`.
