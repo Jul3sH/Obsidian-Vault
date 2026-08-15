@@ -26,3 +26,4 @@ Active/Parked status for each skill. See [[_index|Skills]] for triggers and doma
 | ats-checker | Active |
 | define-task | Active |
 | prompt-zero | Active (new 2026-08-05, adoption unproven: see [[systems-register]] SYS-3) |
+| whatsapp-someday | Active (new 2026-08-15, unattended weekly launchd automation, adoption unproven - first live run is the next Saturday it finds a new export) |

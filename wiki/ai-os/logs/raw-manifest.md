@@ -19,6 +19,7 @@ purpose: Track compile status of all raw/ inbox files. Processed files move to r
 
 | File | Destination in wiki | Compile date |
 |------|-------------------|--------------|
+| WhatsApp Someday: 2026-08-15_chat.txt (Dropbox `5-Performance/Whatsapp someday/`, not vault `raw/`) | raw/brain-dump.md (all 4 workstreams) + dad-health-discussions.md + commitment-avoidance.md | 2026-08-15 |
 | Auntie Hil Whatsapp messages.md | relationships/Dad/ (dad-finance-discussions, dad-health-discussions) | 2026-06-01 |
 | Codex 5.4 Stephan relationship analysis.md | career/tti/_reference/tti-stephan-relationship-analysis.md | 2026-05-27 |
 | Gemini 3.5 flash Summary of Stephan Pudwill conversations.md | career/tti/_reference/tti-stephan-relationship-analysis.md | 2026-05-27 |

@@ -1,0 +1,100 @@
+---
+type: reference
+created: 2026-08-15
+updated: 2026-08-15
+---
+
+# Local Automation (launchd)
+
+This document is what it is: the record of a persistent, unattended, local scheduled job that runs Claude Code on Julian's Mac without a human watching each action. It exists because Claude Code's two built-in scheduling mechanisms cannot do this job, and because creating this kind of automation is a safety-sensitive action that Claude Code's own auto-mode classifier gates behind explicit, specific user consent - so that consent is recorded here, not just implied.
+
+## Why this exists instead of a built-in scheduler
+
+Two sanctioned scheduling mechanisms exist in Claude Code and neither fits:
+
+| Mechanism | Why it doesn't work here |
+|---|---|
+| `CronCreate` | Session-only - lives in memory, dies when the Claude session ends, auto-expires after 7 days regardless. Not durable. (This exact limitation was already hit once before, in June 2026 - see the "jira-pull" auto-run attempt logged in `log-2026-Q2.md`, 2026-06-15.) |
+| `RemoteTrigger` / `/schedule` (cloud "routines") | Runs in Anthropic's cloud - no access to the local filesystem at all, so it cannot reach the Dropbox-synced drop folder or the local vault. Same limitation flagged in `log-2026-Q2.md`, 2026-06-27 ("remote `/schedule` routines can't reach the local non-git wiki/skill files either. Parked as a someday item... local launchd job needed"). |
+
+The [[../../skills/whatsapp-someday/SKILL|whatsapp-someday]] skill needs both: durability across weeks and local filesystem access (the Dropbox-synced drop folder plus the vault itself). Only a local OS-level scheduler satisfies both, so this uses macOS `launchd`.
+
+## The consent record
+
+Creating a local launchd job that invokes Claude Code headlessly is flagged by Claude Code's auto-mode classifier under two named rules: **"Unauthorized Persistence"** (creating a cron/launchd job that executes code beyond the current session) and **"Create Unsafe Agents"** (an agent loop running with no per-action human monitor). Both require the user's own explicit, specific, in-conversation consent naming the actual mechanism - a settings.json permission tweak is not sufficient for this category.
+
+That consent was given on 2026-08-15, in response to a direct question naming the mechanism exactly: *"a persistent local launchd job (com.julianhart.whatsapp-someday) that invokes Claude Code headlessly and unattended on Saturdays, with no human watching each action it takes (edits, moves files, fetches ~100+ URLs), using a scoped tool allowlist rather than a full permission bypass."* Julian's answer: *"Yes - I want the local launchd job, unattended, as described."*
+
+## What was deliberately NOT used
+
+`--dangerously-skip-permissions` / `--permission-mode bypassPermissions` were considered and rejected. Two draft versions of the wrapper script - one using the bypass flag, one using only a scoped allowlist - were both initially blocked by the auto-mode classifier; only after the explicit consent above was the allowlist-only version (no bypass flag at all) accepted. The running job therefore uses `--allowedTools` to pre-authorise only the specific tools the skill needs (`Read Edit Write WebFetch Bash(ls *) Bash(mkdir -p *) Bash(mv *) Bash(date *) Bash(cat *)`), plus `--permission-mode acceptEdits`, plus `--add-dir` scoped to just the vault and the Dropbox drop folder. If the run ever hits something outside that allowlist, there is nobody present to approve it - a `timeout` (45 min) kills the run rather than letting it hang or silently escalating.
+
+## The job
+
+**Label:** `com.julianhart.whatsapp-someday`
+**Plist location (live, not mirrored in full below - see the exact copy underneath):** `~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`
+**Wrapper script:** `~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh` (mirrored at [[../../skills/whatsapp-someday/scripts/run_weekly|run_weekly.md]])
+**Logs:** `~/.claude/skills/whatsapp-someday/logs/` (per-run logs plus launchd's own stdout/stderr capture)
+
+**Trigger design:** Julian's stated requirement was "fire when I log on, at any point on Saturdays" rather than one fixed clock time, since the laptop isn't always on. This is approximated with `RunAtLoad` (fires on every fresh login) plus six `StartCalendarInterval` checkpoints spread across Saturday (09:00, 12:00, 15:00, 18:00, 21:00, 23:30) as a safety net for a session that stays logged in but asleep/awake without a fresh login event - macOS launchd runs a missed calendar-interval job shortly after the next wake if the Mac was asleep at the scheduled time. This is not a literal login-hook; it's a reasonable approximation using launchd's actual catch-up behaviour, and is disclosed as such rather than overclaimed.
+
+The job is naturally idempotent: [[../../skills/whatsapp-someday/SKILL|the skill's Step 0]] only ever acts on `.txt` files still sitting in the drop folder, and Step 5 moves each processed file into a `_processed/` subfolder immediately. Firing more than once on a Saturday (multiple wake events, a fresh login plus a calendar checkpoint) is therefore harmless - the second and subsequent fires just find nothing to do.
+
+### Exact plist content (mirror)
+
+> Mirror copy, exact. Source: `~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.julianhart.whatsapp-someday</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/bin/zsh</string>
+        <string>-c</string>
+        <string>/Users/julianhart/.claude/skills/whatsapp-someday/scripts/run_weekly.sh</string>
+    </array>
+
+    <!-- Checkpoints spread across Saturday only (Weekday 6 = Saturday), so it doesn't
+         depend on the laptop being on at one exact time. Combined with RunAtLoad below
+         for a fresh login. Step 0 in the script/skill makes reruns a harmless no-op. -->
+    <key>StartCalendarInterval</key>
+    <array>
+        <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>12</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>15</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>18</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>21</integer><key>Minute</key><integer>0</integer></dict>
+        <dict><key>Weekday</key><integer>6</integer><key>Hour</key><integer>23</integer><key>Minute</key><integer>30</integer></dict>
+    </array>
+
+    <!-- Fires on every fresh login too; the script itself exits immediately if it's
+         not Saturday, so this is safe on the other six days. -->
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>StandardOutPath</key>
+    <string>/Users/julianhart/.claude/skills/whatsapp-someday/logs/launchd.out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/julianhart/.claude/skills/whatsapp-someday/logs/launchd.err.log</string>
+
+    <key>ProcessType</key>
+    <string>Background</string>
+</dict>
+</plist>
+```
+
+## How to check on it / turn it off
+
+- **See if it's loaded:** `launchctl list | grep whatsapp-someday`
+- **See recent run logs:** `ls -lt ~/.claude/skills/whatsapp-someday/logs/` then read the newest `run_*.log`
+- **Turn it off (unload, keeps the files):** `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`
+- **Remove entirely:** unload as above, then delete the plist and the skill folder
+
+## Wiki mirror confirmation
+
+This file mirrors the live plist at `~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist` and documents the wrapper script mirrored separately at [[../../skills/whatsapp-someday/scripts/run_weekly|run_weekly.md]]. Both are tracked in [[hidden-file-sync|Hidden File Sync]].
