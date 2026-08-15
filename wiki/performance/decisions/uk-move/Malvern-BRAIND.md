@@ -4,7 +4,7 @@ created: 2026-08-04
 project: uk-relocation-decision
 source: UK Relocation Risks Google Sheet
 ---
-
+	
 # Malvern-BRAIND
 
 High-level, high-impact benefits and risks distilled from the `UK Relocation Risks` Google Sheet, `Risks` tab, rows 1-132, then enriched from the wider `uk-move` BRAINED workspace.
