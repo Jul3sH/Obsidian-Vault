@@ -67,6 +67,7 @@ longer have for the third.
 **The gap you pay is the residual.** The GV-gap is not a fixed property of the work:
 it is what is left for human judgement after the deterministic and eval layers have
 caught what they can. Building those layers is how the gap is shrunk, not overhead.
+The tactics, in leverage order: [[verification-tactics]].
 
 **An eval only counts if it can fail independently.** A different vendor buys model
 independence; different source information buys information independence, and that

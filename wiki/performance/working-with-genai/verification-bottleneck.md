@@ -140,11 +140,23 @@ you can make. The machinery for this is the three forms below.
 volume of AI work you are answerable for should be costed against the checking it
 creates, not just the producing it saves.
 
-**Where the judging is the work, no architecture helps.** Product naming is the clean
-example: generating options is nearly free, and picking the winner is the entire job.
-More agents produce a larger pile of fluent candidates without making the final call
-any cheaper. The test that catches this is comparative - **is verifying cheaper than
-generating?** - and taste-only work fails it by definition.
+**Where the judging is the work, no architecture helps.** This is what "taste work"
+means wherever it appears in this folder: **work with no external criterion to check
+the answer against, so your judgement does not verify the output, it is the
+output.** Product naming is the clean example: generating options is nearly free,
+and picking the winner is the entire job. More agents produce a larger pile of
+fluent candidates without making the final call any cheaper. The test that catches
+this is comparative - **is verifying cheaper than generating?** - and taste work
+fails it by definition.
+
+Two boundaries keep the term precise. Taste work is not the same as
+**hard-to-verify** work: a legal summary has a right answer that is expensive to
+check, and a better-designed check can sometimes fix that; taste work has no right
+answer to check against, because the choosing defines what is right, and no check
+design fixes that. And it does not mean AI is useless there: it can generate the
+options and argue the trade-offs. It means AI cannot **scale** it - thirty options
+cost the same to judge as ten - so the judgement stays human (yours, or a trusted
+second read), and the routing consequence is chat or by hand, never a fleet.
 
 ## The three forms, and how they shrink the gap
 
@@ -183,6 +195,9 @@ but the mechanism that makes the volume ownable at all. Layer cheapest first, an
 spend judgement only where it discriminates.
 
 **If you cannot name which of the three you would use, you do not have a check.**
+
+The practical tactics for building each layer, ordered by leverage, are in
+[[verification-tactics]].
 
 ## Where this applies
 
