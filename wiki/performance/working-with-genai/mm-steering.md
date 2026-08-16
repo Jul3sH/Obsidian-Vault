@@ -28,6 +28,8 @@ decides the architecture, steering configures it.
 - Match the mechanism to what you are installing: fact, procedure, constraint,
   must-happen, isolated task, identity.
 - Always-loaded costs context always; on-demand is free until triggered.
+- Persistence is a third axis: cost and authority say nothing about whether an
+  instruction is still there after a compaction.
 - Steering shapes behaviour, not capability, and it never substitutes for
   verification.
 
@@ -46,6 +48,17 @@ decides the architecture, steering configures it.
   cost context on every turn. On-demand mechanisms (skills, path-scoped rules,
   subagents) cost nothing until triggered. Facts earn permanent residence;
   procedures and constraints should load on demand.
+- **Persistence is a third axis, independent of the other two.** Cost and authority
+  say nothing about whether an instruction is still in context in an hour. Three
+  survival mechanisms exist: the harness **re-supplies** it (root instruction files,
+  output styles, rebuilt after every compaction), it sits in the **transcript** and
+  degrades when compacted (your prompts, skill bodies, tool results), or it is
+  **re-triggered** by its own event (hooks, path-scoped rules). The axes do not move
+  together: a mechanism can be cheap and low-authority yet permanent, or expensive
+  and high-authority yet fragile. A long skill body carries real weight the moment
+  it loads and can be gone after the next compaction. Note the vocabulary clash:
+  this is *context* persistence, measured in turns, not the knowledge-ageing
+  durability of [[mm-rule-layering]], measured in months.
 - **Steering shapes behaviour, not capability.** Which model runs and how hard it
   works are separate dials that no steering mechanism can reach. A perfectly
   steered weak configuration is still weak.
@@ -68,14 +81,14 @@ change, refresh here without reopening them.
 
 Match the mechanism to what you are installing:
 
-| What you are installing | Mechanism |
-|---|---|
-| A **fact** that must always be in context | `CLAUDE.md` / `AGENTS.md`, root or subdirectory |
-| A **procedure**, run the same way each time | Skill |
-| A **constraint** that binds only certain paths | Rule, path-scoped |
-| Something that **must happen**, every time, without judgement | Hook |
-| An **isolated side task** whose middle you do not want to see | Subagent |
-| A **different identity**, not the coding assistant at all | Output style (see caveat below) |
+| What you are installing | Mechanism | Persistence |
+|---|---|---|
+| A **fact** that must always be in context | `CLAUDE.md` / `AGENTS.md`, root or subdirectory | Root: re-supplied. Subdirectory: re-triggered, and lost until that directory is touched again |
+| A **procedure**, run the same way each time | Skill | Transcript-resident: the body degrades on compaction |
+| A **constraint** that binds only certain paths | Rule, path-scoped | Re-triggered by the path |
+| Something that **must happen**, every time, without judgement | Hook | Re-triggered by its event |
+| An **isolated side task** whose middle you do not want to see | Subagent | Separate context; parent persistence does not apply |
+| A **different identity**, not the coding assistant at all | Output style (see caveat below) | Re-supplied |
 
 - Keep procedures out of the always-loaded file: a 30-line procedure in `CLAUDE.md`
   belongs in a skill. The always-loaded file is for facts held all the time.
@@ -93,6 +106,12 @@ Match the mechanism to what you are installing:
 - Steer a subagent through its own definition, not through the parent
   conversation: subagents run their own system prompts, so the main session's
   instructions and output style do not follow them.
+- If a rule must hold across a whole long session, check its persistence tier and
+  not just its authority. Worked example: the public `i-have-adhd` skill puts its
+  ruleset in a skill body (transcript-resident), then ships a `SessionStart` hook
+  matching `compact` to re-inject it. That buys re-triggered persistence for
+  content that is fragile by nature. An always-loaded instruction file would have
+  needed no hook at all.
 
 ## Limitations
 
@@ -100,6 +119,10 @@ Match the mechanism to what you are installing:
   outside every steering mechanism.
 - **The mechanism layer is harness-specific and perishable.** The table above is
   Claude Code's, as dated; the principles are not tied to it.
+- **Only the re-supplied tier is compaction-proof, and only textually.** The
+  instruction survives intact, but the conversation it was written to govern is
+  exactly what got compressed, so behaviour can still drift after a compaction
+  while every rule is still in context.
 - **Steering does not verify.** A well-steered agent still produces unverified
   output. In the chain, verification decides what is possible and routing decides
   the architecture before steering configures it: good steering is not evidence of
