@@ -44,15 +44,15 @@ this with no judgement at all?
 - **Citations that resolve.** Require a clickable source for every claim. A link
   works or it does not.
 - **Reconciliation to a canonical block.** One authoritative table of numbers; every
-  other mention checked against it. Already a vault rule (`AGENTS.md`, Single Source
-  of Truth for Project Numbers).
+  other mention checked against it. Already a steering rule (`AGENTS.md`, Single
+  Source of Truth for Project Numbers).
 - **Staleness that flags itself.** Status claims carry dates, so an old claim reads
-  as old with no memory required. Already a vault rule (`AGENTS.md`, Status Claims
-  Must Carry a Date).
+  as old with no memory required. Already a steering rule (`AGENTS.md`, Status
+  Claims Must Carry a Date).
 - **Formats that validate.** A required section present or absent, frontmatter that
   parses, a table with the agreed columns, a total that sums.
 
-Both existing vault rules were written in response to lived failures, before the
+Both existing steering rules were written in response to lived failures, before the
 verification vocabulary arrived: the instinct under fire was to make wrongness
 self-flagging, not to add reviewers. That instinct is this layer.
 
@@ -113,4 +113,5 @@ a second read is needed, a trusted person is the check.
 
 [[verification-bottleneck]] is why this matters and carries the three forms
 canonically. [[routing-work-to-agents]] consumes the check as its gate.
-[[genai-mental-models]] holds the one-screen version of all of it.
+[[mm-verification]] holds the compressed model, and [[mm-routing]] the decision it
+feeds.

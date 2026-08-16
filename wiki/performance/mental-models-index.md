@@ -20,11 +20,13 @@
 
 ## Performance
 
-- [[rule-layering]] - Fast learns, slow remembers - and must is not should
-- [[genai-mental-models]] - recall card holding the three Working With GenAI models:
-  - **Verification** - Generation scaled and verification did not
-  - **Routing** - Pick the lightest tool that still leaves you a result you can inspect
-  - **Steering** - An instruction is not a guarantee
+- [[mm-rule-layering]] - Fast learns, slow remembers - and must is not should
+- [[mm-verification]] - Generation scaled and verification did not
+- [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect
+- [[mm-steering]] - An instruction is not a guarantee
+
+The last three chain: verification decides what is possible, routing decides the
+architecture, steering configures it.
 
 ## Personal
 

@@ -12,5 +12,7 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[verification-bottleneck|The Verification Bottleneck]] - Why checking, not producing, is the limit on how much AI work is worth having, and why "I'll review it" is an intention rather than a plan
 - [[verification-tactics|Verification Tactics]] - The practical companion: four layers in leverage order for shrinking the generation-verification gap, and the work no tactic helps
 - [[routing-work-to-agents|Routing Work to Agents]] - Four-question ladder for choosing chat vs one agent vs several agents vs by hand, plus the things the model cannot see
-- [[genai-mental-models|Working With GenAI: Mental Models]] - One-screen recall card for the whole folder: the verification, routing, and steering models as input-decides-what statements, and how they chain
+- [[mm-verification|MM: Verification]] - Whether AI work can be checked cheaply enough to be worth commissioning, and by what means
+- [[mm-routing|MM: Routing]] - Choosing between chat, one agent, several agents, or by hand
+- [[mm-steering|MM: Steering]] - How the chosen agent or fleet is made to behave, and why an instruction is not a guarantee
 - [[routing-work-prompts|Routing Work: Setup Prompts]] - The four setup templates, one per verdict, including the one-agent run card that forces the check to be named before the run

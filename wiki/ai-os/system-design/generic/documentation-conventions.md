@@ -62,17 +62,29 @@ the same six slots in the same order:
 | 6 | **Detail** | Bare link(s) to the article carrying the evidence. | On refactor |
 
 **Rules:**
+- **Naming:** a mental model's filename starts `mm-` (e.g. `mm-rule-layering.md`)
+  and its H1 title starts `MM: ` (e.g. `MM: Rule Layering`), so a model is
+  recognisable as one both in a file listing and wherever its title appears. The
+  title uses a colon and the filename a hyphen because Obsidian forbids `:` in
+  filenames.
+- **Key Takeaways sit above Principles:** the order in a mental-model file is
+  purpose block, One-liner, Reach for it when, Key Takeaways, then Principles,
+  Guidelines, Limitations, Detail. The takeaways are the summary a reader gets
+  before deciding whether to read on.
 - Principles and Guidelines are kept separate because they age differently:
   principles survive tooling changes, guidelines do not. Refresh Guidelines without
-  touching Principles. The rationale is its own mental model: [[rule-layering]].
+  touching Principles. The rationale is its own mental model: [[mm-rule-layering]].
 - The same skeleton applies at both altitudes: a recall-card section holds the six
   slots compressed; the detail article may expand under the same headings. Reader
   always knows where a thing lives.
 - The fixed skeleton is itself a deterministic check: a missing slot is visibly
   missing.
-- Recall cards collect the mental models for a folder (reference implementation:
-  [[genai-mental-models]]). If a card and its detail article disagree, the article
-  wins and the card is corrected.
+- **One model, one file.** A mental model is never a section inside a collection
+  file: collections drift against the detail articles and duplicate the index's
+  job. Reference implementations: [[mm-verification]] (model plus separate detail
+  articles) and [[mm-steering]] (model and detail in one file, where the evidence
+  is external). Where a model summarises a detail article and the two disagree,
+  the article wins and the model file is corrected.
 - Every mental model is listed in [[mental-models-index]] (under
   `wiki/performance/`), grouped by workstream, with its one-liner as the
   description. Adding the index row is part of creating the model, not a separate

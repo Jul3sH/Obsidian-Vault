@@ -161,7 +161,7 @@ second read), and the routing consequence is chat or by hand, never a fleet.
 ## The three forms, and how they shrink the gap
 
 Every check is one of these, or a layering of them. This is the canonical statement;
-[[routing-work-to-agents]] and [[genai-mental-models]] summarise it and are corrected
+[[routing-work-to-agents]] and [[mm-verification]] summarise it and are corrected
 from here.
 
 | Form | Catches | Fails when |

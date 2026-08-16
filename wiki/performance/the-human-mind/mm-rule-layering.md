@@ -5,7 +5,7 @@ status: active
 tags: [the-human-mind, mental-models, rules]
 ---
 
-# Rule Layering
+# MM: Rule Layering
 
 This is the mental model for classifying any rule, convention, or piece of
 knowledge before writing it down, so it gets placed, phrased, and enforced
@@ -20,6 +20,13 @@ in the vault or anywhere else.
 **Reach for it when:** you are about to write down a rule, convention, principle,
 or piece of operating knowledge, and need to decide where it lives, how it is
 phrased, and how it is enforced.
+
+## Key Takeaways
+
+- Classify before writing: durability (does it age?) x authority (does it bind?).
+- Separate the rows so the perishable and the durable rot on different clocks.
+- Phrase to the column: absolutes with consequences, or advice with reasons.
+- Must-happen rules need mechanisms, not sentences.
 
 **Principles:**
 
@@ -81,13 +88,6 @@ demoted by a paradigm change, so the slow row is slow, not immortal.
 
 **Detail:** [[documentation-conventions|documentation-conventions]] (the
 Principles/Guidelines split in the mental-model format is this model applied);
-[[genai-mental-models]] (the steering model's "an instruction is not a guarantee"
-is the enforcement principle in its home domain); Stewart Brand, *The Clock of the
-Long Now*, for pace layering itself.
-
-## Key Takeaways
-
-- Classify before writing: durability (does it age?) x authority (does it bind?).
-- Separate the rows so the perishable and the durable rot on different clocks.
-- Phrase to the column: absolutes with consequences, or advice with reasons.
-- Must-happen rules need mechanisms, not sentences.
+[[mm-steering]] ("an instruction is not a guarantee" is the enforcement principle
+in its home domain); Stewart Brand, *The Clock of the Long Now*, for pace layering
+itself.
