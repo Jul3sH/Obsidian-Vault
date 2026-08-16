@@ -56,6 +56,10 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   succinct for the LLM, navigable for the human; visual-first: tables + Excalidraw;
   and the human-navigation vs LLM-flatness balance: challenge hierarchy that would
   burn excessive tokens rather than silently building it).
+- **Mental models, any workstream, use the standard six-slot format:** One-liner,
+  Reach for it when, Principles, Guidelines, Limitations, Detail link. Defined in
+  `documentation-conventions.md` Part 1; reference implementation is
+  `genai-mental-models.md`. Never invent an ad-hoc structure for a mental model.
 - This is an LLM-maintained knowledge base. You are the librarian.
 - The wiki/ folder is YOUR domain: you write and maintain everything in it.
   The user rarely edits wiki files directly.

@@ -43,7 +43,36 @@ Julian owns the call. Claude owns surfacing the cost.
 The motivating case for principle 3. A flat deliverables backlog cross-linked to projects is efficient for the model but hard for a human to see at a glance. Deliverables should be clearly grouped under, or visibly associated with, their parent Project, so a human can view a Project and its deliverables together. Each Project file holds a `## Deliverables` table as the single source of truth for its deliverables; `wiki/deliverables/_index.md` is pure navigation (type reference, admission criteria, links to each Project's `## Deliverables` section). Standalone deliverables (not linked to a Project) get a `## Standalone Deliverables` table in `wiki/deliverables/_index.md` instead.
 
 ### 5. Standard recurring artefacts have a fixed name and shape
-Long-running work uses named artefacts with a defined structure, so a reader (human or LLM) always knows which file holds what without opening several to find out. The first standardised one is the **engagement-strategy doc** (see Part 3). When a recurring artefact type appears across two or more areas, give it a standard name and a documented shape here, rather than letting each area invent its own.
+Long-running work uses named artefacts with a defined structure, so a reader (human or LLM) always knows which file holds what without opening several to find out. The first standardised one is the **engagement-strategy doc** (see Part 3); the second is the **mental model** (below). When a recurring artefact type appears across two or more areas, give it a standard name and a documented shape here, rather than letting each area invent its own.
+
+### The mental-model format (six slots, any workstream)
+
+A mental model is a compressed decision aid Julian holds in his head, with the
+evidence pushed down to a detail article. Every mental model, in any workstream
+(GenAI, finance, wellbeing, relationships, performance, personal, technical), uses
+the same six slots in the same order:
+
+| # | Slot | Holds | Ages |
+|---|---|---|---|
+| 1 | **One-liner** | The model in a single speakable sentence. The thing recalled under pressure. | Never |
+| 2 | **Reach for it when** | The trigger situation, one line. Prevents the common failure: non-use when the situation arrives. | Rarely |
+| 3 | **Principles** | 3-6 bold one-line invariants, statements of the form *this input decides this thing*. The understanding layer. | Slowly |
+| 4 | **Guidelines** | Actionable advice, each traceable to a principle. The action layer. | With tools and context |
+| 5 | **Limitations** | Where the model stops applying. Every model overapplied becomes a bias; this slot is the boundary of validity. Operating restrictions belong in Guidelines, not here. | Slowly |
+| 6 | **Detail** | Bare link(s) to the article carrying the evidence. | On refactor |
+
+**Rules:**
+- Principles and Guidelines are kept separate because they age differently:
+  principles survive tooling changes, guidelines do not. Refresh Guidelines without
+  touching Principles. The rationale is its own mental model: [[rule-layering]].
+- The same skeleton applies at both altitudes: a recall-card section holds the six
+  slots compressed; the detail article may expand under the same headings. Reader
+  always knows where a thing lives.
+- The fixed skeleton is itself a deterministic check: a missing slot is visibly
+  missing.
+- Recall cards collect the mental models for a folder (reference implementation:
+  [[genai-mental-models]]). If a card and its detail article disagree, the article
+  wins and the card is corrected.
 
 ### When adding hierarchy - Claude's check
 Before creating new folders, nesting, or per-item files, sanity-check:
