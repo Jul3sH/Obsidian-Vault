@@ -11,6 +11,10 @@ updated: 2026-08-02
 
 These build on each other. Read top to bottom the first time: start with the failure modes, then the actor journeys, capabilities, features, and architecture.
 
+**The recall layer**
+
+- [[mm-memory-pillars|MM: Memory Pillars]] - the six-slot mental model compressing this folder: read it first if you know the material, last if you do not.
+
 **The model**
 
 1. [[memory-challanges|Memory Challenges]] - **start here.** Recurring memory failure modes, mapped to capabilities, features, and platform responses.

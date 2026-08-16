@@ -34,4 +34,4 @@ architecture, steering configures it.
 
 ## Technology
 
-*(none yet)*
+- [[mm-memory-pillars]] - Memory is four jobs in dependency order, and injection is the one nobody builds
