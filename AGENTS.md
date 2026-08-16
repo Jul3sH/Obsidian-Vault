@@ -77,6 +77,10 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
 - **Before proposing a name, check whether the content already has a home.** A new
   file that overlaps an existing one creates the duplication-and-drift problem that
   renaming was meant to avoid. Search first, then propose.
+- **Before proposing a location, read the destination index's "What belongs here"
+  test** (indexes may carry one; see the filing-test exception in the Index rule
+  below). The filing decision is made against that test, not from memory of what
+  the folder's name suggests.
 - raw/ is the inbox. When the user dumps files here, you process them into the wiki
   during a "compile" step.
 - After every compile, move the processed raw file(s) to raw/_processed/.
@@ -341,6 +345,14 @@ Indexes MUST NOT contain:
 - Current position, strategy, or "what we are doing now"
 - Next actions, to-dos, or status
 - Decisions, working notes, or any content that changes as work progresses
+
+**One bounded exception - the filing test.** An index MAY open with a short
+**"What belongs here"** block: a few stable lines stating what is filed in this
+folder or category, and the test for boundary cases. Filing logic is navigation
+logic: it is needed exactly when reading the index, and it ages with the folder
+structure rather than with work in progress, so the staleness rationale below does
+not apply to it. The carve-out is strictly bounded: no status, no next actions, no
+doctrine essays - those still live in their dedicated homes.
 
 That mutable state lives in its dedicated home, never duplicated into an index:
 - **Current position / strategy** lives in the workstream's living strategy doc

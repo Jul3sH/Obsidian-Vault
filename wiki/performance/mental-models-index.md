@@ -2,6 +2,21 @@
 
 > *Navigation only: every mental model in the vault, listed by workstream. Each line is the model's one-liner. Models follow the six-slot format defined in `documentation-conventions.md`; after writing a new mental model, add it here.*
 
+## What belongs here
+
+Every mental model (`mm-*.md`) in the vault is listed here, whatever folder it
+lives in. A model lives beside its detail articles, not in this index's folder.
+For AI-related models, the folder is decided by the subject of the model's
+sentences:
+
+- Subject is **you** (your judgement, checking, dispatch, configuration) →
+  `performance/working-with-genai/`
+- Subject is **the system** (its architecture, what it must do to work) →
+  `technology/`
+- Tie-breaker: the **Reach for it when** slot. Reached for while doing your work →
+  operator discipline; reached for while evaluating or building a system →
+  technology.
+
 ## Wellbeing
 
 *(none yet)*
