@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/working-with-genai/verification-tactics.md",
+                "file": "wiki/performance/working-with-genai/mm-steering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "verification-tactics"
+              "title": "mm-steering"
             }
           }
         ]
@@ -200,20 +200,22 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/working-with-genai/routing-work-prompts.md",
+    "wiki/performance/working-with-genai/_index.md",
+    "wiki/projects/_index.md",
+    "wiki/performance/working-with-genai/verification-tactics.md",
     "wiki/technology/Memory systems/mm-memory-pillars.md",
     "wiki/performance/working-with-genai/steering-agents.md",
     "wiki/performance/the-human-mind/mm-rule-layering.md",
     "wiki/performance/working-with-genai/mm-steering.md",
     "wiki/performance/working-with-genai/mm-routing.md",
     "wiki/performance/working-with-genai/mm-verification.md",
-    "wiki/performance/working-with-genai/verification-tactics.md",
     "wiki/performance/working-with-genai/genai-mental-models.md",
     "wiki/performance/working-with-genai/verification-bottleneck.md",
     "wiki/performance/mental-models-index.md",
     "wiki/performance/the-human-mind/rule-layering.md",
     "wiki/performance/working-with-genai/routing-work-to-agents.md",
     "wiki/performance/working-with-genai/routing-work-mental-model.md",
-    "wiki/performance/working-with-genai/routing-work-prompts.md",
     "raw/brain-dump.md",
     "wiki/ai-os/logs/whatsapp-someday-runs.md",
     "wiki/ai-os/system-design/claude/local-automation.md",
@@ -226,8 +228,6 @@
     "raw/Nate B Jones one-minute-test analysis.md",
     "raw/UK versus HK earnings Codex review - JH review.md",
     "raw/Nate B Jones AI Skill set prompt kit.md",
-    "raw/Emotion to consider for UK decision.md",
-    "wiki/ai-os/skills/grill-me/agents/openai.yaml.md",
     "wiki/ai-os/skills/grill-me/agents",
     "wiki/ai-os/skills/grill-me",
     "skills-lock.json",
