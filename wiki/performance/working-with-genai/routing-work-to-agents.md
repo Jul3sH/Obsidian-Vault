@@ -223,40 +223,19 @@ verification**, whoever or whatever performs it. The test is whether that cost s
 flat as the work multiplies, rather than consuming your attention one output at a
 time. Three things achieve that.
 
-The sharper form of the question is comparative: **is checking cheaper than
-producing?** That gives you a clean fail case, which is taste-only work. Judging
+The sharper form of the question is comparative: **is verifying cheaper than
+generating?** That gives you a clean fail case, which is taste-only work. Judging
 which of thirty product names is best costs about what generating them costs, so
 generating more of them buys nothing. Wherever the judging is the work, the check
 cannot be cheap by definition, and no architecture fixes it.
 
-**Deterministic checks.** A test that runs, a number that reconciles, a schema that
-validates, a link that resolves. The strongest kind, because they cannot be wrong in
-the same direction as the work.
-
-**Agent-run evals.** A separate agent grading the output against criteria. These
-count, but they are the weakest by default, and the reason matters. If the eval
-agent shares the worker's model, context and blind spot, it certifies the error
-instead of catching it. A check that fails in the same direction as the thing it
-checks is not a check. It earns the name only if it can fail independently: different
-information, different criteria, or a ground truth to compare against. Independence
-is not just a property of the workers. It applies to the verifier too.
-
-**Human judgement.** The irreducible layer. Whether this is the right thing at all,
-whether it matches what you know to be true, whether the framing is acceptable. No
-other layer can do this, and its failure mode is volume, which it meets quietly
-rather than loudly.
-
-Which means human judgement has to be made affordable by design rather than by
-resolve. Require source citations you can click, so you verify three of thirty and
-trust the pattern. Structure the output so a wrong answer looks wrong. Sample rather
-than sweep. The aim is to keep your attention sub-linear to the volume, because
-attention spent on things the first two layers would have caught is attention you no
-longer have for the judgement calls.
-
-**Most real checks combine all three, layered cheapest first.** Deterministic where
-something can be asserted, agent eval where meaning has to be judged at volume, your
-own judgement reserved for what only you can settle. If you cannot name which of the
-three you would use, you do not have a check.
+Every check is one of three forms, or a layering of them cheapest first:
+deterministic checks, agent-run evals, and human judgement. The forms, their
+distinct failure modes, the independence condition an eval must meet to count, and
+how the layering shrinks the gap a human has to close are canonical in
+[[verification-bottleneck]], which this gate consumes. What routing needs from them
+is one line: **if you cannot name which of the three you would use, you do not have
+a check.**
 
 ## The one move worth remembering
 

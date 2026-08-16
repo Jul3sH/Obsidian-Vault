@@ -64,6 +64,10 @@ Layer them cheapest first, and spend judgement only where it discriminates.
 Attention spent on what the first two layers would have caught is attention you no
 longer have for the third.
 
+**The gap you pay is the residual.** The GV-gap is not a fixed property of the work:
+it is what is left for human judgement after the deterministic and eval layers have
+caught what they can. Building those layers is how the gap is shrunk, not overhead.
+
 **An eval only counts if it can fail independently.** A different vendor buys model
 independence; different source information buys information independence, and that
 one is free and the one people skip. An eval sharing the worker's model and context

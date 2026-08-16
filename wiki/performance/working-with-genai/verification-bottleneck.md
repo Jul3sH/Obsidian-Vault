@@ -89,14 +89,29 @@ sharp judgement you needed for the one paragraph that is wrong is gone by the ti
 you reach it. **The volume does not merely outlast your attention. It consumes the
 specific attention the errors required.**
 
-Two things sharpen this for AI output specifically.
+Three biases stack for AI output specifically. They defeat different parts of your
+checking, which is why they are worth naming separately.
 
-**Template blindness.** The output is fluent, consistently formatted and structurally
-repetitive, so it reads as correct. Wrong material looks the same as right material,
-unlike human work, where junk usually reads like junk.
+**Track record.** The good run sets up the miss: the first four agents being correct
+is precisely what stops you catching the fifth, per the reliability finding above.
+This one operates *across* outputs, lowering how much checking you attempt at all.
 
-**The good run sets up the miss.** The first four agents being correct is precisely
-what stops you catching the fifth, per the reliability finding above.
+**Fluency.** With human work, junk usually reads like junk: prose quality is a
+working signal for thinking quality, and it tells you where to slow down. AI output
+severs that signal. Wrong material is exactly as polished as right material, so the
+checking that survived the first bias has nothing to snag on. This one operates
+*within* an output.
+
+**Template blindness.** Consistent formatting and structural repetition habituate
+the eye. By the thirtieth identically shaped output you are pattern-matching the
+template rather than reading the content, and anything sitting inside the expected
+shape passes unseen. Fluency kills the signal; this one kills the attention.
+
+The human analogue that holds all three: a sloppy junior gets read line by line,
+because the errors advertise themselves. A polished senior gets skimmed, and has
+earned it. AI is the pathological case: the track record and polish of the senior
+with the error profile of a confident junior, and no sloppiness signal marking where
+the errors sit.
 
 ## The failure mode
 
@@ -119,8 +134,7 @@ your attention **sub-linear to the volume**: require source citations you can cl
 so you verify three of thirty and trust the pattern; structure output so a wrong
 answer looks wrong; sample rather than sweep. Attention spent on things a cheaper
 layer would have caught is attention you no longer have for the judgement calls only
-you can make. The three concrete forms this takes (deterministic checks, agent-run
-evals, human judgement) are set out in [[routing-work-to-agents]].
+you can make. The machinery for this is the three forms below.
 
 **More output is not automatically more value.** Any decision that increases the
 volume of AI work you are answerable for should be costed against the checking it
@@ -129,8 +143,46 @@ creates, not just the producing it saves.
 **Where the judging is the work, no architecture helps.** Product naming is the clean
 example: generating options is nearly free, and picking the winner is the entire job.
 More agents produce a larger pile of fluent candidates without making the final call
-any cheaper. The test that catches this is comparative - **is checking cheaper than
-producing?** - and taste-only work fails it by definition.
+any cheaper. The test that catches this is comparative - **is verifying cheaper than
+generating?** - and taste-only work fails it by definition.
+
+## The three forms, and how they shrink the gap
+
+Every check is one of these, or a layering of them. This is the canonical statement;
+[[routing-work-to-agents]] and [[genai-mental-models]] summarise it and are corrected
+from here.
+
+| Form | Catches | Fails when |
+|---|---|---|
+| **Deterministic** | Mechanical. Does it run, does it reconcile, do the citations resolve. | There is nothing to assert against, or the question needs meaning. |
+| **Agent eval** | Semantic, at volume. On brief, self-consistent, claim actually supported. | It shares the worker's model or its information, so it confirms the error. |
+| **Human judgement** | Whether it is the right thing at all, whether it matches what you know, whether the framing is acceptable. | Volume. It degrades quietly, not loudly. |
+
+**Deterministic checks are the strongest form**, because they cannot be wrong in the
+same direction as the work. A test that runs, a number that reconciles, a schema that
+validates, a link that resolves.
+
+**An agent eval counts only if it can fail independently.** If the eval agent shares
+the worker's model, context and blind spot, it certifies the error instead of
+catching it. Independence comes three ways: a different model, different source
+information, or a ground truth to compare against. Information independence is the
+one people skip, and it is free.
+
+**Human judgement is the irreducible layer.** Whether this is the right thing at
+all, whether it matches what you know to be true, whether the framing is acceptable.
+No other layer can do this, and its failure mode is the volume mechanism this whole
+article describes.
+
+**The layering is how the gap gets shrunk.** The generation-verification gap you
+personally pay is not a fixed property of the work: it is the residual left for
+human judgement after the cheaper layers have caught what they can. Every assertion
+moved into a deterministic check, and every criterion an independent eval can grade,
+narrows what remains for you to judge. That is what keeps attention sub-linear to
+volume, and it is why building the verification layers is not overhead on the work
+but the mechanism that makes the volume ownable at all. Layer cheapest first, and
+spend judgement only where it discriminates.
+
+**If you cannot name which of the three you would use, you do not have a check.**
 
 ## Where this applies
 
