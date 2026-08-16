@@ -54,11 +54,11 @@ the generation it saves.
 
 Every check is one of three forms, or a layering of them.
 
-| Form | Catches | Fails when |
-|---|---|---|
-| **Deterministic** | Mechanical. Does it run, does it reconcile, do the citations resolve. | There is nothing to assert against, or the question needs meaning. |
-| **Agent eval** | Semantic, at volume. On brief, self-consistent, claim actually supported. | It shares the worker's model or its information, so it confirms the error. |
-| **Human judgement** | Whether it is the right thing at all, whether the framing is acceptable. | Volume. It degrades quietly, not loudly. |
+| Form                | Catches                                                                   | Fails when                                                                 |
+| ------------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| **Deterministic**   | Mechanical. Does it run, does it reconcile, do the citations resolve.     | There is nothing to assert against, or the question needs meaning.         |
+| **Agent eval**      | Semantic, at volume. On brief, self-consistent, claim actually supported. | It shares the worker's model or its information, so it confirms the error. |
+| **Human judgement** | Whether it is the right thing at all, whether the framing is acceptable.  | Volume. It degrades quietly, not loudly.                                   |
 
 Layer them cheapest first, and spend judgement only where it discriminates.
 Attention spent on what the first two layers would have caught is attention you no
