@@ -6,6 +6,9 @@ tags: [performance]
 
 Covers personal productivity systems, execution discipline, habit formation, and skill development. Also home to the Personal MBA framework (Chapters 6–8), which provides the cognitive and interpersonal foundations for sustained performance.
 
+## Mental Models
+- [[mental-models-index|Mental Models Index]] — Every mental model in the vault, by workstream, each with its one-liner
+
 ## Goals & Habits
 - [[goals-register|Goals Register]] — Single-view of all active goals across all workstreams, with project and habit alignment
 - [[habits-register|Habits Register]] — All active habits across workstreams, with goal alignment

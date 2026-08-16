@@ -40,7 +40,11 @@ phrased, and how it is enforced.
 - **The more mandatory and consequential a rule, the less it can rely on being
   read and obeyed.** An instruction is not a guarantee. Genuinely must-happen
   rules need a mechanism (a gate, a hook, a format that fails visibly), not a
-  sentence. This is the steering model's load-bearing rule applied to rulebooks.
+  sentence. This is the steering model's load-bearing rule applied to rulebooks;
+  [Anthropic's steering guide](https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more)
+  states it for agents directly: a prompted rule can fail under pressure, in long
+  sessions, or on a prompt injection, so "when there's something that absolutely
+  must not happen, an instruction is the wrong tool".
 
 The two axes give four cells, each with its own placement and enforcement:
 
@@ -62,9 +66,12 @@ The two axes give four cells, each with its own placement and enforcement:
 - For the mandatory-perishable cell, prefer enforcement to prose where failure is
   costly: a hook over an instruction, a required section over a reminder, a
   format whose violation is visible.
-- When a rule keeps being violated, check its cell before strengthening its
-  wording: advice phrased as law and law enforced as advice are placement errors,
-  not discipline errors.
+- When a rule keeps being violated, the instinct is to make the wording stronger:
+  capitals, "never", repetition. Resist that and re-check the classification
+  first. Repeated violation usually means the rule is in the wrong cell, most
+  often a mandatory rule being delivered as a sentence when it needs a mechanism.
+  The fix is a hook, a gate, or a required format, not louder prose, because a
+  rule that failed at normal volume will also fail in bold.
 
 **Limitations:** more layers means more boundaries to police, and a small artefact
 can be genuinely monolithic - forcing four cells onto a five-line note is

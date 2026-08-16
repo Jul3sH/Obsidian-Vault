@@ -73,6 +73,10 @@ the same six slots in the same order:
 - Recall cards collect the mental models for a folder (reference implementation:
   [[genai-mental-models]]). If a card and its detail article disagree, the article
   wins and the card is corrected.
+- Every mental model is listed in [[mental-models-index]] (under
+  `wiki/performance/`), grouped by workstream, with its one-liner as the
+  description. Adding the index row is part of creating the model, not a separate
+  step.
 
 ### When adding hierarchy - Claude's check
 Before creating new folders, nesting, or per-item files, sanity-check:
