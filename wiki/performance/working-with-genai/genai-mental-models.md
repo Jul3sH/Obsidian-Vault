@@ -23,7 +23,7 @@ configures it.**
 
 | Model | Answers | Detail |
 |---|---|---|
-| **Verification** | Is checking the work cheaper than producing it, and by what means | [[verification-bottleneck]] |
+| **Verification** | Is verifying the work cheaper than generating it, and by what means | [[verification-bottleneck]] |
 | **Routing** | Chat, one agent, several agents, or by hand | [[routing-work-to-agents]] |
 | **Steering** | How the chosen thing is made to behave | No article yet, see [[#Steering]] |
 
@@ -41,14 +41,16 @@ consumes its answer as a gate; the model itself is a fact about generative AI.
 magnitude. Confirming it is correct is still one human reading one thing at a time.
 Everything below follows from that asymmetry.
 
-**The test is comparative: is checking cheaper than producing?** Not "is this
-checkable", which almost everything is at some price. If judging costs about what
+**The test is comparative: is verifying cheaper than generating?** Not "is this
+verifiable", which almost everything is at some price. If judging costs about what
 generating costs, more agents buy nothing but a larger pile. Taste-only work fails
-this by definition, and no architecture repairs it.
+this by definition, and no architecture repairs it. The community name for this
+property is the **asymmetry of verification** (Jason Wei); research measures it as
+the **generation-verification gap**.
 
 **More output is not automatically more value.** Anything that increases the volume
-you are answerable for gets costed against the checking it creates, not just the
-producing it saves.
+you are answerable for gets costed against the verification it creates, not just
+the generation it saves.
 
 Every check is one of three forms, or a layering of them.
 

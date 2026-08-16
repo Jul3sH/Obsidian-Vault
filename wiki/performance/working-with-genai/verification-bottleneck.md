@@ -41,6 +41,18 @@ useful ones, because they are decades old, they come from aviation and clinical
 medicine rather than from anyone selling a tool, and they describe the mechanism
 rather than the symptom.
 
+The favourable case has its own names, and these are the ones the AI community
+recognises (verified against usage, Aug 2026). The property that some work is much
+easier to verify than to generate is the **asymmetry of verification**, coined by
+Jason Wei along with **verifier's law**: the ease of training AI on a task is
+proportional to how verifiable it is. Karpathy's version: *"Software 2.0 easily
+automates what you can verify."* Research literature measures the same thing as the
+**generation-verification gap** (GV-Gap). When speaking to the community, say
+"generation" and "verification", not "production" and "checking". One 2026 finding
+worth holding: for coding agents the asymmetry is argued to be *reversing* -
+generating a plausible solution has become easy, and reliably verifying it is now
+the harder problem - which is this article's thesis stated from the other side.
+
 ## Three findings that matter
 
 **Reliability makes it worse, not better.** Parasuraman and colleagues found that
@@ -141,6 +153,9 @@ Being in the loop is only worth something while you are still genuinely reading.
 
 ## Sources
 
+[Jason Wei, Asymmetry of verification and verifier's law](https://www.jasonwei.net/blog/asymmetry-of-verification-and-verifiers-law),
+[Weaver: shrinking the generation-verification gap (Stanford)](https://arxiv.org/abs/2506.18203),
+[The Verification Horizon: the asymmetry reversing for coding agents](https://arxiv.org/abs/2606.26300),
 [Parasuraman on automation complacency](https://github.com/brennhill/looprails/blob/main/article-automation-bias.md),
 [the HITL rubber-stamp problem](https://tianpan.co/blog/2026-04-15-human-in-the-loop-rubber-stamp),
 [Sonar's verification-gap survey](https://www.sonarsource.com/company/press-releases/sonar-data-reveals-critical-verification-gap-in-ai-coding/),
