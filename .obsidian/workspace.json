@@ -11,14 +11,12 @@
             "id": "ae20498a6ad02b8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "wiki/performance/performance-workstream.md",
-                "mode": "source",
-                "source": false
+                "file": "wiki/deliverables/goals-roadmap.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "performance-workstream"
+              "icon": "excalidraw-icon",
+              "title": "goals-roadmap.excalidraw"
             }
           }
         ]
@@ -200,9 +198,9 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
-    "wiki/deliverables/goals-roadmap.excalidraw.md",
     "wiki/performance/goals-register.md",
     "wiki/performance/performance-workstream.md",
+    "wiki/deliverables/goals-roadmap.excalidraw.md",
     "wiki/performance/systems-register.md",
     "wiki/performance/working-with-genai/verification-bottleneck.md",
     "wiki/performance/working-with-genai/routing-work-prompts.md",
