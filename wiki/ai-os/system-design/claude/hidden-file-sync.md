@@ -1,7 +1,7 @@
 ---
 type: reference
 created: 2026-05-08
-updated: 2026-08-05
+updated: 2026-08-17
 ---
 
 # Hidden File Sync Checklist
@@ -75,7 +75,8 @@ updated: 2026-08-05
 | feedback-build-dont-adopt.md | `~/.claude/projects/.../memory/feedback-build-dont-adopt.md` | [[memory/feedback-build-dont-adopt\|feedback-build-dont-adopt.md]] | 2026-07-23 (new: when Julian builds a new system, force an adoption forcing-function + systems-register row; he gets dopamine from designing but abandons systems unadopted) |
 | feedback-assumption-audit.md | `~/.claude/projects/.../memory/feedback-assumption-audit.md` | [[memory/feedback-assumption-audit\|feedback-assumption-audit.md]] | 2026-07-28 (new: surface + challenge load-bearing assumptions at work-definition/sprint-planning time; invert, cheap-test, check against own prior conclusions; born from Sprint 2 retro — TTI systems-role assumption Julian had already rejected closing BWS-6) |
 | feedback-outbound-punctuation.md | `~/.claude/projects/.../memory/feedback-outbound-punctuation.md` | [[memory/feedback-outbound-punctuation\|feedback-outbound-punctuation.md]] | 2026-08-10 (new: in outbound prose, never use spaced hyphens " - " as connectors; commas, colons, full stops or parentheses at drafting time; born from four removal requests in one Ty-proposal session) |
-| MEMORY.md | `~/.claude/projects/.../memory/MEMORY.md` | [[memory/MEMORY\|MEMORY.md]] | 2026-08-10 (added feedback-outbound-punctuation.md row) |
+| feedback-visible-waiting-state.md | `~/.claude/projects/.../memory/feedback-visible-waiting-state.md` | [[memory/feedback-visible-waiting-state\|feedback-visible-waiting-state.md]] | 2026-08-17 (new: when blocked on Julian's input, end the turn with an unmissable ask - "Waiting on you:" + one direct question as the closing line, status above it; born from the concept-map interview stalling three turns behind multi-topic status updates) |
+| MEMORY.md | `~/.claude/projects/.../memory/MEMORY.md` | [[memory/MEMORY\|MEMORY.md]] | 2026-08-17 (added feedback-visible-waiting-state.md row) |
 | user.md | `~/.claude/projects/.../memory/user.md` | [[memory/user\|user.md]] | 2026-07-12 (added Psychological Fingerprint table with 4 traits; added Context Loader trigger table for on-demand deep-file loading; updated Family with Sophia age + UK move detail; removed Active Focus Area as project state; separated Preferences section) |
 | ~~projects.md~~ **(RETIRED 2026-07-31)** | `~/.claude/projects/.../memory/projects.md` | `projects.md` (deleted, no longer mirrored) | 2026-06-30 (CLSA split: First Interview (clsa-role) closed Done; Second Interview (clsa-second-interview, M, WSJF 3.8) added as active, deadline-driven, POR-21) |
 | ~~deliverables.md~~ **(RETIRED 2026-07-31)** | `~/.claude/projects/.../memory/deliverables.md` | `deliverables.md` (deleted, no longer mirrored) | 2026-06-09 (renamed from project.md; points to wiki/deliverables/, timebox vocab) |
