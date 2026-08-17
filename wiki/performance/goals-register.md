@@ -75,15 +75,15 @@ Single-view of all active goals across all workstreams, in priority order. Works
 
 | ID | Objective | Goal / KR | Target | Projects | Habits | Status |
 |----|-----------|-----------|--------|----------|--------|--------|
-| PER-O1-KR1 | Obj 1: Leverage AI | AI OS MVP live and operational | Q3 2026 | Agile Claw MVP | — | upcoming |
-| PER-O1-KR2 | Obj 1: Leverage AI | ≥80% of agile ceremonies completed and logged by AI OS | Q3 2026 | — | — | upcoming |
-| PER-O1-KR3 | Obj 1: Leverage AI | ≥5 research-to-action pipelines live and delivering outputs | Q3 2026 | — | PER-H1 | upcoming |
+| PER-O1-KR1 | Obj 1: Leverage AI | AI OS MVP live and operational | Q4 2026 | Agile Claw MVP | — | upcoming |
+| PER-O1-KR2 | Obj 1: Leverage AI | ≥80% of agile ceremonies completed and logged by AI OS | Q4 2026 | — | — | upcoming |
+| PER-O1-KR3 | Obj 1: Leverage AI | ≥5 research-to-action pipelines live and delivering outputs | Q4 2026 | — | PER-H1 | upcoming |
 | PER-O2-KR1 | Obj 2: Key Person of Influence | KPI strategy documented (niche, top 3 channels, 90-day plan) | Q4 2026 | — | — | upcoming |
 | PER-O2-KR2 | Obj 2: Key Person of Influence | AI content capability at Level 3 (strategic collaborator) | Q4 2026 | — | — | upcoming |
 | PER-O2-KR3 | Obj 2: Key Person of Influence | 5 LinkedIn posts published in Q4 week 6 | Q4 2026 | — | — | upcoming |
-| PER-O3-KR1 | Obj 3: AI Agent Builder | 1 agent artefact built, blogged about, and posted to LinkedIn | Q4 2026 | — | — | upcoming |
-| PER-O3-KR2 | Obj 3: AI Agent Builder | Exam-ready for Claude Architect certification | Q4 2026 | — | PER-H1 | upcoming |
-| PER-O3-KR3 | Obj 3: AI Agent Builder | ≥70% on Level 1 AI engineering skills rubric | Q4 2026 | — | PER-H1 | upcoming |
+| PER-O3-KR1 | Obj 3: AI Agent Builder | 1 agent artefact built, blogged about, and posted to LinkedIn | Q4 2026 | — | — | dropped 17 Aug 2026 |
+| PER-O3-KR2 | Obj 3: AI Agent Builder | Exam-ready for Claude Architect certification | Q4 2026 | — | PER-H1 | dropped 17 Aug 2026 |
+| PER-O3-KR3 | Obj 3: AI Agent Builder | ≥70% on Level 1 AI engineering skills rubric | Q4 2026 | — | PER-H1 | dropped 17 Aug 2026 |
 
 ---
 
@@ -100,4 +100,4 @@ Single-view of all active goals across all workstreams, in priority order. Works
 - **CAR-O3 (HK Financial Runway):** the 2 active Q3 KRs have no projects aligned — new contract/consulting Project needed (KR3 dropped 17 Aug 2026)
 - **Automated LinkedIn Networking** (project in queue): not explicitly linked to any KR — likely CAR-O2 (employment pipeline) and/or PER-O2-KR3 (LinkedIn posts)
 - **Wellbeing, Relationships, Finance, Personal:** no Projects backing any goals — some (HK vs UK analyses, investment portfolio) may warrant dedicated Projects
-- **PER-O2 and PER-O3:** 6 Q4 KRs with no Projects yet — Q3 planning will need to address this
+- **PER-O2 (Key Person of Influence):** 3 Q4 KRs with no Projects yet — Q3 planning will need to address this (PER-O3 dropped 17 Aug 2026, so no longer a gap; PER-O1 also moved to Q4 but is partly covered already: Agile Claw MVP and PER-H1)

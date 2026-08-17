@@ -1,7 +1,7 @@
 ---
 type: okrs
 cadence: quarterly
-updated: 2026-06-13
+updated: 2026-08-17
 ---
 
 # Performance — Goals
@@ -76,6 +76,10 @@ What I care about in performance — directional guides that shape how I develop
 
 ### Q3 2026 Key Results
 
+*Not pursued this quarter - shifted to Q4 (see below).*
+
+### Q4 2026 Key Results
+
 | Key Result | Outcome/Output | Type | Measure | Score | Epics |
 |------------|-----------------|------|---------|-------|-------|
 | KR1: AI OS MVP live and operational | Output | Com | Binary (live/not live) | 0.0 | [[agile-claw-mvp\|Agile Claw MVP]] |
@@ -106,19 +110,13 @@ What I care about in performance — directional guides that shape how I develop
 
 ---
 
-## Objective 3: AI Agent Builder *(Aspirational — Annual)*
+## Objective 3: AI Agent Builder *(Dropped - 17 Aug 2026)*
 
 > *Be a credible AI agent builder — able to design, build, and deploy agents that deliver measurable value for clients.*
 
-### Q2 2026 Key Results
+**As of 17 Aug 2026: dropped from the goals roadmap.** Removed from [[goals-roadmap.excalidraw|Goals Roadmap]] by Julian; no KRs are pursued in any quarter. The Q4 table below is retained for record only.
 
-*Not pursued this quarter — shifted to Q4 (see below).*
-
-### Q3 2026 Key Results
-
-*Not pursued this quarter — objective shifted to Q4 (see below).*
-
-### Q4 2026 Key Results
+### Q4 2026 Key Results *(not pursued - objective dropped 17 Aug 2026)*
 
 | Key Result | Outcome/Output | Type | Measure | Score | Epics |
 |------------|-----------------|------|---------|-------|-------|
@@ -134,4 +132,4 @@ What I care about in performance — directional guides that shape how I develop
 
 | Candidate KR | Outcome/Output | Likely Quarter | Notes |
 |--------------|-----------------|----------------|-------|
-| Build the principles & lessons recall system (two-tier). Tier 1 (Inject): harvest the `## Key Takeaways` from every workstream's principles and lessons-learned docs (career office-politics, the Personal MBA folders in performance, relationships, wellbeing) into a single principles register, workstream-tagged, each entry backlinking to its source doc; load it as always-on session context. Tier 2 (Recall): leave the full lesson docs in place, retrieved on demand via `_index` navigation when depth or evidence is needed. No vector DB until the corpus passes ~100-150 docs or the model is seen to miss cross-folder lessons; then embed Tier 2 only. | Output | Q3 2026 | Sits under Objective 1 (Leverage AI). Inputs: ~38 lessons-learned docs + the workstream principles added 2026-06-08. Design documented in [[memory-operations\|Memory Operations]] (Store/Inject/Recall). Output: living principles register used as AI OS context + lessons retained as the recall layer. |
+| Build the principles & lessons recall system (two-tier). Tier 1 (Inject): harvest the `## Key Takeaways` from every workstream's principles and lessons-learned docs (career office-politics, the Personal MBA folders in performance, relationships, wellbeing) into a single principles register, workstream-tagged, each entry backlinking to its source doc; load it as always-on session context. Tier 2 (Recall): leave the full lesson docs in place, retrieved on demand via `_index` navigation when depth or evidence is needed. No vector DB until the corpus passes ~100-150 docs or the model is seen to miss cross-folder lessons; then embed Tier 2 only. | Output | Q4 2026 | Sits under Objective 1 (Leverage AI), which moved to Q4 on 17 Aug 2026. Inputs: ~38 lessons-learned docs + the workstream principles added 2026-06-08. Design documented in [[memory-operations\|Memory Operations]] (Store/Inject/Recall). Output: living principles register used as AI OS context + lessons retained as the recall layer. |

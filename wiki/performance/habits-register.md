@@ -27,7 +27,7 @@ All active habits across all workstreams, with their goal alignment. Habits are 
 
 | ID | Workstream | Habit | Frequency | Supports Goals | Status |
 |----|-----------|-------|-----------|---------------|--------|
-| PER-H1 | Performance | One hour of AI learning — read, apply (even trivially), and capture a one-line takeaway into the relevant wiki article. Hard 1-hour timebox; topic and depth vary by day. Capture is required before closing. End-of-day slot. | Daily | PER-O1-KR3, PER-O3-KR2, PER-O3-KR3 | building |
+| PER-H1 | Performance | One hour of AI learning — read, apply (even trivially), and capture a one-line takeaway into the relevant wiki article. Hard 1-hour timebox; topic and depth vary by day. Capture is required before closing. End-of-day slot. | Daily | PER-O1-KR3, PER-O3-KR2 (dropped 17 Aug 2026), PER-O3-KR3 (dropped 17 Aug 2026) | building |
 
 ---
 
