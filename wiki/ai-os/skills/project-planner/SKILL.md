@@ -388,6 +388,13 @@ Example format:
 
 Never propose a number without first showing the reasoning. The user needs to be able to challenge the score, and they can only do that if they can see how you got there.
 
+**Comparative scoring format (estimation-poker style, added 2026-08-17).** Score ONE component per message - never all three in a single message; that is overwhelming and defeats verification. For each component, the message has exactly two parts, in this order:
+
+1. **Proposed score + rationale** - the tier and why, tied to the scoring criteria and what the user said.
+2. **Comparative anchor table** - 3-5 existing Projects with their scores for THIS component, read from their `## WSJF Scoring` tables in wiki/projects/ (never invent or recall scores - read the files), each with a one-line "why it scored there". Close by framing the confirmation as a comparison, e.g. "is this closer to [anchor A at 5] or [anchor B at 3]?".
+
+The comparison against the live portfolio is the user's verification step, exactly as in estimation poker: a score is validated relative to its neighbours, not in isolation.
+
 ---
 
 **Value (what's the payoff?):**
