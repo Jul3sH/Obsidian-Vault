@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/working-with-genai/mm-token-economics.md",
+                "file": "wiki/performance/working-with-genai/verification-bottleneck.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mm-token-economics"
+              "title": "verification-bottleneck"
             }
           }
         ]
@@ -200,14 +200,14 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/working-with-genai/routing-work-prompts.md",
+    "wiki/performance/working-with-genai/mm-token-economics.md",
     "wiki/technology/claude-anthropic/session-context-loading.md",
     "wiki/performance/working-with-genai/mm-verification.md",
-    "wiki/performance/working-with-genai/mm-token-economics.md",
     "wiki/performance/working-with-genai/mm-steering.md",
     "wiki/performance/working-with-genai/mm-routing.md",
     "wiki/performance/working-with-genai/verification-bottleneck.md",
     "wiki/performance/working-with-genai/verification-tactics.md",
-    "wiki/performance/working-with-genai/routing-work-prompts.md",
     "wiki/performance/working-with-genai/_index.md",
     "wiki/projects/_index.md",
     "wiki/technology/Memory systems/mm-memory-pillars.md",
