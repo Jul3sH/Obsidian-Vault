@@ -15,4 +15,5 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[mm-verification|MM: Verification]] - Whether AI work can be checked cheaply enough to be worth commissioning, and by what means
 - [[mm-routing|MM: Routing]] - Choosing between chat, one agent, several agents, or by hand
 - [[mm-steering|MM: Steering]] - How the chosen agent or fleet is made to behave, and why an instruction is not a guarantee
+- [[mm-token-economics|MM: Token Economics]] - What a session costs to run, why context is a recurring charge rather than a one-off, and which habits move the number
 - [[routing-work-prompts|Routing Work: Setup Prompts]] - The four setup templates, one per verdict, including the one-agent run card that forces the check to be named before the run

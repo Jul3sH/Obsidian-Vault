@@ -10,6 +10,8 @@ tags: [technical, claude, anthropic]
 - [[claude-code]] — The CLI tool that gives Claude direct access to your file system; how to use it and configure it
 - [[claude-chat]] — The browser-based chat interface; when to use it vs Claude Code
 - [[claude-cowork]] — Multi-agent collaboration, skills, hooks, and MCP servers
+- [[session-context-loading]] - What occupies the context window: the fixed prefix assembled at session start, what loads lazily, and what grows the transcript irreversibly
+- [[session-transcripts-and-memory]] - Where Claude Code stores raw JSONL session history on disk, and how the Agentic OS memory layer consumes it
 
 ## Integrations
 

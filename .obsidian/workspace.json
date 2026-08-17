@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/working-with-genai/mm-verification.md",
+                "file": "wiki/performance/working-with-genai/mm-token-economics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mm-verification"
+              "title": "mm-token-economics"
             }
           }
         ]
@@ -200,6 +200,9 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/technology/claude-anthropic/session-context-loading.md",
+    "wiki/performance/working-with-genai/mm-verification.md",
+    "wiki/performance/working-with-genai/mm-token-economics.md",
     "wiki/performance/working-with-genai/mm-steering.md",
     "wiki/performance/working-with-genai/mm-routing.md",
     "wiki/performance/working-with-genai/verification-bottleneck.md",
@@ -210,7 +213,6 @@
     "wiki/technology/Memory systems/mm-memory-pillars.md",
     "wiki/performance/working-with-genai/steering-agents.md",
     "wiki/performance/the-human-mind/mm-rule-layering.md",
-    "wiki/performance/working-with-genai/mm-verification.md",
     "wiki/performance/working-with-genai/genai-mental-models.md",
     "wiki/performance/mental-models-index.md",
     "wiki/performance/the-human-mind/rule-layering.md",
@@ -226,8 +228,6 @@
     "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
     "wiki/projects/uk-relocation-decision.md",
     "raw/Nate B Jones one-minute-test analysis.md",
-    "raw/UK versus HK earnings Codex review - JH review.md",
-    "raw/Nate B Jones AI Skill set prompt kit.md",
     "wiki/ai-os/skills/grill-me/agents",
     "wiki/ai-os/skills/grill-me",
     "skills-lock.json",

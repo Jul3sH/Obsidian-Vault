@@ -39,9 +39,11 @@ sentences:
 - [[mm-verification]] - Generation scaled and verification did not
 - [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect
 - [[mm-steering]] - An instruction is not a guarantee
+- [[mm-token-economics]] - Context is rent, not a purchase
 
-The last three chain: verification decides what is possible, routing decides the
-architecture, steering configures it.
+[[mm-verification]], [[mm-routing]] and [[mm-steering]] chain: verification decides
+what is possible, routing decides the architecture, steering configures it.
+[[mm-token-economics]] sits alongside them and prices what routing chose.
 
 ## Personal
 
