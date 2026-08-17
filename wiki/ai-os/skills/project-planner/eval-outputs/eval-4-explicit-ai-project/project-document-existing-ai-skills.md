@@ -28,6 +28,6 @@ Both existing skills (LinkedIn enrichment and Apollo person-match) have written 
 This is the first project to start. Completing it immediately unblocks Publish 3 AI Write-ups (WSJF 3.5), which is the highest-ranked project in the queue.
 
 ## Links
-- **Epic:** [[../epics/epic-ai-builder-90-days|AI Builder — 90 Days]]
+- **Epic:** [[epic-ai-builder-90-days|AI Builder — 90 Days]]
 - **Workstream:** [[../performance/_index|performance]]
 - **Source skills:** [[../technical/linkedin-enrichment/_index|LinkedIn Enrichment Skill]], [[../technical/apollo-person-match/_index|Apollo Person-Match Skill]]

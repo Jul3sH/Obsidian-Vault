@@ -25,5 +25,5 @@ A working tool using the Claude API is shipped and functional, built in under 10
 | **WSJF** | **3.5** | (3+2+2) ÷ 2 |
 
 ## Links
-- **Epic:** [[../epics/ai-practitioner|AI Practitioner]]
+- **Epic:** [[ai-practitioner|AI Practitioner]]
 - **Workstream:** [[../performance/_index|performance]]

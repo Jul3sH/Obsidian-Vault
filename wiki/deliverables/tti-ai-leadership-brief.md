@@ -42,7 +42,7 @@ A polished Google Doc brief exists meeting all 7 acceptance criteria. The argume
 Re-sized from 2 → 3 on 2026-05-27 to reflect expanded scope: absorbs the role-redesign content originally scoped for the now-closed [[tti-existing-role-brief]]; needs deep research on AI-leadership role trend plus a substantive worked example of role redesign.
 
 ## Links
-- **Epic:** [[../epics/tti-role|TTI Role]]
+- **Epic:** [[tti-role|TTI Role]]
 - **Workstream:** [[../career/_index|career]]
 - **Supersedes:** [[tti-existing-role-brief]] (closed 2026-05-27)
 - **Companion brief:** [[tti-consulting-brief]] (Door 1 — lowest friction)

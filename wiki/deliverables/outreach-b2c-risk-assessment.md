@@ -39,6 +39,6 @@ The B2C legal constraint has been assessed and documented, including the viabili
 
 ## Links
 - **Blocked by:** [[vanguard-outreach-go-no-go|Vanguard Outreach Go/No-Go Assessment]] (2026-08-05). That 2h spike decides whether Julian participates at all. If it returns "no", this enabler is cancelled rather than queued. Its scope also overlaps this file's Success Criteria 1 and 3, so re-scope this one once the verdict is in.
-- **Epic:** [[../epics/cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
+- **Epic:** [[cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
 - **Workstream:** [[../career/_index|Career]]
 - **Blocks:** [[outreach-email-campaign|Email Campaign]], [[outreach-run-campaign|Run Campaign & Measure]]

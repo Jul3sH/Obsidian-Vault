@@ -78,7 +78,7 @@ What I care about in performance — directional guides that shape how I develop
 
 | Key Result | Outcome/Output | Type | Measure | Score | Epics |
 |------------|-----------------|------|---------|-------|-------|
-| KR1: AI OS MVP live and operational | Output | Com | Binary (live/not live) | 0.0 | [[../epics/agile-claw-mvp\|Agile Claw MVP]] |
+| KR1: AI OS MVP live and operational | Output | Com | Binary (live/not live) | 0.0 | [[agile-claw-mvp\|Agile Claw MVP]] |
 | KR2: ≥80% of agile ceremonies completed and logged by the AI OS | Outcome | Com | % ceremonies logged | 0.0 | — |
 | KR3: ≥5 research-to-action pipelines live and operational | Outcome | Com | 5 of 5 delivering outputs | 0.0 | — |
 

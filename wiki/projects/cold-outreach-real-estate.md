@@ -2,30 +2,26 @@
 workstream: career
 created: 2026-05-06
 status: active
-flow: implementing
+flow: on-hold
 por-key: POR-2
 t-shirt: XL
 jira-key: BWS-1
-status-updated: 2026-06-09
+status-updated: 2026-08-17
 ---
 
 # Cold Outreach — Prove the Real Estate Lead Gen Model
 
-## Status (as of 2026-08-05)
+## Status (as of 2026-08-17)
 
-**Position:** The project is gated on a personal legal question, not on tooling. A `/prompt-zero` interview on 5 Aug established that Julian's own exposure, not the campaign's viability, is the live blocker: two email domains and the SalesHandy subscription are **in his name and warming right now**, and Adam has asked him to run the campaign. Nothing has been sent, so there is no breach, but the warm-up is no longer neutral progress - it is accruing exposure. A new 2h spike, [[vanguard-outreach-go-no-go]], now sits in front of everything and decides whether Julian participates at all.
+**Position:** As of 17 Aug 2026, on hold. The driving goal, Career Objective 1 (AI-Native Solopreneur), was dropped from the goals roadmap on 17 Aug 2026, so this project no longer has a live goal above it. Scope and deliverables are kept intact for a later restart: nothing below has been regressed to funnel or cancelled.
+
+**Next action:** As of 17 Aug 2026, none until Julian either re-points the project at a live goal or un-holds it.
+
+**Waiting on:** As of 17 Aug 2026, that decision (re-point to a live goal, or un-hold).
 
 **The Objective below is stale and needs a `/project-planner` pass.** It reads "giving my friend the confidence to partner with me and creating a new income stream". Julian confirmed on 5 Aug that this B2C email work is a **pure favour with no income to him**; any partnership would run through separate legal routes such as LinkedIn advertising. The Objective has not been rewritten here because changing a Project Objective is a `/project-planner` act, not a status edit.
 
-**Three legal findings** surfaced during the interview and are recorded as testable assumptions in [[vanguard-outreach-go-no-go]]: (1) "pure execution doesn't implicate me" appears contradicted by UEMO s.59-60 in Julian's own research; (2) UEMO and PDPO may not be the whole picture, since assisted-living and commercial schemes can be SFC-regulated; (3) the partner's whisky-investment contacts likely cannot be repurposed for property marketing under DPP3.
-
-**Next actions:**
-1. Run [[vanguard-outreach-go-no-go]] (2h, capped). Everything else waits on its verdict.
-2. Decide what happens to the warming domains and the SalesHandy subscription. This is time-sensitive in a way the rest is not.
-3. If the verdict is "go": re-scope [[outreach-b2c-risk-assessment]], whose Success Criteria now overlap the spike. If "no": cancel it.
-4. Book a `/project-planner` pass to correct the Objective.
-
-**Waiting on:** nothing external. The blocker is a decision Julian has not yet made.
+**Three legal findings** surfaced during the 5 Aug interview and are recorded as testable assumptions in [[vanguard-outreach-go-no-go]]: (1) "pure execution doesn't implicate me" appears contradicted by UEMO s.59-60 in Julian's own research; (2) UEMO and PDPO may not be the whole picture, since assisted-living and commercial schemes can be SFC-regulated; (3) the partner's whisky-investment contacts likely cannot be repurposed for property marketing under DPP3.
 
 **Detail tier:** see `## Deliverables` below (7 items; 1 queued, 1 blocked, 5 downstream).
 
@@ -63,6 +59,7 @@ Supporting files and where they sit. The seven work items are in `## Deliverable
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-08-17 | Put on hold: driving goal Career O1 (AI-Native Solopreneur) dropped from goals roadmap. Scope kept intact; Jira card move pending next /jira-sync. |
 | 2026-08-05 | `/prompt-zero` run against this project surfaced that the real blocker is Julian's personal legal exposure, not campaign design. New enabler [[vanguard-outreach-go-no-go]] created (Exploration, size 1, 2h cap) with brief at [[vanguard-outreach-go-no-go-prompt-zero]]; [[outreach-b2c-risk-assessment]] moved to Blocked behind it and flagged for re-scoping. Three load-bearing legal assumptions recorded with cheap tests, all three pointing against the current plan. Research supplied by Julian and filed as [[hk-b2c-outreach-uemo-pdpo]]. **Objective confirmed stale:** this is a pure favour, not an income stream. **Live exposure noted:** two domains and the SalesHandy subscription are in Julian's name and warming. |
 | 2026-06-09 | Status surface added. Live: warm-up in progress; B2C risk assessment is the next ⚡ deliverable. |
 | 2026-05-06 | Project created. Lead list (2,000+) built and TCO/platform selection done pre-strategy. |

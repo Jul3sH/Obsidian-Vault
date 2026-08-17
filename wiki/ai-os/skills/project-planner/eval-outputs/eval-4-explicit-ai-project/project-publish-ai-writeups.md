@@ -28,5 +28,5 @@ Three pieces of writing about AI tools or projects (LinkedIn posts, articles, or
 Depends on [[project-document-existing-ai-skills|Document Existing AI Skills]] being completed first — documentation provides the source material for the write-ups.
 
 ## Links
-- **Epic:** [[../epics/epic-ai-builder-90-days|AI Builder — 90 Days]]
+- **Epic:** [[epic-ai-builder-90-days|AI Builder — 90 Days]]
 - **Workstream:** [[../performance/_index|performance]]

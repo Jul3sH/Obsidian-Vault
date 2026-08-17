@@ -29,5 +29,5 @@ The cold email campaign is live in Saleshandy, configured per the agreed strateg
 - Runs alongside or replaces B2C path depending on risk assessment result
 
 ## Links
-- **Epic:** [[../epics/cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
+- **Epic:** [[cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
 - **Workstream:** [[../career/_index|Career]]

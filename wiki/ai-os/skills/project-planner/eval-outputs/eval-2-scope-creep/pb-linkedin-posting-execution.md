@@ -25,5 +25,5 @@ status: queued
 | **WSJF** | **2.3** | (3+2+2) ÷ 3 |
 
 ## Links
-- **Epic:** [[../epics/personal-brand-career|Personal Brand — Career Visibility]]
+- **Epic:** [[personal-brand-career|Personal Brand — Career Visibility]]
 - **Workstream:** [[../career/_index|career]]

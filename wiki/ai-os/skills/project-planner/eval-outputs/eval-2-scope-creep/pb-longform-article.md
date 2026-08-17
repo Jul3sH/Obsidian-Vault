@@ -25,5 +25,5 @@ Platform set up (Substack or LinkedIn article), one long-form piece (800–1500 
 | **WSJF** | **2.0** | (3+2+1) ÷ 3 |
 
 ## Links
-- **Epic:** [[../epics/personal-brand-career|Personal Brand — Career Visibility]]
+- **Epic:** [[personal-brand-career|Personal Brand — Career Visibility]]
 - **Workstream:** [[../career/_index|career]]

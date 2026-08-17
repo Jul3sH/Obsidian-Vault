@@ -25,5 +25,5 @@ One new AI tool or automation is built end-to-end, tested, and in a working stat
 | **WSJF** | **1.4** | (3+2+2) ÷ 5 |
 
 ## Links
-- **Epic:** [[../epics/epic-ai-builder-90-days|AI Builder — 90 Days]]
+- **Epic:** [[epic-ai-builder-90-days|AI Builder — 90 Days]]
 - **Workstream:** [[../performance/_index|performance]]

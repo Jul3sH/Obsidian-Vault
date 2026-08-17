@@ -1,7 +1,7 @@
 ---
 type: okrs
 cadence: quarterly
-updated: 2026-06-13
+updated: 2026-08-17
 ---
 
 # Career — Goals
@@ -62,19 +62,13 @@ What I care about in a career — the "do I want this?" check. Directional guide
 
 *Max 3 Objectives per quarter. KRs are always quarterly.*
 
-## Objective 1: AI-Native Solopreneur *(Aspirational — Annual)*
+## Objective 1: AI-Native Solopreneur *(Dropped — 17 Aug 2026)*
 
 > *Be a profitable AI-native solopreneur, running multiple revenue streams with the capacity of a small team.*
 
-### Q2 2026 Key Results
+**As of 17 Aug 2026: dropped from the goals roadmap.** Removed from [[goals-roadmap.excalidraw|Goals Roadmap]] by Julian; no KRs are pursued in any quarter. The Q4 table below is retained for record only.
 
-*Not pursued this quarter — shifted to Q4 (see below).*
-
-### Q3 2026 Key Results
-
-*Not pursued this quarter — objective shifted to Q4 (see below).*
-
-### Q4 2026 Key Results
+### Q4 2026 Key Results *(not pursued — objective dropped 17 Aug 2026)*
 
 | Key Result | Outcome/Output | Type | Measure | Score | Projects |
 |------------|-----------------|------|---------|-------|----------|
@@ -120,7 +114,9 @@ What I care about in a career — the "do I want this?" check. Directional guide
 | KR1: ≥5 income opportunities identified across online, freelance, contract, and part-time channels — documented with income potential and next steps | Output | Com | 5 of 5 documented | 0.0 | — *(pending: new contract/consulting Project)* |
 | KR2: Active conversations in progress with ≥3 potential clients or employers | Outcome | Com | 3 conversations active | 0.0 | — *(pending: new contract/consulting Project)* |
 
-### Q4 2026 Key Results
+### Q4 2026 Key Results *(dropped — 17 Aug 2026)*
+
+**As of 17 Aug 2026: KR3 dropped from the goals roadmap.** Removed from [[goals-roadmap.excalidraw|Goals Roadmap]] by Julian; the Q3 KRs above remain active. Retained for record only.
 
 | Key Result | Outcome/Output | Type | Measure | Score | Projects |
 |------------|-----------------|------|---------|-------|----------|

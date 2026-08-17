@@ -28,5 +28,5 @@ One structured AI course or curriculum is completed in full (all modules/lessons
 During scoring, user initially proposed Value = 3 citing "shaky foundations." The skill challenged this as a potential perfectionism pattern — two working skills already shipped — and the user revised to Value = 2. The course is worth doing but should not block the higher-WSJF projects.
 
 ## Links
-- **Epic:** [[../epics/epic-ai-builder-90-days|AI Builder — 90 Days]]
+- **Epic:** [[epic-ai-builder-90-days|AI Builder — 90 Days]]
 - **Workstream:** [[../performance/_index|performance]]

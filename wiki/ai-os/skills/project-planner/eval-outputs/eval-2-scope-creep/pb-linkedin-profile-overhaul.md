@@ -25,5 +25,5 @@ Headline, About section, and top 3 experience entries rewritten with clear AI/te
 | **WSJF** | **4.0** | (3+2+3) ÷ 2 |
 
 ## Links
-- **Epic:** [[../epics/personal-brand-career|Personal Brand — Career Visibility]]
+- **Epic:** [[personal-brand-career|Personal Brand — Career Visibility]]
 - **Workstream:** [[../career/_index|career]]

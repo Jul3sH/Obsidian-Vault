@@ -22,5 +22,5 @@ jira-key:
 50 prospects are in an active email sequence. At minimum 3 replies received or discovery calls booked by month end.
 
 ## Links
-- **Epic:** [[../epics/cold-outreach-real-estate|Cold Outreach — Real Estate]]
+- **Epic:** [[cold-outreach-real-estate|Cold Outreach — Real Estate]]
 - **Workstream:** [[../career/_index|Career]]

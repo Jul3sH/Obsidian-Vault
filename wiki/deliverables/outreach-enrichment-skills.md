@@ -20,6 +20,6 @@ A Claude skill exists for personalised email generation using enriched LinkedIn 
 LinkedIn enrichment skill is complete and operational. Scope reduced from original L (40h) — only personalised email generation remains. Dependency for Lead Creation story.
 
 ## Links
-- **Epic:** [[../epics/cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
+- **Epic:** [[cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
 - **Workstream:** [[../career/_index|Career]]
 - **Related skills:** [[../ai-os/skills/linkedin-enrichment/_index|LinkedIn Enrichment]], [[../ai-os/skills/apollo-person-match/_index|Apollo Person Match]]

@@ -25,5 +25,5 @@ status: queued
 | **WSJF** | **2.0** | (2+1+1) ÷ 2 |
 
 ## Links
-- **Epic:** [[../epics/ai-practitioner|AI Practitioner]]
+- **Epic:** [[ai-practitioner|AI Practitioner]]
 - **Workstream:** [[../performance/_index|performance]]

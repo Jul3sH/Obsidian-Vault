@@ -25,5 +25,5 @@ Course selected from a shortlist of 2–3 options, enrolment completed, and firs
 | **WSJF** | **8.0** | (2+3+3) ÷ 1 |
 
 ## Links
-- **Epic:** [[../epics/ai-practitioner|AI Practitioner]]
+- **Epic:** [[ai-practitioner|AI Practitioner]]
 - **Workstream:** [[../performance/_index|performance]]

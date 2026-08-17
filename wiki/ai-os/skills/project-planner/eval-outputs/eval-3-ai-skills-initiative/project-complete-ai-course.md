@@ -27,5 +27,5 @@ All modules of the selected course completed and any final assessment or certifi
 **Note:** Despite ranking last by WSJF (driven by size), this project should run concurrently with tool-building — not wait for everything else. Start it immediately after enrolment.
 
 ## Links
-- **Epic:** [[../epics/ai-practitioner|AI Practitioner]]
+- **Epic:** [[ai-practitioner|AI Practitioner]]
 - **Workstream:** [[../performance/_index|performance]]

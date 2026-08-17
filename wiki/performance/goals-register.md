@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-06-17
+updated: 2026-08-17
 ---
 
 # Goals Register
@@ -59,15 +59,15 @@ Single-view of all active goals across all workstreams, in priority order. Works
 
 | ID | Objective | Goal / KR | Target | Projects | Habits | Status |
 |----|-----------|-----------|--------|----------|--------|--------|
-| CAR-O1-KR1 | Obj 1: AI-Native Solopreneur | 3 revenue stream opportunities documented with hypothesis and opportunity size | Q4 2026 | Agile Claw MVP, Cold Outreach RE | — | upcoming |
-| CAR-O1-KR2 | Obj 1: AI-Native Solopreneur | Go/no-go verdict reached and documented for all 3 | Q4 2026 | Agile Claw MVP, Cold Outreach RE | — | upcoming |
-| CAR-O1-KR3 | Obj 1: AI-Native Solopreneur | MVP completed and results documented for ≥1 opportunity | Q4 2026 | Agile Claw MVP, Cold Outreach RE | — | upcoming |
+| CAR-O1-KR1 | Obj 1: AI-Native Solopreneur | 3 revenue stream opportunities documented with hypothesis and opportunity size | Q4 2026 | Agile Claw MVP, Cold Outreach RE | — | dropped 17 Aug 2026 |
+| CAR-O1-KR2 | Obj 1: AI-Native Solopreneur | Go/no-go verdict reached and documented for all 3 | Q4 2026 | Agile Claw MVP, Cold Outreach RE | — | dropped 17 Aug 2026 |
+| CAR-O1-KR3 | Obj 1: AI-Native Solopreneur | MVP completed and results documented for ≥1 opportunity | Q4 2026 | Agile Claw MVP, Cold Outreach RE | — | dropped 17 Aug 2026 |
 | CAR-O2-KR1 | Obj 2: Financial Security Through Employment | 5 roles applied to with internal advocacy | Q3 2026 | TTI Role, Secure Next Role | — | upcoming |
 | CAR-O2-KR2 | Obj 2: Financial Security Through Employment | 3 interviews reached | Q3 2026 | TTI Role, Secure Next Role | — | upcoming |
 | CAR-O2-KR3 | Obj 2: Financial Security Through Employment | 1 offer in hand by 30 Sep | 30 Sep 2026 | TTI Role, Secure Next Role | — | upcoming |
 | CAR-O3-KR1 | Obj 3: HK Financial Runway | ≥5 income opportunities identified and documented | Q3 2026 | — | — | upcoming |
 | CAR-O3-KR2 | Obj 3: HK Financial Runway | Active conversations in progress with ≥3 clients or employers | Q3 2026 | — | — | upcoming |
-| CAR-O3-KR3 | Obj 3: HK Financial Runway | ≥HK$60K total monthly income across all sources | 31 Dec 2026 | — | — | upcoming |
+| CAR-O3-KR3 | Obj 3: HK Financial Runway | ≥HK$60K total monthly income across all sources | 31 Dec 2026 | — | — | dropped 17 Aug 2026 |
 
 ---
 
@@ -97,7 +97,7 @@ Single-view of all active goals across all workstreams, in priority order. Works
 
 ## Gaps flagged
 
-- **CAR-O3 (HK Financial Runway):** all 3 KRs have no projects aligned — new contract/consulting Project needed
+- **CAR-O3 (HK Financial Runway):** the 2 active Q3 KRs have no projects aligned — new contract/consulting Project needed (KR3 dropped 17 Aug 2026)
 - **Automated LinkedIn Networking** (project in queue): not explicitly linked to any KR — likely CAR-O2 (employment pipeline) and/or PER-O2-KR3 (LinkedIn posts)
 - **Wellbeing, Relationships, Finance, Personal:** no Projects backing any goals — some (HK vs UK analyses, investment portfolio) may warrant dedicated Projects
 - **PER-O2 and PER-O3:** 6 Q4 KRs with no Projects yet — Q3 planning will need to address this

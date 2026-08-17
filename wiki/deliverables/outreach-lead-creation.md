@@ -29,7 +29,7 @@ A contact list of 2,000+ verified prospects aligned to the strategy defined by t
 - Enrichment pipeline: Apollo Person Match (Step 1) + LinkedIn Enrichment skill (Step 2) — both operational
 
 ## Links
-- **Epic:** [[../epics/cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
+- **Epic:** [[cold-outreach-real-estate|Cold Outreach — Prove the Real Estate Lead Gen Model]]
 - **Workstream:** [[../career/_index|Career]]
 - **Blocks:** [[outreach-email-campaign|Email Campaign]]
 - **Blocked by:** [[outreach-b2c-risk-assessment|B2C Risk & Strategy Assessment]]

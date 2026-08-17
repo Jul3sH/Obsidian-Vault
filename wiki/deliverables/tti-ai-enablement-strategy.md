@@ -76,7 +76,7 @@ Size 8 (L). 40+ hours of focused work. This is the highest-investment single art
 
 ## Links
 - **Strategy:** [[tti-engagement-strategy]]
-- **Epic:** [[../epics/tti-role|TTI Role]]
+- **Epic:** [[tti-role|TTI Role]]
 - **Workstream:** [[../career/_index|career]]
 - **Supersedes:** [[tti-ai-leadership-brief]] (closed), [[tti-consulting-brief]] (closed)
 - **Anchors on:** [[tti-ai-productivity-gap]], [[tti-role-profile-director-ea]]

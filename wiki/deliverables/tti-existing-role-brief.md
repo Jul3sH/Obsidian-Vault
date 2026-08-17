@@ -20,6 +20,6 @@ jira-key: BWS-6
 > *As a job applicant, I want a 2-page Google Doc brief showing how I'd execute the advertised TTI role efficiently using AI so that Stephan can clearly see the immediate value I'd bring.*
 
 ## Links
-- **Epic:** [[../epics/tti-role|TTI Role]]
+- **Epic:** [[tti-role|TTI Role]]
 - **Workstream:** [[../career/_index|career]]
 - **Superseded by:** [[tti-ai-leadership-brief]]

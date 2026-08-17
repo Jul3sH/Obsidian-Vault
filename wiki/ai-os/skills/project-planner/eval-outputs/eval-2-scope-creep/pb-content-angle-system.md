@@ -25,5 +25,5 @@ A documented content angle (point of view, 2–3 topic pillars), a bank of at le
 | **WSJF** | **4.5** | (3+3+3) ÷ 2 |
 
 ## Links
-- **Epic:** [[../epics/personal-brand-career|Personal Brand — Career Visibility]]
+- **Epic:** [[personal-brand-career|Personal Brand — Career Visibility]]
 - **Workstream:** [[../career/_index|career]]

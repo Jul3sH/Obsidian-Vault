@@ -29,5 +29,5 @@ jira-key: BWS-8
 A 2-page Google Doc brief exists positioning Julian as a versatile, AI-leveraged, cross-functional delivery resource — covering the consulting-as-headcount-flexibility model and summarising the key capabilities previously shared with Stephan — and closing with a clear ask. Julian is satisfied it's polished and ready to present or send to Stephan.
 
 ## Links
-- **Epic:** [[../epics/tti-role|TTI Role]]
+- **Epic:** [[tti-role|TTI Role]]
 - **Workstream:** [[../career/_index|career]]

@@ -25,5 +25,5 @@ A second distinct working AI tool or automation is shipped and functional, built
 | **WSJF** | **3.0** | (3+2+1) ÷ 2 |
 
 ## Links
-- **Epic:** [[../epics/ai-practitioner|AI Practitioner]]
+- **Epic:** [[ai-practitioner|AI Practitioner]]
 - **Workstream:** [[../performance/_index|performance]]
