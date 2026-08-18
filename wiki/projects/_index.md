@@ -25,6 +25,7 @@ Use `/project-planner` to create a new Project through a structured interview.
 
 ## Performance
 - [[agile-claw-mvp|Agile Claw MVP]] — Validate that HK enterprises will pay a commercially viable rate for AI OS consulting
+- [[ai-engineering-patterns|AI Engineering Patterns]] — Choose the right AI engineering approach for any piece of work via a market-aligned patterns catalog, distilled mental models, and a task-routing skill
 
 ## Personal
 - [[uk-relocation-decision|UK Relocation Decision]] — Have a committed decision on whether to stay in Hong Kong or relocate to the UK, locked before the 12 July trip

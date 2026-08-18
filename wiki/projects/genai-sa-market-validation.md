@@ -4,8 +4,8 @@ created: 2026-06-17
 status: active
 flow: ready
 t-shirt: XS
-wsjf: 4.5
-status-updated: 2026-06-18
+wsjf: 4.0
+status-updated: 2026-08-17
 por-key: POR-16
 jira-key: BWS-10
 ---
@@ -25,6 +25,7 @@ jira-key: BWS-10
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-08-17 | Time Criticality rescored 3 to 2 during the AI Engineering Patterns scoring session (comparative pass): active search now runs through live paths, urgency largely overtaken. WSJF 4.5 to 4.0; drops behind AI Engineering Patterns (5.5) in the queue. |
 | 2026-06-18 | Reframed as a go/no-go gate. Profile reposition + market-response outcome moved to Phase 2. Phase 1 now Output-only (research → decision; recruiter validation). Confidence Medium→High; Value 1→3; WSJF 3.5→4.5; ranked #2. Retitled from "Market Validation & Profile". |
 | 2026-06-17 | Project defined, scored (WSJF 3.5), added to POR board. Ranked #3 in queue behind TTI Role and Secure Next Role. |
 
@@ -72,11 +73,11 @@ Market research concludes within the first timebox with a clear, defensible prov
 | Component | Score | Rationale |
 |-----------|-------|-----------|
 | Value | 3 | The go/no-go decision has real standalone value: it either greenlights a high-value path or saves months of wasted development on a hobby. Moderate, indirect, but genuine de-risking value (18 Jun reframe). |
-| Time Criticality | 3 | Gradual erosion — Q3 job search dependency is real but no hard deadline this month |
+| Time Criticality | 2 | As of 17 Aug 2026, downgraded from 3: the active search now runs through live paths (TTI, CLSA), so the original "informs the current search" urgency is largely overtaken. Minor friction only; the verdict still feeds the Q4 KPI niche decision, so not a 1. |
 | Risk / Opportunity | 3 | Unblocks one initiative — gates the entire Phase 2 investment decision |
 | Job Size | XS = 2 | 5–8h; existing leverage (ai-senior-roles.md, sabbatical work) pulls this below S |
-| **Cost of Delay** | **9** | 3 + 3 + 3 |
-| **WSJF** | **4.5** | 9 ÷ 2 |
+| **Cost of Delay** | **8** | 3 + 2 + 3 |
+| **WSJF** | **4.0** | 8 ÷ 2 |
 
 **Note on scoring:** Original draft (17 Jun) scored Value=1 because Phase 1 then included only research + profile reposition with no standalone payoff. The 18 Jun reframe makes the go/no-go *decision* the deliverable, which carries real de-risking value (Value=3). RO stays 3 (gates Phase 2). The Value vs RO split still holds — Value = the decision's own worth; RO = what Phase 2 it gates. See [[feedback-wsjf-double-counting]].
 

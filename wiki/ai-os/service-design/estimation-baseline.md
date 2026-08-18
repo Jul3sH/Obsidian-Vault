@@ -1,7 +1,7 @@
 ---
 type: reference
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-08-17
 ---
 
 # Estimation Baseline
@@ -43,6 +43,7 @@ Hours columns: t-shirt band shows the size's hour range; record actuals as a sin
 | [[../../projects/genai-sa-market-validation\|GenAI SA: Go/No-Go Validation]] | Career | XS | 5-8 | 6-12 | TBD | TBD | High | Reframed 18 Jun as a go/no-go gate (Output-only, High confidence). Scoped (2 tasks: research size 2 + recruiter validation size 1) slightly exceeds XS top-down band; watch at close. Phase 2 parked in project funnel, activates on a "go" verdict. |
 | [[../../projects/uk-relocation-decision\|UK Relocation Decision]] | Personal | S | 9-16 | TBD | TBD | TBD | N/A - Output | Deliberate stretch: recommendation was M (17-40h). Sized S as forcing function - AI (Perplexity) compresses research; judgment-heavy Phase 1 is the overflow risk. First personal/life-decision Project in the baseline. |
 | [[../../projects/clsa-second-interview\|CLSA — Second Interview]] | Career | M | 17-40 | 4h | TBD | TBD | Medium | Deliberate 20h forcing-function cap (interview possibly this week); natural estimate was ~22-34h (mid-M). Overflow risk = the story-iteration loop. Scoped: 1h (scope doc) + 3h (ops-risk story) = 4h. **Process-benchmark: `/project-planner` definition run 30 min focused effort, 2026-06-30.** |
+| [[../../projects/ai-engineering-patterns\|AI Engineering Patterns]] | Performance | XS | 5-8 | TBD | TBD | TBD | N/A - Output | Two hard 2h timeboxes (catalog + mm models; routing skill + evals) plus Julian's review. Originally intended as a 2h all-in XXS before the routing skill merged in. Overflow risk = Codex verification rounds; the boxes stop the work, remainder re-scopes. |
 
 ## Links
 
