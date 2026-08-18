@@ -12,7 +12,7 @@ Covers hobbies, leisure, life goals, and anything personally meaningful that doe
 ## Decisions
 > Logged in the [[decision-journal|Decision Journal]] and run with the [[decision-maker-profile|decision-making system]] (methodology housed in Performance). Decisions whose primary home is here:
 
-- [[uk-relocation-status|UK Relocation Project]] — whether and where to move back to the UK; a cross-workstream life decision. Workspace: [[uk-move/_index|uk-move]] · anchor: [[why-london|why-london]].
+- [[uk-relocation-project|UK Relocation Project]] — whether and where to move back to the UK; a cross-workstream life decision. Workspace: [[uk-move/_index|uk-move]] · anchor: [[why-london|why-london]].
 
 ## Articles
 *(To be added as content is compiled)*

@@ -144,4 +144,4 @@ Remaining improvement: consider converting the output Sheet to formulas or linke
 
 - [[uk-relocation-savings-comparison]] - Wiki companion to the output Sheet
 - [[uk-relocation-cashflows]] - Trusted model and assumptions
-- [[uk-relocation-status]] - Project status surface
+- [[uk-relocation-project]] - Project status surface

@@ -6,7 +6,7 @@ tags: [wellbeing, sophia, malvern, activities]
 
 # Sophia - Malvern Clubs and Activities
 
-Football and athletics clubs near Hanley Swan (WR8) suitable for a 12-year-old girl. Relevant to the **Move to Malvern** scenario in the [[uk-relocation-status|UK Relocation Project]], and a concrete **mitigation for the autonomy / social-isolation risk** (village life, transport-dependent, remote from friends): local clubs are how Sophia builds a Malvern friend group and keeps an active social world. Closest options first.
+Football and athletics clubs near Hanley Swan (WR8) suitable for a 12-year-old girl. Relevant to the **Move to Malvern** scenario in the [[uk-relocation-project|UK Relocation Project]], and a concrete **mitigation for the autonomy / social-isolation risk** (village life, transport-dependent, remote from friends): local clubs are how Sophia builds a Malvern friend group and keeps an active social world. Closest options first.
 
 ## Key Takeaways
 - **Football, closest:** Welland Junior FC (~2-3 miles, Welland) has a confirmed U12 Girls team - the standout on the doorstep.
@@ -35,5 +35,5 @@ Nearer running clubs - Malvern Joggers (~5 mi), Pershore Plum Plodders (~7 mi), 
 
 ## Links
 - [[hanley-castle-high-school]] - the likely Malvern secondary school (girls' football offered there too)
-- [[uk-relocation-status|UK Relocation Project]] - the Move to Malvern scenario
+- [[uk-relocation-project|UK Relocation Project]] - the Move to Malvern scenario
 - [[sophia]] - stakeholder profile and transition-sensitive context

@@ -135,4 +135,4 @@ See [[sophia-london-schools|London school options (SW19)]]. Working shortlist: *
 ---
 
 ## Related
-- [[sophia-london-schools|London school options (SW19)]] · [[london-vs-malvern|London vs Malvern sub-decision]] · [[uk-relocation-status|UK Relocation Project]] · [[clodagh|Clodagh]] · [[joanne|Joanne]]
+- [[sophia-london-schools|London school options (SW19)]] · [[london-vs-malvern|London vs Malvern sub-decision]] · [[uk-relocation-project|UK Relocation Project]] · [[clodagh|Clodagh]] · [[joanne|Joanne]]

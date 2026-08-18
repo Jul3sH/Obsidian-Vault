@@ -1,7 +1,7 @@
 ---
 type: decision-anchor
 created: 2026-08-18
-project: uk-relocation-status
+project: uk-relocation-project
 decision: UK Relocation - Move vs Stay
 tags: [uk-relocation, decision-anchor]
 ---
@@ -66,7 +66,7 @@ tags: [uk-relocation, decision-anchor]
 | Role | Document |
 |---|---|
 | Canonical numbers (SUPREME - this anchor quotes, never re-derives) | [[uk-move-financial-model]] §0 |
-| Project status surface (position, next actions, status log) | [[uk-relocation-status]] |
+| Project status surface (position, next actions, status log) | [[uk-relocation-project]] |
 | Historical decision log + wobble record (#1-#4) | [[decision-journal]] - "Whether to move back to the UK" entry |
 | Sub-decision anchor (London vs Malvern) | [[why-london]] |
 | Alternatives frameworks | [[HK-BRAIND]] · [[London-BRAIND]] · [[Malvern-BRAIND]] · [[decision-criteria-matrix]] · [[malvern-permanent-feasibility-2026-07-14]] |

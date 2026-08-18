@@ -5,7 +5,7 @@ tags: [relationships, sophia, schooling, sw19, london]
 
 # Schooling - SW19 Area
 
-Schools in SW19 (Wimbledon area, London) for Sophia's education (Year 8 onwards), researched as part of the [[uk-relocation-status]] London direct scenario.
+Schools in SW19 (Wimbledon area, London) for Sophia's education (Year 8 onwards), researched as part of the [[uk-relocation-project]] London direct scenario.
 
 ## Admissions Process
 
@@ -110,4 +110,4 @@ Schools in SW19 (Wimbledon area, London) for Sophia's education (Year 8 onwards)
 
 - [[sophia]] — Sophia's stakeholder profile and needs
 - [[schooling-malvern-area]] — Malvern school options for comparison
-- [[uk-relocation-status]] — The relocation decision that anchors these choices
+- [[uk-relocation-project]] — The relocation decision that anchors these choices

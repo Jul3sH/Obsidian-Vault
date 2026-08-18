@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/projects/uk-relocation-status.md",
+                "file": "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uk-relocation-status"
+              "title": "Malvern-BRAIND"
             }
           }
         ]
@@ -200,6 +200,7 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/projects/uk-relocation-project.md",
     "wiki/projects/uk-relocation-decision.md",
     "wiki/projects/uk-relocation-status.md",
     "wiki/performance/decisions/commitment-lock-protocol.md",
@@ -225,7 +226,6 @@
     "wiki/performance/working-with-genai/mm-routing.md",
     "wiki/performance/working-with-genai/verification-tactics.md",
     "wiki/performance/working-with-genai/_index.md",
-    "wiki/technology/Memory systems/mm-memory-pillars.md",
     "wiki/ai-os/skills/whatsapp-someday/scripts",
     "wiki/ai-os/skills/whatsapp-someday",
     "wiki/ai-os/skills/grill-me/agents",

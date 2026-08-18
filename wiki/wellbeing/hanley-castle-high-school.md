@@ -6,7 +6,7 @@ tags: [wellbeing, education, malvern, sophia]
 
 # Hanley Castle High School
 
-Mixed state school for boys and girls aged 11-18, near Malvern, Worcestershire. Relevant to the [[uk-relocation-status|UK Relocation Project]] as the likely secondary school for Sophia under the **Move to Malvern** scenario. This page collects due-diligence facts as they are gathered.
+Mixed state school for boys and girls aged 11-18, near Malvern, Worcestershire. Relevant to the [[uk-relocation-project|UK Relocation Project]] as the likely secondary school for Sophia under the **Move to Malvern** scenario. This page collects due-diligence facts as they are gathered.
 
 ## Key Takeaways
 - Mixed (co-ed) state school, ages 11-18.
@@ -38,5 +38,5 @@ Confirmed: Hanley Castle offers football for girls, both in PE lessons and as pa
 
 ## Links
 - [[sophia-malvern-activities]] - football and athletics clubs near Hanley Swan for out-of-school activity
-- [[uk-relocation-status|UK Relocation Project]] - the Move to Malvern scenario
+- [[uk-relocation-project|UK Relocation Project]] - the Move to Malvern scenario
 - [[sophia]] - stakeholder profile and transition-sensitive context

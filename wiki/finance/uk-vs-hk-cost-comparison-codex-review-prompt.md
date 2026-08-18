@@ -54,7 +54,7 @@ SUPPORTING DOCUMENTS (read all - they hold the source numbers and context)
 - wiki/performance/decisions/decision-journal.md   The committed decision + the pre-set reopen
                                                    condition + the wobble log
 - wiki/performance/decisions/commitment-lock-protocol.md   The F-N-M-T reopen test
-- wiki/projects/uk-relocation-status.md          Project status / current position
+- wiki/projects/uk-relocation-project.md          Project status / current position
 - wiki/relationships/clodagh.md                    Context for the school-fee-split contingency
 
 KNOWN FACTS TO ANCHOR AGAINST (verify, do not just accept)

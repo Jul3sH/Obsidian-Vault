@@ -39,7 +39,7 @@ SOURCE FILES TO CHECK
 - wiki/finance/financial-status-2026-07-07.md
 - wiki/career/uk-vs-hk-earning-comparison.md
 - wiki/career/uk-vs-hk-earning-comparison-jh-clarifications-2026-07-09.md
-- wiki/projects/uk-relocation-status.md
+- wiki/projects/uk-relocation-project.md
 
 KNOWN ISSUE TO TEST
 The first-pass workbook says:
@@ -120,4 +120,4 @@ Be hostile. Do not validate Codex unless the numbers survive.
 - [[uk-move-financial-model]]
 - [[budget]]
 - [[money-tracker]]
-- [[uk-relocation-status]]
+- [[uk-relocation-project]]

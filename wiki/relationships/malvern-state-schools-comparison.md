@@ -6,7 +6,7 @@ source: Perplexity research report
 
 # Girls' Sports & Academics: The Chase, Dyson Perrins & Hanley Castle
 
-> Perplexity research report comparing the three non-fee-paying Malvern-area state secondaries on girls' sports and academics for Sophia (Year 8+). Key findings are summarised in [[schooling-malvern-area]], which holds the live admissions status; this file holds the full comparison and sources. Anchors the Malvern interim scenario of [[uk-relocation-status]].
+> Perplexity research report comparing the three non-fee-paying Malvern-area state secondaries on girls' sports and academics for Sophia (Year 8+). Key findings are summarised in [[schooling-malvern-area]], which holds the live admissions status; this file holds the full comparison and sources. Anchors the Malvern interim scenario of [[uk-relocation-project]].
 
 ## Overview
 This report compares three non-fee-paying state secondary schools in and around Malvern — **The Chase School**, **Dyson Perrins CofE Academy**, and **Hanley Castle High School** — focusing on girls' sports (especially netball, girls' football, swimming, and athletics) and academic performance, relevant for a girl aged 12 upwards entering Year 8.

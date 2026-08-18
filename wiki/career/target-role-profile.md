@@ -81,7 +81,7 @@ Base: **Wimbledon, SW London.** Only two categories of role are viable:
 
 - [[master-resume|Master Resume]] - the evidence base; being reframed to demote AI headline per this profile
 - [[uk-senior-architecture-jobs-q3-2026-briefing.html|UK Senior Architecture Jobs Briefing (4 Jul 2026)]] - UK market research (Storm v2, verified); largely aligned with this profile
-- [[uk-relocation-status|UK Relocation Project]] - the project this validates the career arm of
+- [[uk-relocation-project|UK Relocation Project]] - the project this validates the career arm of
 - [[ai-senior-roles|AI Senior Roles]] - **superseded as primary positioning** (retained as HK-era AI-track reference)
 - [[genai-sa-pivot-strategy|GenAI SA Pivot Strategy]] - **superseded as primary**; AI now a differentiator only
 - [[career-workstream|Career Workstream]] - the OKRs this ladders to

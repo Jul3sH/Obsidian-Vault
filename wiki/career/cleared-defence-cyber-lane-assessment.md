@@ -89,5 +89,5 @@ The work is mostly **time and one strategic acceptance**, not study or certifica
 - [[target-role-profile|Career Target-Role Profile]] - canonical positioning ("clearable" caveated here)
 - [[master-resume|Master Resume]] - the capability evidence base
 - [[uk-150k-feasibility-report|UK £150k Feasibility Report]]
-- [[uk-relocation-status|UK Relocation Project]] - the project this feeds
+- [[uk-relocation-project|UK Relocation Project]] - the project this feeds
 </content>

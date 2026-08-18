@@ -149,4 +149,4 @@ For Julian specifically, permanent remains the cleaner economic route because th
 - [[uk-150k-feasibility-report]]
 - [[uk-150k-feasibility-jh-clarifications-2026-07-09]]
 - [[target-role-profile]]
-- [[uk-relocation-status]]
+- [[uk-relocation-project]]

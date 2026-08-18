@@ -153,6 +153,6 @@ Ranked 1 (best) to 4 (worst) on each axis Julian has named:
 ## Links
 - [[uk-move-financial-model]] - canonical burn & runway (§0); this file derives from it and does not supersede it
 - [[financial-status-2026-07-07]] - balance sheet source
-- [[uk-relocation-status]] - project status surface
+- [[uk-relocation-project]] - project status surface
 - [[decision-journal]] - the committed decision + the TTI gate
 - [[engagement-history|stephan-engagements]] - the TTI call prep

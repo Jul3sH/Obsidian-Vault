@@ -5,7 +5,7 @@ tags: [relationships, sophia, schooling, malvern]
 
 # Schooling - Malvern Area
 
-Schools in and around Malvern for Sophia's education (Year 8 onwards), researched as part of the [[uk-relocation-status]] Malvern interim scenario.
+Schools in and around Malvern for Sophia's education (Year 8 onwards), researched as part of the [[uk-relocation-project]] Malvern interim scenario.
 
 ## Admissions Process
 
@@ -134,7 +134,7 @@ The family is in HK until **28 July**. Applying on return, or during the summer 
 
 ## ⚠ Risk E1 - late in-year application misses the Sept place
 
-> Raised 15 Jul after reading the Chase admission policy. Scored in the [[uk-relocation-status]] risk register's comparative format (Impact x Probability, 1-5, across the three options). A **new, significant** risk to the Malvern path.
+> Raised 15 Jul after reading the Chase admission policy. Scored in the [[uk-relocation-project]] risk register's comparative format (Impact x Probability, 1-5, across the three options). A **new, significant** risk to the Malvern path.
 
 - **Cause:** Family in HK until 28 Jul; Worcestershire processes standard in-year applications only after May half-term and advises applying mid-June; July / school-holiday applications carry "no guarantee" of processing for a September start.
 - **Event:** The in-year application lands too late to be processed for a 3 Sept 2026 start.
@@ -217,4 +217,4 @@ Source: [[malvern-state-schools-comparison]] - full Perplexity report with metri
 - [[hanley-castle-high-school]] - Hanley Castle standalone profile
 - [[sophia]] - Sophia's stakeholder profile and needs
 - [[schooling-sw19-area]] — SW19 London school options for comparison
-- [[uk-relocation-status]] — The relocation decision that anchors these choices
+- [[uk-relocation-project]] — The relocation decision that anchors these choices

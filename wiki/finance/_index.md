@@ -12,7 +12,7 @@ Covers personal financial management only: budgeting, savings strategies, invest
 ## Decisions
 > Logged in the [[decision-journal|Decision Journal]]; method in the [[decision-maker-profile|decision-making system]]. Decisions touching Finance:
 
-- [[uk-relocation-status|UK Relocation Project]] - cross-cutting; the money side is the [[uk-move-financial-model|"£100k bet" model]] and the [[financial-status-2026-07-07|current balance sheet]].
+- [[uk-relocation-project|UK Relocation Project]] - cross-cutting; the money side is the [[uk-move-financial-model|"£100k bet" model]] and the [[financial-status-2026-07-07|current balance sheet]].
 
 ## Systems
 - [[money-tracker|Money Tracker]] - Statement-to-categorised-spend pipeline; feeds the cash-flow neutrality goal

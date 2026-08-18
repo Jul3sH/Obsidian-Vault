@@ -148,7 +148,7 @@ All cashflow figures come from **row 177, labelled "Cashflow total"** in the Goo
 
 ## Related
 
-- [[uk-relocation-status|UK Relocation Project]] - the project this feeds
+- [[uk-relocation-project|UK Relocation Project]] - the project this feeds
 - [[uk-move-financial-model|UK Move Financial Model]] - runway and pot modelling (cashflow burn rates in section 0 superseded by Google Sheet)
 - [[malvern-permanent-feasibility-2026-07-14|Malvern Permanent Feasibility]] - rules out permanent-Malvern variants
 - [[uk-vs-hk-earning-comparison|UK vs HK Earning Comparison]] - salary band sources and tax differential

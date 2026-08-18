@@ -12,7 +12,7 @@ status-updated: 2026-08-18
 
 # UK Relocation Project - Status
 
-> Renamed 18 Aug 2026 from uk-relocation-decision.md (that name now belongs to the decision anchor file); project retitled UK Relocation Project.
+> Renamed 18 Aug 2026, twice: originally uk-relocation-decision.md (that name now belongs to the decision anchor file), briefly uk-relocation-status.md, now uk-relocation-project.md.
 
 ## Trusted Artifacts
 
@@ -144,7 +144,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 |---|---|---|
 | Decision control | [[decision-journal]] | Canonical committed decision, wobble log, and reopen status. |
 | Decision control | [[commitment-lock-protocol]] | F-N-M-T test for whether new evidence can formally reopen the committed decision. |
-| Decision control | [[uk-relocation-status]] | This project status surface and file map. |
+| Decision control | [[uk-relocation-project]] | This project status surface and file map. |
 | Decision workspace | [[uk-move/_index]] | Workspace index for the UK move decision arc, now structured as the BRAINED reading path plus later post-MOVE sub-decisions. |
 | Decision workspace | [[fable-review]] | 4 Jul hostile review of the primary move decision. |
 | Decision workspace | [[fable-review-london-vs-malvern]] | 7 Jul hostile review of London-direct vs Malvern-first. |

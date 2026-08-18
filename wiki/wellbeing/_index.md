@@ -10,7 +10,7 @@ tags: [wellbeing]
 ## Decisions
 > Logged in the [[decision-journal|Decision Journal]]; method in the [[decision-maker-profile|decision-making system]]. Decisions touching Wellbeing:
 
-- [[uk-relocation-status|UK Relocation Project]] — cross-cutting; the wellbeing dimension (leaving the HK home and lifestyle; HK vs UK healthcare).
+- [[uk-relocation-project|UK Relocation Project]] — cross-cutting; the wellbeing dimension (leaving the HK home and lifestyle; HK vs UK healthcare).
 
 ## Articles
 - [[alcohol-sleep-and-personal-state]] — How alcohol, sleep deprivation, and poor work-play separation quietly undermine performance, judgement, and relationships

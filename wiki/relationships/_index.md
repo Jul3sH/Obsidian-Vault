@@ -13,7 +13,7 @@ tags: [relationships]
 > Logged in the [[decision-journal|Decision Journal]]; method in the [[decision-maker-profile|decision-making system]]. Decisions touching Relationships:
 
 - [[decision-journal|Whether to stay with Hannah]] — reviewed; the founding commitment-failure lesson.
-- [[uk-relocation-status|UK Relocation Project]] — cross-cutting; its relationship dimension ([[sophia|Sophia]]'s schooling, [[joanne|Joanne]], [[clodagh|Clodagh]]).
+- [[uk-relocation-project|UK Relocation Project]] — cross-cutting; its relationship dimension ([[sophia|Sophia]]'s schooling, [[joanne|Joanne]], [[clodagh|Clodagh]]).
 
 ## Julian's views & people
 - [[relationship-views]] — Julian's own framework: what he wants (marriage, long-term companionship, short-term/casual), the stated-vs-revealed tension, and his marriage fears

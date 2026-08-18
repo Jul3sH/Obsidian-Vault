@@ -4,7 +4,7 @@ reviewer: Fable
 created: 2026-07-11
 authority-level: adversarial-review
 decision: UK Relocation - London-direct vs Malvern-first sub-decision, post job-data
-reviews: [uk-job-market-remote-hybrid-split-2026-07-11, cleared-defence-cyber-lane-assessment, adzuna-uk-job-market-data-source, uk-relocation-status, decision-journal, uk-move-financial-model, uk-150k-feasibility-report, target-role-profile, fable-review-malvern-reopen-2026-07-10, commitment-lock-protocol]
+reviews: [uk-job-market-remote-hybrid-split-2026-07-11, cleared-defence-cyber-lane-assessment, adzuna-uk-job-market-data-source, uk-relocation-project, decision-journal, uk-move-financial-model, uk-150k-feasibility-report, target-role-profile, fable-review-malvern-reopen-2026-07-10, commitment-lock-protocol]
 tags: [uk-relocation, fable-review, london-vs-malvern, job-market]
 ---
 
@@ -290,4 +290,4 @@ Stripping the hostility to what actually holds:
 
 ## Related
 
-[[fable-review-malvern-reopen-2026-07-10|Fable review 10 Jul (Malvern reopen)]] · [[uk-job-market-remote-hybrid-split-2026-07-11|The job-data report]] · [[cleared-defence-cyber-lane-assessment|Cleared-lane assessment]] · [[adzuna-uk-job-market-data-source|Adzuna source profile]] · [[uk-relocation-status|Project status surface]] · [[decision-journal|Decision Journal]] · [[commitment-lock-protocol|Commitment-Lock Protocol]] · [[uk-150k-feasibility-report|£150k feasibility report]] · [[uk-move-financial-model|Financial model S10]]
+[[fable-review-malvern-reopen-2026-07-10|Fable review 10 Jul (Malvern reopen)]] · [[uk-job-market-remote-hybrid-split-2026-07-11|The job-data report]] · [[cleared-defence-cyber-lane-assessment|Cleared-lane assessment]] · [[adzuna-uk-job-market-data-source|Adzuna source profile]] · [[uk-relocation-project|Project status surface]] · [[decision-journal|Decision Journal]] · [[commitment-lock-protocol|Commitment-Lock Protocol]] · [[uk-150k-feasibility-report|£150k feasibility report]] · [[uk-move-financial-model|Financial model S10]]
