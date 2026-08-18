@@ -23,12 +23,12 @@ All four must exist. Miss one → it is a *lean*, and leans may move freely.
 ## The Reopen Test (new material fact vs re-dressed fear)
 A locked decision may reopen **only** if a claim passes **all four gates**:
 
-| Gate | Ask | Fails if... |
-|---|---|---|
-| **F - Fact** | A verifiable external fact (event, number, document)? | It's "I feel / I worry / what if" |
-| **N - New** | Unknown *and not reasonably knowable* at lock time? | Knowable-but-unexamined = new *knowledge* → a working-session note, not a reopen |
-| **M - Material** | Would the lock-time analysis have concluded differently with it? | It changes the mood, not the verdict |
-| **T - Table** | Absent from the anchor doc's fear table? | Already in the table with its answer = the same fear re-dressed |
+| Gate             | Ask                                                              | Fails if...                                                                      |
+| ---------------- | ---------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| **F - Fact**     | A verifiable external fact (event, number, document)?            | It's "I feel / I worry / what if"                                                |
+| **N - New**      | Unknown *and not reasonably knowable* at lock time?              | Knowable-but-unexamined = new *knowledge* → a working-session note, not a reopen |
+| **M - Material** | Would the lock-time analysis have concluded differently with it? | It changes the mood, not the verdict                                             |
+| **T - Table**    | Absent from the anchor doc's fear table?                         | Already in the table with its answer = the same fear re-dressed                  |
 
 - **All four pass → legitimate reopen.** Book a session, put the fact in writing, re-run only the affected branch. (Precedent: *"if no acceptable school place is securable for Sept, the decision reopens on that fact alone"* - specific, external, falsifiable.)
 - **Any gate fails → it's the drift.** Re-read the anchor. Do nothing. Log one line.
