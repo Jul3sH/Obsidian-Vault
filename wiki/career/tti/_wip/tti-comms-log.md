@@ -47,7 +47,26 @@ renamed: 2026-07-17
 
 ## Justin Gilbert
 
+> ⚠ Name check (18 Aug): Julian's WhatsApp shows this contact as "Justin **Robinson**"; this log has used "Justin Gilbert" throughout. Surname to confirm with Julian and correct whichever is wrong.
+
 ---
+
+## ⏳ 18 Aug - JUSTIN: Ty sent a department headcount-reduction email overnight; Justin texting Stephan; call with Julian before 8am UK
+
+> **The Ty silence may now have a cause: restructuring in motion.** Julian vented to Justin about the 8-day silence; Justin revealed that "the predicated HC reduction e-mail came in last night from Ty" and said he was texting Stephan about the department there and then (two blue ticks - Stephan read it). Justin to call Julian before 8am UK. **The drafted Stephan chase (see Stephan section) is HELD until after that call.**
+
+**What happened (WhatsApp, 18 Aug, times UK):**
+- **Julian (6:20):** *"Still nothing from Ty. He said a couple of days originally, it's now 8 days. I'm supposed to be flying Monday. wtf are they doing!"*
+- **Justin (6:41):** *"Texting Stephan now on department as the predicated HC reduction e-mail came in last night from Ty!"* / *"I got two blue ticks"*
+- **Julian (6:47):** *"Is my timing terrible!"*
+- **Justin (6:51):** *"Call you later before 8am?"* - Julian agreed.
+
+**Strategic read:**
+- **Ty issuing a headcount-reduction email overnight is the first concrete explanation for the silence:** he is mid-restructure, not sitting on his hands. Two readings, both open: (a) the restructure and the "assessment" of Julian's proposal are parts of the same "straightening out IT" move (flagged as on TTI's to-do list back on 3 Aug), in which case the silence is Ty sequencing an announcement before an engagement; (b) a cost-cutting climate is exactly when a ~US$300k consulting line gets squeezed. Neither is evidenced yet - do not act on either alone.
+- **Julian's own instinct, logged as the operative decision: do NOT risk getting Ty's back up if Ty is busy trying to make it happen.** This tightens the bar for any chase this week: soft, via Stephan, and informed by whatever Justin learns first.
+- **Justin has fired the in-the-room lever again** (the channel that moved things on 7 Aug), and Stephan has read his text. Stephan may already be engaged before Julian's held message even goes.
+
+**NEXT:** take Justin's call (before 8am UK); get (1) whether the HC reduction touches the Asia tech org the engagement would sit in, (2) whether Stephan replied to Justin's text and what he said, (3) any read on whether the assessment is tied to the restructure. Then decide: send the held Stephan message as-is, soften it, or stand down because Stephan is already moving.
 
 ## ✅ 8 Aug - JUSTIN ON RATES: Julian's salary likely sits above even Tony Chung's senior team
 
@@ -342,6 +361,22 @@ renamed: 2026-07-17
 ## Stephan Pudwill
 
 ---
+
+## ⏸ 18 Aug - DRAFTED, HELD: ping-Stephan escalation (the route he offered 11 Aug), held pending Justin's morning call
+
+> **Drafted 18 Aug after 8 days of Ty silence, using the corrected 11 Aug instruction (ping Stephan, not Ty). HELD, not sent:** minutes after drafting, Justin revealed Ty sent a department headcount-reduction email overnight and that he was texting Stephan himself (see the 18 Aug Justin entry). Julian is waiting for Justin's read before deciding whether this goes as-is, softened, or not at all - his stated concern being not to get Ty's back up if Ty is mid-restructure trying to make the engagement happen.
+
+**The held draft:**
+
+> Hi Stephan, hope the Korea trip is going well. You mentioned to ping you if I didn't hear from Ty within a couple of days. It's now been over a week since he told me a decision was that close. I checked in with him on Thursday and he advised "We are doing an assessment. We'll get back to you shortly", but nothing has come since.
+>
+> Things are getting very tight as our flights are Monday to give us a few days to get Sophia ready for school. I can't get on it without a reasonable indication the engagement is going ahead. Friday evening I'm with Sophia at an event in London, so today and tomorrow are realistically all I have left to sort out whatever needs sorting.
+>
+> Would you be willing to ping Ty just to enquire where it's at? I don't want to get his back up, but I do need to be sure he genuinely understands the urgency. If there's a snag then it would be good to understand so I can consider the impact. Happy to jump on a call any time today.
+
+**Drafting decisions (18 Aug):** opening uses Stephan's own 11 Aug "ping me" instruction so the message is invited, not a chase to justify; Ty's 13 Aug reply quoted verbatim so Stephan carries the word "assessment" into his prompt; "reasonable indication" not "guarantee" (an indication is deliverable this week, a guarantee sets Stephan up to fail); "so I can consider the impact" keeps consequence visible without drama; the enquiry is framed as Stephan's own casual check so it does not read as Julian pushing.
+
+**NEXT:** after Justin's call, decide send / soften / stand down, and update this entry.
 
 ## ✅ 11 Aug - STEPHAN FOLLOWED UP: WhatsApp check-in then a 20-minute call; actively invested and offered himself as the escalation route if Ty goes quiet
 
