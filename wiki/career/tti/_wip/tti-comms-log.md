@@ -66,7 +66,13 @@ renamed: 2026-07-17
 - **Julian's own instinct, logged as the operative decision: do NOT risk getting Ty's back up if Ty is busy trying to make it happen.** This tightens the bar for any chase this week: soft, via Stephan, and informed by whatever Justin learns first.
 - **Justin has fired the in-the-room lever again** (the channel that moved things on 7 Aug), and Stephan has read his text. Stephan may already be engaged before Julian's held message even goes.
 
-**NEXT:** take Justin's call (before 8am UK); get (1) whether the HC reduction touches the Asia tech org the engagement would sit in, (2) whether Stephan replied to Justin's text and what he said, (3) any read on whether the assessment is tied to the restructure. Then decide: send the held Stephan message as-is, soften it, or stand down because Stephan is already moving.
+**NEXT:** ~~take Justin's call~~ ✅ happened (see update below). Decision: send the revised Stephan message.
+
+**✅ Update - the Justin call happened (18 Aug, before 8am UK):**
+- **The headcount reduction hit Justin's own department.** He has web developers who realistically should sit within IT. (Julian's recollection: the HC cut itself is small - roughly one head - the org question is the bigger move.)
+- **The bigger disclosure: Ty wants to know what everybody does.** An activity/role mapping across the org, not just a trim.
+- **Strategic read:** "Ty wants to know what everybody does" and Ty's 13 Aug "we are doing an assessment" are plausibly the same exercise - an org review of roles and structure before deciding how to fix IT. If so, the silence is structural (a review takes time), and the exercise itself is exactly the kind of work an architecture/governance function exists to do - the review could be building the case for Julian's engagement, not competing with it. This is why Julian is deliberately keeping all pressure off Ty. Counter-clock risk: an org review runs on a longer timeline than Julian's Monday flight, which makes surfacing the deadline through Stephan MORE necessary, not less.
+- **⚠ Guardrail attached to the Stephan send:** Julian knows about the HC email and the "what everybody does" review only via Justin. The Stephan message must contain nothing about the restructure, and nothing that could lead Stephan to tell Ty "Julian heard about the reorg" - that would expose Justin as the side channel. The revised draft is clean on this; keep it that way in any follow-up too.
 
 ## ✅ 8 Aug - JUSTIN ON RATES: Julian's salary likely sits above even Tony Chung's senior team
 
@@ -362,21 +368,23 @@ renamed: 2026-07-17
 
 ---
 
-## ⏸ 18 Aug - DRAFTED, HELD: ping-Stephan escalation (the route he offered 11 Aug), held pending Justin's morning call
+## ✅ SENT 18 Aug - PING-STEPHAN ESCALATION: the route he offered 11 Aug; casual Ty enquiry requested, Monday flight named as the hard clock
 
-> **Drafted 18 Aug after 8 days of Ty silence, using the corrected 11 Aug instruction (ping Stephan, not Ty). HELD, not sent:** minutes after drafting, Justin revealed Ty sent a department headcount-reduction email overnight and that he was texting Stephan himself (see the 18 Aug Justin entry). Julian is waiting for Justin's read before deciding whether this goes as-is, softened, or not at all - his stated concern being not to get Ty's back up if Ty is mid-restructure trying to make the engagement happen.
+> **Drafted after 8 days of Ty silence, using the corrected 11 Aug instruction (ping Stephan, not Ty); briefly held while Justin's morning call landed (see the 18 Aug Justin entry - Ty's overnight HC-reduction email and the "Ty wants to know what everybody does" review), then sent same morning.** The Justin intel firmed the decision to send: if the assessment is an org review, it runs on a weeks clock against Julian's days clock, and this message is the only mechanism that puts the Monday deadline into the room without touching Ty.
 
-**The held draft:**
+**Sent (18 Aug):**
 
-> Hi Stephan, hope the Korea trip is going well. You mentioned to ping you if I didn't hear from Ty within a couple of days. It's now been over a week since he told me a decision was that close. I checked in with him on Thursday and he advised "We are doing an assessment. We'll get back to you shortly", but nothing has come since.
+> Hi Stephan, hope the Korea trip is going well. You mentioned to ping you if I didn't get a decision from Ty within a couple of days. I checked in with him on Thursday and he advised "We are doing an assessment. We'll get back to you shortly", but nothing has come since.
 >
-> Things are getting very tight as our flights are Monday to give us a few days to get Sophia ready for school. I can't get on it without a reasonable indication the engagement is going ahead. Friday evening I'm with Sophia at an event in London, so today and tomorrow are realistically all I have left to sort out whatever needs sorting.
+> Things are getting very tight as our flights are Monday to give us a few days to get Sophia ready for school. I can't get on it without a reasonable indication the engagement is going ahead.
 >
-> Would you be willing to ping Ty just to enquire where it's at? I don't want to get his back up, but I do need to be sure he genuinely understands the urgency. If there's a snag then it would be good to understand so I can consider the impact. Happy to jump on a call any time today.
+> Would you be willing to ping Ty just to enquire where it's at? I don't want to get his back up, but I do need to be sure he genuinely understands the urgency. If there's a snag then it would be good to understand so I can consider the impact.
 
-**Drafting decisions (18 Aug):** opening uses Stephan's own 11 Aug "ping me" instruction so the message is invited, not a chase to justify; Ty's 13 Aug reply quoted verbatim so Stephan carries the word "assessment" into his prompt; "reasonable indication" not "guarantee" (an indication is deliverable this week, a guarantee sets Stephan up to fail); "so I can consider the impact" keeps consequence visible without drama; the enquiry is framed as Stephan's own casual check so it does not read as Julian pushing.
+**Drafting decisions (18 Aug):** opening uses Stephan's own 11 Aug "ping me" instruction so the message is invited, not a chase to justify; "didn't get a decision" (Julian's edit) re-anchors Stephan on what Ty promised, not just contact; Ty's 13 Aug reply quoted verbatim so Stephan carries the word "assessment" into his prompt; "reasonable indication" not "guarantee" (an indication is deliverable this week, a guarantee sets Stephan up to fail); "so I can consider the impact" keeps consequence visible without drama; the enquiry framed as Stephan's own casual check so Ty feels no push from Julian. **Cut by Julian from earlier drafts:** the "over a week" grievance line, the Friday-London-event time-compression line, and the call offer - accepted trade-off is a softer runway read (Stephan may assume until-the-weekend rather than today-and-tomorrow).
 
-**NEXT:** after Justin's call, decide send / soften / stand down, and update this entry.
+**⚠ Guardrail on this thread:** the message contains nothing about the HC email or the org review, and no follow-up may either - Julian knows those only via Justin. If Stephan volunteers restructure news, Julian reacts to it as new information.
+
+**NEXT:** watch for Stephan's reply and for any Ty-side movement it produces. If Stephan comes back with a timeline that runs past Monday, the decision moves to Julian's side: what counts as a "reasonable indication" to board the flight on. If nothing from Stephan by tomorrow (Wed 19) morning UK, that silence is itself the signal to weigh - one day would then remain.
 
 ## ✅ 11 Aug - STEPHAN FOLLOWED UP: WhatsApp check-in then a 20-minute call; actively invested and offered himself as the escalation route if Ty goes quiet
 
