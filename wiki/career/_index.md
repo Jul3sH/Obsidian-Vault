@@ -10,7 +10,7 @@ tags: [career]
 ## Decisions
 > Logged in the [[decision-journal|Decision Journal]]; method in the [[decision-maker-profile|decision-making system]]. Decisions touching Career:
 
-- [[uk-relocation-decision|UK Relocation Decision]] — cross-cutting; the geography and UK-job-market dimension.
+- [[uk-relocation-status|UK Relocation Project]] — cross-cutting; the geography and UK-job-market dimension.
 - Opportunity-level decisions live in their folders: [[CLSA/_index|CLSA]] · [[shl/_index|SHL]] · [[tti/_index|TTI]].
 
 ## Positioning

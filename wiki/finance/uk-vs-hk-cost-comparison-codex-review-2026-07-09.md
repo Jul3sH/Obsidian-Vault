@@ -158,7 +158,7 @@ Under the F-N-M-T test:
 - [[uk-150k-feasibility-report]]
 - [[decision-journal]]
 - [[commitment-lock-protocol]]
-- [[uk-relocation-decision]]
+- [[uk-relocation-status]]
 - [[clodagh]]
 - Merton Council Tax Demand 2023/2024, supplied PDF: 48 Cecil Road, SW19 1JP, Band E, 2023/24 annual total £2,302.45. Current estimate uses Merton 2026/27 Band E charges below.
 - Merton Council Tax charges 2026/27: https://www.merton.gov.uk/council-tax-benefits-and-housing/council-tax/council-tax-charges-and-bands

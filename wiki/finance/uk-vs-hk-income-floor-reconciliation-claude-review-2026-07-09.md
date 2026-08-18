@@ -111,4 +111,4 @@ The prompt asks which way the residual lean goes. **The scenario rows lean pro-m
 - [[uk-vs-hk-income-floor-reconciliation-claude-review-prompt]] - the prompt run
 - [[uk-move-financial-model]] · [[uk-vs-hk-cost-comparison]] · [[london-monthly-budget]]
 - [[uk-vs-hk-earning-comparison]] - the published head-to-head this reconciliation feeds
-- [[uk-relocation-decision]] · [[multi-agent-protocol]]
+- [[uk-relocation-status]] · [[multi-agent-protocol]]

@@ -1,7 +1,7 @@
 ---
 type: decision-support
 created: 2026-08-04
-project: uk-relocation-decision
+project: uk-relocation-status
 source: UK Relocation Risks Google Sheet
 ---
 
@@ -9,7 +9,7 @@ source: UK Relocation Risks Google Sheet
 
 High-level, high-impact benefits and risks distilled from the `UK Relocation Risks` Google Sheet, `Risks` tab, rows 1-132, then enriched from the wider `uk-move` BRAINED workspace.
 
-Related: [[uk-relocation-decision]], [[benefits]], [[risks]], [[fable-review-unknowns]], [[uk-relocation-benefits-register-2026-07-16]], [[uk-move-financial-model]], [[sw19-schools-london]], [[uk-job-market-remote-hybrid-split-2026-07-11]].
+Related: [[uk-relocation-status]], [[benefits]], [[risks]], [[fable-review-unknowns]], [[uk-relocation-benefits-register-2026-07-16]], [[uk-move-financial-model]], [[sw19-schools-london]], [[uk-job-market-remote-hybrid-split-2026-07-11]].
 
 ## Key Takeaways
 

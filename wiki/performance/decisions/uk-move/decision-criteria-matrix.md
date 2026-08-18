@@ -64,6 +64,6 @@ Each scored cell carries a one-line rationale. Criteria are ordered by workstrea
 3. Weights per criterion (Finance cash-burn/cashflow + Wellbeing schooling flagged heaviest so far).
 
 ## Links
-- [[uk-relocation-decision]] - the project this serves
+- [[uk-relocation-status]] - the project this serves
 - [[uk-move-decision-risk-register-2026-07-12.xlsx|Risk register (.xlsx snapshot)]] + the live Google Sheet (Decision Matrix will be a tab in it)
 - [[risk-framework|Risk Framework and Methodology]] - the sibling method for the downside surface

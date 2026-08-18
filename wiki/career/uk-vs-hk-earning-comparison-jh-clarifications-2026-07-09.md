@@ -177,4 +177,4 @@ The final strategic position:
 - [[uk-vs-hk-cost-comparison]]
 - [[uk-move-financial-model]]
 - [[financial-status-2026-07-07]]
-- [[uk-relocation-decision]]
+- [[uk-relocation-status]]

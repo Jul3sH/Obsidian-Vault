@@ -256,7 +256,7 @@ current. This is a recurring failure mode. To prevent it:
 - **Reference implementation (UK Relocation Decision):** [[uk-move-financial-model]] `§0` is the
   authoritative money surface (burn, pot, runway for Stay HK / London-direct / Malvern interim);
   all other UK-move finance docs feed it. The project is being consolidated (from ~30 scattered
-  files) to **four hubs** referenced from `wiki/projects/uk-relocation-decision.md`:
+  files) to **four hubs** referenced from `wiki/projects/uk-relocation-status.md`:
   (1) the financial model, (2) `job-market-analysis`, (3) `decision-register`
   (decision journal + criteria matrix merged), and (4) a RAID register. Everything else is a
   Tier-3 supporting doc referenced only from inside its parent hub, or archived if superseded.

@@ -122,4 +122,4 @@ Corrected as of the Claude hostile review (2026-07-09), then updated 2026-07-10 
 - [[uk-vs-hk-cost-comparison]]
 - [[london-monthly-budget]]
 - [[uk-vs-hk-earning-comparison]]
-- [[uk-relocation-decision]]
+- [[uk-relocation-status]]

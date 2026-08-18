@@ -252,4 +252,4 @@ So this clarification weakens any "UK £150k is easy" story. It does not yet pro
 - [[uk-ir35-contracting-feasibility-2026]]
 - [[uk-vs-hk-earning-comparison]]
 - [[target-role-profile]]
-- [[uk-relocation-decision]]
+- [[uk-relocation-status]]

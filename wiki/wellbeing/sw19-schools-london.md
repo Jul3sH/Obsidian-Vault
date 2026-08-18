@@ -6,7 +6,7 @@ tags: [wellbeing, education, london, sophia, wimbledon]
 
 # SW19 Secondary Schools - London Scenario
 
-State secondary school landscape for Sophia under the **Move to London** scenario in the [[uk-relocation-decision|UK Relocation Decision]]. Researched July 2026 to fill the "Assumptions vs supporting evidence" cells on the SW19 school-admission risk rows in the risk register.
+State secondary school landscape for Sophia under the **Move to London** scenario in the [[uk-relocation-status|UK Relocation Project]]. Researched July 2026 to fill the "Assumptions vs supporting evidence" cells on the SW19 school-admission risk rows in the risk register.
 
 ## Key Takeaways
 - **Raynes Park is a safe fallback:** not oversubscribed in 2024-25, so any Merton Borough address makes a place near-certain. It is a step down academically but has strong sport (FA Charter Standard, Fulham FC partnership).
@@ -65,7 +65,7 @@ If Sophia misses all 4 Merton schools (very low probability with a Merton addres
 | 6 | Contact schools this week to check in-year vacancy position |
 
 ## Links
-- [[uk-relocation-decision|UK Relocation Decision]] - Move to London scenario
+- [[uk-relocation-status|UK Relocation Project]] - Move to London scenario
 - [[sophia]] - stakeholder profile
 - [[sophia-malvern-activities]] - clubs and activities if Move to Malvern
 

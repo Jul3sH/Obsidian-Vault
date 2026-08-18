@@ -120,4 +120,4 @@ HK's landing probability for a well-paid role is dragged down by: the cooling ma
 - [[target-role-profile|Target-Role Profile]] — candidate + role definition
 - [[uk-vs-hk-cost-comparison|Test A: UK vs HK cost comparison]] — the cost side (≈ wash)
 - [[uk-move-financial-model|UK Move Financial Model]] — the ~45-50% P(large HK role) breakeven
-- [[uk-relocation-decision|UK Relocation Decision]] — the committed decision this informs
+- [[uk-relocation-status|UK Relocation Project]] — the committed decision this informs

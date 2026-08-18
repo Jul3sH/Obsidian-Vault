@@ -152,5 +152,5 @@ When updating numbers:
 ## Related
 
 - [[uk-relocation-cashflows]] - Source of truth for all figures, assumptions, and model workings
-- [[uk-relocation-decision]] - The project this feeds
+- [[uk-relocation-status]] - The project this feeds
 - [[uk-move-financial-model]] - Runway and pot modelling (burn rates in section 0 superseded by the Relocation Cash Flows sheet)

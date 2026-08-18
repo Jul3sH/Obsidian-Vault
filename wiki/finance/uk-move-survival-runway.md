@@ -44,5 +44,5 @@ tags: [finance, uk-relocation, runway, survival]
 
 ## Related
 - [[uk-move-financial-model]] §0 - the canonical burn and runway summary (source of these figures)
-- [[uk-relocation-decision]] - project status
+- [[uk-relocation-status]] - project status
 - [[uk-relocation-fable-consistency-review-2026-07-13]] - the review that validated §0

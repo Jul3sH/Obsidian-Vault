@@ -10,7 +10,7 @@ created: 2026-07-08
 Working scope for the parked funnel idea: give [[sophia|Sophia]] a usable way to
 practise responding to UK-style banter, coaching her toward a small set of
 rehearsed "stay cool, don't take the bait" moves ahead of the
-[[uk-relocation-decision|UK move]]. Parked in [[funnel|the project funnel]] under
+[[uk-relocation-status|UK move]]. Parked in [[funnel|the project funnel]] under
 Relationships.
 
 ## Objective and scope guardrail
@@ -165,5 +165,5 @@ safeguarding rule is non-negotiable in all of them.
 
 - **Idea record:** [[funnel|Project Funnel]] (Relationships)
 - **Stakeholder:** [[sophia|Sophia]] (personality, RSD pattern, social world)
-- **Context:** [[uk-relocation-decision|UK Relocation Decision]]
+- **Context:** [[uk-relocation-status|UK Relocation Project]]
 - **Related skill:** staying calm - [[performance/working-with-yourself/never-react-walk-away-and-be-calculated|Never react, walk away, be calculated]]

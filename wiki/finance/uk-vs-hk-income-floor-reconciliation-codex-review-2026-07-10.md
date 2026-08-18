@@ -154,4 +154,4 @@ Do not restore "HK has no cheap floor." That statement remains unsupported by th
 - [[uk-vs-hk-cost-comparison]]
 - [[london-monthly-budget]]
 - [[uk-150k-feasibility-jh-clarifications-2026-07-09]]
-- [[uk-relocation-decision]]
+- [[uk-relocation-status]]

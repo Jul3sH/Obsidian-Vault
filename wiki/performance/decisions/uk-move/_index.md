@@ -11,7 +11,7 @@ Decision-explicit material for the UK relocation decision. Read this folder as a
 ## Canonical Record
 
 - [[decision-journal|Decision Journal]] - canonical decision record for the "Whether to move back to the UK" entry: framing, deadline, branches, committed choice, wobble log, and review.
-- [[uk-relocation-decision]] - project status surface and file map for the wider relocation project.
+- [[uk-relocation-status]] - project status surface and file map for the wider relocation project.
 
 ## 0. Framework Choice
 

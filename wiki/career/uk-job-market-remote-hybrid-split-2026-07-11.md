@@ -233,7 +233,7 @@ For the stated goal - a **high-paid permanent role with medical + life insurance
 
 **The one honest Malvern-viable path:** pivot into the **SC/DV-cleared defence-cyber cluster** (Cheltenham GCHQ, QinetiQ/DSTL Malvern, Bristol). It is UK-protected, pays well, and Julian is clearable - but it is **contract**, needs clearance he does not yet hold, and forgoes the perm benefits package. That is a deliberate, narrower bet, not the default "run my search remotely from a cheaper base."
 
-This sharpens the income/geography arm of the pre-agreed reopen condition; it does not by itself reopen the [[uk-relocation-decision|relocation decision]] (see [[commitment-lock-protocol]]). Current reading: London is where his *stated* target role concentrates; Malvern is viable only if he changes the target (cleared contract).
+This sharpens the income/geography arm of the pre-agreed reopen condition; it does not by itself reopen the [[uk-relocation-status|relocation decision]] (see [[commitment-lock-protocol]]). Current reading: London is where his *stated* target role concentrates; Malvern is viable only if he changes the target (cleared contract).
 
 ---
 
@@ -290,7 +290,7 @@ Net: **counts and employer-stated salaries are hard data from live postings**; t
 
 - [[target-role-profile|Career Target-Role Profile]] - the taxonomy and positioning this pull was run against
 - [[uk-150k-feasibility-report|UK £150k Feasibility Report]] - corroborated and extended by this geography/remote layer (linked from its Competition section)
-- [[uk-relocation-decision|UK Relocation Decision]] - the project this informs (London-direct vs Malvern-first sub-decision)
+- [[uk-relocation-status|UK Relocation Project]] - the project this informs (London-direct vs Malvern-first sub-decision)
 - [[uk-vs-hk-earning-comparison|UK vs HK Earning Comparison]] - the income head-to-head
 - [[master-resume|Master Resume]] - credential stack (CCIE + CISSP + TOGAF + AWS SA + SASE + presales + leadership)
 - [[commitment-lock-protocol|Commitment-Lock Protocol]] - governs whether this evidence reopens the locked decision

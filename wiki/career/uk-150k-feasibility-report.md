@@ -202,6 +202,6 @@ The figures above are as good as desk research gets; these are the holes a recru
 - [[master-resume|Master Resume]] - the evidence base
 - [[uk-150k-feasibility-jh-clarifications-2026-07-09|UK £150k Feasibility - JH Clarifications]] - answers Julian's follow-up questions and adds inside-IR35 net figures
 - [[uk-ir35-contracting-feasibility-2026|UK IR35 Contracting Feasibility 2026]] - separate IR35 note for contract-route validation
-- [[uk-relocation-decision|UK Relocation Decision]] - the committed decision this sharpens the income arm of
+- [[uk-relocation-status|UK Relocation Project]] - the committed decision this sharpens the income arm of
 - [[income-portability|Income Portability]] - the remote-consulting income insight (complementary)
 - [[uk-senior-architecture-jobs-q3-2026-briefing.html|UK Senior Architecture Jobs Briefing (4 Jul)]] - the earlier Storm briefing this supersedes on the £150k question
