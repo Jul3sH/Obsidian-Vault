@@ -5,7 +5,7 @@ workstream: career
 hours: 3h
 created: 2026-06-30
 status: queued
-jira-key: BWS-20
+jira-key: BWS-52
 ---
 
 # CLSA Deputy CIO — Operational Risk Talking Point

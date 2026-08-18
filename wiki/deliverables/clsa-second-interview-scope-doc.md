@@ -5,7 +5,7 @@ workstream: career
 hours: 1h
 created: 2026-06-30
 status: queued
-jira-key: BWS-19
+jira-key: BWS-51
 ---
 
 # CLSA Second Interview — MoSCoW Scope Doc

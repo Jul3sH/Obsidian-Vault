@@ -5,6 +5,7 @@ size: 1
 hours: 1-4h
 created: 2026-06-10
 status: declined
+jira-key: BWS-60
 ---
 
 # SHL - Solution Architect

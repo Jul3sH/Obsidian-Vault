@@ -5,7 +5,7 @@ size: 3
 hours: 16h
 created: 2026-05-06
 status: queued
-jira-key: BWS-3
+jira-key: BWS-54
 ---
 
 # Run Campaign & Measure

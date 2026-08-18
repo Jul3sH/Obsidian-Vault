@@ -5,7 +5,7 @@ size: 2
 hours: 5–8h
 created: 2026-05-18
 status: queued
-jira-key:
+jira-key: BWS-57
 ---
 
 # Lead Creation

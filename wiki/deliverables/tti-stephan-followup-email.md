@@ -6,7 +6,7 @@ hours: 1h
 created: 2026-07-22
 status: done
 completed: 2026-08-05
-jira-key: BWS-39
+jira-key: BWS-46
 ---
 
 # TTI Stephan Follow-Up Email

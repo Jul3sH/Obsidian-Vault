@@ -5,7 +5,7 @@ workstream: career
 hours: 2h
 created: 2026-07-23
 status: done
-jira-key: BWS-40
+jira-key: BWS-42
 ---
 
 # TTI Kari Scenario Prep

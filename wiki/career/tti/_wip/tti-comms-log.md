@@ -109,13 +109,19 @@ renamed: 2026-07-17
 
 ---
 
-## ✅ SENT 13 Aug - FIRST DIRECT CHASE TO TY: warm check-in, no urgency restated
+## ✅ SENT 13 Aug - FIRST DIRECT CHASE TO TY: warm check-in, no urgency restated; Ty replied same day: "We are doing an assessment. We'll get back to you shortly."
 
-> **Sent Thursday 13 Aug, after the "couple of days" window from the Monday call passed with no word from Ty or the cybersecurity lead.** Pre-cleared by Stephan on 11 Aug ("if nothing happens in the next couple of days, message him"), so this is an authorised chase, not an escalation around him.
+> **Sent Thursday 13 Aug, after the "couple of days" window from the Monday call passed with no word from Ty or the cybersecurity lead.** At the time this was believed pre-cleared by Stephan on 11 Aug ("if nothing happens in the next couple of days, message him"). **⚠ Corrected 18 Aug: Stephan meant message *him* (Stephan), not Ty** - so this chase went out on a misreading of the route. No harm done: it landed without friction and produced a same-day reply from Ty.
 
 **Sent (13 Aug):**
 
 > Hey Ty, just a quick check-in to see if there's anything you need from me at this point to help with the progression.
+
+**Ty's reply (13 Aug, verbatim):**
+
+> We are doing an assessment. We'll get back to you shortly.
+
+**Read on the reply (logged 18 Aug):** confirms the proposal is under active review ("assessment" fits the 10-11 Aug picture of "a couple of people looking into it", including the cybersecurity lead), but attaches no date - exactly the accepted trade-off flagged below when the urgency line was cut. "Shortly" then ran into a second silence: nothing from Ty or the cybersecurity lead by 18 Aug, over a week on from the 10 Aug "decision in the next couple of days".
 
 **Why this shape (drafting decisions, 13 Aug):**
 - **The urgency line was deliberately dropped.** A second sentence restating the school-deadline clock was drafted and cut: Julian raised the urgency on the Monday call itself and Ty absorbed it without friction ("this is what we do"), so restating it three days later risked reading as hassling. The check-in does the reminding job just by arriving. Consistent with the graduated-chase-tone rule: open warm, escalate only if silence continues.
@@ -123,7 +129,7 @@ renamed: 2026-07-17
 - **A Stephan-first alternative ("should I chase him or would you ping him?") was considered and dropped** - Stephan had already answered that question on 11 Aug; re-asking would reopen it and burn a day waiting on his reply.
 - **Accepted trade-off:** this shape lets Ty reply "nothing needed, will revert" with no date attached. If that comes back, or silence continues into next week, the timing line earns its place then, with Stephan's backing already in hand.
 
-**NEXT:** watch for Ty's reply. If silence continues into next week, escalate with the timing line (school-decision deadline, steer-on-timing ask) and consider a Stephan heads-up.
+**NEXT (updated 18 Aug):** Ty replied same day (above) but "shortly" has produced nothing since. Escalation now goes through Stephan, the route he actually offered on 11 Aug: ping him, have him prompt Ty from inside, with the Monday flight as the hard clock. Message drafted 18 Aug (see Stephan section).
 
 ---
 
@@ -337,9 +343,11 @@ renamed: 2026-07-17
 
 ---
 
-## ✅ 11 Aug - STEPHAN FOLLOWED UP: WhatsApp check-in then a 20-minute call; actively invested and coaching Julian to chase Ty directly if silence continues
+## ✅ 11 Aug - STEPHAN FOLLOWED UP: WhatsApp check-in then a 20-minute call; actively invested and offered himself as the escalation route if Ty goes quiet
 
-> **Stephan checked in twice on Tuesday 11 Aug - first by WhatsApp, then a 20-minute phone call.** On the call he asked whether Julian had folded his "ad hoc projects" suggestion into the proposal (see the 9-10 Aug entry below); Julian confirmed yes and thanked him for the idea, which visibly fed Stephan's sense of being invested in the outcome, not just relaying it. Stephan recounted that he had personally thanked Ty before heading off to Korea, and - the most material line - **told Julian directly: if nothing happens in the next couple of days, message Ty yourself.** This is Stephan actively coaching a chase, not just passively waiting to be asked. Personal note: Sophia successfully collected from Ireland (Clodagh nearly u-turned).
+> **⚠ Corrected 18 Aug (Julian):** Stephan's "if nothing happens in the next couple of days, message him" meant **message Stephan himself**, not Ty. This entry originally logged it as permission to chase Ty directly, and the 13 Aug direct chase to Ty was sent on that misreading (it landed without friction and Ty replied, see the 13 Aug entry). The intended route was: no word from Ty in a couple of days, ping Stephan so he can prompt from inside.
+
+> **Stephan checked in twice on Tuesday 11 Aug - first by WhatsApp, then a 20-minute phone call.** On the call he asked whether Julian had folded his "ad hoc projects" suggestion into the proposal (see the 9-10 Aug entry below); Julian confirmed yes and thanked him for the idea, which visibly fed Stephan's sense of being invested in the outcome, not just relaying it. Stephan recounted that he had personally thanked Ty before heading off to Korea, and - the most material line - **told Julian directly: if nothing happens in the next couple of days, message him (meaning Stephan himself; corrected 18 Aug, see callout above).** This is Stephan volunteering to manage the chase from inside, not just passively waiting to be asked. Personal note: Sophia successfully collected from Ireland (Clodagh nearly u-turned).
 
 **What happened (WhatsApp, 11 Aug, times as sent):**
 - **Stephan (1:18am):** *"Did you speak with Ty?"*
@@ -349,15 +357,15 @@ renamed: 2026-07-17
 **The follow-up phone call (Tue 11 Aug morning, ~20 minutes):**
 - Stephan asked whether Julian had added the ad hoc-projects line to the proposal as he'd suggested on 9-10 Aug. Julian confirmed yes and thanked him, telling him it was a genuinely good idea - Stephan visibly appreciated being told his input was used, which is reinforcing his sense of investment in helping the cause.
 - Stephan recounted he had said "thank you" to Ty directly before Ty/Stephan headed off (Stephan to Korea) - he is following up with Ty on his own initiative, not only relaying Julian's questions.
-- **Stephan's instruction: "if nothing happens in the next couple of days, message him [Ty]."** He is actively managing the chase, telling Julian to go direct to Ty rather than routing everything back through Stephan.
+- **Stephan's instruction: "if nothing happens in the next couple of days, message him [Stephan himself - corrected 18 Aug]."** He is volunteering to be the escalation route: if Ty goes quiet, Julian pings Stephan and Stephan prompts from inside.
 
 **Strategic read:**
 - **"A couple of people looking into it" is now understood** (see the 10 Aug evening Ty-call entry above): at minimum the cybersecurity lead Ty is forwarding the proposal to. Stephan's 9-10 Aug "quick decision" assurance is not contradicted, just working through an extra step.
-- **Stephan telling Julian to message Ty directly if nothing happens is a strong, proactive signal** - a risk-averse relay-only contact volunteering escalation permission in advance is new. Worth using without hesitation if the couple of days pass with no word; no need to check back with Stephan first.
+- **Stephan pre-offering himself as the escalation route is a strong, proactive signal** - a risk-averse relay-only contact inviting the chase back to himself in advance is new. It means going back to Stephan when Ty goes quiet is invited, not hassling. (Corrected 18 Aug: originally read as permission to chase Ty directly.)
 - **Crediting Stephan for his suggestions (ad hoc projects) in the moment is working as advocacy fuel** - he is not just carrying messages, he is now personally invested in specific content landing. Worth continuing deliberately: tell him what of his input was used, when it was used.
 - **"Answer in the next couple of days" from 11 Aug puts the expected response window at roughly 12-13 Aug** - i.e. now/imminent as of today.
 
-**NEXT:** watch for Ty's answer (expected by ~13 Aug per this message); if nothing has come by then, message Ty directly - pre-cleared by Stephan, no need to loop back through him first.
+**NEXT:** watch for Ty's answer (expected by ~13 Aug per this message); if nothing has come by then, ping Stephan so he can prompt from inside (route corrected 18 Aug; the chase actually sent 13 Aug went to Ty on the original misreading).
 
 ---
 

@@ -6,7 +6,7 @@ size: 1
 hours: 1-4h
 created: 2026-06-18
 status: queued
-jira-key: BWS-12
+jira-key: BWS-50
 ---
 
 # GenAI SA Recruiter Validation

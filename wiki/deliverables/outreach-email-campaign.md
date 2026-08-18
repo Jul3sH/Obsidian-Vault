@@ -5,7 +5,7 @@ size: 3
 hours: 9–16h
 created: 2026-05-18
 status: queued
-jira-key:
+jira-key: BWS-58
 ---
 
 # Email Campaign

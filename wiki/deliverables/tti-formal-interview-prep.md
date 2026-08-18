@@ -5,7 +5,7 @@ workstream: career
 hours: 2h
 created: 2026-07-23
 status: queued
-jira-key: BWS-41
+jira-key: BWS-45
 ---
 
 # TTI Formal Interview Prep

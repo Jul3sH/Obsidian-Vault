@@ -6,7 +6,7 @@ size: 2
 hours: 5-8h
 created: 2026-06-17
 status: queued
-jira-key: BWS-11
+jira-key: BWS-49
 ---
 
 # GenAI SA Market Research

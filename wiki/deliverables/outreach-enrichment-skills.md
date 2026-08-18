@@ -5,7 +5,7 @@ size: 2
 hours: 5–8h
 created: 2026-05-06
 status: queued
-jira-key: BWS-4
+jira-key: BWS-53
 ---
 
 # Build Personalised Email Generation Skill

@@ -6,7 +6,7 @@ hours: 4h
 created: 2026-08-07
 deadline: 2026-08-10
 status: queued
-jira-key:
+jira-key: BWS-48
 value-rationale:
 ---
 

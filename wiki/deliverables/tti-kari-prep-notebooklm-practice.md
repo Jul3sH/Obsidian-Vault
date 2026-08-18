@@ -5,7 +5,7 @@ workstream: career
 hours: 4h
 created: 2026-07-22
 status: queued
-jira-key: BWS-38
+jira-key: BWS-44
 ---
 
 # TTI Kari Prep: NotebookLM Practice

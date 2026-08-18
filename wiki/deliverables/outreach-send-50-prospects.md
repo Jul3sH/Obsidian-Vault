@@ -5,7 +5,7 @@ size: 3
 hours: 9–16h
 created: 2026-05-09
 status: queued
-jira-key:
+jira-key: BWS-59
 ---
 
 # Send Cold Email Sequence to 50 Real Estate Prospects

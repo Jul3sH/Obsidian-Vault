@@ -5,7 +5,7 @@ workstream: career
 hours: 6h
 created: 2026-07-22
 status: queued
-jira-key: BWS-37
+jira-key: BWS-43
 ---
 
 # TTI Kari Prep: Case Studies

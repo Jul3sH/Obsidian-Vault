@@ -5,7 +5,7 @@ size: 8
 hours: 40+h
 created: 2026-05-29
 status: on-hold
-jira-key: BWS-9
+jira-key: BWS-47
 supersedes: [tti-ai-leadership-brief, tti-consulting-brief]
 ---
 

@@ -7,7 +7,7 @@ size: 1
 hours: 1-4h
 created: 2026-08-05
 status: queued
-jira-key:
+jira-key: BWS-55
 ---
 
 # Vanguard Outreach Go/No-Go Assessment

@@ -6,6 +6,8 @@ flow: ready
 t-shirt: XS
 wsjf: 5.5
 status-updated: 2026-08-17
+por-key: POR-22
+jira-key: BWS-61
 ---
 
 # AI Engineering Patterns
@@ -20,7 +22,7 @@ status-updated: 2026-08-17
 3. Re-authenticate the Atlassian connector, then `/jira-sync` from a fresh session: creates the POR card (none exists yet) and BWS stories, and fix POR-2 Cold Outreach board position while there.
 4. Execute box 1 (Claude drafts, Codex verifies, Julian signs off), then box 2. Hard stop at each 2h box; remainder re-scopes.
 
-**Waiting on:** Julian to resume (planned 18 Aug 2026). Atlassian re-auth for anything Jira.
+**Waiting on:** Julian to resume (planned 18 Aug 2026).
 
 **Detail tier:** see `## Deliverables` below once deliverables are defined.
 
@@ -37,6 +39,7 @@ These are the live files that make up this Project's evidence base. The Project 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-08-18 | POR card created (POR-22, transitioned to Ready) and BWS Epic created (BWS-61) via `/jira-sync`. Keys written back to frontmatter. |
 | 2026-08-17 | Definition session closed; numbered resume plan written into Next action (deliverable definition, Jira sync, then the two 2h execution boxes). Resume planned 18 Aug. |
 | 2026-08-17 | Project defined and scored (WSJF 5.5, rank 3). Scope merged in the task-routing skill (formerly the separate "AI Task Decomposition Playbook" funnel candidate). POR card pending Atlassian re-auth. |
 
