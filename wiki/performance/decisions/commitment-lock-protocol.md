@@ -13,6 +13,26 @@ source: Fable meta-evaluation of the UK relocation decision (7 Jul 2026)
 ## The one thing (verdict)
 **The feeling that follows a locked decision is forecast, not evidence.** The wobble is not information about the decision - it is information about who you spoke to in the last 48 hours. Staying decided is the skill; the decision is the easy part.
 
+## What is an anchor document? *(definition added 18 Aug 2026)*
+**The fixed reference re-read when doubt returns.** One per locked decision. Its job is not to persuade or analyse - it holds the evidence steady while the feeling moves, so a wobble is checked against the record instead of re-argued from scratch inside the emotion. Prototype: [[uk-move/why-london|why-london]].
+
+The anchor is the **go-to summary of what the current decision is and why it was made** - the only file that needs opening to know where a decision stands. The discipline that makes this work: it is a *routing* summary, not a container. Supporting analysis cascades into it **as links, never as content**; the moment it holds the analysis itself it stops being re-readable inside a wobble. A project may hold several key decisions; each gets its own anchor file.
+
+**Standard structure (agreed 18 Aug 2026), two parts:**
+
+*Part A - the fast read (one screen; what gets re-read mid-wobble):*
+1. **Purpose block** - two sentences: this anchors decision X; when doubt hits, read this before acting.
+2. **The decision** - committed choice, one line, dated, retyped by Julian (never model-drafted). Under it, the **lock status**: the four lock conditions, each with a date or an "outstanding" flag, so the document is honest about how locked it actually is.
+3. **Why** - the case in at most five bullets, only what survived adversarial review, each bullet linking to its evidence document.
+4. **Alternatives rejected** - one line per rejected option, linking to the framework analysis that killed it (BRAIN docs, options matrices, feasibility models). The anchor states the verdict; the framework doc holds the reasoning.
+5. **The fear table** - every named live fear paired with the verified fact that answers it, dated rows. This is the table the Reopen Test's T gate runs against, so it must cover the *live* threats: when the avoidance rotates costume (hypothesis H4), a new dated row is added, or the T gate silently degrades against a stale table.
+6. **The exit rules** - the reopen test, any pre-registered triggers (the Branch A pattern: "this changes the plan only if..."), and the review-on date. The legitimate ways out, printed so revisiting has a lawful route.
+
+*Part B - the document map (the cascade):*
+7. **Supporting documents by role**, one line each: canonical numbers (the project's financial model §0 stays supreme - the anchor quotes numbers, never re-derives them), alternatives analyses, adversarial reviews, domain evidence, and the wobble log (the journal entry stays the historical record; the anchor is the current-state surface). Same pattern as the Project File Map, applied at decision level.
+
+Rules of maintenance: written downstream of the adversarial review, from corrected figures, never before it; never drafted or rewritten mid-wobble (the feeling must not edit its own guardrail); updates are dated rows or dated amendments from already-adjudicated facts, never silent rewrites.
+
 ## When is a decision LOCKED?
 All four must exist. Miss one → it is a *lean*, and leans may move freely.
 1. **Committed choice retyped by Julian himself** into the [[decision-journal|journal]], in his own words (not model-drafted text approved by a nod), dated.
