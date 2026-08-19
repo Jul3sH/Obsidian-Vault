@@ -2,10 +2,10 @@
 workstream: performance
 created: 2026-08-17
 status: active
-flow: ready
+flow: implementing
 t-shirt: XS
 wsjf: 5.5
-status-updated: 2026-08-17
+status-updated: 2026-08-20
 por-key: POR-22
 jira-key: BWS-61
 ---
