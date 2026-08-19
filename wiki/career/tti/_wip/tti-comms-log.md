@@ -134,6 +134,26 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ SENT 19 Aug - SECOND DIRECT CHASE TO TY: the timing line played, Friday named; school offer + Monday flights as the two hard dates
+
+> **Sent Wednesday 19 Aug, after the 18 Aug ping-Stephan escalation produced no reply by the Wed morning UK signal deadline.** The trigger making a second direct chase legitimate six days after the first: Sophia's formal Chase school offer landed 18 Aug (letter dated 18 Aug; place cannot be reserved, must be accepted or released - see [[schooling-malvern-area]]), a genuinely new fact rather than a repeat of registered urgency. This is the timing-line escalation pre-planned on 13 Aug. Route note: per the corrected 18 Aug reading, Stephan's 11 Aug instruction was to ping *him*, not Ty - so this direct chase was Julian's own escalation decision, with Stephan informed the same day (see Stephan section).
+
+**Sent (19 Aug):**
+
+> Hi Ty, sorry to chase, but I'm now up against two hard dates: if we're returning for school in Hong Kong, our flights leave Monday, and Sophia's UK school place has to be accepted or released within days. Hong Kong is still our priority, so could you let me know if a decision is likely by Friday, and if there's anything you need from me to get there?
+
+**Why this shape (drafting decisions, 19 Aug):**
+- **The consequence is carried structurally, not stated:** "if we're returning for school in Hong Kong, our flights leave Monday" makes the flights conditional on Ty's decision - the fork is visible without a "this commits us to the UK" sentence. Julian's construction, judged stronger than an explicit consequence line.
+- **"Accepted or released within days"** states the scarcity mechanic factually; the pressure comes from the calendar, not performed urgency.
+- **"Hong Kong is still our priority"** guards against the flight-risk misread (the 15 Jul near-miss) while the deadline is played.
+- **"If a decision is likely by Friday"** chosen deliberately over "can we conclude by Friday": a probability question is easier for Ty to answer honestly, and even "probably not" is a decidable answer before the Monday flight. Julian boards either way, so knowing beats forcing.
+- **Cut across drafting rounds:** "I need to be straight with you" (implies prior spin), "I don't want it to end that way, and I don't think you do either" (emotional blackmail read), "apologies in advance" (apologises for the thing giving Julian standing), any reference to Ty's slipped "couple of days" (scorekeeping), and "I can plan accordingly either way" (hands Ty an easy out by presenting the UK as a comfortable alternative).
+- **⚠ Guardrail maintained:** nothing about the HC-reduction email or the org review (known only via Justin).
+
+**NEXT:** watch for Ty's reply through Friday 21 Aug. A yes-shaped answer, a "probably not", or continued silence each map onto the school response and the Monday flight per the pre-set gate rule; the school reply is drafted only after this resolves or Friday passes.
+
+---
+
 ## ✅ SENT 13 Aug - FIRST DIRECT CHASE TO TY: warm check-in, no urgency restated; Ty replied same day: "We are doing an assessment. We'll get back to you shortly."
 
 > **Sent Thursday 13 Aug, after the "couple of days" window from the Monday call passed with no word from Ty or the cybersecurity lead.** At the time this was believed pre-cleared by Stephan on 11 Aug ("if nothing happens in the next couple of days, message him"). **⚠ Corrected 18 Aug: Stephan meant message *him* (Stephan), not Ty** - so this chase went out on a misreading of the route. No harm done: it landed without friction and produced a same-day reply from Ty.
@@ -365,6 +385,33 @@ renamed: 2026-07-17
 ---
 
 ## Stephan Pudwill
+
+---
+
+## ✅ SENT 19 Aug - STEPHAN INFORMED OF THE DIRECT TY CHASE + speak-to-Ty ask + honest-read invitation; his 18 Aug ping still unanswered
+
+> **Sent Wednesday 19 Aug, after the Ty chase went out (see Ty section).** The 18 Aug ping-Stephan escalation had produced no reply by the Wed morning UK deadline that entry named as the signal point. Rather than wait longer, Julian escalated direct to Ty (his own decision; the corrected route reading meant no standing pre-clearance for it) and informed Stephan in the same breath - keeping the channel intact, giving Stephan a second-nudge opening, and asking for the one thing only he can give: the inside read.
+
+**Sent (19 Aug):**
+
+> Hi Stephan, letting you know I've messaged Ty. I'm now up against two hard dates: our flights on Monday if we're returning to Hong Kong, and Sophia's UK school place, which has to be accepted or released within days. I've asked Ty whether a decision is likely by Friday. We'd become quite hopeful this was going to happen, but I'm less sure now. If you get a chance to speak with him before Friday, I think it would carry real weight. And whatever your honest read is, do share it with me, even if it's not what I'm hoping to hear. It would genuinely help us plan the next few days.
+
+**Why this shape (drafting decisions, 19 Aug):**
+- **"Letting you know I've messaged Ty"** is stated as fact, not permission-seeking - it closes the route question without reopening it.
+- **The dates match the Ty message exactly** so the two accounts corroborate rather than drift when Stephan and Ty compare notes.
+- **Two deliverable asks replace "What do you think?"** (cut as the warm-vague invitation this channel converts into "stay positive" non-answers): speak to Ty before Friday, and give the honest read. The honest-read ask carries explicit permission for bad news ("even if it's not what I'm hoping to hear") because Stephan avoids delivering it unprompted.
+- **"I'd rather plan on that than on silence" was cut** - Julian flagged that "silence" read as a critique of Stephan's own non-response to the 18 Aug ping. Replaced with the family-planning frame ("help us plan the next few days"), the register that moves Stephan.
+- **The hopeful-but-unsure line kept** as the empathy note that works on this channel.
+- **⚠ Guardrail maintained:** nothing about the HC-reduction email or the org review; if Stephan volunteers restructure news, Julian reacts as if new.
+
+**✅ Stephan replied within 13 minutes (19 Aug, 8:31am):**
+
+> **Stephan (8:31):** *"I will reach out to Ty and get back to you"*
+> **Julian (8:37):** *"Thanks Stephan."*
+
+**Read:** the fastest, most committed Stephan response in the arc - a written commitment both to act (reach out to Ty) and to close the loop ("get back to you"). The escalation landed without friction and the speak-to-Ty ask was accepted as framed. Julian's two-word acknowledgment deliberately adds no further weight.
+
+**NEXT:** hold - nothing further from Julian's side until Stephan reverts or Friday 21 Aug passes. Two channels are now converging on Ty (the direct chase + Stephan's approach); if Ty replies directly first, respond to Ty and let Stephan's loop close naturally. If Stephan comes back with a read (either way), weigh it as the inside signal; if both channels stay quiet through Friday, the pre-set rule treats that as the answer for the Monday flight and the school response.
 
 ---
 
