@@ -19,6 +19,7 @@ tags: [relationships]
 - [[relationship-views]] — Julian's own framework: what he wants (marriage, long-term companionship, short-term/casual), the stated-vs-revealed tension, and his marriage fears
 - [[joanne]] — Current partner: profile, history, current status, and the live marriage question
 - [[clodagh]] — Ex-wife and Sophia's mother; source of the change-after-security fear; a latent UK pull
+  - [[clodagh-resume-2026-08|Clodagh's resume, Aug 2026]] — CV content reproduced with her new Waterford address/number, plus the reusable format-reproduction method
 - [[sophia]] — Julian's daughter; central stakeholder in the UK move; prefers London; schooling window is the decision's hard anchor
 - [[sophia-london-schools]] — SW19 school options for Year 8 in-year entry: Ricards Lodge (Outstanding), Ursuline (Good, Catholic), Harris (best sport)
 - [[banter-trainer-mvp]] — Parked idea: a Claude app to drill Sophia on responding to UK banter (five rehearsed moves, coaching rubric, seed scenarios, pre-build conditions)
