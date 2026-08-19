@@ -67,9 +67,52 @@ Schools in and around Malvern for Sophia's education (Year 8 onwards), researche
 
 ### The Chase High School
 
-**Contact:** admissions@chase.worcs.sch.uk · Tel: 01684 891961 (Secretary) · Sarah Cridge, In Year Admissions
+**Contact:** admissions@chase.worcs.sch.uk · Tel: 01684 898 754 · Sarah Cridge, In Year Admissions / 6th Form Study Supervisor and Administrator · Council side: Julie Ferman, Placement Officer Mainstream Admissions, Worcestershire County Council, Tel: 01905 643104, SchoolAdmissions@worcestershire.gov.uk
 
-**Status after 13 July response - ✅ PLACE AVAILABLE:**
+**Status as of 19 Aug 2026 - ✅✅ FORMAL PLACE ALLOCATED (offer letter dated 18 Aug):**
+- The place is now a **formal allocation from Worcestershire County Council**, not just the school's informal confirmation. Offer letter dated 18 Aug 2026, received via two channels the same day (both captured in full below).
+- **Take-up clock is running: the place cannot be reserved and must be taken up within 6 school weeks of 18 Aug** or the offer may be withdrawn, requiring a fresh application. With term starting 3 Sept, 6 *school* weeks read literally lands around mid-October - exact drop-dead date to be confirmed with the school, which "will discuss these arrangements directly".
+- Sarah Cridge has proposed: **tour Wed 3 Sept** (only Years 7 and 12 in; sixth-form seniors would show them round), **Sophia starts Thu 4 Sept** - a couple of days' settling-in with her form.
+- **Two replies owed:** (1) Julie Ferman asked for confirmation of receipt of her email (receipt confirmation ≠ acceptance); (2) Sarah Cridge asked for thoughts on the 3/4 Sept tour-and-start proposal.
+- **Julian's constraint (19 Aug):** do NOT accept and later withdraw - it could reflect badly if the family needs to come back to Worcestershire admissions in ~12 months. The response must be a genuine accept, a clean decline (releasing the place for someone else), or an honest holding reply within the take-up window.
+- Sarah Cridge has shown warmth toward Sophia's profile (straight-A, athletics) across the correspondence - rapport worth protecting whichever way the decision goes.
+
+**Offer email from Sarah Cridge (The Chase, received 18 Aug) - full text for evidence:**
+> Hi Julian, I hope you are well and that you are having a good summer. I've just offered a place at the Chase on the portal for Sophia and have been thinking, if you would like to come in for a tour on Wednesday 3rd September, in theory Sophia could join us on Thursday 4th September. I think this would give her chance to meet students in her form and have a couple of days settling in period. On the Wednesday we only have year 7 and year 12 students in but I can arrange for a couple of our senior team sixth formers to show you around.
+>
+> Let me know your thoughts. Kind regards, Sarah Cridge, 6th Form Study Supervisor and Administrator
+
+**Offer email from Julie Ferman (Worcestershire County Council, 18 Aug, with attached formal offer letter) - full text for evidence:**
+> Dear Mr Hart
+>
+> I have heard from The Chase School, and I am pleased to confirm that there is a place allocated for Sophia. Please read attached letter. Sarah Cridge from The Chase will be in touch with you shortly to arrange a mutually convenient start date and discuss induction arrangements. Please note that places cannot be reserved and should be taken up within 6 school weeks of the date of this letter. The school will discuss these arrangements with you directly. Refer to the letter for contact information.
+>
+> Please can you confirm that you have received this email. Kind regards, Julie Ferman
+>
+> Mainstream Admissions Placement Officer, School Admissions, Worcestershire County Council
+
+**Formal offer letter (Worcestershire County Council, dated 18 Aug 2026, ref JF, contact Julie Ferman 01905 643104) - key terms transcribed from the PDF:**
+> Sophia Hart 25/05/2014
+>
+> Having considered your application against the oversubscription criteria for each school you have nominated, and in accordance with the In-Year Co-ordinated Admissions Scheme, a place has been allocated for your child at: **The Chase school**
+>
+> Can you please contact the school on admissions@chase.worcs.sch.uk Tel: 01684 898 754 to arrange a mutually convenient start date and discuss induction arrangements.
+>
+> **Please note that places cannot be reserved and must be taken up within 6 school weeks of the date of this letter. Failure to enrol your child within this timescale may result in the offer being withdrawn and a further application required.** The school will discuss these arrangements with you directly.
+>
+> It is very important that you do not take your child to school expecting them to start without a mutually convenient start date and induction arrangements having been agreed.
+>
+> Once a start date has been agreed, you must notify the Headteacher of your child's current school (if applicable) and advise them of the date your child will be leaving that school, as well as the date your child will be starting at their new school. If your child is currently on the roll of a Worcestershire School, we will also send them a copy of this letter. Parents are responsible, by law, for ensuring that their children attend school every day.
+>
+> Transport: If the school allocated is not the designated school for your home address, for transport purposes, transport to and from school will be regarded as a parental responsibility. Details: http://www.worcestershire.gov.uk/schooltransport - you can also contact us to determine whether or not transport re-designation is a possibility.
+>
+> The admission of your child does not establish a right of admission for other children in the family to this school nor does it give the right of admission to the related Middle/High School if applicable.
+>
+> **If you no longer require this place or you require any further information, please contact this office as soon as possible.**
+>
+> Yours faithfully, Julie Ferman, Placement Officer Mainstream Admissions, School Admissions
+
+**Status after 13 July response (superseded 18 Aug) - ✅ PLACE AVAILABLE:**
 - **The Chase has confirmed a space in the current Year 7 (Year 8 from Sept)** - Sarah Cridge (In Year Admissions), 13 Jul 20:14
 - Offered to arrange a school tour this week
 - Must still apply to **Worcestershire County Council** via the In Year Application process (schools cannot allocate directly; strict criteria + waiting list apply if oversubscribed once the Council forwards the application)
@@ -124,15 +167,18 @@ The family is in HK until **28 July**. Applying on return, or during the summer 
 > Many thanks,
 > Julian
 
-**Next actions:**
-- [ ] **Submit the Worcestershire In-Year Application NOW from HK** (do not wait for the 28 Jul return) - the single most important mitigation for the timing risk
-- [ ] Get the **Education History Form** completed by Sophia's current school before term ends
-- [ ] Chase Sarah Cridge for the waiting-list size + written confirmation a summer application is processed for a 3 Sept start
-- [ ] Read the full Chase admissions policy to confirm the criteria / waiting-list position
+**Next actions (as of 19 Aug):**
+- [ ] **Reply to Julie Ferman confirming receipt** of the offer email (she asked explicitly; receipt ≠ acceptance)
+- [ ] **Reply to Sarah Cridge** on the 3 Sept tour / 4 Sept start proposal - the reply must respect the no-accept-then-reject constraint
+- [ ] **Confirm the exact take-up drop-dead date** ("6 school weeks of 18 Aug") with the school
+- ~~Submit the Worcestershire In-Year Application~~ **Done - application processed, offer issued 18 Aug**
+- ~~Chase Sarah Cridge for waiting-list size / summer-application confirmation~~ **Overtaken by events - place allocated**
 
 ---
 
-## ⚠ Risk E1 - late in-year application misses the Sept place
+## ✅ Risk E1 - late in-year application misses the Sept place - CLOSED 19 Aug: did not materialise
+
+> **As of 19 Aug 2026: RESOLVED.** The formal offer letter is dated 18 Aug and Sarah Cridge has proposed a 4 Sept start, one day after term opens. The summer application was processed in time despite the policy's "no guarantee" warning. The risk below is retained for the record; the live question is now the accept/decline/hold response within the 6-school-week take-up window.
 
 > Raised 15 Jul after reading the Chase admission policy. Scored in the [[uk-relocation-project]] risk register's comparative format (Impact x Probability, 1-5, across the three options). A **new, significant** risk to the Malvern path.
 
