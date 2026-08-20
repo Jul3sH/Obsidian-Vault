@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/projects/uk-relocation-decision.md",
+                "file": "wiki/projects/ai-engineering-patterns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uk-relocation-decision"
+              "title": "ai-engineering-patterns"
             }
           }
         ]
@@ -200,12 +200,13 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/projects/uk-relocation-decision.md",
+    "wiki/deliverables/ai-engineering-pattern-articles.md",
     "wiki/technology/claude-anthropic/claude-code-hooks.md",
     "wiki/relationships/clodagh-resume-2026-08.md",
     "wiki/performance/decisions/uk-move/Malvern-BRAIND.md",
     "wiki/projects/uk-relocation-project.md.tmp.36309.5d34eecd6da5",
     "wiki/projects/uk-relocation-project.md",
-    "wiki/projects/uk-relocation-decision.md",
     "wiki/projects/uk-relocation-status.md",
     "wiki/performance/decisions/commitment-lock-protocol.md",
     "wiki/performance/decisions/uk-move/_index.md",
@@ -226,7 +227,6 @@
     "wiki/technology/claude-anthropic/session-context-loading.md",
     "wiki/performance/working-with-genai/mm-verification.md",
     "wiki/performance/working-with-genai/mm-steering.md",
-    "wiki/performance/working-with-genai/mm-routing.md",
     "wiki/ai-os/skills/whatsapp-someday/scripts",
     "wiki/ai-os/skills/whatsapp-someday",
     "wiki/ai-os/skills/grill-me/agents",

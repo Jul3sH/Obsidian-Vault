@@ -12,19 +12,18 @@ jira-key: BWS-61
 
 # AI Engineering Patterns
 
-## Status (as of 2026-08-17)
+## Status (as of 2026-08-20)
 
-**Position:** As of 17 Aug 2026: defined and ranked (WSJF 5.5, rank 3), definition session closed same day. No execution started. Target: all three outputs complete before the possible 1 Sep 2026 TTI start.
+**Position:** As of 20 Aug 2026: Deliverable 1 is defined — [[ai-engineering-pattern-articles]] (2h, queued). The definition session corrected a sizing assumption: the raw material for the 8 pattern areas largely does NOT already exist in the wiki, so execution folds research in rather than assembling existing content. Execution shape agreed: a fan-out-and-synthesize dynamic workflow (per-area Sonnet research → Opus draft → inline Codex verify, then one Opus synthesis stage), Fable coordinating. Structure agreed: 8 separate files in a new `wiki/technology/ai-engineering-patterns/` folder with a navigation-only `_index.md`; no separate catalog file. Target unchanged: all three outputs complete before the possible 1 Sep 2026 TTI start.
 
 **Next action (in order, resume here):**
-1. `/define-task` for Deliverable 1: patterns catalog + mental models + application notes (the first 2h box). Write or waive its Prompt Zero (size 1 waiver needs a dated reason).
+1. Execute box 1 (Prompt Zero waived 20 Aug, recorded in the task file): launch the workflow, review the first research output early (assumption test), sign off at the end. Hard stop at 2h; remainder re-scopes.
 2. `/define-enabler` for Deliverable 2: task-routing skill + tested evals + wiki mirror + systems-register row (the second 2h box). Same Prompt Zero gate.
-3. Re-authenticate the Atlassian connector, then `/jira-sync` from a fresh session: creates the POR card (none exists yet) and BWS stories, and fix POR-2 Cold Outreach board position while there.
-4. Execute box 1 (Claude drafts, Codex verifies, Julian signs off), then box 2. Hard stop at each 2h box; remainder re-scopes.
+3. `/jira-sync` to create the BWS story for Deliverable 1 under Epic BWS-61.
 
-**Waiting on:** Julian to resume (planned 18 Aug 2026).
+**Waiting on:** Julian to schedule the first 2h box.
 
-**Detail tier:** see `## Deliverables` below once deliverables are defined.
+**Detail tier:** see `## Deliverables` below.
 
 ## Project Summary File Map
 
@@ -39,6 +38,7 @@ These are the live files that make up this Project's evidence base. The Project 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-08-20 | Deliverable 1 defined via `/define-task`: [[ai-engineering-pattern-articles]] (2h, queued). Key decisions: 8 separate pattern files in a new `wiki/technology/ai-engineering-patterns/` folder (no catalog file); fan-out-and-synthesize workflow with per-file Codex verification; original "assembly not research" sizing assumption corrected — research is folded into execution via Sonnet agents. Payoff test passed. |
 | 2026-08-18 | POR card created (POR-22, transitioned to Ready) and BWS Epic created (BWS-61) via `/jira-sync`. Keys written back to frontmatter. |
 | 2026-08-17 | Definition session closed; numbered resume plan written into Next action (deliverable definition, Jira sync, then the two 2h execution boxes). Resume planned 18 Aug. |
 | 2026-08-17 | Project defined and scored (WSJF 5.5, rank 3). Scope merged in the task-routing skill (formerly the separate "AI Task Decomposition Playbook" funnel candidate). POR card pending Atlassian re-auth. |
@@ -94,7 +94,9 @@ Project-level scope: what's first, what's explicitly out, and the breakdown the 
 Nothing completed yet.
 
 ## Deliverables
-No deliverables defined yet. Run `/define-task` / `/define-enabler` to break this Project down.
+| Deliverable | Hours | Status |
+|-------------|-------|--------|
+| [[ai-engineering-pattern-articles\|AI Engineering Pattern Articles]] | 2h | queued |
 
 ## Funnel
 | Item | Intent | Added |
