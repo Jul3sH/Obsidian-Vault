@@ -92,7 +92,7 @@ updated: 2026-08-17
 
 | File | Source | Wiki Mirror | Last Synced |
 |------|--------|-------------|-------------|
-| settings.json (project) | `<vault>/.claude/settings.json` | [[permissions\|permissions.md]] (allowlist embedded verbatim) | 2026-06-30 (added 10 read-only MCP/Bash entries via /fewer-permission-prompts) |
+| settings.json (project) | `<vault>/.claude/settings.json` | [[permissions\|permissions.md]] (full file embedded verbatim) | 2026-08-20 (added UserPromptSubmit time-log reminder hook; snapshot refreshed) |
 | tco.md (command) | `<vault>/.claude/commands/tco.md` | [[commands/tco\|tco.md]] | 2026-08-02 (new: mirrored, no secrets found) |
 | ~~com.julianhart.whatsapp-someday.plist (launchd)~~ | ~~`~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`~~ | [[local-automation\|local-automation.md]] (former content kept as historical record) | 2026-08-15 (DELETED same day - job unloaded and plist removed; see [[local-automation]] for why) |
 

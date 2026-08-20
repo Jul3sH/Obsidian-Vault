@@ -134,6 +134,28 @@ renamed: 2026-07-17
 
 ---
 
+## ❌ 20 Aug - TY'S ANSWER: NO. Employment declined; external-assistance door explicitly left open in his own closing line
+
+> **Ty's written answer arrived Wednesday 20 Aug, within hours of Stephan's "I will message him" (see Stephan section) - the two-channel convergence forced the answer out a day ahead of the Friday gate.** The answer is no on employment, with the reason given as organisational timing, not Julian: TTI is mid-change, and Ty judges it would take a year just to familiarise with their approach and culture. His own last sentence explicitly invites future contact as an external resource.
+
+**Received (20 Aug, verbatim):**
+
+> Julian,
+> I spent the last week in discussions with our IT leadership and Executive team. Your resume and experience is extremely impressive. We are in the midst of some significant changes and upscaling of talent within the IT group at this time. TTI is a very complex business with multiple layers. At this time because of these changes and the fact it would take a year just to familiarize yourselves with our approach and culture, we can not move forward with a contract for employment. I would like to stay in contact and as we move through this IT journey and if we need a talented external person to assist we would love to have further discussions.
+>
+> All the best,
+> Ty Staviski
+
+**Strategic read:**
+- **The stated reason is the one objection the proposal was explicitly built to defeat.** "A year just to familiarize" is the outsider-onboarding objection (Kari raised it 24 Jul; month 1 was redesigned twice to answer it with execution-not-a-study). Its reappearance as the decisive reason suggests the review chain evaluated Julian as a permanent hire ramping up, not as the 6/12-month external engagement the proposal describes. Whether that is a genuine misread or a polite wrapper on a different reason (the cost-cutting climate flagged 18 Aug; "upscaling of talent" may mean the restructure is filling the gap internally) cannot be determined from the text.
+- **"Contract for employment" conflates the two things the engagement kept distinct** - Julian proposed a contractor engagement precisely so TTI would not need to make an employment decision. This is the "missed the point" angle. But note: Ty's own closing sentence already holds the external-contractor door open ("a talented external person to assist"), so the correction is about *now vs later*, not about whether the door exists.
+- **"I spent the last week in discussions with our IT leadership and Executive team"** confirms the proposal got a real airing at the top of the org - consistent with the 13 Aug "assessment" and the 18 Aug org-review intel. This was a considered institutional no, not a brush-off; re-litigating it has very low odds.
+- **The decision resolves the 19 Aug gate a day early:** no HK role, so the Chase school place gets accepted and the Monday flights (conditional on returning for HK school) do not fire.
+
+**NEXT:** gracious replies to Ty and Stephan, each carrying at most one door-keeping line on the contractor frame (delivered-not-argued); then accept the school place. No reconsideration ask on either channel.
+
+---
+
 ## ✅ SENT 19 Aug - SECOND DIRECT CHASE TO TY: the timing line played, Friday named; school offer + Monday flights as the two hard dates
 
 > **Sent Wednesday 19 Aug, after the 18 Aug ping-Stephan escalation produced no reply by the Wed morning UK signal deadline.** The trigger making a second direct chase legitimate six days after the first: Sophia's formal Chase school offer landed 18 Aug (letter dated 18 Aug; place cannot be reserved, must be accepted or released - see [[schooling-malvern-area]]), a genuinely new fact rather than a repeat of registered urgency. This is the timing-line escalation pre-planned on 13 Aug. Route note: per the corrected 18 Aug reading, Stephan's 11 Aug instruction was to ping *him*, not Ty - so this direct chase was Julian's own escalation decision, with Stephan informed the same day (see Stephan section).
@@ -385,6 +407,19 @@ renamed: 2026-07-17
 ---
 
 ## Stephan Pudwill
+
+---
+
+## ⏳ 20 Aug - STEPHAN NUDGED TY A SECOND TIME ("I will message him"); Ty's rejection arrived hours later; Stephan response being drafted
+
+> **Wednesday 20 Aug: Julian flagged the continued Ty silence, Stephan committed to message him, and Ty's written no (see Ty section) arrived within hours.** The sequence strongly suggests Stephan's nudge produced the answer. Stephan has now delivered on both 19 Aug commitments (reach out to Ty, get an answer moving); what remains from his side is the "get back to you" loop, which Ty's direct email has partly overtaken. Whether Stephan already knows the outcome is unconfirmed.
+
+**Exchange (WhatsApp, 20 Aug):**
+
+> **Julian (12:54):** *"Still no acknowledgement from Ty my end."*
+> **Stephan (1:18pm):** *"I will message him"*
+
+**NEXT (as of 20 Aug evening):** both replies (Stephan and Ty) drafted but HELD overnight at Julian's decision. He is sleeping on whether a UK-deliverable external role can be shaped from the proposal's location-independent capabilities before responding - if so, the door-keeping line in both messages becomes a concrete UK offer rather than a generic keep-in-contact. Drafts to be reworked or released 21 Aug; sent versions to be logged here. Standing guardrails: no reconsideration ask on either channel, no grievance, one door-keeping line only.
 
 ---
 

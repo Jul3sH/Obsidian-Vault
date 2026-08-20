@@ -1,12 +1,12 @@
 ---
 type: reference
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-08-20
 ---
 
 # Claude Code Permissions
 
-> How permission prompts are reduced in this environment, the policy for what is safe to allowlist, and the current allowlist. The embedded snapshot below is a verbatim mirror of the hidden project config `<vault>/.claude/settings.json` (`permissions.allow`). No secrets present, nothing redacted.
+> How permission prompts are reduced in this environment, the policy for what is safe to allowlist, the current allowlist, and the project-level hooks. The embedded snapshot below is a verbatim mirror of the full hidden project config `<vault>/.claude/settings.json`. No secrets present, nothing redacted.
 
 ## Purpose
 
@@ -82,51 +82,57 @@ Purpose-built skill. It:
 after adopting a new MCP server or a new recurring ceremony). It is additive and
 idempotent - safe to run repeatedly.
 
-## Current project allowlist
+## Current project settings snapshot
 
-Verbatim snapshot of `<vault>/.claude/settings.json` as of 2026-06-30. The first
-block of entries are historical one-offs; the read-only MCP/Bash block at the end
-was added by `/fewer-permission-prompts` on 2026-06-30 (10 entries: legacy
-`mcp__atlassian__` reads, active `mcp__claude_ai_Atlassian__` reads, and
-`npm info`).
+Verbatim snapshot of `<vault>/.claude/settings.json` as of 2026-08-20. Two parts:
+the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
+`hooks` block added 2026-08-20.
 
 ```json
 {
   "permissions": {
     "allow": [
-      "Bash(rm -rf \"/Users/julianhart/.claude/skills/epic-planner/\" && echo \"Deleted ~/.claude/skills/epic-planner/\")",
-      "Edit(~/.claude/skills/project-planner/**)",
       "Bash(python3 -c ' *)",
-      "Edit(~/.claude/skills/define-task/**)",
-      "Bash(mkdir -p \"/Users/julianhart/Obsidian Vault/wiki/ai-os/skills/define-task\" && cp ~/.claude/skills/define-task/SKILL.md \"...\")",
       "Bash(node -e ' *)",
-      "Bash(node modify13.js)",
-      "Bash(node rebuild5.js \"...goals-roadmap.excalidraw.md\")",
-      "Bash(node -e \"console.log(require('/tmp/excalidraw-edit/node_modules/lz-string'))\")",
-      "Bash(node build-career-goals-diagram.js)",
-      "Bash(grep -n \"...\" \"...ed2c29d2....jsonl\")",
-      "mcp__atlassian__jira_search_issues",
-      "mcp__atlassian__jira_get_transitions",
-      "mcp__atlassian__jira_get_issue",
-      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
-      "mcp__atlassian__jira_get_agile_boards",
-      "mcp__atlassian__jira_get_backlog_issues",
       "Bash(npm info *)",
+      "Edit(~/.claude/skills/project-planner/**)",
+      "Edit(~/.claude/skills/define-task/**)",
       "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
       "mcp__claude_ai_Atlassian__getJiraIssue",
-      "mcp__atlassian__jira_get_board_issues"
+      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue"
     ],
     "additionalDirectories": [
-      "/Users/julianhart/.claude/skills/epic-planner",
       "/Users/julianhart/.claude/skills/define-task"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Time-tracking check: if this prompt hands back completed attended work on a deliverable (a finished review, a sign-off, corrections returned), ask Julian how many focused minutes it took and record it in that deliverable file under ## Time Log. If the prompt is not a work handback, ignore this note.\"}}'"
+          }
+        ]
+      }
     ]
   }
 }
 ```
 
-> Note: several read-only entries (`searchJiraIssuesUsingJql`, the Excalidraw
-> reads, `getIssueLinkTypes`) are already granted in the **global**
-> `~/.claude/settings.json`, so they are not duplicated here.
+## Hooks in the project file
+
+**Time-log reminder (`UserPromptSubmit`, added 2026-08-20).** Fires on every
+prompt Julian submits in this vault and injects a short instruction into
+Claude's context: if the prompt hands back completed attended work on a
+deliverable (a finished review, a sign-off, corrections returned), Claude must
+ask Julian how many focused minutes it took and record the answer in that
+deliverable's `## Time Log` table. Supports the execution-time baseline agreed
+for [[ai-engineering-pattern-articles]]: machine effort is recorded in tokens,
+Julian's effort in minutes, and only Julian's minutes roll up into `Actual hrs`
+in the [[estimation-baseline|Estimation Baseline]]. A hook is used rather than
+an instruction in memory because only a hook fires deterministically on every
+prompt.
 
 ## Known gap
 

@@ -46,6 +46,12 @@ Agreed 19-20 Aug 2026 in the definition session. Shape: **fan-out and synthesize
 - **Silence test:** Passed. Julian confirmed (20 Aug 2026) he would still do this work if he could never tell anyone, so the payoff stands on usefulness, not prestige.
 - **Good enough when:** the task-routing skill can be built from the articles alone without going back to do more research, and Julian can manually verify task-routing choices by reading the articles against the mental model he has built.
 
+## Time Log
+Machine effort is recorded in tokens (from the workflow run view), Julian's effort in focused minutes (self-reported at each handoff, prompted by the UserPromptSubmit time-log hook). Only Julian's minutes roll up into Actual hrs in the [[estimation-baseline|Estimation Baseline]]; tokens go in that row's Notes.
+
+| Date | Segment | Who | Tokens / Minutes | Notes |
+|------|---------|-----|------------------|-------|
+
 ## Links
 - **Project:** [[../projects/ai-engineering-patterns|AI Engineering Patterns]]
 - **Workstream:** [[../performance/_index|performance]]
