@@ -134,6 +134,27 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ SENT 21 Aug - REPLY TO TY'S NO: gracious close that replays his own door-keeping wording
+
+> **Sent Thursday 21 Aug, closing out the 20 Aug rejection below.** Final of several iterations: the contractor-frame correction was dropped (Julian's read: Ty's external-person line is a polite no; correcting it argues with politeness), and a pointed "I'd hoped to prove myself on tactical initiatives first" was replaced at Julian's direction by replaying Ty's own sentence back as a plan being endorsed.
+
+**Sent (21 Aug):**
+
+> Ty, thank you for coming back to me, and for the time you and the team gave this over the past week. I completely understand the decision. A strategic enterprise architecture role was always a big ask at a time of so much change, and I think you have it the right way round: as you move through the IT journey, if defined pieces of work come up where an external person can assist, that is exactly where I can prove my value. So let's definitely stay in contact, and I wish you and the team every success with the changes ahead.
+>
+> Julian
+
+**Why this shape:**
+- **"I think you have it the right way round"** converts Ty's polite-no sentence into a plan Julian is endorsing - the tactical-first idea arrives as agreement, not correction.
+- **"As you move through the IT journey... an external person can assist"** replays Ty's own written words, so any future contact is framed in terms Ty has already committed to. "Talented" deliberately dropped (self-applying his compliment reads smug).
+- **"Defined pieces of work"** is the one addition to Ty's sentence and the payload: it shapes "assist" as tactical, scoped work, so a future conversation starts there rather than at another big-role ask.
+- **"That is exactly where I can prove my value"** keeps prove-myself pointed forward; no trace of "you should have tried me first."
+- **Consistency:** the "big ask at a time of change" read matches the structural line sent to Stephan the same morning, so the two accounts corroborate if they compare notes.
+
+**NEXT:** channel closed gracefully; nothing further to Ty unless he or the IT journey produces contact. The living thread is Stephan (thank-you call, HK catch-up while packing up).
+
+---
+
 ## ❌ 20 Aug - TY'S ANSWER: NO. Employment declined; external-assistance door explicitly left open in his own closing line
 
 > **Ty's written answer arrived Wednesday 20 Aug, within hours of Stephan's "I will message him" (see Stephan section) - the two-channel convergence forced the answer out a day ahead of the Friday gate.** The answer is no on employment, with the reason given as organisational timing, not Julian: TTI is mid-change, and Ty judges it would take a year just to familiarise with their approach and culture. His own last sentence explicitly invites future contact as an external resource.
@@ -410,7 +431,21 @@ renamed: 2026-07-17
 
 ---
 
-## ⏳ 20 Aug - STEPHAN NUDGED TY A SECOND TIME ("I will message him"); Ty's rejection arrived hours later; Stephan response being drafted
+## ✅ SENT 21 Aug - CLOSE-OUT TO STEPHAN: warm thank-you, structural read without blame, one London hook
+
+> **Sent Thursday 21 Aug (UK morning), after a call attempt the previous evening went unanswered.** The message went through three strategy iterations (gracious close → accountability/guilt version → this): Julian judged the guilt version too harsh and wrote his own warmer draft, which was critiqued and tightened before sending. The toes-treading line was cut in critique (it accused Ty's own reviewers of turf-protection in writing, and Stephan repeats Julian's framing onward); the discovery instinct survived as the tactical-initiatives line, which safely matches what Julian sent Stephan on 10 Jun and 4 Jul.
+
+**Sent (21 Aug):**
+
+> Hi Stephan, I tried to call last night to thank you for your continued efforts to keep this moving with Ty. The response is disappointing but not entirely surprising. A strategic enterprise architecture role was always a big ask of an IT leadership that hadn't yet seen me deliver, which is why I'd hoped to prove myself on existing tactical initiatives first. If that kind of work comes up as things change, it's something I could easily pick up from London, so do keep me in mind. I have to drive into London shortly, but I'll find another time to call and thank you properly. Would be great to catch up when I'm back in HK packing up, so let's keep in touch.
+
+**Why this shape:** the tried-to-call opener carries more warmth than any written thanks; "disappointing but not entirely surprising" reports the outcome without grievance; the structural read blames no one; the single forward hook (tactical work, deliverable from London, keep me in mind) converts the close into a thread Stephan can pull, without an ask while the no is fresh; the proper thank-you call and HK catch-up keep the friendship the primary channel. The bigger Stephan-London conversation (finding Julian ongoing work from the UK) is deliberately deferred to the promised call / catch-up.
+
+**NEXT:** the thank-you call when Julian has a window; the HK catch-up while packing up. The Ty reply goes separately (see Ty section).
+
+---
+
+## ✅ 20 Aug - STEPHAN NUDGED TY A SECOND TIME ("I will message him"); Ty's rejection arrived hours later
 
 > **Wednesday 20 Aug: Julian flagged the continued Ty silence, Stephan committed to message him, and Ty's written no (see Ty section) arrived within hours.** The sequence strongly suggests Stephan's nudge produced the answer. Stephan has now delivered on both 19 Aug commitments (reach out to Ty, get an answer moving); what remains from his side is the "get back to you" loop, which Ty's direct email has partly overtaken. Whether Stephan already knows the outcome is unconfirmed.
 
@@ -419,7 +454,7 @@ renamed: 2026-07-17
 > **Julian (12:54):** *"Still no acknowledgement from Ty my end."*
 > **Stephan (1:18pm):** *"I will message him"*
 
-**NEXT (as of 21 Aug, strategy settled after three iterations):** Julian's read is that Ty's external-person line is a polite no, not a genuine door. **Ty channel:** short, pure gracious close - thanks, acceptance, happy to stay in contact, no contractor-frame correction (correcting a polite no argues with politeness and gains nothing). Draft approved by Julian 20 Aug. **Stephan channel:** the 20 Aug accountability/guilt version was judged too harsh by Julian on 21 Aug and replaced with his own warmer draft, critiqued and tightened: tried-to-call opener (call attempted 20 Aug evening, unanswered), "disappointing but not entirely surprising", the structural read softened from "treads on IT leaders' toes" (cut: accuses Ty's own reviewers of turf-protection in writing, and Stephan repeats Julian's framing onward) to "a big ask of an IT leadership that hadn't yet seen me deliver", the discovery instinct carried as "I'd hoped to prove myself on existing tactical initiatives first" (safe: matches the sent 4 Jul and 10 Jun messages), plus ONE forward hook: that kind of work is deliverable from London, keep me in mind. Closes on a proper thank-you call to come and an HK catch-up while packing up. Timeline fact: Julian is currently in the UK; the school-place acceptance and a return to HK to pack up are the operative plan. Sent versions to be logged here.
+**NEXT (as of 21 Aug):** both close-outs SENT (Stephan entry above; Ty reply in the Ty section). The engagement's active phase is over. Remaining threads: the thank-you call to Stephan, the HK catch-up while packing up, and later, once relocated, the Stephan-London conversation about ongoing work Julian can do from the UK. Timeline: Julian is currently in the UK; school-place acceptance and a return to HK to pack up are the operative plan.
 
 ---
 
