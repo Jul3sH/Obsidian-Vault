@@ -48,6 +48,15 @@ Agreed 19-20 Aug 2026 in the definition session; revised 23 Aug 2026 (Perplexity
 - **Silence test:** Passed. Julian confirmed (20 Aug 2026) he would still do this work if he could never tell anyone, so the payoff stands on usefulness, not prestige.
 - **Good enough when:** the task-routing skill can be built from the articles alone without going back to do more research, and Julian can manually verify task-routing choices by reading the articles against the mental model he has built.
 
+## Sign-off Review Scope (agreed 23 Aug 2026; the definition future estimates compare against)
+Julian's manual verification of a machine-drafted, machine-verified article set is:
+1. Full read of the `_index.md` plus a ~30% sample of the articles.
+2. Skim of the remainder at Key Takeaways + "Reach For It When" level.
+3. An explicit decision on every judgment item the synthesis stage flagged.
+4. A glance at newly created mental-model files and at any pre-existing file the run edited.
+
+This scope assumes the two upstream machine passes ran clean (Opus claim validation at draft time, Codex adversarial check per file, all verdicts "verified"). A run arriving with unverified articles or failed branches warrants a wider sample. Record actual review minutes against this scope in the Time Log so future estimates compare like with like.
+
 ## Sign-off Review Flags (from the 23 Aug 2026 workflow run; resolve at CC4 review)
 1. **mm-tool-surface proposal rejected** by the synthesis stage as not distinct (least-privilege half went into [[mm-blast-radius]]; progressive-disclosure half already covered by [[mm-token-economics]]). Overturn if you disagree.
 2. **[[mm-adaptation-ladder]] filing location**: created in performance/working-with-genai per instruction, but by the filing test it arguably belongs in technology/. Decide at review.
@@ -63,6 +72,7 @@ Machine effort is recorded in tokens (from the workflow run view), Julian's effo
 | 2026-08-23 | Perplexity Deep Research: single-shot run, Area 8 update, export wrangling | Julian | ~30 min | Report delivered to raw/dr-all-areas.md; 9 areas (ninth accepted into scope) |
 | 2026-08-23 | Workflow run wf_649b13a4: 9 draft + 9 Codex-verify + 1 synthesis (19 agents, 0 errors, 11.6 min wall-clock) | Machine (Claude) | 2,028,039 tokens | All 9 articles verified; 23 Codex findings, 23 fixed; 2 mm models created |
 | 2026-08-23 | Codex adversarial reviews, 9 threads (gpt-5.5, medium reasoning) | Machine (Codex) | 526,363 tokens | Mined from ~/.codex/logs_2.sqlite per-thread peak total_usage_tokens (42,965 to 86,900 per review); billed to ChatGPT subscription, not counted by the workflow meter |
+| 2026-08-23 | Sign-off review, part 1 (step 3 of the review scope) | Julian | 5 min | Review scope steps 1-2 and 4 still open at this point |
 
 ## Links
 - **Project:** [[../projects/ai-engineering-patterns|AI Engineering Patterns]]
