@@ -200,6 +200,7 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "raw/dr-prompts-ai-engineering-patterns.md",
     "wiki/projects/uk-relocation-decision.md",
     "wiki/deliverables/ai-engineering-pattern-articles.md",
     "wiki/technology/claude-anthropic/claude-code-hooks.md",
@@ -226,7 +227,6 @@
     "wiki/performance/working-with-genai/mm-token-economics.md",
     "wiki/technology/claude-anthropic/session-context-loading.md",
     "wiki/performance/working-with-genai/mm-verification.md",
-    "wiki/performance/working-with-genai/mm-steering.md",
     "wiki/ai-os/skills/whatsapp-someday/scripts",
     "wiki/ai-os/skills/whatsapp-someday",
     "wiki/ai-os/skills/grill-me/agents",
