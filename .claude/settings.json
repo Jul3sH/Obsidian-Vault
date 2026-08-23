@@ -8,7 +8,8 @@
       "Edit(~/.claude/skills/define-task/**)",
       "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
       "mcp__claude_ai_Atlassian__getJiraIssue",
-      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue"
+      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
+      "Bash(node /Users/julianhart/.claude/plugins/cache/openai-codex/codex/1.0.5/scripts/codex-companion.mjs adversarial-review *)"
     ],
     "additionalDirectories": [
       "/Users/julianhart/.claude/skills/define-task"

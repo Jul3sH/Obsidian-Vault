@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/projects/ai-engineering-patterns.md",
+                "file": "raw/dr-all-areas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ai-engineering-patterns"
+              "title": "dr-all-areas"
             }
           }
         ]
@@ -200,7 +200,19 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/technology/ai-engineering-patterns/model-adaptation.md",
+    "wiki/technology/ai-engineering-patterns/spec-driven-development.md",
+    "wiki/technology/ai-engineering-patterns/tools-mcp.md",
+    "wiki/technology/ai-engineering-patterns/security-agent-identity.md",
+    "wiki/technology/ai-engineering-patterns/observability.md",
+    "wiki/technology/ai-engineering-patterns/memory.md",
+    "wiki/technology/ai-engineering-patterns/orchestration.md",
+    "wiki/technology/ai-engineering-patterns/context-engineering.md",
+    "wiki/technology/ai-engineering-patterns/evals.md",
+    "wiki/technology/ai-engineering-patterns",
     "raw/dr-prompts-ai-engineering-patterns.md",
+    "raw/dr-all-areas.md",
+    "wiki/projects/ai-engineering-patterns.md",
     "wiki/projects/uk-relocation-decision.md",
     "wiki/deliverables/ai-engineering-pattern-articles.md",
     "wiki/technology/claude-anthropic/claude-code-hooks.md",
@@ -216,17 +228,6 @@
     "wiki/finance/uk-relocation-savings-comparison.md",
     "wiki/career/uk-150k-feasibility-jh-clarifications-2026-07-09.md",
     "wiki/career/target-role-profile.md",
-    "wiki/projects/ai-engineering-patterns.md",
-    "wiki/deliverables/goals-roadmap.excalidraw.md",
-    "wiki/ai-os/system-design/claude/memory/feedback-visible-waiting-state.md",
-    "wiki/performance/goals-register.md",
-    "wiki/performance/performance-workstream.md",
-    "wiki/performance/systems-register.md",
-    "wiki/performance/working-with-genai/verification-bottleneck.md",
-    "wiki/performance/working-with-genai/routing-work-prompts.md",
-    "wiki/performance/working-with-genai/mm-token-economics.md",
-    "wiki/technology/claude-anthropic/session-context-loading.md",
-    "wiki/performance/working-with-genai/mm-verification.md",
     "wiki/ai-os/skills/whatsapp-someday/scripts",
     "wiki/ai-os/skills/whatsapp-someday",
     "wiki/ai-os/skills/grill-me/agents",
@@ -235,7 +236,6 @@
     "wiki/career/tti/_wip/tti-comms-log.md.tmp.74994.0ed997a9d6ad",
     "wiki/ai-os/logs/log-2026-Q3.md.tmp.74994.027ccecf7080",
     "wiki/performance/working-with-genai",
-    "wiki/career/tti/_wip/Enterprise Architecture & Technology Leadership - Julian Hart - Aug 2026 copy.pdf",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",

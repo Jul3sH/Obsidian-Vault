@@ -84,7 +84,7 @@ idempotent - safe to run repeatedly.
 
 ## Current project settings snapshot
 
-Verbatim snapshot of `<vault>/.claude/settings.json` as of 2026-08-20. Two parts:
+Verbatim snapshot of `<vault>/.claude/settings.json` as of 2026-08-23. Two parts:
 the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
 `hooks` block added 2026-08-20.
 
@@ -99,7 +99,8 @@ the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
       "Edit(~/.claude/skills/define-task/**)",
       "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
       "mcp__claude_ai_Atlassian__getJiraIssue",
-      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue"
+      "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
+      "Bash(node /Users/julianhart/.claude/plugins/cache/openai-codex/codex/1.0.5/scripts/codex-companion.mjs adversarial-review *)"
     ],
     "additionalDirectories": [
       "/Users/julianhart/.claude/skills/define-task"
