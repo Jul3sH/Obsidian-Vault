@@ -17,7 +17,7 @@ AREA 4 — EVALS: eval-driven development, eval types (unit-style assertions, en
 AREA 5 — ORCHESTRATION & WORKFLOW ARCHITECTURES: single-agent vs multi-agent, workflows (deterministic control flow) vs agents (model-driven control flow), the named shapes (fan-out and synthesize, classify and act, generate and filter, tournament, loop until done, adversarial verification, pipelines), when NOT to go multi-agent.
 AREA 6 — SPEC-DRIVEN DEVELOPMENT: specifications as the source of truth AI coding agents implement against — spec-first workflows, plan-then-execute, acceptance criteria for agents, test-first with agents, tools (spec modes in AI IDEs, Amazon Kiro, GitHub Spec Kit).
 AREA 7 — SECURITY & AGENT IDENTITY: prompt injection and mitigations, tool permission models, sandboxing, data exfiltration, supply-chain trust for MCP servers, and agent identity — how agents authenticate, workload identity, OAuth for agents acting on a user's behalf, emerging standards.
-AREA 8 — GAP SCAN: survey how practitioners carve up AI engineering in 2025-2026 (AI lab engineering guides, practitioner curricula, conference tracks, respected landscape posts). Identify the strongest pattern area MISSING from areas 1-7 (candidates to test: model routing/selection, cost and token economics, fine-tuning vs prompting, human-in-the-loop and AI UX patterns, deployment/versioning). Name it, justify the choice briefly, then research it as area 8.
+AREA 8 — GAP SCAN: survey how practitioners carve up AI engineering in 2025-2026 (AI lab engineering guides, practitioner curricula, conference tracks, respected landscape posts). Identify the strongest pattern area MISSING from areas 1-7 (candidates to test: observability as a discipline distinct from evals — production tracing, monitoring, drift detection; model routing/selection; cost and token economics; fine-tuning vs prompting; human-in-the-loop and AI UX patterns; deployment/versioning). Name it, justify the choice briefly, then research it as area 8.
 
 For EACH of the 8 areas, use exactly this section structure:
 
@@ -30,6 +30,19 @@ For EACH of the 8 areas, use exactly this section structure:
 7. SOURCES — every claim cited with a dated source.
 
 Constraints for the whole report: this is a breadth catalog, so aim for consistent, substantial coverage of every area rather than exhausting any one of them. Prefer practitioner-grade material (engineering blogs of AI labs and serious companies, official docs and specs, security research, conference talks) over SEO content and news aggregators. Prioritise 2025-2026 sources and flag anything older. Flag contested or uncertain claims explicitly. Start each area with a heading in the form "## AREA N — [NAME]" so the sections can be split programmatically.
+```
+
+---
+
+## UPDATE PROMPT — rerun the Area 8 gap scan with observability as a candidate
+Paste as a follow-up in the same Perplexity thread as the single-shot run. Replace the report's AREA 8 section with the output; areas 1-7 stay as they are.
+
+```
+Update your report: redo AREA 8 (the gap scan) only. Areas 1-7 stand unchanged.
+
+When surveying how practitioners carve up AI engineering in 2025-2026, the candidate list for the strongest missing pattern area must now explicitly include: OBSERVABILITY AS A DISCIPLINE DISTINCT FROM EVALS — production-time tracing, monitoring, and drift detection, as positioned by vendors like Arize and Langfuse — alongside the previous candidates (model routing/selection, cost and token economics, fine-tuning vs prompting, human-in-the-loop and AI UX patterns, deployment/versioning).
+
+Assess whether current practitioner practice treats observability as a first-class pattern area separate from evals, or as a subsection of evals. Then recommend the SINGLE strongest missing area overall, justify the choice briefly (including your evals-vs-observability verdict either way), and research the recommended area in full with the same 7-section structure as before (DEFINITION, ROUTING TRIGGERS, TECHNIQUE TAXONOMY, CONCRETE EXAMPLES, ANTI-PATTERNS & FAILURE MODES, STATE OF PRACTICE, SOURCES). Start the section with the heading "## AREA 8 — [NAME]".
 ```
 
 ---
