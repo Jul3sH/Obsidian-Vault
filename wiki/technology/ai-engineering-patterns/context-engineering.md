@@ -33,9 +33,9 @@ Reach for context engineering when:
 
 Do **not** reach for it when:
 
-- The problem is persistence **across sessions**, not within one. That is memory: see [[agent-memory]].
+- The problem is persistence **across sessions**, not within one. That is memory: see [[memory]].
 - The problem is that the model lacks the skill or domain knowledge rather than the facts. That is model adaptation: see [[model-adaptation]].
-- The problem is that the agent cannot act. That is tools: see [[tools-and-mcp]].
+- The problem is that the agent cannot act. That is tools: see [[tools-mcp]].
 
 ## Core Techniques
 
@@ -83,7 +83,8 @@ As of Aug 2026:
 
 ## Links
 
-- [[agent-memory]] - persistence across sessions, where this pattern ends
-- [[tools-and-mcp]] - tool output is the largest single consumer of context
+- [[memory]] - persistence across sessions, where this pattern ends
+- [[tools-mcp]] - tool output is the largest single consumer of context
 - [[model-adaptation]] - the prompting / RAG / fine-tuning choice this feeds into
-- [[orchestration-patterns]] - sub-agent isolation as a context strategy
+- [[orchestration]] - sub-agent isolation as a context strategy
+- [[evals]] - most retrieval-system eval failures turn out to be context failures

@@ -398,6 +398,14 @@ Relationships, Personal, or Finance enablers.]
 - **Good enough when:** [observable stopping condition, checkable by someone
   other than Julian. For Exploration spikes: the timebox + the decision it feeds.]
 
+## Time Log
+Machine effort in tokens, Julian's effort in focused minutes - never mixed into one
+figure (see AGENTS.md "Time and Token Logging"). Minutes roll up to Actual hrs in the
+[[estimation-baseline|Estimation Baseline]] at completion; tokens go in that row's Notes.
+
+| Date | Segment | Who | Tokens / Minutes | Notes |
+|------|---------|-----|------------------|-------|
+
 ## Links
 - **Project:** [[../projects/[project-slug]|[Project Name]]]
 - **Workstream:** [[../[workstream]/_index|[workstream]]]

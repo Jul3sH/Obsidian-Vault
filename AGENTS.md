@@ -236,6 +236,32 @@ means or what comes next.
 
 ---
 
+# Time and Token Logging (all agents)
+
+Every deliverable file in `wiki/deliverables/` carries a `## Time Log` section recording
+execution effort in two currencies that are never mixed into one figure:
+
+- **Julian's attended time, in focused minutes.** Self-reported at each handoff (in Claude
+  Code a UserPromptSubmit hook prompts for it; other agents ask when Julian hands back a
+  completed piece of attended work). One row per attended segment.
+- **Machine effort, in tokens.** Whenever machine execution runs for a deliverable (a
+  workflow, subagents, or an external CLI such as Codex), append a row with its token total
+  **in the same operation as the run's other bookkeeping** - not later, not on request.
+  Claude workflow runs report their token total in the completion notification. Codex
+  exec-mode usage is not in that figure: mine it from `~/.codex/logs_2.sqlite` (per-thread
+  peak `total_usage_tokens`, one thread per invocation) and log it as a separate row.
+
+**Roll-up for estimation:** at deliverable completion, Julian's total minutes feed the
+**Actual hrs** column of `wiki/ai-os/service-design/estimation-baseline.md`; token totals go
+in that row's Notes, never in the hours figure. The point of the whole mechanism is a
+growing baseline of what work actually costs (his time and machine spend separately), so
+future sizing is calibrated rather than guessed.
+
+If an older deliverable file lacks the section, add it the next time work touches that file.
+Reference implementation: the Time Log in `wiki/deliverables/ai-engineering-pattern-articles.md`.
+
+---
+
 # Single Source of Truth for Project Numbers (all agents)
 
 When a project accumulates many analyses that quote the same figures (burn rates, runway,

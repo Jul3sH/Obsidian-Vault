@@ -44,8 +44,9 @@ Route work here when **any** of these hold:
 - **The diff will be unreviewable.** The implementation will span many files or hundreds
   of lines, and you know you will rubber-stamp the pull request rather than read it. The
   spec is what you review instead.
-- **Requirements are ambiguous and you are the ambiguity.** You cannot yet state what
-  "done" means. Writing the spec is the work; the code is downstream of it.
+- **You know the outcome but not the precise acceptance criteria.** The problem and
+  solution shape are settled; what is missing is a rigorous statement of "done."
+  Writing the spec is what forces that statement out of you.
 - **Greenfield feature work needing traceability.** Someone will later ask which
   requirement a given piece of code serves, and you want a mapping rather than a guess.
 - **A human must approve intent before code exists.** Regulated work, shared codebases,
@@ -56,7 +57,8 @@ Route work here when **any** of these hold:
 Do **not** route here when:
 
 - The change is small, local, and reviewable in one sitting. Write it.
-- You are exploring and do not yet know what you want. Prototype first, spec second.
+- The problem or solution shape itself is still unknown, not just the acceptance
+  criteria. Prototype first, spec second.
 - The spec would take longer to write than the code would take to write twice.
 
 The routing test in one line: **would you rather review the intent or the diff?** If the
@@ -88,8 +90,9 @@ diff, skip this pattern.
 - **Amazon Kiro** - Agentic IDE built on Code OSS (so VS Code settings and Open VSX
   plugins carry over), now also available as a CLI and web surface. Turns a prompt into
   `requirements.md` with EARS-notation acceptance criteria, a `design.md`, and a
-  dependency-sequenced `tasks.md`. Runs on Amazon Bedrock, routing across Claude Sonnet 5,
-  Claude Opus 4.8, Claude Sonnet 4.6 and Amazon Nova. Adds Agent Hooks: event-driven
+  dependency-sequenced `tasks.md`. Runs on Amazon Bedrock, with a model picker that
+  changes often (Claude, GPT and open-weight options have all appeared); check Kiro's
+  own model changelog rather than trusting a fixed list here. Adds Agent Hooks: event-driven
   automations firing on file save or create. Its specs stay synced with the evolving
   codebase, though the sync is requested rather than automatic (you author code and ask
   Kiro to update the specs).
@@ -147,4 +150,4 @@ and expect the shape of the pattern to keep moving.
 
 ## Links
 
-[[context-engineering]], [[evals]], [[orchestration-patterns]], [[observability]]
+[[context-engineering]], [[evals]], [[orchestration]], [[observability]]

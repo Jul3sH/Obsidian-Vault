@@ -66,7 +66,7 @@ Three tiers of output reliability, in ascending order: prompt-only JSON (no guar
 
 ## Mental Models
 
-[[mm-routing]], [[mm-verification]], [[mm-token-economics]], [[mm-steering]]
+[[mm-routing]], [[mm-verification]], [[mm-token-economics]], [[mm-steering]], [[mm-blast-radius]] (least privilege and the gate on destructive reach)
 
 ## State of Practice
 
@@ -80,6 +80,6 @@ As of Aug 2026:
 
 ## Links
 
-Related pattern articles in this folder: [[context-engineering]] (the same context-budget problem, applied to knowledge rather than tool schemas), [[evals]] (how you prove a tool surface works), [[orchestration]] (what calls the tools), [[agent-security]] (permissioning, prompt injection through tool returns).
+Related pattern articles in this folder: [[context-engineering]] (the same context-budget problem, applied to knowledge rather than tool schemas), [[evals]] (how you prove a tool surface works), [[orchestration]] (what calls the tools), [[security-agent-identity]] (permissioning, prompt injection through tool returns).
 
 [[ai-os/skills/_index|AI OS skills]] is the local instance of this pattern: skills are the tool surface this vault actually exposes, and the same distinctness and least-privilege rules apply.

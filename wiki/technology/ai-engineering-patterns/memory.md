@@ -150,6 +150,7 @@ As of Aug 2026:
 
 ## Links
 
-- [[context-engineering]]
-- [[security-agent-identity]]
-- [[observability]]
+- [[context-engineering]] - what is in the current window, versus what survives it closing
+- [[security-agent-identity]] - persistent memory turns a one-off injection into a durable one
+- [[observability]] - retrieval quality degrading as the store grows is a drift problem
+- [[model-adaptation]] - the adjacent question of what gets retrieved per query versus baked into weights

@@ -68,7 +68,8 @@ Do NOT reach for it when: the data is non-sensitive and single-tenant, no extern
 
 ## Mental Models
 
-- [[mm-routing]] - the checkability and blast-radius questions that decide whether an agent gets a tool at all.
+- [[mm-blast-radius]] - the reversibility, least-privilege and approval-gate judgement this whole area is organised around.
+- [[mm-routing]] - the checkability question that decides whether an agent gets a tool at all.
 - [[mm-verification]] - approval gates and output validation are verification applied at the action boundary.
 
 ## State of Practice
@@ -86,3 +87,4 @@ As of **Aug 2026**, this area is a live and fast-moving problem, not settled pra
 - [[evals]] - adversarial testing and red-teaming as scheduled evaluation.
 - [[observability]] - runtime detection of what the controls missed.
 - [[context-engineering]] - instruction/data separation starts as a context-assembly decision.
+- [[memory]] - persistent state is the surface a successful injection uses to survive the session.

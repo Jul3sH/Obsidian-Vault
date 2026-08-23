@@ -92,4 +92,4 @@ As of Aug 2026:
 
 ## Links
 
-[[context-engineering]], [[evals]], [[tools-and-mcp]], [[observability]]
+[[context-engineering]], [[evals]], [[tools-mcp]], [[observability]], [[spec-driven-development]] (the fixed control flow a spec describes, before an agent is given the leash)

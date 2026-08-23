@@ -14,14 +14,14 @@ jira-key: BWS-61
 
 ## Status (as of 2026-08-23)
 
-**Position:** As of 23 Aug 2026: Deliverable 1 ([[ai-engineering-pattern-articles]], 2h, queued) is fully prepared and waiting on Julian's research step. Execution design revised 23 Aug: Julian runs 8 Perplexity Deep Research prompts as the grounding stage (replacing Sonnet agents), then a fan-out-and-synthesize workflow has Opus agents validate-and-draft each article to the approved template, Codex adversarially checks each file, and a synthesis stage writes the index. Structure: 8 separate files in a new `wiki/technology/ai-engineering-patterns/` folder with a navigation-only `_index.md`. Time is instrumented (machine in tokens, Julian in minutes) to build an execution baseline. Target unchanged: all three outputs complete before the possible 1 Sep 2026 TTI start.
+**Position:** As of 23 Aug 2026 (evening): box 1 execution is COMPLETE pending Julian's sign-off. The workflow ran clean: 9 articles drafted from the Perplexity research into `wiki/technology/ai-engineering-patterns/`, every one passed its Codex adversarial check (23 findings raised, all 23 fixed), and the synthesis stage produced the `_index.md`, 2 new mental models ([[mm-blast-radius]], [[mm-adaptation-ladder]]), cross-links, and a technology-index row. Machine cost 2.03M tokens in 11.6 minutes; Julian's attended time so far ~30 min (research stage). Remaining for box 1: Julian reviews the set against the synthesis flags in the deliverable file and signs off (CC4). Target unchanged: all three outputs complete before the possible 1 Sep 2026 TTI start.
 
 **Next action (in order, resume here):**
-1. Execute box 1 workflow (Prompt Zero waived 20 Aug, recorded in the task file): Opus agents validate the Perplexity reports and draft to the agreed template, Codex checks each file, synthesis writes the index. Julian reviews and signs off. Hard stop at 2h; remainder re-scopes.
+1. Julian: review the 9 articles and the synthesis flags (recorded in [[ai-engineering-pattern-articles]]), decide the two flagged judgment calls (mm-tool-surface rejection; mm-adaptation-ladder filing location), sign off, and report review minutes for the Time Log.
 2. `/define-enabler` for Deliverable 2: task-routing skill + tested evals + wiki mirror + systems-register row (the second 2h box). Same Prompt Zero gate.
 3. `/jira-sync` to create the BWS story for Deliverable 1 under Epic BWS-61.
 
-**Waiting on:** Julian's go to launch the box 1 workflow.
+**Waiting on:** Julian's review and sign-off of the 9 articles.
 
 **Detail tier:** see `## Deliverables` below.
 
@@ -38,6 +38,7 @@ These are the live files that make up this Project's evidence base. The Project 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-08-23 | Box 1 workflow executed (wf_649b13a4, 19 agents, 11.6 min, 2.03M tokens, 0 errors): 9 articles drafted and Codex-verified (23/23 findings fixed), _index.md + 2 new mm models ([[mm-blast-radius]], [[mm-adaptation-ladder]]) + cross-links + technology index row created. Research report archived to raw/_processed/ with manifest row. Awaiting Julian sign-off (CC4). |
 | 2026-08-23 | Perplexity research delivered (raw/dr-all-areas.md, ~30 min attended, logged). Gap scan verdict: observability is a distinct discipline and becomes Area 8. Perplexity volunteered a ninth area (Model Adaptation: prompting vs RAG vs fine-tuning); Julian accepted it, so the catalog is now 9 articles and completion criteria updated. Ready to launch the workflow. |
 | 2026-08-23 | Execution design revised: Perplexity Deep Research replaces the Sonnet research stage (8 prompts written to raw/dr-prompts-ai-engineering-patterns.md; prompt 8 doubles as the gap scan for the eighth area); article template approved (first cut) and recorded in the task file; Opus agents now validate-and-draft. Waiting on Julian to run the prompts. |
 | 2026-08-20 | Deliverable 1 defined via `/define-task`: [[ai-engineering-pattern-articles]] (2h, queued). Key decisions: 8 separate pattern files in a new `wiki/technology/ai-engineering-patterns/` folder (no catalog file); fan-out-and-synthesize workflow with per-file Codex verification; original "assembly not research" sizing assumption corrected — research is folded into execution via Sonnet agents. Payoff test passed. |

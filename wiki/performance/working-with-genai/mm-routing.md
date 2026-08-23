@@ -78,7 +78,9 @@ rather than discovering.
 
 The model has no lever for blast radius (cheap-to-check and catastrophic scores
 like cheap-to-check and trivial), intrinsic check cost (one output can still be
-hard to verify), or latency and cost. Hold those yourself. It also assumes the work
+hard to verify), or latency and cost. Hold those yourself, or reach for the
+companion models: [[mm-blast-radius]] for reach and reversibility,
+[[mm-token-economics]] for cost. It also assumes the work
 is worth doing: it chooses the architecture, not the objective.
 
 ## Detail

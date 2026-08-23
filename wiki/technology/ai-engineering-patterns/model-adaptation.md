@@ -43,7 +43,7 @@ Every substantial piece of LLM work makes this choice, usually implicitly. Make 
 | **Full fine-tuning (SFT)** | Updates all weights on a labelled task dataset | Largest behaviour shift, highest compute and data cost, highest catastrophic-forgetting risk. Reserve for cases where PEFT demonstrably underfits |
 | **LoRA** | Freezes the base model, trains small low-rank matrices in attention and MLP layers, typically well under 1% of parameters | The default fine-tuning method when GPU memory allows. Also the safer one: it preserves base-model capability |
 | **QLoRA** | 4-bit NF4 quantisation of the frozen base plus LoRA adapters, cutting VRAM sharply | Consumer-GPU or budget-constrained fine-tuning. The standard entry point |
-| **DoRA** | Splits the weight update into magnitude and direction, applying LoRA to direction only | Emerging default paired with QLoRA. Outperforms LoRA on downstream tasks with no added inference overhead |
+| **DoRA** | Splits the weight update into magnitude and direction, applying LoRA to direction only | Often outperforms LoRA on downstream tasks. Benchmark before adopting: unmerged DoRA can add real runtime and memory overhead versus LoRA, and the zero-overhead case only holds once adapters are merged for inference |
 | **Preference optimisation (DPO / RLHF / GRPO)** | Post-SFT alignment on preference pairs or verifiable rewards | Polishing style and safety after base fine-tuning. Behaviour shaping, never knowledge injection |
 | **Continued pre-training (CPT)** | Further pre-training on large volumes of raw domain text before task tuning | Deep terminology grounding in high-stakes domains, ahead of SFT. Expensive; rarely the right first move |
 | **Distillation** | Trains a small student to mimic a large teacher | Cost and latency reduction at serving time, not new knowledge or behaviour |
@@ -53,7 +53,7 @@ Every substantial piece of LLM work makes this choice, usually implicitly. Make 
 
 - **Support assistant over a changing product wiki.** Pure RAG. The failure mode is the model not knowing this week's pricing, which fine-tuning cannot fix without a retrain. Retrieval also gives you the citation the support team needs.
 - **Structured extraction at scale on a fixed schema.** Prompting with few-shot plus structured-output constraints usually holds. If it still drifts across thousands of calls, that is the textbook fine-tuning case: narrow, high volume, behavioural, and cheap to evaluate.
-- **Regulated-domain assistant (legal or medical).** Hybrid. Published systematic reviews now catalogue deployed fine-tune-plus-RAG systems in medicine, including federated-RAG and knowledge-graph variants, so this is a documented production shape rather than a diagram.
+- **Regulated-domain assistant (legal or medical).** Hybrid. Published 2026 scoping reviews catalogue fine-tune-plus-RAG systems evaluated for medicine, including federated-RAG and knowledge-graph variants, but the evidence base is small (single digits of eligible studies) and framed as promising rather than proven at deployment. Treat hybrid as the right shape to design toward, gated by clinical validation and governance before production, not as an already-deployed pattern.
 - **Cost reduction on a proven pipeline.** Once a large model's behaviour is settled and you have thousands of good input-output pairs, QLoRA a smaller open-weights model onto that behaviour. The economics here are the strongest argument for PEFT: a small-model QLoRA run costs single-digit dollars of GPU time, orders of magnitude below a full-parameter run of the same model.
 
 ## Anti-Patterns
@@ -67,6 +67,7 @@ Every substantial piece of LLM work makes this choice, usually implicitly. Make 
 
 ## Mental Models
 
+- [[mm-adaptation-ladder]] - the knowledge-or-behaviour cut and the one-rung-at-a-time escalation rule, in short form.
 - [[mm-routing]] - the recurrence-or-value bar that decides whether any of this gets built.
 - [[mm-token-economics]] - prompting, caching, RAG, and fine-tuning are four different cost curves for the same output.
 - [[mm-verification]] - you cannot claim an escalation was justified without a check that prompting actually failed.
@@ -78,7 +79,7 @@ As of Aug 2026:
 
 - **Consensus is unusually strong here.** Default to prompting, add RAG for facts, reserve fine-tuning for behaviour, combine both for high stakes. That ordering appears near-identically across practitioner frameworks, vendor documentation, and the peer-reviewed comparison. Vendor guidance converges too: OpenAI's own optimisation documentation orders it evals, then prompt engineering, then fine-tuning if needed.
 - **PEFT is mature and production-ready.** LoRA and QLoRA carry the bulk of fine-tuning work, with mature tooling (Unsloth, Axolotl, Hugging Face PEFT). Full-parameter tuning is reserved for maximum-quality cases or where PEFT underfits.
-- **QLoRA plus DoRA is the emerging default combination** for new fine-tuning projects. An incremental but real shift since 2025.
+- **QLoRA plus DoRA is a rising combination** for new fine-tuning projects, but benchmark it: unmerged DoRA can carry meaningfully higher inference overhead than LoRA, so the choice should follow measurement, not default assumption.
 - **Contested (unchanged from the source research):** the distilled-pretraining trade-off above, where improved test-time scaling appears to come at the cost of in-context learning.
 - **Weakly evidenced, treat with care:** specific dollar thresholds for when fine-tuning pays back. The order-of-magnitude gap between PEFT and full fine-tuning is well corroborated; precise per-run figures and monthly-spend crossover points circulate mainly through low-quality content and should be recomputed for your own workload.
 

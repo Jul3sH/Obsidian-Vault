@@ -76,3 +76,5 @@ purpose: Track compile status of all raw/ inbox files. Processed files move to r
 1. **After every compile:** add a row to the Processed table; move the file to `raw/_processed/`.
 2. **To check what is pending:** scan the Pending table.
 3. **Do not delete raw files** — move them to `raw/_processed/` so the source material is preserved.
+
+| 2026-08-23 | dr-all-areas.md | Perplexity Deep Research report (9 AI engineering pattern areas) | Compiled into wiki/technology/ai-engineering-patterns/ (9 articles + _index) and 2 new mm models by workflow wf_649b13a4 | raw/_processed/dr-all-areas.md |

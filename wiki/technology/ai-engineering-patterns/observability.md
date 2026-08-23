@@ -85,3 +85,4 @@ As of Aug 2026:
 - [[context-engineering]] - context fingerprinting sits on the boundary between the two patterns.
 - [[security-agent-identity]] - audit trails, PII redaction, and approval-gate logging overlap with compliance-driven observability.
 - [[model-adaptation]] - silent provider-side model changes are the drift class that golden-set replay exists to catch.
+- [[memory]] - an unbounded memory store degrades retrieval precision silently, which only monitoring surfaces.

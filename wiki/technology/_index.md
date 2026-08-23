@@ -26,6 +26,7 @@ This folder is for **technical reference material**: product capabilities, prici
 | [[technology/claudeclaw-enterprise-os/_index\|ClaudeClaw Enterprise OS]] | Enterprise product line placeholder, to be documented |
 | [[technology/agentic-os/_index\|Agentic OS]] | Turn Claude Code into an agentic operating system: identity, skills, semantic memory, multi-client isolation |
 | [[technology/Memory systems/_index\|Memory Systems]] | How agent memory is structured: the four-pillar model, its enabler technologies, and the main product comparisons. Sequenced as a reading order |
+| [[technology/ai-engineering-patterns/_index\|AI Engineering Patterns]] | Nine pattern-area reference articles for routing engineering tasks to the right AI approach, from context engineering to model adaptation |
 
 ## AI Memory Architecture
 

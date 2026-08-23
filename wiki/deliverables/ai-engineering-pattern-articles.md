@@ -48,12 +48,21 @@ Agreed 19-20 Aug 2026 in the definition session; revised 23 Aug 2026 (Perplexity
 - **Silence test:** Passed. Julian confirmed (20 Aug 2026) he would still do this work if he could never tell anyone, so the payoff stands on usefulness, not prestige.
 - **Good enough when:** the task-routing skill can be built from the articles alone without going back to do more research, and Julian can manually verify task-routing choices by reading the articles against the mental model he has built.
 
+## Sign-off Review Flags (from the 23 Aug 2026 workflow run; resolve at CC4 review)
+1. **mm-tool-surface proposal rejected** by the synthesis stage as not distinct (least-privilege half went into [[mm-blast-radius]]; progressive-disclosure half already covered by [[mm-token-economics]]). Overturn if you disagree.
+2. **[[mm-adaptation-ladder]] filing location**: created in performance/working-with-genai per instruction, but by the filing test it arguably belongs in technology/. Decide at review.
+3. **Contested claims kept and flagged in-article, not resolved**: RAG vs long-context (no winner), memory vendor benchmarks (self-reports vs independent evals disagree), MCP adoption numbers, the evals/observability boundary.
+4. **Perishable facts**: several articles carry Aug 2026 vendor/pricing/context-window facts that age within months. Dated in-line; re-check before any feeds a real decision.
+5. The synthesis stage also edited [[mm-routing]]'s Limitations section (its blast-radius gap now points to the new model) and fixed 8 broken sibling links the drafters wrote against wrong slugs.
+
 ## Time Log
 Machine effort is recorded in tokens (from the workflow run view), Julian's effort in focused minutes (self-reported at each handoff, prompted by the UserPromptSubmit time-log hook). Only Julian's minutes roll up into Actual hrs in the [[estimation-baseline|Estimation Baseline]]; tokens go in that row's Notes.
 
 | Date | Segment | Who | Tokens / Minutes | Notes |
 |------|---------|-----|------------------|-------|
 | 2026-08-23 | Perplexity Deep Research: single-shot run, Area 8 update, export wrangling | Julian | ~30 min | Report delivered to raw/dr-all-areas.md; 9 areas (ninth accepted into scope) |
+| 2026-08-23 | Workflow run wf_649b13a4: 9 draft + 9 Codex-verify + 1 synthesis (19 agents, 0 errors, 11.6 min wall-clock) | Machine (Claude) | 2,028,039 tokens | All 9 articles verified; 23 Codex findings, 23 fixed; 2 mm models created |
+| 2026-08-23 | Codex adversarial reviews, 9 threads (gpt-5.5, medium reasoning) | Machine (Codex) | 526,363 tokens | Mined from ~/.codex/logs_2.sqlite per-thread peak total_usage_tokens (42,965 to 86,900 per review); billed to ChatGPT subscription, not counted by the workflow meter |
 
 ## Links
 - **Project:** [[../projects/ai-engineering-patterns|AI Engineering Patterns]]
