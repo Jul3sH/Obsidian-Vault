@@ -26,9 +26,28 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 
 ---
 
-## Current Strategy (updated 21 July 2026) - Multi-node buy-in orchestration; EA role positioning; director-level anchor
+## Current Strategy (updated 24 August 2026) - Post-no relationship strategy: prepare, don't push
 
-> **Status:** breakthrough (Ty moved on 15 Jul); now positioning for director-level vs principal-level and building the Kari conversation.
+> **Status:** the employment engagement ended with Ty's written no (20 Aug) and gracious close-outs on both channels (21 Aug). The strategy is now about protecting the residual assets (warm Stephan channel, open Ty door, the Justin listening post) and building the next play properly. Agreed with Julian 24 Aug after Justin relayed Stephan's post-decision rationalisations.
+
+### The four agreed positions (24 Aug)
+
+1. **No unprompted engagement with Stephan on the decision rationale.** Everything known about Stephan's narrative (project work "could have been taken on"; the stale "Tony had no suitable work" read; the "couldn't get the information out of the company" resistance frame) is **Justin-sourced**. Using any of it with Stephan reveals that Justin relays their conversations and burns the channel that produced the proposal request. This extends the 19 Aug restructure guardrail indefinitely. There is also no live decision to influence: arguing with rationalisations entrenches them.
+
+2. **The pending thank-you call is the only near-term vehicle - go in prepared, not armed.** Two holding lines, deployed ONLY if Stephan volunteers his narratives himself:
+   - **Network role:** TTI advertised a network role squarely in Julian's wheelhouse since the Tony interview, so "no suitable work" is 12 months stale. Safe - Julian's own observation.
+   - **Information access:** consultants face internal resistance everywhere; that is exactly why they are sponsored top-down - and Kari himself said on 24 Jul that activities "would need to be sponsored top-down". Safe - from Julian's own Kari call.
+   The call stays warm and thank-you-led. No rebuttal session.
+
+3. **No Stephan-Kari convening.** The idea has a design flaw (it asks Stephan to commission a rebuttal of his own reasoning) and Kari is bereaved. The route that already worked is Kari advocating unprompted (he sponsored the 12-month frame himself on 24 Jul). Plan: condolence-first personal contact with Kari when he is back and the moment is decent; if he is convinced, he influences Stephan and Ty of his own accord.
+
+4. **The UK liaison play gets a strategy before it gets a conversation.** The shape: a UK-based position bridging US and HK stakeholders across the timezone gap (UK mornings overlap HK afternoons, UK afternoons overlap US mornings; nobody in either region can do both), framed in Ty's own close-out words ("defined pieces of work", "external person"), and consistent with the US-APAC bridge line already in the proposal. It must arrive as a **defined offer with a trigger** (a concrete piece of work, e.g. the network role or a cyber deliverable), never an open re-ask days after a no. Default timing stays post-relocation as earmarked 21 Aug; pull forward only on a concrete trigger.
+
+---
+
+## Superseded Strategy (21 July 2026) - Multi-node buy-in orchestration; EA role positioning; director-level anchor
+
+> **Status:** SUPERSEDED 24 Aug 2026 - this was the live strategy through the proposal and Ty's decision. Kept for the record; the engagement it steered ended 20 Aug.
 >
 ### The breakthrough (12-15 Jul)
 Stephan's orchestration worked. Pack was forwarded to Ty ~12 Jul (CV + one-pager). Direct call with Ty arranged 14 Jul. **15 Jul call with Ty: genuine permanent HK-based EA/governance role emerged**, unprompted. Ty described the actual gap: **fragmented tech leadership across Asia; too many steering committees needed to coordinate between silos; needs an enterprise architect working with the US to put architecture frameworks and governance in place.** This is exactly Julian's wheelhouse (TOGAF, governance, cross-enterprise alignment) and *better than* the principal system administrator posting. Ty proposed August meeting; Julian surfaced school deadline; Ty committed to discuss with Stephan + Frank same day.
@@ -122,6 +141,11 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 ---
 
 ## Strategy Evolution Log (newest first)
+
+### 24 August 2026 - Post-no strategy: prepare, don't push (agreed with Julian)
+- **Trigger:** Justin relayed a conversation with Stephan (who had not yet spoken to Ty): three rationalisations of the no - available project work, the stale "Tony had no suitable work" interview read, and the "couldn't get the information out of the company" resistance frame. Julian weighed engaging Stephan immediately (top of mind, narrative not yet hardened) against waiting, and separately considered asking Stephan to convene Kari for an external consultant's view.
+- **Decision:** do not engage Stephan on the substance now, and do not push a Stephan-Kari conversation. The binding constraint is that all the intel is Justin-sourced: using it burns the Justin channel. The pending thank-you call becomes the vehicle, with two prepared holding lines used only if Stephan raises his narratives himself (network-role staleness; top-down sponsorship in Kari's own 24 Jul words). Kari is approached condolence-first when he returns, directly, not via Stephan. The UK liaison play (US-HK timezone bridge, "defined pieces of work" frame) is developed as its own strategy with a concrete trigger before any conversation carries it.
+- **Why:** no live decision exists to influence; rebutting rationalisations entrenches them and reads as not accepting the no three days after a gracious close; the close-out already planted Julian's structural read; and the "act while it's top of mind" urge is the ENTP/ADHD pattern, not a strategic signal - the intel is captured, so nothing is lost by waiting.
 
 ### 21 July 2026 — Two-track tension resolved (Track A play, Track B silent fallback)
 - **Trigger:** Julian re-examined the "Systems analysis, design & integration" line on the April CV (the version Ty forwarded to Kari) against Kari's "opportunity/IT role" framing, and worried it cues the open Principal System Administrator seat ("slot him in, problem goes away for everybody").
