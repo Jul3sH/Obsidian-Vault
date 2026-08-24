@@ -5,9 +5,9 @@ status: active
 tags: [working-with-genai, model-adaptation, mental-models]
 ---
 
-# MM: Adaptation Ladder
+# MM: Model Adaptation
 
-This is the Adaptation Ladder mental model: when a model's output is not good
+This is the Model Adaptation mental model: when a model's output is not good
 enough, deciding whether the fix is giving it better information or changing how
 it behaves, and how far up the cost ladder you are allowed to climb. It was
 written because [[mm-routing]] chooses the architecture and [[mm-steering]]
@@ -21,7 +21,7 @@ then climb one rung at a time.
 what to change.
 
 **Position in the chain:** after steering. Verification decides what is possible,
-routing decides the architecture, steering configures it; the adaptation ladder is
+routing decides the architecture, steering configures it; model adaptation is
 what you reach for when steering has run out and the answer is still wrong.
 
 ## Key Takeaways
@@ -69,9 +69,10 @@ what you reach for when steering has run out and the answer is still wrong.
 
 - Write the failing examples down before choosing a rung. The pattern in them
   usually names knowledge or behaviour for you.
-- Check availability before choosing: frontier closed models are not fine-tunable
-  through their primary APIs, so "fine-tune" can quietly mean "change model
-  family".
+- Check availability before choosing: it varies by provider. Anthropic's Claude
+  API has no fine-tuning endpoint; OpenAI and Azure expose hosted fine-tuning for
+  selected closed models. Confirm the target provider and model before assuming
+  "fine-tune" means "change model family".
 - Anything the fine-tune bakes in ages silently, so a weight change that carries
   facts needs drift monitoring attached at the same time.
 - Prefer the reversible rung. A prompt change is undone in a minute, a retrain is

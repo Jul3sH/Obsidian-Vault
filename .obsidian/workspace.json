@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/working-with-genai/mm-adaptation-ladder.md",
+                "file": "wiki/performance/working-with-genai/_index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mm-adaptation-ladder"
+              "title": "_index"
             }
           }
         ]
@@ -200,13 +200,14 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/working-with-genai/mm-model-adaptation.md",
     "wiki/performance/working-with-genai/mm-blast-radius.md",
+    "wiki/performance/working-with-genai/mm-adaptation-ladder.md",
     "wiki/technology/ai-engineering-patterns/context-engineering.md",
     "raw/dr-prompts-ai-engineering-patterns.md",
     "raw/dr-all-areas.md",
     "raw/_processed/dr-all-areas.md",
     "wiki/technology/ai-engineering-patterns/_index.md",
-    "wiki/performance/working-with-genai/mm-adaptation-ladder.md",
     "wiki/technology/ai-engineering-patterns/model-adaptation.md",
     "wiki/technology/ai-engineering-patterns/spec-driven-development.md",
     "wiki/technology/ai-engineering-patterns/tools-mcp.md",
@@ -227,7 +228,6 @@
     "wiki/projects/uk-relocation-status.md",
     "wiki/performance/decisions/commitment-lock-protocol.md",
     "wiki/performance/decisions/uk-move/_index.md",
-    "wiki/performance/decisions/decision-journal.md",
     "wiki/ai-os/skills/whatsapp-someday/scripts",
     "wiki/ai-os/skills/whatsapp-someday",
     "wiki/ai-os/skills/grill-me/agents",

@@ -14,14 +14,13 @@ jira-key: BWS-61
 
 ## Status (as of 2026-08-23)
 
-**Position:** As of 23 Aug 2026 (evening): box 1 execution is COMPLETE pending Julian's sign-off. The workflow ran clean: 9 articles drafted from the Perplexity research into `wiki/technology/ai-engineering-patterns/`, every one passed its Codex adversarial check (23 findings raised, all 23 fixed), and the synthesis stage produced the `_index.md`, 2 new mental models ([[mm-blast-radius]], [[mm-adaptation-ladder]]), cross-links, and a technology-index row. Machine cost 2.03M tokens in 11.6 minutes; Julian's attended time so far ~30 min (research stage). Remaining for box 1: Julian reviews the set against the synthesis flags in the deliverable file and signs off (CC4). Target unchanged: all three outputs complete before the possible 1 Sep 2026 TTI start.
+**Position:** As of 23 Aug 2026 (late evening): Deliverable 1 is DONE and signed off. The catalog exists: 9 articles + _index in `wiki/technology/ai-engineering-patterns/`, 2 new mental models ([[mm-blast-radius]], [[mm-model-adaptation]]), all machine outputs adversarially verified (including a follow-up pass that closed a synthesis coverage gap, now prevented by a new AGENTS.md rule). Cost: 65 attended minutes against the 2h box, 2.63M machine tokens. Remaining for the Project: Deliverable 2 (task-routing skill, the second 2h box) and Julian's cross-output review. Target: complete before the possible 1 Sep 2026 TTI start.
 
 **Next action (in order, resume here):**
-1. Julian: review the 9 articles and the synthesis flags (recorded in [[ai-engineering-pattern-articles]]), decide the two flagged judgment calls (mm-tool-surface rejection; mm-adaptation-ladder filing location), sign off, and report review minutes for the Time Log.
-2. `/define-enabler` for Deliverable 2: task-routing skill + tested evals + wiki mirror + systems-register row (the second 2h box). Same Prompt Zero gate.
-3. `/jira-sync` to create the BWS story for Deliverable 1 under Epic BWS-61.
+1. Julian: review the 9 articles and the synthesis flags (recorded in [[ai-engineering-pattern-articles]]), decide the two flagged judgment calls (mm-tool-surface rejection; mm-model-adaptation filing location), sign off, and report review minutes for the Time Log.
+2. `/jira-sync` to create the BWS story for Deliverable 1 under Epic BWS-61.
 
-**Waiting on:** Julian's review and sign-off of the 9 articles.
+**Waiting on:** Julian to schedule the Deliverable 2 definition session.
 
 **Detail tier:** see `## Deliverables` below.
 
@@ -38,7 +37,8 @@ These are the live files that make up this Project's evidence base. The Project 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
-| 2026-08-23 | Box 1 workflow executed (wf_649b13a4, 19 agents, 11.6 min, 2.03M tokens, 0 errors): 9 articles drafted and Codex-verified (23/23 findings fixed), _index.md + 2 new mm models ([[mm-blast-radius]], [[mm-adaptation-ladder]]) + cross-links + technology index row created. Research report archived to raw/_processed/ with manifest row. Awaiting Julian sign-off (CC4). |
+| 2026-08-23 | Deliverable 1 SIGNED OFF and done. Late additions before sign-off: synthesis outputs got their missed Codex review (1 finding fixed: fine-tuning availability claim), a permanent adversarial-coverage rule added to AGENTS.md, mm-adaptation-ladder renamed to [[mm-model-adaptation]], mm-tool-surface rejection upheld. Final cost: Julian 65 min, machine 2,633,750 tokens. Outputs 1 and 2 of the Project are delivered; Output 3 (routing skill) remains. |
+| 2026-08-23 | Box 1 workflow executed (wf_649b13a4, 19 agents, 11.6 min, 2.03M tokens, 0 errors): 9 articles drafted and Codex-verified (23/23 findings fixed), _index.md + 2 new mm models ([[mm-blast-radius]], [[mm-model-adaptation]]) + cross-links + technology index row created. Research report archived to raw/_processed/ with manifest row. Awaiting Julian sign-off (CC4). |
 | 2026-08-23 | Perplexity research delivered (raw/dr-all-areas.md, ~30 min attended, logged). Gap scan verdict: observability is a distinct discipline and becomes Area 8. Perplexity volunteered a ninth area (Model Adaptation: prompting vs RAG vs fine-tuning); Julian accepted it, so the catalog is now 9 articles and completion criteria updated. Ready to launch the workflow. |
 | 2026-08-23 | Execution design revised: Perplexity Deep Research replaces the Sonnet research stage (8 prompts written to raw/dr-prompts-ai-engineering-patterns.md; prompt 8 doubles as the gap scan for the eighth area); article template approved (first cut) and recorded in the task file; Opus agents now validate-and-draft. Waiting on Julian to run the prompts. |
 | 2026-08-20 | Deliverable 1 defined via `/define-task`: [[ai-engineering-pattern-articles]] (2h, queued). Key decisions: 8 separate pattern files in a new `wiki/technology/ai-engineering-patterns/` folder (no catalog file); fan-out-and-synthesize workflow with per-file Codex verification; original "assembly not research" sizing assumption corrected — research is folded into execution via Sonnet agents. Payoff test passed. |
@@ -94,12 +94,12 @@ Project-level scope: what's first, what's explicitly out, and the breakdown the 
 | Julian peer review and sign-off across all outputs | 1-2 |
 
 ## Completed
-Nothing completed yet.
+- **Deliverable 1 (23 Aug 2026):** [[ai-engineering-pattern-articles]] - 9-article patterns catalog + 2 mental models, signed off. 65 attended min vs 2h box; 2.63M machine tokens.
 
 ## Deliverables
 | Deliverable | Hours | Status |
 |-------------|-------|--------|
-| [[ai-engineering-pattern-articles\|AI Engineering Pattern Articles]] | 2h | queued |
+| [[ai-engineering-pattern-articles\|AI Engineering Pattern Articles]] | 2h | done |
 
 ## Funnel
 | Item | Intent | Added |

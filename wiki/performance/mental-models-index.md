@@ -41,11 +41,11 @@ sentences:
 - [[mm-steering]] - An instruction is not a guarantee
 - [[mm-token-economics]] - Context is rent, not a purchase
 - [[mm-blast-radius]] - Assume the wrong call happens, then decide whether you could live with it
-- [[mm-adaptation-ladder]] - Ask whether the model is missing information or missing a habit, then climb one rung at a time
+- [[mm-model-adaptation]] - Ask whether the model is missing information or missing a habit, then climb one rung at a time
 
 [[mm-verification]], [[mm-routing]] and [[mm-steering]] chain: verification decides
 what is possible, routing decides the architecture, steering configures it.
-[[mm-adaptation-ladder]] continues the chain when steering runs out and the answer
+[[mm-model-adaptation]] continues the chain when steering runs out and the answer
 is still wrong. [[mm-token-economics]] sits alongside them and prices what routing
 chose; [[mm-blast-radius]] sits alongside them and bounds how much reach it gets.
 

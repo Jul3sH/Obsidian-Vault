@@ -289,6 +289,26 @@ current. This is a recurring failure mode. To prevent it:
 
 ---
 
+# Adversarial Coverage of Machine-Drafted Deliverables (all agents)
+
+When a multi-stage machine pipeline (a workflow, a subagent chain) produces deliverable
+content, **every content-producing stage's output must pass an adversarial check before
+Julian's sign-off** - including synthesis and aggregation stages, which are the commonly
+missed case. At pipeline design time, enumerate every output artefact the run will create
+and name the verify stage that covers it; an artefact with no named verifier is a design
+error, not an acceptable gap.
+
+Why this rule exists: on 23 Aug 2026 the AI-patterns workflow wired Codex verification
+per-branch, then a synthesis stage ran *after* verification and created two mental models
+and an index that reached sign-off with no adversarial pass. One later Codex check of
+those files found a materially false availability claim that per-branch verification had
+already been paid to catch elsewhere.
+
+Exempt: trivially mechanical rows (index lines, log rows, link repointing). Not exempt:
+anything carrying factual claims or decision guidance, however small the file.
+
+---
+
 # Source Document Integrity and Adversarial Review Protocol
 
 These rules apply whenever any agent writes an adversarial review of an existing wiki document.

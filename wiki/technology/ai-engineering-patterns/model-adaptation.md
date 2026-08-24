@@ -62,12 +62,12 @@ Every substantial piece of LLM work makes this choice, usually implicitly. Make 
 - **Fine-tuning before exhausting prompting.** Spends a one-off setup cost on a problem a better system prompt would have solved, and locks in whatever the model was already doing wrong.
 - **Full fine-tuning by default.** Catastrophic forgetting is real: specialising the model degrades its general capability. This is the single largest reason LoRA and QLoRA displaced full-parameter updates.
 - **Fine-tuning on a snapshot with no refresh plan.** Baked-in knowledge ages silently and nothing alerts you. If a fine-tune carries facts at all, pair it with drift monitoring. See [[observability]].
-- **Assuming fine-tuning is available.** As of Aug 2026 the frontier closed models are not fine-tunable through their primary APIs: Anthropic's Claude API exposes prompting, prompt caching, tools, and retrieval, with no fine-tuning endpoint. Fine-tuning is an open-weights option, plus a narrower set of provider-hosted offerings. Choosing "fine-tune" can therefore mean choosing a different model family.
+- **Assuming fine-tuning is available.** Availability varies by provider as of Aug 2026: Anthropic's Claude API exposes prompting, prompt caching, tools, and retrieval with no fine-tuning endpoint, while OpenAI and Azure offer hosted fine-tuning for selected closed models (GPT-4.1 SFT/DPO, GPT-5 RFT in preview). Check the target provider and model first: choosing "fine-tune" can mean choosing a different provider or model family, but not always.
 - **Treating distillation as free.** Contested: a 2025 arXiv paper on distilled pretraining finds it improves test-time scaling but can impair in-context learning through the same mechanism. Not yet reflected in practitioner guidance, and worth flagging as an open research question rather than settled.
 
 ## Mental Models
 
-- [[mm-adaptation-ladder]] - the knowledge-or-behaviour cut and the one-rung-at-a-time escalation rule, in short form.
+- [[mm-model-adaptation]] - the knowledge-or-behaviour cut and the one-rung-at-a-time escalation rule, in short form.
 - [[mm-routing]] - the recurrence-or-value bar that decides whether any of this gets built.
 - [[mm-token-economics]] - prompting, caching, RAG, and fine-tuning are four different cost curves for the same output.
 - [[mm-verification]] - you cannot claim an escalation was justified without a check that prompting actually failed.
