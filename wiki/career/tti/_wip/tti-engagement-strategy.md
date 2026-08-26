@@ -38,8 +38,10 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
    - **Network role:** TTI advertised a network role squarely in Julian's wheelhouse since the Tony interview, so "no suitable work" is 12 months stale. Safe - Julian's own observation.
    - **Information access:** consultants face internal resistance everywhere; that is exactly why they are sponsored top-down - and Kari himself said on 24 Jul that activities "would need to be sponsored top-down". Safe - from Julian's own Kari call.
    The call stays warm and thank-you-led. No rebuttal session.
+   **Amended 25 Aug:** the venue is now the in-person catch-up during the HK pack-up trip (~5-6 Sept, leaving lunch/drinks), not a near-term call. Julian declined Justin's push to call Stephan immediately and declined Justin's offer to email Stephan urging renewed advocacy - a generic step-up ask has failed twice and would fail again. No Stephan conversation before the UK angle is worked out.
 
 3. **No Stephan-Kari convening.** The idea has a design flaw (it asks Stephan to commission a rebuttal of his own reasoning) and Kari is bereaved. The route that already worked is Kari advocating unprompted (he sponsored the 12-month frame himself on 24 Jul). Plan: condolence-first personal contact with Kari when he is back and the moment is decent; if he is convinced, he influences Stephan and Ty of his own accord.
+   **Amended 25 Aug: Justin is additionally tasked with subtly eliciting Kari's view of the rejection when Kari returns.** Rationale: Kari, as an ex-KPMG consultant, will recognise both the ability and the need for external EA work (the US$40m CRM migration overrun is exactly what architecture practices prevent, and nobody wants that washing done in public). Whatever comes back is weighted per the standing judgement caution on Justin's reads in [[tti-comms-log]]. This does not replace Julian's own condolence-first direct contact.
 
 4. **The UK liaison play gets a strategy before it gets a conversation.** The shape: a UK-based position bridging US and HK stakeholders across the timezone gap (UK mornings overlap HK afternoons, UK afternoons overlap US mornings; nobody in either region can do both), framed in Ty's own close-out words ("defined pieces of work", "external person"), and consistent with the US-APAC bridge line already in the proposal. It must arrive as a **defined offer with a trigger** (a concrete piece of work, e.g. the network role or a cyber deliverable), never an open re-ask days after a no. Default timing stays post-relocation as earmarked 21 Aug; pull forward only on a concrete trigger.
 
@@ -141,6 +143,11 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 ---
 
 ## Strategy Evolution Log (newest first)
+
+### 25 August 2026 - Two refinements from the Justin thread (Kari elicitation; Stephan deferred to HK trip)
+- **Trigger:** Justin's 25 Aug offers - an email to Stephan urging renewed advocacy, and repeated pushes for Julian to call Stephan immediately ("he was not busy").
+- **Decisions:** (1) advocacy re-ask declined - it has failed twice and a generic step-up request fails by design; the correct next Stephan contact is the in-person leaving lunch/drinks during the HK pack-up trip (~5-6 Sept), after the UK angle is worked out. (2) Justin tasked with subtly eliciting Kari's consultant's-eye view of the rejection when Kari returns - additive to, not replacing, Julian's own condolence-first direct contact. (3) Julian warned Justin off digging out the US$40m CRM overrun numbers (dangerous-enemies risk to Justin himself).
+- **Also established:** a standing judgement caution on Justin's channel (his predictions ran wrong across the whole arc; his own position is at risk, so his counsel carries anger and agenda) - recorded at the top of the Justin section in [[tti-comms-log]]. His value is access, recon willingness, and verbatim relay.
 
 ### 24 August 2026 - Post-no strategy: prepare, don't push (agreed with Julian)
 - **Trigger:** Justin relayed a conversation with Stephan (who had not yet spoken to Ty): three rationalisations of the no - available project work, the stale "Tony had no suitable work" interview read, and the "couldn't get the information out of the company" resistance frame. Julian weighed engaging Stephan immediately (top of mind, narrative not yet hardened) against waiting, and separately considered asking Stephan to convene Kari for an external consultant's view.

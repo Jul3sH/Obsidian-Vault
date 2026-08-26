@@ -47,11 +47,50 @@ renamed: 2026-07-17
 
 ## Justin Gilbert
 
-> ⚠ Name check (18 Aug): Julian's WhatsApp shows this contact as "Justin **Robinson**"; this log has used "Justin Gilbert" throughout. Surname to confirm with Julian and correct whichever is wrong.
+> ✅ Name resolved (26 Aug): the surname is **Gilbert**, confirmed by Julian. His WhatsApp contact card displays "Justin Robinson"; transcript quotes keep whatever sender label the export shows.
+>
+> ⚠ **Judgement caution - Julian's standing instruction (25 Aug): weight Justin's interpretations and predictions LOW at all times.** He read this arc completely wrong end to end: *"I am sure it will materialize"* (3 Aug), *"You will get something!"* (19 Aug), *"I doubt it"* on the lowball risk (19 Aug). His value is **access and willingness to run reconnaissance with Stephan** (the in-the-room lever that moved things on 7 Aug), plus verbatim relays of what was actually said - never his forecasts or his advice on moves. Note also that his own position is now at risk (he believes he has ~6 months left at TTI), so his counsel carries his own anger and agenda.
 
 ---
 
-## ⏳ 18 Aug - JUSTIN: Ty sent a department headcount-reduction email overnight; Justin texting Stephan; call with Julian before 8am UK
+## ✅ 19-25 Aug - JUSTIN THROUGH THE NO: urgency push, angry escalation contained, recon continuing, Kari elicitation tasked
+
+> **The full WhatsApp arc from the eve of Ty's no through the post-decision week (transcript supplied by Julian 26 Aug, times UK).** Justin pushed Stephan on urgency the day before the no, reacted to the rejection with an anger that had to be actively contained, supplied the 24 Aug Stephan-rationalisations intel by phone (logged in [[tti-role]] status 24 Aug), and remains willing to run recon conversations. Two decisions came out of the thread: **Justin is tasked with subtly eliciting Kari's view when Kari returns**, and **Julian declined Justin's push for immediate Stephan re-engagement** - no call until the new angle is worked out; the in-person catch-up during the HK pack-up trip (~5-6 Sept, ~10 days) is the venue.
+
+**19 Aug - the urgency push:**
+- **Justin (10:02-10:09):** *"I spoke to Stephan"* / *"I said it is getting urgent, and he said he knows he has to speak with Ty. I said the sooner, the better."* After Julian's direct message to Ty: *"Good, he will be cornered."*
+- **Justin's predictions, both wrong within 24 hours:** *"You will get something!"*; and to Julian's worry about "6 months or shit money": *"I doubt it."*
+
+**20 Aug - the no lands; Justin's escalation contained:**
+- **Justin's reaction:** *"He is a cunt"* (about Ty, pre-decision-read); then on the no: *"I am so angry"* / *"This is shit and I am making a point of it right now… Stephan is a fool."* He sent an angry message to Stephan on the spot.
+- **Julian talked him down (14:59-15:01):** *"you've been fantastic support and a really great mate, but please don't compromise your own situation in solidarity"* / *"Delete any messages to Stephan and sleep on this."* Justin deleted it and sent a toned-down replacement.
+- **Justin's own exposure surfaced:** *"I actually think I have six months left"* - the 18 Aug headcount reduction hit his department, and he now reads his own days as numbered. This colours all his subsequent advice.
+
+**22 Aug - Justin's read of Ty's letter (intel, his interpretation):**
+- The "take a year to familiarize" line is **an excuse manufactured from Julian's own 12-month term**, and it means the incumbents stay in their mess.
+- Estate detail worth holding: **Milwaukee threw out Microsoft after five years and implemented Oracle over budget, while Europe and Asia run SAP** - *"the company has lost the plot with the Milwaukee approach."*
+- Julian's matching read, stated to Justin: the outsiders-can't-come-in claim is what Accenture and every big consultancy disproves daily; *"if they had been told to make it happen, it could have happened. But they weren't"* - IT leadership pushing their own agenda.
+
+**24 Aug - Stephan contact resumes; the rationalisations intel:**
+- Justin was with Stephan at work (*"I am with him now. Call you in a bit"*); the phone calls around this produced the Stephan post-decision narrative logged in [[tti-role]] status 24 Aug (project work "could have been taken on"; the stale Tony-interview read; "couldn't get the information out of the company").
+- Julian shared his 21 Aug Stephan close-out message with Justin verbatim, so Justin now knows the angle: door open, no anger shown.
+- Julian's working hypothesis, stated to Justin: Stephan has been *"fed a load of propaganda by IT leadership"*; the position was a massive threat to Tony; and the US *"don't want their dirty washing done by someone who knows a board member (especially after a us$40m CRM migration disaster)"*.
+
+**25 Aug - advocacy re-ask declined; Kari elicitation tasked; call pressure resisted:**
+- **Justin offered to email Stephan urging an advocacy approach with Ty. Julian declined:** *"He's not going to advocate with the level of authority required to stop the IT leaders pushing their own agenda, it's failed twice"* / *"Any generic request for him to step up will fail. I'll be interested to hear what Kari thinks about the response, as he will know perfectly well I could have done some Enterprise Architecture work as a consultant."*
+- **The one new task: *"If you can subtly elicit his view when he gets back that would be useful"*** - Kari's consultant's-eye read on the rejection, via Justin, when Kari returns from bereavement. Julian's framing for why Kari matters: the US$40m CRM overrun is exactly what *"good architecture practices stop... from happening"*, and nobody wants that washing done in public - Kari will recognise both the ability and the need.
+- **Julian warned Justin off digging out the CRM numbers:** *"I'd leave it mate, you'll make dangerous enemies exposing their dirty washing to Stephan."*
+- **Justin's recon same day:** chatted with Stephan - squash only, *"nothing came up about IT"* - then reported Stephan idle in his office and pushed Julian twice to call immediately (*"I would have called when I told you - he was not busy"*). **Julian held the line:** *"No point in calling for a chit chat right now. Decision is made"* - consistent with the 24 Aug prepare-don't-push strategy ([[tti-engagement-strategy]]): no Stephan conversation until the UK angle is worked out; the HK-trip lunch (~5-6 Sept) is the venue.
+
+**Strategic read:**
+- **The containment mattered.** An angry Justin message landing on Stephan in the decision week could have poisoned the warm close both channels got on 21 Aug. Julian caught it within the hour; the toned-down replacement stood. Watch this risk on every future escalation - Justin's anger is now personal (his own six-months read), not just solidarity.
+- **Justin remains the only live listening post inside TTI** and is actively volunteering recon. Use him for verbatim relays and access; filter every interpretation through the judgement caution above.
+- **⚠ Guardrail unchanged and now wider:** everything in this entry is Justin-sourced. None of it - the rationalisations, the CRM read, the Milwaukee/Oracle detail, the restructure - can be used with Stephan, Ty, or Kari in any form.
+- Personal-life material in the thread (Justin's houseguests, finances, social plans; Fred's health) deliberately not logged.
+
+---
+
+## ✅ 18 Aug - JUSTIN: Ty sent a department headcount-reduction email overnight; Justin texting Stephan; call with Julian before 8am UK
 
 > **The Ty silence may now have a cause: restructuring in motion.** Julian vented to Justin about the 8-day silence; Justin revealed that "the predicated HC reduction e-mail came in last night from Ty" and said he was texting Stephan about the department there and then (two blue ticks - Stephan read it). Justin to call Julian before 8am UK. **The drafted Stephan chase (see Stephan section) is HELD until after that call.**
 
