@@ -6,7 +6,31 @@ tags: [working-with-yourself, personal-mba]
 
 Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 
-## Articles
+## Mental Models
+
+Six-slot models at pattern grain, each carrying its own evidence table linked to the original lesson-learnt sources. The articles below are their detail tier.
+
+- [[mm-never-react]] - Between the trigger and the response, walk away
+- [[mm-verify-before-acting]] - However convincing it looks, verify it before you act on it
+- [[mm-start-to-start]] - Fear and stress shrink the moment you start; they never shrink while you wait
+- [[mm-fear-wears-a-disguise]] - Fear presents as a reasonable objection; name it before believing it
+- [[mm-ship-early]] - Early and done beats late and polished
+- [[mm-setbacks-are-glitches]] - Recover fast: a setback is a data point, not a verdict
+- [[mm-ease-and-grace]] - The composed persona is a decision made in advance, not a mood
+- [[mm-commit-with-a-forcing-function]] - Analysis ends when a deadline, booking, or written choice forces it
+- [[mm-guard-the-critical-path]] - Firefighting is optional; the critical path is not
+- [[mm-price-the-priority]] - Prioritise by tangible cost, not by interest or comfort
+- [[mm-start-with-the-deliverable]] - Open the deliverable first and let the work organise itself around it
+- [[mm-competence-as-fuel]] - Confidence is downstream of delivery, not a precondition for it
+- [[mm-integrity-is-binary]] - A commitment to yourself is on or off; there is no version of it that bends for a good reason
+- [[mm-systems-are-motivation]] - The tracker is not overhead on the work, it is the engine that gets the work done
+- [[mm-timebox-the-rabbit-hole]] - Curiosity without a timebox is scope creep wearing a productive disguise
+- [[mm-impaired-state-rules]] - Tired, drinking, or emotional: the rule decides, not you
+- [[mm-payoff-vs-prestige]] - Learn for what it produces, not for how impressive you'll sound explaining it
+- [[mm-visual-representation-bias]] - A vivid picture of the good day is not a decision; ask for the ordinary bad day too
+- [[mm-be-coachable]] - You hired the coach; interrupting them to correct them is paying to not listen
+
+## Detail Articles
 
 - [[never-react-walk-away-and-be-calculated]] — Emotional reactions are almost always counterproductive; pause, get the facts, then respond with precision
 - [[emotional-resilience-recover-from-setbacks]] — Recover fast from setbacks, deliver something, and confidence returns; sulky behaviour costs more than the original setback
