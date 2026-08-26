@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/working-with-genai/_index.md",
+                "file": "wiki/technology/ai-engineering-patterns/context-engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "_index"
+              "title": "context-engineering"
             }
           }
         ]
@@ -200,23 +200,24 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/technology/ai-engineering-patterns/model-adaptation.md",
+    "wiki/technology/ai-engineering-patterns/memory.md",
+    "wiki/technology/ai-engineering-patterns/context-engineering.md",
+    "wiki/technology/ai-engineering-patterns/evals.md",
+    "wiki/performance/working-with-genai/_index.md",
     "wiki/career/tti/_wip/tti-engagement-strategy.md.tmp.52679.6a0c868e421c",
     "wiki/performance/working-with-genai/mm-model-adaptation.md",
     "wiki/performance/working-with-genai/mm-blast-radius.md",
     "wiki/performance/working-with-genai/mm-adaptation-ladder.md",
-    "wiki/technology/ai-engineering-patterns/context-engineering.md",
     "raw/dr-prompts-ai-engineering-patterns.md",
     "raw/dr-all-areas.md",
     "raw/_processed/dr-all-areas.md",
     "wiki/technology/ai-engineering-patterns/_index.md",
-    "wiki/technology/ai-engineering-patterns/model-adaptation.md",
     "wiki/technology/ai-engineering-patterns/spec-driven-development.md",
     "wiki/technology/ai-engineering-patterns/tools-mcp.md",
     "wiki/technology/ai-engineering-patterns/security-agent-identity.md",
     "wiki/technology/ai-engineering-patterns/observability.md",
-    "wiki/technology/ai-engineering-patterns/memory.md",
     "wiki/technology/ai-engineering-patterns/orchestration.md",
-    "wiki/technology/ai-engineering-patterns/evals.md",
     "wiki/technology/ai-engineering-patterns",
     "wiki/projects/ai-engineering-patterns.md",
     "wiki/projects/uk-relocation-decision.md",
@@ -235,7 +236,6 @@
     "skills-lock.json",
     "wiki/career/tti/_wip/tti-comms-log.md.tmp.74994.0ed997a9d6ad",
     "wiki/ai-os/logs/log-2026-Q3.md.tmp.74994.027ccecf7080",
-    "wiki/performance/working-with-genai",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
