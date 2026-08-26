@@ -80,3 +80,10 @@ whether it can be checked once commissioned.
 [[verification-bottleneck]] (why it matters, the research, the three biases),
 [[verification-tactics]] (the four layers in leverage order). If this model and
 those articles disagree, the articles win and this file is corrected.
+
+## Evidence
+
+| Date | Event | Lesson in action | Source |
+|------|-------|-------------------|--------|
+| 2026-08-23 | The AI-patterns workflow wired Codex verification per-branch, then a synthesis stage ran after verification and created two mental models and an index that reached sign-off with no adversarial pass. A later check found a materially false availability claim that per-branch verification had already been paid to catch elsewhere | Every content-producing stage needs a named verifier at pipeline design time, and synthesis stages are the commonly missed case. An artefact with no named verifier is a design error, not an acceptable gap | AGENTS.md (Adversarial Coverage rule), [[log-2026-Q3]] |
+| 2026-08-10 | TTI Ty proposal: three adversarial review rounds each caught something the author and prior rounds missed - round 1 a commercial FATAL (month 1 read as a study with no consequence), round 2 a false-positive FATAL correctly overturned on evidence, and the Perplexity round surfaced the no-off-ramp exposure neither Codex round found. The document that went to Ty had every claim it made about itself true | Independent review rounds with different reviewers and angles catch non-overlapping failures. One reviewer, however good, samples one failure surface; the expensive exposure is usually sitting on the surface nobody looked at | [[tti-role]], [[tti-ty-engagement-proposal-codex-review-2026-08-09]] |

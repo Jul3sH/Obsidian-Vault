@@ -58,6 +58,7 @@ sentences:
 - [[mm-deliberate-brand]] - How you come across is a decision, not a mood
 - [[mm-surface-risk-formally]] - Raise it formally, or wear it silently; there is no third option
 - [[mm-share-the-credit]] - Frame the win as joint before your manager frames it as solo
+- [[mm-assertiveness-is-professional]] - Pushing back is professional; being a walkover costs the respect it was meant to buy
 
 **Working with yourself:**
 
