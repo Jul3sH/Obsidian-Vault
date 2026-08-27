@@ -6,9 +6,11 @@ tags: [working-with-yourself, personal-mba]
 
 Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 
-## Mental Models
+## What belongs here
 
-Six-slot models at pattern grain, each carrying its own evidence table linked to the original lesson-learnt sources. The articles below are their detail tier.
+**Two tiers.** The `mm-` files are the reach-for layer: one memorable pattern each, in the six-slot format, with an evidence table linking the original lessons-learnt sources. The articles are the detail tier the models were distilled from; each model's Detail slot links down to its article, and if a model and its article disagree, the article wins and the model is corrected. Reach for a model day to day; open its article for the fuller framework.
+
+## Mental Models
 
 - [[mm-never-react]] - Between the trigger and the response, walk away
 - [[mm-verify-before-acting]] - However convincing it looks, verify it before you act on it
@@ -32,17 +34,19 @@ Six-slot models at pattern grain, each carrying its own evidence table linked to
 
 ## Detail Articles
 
-- [[never-react-walk-away-and-be-calculated]] — Emotional reactions are almost always counterproductive; pause, get the facts, then respond with precision
-- [[emotional-resilience-recover-from-setbacks]] — Recover fast from setbacks, deliver something, and confidence returns; sulky behaviour costs more than the original setback
-- [[eq-integrity-and-ease-of-grace]] — Operate with ease and grace as a leader; integrity with yourself and others eliminates guilt and clears the mental space for performance
-- [[calm-composed-leadership-persona]] — Cultivate quiet, composed authority; behave like the leader you want to be even before it comes naturally
-- [[prioritisation-and-scheduling]] — Lists don't work; commit, schedule, and guard your priorities from fear-based drift and convincing distractions
-- [[beating-procrastination-face-fear-get-started]] — Procrastination is fear of failure in disguise; face it immediately, get started, and the blocks dissolve
-- [[top-down-execution-start-with-the-deliverable]] — Start with the output, work top-down, and do minimal investigation before beginning — rabbit holes are avoidance
-- [[perfectionism-vs-speed-of-delivery]] — Deliver quick wins and iterate; protect working habits from shiny new systems; test changes in production
-- [[adhd-aware-work-patterns]] — Design your work around ADHD traits: timebox learning, schedule with others, manufacture urgency, and use Pomodoro sprints
-- [[self-judgment-thought-log]] — Running log for self-judgment thoughts, rejection sensitivity patterns, and the behaviour rules they should compound into
-- [[competence-as-fuel]] — Terminal work (building, analysing, learning) is a primary energy and confidence source; extended absence silently erodes self-esteem
-- [[commitment-avoidance]] — The open-options trap: keeping options open past usefulness, substituting analysis for commitment; forcing-function counter-moves. Cross-links to the [[decision-maker-profile|Decision-Maker Profile]].
-- [[visual-representation-bias]] — When a vivid but incomplete mental image substitutes for analysis: the pleasant frame crystallises first and builds strong; the bad-day version must be deliberately constructed before a feel-based decision is made.
-- [[payoff-vs-prestige-bias]] — When learning is selected by the image of explaining it impressively rather than by what it produces; the Payoff Test (payoff route, silence test, "good enough when") and where it fires across the define/plan/retro skills.
+Each line names the model(s) built on top of the article.
+
+- [[never-react-walk-away-and-be-calculated]] - Pause, get the facts, then respond with precision → detail behind [[mm-never-react]] (the cool-off half) and [[mm-verify-before-acting]] (the fact-check half)
+- [[emotional-resilience-recover-from-setbacks]] - Recover fast and deliver something → detail behind [[mm-setbacks-are-glitches]]
+- [[eq-integrity-and-ease-of-grace]] - Ease and grace; integrity clears mental space → detail behind [[mm-ease-and-grace]] and [[mm-integrity-is-binary]]
+- [[calm-composed-leadership-persona]] - Quiet, composed authority → detail behind [[mm-ease-and-grace]]
+- [[prioritisation-and-scheduling]] - Commit, schedule, and guard priorities → detail behind [[mm-guard-the-critical-path]] and [[mm-price-the-priority]]
+- [[beating-procrastination-face-fear-get-started]] - Procrastination is fear in disguise → detail behind [[mm-start-to-start]] (the action half) and [[mm-fear-wears-a-disguise]] (the diagnosis half)
+- [[top-down-execution-start-with-the-deliverable]] - Start with the output, work top-down → detail behind [[mm-start-with-the-deliverable]]
+- [[perfectionism-vs-speed-of-delivery]] - Deliver quick wins and iterate → detail behind [[mm-ship-early]]
+- [[adhd-aware-work-patterns]] - Design work around ADHD traits → detail behind [[mm-timebox-the-rabbit-hole]]
+- [[self-judgment-thought-log]] - Running log for self-judgment thoughts and rejection-sensitivity patterns (standalone log, no model above it)
+- [[competence-as-fuel]] - Terminal work is a primary energy and confidence source → detail behind [[mm-competence-as-fuel]]
+- [[commitment-avoidance]] - The open-options trap and forcing-function counter-moves → detail behind [[mm-commit-with-a-forcing-function]]; cross-links the [[decision-maker-profile|Decision-Maker Profile]]
+- [[visual-representation-bias]] - The vivid-but-incomplete mental image trap → detail behind [[mm-visual-representation-bias]]
+- [[payoff-vs-prestige-bias]] - Learning selected for prestige rather than payoff; the Payoff Test → detail behind [[mm-payoff-vs-prestige]]

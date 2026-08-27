@@ -6,9 +6,11 @@ tags: [working-with-others, personal-mba]
 
 Based on Chapter 8 of Josh Kaufman's The Personal MBA.
 
-## Mental Models
+## What belongs here
 
-Six-slot models at pattern grain, each carrying its own evidence table linked to the original lesson-learnt sources. The articles below are their detail tier.
+**Two tiers.** The `mm-` files are the reach-for layer: one memorable pattern each, in the six-slot format, with an evidence table linking the original lessons-learnt sources. The articles are the detail tier the models were distilled from; each model's Detail slot links down to its article, and if a model and its article disagree, the article wins and the model is corrected. Reach for a model day to day; open its article for the fuller framework.
+
+## Mental Models
 
 - [[mm-sell-their-benefit]] - People don't buy your idea, they buy what it does for them
 - [[mm-never-say-youre-wrong]] - A correction only lands as an option that saves face
@@ -31,17 +33,19 @@ Six-slot models at pattern grain, each carrying its own evidence table linked to
 
 ## Detail Articles
 
-- [[never-bitch-whinge-or-gossip]] — Why complaining and gossiping always backfire, and how to flip to a positive frame instead
-- [[active-listening]] — How to actually listen: answer the question asked, ask then shut up, stop making it about you
-- [[influencing-and-selling-ideas]] — Sell ideas in terms of their benefit to others; never tell people they are wrong
-- [[managing-up-bring-solutions-communicate-success]] — Communicate results not effort; manage upward proactively and deliberately
-- [[deliver-what-your-boss-wants]] — Deliver what was asked, without fuss, on time — results are the only currency
-- [[clarify-objectives-before-committing]] — Rework costs more than clarification; own the responsibility for getting the brief right
-- [[assertiveness-and-risk-dont-over-commit]] — Evaluate fully before committing; assertiveness is professional, not difficult
-- [[delegation-and-team-management]] — You are judged on team delivery, not personal task completion; delegate early and decisively
-- [[internal-networking-and-relationship-building]] — Relationships and proximity are career infrastructure; build them actively
-- [[documentation-as-protection]] — In political environments, if it isn't written down it didn't happen
-- [[communication-style-and-personal-brand]] — Be succinct, use future tense, define your brand deliberately
-- [[always-prepare-for-engagements]] — Every important interaction needs a defined purpose and deliberate preparation
-- [[kroll-case-study]] — Case study: what happens when can-do attitude overrides evaluation, requirements, and assertive pushback
-- [[proactive-risk-management]] — Surface and mitigate risks formally before they become someone else's story; formal logging as protection
+Each line names the model(s) built on top of the article.
+
+- [[never-bitch-whinge-or-gossip]] - Why complaining and gossiping always backfire → detail behind [[mm-never-bitch]] and [[mm-assume-it-gets-repeated]]
+- [[active-listening]] - How to actually listen: answer the question asked, ask then shut up → detail behind [[mm-listen-then-speak]]
+- [[influencing-and-selling-ideas]] - Selling, corrections, and battle-picking → detail behind [[mm-sell-their-benefit]], [[mm-never-say-youre-wrong]] and [[mm-choose-winnable-battles]]
+- [[managing-up-bring-solutions-communicate-success]] - Manage upward proactively → detail behind [[mm-bring-solutions]] and [[mm-results-are-the-currency]]
+- [[deliver-what-your-boss-wants]] - Results are the only currency → detail behind [[mm-results-are-the-currency]]
+- [[clarify-objectives-before-committing]] - Rework costs more than clarification → detail behind [[mm-clarify-before-starting]]
+- [[assertiveness-and-risk-dont-over-commit]] - Evaluate fully before committing; assertiveness is professional → detail behind [[mm-evaluate-before-committing]] (risk half) and [[mm-assertiveness-is-professional]] (assertiveness half)
+- [[delegation-and-team-management]] - You are judged on team delivery → detail behind [[mm-delegate-the-what]]
+- [[internal-networking-and-relationship-building]] - Relationships and proximity are career infrastructure → detail behind [[mm-proximity-is-infrastructure]]
+- [[documentation-as-protection]] - If it isn't written down it didn't happen → detail behind [[mm-write-it-down]]
+- [[communication-style-and-personal-brand]] - Succinct, future tense, deliberate brand → detail behind [[mm-deliberate-brand]]
+- [[always-prepare-for-engagements]] - Every important interaction needs a defined purpose → detail behind [[mm-prepare-every-engagement]]
+- [[kroll-case-study]] - Case study: can-do overriding evaluation and pushback → prime evidence for [[mm-evaluate-before-committing]]
+- [[proactive-risk-management]] - Surface and mitigate risks formally → detail behind [[mm-surface-risk-formally]]

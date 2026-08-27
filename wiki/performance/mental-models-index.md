@@ -6,6 +6,11 @@
 
 Every mental model (`mm-*.md`) in the vault is listed here, whatever folder it
 lives in. A model lives beside its detail articles, not in this index's folder.
+The vault-wide convention is two-tier: a model is the reach-for layer (one
+pattern, six-slot format, evidence table linking its original sources); its
+detail articles hold the fuller framework, linked from the model's Detail slot,
+and the articles win if they disagree. Each folder's own index maps its
+articles to the models built on them.
 For AI-related models, the folder is decided by the subject of the model's
 sentences:
 
@@ -35,11 +40,11 @@ sentences:
 
 ## Performance
 
-**The human mind:**
+### The human mind
 
 - [[mm-confirmation-bias]] - You will find what you're looking for, so look for the disconfirming case
 
-**Working with others:**
+### Working with others
 
 - [[mm-sell-their-benefit]] - People don't buy your idea, they buy what it does for them
 - [[mm-never-say-youre-wrong]] - A correction only lands as an option that saves face
@@ -60,7 +65,7 @@ sentences:
 - [[mm-share-the-credit]] - Frame the win as joint before your manager frames it as solo
 - [[mm-assertiveness-is-professional]] - Pushing back is professional; being a walkover costs the respect it was meant to buy
 
-**Working with yourself:**
+### Working with yourself
 
 - [[mm-never-react]] - Between the trigger and the response, walk away
 - [[mm-verify-before-acting]] - However convincing it looks, verify it before you act on it
@@ -82,7 +87,7 @@ sentences:
 - [[mm-visual-representation-bias]] - A vivid picture of the good day is not a decision; ask for the ordinary bad day too
 - [[mm-be-coachable]] - You hired the coach; interrupting them to correct them is paying to not listen
 
-**Working with GenAI:**
+### Working with GenAI
 
 - [[mm-rule-layering]] - Fast learns, slow remembers - and must is not should
 - [[mm-verification]] - Generation scaled and verification did not

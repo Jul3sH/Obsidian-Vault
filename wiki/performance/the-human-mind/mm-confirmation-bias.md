@@ -67,9 +67,9 @@ firmly after genuinely testing it is not the failure mode this model targets.
 
 ## Detail
 
-This model is self-contained; no detail article exists yet. If a dedicated article
-is written later, this section will be updated to link it, and the article will take
-precedence over this file on any disagreement.
+[[confirmation-bias-and-assumptions]] (how the bias manifests in troubleshooting,
+feedback, and everyday decisions, with counter-moves). If this model and the
+article disagree, the article wins and this file is corrected.
 
 ## Evidence
 
