@@ -15,6 +15,7 @@ Models and articles about how the mind itself works: biases, perception, and rea
 This folder uses the same two-tier convention as the other Personal MBA folders: `mm-` files are the reach-for layer (six-slot format, evidence table linking original lessons-learnt sources); the articles below are the detail tier, and the article wins if they disagree.
 
 - [[mm-confirmation-bias]] - You will find what you're looking for, so look for the disconfirming case
+- [[mm-stories-arent-evidence]] - The story that fills a silence is speculation, not a read; label it before it hardens into fact
 
 ## Detail Articles
 

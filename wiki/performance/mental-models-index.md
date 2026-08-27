@@ -43,6 +43,7 @@ sentences:
 ### The human mind
 
 - [[mm-confirmation-bias]] - You will find what you're looking for, so look for the disconfirming case
+- [[mm-stories-arent-evidence]] - The story that fills a silence is speculation, not a read; label it before it hardens into fact
 
 ### Working with others
 
@@ -86,6 +87,7 @@ sentences:
 - [[mm-payoff-vs-prestige]] - Learn for what it produces, not for how impressive you'll sound explaining it
 - [[mm-visual-representation-bias]] - A vivid picture of the good day is not a decision; ask for the ordinary bad day too
 - [[mm-be-coachable]] - You hired the coach; interrupting them to correct them is paying to not listen
+- [[mm-eggs-in-one-basket]] - Conviction is not an offer; keep the other baskets live until the contract is signed
 
 ### Working with GenAI
 

@@ -31,6 +31,7 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 - [[mm-payoff-vs-prestige]] - Learn for what it produces, not for how impressive you'll sound explaining it
 - [[mm-visual-representation-bias]] - A vivid picture of the good day is not a decision; ask for the ordinary bad day too
 - [[mm-be-coachable]] - You hired the coach; interrupting them to correct them is paying to not listen
+- [[mm-eggs-in-one-basket]] - Conviction is not an offer; keep the other baskets live until the contract is signed
 
 ## Detail Articles
 
