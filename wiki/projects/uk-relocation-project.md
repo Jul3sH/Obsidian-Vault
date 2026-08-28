@@ -447,7 +447,7 @@ Observable artefacts exist on the page - not a feeling of readiness.
 |---|---|---|---|
 | 3d.1 | Domestic helper termination | 🔄 *(swept 28 Aug: notice served, employment ends end-Sept)* | One month's notice already given. **Her end date (~30 Sept) is after Julian's 15 Sept departure** - she covers post-departure access needs through September, and the final settlement (long-service payment, repatriation flight, any final MPF/wages) must be arranged before he leaves or set up for remote payment. A legal obligation, not a courtesy |
 | 3d.2 | Sophia's HK school exit: leaving date, transcripts, reports, references | ✅ *(swept 28 Aug: formal notification done)* | Withdrawal formally notified. Residual check only: confirm transcripts/reports/references are in hand or en route to the receiving school |
-| 3d.3 | Medical records: haematology handover | 🔄 *(swept 28 Aug: plan clear, not yet actioned)* | **(1)** Inform the Haematology department (HK government hospital) he will no longer attend; **(2)** request a referral/clinical-summary letter for the UK GP - Julian says "maybe not" needed, but recommendation: get it anyway while in HK (cheap in the window, hard to obtain remotely; the NHS route into consultant follow-up runs through a GP referral, and a clinical summary makes it far smoother); **(3)** bring the PET scans. No dental or other records to collect |
+| 3d.3 | Medical records: haematology handover | 🔄 *(swept 28 Aug: plan clear, not yet actioned)* | **(1)** Inform the Haematology department (HK government hospital) he will no longer attend; **(2)** request a clinical-summary/referral letter for the UK GP - *upgraded from "maybe" to ESSENTIAL by 4b.5:* the letter must state **the clinical rationale for interferon** (not first-line, so the NHS will challenge it - the HK rationale is the ammunition), plus diagnosis, treatment history and monitoring protocol; **(3)** bring the PET scans; **(4)** ask for a **bridge supply of interferon** to cover the GP→referral→consultant gap. No dental or other records to collect |
 | 3d.4 | Utilities, broadband, phone | 🔄 *(swept 28 Aug: investigation needed)* | **🔴 Urgent homework (Julian's flag): establish how HK landlords with residential mortgages typically handle utilities and correspondence when letting** - whether utilities stay in his name or transfer to tenants, and the practices that avoid needless flags to the lender (ties to the 3c.1 accepted risk). Research from UK now; decisions before the tenancy starts |
 | 3d.5 | Mail redirection and address change across every account | 🔄 *(swept 28 Aug: plan set)* | Mail to be redirected to Justin *(to confirm: arrangement + which correspondence classes - see also 3d.4 on where mortgage/bank correspondence should go)* |
 | 3d.6 | Memberships, clubs, gym, Octopus, subscriptions | ⬜ *(swept 28 Aug)* | DBRC club to cancel (check notice period - clubs often need a calendar month, so serve notice before or during the 5-15 Sept window); other subscriptions to list |
@@ -459,32 +459,32 @@ Observable artefacts exist on the page - not a feeling of readiness.
 
 | # | Activity | Status | Note |
 |---|---|---|---|
-| 4a.1 | Arrival accommodation with a **tenancy agreement**, not an Airbnb | ❓ | Ownership does not prove residency; a tenancy or council tax bill does. This is the gate on school admissions ([[fable-review-unknowns]]) |
-| 4a.2 | Council tax registration | ❓ | Also the strongest proof-of-address document for everything in 4c |
-| 4a.3 | Utilities, broadband, TV licence | ❓ | |
-| 4a.4 | Contents and buildings insurance | ❓ | |
-| 4a.5 | Permanent address secured (if arrival accommodation is interim) | ❓ | |
+| 4a.1 | ~~Arrival accommodation with a tenancy agreement~~ → Proof of address at Mum's | ✅ *(swept 28 Aug: covered)* | Original row was for the Merton school-admissions chain - dead, The Chase is secured and the family is at Mum's. **Barclays account already registered at Mum's address** (moved previously) → a UK bank statement at the address exists, which unlocks GP, DVLA, and electoral roll. Council tax addition (4a.2) will strengthen it |
+| 4a.2 | Council tax: added at Mum's | ⬜ *(swept 28 Aug: agreed, deferred)* | Julian to be added when the next council tax bill arrives. Note for that moment: check whether Mum currently has a single-person discount - adding him ends it (a real cost, worth knowing in advance, not a reason not to do it) |
+| 4a.3 | Utilities, broadband, TV licence | ➖ *(swept 28 Aug)* | All covered under Mum's arrangements |
+| 4a.4 | Contents insurance at Mum's | ⬜ *(swept 28 Aug: logged as a task at Julian's request)* | Check Mum's contents policy covers his and Sophia's possessions - especially before the Stage 1 shipment (~Nov) adds a pod's worth of belongings to the house. May need a policy note or an uplift |
+| 4a.5 | Permanent address | ✅ *(swept 28 Aug: settled for now)* | **Intention: live at Mum's.** Reconsidered only if a well-paid London job lands - which would reopen the London-move question deliberately, not by drift |
 
 *4b. Health*
 
 | # | Activity | Status | Note |
 |---|---|---|---|
-| 4b.1 | GP registration, Julian and Sophia | ❓ | Needs proof of address; free and immediate, but only once 4a.1 exists |
-| 4b.2 | NHS numbers issued or recovered | ❓ | Julian may have a dormant one from before the 13 years overseas |
-| 4b.3 | **NHS dentist registration** | ❓ | The one with a real waiting list. Start it early or accept private |
-| 4b.4 | Optician | ❓ | |
-| 4b.5 | Repeat prescriptions transferred, vaccination records handed to the GP | ❓ | Depends on 3d.3 |
+| 4b.1 | GP registration, Julian and Sophia | 🔄 *(swept 28 Aug: forms in hand)* | Visited Mum's clinic; registration forms to fill and return. Proof of address covered by the Barclays statement (4a.1) |
+| 4b.2 | NHS numbers issued or recovered | 🔄 *(swept 28 Aug: TBD)* | Rides with 4b.1 - ask the practice to trace Julian's dormant pre-HK number at registration; Sophia gets a new one |
+| 4b.3 | **NHS dentist registration** | 🔄 *(swept 28 Aug: on waitlist)* | Trying to get accepted; waitlist confirmed real. Task: stay on the list + decide a private fallback trigger (e.g. any dental need before acceptance, or 6 months elapsed) |
+| 4b.4 | Optician | ➖ *(swept 28 Aug)* | No need |
+| 4b.5 | **Interferon continuity** (+ vaccination records to GP) | 🔄 *(swept 28 Aug: the flagged fight)* | **Julian will need to push for interferon on the NHS - it is not first-line, so funding resistance is expected.** Two mitigations, both feeding off 3d.3: **(1)** the HK haematology summary letter must state the clinical rationale for interferon (why first-line was unsuitable/insufficient) - that letter is what an NHS consultant needs to continue a non-first-line therapy; **(2) bridge supply:** GP registration → referral → first consultant appointment can take weeks-to-months; ask HK haematology for enough interferon to cover the gap while in the 5-15 Sept window. The NHS pathway runs GP → haematology referral → consultant decision; the fight happens at the consultant/trust level, armed with the HK letter |
 
 *4c. Money, identity and the thin-file problem*
 
 | # | Activity | Status | Note |
 |---|---|---|---|
-| 4c.1 | UK current account opened or reactivated | ❓ | Needs proof of address; the chicken-and-egg with 4a.1 |
-| 4c.2 | **Credit file rebuild started** | ❓ | 13 years overseas leaves a near-empty file. It silently blocks tenancies, mobile contracts and any borrowing. Electoral roll registration is the cheapest first move |
-| 4c.3 | HMRC: NI number confirmed, self-assessment and FIG-regime position set up | ❓ | Depends on 3b.1; the FIG 10-year condition is flagged in [[fable-review-unknowns]] |
-| 4c.4 | Driving licence exchange with DVLA | ❓ | Time-limited window after becoming resident |
-| 4c.5 | UK mobile SIM and contract | ❓ | Contract, not PAYG, is a small credit-file builder |
-| 4c.6 | Electoral roll registration | ❓ | Feeds 4c.2 |
+| 4c.1 | UK current account | ✅ *(swept 28 Aug)* | Barclays active, registered at Mum's address |
+| 4c.2 | Credit file rebuild | 🔄 *(swept 28 Aug: better than feared)* | A UK credit card already exists and is active - the file is thin, not empty. Remaining boosters when convenient: electoral roll (4c.6, free), a contract SIM instead of PAYG (4c.5). No urgent action |
+| 4c.3 | HMRC: NI, self-assessment, FIG position | 🔄 *(swept 28 Aug: NI solid, SA to confirm)* | **NI number held, and Julian has been paying voluntary overseas NI contributions from HK** (state-pension record protected - a quiet win). To confirm: self-assessment is set up and current for the Cecil Road rental (~£2k+ due, "soon" per 3b.5). FIG-regime position rides with the 3b.1 adviser |
+| 4c.4 | Driving licence: HK → DVLA exchange | ⬜ *(swept 28 Aug: task logged at Julian's request)* | On his list. **The real deadline is not DVLA's 12-month driving allowance - it is the 40-day maximum nominated-driver cover on Mum's car insurance**: he needs a UK licence to get his own insurance before that cover expires. Action: confirm when the 40 days started/ends, then exchange (HK is a DVLA designated country - straight swap, no test) with time to spare. Note: DVLA takes the physical HK licence with the application - time it so he's not licence-less when he needs to drive |
+| 4c.5 | UK mobile | 🔄 *(swept 28 Aug: interim solution live)* | UK PAYG eSIM now; permanent SIM after the HK trip. When choosing: a contract SIM feeds the credit file (4c.2), PAYG doesn't |
+| 4c.6 | Electoral roll registration | ⬜ *(swept 28 Aug: deprioritised by Julian)* | "At some point, not urgent." Noted: it is free, takes minutes online, and is the single biggest credit-file entry - worth folding into the council-tax moment (4a.2) |
 
 *4d. Sophia*
 
