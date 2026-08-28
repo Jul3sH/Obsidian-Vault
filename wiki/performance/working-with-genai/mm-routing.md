@@ -88,3 +88,9 @@ is worth doing: it chooses the architecture, not the objective.
 [[routing-work-to-agents]] (the ladder, the arithmetic, what the source tool gets
 wrong), [[routing-work-prompts]] (setup templates per verdict). If this model and
 those articles disagree, the articles win and this file is corrected.
+
+## Evidence
+
+| Date | Event | Lesson in action | Source |
+|------|-------|-------------------|--------|
+| 2026-08-21 | TTI: for personal messages to Stephan and Ty, Claude's drafts kept missing my voice - on the close-out I rejected three in a row, wrote my own, and asked Claude to critique it instead. That worked immediately: the critique caught a claim in my draft that wasn't true against the record. The one Claude line that shipped untouched was a framing construction, not voice. And nine iterations were burned polishing a message events then killed | For messages in my own voice: I hold the pen, Claude critiques and fact-checks - its value is checking and framing, not sounding like me. And don't polish a pending message while events are still moving; draft close to the send moment | [[tti-comms-log]] |
