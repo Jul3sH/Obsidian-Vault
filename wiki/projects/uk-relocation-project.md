@@ -447,11 +447,11 @@ Observable artefacts exist on the page - not a feeling of readiness.
 |---|---|---|---|
 | 3d.1 | Domestic helper termination | 🔄 *(swept 28 Aug: notice served, employment ends end-Sept)* | One month's notice already given. **Her end date (~30 Sept) is after Julian's 15 Sept departure** - she covers post-departure access needs through September, and the final settlement (long-service payment, repatriation flight, any final MPF/wages) must be arranged before he leaves or set up for remote payment. A legal obligation, not a courtesy |
 | 3d.2 | Sophia's HK school exit: leaving date, transcripts, reports, references | ✅ *(swept 28 Aug: formal notification done)* | Withdrawal formally notified. Residual check only: confirm transcripts/reports/references are in hand or en route to the receiving school |
-| 3d.3 | Medical and dental records, vaccination history, repeat prescriptions collected | ❓ | Feeds 4b; far harder to obtain once gone |
-| 3d.4 | Utilities, broadband, phone: final bills, number port or release | ❓ | |
-| 3d.5 | Mail redirection and address change across every account | ❓ | |
-| 3d.6 | Memberships, clubs, gym, Octopus, subscriptions | ❓ | |
-| 3d.7 | **Sophia's HK goodbyes given protected time in the departure plan** | ❓ | Named in [[fable-review-unknowns]] as needing protected time, not remainder time |
+| 3d.3 | Medical records: haematology handover | 🔄 *(swept 28 Aug: plan clear, not yet actioned)* | **(1)** Inform the Haematology department (HK government hospital) he will no longer attend; **(2)** request a referral/clinical-summary letter for the UK GP - Julian says "maybe not" needed, but recommendation: get it anyway while in HK (cheap in the window, hard to obtain remotely; the NHS route into consultant follow-up runs through a GP referral, and a clinical summary makes it far smoother); **(3)** bring the PET scans. No dental or other records to collect |
+| 3d.4 | Utilities, broadband, phone | 🔄 *(swept 28 Aug: investigation needed)* | **🔴 Urgent homework (Julian's flag): establish how HK landlords with residential mortgages typically handle utilities and correspondence when letting** - whether utilities stay in his name or transfer to tenants, and the practices that avoid needless flags to the lender (ties to the 3c.1 accepted risk). Research from UK now; decisions before the tenancy starts |
+| 3d.5 | Mail redirection and address change across every account | 🔄 *(swept 28 Aug: plan set)* | Mail to be redirected to Justin *(to confirm: arrangement + which correspondence classes - see also 3d.4 on where mortgage/bank correspondence should go)* |
+| 3d.6 | Memberships, clubs, gym, Octopus, subscriptions | ⬜ *(swept 28 Aug)* | DBRC club to cancel (check notice period - clubs often need a calendar month, so serve notice before or during the 5-15 Sept window); other subscriptions to list |
+| 3d.7 | **Sophia's HK goodbyes** | ✅ *(swept 28 Aug: done)* | Sophia already did her goodbyes before leaving for the UK |
 
 **Phase 4 - UK arrival and settling.** Destination-dependent: the address determines the GP, the dentist, the council, the school and the credit file.
 
