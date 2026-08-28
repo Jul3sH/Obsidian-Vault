@@ -7,7 +7,7 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-17
 jira-key: BWS-14
-status-updated: 2026-08-18
+status-updated: 2026-08-28
 ---
 
 # UK Relocation Project - Status
@@ -27,7 +27,15 @@ status-updated: 2026-08-18
 | [[Malvern-BRAIND]]                                                                                                          | Trusted scenario-level benefits and risks map for Malvern interim and permanent-fallback variants, grouped by Wellbeing, Relationships, Finance, Career, Performance, and Personal.                                                                      |
 | [[HK-BRAIND]]                                                                                                               | Trusted scenario-level benefits and risks map for staying in Hong Kong, grouped by Wellbeing, Relationships, Finance, Career, Performance, and Personal.                                                                                                 |
 
-## Status (as of 2026-08-19)
+## Status (as of 2026-08-28)
+
+**🆕 SCOPE EXTENDED FROM DECIDE TO DECIDE-AND-EXECUTE (28 Aug). The project now carries the relocation itself, not just the decision to make it.** Julian confirmed the move is underway and asked for the execution activities to be brought into scope: Hong Kong exit (shipping, storage, property, MPF and tax, helper, service closures) and UK settling (address, health, banking and identity, Sophia, legal protection). Written up as **Phase 3 and Phase 4** in the Work Breakdown, ~50 activities across nine groups, plus a **sequencing block (4f)** naming the six places where order decides the outcome rather than effort. Project re-sized **S → L** and re-scored **WSJF 6.0 → 2.6** (the score falls because the job got bigger; execution is mandatory and time-boxed regardless of where it ranks). The eleven loose execution items that had been living inside Next Actions since 15 Jul are now absorbed into the phases and are no longer tracked separately.
+
+**⚠ THE REGISTER IS NOT YET LIVE, AND THE STATUS BELOW IS STALE.** Every Phase 3/4 row is marked `❓` because the wiki holds no record of relocation activity since 19 Aug: the last nine days of vault commits are all mental-models work. Julian has said the move is already in progress, so an unknown share of Phase 3 is likely done. **Blocking next action: a status sweep - Julian marks each row done / in progress / not started / n/a.** Until that happens the phases are a scope list, not a tracker, and the sizing is provisional. Everything below this line predates the sweep and describes the position as at 19 Aug: the TTI gate, the Chase offer clock and the Monday flight have all since resolved one way or another and are not recorded here.
+
+---
+
+### Position as at 2026-08-19 (superseded above; retained for the record)
 
 **🆕⏰ THE CHASE FORMAL OFFER HAS LANDED (letter dated 18 Aug) - A RESPONSE CLOCK NOW RUNS ALONGSIDE THE TTI GATE.** Worcestershire County Council has formally allocated Sophia a place at The Chase (offer letter 18 Aug, received via Julie Ferman at the Council and, separately, Sarah Cridge at the school). The place **cannot be reserved and must be taken up within 6 school weeks of 18 Aug** or it may be withdrawn; Sarah Cridge has proposed a **tour Wed 3 Sept and a start Thu 4 Sept**. Two replies are owed: receipt confirmation to Julie Ferman (asked for explicitly; not an acceptance) and a response to Sarah Cridge's tour/start proposal. **Julian's stated constraint (19 Aug): no accept-then-reject** - withdrawing after accepting could poison the well with Worcestershire admissions if the family needs to come back in ~12 months, so the eventual answer must be a genuine accept, a clean decline releasing the place, or an honest hold within the window. This interacts directly with the TTI gate: as of this morning (Wed 19 Aug), Stephan has not replied to the 18 Aug escalation, which was the pre-named signal deadline (next action 3). Full offer texts: [[schooling-malvern-area]]. Note Risk E1 (application too late for a Sept start) is now CLOSED - it did not materialise.
 
@@ -83,6 +91,11 @@ status-updated: 2026-08-18
 
 **Next actions (prioritised):**
 
+0. **(Julian, blocking, added 28 Aug) Run the Phase 3/4 status sweep.** Go through the execution register in the Work Breakdown and mark every row `✅` / `🔄` / `⬜` / `➖`. Nothing else in the execution scope can be sequenced, sized or prioritised until this is done, and the one-way doors in 4f cannot be checked for damage already done. Start with 4f: those six items are where a missed order costs money that cannot be recovered.
+0b. **(Once the sweep is in) Break Phases 3-4 into deliverables** via `/define-task`, grouped by the nine activity blocks rather than one deliverable per row.
+
+**Decision-phase next actions (as at 19 Aug, unrefreshed - the TTI gate and Chase clock have since run):**
+
 1. **(Julian, blocking)** Retype the committed choice in his own words into [[uk-relocation-decision]] and set a new review-on date - closes lock condition 1 (outstanding since 7 Jul) and replaces the lapsed 31 Jul review-on.
 2. **Hostile pass on [[uk-relocation-decision]]** (fresh model instance, adversarial brief) - the anchor becomes operative only after it survives review.
 3. **TTI gate watch:** the Wed 19 Aug signal deadline passed with no Stephan reply, so the timing-line escalation went to both channels on 19 Aug (Ty: two hard dates + decision-likely-by-Friday ask; Stephan: informed, speak-to-Ty ask, honest-read invitation). **The gate now resolves by Friday 21 Aug** - Ty's answer, Stephan's read, or joint silence each map onto the school response and the Monday flight per the pre-set rule. No further chase before Friday. Record: [[tti-comms-log]].
@@ -104,7 +117,7 @@ status-updated: 2026-08-18
 - **D. Verify the crash-pad inputs** (feeds C5): firm the train fare (season vs flexible) + a real midweek room cost; the reachable hybrid pool is **~25% not 40%** once fixed-day/client-site roles are stripped.
 - **E. Retype the committed choice in Julian's own words** (outstanding lock item, per [[commitment-lock-protocol]]).
 
-**Execution items (largely common to both paths; the London-specific ones (2, 3) apply only if the trade lands on London-direct rather than the crash-pad interim, under which Sophia starts a Malvern school first):**
+**~~Execution items~~ SUPERSEDED 28 Aug - these eleven items are now absorbed into Phase 3 and Phase 4 of the Work Breakdown and tracked there, not here. Retained below unchanged for traceability.** *(Original note: largely common to both paths; the London-specific ones (2, 3) apply only if the trade lands on London-direct rather than the crash-pad interim, under which Sophia starts a Malvern school first.)*
 1. **Book tax adviser this week** - MPF statutory declarations must be made in HK; also check eMPF migration blackout for Principal + Sun Life
 2. **Book Merton short-let for Sept-Nov** (not Airbnb) - proper tenancy agreement needed for school admissions address proof; location matters for school distance ranking
 3. **School availability call** - Ricards Lodge / Harris / Ursuline; confirm Julian's reading of the address-proof requirement with the admissions team directly
@@ -206,6 +219,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 | Date | Update |
 |------|--------|
 | 2026-08-19 | **TTI gate escalated to both channels; resolution date now Friday 21 Aug.** With Stephan's 18 Aug ping unanswered at the pre-named Wed morning deadline and the school offer in hand, Julian sent the timing-line escalation direct to Ty (two hard dates, decision-likely-by-Friday ask) and informed Stephan same day (speak-to-Ty ask + honest-read invitation). The gate, the school response, and the Monday flight now all converge on Friday. Texts and drafting rationale: [[tti-comms-log]]; project detail: [[tti-role]]. Also noted from Julian this session, not yet recorded in the decision file: **London-direct is out of the picture**; the [[uk-relocation-decision]] anchor (still DRAFT) is of low value in its current form and will be revisited later. |
+| 2026-08-28 | **Scope extended from decide to decide-and-execute; project re-sized S → L and re-scored WSJF 6.0 → 2.6.** Julian asked for the relocation activities themselves to be brought into project scope now the move-vs-stay decision is committed and the move is underway. Objective rewritten to cover both arcs (original decision objective retained and marked met); two execution Outcomes added (HK exited cleanly; family functioning in the UK). Work Breakdown gained **Phase 3 - Hong Kong exit** (shipping and storage, money and tax, property, people and admin) and **Phase 4 - UK arrival and settling** (address and housing, health, money/identity/credit file, Sophia, legal protection), ~50 activities in nine groups, each with a status cell. Added **4f, the sequencing block**: six places where order decides the outcome rather than effort, including three one-way doors (MPF before UK residency, ToR1 before the shipment lands, DVLA inside its post-residency window) and the tenancy → council tax → GP/bank/credit-file chain that the whole of Phase 4 hangs off. Also added execution anchors to Hard Deadline, execution Leading Indicators, and an execution WSJF with the Value counterfactual run explicitly (career benefits assigned to RO, not Value). The eleven loose execution items sitting in Next Actions since 15 Jul are marked superseded and absorbed. **Finding: the wiki has no record of any relocation activity since 19 Aug** - nine days of commits are all mental-models work - so every register row is `❓` and the status section above 19 Aug is stale. Decision impact: none on the committed decision; the register is a scope list until Julian runs the status sweep, which is now blocking next action 0. |
 | 2026-08-19 | **The Chase formal offer captured; Risk E1 closed; response clock opened.** Worcestershire County Council's formal offer letter (dated 18 Aug, Julie Ferman) and Sarah Cridge's parallel offer email (tour Wed 3 Sept, start Thu 4 Sept proposed) both filed verbatim in [[schooling-malvern-area]], with the PDF letter's key terms transcribed. Mechanics: place cannot be reserved, must be taken up within 6 school weeks of 18 Aug (term starts 3 Sept, so drop-dead ~mid-Oct - exact date to confirm); two replies owed (receipt confirmation to Ferman, tour/start response to Cridge). Julian's constraint logged: no accept-then-reject, to protect standing with Worcestershire admissions if a return in ~12 months is needed. Risk E1 (summer application too late for Sept) closed as not materialised. Decision impact: Material to the landing question - the offer removes the Malvern schooling uncertainty entirely while the TTI silence deadline (Wed 19 Aug morning UK) has passed unanswered; the accept/decline/hold response is now the forcing function on the landing choice. Next actions 3 and 4 updated. |
 | 2026-08-04 | **HK BRAIND wellbeing risk added.** Updated [[HK-BRAIND]] to name the risk that Clodagh becomes seriously ill while Sophia remains in Hong Kong, leaving Sophia separated from her mother during a high-stakes family health event. Decision impact: the Stay-HK wellbeing risk is now more concrete, especially against the same-landmass rationale for moving to the UK. |
 | 2026-08-04 | **Scenario BRAIND maps promoted to Trusted Artifacts.** Added [[London-BRAIND]], [[Malvern-BRAIND]], and [[HK-BRAIND]] to the project Trusted Artifacts table as the trusted scenario-level benefits and risks maps for the London, Malvern, and Hong Kong options. |
@@ -275,18 +289,34 @@ These are the live files that make up the UK relocation decision evidence base. 
 
 ## Objective
 
-Have a documented, committed decision on whether to stay in Hong Kong or relocate to the UK - locked before the 12 July trip - so dependent career, relationship, finance, and schooling decisions can all proceed on a settled footing.
+**Scope extended 28 Aug 2026 from decide-only to decide-and-execute.** The original objective (below) is met: the move-vs-stay decision is committed. The project now also carries the relocation itself - getting the household, the money and the admin out of Hong Kong, and getting the family functioning in the UK.
+
+**Current objective:** Execute the committed move to the UK - Hong Kong exit (shipping, storage, property, MPF and tax, helper, account and service closures) and UK arrival (address, health, banking and identity, Sophia's setup, legal protection) - so that within a defined landing window the family is registered, insured, schooled, treated and banked in the UK with no HK obligation left open.
+
+**Original objective (met, decision arc):** Have a documented, committed decision on whether to stay in Hong Kong or relocate to the UK - locked before the 12 July trip - so dependent career, relationship, finance, and schooling decisions can all proceed on a settled footing.
 
 ## Outcomes / Outputs
 
 1. [Output] A completed cross-workstream decision analysis: factual baseline established (financial runway, current relationship state, UK snapshot) and the HK-vs-UK comparison documented across all six workstreams (finance + relationships weighted heaviest), with load-bearing beliefs and assumptions explicitly tested.
 2. [Output] A committed, documented decision ("stay" or "move") locked in the [[decision-journal|Decision Journal]] by 9 July 2026, with gut-vs-analysis reconciled, worst case named and accepted (pre-mortem), and a review date set.
+3. [Outcome] **Hong Kong exited cleanly.** Household shipped or stored on a booked and dated plan; MPF withdrawn under HK residency; tax cleared and the rebate banked; helper terminated lawfully; every HK service, utility, policy and account either closed or deliberately retained with a stated reason. Nothing left behind that has to be solved from 6,000 miles away.
+4. [Outcome] **The family is functioning in the UK.** Within the landing window: an address with a tenancy or council tax record, Julian and Sophia registered with a GP and a dentist, Sophia in school with transport and activities running, UK banking and identity re-established (bank, NI, DVLA, mobile, credit file), and the legal protection gap closed (will, named guardian, life cover).
 
 ## Hard Deadline / Anchor
 
 - **The cliff:** Sophia's schooling enrolment window. Options close for an entire academic year if this passes undecided.
 - **The forcing event:** 12 July UK trip. Decide-by is 9 July - the last clean point before the trip frames the decision.
 - **Bonus:** if the decision is "move," the trip doubles as a recon/prep window (school visits, logistics). Miss the decision and that window is wasted.
+
+**Execution anchors (added 28 Aug 2026).** These are externally set and mostly one-way:
+
+| Anchor | Why it binds |
+|---|---|
+| **UK residency start** | Closes the MPF withdrawal window (3b.2). After it, withdrawal is a five-figure tax error, not a delay. |
+| **Shipment arrival** | ToR1 relief (3a.7) must be in hand before it, or duty and VAT become payable. |
+| **DVLA post-residency window** | Licence exchange (4c.4) is time-limited from becoming resident. |
+| **School term in progress** | Every week without enrolment, transport and a GP is a week Sophia is unsupported in the hardest transition of her life. |
+| **Freight pack-out date** | Set it against address availability and storage costs nothing; mistime it and it is storage fees plus chaos. |
 
 ## Future Leverage
 
@@ -300,7 +330,14 @@ Locks location, which unblocks: career geography-targeting (HK vs UK roles), rel
 
 ## Leading Indicators
 
-By end of week 1, Phase 0 groundwork is on paper and complete:
+**Execution phase (as of 28 Aug 2026).** Observable, not a feeling of progress:
+
+- Every one-way-door item in 4f is either done or has a booked date against it. Nothing on that list sits in "soon".
+- Sophia has a GP, a dentist, a school place and one club she actually attends.
+- The legal block (4e) is closed: Jamie asked, will executed, cover in place. It has been the highest-consequence open gap since 7 Jul.
+- No HK account, policy or obligation is open without a written reason for keeping it.
+
+**Decision phase (original, met).** By end of week 1, Phase 0 groundwork is on paper and complete:
 - Factual baseline documented (financial runway, current relationship state, UK snapshot).
 - Every load-bearing assumption written down and either quantified or turned into a specific clarifying question.
 - Every critical belief and bias named, labelled, and run through [[belief-assumption-testing|Belief & Assumption Testing]] with test result recorded.
@@ -309,11 +346,15 @@ Observable artefacts exist on the page - not a feeling of readiness.
 
 ## Effort
 
-**T-shirt size:** S (9-16h, up to 2 days)
+**T-shirt size: S (9-16h) - STALE. ⚠ As of 28 Aug 2026 this size covers the decision arc only and has not been re-sized for the extended execution scope.**
 
-*Stretch size - recommended M. AI (Perplexity) compresses research hours; judgment-heavy Phase 1 (workstream weighting, belief testing, gut-vs-analysis reconciliation) is the overflow risk. Gated-iteration rule applies if cap is hit: name the specific gap and how closing it changes the decision; if it doesn't change it, commit at the cap.*
+**A re-size is owed, and it must be scored on the work REMAINING, not the work in the register.** Phases 0-2 are spent and Phases 3-4 contain an unknown amount of already-completed work. Sizing the full activity list would count work Julian has already done. Sequence: run the status sweep (next action 0) → strip everything marked done → size what is actually left, with Julian.
+
+*Original S rationale, decision arc only: stretch size recommended M. AI (Perplexity) compresses research hours; judgment-heavy Phase 1 (workstream weighting, belief testing, gut-vs-analysis reconciliation) is the overflow risk. Gated-iteration rule applies if cap is hit.*
 
 ## WSJF Scoring
+
+**⚠ As of 28 Aug 2026: STALE. Scored for the decision arc only; not re-scored for the extended execution scope, and it must not be until the remaining work is known and Julian has agreed the size.**
 
 | Component | Score | Rationale |
 |-----------|-------|-----------|
@@ -328,26 +369,144 @@ Observable artefacts exist on the page - not a feeling of readiness.
 
 *Informal - for context only. These become deliverables via `/define-task` or `/define-enabler`.*
 
-**Phase 0 - Groundwork (establish the factual baseline):**
+**Phase 0 - Groundwork (establish the factual baseline):** ✅ DONE
 - Financial baseline + runway documented
 - Current relationship state documented
 - UK snapshot (cost of living, lifestyle, schools - two scenarios scoped)
 - Load-bearing beliefs and assumptions surfaced and listed
 
-**Phase 1 - Analysis, gated and iterative:**
+**Phase 1 - Analysis, gated and iterative:** ✅ DONE
 - Probability-weighted financial comparison (HK vs UK; P(well-paid HK work) is the crux variable)
 - Relationship impact map (all key relationships across both scenarios)
 - Cross-workstream impact across all six workstreams, weighted (Finance, Relationships, Career are full reviews; Wellbeing, Performance, Personal are light touch)
 - Beliefs and assumptions tested via [[belief-assumption-testing|Belief & Assumption Testing]]
 
-**Phase 2 - Reconcile and commit:**
+**Phase 2 - Reconcile and commit:** ✅ DONE
 - Gut-vs-analysis reconciliation (analysis wins unless gut justifies override in writing)
 - Pre-mortem + worst-case acceptance (Brian Tracy)
 - Decision locked in [[decision-journal|Decision Journal]] with review date
 
+---
+
+### Execution phases (added 28 Aug 2026)
+
+> **⚠ As of 28 Aug 2026: every status below is `❓` because the wiki has no record of what has already been done.** Julian has confirmed the move is underway but nothing since the 19 Aug status entry is captured here. **Mark each row `✅ done` / `🔄 in progress` / `⬜ not started` / `➖ n/a`, and the register becomes live.** Until then treat this as a scope list, not a tracker.
+>
+> Status key: ✅ done · 🔄 in progress · ⬜ not started · ➖ not applicable · ❓ unconfirmed
+
+**Phase 3 - Hong Kong exit.** Mostly destination-independent: these hold whether the landing is London-direct or Malvern-staged.
+
+*3a. Shipping and storage*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 3a.1 | Inventory triage: ship / store / sell / bin, item by item | ❓ | The decision that sizes every cost below |
+| 3a.2 | Sea freight quotes and booking | ❓ | 8-11 weeks door-to-door; open item 6 also wants the quote to firm the moving one-offs in [[uk-move-financial-model]] |
+| 3a.3 | Air-freight priority box, including "Sophia's room" box | ❓ | Bedding, books, physical anchors so her space exists on night one ([[fable-review-unknowns]]) |
+| 3a.4 | UK-side storage if the shipment lands before the address does | ❓ | The gap between arrival and a permanent address is where storage fees appear |
+| 3a.5 | HK-side storage for anything retained but not shipped | ❓ | Only if something is being kept against a possible return |
+| 3a.6 | Transit insurance and valuation | ❓ | |
+| 3a.7 | **HMRC Transfer of Residence (ToR1) relief** | ❓ | **One-way door.** Import duty and VAT relief on household goods; must be applied for and the reference held before the shipment arrives |
+| 3a.8 | Customs paperwork and prohibited-items check both ends | ❓ | |
+
+*3b. Money and tax (HK side)*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 3b.1 | Tax adviser engaged | ❓ | Was execution open-item 1, "book this week", 15 Jul |
+| 3b.2 | **MPF withdrawal, both schemes** | ❓ | **One-way door.** Statutory declarations must be made *in HK* and *before* UK residency; withdrawn after = a five-figure tax error (risk F4). Check the eMPF migration blackout for Principal and Sun Life (F5) |
+| 3b.3 | HK tax clearance and the £12,475 rebate banked | ❓ | Cheapest single lever on the landing pot: lifts it to ~£62-69k |
+| 3b.4 | HK bank accounts kept open until MPF and rebate land | ❓ | Closing early strands both |
+| 3b.5 | FX plan for moving the pot | ❓ | Timing and rate risk on a five-figure transfer (risk F9) |
+| 3b.6 | Credit cards, insurance policies, investment accounts: close or retain, with a reason | ❓ | |
+
+*3c. Property*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 3c.1 | DB flat: HSBC consent-to-let confirmed; letting agent and tenancy in place | ❓ | Execution open-item 9; also set the defined sell-review trigger with numbers |
+| 3c.2 | Cecil Road: vacant possession secured on a dated basis | ❓ | Risk F2, Red until a property solicitor confirms it is deliverable under the Renters' Rights direction of travel |
+| 3c.3 | HK residence: notice served, deposit return, condition and dilapidations | ❓ | |
+
+*3d. People and admin (HK side)*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 3d.1 | Domestic helper termination, if employed | ❓ | Notice plus long-service payment plus repatriation flight. A legal obligation, not a courtesy |
+| 3d.2 | Sophia's HK school exit: leaving date, transcripts, reports, references | ❓ | The receiving school will want the records |
+| 3d.3 | Medical and dental records, vaccination history, repeat prescriptions collected | ❓ | Feeds 4b; far harder to obtain once gone |
+| 3d.4 | Utilities, broadband, phone: final bills, number port or release | ❓ | |
+| 3d.5 | Mail redirection and address change across every account | ❓ | |
+| 3d.6 | Memberships, clubs, gym, Octopus, subscriptions | ❓ | |
+| 3d.7 | **Sophia's HK goodbyes given protected time in the departure plan** | ❓ | Named in [[fable-review-unknowns]] as needing protected time, not remainder time |
+
+**Phase 4 - UK arrival and settling.** Destination-dependent: the address determines the GP, the dentist, the council, the school and the credit file.
+
+*4a. Address and housing*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 4a.1 | Arrival accommodation with a **tenancy agreement**, not an Airbnb | ❓ | Ownership does not prove residency; a tenancy or council tax bill does. This is the gate on school admissions ([[fable-review-unknowns]]) |
+| 4a.2 | Council tax registration | ❓ | Also the strongest proof-of-address document for everything in 4c |
+| 4a.3 | Utilities, broadband, TV licence | ❓ | |
+| 4a.4 | Contents and buildings insurance | ❓ | |
+| 4a.5 | Permanent address secured (if arrival accommodation is interim) | ❓ | |
+
+*4b. Health*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 4b.1 | GP registration, Julian and Sophia | ❓ | Needs proof of address; free and immediate, but only once 4a.1 exists |
+| 4b.2 | NHS numbers issued or recovered | ❓ | Julian may have a dormant one from before the 13 years overseas |
+| 4b.3 | **NHS dentist registration** | ❓ | The one with a real waiting list. Start it early or accept private |
+| 4b.4 | Optician | ❓ | |
+| 4b.5 | Repeat prescriptions transferred, vaccination records handed to the GP | ❓ | Depends on 3d.3 |
+
+*4c. Money, identity and the thin-file problem*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 4c.1 | UK current account opened or reactivated | ❓ | Needs proof of address; the chicken-and-egg with 4a.1 |
+| 4c.2 | **Credit file rebuild started** | ❓ | 13 years overseas leaves a near-empty file. It silently blocks tenancies, mobile contracts and any borrowing. Electoral roll registration is the cheapest first move |
+| 4c.3 | HMRC: NI number confirmed, self-assessment and FIG-regime position set up | ❓ | Depends on 3b.1; the FIG 10-year condition is flagged in [[fable-review-unknowns]] |
+| 4c.4 | Driving licence exchange with DVLA | ❓ | Time-limited window after becoming resident |
+| 4c.5 | UK mobile SIM and contract | ❓ | Contract, not PAYG, is a small credit-file builder |
+| 4c.6 | Electoral roll registration | ❓ | Feeds 4c.2 |
+
+*4d. Sophia*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 4d.1 | School place accepted and enrolment completed | ❓ | |
+| 4d.2 | Uniform, equipment, transport arrangements | ❓ | |
+| 4d.3 | Registered with the GP and dentist | ❓ | Covered by 4b, listed here because it is hers to have, not Julian's to remember |
+| 4d.4 | Football and athletics clubs joined | ❓ | The concrete mitigation for the social-isolation risk ([[sophia-malvern-activities]]) |
+| 4d.5 | The bedtime ritual survives the transition intact | ❓ | Named as the one portable anchor; it is a project item, not a soft aspiration |
+
+*4e. Legal protection (the highest-consequence gap in the whole project, and still open)*
+
+| # | Activity | Status | Note |
+|---|---|---|---|
+| 4e.1 | **Jamie asked: named testamentary guardian and emergency London adult** | ❓ | Execution open-item 6. [[fable-review-unknowns]] calls this "the cheapest, unglamorous, highest-consequence gap in the whole file" |
+| 4e.2 | **UK will written and executed** | ❓ | Without it, Sophia's presumptive carer if Julian dies is her surviving parent |
+| 4e.3 | Life cover in place | ❓ | |
+| 4e.4 | Lasting power of attorney | ❓ | |
+
+*4f. Sequencing - the one-way doors and the dependency chain*
+
+These are the items where order decides the outcome, not effort:
+
+1. **MPF before UK residency** (3b.2). Withdraw after and it is a five-figure tax error that cannot be undone.
+2. **ToR1 before the shipment lands** (3a.7). Apply late and duty and VAT become payable on the household goods.
+3. **DVLA licence exchange inside the post-residency window** (4c.4).
+4. **Tenancy → council tax → everything else.** 4a.1 gates 4a.2, which gates the GP (4b.1), the bank (4c.1) and the credit file (4c.2). The whole of Phase 4 hangs off one document.
+5. **HK medical records before departure** (3d.3) gates the GP handover (4b.5).
+6. **Freight booking date sets the storage bill.** A pack-out timed to the address availability costs nothing; a mistimed one costs storage plus chaos.
+
 ## Completed
 
-Nothing completed yet.
+- **Phases 0-2, the decision arc (Jun-Jul 2026).** Factual baseline, cross-workstream analysis, belief and assumption testing, adversarial reviews, and the committed MOVE decision locked in [[decision-journal|Decision Journal]] (4 Jul), London-direct resolved 7 Jul. Evidence base is the File Map above; anchor is [[uk-relocation-decision]].
+- Phases 3-4 completion is unknown as of 28 Aug 2026 and is what the status sweep (next action 0) establishes.
 
 ## Deliverables
 
