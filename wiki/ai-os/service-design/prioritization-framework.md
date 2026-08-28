@@ -112,6 +112,19 @@ Two classes, declared in project frontmatter. The classifying test (Julian, 28 A
 | **Discretionary** (default) | none needed; `wsjf: <score>` | Ranked by WSJF; competes for remaining sprint capacity | Weekly **sprints** (BWS board) |
 | **Fixed-date** | `class: fixed-date`, `hard-date: YYYY-MM-DD`, `wsjf: n/a` | Never ranked. Scheduled **backwards from the date** (what must start when, to land by then) | **BAU Kanban**, pulled continuously, ordered by the backwards schedule |
 
+### Fixed-date deliverable gates (added 28 Aug 2026)
+
+Deliverables under a fixed-date project use the same three skills (`/define-user-story`, `/define-enabler`, `/define-task`) and the same file format, with four gate adjustments. The backlog admission gates assume work competing for its place; fixed-date work is obliged, not selected, so:
+
+| Gate | Discretionary (unchanged default) | Fixed-date variant |
+|---|---|---|
+| **Scoped** | Completion/acceptance criteria exist | Unchanged |
+| **Sized** | Hours estimate; feeds WSJF Job Size and sprint fit (>8h → split) | Same mechanics incl. the split rule; the size feeds the **backwards schedule** and the weekly capacity deduction, not a ratio |
+| **Value-linked** | Traces to a Project Outcome, or standalone value rationale | **Outcome-linked + date-linked:** traces to an execution Outcome (anti-orphan, anti-scope-creep) AND states its **latest-finish date and what anchors it** (derived from the `hard-date` and dependencies). On a Kanban ordered by date proximity, the date is the priority metadata |
+| **Payoff-tested** | Career/Performance work only; catches prestige-driven selection | **N/A for any fixed-date deliverable, regardless of workstream** - obliged work is not selected. Record "N/A: fixed-date obligation" explicitly, never skip silently |
+
+Unchanged on purpose: **Prompt Zero still applies** (scope drift on obliged work is real), and gate-failure routing to the project `## Funnel` stays. Fixed-date deliverables appear in the project's Deliverables table as normal but are **not synced to the BWS sprint backlog** - they are worked from the BAU Kanban in date order; their Jira representation is deferred with the BAU-alignment tech debt (see funnel row), so until then the wiki is the tracker. The three `define-*` SKILL.md files are deliberately not yet updated - they inherit this rule via the framework and the project file; fold it into the skills at the next skills maintenance pass.
+
 ### Execution routing (sprint vs Kanban)
 
 - **Sprints carry discretionary work only:** the deliverables of WSJF-classified projects, assigned at sprint planning.

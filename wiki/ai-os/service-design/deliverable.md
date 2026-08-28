@@ -69,6 +69,12 @@ The `.md` files in `wiki/deliverables/` — one per deliverable or enabler — a
 
 ---
 
+## Fixed-Date Deliverables (added 28 Aug 2026)
+
+Deliverables under a `class: fixed-date` project (see [[prioritization-framework]] Project Classes) use the same skills and file format with four gate adjustments: Scoped and Sized unchanged (size feeds the backwards schedule, not WSJF); Value-linked becomes **Outcome-linked + date-linked** (trace to an execution Outcome AND state the latest-finish date and its anchor); Payoff test recorded as **"N/A: fixed-date obligation"** regardless of workstream. Prompt Zero still applies. These deliverables are worked from the BAU Kanban in date order, not synced to the BWS sprint backlog. Full rule and rationale: [[prioritization-framework]] § Fixed-date deliverable gates.
+
+---
+
 ## Sizing
 
 ### Story Points
