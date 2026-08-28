@@ -90,7 +90,8 @@ The chain is complete: Personal feeds Performance, which sharpens Career, which 
 ### Sprint capacity (defined 28 Aug 2026)
 
 - **Sprint planning runs weekly, and capacity is fixed fresh each week.** Capacity is a per-week judgement made at planning time, never a standing number carried forward.
-- **Sprint capacity covers discretionary (WSJF) work only.** Working estimate as of Aug 2026: **2-4 focused hours per day**, set each week depending on the fixed-date and BAU load. The weekly question is "how much discretionary time does THIS week actually have?", answered after deducting the fixed-date draw (step 0 below).
+- **Sprint capacity is DECLARED, not derived** *(corrected 28 Aug, same day - the first draft had it backwards as a residual after computing the fixed-date draw)*. At the start of each week Julian judges how much time is available for sprint activities - e.g. 4 focused hours a day = a 20-hour week - and the sprint is planned against that number. Working range as of Aug 2026: **2-4 focused hours per day.** There is no deduction arithmetic in the ceremony: the declared number already reflects his read of everything else going on.
+- **BAU Kanban work (fixed-date and non-project tasks) comes from capacity OUTSIDE the sprint number.** It is never planned in the sprint ceremony and never counted against sprint capacity; it flexes in the rest of the week.
 - **Why sprints are scoped this narrowly (the adoption lesson):** previous sprint attempts failed because the plan covered everything, and the variable work (fixed-date obligations, BAU churn) changed dramatically mid-week, breaking the plan and discrediting the ceremony. A plan that only commits the discretionary hours survives a chaotic week: the variable work flexes on the Kanban, the sprint commitment stays honest. This is the structural fix for the sprint-abandonment pattern (see the build-dont-adopt correction) - the system was not too heavy, it was scoped to work it could not control.
 
 ### Still to define
@@ -101,7 +102,7 @@ The chain is complete: Personal feeds Performance, which sharpens Career, which 
 
 ---
 
-## Project Classes (added 28 Aug 2026)
+## Project Classes (added 28 Aug 2026; signed off by Julian 28 Aug 2026 - covers the classes, sprint-vs-Kanban routing, weekly capacity rule, and fixed-date deliverable gates)
 
 WSJF answers "which discretionary project earns the next unit of capacity?". Some projects are not discretionary: the commitment is made, the date is external, and no ranking can change whether the work happens. Ranking those is a category error - no score makes "ship the house before departure" comparable with "study X vs build Y". First concrete case: [[uk-relocation-project]] execution, HK exit fixed at 2026-09-15.
 
@@ -119,7 +120,7 @@ Deliverables under a fixed-date project use the same three skills (`/define-user
 | Gate | Discretionary (unchanged default) | Fixed-date variant |
 |---|---|---|
 | **Scoped** | Completion/acceptance criteria exist | Unchanged |
-| **Sized** | Hours estimate; feeds WSJF Job Size and sprint fit (>8h → split) | Same mechanics incl. the split rule; the size feeds the **backwards schedule** and the weekly capacity deduction, not a ratio |
+| **Sized** | Hours estimate; feeds WSJF Job Size and sprint fit (>8h → split) | **Lead-timed** *(amended 28 Aug, same day)*: record **lead time + latest start** (calendar facts - freight transit, waiting lists, turnarounds), not attended hours. Hour-estimate ONLY where Julian's own effort is large enough to threaten the date fit (e.g. a multi-day pack-out). Rationale: fixed-date work has no ranking and no sprint fit, so an hours figure feeds no decision; the binding constraint is other people's lead times |
 | **Value-linked** | Traces to a Project Outcome, or standalone value rationale | **Outcome-linked + date-linked:** traces to an execution Outcome (anti-orphan, anti-scope-creep) AND states its **latest-finish date and what anchors it** (derived from the `hard-date` and dependencies). On a Kanban ordered by date proximity, the date is the priority metadata |
 | **Payoff-tested** | Career/Performance work only; catches prestige-driven selection | **N/A for any fixed-date deliverable, regardless of workstream** - obliged work is not selected. Record "N/A: fixed-date obligation" explicitly, never skip silently |
 
@@ -129,7 +130,7 @@ Unchanged on purpose: **Prompt Zero still applies** (scope drift on obliged work
 
 - **Sprints carry discretionary work only:** the deliverables of WSJF-classified projects, assigned at sprint planning.
 - **Everything else runs on the existing BAU Kanban:** fixed-date project tasks and non-project BAU tasks. Kanban work is pulled continuously; for fixed-date projects the pull order is the backwards schedule, and a slipping item escalates by date proximity, not by score.
-- **Fixed-date work still consumes sprint capacity even though it is not sprint content.** At sprint planning, estimate the week's expected draw from fixed-date Kanban work and set sprint capacity to what remains, before any ranking.
+- **Fixed-date work never touches sprint capacity** *(corrected 28 Aug, same day)*. The declared sprint number is set with everything else already accounted for in Julian's judgement; Kanban work draws on the capacity outside it.
 - **Known gap (28 Aug 2026, Julian's technical debt, deliberately deferred):** the BAU Kanban board is not structurally aligned with Portfolio Projects. Do not build alignment as a side effect of routing tasks; it is logged in the project funnel (Performance) as discretionary development work; promotion is Julian's call.
 
 Guard-rail: fixed-date is for genuinely external, committed dates (a departure, a legal deadline, an enrolment window) - not for self-imposed urgency. If the date is Julian's own and movable, it is discretionary and WSJF applies; use a forcing function ([[mm-commit-with-a-forcing-function]]) rather than a class change.
@@ -154,7 +155,7 @@ Higher score = do first.
 
 At sprint planning, the order of consideration is:
 
-0. **Deduct fixed-date demand first:** fixed-date work runs on the BAU Kanban, not in the sprint, but it consumes the same hours. Estimate what the backwards schedule will draw this week and set sprint capacity to what remains, before any ranking.
+0. **Declare the week's sprint capacity first:** Julian states how much time is available for sprint activities this week (e.g. 4h/day = 20h) and the sprint is planned against exactly that. Fixed-date and BAU Kanban work sit outside this number and are not part of the sprint plan.
 1. Are there any Wellbeing commitments this sprint? Protect them first.
 2. Are there any active Relationships goals with near-term deadlines? Allocate before Career work.
 3. Finance goals with hard dates (e.g. account review, tax deadline) — allocate next.
