@@ -98,9 +98,26 @@ Proposed areas to cover:
 
 ---
 
+## Project Classes (added 28 Aug 2026)
+
+WSJF answers "which discretionary project earns the next unit of capacity?". Some projects are not discretionary: the commitment is made, the date is external, and no ranking can change whether the work happens. Ranking those is a category error - no score makes "ship the house before departure" comparable with "study X vs build Y". First concrete case: [[uk-relocation-project]] execution, HK exit fixed at 2026-09-15.
+
+Two classes, declared in project frontmatter:
+
+| Class | Frontmatter | Scheduling rule |
+|---|---|---|
+| **Discretionary** (default) | none needed; `wsjf: <score>` | Ranked by WSJF; competes for remaining capacity |
+| **Fixed-date** | `class: fixed-date`, `hard-date: YYYY-MM-DD`, `wsjf: n/a` | Never ranked. Scheduled **backwards from the date** (what must start when, to land by then). Takes capacity off the top at sprint planning before WSJF ranks the rest |
+
+Guard-rail: fixed-date is for genuinely external, committed dates (a departure, a legal deadline, an enrolment window) - not for self-imposed urgency. If the date is Julian's own and movable, it is discretionary and WSJF applies; use a forcing function ([[mm-commit-with-a-forcing-function]]) rather than a class change.
+
+This is the quick fix for the broader methodology question logged in `raw/brain-dump.md` (30 Jun: is WSJF right for all workstreams?). That review may replace or extend this; until then, two classes is deliberately all there is.
+
+---
+
 ## Within-Workstream Prioritisation
 
-Within a single workstream, use WSJF to rank Projects. See [[wsjf]] for the full scoring model.
+Within a single workstream, use WSJF to rank **discretionary** Projects. See [[wsjf]] for the full scoring model. Fixed-date projects are not ranked - see Project Classes above.
 
 Summary: `WSJF = (Value + Time Criticality + Risk/Opportunity) ÷ Job Size`
 
@@ -114,6 +131,7 @@ Higher score = do first.
 
 At sprint planning, the order of consideration is:
 
+0. **Fixed-date projects first:** allocate whatever this sprint must carry for each `class: fixed-date` project to stay on its backwards schedule. This comes off the top, before any ranking.
 1. Are there any Wellbeing commitments this sprint? Protect them first.
 2. Are there any active Relationships goals with near-term deadlines? Allocate before Career work.
 3. Finance goals with hard dates (e.g. account review, tax deadline) — allocate next.

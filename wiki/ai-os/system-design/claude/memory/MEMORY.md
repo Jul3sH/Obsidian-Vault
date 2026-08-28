@@ -23,6 +23,8 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-outbound-punctuation.md | feedback | In outbound prose, never use spaced hyphens " - " as connectors; use commas, colons, full stops, or parentheses at drafting time |
 | feedback-visible-waiting-state.md | feedback | When blocked on Julian's input, end the turn with an unmissable ask ("Waiting on you:" + one direct question as the closing line) - never fold the question into a status paragraph |
 
+| feedback-resizing-needs-agreement.md | feedback | Never re-size/re-score a project without asking Julian; size on work REMAINING, not the full activity list |
+
 | [Hold the Pen: Voice Messages](feedback-hold-the-pen-voice-messages.md) | feedback | Outbound personal messages: Julian drafts first, Claude critiques and fact-checks - never Claude-first drafting for his voice |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)
