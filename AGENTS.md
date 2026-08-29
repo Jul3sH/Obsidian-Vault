@@ -250,6 +250,11 @@ execution effort in two currencies that are never mixed into one figure:
   Claude workflow runs report their token total in the completion notification. Codex
   exec-mode usage is not in that figure: mine it from `~/.codex/logs_2.sqlite` (per-thread
   peak `total_usage_tokens`, one thread per invocation) and log it as a separate row.
+  **Interactive Claude sessions** (added 28 Aug 2026): sum per-message usage from the
+  session transcript JSONL (`~/.claude/projects/<project-slug>/<session-id>.jsonl`); log
+  **output + cache-write input** as the effort figure, one row per session, in the same
+  operation as the attended-minutes row. Cache reads are not effort - omit them or note
+  in passing. If the transcript cannot be read, log "unmeasured" - never estimate.
 
 **Roll-up for estimation:** at deliverable completion, Julian's total minutes feed the
 **Actual hrs** column of `wiki/ai-os/service-design/estimation-baseline.md`; token totals go
