@@ -28,8 +28,7 @@ Use `/project-planner` to create a new Project through a structured interview.
 - [[ai-engineering-patterns|AI Engineering Patterns]] — Choose the right AI engineering approach for any piece of work via a market-aligned patterns catalog, distilled mental models, and a task-routing skill
 
 ## Personal
-- [[uk-relocation-project|UK Relocation Project]] — Have a committed decision on whether to stay in Hong Kong or relocate to the UK, locked before the 12 July trip
-  - [[uk-relocation-decision|UK Relocation Decision]] — The decision anchor: committed choice, why, fear table, exit rules, and the map of all supporting documents
+- [[uk-relocation-project|UK Relocation Project]] — Execute the committed move to the UK: Hong Kong exit and UK arrival (decision arc complete; decision anchor lives in the uk-move workspace)
 
 ## Candidates & Parking
 
