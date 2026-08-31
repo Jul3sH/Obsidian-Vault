@@ -73,6 +73,12 @@ These files are not the original HK-vs-UK BRAINED run. They are follow-on decisi
 - [[fable-review-jobdata-2026-07-11|Fable review - job data and London-direct lean]] - 11 July hostile review and addenda after the job-market evidence and crash-pad-interim strategy emerged.
 - [[uk-relocation-fable-consistency-review-2026-07-13|Fable consistency review]] - full-record audit for contradictions across the decision journal, project page, finance model, risk register, and review files.
 
+## 8b. Post-MOVE Execution Sub-Decisions
+
+Small, bounded execution decisions that surface during Phase 3/4. Each gets its own lightweight file (not a full BRAINED workspace) linked from its project register row.
+
+- [[furniture-ship-store-ditch|Furniture: Ship, Store, or Ditch]] - HK furniture: ship to UK, HK storage, kept under a furnished let, or sold/given away. Decision rule fixed; open, blocked on cost inputs.
+
 ## 9. Decision-Support Surfaces
 
 - [[decision-criteria-matrix|Decision Criteria Matrix]] - planned weighted criteria matrix intended to sit beside the risk register.
