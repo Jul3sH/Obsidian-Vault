@@ -37,6 +37,12 @@ BAU Kanban (PERF) cards are titled **`<succinct context>: <next action>`** - the
 
 Example: [PERF-1077](https://agileict.atlassian.net/browse/PERF-1077) "Rent out Pine View: Review HSBC insurance".
 
+**Description format:** two bullet lists, each line a simple, succinct sentence - no run-on clauses joined by commas.
+- **Scope** - one bullet per item in the card, each naming what it covers.
+- **Definition of Done** - one bullet per condition that must be true to close the card, not a single combined sentence.
+
+Reference example: [PERF-1077](https://agileict.atlassian.net/browse/PERF-1077).
+
 ---
 
 ## Backlog Semantics by Board
