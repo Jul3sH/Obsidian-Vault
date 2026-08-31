@@ -31,6 +31,14 @@ For the Portfolio Kanban board configuration, see [[portfolio-kanban|Portfolio K
 
 ---
 
+## BAU Card Naming
+
+BAU Kanban (PERF) cards are titled **`<succinct context>: <next action>`** - the part before the colon names what the card is about, the part after is what actually needs doing next. Rename the card as the next action changes rather than leaving a stale title.
+
+Example: [PERF-1077](https://agileict.atlassian.net/browse/PERF-1077) "Rent out Pine View: Review HSBC insurance".
+
+---
+
 ## Backlog Semantics by Board
 
 "Backlog" means something different on each board — both meanings matter:
