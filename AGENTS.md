@@ -319,6 +319,31 @@ current. This is a recurring failure mode. To prevent it:
 
 ---
 
+# Admission Fast Lane (all agents)
+
+For work that is machine-executed (Julian's role: brief + review), low blast radius,
+and fits one 2h box, the full define/Prompt-Zero ceremony is replaced by a
+**one-sitting fast lane**:
+
+1. Julian states the work in his own words; the agent asks only for what is missing:
+   a one-sentence why (inherited from a Project output or stated on the spot),
+   2-3 binary done-criteria, the one load-bearing assumption, a named verifier for
+   every output.
+2. A terse deliverable record file is written immediately (record, not ceremony:
+   purpose block, criteria, Time Log).
+3. Execution follows in the same session. Never split admission from execution
+   across sessions: context decay doubles the cost.
+4. Unchanged: time/token logging, adversarial coverage, sampling-scope sign-off,
+   workflow-log row.
+
+Full ceremony still applies when any condition fails: Julian-executed work, high
+blast radius, multi-box, or a why that cannot be stated in a sentence.
+Rationale: admission is Taste work (checked only by Julian's judgement); it cannot
+be delegated, only minimised and batched. Evidence: genai-task-workflow-log,
+2026-09-03 admission-ceremony entry.
+
+---
+
 # Adversarial Coverage of Machine-Drafted Deliverables (all agents)
 
 When a multi-stage machine pipeline (a workflow, a subagent chain) produces deliverable

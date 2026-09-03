@@ -16,6 +16,13 @@ work; go down into each model only when its step is the one you are on.
 
 ## The chain
 
+**Step 0 - admission (before the chain runs):** decide how much ceremony the work
+deserves. Machine-executed, low-blast-radius, single-box work takes the AGENTS.md
+Admission Fast Lane (one sitting, admission through execution); everything else
+takes the full define ceremony. Admission is Taste work: minimise it, batch it,
+never split it across sessions.
+
+
 | Step | Model | Question it answers | What it hands to the next step |
 |---|---|---|---|
 | 1 | [[mm-work-types]] | What kind of work is this? | The work type, carrying its default check form |
@@ -25,6 +32,10 @@ work; go down into each model only when its step is the one you are on.
 
 ## How the steps link
 
+- **Admission is Taste work: minimise and batch it.** Only Julian can judge what
+  the work is and why, so step 0 spends his judgement deliberately: small, one
+  sitting, execution immediately after. Never split admission from execution
+  across sessions. (Evidence: the 3 Sep D2 entry in [[genai-task-workflow-log]].)
 - **The type carries the check.** Classifying the work (step 1) is a seconds-long
   read, and the type's whole value is that it tells you how the output will be
   checked before anything runs.

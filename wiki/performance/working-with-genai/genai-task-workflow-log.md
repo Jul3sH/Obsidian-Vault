@@ -10,7 +10,8 @@ tags: [working-with-genai, routing, log]
 
 This is the journal of work run through the [[genai-task-workflow]] chain: one
 entry per run, with what happened and the lesson. It covers failure at any step -
-work type misclassified, verification misjudged, routing wrong, steering wrong -
+admission oversized or fragmented, work type misclassified, verification
+misjudged, routing wrong, steering wrong -
 so it is the single repository checked when scoping new work ("I tried something
 like this before and here is why it went wrong"), and lessons compound into the
 models instead of scattering. It is read at task creation when routing is being decided, and
@@ -21,10 +22,27 @@ was routed. Vocabulary: work types from [[mm-work-types]], check forms from
 **Entry format:** the heading is the scannable digest - `date · work type ·
 outcome · deliverable` - and the bullets carry the detail, one or two lines
 each. Outcome values: **Worked / Partly / Failed**. The Lesson line names which
-chain step went wrong (work type / verification / routing / steering) so the log
-is queryable by step as well as by type. Newest first.
+chain step went wrong (admission / work type / verification / routing /
+steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
+
+## 2026-09-03 · Taste work (admission ceremony) · Failed · [[ai-engineering-patterns]] Deliverable 2
+
+- **Work:** Defining the D2 enabler (task-routing skill) through the standard
+  ceremony. Spread across four sessions (24 Aug - 3 Sep); the definition never
+  completed, and Julian paid the context re-acquaintance cost three times
+  ("remind me the scope", "what have we defined so far", "tell me about the
+  skill again").
+- **Check:** n/a - nothing was ever routed, because admission never finished.
+  That is the failure.
+- **Outcome:** Failed - defining the work cost more of Julian's time than
+  doing it would have (the machine does the doing).
+- **Lesson:** Step at fault: admission. Deciding what and why is Taste work - only Julian can do it. The
+  process made too much of it (a full interview for a machine-built 2h box)
+  and split it across four sessions, paying the forgetting tax each time.
+  Keep admission small, do it in one sitting, build immediately. Fix: the
+  AGENTS.md Admission Fast Lane, created from this failure.
 
 ## 2026-09-03 · Build + Wiki ops · Worked · [[routing-work-system]]
 
