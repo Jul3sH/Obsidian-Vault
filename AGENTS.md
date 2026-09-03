@@ -207,6 +207,27 @@ The rule applies whenever Julian is producing something: research, analysis, a d
 
 ---
 
+# Reuse Before Build (all agents)
+
+Before creating any new system, process, log, register, rule, or skill, search the
+existing estate for something that already does the job or can be extended: check
+`wiki/performance/systems-register.md`, `wiki/ai-os/`, and the relevant workstream
+folder. Prefer redeploying or extending an existing system over building a new one.
+
+- **New artefacts define nothing already defined elsewhere.** They carry links and
+  the canonical vocabulary of existing files rather than restating or renaming it.
+  (Example: a log records instances of check forms defined in `mm-verification`;
+  it does not describe the forms again.)
+- **If a new build is genuinely needed**, state what was checked and why nothing
+  fits, and add the systems-register row with an adoption forcing-function per
+  that file's rule.
+
+Why: reuse compounds Julian's understanding of the systems he already has, prevents
+a sprawl of redundant systems, and stops duplication of effort. Duplicated
+definitions drift; a single canonical definition with links cannot.
+
+---
+
 # Project Status Updates (all agents)
 
 Whenever any agent produces output that is linked to a Project (a new file, a corrected artefact,

@@ -1,7 +1,7 @@
 ---
 name: retro
 description: >
-  Weekly retrospective ceremony. Runs at 4 PM HKT every Friday. Hard-capped at
+  Weekly retrospective ceremony. Runs at 4 PM HKT every Sunday. Hard-capped at
   20 minutes. Reads the closing sprint from Jira and this week's standup log,
   presents a sprint summary, asks for 1 win / 1 problem / 1 change, logs the
   retro, and optionally actions the change. Run manually with /retro anytime.
@@ -9,7 +9,7 @@ description: >
 
 # Retro Skill — Weekly Retrospective
 
-Runs at 4 PM HKT every Friday to close out the sprint. Hard time-box: 20
+Runs at 4 PM HKT every Sunday to close out the sprint. Hard time-box: 20
 minutes. The purpose is identification and logging — not resolution. Resolution
 happens in sprint planning.
 
@@ -133,6 +133,24 @@ Background: `wiki/performance/working-with-yourself/payoff-vs-prestige-bias.md`.
 
 ---
 
+## Step 3.5 — Systems-Register Check
+
+**Every retro** (weekly - monthly proved too long, context of the week's work is lost):
+open `wiki/performance/systems-register.md` and walk the rows in one message:
+
+```
+Monthly systems check. Register status:
+- [SYS-n System] — [Status], last used [date]
+...
+Any row to move? (re-adopt with a forcing-function / retire / no change)
+```
+
+- Update `Last used` and `Status` for each row per Julian's answers.
+- A **New** row older than two weeks with no real use moves to **Abandoned** —
+  say so plainly rather than letting it sit.
+- Any change is one line each; do not let this exceed ~2 minutes of the retro. Rows unchanged since last week need no discussion - list them on one line.
+- Update the register file in the same operation, and bump its `updated:` date.
+
 ## Step 4 — Log and Close
 
 **Append one row to `wiki/ai-os/logs/retro-log.md`:**
@@ -223,14 +241,14 @@ Ask: "Does the change need actioning before sprint planning?"
 
 ## Configuration & Scheduling
 
-**Cron Schedule:**
-```
-0 16 * * 5  (4 PM HKT, Fridays only)
-```
+**Trigger mechanism (SessionStart hook, `.claude/settings.json` in the vault):**
+On any session opened on a Sunday, if `wiki/ai-os/logs/retro-log.md` has no entry
+dated today, the hook injects a reminder and Claude prompts Julian once to run
+`/retro`. No phone, no cron, no memory required - the harness executes it. Sunday
+is sprint day, so the retro fires whether or not a sprint actually ran.
 
 **Trigger Phrases:**
 - `/retro` — manual run anytime
-- Automatic via cron at 4 PM HKT every Friday
 
 ---
 

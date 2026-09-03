@@ -25,6 +25,16 @@
           }
         ]
       }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ \"$(date +%u)\" = \"7\" ] && ! grep -q \"$(date +%Y-%m-%d)\" \"/Users/julianhart/Obsidian Vault/wiki/ai-os/logs/retro-log.md\" 2>/dev/null; then echo '{\"systemMessage\":\"Sunday: no retro logged today - /retro is due.\",\"hookSpecificOutput\":{\"hookEventName\":\"SessionStart\",\"additionalContext\":\"It is Sunday and wiki/ai-os/logs/retro-log.md has no entry dated today. Before other work, prompt Julian once to run /retro (sprint review, 1 win / 1 problem / 1 change, systems-register check, 20 min cap). If he declines or wants to work first, proceed normally and do not nag again this session.\"}}'; fi"
+          }
+        ]
+      }
     ]
   }
 }
