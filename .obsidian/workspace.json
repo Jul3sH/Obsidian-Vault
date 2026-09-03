@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decisions/uk-move/furniture-ship-store-ditch.md",
+                "file": "wiki/performance/working-with-genai/mm-routing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "furniture-ship-store-ditch"
+              "title": "mm-routing"
             }
           }
         ]
@@ -200,8 +200,9 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
-    "wiki/projects/uk-relocation-project.md",
+    "wiki/performance/working-with-genai/routing-work-to-agents.md",
     "wiki/performance/decisions/uk-move/furniture-ship-store-ditch.md",
+    "wiki/projects/uk-relocation-project.md",
     "wiki/performance/decisions/uk-move/uk-relocation-decision.md",
     "wiki/projects/uk-relocation-decision.md",
     "wiki/performance/the-human-mind/mm-confirmation-bias.md",
@@ -225,7 +226,6 @@
     "wiki/performance/working-with-others/proactive-risk-management.md",
     "wiki/deliverables/mental-models-rebuild.md",
     "wiki/performance/working-with-others/mm-assertiveness-is-professional.md",
-    "wiki/performance/working-with-yourself/mm-setbacks-are-glitches.md",
     "wiki/performance/the-human-mind",
     "wiki/career/tti/_wip/tti-engagement-strategy.md.tmp.52679.6a0c868e421c",
     "wiki/technology/ai-engineering-patterns",
