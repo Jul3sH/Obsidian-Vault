@@ -28,4 +28,4 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[verification-tactics|Verification Tactics]] - Four layers in leverage order for shrinking the generation-verification gap → detail behind [[mm-verification]]
 - [[routing-work-to-agents|Routing Work to Agents]] - Four-question ladder for choosing chat vs one agent vs several agents vs by hand → detail behind [[mm-routing]]
 - [[routing-work-prompts|Routing Work: Setup Prompts]] - The four setup templates, one per verdict → detail behind [[mm-routing]]
-- [[routing-log|Routing Log]] - Journal of routed runs (work type, check, verdict, outcome, lesson) → evidence behind [[mm-work-types]] and [[mm-routing]]
+- [[genai-task-workflow-log|GenAI Task Workflow Log]] - Journal of routed runs (work type, check, verdict, outcome, lesson) → evidence behind [[mm-work-types]] and [[mm-routing]]

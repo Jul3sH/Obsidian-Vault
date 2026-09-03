@@ -92,7 +92,7 @@ those articles disagree, the articles win and this file is corrected.
 
 ## Evidence
 
-Logged per routed run in [[routing-log]], one row each with work type, check,
+Logged per routed run in [[genai-task-workflow-log]], one row each with work type, check,
 verdict, outcome, and lesson. This model carries none inline; if the log's
 lessons and this model disagree, the log's evidence wins and this file is
 corrected.

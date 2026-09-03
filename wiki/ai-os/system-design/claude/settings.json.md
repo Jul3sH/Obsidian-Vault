@@ -1,3 +1,15 @@
+> Mirror copy. Source: `.claude/settings.json` in the vault root (dot-folder,
+> hidden in Obsidian). Update this mirror whenever the source changes.
+
+# Claude Code Project Settings (vault)
+
+Permissions and hooks for Claude Code sessions in this vault. Two SessionStart
+hooks: (1) Sunday retro reminder when no retro is logged today; (2) daily
+mental-model refresher via `~/.claude/hooks/mm-daily-refresher.sh` (mirrored at
+[[hooks/mm-daily-refresher.sh|mm-daily-refresher.sh.md]]). Day boundary for both
+is 05:00 UK local time. Plus the UserPromptSubmit time-tracking nudge.
+
+```json
 {
   "permissions": {
     "allow": [
@@ -42,3 +54,4 @@
     ]
   }
 }
+```

@@ -10,14 +10,14 @@ tags: [working-with-genai, work-types, mental-models]
 This is the Work Types mental model: classifying a piece of work by how its
 output gets checked, before deciding anything else about it. It was created
 (3 Sep 2026) as the missing first step of the [[genai-task-workflow]] chain,
-when designing [[routing-log]] exposed that routed work had no shared vocabulary
+when designing [[genai-task-workflow-log]] exposed that routed work had no shared vocabulary
 to be recorded or recalled in. Read it when routing any piece of work to AI, and
-when writing a routing-log row.
+when writing a [[genai-task-workflow-log]] entry.
 
 **One-liner:** Classify work by how it gets checked, not what it is about.
 
 **Reach for it when:** routing any piece of work to AI, and when writing a
-[[routing-log]] row.
+[[genai-task-workflow-log]] row.
 
 **Position in the chain:** first. Work types classifies, verification permits,
 routing decides the architecture, steering configures it. Full chain:
@@ -61,7 +61,7 @@ on your judgement (critique cheaply, taste work irreducibly).
   wording in your voice is taste work, filing is wiki ops).
 - Amendment rule: do not add a type until three real log entries refuse to fit an
   existing one; merge any two types that turn out to be checked identically.
-- The Check column of [[routing-log]] takes only the canonical values from
+- The Check line of a [[genai-task-workflow-log]] entry takes only the canonical values from
   [[mm-verification]], plus the independence route where the check is an eval.
 
 ## Limitations
@@ -76,5 +76,5 @@ for buckets whose checking doctrine is existing wiki content.
 ## Detail
 
 [[mm-verification]] and [[verification-tactics]] (the check forms and how evals
-earn independence), [[routing-log]] (the accumulating evidence),
+earn independence), [[genai-task-workflow-log]] (the accumulating evidence),
 [[genai-task-workflow]] (the chain this model opens).

@@ -14,7 +14,7 @@ metadata:
 
 ## Identity
 - Email: julianhart@gmail.com
-- Location: Hong Kong (UTC+8 / HKT), planning HK to UK relocation (2026-2027)
+- Location: UK (as of Sep 2026, confirmed 3 Sep) - relocated from Hong Kong; day starts early, ~5 AM UK
 - Solo operator - works alone, no team
 
 ## Family
@@ -54,7 +54,7 @@ When a conversation topic matches a trigger below, load the corresponding wiki f
 - 8-hour daily focus capacity (7-12 PM + 1-4 PM, or 8-12 PM + 1-4 PM if running)
 - 40-hour weekly sprint capacity (1 SP = 1 hour)
 - Sprint cadence: 1 week (Mon-Sun)
-- Ceremonies: standup 4 PM HKT weekdays, retro 4 PM HKT Friday, sprint-plan manual
+- Ceremonies: standup 4 PM weekdays, retro Sundays (SessionStart hook prompts it), sprint-plan manual
 - Runs occasionally (impacts morning schedule)
 
 ## Preferences
@@ -72,7 +72,7 @@ career, finance, performance, personal, relationships, wellbeing
 - Calendar: Google Calendar (primary)
 - Credentials: `~/.leadgen/credentials.json` (chmod 600)
 
-## Environment Quirks (Hong Kong)
+## Environment Quirks (Hong Kong - historical; UK-based as of Sep 2026, likely stale)
 - Anthropic API requires VPN (blocked in HK on direct connection)
 - RapidAPI must bypass VPN (blocks VPN exit IPs)
 - ExpressVPN configured with reverse bypass

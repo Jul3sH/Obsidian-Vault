@@ -41,7 +41,7 @@ work; go down into each model only when its step is the one you are on.
 
 ## The feedback loop
 
-Every routed run gets a row in [[routing-log]] - work type, check form, verdict,
+Every routed run gets a row in [[genai-task-workflow-log]] - work type, check form, verdict,
 outcome, lesson. Before routing new work, the log is checked for similar past
 runs; what it accumulates feeds back into these models. Evidence compounds
 instead of scattering.

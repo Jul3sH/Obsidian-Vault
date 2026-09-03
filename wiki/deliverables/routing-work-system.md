@@ -19,21 +19,24 @@ Deliverable-First gate was never applied. It is read for the completion record
 and the Time Log; the system itself lives in
 `wiki/performance/working-with-genai/`.
 
-> ⚠ As of 3 Sep 2026: **Prompt Zero bypassed.** The work escalated from a
-> question into substantive build inside one session and the gate did not fire.
-> Recorded here rather than waived - at this size there is no waiver. The
-> grounding brief exists only as the session dialogue.
+> As of 3 Sep 2026: **Prompt Zero overridden by Julian** (recorded per the
+> AGENTS.md override rule - at size 2 there is no waiver, so an override is
+> written as a dated line). The work emerged conversationally and Julian
+> confirmed he did not want a Prompt Zero for it; the grounding brief exists as
+> the session dialogue. The gate also failed to fire at the point the work
+> turned substantive - that detection gap is the real lesson, logged in the
+> ceremony-trigger-audit funnel item's territory.
 
 ## What was delivered (3 Sep 2026)
 
 - [[genai-task-workflow]] - the end-to-end chain on one page (work types →
   verification → routing → steering)
 - [[mm-work-types]] - seven work types classified by check profile
-- [[routing-log]] - the journal, seeded with three rows (two TTI, one BAU Kanban)
+- [[genai-task-workflow-log]] - the journal, seeded with three rows (two TTI, one BAU Kanban)
 - Chain position lines updated across mm-verification / mm-routing /
   mm-steering / mm-blast-radius / mm-model-adaptation; Evidence moved out of
   mm-routing; folder index updated
-- Write trigger added to AGENTS.md (routing-log row in the same operation as the
+- Write trigger added to AGENTS.md (workflow-log entry in the same operation as the
   Time Log row); Reuse Before Build rule added to AGENTS.md
 - SYS-8 row in [[systems-register]] with adoption test
 - Same-session adjacent fixes: systems-register backfill (SYS-4 to SYS-7), retro
