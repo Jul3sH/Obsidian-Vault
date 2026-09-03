@@ -7,12 +7,13 @@ tags: [working-with-genai, workflow, routing, mental-models]
 
 # GenAI Task Workflow
 
-This is the end-to-end workflow for running any piece of work through AI: four
-questions, asked in order, each answered by its own mental model. It was created
-(3 Sep 2026) because the chain existed only as one-line cross-references inside
-the individual models - the machine could piece it together, but a human needs
-the whole picture on one page. Read it when starting any substantive piece of AI
-work; go down into each model only when its step is the one you are on.
+This is the end-to-end workflow for running any piece of work through AI: seven
+stages from admission to logged completion, each answered by its own model, rule,
+or tool. It was created (3 Sep 2026) because the chain existed only as one-line
+cross-references inside the individual models - the machine could piece it
+together, but a human needs the whole picture on one page. Read it when starting
+any substantive piece of AI work; go down into each stage's reference only when
+that stage is the one you are on.
 
 ## The chain
 
@@ -29,6 +30,8 @@ never split it across sessions.
 | 2 | [[mm-verification]] | Does that check actually hold here - cheaper than producing, independent, named before the run? | A check you can afford, or a veto |
 | 3 | [[mm-routing]] | Chat, one agent, several agents, or by hand? | The architecture |
 | 4 | [[mm-steering]] | How is each agent made to behave once placed? | The configured run |
+| 5 | Execution rules (AGENTS.md) | Run it: same session as admission, every output with a named adversarial verifier | Verified outputs |
+| 6 | Review & logging rules (AGENTS.md) | Julian signs off (sampling scope); minutes, tokens, and a log row recorded | A closed, logged piece of work |
 
 ## How the steps link
 
@@ -49,6 +52,15 @@ never split it across sessions.
   hundreds at the other. The checkability bar rises with the width.
 - **The routing/steering boundary:** how many minds and how they relate to each
   other = routing. How each mind is made to behave once placed = steering.
+
+## Coverage: what implements each stage
+
+| Stage | Skills | Rules and references |
+|---|---|---|
+| 0 Admission | `/define-task`, `/define-enabler`, `/define-user-story`, `/prompt-zero` (full lane) | AGENTS.md Admission Fast Lane (machine-built work); Deliverable-First rule |
+| 1-4 Classify, verify, route, steer | **Task-routing skill - planned, not yet built** (one skill walking all four stages) | The four models in the chain table, [[routing-work-to-agents]], [[routing-work-prompts]], this log for precedent |
+| 5 Execution | - | Workflow tool + Codex verification; AGENTS.md Adversarial Coverage rule; same-session rule |
+| 6 Review & logging | - | AGENTS.md Time and Token Logging; sampling sign-off scope (defined in [[ai-engineering-pattern-articles]], to be generalised); workflow-log row rule; minutes hook |
 
 ## The feedback loop
 
