@@ -20,8 +20,7 @@ then climb one rung at a time.
 **Reach for it when:** a model's output is not good enough and you are choosing
 what to change.
 
-**Position in the chain:** after steering. Verification decides what is possible,
-routing decides the architecture, steering configures it; model adaptation is
+**Position in the chain:** after steering ([[genai-task-workflow]]); model adaptation is
 what you reach for when steering has run out and the answer is still wrong.
 
 ## Key Takeaways

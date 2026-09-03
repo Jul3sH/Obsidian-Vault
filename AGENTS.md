@@ -284,6 +284,9 @@ growing baseline of what work actually costs (his time and machine spend separat
 future sizing is calibrated rather than guessed.
 
 If an older deliverable file lacks the section, add it the next time work touches that file.
+When the run being logged was routed to AI, append its row to
+`wiki/performance/working-with-genai/routing-log.md` in the same operation - work
+type, check, verdict, outcome, lesson.
 Reference implementation: the Time Log in `wiki/deliverables/ai-engineering-pattern-articles.md`.
 
 ---

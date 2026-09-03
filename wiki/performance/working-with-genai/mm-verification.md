@@ -19,9 +19,11 @@ practical build-out is in [[verification-tactics]].
 **Reach for it when:** you are about to increase the volume of AI output you are
 answerable for.
 
-**Position in the chain:** first. Verification decides what is possible, routing
-decides the architecture, steering configures it. Verification looks like the last
-step and is actually the first.
+**Position in the chain:** second. Work types classifies and hands over its
+default check; verification tests whether that check holds here, and vetoes the
+run if it does not. The check is still designed before the run, never after -
+verification looks like the last step and comes at the start. Full chain:
+[[genai-task-workflow]].
 
 ## Key Takeaways
 

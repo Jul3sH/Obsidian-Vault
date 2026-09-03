@@ -10,7 +10,11 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 
 **Two tiers.** The `mm-` files are the reach-for layer: one pattern each, in the six-slot format. The articles are the detail tier; each model's Detail slot links down, and if a model and its articles disagree, the articles win and the model is corrected. (Some models' detail articles live in [[technology/_index|Technology]] rather than this folder; their Detail slots carry those links.)
 
+## The Workflow
+- [[genai-task-workflow|GenAI Task Workflow]] - The end-to-end chain (work types → verification → routing → steering) on one page - start here
+
 ## Mental Models
+- [[mm-work-types|MM: Work Types]] - Classify work by how it gets checked, not what it is about; the seven types
 - [[mm-verification|MM: Verification]] - Whether AI work can be checked cheaply enough to be worth commissioning, and by what means
 - [[mm-routing|MM: Routing]] - Choosing between chat, one agent, several agents, or by hand
 - [[mm-steering|MM: Steering]] - How the chosen agent or fleet is made to behave, and why an instruction is not a guarantee
@@ -24,3 +28,4 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[verification-tactics|Verification Tactics]] - Four layers in leverage order for shrinking the generation-verification gap → detail behind [[mm-verification]]
 - [[routing-work-to-agents|Routing Work to Agents]] - Four-question ladder for choosing chat vs one agent vs several agents vs by hand → detail behind [[mm-routing]]
 - [[routing-work-prompts|Routing Work: Setup Prompts]] - The four setup templates, one per verdict → detail behind [[mm-routing]]
+- [[routing-log|Routing Log]] - Journal of routed runs (work type, check, verdict, outcome, lesson) → evidence behind [[mm-work-types]] and [[mm-routing]]

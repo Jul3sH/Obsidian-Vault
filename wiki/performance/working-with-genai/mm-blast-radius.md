@@ -20,8 +20,7 @@ with it.
 **Reach for it when:** you are about to give an agent a capability with real-world
 reach, or adopt a third party's tool surface.
 
-**Position in the chain:** alongside routing. Verification decides what is
-possible, routing decides the architecture, steering configures it; blast radius
+**Position in the chain:** alongside routing ([[genai-task-workflow]]); blast radius
 decides how much reach the result is allowed. It does not choose the architecture,
 it bounds it.
 

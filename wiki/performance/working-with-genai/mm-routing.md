@@ -21,8 +21,9 @@ inspect.
 **Reach for it when:** deciding how to run a piece of work, before building any
 setup.
 
-**Position in the chain:** second. Verification decides what is possible, routing
-decides the architecture, steering configures it.
+**Position in the chain:** third. Work types classifies, verification permits,
+routing decides the architecture, steering configures it. Full chain:
+[[genai-task-workflow]].
 
 ## Key Takeaways
 
@@ -91,6 +92,7 @@ those articles disagree, the articles win and this file is corrected.
 
 ## Evidence
 
-| Date | Event | Lesson in action | Source |
-|------|-------|-------------------|--------|
-| 2026-08-21 | TTI: for personal messages to Stephan and Ty, Claude's drafts kept missing my voice - on the close-out I rejected three in a row, wrote my own, and asked Claude to critique it instead. That worked immediately: the critique caught a claim in my draft that wasn't true against the record. The one Claude line that shipped untouched was a framing construction, not voice. And nine iterations were burned polishing a message events then killed | For messages in my own voice: I hold the pen, Claude critiques and fact-checks - its value is checking and framing, not sounding like me. And don't polish a pending message while events are still moving; draft close to the send moment | [[tti-comms-log]] |
+Logged per routed run in [[routing-log]], one row each with work type, check,
+verdict, outcome, and lesson. This model carries none inline; if the log's
+lessons and this model disagree, the log's evidence wins and this file is
+corrected.

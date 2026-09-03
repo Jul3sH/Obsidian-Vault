@@ -19,8 +19,9 @@ Anthropic's own term for this territory is **steering**.
 **Reach for it when:** routing has chosen the architecture and you are configuring
 how the agent, or fleet of agents, behaves.
 
-**Position in the chain:** third. Verification decides what is possible, routing
-decides the architecture, steering configures it.
+**Position in the chain:** fourth. Work types classifies, verification permits,
+routing decides the architecture, steering configures it. Full chain:
+[[genai-task-workflow]].
 
 ## Key Takeaways
 
