@@ -53,3 +53,4 @@ Completed deliverables not linked to an active Project — ongoing reference art
 | Deliverable | Workstream | Status |
 |-------------|-----------|--------|
 | [[goals-roadmap.excalidraw\|Goals Roadmap (Excalidraw)]] | Performance | Done |
+| [[routing-work-system|Routing Work System]] | Performance | Done (3 Sep 2026, retroactive record) |
