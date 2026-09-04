@@ -14,6 +14,7 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[genai-task-workflow|GenAI Task Workflow]] - The end-to-end chain (work types → verification → routing → steering) on one page - start here
 
 ## Mental Models
+- [[mm-admission-qualification|MM: Admission Qualification]] - Which tier of ceremony work qualifies for before it starts (exempt / fast lane / full); characteristics decide, not deliverable type
 - [[mm-work-types|MM: Work Types]] - Classify work by how it gets checked, not what it is about; the seven types
 - [[mm-verification|MM: Verification]] - Whether AI work can be checked cheaply enough to be worth commissioning, and by what means
 - [[mm-routing|MM: Routing]] - Choosing between chat, one agent, several agents, or by hand

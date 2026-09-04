@@ -1,7 +1,7 @@
 ---
 type: log
 created: 2026-09-03
-updated: 2026-09-03
+updated: 2026-09-04
 status: active
 tags: [working-with-genai, routing, log]
 ---
@@ -26,6 +26,21 @@ chain step went wrong (admission / work type / verification / routing /
 steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
+
+## 2026-09-04 · Wiki ops · Worked · [[airmiles-mental-model]]
+
+- **Work:** Compiled Julian's BA Avios note into the vault's first Finance
+  mental model ([[mm-airmiles-redemption]] + [[ba-avios-redemption]], two-tier),
+  then two extensions dictated by him in-session (principle rationales, the
+  human/LLM split for running the model live).
+- **Check:** Deterministic (files, links, indexes, ops-log row) plus Julian's
+  close-out read-through.
+- **Outcome:** Worked - 30 attended min, 333k tokens. One error: the
+  worked-example route was inferred from currency clues (guessed Hong Kong to
+  Bangkok; it was Bangkok to London) and only Julian's review caught it.
+- **Lesson:** Step at fault: steering. In a compile, a fact absent from the
+  source is a question for Julian, not a gap to fill by inference - same rule
+  as verify-before-writing, applied to context the model supplies itself.
 
 ## 2026-09-03 · Taste work (admission ceremony) · Failed · [[ai-engineering-patterns]] Deliverable 2
 

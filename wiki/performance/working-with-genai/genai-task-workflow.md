@@ -18,14 +18,16 @@ that stage is the one you are on.
 ## The chain
 
 **Step 0 - admission (before the chain runs):** decide how much ceremony the work
-deserves. Machine-executed, low-blast-radius, single-box work takes the AGENTS.md
-Admission Fast Lane (one sitting, admission through execution); everything else
-takes the full define ceremony. Admission is Taste work: minimise it, batch it,
-never split it across sessions.
+qualifies for - the three-tier test (exempt / fast lane / full) is
+[[mm-admission-qualification]]. Machine-executed, low-blast-radius, single-box
+work takes the AGENTS.md Admission Fast Lane (one sitting, admission through
+execution); everything else takes the full define ceremony. Admission is Taste
+work: minimise it, batch it, never split it across sessions.
 
 
 | Step | Model | Question it answers | What it hands to the next step |
 |---|---|---|---|
+| 0 | [[mm-admission-qualification]] | How much ceremony does the work qualify for? | An admitted piece of work at the right tier (or no ceremony at all) |
 | 1 | [[mm-work-types]] | What kind of work is this? | The work type, carrying its default check form |
 | 2 | [[mm-verification]] | Does that check actually hold here - cheaper than producing, independent, named before the run? | A check you can afford, or a veto |
 | 3 | [[mm-routing]] | Chat, one agent, several agents, or by hand? | The architecture |
