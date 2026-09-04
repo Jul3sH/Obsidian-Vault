@@ -10,7 +10,7 @@ tags: [finance, airmiles, ba-avios]
 This is the BA Avios scheme reference: how to value an Avios redemption, how
 to choose the right point on the Avios-plus-cash slider, and when to redeem
 versus pay cash. It was created (4 Sep 2026) from Julian's analysis of a
-Hong Kong to Bangkok booking. It is the detail layer behind
+Bangkok to London booking. It is the detail layer behind
 [[mm-airmiles-redemption]]: consult it whenever a BA reward flight is being
 considered; if this file and the model disagree, this file wins.
 
@@ -59,7 +59,7 @@ Incremental Avios value = (reduction in cash co-pay) / (extra Avios used).
 - Do not automatically choose the maximum-Avios / lowest-cash option: it
   frequently provides very poor value, sometimes only 0.5-0.8p per Avios.
 
-### Worked examples (Sep 2026, Hong Kong to Bangkok)
+### Worked examples (Sep 2026, Bangkok to London)
 
 | Cabin | Best slider choice | Why |
 |---|---:|---|

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-journal/commitment-lock-protocol.md",
+                "file": "wiki/finance/mm-airmiles-redemption.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "commitment-lock-protocol"
+              "title": "mm-airmiles-redemption"
             }
           }
         ]
@@ -198,8 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/deliverables/airmiles-mental-model.md",
+    "wiki/performance/decision-journal/commitment-lock-protocol.md",
     "wiki/finance/ba-avios-redemption.md",
     "wiki/finance/mm-airmiles-redemption.md",
     "wiki/performance/decision-journal/dec-stay-with-hannah.md",
@@ -226,8 +228,6 @@
     "wiki/performance/decision-journal/uk-move/furniture-ship-store-ditch.md",
     "wiki/performance/decision-journal/uk-move/fable-review.md",
     "wiki/performance/decision-journal/uk-move/fable-review-unknowns.md",
-    "wiki/performance/decision-journal/uk-move/fable-review-malvern-reopen-2026-07-10.md",
-    "wiki/performance/decision-journal/uk-move/fable-review-london-vs-malvern.md",
     "wiki/performance/decision-journal/uk-move",
     "wiki/performance/decision-journal",
     "wiki/performance/decision-frameworks/uk-move/uk-move-risk-register-2026-07-12.xlsx",
