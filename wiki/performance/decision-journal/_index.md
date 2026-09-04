@@ -15,6 +15,7 @@ type: index
 ## Decisions
 - [[dec-stay-with-hannah|Whether to stay with Hannah]] - REVIEWED
 - [[dec-uk-move|Whether to move back to the UK]] - COMMITTED
+- [[dec-bangkok-departure|When to leave Bangkok for London (16 vs 18 Sep 2026)]] - COMMITTED after one reversal
 
 ## Workspaces
 - [[performance/decision-journal/uk-move/_index|UK Relocation Decision workspace]] - decision-specific supporting docs for the UK-move decision

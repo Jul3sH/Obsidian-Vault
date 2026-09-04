@@ -11,7 +11,7 @@ This is the convention and template for logging real decisions: one `dec-<slug>.
 ## How to use it
 
 1. **Open a new `dec-<slug>.md` file** the moment a decision is live. Give it a **Decide-by date** immediately (the forcing function - see [[decision-maker-profile|profile]] Design Principle 1). Add a row to [[decisions-register|the register]] in the same operation.
-2. **Pick a framework** and record *why* that one.
+2. **Pick a framework** and record *why* that one. **Default: BRAIND** ([[brain-brand-framework]]) for any journalled decision - see the default rule in [[choosing-a-decision-framework]]; if a different framework is used, the entry records why.
 3. **Run it.** Capture the analysis verdict and the gut verdict **separately** (Design Principle 3).
 4. **Commit.** Write an explicit "Therefore I choose X." No "TBA." Date it. This closes the door (Design Principle 4).
 5. **Review later.** Come back when evidence arrives. Was it a good decision? Was the *process* good, separately from whether the outcome was lucky? Update the profile if a new pattern shows, and update the register row.
@@ -41,6 +41,7 @@ This is the convention and template for logging real decisions: one `dec-<slug>.
 
 - [[dec-stay-with-hannah|Whether to stay with Hannah]] - REVIEWED. Commitment and deadline failure; she left; founding evidence for the decision-maker profile.
 - [[dec-uk-move|Whether to move back to the UK]] - COMMITTED 2026-07-04. Live test case for the methodology; four post-lock wobbles, all held by the F-N-M-T gate.
+- [[dec-bangkok-departure|When to leave Bangkok for London (16 vs 18 Sep 2026)]] - COMMITTED after one reversal. First recorded lock broken without the reopen test; key insight on committing against intuition.
 
 ## Links
 

@@ -11,10 +11,14 @@
             "id": "ae20498a6ad02b8e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "wiki/performance/decision-journal/decision-maker-profile.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "decision-maker-profile"
             }
           }
         ]
@@ -194,10 +198,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
-    "wiki/performance/decision-journal/_index.md",
+    "wiki/performance/decision-journal/dec-bangkok-departure.md",
     "wiki/performance/decision-journal/decisions-register.md",
+    "wiki/performance/decision-journal/_index.md",
+    "wiki/performance/decision-journal/decision-journal.md",
+    "wiki/performance/decision-journal/decision-maker-profile.md",
+    "wiki/performance/decision-frameworks/decision-journal.md",
     "wiki/performance/decision-journal/dec-uk-move.md",
     "wiki/performance/decision-journal/dec-stay-with-hannah.md",
     "wiki/performance/decision-journal/uk-move/why-london.md",
@@ -220,10 +228,6 @@
     "wiki/performance/decision-journal/uk-move/fable-review-jobdata-2026-07-11.md",
     "wiki/performance/decision-journal/uk-move/decision-criteria-matrix.md",
     "wiki/performance/decision-journal/uk-move/capture.md",
-    "wiki/performance/decision-journal/uk-move/benefits.md",
-    "wiki/performance/decision-journal/uk-move/b7-lifestyle.md",
-    "wiki/performance/decision-journal/uk-move/b1-relationship-belief.md",
-    "wiki/performance/decision-journal/uk-move/analysis.md",
     "wiki/performance/decision-journal/uk-move",
     "wiki/performance/decision-journal",
     "wiki/performance/decision-frameworks/uk-move/uk-move-risk-register-2026-07-12.xlsx",

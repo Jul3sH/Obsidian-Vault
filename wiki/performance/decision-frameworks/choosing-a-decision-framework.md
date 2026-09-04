@@ -7,6 +7,10 @@ created: 2026-06-20
 
 There are many decision frameworks. The risk with ADHD is analysis paralysis - spending more time choosing a framework than making the decision. This article solves that with a two-question filter.
 
+## The Default (Julian, 4 Sep 2026)
+
+**BRAIND is the default framework for any decision that gets a journal entry** ([[brain-brand-framework]]: Benefits, Risks, Alternatives, Intuition, Need time, Decision - the union of BRAIN and BRAND, first used on [[dec-uk-move|the UK-move decision]], where it was spelled "BRAINED"; BRAIND is the standard spelling from 4 Sep 2026). The filter below still applies to quick, easily-reversible, in-the-moment calls that never reach the journal - that is where the Sharran default holds. A journalled decision using anything other than BRAIND records why in its entry.
+
 ## The Two-Question Filter
 
 **Q1: Do I know what problem I am actually solving?**
