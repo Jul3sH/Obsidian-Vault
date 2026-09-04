@@ -17,7 +17,7 @@ Detection: grep the per-decision files `wiki/performance/decision-journal/dec-*.
 ## Reopen path
 Load the matching journal entry + its anchor doc (the fear/fact table + reopen clauses). Then, in order:
 
-1. **48-hour check (ask first):** "Has there been an emotionally significant contact or event in the last 48 hours related to this?" If **yes → stand-down**: no state change now; write the feeling down, dated; revisit after 48h. Do not proceed to re-analyse.
+1. **Stand-down check (ask first):** "Has there been an emotionally significant contact or event in the last 48 hours related to this?" If **yes → stand-down**: no state change now; write the feeling down, dated; revisit after 48h. Do not proceed to re-analyse. **Branch-fire variant:** if the trigger is a pre-registered branch firing against the hoped outcome, the stand-down is **72h from the branch-fire** and the storm is expected (compressed Kübler-Ross curve; grief over the closed option, not information) - one-line logs only, F-N-M-T only on claims still standing after the window closes.
 2. **Run the Reopen Test (F-N-M-T), one gate at a time**, requiring a concrete answer each:
    - **F**act - verifiable external fact, not a feeling/forecast/mood?
    - **N**ew - unknown *and not reasonably knowable* at lock time? (knowable-but-unexamined = new knowledge → a session note, not a reopen)
@@ -32,11 +32,12 @@ Load the matching journal entry + its anchor doc (the fear/fact table + reopen c
 - The wobble count: "this is wobble #N on this decision; the prior N failed the same gate(s)."
 
 ## Commit path
-Run the **lock checklist** (refuse to mark LOCKED until all four exist):
+Run the **lock checklist** (refuse to mark LOCKED until all five exist):
 1. **Committed choice retyped by Julian himself** (own words, dated) - refuse to let model-drafted text be pasted; require retyping. Ownership is the point.
 2. **Anchor doc** exists with honest **post-adversarial-review** numbers + the reopen test printed.
 3. **Behavioural down-payment** named + dated within 7 days (a real, hard-to-reverse act).
 4. **Review-on date** set.
+5. **Gut sign-off or written refutation, plus one pre-registered reopen condition.** If the choice goes against intuition, the intuition's claims must be tested in writing first ("live with the feeling" is not a lock); and every lock names at least one "IF [confirmable fact] THEN [change]" reopen condition.
 Also confirm an **independent adversarial review happened after the case was built** (case-builder never validates). If not → flag the lock as provisional.
 
 Output: the checklist with checkmarks/crosses and the single next action.

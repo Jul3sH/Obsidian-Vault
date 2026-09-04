@@ -22,7 +22,7 @@ The anchor is the **go-to summary of what the current decision is and why it was
 
 *Part A - the fast read (one screen; what gets re-read mid-wobble):*
 1. **Purpose block** - two sentences: this anchors decision X; when doubt hits, read this before acting.
-2. **The decision** - committed choice, one line, dated, retyped by Julian (never model-drafted). Under it, the **lock status**: the four lock conditions, each with a date or an "outstanding" flag, so the document is honest about how locked it actually is.
+2. **The decision** - committed choice, one line, dated, retyped by Julian (never model-drafted). Under it, the **lock status**: the lock conditions (see *When is a decision LOCKED?*), each with a date or an "outstanding" flag, so the document is honest about how locked it actually is.
 3. **Why** - the case in at most five bullets, only what survived adversarial review, each bullet linking to its evidence document.
 4. **Alternatives rejected** - one line per rejected option, linking to the framework analysis that killed it (BRAIN docs, options matrices, feasibility models). The anchor states the verdict; the framework doc holds the reasoning.
 5. **The fear table** - every named live fear paired with the verified fact that answers it, dated rows. This is the table the Reopen Test's T gate runs against, so it must cover the *live* threats: when the avoidance rotates costume (hypothesis H4), a new dated row is added, or the T gate silently degrades against a stale table.
@@ -34,11 +34,12 @@ The anchor is the **go-to summary of what the current decision is and why it was
 Rules of maintenance: written downstream of the adversarial review, from corrected figures, never before it; never drafted or rewritten mid-wobble (the feeling must not edit its own guardrail); updates are dated rows or dated amendments from already-adjudicated facts, never silent rewrites.
 
 ## When is a decision LOCKED?
-All four must exist. Miss one → it is a *lean*, and leans may move freely.
+All five must exist. Miss one → it is a *lean*, and leans may move freely. *(Condition 5 added 4 Sep 2026.)*
 1. **Committed choice retyped by Julian himself** into the [[decision-journal|journal]], in his own words (not model-drafted text approved by a nod), dated.
 2. **An anchor doc** (the [[uk-move/why-london|why-london]] pattern): every named fear paired with its answering fact, **honest post-adversarial-review numbers only**, reopen test printed at the bottom.
 3. **A behavioural down-payment done within 7 days** - a real, hard-to-reverse act. Words don't lock; acts lock.
 4. **A dated review-on entry** - the pre-agreed moment revisiting is legitimate. Makes the lock *safe*: deciding until the review date, not forever.
+5. **Gut sign-off or written refutation, plus one pre-registered reopen condition.** If the committed choice goes **against intuition**, the lock is not complete until the intuition has been converted into testable claims and each refuted in writing ([[belief-assumption-testing]]); a claim that survives testing is evidence, and the decision changes instead of the feeling being overridden. "Live with the feeling" is not a lock: a commitment the gut never signed sits waiting for a trigger, and any plausible one will do. And every lock, against intuition or not, names **at least one pre-registered reopen condition** ("IF [specific confirmable fact] THEN [specific change]") so a foreseeable new fact arrives as a lawful branch, not as a wobble that wins. *(Provenance: the Bangkok-departure reversal, [[dec-bangkok-departure]], 3 Sep 2026 - committed against intuition with a coping plan instead of testing; reversed on the first trigger with no F-N-M-T and no stand-down.)*
 
 ## The Reopen Test (new material fact vs re-dressed fear)
 A locked decision may reopen **only** if a claim passes **all four gates**:
@@ -52,6 +53,11 @@ A locked decision may reopen **only** if a claim passes **all four gates**:
 
 - **All four pass → legitimate reopen.** Book a session, put the fact in writing, re-run only the affected branch. (Precedent: *"if no acceptable school place is securable for Sept, the decision reopens on that fact alone"* - specific, external, falsifiable.)
 - **Any gate fails → it's the drift.** Re-read the anchor. Do nothing. Log one line.
+
+## The branch-fire stand-down *(added 4 Sep 2026)*
+When a **pre-registered branch fires against the hoped outcome** (the Branch B pattern: the hoped-for option dies and the standing decision executes), expect a **compressed Kübler-Ross change curve - shock/denial, anger, bargaining, depression, acceptance - lasting roughly 72 hours**, however thoroughly the decision was analysed. The storm is grief over the closed option, not information about the choice: it will feel like panic, disbelief, and near-continuous U-turn pressure, and it will peak on the oldest fears in the fear table returned as vivid images ([[visual-representation-bias]]), not as facts.
+
+The rule: **an automatic 72-hour no-action window from the moment the branch fires.** Nothing signed, no state change, no anchor rewrites; wobbles inside the window get a one-line log at most, and F-N-M-T is only run on claims still standing after it closes. Acceptance arrives on its own schedule if nothing is signed in the meantime. This generalises the 48-hour warm-contact stand-down (bias #2): the trigger there is a person; here it is the branch itself. *(Provenance: TTI fell through Thu 20 Aug 2026; ~3 days of undocumented wobbles peaking Fri 21 Aug in London on belief B1, then acceptance - [[dec-uk-move]], 2026-09-04 retro entry. The ~72h matches the profile's un-deciding window: the danger window and the processing window are the same window.)*
 
 ## The 60-second wobble drill
 1. **(10s) Name the trigger.** Who did I just talk to / what did I just see? *Warm contact within 48h → automatic stand-down, no state change.*
