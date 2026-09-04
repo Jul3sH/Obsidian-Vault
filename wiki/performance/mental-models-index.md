@@ -32,7 +32,7 @@ sentences:
 
 ## Finance
 
-*(none yet)*
+- [[mm-airmiles-redemption]] - Judge each redemption by the cash fare you avoid, not by the number of flights you can spread miles across
 
 ## Career
 

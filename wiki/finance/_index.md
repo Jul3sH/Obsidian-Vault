@@ -14,6 +14,12 @@ Covers personal financial management only: budgeting, savings strategies, invest
 
 - [[uk-relocation-project|UK Relocation Project]] - cross-cutting; the money side is the [[uk-move-financial-model|"£100k bet" model]] and the [[financial-status-2026-07-07|current balance sheet]].
 
+## Mental Models
+> Consult whenever a rewards/airmiles flight booking is being considered.
+
+- [[mm-airmiles-redemption]] - Judge each redemption by the cash fare you avoid, not the flights you can spread miles across; ~1p per Avios planning rate
+- [[ba-avios-redemption]] - BA Avios detail behind the model: value thresholds, Avios+cash slider method, worked examples, cancellation terms
+
 ## Systems
 - [[money-tracker|Money Tracker]] - Statement-to-categorised-spend pipeline; feeds the cash-flow neutrality goal
 - [[budget|Budget]] - Canonical monthly budget (HKD); target for variance reporting
