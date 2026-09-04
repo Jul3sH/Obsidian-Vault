@@ -9,7 +9,7 @@ tags: [finance, uk-relocation]
 
 # UK Move - Financial Model (the "£100k bet")
 
-> The money side of the [[decisions/uk-move/_index|UK relocation decision]]. Reframes the choice as a **bet with a stake and a breakeven probability**, not a lifestyle comparison. Built 2026-07-02 from Julian's 12-month expense history + the [[financial-status-2026-06-22|June 2026 financial status]]. Feeds the [[decisions/decision-journal|Decision Journal]]. The beliefs are tested ([[decisions/uk-move/b1-relationship-belief|B1]], [[decisions/uk-move/b7-lifestyle|B7]]); **this is now the deciding analysis.**
+> The money side of the [[decision-journal/uk-move/_index|UK relocation decision]]. Reframes the choice as a **bet with a stake and a breakeven probability**, not a lifestyle comparison. Built 2026-07-02 from Julian's 12-month expense history + the [[financial-status-2026-06-22|June 2026 financial status]]. Feeds the [[decision-journal/decision-journal|Decision Journal]]. The beliefs are tested ([[decision-journal/uk-move/b1-relationship-belief|B1]], [[decision-journal/uk-move/b7-lifestyle|B7]]); **this is now the deciding analysis.**
 
 ## 0. Canonical Summary: Burn & Runway (SINGLE SOURCE OF TRUTH)
 
@@ -75,7 +75,7 @@ Julian's working assumption was ~100k HKD/month. The 12-month actuals (Jul 2025 
 **Findings:**
 - The "100k/month" figure was an **overestimate**. Real run-rate is ~92k, and the **recent trend is ~84k** - the expensive months (Aug/Sep/Oct 2025, 108-121k) are behind him; 2026 is calmer (65-98k).
 - **Annual burn ≈ 1.1M HKD ≈ £110k.** This is the **stake**: every year spent unemployed in HK betting on a role burns ~1.1M of liquid savings. The "£100k bet" framing holds (it's ~£110k).
-- Note the tension with "I live simply in HK": 84-92k/month is **not** a simple-living number. Whatever the root cause (Sophia costs, flat, no contribution from [[../relationships/clodagh|Clodagh]]), the lifestyle he under-uses (see [[decisions/uk-move/b7-lifestyle|B7]]) still costs ~£1k/week.
+- Note the tension with "I live simply in HK": 84-92k/month is **not** a simple-living number. Whatever the root cause (Sophia costs, flat, no contribution from [[../relationships/clodagh|Clodagh]]), the lifestyle he under-uses (see [[decision-journal/uk-move/b7-lifestyle|B7]]) still costs ~£1k/week.
 
 ### HK expense breakdown by category (7 Jul, stated monthly averages)
 
@@ -114,7 +114,7 @@ Julian's working assumption was ~100k HKD/month. The 12-month actuals (Jul 2025 
 From [[financial-status-2026-06-22|June 2026 status]]:
 
 - UK property is **cash-flow positive: +£1,814/month** net (≈ +18k HKD/mo) after mortgage, fees, tax provision.
-- School free (state system). MPF **~1M HKD unlocks** on leaving HK (one-off liquidity). Interferon continues on the NHS (see [[decisions/uk-move/analysis|A9]]).
+- School free (state system). MPF **~1M HKD unlocks** on leaving HK (one-off liquidity). Interferon continues on the NHS (see [[decision-journal/uk-move/analysis|A9]]).
 - **UK downside is capped.** Living at mum's, property income covering a chunk of costs, near-zero incremental housing → the UK path does not bleed the stake. It trades upside (HK low tax) for **damage limitation + stability**.
 
 ## 3. The bet structure
@@ -149,7 +149,7 @@ Setting them equal:
 
 **Interpretation:** staying only pays if Julian's *honest* probability of landing a well-paid HK role within his runway is **roughly a coin-flip or better.** Below that, the controlled UK move is the higher-expected-value choice.
 
-**The gut-check:** given his own stated inputs - **weak HK network**, embarrassment/ADHD-RSD blocking outreach ([[decisions/uk-move/analysis|A1]]), the "old white guy" market concern (B4), and an **emerging-not-specialist** architect profile - is his real P above 50%? If he can't honestly say yes, the model says move.
+**The gut-check:** given his own stated inputs - **weak HK network**, embarrassment/ADHD-RSD blocking outreach ([[decision-journal/uk-move/analysis|A1]]), the "old white guy" market concern (B4), and an **emerging-not-specialist** architect profile - is his real P above 50%? If he can't honestly say yes, the model says move.
 
 ## 5. The behavioural rider (non-negotiable)
 
@@ -193,7 +193,7 @@ The model's P(landing) = 30-50% should therefore be read as P(landing a **senior
 
 ## 9. Update (7 Jul): London vs Malvern - the two-scenario burn model
 
-The MOVE direction is now committed. The live decision is **where to land: London vs Malvern** (= the S4-vs-S3 sequencing fork wearing geography). Full decision context: [[decisions/uk-move/_index|workspace]].
+The MOVE direction is now committed. The live decision is **where to land: London vs Malvern** (= the S4-vs-S3 sequencing fork wearing geography). Full decision context: [[decision-journal/uk-move/_index|workspace]].
 
 **Critical structural fact (corrected 7 Jul): Cecil Road is the London property.** The two scenarios are mutually exclusive uses of the same asset:
 - **Malvern:** rent Cecil Road out → **+£2,194/mo take-home**; live at Mum's (the cushion).
@@ -327,7 +327,7 @@ Two structural failure modes §9a omitted entirely: **Mum as a single point of f
 > | London lean search | £4,630 | **~11-12 mo** | ~3.2 yr |
 > | Malvern | £1,683 | **~2.5-2.7 yr** | ~8.6 yr |
 >
-> **This overturns "London still clears comfortably."** On realistic numbers London funds *under a year* on liquid alone - below a normal 12-18 month search - so London **forces** an early MPF/pension drawdown. Malvern preserves the pension through a multi-year search. The load-bearing reason London beat Malvern on 7 Jul (a ~20-month liquid runway) no longer holds. **London-direct is formally REOPENED** ([[decisions/decision-journal|journal]] 2026-07-10); leaning **Malvern-first** as the risk-mitigating base. The MOVE-to-UK decision itself is unchanged.
+> **This overturns "London still clears comfortably."** On realistic numbers London funds *under a year* on liquid alone - below a normal 12-18 month search - so London **forces** an early MPF/pension drawdown. Malvern preserves the pension through a multi-year search. The load-bearing reason London beat Malvern on 7 Jul (a ~20-month liquid runway) no longer holds. **London-direct is formally REOPENED** ([[decision-journal/decision-journal|journal]] 2026-07-10); leaning **Malvern-first** as the risk-mitigating base. The MOVE-to-UK decision itself is unchanged.
 > - **Anti-drift design (answers "don't get stuck at Mum's forever"):** Malvern-first is only safe as a *bounded, committed sequence*. The **Cecil Road tenancy length is the structural London-transition trigger** - let it ~12 months and it frees up in exactly a year, at which point Julian moves into his own London home by default; extending the Malvern stay becomes an active, dated, written decision (re-letting Cecil), not a silent slide. The large runway is what *enables* holding out for a good London job rather than being trapped by money.
 > - **Conditions to confirm:** remote / West-Corridor job-access works from Malvern (it takes on-site London roles off the table during the search); Sophia's preferred London school realistically reachable on the transition (do not bank it). Pending Fable review.
 
@@ -430,7 +430,7 @@ Julian's fear: as a UK resident, the UK would tax the HK rent (~HK$22k/mo) at UK
 - **London vs Malvern (post-MOVE):** Cecil Road is the London home, so London's cost is *forgone rent* (~£2,600/mo net drawdown), not a rent bill. Malvern is cash-neutral (the cushion). Decision gates on whether HK liquid savings cover a ~12-18 month London search (£31-47k) - see §9.
 
 ## Related
-- [[decisions/uk-move/_index|UK Relocation Decision workspace]] · [[decisions/decision-journal|Decision Journal]]
-- [[decisions/uk-move/analysis|Stage 1 Analysis]] (A1 = P(HK work), the master variable)
-- [[decisions/uk-move/b7-lifestyle|B7]] - the lifestyle he under-uses still costs ~£1k/week
+- [[decision-journal/uk-move/_index|UK Relocation Decision workspace]] · [[decision-journal/decision-journal|Decision Journal]]
+- [[decision-journal/uk-move/analysis|Stage 1 Analysis]] (A1 = P(HK work), the master variable)
+- [[decision-journal/uk-move/b7-lifestyle|B7]] - the lifestyle he under-uses still costs ~£1k/week
 - [[financial-status-2026-06-22|June 2026 Financial Status]] · [[finance-workstream|Finance Goals]]

@@ -23,4 +23,4 @@ metadata:
 - Julian is the principal - if he overrides, comply, but **log the override** so the record shows a lock broken without a passing fact.
 - The line to say: **"the feeling that follows a locked decision is forecast, not evidence."**
 
-Full model + bias register: `wiki/performance/decisions/commitment-lock-protocol.md`. Enforced actively by the `commitment-guard` skill.
+Full model + bias register: `wiki/performance/decision-journal/commitment-lock-protocol.md`. Enforced actively by the `commitment-guard` skill.

@@ -46,7 +46,7 @@ When a conversation topic matches a trigger below, load the corresponding wiki f
 
 | Trigger | Load |
 |---------|------|
-| Making, reviewing, or structuring a decision | `wiki/performance/decisions/decision-maker-profile.md` |
+| Making, reviewing, or structuring a decision | `wiki/performance/decision-journal/decision-maker-profile.md` |
 | Commitment, locking a choice, wobbling on a settled question | `wiki/performance/working-with-yourself/commitment-avoidance.md` |
 | Planning work, prioritising, managing focus or capacity | `wiki/performance/working-with-yourself/adhd-aware-work-patterns.md` |
 

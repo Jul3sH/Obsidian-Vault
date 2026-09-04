@@ -117,4 +117,4 @@ If living costs run **£1,500/mo over** the lean estimate → burn £6,130/mo �
 - [[uk-move-survival-runway|Survival Runway (three options)]]
 - [[uk-vs-hk-cost-comparison|Test A: HK vs London honest comparison]]
 - [[financial-status-2026-07-07|July 2026 Financial Status]]
-- [[decisions/decision-journal|Decision Journal]] · [[decisions/uk-move/_index|UK Relocation workspace]]
+- [[decision-journal/decision-journal|Decision Journal]] · [[decision-journal/uk-move/_index|UK Relocation workspace]]

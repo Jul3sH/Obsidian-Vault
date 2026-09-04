@@ -23,6 +23,6 @@ Each line names the model built on it where one exists.
 
 - [[confirmation-bias-and-assumptions]] - How the brain filters evidence to confirm existing beliefs → detail behind [[mm-confirmation-bias]]
 - [[self-sabotage-and-fear]] - The unconscious patterns that cause quitting before failing (no model here yet; the behavioural halves live in [[mm-fear-wears-a-disguise]] and [[mm-start-to-start]] in working-with-yourself)
-- [[decision-making-under-pressure]] - Why pressure distorts decisions and how to stay rational under stress (no model above it yet; related: [[mm-never-react]], and the [[decisions/_index|Decisions]] system)
+- [[decision-making-under-pressure]] - Why pressure distorts decisions and how to stay rational under stress (no model above it yet; related: [[mm-never-react]], and the [[decision-frameworks/_index|Decision Frameworks]] system)
 - [[knowledge-and-mental-models]] - Knowledge is worthless unless activated; how mental models change behaviour (no model above it yet; related evidence lives in [[mm-systems-are-motivation]])
 - [[system-1-thinking-and-ai-options]] - Why AI-generated options trigger System 1 evaluation rather than rigorous thinking (no model above it yet; bridges to [[performance/working-with-genai/_index|Working With GenAI]]) (self-contained pending a detail article)

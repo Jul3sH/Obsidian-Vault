@@ -33,16 +33,20 @@ Covers personal productivity systems, execution discipline, habit formation, and
 
 ---
 
-## Decisions
+## Decision Frameworks and Decision Journal
 > The **home of the decision-making system**. Every workstream's `## Decisions` section points back here for the shared method + journal.
-- [[decisions/_index|Decisions]] — Frameworks and mental models for structured decision-making, plus Julian's own profile and journal
-  - [[decisions/decision-maker-profile|Decision-Maker Profile]] — How Julian decides: the commitment gap, drivers, biases, design principles (living)
-  - [[decisions/commitment-lock-protocol|Commitment-Lock Protocol]] — bias register + the F-N-M-T reopen test; defends a committed decision against the emotional U-turn
-  - [[decisions/decision-journal|Decision Journal]] — Working log of real decisions with retrospective review
-  - [[decisions/choosing-a-decision-framework|Choosing a Decision Framework]] — Two-question filter to pick the right framework; ADHD-optimised
-  - [[decisions/sharran-simple-decision-framework|Sharran's Simple Decision Framework]] — Four-step real-time framework
-  - [[decisions/brain-brand-framework|BRAIN / BRAND Framework]] — Pre-commitment evaluation checklist
-  - [[decisions/seven-step-decision-process|Seven-Step Decision Process]] — Full deliberate process for high-stakes decisions
+
+- [[decision-frameworks/_index|Decision Frameworks]] — Frameworks and mental models for structured decision-making
+  - [[decision-frameworks/choosing-a-decision-framework|Choosing a Decision Framework]] — Two-question filter to pick the right framework; ADHD-optimised
+  - [[decision-frameworks/sharran-simple-decision-framework|Sharran's Simple Decision Framework]] — Four-step real-time framework
+  - [[decision-frameworks/brain-brand-framework|BRAIN / BRAND Framework]] — Pre-commitment evaluation checklist
+  - [[decision-frameworks/seven-step-decision-process|Seven-Step Decision Process]] — Full deliberate process for high-stakes decisions
+
+- [[performance/decision-journal/_index|Decision Journal]] — The live decision record: journal convention, register, one file per decision, lock protocol, and profile
+  - [[decision-journal/decision-maker-profile|Decision-Maker Profile]] — How Julian decides: the commitment gap, drivers, biases, design principles (living)
+  - [[decision-journal/commitment-lock-protocol|Commitment-Lock Protocol]] — bias register + the F-N-M-T reopen test; defends a committed decision against the emotional U-turn
+  - [[decision-journal/decision-journal|Decision Journal]] — Working log convention and entry template
+  - [[decision-journal/decisions-register|Decisions Register]] — Single table, one row per decision, for spotting patterns across decisions
 
 ---
 

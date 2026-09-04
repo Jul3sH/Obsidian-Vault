@@ -171,7 +171,7 @@ The review confirmed the *structure* was sound but found the *inputs* all leaned
 
 ## Related
 - [[uk-move-financial-model|UK Move Financial Model]] · [[london-monthly-budget|London Monthly Budget]] (headline superseded here) · [[financial-status-2026-07-07|Financial Status]]
-- [[decisions/decision-journal|Decision Journal]] · [[decisions/uk-move/_index|UK Relocation workspace]]
+- [[decision-journal/decision-journal|Decision Journal]] · [[decision-journal/uk-move/_index|UK Relocation workspace]]
 - **Next:** independent [[uk-vs-hk-cost-comparison-codex-review-prompt|Codex adversarial review]] (prompt ready to run), then reconcile Test A + Test B against the reopen condition.
 
 ## Sources (UK figures)

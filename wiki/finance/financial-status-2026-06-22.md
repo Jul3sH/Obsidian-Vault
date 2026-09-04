@@ -9,7 +9,7 @@ status: in-progress
 
 > **⚠ Superseded by [[financial-status-2026-07-07]] (7 Jul 2026).** Kept as a historical snapshot. Current assets, liabilities, and Cecil Road figures live in the newer doc.
 
-> *Current-state benchmark. Primary use: [[decisions/uk-move/_index|UK relocation decision]] and [[finance-workstream|Finance Goal #2]] (cash-flow neutrality). Figures are point-in-time snapshots, not budget targets — those live in [[budget|budget.md]].*
+> *Current-state benchmark. Primary use: [[decision-journal/uk-move/_index|UK relocation decision]] and [[finance-workstream|Finance Goal #2]] (cash-flow neutrality). Figures are point-in-time snapshots, not budget targets — those live in [[budget|budget.md]].*
 
 ## Pending — pick up here
 
@@ -54,4 +54,4 @@ tags: [finance, status, uk-relocation]
 ---
 
 ## Links
-- [[budget|Monthly Budget (HKD)]] · [[finance-workstream|Finance Goals]] · [[decisions/uk-move/_index|UK Relocation Decision]]
+- [[budget|Monthly Budget (HKD)]] · [[finance-workstream|Finance Goals]] · [[decision-journal/uk-move/_index|UK Relocation Decision]]

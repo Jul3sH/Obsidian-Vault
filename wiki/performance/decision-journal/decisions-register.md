@@ -1,0 +1,16 @@
+---
+type: register
+status: living
+created: 2026-09-04
+---
+
+# Decisions Register
+
+This is a single-table register with one row per real decision, so biases and patterns are visible side by side instead of buried inside long narrative entries. It was created on 4 Sep 2026 when the monolithic `decision-journal.md` was split into per-decision files. It gets scanned before locking any new decision, and whenever checking whether a bias observed on one decision is recurring on another.
+
+| Decision | Status | Committed | Outcome | Biases observed | Lesson | Entry |
+|---|---|---|---|---|---|---|
+| Stay with Hannah | REVIEWED | Never (no decide-by date was ever set) | Decision made by the world: she left. Regret. | No forcing deadline; manufactured deferral option (Bali coffee shop); analysis-gut conflict left unresolved (freeze) | The loss was 100 percent a commitment and deadline failure, not an analysis failure; founding evidence for the [[decision-maker-profile]] | [[dec-stay-with-hannah]] |
+| UK move | COMMITTED 2026-07-04 (MOVE; London-direct sub-decision 7 Jul, later contested and staged) | 2026-07-04 | As of 4 Sep 2026: executed, Julian is UK-based; retrospective pending | Four wobbles, all re-dressed fear failing F/N/T; confirmation-amplification on the emotionally warm stay option; hoped-item bias on TTI; filtered-intermediary channel; commit-by-proxy flag | Pre-committed branch rules plus the F-N-M-T gate held the lock through four wobbles; the money does not rescue a weak signal | [[dec-uk-move]] |
+
+New decisions get a `dec-<slug>.md` file plus a row in this table in the same operation.

@@ -1,58 +1,13 @@
 ---
-type: log
+type: decision
+status: committed
 created: 2026-06-20
-status: living
 ---
 
-# Decision Journal
+# Decision: Whether to move back to the UK
 
-> A working journal of real decisions. One entry per decision. Each entry records which framework was used, what was decided, the gut-vs-analysis split, and - crucially - a **retrospective** filled in later as the outcome becomes clear. This is how the [[decision-maker-profile|profile]] and [[choosing-a-decision-framework|framework picker]] earn their accuracy: by checking predictions against reality.
+This is the full journal record of the UK-move decision, including the wobble log and every reopen attempt. It was split out of the old monolithic `decision-journal.md` on 4 Sep 2026 when the journal was reorganised into one file per decision. Read it when a reopen is attempted (see [[commitment-lock-protocol]]) or when mining bias patterns across decisions.
 
-## How to use it
-
-1. **Open an entry** the moment a decision is live. Give it a **Decide-by date** immediately (the forcing function - see [[decision-maker-profile|profile]] Design Principle 1).
-2. **Pick a framework** and record *why* that one.
-3. **Run it.** Capture the analysis verdict and the gut verdict **separately** (Design Principle 3).
-4. **Commit.** Write an explicit "Therefore I choose X." No "TBA." Date it. This closes the door (Design Principle 4).
-5. **Review later.** Come back when evidence arrives. Was it a good decision? Was the *process* good, separately from whether the outcome was lucky? Update the profile if a new pattern shows.
-
-## Entry Template
-
-```
-### [Title] - [status: OPEN | COMMITTED | REVIEWED]
-- **Decide-by:** YYYY-MM-DD          (universal: the forcing deadline)
-- **Review-on:** YYYY-MM-DD          (universal: when this gets revisited - makes locking safe)
-- **Good-enough bar:** [what stops the analysis - the point more info won't change the call]
-- **Public commitment?** [who you'll tell, or N/A - situational]
-- **Framework:** [which, and why this one]
-- **The decision:** [the binary/options]
-- **Beliefs & assumptions tested:** [list load-bearing claims; label Fact / Assumption / Belief; clarify assumptions, challenge beliefs - see [[belief-assumption-testing]]]
-- **Analysis says:** [where the rigorous analysis points]
-- **Gut wants:** [the emotional read - named separately]
-- **Conflict + resolution:** [if they disagree, analysis WINS unless the gut justifies the override in writing here]
-- **Pre-mortem + worst case accepted:** [what makes this wrong; name the worst case and accept it - you're a survivor, it's survivable]
-- **Committed choice (dated):** [explicit "therefore X" + date - no "TBA"]
-- **Retrospective (added on Review-on):** [outcome vs expectation; was the *process* sound, separate from luck?]
-```
-
----
-
-## Entries
-
-### Whether to stay with Hannah - REVIEWED
-- **Decide-by:** *(none set - this was the root cause)*
-- **Framework:** Heath brothers' "Decisive" / WRAP-style (widen options, opportunity cost, fairness-to-both). Rigorous.
-- **The decision:** Binary - commit to Hannah (which meant marriage so she could stay) or end it.
-- **Analysis said:** Easy-going, loyal life partner; strong compatibility scores; best realistic chance of long-term happiness. Pointed toward *yes*.
-- **Gut wanted:** *Yes* on companionship, but vetoed by fear she would change once financially protected, and by loss-aversion (divorce/financial risk).
-- **Conflict?** Yes - and never resolved. Froze in the gap.
-- **Committed choice:** **None.** Document ended at "Alternate option 2: TBA." Manufactured a deferral option (set her up with a Bali coffee shop) to avoid the binary.
-- **Outcome:** Decision was made by the world - she left for someone else. Regret.
-- **Retrospective lesson:** The analysis was excellent and the gut had effectively chosen "yes." The loss was 100% a **commitment + deadline** failure, not an analysis failure. This entry is the founding evidence for the [[decision-maker-profile|profile]]. *(Decision closed; not revisiting the substance - kept as the seed lesson.)*
-
----
-
-### Whether to move back to the UK - COMMITTED
 > **Status (7 Jul 2026): MOVE committed 4 Jul (ahead of the deadline); sub-decision LONDON-direct resolved 7 Jul, survives Fable review with conditions; Cecil Road notice SERVED 7 Jul. Now executing.** Full current state at the foot of this entry.
 > **⚠ Status update (10 Jul 2026): the LONDON-direct sub-decision was reopened on corrected finances, leaned MALVERN-FIRST, then was CONTESTED by Fable the same day - now "not established."** New facts (landing pot ~£50-55k liquid not £91.9k; honest London burn ~£5,450 not £4,550) cut London's liquid-only runway toward ~10mo and drove a leaning-Malvern reopen. **But [[uk-move/fable-review-malvern-reopen-2026-07-10|Fable's hostile review]] found the reopen procedurally tainted (N-gate + 48h stand-down bypassed) and its case one-sided (it mis-stated why London won on 7 Jul - Sophia's single-vs-double disruption, not the runway - and never rebuts it; 5 of 6 recent number-corrections lean Malvern).** Verdict: neither Malvern-first nor naked London-direct survives as argued; admissible only as "London, dated Sept 2027, staged via Malvern," and the deciding input is search-duration-by-location (job-board remote/hybrid data). The MOVE-to-UK decision is unchanged. See the wobble/reopen log below + [[uk-move-financial-model]] §10.
 - **Decide-by:** **2026-07-09** (Thursday). **Anchor evidence:** UK family trip departs 12 July (fixed); the decision materially changes how the trip is used (scouting schools/areas vs holiday), and re-planning needs a few days' buffer. Therefore the decision must be locked before departure. This is an anchored deadline, not arbitrary. *(Sophia's school admissions are the deeper anchor; the trip is the near-term forcing event.)*
@@ -111,9 +66,3 @@ status: living
 - **Retrospective:** *(on 2026-07-31)*
 
 > This is the live test case, deliberately used to pressure-test the methodology. The "push it to December" temptation is the [[commitment-avoidance|Commitment Avoidance]] pattern: December has no anchor. The lead is real but is defused by pre-deciding both branches, not by waiting.
-
-## Links
-
-- [[decision-maker-profile|Decision-Maker Profile]] - the standing context behind every entry
-- [[choosing-a-decision-framework|Choosing a Decision Framework]] - the picker
-- [[commitment-avoidance|Commitment Avoidance]] - the behavioural pattern this journal is designed to break

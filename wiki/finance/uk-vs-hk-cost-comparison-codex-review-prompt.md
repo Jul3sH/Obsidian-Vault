@@ -51,9 +51,9 @@ SUPPORTING DOCUMENTS (read all - they hold the source numbers and context)
                                                    income/costs, HK expense actuals, ISAs, MPF
 - wiki/career/uk-150k-feasibility-report.md        "Test B": UK income feasibility (needed to judge
                                                    the reopen condition, see FINAL TASK)
-- wiki/performance/decisions/decision-journal.md   The committed decision + the pre-set reopen
+- wiki/performance/decision-journal/decision-journal.md   The committed decision + the pre-set reopen
                                                    condition + the wobble log
-- wiki/performance/decisions/commitment-lock-protocol.md   The F-N-M-T reopen test
+- wiki/performance/decision-journal/commitment-lock-protocol.md   The F-N-M-T reopen test
 - wiki/projects/uk-relocation-project.md          Project status / current position
 - wiki/relationships/clodagh.md                    Context for the school-fee-split contingency
 
