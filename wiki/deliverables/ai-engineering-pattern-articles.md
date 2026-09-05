@@ -55,7 +55,7 @@ Julian's manual verification of a machine-drafted, machine-verified article set 
 3. An explicit decision on every judgment item the synthesis stage flagged.
 4. A glance at newly created mental-model files and at any pre-existing file the run edited.
 
-This scope assumes the two upstream machine passes ran clean (Opus claim validation at draft time, Codex adversarial check per file, all verdicts "verified"). A run arriving with unverified articles or failed branches warrants a wider sample. Record actual review minutes against this scope in the Time Log so future estimates compare like with like.
+This scope assumes the two upstream machine passes ran clean (Opus claim validation at draft time, Codex adversarial check per file, all verdicts "verified"). A run arriving with unverified articles or failed branches warrants a wider sample. Record actual review minutes against this scope in the Time and Token Log so future estimates compare like with like.
 
 ## Sign-off
 **Signed off by Julian, 23 Aug 2026.** All four completion criteria met. Decisions at sign-off: the mm-tool-surface rejection was upheld (covered by [[mm-blast-radius]] plus [[mm-token-economics]]; revisit only if future tool-surface decisions go unguided); [[mm-model-adaptation]] (renamed from mm-adaptation-ladder at review) stays in performance/working-with-genai/. Totals: Julian 65 attended minutes against the 2h box; machine 2,633,750 tokens (2,028,039 Claude workflow + 605,711 Codex across 10 reviews).
@@ -68,8 +68,8 @@ This scope assumes the two upstream machine passes ran clean (Opus claim validat
 5. The synthesis stage also edited [[mm-routing]]'s Limitations section (its blast-radius gap now points to the new model) and fixed 8 broken sibling links the drafters wrote against wrong slugs.
 6. **RESOLVED 23 Aug (later same day):** the synthesis outputs (2 mm files, mm-routing edit, _index) had escaped adversarial review because verification was wired per-branch and synthesis ran after it. A follow-up Codex pass reviewed all four; it found one medium finding (a false claim that frontier closed models are not API-fine-tunable; OpenAI/Azure do offer it), now corrected in both [[mm-model-adaptation]] and the model-adaptation article. A permanent coverage rule was added to AGENTS.md ("Adversarial Coverage of Machine-Drafted Deliverables"). The _index, mm-blast-radius, and the mm-routing edit passed clean.
 
-## Time Log
-Machine effort is recorded in tokens (from the workflow run view), Julian's effort in focused minutes (self-reported at each handoff, prompted by the UserPromptSubmit time-log hook). Only Julian's minutes roll up into Actual hrs in the [[estimation-baseline|Estimation Baseline]]; tokens go in that row's Notes.
+## Time and Token Log
+Machine effort is recorded in tokens (from the workflow run view), Julian's effort in focused minutes (self-reported at each handoff, prompted by the UserPromptSubmit time-and-token-log hook). Only Julian's minutes roll up into Actual hrs in the [[estimation-baseline|Estimation Baseline]]; tokens go in that row's Notes.
 
 | Date | Segment | Who | Tokens / Minutes | Notes |
 |------|---------|-----|------------------|-------|

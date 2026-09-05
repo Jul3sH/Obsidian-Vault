@@ -45,7 +45,7 @@ The three-tier test, in order:
 | Tier | Qualifies when | Ceremony |
 |---|---|---|
 | **Exempt** | Routine system operations (compiling, logging, mirroring, index updates), quick factual or conversational questions, or work flagged as exploratory or thinking-aloud | None. No deliverable record, no Prompt Zero |
-| **Fast lane** | Real deliverable work that is machine-executed (Julian's role: brief + review), low blast radius, and fits one 2h box | One sitting: terse record file (purpose block, 2-3 binary done-criteria, load-bearing assumption, named verifier, Time Log), execution in the same session |
+| **Fast lane** | Real deliverable work that is machine-executed (Julian's role: brief + review), low blast radius, and fits one 2h box | One sitting: terse record file (purpose block, 2-3 binary done-criteria, load-bearing assumption, named verifier, Time and Token Log), execution in the same session |
 | **Full ceremony** | Anything else: Julian-executed, high blast radius, multi-box, or a why that cannot be stated in a sentence | `/define-*` skill + Prompt Zero before detailed work begins |
 
 - **The test runs on the work, not the label.** The first question is "is this
@@ -70,7 +70,7 @@ The three-tier test, in order:
   compile", "fast-laning this"), so nobody has to reverse-engineer afterwards
   which rule governed.
 - If effort on exempt work turns out worth keeping, write a retroactive record
-  in `wiki/deliverables/` for the Time Log - a record, not a ceremony.
+  in `wiki/deliverables/` for the Time and Token Log - a record, not a ceremony.
 - If work drifts mid-session from exempt into producing something substantive,
   re-run the test at the point of drift.
 

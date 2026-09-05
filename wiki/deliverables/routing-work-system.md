@@ -16,7 +16,7 @@ This is the retroactive deliverable record for the routing-work system built on
 vocabulary, and the workflow page that chains the models together. It was created
 after the fact because the work grew out of a lookup question mid-session and the
 Deliverable-First gate was never applied. It is read for the completion record
-and the Time Log; the system itself lives in
+and the Time and Token Log; the system itself lives in
 `wiki/performance/working-with-genai/`.
 
 > As of 3 Sep 2026: **Prompt Zero overridden by Julian** (recorded per the
@@ -37,7 +37,7 @@ and the Time Log; the system itself lives in
   mm-steering / mm-blast-radius / mm-model-adaptation; Evidence moved out of
   mm-routing; folder index updated
 - Write trigger added to AGENTS.md (workflow-log entry in the same operation as the
-  Time Log row); Reuse Before Build rule added to AGENTS.md
+  Time and Token Log row); Reuse Before Build rule added to AGENTS.md
 - SYS-8 row in [[systems-register]] with adoption test
 - Same-session adjacent fixes: systems-register backfill (SYS-4 to SYS-7), retro
   moved to Sunday with a SessionStart hook, two funnel rows parked (ceremony
@@ -46,7 +46,7 @@ and the Time Log; the system itself lives in
 **Deliberately not built:** the read trigger inside the `/define-*` skills -
 deferred until the log has rows that could change a routing decision.
 
-## Time Log
+## Time and Token Log
 
 | Date | Who | Effort | Note |
 |------|-----|--------|------|

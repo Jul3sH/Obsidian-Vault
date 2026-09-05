@@ -112,7 +112,7 @@ the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
         "hooks": [
           {
             "type": "command",
-            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Time-tracking check: if this prompt hands back completed attended work on a deliverable (a finished review, a sign-off, corrections returned), ask Julian how many focused minutes it took and record it in that deliverable file under ## Time Log. If the prompt is not a work handback, ignore this note.\"}}'"
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Time-tracking check: if this prompt hands back completed attended work on a deliverable (a finished review, a sign-off, corrections returned), ask Julian how many focused minutes it took and record it in that deliverable file under ## Time and Token Log. If the prompt is not a work handback, ignore this note.\"}}'"
           }
         ]
       }
@@ -123,12 +123,12 @@ the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
 
 ## Hooks in the project file
 
-**Time-log reminder (`UserPromptSubmit`, added 2026-08-20).** Fires on every
+**Time-and-token-log reminder (`UserPromptSubmit`, added 2026-08-20).** Fires on every
 prompt Julian submits in this vault and injects a short instruction into
 Claude's context: if the prompt hands back completed attended work on a
 deliverable (a finished review, a sign-off, corrections returned), Claude must
 ask Julian how many focused minutes it took and record the answer in that
-deliverable's `## Time Log` table. Supports the execution-time baseline agreed
+deliverable's `## Time and Token Log` table. Supports the execution-time baseline agreed
 for [[ai-engineering-pattern-articles]]: machine effort is recorded in tokens,
 Julian's effort in minutes, and only Julian's minutes roll up into `Actual hrs`
 in the [[estimation-baseline|Estimation Baseline]]. A hook is used rather than

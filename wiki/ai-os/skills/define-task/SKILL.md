@@ -323,7 +323,7 @@ Relationships, Personal, or Finance tasks.]
 - **Good enough when:** [observable stopping condition, checkable by someone
   other than Julian]
 
-## Time Log
+## Time and Token Log
 Machine effort in tokens, Julian's effort in focused minutes - never mixed into one
 figure (see AGENTS.md "Time and Token Logging"). Minutes roll up to Actual hrs in the
 [[estimation-baseline|Estimation Baseline]] at completion; tokens go in that row's Notes.

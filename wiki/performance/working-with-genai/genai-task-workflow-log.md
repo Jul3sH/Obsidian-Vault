@@ -15,7 +15,7 @@ misjudged, routing wrong, steering wrong -
 so it is the single repository checked when scoping new work ("I tried something
 like this before and here is why it went wrong"), and lessons compound into the
 models instead of scattering. It is read at task creation when routing is being decided, and
-written in the same operation as the deliverable's Time Log row whenever a run
+written in the same operation as the deliverable's Time and Token Log row whenever a run
 was routed. Vocabulary: work types from [[mm-work-types]], check forms from
 [[mm-verification]] - this file records instances and defines nothing.
 
@@ -26,6 +26,21 @@ chain step went wrong (admission / work type / verification / routing /
 steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
+
+## 2026-09-04 · Wiki ops · Worked · [[admission-qualification-mental-model]]
+
+- **Work:** Authored [[mm-admission-qualification]] (step-0 model compressing
+  the AGENTS.md admission tiers) plus chain-table and index wiring, prompted by
+  the exempt-vs-fast-lane confusion at the close of the Avios compile.
+- **Check:** Deterministic (six-slot sections present, links resolve, every
+  chain step now has a model) plus Julian's scope review before creation and
+  read-through after.
+- **Outcome:** Worked - 15 attended min, 131k tokens. Scope and filename agreed
+  before writing; no corrections needed after.
+- **Lesson:** Agreeing the scope slot-by-slot before writing the file made the
+  review trivial - the cheap move is scoping out loud, not drafting and
+  repairing. Also the model's own origin lesson: doctrine without a reach-for
+  layer generates repeat confusion however canonical the text.
 
 ## 2026-09-04 · Wiki ops · Worked · [[airmiles-mental-model]]
 

@@ -23,7 +23,7 @@ article); finance `_index` and `mental-models-index` entries; ops-log row.
 format with no content lost from the source note; indexes steer LLMs to the
 model when reward flights are considered; effort logged.
 
-## Time Log
+## Time and Token Log
 
 | Date | Segment | Who | Tokens / Minutes | Notes |
 |------|---------|-----|------------------|-------|

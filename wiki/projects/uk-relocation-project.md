@@ -542,7 +542,7 @@ These are the items where order decides the outcome, not effort. Each now has it
 5. **HK medical records before departure** (3d.3) gates the GP handover (4b.5). [PERF-1091](https://agileict.atlassian.net/browse/PERF-1091)
 6. **Freight booking date sets the storage bill.** A pack-out timed to the address availability costs nothing; a mistimed one costs storage plus chaos. [PERF-1092](https://agileict.atlassian.net/browse/PERF-1092)
 
-## Time Log
+## Time and Token Log
 
 | Date | Who/What | Effort | Notes |
 |---|---|---|---|

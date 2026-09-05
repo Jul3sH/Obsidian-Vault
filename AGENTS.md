@@ -259,7 +259,7 @@ means or what comes next.
 
 # Time and Token Logging (all agents)
 
-Every deliverable file in `wiki/deliverables/` carries a `## Time Log` section recording
+Every deliverable file in `wiki/deliverables/` carries a `## Time and Token Log` section recording
 execution effort in two currencies that are never mixed into one figure:
 
 - **Julian's attended time, in focused minutes.** Self-reported at each handoff (in Claude
@@ -288,7 +288,7 @@ When the run being logged was routed to AI, append its entry to
 `wiki/performance/working-with-genai/genai-task-workflow-log.md` in the same operation, in
 that file's heading-plus-bullets format (work, check, outcome, lesson, linked
 deliverable).
-Reference implementation: the Time Log in `wiki/deliverables/ai-engineering-pattern-articles.md`.
+Reference implementation: the Time and Token Log in `wiki/deliverables/ai-engineering-pattern-articles.md`.
 
 ---
 
@@ -330,7 +330,7 @@ and fits one 2h box, the full define/Prompt-Zero ceremony is replaced by a
    2-3 binary done-criteria, the one load-bearing assumption, a named verifier for
    every output.
 2. A terse deliverable record file is written immediately (record, not ceremony:
-   purpose block, criteria, Time Log).
+   purpose block, criteria, Time and Token Log).
 3. Execution follows in the same session. Never split admission from execution
    across sessions: context decay doubles the cost.
 4. Unchanged: time/token logging, adversarial coverage, sampling-scope sign-off,

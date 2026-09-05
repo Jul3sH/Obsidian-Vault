@@ -33,7 +33,7 @@ is 05:00 UK local time. Plus the UserPromptSubmit time-tracking nudge.
         "hooks": [
           {
             "type": "command",
-            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Time-tracking check: if this prompt hands back completed attended work on a deliverable (a finished review, a sign-off, corrections returned), ask Julian how many focused minutes it took and record it in that deliverable file under ## Time Log. If the prompt is not a work handback, ignore this note.\"}}'"
+            "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Time-tracking check: if this prompt hands back completed attended work on a deliverable (a finished review, a sign-off, corrections returned), ask Julian how many focused minutes it took and record it in that deliverable file under ## Time and Token Log. If the prompt is not a work handback, ignore this note.\"}}'"
           }
         ]
       }

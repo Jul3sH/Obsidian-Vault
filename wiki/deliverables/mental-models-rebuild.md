@@ -11,7 +11,7 @@ value-rationale:
 
 # Mental Models Rebuild
 
-> **Purpose block.** This is the retrospective record of the 26 Aug 2026 mental-models rebuild: the audit of all 303 lessons-learnt source files, the creation of 38 six-slot `mm-*.md` models across working-with-others, working-with-yourself, and the-human-mind, and the capture of 13 TTI engagement lessons into them. It was created after completion because the work ran under a Deliverable-First gate waiver and therefore had no deliverable file to carry its Time Log; this file supplies that record so the effort feeds the estimation baseline. Read it when calibrating future Claude-only work, or when tracing where the model set came from.
+> **Purpose block.** This is the retrospective record of the 26 Aug 2026 mental-models rebuild: the audit of all 303 lessons-learnt source files, the creation of 38 six-slot `mm-*.md` models across working-with-others, working-with-yourself, and the-human-mind, and the capture of 13 TTI engagement lessons into them. It was created after completion because the work ran under a Deliverable-First gate waiver and therefore had no deliverable file to carry its Time and Token Log; this file supplies that record so the effort feeds the estimation baseline. Read it when calibrating future Claude-only work, or when tracing where the model set came from.
 
 ## Prompt Zero
 
@@ -27,9 +27,9 @@ value-rationale:
 
 Out of scope, parked: 14 out-of-scope lessons awaiting a relationships/wellbeing/career pass; one untranscribed voice memo ("the need for clear, validated goals") awaiting Julian's re-record-or-discard call.
 
-## Time Log
+## Time and Token Log
 
-Machine effort in tokens, Julian's effort in focused minutes (self-reported, prompted by the UserPromptSubmit time-log hook). Only Julian's minutes roll into Actual hrs in the [[estimation-baseline|Estimation Baseline]]; tokens go in that row's Notes.
+Machine effort in tokens, Julian's effort in focused minutes (self-reported, prompted by the UserPromptSubmit time-and-token-log hook). Only Julian's minutes roll into Actual hrs in the [[estimation-baseline|Estimation Baseline]]; tokens go in that row's Notes.
 
 | Date | Segment | Who | Tokens / Minutes | Notes |
 |------|---------|-----|------------------|-------|

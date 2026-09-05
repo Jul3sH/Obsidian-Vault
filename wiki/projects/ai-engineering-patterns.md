@@ -17,7 +17,7 @@ jira-key: BWS-61
 **Position:** As of 23 Aug 2026 (late evening): Deliverable 1 is DONE and signed off. The catalog exists: 9 articles + _index in `wiki/technology/ai-engineering-patterns/`, 2 new mental models ([[mm-blast-radius]], [[mm-model-adaptation]]), all machine outputs adversarially verified (including a follow-up pass that closed a synthesis coverage gap, now prevented by a new AGENTS.md rule). Cost: 65 attended minutes against the 2h box, 2.63M machine tokens. Remaining for the Project: Deliverable 2 (task-routing skill, the second 2h box) and Julian's cross-output review. Target: complete before the possible 1 Sep 2026 TTI start.
 
 **Next action (in order, resume here):**
-1. Julian: review the 9 articles and the synthesis flags (recorded in [[ai-engineering-pattern-articles]]), decide the two flagged judgment calls (mm-tool-surface rejection; mm-model-adaptation filing location), sign off, and report review minutes for the Time Log.
+1. Julian: review the 9 articles and the synthesis flags (recorded in [[ai-engineering-pattern-articles]]), decide the two flagged judgment calls (mm-tool-surface rejection; mm-model-adaptation filing location), sign off, and report review minutes for the Time and Token Log.
 2. `/jira-sync` to create the BWS story for Deliverable 1 under Epic BWS-61.
 
 **Waiting on:** Julian to schedule the Deliverable 2 definition session.
