@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/finance/mm-airmiles-redemption.md",
+                "file": "wiki/relationships/Divorce/court-order-care-and-control.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mm-airmiles-redemption"
+              "title": "court-order-care-and-control"
             }
           }
         ]
@@ -198,14 +198,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/finance/mm-airmiles-redemption.md",
+    "wiki/relationships/Divorce/_index.md",
+    "wiki/relationships/Divorce/court-order-care-and-control.md",
+    "wiki/relationships/Divorce",
     "wiki/deliverables/admission-qualification-mental-model.md",
     "wiki/performance/working-with-genai/mm-admission-qualification.md",
     "wiki/deliverables/airmiles-mental-model.md",
     "wiki/performance/decision-journal/commitment-lock-protocol.md",
     "wiki/finance/ba-avios-redemption.md",
-    "wiki/finance/mm-airmiles-redemption.md",
     "wiki/performance/decision-journal/dec-stay-with-hannah.md",
     "wiki/performance/decision-journal/dec-bangkok-departure.md",
     "wiki/performance/decision-journal/decisions-register.md",
@@ -226,8 +229,6 @@
     "wiki/performance/decision-journal/uk-move/reconciliation.md",
     "wiki/performance/decision-journal/uk-move/need-time.md",
     "wiki/performance/decision-journal/uk-move/london-vs-malvern.md",
-    "wiki/performance/decision-journal/uk-move/income-portability.md",
-    "wiki/performance/decision-journal/uk-move/furniture-ship-store-ditch.md",
     "wiki/performance/decision-journal/uk-move",
     "wiki/performance/decision-journal",
     "wiki/performance/decision-frameworks/uk-move/uk-move-risk-register-2026-07-12.xlsx",
@@ -235,7 +236,6 @@
     "wiki/performance/decision-frameworks/uk-move",
     "wiki/performance/decision-frameworks",
     "wiki/ai-os/system-design/claude/hooks",
-    "wiki/performance/the-human-mind",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
