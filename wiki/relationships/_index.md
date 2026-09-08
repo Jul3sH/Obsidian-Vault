@@ -35,7 +35,7 @@ tags: [relationships]
 - [[Dad/_index|Dad]] — Health and financial documentation (Feb 2023 – May 2026): Felix Hart illness, care, 2011 Will and inheritance dispute
   - [[Dad/wendy-profile|Wendy profile]] · [[Dad/hilary-profile|Hilary profile]] · [[Dad/relationship-dynamics|Relationship dynamics]] · [[Dad/contribution-response-draft|Contribution response draft]] · [[Dad/hong-kong-filial-liability|HK filial liability]]
 - [[Divorce/_index|Divorce]] — HK divorce records (FCMC 3390/2020): court orders and Family Court correspondence
-  - [[court-order-care-and-control]] — 2 Nov 2020 orders + draft retrospective letter notifying the court of Sophia's consented removal from Hong Kong
+  - [[court-order-care-and-control]] — 2 Nov 2020 orders: key-terms summary + verbatim transcription incl. Parental Agreement · [[removal-notification-letter]] — draft retrospective removal-notification letter
 
 ## Schooling
 

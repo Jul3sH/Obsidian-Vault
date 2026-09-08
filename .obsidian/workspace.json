@@ -11,14 +11,12 @@
             "id": "ae20498a6ad02b8e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "wiki/relationships/Divorce/court-order-care-and-control.md",
-                "mode": "source",
-                "source": false
+                "file": "wiki/relationships/Divorce/removal-notification-letter.pdf"
               },
-              "icon": "lucide-file",
-              "title": "court-order-care-and-control"
+              "icon": "lucide-file-text",
+              "title": "removal-notification-letter"
             }
           }
         ]
@@ -200,9 +198,11 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/relationships/Divorce/removal-notification-letter.md",
+    "wiki/relationships/Divorce/court-order-care-and-control.md",
+    "wiki/relationships/Divorce/removal-notification-letter.pdf",
     "wiki/finance/mm-airmiles-redemption.md",
     "wiki/relationships/Divorce/_index.md",
-    "wiki/relationships/Divorce/court-order-care-and-control.md",
     "wiki/relationships/Divorce",
     "wiki/deliverables/admission-qualification-mental-model.md",
     "wiki/performance/working-with-genai/mm-admission-qualification.md",
@@ -227,15 +227,12 @@
     "wiki/performance/decision-journal/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-journal/uk-move/risks.md",
     "wiki/performance/decision-journal/uk-move/reconciliation.md",
-    "wiki/performance/decision-journal/uk-move/need-time.md",
-    "wiki/performance/decision-journal/uk-move/london-vs-malvern.md",
     "wiki/performance/decision-journal/uk-move",
     "wiki/performance/decision-journal",
     "wiki/performance/decision-frameworks/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-frameworks/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-frameworks/uk-move",
     "wiki/performance/decision-frameworks",
-    "wiki/ai-os/system-design/claude/hooks",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
