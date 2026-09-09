@@ -27,7 +27,21 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
-## 2026-09-04 · Wiki ops · Worked · [[admission-qualification-mental-model]]
+## 2026-09-09 · Critique · Worked · [[ddg-caio-involvement-recommendation]]
+
+- **Work:** Codex (gpt-5.6-sol, effort high, read-only) ran an adversarial review
+  of the DDG alternative-proposal draft v1, hunting bias in both directions,
+  while Julian read the draft in parallel. Findings in
+  [[ddg-alternative-proposal-codex-review-2026-09-09]].
+- **Check:** Independent second-model review per the multi-agent protocol; Julian
+  judges each finding before any is applied.
+- **Outcome:** Worked - 11 ranked findings incl. a genuine arithmetic error
+  (30-50 vs 18-50 consultant-weeks) and a strawman of the client's own brief.
+  Verdict RESTRUCTURE. 44,232 tokens.
+- **Lesson:** Two mechanical failures preceded the run: the model name needed a
+  newer Codex CLI, and after upgrading, the plugin's long-running app-server was
+  still the old binary and had to be restarted. Check runtime versions, not just
+  installed versions, when a model is rejected.
 
 - **Work:** Authored [[mm-admission-qualification]] (step-0 model compressing
   the AGENTS.md admission tiers) plus chain-table and index wiring, prompted by

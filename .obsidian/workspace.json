@@ -11,12 +11,14 @@
             "id": "ae20498a6ad02b8e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "wiki/relationships/Divorce/removal-notification-letter.pdf"
+                "file": "wiki/career/ddg-caio/ddg-alternative-proposal-draft.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "removal-notification-letter"
+              "icon": "lucide-file",
+              "title": "ddg-alternative-proposal-draft"
             }
           }
         ]
@@ -198,14 +200,15 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/career/ddg-caio/ddg-alternative-proposal-codex-review-2026-09-09.md",
     "wiki/career/ddg-caio/ddg-alternative-proposal-draft.md",
+    "wiki/relationships/Divorce/removal-notification-letter.pdf",
     "wiki/deliverables/ddg-caio-involvement-recommendation.md",
     "wiki/career/ddg-caio/_index.md",
     "wiki/career/ddg-caio/ddg-caio-job-description.md",
     "wiki/career/ddg-caio",
     "wiki/relationships/Divorce/removal-notification-letter.md",
     "wiki/relationships/Divorce/court-order-care-and-control.md",
-    "wiki/relationships/Divorce/removal-notification-letter.pdf",
     "wiki/finance/mm-airmiles-redemption.md",
     "wiki/relationships/Divorce/_index.md",
     "wiki/relationships/Divorce",
@@ -225,8 +228,6 @@
     "wiki/performance/decision-frameworks/decision-journal.md",
     "wiki/performance/decision-journal/uk-move/why-london.md",
     "wiki/performance/decision-journal/uk-move/why-brained.md",
-    "wiki/performance/decision-journal/uk-move/uk-relocation-fable-consistency-review-2026-07-13.md",
-    "wiki/performance/decision-journal/uk-move/uk-relocation-decision.md",
     "wiki/performance/decision-journal/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-journal/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-journal/uk-move",

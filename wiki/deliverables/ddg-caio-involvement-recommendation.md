@@ -10,7 +10,7 @@ created: 2026-09-09
 
 This is the deliverable record for Julian's response to the DDG AI leadership approach: a recommendation, due back to the contact within 24 hours of 9 Sep 2026, on how he could be involved. It was created via the Admission Fast Lane because of the deadline; the Prompt Zero below is the admission content. It is read by any session working on the DDG CAIO opportunity, alongside the brief at [[ddg-caio-job-description]].
 
-⚠ As of 9 Sep 2026: Prompt Zero complete and confirmed by Julian. Proposal not yet drafted; commercial shape (piece d) still to brainstorm. Deadline: back to the contact by 10 Sep 2026.
+⚠ As of 9 Sep 2026: Prompt Zero complete and confirmed. Proposal draft v2 exists ([[ddg-alternative-proposal-draft]]) with the Codex review findings applied and Julian's no-contingency ruling. Awaiting Julian: fee placeholders, credential lines, and sign-off. Deadline: back to the contact by 10 Sep 2026.
 
 ## Completion criteria
 
@@ -37,12 +37,27 @@ This is the deliverable record for Julian's response to the DDG AI leadership ap
 
 *Amendment 9 Sep 2026: piece (d) resolved - commercial shape is the staged model (fixed-fee discovery sprint, gates an outcome pilot with a contingent slice, gates a fractional monthly retainer). Fee levels still Julian's to set on the draft.*
 
+*Amendment 9 Sep 2026 (2), Julian's ruling on Codex finding 4: NO contingent payment element anywhere. A contingent slice lets difficult employees or unrealistic expectations turn into a definition-of-done dispute where they decide not to pay, and Dean would not sign up to that. All fees are fixed against a very clearly defined SOW with outcomes explicitly agreed by both sides; the client's outcome protection is the stage gate (stop buying if not delivered), never the fee.*
+
+## Status Log
+
+*Interim status surface. This opportunity has no `wiki/projects/` file yet (project ceremony deliberately skipped for the 24h deadline, Julian's call 9 Sep 2026). Parked action: create the project file once the proposal has gone out and there is a response to manage.*
+
+| Date | What happened |
+|------|---------------|
+| 2026-09-09 | Julian ruled on Codex finding 4 (no contingent payment; fixed fees on a tightly defined SOW, gates as client protection) and accepted the other 10 findings. Draft v2 produced with all findings dispositioned: [[ddg-alternative-proposal-draft]]. Awaiting Julian: fees, credential lines, cadence, sign-off. |
+| 2026-09-09 | Codex adversarial review of draft v1 (gpt-5.6-sol, effort high): 11 findings, verdict RESTRUCTURE. [[ddg-alternative-proposal-codex-review-2026-09-09]]. Two runtime failures first (CLI too old for the model, then a stale app-server); CLI upgraded 0.142.4 to 0.153.4. |
+| 2026-09-09 | Draft v1 of the proposal written from the Prompt Zero: staged commercial model chosen (option D). |
+| 2026-09-09 | Prompt Zero interview completed and confirmed (30 attended min). Deliverable record created via Admission Fast Lane. |
+| 2026-09-09 | Approach received by phone; 24h to respond. DDG brief transcribed to [[ddg-caio-job-description]]; ddg-caio folder created under Career. |
+
 ## Time and Token Log
 
 | Date | Type | Detail | Effort |
 |------|------|--------|--------|
 | 2026-09-09 | Attended | Prompt Zero interview (seven questions, incl. project setup review) | 30 min |
 | 2026-09-09 | Machine | Interactive Claude session c22b80fc (setup + interview; output + cache-write, session ongoing at time of row) | 328,188 tokens |
+| 2026-09-09 | Machine | Codex adversarial review of proposal draft v1 (gpt-5.6-sol, effort high, thread 01a086b8-f79b; per-thread peak total_usage_tokens) | 44,232 tokens |
 
 ## Links
 
