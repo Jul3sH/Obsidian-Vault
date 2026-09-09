@@ -40,6 +40,9 @@ tags: [career]
 ## CLSA
 - [[CLSA/_index|CLSA]] — Engagement context, timeline, and application artefacts for the CLSA Head of Network Services opportunity (live)
 
+## DDG CAIO
+- [[ddg-caio/_index|DDG CAIO]] - HK-based Group Chief AI / Agentic Transformation opportunity via paid consulting audition (brief received 8 Sep 2026, live)
+
 ## TTI
 - [[tti/_index|TTI]] — Company profile, engagement history, and role context for the TTI opportunity
 
