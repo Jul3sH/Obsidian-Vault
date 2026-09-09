@@ -2,19 +2,19 @@
 
 This is the working draft of the 2-page disruptive alternative proposal defined in [[ddg-caio-involvement-recommendation]]: an outcome-based, staged company engagement replacing DDG's planned multi-candidate audition. Created 9 Sep 2026 against the 24-hour deadline. Only the "Proposal Text" section below travels: it goes to Matt for a resonance test and to Dean for buy-in, after Julian sets the bracketed fees and signs off. `send: proposal text only, after sign-off` - this wrapper never leaves the vault.
 
-⚠ As of 9 Sep 2026: draft v2. All 11 findings from [[ddg-alternative-proposal-codex-review-2026-09-09]] applied - Codex's fixes for findings 1-3 and 5-11, Julian's override on finding 4 (no contingent payment; fixed fees against a tightly defined SOW, client protection is the stage gate). Not yet signed off by Julian. Fees and credential lines are bracketed placeholders. "ACME" is a placeholder company name.
+⚠ As of 9 Sep 2026: draft v2. All 11 findings from [[ddg-alternative-proposal-codex-review-2026-09-09]] applied - Codex's fixes for findings 1-3 and 5-11, Julian's override on finding 4 (no contingent payment; fixed fees against a tightly defined SOW, client protection is the stage gate). Not yet signed off by Julian. Fees and credential lines are bracketed placeholders. Naming (Julian's instruction, 9 Sep): "ACME" anonymises the client (DDG) throughout the outbound text, so DDG appears nowhere in it; the sending company's name is a bracketed TBC placeholder.
 
 ---
 
 ## Proposal Text
 
-# The Faster Route to an AI-Native DDG
+# The Faster Route to an AI-Native ACME
 
-**A proposal from ACME Company Limited**
+**A proposal from Agile ICT**
 
 ## Where you are
 
-DDG is profitable, data-rich and entrepreneurial. Your edge is proprietary sports data and the people who know how to trade on it. Your brief asks exactly the right question: across a profitable group with seven development teams, what should disappear, stay human, become AI-assisted or become agent-executed, and who can be trusted to lead that redesign?
+ACME is profitable, data-rich and entrepreneurial. Your edge is proprietary sports data and the people who know how to trade on it. Your brief asks exactly the right question: across a profitable group with seven development teams, what should disappear, stay human, become AI-assisted or become agent-executed, and who can be trusted to lead that redesign?
 
 Your plan is to answer it by paying 3 to 5 consultants for 6 to 10 weeks each and appointing a Chief only if someone earns it. The instinct is exactly right: judge people on real execution, not interviews. The risk is in the format.
 
@@ -24,14 +24,14 @@ On the ranges in your own brief, the audition could consume 18 to 50 candidate-w
 
 ## The alternative: keep the test, unify the accountability
 
-Replace the parallel audition for the transformation lead with one accountable engagement. Not a hire, not a headhunt. You put real DDG problems in front of one company and judge us stage by stage on what we deliver, working alongside your seven development teams and whichever implementation and data capability you keep or recruit.
+Replace the parallel audition for the transformation lead with one accountable engagement. Not a hire, not a headhunt. You put real ACME problems in front of one company and judge us stage by stage on what we deliver, working alongside your seven development teams and whichever implementation and data capability you keep or recruit.
 
 You tell us the biggest constraint in the business right now. If you can't name it in a sentence, that is itself worth knowing, and stage one surfaces it fast. Then we work it, prove the approach, and repeat, so the company changes one removed constraint at a time rather than through a big-bang restructure.
 
 Where we would expect the value to live, as hypotheses for stage one to test rather than conclusions:
 
 1. **The operational layer.** Your brief suggests reporting, management cadence and routine process contain avoidable work. Stage one tests that before any organisational decision is made.
-2. **The core engine.** Applying current AI capability to what makes DDG money: sports data products, pricing and odds research, and the decision loops around them.
+2. **The core engine.** Applying current AI capability to what makes ACME money: sports data products, pricing and odds research, and the decision loops around them.
 
 ## How it runs
 
@@ -54,7 +54,7 @@ One company, senior people only, no juniors learning on your time.
 
 ## How you control the risk
 
-We have not run this exact programme for a sports data group before, and we would not pretend otherwise. That is precisely why stage one is short, fixed-scope and separately gated: you judge the work, on your problems, before committing to anything more. Before access begins we agree IP ownership, access controls, audit requirements and handover; DDG retains its data and pre-existing IP, and agreed deliverables are documented so they can be operated by DDG or another supplier.
+We have not run this exact programme for a sports data group before, and we would not pretend otherwise. That is precisely why stage one is short, fixed-scope and separately gated: you judge the work, on your problems, before committing to anything more. Before access begins we agree IP ownership, access controls, audit requirements and handover; ACME retains its data and pre-existing IP, and agreed deliverables are documented so they can be operated by ACME or another supplier.
 
 ## Next step
 
