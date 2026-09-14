@@ -26,37 +26,11 @@ If the engagement is outside IR35, the contractor can operate through a company 
 
 ## Why this matters for the £150k question
 
-The headline annualised turnover can mislead:
+The headline annualised turnover can mislead: day rate x days looks like it clears the £150k target, but inside IR35 the net cash is much less compelling.
 
-| Day rate | Days | Assignment value |
-|---:|---:|---:|
-| £700 | 220 | £154k |
-| £775 | 220 | £170.5k |
-| £775 | 240 | £186k |
+**The full take-home tables (day rate x billable days, taxable pay, net cash, perm equivalents) and their calculation assumptions now live in [[uk-contractor-salary-expectations]]** - consolidated there 14 Sep 2026 as the single canonical numbers surface, extended with £600 and £700 rows at 225 days.
 
-Those numbers look like they clear the £150k target. Inside IR35, the net cash is much less compelling:
-
-| Inside-IR35 umbrella assumption | Estimated taxable pay | Estimated net cash |
-|---|---:|---:|
-| £700/day x 220 | ~£132.9k | ~£82.2k |
-| £775/day x 220 | ~£147.1k | ~£89.8k |
-| £775/day x 240 | ~£160.6k | ~£96.9k |
-| £850/day x 220 | ~£161.4k | ~£97.3k |
-
-Comparison point: £150k permanent salary is about £91.3k net cash before employee pension contributions, using 2026/27 PAYE and NI rates.
-
-So £775/day inside IR35 at 220 days is roughly cash-equivalent to £150k permanent, but worse after pension, medical, life cover, sick pay, income protection, and renewal risk.
-
-## Calculation assumptions
-
-The table above assumes:
-
-- England PAYE tax, 2026/27.
-- Employee NI category A.
-- Inside-IR35 advertised day rate is an umbrella assignment rate.
-- Umbrella margin modelled at £1,300/yr.
-- Employer NI at 15 percent and apprenticeship levy at 0.5 percent reduce the assignment-rate pot before taxable pay.
-- No employee pension salary sacrifice.
+The headline result, unchanged: £775/day inside IR35 at 220 days is roughly cash-equivalent to £150k permanent (~£90k net vs ~£91.3k net), but worse after pension, medical, life cover, sick pay, income protection, and renewal risk.
 
 Important caveat: some adverts quote "PAYE rate" differently from umbrella assignment rate. Julian must ask every recruiter: "Is this the assignment rate before employer NI and umbrella costs, or the taxable PAYE rate?"
 
@@ -146,6 +120,7 @@ For Julian specifically, permanent remains the cleaner economic route because th
 
 ## Related
 
+- [[uk-contractor-salary-expectations]] - canonical take-home tables for the day rates discussed here
 - [[uk-150k-feasibility-report]]
 - [[uk-150k-feasibility-jh-clarifications-2026-07-09]]
 - [[target-role-profile]]
