@@ -79,6 +79,10 @@ Small, bounded execution decisions that surface during Phase 3/4. Each gets its 
 
 - [[furniture-ship-store-ditch|Furniture: Ship, Store, or Ditch]] - HK furniture: ship to UK, HK storage, kept under a furnished let, or sold/given away. Decision rule fixed; open, blocked on cost inputs.
 
+## 8c. Post-Execution Reopen: HK U-Turn (Sep 2026)
+
+- [[hk-uturn-reopen-2026-09|HK U-Turn Reopen - September 2026]] - working analysis for wobble #5 (Horst job intention + Clodagh custody escalation): situation, pros and cons, model output, F-N-M-T result.
+
 ## 9. Decision-Support Surfaces
 
 - [[decision-criteria-matrix|Decision Criteria Matrix]] - planned weighted criteria matrix intended to sit beside the risk register.

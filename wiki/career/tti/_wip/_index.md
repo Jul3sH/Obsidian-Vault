@@ -15,6 +15,7 @@ Active, live records (drafts in flight plus the living strategy doc, which must 
 
 | File | What it is |
 |------|-----------|
+| [[horst-meeting-key-asks]] | Negotiation card for the Horst lunch (expected 14 Sep): 5 must-have asks + 4 strong asks, each tied to a known risk, plus table manners. |
 | [[tti-engagement-strategy]] | The single living strategy doc. Read first. Current position, pitch, role-conversion mechanic, evolution log. |
 | [[tti-comms-log]] | Living direct comms log — sectioned by counterparty (Ty Staviski, Stephan Pudwill). Next message, sent log, audit trail of drafts. Verbatim archive in [[stephan-whatsapp-archive]]. |
 | [[kari-meeting-note-2026-07-24]] | Debrief of the Fri 24 Jul Kari call: Kari's background, Julian's elevator pitch, Kari's unprompted EA framing, engagement model (12-month, Kari-sponsored), TBM/data gap acknowledgement, decision expected end of week of 28 Jul. |
