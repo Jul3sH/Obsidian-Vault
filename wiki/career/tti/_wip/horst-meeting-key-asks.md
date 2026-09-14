@@ -33,6 +33,26 @@ Returning means unwinding a completed move and pulling Sophia out of a school sh
 | 8 | **Start date with an unwind window** - enough runway to reverse the UK arrangements in an orderly way (school notice, Cecil Road stays let, DB flat plan, shipment redirect; helper notice ends ~30 Sep and may need extending). | The 5-15 Sep execution window is mid-flight; a "start Monday" offer forces rushed, expensive unwinding. |
 | 9 | **Benefits: family medical + death-in-service life cover.** | The relocation legal block logged this exact trigger: "evaluate death-in-service at any offer" (life cover has been blocked pending employment). |
 
+## The two candid conversations (spoken framing, added 14 Sep)
+
+**1. Security that outlasts his sponsorship** (the "what if you're not there in two years" risk, said politically). Never mention age or retirement; frame it structurally and he hears the rest himself. This converts must-haves 1-2 and strong ask 6 into one honest paragraph, and covers the Stephan-can't-protect-me problem without naming it:
+
+> "Candidly: if this happens, it happens because you decided it should. That's its strength and its weakness. Your executive team already reviewed this and said no once. So my family's security can't rest on any one person's sponsorship, including yours. I need the protection to be structural: written multi-year terms, and a role announced and owned in a way that means it isn't one man's project."
+
+**2. Backed to do the job, not set up for failure** (strong asks 6-7 spoken). Frame as the role's requirement, not a personal grievance. Do not name Tony, do not relitigate the 20 Aug no; reuse Ty's own "organisational timing" words if it comes up:
+
+> "An enterprise architect looks under the covers and reports what he finds upward. That's uncomfortable for the people being looked at, and honestly I suspect it's part of why this didn't get through the normal chain. If I then report into the leaders who assessed and declined this role, it fails slowly and quietly, whatever I do. For it to work, the reporting line and the announcement need to come from the top."
+
+Then the ask-6 probe: "How do you see Ty's and Tony's teams receiving this?" - invites him to solve the politics himself.
+
+## If he plays the closer: "So what do you want?"
+
+One breath, two halves, equally weighted (this is the anti-"me me me" structure):
+
+> "Two things. The terms that make this safe enough for my family to unwind the UK move: the number I already put in writing, a multi-year commitment, and help with schooling. And the set-up that lets me succeed: your mandate made explicit, and a reporting line that isn't into the chain that already said no. The second half matters as much as the first, because the best terms in the world are pointless if the role is set up to fail."
+
+Pairing rule: every personal ask travels with what it buys him - security buys a committed, full-hearted unwind of the UK move; top-down backing buys a role that delivers instead of getting absorbed. His recorded style rewards this register: he values decisiveness and is impatient with indecision, so the candour is the fit signal, not the risk.
+
 ## Table manners (what NOT to do)
 
 - **Do not accept at the table.** Warm agreement on direction, yes; commitment, no - written terms first (stand-down + reopen test pending).
@@ -46,3 +66,4 @@ Returning means unwinding a completed move and pulling Sophia out of a school sh
 | Date | Type | Amount | Notes |
 |------|------|--------|-------|
 | 2026-09-13 | Machine (interactive session) | unmeasured | File drafted from engagement-arc risks; session total logged at session end |
+| 2026-09-14 | Machine (interactive session) | unmeasured | Candid-framing sections added (sponsorship-outlasting security, set-up-to-succeed, closer answer); session total logged at session end |
