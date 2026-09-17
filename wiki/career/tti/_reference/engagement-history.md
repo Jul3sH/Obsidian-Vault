@@ -1,4 +1,4 @@
-This was the second file that I sent on # TTI — Engagement History
+# TTI — Engagement History
 
 > *Full timeline of interactions with TTI, from initial referral to current pitch.*
 >
@@ -31,6 +31,23 @@ tags: [career, tti]
 ## Timeline
 
 ### 2025–2026
+
+#### 13 September 2026 - Horst's first direct written message: WhatsApp confirming the Monday lunch
+
+- **Source:** Julian, verbatim WhatsApp (logged 17 Sep).
+- **Received Sunday 13 Sep 2026, 5:49am:**
+
+> Hi Julian,
+> How are you doing.
+> Looking forward having lunch with you tomorrow Monday with Stephan.
+> Have a nice Sunday
+> Best HJP
+
+- **Why it matters:** the first direct *written* contact from Horst in the entire engagement arc - every prior Horst signal was spoken (Christmas parties, Sevens box, the 13 Sep call) or relayed via Peter Speck. It confirms the lunch as **Monday 14 Sep, with Stephan present**, following the same-weekend phone call in which Horst told Julian he was surprised Julian had not been given a job, said he is going to give him one, and would discuss terms at the lunch (call record: [[tti-role]] 13 Sep status entry; decision consequence: [[dec-uk-move]] wobble #5, stand-down).
+- **Negotiation card prepared for the lunch:** [[horst-meeting-key-asks]] (must-haves, candid framings, closer answer).
+- **State:** ⚠ as of 17 Sep, the lunch outcome itself is NOT yet logged anywhere in the vault - capture pending from Julian.
+
+---
 
 #### 23 June 2026 - The lunch: converted to a Ty pitch + 6+6 consultancy; brief and resume requested
 
