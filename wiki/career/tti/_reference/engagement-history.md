@@ -32,6 +32,23 @@ tags: [career, tti]
 
 ### 2025–2026
 
+#### 14 September 2026 - The Horst lunch: "make it happen" mandate, number verbally accepted, execution back with Stephan
+
+- **Source:** Julian, post-lunch debrief (logged 17 Sep). Attendees: Horst, Stephan, Julian.
+- **The job:**
+  - Horst said he would get Julian a job and instructed Stephan to **"just make it happen"**. Stephan wanted to discuss it with Ty first; Horst asked why - just do it without telling them. Stephan's defence: without consultation Julian won't get the support and information he needs to do the job.
+  - Horst was visibly displeased with the earlier decision to say no, and frustrated with Ty while Stephan defended it. His body language read as disappointment that Stephan is letting **"the tail wag the dog"**.
+  - **Julian's table-craft, two deliberate moves:** (1) the **"turkeys don't vote for Christmas"** explanation - the role is strategic, aligns IT with the business, examines whether the business gets the value it invests, and carries a direct line to Stephan, so US IT/exec leadership could easily perceive him as a threat (especially if they had painted the board a rosier picture than exists). **Stephan agreed in front of Horst: "you are probably right, they possibly saw you as a threat"** - live validation of the set-up-to-fail risk the [[horst-meeting-key-asks]] card was built around. (2) **Blame deliberately shifted off Ty** onto the delegated IT-leadership layer: Julian said Kari "really got it" (knowing Horst likes Kari) and that the problem arose while Kari was on bereavement leave, when Ty delegated the decision to the people Julian threatens. Stephan: **"Ty liked you actually"**; Julian agreed the Ty conversation had gone well. Purpose: Julian may well need a decent working relationship with Ty.
+- **Money:** early on, Horst asked directly what Julian earned. Julian: **HK$2M + 15% bonus** - effectively the written anchor (HK$2.34M/yr, set 9 Aug). **Horst: "no problem."** The number is verbally accepted at chairman level, with Stephan as witness.
+- **Schooling:** raised twice - to Horst early (returning needs more money for schools; the YMCA place, very academic and cheap, is likely lost) and to Stephan at the close ("it's a big consideration").
+- **Flights/relocation:** on the 13 Sep first call, Horst had suggested paying for Julian to come back (exact words not recalled, but that was the clear sense). **Must be asked for in the follow-up - it was his own suggestion.**
+- **Relationship/empathy thread:** Stephan himself raised Julian's inheritance situation (Dad coerced by his wife into cutting the children out of the will) - plausibly with his own motive, warning his father what can happen; Julian played along, upbeat, "that's life" register, no victim framing. Horst then recalled unprompted that Julian's Dad (General Manager, Dragonair) had helped keep Chris from being arrested after drunkenly banging on a cockpit door - the family debt remembered. Dad's dementia discussed; Julian still visits despite the will. All three effectively attributed the disinheritance to the wife's manipulation and greed; Horst: "some people are just totally greedy like that."
+- **The close - no next step named:** Julian thanked Horst and said goodbye; no recap, no owner of paper, no date. Execution is back on Stephan to find a solution under Horst's mandate. **In Stephan's limo to the ferry**, Julian pushed for clarity (schooling budget etc. - Sophia needs to get back into an HK school); Stephan was somewhat dismissive of the urgency ("would it not be better to move her at the end of the term?"); Julian countered with the two real constraints: he must not become **UK tax resident**, and Sophia must not fall behind.
+- **Honest read against the card:** achieved - number accepted, schooling seeded twice, chairman mandate explicit, threat-dynamic validated by Stephan, Ty relationship preserved. Missed - written terms, start date, and the card's own "next step named before leaving" rule; the channel is once again Stephan (the arc's known non-converting channel), now distinguished from every prior round by a standing chairman instruction and an accepted number.
+- **State:** waiting on Stephan. The follow-up's whole job is converting the mandate into written terms (role, number, term, start date, schooling budget, flights, who papers it) before end-of-term drift sets in.
+
+---
+
 #### 13 September 2026 - Horst's first direct written message: WhatsApp confirming the Monday lunch
 
 - **Source:** Julian, verbatim WhatsApp (logged 17 Sep).
@@ -45,7 +62,7 @@ tags: [career, tti]
 
 - **Why it matters:** the first direct *written* contact from Horst in the entire engagement arc - every prior Horst signal was spoken (Christmas parties, Sevens box, the 13 Sep call) or relayed via Peter Speck. It confirms the lunch as **Monday 14 Sep, with Stephan present**, following the same-weekend phone call in which Horst told Julian he was surprised Julian had not been given a job, said he is going to give him one, and would discuss terms at the lunch (call record: [[tti-role]] 13 Sep status entry; decision consequence: [[dec-uk-move]] wobble #5, stand-down).
 - **Negotiation card prepared for the lunch:** [[horst-meeting-key-asks]] (must-haves, candid framings, closer answer).
-- **State:** ⚠ as of 17 Sep, the lunch outcome itself is NOT yet logged anywhere in the vault - capture pending from Julian.
+- **State:** the lunch happened 14 Sep - full record in the entry above (logged 17 Sep).
 
 ---
 

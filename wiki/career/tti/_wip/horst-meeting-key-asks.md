@@ -8,7 +8,9 @@ created: 2026-09-13
 
 This file is the negotiation card for the Horst lunch (expected 14 Sep 2026, before the 15 Sep flight), where Horst has said he will discuss the terms of a job. It was created 13 Sep because Julian needs to walk in with a clear, short list of asks, each tied to a known risk from the engagement arc and the UK relocation reopen. Read it before the lunch; the outcome gets logged to [[tti-comms-log]] and feeds [[hk-uturn-reopen-2026-09]].
 
-> ⚠ As of 13 Sep: the UK-move stand-down is active ([[dec-uk-move]] wobble #5). The lunch is negotiation and information-gathering. Do not commit at the table - "let me review the terms in writing" costs nothing with Horst.
+> ✅ OUTCOME (lunch happened 14 Sep, logged 17 Sep). **Achieved:** the number verbally accepted at chairman level (Julian: "HK$2M + 15% bonus"; Horst: "no problem" - effectively must-have 4); schooling seeded twice (must-have 5 groundwork); Horst's mandate explicit ("just make it happen"); the set-up-to-fail risk (asks 6-7) validated by Stephan in front of Horst ("they possibly saw you as a threat"); Ty kept blameless for future working purposes. **Not achieved:** must-haves 1-2 (nothing in writing, no term, no start date) and the table-manners rule "get the next step named before leaving" - the close had no recap, and execution reverted to Stephan, who floated end-of-term delay in the limo. **New ask for the follow-up: flights/relocation costs** - Horst himself suggested paying for the return on the 13 Sep call; ask for it. Full record: [[engagement-history]] 14 Sep entry. This card now drives the Stephan follow-up, not a Horst meeting.
+>
+> ⚠ As of 13 Sep (pre-lunch): the UK-move stand-down is active ([[dec-uk-move]] wobble #5). The lunch is negotiation and information-gathering. Do not commit at the table - "let me review the terms in writing" costs nothing with Horst.
 
 ## The one-line frame
 
@@ -67,3 +69,4 @@ Pairing rule: every personal ask travels with what it buys him - security buys a
 |------|------|--------|-------|
 | 2026-09-13 | Machine (interactive session) | unmeasured | File drafted from engagement-arc risks; session total logged at session end |
 | 2026-09-14 | Machine (interactive session) | unmeasured | Candid-framing sections added (sponsorship-outlasting security, set-up-to-succeed, closer answer); session total logged at session end |
+| 2026-09-17 | Julian (attended) | 30 min | Lunch prep read-through + post-lunch debrief handback |

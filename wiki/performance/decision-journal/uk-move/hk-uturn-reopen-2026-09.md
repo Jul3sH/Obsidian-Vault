@@ -10,9 +10,11 @@ This file is the working analysis for wobble #5 on the committed MOVE-to-UK deci
 
 **Sections:** 1. Situation (the facts) · 2. Pros and cons capture · 3. Chatbot/model analysis output · 4. F-N-M-T result · 5. Decision
 
-> ⚠ As of 13 Sep 2026: STAND-DOWN active per [[commitment-lock-protocol]] (both triggers inside 48h; police call was 3am this morning). Sections 1-2 are capture only, not adjudication. No state change, nothing irreversible in either direction, until the window closes ~15 Sep.
+> ⚠ As of 17 Sep 2026: the stand-down window (13-15 Sep) has CLOSED. The F-N-M-T test in §4 is now due and has not yet been run. Its pre-named F bar remains unmet: no written terms from Horst (the 14 Sep lunch produced a verbal mandate and a verbally accepted number, nothing on paper - see the addendum in §1), and the custody jurisdiction read is still not lawyer-verified. Capture-only discipline continues until the test runs.
+>
+> ⚠ As of 13 Sep 2026 (superseded): STAND-DOWN active per [[commitment-lock-protocol]] (both triggers inside 48h; police call was 3am this morning). Sections 1-2 are capture only, not adjudication. No state change, nothing irreversible in either direction, until the window closes ~15 Sep.
 
-## 1. Situation (as of 13 Sep 2026)
+## 1. Situation (as of 13 Sep 2026; lunch addendum 17 Sep)
 
 Julian is in HK until 15 Sep on the pack-up trip. Two developments landed the same day:
 
@@ -22,6 +24,12 @@ Julian is in HK until 15 Sep on the pack-up trip. Two developments landed the sa
 - Chairman-level channel, above the entire Ty review chain that produced the 20 Aug institutional no.
 - As of 13 Sep: verbal intention only. No role, number, term or start date. Interaction with the chain that formally declined is unknown.
 - Julian flagged the Sophia schooling complication to both; said he would think about options.
+
+**14 Sep lunch outcome (addendum, logged 17 Sep - full record: [[engagement-history]] 14 Sep entry):**
+- Horst instructed Stephan to "just make it happen"; Stephan insisted on consulting Ty first (support/information rationale); Horst displeased with the 20 Aug no.
+- **Number verbally accepted:** Julian stated HK$2M + 15% bonus; Horst said "no problem". Schooling raised twice; flights/relocation to be asked for (Horst's own 13 Sep suggestion).
+- **Still nothing in writing:** no role, term, start date, or paper owner; the close named no next step; execution reverted to Stephan, who floated moving Sophia at end of term (countered: UK tax residency, Sophia falling behind).
+- Net effect on the F bar: the offer is more real than 13 Sep (chairman mandate + accepted number, witnessed) but remains forecast-shaped - written terms still absent, so F still fails as pre-named.
 
 **Clodagh custody escalation** (full chronology: [[clodagh]]):
 - Custody talk, alimony demands, and money-to-travel demands since the London drop-off binge.

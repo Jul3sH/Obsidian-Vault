@@ -470,6 +470,18 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 16 Sep - POST-LUNCH EXCHANGE: "we will discuss internally"; Julian proposed a Friday 19 Sep catch-up and played the flat-viewers urgency lever
+
+> First direct Stephan contact after the 14 Sep Horst lunch ([[engagement-history]] 14 Sep entry). Logged 17 Sep, verbatim:
+
+> [16/9/2026, 5:05] **Julian:** Hi Stephan, I'm getting a checkup in BKK today and flying back to UK afterwards. Anything you need from me before I fly? I had a good evening in BKK, i'll have to fill you in.
+> [16/9/2026, 5:39] **Stephan:** When are you flying back to UK? Don't think I need anything for now - we will discuss internally
+> [16/9/2026, 6:14] **Julian:** Flying tonight. It would be good to catch up Friday to get an idea of what you're thinking so I can consider the potential impact to living and schooling. My flat in HK is currently on the market for rental and a couple of viewers are keen.
+
+**Read (17 Sep):** "Discuss internally" is the familiar absorb-pattern shape, but post-mandate it is also the legitimate next step (Stephan told Horst he must consult Ty). The signal test is whether Friday produces specifics or another warm-vague. Julian's 6:14 did what the lunch close missed - named a next step with a date - and the flat-viewers line is the right urgency mechanism (real, external, no pleading; same class as the August school-offer deadline). **Open as of 17 Sep: Stephan has not confirmed Friday.** If unconfirmed by Thursday morning UK, send a one-line "still good for tomorrow?". **Friday call goal per [[horst-meeting-key-asks]]:** leave with owners and dates on role/level, term, start date, schooling budget, flights (Horst's own suggestion), and who papers it - not "an idea of what you're thinking". Urgency framings available: UK tax residency (verify the Statutory Residence Test day-count with an adviser before relying on it), Sophia's schooling continuity, and now the flat tenancy.
+
+---
+
 ## ✅ SENT 21 Aug - CLOSE-OUT TO STEPHAN: warm thank-you, structural read without blame, one London hook
 
 > **Sent Thursday 21 Aug (UK morning), after a call attempt the previous evening went unanswered.** The message went through three strategy iterations (gracious close → accountability/guilt version → this): Julian judged the guilt version too harsh and wrote his own warmer draft, which was critiqued and tightened before sending. The toes-treading line was cut in critique (it accused Ty's own reviewers of turf-protection in writing, and Stephan repeats Julian's framing onward); the discovery instinct survived as the tactical-initiatives line, which safely matches what Julian sent Stephan on 10 Jun and 4 Jul.
