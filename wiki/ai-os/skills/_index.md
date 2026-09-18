@@ -34,7 +34,8 @@ type: index
 | [[ai-os/skills/commitment-guard/SKILL\|commitment-guard]] | *Reopening* a LOCKED decision (doubt/second-thoughts naming a committed decision), or "lock it in" / "/commitment-guard" — runs the F-N-M-T reopen test + 48h stand-down; defends decisions from emotional U-turns | Decisions |
 | [[ai-os/skills/prompt-zero/SKILL\|prompt-zero]] | `/prompt-zero`, "prompt zero"; and automatically before substantive work on any deliverable whose file has no `## Prompt Zero` section. Interviews Julian through the Seven Questions so the grounding brief is written in his own words | Cross-domain |
 | [[ai-os/skills/memory-architect/SKILL\|memory-architect]] | "/memory-architect", "design my memory system", "add a memory layer", "explain how memory decay works" — guided interview then builds a custom Claude Code memory system. **Third-party (Mark Kashef), not authored here.** Incomplete: `references/` files missing | AI OS |
-| [[ai-os/skills/grill-me/SKILL\|grill-me]] | `/grilling` — relentless interview to sharpen a plan or design. **Third-party (Matt Pocock), not authored here.** Model-invocation disabled: explicit trigger only | Cross-domain |
+| [[ai-os/skills/grill-me/SKILL\|grill-me]] | `/grill-me` — trigger stub that invokes the grilling skill. **Third-party (Matt Pocock), not authored here.** Model-invocation disabled: explicit trigger only | Cross-domain |
+| [[ai-os/skills/grilling/SKILL\|grilling]] | "grill me", stress-test my thinking, any "grill" phrase — relentless design-tree interview in rounds until shared understanding. **Third-party (Matt Pocock), not authored here.** Engine behind grill-me | Cross-domain |
 | [[ai-os/skills/whatsapp-someday/SKILL\|whatsapp-someday]] | `/whatsapp-someday`, manual only — processes a new WhatsApp "Someday" export from Dropbox into raw/brain-dump.md + existing wiki homes | Cross-domain |
 
 **Status:** see [[skills-status|Skills Status]] for Active/Parked state.

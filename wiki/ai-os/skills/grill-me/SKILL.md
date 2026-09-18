@@ -4,8 +4,8 @@ description: A relentless interview to sharpen a plan or design.
 disable-model-invocation: true
 ---
 
-> **Provenance:** third-party skill by **Matt Pocock**, installed 2026-08-13 via `npx skills add https://github.com/mattpocock/skills --skill grill-me`. Not authored here.
+> **Provenance:** third-party skill by **Matt Pocock**, first installed 2026-08-13; reinstalled globally 2026-09-18 via `npx skills add mattpocock/skills@grill-me -g`. Source: `~/.agents/skills/grill-me/SKILL.md`, symlinked into `~/.claude/skills/grill-me/`. Not authored here.
 >
-> **Note:** the skill body just says "Run a `/grilling` session" - the `/grilling` command itself is not part of this skill's own files (only `SKILL.md` and `agents/openai.yaml` were installed). It presumably resolves via the `skills` CLI's own runtime; if `/grilling` doesn't resolve in a session, that command source hasn't been located yet.
+> **Note (updated 2026-09-18):** this skill is only a trigger stub. The actual interview logic lives in the companion skill [[ai-os/skills/grilling/SKILL|grilling]], installed separately the same day. The 2026-08-13 mystery of the unresolved `/grilling` reference is solved: it is its own package (`mattpocock/skills@grilling`) that had not been installed.
 
-Run a `/grilling` session.
+Call the Skill tool with "grilling".

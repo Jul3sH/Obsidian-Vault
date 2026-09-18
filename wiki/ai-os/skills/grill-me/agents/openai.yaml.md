@@ -1,4 +1,4 @@
-> Mirror copy. Source: `~/Obsidian Vault/.agents/skills/grill-me/agents/openai.yaml` (symlinked into `~/.claude/skills/grill-me/`)
+> Mirror copy. Source: `~/.agents/skills/grill-me/agents/openai.yaml` (symlinked into `~/.claude/skills/grill-me/`)
 
 ```yaml
 interface:
