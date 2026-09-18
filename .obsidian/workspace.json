@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "driving license",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,7 +199,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae20498a6ad02b8e",
+  "active": "6a86c3d76dc7fc1a",
   "lastOpenFiles": [
     "wiki/career/uk-contractor-salary-expectations.md",
     "wiki/performance/decision-journal/uk-move/_index.md",
