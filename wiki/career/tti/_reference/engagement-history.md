@@ -32,6 +32,28 @@ tags: [career, tti]
 
 ### 2025–2026
 
+#### 15 September 2026 - Thank-you message sent to Horst from the plane
+
+- **Source:** Julian, verbatim (logged 18 Sep). Sent Tuesday 15 Sep, written on the flight back to the UK, before any review.
+
+> Hi Horst,
+>
+> I'm on the plane right now reflecting on our conversation and the impact it could have on my future with Sophia. It's amazing what can change in 24 hours.
+>
+> You and Barbara were incredibly generous to us as as teenagers and here I am 40 years later with you going out of your way to help me like this. I genuinely can't thank you enough.
+>
+> I will bring value to TTI and Stephan will have someone fiercely loyal working on his agenda. Done well, Enterprise architecture moves IT spend from running the business to growing the business.
+>
+> As you've been kind enough to get across this, I'll keep you posted.
+>
+> Your Gratefully,
+> Julian
+
+- **What it does:** gratitude anchored in the 40-year family history (Barbara included); a loyalty signal; one board-grade value line ("moves IT spend from running the business to growing the business"); asks Horst for nothing and commits to nothing (consistent with the stand-down). **"I'll keep you posted" quietly establishes Julian as the reporter of progress to the chairman - the escalation channel if Stephan stalls, set up without pressure. Keep that thread alive.**
+- **State:** no reply logged as of 18 Sep. None needed - the message closes the lunch loop; the working channel is Stephan ([[tti-comms-log]] 16 Sep entry).
+
+---
+
 #### 14 September 2026 - The Horst lunch: "make it happen" mandate, number verbally accepted, execution back with Stephan
 
 - **Source:** Julian, post-lunch debrief (logged 17 Sep). Attendees: Horst, Stephan, Julian.
