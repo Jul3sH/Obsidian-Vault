@@ -7,7 +7,7 @@ tags: [working-with-yourself, cognitive-bias, decision-making, mental-models]
 
 # MM: Overanalysis Bias
 
-This card names the bias of building analytical depth beyond what the decision at stake warrants. It was confirmed with quoted evidence across 12 time-slices of Julian's session history (May-Sep 2026) during [[bias-history-review]], promoting what was previously a memory-only correction (`feedback-overanalysis-check`) to a card. Read it when scoping any analysis, register, framework, or research task.
+This card names the bias of building analytical depth beyond what the decision at stake warrants. It was confirmed with verified quoted evidence spanning 27 May to 5 Aug 2026 in Julian's session history during [[bias-history-review]], promoting what was previously a memory-only correction (`feedback-overanalysis-check`) to a card. Read it when scoping any analysis, register, framework, or research task.
 
 **One-liner:** Depth is earned by stakes, not by available material - analysis past the decision's needs is cost, not rigour.
 
@@ -16,7 +16,7 @@ This card names the bias of building analytical depth beyond what the decision a
 ## Key Takeaways
 
 - The bias shows as extra research passes, re-reviews after model upgrades, version churn, and multi-layer frameworks for single decisions.
-- Its cost is double: the tokens and time spent, and outputs too detailed to hold ("a lot of these outputs are so detailed my head explodes, and ultimately I'm going to have to make the decision").
+- Its cost is double: the tokens and time spent, and outputs too detailed to hold ("they are so detailed I can feel my head exploding", 5 Aug 2026).
 - Rabbit-holing is the same bias in the time dimension: depth in one tangent instead of depth everywhere.
 - The tell is asking "what else could we add?" instead of "what would change the decision?"
 

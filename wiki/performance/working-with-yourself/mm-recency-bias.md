@@ -7,7 +7,7 @@ tags: [working-with-yourself, cognitive-bias, decision-making, mental-models]
 
 # MM: Recency Bias
 
-This card names the bias of conviction re-anchoring to the most recent emotionally warm contact rather than to the evidence. Documented as bias #2 in the [[commitment-lock-protocol]] register: all four lean-changes in the UK-move decision timestamped to a human contact (Joanne, Sophia, Clodagh, Justin), never to a document.
+This card names the bias of conviction re-anchoring to the most recent emotionally warm contact rather than to the evidence. Documented as bias #2 in the [[commitment-lock-protocol]] register: all four lean-changes in the UK-move decision timestamped to a human contact, never to a document (the register's examples: Joanne leading to the reopen, Sophia to the soft-landing, the Clodagh call to "100%").
 
 **One-liner:** Conviction re-anchors to the last warm voice, not the evidence.
 

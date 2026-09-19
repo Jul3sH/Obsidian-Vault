@@ -7,7 +7,7 @@ tags: [working-with-yourself, cognitive-bias, decision-making, mental-models]
 
 # MM: Decision-Reopening Bias
 
-This card names the bias of emotionally reopening decisions already locked. It is bias #1 in the [[commitment-lock-protocol]]'s register and the reason the commitment-guard skill exists; the [[bias-history-review]] scan verdict was "confirmed but already managed" - the strongest instances (5 Jul, 7 Jul, 18 Aug 2026) track the definition cleanly, while several others proved to be legitimate updating on genuinely new facts. This card formalises the pattern; the machinery that defends against it already exists.
+This card names the bias of emotionally reopening decisions already locked. It is bias #1 in the [[commitment-lock-protocol]]'s register and the reason the commitment-guard skill exists; the [[bias-history-review]] scan returned "uncertain", and the subsequent ruling was confirmed-but-managed: the strongest instances (7 Jul and 18 Aug 2026) track the definition cleanly, several others proved to be legitimate updating on genuinely new facts, and all sit within one saga (the UK move). This card formalises the pattern; the machinery that defends against it already exists.
 
 **One-liner:** The feeling that follows a locked decision is forecast, not evidence.
 
@@ -27,8 +27,7 @@ This card names the bias of emotionally reopening decisions already locked. It i
 
 ## Guidelines
 
-- Run the F-N-M-T reopen test and the 60-second wobble drill from [[commitment-lock-protocol]].
-- 48-hour stand-down after any warm contact that prompted the wobble; 72-hour no-action window after a branch fires.
+- Run the F-N-M-T reopen test and the 60-second wobble drill from [[commitment-lock-protocol]], and observe its stand-down windows (warm-contact and branch-fire).
 - Re-read the decision's anchor document instead of re-arguing from inside the feeling.
 
 ## Limitations

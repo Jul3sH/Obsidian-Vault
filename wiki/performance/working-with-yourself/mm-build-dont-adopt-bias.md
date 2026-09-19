@@ -7,7 +7,7 @@ tags: [working-with-yourself, cognitive-bias, adhd, mental-models]
 
 # MM: Build-Don't-Adopt Bias
 
-This card names the bias of getting the reward from designing a system and abandoning it before adoption. The [[bias-history-review]] scan verdict was "real but narrower than assumed": one unambiguous self-diagnosed instance (the Jira sprint system, 22 Jul 2026), while a supposed second instance - the folder-structure convention - was in fact adopted into AGENTS.md as a standing rule. The bias is real; it is also already being countered by the systems-register rule.
+This card names the bias of getting the reward from designing a system and abandoning it before adoption. The [[bias-history-review]] scan returned "uncertain"; the subsequent ruling was real-but-narrower: one unambiguous self-diagnosed instance (the Jira sprint system, 22 Jul 2026), while a supposed second instance - the folder-structure convention - was in fact adopted into AGENTS.md as a standing rule. The bias is real; it is also already being countered by the systems-register rule.
 
 **One-liner:** Building the system is the dopamine; adoption is the work - no build without a forcing function.
 

@@ -22,6 +22,7 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-plain-writing-not-riddles.md | feedback | Write plainly, not in AI-tell riddle-like rhetorical patterns; when paraphrasing a source quote, don't compress it into a claim that overreaches the original |
 | feedback-outbound-punctuation.md | feedback | In outbound prose, never use spaced hyphens " - " as connectors; use commas, colons, full stops, or parentheses at drafting time |
 | feedback-visible-waiting-state.md | feedback | When blocked on Julian's input, end the turn with an unmissable ask ("Waiting on you:" + one direct question as the closing line) - never fold the question into a status paragraph |
+| feedback-narrative-fill.md | feedback | The most broadly evidenced of Julian's confirmed biases: fills silence/ambiguity with narratives about others' motives and strategises on them as fact - challenge the story, offer the boring explanation, label speculation |
 
 | feedback-resizing-needs-agreement.md | feedback | Never re-size/re-score a project without asking Julian; size on work REMAINING, not the full activity list |
 

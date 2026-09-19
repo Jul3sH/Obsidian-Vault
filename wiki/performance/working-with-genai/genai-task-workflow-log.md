@@ -27,6 +27,29 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-19 · Build + Wiki ops · Worked · [[bias-history-review]]
+
+- **Work:** Three-tier bias mining pipeline over Julian's full session history
+  (183 transcripts, 213MB pre-filtered to 2,694 of his own messages): 20 Haiku
+  scanners seeded with 8 priors, a merge stage, 10 Sonnet adversarial verifiers
+  (three-way verdicts, quote-grepping against source). Then the estate build:
+  12 bias cards, 3 renames, biases-index, bias-check skill, narrative-fill
+  memory, card-floor rule.
+- **Check:** Sonnet refuters per candidate (caught 1 fabricated quote, 1
+  double-count, 1 simulated dialogue misattributed as real speech); Fable
+  spot-check of kills and uncertains; separate adversarial agent over the
+  written artefacts; Julian's verdicts on the mapping table before writing.
+- **Outcome:** Worked - 122 raw candidates reduced to 4 confirmed, 2 uncertain
+  (both ruled real-but-narrower), 4 refuted. Scan runs: 52,814 (failed run) +
+  2,237,963 tokens. One mechanical failure: workflow args arrived as a string,
+  scanners built zero chunks, pipeline completed "successfully" in 5s with
+  empty output.
+- **Lesson:** Two. (1) A pipeline that runs to completion with zero input looks
+  identical to success - guard loudly on empty inputs (the fix: throw on bad
+  args). (2) The adversarial verify layer paid for itself: without it, a
+  fabricated quote and an inverted reading of real quotes would have entered
+  the wiki as documented biases.
+
 ## 2026-09-09 · Critique · Worked · [[ddg-caio-involvement-recommendation]]
 
 - **Work:** Codex (gpt-5.6-sol, effort high, read-only) ran an adversarial review

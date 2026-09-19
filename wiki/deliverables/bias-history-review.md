@@ -47,7 +47,26 @@ This is the fast-lane record for a machine-executed review of Julian's full Clau
 5. bias-check skill built, trigger covering every index row's situation type, documented and mirrored per the skills rule.
 6. Julian nominates which biases (if any) get the memory backstop.
 
-## Card Mapping (proposed 19 Sep 2026, pending Julian sign-off)
+## Status
+
+⚠ As of 19 Sep 2026 (evening): pipeline run, all artefacts built, artefact-level adversarial review complete - 12 findings, all fixed same day (an invented fourth contact in mm-recency-bias; scan verdicts misattributed as "confirmed" in the two ruled-uncertain cards; a paraphrase presented as a verbatim quote in mm-overanalysis-bias; unverified chunk-counts stated as confirmed evidence in three cards + the memory; a register hypothesis stated as fact in mm-commitment-by-proxy-bias; a near-verbatim unattributed register restatement in mm-optimism-accounting-bias; five biases-index rows uncovered by the bias-check skill's triggers - trigger list widened seven to twelve). One accepted legacy defect: mm-fear-disguise-bias's six Evidence links resolve to raw/_processed/ lessons-learnt files, not wiki/ (pre-existing before the rename; Obsidian resolves them vault-wide). Awaiting Julian's final read-through and sign-off.
+
+## Prior Verdicts (criterion 3, recorded 19 Sep 2026)
+
+| Prior | Verdict from evidence |
+|-------|----------------------|
+| visual-representation-bias | Confirmed, unchanged (11 chunks; already fully built) |
+| overanalysis | Confirmed (12 chunks, enacted) - promoted from memory-only to card |
+| commitment-stalling | Confirmed (11 chunks) - promoted from memory-only to card; options-preservation identified as likely mechanism |
+| decision-reopening | Confirmed but managed - strongest instances clean (5 Jul, 7 Jul, 18 Aug); half the scanned instances were legitimate updating on new facts; all within one saga |
+| build-dont-adopt | Real but narrower than framed - one unambiguous instance (Jira, 22 Jul); folder-structure counter-example shows forcing functions beat it |
+| assumption-blindness | Weakened / managed - evidence shows Julian actively surfacing assumptions, clustering after the 28 Jul memory; no card, memory stays as control |
+| confirmation-bias (classic) | Refuted as a personal analytical tilt (one fabricated quote killed; record shows him commissioning hostile reviews) - the real form is confirmation-amplification via the helper model (register #4), now carded |
+| stories-arent-evidence | Confirmed as the most broadly evidenced bias (15 chunks, enacted) - renamed to narrative-fill-bias, promoted to memory backstop |
+
+Scan stats: 183 transcripts → 2,694 Julian messages → 122 raw candidates → 10 merged → 4 confirmed / 2 uncertain / 4 refuted. New-candidate discoveries (strategic-narrative-construction, autonomy-options-prioritisation) both refuted; the second folded into commitment-stalling as mechanism.
+
+## Card Mapping (proposed 19 Sep 2026; approved by Julian same day; executed - see Status)
 
 Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias" in the name; the card links to detail and countermeasure, never restates them. All personal bias cards live in `wiki/performance/working-with-yourself/`; generic-tier cards stay in `the-human-mind/`.
 
@@ -80,6 +99,18 @@ Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias
 
 **bias-check skill trigger situations (v1):** weighing life/career options; wobble after a locked decision; scoping a piece of analysis; at the point of sending/committing; interpreting someone's silence or behaviour; building financial models or plans; designing a new system or process.
 
+## Content Verification (phase 3 - open as of 19 Sep 2026)
+
+The system is built and its outputs exist, but Julian has not yet content-verified them. Estimated ~1h attended. Tick each on review; corrections go back through normal edits. When all are ticked, this deliverable closes and total attended minutes roll up to [[estimation-baseline]] with the build/verify split preserved.
+
+- [ ] [[biases-index]] (17 rows: right biases, right trigger wording)
+- [ ] mm-overanalysis-bias / mm-commitment-stalling-bias / mm-decision-reopening-bias / mm-build-dont-adopt-bias (scan-evidenced cards)
+- [ ] mm-confirmation-amplification-bias / mm-recency-bias / mm-certainty-spike-bias / mm-answer-first-bias / mm-optimism-accounting-bias / mm-loss-aversion-bias / mm-sunk-cost-bias / mm-commitment-by-proxy-bias (register-derived cards)
+- [ ] mm-narrative-fill-bias / mm-payoff-vs-prestige-bias / mm-fear-disguise-bias (renamed cards, incl. renamed-from notes)
+- [ ] bias-check skill wiki mirror (twelve triggers read sensibly)
+- [ ] feedback-narrative-fill memory wiki mirror
+- [ ] Card-floor rule wording in documentation-conventions.md Part 1
+
 ## Time and Token Log
 
 | Date | Type | Effort | Notes |
@@ -87,3 +118,5 @@ Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias
 | 2026-09-19 | Julian attended | 30 min | Fast-lane design discussion: pipeline, output design, done-criteria (this session, self-reported) |
 | 2026-09-19 | Machine (workflow) | 52,814 tokens | First scan run: failed mechanically (args arrived as string, zero chunks scanned); only merge agent ran |
 | 2026-09-19 | Machine (workflow) | 2,237,963 tokens | Full scan run: 20 Haiku scanners + merge + 10 Sonnet adversarial verifiers; 122 raw candidates, 10 merged, verdicts 4 confirmed / 2 uncertain / 4 refuted |
+| 2026-09-19 | Machine (agent) | 130,810 tokens | Artefact-level adversarial review of all created cards, indexes, skill, memory; 12 findings, all fixed |
+| 2026-09-19 | Julian attended | 30 min | Phase 2, system build and run: mapping-table review, verdict discussions, output spot-check (self-reported). Content verification of the produced artefacts deliberately NOT included - it is a separate phase, logged below when done |

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/the-human-mind/decision-making-under-pressure.md",
+                "file": "wiki/performance/biases-index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "decision-making-under-pressure"
+              "title": "biases-index"
             }
           }
         ]
@@ -200,6 +200,10 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/the-human-mind/decision-making-under-pressure.md",
+    "wiki/ai-os/system-design/claude/memory/feedback-narrative-fill.md",
+    "wiki/ai-os/skills/bias-check/SKILL.md",
+    "wiki/ai-os/skills/bias-check",
     "wiki/performance/biases-index.md",
     "wiki/performance/working-with-yourself/mm-fear-disguise-bias.md",
     "wiki/performance/working-with-yourself/mm-payoff-vs-prestige-bias.md",
@@ -223,9 +227,6 @@
     "wiki/performance/decision-frameworks/brain-brand-framework.md",
     "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
     "wiki/performance/decision-frameworks/seven-step-decision-process.md",
-    "wiki/performance/decision-frameworks/sharran-simple-decision-framework.md",
-    "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
-    "wiki/ai-os/skills/grilling/agents/openai.yaml.md",
     "wiki/ai-os/skills/grilling/agents",
     "wiki/ai-os/skills/grilling",
     "wiki/career/ddg-caio/acme-proposal.pdf",
@@ -235,7 +236,6 @@
     "wiki/relationships/Divorce",
     "wiki/performance/decision-journal/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-journal/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
-    "wiki/performance/decision-journal/uk-move",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",

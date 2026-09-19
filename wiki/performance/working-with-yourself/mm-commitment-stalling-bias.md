@@ -7,7 +7,7 @@ tags: [working-with-yourself, cognitive-bias, decision-making, mental-models]
 
 # MM: Commitment-Stalling Bias
 
-This card names the bias of completing the analysis but letting the commit point recede. Confirmed with quoted evidence across 11 time-slices of Julian's session history during [[bias-history-review]], promoting the memory-only correction (`feedback-commitment-forcing`) to a card. The detail article is [[commitment-avoidance]]; the countermeasure card is [[mm-commit-with-a-forcing-function]].
+This card names the bias of completing the analysis but letting the commit point recede. Confirmed with verified quoted evidence across multiple independent instances (May-Aug 2026) during [[bias-history-review]], promoting the memory-only correction (`feedback-commitment-forcing`) to a card. The detail article is [[commitment-avoidance]]; the countermeasure card is [[mm-commit-with-a-forcing-function]].
 
 **One-liner:** Analysis complete is not decided - the commit point recedes until something external forces it.
 

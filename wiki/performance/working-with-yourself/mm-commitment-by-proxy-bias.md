@@ -16,7 +16,7 @@ This card names the bias of letting the model author a commitment - approving a 
 ## Key Takeaways
 
 - Approving is cheaper than authoring, and the cheapness is the problem: a commitment that cost nothing to make costs nothing to abandon.
-- The tell in the evidence: decisions "committed" in model-drafted documents reopened within days; the retyping rule exists because approval did not bind.
+- The tell in the evidence: decisions "committed" in model-drafted documents reopened within days. The register holds commitment-by-proxy as its hypothesis for why (medium confidence), and the retyping rule is the test of it.
 - The same mechanism drives unbriefed work drift: gaps Julian leaves get filled with the model's assumptions, and the work becomes the model's idea of the task (the reason Prompt Zero must be in his own words).
 
 ## Principles

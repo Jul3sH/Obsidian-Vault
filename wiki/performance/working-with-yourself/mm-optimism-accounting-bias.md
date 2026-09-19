@@ -21,7 +21,7 @@ This card names the bias of booking unrealised assets as if they had landed. Doc
 
 ## Principles
 
-- **Two columns, always: Banked and Hoped.** Hoped items may be upside narrative, never inputs to runway, breakeven, or a committed choice.
+- **Two columns, always: Banked and Hoped** - the register's counter-move, quoted in full in [[commitment-lock-protocol]]; nothing Hoped enters a committed figure.
 - **A thing is Banked when it has landed, not when it is likely.**
 - **Optimism belongs in the story, not the spreadsheet.**
 
