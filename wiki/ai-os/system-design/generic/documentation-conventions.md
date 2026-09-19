@@ -89,6 +89,14 @@ the same six slots in the same order:
   `wiki/performance/`), grouped by workstream, with its one-liner as the
   description. Adding the index row is part of creating the model, not a separate
   step.
+- **Every documented personal bias has, at minimum, an mm card** with "bias" in
+  the filename (e.g. `mm-recency-bias.md`); detail articles exist only where the
+  evidence warrants one. The bias card and its countermeasure card are separate
+  files that link to each other and never restate each other's content. Every
+  bias card also gets a row in [[biases-index]] (trigger situation + card link),
+  and adding that row includes checking the row's situation type is covered by
+  the `bias-check` skill's trigger, widening it if not - in the same operation.
+  *(Rule agreed 19 Sep 2026 during [[bias-history-review]].)*
 
 ### When adding hierarchy - Claude's check
 Before creating new folders, nesting, or per-item files, sanity-check:

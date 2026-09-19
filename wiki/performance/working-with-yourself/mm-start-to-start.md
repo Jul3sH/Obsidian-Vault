@@ -9,7 +9,7 @@ tags: [working-with-yourself, procrastination, mental-models]
 
 This is the action half of the procrastination pattern: what actually gets you
 moving once you're stalled. It was split out so the mechanics of starting stand on
-their own, separate from the fear-naming half in [[mm-fear-wears-a-disguise]]. Read
+their own, separate from the fear-naming half in [[mm-fear-disguise-bias]]. Read
 it when you're stuck, not when you're trying to work out why.
 
 **One-liner:** Fear and stress shrink the moment you start; they never shrink while
@@ -53,7 +53,7 @@ before opening the file, making the call, or committing.
 
 This model covers the mechanics of getting moving; it doesn't diagnose why you're
 stuck. If the stall is really a rationalised fear, use
-[[mm-fear-wears-a-disguise]] to name it first, then start.
+[[mm-fear-disguise-bias]] to name it first, then start.
 
 ## Detail
 

@@ -6,7 +6,7 @@ metadata:
   type: feedback
   created: 2026-08-09
   originSessionId: 0ba631ad-8f02-48f1-bd6f-39c82188c613
-  modified: 2026-08-09T07:14:24.822Z
+  modified: 2026-09-19T15:51:52.083Z
 ---
 
 # Write plainly, quote precisely
@@ -21,5 +21,7 @@ metadata:
 **Why it matters:** this surfaced while building [[tti-ty-proposal-sources]] for the TTI Ty proposal. An overreaching paraphrase of Ty's own quote ("AI agenda aimed at G&A") was in an outbound document Ty would read - the kind of claim a numerate CFO checks. Julian caught it by asking for the verbatim source.
 
 **How to apply:** when summarising a source, prefer quoting close to verbatim over compressing into a punchier claim. When writing generally, favour direct plain sentences over aphoristic rhetorical patterns. This applies everywhere, not just TTI documents.
+
+**Second instance (19 Sep 2026):** *"you're talking cryptic, garbled rubbish. Can you talk in English, please, and drop the jargon?"* Triggered by a results summary containing compressed pipeline-speak: "the scan's 'find new patterns' mandate partially covered the gap, and the confirmed findings map onto some of them." The failure mode extends beyond aphorisms: **status updates and results summaries written in internal shorthand** (mandate, map onto, covered the gap, seeded, tier) instead of plain sentences describing what actually happened. Before sending any summary to Julian, reread it as someone who was not present during the work: every term invented during the task must be replaced with what it plainly means.
 
 Related: [[feedback-bare-identifiers]] (same session, same root cause - precision over cleverness in how information is carried to Julian).

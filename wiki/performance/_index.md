@@ -8,6 +8,7 @@ Covers personal productivity systems, execution discipline, habit formation, and
 
 ## Mental Models
 - [[mental-models-index|Mental Models Index]] — Every mental model in the vault, by workstream, each with its one-liner
+- [[biases-index|Biases Index]] — Every documented personal bias, keyed by the situation in which it fires, linking each bias's mm card
 
 ## Goals & Habits
 - [[goals-register|Goals Register]] — Single-view of all active goals across all workstreams, with project and habit alignment

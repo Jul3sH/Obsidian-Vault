@@ -43,7 +43,7 @@ sentences:
 ### The human mind
 
 - [[mm-confirmation-bias]] - You will find what you're looking for, so look for the disconfirming case
-- [[mm-stories-arent-evidence]] - The story that fills a silence is speculation, not a read; label it before it hardens into fact
+- [[mm-narrative-fill-bias]] - The story that fills a silence is speculation, not a read; label it before it hardens into fact
 
 ### Working with others
 
@@ -71,7 +71,7 @@ sentences:
 - [[mm-never-react]] - Between the trigger and the response, walk away
 - [[mm-verify-before-acting]] - However convincing it looks, verify it before you act on it
 - [[mm-start-to-start]] - Fear and stress shrink the moment you start; they never shrink while you wait
-- [[mm-fear-wears-a-disguise]] - Fear presents as a reasonable objection; name it before believing it
+- [[mm-fear-disguise-bias]] - Fear presents as a reasonable objection; name it before believing it
 - [[mm-ship-early]] - Early and done beats late and polished
 - [[mm-setbacks-are-glitches]] - Recover fast: a setback is a data point, not a verdict
 - [[mm-ease-and-grace]] - The composed persona is a decision made in advance, not a mood
@@ -84,10 +84,22 @@ sentences:
 - [[mm-systems-are-motivation]] - The tracker is not overhead on the work, it is the engine that gets the work done
 - [[mm-timebox-the-rabbit-hole]] - Curiosity without a timebox is scope creep wearing a productive disguise
 - [[mm-impaired-state-rules]] - Tired, drinking, or emotional: the rule decides, not you
-- [[mm-payoff-vs-prestige]] - Learn for what it produces, not for how impressive you'll sound explaining it
+- [[mm-payoff-vs-prestige-bias]] - Learn for what it produces, not for how impressive you'll sound explaining it
 - [[mm-visual-representation-bias]] - A vivid picture of the good day is not a decision; ask for the ordinary bad day too
 - [[mm-be-coachable]] - You hired the coach; interrupting them to correct them is paying to not listen
 - [[mm-eggs-in-one-basket]] - Conviction is not an offer; keep the other baskets live until the contract is signed
+- [[mm-overanalysis-bias]] - Depth is earned by stakes, not by available material - analysis past the decision's needs is cost, not rigour
+- [[mm-commitment-stalling-bias]] - Analysis complete is not decided - the commit point recedes until something external forces it
+- [[mm-decision-reopening-bias]] - The feeling that follows a locked decision is forecast, not evidence
+- [[mm-build-dont-adopt-bias]] - Building the system is the dopamine; adoption is the work - no build without a forcing function
+- [[mm-confirmation-amplification-bias]] - The helper model amplifies your lean - its errors will all point your way unless a hostile pass hunts them
+- [[mm-recency-bias]] - Conviction re-anchors to the last warm voice, not the evidence
+- [[mm-certainty-spike-bias]] - From someone whose honest outputs are ranges, "100% convinced" is a warning light, not a green one
+- [[mm-answer-first-bias]] - A case written before the review is advocacy, not analysis
+- [[mm-optimism-accounting-bias]] - Hoped-for money is narrative; only banked money is runway
+- [[mm-loss-aversion-bias]] - A fear with no breachable floor gets no vote
+- [[mm-sunk-cost-bias]] - The question is where the money is best deployed now, never how to get back what was paid
+- [[mm-commitment-by-proxy-bias]] - A commitment the model drafted is not yours until you retype it
 
 ### Working with GenAI
 
@@ -99,6 +111,7 @@ sentences:
 - [[mm-token-economics]] - Context is rent, not a purchase
 - [[mm-blast-radius]] - Assume the wrong call happens, then decide whether you could live with it
 - [[mm-model-adaptation]] - Ask whether the model is missing information or missing a habit, then climb one rung at a time
+- [[mm-work-types]] - Classify work by how it gets checked, not what it is about
 
 [[mm-verification]], [[mm-routing]] and [[mm-steering]] chain: verification decides
 what is possible, routing decides the architecture, steering configures it.

@@ -5,15 +5,9 @@ status: active
 tags: [the-human-mind, cognitive-bias, mental-models]
 ---
 
-# MM: Stories Aren't Evidence
+# MM: Narrative-Fill Bias
 
-This is the Stories Aren't Evidence mental model: the habit of filling an information
-gap (a silence, an unexplained decision, someone's motives) with an invented
-narrative, and then treating that narrative as a read of the situation. It was
-created from the TTI engagement, which Julian's own review found was characterised
-by it: "I told myself a lot of stories that were largely speculation." Read it
-whenever a gap in the facts is being explained by a story about what other people
-are thinking or doing.
+This is the Narrative-Fill Bias mental model (renamed from `mm-stories-arent-evidence`, 19 Sep 2026, under the every-bias-has-a-bias-card rule): the habit of filling an information gap (a silence, an unexplained decision, someone's motives) with an invented narrative, and then treating that narrative as a read of the situation. It was created from the TTI engagement, which Julian's own review found was characterised by it: "I told myself a lot of stories that were largely speculation." The [[bias-history-review]] scan (19 Sep 2026) confirmed it as his most broadly evidenced bias: enacted across 15 time-slices of session history, spanning TTI politics, the family inheritance conflict, and job post-mortems. Read it whenever a gap in the facts is being explained by a story about what other people are thinking or doing.
 
 **One-liner:** The story that fills a silence is speculation, not a read - label it
 before it hardens into fact.
@@ -74,8 +68,9 @@ the failure mode is the unlabelled hypothesis promoted to fact.
 ## Detail
 
 This model is self-contained pending a detail article; its evidence is the primary
-record. If a dedicated article is written later, this section links it and the
-article wins on any disagreement.
+record plus the scan verdict in [[bias-history-review]]. If a dedicated article is
+written later, this section links it and the article wins on any disagreement.
+Row in [[biases-index]].
 
 ## Evidence
 
@@ -86,3 +81,4 @@ article wins on any disagreement.
 | 2026-06-20 | TTI: believed the family-radar lever was working on Stephan via Barbara; the log itself had to flag "Julian's speculation only" - it was never confirmed to have reached him | Don't build moves on a mechanism nobody has observed working | [[tti-comms-log]] |
 | 2026-08-18 | TTI: eight days of Ty silence became "wtf are they doing" and, by the 20th, "feels like game over" before any answer existed. The silence's actual cause was an org review running on a weeks clock | Don't get carried away with internal narratives that aren't backed by clear evidence - the anxious story and the real explanation had nothing in common | [[tti-role]], [[tti-comms-log]] |
 | 2026-08-24 | TTI: the detractor narrative (Tony consulted, propaganda, dirty washing) - but this time labelled out loud as "speculation, we will never know" before being logged | The discipline in action: tell the story if it's useful, but stamp SPECULATION on it so it informs without hardening into fact | [[tti-role]], [[tti-comms-log]] |
+| 2026-09-19 | [[bias-history-review]] scan: the pattern confirmed as enacted across 15 time-slices of session history - the most broadly evidenced of all scanned biases | The bias is domain-general: it fired in TTI politics, the inheritance conflict, and job post-mortems alike | [[bias-history-review]] |

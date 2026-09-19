@@ -39,7 +39,7 @@ alternatives has started to feel like wasted effort.
   probability, and probabilities do not warrant exclusivity. Ask what odds you
   would honestly put on it, then ask whether those odds justify an empty pipeline.
 - **Watch the belief machinery, not just the belief.** The certainty is
-  manufactured by [[mm-stories-arent-evidence]] (the internal narrative) and
+  manufactured by [[mm-narrative-fill-bias]] (the internal narrative) and
   [[mm-confirmation-bias]] (reading every signal as support), amplified by
   invested allies. When those are the sources, the confidence level is
   information about you, not about the outcome.

@@ -47,6 +47,39 @@ This is the fast-lane record for a machine-executed review of Julian's full Clau
 5. bias-check skill built, trigger covering every index row's situation type, documented and mirrored per the skills rule.
 6. Julian nominates which biases (if any) get the memory backstop.
 
+## Card Mapping (proposed 19 Sep 2026, pending Julian sign-off)
+
+Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias" in the name; the card links to detail and countermeasure, never restates them. All personal bias cards live in `wiki/performance/working-with-yourself/`; generic-tier cards stay in `the-human-mind/`.
+
+**New cards (12):**
+
+| Card | Evidence source | Links to (detail / cure) |
+|------|----------------|--------------------------|
+| mm-overanalysis-bias | Scan: confirmed, 12 chunks | Cure: decision-feeds test, [[ai-os/skills/prompt-zero/SKILL\|prompt-zero]], [[mm-timebox-the-rabbit-hole]] (rabbit-holing folded in as mechanism) |
+| mm-commitment-stalling-bias | Scan: confirmed, 11 chunks | Detail: [[commitment-avoidance]]; cure: [[mm-commit-with-a-forcing-function]]; mechanism note: options-preservation (autonomy finding folded in) |
+| mm-decision-reopening-bias | Scan: uncertain, ruled confirmed-but-managed; register #1 | Detail: [[commitment-lock-protocol]]; cure: commitment-guard skill, reopen test |
+| mm-build-dont-adopt-bias | Scan: uncertain, ruled real-but-narrower | Cure: adoption forcing-function, [[systems-register]] rule |
+| mm-confirmation-amplification-bias | Register #4 (personal form of confirmation bias) | Detail: [[commitment-lock-protocol]] division of labour; cure: case-builder never validates |
+| mm-recency-bias | Register #2 | Cure: 48h warm-contact stand-down |
+| mm-certainty-spike-bias | Register #3 | Cure: conviction >90% = warning light, anchor re-read |
+| mm-answer-first-bias | Register #5 | Cure: anchor docs only after adversarial review |
+| mm-optimism-accounting-bias | Register #6 | Cure: Banked/Hoped two-column rule |
+| mm-loss-aversion-bias | Register #7 | Cure: "state the floor; state the scenario that breaches it" |
+| mm-sunk-cost-bias | Register #8 | Cure: dated review trigger; "best deployed" question |
+| mm-commitment-by-proxy-bias | Register #9 | Cure: retyping rule (lock condition 1) |
+
+**Renames (3):** mm-stories-arent-evidence → mm-narrative-fill-bias (5 inbound files to repoint); mm-payoff-vs-prestige → mm-payoff-vs-prestige-bias (3); mm-fear-wears-a-disguise → mm-fear-disguise-bias (4).
+
+**Unchanged (2):** mm-visual-representation-bias; mm-confirmation-bias (generic tier).
+
+**Explicitly not carded:** assumption-blindness (scan refuted the active bias; evidence shows the assumption-audit control working - memory stays as the control); strategic-narrative-construction (deliberate skill, not a bias); autonomy-options-prioritisation (folded into commitment-stalling as mechanism); cure/discipline cards (timebox-the-rabbit-hole, commit-with-a-forcing-function, never-react, eggs-in-one-basket, start-to-start, impaired-state-rules) unchanged - they are countermeasures, not biases.
+
+**biases-index.md:** 17 rows (12 new + 3 renamed + 2 unchanged), each: trigger situation + card link.
+
+**Memory backstop proposal:** keep visual-representation-bias and decision-reopening; add narrative-fill (highest frequency, drives real stakeholder strategy). No others.
+
+**bias-check skill trigger situations (v1):** weighing life/career options; wobble after a locked decision; scoping a piece of analysis; at the point of sending/committing; interpreting someone's silence or behaviour; building financial models or plans; designing a new system or process.
+
 ## Time and Token Log
 
 | Date | Type | Effort | Notes |

@@ -65,7 +65,7 @@ feedback.
 
 This model is about bounding time already spent on a legitimate activity; it does
 not decide whether the activity should be started at all (see
-[[mm-payoff-vs-prestige]] for whether the topic itself is worth learning). It also
+[[mm-payoff-vs-prestige-bias]] for whether the topic itself is worth learning). It also
 does not apply to genuinely open-ended exploration deliberately scoped as
 speculative; the timebox there is set at the deliverable level, not mid-flow.
 

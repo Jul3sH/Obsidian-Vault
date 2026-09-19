@@ -5,9 +5,9 @@ status: active
 tags: [working-with-yourself, adhd, cognitive-bias, learning, mental-models]
 ---
 
-# MM: Payoff vs Prestige
+# MM: Payoff vs Prestige Bias
 
-This is the Payoff vs Prestige mental model: a compact six-slot distillation of the
+This is the Payoff vs Prestige Bias mental model (renamed from `mm-payoff-vs-prestige`, 19 Sep 2026, under the every-bias-has-a-bias-card rule): a compact six-slot distillation of the
 existing pattern-grain article [[payoff-vs-prestige-bias]], which already carries
 the full test and rationale. This card exists so the pattern sits alongside the
 other working-with-yourself models in one format; the article remains the
@@ -63,7 +63,7 @@ provided it is labelled and capped.
 ## Detail
 
 [[payoff-vs-prestige-bias]]. If this model and that article disagree, the article
-wins pending correction.
+wins pending correction. Row in [[biases-index]].
 
 ## Evidence
 

@@ -2,12 +2,12 @@
 type: reference
 created: 2026-08-26
 status: active
-tags: [working-with-yourself, procrastination, mental-models]
+tags: [working-with-yourself, procrastination, cognitive-bias, mental-models]
 ---
 
-# MM: Fear Wears a Disguise
+# MM: Fear-Disguise Bias
 
-This is the diagnostic half of the procrastination pattern: naming fear before it
+This is the diagnostic half of the procrastination pattern (renamed from `mm-fear-wears-a-disguise`, 19 Sep 2026, under the every-bias-has-a-bias-card rule): naming fear before it
 gets a chance to pass itself off as a reasonable objection. It pairs with
 [[mm-start-to-start]], which covers what to do once the disguise is spotted. Read
 it when a decision to avoid something starts to feel unusually well-argued.
@@ -59,7 +59,7 @@ treating genuine risk assessment as "just fear" is its own mistake.
 ## Detail
 
 [[beating-procrastination-face-fear-get-started]]. If this model and the article
-disagree, the article wins pending correction.
+disagree, the article wins pending correction. Row in [[biases-index]].
 
 ## Evidence
 
