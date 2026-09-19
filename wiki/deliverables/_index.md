@@ -45,6 +45,7 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 | Deliverable | Workstream | Hours | Status |
 |-------------|-----------|-------|--------|
 | [[techtronic-covid-essay-ideas|Techtronic Covid Essay Ideas]] | Relationships | 2h | queued |
+| [[bias-history-review|Bias History Review]] | Performance | 2h (fast lane) | in progress (19 Sep 2026) |
 
 ## BAU / Standalone
 
