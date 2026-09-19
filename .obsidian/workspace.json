@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
+                "file": "wiki/performance/decision-frameworks/belief-assumption-testing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HK-BRAIND"
+              "title": "belief-assumption-testing"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "driving license",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -199,8 +198,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6a86c3d76dc7fc1a",
+  "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/decision-frameworks/brain-brand-framework.md",
+    "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
+    "wiki/performance/decision-frameworks/seven-step-decision-process.md",
+    "wiki/performance/decision-frameworks/sharran-simple-decision-framework.md",
+    "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
     "wiki/ai-os/skills/grilling/agents/openai.yaml.md",
     "wiki/ai-os/skills/grilling/agents",
     "wiki/ai-os/skills/grilling/SKILL.md",
@@ -229,11 +233,6 @@
     "wiki/performance/decision-journal/dec-stay-with-hannah.md",
     "wiki/performance/decision-journal/dec-bangkok-departure.md",
     "wiki/performance/decision-journal/decisions-register.md",
-    "wiki/performance/decision-journal/decision-maker-profile.md",
-    "wiki/performance/decision-journal/decision-journal.md",
-    "wiki/performance/decision-journal/dec-uk-move.md",
-    "wiki/performance/decision-frameworks/belief-assumption-testing.md",
-    "wiki/performance/decision-journal/_index.md",
     "wiki/performance/decision-journal/uk-move/uk-move-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-journal/uk-move/uk-move-decision-risk-register-2026-07-12.xlsx",
     "wiki/performance/decision-journal/uk-move",
