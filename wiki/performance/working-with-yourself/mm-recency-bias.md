@@ -38,3 +38,9 @@ This card names the bias of conviction re-anchoring to the most recent emotional
 ## Detail
 
 Register entry and drills: [[commitment-lock-protocol]]. Row in [[biases-index]].
+
+## Evidence
+
+| Date | Event | Lesson in action | Source |
+|------|-------|-------------------|--------|
+| 20 Sep 2026 | Missing-person night: the read of Clodagh's state anchored to her last emotional sentence at the departure ("I thought you loved me") rather than to the fuller record of the same day (she asked the police to take her to hospital - help-seeking - and spoke to her ex later). She surfaced safe the next morning | The last, most emotional data point is not the weightiest one. The final sentence of a contact was setting the conviction about what happened next; re-reading the whole record showed it pointed the other way | Live session, 20 Sep 2026 (no separate wiki record) |
