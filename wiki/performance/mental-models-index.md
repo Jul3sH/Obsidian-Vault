@@ -5,7 +5,9 @@
 ## What belongs here
 
 Every mental model (`mm-*.md`) in the vault is listed here, whatever folder it
-lives in. A model lives beside its detail articles, not in this index's folder.
+lives in. The whole-system overview (tiers, card taxonomy, retrieval and capture
+paths) is [[mental-models-system]].
+A model lives beside its detail articles, not in this index's folder.
 The vault-wide convention is two-tier: a model is the reach-for layer (one
 pattern, six-slot format, evidence table linking its original sources); its
 detail articles hold the fuller framework, linked from the model's Detail slot,

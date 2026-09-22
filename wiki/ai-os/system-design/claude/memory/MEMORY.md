@@ -23,6 +23,7 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-outbound-punctuation.md | feedback | In outbound prose, never use spaced hyphens " - " as connectors; use commas, colons, full stops, or parentheses at drafting time |
 | feedback-visible-waiting-state.md | feedback | When blocked on Julian's input, end the turn with an unmissable ask ("Waiting on you:" + one direct question as the closing line) - never fold the question into a status paragraph |
 | feedback-narrative-fill.md | feedback | The most broadly evidenced of Julian's confirmed biases: fills silence/ambiguity with narratives about others' motives and strategises on them as fact - challenge the story, offer the boring explanation, label speculation |
+| feedback-taxonomy-before-filing.md | feedback | Read wiki/ai-os/taxonomy.md + the destination index's filing test before proposing any file location or structural change; before restructuring, check failing-or-forgotten and raise mm-build-dont-adopt-bias |
 
 | feedback-resizing-needs-agreement.md | feedback | Never re-size/re-score a project without asking Julian; size on work REMAINING, not the full activity list |
 

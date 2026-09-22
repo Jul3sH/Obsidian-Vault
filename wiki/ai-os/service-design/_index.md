@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-05-20
+updated: 2026-09-22
 ---
 
 # Service Design
@@ -30,6 +30,7 @@ For the taxonomy that decides what belongs here vs. System Design, see [[../taxo
 - [[api-skill-troubleshooting|API Skill Troubleshooting]] — Isolation testing methodology and environment-specific gotchas (VPN routing, billing checks, curl isolation)
 - [[prioritization-framework|Prioritization Framework]] — How to decide what to work on and when: workstream hierarchy, WSJF within workstreams, cross-workstream scheduling rules (draft)
 - [[estimation-baseline|Estimation Baseline]] — Estimate vs actuals for every Project (three estimate points: t-shirt, scoped, actual); calibrates future sizing against real history
+- [[mental-models-system|Mental Models System]] — Whole-system overview of the mental-models estate: the four tiers (source evidence → evidence rows → six-slot cards → detail articles), the bias-vs-discipline card taxonomy, retrieval paths, and the capture path that replaces a lessons-learned register
 
 ## Archived
 

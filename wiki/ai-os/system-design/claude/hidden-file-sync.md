@@ -1,7 +1,7 @@
 ---
 type: reference
 created: 2026-05-08
-updated: 2026-08-17
+updated: 2026-09-22
 ---
 
 # Hidden File Sync Checklist
@@ -75,7 +75,8 @@ updated: 2026-08-17
 | feedback-verify-before-writing.md | `~/.claude/projects/.../memory/feedback-verify-before-writing.md` | [[memory/feedback-verify-before-writing\|feedback-verify-before-writing.md]] | 2026-08-01 (new: verify a checkable claim in the same turn it is written into a file; six same-shape errors in one session, each one bash call away) |
 | feedback-hold-the-pen-voice-messages.md | `~/.claude/projects/.../memory/feedback-hold-the-pen-voice-messages.md` | [[memory/feedback-hold-the-pen-voice-messages\|feedback-hold-the-pen-voice-messages.md]] | 2026-08-27 (new: outbound personal messages - Julian drafts first, Claude critiques and fact-checks; validated from TTI comms log + session transcripts; paired with the mm-routing evidence row) |
 | feedback-resizing-needs-agreement.md | `~/.claude/projects/.../memory/feedback-resizing-needs-agreement.md` | [[memory/feedback-resizing-needs-agreement\|feedback-resizing-needs-agreement.md]] | 2026-08-28 (new: never re-size/re-score a project without asking Julian; size on remaining work, not the full activity list) |
-| MEMORY.md | `~/.claude/projects/.../memory/MEMORY.md` | [[memory/MEMORY\|MEMORY.md]] | 2026-09-19 (added feedback-narrative-fill.md row). Prior: 2026-08-28 (added feedback-resizing-needs-agreement.md row) |
+| MEMORY.md | `~/.claude/projects/.../memory/MEMORY.md` | [[memory/MEMORY\|MEMORY.md]] | 2026-09-22 (added feedback-taxonomy-before-filing.md row). Prior: 2026-09-19 (added feedback-narrative-fill.md row). Prior: 2026-08-28 (added feedback-resizing-needs-agreement.md row) |
+| feedback-taxonomy-before-filing.md | `~/.claude/projects/.../memory/feedback-taxonomy-before-filing.md` | [[memory/feedback-taxonomy-before-filing\|feedback-taxonomy-before-filing.md]] | 2026-09-22 (new: read wiki/ai-os/taxonomy.md + destination filing test before proposing any file location or structural change; failing-or-forgotten check before restructures; born from the 21-22 Sep taxonomy near-restructure, paired with the mm-build-dont-adopt-bias evidence row) |
 | feedback-narrative-fill.md | `~/.claude/projects/.../memory/feedback-narrative-fill.md` | [[memory/feedback-narrative-fill\|feedback-narrative-fill.md]] | 2026-09-19 (new: the most broadly evidenced of Julian's confirmed biases, from bias-history-review - fills silence/ambiguity with narratives about others' motives; challenge the story, offer the boring explanation, label speculation; pairs with mm-narrative-fill-bias card. Same day: evidence claims corrected per artefact adversarial review) |
 | feedback-plain-writing-not-riddles.md | `~/.claude/projects/.../memory/feedback-plain-writing-not-riddles.md` | [[memory/feedback-plain-writing-not-riddles\|feedback-plain-writing-not-riddles.md]] | 2026-09-19 (second instance added: jargon/pipeline-speak in results summaries - reread summaries as someone not present during the work. Prior: 2026-08-09 (new)) |
 | feedback-decision-reopening.md | `~/.claude/projects/.../memory/feedback-decision-reopening.md` | [[memory/feedback-decision-reopening\|feedback-decision-reopening.md]] | 2026-09-04 (path reference repointed from wiki/performance/decisions/ to wiki/performance/decision-frameworks/ after folder rename. Prior: 2026-07-07 (new: defend LOCKED decisions from emotional U-turns; F-N-M-T reopen test + 48h stand-down; complements feedback-commitment-forcing)) |
