@@ -5,7 +5,7 @@ revised: 2026-05-25
 status: active
 flow: funnel
 t-shirt: L
-wsjf: —
+wsjf: -
 por-key: POR-1
 status-updated: 2026-06-09
 ---

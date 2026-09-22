@@ -4,7 +4,7 @@ created: 2026-06-03
 status: active
 flow: implementing
 t-shirt: S
-wsjf: —
+wsjf: -
 status-updated: 2026-06-21
 por-key: POR-18
 jira-key: BWS-15

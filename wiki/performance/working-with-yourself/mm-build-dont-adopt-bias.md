@@ -34,13 +34,8 @@ This card names the bias of getting the reward from designing a system and aband
 ## Limitations
 
 - Deliberate prototypes and experiments may be built to be discarded - say so at build time, then discarding is the plan, not the bias.
+- Sibling: [[mm-forgotten-system-bias]] covers proposing changes to an *existing* adopted system because it has dropped out of salience; this card covers building *new* systems for the design reward. Two 22 Sep 2026 instances briefly logged here were migrated there the same day when the distinction was made.
 
 ## Detail
 
 Evidence and verdict: [[bias-history-review]]. Register: [[systems-register]]. Row in [[biases-index]].
-
-## Evidence
-
-| Date | Event | Lesson in action | Source |
-|------|-------|-------------------|--------|
-| 2026-09-22 | While homing the new [[mental-models-system]] overview, nearly collapsed the service-design/system-design taxonomy into a single folder. The trigger was vocabulary salience (recent conversations about "systems" made the all-encompassing usage feel right), not any failure of the taxonomy; neither Julian nor the agent had re-read [[taxonomy]] (May 2026), which already answered the filing question, including a when-in-doubt default. Reading it ended the restructure in minutes | The redesign pull fired at a moment of forgetting, not at a point of failure: the adopted system was working, it had simply dropped out of salience. Before restructuring anything, run Reuse Before Build's first step (read the estate: taxonomy, register, indexes) and ask "is this failing, or forgotten?" | Live session, 22 Sep 2026; paired memory `feedback-taxonomy-before-filing` |

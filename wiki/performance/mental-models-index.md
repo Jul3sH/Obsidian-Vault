@@ -94,6 +94,7 @@ sentences:
 - [[mm-commitment-stalling-bias]] - Analysis complete is not decided - the commit point recedes until something external forces it
 - [[mm-decision-reopening-bias]] - The feeling that follows a locked decision is forecast, not evidence
 - [[mm-build-dont-adopt-bias]] - Building the system is the dopamine; adoption is the work - no build without a forcing function
+- [[mm-forgotten-system-bias]] - A redesign impulse toward a working system is usually forgetting, not failure - name the failure before touching the design
 - [[mm-confirmation-amplification-bias]] - The helper model amplifies your lean - its errors will all point your way unless a hostile pass hunts them
 - [[mm-recency-bias]] - Conviction re-anchors to the last warm voice, not the evidence
 - [[mm-certainty-spike-bias]] - From someone whose honest outputs are ranges, "100% convinced" is a warning light, not a green one

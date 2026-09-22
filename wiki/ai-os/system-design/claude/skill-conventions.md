@@ -1,4 +1,4 @@
-Strictly speaking, I don't think it's actually a skill. # Skill Conventions — API-Based Skills
+# Skill Conventions — API-Based Skills
 
 tags: [technical, skills, conventions, architecture]
 
@@ -9,10 +9,22 @@ tags: [technical, skills, conventions, architecture]
 ## Key Takeaways
 
 - Every skill has a matching wiki article under `wiki/ai-os/skills/[skill-name]/`
+- SKILL.md files are written in succinct bullets, never narrative prose (see Writing Style below)
 - Python scripts are documented as Markdown files with embedded code blocks — not stored as `.py` in the wiki
 - All skills share the same `credentials.py` and `gsheets_store.py` — copy, don't import across skills
 - The LLM model must be hardcoded in the script — never rely on a default
 - Run the pre-flight checklist before any debugging session
+
+---
+
+## SKILL.md Writing Style (added 2026-09-22)
+
+- **Succinct bullets, never narrative prose.** Julian has to hold skill behaviour in his head; paragraphs bury the rules (AGENTS.md: length is a defect, bullets over paragraphs).
+- Keep the heading/step structure; compress everything inside it to terse bullets.
+- Preserve verbatim material as code blocks: interview questions, output templates, commands, formats.
+- Frontmatter `description` is the trigger surface - it stays a single dense sentence-list, untouched by this rule.
+- Reference implementation: `whatsapp-someday/SKILL.md` (rewritten 2026-09-22, all Julian-authored skills converted the same day).
+- Third-party skills (e.g. `memory-architect`, `find-skills`) are not rewritten - they keep their authors' text.
 
 ---
 

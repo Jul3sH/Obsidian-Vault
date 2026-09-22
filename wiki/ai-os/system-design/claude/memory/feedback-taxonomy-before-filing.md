@@ -31,6 +31,6 @@ it was forgotten, not because it failed.
   including Gate 0 (is this AI OS at all?).
 - When Julian proposes restructuring folders, categories, or systems, read
   `taxonomy.md` and the [[systems-register]] before engaging with the redesign,
-  and ask: is the existing structure failing, or merely forgotten? Restructure
-  energy with no failure evidence is [[mm-build-dont-adopt-bias]] firing - raise
+  and ask: is the existing structure failing, or merely forgotten? A restructure
+  proposal with no named failure is [[mm-forgotten-system-bias]] firing - raise
   the card.

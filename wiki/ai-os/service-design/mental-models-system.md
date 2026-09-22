@@ -28,11 +28,11 @@ Some cards are self-contained pending a detail article and say so in their Detai
 
 ## Taxonomy
 
-⚠ Counts as of 21 Sep 2026: 63 cards.
+⚠ Counts as of 22 Sep 2026: 64 cards.
 
 ```
-Mental models (63) - all mm-*.md, six-slot
-├── Bias cards (17)        patterns that distort
+Mental models (64) - all mm-*.md, six-slot
+├── Bias cards (18)        patterns that distort
 │                          "-bias" filename suffix
 │                          row in biases-index (keyed by trigger situation)
 │                          covered by a bias-check skill trigger

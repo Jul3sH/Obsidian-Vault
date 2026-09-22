@@ -21,6 +21,7 @@ Every bias with an mm card, wherever the card lives. A bias is a recurring patte
 | Commitment-stalling bias | Analysis is done but the choice is not written; a draft gathers "one more" review before sending | [[mm-commitment-stalling-bias]] |
 | Decision-reopening bias | Doubt returns after a locked decision, especially within 72h of the lock or 48h of a warm contact | [[mm-decision-reopening-bias]] |
 | Build-don't-adopt bias | Designing a new system, process, register, or structure, and the designing feels energising | [[mm-build-dont-adopt-bias]] |
+| Forgotten-system bias | Proposing to change, reroute, merge, or restructure an existing system, process, or convention - especially with no named failure | [[mm-forgotten-system-bias]] |
 | Confirmation-amplification bias | An AI-assisted analysis supports the answer you wanted | [[mm-confirmation-amplification-bias]] |
 | Confirmation bias (generic) | Gathering or weighing evidence while already holding a belief | [[mm-confirmation-bias]] |
 | Recency bias | A lean or conviction shifted, and the last 48h contained an emotionally significant conversation | [[mm-recency-bias]] |
