@@ -19,13 +19,102 @@ tags: [finance, uk-relocation, tax, residency, srt]
 
 *The operative question: does Julian need to leave the UK before 90 days, or can he stay longer?*
 
+### First, the four terms this section uses
+
+Everything below rests on four ideas. They are the whole mechanism.
+
+**1. The Statutory Residence Test (SRT)** decides whether you are UK tax resident in a given tax year (6 April to 5 April). It is mechanical, not a judgement call: you either meet a test or you do not.
+
+**2. "Arriver" vs "leaver."** If you were **not** UK resident in any of the three preceding tax years you are an *arriver*, and the generous table applies. If you were resident in any of them you are a *leaver*, and a much stricter table applies, plus an extra fifth tie. **Julian and Sophia are both arrivers** (non-resident 2023/24, 2024/25, 2025/26). Losing arriver status is the single most expensive thing that can happen in this analysis.
+
+**3. The four ties.** If no automatic test decides the question, residence turns on how many "ties" — connections to the UK — you hold, measured against your day count. An arriver has four available:
+
+| Tie | You have it if... | Julian, 2026/27 |
+|---|---|---|
+| **Accommodation** | UK accommodation is available to you for a continuous 91 days and you spend at least 1 night there — **16 nights** if it is a close relative's home | ✅ **HELD** — living at his mother's, far beyond 16 nights |
+| **Family** | Your UK-resident spouse, cohabiting partner, or own child under 18 | ❌ No partner; Sophia cannot be resident below 183 days |
+| **Work** | You work 40+ days of more than 3 hours in the UK | ❌ Not working in the UK |
+| **90-day** | You spent more than 90 days in the UK in **either** of the two preceding tax years | ❌ 39 days in 2025/26; under 45 in 2024/25 |
+
+*(A fifth, the **country tie**, exists only for leavers. It does not apply to Julian while he remains an arriver.)*
+
+**4. Table B — the arriver day-count table.** This is the table referred to throughout. **It answers one question only: am I UK resident for this tax year, yes or no?**
+
+Being an arriver is an **input**, not an output — it is what selects Table B rather than the harsher Table A. The sequence is:
+
+> **Were you resident in any of the last 3 tax years?** → No, so you are an **arriver** → therefore use **Table B** → **look up your UK day count against your number of ties** → the table tells you whether you are **resident or non-resident** this year.
+
+So "arriver" is settled before you open the table; the table then decides residence.
+
+| UK days in the tax year | Ties needed to make you UK RESIDENT |
+|---|---|
+| Up to 45 | — automatically **non-resident** (second automatic overseas test) |
+| 46–90 | **All 4** |
+| 91–120 | **3 or more** |
+| 121–182 | **2 or more** |
+| 183+ | — automatically **resident**, ties irrelevant |
+
+> ### ⚠️ THERE ARE TWO DIFFERENT "90s" — AND THEY ARE UNRELATED
+>
+> The number 90 appears twice in this test, meaning two completely different things. Confusing them is the most likely way to misread this document.
+>
+> | | **The 90-day TIE** | **The 90-day BAND in Table B** |
+> |---|---|---|
+> | **What it is** | One of the four ties | A row boundary in the day-count table |
+> | **Which year it looks at** | The **two PRECEDING** tax years | The **CURRENT** tax year |
+> | **Question it asks** | Did I spend >90 UK days in either of the last two years? | How many UK days have I spent *this* year? |
+> | **What it produces** | A **tie** — an input to the table | Nothing by itself — it just selects which row of the table you read |
+> | **Direction** | Backward-looking | Present |
+>
+> **They are not connected.** You can spend 180 days in the UK this year and still have no 90-day tie this year (if the previous two years were quiet) — which is exactly Julian's position.
+>
+> **Worked through, for Julian in 2026/27:**
+> - **The Table B band:** at 43 days he is currently in the 46–90 row, heading for 91–120 and possibly beyond. Those rows demand 4 ties and 3 ties respectively. **He has 1. So no band catches him** — the Table B 90 boundary is irrelevant to him this year, and so is the 121 boundary.
+> - **The 90-day tie:** determined entirely by 2024/25 (under 45) and 2025/26 (39). **He does not have it, and cannot acquire it this year** — nothing he does between now and 5 April 2027 can change a test about two years that have already finished.
+>
+> > **So: the only reason 90 days matters to Julian at all is the TIE, not the TABLE.** The table's 90-day boundary does nothing to him. What matters is that crossing 90 days this year hands him a *tie* in 2027/28 and 2028/29 — which is a decision about those years, not this one.
+
+
+> ### The single most important consequence
+>
+> **No band in Table B is triggered by one tie.** An arriver needs at least **two** ties before any day count below 183 can make them resident.
+>
+> So Julian's accommodation tie is, by itself, **completely inert**. One tie and zero ties give an identical answer: non-resident up to 182 days.
+>
+> **It only becomes dangerous when paired with a second tie** — and the 90-day tie is the one that would eventually pair with it.
+>
+> ### ⚠️ Critical: the 90-day tie looks BACKWARDS
+>
+> This is the single easiest thing to misread in the whole test. **The 90-day tie is never about the year you are in.** It asks only: *did I spend more than 90 days in the UK in either of the **two preceding** tax years?*
+>
+> Applied to Julian:
+>
+> | Tax year | The tie looks back at... | Days in those years | 90-day tie? |
+> |---|---|---|---|
+> | **2026/27** (now) | 2024/25 and 2025/26 | under 45, and 39 | ❌ **No** |
+> | **2027/28** | 2025/26 and **2026/27** | 39, and *this year's count* | ⚠️ **Only if he exceeds 90 now** |
+> | **2028/29** | **2026/27** and 2027/28 | *this year's count*, and next year's | ⚠️ **Only if either exceeds 90** |
+> | **2029/30** | 2027/28 and 2028/29 | 2026/27 has dropped out | Depends on those years alone |
+>
+> **So staying past 90 days this year does NOT give Julian a second tie this year.** He holds one tie in 2026/27 whatever he does, right up to 182 days. What it does is create a second tie in **2027/28 and 2028/29** — and it then expires.
+>
+> That is the entire substance of the decision below: **nothing he does this autumn changes 2026/27. It changes the two years after it.**
+
+*(Table A is the equivalent table for leavers, and is much harsher — 4 ties at 16–45 days, 3 at 46–90, 2 at 91–120, and just 1 above 120. It matters only if Julian or Sophia becomes resident and loses arriver status.)*
+
+---
+
 ### Short answer
 
-**Crossing 121 days *this year* does no forward damage beyond what crossing 90 already does.** That is the only sense in which 121 is not a threshold.
+**121 matters in future years, not in this one.**
 
-> ⚠️ **Do not carry "ignore 121" into future years.** If you cross 90 this year you hold two ties in 2027/28 and 2028/29 — and **121 then becomes the residence threshold in both** (Table B: more than 120 days, 2 ties → resident).
+- **In 2026/27 it does nothing.** You hold **one tie — the accommodation tie**, from living at your mother's house (close relative, 16-night threshold, long since passed). The other three do not apply: no family tie (no partner, and Sophia cannot be resident below 183 days), no work tie (not working in the UK), no 90-day tie (39 days in 2025/26, under 45 in 2024/25). Table B only makes an arriver resident above 120 days at **two or more** ties, so you pass straight through 121 and remain non-resident to 182 days. Full working at §3.
+- **Crossing 121 rather than stopping at 91 costs you nothing extra for the future either.** The forward consequence is the 90-day tie, and that is created the moment you pass 90. Days 91 through 182 add no further forward damage.
+- **But in 2027/28 and 2028/29, 121 becomes a real cliff** — *if* you cross 90 this year. You would then hold two ties (accommodation + 90-day), and at two ties Table B makes you resident above 120 days.
 
-**90 days is the only threshold that does anything** — and it affects exactly **two** future years, 2027/28 and 2028/29. It drops out entirely from 2029/30.
+> ⚠️ **So do not read "121 doesn't matter" as a general rule.** It is true only of 2026/27. Carrying it into 2027/28 after crossing 90 this year is exactly how you would become UK resident without noticing.
+
+**90 days is therefore the only threshold you control this year** — and crossing it affects exactly **two** future years, 2027/28 and 2028/29. It drops out entirely from 2029/30.
 
 **Whether that is material depends on one thing: how many UK days you actually want in those two years.** On the Hong Kong-job-plus-visiting plan, it is probably immaterial.
 
