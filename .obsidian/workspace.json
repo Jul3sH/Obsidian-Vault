@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/technology/Memory systems/memory-capabilities.md",
+                "file": "wiki/finance/uktax-srt-fy26-27.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory-capabilities"
+              "title": "uktax-srt-fy26-27"
             }
           }
         ]
@@ -200,6 +200,9 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/technology/Memory systems/memory-capabilities.md",
+    "wiki/finance/uktax-srt-fy26-27.md",
+    "wiki/finance/UKTAX-SRT-FY26-27.md",
     "wiki/performance/working-with-yourself/mm-forgotten-system-bias.md",
     "wiki/technology/Memory systems/_index.md",
     "wiki/technology/Memory systems/pillars-agile-os.md",
@@ -215,7 +218,6 @@
     "wiki/technology/Memory systems/memory-features.md",
     "wiki/technology/Memory systems/memory-challanges.md",
     "wiki/technology/Memory systems/memory-capture.md",
-    "wiki/technology/Memory systems/memory-capabilities.md",
     "wiki/ai-os/system-design/generic/claudeclaw-vs-agentic-os.md",
     "wiki/ai-os/system-design/generic/agent-instruction-architecture.md",
     "wiki/ai-os/service-design/prioritization-framework.md",
@@ -225,8 +227,6 @@
     "wiki/ai-os/service-design/workstream-framework.md",
     "wiki/ai-os/service-design/project-workflow.md",
     "wiki/ai-os/service-design/timebox-planning.md",
-    "wiki/ai-os/system-design/generic/memory-model-adoption.md",
-    "wiki/ai-os/system-design/generic/mental-models-system.md",
     "wiki/ai-os/skills/bias-check",
     "wiki/ai-os/skills/grilling/agents",
     "wiki/ai-os/skills/grilling",
