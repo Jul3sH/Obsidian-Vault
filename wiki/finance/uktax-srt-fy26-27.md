@@ -15,6 +15,16 @@ tags: [finance, uk-relocation, tax, residency, srt]
 
 ---
 
+# PART ONE — THE DECISION
+
+**This part answers the question and shows the reasoning. If you read nothing else, read this.**
+
+It covers: the terms the answer depends on, what crossing 90 and 121 days actually costs, the circumstances that would change the answer, the Hong Kong job route, and the bottom line in five questions.
+
+**Part Two, which follows, is the working, the evidence and the reference material** — read it to check this answer rather than to find it.
+
+---
+
 ## ⭑ THE DECISION — what crossing 90 and 121 days actually costs
 
 *The operative question: does Julian need to leave the UK before 90 days, or can he stay longer?*
@@ -32,7 +42,7 @@ Everything below rests on four ideas. They are the whole mechanism.
 | Tie | You have it if... | Julian, 2026/27 |
 |---|---|---|
 | **Accommodation** | UK accommodation is available to you for a continuous 91 days and you spend at least 1 night there — **16 nights** if it is a close relative's home | ✅ **HELD** — living at his mother's, far beyond 16 nights |
-| **Family** | Your UK-resident spouse, cohabiting partner, or own child under 18 | ❌ No partner; Sophia cannot be resident below 183 days |
+| **Family** | A UK-resident spouse, cohabiting partner, or your own child under 18. **For a child there is a second limb: you must also see them in person in the UK on 61+ days** (see below) | ❌ No partner; and Sophia cannot be resident below 183 days |
 | **Work** | You work 40+ days of more than 3 hours in the UK | ❌ Not working in the UK |
 | **90-day** | You spent more than 90 days in the UK in **either** of the two preceding tax years | ❌ 39 days in 2025/26; under 45 in 2024/25 |
 
@@ -200,7 +210,26 @@ You would lose **62 days of UK headroom in each of 2027/28 and 2028/29** — and
 
 ### The circumstance that DOES make it material: the family tie
 
-The 90-day tie is dangerous only in **combination**. If Sophia becomes UK resident (boarding school) **and** you see her in the UK on 61+ days, you pick up a family tie:
+#### First — how the family tie actually works for a child
+
+A child gives you a family tie only if **both** of these are true. Either one failing means no tie:
+
+1. **The child is UK resident in their own right** for that tax year — assessed by running the whole SRT on her separately; and
+2. **You spend time with her in person, in the UK, on 61 or more days** in that tax year.
+
+Three things about the 61-day count are worth knowing, because they decide how controllable it is:
+
+- **Any part of a day counts.** Seeing her for an hour is a day. A day that starts together in the UK and ends on a flight to Hong Kong is still a UK contact day.
+- **Days spent with her wholly outside the UK do not count at all** — not partially, not at a discount. Time together in Hong Kong, or on holiday anywhere that is not the UK, is unlimited and free.
+- **It is your own diary**, not hers. It does not depend on her school calendar or her residence position.
+
+**This is why limb 2 is the controllable one.** Limb 1 depends on Sophia's own circumstances, which once she is at UK boarding school are largely fixed. Limb 2 depends only on where you and she spend time together.
+
+**For 2026/27 limb 2 is already lost** — living together since 30 July, you passed 61 contact days long ago. So this year the tie turns entirely on limb 1, which is why her 183-day line on 28 January matters so much.
+
+#### Why this matters for the 90-day decision
+
+The 90-day tie is dangerous only in **combination**. If Sophia becomes UK resident **and** you see her in the UK on 61+ days, you pick up a family tie as your second or third tie:
 
 | In 27/28, with Sophia UK resident | Your ties | Your ceiling |
 |---|---|---|
@@ -276,27 +305,54 @@ A proper figure needs: anticipated Hong Kong income, Hong Kong salaries tax actu
 
 ---
 
-### The work test STACKS — it does not compete
+### If you take a Hong Kong job: a second, stronger protection that costs you nothing
 
-*Corrected after peer review. An earlier draft framed this as a trade-off. It is not.*
+*Corrected after peer review. An earlier draft framed this as a trade-off against the ties route. It is not — the two protections stack.*
 
-The third automatic overseas test has its own limits — fewer than **91 UK days** and fewer than **31 UK workdays** ([RFIG20140](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig20140), para 14(1)).
+**What this is about.** Everything above works through the ties test — count your days, count your ties, read Table B. But there is a completely separate route out, available only to someone working full-time abroad: the **third automatic overseas test**. If you meet it, you are non-resident immediately and the ties never get examined at all.
 
-But the tests are **not alternative routes to choose between**. The waterfall applies them in order: if the work test is met you are non-resident at Stage 1 and stop. If it fails — say you spend 100 UK days — you simply fall through to Stage 3, where your ties ceiling (120 or 182) still applies exactly as it would have.
+**Why it is a different kind of protection.** The SRT is applied as a sequence, not a balance:
 
-**So holding the work test costs nothing and forfeits nothing. It adds a layer.** And it is the *better* layer, because Stage 1 non-residence is independent of whether the Hong Kong flat remains a "home" (§5.8) — it removes that dependency entirely rather than relying on it holding.
+> **Stage 1 — automatic overseas tests.** Meet any one, and you are **non-resident. Stop.** Nothing below is considered.
+> **Stage 2 — automatic UK tests.** Meet any one, and you are **resident. Stop.**
+> **Stage 3 — the ties test.** Only reached if Stages 1 and 2 are both silent. This is where Table B lives.
+
+The work test sits at **Stage 1**, above everything discussed so far.
+
+**Its conditions** (para 14(1), [RFIG20140](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig20140)): full-time work overseas across the tax year, no 31-day break from overseas work, fewer than **31 UK workdays**, and fewer than **91 UK days**.
+
+**The point that was previously stated backwards.** Those limits look tighter than the 120- or 182-day ties ceiling, which made an earlier draft read as though you had to choose. You don't. **The tests are not alternatives.** If you meet the work test, you stop at Stage 1. If you fail it — say you spend 100 UK days — you simply fall through to Stage 3, where your ties ceiling applies exactly as it would have anyway.
+
+**So holding the work test costs nothing and forfeits nothing. It adds a layer.** And it is the *better* layer, because Stage 1 non-residence does not depend on the Hong Kong flat still counting as a "home" — it removes that dependency entirely rather than relying on it holding. That flat is the one genuinely fact-sensitive point in this whole analysis, so a route that bypasses it is worth having.
 
 The practical reading: **aim to meet the work test, and treat the ties ceiling as the backstop if a year's UK days run over 90.**
 
-### Bottom line
+### Bottom line: the decision in five questions
 
-| | |
-|---|---|
-| **Must you leave before 9 Nov 2026?** | **No.** Boarding starts Sept 2028 at the earliest, so the 90-day tie from this year and the boarding years barely overlap. The realistic cost is a 120- rather than 182-day ceiling in **2027/28 alone** — headroom you are unlikely to use on a Hong Kong-job year. |
-| **What does stopping at 90 buy?** | A 182- rather than 120-day ceiling in 2027/28. Insurance only. Useful whenever the work test fails, which is more ways than "the job falls through": a start later than 6 Apr 2027, an early finish, any 31-day non-leave gap, more than 30 UK workdays, more than 90 UK days, or the work being done remotely from the UK. |
-| **What does it cost?** | 47 days in the UK with Sophia between now and 9 November. |
-| **What should you actually control?** | (1) A **≤90 UK days per year** habit from 2028/29 onward — the boarding-year discipline. (2) Sophia's **holidays in Hong Kong**, which defeats three ties at once. (3) **No work physically done in the UK.** All three matter far more than 9 November 2026. |
-| **Irreversibility** | Crossing 90 cannot be undone and binds two years. Staying under preserves options. If the Hong Kong job is uncertain, that argues for stopping at 90. |
+This closes the section. Everything above works through the mechanics — the ties, Table B, the two "90s", the family tie, the Hong Kong job route. What follows is the practical answer to the question the section opened with: **does Julian need to leave the UK before 90 days (9 November 2026), or can he stay longer?**
+
+**1. Must you leave before 9 November 2026?**
+
+**No.** Boarding starts September 2028 at the earliest, so the 90-day tie created this year and the boarding years barely overlap. The realistic cost of crossing 90 is a 120- rather than 182-day ceiling in **2027/28 alone** — headroom you are unlikely to use in a year you are working in Hong Kong.
+
+**2. What does stopping at 90 actually buy?**
+
+A 182- rather than 120-day ceiling in 2027/28. **Insurance only.** It becomes useful whenever the Hong Kong work test fails — and that is more ways than simply "the job falls through": a start later than 6 April 2027, an early finish, any 31-day non-leave gap, more than 30 UK workdays, more than 90 UK days, or the work being done remotely from the UK.
+
+**3. What does it cost?**
+
+47 days in the UK with Sophia between now and 9 November.
+
+**4. What should you actually control instead?**
+
+Three things, all of which matter more than 9 November 2026:
+- A **≤90 UK days per year** habit from 2028/29 onward — the boarding-year discipline
+- **Sophia's holidays in Hong Kong** rather than the UK — one change that defeats three ties at once
+- **No work physically done in the UK**, including Hong Kong-employer work done remotely
+
+**5. How reversible is it?**
+
+Crossing 90 **cannot be undone** and binds two years. Staying under preserves options. If the Hong Kong job is uncertain, that asymmetry argues for stopping at 90.
 
 **"Insurance rather than necessity" holds only if BOTH conditions are met** (added after peer review — as originally written it assumed them silently):
 
@@ -307,36 +363,72 @@ If the job is not signed, the irreversibility line above is the better guide: st
 
 ---
 
+---
+
+# PART TWO — THE WORKING, THE EVIDENCE AND THE REFERENCE MATERIAL
+
+**The decision is answered above. Everything from here down exists to support, evidence or extend it.** You do not need to read it to act on the answer — read it to check the answer, or when a specific question comes up.
+
+**How the rest of this document is organised:**
+
+- **§0 Agreed facts** — the inputs every conclusion rests on. The audit trail.
+- **§1 How the SRT works** — the three-stage waterfall, in full.
+- **§2 The conflation trap** — "home" vs "accommodation", two concepts that sound alike and behave completely differently. The easiest and most expensive mistake available here.
+- **§3 and §4 This year, worked through** — Julian and Sophia separately, stage by stage, showing how each conclusion in Part One was reached.
+- **§5 The next two years** — the forward mechanics: how crossing 90 reaches into 2027/28 and 2028/29, the leaver ratchet if either becomes resident, the Hong Kong job route, the Hong Kong flat's "home" status, and split-year treatment.
+- **§6 Boarding school** — a **standalone reference section** for the Sept 2028 scenario. Written to be read on its own when the question arises, so it repeats some of §5 deliberately.
+- **§7 Key dates** — every deadline in one place.
+- **§8 Item register** — every fact established or parked, and what would reopen it.
+- **§9 Principles** — the durable rules extracted from this analysis, written to survive after the specific numbers are stale.
+- **§10 Review record** — what was independently verified, what was corrected, and where the reviewers disagreed.
+- **§11 Caveat** — the limits of this document.
+
+---
+
 ## 0. Agreed facts
 
-**Julian**
-| Fact | Value |
-|---|---|
-| Residence status, 2023/24 – 2025/26 | Non-resident in all three → **"arriver"** |
-| Left UK for Hong Kong | 2013 — **continuously non-resident since**, 12+ consecutive years → **qualifies for the 4-year FIG regime** |
-| UK days 2025/26 | 39 |
-| UK days 2024/25 | **Under 45** — confirmed, no 90-day tie |
-| UK arrival | 30 July 2026 |
-| Departed UK | 4 September 2026 |
-| Returned UK | 17 September 2026 |
-| UK days 2026/27 to 23 Sep | **44** (stated) / 43 (computed) — see §7 |
-| UK accommodation | Living at mother's house since arrival |
-| Overseas home | Hong Kong flat — **his home for the last 5 years** (rented accommodation in HK before that); retained, empty and available — **must remain a statutory "home" to ~7 Mar 2027, see §8.7** |
-| Days present in HK home, 2026/27 | **More than 30** (6 Apr – 30 Jul, plus 4–17 Sep) |
-| Employment | Not working. **Considering a HONG KONG job for the remainder of 2026/27** — see §5.7 |
-| Other UK assets | **London property — let commercially for 13 years, currently let** (not a home, no accommodation tie: §8.11), UK ISA, UK cash |
-| Other overseas assets | HK property, HK pension, HK cash, stocks and shares |
+**What this section is for.** Every conclusion in this document is driven by a small number of facts — day counts, where people slept, what property exists and whether it is let. Change one of them and the answer can change completely; twice during this analysis it did. This section is the single place those facts are recorded, so that any conclusion elsewhere can be traced back to an input, and so that if one turns out to be wrong you can see immediately what it affects.
 
-**Sophia**
-| Fact | Value |
-|---|---|
-| Age | 12 |
-| Residence status, 2023/24 – 2025/26 | Non-resident in all three → **"arriver"** |
-| UK days 2025/26 | 39 |
-| UK arrival | 30 July 2026, continuous since |
-| UK days 2026/27 to 23 Sep | **56** |
-| UK accommodation | Grandmother's house (a close relative) |
-| Days present in HK home, 2026/27 | More than 30 |
+**Treat it as the audit trail.** Anything not listed here has not been established, and anything marked as an assumption has not been verified.
+
+### Julian
+
+**Residence history**
+- **Not UK resident in 2023/24, 2024/25 or 2025/26** — so an **"arriver"**, and the more generous Table B applies
+- **Left the UK for Hong Kong in 2013**, and has been **continuously non-resident since** — 12+ consecutive years, which qualifies him for the 4-year FIG regime (§8.2)
+- **UK days in 2025/26: 39**
+- **UK days in 2024/25: under 45** — confirmed, so no 90-day tie this year
+
+**Movements this tax year (2026/27)**
+- **Arrived in the UK 30 July 2026**
+- **Departed 4 September 2026**, on a 17:00 flight — so not present at midnight, and that day does not count
+- **Returned 17 September 2026**
+- **UK days to 23 September 2026: 43** (confirmed — see §8.1)
+
+**Accommodation and home**
+- **Living at his mother's house** in the UK since arrival. She is a close relative, so the accommodation tie needs 16+ nights — long since passed
+- **Hong Kong flat: his home for the last 5 years** (rented accommodation in Hong Kong before that). Retained, **empty and not let**, available throughout, and he intends to return to live there
+- **Days present in the Hong Kong flat in 2026/27: roughly 127** — living there 6 April to 30 July, plus the 4–17 September trip. The test requires 30
+- ⚠️ The flat **must remain a statutory "home" until about 7 March 2027** for this year's position to hold (§5.8, §8.7)
+
+**Work**
+- **Not currently working**, in the UK or overseas
+- **Considering a Hong Kong job** for the remainder of 2026/27 (§5.7)
+
+**Assets**
+- **UK:** a **London property, commercially let for 13 years and currently let** — so not a home and giving no accommodation tie (§8.11); a UK ISA; UK cash
+- **Overseas:** the Hong Kong flat, a Hong Kong pension, Hong Kong cash, stocks and shares
+
+### Sophia
+
+- **Age 12**
+- **Not UK resident in 2023/24, 2024/25 or 2025/26** — also an **"arriver"**
+- **UK days in 2025/26: 39**
+- **UK days in 2024/25: not established** — assumed comparable to Julian's and under 90, which is what the analysis relies on ⚠️
+- **Arrived in the UK 30 July 2026** and has been here continuously since
+- **UK days to 23 September 2026: 56** — 13 more than Julian, because she did not make the September trip
+- **Staying at her grandmother's house** — a close relative, so the 16-night threshold applies to her too
+- **Days present in the Hong Kong flat in 2026/27: more than 30** — she was in Hong Kong from 6 April until 30 July
 
 ---
 
