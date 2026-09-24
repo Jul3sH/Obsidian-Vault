@@ -44,6 +44,7 @@ The flat is the only thing preventing automatic UK residence this year. Letting 
 
 - **The flat stays empty and unlet**
 - **Every month is forgone rent**, and it is not recoverable
+- *(Precisely: the constraint runs to roughly early March, after which a letting can no longer affect this tax year)*
 - **It cannot be worked around while Sophia is here.** Even a replacement home for Julian does not fix her position — the flat is her home too, and a Hong Kong place she has never lived in is not hers
 
 > **State it precisely or it will be rebutted:**
@@ -77,9 +78,11 @@ Sophia is settled in a UK school. Returning to Hong Kong means withdrawing her a
 
 **Secondary, but it closes off "we'll get to it."**
 
-If the Hong Kong role is to give Julian the clean route to non-residence in 2027/28 — the one that does not depend on counting days at all — it must **start at the beginning of the UK tax year in April**. *(Strictly the outside edge is early May — a start after that leaves a 31-day gap and fails. Lead with April; if an adviser points to May, concede it rather than defend April, and note a May start also needs ~38 working hours a week for the rest of the year against ~35 from April.)* Working back through visa, contract, relocation and a Hong Kong school place, **that requires a signed offer by around January.**
+If the Hong Kong role is to give Julian the clean route to non-residence in 2027/28 — the one that does not depend on ties, or on how HMRC characterises his Hong Kong home — it must **start at the beginning of the UK tax year in April**. *(Strictly the outside edge is early May — a start after that leaves a 31-day gap and fails. Lead with April; if an adviser points to May, concede it rather than defend April, and note a May start also needs ~38 working hours a week for the rest of the year against ~35 from April.)* Working back through visa, contract, relocation and a Hong Kong school place, **that requires a signed offer by around January.**
 
 > **State this accurately.** It is a hard deadline **for the clean route, not for non-residence itself**. Missing it does not make him UK resident; it drops him onto the day-count route for a year. An accountant will spot the difference, so say: *"April is the deadline for the clean route — the one that doesn't depend on counting days or on how HMRC views my Hong Kong home. Miss it and I spend the whole year on the fragile one."*
+>
+> ⚠️ **It is not a route free of day counting.** The test carries its own limits — fewer than 91 UK days and fewer than 31 UK workdays. What it avoids is the *ties* analysis and the dependence on the Hong Kong flat's characterisation, not day counting as such. An adviser will correct the looser version.
 >
 > A late start also raises the bar independently: the idle weeks still count in the hours calculation, so a May start needs roughly 38 working hours a week for the rest of the year, and a July start roughly 45.
 
@@ -100,17 +103,17 @@ If the Hong Kong role is to give Julian the clean route to non-residence in 2027
 True in law — the accommodation tie needs 16 or more nights. **Answer:** it is a personal choice already made; staying under 16 nights means hotels for most of a visit whose purpose is seeing Sophia. Concede the mechanism, decline the trade.
 
 **2. *"If we say yes, you don't need the flexibility. So our timing only matters if the answer is no — why is that our problem?"***
-**This is the sharpest rebuttal and the case should state the answer before it is asked.** The cost is not the *answer*, it is *when* the answer comes. **A "no" in October costs nothing. A "no" in December costs two years of flexibility** — because by then the option to leave cleanly has gone. So the delay is only free if the answer turns out to be yes, and nobody knows that yet. **TTI is asking Julian to carry the cost of their optionality.**
+**This is the sharpest rebuttal and the case should state the answer before it is asked.** The cost is not the *answer*, it is *when* the answer comes. **A "no" in October costs far less than a "no" in December** — by December the clean-exit option has gone, and the relocation and schooling costs are higher too — because by then the option to leave cleanly has gone. So the delay is only free if the answer turns out to be yes, and nobody knows that yet. **TTI is asking Julian to carry the cost of their optionality.**
 
 **3. *"There is a third option — stay through the tax year."***
-There is, and it costs the same two years while adding a constraint: he would still have to leave before Sophia's residence date. **Do not raise it.** If raised, note it is not a better outcome, only a later decision.
+There is, and it costs the same two years of flexibility. **Do not raise it**, and note the trap in it: it is **not** enough for Julian to leave before Sophia becomes resident. Ties are assessed across the whole tax year, so if she becomes resident at any point and he has exceeded 120 days, **his earlier departure does not save him**. Staying later is therefore riskier than it sounds, not merely a delayed decision.
 
 **4. *"What flexibility, exactly?"***
 The number will come out if pressed. **Have the one-liner rather than the table:** *"the UK days I can spend in each of the next two years drop by about a third."* Do not offer 182 or 120.
 
 ## The case in one paragraph
 
-> *"I need an answer this month. Until you decide I can't pull Sophia out of school, and after October the only clean exit left is one that costs me two years of flexibility I can't recover — so the delay itself is making the decision for me. Meanwhile my Hong Kong flat sits empty because I can't safely let it while we're both here, and that's money gone every month. And for the role to work properly I need to be in post at the start of the tax year in April, which means terms agreed by January on any view."*
+> *"I need an answer this month. Until you decide I can't pull Sophia out of school, and after October the only clean exit left is one that costs me two years of flexibility I can't recover — so the delay itself is making the decision for me. Meanwhile my Hong Kong flat sits empty because I can't safely let it while we're both here, and that's money gone every month. And for the role to work properly I need to be in post at the start of the tax year in April, which on a practical view of visa, contract and schooling timelines means terms agreed around January."*
 
 ---
 

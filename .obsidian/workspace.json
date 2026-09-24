@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/finance/uktax-srt-fy26-27.md",
+                "file": "wiki/finance/uktax-HKrental-income.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uktax-srt-fy26-27"
+              "title": "uktax-HKrental-income"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
-    "collapsed": true
+    "width": 483.5
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -201,15 +200,15 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/technology/Memory systems/_index.md",
+    "wiki/finance/uktax-srt-fy26-27.md",
     "wiki/deliverables/horst-offer-case-for-urgency.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "wiki/finance/uktax-HKrental-income.md",
     "wiki/finance/uk-move-financial-model.md",
-    "wiki/finance/uktax-srt-fy26-27.md",
     "wiki/technology/Memory systems/memory-capabilities.md",
     "wiki/finance/UKTAX-SRT-FY26-27.md",
     "wiki/performance/working-with-yourself/mm-forgotten-system-bias.md",
-    "wiki/technology/Memory systems/_index.md",
     "wiki/technology/Memory systems/pillars-agile-os.md",
     "wiki/technology/Memory systems/pillars-agentic-os.md",
     "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
