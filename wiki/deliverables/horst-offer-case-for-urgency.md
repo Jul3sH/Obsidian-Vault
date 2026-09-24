@@ -77,7 +77,7 @@ Sophia is settled in a UK school. Returning to Hong Kong means withdrawing her a
 
 **Secondary, but it closes off "we'll get to it."**
 
-If the Hong Kong role is to give Julian the clean route to non-residence in 2027/28 — the one that does not depend on counting days at all — it must **start at the beginning of the UK tax year in April**. Working back through visa, contract, relocation and a Hong Kong school place, **that requires a signed offer by around January.**
+If the Hong Kong role is to give Julian the clean route to non-residence in 2027/28 — the one that does not depend on counting days at all — it must **start at the beginning of the UK tax year in April**. *(Strictly the outside edge is early May — a start after that leaves a 31-day gap and fails. Lead with April; if an adviser points to May, concede it rather than defend April, and note a May start also needs ~38 working hours a week for the rest of the year against ~35 from April.)* Working back through visa, contract, relocation and a Hong Kong school place, **that requires a signed offer by around January.**
 
 > **State this accurately.** It is a hard deadline **for the clean route, not for non-residence itself**. Missing it does not make him UK resident; it drops him onto the day-count route for a year. An accountant will spot the difference, so say: *"April is the deadline for the clean route — the one that doesn't depend on counting days or on how HMRC views my Hong Kong home. Miss it and I spend the whole year on the fragile one."*
 >
@@ -93,6 +93,20 @@ If the Hong Kong role is to give Julian the clean route to non-residence in 2027
 - **"A hard deadline that costs the whole tax year"** without *"for the clean route"* (point 4).
 - **"I cannot let the flat"** — say *"cannot safely let it before March"* (point 2).
 - **Any specific date or day count.** See the warning at the top.
+
+## Rebuttals to have ready
+
+**1. *"Just stay under 16 nights at your mother's and you get the flexibility back."***
+True in law — the accommodation tie needs 16 or more nights. **Answer:** it is a personal choice already made; staying under 16 nights means hotels for most of a visit whose purpose is seeing Sophia. Concede the mechanism, decline the trade.
+
+**2. *"If we say yes, you don't need the flexibility. So our timing only matters if the answer is no — why is that our problem?"***
+**This is the sharpest rebuttal and the case should state the answer before it is asked.** The cost is not the *answer*, it is *when* the answer comes. **A "no" in October costs nothing. A "no" in December costs two years of flexibility** — because by then the option to leave cleanly has gone. So the delay is only free if the answer turns out to be yes, and nobody knows that yet. **TTI is asking Julian to carry the cost of their optionality.**
+
+**3. *"There is a third option — stay through the tax year."***
+There is, and it costs the same two years while adding a constraint: he would still have to leave before Sophia's residence date. **Do not raise it.** If raised, note it is not a better outcome, only a later decision.
+
+**4. *"What flexibility, exactly?"***
+The number will come out if pressed. **Have the one-liner rather than the table:** *"the UK days I can spend in each of the next two years drop by about a third."* Do not offer 182 or 120.
 
 ## The case in one paragraph
 
