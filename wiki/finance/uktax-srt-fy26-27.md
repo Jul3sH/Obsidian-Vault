@@ -20,7 +20,17 @@ tags: [finance, uk-relocation, tax, residency, srt]
 *The whole document in one page. Items 1 and 5 catch you **regardless of day count**; items 2, 3 and 4 are day-count tests.*
 
 > ### Why this is worth obeying even in a year with no income
-> **One resident year is not one year.** It costs arriver status for the **following three**: the much harsher Table A applies, your automatic escape tightens from under 46 days to under 16, a fifth "country tie" appears, and the deeming rule switches on so day-trips start counting. **There is no split-year relief available to you** (§5.10), so a resident 2026/27 would be a *full* year from 6 April — sweeping in the months you spent entirely in Hong Kong. It would also start your 4-year FIG clock, which runs whether or not you claim it.
+>
+> **Becoming UK resident for one tax year makes it much harder to stay non-resident for the next three.** The rules get stricter for anyone who has been resident recently, and the effect is severe:
+>
+> - **Today, you can spend up to 182 days here and still be non-resident.** After a resident year, the same position would catch you at **121 days**. Your room shrinks by two months.
+> - **The "stay under 46 days and you're automatically safe" escape drops to under 16 days** — barely two weeks a year.
+> - **A new connection starts counting against you:** spending more days in the UK than in any other single country. Living between the UK and Hong Kong, that would probably apply.
+> - **Day trips start counting.** Right now, a day when you fly in and out without staying the night does not count at all. After a resident year, once you have three connections, those days start counting after the first thirty.
+>
+> **And the resident year itself would be a full year.** There is a relief that lets some people split a tax year into a resident part and a non-resident part — **you do not qualify for it** (§5.10). So a resident 2026/27 would tax you as a UK resident from **6 April 2026**, including the months you spent entirely in Hong Kong before arriving on 30 July.
+>
+> **It would also burn a valuable relief.** Because you have been away 12 years, your first four years of UK residence would be largely shielded from UK tax on your foreign income and gains. That four-year clock starts with your first resident year **whether or not you use it** — so an accidental resident year now, with no income to shelter, would waste a quarter of it. (Summary at §5.11.)
 
 > ### ⏰ Time-critical
 > At 43 days on 23 September, you reach **46 days on 26 September 2026** and lose the under-46-day automatic escape. From that point everything below applies.
@@ -937,6 +947,57 @@ That means a resident 2026/27 would sweep in the period **6 April to 30 July 202
 - **An earning year — material.** A full year of Hong Kong salary would fall into UK scope from 6 April, rather than only from an arrival date. This is one of the clearest reasons to avoid tipping into residence in a year with income, and a reason the leaver ratchet at §5.4 compounds: each of the three ratchet years is a year in which an accidental residence would be unsplit.
 
 **Case 8 could become available** if plans changed such that Julian were UK resident in the following tax year too — i.e. if he were genuinely settling here rather than returning to Hong Kong. Worth re-testing if the plan changes.
+
+---
+
+### 5.11 THE 4-YEAR FIG REGIME — the relief waiting if either becomes resident
+
+*Summary only. A fuller analysis of Julian's tax position if he stays in the UK and lets the Hong Kong property is a separate piece of work.*
+
+#### What it is
+
+From **6 April 2025** the old non-domicile remittance basis was abolished and replaced by the **Foreign Income and Gains (FIG) regime**. It lets someone arriving in the UK after a long period abroad claim relief on their **foreign** income and gains for their **first four years of UK residence**.
+
+#### Who qualifies — a "qualifying new resident"
+
+Four conditions, all required ([RFIG44000](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig44000), s845B ITTOIA 2005):
+
+- UK resident in the tax year
+- **Not UK resident for at least 10 consecutive tax years immediately before it**
+- At least 10 years old at the start of the tax year
+- Not a member of the Commons or Lords
+
+**Julian qualifies.** Continuously non-resident since 2013 gives 12 consecutive years (2014/15–2025/26 even if the departure year was split, which counts as a resident year for this purpose).
+
+**Sophia qualifies too** — 12 non-resident years, and she is over 10.
+
+#### What it covers, and what it does not
+
+| Covered | Not covered |
+|---|---|
+| Foreign income — overseas rental, dividends, interest, foreign pensions | **UK-source income of any kind** |
+| Foreign chargeable gains | The London rental — UK property, taxable either way |
+| Overseas Workday Relief on employment duties performed abroad | Gains on UK land |
+
+> **The Hong Kong property is the relevant one here.** If Julian became UK resident and let it, the rental income would be **foreign** income — within scope of the relief for four years. The London rental would not be.
+
+#### The catch: the clock runs whether or not you use it
+
+**The four years start with your first year of UK residence and run regardless of whether you claim.** HMRC's own example makes the point: an individual resident from 2025-26 "would not be a qualifying new resident in 2029-30" whether or not he claimed anything in between.
+
+> ⚠️ **This is why an accidental resident year is expensive even in a year with no income.** Becoming resident in 2026/27 — with no employment income and the Hong Kong flat unlet — would consume **year one of four** and shelter nothing. The relief would then be three years old by the time there was anything to shelter.
+
+You need not be resident continuously: if you are non-resident in year two you simply cannot claim that year, and can resume in year three if resident again. But the four-year window itself does not pause.
+
+#### Claiming has a price
+
+Claiming the relief in a year generally costs the **personal allowance** and the **capital gains annual exempt amount** for that year, so it is a calculation rather than an automatic win — worth it on large foreign income, not on small. **Overseas Workday Relief is also capped** under the post-2025 rules (broadly the lower of 30% of qualifying earnings or £300,000), unlike the older uncapped version. **Both points need an adviser's numbers; treat them as flags, not figures.**
+
+#### Why it matters for the decisions in this document
+
+1. **It lowers the cost of becoming resident** — but only for *foreign* income, and only for four years.
+2. **It makes drifting into residence worse than choosing it.** The clock is a wasting asset; spending a year of it accidentally, in a year with nothing to shelter, is pure loss.
+3. **Sophia has her own four-year window**, and her 28 January 2027 line would start it at age 12 — spent entirely before she has any income (§6).
 
 ---
 
