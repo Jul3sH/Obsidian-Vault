@@ -44,14 +44,21 @@ verification looks like the last step and comes at the start. Full chain:
 - **The gap you pay is the residual** left for human judgement after the
   deterministic and eval layers have caught what they can. Building those layers is
   how the gap is shrunk, not overhead.
-- **An eval only counts if it can fail independently.** Different model, different
-  source information (free, and the one people skip), or ground truth. An eval
-  sharing the worker's model and context certifies the error.
-- **Reliability is what breaks you, not unreliability.** A long run of good output
-  is the condition under which you stop checking; the failure mode is believing you
-  are still checking after you have stopped.
-- **A check is built, not resolved upon.** "I'll review it" is an intention, and it
-  degrades under exactly the volume that created the need for it.
+- **A check only counts if it could actually come back negative.** If the thing doing
+  the checking has the same information and the same blind spots as the thing that did
+  the work, it will agree - not because the work is right, but because it would make the
+  same mistake. Asking a model to review its own output is the clearest case. A real check
+  needs something different: another model, a different source, or the actual ground truth.
+  Using a different source costs nothing and is the step people skip most.
+- **Being right for a long time is what catches you out.** When output has been good for
+  weeks, you stop reading it properly - not as a decision, but by drift. The danger is not
+  that you chose to stop checking; it is that you still believe you are checking when you
+  have quietly stopped.
+- **Decide the check, then build it - do not rely on good intentions.** "I'll review it"
+  is a promise to your future self, and it breaks under exactly the workload that made you
+  want the check. A check that exists is a step someone has to complete: a script that
+  fails, a second model that disagrees, a figure that must reconcile. Not a plan to look
+  carefully.
 
 Every check is one of three forms, or a layering of them:
 

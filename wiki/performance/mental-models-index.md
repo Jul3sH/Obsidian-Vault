@@ -109,6 +109,7 @@ sentences:
 - [[mm-admission-qualification]] - Ceremony is decided by the work's characteristics, not the deliverable's type
 - [[mm-rule-layering]] - Fast learns, slow remembers - and must is not should
 - [[mm-verification]] - Generation scaled and verification did not
+-
 - [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect
 - [[mm-steering]] - An instruction is not a guarantee
 - [[mm-token-economics]] - Context is rent, not a purchase
