@@ -27,7 +27,7 @@ This is the fast-lane record for a machine-executed review of Julian's full Clau
 **Output design (agreed):**
 - Card floor: every confirmed bias gets an mm card (six-slot format, listed in mental-models-index). Detail articles only where evidence warrants. Rule to be written into `documentation-conventions.md` Part 1.
 - `wiki/performance/biases-index.md` (agreed name): one row per bias - trigger situation + card link.
-- A `bias-check` dispatcher skill whose trigger description covers every index row's situation type; adding an index row includes checking/widening the skill trigger in the same operation.
+- A `behaviour-check` dispatcher skill whose trigger description covers every index row's situation type; adding an index row includes checking/widening the skill trigger in the same operation.
 - Memory backstop reserved for the most critical AND most common biases (in case the skill doesn't fire), nominated by Julian.
 - Daily mm-refresher hook covers training for decisions made outside sessions (already exists; new cards enter automatically).
 
@@ -44,12 +44,12 @@ This is the fast-lane record for a machine-executed review of Julian's full Clau
 2. Every candidate passes an adversarial refutation pass before reaching Julian; survivors presented with evidence, clarification questions asked where ambiguous.
 3. Known priors (visual-representation, overanalysis, commitment-stalling, decision-reopening, build-don't-adopt, assumption-blindness) each get a confirmed / weakened / unchanged verdict.
 4. Every confirmed bias gets an mm card (six-slot, listed in mental-models-index) and a biases-index row; detail articles only where evidence warrants; card-floor rule written into documentation-conventions.md.
-5. bias-check skill built, trigger covering every index row's situation type, documented and mirrored per the skills rule.
+5. behaviour-check skill built, trigger covering every index row's situation type, documented and mirrored per the skills rule.
 6. Julian nominates which biases (if any) get the memory backstop.
 
 ## Status
 
-⚠ As of 19 Sep 2026 (evening): pipeline run, all artefacts built, artefact-level adversarial review complete - 12 findings, all fixed same day (an invented fourth contact in mm-recency-bias; scan verdicts misattributed as "confirmed" in the two ruled-uncertain cards; a paraphrase presented as a verbatim quote in mm-overanalysis-bias; unverified chunk-counts stated as confirmed evidence in three cards + the memory; a register hypothesis stated as fact in mm-commitment-by-proxy-bias; a near-verbatim unattributed register restatement in mm-optimism-accounting-bias; five biases-index rows uncovered by the bias-check skill's triggers - trigger list widened seven to twelve). One accepted legacy defect: mm-fear-disguise-bias's six Evidence links resolve to raw/_processed/ lessons-learnt files, not wiki/ (pre-existing before the rename; Obsidian resolves them vault-wide). Awaiting Julian's final read-through and sign-off.
+⚠ As of 19 Sep 2026 (evening): pipeline run, all artefacts built, artefact-level adversarial review complete - 12 findings, all fixed same day (an invented fourth contact in mm-recency-bias; scan verdicts misattributed as "confirmed" in the two ruled-uncertain cards; a paraphrase presented as a verbatim quote in mm-overanalysis-bias; unverified chunk-counts stated as confirmed evidence in three cards + the memory; a register hypothesis stated as fact in mm-commitment-by-proxy-bias; a near-verbatim unattributed register restatement in mm-optimism-accounting-bias; five biases-index rows uncovered by the behaviour-check skill's triggers - trigger list widened seven to twelve). One accepted legacy defect: mm-fear-disguise-bias's six Evidence links resolve to raw/_processed/ lessons-learnt files, not wiki/ (pre-existing before the rename; Obsidian resolves them vault-wide). Awaiting Julian's final read-through and sign-off.
 
 ## Prior Verdicts (criterion 3, recorded 19 Sep 2026)
 
@@ -97,7 +97,7 @@ Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias
 
 **Memory backstop proposal:** keep visual-representation-bias and decision-reopening; add narrative-fill (highest frequency, drives real stakeholder strategy). No others.
 
-**bias-check skill trigger situations (v1):** weighing life/career options; wobble after a locked decision; scoping a piece of analysis; at the point of sending/committing; interpreting someone's silence or behaviour; building financial models or plans; designing a new system or process.
+**behaviour-check skill trigger situations (v1):** weighing life/career options; wobble after a locked decision; scoping a piece of analysis; at the point of sending/committing; interpreting someone's silence or behaviour; building financial models or plans; designing a new system or process.
 
 ## Content Verification (phase 3 - open as of 19 Sep 2026)
 
@@ -107,7 +107,7 @@ The system is built and its outputs exist, but Julian has not yet content-verifi
 - [ ] mm-overanalysis-bias / mm-commitment-stalling-bias / mm-decision-reopening-bias / mm-build-dont-adopt-bias (scan-evidenced cards)
 - [ ] mm-confirmation-amplification-bias / mm-recency-bias / mm-certainty-spike-bias / mm-answer-first-bias / mm-optimism-accounting-bias / mm-loss-aversion-bias / mm-sunk-cost-bias / mm-commitment-by-proxy-bias (register-derived cards)
 - [ ] mm-narrative-fill-bias / mm-payoff-vs-prestige-bias / mm-fear-disguise-bias (renamed cards, incl. renamed-from notes)
-- [ ] bias-check skill wiki mirror (twelve triggers read sensibly)
+- [ ] behaviour-check skill wiki mirror (twelve triggers read sensibly)
 - [ ] feedback-narrative-fill memory wiki mirror
 - [ ] Card-floor rule wording in documentation-conventions.md Part 1
 

@@ -27,13 +27,23 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-24 · Build + Wiki ops · Partly · [[genai-governance-recall-repair]]
+
+- **Work:** repaired the governance-recall gap found during [[uktax-srt-fy26-27]] - SessionStart directory hook, work-handback hook moved user-level, `## Session Synopsis` added to the three define-* templates, two new cards, `bias-check` renamed and widened to `behaviour-check` over both indexes.
+- **Check:** Julian steering in-session; three proposals caught and reversed before shipping.
+- **Outcome:** Partly. The artefacts are sound. The process was not: three times the model proposed building something the wiki already held - [[mm-token-economics]] (delegation keeps the main transcript small), [[genai-task-workflow-log]] itself (per-run lessons), and [[mm-admission-qualification]] (retroactive records for work that drifted out of exempt). Each was caught by Julian asking the model to check, not by the model checking.
+- **Lesson:** **Routing** - the chain step that failed. The model reasoned from first principles in a domain where a written index existed, because nothing surfaced it. Biases had a dispatcher and mental models did not; that asymmetry is the root cause and `behaviour-check` is the fix. Secondary: the whole session ran outside the vault, so AGENTS.md never loaded - governance that only loads in one directory is governance that silently fails.
+- **Deliverable:** [[genai-governance-recall-repair]]
+
+---
+
 ## 2026-09-19 · Build + Wiki ops · Worked · [[bias-history-review]]
 
 - **Work:** Three-tier bias mining pipeline over Julian's full session history
   (183 transcripts, 213MB pre-filtered to 2,694 of his own messages): 20 Haiku
   scanners seeded with 8 priors, a merge stage, 10 Sonnet adversarial verifiers
   (three-way verdicts, quote-grepping against source). Then the estate build:
-  12 bias cards, 3 renames, biases-index, bias-check skill, narrative-fill
+  12 bias cards, 3 renames, biases-index, behaviour-check skill, narrative-fill
   memory, card-floor rule.
 - **Check:** Sonnet refuters per candidate (caught 1 fabricated quote, 1
   double-count, 1 simulated dialogue misattributed as real speech); Fable

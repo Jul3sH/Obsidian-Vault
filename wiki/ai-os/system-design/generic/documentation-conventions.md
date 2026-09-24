@@ -95,7 +95,7 @@ the same six slots in the same order:
   files that link to each other and never restate each other's content. Every
   bias card also gets a row in [[biases-index]] (trigger situation + card link),
   and adding that row includes checking the row's situation type is covered by
-  the `bias-check` skill's trigger, widening it if not - in the same operation.
+  the `behaviour-check` skill's trigger, widening it if not - in the same operation.
   *(Rule agreed 19 Sep 2026 during [[bias-history-review]].)*
 
 ### When adding hierarchy - Claude's check

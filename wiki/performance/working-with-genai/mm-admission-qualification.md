@@ -36,7 +36,9 @@ the work and hands an admitted piece of work at the right tier to
 - Admission is Taste work: minimise it, batch it, and never split it from
   execution across sessions.
 - Exempt work may still be logged by choice (a retroactive record for time and
-  tokens); that is optional calibration, not a required gate.
+  tokens); that is optional calibration, not a required gate. **The choice ends the
+  moment the work produces something.** Once there is an artefact, the Time and Token
+  Log and the `## Session Synopsis` are both required, whichever tier it started in.
 
 ## Principles
 

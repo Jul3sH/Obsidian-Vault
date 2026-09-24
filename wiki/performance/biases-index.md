@@ -9,7 +9,7 @@ created: 2026-09-19
 
 ## What belongs here
 
-Every bias with an mm card, wherever the card lives. A bias is a recurring pattern that distorts Julian's decisions or behaviour and has a recognisable trigger situation. Countermeasure and discipline cards (e.g. [[mm-timebox-the-rabbit-hole]], [[mm-commit-with-a-forcing-function]]) are NOT listed here - they belong to [[mental-models-index]] only; the bias card links to them. Adding a row here includes checking the row's situation is covered by the `bias-check` skill's triggers, in the same operation.
+Every bias with an mm card, wherever the card lives. A bias is a recurring pattern that distorts Julian's decisions or behaviour and has a recognisable trigger situation. Countermeasure and discipline cards (e.g. [[mm-timebox-the-rabbit-hole]], [[mm-commit-with-a-forcing-function]]) are NOT listed here - they belong to [[mental-models-index]] only; the bias card links to them. Adding a row here includes checking the row's situation is covered by the `behaviour-check` skill's triggers, in the same operation.
 
 ## The biases
 

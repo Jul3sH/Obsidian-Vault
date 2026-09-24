@@ -242,6 +242,11 @@ Filled at handback, not at creation. Captures **Julian's own read of the collabo
 the one thing the workflow log does not hold. **Julian rates first, unprompted by the
 model's view**; the model comments beneath.
 
+**Rating scale - "would you run it this way again?"** 5 yes, unchanged · 4 yes, with a
+small adjustment · 3 mixed, got there but the route was wasteful or needed too much
+steering · 2 no, right outcome but wrong method · 1 no, should not have been run this way.
+It rates the **method**, not the output - output quality is verified separately.
+
 | Date | Rating (1-5) | Julian's read | Model's comment |
 |------|--------------|---------------|-----------------|
 

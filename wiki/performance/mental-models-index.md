@@ -109,6 +109,8 @@ sentences:
 - [[mm-admission-qualification]] - Ceremony is decided by the work's characteristics, not the deliverable's type
 - [[mm-rule-layering]] - Fast learns, slow remembers - and must is not should
 - [[mm-verification]] - Generation scaled and verification did not
+- [[mm-facts-first]] - Every fact that arrives mid-analysis invalidates the work already done
+- [[mm-confidence-inheritance]] - A conclusion can be no more certain than its weakest input
 -
 - [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect
 - [[mm-steering]] - An instruction is not a guarantee
