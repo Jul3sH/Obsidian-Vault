@@ -27,6 +27,17 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-23/24 · Research + Analysis · Partly · [[uktax-srt-fy26-27]]
+
+- **Work:** UK Statutory Residence Test position for Julian and Sophia, 2026/27 and forward exposure. ~1,600 lines plus a derived negotiation brief. Nine review passes: seven Fable peer reviews against primary sources, two Codex adversarial (GPT-5.6, then gpt-6-astra at high effort).
+- **Check:** layered adversarial review against FA 2013 Sch 45 and the HMRC RFIG manual, plus Julian's own line-by-line verification reading over two days.
+- **Outcome:** Partly. The legal analysis verified correct at every round - all fourteen original claims held. But ~40 corrections were needed, two were legal errors, and the final pass found a blocking item (Sophia's unverified 2024/25 day count) that had been sitting in the document's own register marked "worth confirming".
+- **Lesson:** **Verification** - the chain step that failed. Output carried ~40 errors, of which only one traced to a missing fact; the rest were generation faults - two legal errors, fact-sensitive judgements repeatedly written as settled, omissions, self-contradictions, and three rebuilds of things already in the wiki. Nine automated review rounds each caught real defects but **did not substitute for a human reading for meaning**: the highest-yield check of the two days was Julian questioning jargon and undefined terms, which surfaced substantive errors while ostensibly asking about wording. **Automated adversarial review and plain-language reading catch different error classes**, and the first does not cover the second. Secondary: the fact base was not closed before the analysis opened, which caused three answer reversals and meant each correction invalidated the review of what it replaced - a contributor to the rework volume, not its main cause.
+- **Cards created:** [[mm-facts-first]], [[mm-confidence-inheritance]], [[mm-clarity-is-verification]], [[mm-write-for-the-stranger]]
+- **Deliverable:** [[uktax-srt-fy26-27]]
+
+---
+
 ## 2026-09-24 · Build + Wiki ops · Partly · [[genai-governance-recall-repair]]
 
 - **Work:** repaired the governance-recall gap found during [[uktax-srt-fy26-27]] - SessionStart directory hook, work-handback hook moved user-level, `## Session Synopsis` added to the three define-* templates, two new cards, `bias-check` renamed and widened to `behaviour-check` over both indexes.

@@ -1642,12 +1642,130 @@ Machine effort in tokens, Julian's effort in focused minutes — never mixed int
 | 2026-09-23 | Adversarial review (Codex, GPT-5.6) | Machine (agent) | 111,961 tokens | Rounds 1–2, 96,437 + 15,524 |
 | 2026-09-23 | Codex rescue subagent | Machine (agent) | 15,317 tokens | Reported a background job it never started; wasted |
 | 2026-09-23/24 | Interactive session (main thread) | Machine (session) | unmeasured | Transcript 5.4 MB; per-message usage not summed |
-| 2026-09-23/24 | Attended | Julian | *[pending]* | *[to be self-reported]* |
+| 2026-09-23/24 | Attended | Julian | ~8 hours | Self-reported, spread over two days. Deep verification reading to build his own model of each concept; accuracy checking because decisions ride on it; and a plain-English pass for future re-readability. The two-day spread was itself useful - returning reinforced the prior day's concepts |
+
+
+## Error Register
+
+*Every correction made to this document between 23 and 24 September 2026, with how it was found. Recorded in full because the volume is the finding: nine automated review passes did not remove the need for close human reading, and roughly one in three errors was caught by Julian questioning wording rather than by any review round.*
+
+**Summary: 57 corrections. One traced to a missing fact. The rest were generation faults.**
+
+| Class | Count | Found mostly by |
+|---|---|---|
+| Legal / substantive errors | 2 | Peer review |
+| Factual errors | 6 | Peer review + Julian |
+| Overconfidence / miscalibration | 10 | Peer + adversarial review |
+| Omissions | 13 | Peer + adversarial review |
+| Wrong advice given | 2 | Peer review |
+| Internal contradictions | 3 | Adversarial review |
+| Clarity failures | 13 | **Julian, reading** |
+| Process / system errors | 8 | Julian + self-check |
+
+### Legal and substantive errors
+
+| # | Error | Found by |
+|---|---|---|
+| 1 | Stated no split-year relief was available in the leaver "ratchet" years. Wrong — departure Cases 1–3 require prior-year residence and so exist precisely for that population | Fable R7 |
+| 2 | "The clean route does not depend on counting days at all" — false; the third automatic overseas test carries its own limits of under 91 UK days and under 31 UK workdays | Fable R6 / Astra R8 |
+
+### Factual errors
+
+| # | Error | Found by |
+|---|---|---|
+| 3 | Applied the 16-day gap rule to a gap in *presence* when it governs gaps in *availability* | Fable R1 |
+| 4 | Attributed "13 years" to the Hong Kong flat; it was the London letting period | **Julian** |
+| 5 | Stated contact days with Sophia were "past 61" when the count was 44 | Fable R5 |
+| 6 | "Three of four conditions already met" — condition 3 completes 28 Oct 2026. Corrected, then recurred | Fable R5, again Astra R8 |
+| 7 | "44 days" survived in §3 after correction to 43 | Fable R6 |
+| 8 | Day 90 vs day 91 — the tie triggers on day 91, not day 90 | Astra R8 |
+
+### Overconfidence and miscalibration
+
+| # | Error | Found by |
+|---|---|---|
+| 9 | Hong Kong flat marked "Confirmed" a home when the status is fact-sensitive | Fable R1 + Codex R1, independently |
+| 10 | "Crossing 90 is irreversible" — a statement of intention presented as law | Fable R7 |
+| 11 | "There is no fallback" — a second route existed (ending UK-home status) | Astra R8 |
+| 12 | "Cannot be let" — should be "cannot *safely* be let"; licences and short lets exist | Fable R6 |
+| 13 | Country tie described as likely; it needs the greatest midnight count of any single country | Astra R8 |
+| 14 | "6 April is a hard deadline costing the whole tax year" — it is a deadline for the clean route only | Fable R6 |
+| 15 | "The only route independent of the flat" — the under-46-day test also is | Fable R7 |
+| 16 | "The only test that reaches back into a closed year" — three others do | Fable R7 |
+| 17 | "120 days is unconditional" — it is independent of Sophia, not of everything | Astra R8 |
+| 18 | "Nothing you do this autumn changes 2026/27" — contradicted the same section; survived in two places after one correction | Fable R6 |
+
+### Omissions
+
+| # | Omitted | Found by |
+|---|---|---|
+| 19 | Third automatic UK test dismissed in one line | Codex R2 |
+| 20 | Para 33 education carve-out presented as a mitigation when illusory for 2026/27 | Codex R2 |
+| 21 | Implied non-residence means no UK tax; it does not | Codex R2 |
+| 22 | IHT long-term residence never raised | Codex R2 |
+| 23 | Sophia's school accommodation is itself a tie she cannot shed | Fable R3 |
+| 24 | Sophia's own 4-year FIG clock, burned at 12 | Fable R3 |
+| 25 | 2028/29 is borderline on 183 days | Fable R3 |
+| 26 | Let-and-relocate: the replacement home must itself clock 30+ presence days | Fable R4 |
+| 27 | Let-and-relocate omitted Sophia entirely | Fable R4 |
+| 28 | What a resident year costs beyond that year — ratchet, no split year, FIG clock | Fable R5 |
+| 29 | 27 October as the *household* date, not just Sophia's | Fable R6 |
+| 30 | The end-of-term departure alternative | Fable R6 |
+| 31 | **Sophia's 2024/25 day count — the only genuine fact gap.** Flagged by me as "worth confirming" and left as a loose end when it was a prerequisite | Astra R8 |
+
+### Wrong advice given
+
+| # | Advice | Found by |
+|---|---|---|
+| 32 | Told Julian to engineer 30 Hong Kong days for Sophia in boarding years — pointless, she is resident on day count regardless | Fable R3 |
+| 33 | "Do not let the London tenancy lapse" — contradicted the corrected conclusion that voids are harmless | Fable R7 |
+
+### Internal contradictions
+
+| # | Contradiction | Found by |
+|---|---|---|
+| 34 | Horst brief rebuttal 3 said he could stay later if he left before Sophia's residence date — contradicts the whole-year ties analysis | Astra R8 |
+| 35 | §9.11 "this flips if the tenancy ends" against §5.10's conclusion | Fable R7 |
+| 36 | §9.7 labelled "CLOSED — conditional on not letting it" while its body said it may be let | Fable R6 |
+
+### Clarity failures — all found by Julian reading
+
+*These are listed separately because they are the finding. Several were not merely unclear; pulling on them exposed substantive errors.*
+
+| # | Failure | What it exposed |
+|---|---|---|
+| 37 | "That is the only sense in which 121 is not a threshold" | A patched correction arguing with a claim the reader could not see |
+| 38 | Table B used throughout, never defined | The summary was unreadable without the body |
+| 39 | "You hold one tie" — never said which | — |
+| 40 | "90-day tie in 27/28 & 28/29" as a column header | Ambiguity between the tie and the day-count band |
+| 41 | "He cannot acquire one this year" asserted without mechanism | — |
+| 42 | 7 March 2027 asserted without derivation | — |
+| 43 | **The 91-day window implied to mean days spent in the UK** | **Genuinely misleading; it is a period of *holding* a home, not presence** |
+| 44 | "Short answer" with the question four screens above it | — |
+| 45 | "The work test STACKS — it does not compete" as a title | A conclusion written for someone who had already read the argument |
+| 46 | "Bottom line" with no statement of what it summarised | — |
+| 47 | §0 Agreed Facts as an unreadable two-column table | A stale "44 days" hidden inside it |
+| 48 | Day counts with no as-at date | Figures that would be wrong on re-reading |
+| 49 | Table A referenced but never laid out | — |
+
+### Process and system errors
+
+| # | Error | Found by |
+|---|---|---|
+| 50 | Wrong frontmatter on the Horst brief — conventions were not loaded | Self-check against a neighbouring file |
+| 51 | Three failed section-renumbering operations leaving stale cross-references | Automated orphan check |
+| 52 | Index insertion silently failed and was **reported as done** | **Julian**, asking to verify |
+| 53 | Codex rescue subagent reported a background job it never started; not verified at the time | Job registry query |
+| 54 | Built a lessons mechanism duplicating `genai-task-workflow-log` | **Julian**, asking me to elaborate |
+| 55 | Re-derived `mm-token-economics` from first principles | **Julian**, asking me to check the wiki |
+| 56 | Re-derived `mm-admission-qualification`'s retroactive-record rule | **Julian**, asking me to check |
+| 57 | First attribution of the rework blamed late-arriving facts | **Julian**, disagreeing |
+
 
 ## Session Synopsis
 
 | Date | Rating (1–5) | Julian's read | Model's comment |
 |------|--------------|---------------|-----------------|
-| 2026-09-24 | *[pending]* | *[pending]* | *[pending Julian's first]* |
+| 2026-09-24 | **3** | Far too many reworks. The detailed review was necessary - questioning jargon and undefined terms kept surfacing actual errors, not just ambiguity - but every new fact spawned new sections, every change spawned another Fable review, and the final Astra pass still found more after seven rounds. The iteration cost dominated. | **Corrected after Julian challenged my first attribution.** I initially blamed late-arriving facts. That was wrong and self-serving: of roughly forty corrections, **one** was a genuine fact gap. The rest were my errors - two legal errors, repeated overstatement of fact-sensitive judgements as settled, several omissions, three self-contradictions, and three cases of rebuilding something the wiki already held. The mechanism that found them was Julian reading for meaning, not the nine automated review rounds. Those rounds each caught real things, but the highest-yield check of the two days was a human asking what a sentence actually meant. **Generation quality was the cause; clarity reading was the cure; fact timing was a contributor, not the driver.** |
 
-*Lessons do not go here — the mechanical lesson goes to [[genai-task-workflow-log]]; only a lesson durable across runs earns a card in `wiki/performance/working-with-genai/`.*
+*Lessons do not go here — see [[genai-task-workflow-log]]. Cards created from this run: [[mm-facts-first]], [[mm-confidence-inheritance]], [[mm-clarity-is-verification]], [[mm-write-for-the-stranger]].*

@@ -111,6 +111,8 @@ sentences:
 - [[mm-verification]] - Generation scaled and verification did not
 - [[mm-facts-first]] - Every fact that arrives mid-analysis invalidates the work already done
 - [[mm-confidence-inheritance]] - A conclusion can be no more certain than its weakest input
+- [[mm-clarity-is-verification]] - If you cannot say plainly what it means, that is often because it does not mean what it says
+- [[mm-write-for-the-stranger]] - Write for the version of you who has forgotten everything except that this mattered
 -
 - [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect
 - [[mm-steering]] - An instruction is not a guarantee

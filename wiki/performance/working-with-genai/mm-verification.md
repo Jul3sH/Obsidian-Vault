@@ -31,6 +31,10 @@ verification looks like the last step and comes at the start. Full chain:
   many agents you use.
 - The gap you personally pay is the residual left after the cheaper layers catch
   what they can, so building those layers *is* the work.
+- **But some error classes are not reachable by those layers at all.** Ambiguity,
+  undefined terms, and claims stated more confidently than their inputs are not
+  *false*, so a check hunting falsity will pass them. The human read is the only
+  route to that class - not a residual after the machines, a different net.
 - An eval that shares the worker's model and context certifies errors rather than
   catching them.
 - Reliability, not unreliability, is what stops you checking.
@@ -44,6 +48,14 @@ verification looks like the last step and comes at the start. Full chain:
 - **The gap you pay is the residual** left for human judgement after the
   deterministic and eval layers have caught what they can. Building those layers is
   how the gap is shrunk, not overhead.
+- **"Residual" understates it: automated review and human reading catch different
+  classes, not different amounts.** An adversarial pass asks *is this true?* It does
+  not ask *is this clear, and does it sound more certain than it is?* Those faults
+  survive any number of correctness rounds, and they are the ones that mislead a
+  reader who trusts the document. Budget a plain-language read as its own layer,
+  never as what is left over. Evidence: the error register in [[uktax-srt-fy26-27]] -
+  thirteen clarity failures, none found by nine automated review passes, one of them
+  substantively misleading.
 - **A check only counts if it could actually come back negative.** If the thing doing
   the checking has the same information and the same blind spots as the thing that did
   the work, it will agree - not because the work is right, but because it would make the

@@ -50,6 +50,11 @@ base still has to be rebuilt.
   residence analysis and had never been asked about.
 - **Rework is the real cost, not the asking.** Ten minutes of questions at the start
   is cheaper than any single reversal later, and reversals arrive in clusters.
+- **Rework compounds, because a correction invalidates the review of what it replaced.**
+  The cost of a late fact is not the rewriting; it is that every check already run over
+  the old version has to be run again. Verification cost therefore grows with the number
+  of iterations, not the size of the document - which is why a single late fact can cost
+  more than the original analysis.
 
 ## Guidelines
 

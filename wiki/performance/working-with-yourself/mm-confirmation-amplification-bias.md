@@ -37,4 +37,32 @@ This card names the personal form confirmation bias actually takes in Julian's w
 
 ## Detail
 
+**Strongest evidence to date: the UK residence analysis of 23-24 Sept 2026** ([[uktax-srt-fy26-27]],
+`## Error Register`). Of 57 corrections, ten were miscalibration - a conclusion stated more
+confidently than its inputs supported. **Every one leant the same way**, toward a more settled
+and more reassuring reading than the facts allowed:
+
+| Stated | Should have been |
+|---|---|
+| Hong Kong flat **"Confirmed"** a home | A fact-sensitive judgement HMRC could view differently |
+| Crossing 90 days is **"irreversible"** | A statement of intention, not law |
+| **"There is no fallback"** | A second route existed |
+| **"Cannot be let"** | Cannot *safely* be let |
+| **"120 days is unconditional"** | Independent of Sophia, not of everything |
+| **"A hard deadline costing the whole tax year"** | A deadline for one route of two |
+| Country tie **"likely"** | Requires the greatest midnight count |
+| **"The only route"**, **"the only test"** (x2) | Neither was unique |
+| **"Nothing you do this autumn changes 2026/27"** | Contradicted by the same section |
+
+**The direction is the finding.** None was a reasoning error - the legal analysis verified correct
+at every one of nine review rounds. The errors were all in *how settled things sounded*, and all
+of them pointed toward the answer Julian would have preferred. That is the amplification this card
+names, occurring in a technical analysis rather than a decision, and it was caught by hostile
+review and by Julian's own close reading - never by the generating model.
+
+A second instance from the same session: on being asked why the work took so long, the model's
+first attribution blamed late-arriving facts. The record showed one fact gap against roughly forty
+generation errors. **The explanation that reflected better on the work was produced before the
+record was examined** - see also [[mm-answer-first-bias]].
+
 Full mechanism and division-of-labour protocol: [[commitment-lock-protocol]]. Generic-tier card: [[mm-confirmation-bias]]. Scan verdict: [[bias-history-review]]. Row in [[biases-index]].
