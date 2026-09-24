@@ -2,7 +2,8 @@
 type: enabler
 project: ai-os
 workstream: performance
-hours: 4h
+hours: 6h
+total-attended: 1h30m
 created: 2026-09-24
 status: done
 completed: 2026-09-24
@@ -41,8 +42,16 @@ because **biases had a recall mechanism and mental models had none.**
 | AGENTS.md rule | Session Synopsis governance: Julian rates first, model comments beneath, three non-overlapping slots for synopsis / workflow-log / card |
 | [[mm-facts-first]] | New card — every fact arriving mid-analysis invalidates work already done |
 | [[mm-confidence-inheritance]] | New card — a conclusion can be no more certain than its weakest input |
-| [[mm-verification]] | Three cryptic principles rewritten in plain English |
+| [[mm-clarity-is-verification]] | New card — asking what a sentence means finds errors, not just ambiguity |
+| [[mm-write-for-the-stranger]] | New card — write for the version of you who has lost the context |
+| [[mm-verification]] | Three cryptic principles rewritten in plain English, **and the "residual" claim corrected** — automated review and human reading catch different error *classes*, not different amounts |
+| [[mm-confirmation-amplification-bias]] | Evidence logged: all ten miscalibration errors from the SRT run tabled, showing every one leant toward the more reassuring reading |
+| [[mm-admission-qualification]] | Takeaway tightened — the logging choice ends once work produces an artefact; Session Synopsis then required |
+| [[mm-facts-first]] | Rework-compounding principle added: a correction invalidates the review of what it replaced |
 | `behaviour-check` | `bias-check` renamed and widened into one dispatcher over both [[biases-index]] and [[mental-models-index]] |
+| Rating scale | "Would you run it this way again?" defined 1–5, rating method not output, added to all three define-* templates |
+| Error register | 57-entry register written into [[uktax-srt-fy26-27]], classifying every correction by type and who found it |
+| [[estimation-baseline]] | Calibration note on the UK Relocation row: verification cost scales with iteration count, not document length |
 
 ## Completion Criteria
 
@@ -51,6 +60,8 @@ because **biases had a recall mechanism and mental models had none.**
 - [x] Session Synopsis exists in templates, rules and hook, with a defined scale
 - [x] All references, wiki mirrors and sync rows updated
 - [x] Ops log records the change, the cause, and what was rejected
+- [x] Evidence from the triggering run logged against the models it bears on, not only described
+- [x] One claim in an existing card (`mm-verification`'s "residual") corrected where the evidence contradicted it
 
 ## Load-Bearing Assumptions
 
@@ -66,7 +77,8 @@ because **biases had a recall mechanism and mental models had none.**
 
 | Date | Segment | Who | Tokens / Minutes | Notes |
 |------|---------|-----|------------------|-------|
-| 2026-09-24 | Diagnosis, design and build | Julian attended | 30 min | Self-reported. Steering, naming decisions, and three catches where the model proposed something the wiki already held |
+| 2026-09-24 | Diagnosis, design and build | Julian attended | 30 min | Self-reported. Root cause, both hooks, Session Synopsis templates, AGENTS.md rule, `behaviour-check` rename. Steering, naming decisions, and three catches where the model proposed something the wiki already held |
+| 2026-09-24 | Cards, error register and corrections | Julian attended | 60 min | Self-reported. Four mental-model cards, the rework principle, the 57-entry error register, and two challenges that changed the record: rejecting the routing edit as not fitting, and rejecting the first attribution of the rework to late-arriving facts |
 | 2026-09-24 | Interactive session (main thread) | Machine (session) | unmeasured | Shared with the [[uktax-srt-fy26-27]] run; not separable |
 
 ## Session Synopsis
