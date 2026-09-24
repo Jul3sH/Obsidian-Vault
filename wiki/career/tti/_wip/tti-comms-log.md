@@ -470,6 +470,20 @@ renamed: 2026-07-17
 
 ---
 
+## ⏳ 18 Sep - CATCH-UP ASKED FOR, OVERTAKEN BY THE CLODAGH POLICE CALL-OUT; the proposed Friday 19 Sep call never happened. As of 24 Sep: no business contact for six days, ball with Stephan
+
+> Logged 24 Sep, verbatim (times UK):
+
+> [18/9/2026, 9:47] **Julian:** Hi Stephan, are you free for a quick catch up later? I'm about to call the police to remove Clodagh from my Mum's but I should be free afterwards!
+> [18/9/2026, 10:58] **Stephan:** Are you serious! Is it that bad with her?
+> [18/9/2026, 11:00] **Julian:** Yeah really bad, they'll be here any minute. She's been buying a bottle of wine from the local shop at 8am every morning, and then more in the afternoon. I had a plan with her parents to get her to the airport and onto a plane today, but she's refusing to leave the house.
+
+**Read (24 Sep):** the business thread stopped on 16 Sep at "we will discuss internally". Stephan never confirmed the Friday call, the 18 Sep ask for a catch-up was immediately buried under the Clodagh crisis, and the last thing Stephan saw from Julian was a police call-out in progress. So the six-day gap has an ordinary explanation before it has a stalling one: the last exchange was personal, not business, and no open question was left on Stephan's side. The chase therefore has to do two things in order: close the personal loop (Clodagh resolved, Julian back and settled), then put the business question back on the table with a date. Escalation to Horst is available (the 14 Sep "I'll keep you posted" line, [[engagement-history]]) but is not warranted on one unanswered informal ask. Per [[tti-role]] next action 0a, the goal of the next conversation is owners and dates on role/level, number, term, start date, schooling budget, flights, and who papers it.
+
+**Timing note for the end-of-term point Stephan floated:** per [[uktax-srt-fy26-27]], leaving together at the end of the autumn term is survivable for 2026/27 residency (Sophia leaves before her 183rd day on 28 Jan, so Julian's two-tie date moves to 9 Feb). The genuine costs of end-of-term are Sophia's catch-up and disruption and the loss of the 90-day insurance for 2027/28 and 2028/29; the tax-residency line is weaker than [[tti-role]] 0a states, so use it carefully.
+
+---
+
 ## ✅ 16 Sep - POST-LUNCH EXCHANGE: "we will discuss internally"; Julian proposed a Friday 19 Sep catch-up and played the flat-viewers urgency lever
 
 > First direct Stephan contact after the 14 Sep Horst lunch ([[engagement-history]] 14 Sep entry). Logged 17 Sep, verbatim:

@@ -1,6 +1,6 @@
 ---
 type: negotiation-prep
-status: live
+status: reference
 created: 2026-09-13
 ---
 
@@ -8,6 +8,8 @@ created: 2026-09-13
 
 This file is the negotiation card for the Horst lunch (expected 14 Sep 2026, before the 15 Sep flight), where Horst has said he will discuss the terms of a job. It was created 13 Sep because Julian needs to walk in with a clear, short list of asks, each tied to a known risk from the engagement arc and the UK relocation reopen. Read it before the lunch; the outcome gets logged to [[tti-comms-log]] and feeds [[hk-uturn-reopen-2026-09]].
 
+> ⚠ As of 24 Sep (Julian's read): the lunch did not follow this card. None of the scripted conversations or asks ran as written; what came out of it is Horst's word that he will sort this out, with execution left to Stephan. Kept as reference material to reuse when written terms are being negotiated, not as a record of what happened. The record is [[engagement-history]] 14 Sep.
+>
 > ✅ OUTCOME (lunch happened 14 Sep, logged 17 Sep). **Achieved:** the number verbally accepted at chairman level (Julian: "HK$2M + 15% bonus"; Horst: "no problem" - effectively must-have 4); schooling seeded twice (must-have 5 groundwork); Horst's mandate explicit ("just make it happen"); the set-up-to-fail risk (asks 6-7) validated by Stephan in front of Horst ("they possibly saw you as a threat"); Ty kept blameless for future working purposes. **Not achieved:** must-haves 1-2 (nothing in writing, no term, no start date) and the table-manners rule "get the next step named before leaving" - the close had no recap, and execution reverted to Stephan, who floated end-of-term delay in the limo. **New ask for the follow-up: flights/relocation costs** - Horst himself suggested paying for the return on the 13 Sep call; ask for it. Full record: [[engagement-history]] 14 Sep entry. This card now drives the Stephan follow-up, not a Horst meeting.
 >
 > ⚠ As of 13 Sep (pre-lunch): the UK-move stand-down is active ([[dec-uk-move]] wobble #5). The lunch is negotiation and information-gathering. Do not commit at the table - "let me review the terms in writing" costs nothing with Horst.
