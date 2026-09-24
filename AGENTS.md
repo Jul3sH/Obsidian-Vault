@@ -292,6 +292,32 @@ Reference implementation: the Time and Token Log in `wiki/deliverables/ai-engine
 
 ---
 
+
+## Session Synopsis (all deliverables)
+
+Every deliverable carries a `## Session Synopsis` alongside its `## Time and Token Log`,
+filled **at handback, not at creation**. It captures one thing the other mechanisms do not:
+**Julian's own read of how the collaboration went.**
+
+- **Julian rates and comments first.** The model must not offer its own view until Julian
+  has given his, so his judgement is not anchored by the model's.
+- **The model then comments briefly beneath.** Honest, not congratulatory - what actually
+  went well and what cost time.
+- Scope: every deliverable, however small. A one-line rating is a valid synopsis. The
+  section existing and looking empty is the point.
+
+**Do not record lessons here.** Three slots, deliberately non-overlapping:
+
+| Where | What goes there |
+|-------|-----------------|
+| `## Session Synopsis` (in the deliverable) | Julian's rating and read, plus the model's comment. Subjective, local, one per handback. |
+| [[genai-task-workflow-log]] (central) | The mechanical lesson and which chain step failed - admission / work type / verification / routing / steering. Queryable, read at task creation when routing is decided. **This already exists and is the home for lessons.** |
+| A card in `wiki/performance/working-with-genai/` | Only when a lesson proves durable across runs. Cards are indexed, linked and surfaced by skills; a one-off belongs in the log, not a card. |
+
+If the synopsis surfaces something that looks durable, agree with Julian whether it is a
+workflow-log entry or has earned a card. **Never write a free-standing lessons-learned
+note** - that is the failure mode all three slots exist to avoid.
+
 # Single Source of Truth for Project Numbers (all agents)
 
 When a project accumulates many analyses that quote the same figures (burn rates, runway,

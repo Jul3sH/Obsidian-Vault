@@ -118,3 +118,26 @@ The number will come out if pressed. **Have the one-liner rather than the table:
 
 ---
 
+---
+
+## Time and Token Log
+
+Machine effort in tokens, Julian's effort in focused minutes — never mixed into one figure
+(see AGENTS.md "Time and Token Logging").
+
+| Date | Segment | Who | Tokens / Minutes | Notes |
+|------|---------|-----|------------------|-------|
+| 2026-09-23/24 | Peer review (Fable, 7 rounds) | Machine (agent) | 326,567 tokens | Rounds 1–7 cumulative. Found the para 25(5) "home" fragility, the Sophia omission in let-and-relocate, and a split-year legal error |
+| 2026-09-24 | Adversarial review (Codex, gpt-6-astra, high) | Machine (agent) | 163,808 tokens | Round 8. Found Sophia's unverified 2024/25 day count — the single most material finding of the exercise |
+| 2026-09-23 | Adversarial review (Codex, GPT-5.6) | Machine (agent) | 111,961 tokens | Rounds 1–2, 96,437 + 15,524 |
+| 2026-09-23 | Codex rescue subagent | Machine (agent) | 15,317 tokens | Reported a background job it never started; wasted |
+| 2026-09-23/24 | Interactive session (main thread) | Machine (session) | unmeasured | Transcript 5.4 MB; per-message usage not summed |
+| 2026-09-23/24 | Attended | Julian | *[pending]* | *[to be self-reported]* |
+
+## Session Synopsis
+
+| Date | Rating (1–5) | Julian's read | Model's comment |
+|------|--------------|---------------|-----------------|
+| 2026-09-24 | *[pending]* | *[pending]* | *[pending Julian's first]* |
+
+*Lessons do not go here — the mechanical lesson goes to [[genai-task-workflow-log]]; only a lesson durable across runs earns a card in `wiki/performance/working-with-genai/`.*

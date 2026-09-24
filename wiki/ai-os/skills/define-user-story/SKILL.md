@@ -237,6 +237,18 @@ figure (see AGENTS.md "Time and Token Logging"). Minutes roll up to Actual hrs i
 | Date | Segment | Who | Tokens / Minutes | Notes |
 |------|---------|-----|------------------|-------|
 
+## Session Synopsis
+Filled at handback, not at creation. Captures **Julian's own read of the collaboration** -
+the one thing the workflow log does not hold. **Julian rates first, unprompted by the
+model's view**; the model comments beneath.
+
+| Date | Rating (1-5) | Julian's read | Model's comment |
+|------|--------------|---------------|-----------------|
+
+**Lessons do not go here.** The mechanical lesson and the chain step that failed go to
+[[genai-task-workflow-log]]; only a lesson durable across runs earns a card in
+`wiki/performance/working-with-genai/`. Never write a free-standing lessons-learned note.
+
 ## Links
 - **Project:** [[../projects/[project-slug]|[Project Name]]]
 - **Workstream:** [[../[workstream]/_index|[workstream]]]
