@@ -9,9 +9,63 @@ tags: [finance, uk-relocation, tax, residency, srt]
 # UK Statutory Residence Test — Position Summary
 ## Julian Hart & Sophia (age 12) — Tax year 2026/27 and forward exposure
 
-> Canonical UK tax-residency position for Julian and Sophia under the Statutory Residence Test. Supports the [[uk-relocation-project|UK Relocation Project]] and sits alongside [[uk-move-financial-model]] and [[uk-relocation-cashflows]]. Peer-reviewed (Fable, 3 rounds) and adversarially reviewed (Codex) against FA 2013 Sch 45 and the HMRC RFIG manual — see §10 Review record.
+> Canonical UK tax-residency position for Julian and Sophia under the Statutory Residence Test. Supports the [[uk-relocation-project|UK Relocation Project]] and sits alongside [[uk-move-financial-model]] and [[uk-relocation-cashflows]]. Peer-reviewed (Fable, 4 rounds) and adversarially reviewed (Codex) against FA 2013 Sch 45 and the HMRC RFIG manual — see §10 Review record.
 
 *Prepared 23 September 2026. Peer-reviewed and adversarially reviewed; corrections applied. Analysis of published HMRC guidance (Residence and FIG Regime Manual, RFIG20000 onwards) and FA 2013 Schedule 45. Not regulated tax advice — for adviser sign-off.*
+
+---
+
+# ⛔ EXECUTIVE SUMMARY — WHAT YOU MUST DO TO STAY NON-RESIDENT
+
+*The whole document in one page. Items 1 and 5 catch you **regardless of day count**; items 2, 3 and 4 are day-count tests.*
+
+> ### Why this is worth obeying even in a year with no income
+> **One resident year is not one year.** It costs arriver status for the **following three**: the much harsher Table A applies, your automatic escape tightens from under 46 days to under 16, a fifth "country tie" appears, and the deeming rule switches on so day-trips start counting. **There is no split-year relief available to you** (§5.10), so a resident 2026/27 would be a *full* year from 6 April — sweeping in the months you spent entirely in Hong Kong. It would also start your 4-year FIG clock, which runs whether or not you claim it.
+
+> ### ⏰ Time-critical
+> At 43 days on 23 September, you reach **46 days on 26 September 2026** and lose the under-46-day automatic escape. From that point everything below applies.
+
+## For 2026/27 (now to 5 April 2027)
+
+**1. Always have an overseas home you actually use. The simplest rule: do not let the Hong Kong flat before 8 March 2027.**
+*Why:* You meet **three of the four conditions** for automatic UK residence — you have a UK home at your mother's, you are present there over 30 days, and you will have held it 91 days on **28 October 2026**. **The Hong Kong flat failing the fourth condition is the only thing saving you.** Lose it and you are automatically resident **at any day count above 45** — the 90/120/182 analysis becomes irrelevant.
+*If you must let it:* the conditions are exacting and apply to **you and Sophia separately** — each needs a replacement Hong Kong home with **30+ days of their own presence before 5 April 2027**, and a place she has never lived in is not her home. **Read the variant in Part One before acting.**
+
+**2. Do not spend 183 days or more in the UK. Your 182nd day is 9 February 2027 — you must not be here at midnight on 10 February.**
+*Why:* 183 days makes you automatically resident with no argument available.
+
+**3. Do not hold a second tie while above 120 days. If Sophia will still be here at midnight on 28 January 2027, you must be out before midnight on 10 December 2026. If she leaves first, you have until 9 February.**
+*Why:* You hold one tie (accommodation, at your mother's). One tie never catches you. **Two ties make you resident above 120 days.** If Sophia reaches 183 days on 28 January she becomes resident, which gives you a family tie **for the whole tax year** — including months you had already left. **Your departure does not protect you; hers does.**
+⚠️ **This is the item that fails by default.** Item 1 fails only if you act; **item 3 fails if nobody acts** — Sophia reaches 183 days simply by staying.
+
+**4. Do no work physically in the UK — including Hong Kong-employer work done remotely.**
+*Why:* 40 days of more than 3 hours' work in the UK creates a **work tie** — a second tie, dropping your ceiling to 120 days. Employer location is irrelevant; what counts is where you physically work.
+⚠️ **Worse than a tie:** *sustained full-time* work done in the UK (35+ hrs/week, 75%+ of workdays here) triggers the **third automatic UK test — automatic residence at any day count**, assessed over a rolling 365 days that **can run past 5 April 2027 and catch this year retrospectively** (§5.9).
+
+**5. Sophia's 28 January line matters for her too, not just for you.**
+*Why:* Reaching 183 days makes her UK resident **in her own right**, with her own three-year leaver ratchet — and it burns her 4-year FIG window at 12, while she has no income, so it is gone before she ever does.
+
+## For 2027/28 and every year after
+
+**6. Repeat the 30 days in an overseas home in any year you also have a UK home you are present in on 30+ days.**
+*Why:* It is an **annual test with no carry-over**, and the obligation follows whichever property is currently your home — history does not satisfy it. *(If in some year you barely use a UK home — say two weeks at your mother's — the test cannot bite that year regardless, because it also needs 30 days' presence in the UK home.)*
+
+**7. If you want the full-time-work-abroad escape for 2027/28, a Hong Kong job must run 6 April 2027 to 5 April 2028 with no 31-day gap other than annual, sick or parenting leave, under 91 UK days and under 31 UK workdays.**
+*Why:* A later start or early finish loses that layer **for the whole year**, not just the gap. **This is an optional extra layer, not a requirement** — losing it drops you back to the ties analysis, where 90 days or fewer is still safe.
+
+**8. Keep contemporaneous records.**
+*Why:* Your position rests on facts you would have to prove: days in the Hong Kong flat (flights, utility bills, card transactions), UK arrival and departure times, and — from 2027/28 — days spent with Sophia in the UK.
+
+## What is NOT required — do not over-constrain yourself
+
+Provided items 1–4 hold, **none of these is needed this year**:
+
+- **Leaving before 90 days (9 November 2026).** It does not affect 2026/27. It buys a 182- rather than 120-day ceiling in 2027/28 and 2028/29 — insurance you are unlikely to need on the Hong Kong-job plan.
+- **Managing the 16 nights at your mother's.** One tie is inert; shedding it changes nothing this year.
+- **Avoiding 121 days.** Not a threshold for you this year.
+- **The school carve-out for Sophia.** Dead for 2026/27; relevant only from the boarding years.
+- **Counting day-trips without a midnight.** The deeming rule does not apply to an arriver.
+- **Doing anything about the London flat** while it remains let.
 
 ---
 
@@ -111,7 +165,7 @@ So "arriver" is settled before you open the table; the table then decides reside
 >
 > **So staying past 90 days this year does NOT give Julian a second tie this year.** He holds one tie in 2026/27 whatever he does, right up to 182 days. What it does is create a second tie in **2027/28 and 2028/29** — and it then expires.
 >
-> That is the entire substance of the decision below: **nothing he does this autumn changes 2026/27. It changes the two years after it.**
+> That is the entire substance of the 90-day question: **crossing 90 days does not change 2026/27. It changes the two years after it.** (Other things *can* still change 2026/27 — see the trap section and the three risks below.)
 
 *(Table A is the equivalent table for leavers, and is much harsher — 4 ties at 16–45 days, 3 at 46–90, 2 at 91–120, and just 1 above 120. It matters only if Julian or Sophia becomes resident and loses arriver status.)*
 
@@ -119,7 +173,7 @@ So "arriver" is settled before you open the table; the table then decides reside
 
 ### Short answer: do I need to leave the UK before 90 days, or can I stay longer?
 
-**No — you do not need to leave before 90 days.** Nothing you do this autumn changes your 2026/27 residence status. Crossing 90 days affects only 2027/28 and 2028/29, and on the Hong Kong-job plan the cost is headroom you are unlikely to use. The reasoning follows.
+**No — you do not need to leave before 90 days.** Crossing 90 days does not change your 2026/27 residence status; it affects only 2027/28 and 2028/29, and on the Hong Kong-job plan the cost is headroom you are unlikely to use. The reasoning follows.
 
 #### On the 121-day threshold
 
@@ -152,12 +206,14 @@ So "arriver" is settled before you open the table; the table then decides reside
 
 #### Why this is a trap
 
-**Conditions 1–3 are utterly commonplace.** Anyone who stays with family in the UK for a few months meets all three without doing anything unusual:
+**Conditions 1–3 are easily met, and carry no warning signs.** Anyone who *lives* with family in the UK for a few months meets all three without doing anything unusual:
 - Staying at a parent's house for months makes it a home
 - 30 days of presence is six weeks
 - A 91-day holding window is just having arrived three months ago
 
-They are not the test's discriminator and they carry no warning signs. **A person can meet three of four conditions for automatic UK residence simply by visiting their mother for a summer.**
+They are not the test's discriminator and they carry no warning signs. **A person can meet three of four conditions for automatic UK residence simply by living at their mother's house for a few months.**
+
+*(One qualification: conditions 1 and 3 need the UK place to be a **home**, and para 25(3) excludes "a holiday home or temporary retreat". A short summer visitor whose real life is abroad usually would not have a UK home at all. The point holds for someone living with family for months — which is Julian's position — but not for every visitor.)*
 
 **Condition 4 is the discriminator, by design.** This is often called the *"only home" test*. Its target is someone who has relocated their life to a UK home but keeps their day count low. It asks: *is your UK home your only real home?* Having a genuine, used home abroad is the normal and intended way not to be caught — Julian is outside the population the test was written for, not scraping past on a technicality.
 
@@ -185,11 +241,36 @@ The supporting facts are strong: his home for 5 years; he lived in it for the **
 
 So the scenario splits in two:
 
-- ✅ **Lets the flat AND moves into another Hong Kong place he actually lives in.** He still has an overseas home, and living there puts him far beyond the 30-day presence requirement. **Condition 4 still fails, so the test still does not bite. Safe.** The owned flat ceasing to be his home is harmless once another home exists.
+- ⚠️ **Lets the flat AND moves into another Hong Kong place he actually lives in.** He still has an overseas home — but **that is not sufficient on its own.**
+
+  > **The replacement must itself clock 30+ presence days INSIDE 2026/27.** Condition B is judged at each moment of the window against the homes he then has, and para 8(5) counts presence "in year X". So a replacement home only defeats the test if he is present in it on 30 or more days **before 5 April 2027**.
+  >
+  > **Worked failure:** he lets the flat and moves into a rental on 20 February, then flies to the UK on 1 March and stays to 5 April. He has **9 presence days** in the rental. Condition B is therefore *satisfied* from 20 February; a window of 20 Feb – 21 May contains 45 days inside the tax year; **the test is met and he is UK resident at any day count.**
+  >
+  > **So the rule is: switch early enough, and stay.** A switch on 7 March leaves exactly 30 days available — no margin at all. Every UK trip after the switch eats into the count.
 
 - ⚠️ **Lets the flat and has NO other overseas home** — between places, in hotels, staying casually with friends. For that period he has no overseas home at all, condition 4 flips to satisfied, and the test can bite.
 
-> **The danger is a GAP, not the letting.** Letting the owned flat is only fatal if nothing replaces it as a home.
+> **The danger is not the letting — it is any window in which his only overseas home has fewer than 30 presence days in the tax year.** A gap with no overseas home is the obvious case, but an under-used replacement fails in exactly the same way.
+
+#### ⚠️⚠️ AND THIS IS WORSE FOR SOPHIA — the variant does not work for her at all
+
+*Added after peer review. The original version of this variant analysed Julian only, and that was a material omission.*
+
+**A Hong Kong home Julian moves into is not Sophia's home unless she uses it as one.** HMRC is explicit: if a place is capable of being someone's home "but in fact the individual never actually uses it as their home, then it will not be the individual's home" ([RFIG22140](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22140)).
+
+**So if the owned flat is let before ~7 March 2027 while Sophia is still in the UK:**
+
+1. She has **no overseas home at all** — the old flat is let, and the new rental is somewhere she has never lived
+2. Condition A is therefore **satisfied** for her
+3. Her grandmother's house **is** her home, she is present there well past 30 days, and the 91-day window is running
+4. **She is automatically UK resident for 2026/27**
+5. Julian then has a **family tie** for the whole year (§ ties are assessed across the whole year)
+6. With 2 ties and more than 120 days, **he is resident too**
+
+> **The condition-4 test must be satisfied for each of them separately.** On the stated plan — returning to Hong Kong, letting the flat, living somewhere else before 5 April 2027 — **this is the live risk, and it runs through Sophia, not through Julian.**
+>
+> **If the flat is to be let while Sophia is still in the UK, she needs her own overseas home with 30+ presence days before 5 April 2027** — which in practice means she travels too, and stays long enough.
 
 **Two things limit the damage even if a gap occurs:**
 
@@ -198,7 +279,11 @@ So the scenario splits in two:
 
 **Forward implication.** Whichever Hong Kong property is his home must carry the **30+ days of presence in every tax year** in which he also has a UK home. If he moves to a rented place, the requirement transfers to that place — it is not satisfied by history in the old flat.
 
-> ⚠️ **Adviser question.** Once the owned flat is let and is no longer his home, it is not clear whether his ~127 days of presence in it still count toward the condition-4 arithmetic, since during the relevant window it is not one of his homes (para 8(6)(b) counts presence only "at a time when it is a home of P's"). **This does not matter if the replacement home gets 30+ days** — but it would matter if he were relying on the old flat's history alone. Confirm before letting the flat mid-year.
+> **How the old flat's 127 days are treated — resolved, not an open question.** Para 8(6)(b) counts presence "at a time when it is a home of P's", so those days were validly counted while the flat was his home. Their effect is structural:
+> - **Any window that includes even one pre-switch day fails**, because Condition B is not met on those days (127 presence days is far beyond the permitted 30)
+> - **Any window starting on or after the switch is judged on the replacement home alone** — the old flat's history does nothing for it
+>
+> **So history protects earlier windows and is worthless for later ones.** This is why the switch date matters so much, and why the replacement's own 30 days are the whole game.
 
 #### What to do about it
 
@@ -289,7 +374,11 @@ Three things about the 61-day count are worth knowing, because they decide how c
 
 **This is why limb 2 is the controllable one.** Limb 1 depends on Sophia's own circumstances, which once she is at UK boarding school are largely fixed. Limb 2 depends only on where you and she spend time together.
 
-**For 2026/27 limb 2 is already lost** — living together since 30 July, you passed 61 contact days long ago. So this year the tie turns entirely on limb 1, which is why her 183-day line on 28 January matters so much.
+**For 2026/27 limb 2 is close to lost, but not lost yet.** Counting part-days: 30 July – 4 September is 37 contact days, plus 17–23 September is 7 — **44 contact days as at 23 September 2026**. The 61st falls on about **10 October 2026** if they remain together in the UK.
+
+In practice it is not a lever, since avoiding it would mean separating from Sophia. But two things follow: the figure should be tracked rather than assumed, and **from 2027/28 onward the contact-day count becomes a genuine control** (§6), so the habit of counting it should start now.
+
+Once limb 2 goes, this year's tie turns entirely on limb 1 — which is why her 183-day line on 28 January matters so much.
 
 #### Why this matters for the 90-day decision
 
@@ -480,7 +569,17 @@ If the job is not signed, the irreversibility line above is the better guide: st
   > ⚠️ **First, a warning about the 91 days: it is NOT a count of days spent in the UK.** It is not a presence test at all. It is a window of time throughout which you **have** a UK home and **have no** usable overseas home — you could be sitting in Hong Kong for the whole 91 days and it would still run. Three separate numbers appear in this test and only one of them is about presence:
   >
   > - **91 consecutive days** — a period during which you *hold* a UK home and *hold no* usable overseas home. **Not presence.**
-  > - **30 of those 91 days falling in the tax year** — just positioning the window against 6 April–5 April. **Not presence.**
+  > - **30 of those 91 days falling in the tax year** — a connection test, making sure the arrangement actually overlaps the year being assessed. **Not presence.**
+  >
+  > **Why the window is allowed to extend outside the tax year.** The 91 days measures something about your *life* — was there a settled stretch, rather than a brief gap, in which your only real home was in the UK? Circumstances do not reset on 6 April, so someone who gives up an overseas home in February has a settled arrangement that simply straddles the year boundary. The **30-day** requirement is what ties it back: without it, a 91-day stretch sitting entirely in the previous or next tax year could catch you in this one.
+  >
+  > So the two numbers do different jobs:
+  > - **91 consecutive days** — *was this settled, or a blip?* (a duration test)
+  > - **30 of them inside the tax year** — *did it meaningfully overlap the year I am testing?* (a connection test)
+  >
+  > HMRC's Stan example shows it working: Stan moves into his London flat on 1 February 2014 having sold his Australian home. The 91-day period runs from 1 February to about 2 May — **most of it in the following tax year** — but 1 February to 5 April is 64 days inside 2013-14, well past 30, so it counts for 2013-14 ([RFIG20340](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig20340), Example 1).
+  >
+  > **This is precisely why 7 March is the cut-off.** A window starting 7 March 2027 runs to roughly 5 June — mostly inside 2027/28 — but 7 March to 5 April is 30 days in 2026/27, so it still counts against *this* year. Start it on 8 March and only 29 days fall inside, and it cannot.
   > - **30 days present in your UK home during the tax year** — **this one is presence**, and it is a separate requirement.
   >
   > **The test catches Julian only if all four of these hold:**
@@ -566,7 +665,7 @@ Two consequences that matter here:
 | Test | Requirement | Result |
 |---|---|---|
 | First | Resident in a prior year + under 16 days | ❌ Not applicable / exceeded |
-| Second | Non-resident 3 prior years + **under 46 days** | ❌ **Lost** — at 44, will exceed |
+| Second | Non-resident 3 prior years + **under 46 days** | ❌ **Lost** — at 43, exceeded on 26 Sep 2026 |
 | Third | Full-time work overseas + under 91 UK days | ❌ Not working |
 
 ### Stage 2 — Automatic UK tests: none met
@@ -607,7 +706,7 @@ Two consequences that matter here:
 ## 4. This year (2026/27) — SOPHIA
 
 ### Stages 1 and 2
-- Second automatic overseas test **lost** (will exceed 45 days).
+- Second automatic overseas test **lost** — she is at 56 days, past the 45-day limit.
 - Second automatic UK test **DEFEATED** — 30+ days in the HK flat. The SRT has no age exemption; this test applies to a 12-year-old exactly as to an adult.
 
 ### Stage 3 — her ties are structurally capped at two, and she holds one
@@ -834,7 +933,7 @@ That means a resident 2026/27 would sweep in the period **6 April to 30 July 202
 
 **How much that costs depends on the year:**
 
-- **2026/27 — near-harmless.** No employment income, so only the London rental is affected (§💷).
+- **2026/27 — near-harmless.** No employment income, so only the London rental is affected (the “What is at stake” section in Part One).
 - **An earning year — material.** A full year of Hong Kong salary would fall into UK scope from 6 April, rather than only from an arrival date. This is one of the clearest reasons to avoid tipping into residence in a year with income, and a reason the leaver ratchet at §5.4 compounds: each of the three ratchet years is a year in which an accidental residence would be unsplit.
 
 **Case 8 could become available** if plans changed such that Julian were UK resident in the following tax year too — i.e. if he were genuinely settling here rather than returning to Hong Kong. Worth re-testing if the plan changes.
@@ -1023,7 +1122,7 @@ The stated pattern is safe because it is small. It would need to grow substantia
 |---|---|---|
 | **27 Oct 2026** | Sophia reaches 90 days | Creates her 90-day tie for 27/28 & 28/29 → triggers the §5.3 chain |
 | **9 Nov 2026** | Julian reaches 90 days | Creates his 90-day tie for 27/28 & 28/29 → limit falls to 120 days in both |
-| **9 Dec 2026** | Julian reaches 120 days | Only binding if a second tie arises — realistically **only a UK work tie** (incl. remote HK work). No partner tie exists; no 90-day tie. |
+| **9 Dec 2026** | Julian reaches 120 days | **His unconditional safe line.** Binding if a second tie arises — most importantly the **family tie if Sophia reaches 183 days on 28 Jan** (ties are assessed across the whole tax year, so her January residence would catch him even if he left in December). Also a UK work tie, including remote HK work. |
 | **28 Jan 2027** | **Sophia reaches 183 days** | **Automatically resident. Binds first.** |
 | **9 Feb 2027** | Julian reaches 182 days | Last safe day at 1 tie |
 | **5 Apr 2027** | Tax year ends | 30-day HK clock resets for 2027/28 |
@@ -1034,21 +1133,22 @@ The stated pattern is safe because it is small. It would need to grow substantia
 
 ## 8. Item register — facts established and items parked
 
-*All items are closed, assessed, or deferred at Julian's direction. **Nothing here is outstanding or blocking.** The three deferred items are separate workstreams, not gaps in this analysis.*
+*Almost all items are closed, assessed, or deferred at Julian's direction. **One remains genuinely open: §8.12, Sophia's 2024/25 UK day count.** The three deferred items are separate workstreams rather than gaps.*
 
 | # | Item | Why it matters | Status |
 |---|---|---|---|
 | **8.1** | ✅ **RESOLVED — 43 days, not 44** | Flight departed **17:00 on 4 September 2026**, so Julian was not in the UK at the end of that day and 4 Sep does **not** count. Confirmed count **43 days at 23 Sep 2026**. All Julian thresholds accordingly fall one day later than earlier drafts: 90 days = **9 Nov 2026**, 120 = **9 Dec 2026**, 182 = **9 Feb 2027**. Sophia's 56 days and her 27 Oct / 28 Jan dates are unchanged. | ✅ **CLOSED** |
 | **8.2** | ✅ **RESOLVED — FIG regime AVAILABLE** | A split departure year counts as a **full year of UK residence** for the 10-year test (RFIG44000, Example 5), so if 2013/14 was a split year the run starts 2014/15. Still 10+ on the stated facts. If 10+ consecutive non-resident years, Julian is a "qualifying new resident" for the **4-year FIG regime** ([RFIG44000](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig44000)). Continuous non-residence since 2013 gives **12 consecutive years** (2014/15–2025/26 even if 2013/14 was a split year, which counts as a full resident year). Only bites if he becomes resident — but the clock runs whether or not claimed. ⚠️ **This rests on Julian's own assertion; a single resident year in between (e.g. a lockdown year) resets it. Evidence the pre-2024/25 day counts rather than recall them.** | ✅ **AVAILABLE — subject to evidencing** |
 | **8.3** | ✅ **RESOLVED — 2024/25 under 45 days** | Confirmed under 45, comfortably below the >90 threshold. **No 90-day tie for 2026/27.** Retain evidence in case of enquiry. | ✅ **CLOSED** |
+| **8.12** | ⚠️ **OPEN — Sophia's 2024/25 UK days not established** | Her 2025/26 count is 39. Her 2024/25 count has **not** been confirmed; the analysis assumes it was under 90, which is what gives her no 90-day tie. If it exceeded 90 she would hold two ties in 2026/27 and be resident above 120 days — she is at 56 and rising. **Worth confirming.** | ⚠️ **OPEN** |
 | **8.4** | **Spouse or cohabiting partner?** | ✅ **RESOLVED 23 Sep 2026 — none.** Household is Julian, Sophia and Julian's mother. A parent creates no family tie (para 32(2) lists only spouse/civil partner, cohabiting partner, own child under 18). Julian stays at **one tie**; limit remains 182 days, not 120. | ✅ **CLOSED** |
 | **8.5** | **Para 33 education carve-out — probably ILLUSORY on these facts** | All five conditions required, including that Sophia spends **fewer than 21 days (i.e. max 20)** in the UK outside term-time ([RFIG20540](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig20540)). **She arrived 30 July and stayed at her grandmother's through the summer holiday — already far beyond 20 outside-term days for 2026/27.** Term-time includes half-terms and inset days, but not the main holidays. Exceptional circumstances **cannot** be deducted from this count ([RFIG22230](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22230)). Only revivable in a future year if main holidays are spent outside the UK. | ⚠️ **Dead for 2026/27** |
 | **8.6** | **Evidence retention** | Deferred at Julian's direction — this report is currently for his own understanding, not a formal filing position. **Revisit before any adviser engagement or HMRC filing:** travel records, HK utility bills and card transactions evidencing flat presence, and a dated log of UK contact days with Sophia. | ⏸️ **DEFERRED** |
-| **8.7** | ✅ **ASSESSED — LOW RISK, well supported on the facts** | *Downgraded 23 Sep 2026. Carried as "the single point of failure" while the facts were thinner; the position is materially stronger than earlier drafts assumed.* **Supporting facts:** it has been his home for the last 5 years; Julian lived in it **6 Apr – 30 Jul 2026 (115 days)** — i.e. for the first four months of the tax year under review; he **returned and used it 4–17 Sep**; total presence ~**127 days against a 30-day requirement**; it is **empty and not let**, so available throughout; and **he intends to return and live there**. HMRC's Asif example ([RFIG22140](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22140)) treats an empty, available overseas property as still a home even where the owner spends the *entire* year elsewhere — Julian's position is stronger, because he actually used it. Para 25(5) bites on someone who has "moved out ... having set up home elsewhere"; on these facts he has not. **Remaining conditions (not open questions, just things not to break):** always have *an* overseas home — the owned flat may be let **provided another Hong Kong home immediately replaces it**, since a *gap* with no overseas home is what is fatal, not the letting (§5.8 variant); keep whichever property is the current home available and unoccupied by others; achieve 30+ days' presence in it each year; retain evidence. **Re-test only if plans change** such that he does not return to Hong Kong — the characterisation weakens materially for 2027/28 if the flat sits unused for a full year. | ✅ **CLOSED — conditional on not letting it** |
+| **8.7** | ✅ **ASSESSED — LOW RISK, well supported on the facts** | *Downgraded 23 Sep 2026. Carried as "the single point of failure" while the facts were thinner; the position is materially stronger than earlier drafts assumed.* **Supporting facts:** it has been his home for the last 5 years; Julian lived in it **6 Apr – 30 Jul 2026 (115 days)** — i.e. for the first four months of the tax year under review; he **returned and used it 4–17 Sep**; total presence ~**127 days against a 30-day requirement**; it is **empty and not let**, so available throughout; and **he intends to return and live there**. HMRC's Asif example ([RFIG22140](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22140)) treats an empty, available overseas property as still a home even where the owner spends the *entire* year elsewhere — Julian's position is stronger, because he actually used it. Para 25(5) bites on someone who has "moved out ... having set up home elsewhere"; on these facts he has not. **Remaining conditions (not open questions, just things not to break):** always have *an* overseas home — the owned flat may be let **provided another Hong Kong home immediately replaces it**, since a *gap* with no overseas home is what is fatal, not the letting (§5.8 variant); keep whichever property is the current home available and unoccupied by others; achieve 30+ days' presence in it each year; retain evidence. **Re-test only if plans change** such that he does not return to Hong Kong — the characterisation weakens materially for 2027/28 if the flat sits unused for a full year. | ✅ **CLOSED — conditional on always having a used overseas home** |
 | **8.8** | ⏸️ **DEFERRED — what non-residence is worth** | Anticipated HK income **HK$2.2m–2.5m**, but **not quantified**, and deliberately so. **HK income is taxed in Hong Kong either way**; if UK resident, the UK taxes worldwide with **credit for HK tax paid** under the UK–HK DTA — so the cost of residence is the **UK/HK differential**, not the full UK liability. A figure needs HK salaries tax payable, UK liability, the **capped** post-2025 Overseas Workday Relief position, and the OWR/DTA interaction. **Adviser computation.** Structurally: **2026/27 stake is low** (no employment income; only the London rental differs), **2027/28 onward is material**. HK rental and pension treatment deferred as a separate workstream. | ⏸️ **DEFERRED** |
 | **8.9** | ✅ **ASSESSED — split-year relief is NOT available** | *Relevance: this is a damage-limitation question, not a will-I-be-resident question. Split-year treatment would divide a resident year into UK and overseas parts, so only the UK part is taxed as resident.* **Julian does not have it. Case 4** requires ceasing to have any overseas home — out, he keeps the HK flat. **Case 8** requires no UK home at the start of the year (satisfied, para 51(3)) **but also that he is UK resident in the FOLLOWING tax year and that year is not split** (para 51(5)) — out on the Hong Kong plan. **Consequence: any accidental resident year would be a FULL year from 6 April, with no overseas part** — including months spent entirely in Hong Kong. Near-harmless in 2026/27 (no employment income); material if residence were ever close in an earning year. A reason the leaver ratchet (§5.4) is worth avoiding, not something actionable. | ✅ **ASSESSED — no relief available** |
 | **8.10** | **Inheritance tax — long-term residence** | Deferred at Julian's direction. From 6 Apr 2025 deemed domicile was replaced by a residence-based long-term-resident test (broadly 10 of the preceding 20 tax years, with a tail after departure); pre-2013 UK history would need counting precisely, and UK-situs assets (the London property) remain in scope regardless. Not a residence-planning input; a separate workstream. | ⏸️ **DEFERRED** |
-| **8.11** | ✅ **RESOLVED — the London property is inert for the SRT** | Let commercially for 13 years, currently let. **(a) Not a home:** para 25(5) — a place stops being a home once P has "let or sub-let it, having set up home elsewhere"; [RFIG22150](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22150) Ivan example (2-year lease, exclusive use to tenant → not his home). **(b) No accommodation tie:** [RFIG22180](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22180) — "Accommodation owned by an individual but which they have wholly let out commercially would not be considered as available to live in unless they retained the right to use the property or part of the property." **(c) Split year preserved:** since it is not a home, Julian had **no UK home on 6 April 2026**, so Case 8 remains available if ever needed. **(d) But it is fully taxable regardless of residence** — see §8.8. **⚠️ This flips if the tenancy ends and it sits empty and available: it would then become available accommodation with a 1-night threshold.** | ✅ **CLOSED — while let** |
+| **8.11** | ✅ **RESOLVED — the London property is inert for the SRT** | Let commercially for 13 years, currently let. **(a) Not a home:** para 25(5) — a place stops being a home once P has "let or sub-let it, having set up home elsewhere"; [RFIG22150](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22150) Ivan example (2-year lease, exclusive use to tenant → not his home). **(b) No accommodation tie:** [RFIG22180](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22180) — "Accommodation owned by an individual but which they have wholly let out commercially would not be considered as available to live in unless they retained the right to use the property or part of the property." **(c) Split year:** since it is not a home, Julian had **no UK home on 6 April 2026**, satisfying para 51(3). **But Case 8 still fails** on para 51(5), which also requires UK residence in the following tax year — see §5.10 and §8.9. **(d) But it is fully taxable regardless of residence** — see §8.8. **⚠️ This flips if the tenancy ends and it sits empty and available: it would then become available accommodation with a 1-night threshold.** | ✅ **CLOSED — while let** |
 
 ---
 
@@ -1084,7 +1184,9 @@ Peer-reviewed against primary sources (Fable) and adversarially reviewed (Codex,
 **Verified correct:** all 14 numbered legal claims, and all arithmetic, re-derived independently. The para 8 escape mechanism, the one-way direction of the family tie, Table A/B thresholds, the country tie's arriver exclusion, the close-relative definition, the 61-day rule, the 90-day tie's separate-years treatment, the deeming rule's inapplicability, and the absence of any age exemption all confirmed against statute.
 
 **Corrected after review:**
-- §8.7 reclassified from "Confirmed" to the single point of failure (§5.8) — both reviewers found this independently
+- §8.7 reclassified from "Confirmed" to the single point of failure (§5.8) — both reviewers found this independently — and later **downgraded again to LOW RISK** in round 3 once the full facts emerged (5-year home, 115 days lived in it this tax year, ~127 presence days, unlet, intends to return)
+- **Round 3** corrected the boarding-school section: Sophia's school accommodation is itself a tie she cannot shed; her own FIG clock starts with her first resident year; 2028/29 is borderline on 183; and an earlier instruction to engineer 30 Hong Kong days for her in boarding years was **wrong and withdrawn**
+- **Round 4** confirmed that ties are assessed across the whole tax year (so 9 Dec is Julian's unconditional line), corrected the let-and-relocate variant to require the replacement home to clock 30+ presence days **and** to cover Sophia separately, and corrected the contact-day count from "already past 61" to 44 as at 23 Sep
 - The 16-day gap rule was misapplied to a gap in *presence* rather than *availability* — fixed in §3
 - §5.9 (third automatic UK test) and §8.5 (para 33) both promoted from one-line dismissals
 - §8.8, §8.9, §8.10 added
@@ -1097,4 +1199,4 @@ Peer-reviewed against primary sources (Fable) and adversarially reviewed (Codex,
 
 ## 11. Caveat
 
-This is analysis of published HMRC guidance and primary legislation, not regulated tax advice. Several conclusions turn on fact patterns — whether the mother's house is a "home", whether the HK flat remains a "home", the precise day counts — which HMRC may enquire into and assess on their own view of the facts. Items 7.7 (Hong Kong flat status) and 7.11 (the UK property) are unresolved and material. Obtain UK adviser sign-off before fixing travel dates.
+This is analysis of published HMRC guidance and primary legislation, not regulated tax advice. Several conclusions turn on fact patterns — whether the mother's house is a "home", whether the HK flat remains a "home", the precise day counts — which HMRC may enquire into and assess on their own view of the facts. The three deferred items in §8 (evidence retention, quantifying the cost of residence, and inheritance tax) are parked by choice rather than unresolved. The live dependency is §8.7 — the Hong Kong flat retaining its status as a home — which is assessed as low risk but is fact-sensitive and cannot be settled on paper. Obtain UK adviser sign-off before fixing travel dates.
