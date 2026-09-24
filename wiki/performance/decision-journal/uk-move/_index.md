@@ -82,6 +82,7 @@ Small, bounded execution decisions that surface during Phase 3/4. Each gets its 
 ## 8c. Post-Execution Reopen: HK U-Turn (Sep 2026)
 
 - [[hk-uturn-reopen-2026-09|HK U-Turn Reopen - September 2026]] - working analysis for wobble #5 (Horst job intention + Clodagh custody escalation): situation, pros and cons, model output, F-N-M-T result.
+- [[HK-Return-BRAIND|HK-Return-BRAIND]] - BRAIND workspace for the return-to-HK-on-a-TTI-offer question (opened 24 Sep 2026): live append-only Intuition Log, claims-to-test table, and empty B/R/A/N/D slots to be filled once written terms arrive.
 
 ## 9. Decision-Support Surfaces
 

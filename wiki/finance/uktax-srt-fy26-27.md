@@ -21,12 +21,21 @@ tags: [finance, uk-relocation, tax, residency, srt]
 
 > ### Why this is worth obeying even in a year with no income
 >
-> **Becoming UK resident for one tax year makes it much harder to stay non-resident for the next three.** The rules get stricter for anyone who has been resident recently, and the effect is severe:
+> **Becoming UK resident for one tax year makes it much harder to stay non-resident for the next three.**
 >
-> - **Today, you can spend up to 182 days here and still be non-resident.** After a resident year, the same position would catch you at **121 days**. Your room shrinks by two months.
+> **The mechanism: there are two day-count tables, and one resident year moves you from the generous one to the harsh one.** Which table applies to you depends on a single question — *were you UK resident in any of the previous three tax years?*
+>
+> - **No** → you are an **"arriver"**, and the generous table applies. **This is you today**, and has been since you left in 2013.
+> - **Yes** → you are a **"leaver"**, and the harsh table applies — **for three years after** the resident year, because the question looks back three years each time.
+>
+> **So one resident year costs you three years of the better table.** The effects compound:
+>
+> - **Today, on the generous table, you can spend up to 182 days here and still be non-resident.** On the harsh table the same facts would catch you at **121 days** — and if the extra connection below applies, at **46 days**. Your room shrinks from six months to six weeks.
 > - **The "stay under 46 days and you're automatically safe" escape drops to under 16 days** — barely two weeks a year.
 > - **A new connection starts counting against you:** spending more days in the UK than in any other single country. Living between the UK and Hong Kong, that would probably apply.
 > - **Day trips start counting.** Right now, a day when you fly in and out without staying the night does not count at all. After a resident year, once you have three connections, those days start counting after the first thirty.
+>
+> **Full detail and both tables side by side are at §3.**
 >
 > **And the resident year itself would be a full year.** There is a relief that lets some people split a tax year into a resident part and a non-resident part — **you do not qualify for it** (§5.10). So a resident 2026/27 would tax you as a UK resident from **6 April 2026**, including the months you spent entirely in Hong Kong before arriving on 30 July.
 >
@@ -699,14 +708,43 @@ Two consequences that matter here:
 **Total: 1 tie.**
 
 ### Table B (arrivers) — applied
+
+**Why Julian is an arriver.** The test is simply: *were you UK resident in any of the three tax years immediately before this one?* For 2026/27 those are **2023/24, 2024/25 and 2025/26**. He was non-resident in all three, so he is an **arriver** and Table B applies. It is decided before the year starts and nothing he does during 2026/27 can change it.
+
 | UK days | Ties needed | Julian at 1 tie |
 |---|---|---|
+| Up to 45 | — automatic non-resident | **NON-RESIDENT** |
 | 46–90 | All 4 | Non-resident |
 | 91–120 | 3+ | Non-resident |
 | 121–182 | 2+ | Non-resident |
 | 183+ | — automatic | **RESIDENT** |
 
 > **No band in Table B is triggered by a single tie.** One tie and zero ties produce an identical outcome. The accommodation tie is currently inert.
+
+### Table A (leavers) — for reference; does NOT currently apply
+
+**Why Julian is not a leaver, and what would make him one.** A leaver is anyone who **was** UK resident in one or more of the three preceding tax years. He was not, so Table A does not apply.
+
+**He would become a leaver by being UK resident in any single tax year** — and would then stay one for the **following three years**. So a resident 2026/27 would put him on Table A for 2027/28, 2028/29 and 2029/30.
+
+| UK days | Ties needed (leaver) | vs Table B (arriver) |
+|---|---|---|
+| Up to 15 | — automatic non-resident | *(arriver: up to 45)* |
+| 16–45 | All 4 | *(arriver: automatically safe)* |
+| 46–90 | 3+ | *(arriver: needed all 4)* |
+| 91–120 | 2+ | *(arriver: needed 3)* |
+| **121+** | **Just 1** | *(arriver: needed 2)* |
+| 183+ | — automatic resident | same |
+
+**Three things get worse at once, not just the table:**
+
+1. **The automatic escape tightens from under 46 days to under 16.** Two weeks a year rather than six.
+2. **A fifth tie becomes available** — the *country tie*, which applies if the UK is where you spend more days than any other single country. Splitting time between the UK and Hong Kong, it would very likely bite.
+3. **Day-trips start counting.** Presently a day where you arrive and leave without staying the night does not count at all. As a leaver with three or more ties, such days begin counting after the first thirty.
+
+> **What that combination would mean on today's facts.** Accommodation tie + 90-day tie + country tie = **3 ties**. Under Table A, three ties makes you resident above **46 days**. The same facts under Table B leave him safe to 182.
+>
+> **This is what "arriver status is an asset" means in practice** — and why a single resident year is so expensive even when that year itself costs little tax.
 
 ### ⟹ **JULIAN IS NON-RESIDENT FOR 2026/27 UP TO 182 DAYS — reached 9 February 2027**
 

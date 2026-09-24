@@ -49,6 +49,8 @@ Julian is in HK until 15 Sep on the pack-up trip. Two developments landed the sa
 
 **Negotiation card:** schooling costs in the package - an HK international school place, ideally with university support - directly answers the overseas-university-fees negative in [[HK-BRAIND]].
 
+**Structured run (from 24 Sep 2026):** the BRAIND for this question now lives in [[HK-Return-BRAIND]]. Facts stay here; intuition, benefits, risks, alternatives and the decision are built there, and the outcome is mirrored back to §5.
+
 **Prior art to read before re-arguing anything** (do not rebuild these): [[HK-BRAIND]] (stay-HK risks; its Clodagh-illness separation row assumed a recovering mother in Ireland and is now partly inverted), [[London-BRAIND]], [[Malvern-BRAIND]], [[uk-relocation-cashflows]] (HK vs Malvern vs London at all salary bands), [[uk-relocation-decision]] (anchor, still DRAFT).
 
 ## 3. Chatbot/model analysis output
