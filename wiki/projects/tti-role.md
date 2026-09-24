@@ -236,7 +236,7 @@ Strategy and current position: see [[tti-engagement-strategy]].
 | [[tti-kari-prep-notebooklm-practice\|Kari Prep: NotebookLM Practice]] | 4h | queued |
 | [[tti-formal-interview-prep\|Formal Interview Prep]] | 2h | queued |
 | [[tti-stephan-followup-email\|Stephan Follow-Up Email]] | 1h | queued |
-| [[horst-offer-case-for-urgency\|Horst Offer - The Case for Urgency]] | 2h | **active** |
+| [[horst-offer-case-for-urgency\|Horst Offer - The Case for Urgency]] | 2h | done |
 | [[tti-ai-enablement-strategy\|TTI - AI Enablement Strategy]] (Artefact 1) | 40+h | On Hold |
 | [[tti-ai-leadership-brief\|TTI - AI Leadership Brief]] (Door 2) | 9-16h | Closed (superseded 2026-05-29) |
 | [[tti-consulting-brief\|TTI - Consulting Brief]] (Door 1) | 1-4h | Closed (superseded 2026-05-29) |

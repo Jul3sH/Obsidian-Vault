@@ -1587,21 +1587,40 @@ Durable rules extracted from this analysis.
 
 ## 11. Review record
 
-Peer-reviewed against primary sources (Fable) and adversarially reviewed (Codex, GPT-5.6), independently.
+**Nine independent review passes, 23–24 September 2026.** Seven peer reviews against primary sources (Fable) and two adversarial reviews (Codex — rounds 1–2 on GPT-5.6, round 8 on **gpt-6-astra** at high reasoning effort). Every legal claim was checked against FA 2013 Schedule 45 and the HMRC RFIG manual.
 
-**Verified correct:** all 14 numbered legal claims, and all arithmetic, re-derived independently. The para 8 escape mechanism, the one-way direction of the family tie, Table A/B thresholds, the country tie's arriver exclusion, the close-relative definition, the 61-day rule, the 90-day tie's separate-years treatment, the deeming rule's inapplicability, and the absence of any age exemption all confirmed against statute.
+### What was verified and survived
 
-**Corrected after review:**
-- §9.7 reclassified from "Confirmed" to the single point of failure (§5.8) — both reviewers found this independently — and later **downgraded again to LOW RISK** in round 3 once the full facts emerged (5-year home, 115 days lived in it this tax year, ~127 presence days, unlet, intends to return)
-- **Round 3** corrected the boarding-school section: Sophia's school accommodation is itself a tie she cannot shed; her own FIG clock starts with her first resident year; 2028/29 is borderline on 183; and an earlier instruction to engineer 30 Hong Kong days for her in boarding years was **wrong and withdrawn**
-- **Round 4** confirmed that ties are assessed across the whole tax year (so 9 Dec is Julian's unconditional line), corrected the let-and-relocate variant to require the replacement home to clock 30+ presence days **and** to cover Sophia separately, and corrected the contact-day count from "already past 61" to 44 as at 23 Sep
-- The 16-day gap rule was misapplied to a gap in *presence* rather than *availability* — fixed in §3
-- §5.9 (third automatic UK test) and §9.5 (para 33) both promoted from one-line dismissals
-- §9.8, §9.9, §9.10 added
+The para 8 escape mechanism; the one-way direction of the family tie (a child cannot acquire one from a parent); Table A and B thresholds; the country tie's exclusion for arrivers; the close-relative definition; the 61-day rule and the treatment of part-days; the 90-day tie's separate-years lookback; the deeming rule's inapplicability to an arriver; the absence of any age exemption; **ties being assessed across the whole tax year** (confirmed twice, independently); the London property's irrelevance while let; FIG eligibility; and all arithmetic, re-derived independently each round.
 
-**One reviewer disagreement, resolved against Codex:** Codex argued exceptional circumstances could be applied to the para 33 21-day term-time test. [RFIG22230](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22230) lists it expressly among the counts where they **cannot**. Fable's position was correct.
+### Material corrections, by round
 
-**Codex's overall verdict** was that the conclusion is "not safe to rely on without strict no-work controls, separate evidence that each Hong Kong flat remains that person's home, and a complete sufficient-ties and split-year calculation." The distinction worth holding: **the legal analysis verified as correct; the residual risk is factual, not legal.**
+| Round | What it found |
+|---|---|
+| **1** (Fable) | The Hong Kong flat's "home" status was marked *Confirmed* when it is fact-sensitive — identified as the weakest link. The 16-day gap rule was misapplied to a gap in *presence* rather than *availability*. |
+| **2** (Codex, GPT-5.6) | The third automatic UK test was under-weighted; the para 33 education carve-out is illusory for 2026/27; non-residence does not mean no UK tax; IHT long-term residence raised. |
+| **3** (Fable) | Sophia's school accommodation is itself a tie she cannot shed; her own FIG clock starts with her first resident year; 2028/29 is borderline on 183 days. **An instruction to engineer 30 Hong Kong days for her in boarding years was wrong and withdrawn** — she is resident on day count regardless. |
+| **4** (Fable) | Whole-year ties confirmed. The let-and-relocate variant was incomplete: the replacement home must itself clock 30+ presence days, **and the analysis omitted Sophia entirely**. Contact days corrected from "past 61" to 44. |
+| **5** (Fable) | "You have held the UK home 91 days" was wrong — it completes **28 October 2026**. Three omissions added: what a resident year costs beyond that year, the third automatic UK test, and Sophia's own position. |
+| **6** (Fable) | "6 April is a hard deadline costing the whole tax year" overstated — it is a deadline for the *clean route*, not for non-residence. "Cannot be let" softened to "cannot safely be let". **27 October identified as the household date**, and the end-of-term departure alternative surfaced. |
+| **7** (Fable) | **A legal error: the document said no split-year relief was available in the ratchet years.** Wrong — departure Cases 1–3 require prior-year residence and so exist precisely for leavers. "Irreversible" corrected to a statement of intention, not law. §5.7's "only route independent of the flat" and §5.9's "only test that reaches back" both shown not to be unique. |
+| **8** (Codex, gpt-6-astra) | **Sophia's 2024/25 day count had never been established** — had it exceeded 90 days she would have been resident at 121 days (27 November), not 183, potentially making both resident on the end-of-term plan. Raised to a blocking item and since **resolved (under 90)**. Also: "three of four conditions already met" was wrong until 28 October; **"the clean route does not depend on counting days at all" was simply false**; the negotiation brief contained an internal contradiction; the country tie was overstated; and a short let is **not** automatically fatal, though the reversion trap makes it unsafe as a plan. |
+
+### One reviewer disagreement, resolved
+
+Codex argued that exceptional circumstances could be applied to the para 33 21-day term-time test. [RFIG22230](https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual/rfig22230) lists it expressly among the counts where they **cannot**. Fable's position was correct.
+
+### The pattern worth noting
+
+**Almost every correction was the same failure: a conclusion stated more confidently than its underlying fact supported.** The law was right throughout — all fourteen original legal claims verified. What kept going wrong was marking fact-sensitive judgements as settled ("Confirmed", "irreversible", "no fallback", "cannot be let"), and ranking an unverified input as a loose end rather than a prerequisite.
+
+That is recorded as Principle 17, and it is why §9 distinguishes *closed*, *assessed* and *deferred* rather than treating them alike.
+
+### Final verdict
+
+Round 8 concluded the documents were **"useful adviser working papers, but not safe to rely on as an accurate briefing until these qualifications and contradictions are corrected — especially Sophia's prior-year count and the executive summaries."** All of its findings have since been applied and Sophia's count resolved.
+
+**The distinction worth holding: the legal analysis has verified correct at every round. The residual risk is factual — whether the Hong Kong flat retains its status as a home — and no document can settle that.**
 
 ---
 

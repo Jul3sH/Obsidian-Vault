@@ -1,9 +1,10 @@
 ---
-type: deliverable
+type: task
 project: tti-role
 workstream: career
+hours: 2h
 created: 2026-09-24
-status: active
+status: done
 tags: [tti, negotiation, uk-relocation, tax]
 ---
 
