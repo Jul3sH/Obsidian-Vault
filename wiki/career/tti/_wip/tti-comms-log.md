@@ -470,6 +470,22 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ SENT 24 Sep - THE CHASE: personal loop closed, Friday 25 Sep call asked for, three real pressures named, help offered
+
+> Sent Thursday 24 Sep (UK), six days after the last exchange. Julian's own draft, one Claude pass (two typo fixes). Verbatim:
+
+> Hi Stephan, things eventually calmed down after several days of Clodagh-induced chaos and a logged missing persons incident with the police!
+>
+> Have you got 15 minutes for a call tomorrow (Friday)? I've got increasingly urgent considerations with regards to schooling, housing and tax residency, so I'm keen to understand whether this is likely to happen and roughly what it might look like. I've also got a couple of ideas on a shape that could work for Ty's side too, which might make your conversations easier.
+
+**What it does:** closes the 18 Sep personal loop first; asks for a dated call, not an answer by text; names three pressures that are real and external (The Chase, the HK flat on the market, Sophia's 90-day count on 27 Oct per [[uktax-srt-fy26-27]]) without pleading; offers Stephan a role shape to carry into his internal conversations, which is the help he can actually use. **Deliberately absent:** any timing, any role name, any mention of Horst. Nothing here commits Julian ahead of the HK-return BRAIND ([[HK-Return-BRAIND]]) or the wobble #5 reopen test.
+
+**Call agenda (Julian's own list, 24 Sep):** is this likely to happen; how much internal resistance; HK-based or doable from England; would it be met with hostility and could he be out in 12 months; plus the one that decides the reopen test: what is the next concrete step, who owns it, by when. Role-shape idea to offer: start from the UK liaison play ([[tti-engagement-strategy]] point 4), as an entry point to the proper role, not instead of it (the must-haves in [[horst-meeting-key-asks]] still stand). If asked for a deadline: the hard dates fall in the autumn and the sooner he knows the less is lost; 27 Oct is not to be given as a cliff, since end of term is survivable for 2026/27 residency.
+
+**NEXT:** Stephan's reply. Confirmed Friday call = run the agenda above. No reply by Friday morning UK = one-line nudge. Silence past the weekend = the first genuinely unanswered dated ask, and the Horst "I'll keep you posted" channel becomes a live option.
+
+---
+
 ## ⏳ 18 Sep - CATCH-UP ASKED FOR, OVERTAKEN BY THE CLODAGH POLICE CALL-OUT; the proposed Friday 19 Sep call never happened. As of 24 Sep: no business contact for six days, ball with Stephan
 
 > Logged 24 Sep, verbatim (times UK):
