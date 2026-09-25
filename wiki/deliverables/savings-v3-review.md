@@ -5,7 +5,7 @@ This records the independent review of the v3 relocation savings spreadsheet. Ju
 ## Key Takeaways
 
 - Serves [[uk-relocation-project]] and its financial comparison.
-- As of 25 Sep 2026: review complete; findings in [[uk-relocation-savings-v3-codex-review-2026-09-25]]. Source sheets remain unchanged; Julian's adjudication is pending.
+- As of 25 Sep 2026: review complete; findings in [[uk-relocation-savings-v3-codex-review-2026-09-25]]. Julian updated the savings sheet; follow-up findings below. Cashflow corrections remain outstanding.
 
 ## Prompt Zero
 
@@ -21,15 +21,26 @@ Julian approved this record and the supplied briefing as the scope on 25 Sep 202
 - **Verifier:** Codex independently recalculates the sheet; Julian adjudicates the findings. No sampling: all 18 scenarios.
 - **Load-bearing assumption:** v3 models gross employment salary, not umbrella assignment revenue, with the stated tax-residence basis and no additional reliefs.
 
-## Time and Token Log
-
 ### Scope amendment, 25 Sep 2026
 
 Julian authorised the follow-on corrections: remove the duplicate Wills cost and HK Oyster; restore occupied-home Housing costs with the specified insurance/council-tax corrections; remove let-property costs from cashflow; refresh savings inputs. Prior agreed corrections cover FIG expiry, the HK allowance and formula-based taxes, with every tax formula validated against the reviewed fixed values before replacement. This supersedes the original no-sheet-edits restriction for these two sheets only. Occupied-home expenses must be removed from the savings property rows when moved to Housing, so each cost is counted once. Verification: all 18 scenarios against frozen pre-change values, then independent recalculation of the corrected model; Julian's sign-off remains the handback check.
 
+## Follow-up verification, 25 Sep 2026
+
+Read-only check of Julian's updated savings tab: all 18 annual and 180 cumulative results agree with separate arithmetic. All 108 tax/conversion formulas match the staged formulas previously tested against fixed values (100 matches; eight intentional HKD 4 NI rounding corrections). HK allowance 145,000, FIG expiry after Y4, and removal of occupied-home expenses from property rows are correct at the current assumptions.
+
+Remaining savings items: B61:B63 do not drive formulas, so FIG always starts in Y1; rows 31/32 hardcode FX 10 rather than B56. B66 should be 86,498.30 using source contents estimate C110 (201.833333/month), versus current 86,497.47. Notes B45/B46 need aligning with occupied-home costs being in living expenses and source cashflow still awaiting correction.
+
+Cashflow edits outstanding: clear duplicate E157:G157 and HK Oyster E135; HK E102:E104 = 2054, 1196, 275 and E110 = C110; London F106:F108 = 1640, 180, 390. Clear corresponding let-property costs in other location columns and F110. Restore E109:G109 to sums of rows 101:108. Keep Malvern hotel G111 and mortgage principal/interest. Resulting monthly expense totals: HK 86,498.30, London 70,234.466667, Malvern 62,284.466667 HKD. Do not restore occupied-home charges to savings property rows 18/20.
+
+Cashflow F165 remains 23,750 versus gross HK rent 27,000 in savings, and rental notes still point to Housing expenses. Reconcile before using cashflow row 183 as a complete rental cashflow; expense row 181 is unaffected.
+
+## Time and Token Log
+
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
 | 2026-09-25 | Codex interactive thread | 214,260 tokens measured at bookkeeping checkpoint | Per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite`; thread `01a0d888-485e-78b0-8818-2f76c850d1ad`. Includes earlier column-edit and connector discussion turns; review-only effort is unmeasured. No external CLI or subagent run. |
+| 2026-09-25 | Codex follow-up verification | Unmeasured incremental tokens | Same thread; live reads, formula comparisons and 198 savings checks. |
 | 2026-09-25 | Julian, attended | Unreported | Awaiting Julian's own minutes at handback. |
 
 ## Session Synopsis

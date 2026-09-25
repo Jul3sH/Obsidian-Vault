@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-25 · Critique · Worked · [[savings-v3-review]] follow-up
+
+- **Work:** Checked Julian's updated savings tab and outstanding cashflow edits, read-only.
+- **Check:** 108 formula comparisons and 198 savings calculations, plus source tracing.
+- **Outcome:** Main corrections work; cashflow unchanged. Flagged unused date inputs, hardcoded annual FX and minor contents mismatch. Incremental tokens unmeasured.
+- **Lesson:** Verification: test parameter dependencies and distinguish anticipated source corrections from live source values.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-25 · Critique · Worked · [[savings-v3-review]]
 
 - **Work:** Independently reviewed all 18 v3 relocation savings scenarios, using the supplied briefing and accepted prior rental-tax review.
