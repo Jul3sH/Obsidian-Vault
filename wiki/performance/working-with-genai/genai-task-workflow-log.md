@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-25 · Build + Verification · Worked · [[savings-v3-review]] delegated repairs
+
+- **Work:** User-authorised Sol savings-formula repairs and Luna exact cashflow edits on separate spreadsheets.
+- **Check:** Parent independently reread both sheets, matched source inputs and recalculated 198 annual/cumulative outputs. Delegate tested date and FX changes and restored inputs.
+- **Outcome:** Agreed changes complete with no discrepancies. Parent cumulative token checkpoint recorded in deliverable; delegate effort unmeasured.
+- **Lesson:** Routing: give each delegate a separate write target and explicit cells, then verify cross-file dependencies at the parent level.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-25 · Critique · Worked · [[savings-v3-review]] follow-up
 
 - **Work:** Checked Julian's updated savings tab and outstanding cashflow edits, read-only.

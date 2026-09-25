@@ -35,7 +35,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-25)
 
-**25 Sept - updated savings checked; cashflow corrections remain:** All 18 annual and 180 cumulative results check out at current assumptions. Julian corrected FIG expiry, HK allowance and occupied-home cost duplication. Remaining items are source cashflow Housing/Wills/Oyster, unused FIG date controls, annual FX links and a small HK contents discrepancy. Detail: [[savings-v3-review]].
+**25 Sept - agreed savings and cashflow repairs complete:** Delegates repaired FIG/FX dependencies and occupied-home cashflow inputs; parent independently verified all 18 annual and 180 cumulative savings results and reconciled both sheets. Source rental-income rows remain separate from this expense repair and must be reconciled before using cashflow row183 as a complete rental result. Record: [[savings-v3-review]].
 
 **25 Sept - rental-tax analysis corrected:** [[tax-rental-incomes]] carries the accepted earlier review and distinguishes its older expense tables from the fuller inputs used in v3. Use the v3 review for the spreadsheet-specific checks; the older article headline amounts are not the revised-input amounts.
 
@@ -127,7 +127,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 25 Sep 2026):**
 
-- **25 Sep: complete the remaining cashflow corrections and savings parameter links in [[savings-v3-review]].** Main savings corrections verified; source totals still need reconciliation.
+- **25 Sep: review the completed spreadsheet repairs in [[savings-v3-review]].** Agreed expense/formula changes verified. Reconcile legacy cashflow rental-income rows before using row183 independently of the savings comparison.
 
 0. ~~Run the Phase 3/4 status sweep~~ **✅ DONE 28 Aug** - full register swept with Julian, all rows live. The six urgent from-UK groundwork items it produced (ToR1, surveys, tax adviser, MPF forms, landlord-utilities homework, IRD rebate) are in the Status header above and in their register rows; they are THIS WEEK's work.
 0a. **(After the groundwork lands) Run the FIT CHECK** - backwards schedule from 15 Sept using lead times and latest-start dates. Post-sweep read: the window looks comfortable (only pack-out, declarations-if-not-remote, helper settlement, DBRC notice, the haematology visit, and wine execution remain in it); the schedule pressure is all in the from-UK groundwork lead times (ToR1 processing, survey availability, adviser booking). No t-shirt re-size, no WSJF re-score (agreed 28 Aug).
@@ -274,6 +274,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-25 | **Delegated spreadsheet repairs complete.** [Savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357) FIG/FX controls repaired and [cashflow](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137) expense corrections applied. Independent parent verification: 198 savings calculations and source totals agree. Record and remaining legacy-income caveat: [[savings-v3-review]]. |
 | 2026-09-25 | **Savings update checked, cashflow outstanding.** All 18 annual and 180 cumulative results verified in [savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357). [Cashflow](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137) still needs Housing/Wills/Oyster changes. Remaining parameter and reconciliation issues: [[savings-v3-review]]. |
 | 2026-09-25 | **Savings comparison rebuilt on the v3 sheet, wiki companions updated.** [[uk-relocation-savings-comparison]] now carries the v3 findings and [[uk-relocation-cashflows]] the inputs. Property tax and FIG are in the model for the first time. Decision impact: Malvern still leads at every band to £150k (HK$466k/yr at £135k vs HK$360k in HK and HK$228k in London) because of the second rent and Mum's house, not tax; HK wins from £200k; London weakest throughout. Malvern's lead over HK narrowed by ~HK$100k/yr versus the July model. Cashflows sheet clean-up owed. |
 | 2026-09-25 | **V3 savings review completed.** [[uk-relocation-savings-v3-codex-review-2026-09-25]] checks all 18 scenarios: annual property-tax arithmetic agrees, but ten-year UK savings retain expired FIG relief; HK salary tax uses the old basic allowance. Hardcoded taxes and source-budget flags also recorded. Decision impact: correct the long-term comparison before reliance. Both sheets unchanged; scope and effort in [[savings-v3-review]]. |
