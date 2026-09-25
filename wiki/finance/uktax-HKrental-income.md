@@ -12,7 +12,7 @@ tags: [finance, uk-relocation, tax, hong-kong, rental, fig]
 > **Why it exists.** Closes the item deferred in [[uktax-srt-fy26-27]] §5.11 and §8.8 ("HK rental treatment deferred as a separate workstream"), and replaces the rougher estimate in [[uk-move-financial-model]] §12.
 > **How it is used.** Julian reads it to understand the exposure before any residence decision, and to decide, year by year, whether to claim FIG. Not regulated tax advice; adviser items are listed in §7. `send: NEVER`.
 
-**Map:** §1 answer · §2 the mechanism (two separate computations) · §3 the numbers · §4 the FIG regime and how to use it · §5 the next few years · §6 what the earlier analysis got wrong · §7 adviser items · §8 sources.
+**Map:** §1 answer · §2 the mechanism (two separate computations) · §3 the numbers · §3b Julian's four scenarios at HK$27,000 and £30,000 · §4 the FIG regime and how to use it · §5 the next few years · §6 what the earlier analysis got wrong · §7 adviser items · §8 sources.
 
 **Brief, in Julian's words (24 Sep 2026):** *"I would like to understand what tax I will pay on rental earnings in HK if I am a UK resident. I'm anticipating a rental income of around HK$25,000 a month. I'm not sure whether I can offset the interest payments against my profit. In the UK you're not allowed to do this, but in Hong Kong, if I'm allowed to, do I offset the interest, work out my Hong Kong tax, and then the UK taxes above and beyond what Hong Kong did, or do I have to apply UK rules to my Hong Kong earnings? I'd also like to understand the 4-year FIG regime, how it affects me, what the taxation would be with and without it, scenarios over the next few years, and how best to use it."* No deliverable file exists for this work; this brief stands in for Prompt Zero (size 1, waived 24 Sep 2026).
 
@@ -34,7 +34,7 @@ tags: [finance, uk-relocation, tax, hong-kong, rental, fig]
 
 - **If the £27,000 UK rent is your only other income, the whole picture is:** UK tax on the UK rent £2,375, HK tax on the HK rent £3,428, UK tax on the HK rent £0. **About £5,800 a year in total, £485 a month.** The HK rent adds nothing to the UK bill because the interest credit and the HK tax credit together exceed the UK tax it attracts.
 - **FIG is worth roughly £5,000 a year, for four years, and only if you earn £100k+.** Below that the personal allowance you give up is worth more than the tax you save. Above that the allowance has been tapered away already, so claiming is free.
-- **Cash reality check:** at HK$25,000 rent the flat is cash-negative by about **HK$6,900 a month** before any UK tax (mortgage HK$25,827 + fees + rates + HK tax). UK tax at £150k with no FIG claim adds about HK$4,500 a month; with a claim it adds nothing. About HK$13,700 of the monthly shortfall is principal repayment, so the net-worth cost is small.
+- **Cash reality check:** at HK$25,000 rent, about HK$31,900 goes out each month (mortgage HK$25,827 + management fee HK$2,054 + rates HK$1,196 + HK tax HK$2,857), so Julian tops up about **HK$6,900 a month** from his own pocket before any UK tax. UK tax at £150k with no FIG claim adds about HK$4,500 a month to that; with a claim it adds nothing. But HK$13,689 of the mortgage payment is repaying the loan, which stays his as equity, so the true cost of running the flat is about HK$18,200 a month against HK$25,000 of rent. Ignoring price moves, the flat costs cash but adds about HK$6,800 a month to net worth before UK tax, and about HK$2,300 a month with UK tax at £150k and no FIG claim. (Reworded 25 Sep 2026: the earlier sentence said HK$13,700 "of the shortfall" was principal, which cannot be right when the shortfall is HK$6,900.)
 
 ---
 
@@ -86,6 +86,42 @@ Notes on the table:
 - Rates and bands are frozen through 2027/28 at least; the figures hold for the years in §5 unless bands change.
 
 **UK computation with a FIG claim:** the HK rent is exempt (UK tax £0), but the claim costs the personal allowance for that year, the CGT annual exempt amount, and the interest reducer for the overseas property (RFIG43000: "will lose their entitlement to relief under section 274A"; any carried-forward relievable amount is set to nil, PIM2054). The cost of the lost allowance: £2,514 with £27k UK rent only (20% band), £5,028 at £75k (40% band), £3,028 at £110k (partly tapered already), £0 at £125,140+.
+
+---
+
+## 3b. Julian's four scenarios (25 Sep 2026)
+
+Asked by Julian on 25 Sep 2026 with the rent targets raised: **HK$324,000 a year (HK$27,000 a month) on the DB flat and £30,000 a year on Cecil Road.** Same method as §3. Two income cases: no other earnings, and a £135,000 salary.
+
+**Inputs that differ from §3:**
+
+| Input | Value | Source |
+|---|---:|---|
+| HK rent | HK$324,000 = £32,400 | Julian, 25 Sep |
+| HK Property Tax: (324,000 − 14,348) × 80% × 15% | HK$37,158 = £3,716 | computed |
+| HK property profit, UK rules: 32,400 − 1,435 rates − 2,465 fees | £28,500 | computed |
+| HK interest reducer, 20% × £14,566 | £2,913 | §3 |
+| Cecil Road rent charged | £30,000 | Julian, 25 Sep |
+| Cecil Road expenses: agent 10.8% £3,240 + rent protection £432 + buildings insurance £550 | £4,222 | [[uk-move-financial-model]] §9 P&L |
+| Cecil Road profit | £25,778 | computed |
+| Cecil Road interest reducer, 20% × £2,556 | £511 | [[financial-status-2026-07-07]] (interest-only, £213.08/mo) |
+
+**Results** (2026/27 bands, UK resident all year, no pension contributions, conservative ordering of the interest reducer before the foreign tax credit):
+
+| | Scenarios 1 and 3: no other earnings | Scenarios 2 and 4: plus £135,000 salary |
+|---|---:|---:|
+| HK Property Tax on the HK rent | **£3,716** (HK$37,158) | **£3,716** (HK$37,158) |
+| UK tax on the HK property, no FIG claim | **£0** | **£6,196** |
+| **Combined tax on the HK property (Q1, Q2)** | **£3,716** | **£9,912** (35% of profit) |
+| **UK tax on the London property (Q3, Q4)** | **£2,131** | **£11,089** |
+| UK tax on the salary | n/a | £46,953 |
+| Total UK tax bill | £2,131 | £64,238 |
+
+**Working, no other earnings.** Total income £54,278 (25,778 + 28,500). Less personal allowance £12,570 = £41,708 taxable: £37,700 at 20% = £7,540, £4,008 at 40% = £1,603, total £9,143. Less reducers £511 and £2,913 = £5,719. UK tax without the HK income would be £2,131 (£13,208 at 20% less £511), so £3,588 is attributable to the HK rent; the HK tax credit is capped there, leaving £2,131. The HK flat adds nothing to the UK bill; £128 of HK tax credit goes unused. **Do not claim FIG:** it would cost the personal allowance for no saving.
+
+**Working, £135,000 salary.** Personal allowance fully tapered (income over £125,140), so both rents are taxed at 45%. Salary alone: £46,953. London profit £25,778 × 45% = £11,600 less £511 = £11,089. HK profit £28,500 × 45% = £12,825 less £2,913 less £3,716 = £6,196. **With a FIG claim** the UK tax on the HK rent is nil (the allowance is already gone, so the claim costs nothing), saving £6,196 a year in each of the four years; the HK tax of £3,716 remains.
+
+**Caveats.** §1's £2,375 for Cecil Road at £27k did not deduct agent fees or insurance, which is why this £2,131 is lower at a higher rent. The reducer-versus-credit ordering (adviser item §7.1) moves the no-earnings figure by about £130 on the generous reading. Pension contributions at £135k would restore some personal allowance and change the salary case.
 
 ---
 
