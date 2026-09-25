@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-25 · Build + Verification · Worked · [[savings-v3-review]] lean table
+
+- **Work:** Appended lean no-salary runway and source/explanation notes.
+- **Check:** Source row175 snapshots, burn reconciliation against discretionary totals and all16 numeric runway results independently calculated.
+- **Outcome:** Verified; previous tables unchanged. Inputs explicitly identified as editable snapshots. Incremental tokens unmeasured.
+- **Lesson:** Verification: preserve source budget classification and disclose its consequences, rather than silently reclassifying spending.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-25 · Build + Verification · Worked · [[savings-v3-review]] runway extension
 
 - **Work:** Sol appended editable balance inputs and formula-based no-salary runway tables; Luna independently verified live output.

@@ -138,6 +138,14 @@ This manifest records every nonblank added cell; formulas reference editable inp
 
 Julian requested plain-language calculation notes under the runway table. Appended A95:B101 (explanations merged across B:L): exact no-salary annual net savings from B31/H31/N31, included rental/property/living costs, monthly burn, available pots, months/years formulas and constant-burn limitations. Numerical explanations link to live cells with TEXT formulas so they remain current. Readback verified; original model and tables unchanged. Incremental token effort unmeasured.
 
+## Lean runway added, 25 Sep 2026
+
+Julian authorised a second table for lean burn. Appended A103:D117 in the savings sheet; previous tables and the cashflow sheet are unchanged. B105:D105 are editable snapshots of cashflow row175 in London/Malvern/HK order: 47,952.966667 / 44,142.966667 / 69,004.966667 HKD monthly. Notes explicitly say these inputs are not live-linked.
+
+Lean annual savings adds back the original annual living costs to B31/H31/N31 and subtracts lean inputs x12, preserving rental/tax treatment. Monthly burn is 28,136.63 / 4,744.55 / 49,422.88 HKD; cash-only runway28.0 / 166.1 / 15.9 months. Uses the existing balances; MPF excluded in HK and non-positive burn guarded. Classification follows the source exactly, including exclusion of Malvern hotels and HK contents insurance. Very long combined-pot runway is constant-burn arithmetic, not a changing lifetime forecast.
+
+Verification: live readback plus separate reconciliation against the source discretionary totals and all16 numeric runway outputs passed. Incremental tokens unmeasured.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |

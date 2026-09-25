@@ -12,7 +12,7 @@ source: UK Relocation savings comparison v3 Google Sheet
 > **Why it exists.** The sheet holds numbers; this note holds what they mean. Rebuilt 25 Sep 2026 after the v3 sheet replaced the July model (which had no property tax and netted rents into living costs).
 > **How it is used.** Julian reads §1 to compare locations; §3 explains why Malvern still beats Hong Kong. Model inputs and assumptions live in [[uk-relocation-cashflows]]; the property tax working is in [[tax-rental-incomes]]. Internal only.
 
-**Map:** §1 bottom line · §2 the numbers · §3 why Malvern beats Hong Kong · §4 caveats · §5 change log · §6 how to update.
+**Map:** §1 bottom line · §2 the numbers · §3 why Malvern beats Hong Kong · §3b runway with no salary · §4 caveats · §5 change log · §6 how to update.
 
 ---
 
@@ -29,40 +29,40 @@ source: UK Relocation savings comparison v3 Google Sheet
 
 ## 2. The numbers
 
-Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net rents − property tax − living costs), with the occupied-home costs counted once, in living costs. Sheet state as of 25 Sep 2026: the tables below reflect the double-count correction (London UK property expenses and HK lived-in expenses set to zero in the property rows); confirm the sheet's rows 18 and 20 match before quoting it.
+Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net rents − property tax − living costs), with the occupied-home costs counted once, in living costs. Verified against the sheet on 25 Sep 2026 (rows 18 and 20 corrected, HK living costs 86,498.30/mo).
 
 ### Annual net savings
 
 | Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Zero: GBP 0 | -605,018 | -274,633 | -802,985 |
-| Low: GBP 75k | -114,724 | 136,287 | -137,835 |
-| Medium: GBP 110k | 88,276 | 333,927 | 152,665 |
-| Contract: GBP 135k | 228,346 | 466,427 | 360,165 |
-| High: GBP 150k | 307,846 | 545,927 | 484,665 |
-| Extra High: GBP 200k | 572,846 | 810,927 | 899,665 |
+| Zero: GBP 0 | -605,018 | -274,633 | -802,995 |
+| Low: GBP 75k | -114,724 | 136,287 | -137,845 |
+| Medium: GBP 110k | 88,276 | 333,927 | 152,655 |
+| Contract: GBP 135k | 228,346 | 466,427 | 360,155 |
+| High: GBP 150k | 307,846 | 545,927 | 484,655 |
+| Extra High: GBP 200k | 572,846 | 810,927 | 899,655 |
 
 ### Cumulative after four years (end of the FIG window)
 
 | Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Zero: GBP 0 | -2,420,071 | -1,098,531 | -3,211,939 |
-| Low: GBP 75k | -458,895 | 545,149 | -551,339 |
-| Medium: GBP 110k | 353,105 | 1,335,709 | 610,661 |
-| Contract: GBP 135k | 913,385 | 1,865,709 | 1,440,661 |
-| High: GBP 150k | 1,231,385 | 2,183,709 | 1,938,661 |
-| Extra High: GBP 200k | 2,291,385 | 3,243,709 | 3,598,661 |
+| Zero: GBP 0 | -2,420,071 | -1,098,531 | -3,211,978 |
+| Low: GBP 75k | -458,895 | 545,149 | -551,378 |
+| Medium: GBP 110k | 353,105 | 1,335,709 | 610,622 |
+| Contract: GBP 135k | 913,385 | 1,865,709 | 1,440,622 |
+| High: GBP 150k | 1,231,385 | 2,183,709 | 1,938,622 |
+| Extra High: GBP 200k | 2,291,385 | 3,243,709 | 3,598,622 |
 
 ### Cumulative after ten years (FIG expired from year five)
 
 | Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Zero: GBP 0 | -6,050,176 | -2,746,326 | -8,029,846 |
-| Low: GBP 75k | -1,153,170 | 1,075,558 | -1,378,346 |
-| Medium: GBP 110k | 568,028 | 2,979,118 | 1,526,654 |
-| Contract: GBP 135k | 1,923,308 | 4,304,118 | 3,601,654 |
-| High: GBP 150k | 2,718,308 | 5,099,118 | 4,846,654 |
-| Extra High: GBP 200k | 5,368,308 | 7,749,118 | 8,996,654 |
+| Zero: GBP 0 | -6,050,176 | -2,746,326 | -8,029,946 |
+| Low: GBP 75k | -1,153,170 | 1,075,558 | -1,378,446 |
+| Medium: GBP 110k | 568,028 | 2,979,118 | 1,526,554 |
+| Contract: GBP 135k | 1,923,308 | 4,304,118 | 3,601,554 |
+| High: GBP 150k | 2,718,308 | 5,099,118 | 4,846,554 |
+| Extra High: GBP 200k | 5,368,308 | 7,749,118 | 8,996,554 |
 
 ### Tax on salary, effective rate
 
@@ -102,6 +102,40 @@ The same pattern holds at every band up to £150k. At £200k the salary-tax gap 
 
 ---
 
+## 3b. Runway with no salary (the two cash-burn tables)
+
+The sheet's two runway tables answer one question: **with no salary, how long do the pots last in each location?** Both take the Zero column's annual shortfall (rents in, property tax and living costs out, no salary), divide by 12 for a monthly burn, and divide the available funds by that. Pots as of 25 Sep 2026: net cash HK$788,273 (HK$841,000 less HK$52,727 of card bills); ISAs HK$3,265,990 and MPF HK$1,244,699 still at July values.
+
+**Table 1: full burn.** Living costs as budgeted in the cashflows sheet, discretionary included.
+
+| No salary, full budget | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Monthly burn | 50,418 | 22,886 | 66,916 |
+| Cash only | 15.6 months | 34.4 months | 11.8 months |
+| Cash + ISAs | 6.7 years | 14.8 years | 5.0 years |
+| Cash + ISAs + MPF | 8.8 years | 19.3 years | n/a while in HK |
+
+**Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Expected values once the sheet's formulas are completed:
+
+| No salary, lean budget | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Lean living costs per month | 47,953 | 44,143 | 69,005 |
+| Monthly burn | 28,137 | 4,745 | 49,423 |
+| Cash only | 28 months | 166 months | 16 months |
+| Cash + ISAs | 12.0 years | 71 years | 6.8 years |
+
+**Why Malvern's burn is so low.** Two rents come in (HK$44k a month net of letting costs) against one elsewhere, and non-mortgage living is HK$34k against London's HK$42k and Hong Kong's HK$59k, because Mum absorbs bills and there are no school fees, helper, cleaner or babysitter. The mortgages (HK$28k a month) are the same everywhere and do not separate the scenarios. In the lean case the two rents almost cover everything, so the cash barely moves.
+
+**How to read them.**
+- The full-burn table is the planning figure. The lean table is the floor: what happens if spending is cut to essentials during a long search.
+- MPF is shown for London and Malvern because leaving Hong Kong permanently unlocks it. It is retirement capital; spending it is the London-eats-the-pension point in [[uk-move-financial-model]] §0.
+- HK$164k a year of every burn is Pine View principal, which builds equity. Cash runs down faster than net worth.
+- Runway is held constant: no rent rises, no inflation, no investment returns, no salary part-way through.
+
+**Where the Malvern figures are generous.** The cashflows sheet carries HK$1,000 a month for Mum's bills and HK$1,000 for a car; the financial model's honest Malvern figure used about HK$5,000 board and HK$2,250 car. On those, the full burn is about HK$28,000 a month and cash-only runway about 28 months. Malvern is also the only scenario resting on two rents, so one void month costs HK$25k to 27k. The prudent Malvern planning figure is therefore about HK$28,000 a month with a void allowance, not HK$22,886. Against that, HK$4,000 of the Malvern budget is commuting that does not apply with no job.
+
+---
+
 ## 4. Caveats
 
 - **Malvern assumes living with Mum.** Independent Malvern accommodation, bills and a car add roughly HK$10k a month and remove most of the lead.
@@ -118,6 +152,7 @@ The same pattern holds at every band up to £150k. At £200k the salary-tax gap 
 
 | Date | What changed |
 |---|---|
+| 2026-09-25 | **Runway tables added** (full and lean, no salary), fed by the Zero columns and the 25 Sep cash and card balances; §3b explains them. HK living costs refreshed to 86,498.30/mo (HK figures moved by HK$10). |
 | 2026-09-25 | **v3 sheet replaces the July model.** New file ([UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)), 18 columns (135k band added to each location), property income and letting expenses in their own rows, HK Property Tax and UK property tax rows (with and without FIG, and the "use" choice), FIG expiry after four years in the cumulative rows, HK basic allowance HK$145,000 (2026/27 onward), living costs from the cashflows expense totals with the lived-in home's housing restored. Codex adversarial review: [[uk-relocation-savings-v3-codex-review-2026-09-25]]; deliverable record [[savings-v3-review]]. Tax working: [[tax-rental-incomes]]. This note rebuilt around the new results; the July findings are superseded. |
 | 2026-08-04 | Added zero-income stress columns, formula-driven cumulative rows, the Malvern false-economy caveat, and moved findings out of the sheet into this note. |
 | 2026-07-17 | Initial sheet and findings note. |

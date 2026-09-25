@@ -14,7 +14,7 @@ source: UK Relocation savings comparison v3 and UK Relocation Cashflows Google S
 
 **Do not use the burn rates in [[uk-move-financial-model]] section 0 as cashflow inputs. Those figures are superseded.**
 
-**Map:** §1 the two sheets · §2 property income by scenario · §3 assumptions · §4 living costs · §5 salary, tax and savings · §6 cumulative Y1 to Y10 · §7 change log.
+**Map:** §1 the two sheets · §2 property income by scenario · §3 assumptions · §4 living costs · §5 salary, tax and savings · §6 cumulative Y1 to Y10 · §6b runway blocks · §7 change log.
 
 ---
 
@@ -69,8 +69,8 @@ Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View pr
 | Add lived-in home housing (was missing, Housing total broken) | +2,210 | 0 | +3,726 |
 | Remove duplicate Professional Wills | −71 | −71 | −71 |
 | Remove HK contents insurance wrongly in London; remove Oyster from HK | −201 | 0 | −500 |
-| **Corrected monthly living costs** | **70,234** | **62,284** | **86,497** |
-| **Annual (x 12)** | **842,814** | **747,414** | **1,037,970** |
+| **Corrected monthly living costs** | **70,234** | **62,284** | **86,498** |
+| **Annual (x 12)** | **842,814** | **747,414** | **1,037,980** |
 
 HK includes DBIS school fees of HK$20,000/mo. Malvern includes hotel HK$2,000/mo and weekly rail HK$2,000/mo for hybrid commuting, and nothing for accommodation (Mum's house).
 
@@ -91,11 +91,11 @@ Annual net savings = net take-home + (UK property income − UK letting costs) �
 | Income tax (HKD) | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 84,850 | 144,350 | 186,850 | 212,350 | 297,350 |
 | NI / HK salaries tax (HKD) | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Net take-home (HKD) | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 665,150 | 955,650 | 1,163,150 | 1,287,650 | 1,702,650 |
-| Living expenses (HKD), incl. lived-in home | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 1,037,970 | 1,037,970 | 1,037,970 | 1,037,970 | 1,037,970 | 1,037,970 |
+| Living expenses (HKD), incl. lived-in home | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 |
 | HK Property Tax (HKD) | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 0 | 0 | 0 | 0 | 0 | 0 |
 | UK tax on property, no FIG (HKD) | 0 | 51,269 | 82,736 | 60,026 | 60,026 | 60,026 | 23,615 | 201,155 | 198,655 | 175,945 | 175,945 | 175,945 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
 | UK tax on property, use (HKD) | 0 | 50,280 | 30,280 | 0 | 0 | 0 | 23,615 | 153,269 | 138,629 | 115,919 | 115,919 | 115,919 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
-| **Annual net savings (HKD)** | **-605,018** | **-114,724** | **88,276** | **228,346** | **307,846** | **572,846** | **-274,633** | **136,287** | **333,927** | **466,427** | **545,927** | **810,927** | **-802,985** | **-137,835** | **152,665** | **360,165** | **484,665** | **899,665** |
+| **Annual net savings (HKD)** | **-605,018** | **-114,724** | **88,276** | **228,346** | **307,846** | **572,846** | **-274,633** | **136,287** | **333,927** | **466,427** | **545,927** | **810,927** | **-802,995** | **-137,845** | **152,655** | **360,155** | **484,655** | **899,655** |
 
 ---
 
@@ -105,16 +105,38 @@ Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use th
 
 | Year | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Y1 | -605,018 | -114,724 | 88,276 | 228,346 | 307,846 | 572,846 | -274,633 | 136,287 | 333,927 | 466,427 | 545,927 | 810,927 | -802,985 | -137,835 | 152,665 | 360,165 | 484,665 | 899,665 |
-| Y2 | -1,210,035 | -229,447 | 176,553 | 456,693 | 615,693 | 1,145,693 | -549,265 | 272,575 | 667,855 | 932,855 | 1,091,855 | 1,621,855 | -1,605,969 | -275,669 | 305,331 | 720,331 | 969,331 | 1,799,331 |
-| Y3 | -1,815,053 | -344,171 | 264,829 | 685,039 | 923,539 | 1,718,539 | -823,898 | 408,862 | 1,001,782 | 1,399,282 | 1,637,782 | 2,432,782 | -2,408,954 | -413,504 | 457,996 | 1,080,496 | 1,453,996 | 2,698,996 |
-| Y4 | -2,420,071 | -458,895 | 353,105 | 913,385 | 1,231,385 | 2,291,385 | -1,098,531 | 545,149 | 1,335,709 | 1,865,709 | 2,183,709 | 3,243,709 | -3,211,939 | -551,339 | 610,661 | 1,440,661 | 1,938,661 | 3,598,661 |
-| Y5 | -3,025,088 | -574,607 | 388,926 | 1,081,706 | 1,479,206 | 2,804,206 | -1,373,163 | 633,551 | 1,609,611 | 2,272,111 | 2,669,611 | 3,994,611 | -4,014,923 | -689,173 | 763,327 | 1,800,827 | 2,423,327 | 4,498,327 |
-| Y6 | -3,630,106 | -690,320 | 424,746 | 1,250,026 | 1,727,026 | 3,317,026 | -1,647,796 | 721,952 | 1,883,512 | 2,678,512 | 3,155,512 | 4,745,512 | -4,817,908 | -827,008 | 915,992 | 2,160,992 | 2,907,992 | 5,397,992 |
-| Y7 | -4,235,123 | -806,032 | 460,567 | 1,418,347 | 1,974,847 | 3,829,847 | -1,922,428 | 810,354 | 2,157,414 | 3,084,914 | 3,641,414 | 5,496,414 | -5,620,892 | -964,842 | 1,068,658 | 2,521,158 | 3,392,658 | 6,297,658 |
-| Y8 | -4,840,141 | -921,745 | 496,387 | 1,586,667 | 2,222,667 | 4,342,667 | -2,197,061 | 898,755 | 2,431,315 | 3,491,315 | 4,127,315 | 6,247,315 | -6,423,877 | -1,102,677 | 1,221,323 | 2,881,323 | 3,877,323 | 7,197,323 |
-| Y9 | -5,445,159 | -1,037,458 | 532,207 | 1,754,987 | 2,470,487 | 4,855,487 | -2,471,694 | 987,156 | 2,705,216 | 3,897,716 | 4,613,216 | 6,998,216 | -7,226,862 | -1,240,512 | 1,373,988 | 3,241,488 | 4,361,988 | 8,096,988 |
-| Y10 | -6,050,176 | -1,153,170 | 568,028 | 1,923,308 | 2,718,308 | 5,368,308 | -2,746,326 | 1,075,558 | 2,979,118 | 4,304,118 | 5,099,118 | 7,749,118 | -8,029,846 | -1,378,346 | 1,526,654 | 3,601,654 | 4,846,654 | 8,996,654 |
+| Y1 | -605,018 | -114,724 | 88,276 | 228,346 | 307,846 | 572,846 | -274,633 | 136,287 | 333,927 | 466,427 | 545,927 | 810,927 | -802,995 | -137,845 | 152,655 | 360,155 | 484,655 | 899,655 |
+| Y2 | -1,210,035 | -229,447 | 176,553 | 456,693 | 615,693 | 1,145,693 | -549,265 | 272,575 | 667,855 | 932,855 | 1,091,855 | 1,621,855 | -1,605,989 | -275,689 | 305,311 | 720,311 | 969,311 | 1,799,311 |
+| Y3 | -1,815,053 | -344,171 | 264,829 | 685,039 | 923,539 | 1,718,539 | -823,898 | 408,862 | 1,001,782 | 1,399,282 | 1,637,782 | 2,432,782 | -2,408,984 | -413,534 | 457,966 | 1,080,466 | 1,453,966 | 2,698,966 |
+| Y4 | -2,420,071 | -458,895 | 353,105 | 913,385 | 1,231,385 | 2,291,385 | -1,098,531 | 545,149 | 1,335,709 | 1,865,709 | 2,183,709 | 3,243,709 | -3,211,978 | -551,378 | 610,622 | 1,440,622 | 1,938,622 | 3,598,622 |
+| Y5 | -3,025,088 | -574,607 | 388,926 | 1,081,706 | 1,479,206 | 2,804,206 | -1,373,163 | 633,551 | 1,609,611 | 2,272,111 | 2,669,611 | 3,994,611 | -4,014,973 | -689,223 | 763,277 | 1,800,777 | 2,423,277 | 4,498,277 |
+| Y6 | -3,630,106 | -690,320 | 424,746 | 1,250,026 | 1,727,026 | 3,317,026 | -1,647,796 | 721,952 | 1,883,512 | 2,678,512 | 3,155,512 | 4,745,512 | -4,817,968 | -827,068 | 915,932 | 2,160,932 | 2,907,932 | 5,397,932 |
+| Y7 | -4,235,123 | -806,032 | 460,567 | 1,418,347 | 1,974,847 | 3,829,847 | -1,922,428 | 810,354 | 2,157,414 | 3,084,914 | 3,641,414 | 5,496,414 | -5,620,962 | -964,912 | 1,068,588 | 2,521,088 | 3,392,588 | 6,297,588 |
+| Y8 | -4,840,141 | -921,745 | 496,387 | 1,586,667 | 2,222,667 | 4,342,667 | -2,197,061 | 898,755 | 2,431,315 | 3,491,315 | 4,127,315 | 6,247,315 | -6,423,957 | -1,102,757 | 1,221,243 | 2,881,243 | 3,877,243 | 7,197,243 |
+| Y9 | -5,445,159 | -1,037,458 | 532,207 | 1,754,987 | 2,470,487 | 4,855,487 | -2,471,694 | 987,156 | 2,705,216 | 3,897,716 | 4,613,216 | 6,998,216 | -7,226,951 | -1,240,601 | 1,373,899 | 3,241,399 | 4,361,899 | 8,096,899 |
+| Y10 | -6,050,176 | -1,153,170 | 568,028 | 1,923,308 | 2,718,308 | 5,368,308 | -2,746,326 | 1,075,558 | 2,979,118 | 4,304,118 | 5,099,118 | 7,749,118 | -8,029,946 | -1,378,446 | 1,526,554 | 3,601,554 | 4,846,554 | 8,996,554 |
+
+---
+
+## 6b. Runway blocks (how the two cash-burn tables are built)
+
+Both blocks sit below the "Numeric model inputs" on the Formula validation tab, appended 25 Sep 2026. Interpretation is in [[uk-relocation-savings-comparison]] §3b.
+
+**Inputs (B69:B80).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
+
+**Table 1, full burn.**
+- Annual net savings = the Zero columns' row 31 (London B31, Malvern H31, HK N31).
+- Monthly burn = −annual net savings ÷ 12.
+- Months = available funds ÷ monthly burn, for three pot combinations; years = months ÷ 12.
+- If burn is zero or negative the cell shows "No depletion". The MPF combination shows "n/a while in HK" for the HK column because MPF is only accessible on permanent departure.
+
+**Table 2, lean burn.**
+- Lean living costs per month (B105:D105) are typed snapshots of the cashflows sheet's "Non-optional expenses total" row (London F, Malvern G, HK E), read 25 Sep 2026: 47,952.97 / 44,142.97 / 69,004.97. Not live-linked; refresh by hand after changing the cashflow budget.
+- Lean annual savings = Zero annual savings + full annual living costs − lean monthly living costs × 12. Rents, letting costs and property tax unchanged.
+- Burn and runway rows then follow Table 1's formulas on the lean figures.
+- As of 25 Sep 2026 the calculated rows of Table 2 were still blank in the sheet; expected values are in the findings note.
+
+**Not modelled in either:** rent voids, inflation, investment returns, a salary starting part-way, the board and car uplift the financial model applies to Malvern (see findings note §3b).
 
 ---
 
@@ -122,6 +144,7 @@ Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use th
 
 | Date | What changed |
 |---|---|
+| 2026-09-25 | **Runway blocks added** to the savings sheet (full and lean, no salary), documented in §6b. HK living costs refreshed to 86,498.30/mo. |
 | 2026-09-25 | **v3 model.** New savings sheet with 18 columns (135k band added), property income and letting costs in their own rows, HK Property Tax and UK property tax rows with the FIG choice, FIG expiry after four years, HK basic allowance HK$145,000, living costs from the cashflows expense totals corrected by hand. Occupied-home costs counted once, in living costs. Codex review [[uk-relocation-savings-v3-codex-review-2026-09-25]]; record [[savings-v3-review]]; tax working [[tax-rental-incomes]]. Cashflows sheet clean-up still owed. Sections 1 to 6 rebuilt. |
 | 2026-08-04 | Zero-income stress columns, formula-driven cumulative rows, executive summary, four identical salary bands. |
 | 2026-07-17 | Initial model from cashflows sheet row 177; UK 2026/27 tax and HK salaries tax applied. |

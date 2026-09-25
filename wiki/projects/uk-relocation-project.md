@@ -35,7 +35,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-25)
 
-**25 Sept - runway calculation notes added; editable tables completed and verified:** Notes in rows95:101 explain the live source figures and formulas. Savings sheet rows68:93 now calculate no-salary runway from editable cash/card/ISA/MPF balances. Sol built, Luna independently verified, parent cross-checked; existing rows1:66 unchanged. Agreed earlier spreadsheet repairs remain complete. Record and live table: [[savings-v3-review]]. Legacy cashflow rental-income rows still require separate reconciliation before row183 is used as a complete rental cashflow.
+**25 Sept - lean runway table added and verified:** A second table in savings rows103:117 uses non-discretionary expenses from cashflow row175, with the same rental/tax treatment and balances. Lean input snapshots remain editable and need refreshing after source budget changes. Earlier non-lean tables remain intact.  Notes in rows95:101 explain the live source figures and formulas. Savings sheet rows68:93 now calculate no-salary runway from editable cash/card/ISA/MPF balances. Sol built, Luna independently verified, parent cross-checked; existing rows1:66 unchanged. Agreed earlier spreadsheet repairs remain complete. Record and live table: [[savings-v3-review]]. Legacy cashflow rental-income rows still require separate reconciliation before row183 is used as a complete rental cashflow.
 
 **25 Sept - rental-tax analysis corrected:** [[tax-rental-incomes]] carries the accepted earlier review and distinguishes its older expense tables from the fuller inputs used in v3. Use the v3 review for the spreadsheet-specific checks; the older article headline amounts are not the revised-input amounts.
 
@@ -127,7 +127,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 25 Sep 2026):**
 
-- **25 Sep: review the completed runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
+- **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
 
 0. ~~Run the Phase 3/4 status sweep~~ **✅ DONE 28 Aug** - full register swept with Julian, all rows live. The six urgent from-UK groundwork items it produced (ToR1, surveys, tax adviser, MPF forms, landlord-utilities homework, IRD rebate) are in the Status header above and in their register rows; they are THIS WEEK's work.
 0a. **(After the groundwork lands) Run the FIT CHECK** - backwards schedule from 15 Sept using lead times and latest-start dates. Post-sweep read: the window looks comfortable (only pack-out, declarations-if-not-remote, helper settlement, DBRC notice, the haematology visit, and wine execution remain in it); the schedule pressure is all in the from-UK groundwork lead times (ToR1 processing, survey availability, adviser booking). No t-shirt re-size, no WSJF re-score (agreed 28 Aug).
@@ -274,6 +274,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-25 | **Lean runway added** in [savings rows103:117](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A103:D117). Source row175 expense snapshots; same balances and property treatment. All16 runway outputs verified. Detail: [[savings-v3-review]]. |
 | 2026-09-25 | **Runway calculation explanation added** beneath the [savings table](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A95:L101). Live formula-linked notes show annual shortfalls, monthly burn and pot/runway calculations. Record: [[savings-v3-review]]. |
 | 2026-09-25 | **Editable runway tables appended.** [Live savings table](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A68:D93), inputs B69:B75, net cash HKD788,273. Cash runway15.6/34.4/11.8 months for London/Malvern/HK. Independent verification passed; original cells unchanged. Full manifest: [[savings-v3-review]]. |
 | 2026-09-25 | **Delegated spreadsheet repairs complete.** [Savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357) FIG/FX controls repaired and [cashflow](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137) expense corrections applied. Independent parent verification: 198 savings calculations and source totals agree. Record and remaining legacy-income caveat: [[savings-v3-review]]. |
