@@ -108,21 +108,25 @@ The sheet's two runway tables answer one question: **with no salary, how long do
 
 **Table 1: full burn.** Living costs as budgeted in the cashflows sheet, discretionary included.
 
-| No salary, full budget | London | Malvern | Hong Kong |
-|---|---:|---:|---:|
-| Monthly burn | 50,418 | 22,886 | 66,916 |
-| Cash only | 15.6 months | 34.4 months | 11.8 months |
-| Cash + ISAs | 6.7 years | 14.8 years | 5.0 years |
-| Cash + ISAs + MPF | 8.8 years | 19.3 years | n/a while in HK |
+| No salary, full budget |      London |     Malvern |       Hong Kong |
+| ---------------------- | ----------: | ----------: | --------------: |
+| Monthly burn           |      50,418 |      22,886 |          66,916 |
+| Cash only              | 15.6 months | 34.4 months |     11.8 months |
+| Cash + ISAs            |   6.7 years |  14.8 years |       5.0 years |
+| Cash + ISAs + MPF      |   8.8 years |  19.3 years | n/a while in HK |
 
 **Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Expected values once the sheet's formulas are completed:
 
 | No salary, lean budget | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Lean living costs per month | 47,953 | 44,143 | 69,005 |
-| Monthly burn | 28,137 | 4,745 | 49,423 |
+| Living costs per month, full budget (for comparison) | 70,234 | 62,284 | 86,498 |
+| Living costs per month, lean budget | 47,953 | 44,143 | 69,005 |
+| Monthly burn, full (from Table 1, after rent and property tax) | 50,418 | 22,886 | 66,916 |
+| Monthly burn, lean (after rent and property tax) | 28,137 | 4,745 | 49,423 |
 | Cash only | 28 months | 166 months | 16 months |
 | Cash + ISAs | 12.0 years | 71 years | 6.8 years |
+
+Living costs are spending before rent; burn is what is left after rent and property tax. Lean burn is lower everywhere, by the discretionary spend removed (about HK$22k London, HK$18k Malvern, HK$17k Hong Kong a month).
 
 **Why Malvern's burn is so low.** Two rents come in (HK$44k a month net of letting costs) against one elsewhere, and non-mortgage living is HK$34k against London's HK$42k and Hong Kong's HK$59k, because Mum absorbs bills and there are no school fees, helper, cleaner or babysitter. The mortgages (HK$28k a month) are the same everywhere and do not separate the scenarios. In the lean case the two rents almost cover everything, so the cash barely moves.
 
