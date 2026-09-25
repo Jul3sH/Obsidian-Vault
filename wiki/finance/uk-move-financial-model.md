@@ -411,7 +411,7 @@ Defensible. Rent covers carrying costs; principal builds equity; selling now cry
 
 ## 12. Update (7 Jul): UK tax on the HK rental - the 4-year FIG regime (researched)
 
-> ⚠️ **As of 24 Sep 2026: superseded on the numbers by [[uktax-HKrental-income]].** The ~£2,900/yr worst case below is understated: it is £4,100 to £7,700/yr depending on salary band (£5,400 at £150k), and a FIG claim loses money below about £75k of other income because it forfeits the personal allowance. Mechanism (interest credit, HK tax credit) stands.
+> ⚠️ **As of 24 Sep 2026: superseded on the numbers by [[tax-rental-incomes]].** The ~£2,900/yr worst case below is understated: it is £4,100 to £7,700/yr depending on salary band (£5,400 at £150k), and a FIG claim loses money below about £75k of other income because it forfeits the personal allowance. Mechanism (interest credit, HK tax credit) stands.
 
 Julian's fear: as a UK resident, the UK would tax the HK rent (~HK$22k/mo) at UK rates *and* deny mortgage-interest offset - potentially "so heavily it doesn't cover the mortgage." **Researched against gov.uk - the fear is largely unfounded for the window that matters.**
 

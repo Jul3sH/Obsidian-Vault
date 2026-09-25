@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/finance/uktax-HKrental-income.md",
+                "file": "wiki/finance/tax-rental-incomes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "uktax-HKrental-income"
+              "title": "tax-rental-incomes"
             }
           }
         ]
@@ -201,7 +201,11 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/finance/tax-rental-incomes-codex-review-2026-09-25.md",
+    "wiki/finance/uktax-srt-fy26-27.md",
+    "wiki/finance/tax-rental-incomes.md",
     "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
+    "wiki/finance/uktax-HKrental-income.md",
     "wiki/projects/uk-relocation-project.md",
     "wiki/performance/decision-journal/decision-journal.md",
     "wiki/performance/decision-journal/decisions-register.md",
@@ -214,9 +218,7 @@
     "wiki/deliverables/genai-governance-recall-repair.md",
     "wiki/ai-os/skills/behaviour-check/SKILL.md",
     "wiki/ai-os/skills/behaviour-check",
-    "wiki/finance/uktax-srt-fy26-27.md",
     "wiki/performance/working-with-genai/mm-facts-first.md",
-    "wiki/finance/uktax-HKrental-income.md",
     "wiki/technology/Memory systems/_index.md",
     "wiki/deliverables/horst-offer-case-for-urgency.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
@@ -226,8 +228,6 @@
     "wiki/performance/working-with-yourself/mm-forgotten-system-bias.md",
     "wiki/technology/Memory systems/pillars-agile-os.md",
     "wiki/technology/Memory systems/pillars-agentic-os.md",
-    "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
-    "wiki/technology/Memory systems/mm-memory-pillars.md",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",
     "wiki/ai-os/skills/grilling/agents",
