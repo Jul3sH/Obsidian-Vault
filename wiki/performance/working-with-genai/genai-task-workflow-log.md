@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-25 · Build + Verification · Worked · [[savings-v3-review]] runway extension
+
+- **Work:** Sol appended editable balance inputs and formula-based no-salary runway tables; Luna independently verified live output.
+- **Check:** Before/live comparison of1,254 original cells, all16 numeric runway outputs, formula dependencies, guards and HK MPF exclusion; parent arithmetic cross-check.
+- **Outcome:** Complete, original cells unchanged, net cash788,273. Inputs B69:B75; exact manifest in deliverable. Incremental token effort unmeasured.
+- **Lesson:** Verification: retain a full pre-edit cell snapshot before append-only work so preservation is measurable.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-25 · Build + Verification · Worked · [[savings-v3-review]] delegated repairs
 
 - **Work:** User-authorised Sol savings-formula repairs and Luna exact cashflow edits on separate spreadsheets.
