@@ -9,8 +9,10 @@ hard-date: 2026-09-15
 wsjf: n/a
 por-key: POR-17
 jira-key: BWS-14
-status-updated: 2026-09-24
+status-updated: 2026-09-25
 ---
+
+This is the status and evidence hub for the UK relocation project. It brings the decision and execution work together so Julian can see the current position, follow the supporting records and choose the next action. Internal only, `send: NEVER`.
 
 # UK Relocation Project - Status
 
@@ -33,7 +35,9 @@ status-updated: 2026-09-24
 
 ## Status (as of 2026-09-25)
 
-**25 Sept - rental tax analysis reviewed and corrected (decision impact: raises the cost of a UK-resident year with a job, lowers the FIG threshold):** [[tax-rental-incomes]] now carries Julian's four scenarios (HK$27k HK rent + £30k Cecil Road, with and without a £135k salary). Codex review found the forward years were on 2026/27 rates; property income is taxed at 22/42/47 from April 2027, so the HK flat costs about £6,475 a year in UK tax at £135k salary (£0 with a FIG claim), and FIG pays from about £47k salary, not £100k. HK tax on the flat is £3,716 either way.
+**25 Sept - v3 savings review complete; corrections required before using the ten-year comparison:** [[uk-relocation-savings-v3-codex-review-2026-09-25]] verifies all 18 annual property-tax scenarios, but finds FIG relief extended beyond four years, an outdated HK basic allowance, hardcoded tax amounts and smaller source-budget flags. The principal error favours the UK in the long-term comparison; the allowance error understates HK savings. Both sheets remain unchanged. Deliverable: [[savings-v3-review]].
+
+**25 Sept - rental-tax analysis corrected:** [[tax-rental-incomes]] carries the accepted earlier review and distinguishes its older expense tables from the fuller inputs used in v3. Use the v3 review for the spreadsheet-specific checks; the older article headline amounts are not the revised-input amounts.
 
 **24 Sept - YMCA return enquiry drafted (information only, commits to nothing):** a cheap HK school place is the fallback if a TTI job is won and then lost, so whether YMCA would take Sophia back is an input the HK-return BRAIND needs. Email drafted for Bonnie Shing asking three things (possible in principle, by when, on what evidence). Next action 5 carries a dated exception for it. Not yet sent.
 
@@ -121,7 +125,9 @@ status-updated: 2026-09-24
 
 **Decision: COMMITTED to MOVE, London direct (4-7 Jul).** MOVE committed 4 Jul after full BRAINED analysis and Fable adversarial review. London-direct (live in Cecil Road) resolved 7 Jul and survived a Fable hostile review with conditions. Financials fully modelled: net worth ~£1.2M; London funded ~4 years with zero income on liquid + MPF, ISAs and both properties untouched. **Cecil Road tenant notice SERVED 7 Jul** - the decision is anchored in the world.
 
-**Next actions (prioritised):**
+**Next actions (prioritised, finance refreshed 25 Sep 2026):**
+
+- **25 Sep: adjudicate [[uk-relocation-savings-v3-codex-review-2026-09-25]], then correct FIG expiry, the HK basic allowance and tax recalculation; resolve the flagged cashflow items before relying on the comparison.** Review is complete; sheet corrections have not been applied.
 
 0. ~~Run the Phase 3/4 status sweep~~ **✅ DONE 28 Aug** - full register swept with Julian, all rows live. The six urgent from-UK groundwork items it produced (ToR1, surveys, tax adviser, MPF forms, landlord-utilities homework, IRD rebate) are in the Status header above and in their register rows; they are THIS WEEK's work.
 0a. **(After the groundwork lands) Run the FIT CHECK** - backwards schedule from 15 Sept using lead times and latest-start dates. Post-sweep read: the window looks comfortable (only pack-out, declarations-if-not-remote, helper settlement, DBRC notice, the haematology visit, and wine execution remain in it); the schedule pressure is all in the from-UK groundwork lead times (ToR1 processing, survey availability, adviser booking). No t-shirt re-size, no WSJF re-score (agreed 28 Aug).
@@ -201,6 +207,8 @@ These are the live files that make up the UK relocation decision evidence base. 
 
 | Area | File | Role |
 |---|---|---|
+| Reviews | [[uk-relocation-savings-v3-codex-review-2026-09-25]] | Independent tax, savings and source-cashflow review of the v3 spreadsheet. |
+| Delivery | [[savings-v3-review]] | Scope, verification and effort record for the v3 review. |
 | Decision control | [[decision-journal]] | Canonical committed decision, wobble log, and reopen status. |
 | Decision control | [[uk-relocation-decision]] | Anchor document for the Move-vs-Stay decision: committed choice, lock status, fear table, exit rules. DRAFT since 18 Aug (retype outstanding). Lives in the uk-move workspace (moved from wiki/projects/ 31 Aug). |
 | Decision control | [[commitment-lock-protocol]] | F-N-M-T test for whether new evidence can formally reopen the committed decision. |
@@ -266,6 +274,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-25 | **V3 savings review completed.** [[uk-relocation-savings-v3-codex-review-2026-09-25]] checks all 18 scenarios: annual property-tax arithmetic agrees, but ten-year UK savings retain expired FIG relief; HK salary tax uses the old basic allowance. Hardcoded taxes and source-budget flags also recorded. Decision impact: correct the long-term comparison before reliance. Both sheets unchanged; scope and effort in [[savings-v3-review]]. |
 | 2026-09-25 | **Rental tax scenarios written and adversarially reviewed.** [[tax-rental-incomes]] restructured around Julian's four scenarios; Codex review ([[tax-rental-incomes-codex-review-2026-09-25]]) found 5 Material issues, chiefly that property income rates rise to 22/42/47 from April 2027 and that the FIG claim break-even is about £47k salary (with Cecil let), not £100k. Corrections applied and verified against Finance Act 2026 s7 and HMRC RFIG42300. Decision impact: a UK-resident year with a £135k job costs about £6,475 in UK tax on the HK flat unless FIG is claimed; with no job the flat is almost free of UK tax. |
 | 2026-09-24 | **YMCA return enquiry drafted, not yet sent.** Purpose: establish whether a return to Form 2 is possible, by when, and on what evidence, before Sophia is told anything. Rationale: YMCA is the low-cost fallback that mitigates a won-then-lost TTI job, so it may be the right choice even with a schooling budget. Email commits to nothing and does not restate the August reason. Logged in row 3d.2; next action 5 given a dated exception for information-only enquiries to the HK school. |
 | 2026-09-24 | **YMCA withdrawal correspondence back-filled (26-28 Aug).** Sophia's HK school was notified by email on 26 Aug, six days after Ty's 20 Aug written no; Bonnie Shing acknowledged the same day and the thread closed 28 Aug with an open offer of help for the receiving school. The school was told the family had to return to the UK immediately on "unexpected and difficult news". No transcripts or references were requested. Row 3d.2 updated; fact added to [[hk-uturn-reopen-2026-09]] as a reversal cost if the HK return is pursued. |
@@ -591,7 +600,9 @@ These are the items where order decides the outcome, not effort. Each now has it
 
 ## Deliverables
 
-No deliverables defined yet. Run `/define-task` or `/define-enabler` to break this Project down.
+| Deliverable | Role |
+|---|---|
+| [[savings-v3-review]] | Independent verification of the v3 savings comparison. |
 
 ## Funnel
 

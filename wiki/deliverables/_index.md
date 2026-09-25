@@ -33,6 +33,7 @@ Project — become XXS Project candidates instead; see
 
 Each Project lists its own deliverables under a `## Deliverables` section on its own page.
 
+- [[../projects/uk-relocation-project|UK Relocation Project]]
 - [[../projects/tti-role|TTI Role]]
 - [[../projects/clsa-role|CLSA — Head of Network Services]]
 - [[../projects/job-search-pipeline|Job Search Pipeline]]

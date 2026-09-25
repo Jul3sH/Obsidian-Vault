@@ -28,6 +28,7 @@ Covers personal financial management only: budgeting, savings strategies, invest
 - [[financial-status-2026-06-22|Financial Status 2026-06-22]] - Superseded historical snapshot
 
 ## Articles
+- [[uk-relocation-savings-v3-codex-review-2026-09-25]] - Independent review of v3 tax calculations, FIG duration, annual savings and source cashflows.
 - [[uk-relocation-cashflows|UK Relocation Cashflows]] - Trusted earnings and savings model (wiki companion to the Google Sheet): 12-column salary / tax / cashflow / savings comparison (London, Malvern, HK x low, medium, high, extra-high salary bands); all assumptions; 10-year cumulative; change log. Cashflow source = Google Sheet row 177. Agent-resumable.
 - [[uk-relocation-savings-comparison|UK Relocation Savings Comparison]] - Wiki companion to the savings comparison Google Sheet: current findings and observations, structural change log, description of what each sheet section contains, and update instructions. The sheet holds data and assumptions; the narrative readout lives here.
 - [[uk-relocation-savings-comparison-number-check-2026-07-17|UK Relocation Savings Comparison Number Check 2026-07-17]] - Historical Codex audit of the old 9-column savings comparison Google Sheet; useful for method, but scenario labels were superseded by the 2026-08-04 12-column rebuild.

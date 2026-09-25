@@ -27,6 +27,16 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-25 · Critique · Worked · [[savings-v3-review]]
+
+- **Work:** Independently reviewed all 18 v3 relocation savings scenarios, using the supplied briefing and accepted prior rental-tax review.
+- **Check:** Separate arithmetic for each tax scenario, live formula and cashflow tracing, official HMRC/IRD sources; Julian adjudicates the findings. Report: [[uk-relocation-savings-v3-codex-review-2026-09-25]].
+- **Outcome:** Annual property-tax arithmetic agrees; found expired FIG relief carried into years 5 to 10, an outdated HK allowance, hardcoded taxes and smaller source-budget flags. Sheets unchanged. Thread usage 214,260 tokens at checkpoint, including earlier work; review-only effort unmeasured.
+- **Lesson:** Verification: an identity check can say OK while repeating the model's error. Check relief duration and input-to-tax dependencies separately from cashflow arithmetic.
+- **Deliverable:** [[savings-v3-review]].
+
+---
+
 ## 2026-09-23/24 · Research + Analysis · Partly · [[uktax-srt-fy26-27]]
 
 - **Work:** UK Statutory Residence Test position for Julian and Sophia, 2026/27 and forward exposure. ~1,600 lines plus a derived negotiation brief. Nine review passes: seven Fable peer reviews against primary sources, two Codex adversarial (GPT-5.6, then gpt-6-astra at high effort).
