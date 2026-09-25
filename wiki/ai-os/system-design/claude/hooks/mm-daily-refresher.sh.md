@@ -9,8 +9,12 @@ boundary), either the spaced-repetition review of mental models created exactly
 Emits a visible `systemMessage` in the terminal (added 2026-09-19) so Julian
 sees every firing, plus the `additionalContext` instruction Claude acts on.
 Since 2026-09-25 due models go into a queue at `~/.claude/mm-daily-reminder-queue`
-and at most three are shown per day; the rest roll forward (a 38-model batch
-created on 26 Aug came due together on 25 Sep, which is unlearnable).
+(line format `rung|due-date|path`). Rung priority: every 1-day review is shown on
+its day regardless of the cap; 7-day then 30-day reviews fill the remaining slots
+up to three per day; the rest roll forward. Rationale: compounding makes the 1-day
+review the one that must never be missed, the 7-day can slip a day or two, the
+30-day up to a week. The queue exists because a 38-model batch created on 26 Aug
+came due together on 25 Sep, which is unlearnable.
 
 ```bash
 #!/bin/bash
@@ -23,11 +27,18 @@ created on 26 Aug came due together on 25 Sep, which is unlearnable).
 # is silently swallowed and the day's reminder is lost.
 # Day boundary is 05:00 UK local time (Julian is UK-based, up early): all date
 # arithmetic subtracts 5h so a 00:30 session belongs to the previous day.
-# Priority 1 (spaced repetition): mm-*.md files created exactly 1 day, 7 days,
-# or 30 days ago (frontmatter `created:`) become due and are appended to a
-# queue. At most MAX_PER_DAY are shown per day; the rest roll forward to the
-# following days (added 2026-09-25: a 38-file batch created on one day came
-# due together 30 days later, which is unlearnable).
+#
+# Priority 1 (spaced repetition): mm-*.md files created exactly 1, 7, or 30
+# days ago (frontmatter `created:`) become due and are appended to a queue.
+# Queue line format: rung|due-date|path  (rung = 1, 7 or 30).
+# Rung priority (Julian, 2026-09-25): compounding makes the 1-day review the
+# one that must never be missed, the 7-day can slip a day or two, the 30-day
+# up to a week. So:
+#   - every 1-day item is shown on its day, regardless of the cap;
+#   - the remaining slots up to MAX_PER_DAY go to 7-day items, then 30-day;
+#   - anything not shown rolls forward, oldest due date first within a rung.
+# The queue exists because a 38-file batch created on one day came due
+# together 30 days later (25 Sep 2026), which is unlearnable.
 # Priority 2 (rotation): when the queue is empty, pick one mm file by
 # day-of-year for the periodic whole-vault cycle.
 # Fires once per effective day via a state file.
@@ -40,21 +51,28 @@ QUEUE="$HOME/.claude/mm-daily-reminder-queue"
 echo "$TODAY" > "$STATE"
 touch "$QUEUE"
 WIKI="/Users/julianhart/Obsidian Vault/wiki"
-D1=$(date $EFF -v-1d +%Y-%m-%d); D7=$(date $EFF -v-7d +%Y-%m-%d); D30=$(date $EFF -v-30d +%Y-%m-%d)
-# Append newly due files to the queue (one path per line), skipping any already queued.
-grep -rlE "^created: ($D1|$D7|$D30)" --include="mm-*.md" "$WIKI" 2>/dev/null | sort | while IFS= read -r f; do
-  grep -qxF "$f" "$QUEUE" || echo "$f" >> "$QUEUE"
+# Append newly due files (skip a path already queued at the same rung).
+for RUNG in 1 7 30; do
+  D=$(date $EFF -v-${RUNG}d +%Y-%m-%d)
+  grep -rlE "^created: $D" --include="mm-*.md" "$WIKI" 2>/dev/null | sort | while IFS= read -r f; do
+    grep -qxF "$RUNG|$TODAY|$f" "$QUEUE" || grep -q "^$RUNG|[0-9-]*|$f\$" "$QUEUE" || echo "$RUNG|$TODAY|$f" >> "$QUEUE"
+  done
 done
 if [ -s "$QUEUE" ]; then
-  TAKE=$(head -n "$MAX_PER_DAY" "$QUEUE")
-  REMAIN=$(tail -n +$((MAX_PER_DAY + 1)) "$QUEUE")
-  printf '%s\n' "$REMAIN" | sed '/^$/d' > "$QUEUE"
+  # Order: rung 1, then 7, then 30; oldest due date first within a rung.
+  SORTED=$(sort -t'|' -k1,1n -k2,2 -k3,3 "$QUEUE")
+  ONE=$(printf '%s\n' "$SORTED" | grep '^1|')
+  REST=$(printf '%s\n' "$SORTED" | grep -v '^1|')
+  N1=$(printf '%s\n' "$ONE" | grep -c .)
+  SLOTS=$((MAX_PER_DAY - N1)); [ "$SLOTS" -lt 0 ] && SLOTS=0
+  TAKE=$(printf '%s\n%s\n' "$ONE" "$(printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR<=n')" | grep .)
+  printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR>n' > "$QUEUE"
   LEFT=$(grep -c . "$QUEUE")
-  # Paths contain spaces (Obsidian Vault), so join with "; " rather than spaces.
-  DUE=$(printf '%s\n' "$TAKE" | paste -sd ';' - | sed 's/;/; /g')
-  NAMES=$(printf '%s\n' "$TAKE" | while IFS= read -r f; do basename "$f" .md; done | paste -sd ' ' -)
-  SYS="Mental-model refresher (spaced repetition due): $NAMES ($LEFT queued for later days)"
-  MSG="Spaced-repetition refresher (first session of the day): these mental models were created 1 day, 1 week, or 1 month ago and are due review for retention: $DUE. Read each and open your first reply with a short refresher per model (one-liner, reach-for-when, one key principle), then handle the request as normal. Keep it short; at most $MAX_PER_DAY models are shown per day and $LEFT more are queued for later days."
+  # Paths contain spaces (Obsidian Vault), so items are joined with "; ".
+  DUE=$(printf '%s\n' "$TAKE" | awk -F'|' '{printf "%s-day review (due %s): %s; ", $1, $2, $3}')
+  NAMES=$(printf '%s\n' "$TAKE" | awk -F'|' '{n=$3; sub(/.*\//,"",n); sub(/\.md$/,"",n); printf "%s(%sd) ", n, $1}')
+  SYS="Mental-model refresher (spaced repetition due): $NAMES($LEFT queued for later days)"
+  MSG="Spaced-repetition refresher (first session of the day). These mental models are due review for retention, listed in priority order (1-day reviews first, then 7-day, then 30-day): $DUE Read each and open your first reply with a short refresher per model (one-liner, reach-for-when, one key principle), then handle the request as normal. Keep it short; $LEFT more are queued for later days."
 else
   F=$(find "$WIKI" -name "mm-*.md" -not -path "*_archived*" | sort | awk -v n=$(date +%j) '{a[cnt++]=$0} END{print a[n%cnt]}')
   SYS="Mental-model refresher today: $(basename "$F" .md)"
