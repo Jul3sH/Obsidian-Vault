@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/working-with-genai/mm-confidence-inheritance.md",
+                "file": "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "mm-confidence-inheritance"
+              "title": "HK-BRAIND"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
-    "collapsed": true
+    "width": 483.5
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -201,6 +200,14 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/projects/uk-relocation-project.md",
+    "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
+    "wiki/performance/decision-journal/decision-journal.md",
+    "wiki/performance/decision-journal/decisions-register.md",
+    "wiki/performance/decision-journal/decision-maker-profile.md",
+    "wiki/performance/decision-journal/dec-stay-with-hannah.md",
+    "wiki/performance/decision-journal/dec-uk-move.md",
+    "wiki/performance/working-with-genai/mm-confidence-inheritance.md",
     "wiki/performance/working-with-genai/mm-write-for-the-stranger.md",
     "wiki/performance/working-with-genai/mm-clarity-is-verification.md",
     "wiki/deliverables/genai-governance-recall-repair.md",
@@ -208,7 +215,6 @@
     "wiki/ai-os/skills/behaviour-check",
     "wiki/finance/uktax-srt-fy26-27.md",
     "wiki/performance/working-with-genai/mm-facts-first.md",
-    "wiki/performance/working-with-genai/mm-confidence-inheritance.md",
     "wiki/finance/uktax-HKrental-income.md",
     "wiki/technology/Memory systems/_index.md",
     "wiki/deliverables/horst-offer-case-for-urgency.md",
@@ -221,13 +227,6 @@
     "wiki/technology/Memory systems/pillars-agentic-os.md",
     "wiki/technology/Memory systems/openbrain-vs-agentic-os.md",
     "wiki/technology/Memory systems/mm-memory-pillars.md",
-    "wiki/technology/Memory systems/memory-use-cases.md",
-    "wiki/technology/Memory systems/memory-systems-taxonomy-codex-review-2026-08-01.md",
-    "wiki/technology/Memory systems/memory-storage.md",
-    "wiki/technology/Memory systems/memory-recall.md",
-    "wiki/technology/Memory systems/memory-pillars.md",
-    "wiki/technology/Memory systems/memory-injection.md",
-    "wiki/technology/Memory systems/memory-features.md",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",
     "wiki/ai-os/skills/grilling/agents",
