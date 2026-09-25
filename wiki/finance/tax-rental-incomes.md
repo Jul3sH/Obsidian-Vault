@@ -132,12 +132,16 @@ FX 10 HKD = £1 (wiki convention). Banked/Hoped per [[mm-optimism-accounting-bia
 | DB management fee | HK$24,648/yr (£2,465) | Banked |
 | DB mortgage interest (2.47% on HK$5.89M) | HK$145,656/yr (£14,566) | Banked from a monthly snapshot; falls ~HK$4k/yr as principal is repaid |
 | DB mortgage principal | HK$164,268/yr | Never deductible anywhere |
-| DB letting agent fee (50% of one month) | HK$13,500 one-off | Year 1 only, UK-deductible; excluded above |
+| DB letting agent fee (50% of one month) | HK$13,500 per new tenancy; HK$6,750/yr on a 2-year tenancy | Julian 25 Sep; UK-deductible; excluded from §1 and §2 |
+| DB buildings insurance | HK$3,300/yr (HK$275/mo) | Julian 25 Sep; UK-deductible; excluded from §1 and §2 |
 | Cecil Road rent | £30,000/yr | **Hoped** (Julian's target 25 Sep; May 2026 statement £2,500/mo) |
-| Cecil Road expenses (agent 10.8%, rent protection, buildings insurance) | £4,222/yr | Banked ([[uk-move-financial-model]] §9) |
+| Cecil Road expenses (agent 10.8% = £3,240, rent protection £432, buildings insurance £469) | £4,141/yr | Julian 25 Sep (insurance was £550 in the July P&L); §1 and §2 still use £4,222 |
+| Cecil Road council tax when lived in (Merton Band E, single-person discount) | £1,968/yr | Julian 25 Sep; a living cost, never deductible |
 | Cecil Road mortgage interest (interest-only, 4.74%) | £2,556/yr | Banked |
 | UK bands 2026/27 | PA £12,570; 20% to £50,270; 40% to £125,140; 45% above; PA tapers £100k to £125,140 | gov.uk |
 | **UK property rates from 2027/28** | **22% / 42% / 47%; interest reducer 22%**; bands and allowance unchanged | **Finance Act 2026 s7; HMRC technical note** (verified 25 Sep 2026) |
+
+**As of 25 Sep 2026, the §1 and §2 tables use the narrower expense set (DB fees + rates; Cecil £4,222).** With the fuller deductible set logged above (DB £49,046/yr = £4,905; Cecil £4,141), the 2027/28 figures move by less than £500: HK flat at £135k salary **£6,002** (not £6,475), HK flat with no salary **£0** (not £152), Cecil Road at £135k £11,591 (not £11,553), Cecil Road with no salary £2,361 (not £2,343). Re-run the tables when the savings sheet is rebuilt.
 
 ---
 

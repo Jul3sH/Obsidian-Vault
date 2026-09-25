@@ -72,6 +72,8 @@ Two mutually exclusive uses (drives the [[uk-move-financial-model|London-vs-Malv
 
 **If lived in (London scenario):** no rental income, no rental tax; only mortgage −£213.08/mo + buildings insurance −£46/mo. Cannot be priced out - the London home is already owned.
 
+> **Update 25 Sep 2026 (Julian):** rent target £2,500/mo (£30,000/yr). Letting costs: Brinkleys £270/mo, rent protection £36/mo, buildings insurance £469.15/yr; total £4,141/yr. When lived in: buildings insurance £469 plus council tax £1,967.87/yr (Merton Band E with the 25% single-person discount; Sophia is under 18 so does not count). Tax treatment in [[tax-rental-incomes]].
+
 ## DB flat (HK home) - rental cash flow (if held & let after moving)
 
 | Item | HKD/mo | £/mo |
@@ -83,6 +85,8 @@ Two mutually exclusive uses (drives the [[uk-move-financial-model|London-vs-Malv
 | HK Property Tax (~15% on 80% of rent, est.) | ~−2,640 | ~−264 |
 | **Net cash out of pocket** | **~−9,717** | **~−970** |
 
+> **Update 25 Sep 2026 (Julian):** rent target now HK$27,000/mo. Full letting-cost set: DB management HK$2,054, rates HK$1,196, buildings insurance HK$275, letting agent fee HK$13,500 per new tenancy (HK$563/mo on a 2-year tenancy). Total HK$4,088/mo, HK$49,046/yr; HK$3,525/mo when lived in. HK Property Tax at HK$27,000 is HK$37,158/yr. Tax treatment in [[tax-rental-incomes]].
+>
 > Modelled at ~£970/mo ongoing in the latest Test A burn tables. Julian clarified on 10 Jul that the letting agency fee is HK$11,000 (~£1,100), one-off, not a recurring ~£60/mo allowance. **~£1,369/mo (HK$13,689) of the mortgage payment is principal - equity, not consumption**, so net-worth cost is roughly nil; cash cost to runway is real. Confirm with a signed tenancy or agent quote. Full analysis: [[uk-move-financial-model]] §11.
 
 ## UK personal fixed outgoings (both scenarios)
