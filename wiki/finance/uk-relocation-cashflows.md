@@ -2,154 +2,138 @@
 type: model
 tags: [finance, uk-relocation, earnings, savings]
 created: 2026-07-17
-source: UK Relocation Cashflows Google Sheet
+updated: 2026-09-25
+source: UK Relocation savings comparison v3 and UK Relocation Cashflows Google Sheets
 ---
 
 # UK Relocation Cashflows
 
-> Wiki companion to the **[UK Relocation Cashflows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit)** (file ID: 1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4). The Google Sheet is the live source of truth for all cashflow figures. This file documents the earnings and savings model built from it so any agent can resume or review the work without re-deriving from scratch.
+> **What this is.** The model companion for the relocation savings comparison: where every input comes from, the assumptions, and a mirror of the v3 sheet's tables so any agent can resume or review without re-deriving.
+> **Why it exists.** The Google Sheets are the live surfaces; this file makes them auditable. Rebuilt 25 Sep 2026 for the v3 model, which separates property income, letting costs and property tax from living costs.
+> **How it is used.** Read before changing either sheet. Findings and what the numbers mean live in [[uk-relocation-savings-comparison]]. Internal only.
 
-**Do not use the burn rates in [[uk-move-financial-model]] section 0 as cashflow inputs. Those figures are superseded by the Google Sheet.**
+**Do not use the burn rates in [[uk-move-financial-model]] section 0 as cashflow inputs. Those figures are superseded.**
 
----
-
-## Executive Summary
-
-### Bottom Line
-
-- This file is the auditable model companion for the relocation savings comparison: cashflow source, tax assumptions, salary bands, annual net savings, and 10-year cumulative savings.
-- The live source cashflow comes from the Relocation Cash Flows Google Sheet row 177: London HKD 669,984/yr, Malvern HKD 303,492/yr, and Hong Kong HKD 692,196/yr.
-- The burn-rate inputs are based purely on current cash plus investments as of 1 August 2026. No salary income is considered in those burn-rate figures.
-- The comparison uses four identical gross salary bands for London, Malvern, and Hong Kong: GBP 75k / HKD 750k, GBP 110k / HKD 1.1m, GBP 150k / HKD 1.5m, and GBP 200k / HKD 2.0m.
-- Each location also has a zero-income stress case with its own cashflow still applied: London HKD -669,984/yr, Malvern HKD -303,492/yr, and Hong Kong HKD -692,196/yr.
-- This file keeps the assumptions and calculations. The interpretive findings and observations live in [[uk-relocation-savings-comparison]].
-
-### Key Takeaways
-
-- Malvern has the lowest modelled cashflow only under the living-with-Mum assumption, with both properties rented and no independent Malvern accommodation, bills, or car added.
-- London and Malvern use UK income tax and National Insurance. Hong Kong uses HK salaries tax with the 15% standard-rate cap.
-- **At low salary, London and Hong Kong are both negative** on annual savings, while Malvern is positive because the cost base is much lower.
-- **At medium and high salary, all locations are positive**, but London remains weakest because UK tax absorbs much more of the same gross salary.
-- At extra-high salary, Hong Kong becomes the strongest savings case because the HK tax cap preserves more of the salary uplift.
+**Map:** §1 the two sheets · §2 property income by scenario · §3 assumptions · §4 living costs · §5 salary, tax and savings · §6 cumulative Y1 to Y10 · §7 change log.
 
 ---
 
-## Change Log
+## 1. The two sheets
 
-| Date | What changed |
-|---|---|
-| 2026-08-04 | Added an executive-summary caveat that the source burn-rate inputs are based purely on current cash plus investments as of 1 August 2026, with no salary income considered in those burn-rate figures. |
-| 2026-08-04 | Added an executive summary so the model companion opens with the bottom line, key takeaways, source cashflow numbers, zero-income stress cases, and document boundary. |
-| 2026-08-04 | Added London Zero and Hong Kong Zero stress-case columns to the live savings comparison. The model now has one GBP 0 / HKD 0 earnings case per location, with each location's own annual cashflow still applied. Updated the mirrored salary and 10-year cumulative tables here. |
-| 2026-08-04 | Added a Malvern Zero stress-case column to the live savings comparison: GBP 0 / HKD 0 gross earnings with Malvern annual cashflow still applied. Updated the mirrored salary and 10-year cumulative tables here. |
-| 2026-08-04 | Normalised the savings comparison to four identical salary bands across London, Malvern, and Hong Kong: Low GBP 75k / HKD 750k, Medium GBP 110k / HKD 1.1m, High GBP 150k / HKD 1.5m, Extra High GBP 200k / HKD 2.0m. Updated the live comparison Sheet rows 1-23, refreshed assumptions, and moved the findings readout to [[uk-relocation-savings-comparison]]. |
-| 2026-07-17 | Added the Hong Kong conclusion to the Google Sheet: if HK work is available, HK is financially much better; the management issue is explaining and controlling why HK actual spending has been high. |
-| 2026-07-17 | Added the bottom-line conclusion to the Google Sheet: London does not stack up financially unless high bracket London work is materially easier to land than lower bracket work in Malvern or Hong Kong. |
-| 2026-07-17 | Replaced the Google Sheet's long Honest Read with four one-line summaries: HK Low beats London High; Malvern Low nearly matches London High; London has broader job-market upside while HK Low equals London Medium gross; Malvern High is near HK Median. |
-| 2026-07-17 | Revised HK Low from HKD 1,000,000 / GBP 100k to HKD 1,100,000 / GBP 110k so it is a like-for-like gross comparison with UK Medium. HK Low annual savings increase from HKD 178,244 to HKD 261,244. |
-| 2026-07-17 | Added the key savings insight: Malvern Low saves almost the same as London High (HKD 237,078 vs 242,876/yr), so Malvern's lower cost base nearly offsets the jump from GBP 75k to GBP 150k gross. |
-| 2026-07-17 | Initial model created. Cashflow figures from Google Sheet row 177 (Cashflow total, monthly HKD). UK salary bands from Robert Half UK 2026. HK salary bands from Robert Half HK 2026. UK 2026/27 income tax + NI applied. HK salaries tax progressive rates applied. Previous wiki burn rates (uk-move-financial-model section 0) retired as cashflow source. |
+| Sheet | Role | Tab to use |
+|---|---|---|
+| [UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) | The model: salary, tax, property rows, savings, cumulative | "Formula validation" (formula-driven; the "Sheet1" tab is a stale fixed-value copy to be deleted) |
+| [UK Relocation Cashflows](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) | Living costs by location, itemised | "Cashflow comparison"; its "Expenses total" row feeds the savings sheet's three living-cost inputs |
+
+**As of 25 Sep 2026 the cashflows sheet is not yet cleaned up:** its Housing total formula is broken (shows zero), it still carries let-property rows, stale DB figures (1,881 / 1,058.70), a duplicated Professional Wills line and an Oyster line in the HK column. The corrected living-cost totals were computed by hand and typed into the savings sheet; the cashflows sheet clean-up is owed (see [[savings-v3-review]] scope amendment).
 
 ---
 
-## Trusted Source: How to Read the Google Sheet
+## 2. Property income by scenario
 
-All cashflow figures come from **row 177, labelled "Cashflow total"** in the Google Sheet. The figures are **monthly in HKD**. To use in annual HKD: multiply by 12.
+| Scenario | Julian lives in | Let | Rent in the model | Letting costs in the model | Lived-in home costs |
+|---|---|---|---|---|---|
+| Hong Kong | Pine View | Cecil Road | £30,000/yr | £4,140/yr | DB management, rates, insurance in living costs (HK$3,726/mo) |
+| London | Cecil Road | Pine View | HK$324,000/yr | HK$49,046/yr | Council tax (discounted), buildings and contents insurance in living costs (HK$2,210/mo) |
+| Malvern | Mum's | Both | £30,000 + HK$324,000 | £4,140 + HK$49,046 | None; hotel HK$2,000/mo for hybrid commuting stays in living costs |
 
-**What the cashflow figures include (already netted):**
-- All living expenses: dining, shopping, groceries, beauty, health, leisure, travel, bills, housing, transport, medical, financial
-- Mortgage payments: Pine View principal + interest; Cecil Road interest via Barclays
-- Property income already deducted: Cecil Road net income credited for HK and Malvern; Pine View net income credited for London and Malvern
-- Hybrid commuting costs included in Malvern: hotels 2 nights/week (HKD 2,000/mo) + weekly rail ticket to London (HKD 2,000/mo)
-
-**Property income by scenario:**
-
-| Scenario | Julian lives in | Properties rented out | Rental income in cashflow |
-|---|---|---|---|
-| HK | Pine View (HK) | Cecil Road | Cecil Road net HKD 21,940/mo |
-| London | Cecil Road (Wimbledon) | Pine View | Pine View net HKD 22,000/mo |
-| Malvern | Mum's (Malvern) | Both | Cecil Road HKD 21,940 + Pine View HKD 22,000 = HKD 43,940/mo |
+Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View principal (HK$13,689/mo) sit inside living costs in every scenario. The principal builds equity but reduces cash.
 
 ---
 
-## Assumptions
+## 3. Assumptions
 
 | Assumption | Value |
 |---|---|
 | Exchange rate | HKD 10 = GBP 1 |
-| Tax system (UK) | 2026/27 HMRC income tax + National Insurance |
-| Personal allowance | GBP 12,570 (tapers GBP 1 per GBP 2 above GBP 100k; zero above GBP 125,140) |
-| UK Basic rate | 20% on GBP 12,571 to GBP 50,270 |
-| UK Higher rate | 40% on GBP 50,271 to GBP 125,140 |
-| UK Additional rate | 45% above GBP 125,140 |
-| UK NI employee rate | 8% on GBP 12,570 to GBP 50,270; 2% above GBP 50,270 |
-| HK tax system | Progressive rates + 15% standard rate cap; basic allowance HKD 132,000 |
-| HK progressive rates | 2% / 6% / 10% / 14% / 17% in HKD 50,000 bands above allowance |
-| UK salary bands source | Robert Half UK Salary Guide 2026 (Enterprise/Solution Architect, London) |
-| HK salary bands source | Robert Half HK Salary Guide 2026 (Enterprise Architect) |
-| Low band | GBP 75,000 / HKD 750,000 gross in every location |
-| Medium band | GBP 110,000 / HKD 1,100,000 gross in every location |
-| High band | GBP 150,000 / HKD 1,500,000 gross in every location |
-| Extra High band | GBP 200,000 / HKD 2,000,000 gross in every location |
-| Zero scenarios | Stress cases only: GBP 0 / HKD 0 gross earnings, with each location's own cashflow still applied. |
-| Banding method | All three locations use identical salary bands for like-for-like comparison; original Robert Half ranges remain the source context, not separate location-specific bands. |
-| Cashflow source | Google Sheet row 177; monthly HKD net outflow after property income |
-| Cashflow figures | Held constant (no inflation modelled) |
-| Salary | Held constant (no growth modelled over 10 years) |
-| Pension contributions | Not deducted from take-home; employer pension match is additional upside not modelled |
-| Investment returns | Not modelled on accumulated savings |
-| MPF | Not included; separate consideration on departure from HK |
-| Cumulative savings | Incremental only; no starting pot included |
-| Retired source | wiki/finance/uk-move-financial-model.md section 0 burn rates are superseded by the Google Sheet |
+| Salary tax (UK) | 2026/27 income tax + NI: PA £12,570 tapering above £100k; 20% to £50,270; 40% to £125,140; 45% above; NI 8% then 2% above £50,270 |
+| Property tax (UK) | 2027/28 property income rates 22% / 42% / 47%, mortgage interest credit 22% (Finance Act 2026 s7). Property income stacked on salary; personal allowance tapered on total income; HK tax credited up to the UK tax on the HK rent; interest credit applied before the foreign tax credit |
+| FIG regime | Claim per year on the HK rent, first four UK-resident tax years from 2027/28; costs the personal allowance in the claim year. The sheet takes the lower of claim / no claim per column, and cumulative rows drop the relief from year five |
+| HK Property Tax | 15% of 80% of (rent less rates) = HK$37,158/yr at HK$324,000 rent; London and Malvern only |
+| HK salaries tax | Progressive 2/6/10/14/17% in HK$50,000 bands above basic allowance HK$145,000 (2026/27 onward); 15% standard-rate cap. Child and single-parent allowances not applied |
+| UK tax when non-resident (HK scenario) | Cecil Road profit less personal allowance at 22%, less 22% interest credit: £2,361/yr |
+| Salary bands | £0 / 75k / 110k / 135k / 150k / 200k in every location; HK$ at 10:1. Robert Half UK and HK 2026 guides are context only |
+| Rents | Pine View HK$27,000/mo (target; agent estimated 22,000); Cecil Road £2,500/mo (target; May 2026 statement) |
+| Letting costs, Pine View | DB management 2,054 + rates 1,196 + buildings insurance 275 per month, plus agent fee HK$13,500 per two-year tenancy: HK$49,046/yr |
+| Letting costs, Cecil Road | Brinkleys £270/mo + rent protection £36/mo + buildings insurance £469/yr: £4,140/yr |
+| Living costs | Cashflows sheet "Expenses total" per location, corrected 25 Sep (see §4); held constant, no inflation |
+| Salary growth, investment returns, pension, MPF, starting pot | Not modelled |
 
 ---
 
-## Section 1: Cashflow (Source: Google Sheet row 177)
+## 4. Living costs (HK$ per month)
 
-| | London | Malvern | HK |
-|---|---|---|---|
-| Monthly cashflow (HKD) | 55,832 | 25,291 | 57,683 |
-| Annual cashflow (HKD) | 669,984 | 303,492 | 692,196 |
+| | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Cashflows sheet "Expenses total", 25 Sep before correction | 68,296 | 62,355 | 83,342 |
+| Add lived-in home housing (was missing, Housing total broken) | +2,210 | 0 | +3,726 |
+| Remove duplicate Professional Wills | −71 | −71 | −71 |
+| Remove HK contents insurance wrongly in London; remove Oyster from HK | −201 | 0 | −500 |
+| **Corrected monthly living costs** | **70,234** | **62,284** | **86,497** |
+| **Annual (x 12)** | **842,814** | **747,414** | **1,037,970** |
 
----
-
-## Section 2: Salary, Tax and Annual Net Savings (all HKD)
-
-| | Lon Zero | Lon Low | Lon Med | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK High | HK Extra High |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Gross salary (GBP) | 0 | 75,000 | 110,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 150,000 | 200,000 |
-| Gross salary (HKD) | 0 | 750,000 | 1,100,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,500,000 | 2,000,000 |
-| Income tax (HKD) | 0 | 174,320 | 334,320 | 537,030 | 762,030 | 0 | 174,320 | 334,320 | 537,030 | 762,030 | 0 | 87,060 | 146,560 | 214,560 | 299,560 |
-| NI / HK salaries tax (HKD) | 0 | 35,110 | 42,110 | 50,110 | 60,110 | 0 | 35,110 | 42,110 | 50,110 | 60,110 | 0 | 0 | 0 | 0 | 0 |
-| Total deductions (HKD) | 0 | 209,430 | 376,430 | 587,140 | 822,140 | 0 | 209,430 | 376,430 | 587,140 | 822,140 | 0 | 87,060 | 146,560 | 214,560 | 299,560 |
-| Effective rate | 0.00% | 27.92% | 34.22% | 39.14% | 41.11% | 0.00% | 27.92% | 34.22% | 39.14% | 41.11% | 0.00% | 11.61% | 13.32% | 14.30% | 14.98% |
-| Net take-home (HKD) | 0 | 540,570 | 723,570 | 912,860 | 1,177,860 | 0 | 540,570 | 723,570 | 912,860 | 1,177,860 | 0 | 662,940 | 953,440 | 1,285,440 | 1,700,440 |
-| Annual cashflow (HKD) | 669,984 | 669,984 | 669,984 | 669,984 | 669,984 | 303,492 | 303,492 | 303,492 | 303,492 | 303,492 | 692,196 | 692,196 | 692,196 | 692,196 | 692,196 |
-| **Annual net savings (HKD)** | **-669,984** | **-129,414** | **53,586** | **242,876** | **507,876** | **-303,492** | **237,078** | **420,078** | **609,368** | **874,368** | **-692,196** | **-29,256** | **261,244** | **593,244** | **1,008,244** |
+HK includes DBIS school fees of HK$20,000/mo. Malvern includes hotel HK$2,000/mo and weekly rail HK$2,000/mo for hybrid commuting, and nothing for accommodation (Mum's house).
 
 ---
 
-## Section 3: Cumulative Savings Y1-Y10 (HKD)
+## 5. Salary, tax and annual net savings (HK$ per year)
 
-| Year | Lon Zero | Lon Low | Lon Med | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK High | HK Extra High |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Y1 | -669,984 | -129,414 | 53,586 | 242,876 | 507,876 | -303,492 | 237,078 | 420,078 | 609,368 | 874,368 | -692,196 | -29,256 | 261,244 | 593,244 | 1,008,244 |
-| Y2 | -1,339,968 | -258,828 | 107,172 | 485,752 | 1,015,752 | -606,984 | 474,156 | 840,156 | 1,218,736 | 1,748,736 | -1,384,392 | -58,512 | 522,488 | 1,186,488 | 2,016,488 |
-| Y3 | -2,009,952 | -388,242 | 160,758 | 728,628 | 1,523,628 | -910,476 | 711,234 | 1,260,234 | 1,828,104 | 2,623,104 | -2,076,588 | -87,768 | 783,732 | 1,779,732 | 3,024,732 |
-| Y4 | -2,679,936 | -517,656 | 214,344 | 971,504 | 2,031,504 | -1,213,968 | 948,312 | 1,680,312 | 2,437,472 | 3,497,472 | -2,768,784 | -117,024 | 1,044,976 | 2,372,976 | 4,032,976 |
-| Y5 | -3,349,920 | -647,070 | 267,930 | 1,214,380 | 2,539,380 | -1,517,460 | 1,185,390 | 2,100,390 | 3,046,840 | 4,371,840 | -3,460,980 | -146,280 | 1,306,220 | 2,966,220 | 5,041,220 |
-| Y6 | -4,019,904 | -776,484 | 321,516 | 1,457,256 | 3,047,256 | -1,820,952 | 1,422,468 | 2,520,468 | 3,656,208 | 5,246,208 | -4,153,176 | -175,536 | 1,567,464 | 3,559,464 | 6,049,464 |
-| Y7 | -4,689,888 | -905,898 | 375,102 | 1,700,132 | 3,555,132 | -2,124,444 | 1,659,546 | 2,940,546 | 4,265,576 | 6,120,576 | -4,845,372 | -204,792 | 1,828,708 | 4,152,708 | 7,057,708 |
-| Y8 | -5,359,872 | -1,035,312 | 428,688 | 1,943,008 | 4,063,008 | -2,427,936 | 1,896,624 | 3,360,624 | 4,874,944 | 6,994,944 | -5,537,568 | -234,048 | 2,089,952 | 4,745,952 | 8,065,952 |
-| Y9 | -6,029,856 | -1,164,726 | 482,274 | 2,185,884 | 4,570,884 | -2,731,428 | 2,133,702 | 3,780,702 | 5,484,312 | 7,869,312 | -6,229,764 | -263,304 | 2,351,196 | 5,339,196 | 9,074,196 |
-| Y10 | -6,699,840 | -1,294,140 | 535,860 | 2,428,760 | 5,078,760 | -3,034,920 | 2,370,780 | 4,200,780 | 6,093,680 | 8,743,680 | -6,921,960 | -292,560 | 2,612,440 | 5,932,440 | 10,082,440 |
+Annual net savings = net take-home + (UK property income − UK letting costs) × 10 + HK property income − HK letting costs − HK Property Tax − UK tax on property (use) − living costs.
+
+| | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Gross salary (GBP) | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 |
+| Gross salary (HKD) | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 |
+| UK property income (GBP) | 0 | 0 | 0 | 0 | 0 | 0 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 |
+| UK property expenses (GBP), let costs | 0 | 0 | 0 | 0 | 0 | 0 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 |
+| HK property income (HKD) | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HK property expenses (HKD), let costs | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Income tax (HKD) | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 84,850 | 144,350 | 186,850 | 212,350 | 297,350 |
+| NI / HK salaries tax (HKD) | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Net take-home (HKD) | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 665,150 | 955,650 | 1,163,150 | 1,287,650 | 1,702,650 |
+| Living expenses (HKD), incl. lived-in home | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 1,037,970 | 1,037,970 | 1,037,970 | 1,037,970 | 1,037,970 | 1,037,970 |
+| HK Property Tax (HKD) | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 0 | 0 | 0 | 0 | 0 | 0 |
+| UK tax on property, no FIG (HKD) | 0 | 51,269 | 82,736 | 60,026 | 60,026 | 60,026 | 23,615 | 201,155 | 198,655 | 175,945 | 175,945 | 175,945 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
+| UK tax on property, use (HKD) | 0 | 50,280 | 30,280 | 0 | 0 | 0 | 23,615 | 153,269 | 138,629 | 115,919 | 115,919 | 115,919 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
+| **Annual net savings (HKD)** | **-605,018** | **-114,724** | **88,276** | **228,346** | **307,846** | **572,846** | **-274,633** | **136,287** | **333,927** | **466,427** | **545,927** | **810,927** | **-802,985** | **-137,835** | **152,665** | **360,165** | **484,665** | **899,665** |
+
+---
+
+## 6. Cumulative savings Y1 to Y10 (HK$)
+
+Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use the no-FIG tax.
+
+| Year | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Y1 | -605,018 | -114,724 | 88,276 | 228,346 | 307,846 | 572,846 | -274,633 | 136,287 | 333,927 | 466,427 | 545,927 | 810,927 | -802,985 | -137,835 | 152,665 | 360,165 | 484,665 | 899,665 |
+| Y2 | -1,210,035 | -229,447 | 176,553 | 456,693 | 615,693 | 1,145,693 | -549,265 | 272,575 | 667,855 | 932,855 | 1,091,855 | 1,621,855 | -1,605,969 | -275,669 | 305,331 | 720,331 | 969,331 | 1,799,331 |
+| Y3 | -1,815,053 | -344,171 | 264,829 | 685,039 | 923,539 | 1,718,539 | -823,898 | 408,862 | 1,001,782 | 1,399,282 | 1,637,782 | 2,432,782 | -2,408,954 | -413,504 | 457,996 | 1,080,496 | 1,453,996 | 2,698,996 |
+| Y4 | -2,420,071 | -458,895 | 353,105 | 913,385 | 1,231,385 | 2,291,385 | -1,098,531 | 545,149 | 1,335,709 | 1,865,709 | 2,183,709 | 3,243,709 | -3,211,939 | -551,339 | 610,661 | 1,440,661 | 1,938,661 | 3,598,661 |
+| Y5 | -3,025,088 | -574,607 | 388,926 | 1,081,706 | 1,479,206 | 2,804,206 | -1,373,163 | 633,551 | 1,609,611 | 2,272,111 | 2,669,611 | 3,994,611 | -4,014,923 | -689,173 | 763,327 | 1,800,827 | 2,423,327 | 4,498,327 |
+| Y6 | -3,630,106 | -690,320 | 424,746 | 1,250,026 | 1,727,026 | 3,317,026 | -1,647,796 | 721,952 | 1,883,512 | 2,678,512 | 3,155,512 | 4,745,512 | -4,817,908 | -827,008 | 915,992 | 2,160,992 | 2,907,992 | 5,397,992 |
+| Y7 | -4,235,123 | -806,032 | 460,567 | 1,418,347 | 1,974,847 | 3,829,847 | -1,922,428 | 810,354 | 2,157,414 | 3,084,914 | 3,641,414 | 5,496,414 | -5,620,892 | -964,842 | 1,068,658 | 2,521,158 | 3,392,658 | 6,297,658 |
+| Y8 | -4,840,141 | -921,745 | 496,387 | 1,586,667 | 2,222,667 | 4,342,667 | -2,197,061 | 898,755 | 2,431,315 | 3,491,315 | 4,127,315 | 6,247,315 | -6,423,877 | -1,102,677 | 1,221,323 | 2,881,323 | 3,877,323 | 7,197,323 |
+| Y9 | -5,445,159 | -1,037,458 | 532,207 | 1,754,987 | 2,470,487 | 4,855,487 | -2,471,694 | 987,156 | 2,705,216 | 3,897,716 | 4,613,216 | 6,998,216 | -7,226,862 | -1,240,512 | 1,373,988 | 3,241,488 | 4,361,988 | 8,096,988 |
+| Y10 | -6,050,176 | -1,153,170 | 568,028 | 1,923,308 | 2,718,308 | 5,368,308 | -2,746,326 | 1,075,558 | 2,979,118 | 4,304,118 | 5,099,118 | 7,749,118 | -8,029,846 | -1,378,346 | 1,526,654 | 3,601,654 | 4,846,654 | 8,996,654 |
+
+---
+
+## 7. Change log
+
+| Date | What changed |
+|---|---|
+| 2026-09-25 | **v3 model.** New savings sheet with 18 columns (135k band added), property income and letting costs in their own rows, HK Property Tax and UK property tax rows with the FIG choice, FIG expiry after four years, HK basic allowance HK$145,000, living costs from the cashflows expense totals corrected by hand. Occupied-home costs counted once, in living costs. Codex review [[uk-relocation-savings-v3-codex-review-2026-09-25]]; record [[savings-v3-review]]; tax working [[tax-rental-incomes]]. Cashflows sheet clean-up still owed. Sections 1 to 6 rebuilt. |
+| 2026-08-04 | Zero-income stress columns, formula-driven cumulative rows, executive summary, four identical salary bands. |
+| 2026-07-17 | Initial model from cashflows sheet row 177; UK 2026/27 tax and HK salaries tax applied. |
 
 ---
 
 ## Related
 
-- [[uk-relocation-project|UK Relocation Project]] - the project this feeds
-- [[uk-move-financial-model|UK Move Financial Model]] - runway and pot modelling (cashflow burn rates in section 0 superseded by Google Sheet)
-- [[malvern-permanent-feasibility-2026-07-14|Malvern Permanent Feasibility]] - rules out permanent-Malvern variants
-- [[uk-vs-hk-earning-comparison|UK vs HK Earning Comparison]] - salary band sources and tax differential
-- [[uk-150k-feasibility-report|UK GBP 150k Feasibility Report]] - salary band sources, UK side
+- [[uk-relocation-savings-comparison]] - findings and what the numbers mean
+- [[tax-rental-incomes]] - property tax working
+- [[uk-relocation-savings-v3-codex-review-2026-09-25]] - independent check of the v3 sheet
+- [[uk-relocation-project]] - the project this feeds
+- [[uk-move-financial-model]] - runway and pot modelling
+- [[malvern-permanent-feasibility-2026-07-14]] - rules out permanent-Malvern variants
+- [[uk-vs-hk-earning-comparison]] - salary band sources and tax differential

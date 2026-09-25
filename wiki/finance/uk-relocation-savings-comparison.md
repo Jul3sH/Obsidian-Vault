@@ -2,155 +2,141 @@
 type: reference
 tags: [finance, uk-relocation, savings, earnings]
 created: 2026-07-17
-source: UK Relocation Savings Comparison Google Sheet
+updated: 2026-09-25
+source: UK Relocation savings comparison v3 Google Sheet
 ---
 
 # UK Relocation Savings Comparison
 
-> Wiki companion to the **[UK Relocation Savings Comparison Google Sheet](https://docs.google.com/spreadsheets/d/1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM/edit)** (file ID: 1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM). The Google Sheet is the live data and assumptions surface for the earnings and savings comparison. This file is the home for the findings, observations, structural change log, and update instructions.
+> **What this is.** The findings readout for the **[UK Relocation savings comparison v3 Google Sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)** (file ID 1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM, tab "Formula validation"): annual and ten-year savings for London, Malvern and Hong Kong at six salary bands, now including property income, property tax and the FIG regime.
+> **Why it exists.** The sheet holds numbers; this note holds what they mean. Rebuilt 25 Sep 2026 after the v3 sheet replaced the July model (which had no property tax and netted rents into living costs).
+> **How it is used.** Julian reads §1 to compare locations; §3 explains why Malvern still beats Hong Kong. Model inputs and assumptions live in [[uk-relocation-cashflows]]; the property tax working is in [[tax-rental-incomes]]. Internal only.
 
-**All source data, assumptions, and detailed model workings live in [[uk-relocation-cashflows]]. Observations and findings from the savings comparison live here.**
-
----
-
-## Executive Summary
-
-### Bottom Line
-
-- **London does not stack up** on pure savings **unless materially higher London pay** is much easier to land than medium/high work in Malvern or Hong Kong.
-- **Malvern is the strongest savings route at low, medium, and high** salaries only under the living-with-Mum assumption. It is a desperate-measure bridge, not a normal 10-year lifestyle plan.
-- **Zero-income stress** cases make the downside explicit: with no earnings, London loses HKD 669,984/yr and HKD 6,699,840 over 10 years, **Malvern loses HKD 303,492/yr** and HKD 3,034,920 over 10 years, and Hong Kong loses HKD 692,196/yr and HKD 6,921,960 over 10 years before any starting pot is used.
-- **If Julian lives independently in Malvern, the model breaks**: add roughly HKD 10,000/mo accommodation plus bills and a car, and the Malvern savings advantage is no longer reliable.
-- **The savings figures exclude investment growth**: no stock appreciation, dividends, deposit interest, or other investment returns are modelled on existing assets or accumulated savings.
-- **Hong Kong becomes the strongest savings route at extra-high salary** and is financially better than London at every identical salary band.
-- The decision is therefore not a simple money-maximisation problem. London needs a job-market, lifestyle, Sophia, or execution argument strong enough to justify the savings penalty.
-
-### Key Takeaways
-
-- **At the same gross salary, London is financially weakest in every band.** The key drag is UK tax, not day-to-day cashflow: London annual cashflow is only HKD 22,212 lower than Hong Kong.
-- **At GBP 75k / HKD 750k, Malvern is the only location that clearly saves cash**. London loses HKD 129,414/yr and Hong Kong loses HKD 29,256/yr.
-- **At GBP 0 / HKD 0, all three locations are pure burn scenarios**: London HKD 669,984/yr, Malvern HKD 303,492/yr, and Hong Kong HKD 692,196/yr, using each location's current cashflow assumption.
-- **At GBP 110k / HKD 1.1m,** London is only thinly positive at HKD 53,586/yr. Hong Kong saves HKD 261,244/yr and Malvern saves HKD 420,078/yr.
-- **At GBP 150k / HKD 1.5m,** Malvern and Hong Kong are effectively tied, while London remains far behind.
-- **At GBP 200k / HKD 2.0m,** Hong Kong pulls clearly ahead because the HK tax cap keeps more of the extra salary.
-- **Malvern Low nearly matches London High on annual savings**, but only because the Malvern case assumes living with Mum and renting out both properties.
+**Map:** §1 bottom line · §2 the numbers · §3 why Malvern beats Hong Kong · §4 caveats · §5 change log · §6 how to update.
 
 ---
 
-## What the Sheet Contains
+## 1. Bottom line (as of 25 Sep 2026)
 
-The sheet is the paste-in output of the earnings model built from the [[uk-relocation-cashflows]] wiki file and the [Relocation Cash Flows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit). It holds three data sections plus assumptions:
-
-Structural notes:
-- The live Google Sheet is the data and assumptions surface for the earnings and savings comparison, not the source model or narrative readout.
-- London, Malvern, and Hong Kong are compared at four identical salary bands: Low, Medium, High, and Extra High.
-- Each location also has one zero-earnings stress-case column.
-- Findings are deliberately held in this companion note so the spreadsheet stays focused on numbers and assumptions.
-- Source figures, assumptions, and calculations live in [[uk-relocation-cashflows]].
-
-| Section | Content |
-|---|---|
-| Cashflow summary | Monthly and annual HKD cashflow by location (London / Malvern / HK). Source: Relocation Cash Flows sheet row 177. |
-| Salary, tax and savings | Formula-driven 15-column table: gross salary (GBP + HKD), income tax, NI, effective rate, net take-home, annual cashflow, annual net savings. Columns: London, Malvern, and Hong Kong x Zero / Low / Med / High / Extra High. Rows 15-23 calculate from the scenario headers, tax assumptions, FX, and monthly cashflow inputs; row 24 validates each scenario column. |
-| 10-year cumulative | Formula-driven Y1-Y10 cumulative savings for all 15 columns. Rows 2-11 calculate `annual net savings x year`; row 12 validates each scenario column. |
-| Assumptions | Exchange rate, UK 2026/27 tax bands, HK salaries tax, salary band sources, modelling constraints. |
+- **Malvern is the strongest saver at every band up to £150k**, and second at £200k. It wins because both properties are let and living costs are lowest, and those two effects outweigh the UK tax bill. It still depends on living with Mum.
+- **Hong Kong overtakes Malvern only at £200k**, where the HK salaries tax cap keeps most of the extra pay. HK's living costs are the highest of the three because of school fees.
+- **London is weakest at every band.** At £75k it loses about HK$115k a year; at £135k it saves HK$228k against Malvern's HK$466k. UK tax on salary is the drag.
+- **With no salary, all three burn cash:** Malvern about HK$275k a year, London HK$605k, Hong Kong HK$803k.
+- **Property tax is now in the model and it matters.** Letting Pine View as a UK resident costs HK$37k a year in HK Property Tax plus UK tax that FIG removes for four years only. Letting Cecil Road from Hong Kong costs HK$24k a year in UK tax. Malvern's earlier lead has narrowed by about HK$100k a year at £135k compared with the July model.
+- **The ten-year figures now step down after year four** when FIG expires. At £135k, Malvern reaches HK$4.3M over ten years, Hong Kong HK$3.6M, London HK$1.9M.
 
 ---
 
-## Findings
+## 2. The numbers
 
-### Annual Net Savings By Gross Salary
+Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net rents − property tax − living costs), with the occupied-home costs counted once, in living costs. Sheet state as of 25 Sep 2026: the tables below reflect the double-count correction (London UK property expenses and HK lived-in expenses set to zero in the property rows); confirm the sheet's rows 18 and 20 match before quoting it.
+
+### Annual net savings
 
 | Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Zero: GBP 0 / HKD 0 | -669,984 | -303,492 | -692,196 |
-| Low: GBP 75k / HKD 750k | -129,414 | 237,078 | -29,256 |
-| Medium: GBP 110k / HKD 1.1m | 53,586 | 420,078 | 261,244 |
-| High: GBP 150k / HKD 1.5m | 242,876 | 609,368 | 593,244 |
-| Extra High: GBP 200k / HKD 2.0m | 507,876 | 874,368 | 1,008,244 |
+| Zero: GBP 0 | -605,018 | -274,633 | -802,985 |
+| Low: GBP 75k | -114,724 | 136,287 | -137,835 |
+| Medium: GBP 110k | 88,276 | 333,927 | 152,665 |
+| Contract: GBP 135k | 228,346 | 466,427 | 360,165 |
+| High: GBP 150k | 307,846 | 545,927 | 484,665 |
+| Extra High: GBP 200k | 572,846 | 810,927 | 899,665 |
 
-### Cost Base
+### Cumulative after four years (end of the FIG window)
 
-- Zero is a stress-case, not a like-for-like salary band: it shows the annual burn if no income is earned while each location's current cashflow assumption still applies.
-- Malvern's annual cashflow is HKD 366,492 lower than London and HKD 388,704 lower than Hong Kong. That is why Malvern dominates the lower and middle bands despite using the same UK tax rates as London.
-- London cashflow is only HKD 22,212/yr lower than Hong Kong. The financial weakness of London is tax, not day-to-day cashflow.
-
-### Tax Rate
-
-| Band | UK effective rate | HK effective rate | Tax gap |
+| Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Low | 27.92% | 11.61% | UK +16.31pp |
-| Medium | 34.22% | 13.32% | UK +20.90pp |
-| High | 39.14% | 14.30% | UK +24.84pp |
-| Extra High | 41.11% | 14.98% | UK +26.13pp |
+| Zero: GBP 0 | -2,420,071 | -1,098,531 | -3,211,939 |
+| Low: GBP 75k | -458,895 | 545,149 | -551,339 |
+| Medium: GBP 110k | 353,105 | 1,335,709 | 610,661 |
+| Contract: GBP 135k | 913,385 | 1,865,709 | 1,440,661 |
+| High: GBP 150k | 1,231,385 | 2,183,709 | 1,938,661 |
+| Extra High: GBP 200k | 2,291,385 | 3,243,709 | 3,598,661 |
 
-### Same Salary Readout
+### Cumulative after ten years (FIG expired from year five)
 
-- At 75k, Malvern is the only location that clearly saves cash. Hong Kong is close to breakeven. London loses HKD 129,414/yr.
-- At 110k, all three are positive, but London is thin: HKD 53,586/yr versus Hong Kong at HKD 261,244/yr and Malvern at HKD 420,078/yr.
-- At 150k, Malvern and Hong Kong are essentially tied: HKD 609,368/yr vs HKD 593,244/yr. London remains far behind at HKD 242,876/yr.
-- At 200k, Hong Kong leads on savings at HKD 1,008,244/yr. Malvern is second at HKD 874,368/yr. London remains third at HKD 507,876/yr.
+| Band | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Zero: GBP 0 | -6,050,176 | -2,746,326 | -8,029,846 |
+| Low: GBP 75k | -1,153,170 | 1,075,558 | -1,378,346 |
+| Medium: GBP 110k | 568,028 | 2,979,118 | 1,526,654 |
+| Contract: GBP 135k | 1,923,308 | 4,304,118 | 3,601,654 |
+| High: GBP 150k | 2,718,308 | 5,099,118 | 4,846,654 |
+| Extra High: GBP 200k | 5,368,308 | 7,749,118 | 8,996,654 |
 
-### Key Comparisons
+### Tax on salary, effective rate
 
-| Comparison | Difference | Meaning |
-|---|---|---|
-| Malvern Medium vs London Medium | Malvern +HKD 366,492/yr | Same salary, same UK tax, lower cost base |
-| Hong Kong Medium vs London Medium | HK +HKD 207,658/yr | Same salary, similar cashflow, lower tax |
-| Malvern Low vs London High | London +HKD 5,798/yr | Almost identical savings despite a GBP 75k salary gap |
-| Malvern High vs Hong Kong High | Malvern +HKD 16,124/yr | Effectively tied at the 150k band |
-| Hong Kong Extra High vs London Extra High | HK +HKD 500,368/yr | At high pay, HK's tax advantage dominates |
+| Band | UK (London, Malvern) | Hong Kong | Gap |
+|---|---:|---:|---:|
+| £75k | 27.92% | 11.31% | UK +16.6pp |
+| £110k | 34.22% | 13.12% | UK +21.1pp |
+| £135k | 38.27% | 13.84% | UK +24.4pp |
+| £150k | 39.14% | 14.16% | UK +25.0pp |
+| £200k | 41.11% | 14.87% | UK +26.2pp |
 
-### 10-Year Readout
+### Tax on property, HK$ per year
 
-- Zero-income 10-year burn is London HKD -6,699,840, Malvern HKD -3,034,920, and Hong Kong HKD -6,921,960 before any starting pot is considered.
-- London Low remains negative over 10 years: HKD -1,294,140. Hong Kong Low is also negative but much less so: HKD -292,560.
-- At Medium, 10-year savings are London HKD 535,860, Hong Kong HKD 2,612,440, and Malvern HKD 4,200,780.
-- At Extra High, 10-year savings are London HKD 5,078,760, Malvern HKD 8,743,680, and Hong Kong HKD 10,082,440.
+| Location | HK Property Tax | UK tax on property, FIG years | UK tax on property, after FIG | Notes |
+|---|---:|---:|---:|---|
+| London (Pine View let) | 37,158 | 0 at £135k+; 30k to 50k at £75k to £110k | 60,026 at £135k+ | Cecil Road is the home, no UK rent |
+| Malvern (both let) | 37,158 | 115,919 at £135k+ | 175,945 at £135k+ | Cecil Road tax cannot be sheltered |
+| Hong Kong (Cecil Road let) | 0 | 23,615 | 23,615 | UK non-resident, personal allowance applies |
 
 ---
 
-## Change Log
+## 3. Why Malvern still beats Hong Kong
+
+At £135k, Malvern saves HK$106k a year more than Hong Kong despite paying HK$460k more tax. The decomposition:
+
+| Effect | Malvern versus Hong Kong, HK$ per year | Why |
+|---|---:|---|
+| Living costs | **+290,556** | HK living costs include DBIS fees (HK$240k a year), a helper and DB clubs; Malvern has no school fees and Mum absorbs bills |
+| Second rent | **+274,954** | Malvern lets Pine View as well as Cecil Road; in HK Julian lives in Pine View |
+| Salary tax | −329,786 | UK income tax and NI at £135k versus HK salaries tax |
+| Property tax | −129,462 | HK Property Tax plus UK tax on Cecil Road, against HK's UK non-resident tax only |
+| **Net** | **+106,262** | |
+
+The same pattern holds at every band up to £150k. At £200k the salary-tax gap widens to about HK$420k and Hong Kong pulls ahead. After year four, when FIG expires, Malvern's property tax rises by HK$60k a year and the £150k band becomes close to a tie.
+
+**What this says about the decision:** Malvern's advantage is not tax efficiency, it is two rents and Mum's house. Remove either (live independently in Malvern, or keep Pine View for yourself) and Hong Kong wins on savings from about £110k upward.
+
+---
+
+## 4. Caveats
+
+- **Malvern assumes living with Mum.** Independent Malvern accommodation, bills and a car add roughly HK$10k a month and remove most of the lead.
+- **Hong Kong assumes DBIS fees of HK$20k a month** and the sheet's HK salaries tax basis (basic allowance only). Claiming the child and single-parent allowances would add about HK$48,500 a year to every HK column.
+- **FIG requires 2027/28 to be the first UK-resident year** and the evidenced 12 non-resident years; the four-year window runs from then regardless of claims.
+- **Property rates are 2027/28** (22/42/47% on property income, 22% interest credit); salary tax is 2026/27, unchanged for salary.
+- **Rents are targets, not signed:** Pine View HK$27,000, Cecil Road £2,500 a month. Voids and repairs are not modelled.
+- **No salary growth, no investment returns, no starting pot, no pension contributions.** Pension contributions at £135k+ would restore some personal allowance.
+- **Living-cost inputs were corrected by hand on 25 Sep** (housing of the lived-in home restored, DB figures updated, duplicate Wills and HK Oyster removed). The cashflows Google Sheet has not yet been cleaned up to match; see [[uk-relocation-cashflows]].
+
+---
+
+## 5. Change log
 
 | Date | What changed |
 |---|---|
-| 2026-08-04 | Added an executive-summary caveat that savings figures exclude stock appreciation, dividends, deposit interest, and other investment returns on existing assets or accumulated savings. |
-| 2026-08-04 | Added London Zero and Hong Kong Zero stress-case columns to the Google Sheet. The model now runs across `Sheet1!B:P`, with one zero-income column plus low, medium, high, and extra-high columns for each location. `Sheet1!B12:P12` and `Sheet1!B24:P24` validate `OK`; assumptions now describe zero stress cases for all locations. Updated [[uk-relocation-cashflows]] and this findings note. |
-| 2026-08-04 | Added a Malvern Zero stress-case column to the Google Sheet. The scenario uses GBP 0 / HKD 0 gross earnings, applies Malvern cashflow, and validates cleanly across rows 12 and 24. Updated [[uk-relocation-cashflows]] and this findings note. |
-| 2026-08-04 | Corrected the Google Sheet's annual cashflow formula path so row 22 explicitly calculates annual cashflow from monthly cashflow inputs (`monthly cashflow x 12`) before row 23 subtracts it from net take-home. Row 24 returns `OK` if each scenario column ties through salary, tax, deductions, take-home, cashflow, and annual net savings. |
-| 2026-08-04 | Replaced the Google Sheet's 10-year cumulative values with formulas and added a row 12 validation check. Each cumulative cell now references row 23 annual net savings multiplied by the year number in column A; row 12 returns `OK` if the cumulative series ties back to row 23. |
-| 2026-08-04 | Added the Malvern false-economy caveat to the executive summary: the savings case depends on living with Mum and breaks if independent Malvern accommodation, bills, and car costs are required. |
-| 2026-08-04 | Reworked this companion note so the Bottom Line appears first as an executive summary with real key takeaways. Moved the old structural notes into `What the Sheet Contains`. |
-| 2026-08-04 | Moved the findings and observations out of `Sheet1!A57:D110` into this companion note. The Google Sheet now stays focused on data and related assumptions. |
-| 2026-08-04 | Normalised the Sheet to four identical salary bands across all three scenarios: Low GBP 75k / HKD 750k, Medium GBP 110k / HKD 1.1m, High GBP 150k / HKD 1.5m, Extra High GBP 200k / HKD 2.0m. Rows 1-23 were rebuilt from 9 to 12 scenario columns and rows 29-55 assumptions were refreshed. The like-for-like findings readout now lives in this companion note. |
-| 2026-07-17 | Added a Hong Kong conclusion to the Sheet: if HK work is available, HK is financially much better; the management issue is explaining and controlling why HK actual spending has been high. |
-| 2026-07-17 | Added a bottom-line conclusion to the Sheet: London does not stack up financially unless high bracket London work is materially easier to land than lower bracket work in Malvern or Hong Kong. |
-| 2026-07-17 | Replaced the Sheet's long Honest Read with four one-line summaries: HK Low beats London High; Malvern Low nearly matches London High; London has broader job-market upside while HK Low equals London Median gross; Malvern High is near HK Median. |
-| 2026-07-17 | Revised HK Low from HKD 1,000,000 / GBP 100k to HKD 1,100,000 / GBP 110k so it matches London Medium gross for direct comparison. |
-| 2026-07-17 | Added explicit summary line to the Google Sheet: Malvern Low savings nearly equal London High savings (HKD 237,078 vs 242,876/yr). |
-| 2026-07-17 | Corrected the Google Sheet's bottom explanatory block (`WHY LONDON SAVINGS LOOK POOR`) using [[uk-relocation-savings-comparison-number-check-2026-07-17]]. |
-| 2026-07-17 | Number audit created: [[uk-relocation-savings-comparison-number-check-2026-07-17]]. Core calculation tables pass; bottom explanatory block has stale numbers and should not be relied on until corrected. |
-| 2026-07-17 | Initial sheet created. Model data pasted from Claude session: Section 1 cashflow, Section 2 salary/tax/savings, Section 3 10-year cumulative, assumptions, and a "Why London savings look poor" explanatory analysis. Cashflow figures sourced from Relocation Cash Flows sheet row 177 (Malvern includes hotel HKD 2,000/mo + rail HKD 2,000/mo). |
+| 2026-09-25 | **v3 sheet replaces the July model.** New file ([UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)), 18 columns (135k band added to each location), property income and letting expenses in their own rows, HK Property Tax and UK property tax rows (with and without FIG, and the "use" choice), FIG expiry after four years in the cumulative rows, HK basic allowance HK$145,000 (2026/27 onward), living costs from the cashflows expense totals with the lived-in home's housing restored. Codex adversarial review: [[uk-relocation-savings-v3-codex-review-2026-09-25]]; deliverable record [[savings-v3-review]]. Tax working: [[tax-rental-incomes]]. This note rebuilt around the new results; the July findings are superseded. |
+| 2026-08-04 | Added zero-income stress columns, formula-driven cumulative rows, the Malvern false-economy caveat, and moved findings out of the sheet into this note. |
+| 2026-07-17 | Initial sheet and findings note. |
 
 ---
 
-## How to Update
+## 6. How to update
 
-When you make structural changes to the sheet (add a section, add a scenario, change the column layout, or update source figures), add a row to the Change Log above. Data-only refreshes (pasting updated numbers into an existing structure) do not need a log entry - the change log is for structure, not content.
-
-When updating numbers:
-1. Check the [Relocation Cash Flows sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) row 177 for the latest cashflow figures.
-2. Recalculate via [[uk-relocation-cashflows]] (update that file's sections too, and add a change log row there).
-3. Paste the updated data tables and assumptions into this Google Sheet.
-4. Keep `Sheet1!B15:P23` formula-driven, and confirm `Sheet1!B24:P24` reads `OK` after the update.
-5. Keep `Sheet1!B2:P11` formula-driven from `Sheet1!B23:P23`, and confirm `Sheet1!B12:P12` reads `OK` after the update.
-6. Keep findings and observations in this companion note, not in the spreadsheet.
-7. Add a row here only if the structure changed.
+1. Change inputs in the v3 sheet's "Numeric model inputs" block or the property rows; everything else recalculates. The three living-cost inputs are typed values from the cashflows sheet's "Expenses total" row and must be refreshed by hand.
+2. Confirm both validation rows read OK.
+3. Update §2 tables here and [[uk-relocation-cashflows]] Sections 2 and 3, and add a change log row in both if the structure changed.
+4. Keep findings here, not in the sheet.
 
 ---
 
 ## Related
 
-- [[uk-relocation-cashflows]] - Source of truth for all figures, assumptions, and model workings
-- [[uk-relocation-project]] - The project this feeds
-- [[uk-move-financial-model]] - Runway and pot modelling (burn rates in section 0 superseded by the Relocation Cash Flows sheet)
+- [[uk-relocation-cashflows]] - model inputs, assumptions and mirrored tables
+- [[tax-rental-incomes]] - the property tax computation behind the tax rows
+- [[uk-relocation-savings-v3-codex-review-2026-09-25]] - the independent check of the sheet
+- [[uk-relocation-project]] - the project this feeds
+- [[uk-move-financial-model]] - runway and pot modelling
