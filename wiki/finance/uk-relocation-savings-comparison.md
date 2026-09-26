@@ -19,7 +19,7 @@ source: UK Relocation savings comparison v3 Google Sheet
 ## 1. Executive summary (as of 26 Sep 2026)
 
 - **Malvern is the strongest saver at every band up to £150k**, and second at £200k. It wins because both properties are let and living costs are lowest, and those two effects outweigh the UK tax bill. It still depends on living with Mum.
-- **Hong Kong overtakes Malvern only at £200k**, where the HK salaries tax cap keeps most of the extra pay. HK's living costs are the highest of the three because of school fees, and the TTI scenarios (£230k and £250k, §2) also set aside £15,000 a year for six years as a university reserve, so their available savings are £100k to £117k a year until year seven and £115k to £132k after.
+- **Hong Kong overtakes Malvern only at £200k**, where the HK salaries tax cap keeps most of the extra pay. HK's living costs are the highest of the three because of school fees, and university costs in years 1 to 6 are higher from HK because Sophia would pay overseas fees (intended treatment and current sheet state in the note at the end of §2; today only the two TTI columns carry a reserve).
 - **London is weakest at every band.** At £75k it loses about HK$115k a year; at £135k it saves HK$228k against Malvern's HK$466k. UK tax on salary is the drag.
 - **With no salary, all three burn cash:** Malvern about HK$275k a year, London HK$605k, Hong Kong HK$803k.
 - **Property tax is now in the model and it matters.** Letting Pine View as a UK resident costs HK$37k a year in HK Property Tax plus UK tax that FIG removes for four years only. Letting Cecil Road from Hong Kong costs HK$24k a year in UK tax. Malvern's earlier lead has narrowed by about HK$100k a year at £135k compared with the July model.
@@ -91,6 +91,20 @@ TTI(S) means an additional GBP20,000 annual schooling allowance on the GBP230,00
 | London (Pine View let) | 37,158 | 0 at £135k+; 30k to 50k at £75k to £110k | 60,026 at £135k+ | Cecil Road is the home, no UK rent |
 | Malvern (both let) | 37,158 | 115,919 at £135k+ | 175,945 at £135k+ | Cecil Road tax cannot be sheltered |
 | Hong Kong (Cecil Road let) | 0 | 23,615 | 23,615 | UK non-resident, personal allowance applies |
+
+### Note: university costs (intended treatment, as of 26 Sep 2026)
+
+University starts in year 7 of the projection. The cost should be reserved across years 1 to 6 in every column, with a UK-versus-overseas difference:
+
+| | Per year, years 1 to 6 | Six-year total | Why |
+|---|---:|---:|---|
+| Every column (London, Malvern, HK) | £5,000 (HK$50,000) | £30,000 | Baseline university cost wherever Julian lives |
+| HK columns, additional | £15,000 (HK$150,000) | £90,000 | If Sophia spends the four years before university overseas in HK, she loses UK home-fee status and pays overseas rates |
+| HK columns, total | £20,000 (HK$200,000) | £120,000 | |
+
+Contributions stop from year 7. The reserve is earmarked saving, not spending: it lowers available savings in years 1 to 6 but the money remains an asset.
+
+**What the sheet does today:** only the two TTI columns carry a reserve, and only the £15,000 overseas element (HK$150,000 a year in their living expenses). No column carries the £5,000 baseline, and the other HK bands carry nothing. Until the sheet is updated, the TTI columns are not comparable with their neighbours and no column reflects the baseline cost. Applying the intended treatment would lower annual savings in years 1 to 6 by HK$50,000 in every London and Malvern column and by HK$200,000 in every HK column (HK$50,000 more than the TTI columns show now).
 
 ---
 
@@ -164,31 +178,31 @@ The same pattern holds at every band up to £150k. At £200k the salary-tax gap 
 
 The Malvern no-salary case from the savings sheet (26 Sep 2026). Living costs come from the cashflows sheet's expense totals; rents, letting costs, property tax, pots and runway are computed in the savings sheet.
 
-| Malvern, no salary | HK$ |
-|---|---:|
-| **Monthly** | |
-| Living costs, full budget (incl. mortgages HK$27,958) | 62,284 |
-| Rents in, gross (Pine View 27,000 + Cecil Road 25,000) | −52,000 |
-| Letting costs, both properties | 7,538 |
-| Property tax (HK Property Tax 3,097 + UK tax on Cecil Road 1,968) | 5,064 |
-| **Monthly burn, full budget** | **22,886** |
-| Living costs, lean budget (non-optional only) | 44,143 |
-| **Monthly burn, lean budget** | **4,745** |
-| **Pots (cash and cards 25 Sep 2026; ISAs and MPF July 2026)** | |
-| Net cash | 788,273 |
-| Cash + MPF | 2,032,972 |
-| Cash + ISAs | 4,054,263 |
-| Cash + ISAs + MPF | 5,298,962 |
-| **Runway, full budget** | |
-| Cash only | 34.4 months |
-| Cash + MPF | 89 months (7.4 yrs) |
-| Cash + ISAs | 177 months (14.8 yrs) |
-| Cash + ISAs + MPF | 232 months (19.3 yrs) |
-| **Runway, lean budget** | |
-| Cash only | 166 months (13.8 yrs) |
-| Cash + MPF | 428 months (36 yrs) |
-| Cash + ISAs | 854 months (71 yrs) |
-| Cash + ISAs + MPF | 1,117 months (93 yrs) |
+| Malvern, no salary                                                |                   HK$ |
+| ----------------------------------------------------------------- | --------------------: |
+| **Monthly**                                                       |                       |
+| Living costs, full budget (incl. mortgages HK$27,958)             |                62,284 |
+| Rents in, gross (Pine View 27,000 + Cecil Road 25,000)            |               −52,000 |
+| Letting costs, both properties                                    |                 7,538 |
+| Property tax (HK Property Tax 3,097 + UK tax on Cecil Road 1,968) |                 5,064 |
+| **Monthly burn, full budget**                                     |            **22,886** |
+| Living costs, lean budget (non-optional only)                     |                44,143 |
+| **Monthly burn, lean budget**                                     |             **4,745** |
+| **Pots (cash and cards 25 Sep 2026; ISAs and MPF July 2026)**     |                       |
+| Net cash                                                          |               788,273 |
+| Cash + MPF                                                        |             2,032,972 |
+| Cash + ISAs                                                       |             4,054,263 |
+| Cash + ISAs + MPF                                                 |             5,298,962 |
+| **Runway, full budget**                                           |                       |
+| Cash only                                                         |           34.4 months |
+| Cash + MPF                                                        |   89 months (7.4 yrs) |
+| Cash + ISAs                                                       | 177 months (14.8 yrs) |
+| Cash + ISAs + MPF                                                 | 232 months (19.3 yrs) |
+| **Runway, lean budget**                                           |                       |
+| Cash only                                                         | 166 months (13.8 yrs) |
+| Cash + MPF                                                        |   428 months (36 yrs) |
+| Cash + ISAs                                                       |   854 months (71 yrs) |
+| Cash + ISAs + MPF                                                 | 1,117 months (93 yrs) |
 
 **What is in the Malvern budget.** Both mortgages are inside the HK$62,284 living budget and are its largest item.
 
