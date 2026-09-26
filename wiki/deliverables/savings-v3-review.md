@@ -154,6 +154,10 @@ At FX10: annual university reserve150,000HKD; salary tax345,000HKD (standard-rat
 
 Verification: all10 cumulative outputs independently recalculated, both scenario checks OK, zero NI and HK non-resident UK-property treatment verified. Original source column S unchanged. Incremental token effort unmeasured.
 
+## TTI(S) + UNI added, 26 Sep 2026
+
+Julian authorised column U at GBP250,000 annual gross, comprising GBP230,000 base plus GBP20,000 schooling support. Treated as taxable gross salary; existing school expenses and six-year university reserve unchanged. Rationale in row125 and [[uk-relocation-savings-comparison]]. All10 cumulative results independently verified; both validation checks OK. Annual available savings1,172,005.40HKD for years1:6 and1,322,005.40 thereafter. Incremental tokens unmeasured.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |

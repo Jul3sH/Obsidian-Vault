@@ -2,7 +2,7 @@
 type: reference
 tags: [finance, uk-relocation, savings, earnings]
 created: 2026-07-17
-updated: 2026-09-25
+updated: 2026-09-26
 source: UK Relocation savings comparison v3 Google Sheet
 ---
 
@@ -41,6 +41,15 @@ Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net 
 | Contract: GBP 135k | 228,346 | 466,427 | 360,155 |
 | High: GBP 150k | 307,846 | 545,927 | 484,655 |
 | Extra High: GBP 200k | 572,846 | 810,927 | 899,655 |
+
+### TTI university scenarios (26 Sep 2026)
+
+| Scenario | Gross salary GBP/year | Available savings GBP/year, years1:6 | From year7 |
+|---|---:|---:|---:|
+| TTI + UNI (T) | 230,000 | 100,200.54 | 115,200.54 |
+| TTI(S) + UNI (U) | 250,000 | 117,200.54 | 132,200.54 |
+
+TTI(S) means an additional GBP20,000 annual schooling allowance on the GBP230,000 base, modelled as taxable gross employment income. Existing HK school fees remain in expenses. Both columns reserve GBP15,000 annually for future university over six years, totalling GBP90,000. Target/period are editable in B120:B121. This is earmarked saving, not current university expenditure. Contributions stop in year7; salary and schooling support continue. Retirement at61 is not modelled. At FX10, schooling support adds GBP17,000/year after modelled salary tax. Spreadsheet note row125 records the rationale.
 
 ### Cumulative after four years (end of the FIG window)
 
@@ -115,7 +124,7 @@ The sheet's two runway tables answer one question: **with no salary, how long do
 | Cash + ISAs            |   6.7 years |  14.8 years |       5.0 years |
 | Cash + ISAs + MPF      |   8.8 years |  19.3 years | n/a while in HK |
 
-**Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Expected values once the sheet's formulas are completed:
+**Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Verified live values as of 26 Sep 2026:
 
 | No salary, lean budget | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
@@ -148,7 +157,7 @@ Living costs are spending before rent; burn is what is left after rent and prope
 - **Property rates are 2027/28** (22/42/47% on property income, 22% interest credit); salary tax is 2026/27, unchanged for salary.
 - **Rents are targets, not signed:** Pine View HK$27,000, Cecil Road £2,500 a month. Voids and repairs are not modelled.
 - **No salary growth, no investment returns, no starting pot, no pension contributions.** Pension contributions at £135k+ would restore some personal allowance.
-- **Living-cost inputs were corrected by hand on 25 Sep** (housing of the lived-in home restored, DB figures updated, duplicate Wills and HK Oyster removed). The cashflows Google Sheet has not yet been cleaned up to match; see [[uk-relocation-cashflows]].
+- **Living-cost inputs were corrected by hand on 25 Sep** (housing of the lived-in home restored, DB figures updated, duplicate Wills and HK Oyster removed). Cashflow expense corrections are complete; legacy rental-income rows remain separate. See [[savings-v3-review]].
 
 ---
 
@@ -156,6 +165,7 @@ Living costs are spending before rent; burn is what is left after rent and prope
 
 | Date | What changed |
 |---|---|
+| 2026-09-26 | Added TTI + UNI and TTI(S) + UNI; extra GBP20,000 schooling support treated as gross salary, existing fees and university reserve retained. |
 | 2026-09-25 | **Runway tables added** (full and lean, no salary), fed by the Zero columns and the 25 Sep cash and card balances; §3b explains them. HK living costs refreshed to 86,498.30/mo (HK figures moved by HK$10). |
 | 2026-09-25 | **v3 sheet replaces the July model.** New file ([UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)), 18 columns (135k band added to each location), property income and letting expenses in their own rows, HK Property Tax and UK property tax rows (with and without FIG, and the "use" choice), FIG expiry after four years in the cumulative rows, HK basic allowance HK$145,000 (2026/27 onward), living costs from the cashflows expense totals with the lived-in home's housing restored. Codex adversarial review: [[uk-relocation-savings-v3-codex-review-2026-09-25]]; deliverable record [[savings-v3-review]]. Tax working: [[tax-rental-incomes]]. This note rebuilt around the new results; the July findings are superseded. |
 | 2026-08-04 | Added zero-income stress columns, formula-driven cumulative rows, the Malvern false-economy caveat, and moved findings out of the sheet into this note. |

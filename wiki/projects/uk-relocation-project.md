@@ -35,6 +35,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-26)
 
+**26 Sept - TTI(S) + UNI added:** Column U models GBP250,000 gross including GBP20,000 schooling support; same university reserve. Rationale: [[uk-relocation-savings-comparison]].
+
 **26 Sept - TTI + UNI scenario added:** Savings column T models GBP230,000 annual HK salary and GBP90,000 university reserve across six years. Reserve stops in year7; salary continues. Verified calculations and editable inputs recorded in [[savings-v3-review]].
 
 **25 Sept - lean runway table added and verified:** A second table in savings rows103:117 uses non-discretionary expenses from cashflow row175, with the same rental/tax treatment and balances. Lean input snapshots remain editable and need refreshing after source budget changes. Earlier non-lean tables remain intact.  Notes in rows95:101 explain the live source figures and formulas. Savings sheet rows68:93 now calculate no-salary runway from editable cash/card/ISA/MPF balances. Sol built, Luna independently verified, parent cross-checked; existing rows1:66 unchanged. Agreed earlier spreadsheet repairs remain complete. Record and live table: [[savings-v3-review]]. Legacy cashflow rental-income rows still require separate reconciliation before row183 is used as a complete rental cashflow.
@@ -129,7 +131,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 25 Sep 2026):**
 
-- **26 Sep: review TTI + UNI column T and university inputs B120:B121; salary continues after year6.**
+- **26 Sep: review TTI + UNI and TTI(S) + UNI columns T/U and university inputs B120:B121; salary continues after year6.**
 - **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
 
 0. ~~Run the Phase 3/4 status sweep~~ **✅ DONE 28 Aug** - full register swept with Julian, all rows live. The six urgent from-UK groundwork items it produced (ToR1, surveys, tax adviser, MPF forms, landlord-utilities homework, IRD rebate) are in the Status header above and in their register rows; they are THIS WEEK's work.
@@ -277,6 +279,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-26 | **TTI(S) + UNI added** in [column U](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=U1:U32). GBP250k includes GBP20k schooling support. Rationale: [[uk-relocation-savings-comparison]]. Verified all10 projections and both checks. [[savings-v3-review]]. |
 | 2026-09-26 | **TTI + UNI added** to [savings column T](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=T1:T32). GBP230k annual gross, GBP15k yearly university reserve for six years. All ten cumulative results verified; retirement not assumed. [[savings-v3-review]]. |
 | 2026-09-25 | **Lean runway added** in [savings rows103:117](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A103:D117). Source row175 expense snapshots; same balances and property treatment. All16 runway outputs verified. Detail: [[savings-v3-review]]. |
 | 2026-09-25 | **Runway calculation explanation added** beneath the [savings table](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A95:L101). Live formula-linked notes show annual shortfalls, monthly burn and pot/runway calculations. Record: [[savings-v3-review]]. |
