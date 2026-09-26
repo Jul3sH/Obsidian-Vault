@@ -532,6 +532,18 @@ Draft v3 (26 Sep, Julian's v2 with the checks applied; current candidate):
 >
 > Safe flight.
 
+Draft v4 (26 Sep, Julian's final wording; urgency line dropped because Stephan already knows it from 24-25 Sep. Claude: send-ready, all facts verified; optional swap of "some" for "proper" in ask 2):
+
+> Hi Stephan, thanks for the call yesterday. Three things it would help to raise with your Dad on the flight:
+>
+> 1) I raised schooling with your Dad at lunch. YMCA are now full and international school fees are a big stretch for me. Are these likely to be covered?
+>
+> 2) Are we now talking about a perm role which would give me some job security, life insurance and medical?
+>
+> 3) When are you talking to Ty and what would be the next concrete step after that?
+>
+> Safe flight.
+
 **After sending:** log the sent text as ✅ SENT with the date; pin the Ty meeting date; get the outcome of both conversations with a named next step and owner.
 
 ---
