@@ -158,6 +158,35 @@ Verification: all10 cumulative outputs independently recalculated, both scenario
 
 Julian authorised column U at GBP250,000 annual gross, comprising GBP230,000 base plus GBP20,000 schooling support. Treated as taxable gross salary; existing school expenses and six-year university reserve unchanged. Rationale in row125 and [[uk-relocation-savings-comparison]]. All10 cumulative results independently verified; both validation checks OK. Annual available savings1,172,005.40HKD for years1:6 and1,322,005.40 thereafter. Incremental tokens unmeasured.
 
+## Cash + MPF runway added, 26 Sep 2026
+
+User brief authorised the fourth pot combination and native row insertion with reference checks. Net cash+MPF is HKD2,032,972. Full runway: London40.3222 months/3.3602 years, Malvern88.8302/7.4025. Lean: London72.2536/6.0211, Malvern428.4857/35.7071. HK is n/a while in HK. Matches requested rounded expectations (lean Malvern428.5 months at one decimal).
+
+Parent independently reread live new formulas/results and compared all60 row12/31/32 results against pre-edit snapshot: unchanged. Builder checked original lower-block results/styles. Native inserts automatically adjusted24 T/U formula references to university parameters now B125:B127; original logic/results unchanged, so formulas above the block are reference-adjusted rather than text-identical. Explanation now lists four pot combinations and describes spending pension before ISAs. No housing changes in this operation.
+
+### Added cells (final coordinates)
+
+| Cell | Value/formula |
+|---|---|
+| A79 | `Net cash + MPF` |
+| B79 | `=B78+B75` |
+| A89 | `Cash + MPF (months)` |
+| B89 | `=IF(B87<=0,"No depletion",$B$79/B87)` |
+| C89 | `=IF(C87<=0,"No depletion",$B$79/C87)` |
+| D89 | `n/a while in HK` |
+| A93 | `Cash + MPF (years)` |
+| B93 | `=IF(ISNUMBER(B89),B89/12,B89)` |
+| C93 | `=IF(ISNUMBER(C89),C89/12,C89)` |
+| D93 | `n/a while in HK` |
+| A113 | `Cash + MPF (months)` |
+| B113 | `=IF(B111<=0,"No depletion",$B$79/B111)` |
+| C113 | `=IF(C111<=0,"No depletion",$B$79/C111)` |
+| D113 | `n/a while in HK` |
+| A117 | `Cash + MPF (years)` |
+| B117 | `=IF(ISNUMBER(B113),B113/12,B113)` |
+| C117 | `=IF(ISNUMBER(C113),C113/12,C113)` |
+| D117 | `n/a while in HK` |
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |

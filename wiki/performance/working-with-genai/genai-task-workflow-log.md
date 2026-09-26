@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-26 · Build + Verification · Worked · [[savings-v3-review]] Cash + MPF
+
+- **Work:** Added fourth pot and full/lean runway cases.
+- **Check:** Parent independently verified eight new numeric results and60 original model/validation values against snapshots.
+- **Outcome:** Passed; native row insertions shifted university references without changing results. Incremental tokens unmeasured.
+- **Lesson:** Verification: row insertion shifts formula references but not prose references; check both.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-25 · Build + Verification · Worked · [[savings-v3-review]] lean table
 
 - **Work:** Appended lean no-salary runway and source/explanation notes.

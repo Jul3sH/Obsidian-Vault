@@ -12,7 +12,7 @@ source: UK Relocation savings comparison v3 Google Sheet
 > **Why it exists.** The sheet holds numbers; this note holds what they mean. Rebuilt 25 Sep 2026 after the v3 sheet replaced the July model (which had no property tax and netted rents into living costs).
 > **How it is used.** Julian reads §1 to compare locations; §3 explains why Malvern still beats Hong Kong. Model inputs and assumptions live in [[uk-relocation-cashflows]]; the property tax working is in [[tax-rental-incomes]]. Internal only.
 
-**Map:** §1 bottom line · §2 the numbers · §3 why Malvern beats Hong Kong · §3b runway with no salary · §4 caveats · §5 change log · §6 how to update.
+**Map:** §1 bottom line · §2 the numbers · §3 why Malvern beats Hong Kong · §3b runway with no salary · §3c surviving at Mum's house · §4 caveats · §5 change log · §6 how to update.
 
 ---
 
@@ -49,7 +49,7 @@ Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net 
 | TTI + UNI (T) | 230,000 | 100,200.54 | 115,200.54 |
 | TTI(S) + UNI (U) | 250,000 | 117,200.54 | 132,200.54 |
 
-TTI(S) means an additional GBP20,000 annual schooling allowance on the GBP230,000 base, modelled as taxable gross employment income. Existing HK school fees remain in expenses. Both columns reserve GBP15,000 annually for future university over six years, totalling GBP90,000. Target/period are editable in B120:B121. This is earmarked saving, not current university expenditure. Contributions stop in year7; salary and schooling support continue. Retirement at61 is not modelled. At FX10, schooling support adds GBP17,000/year after modelled salary tax. Spreadsheet note row125 records the rationale.
+TTI(S) means an additional GBP20,000 annual schooling allowance on the GBP230,000 base, modelled as taxable gross employment income. Existing HK school fees remain in expenses. Both columns reserve GBP15,000 annually for future university over six years, totalling GBP90,000. Target/period are editable in B125:B126. This is earmarked saving, not current university expenditure. Contributions stop in year7; salary and schooling support continue. Retirement at61 is not modelled. At FX10, schooling support adds GBP17,000/year after modelled salary tax. Spreadsheet note row125 records the rationale.
 
 ### Cumulative after four years (end of the FIG window)
 
@@ -117,27 +117,34 @@ The sheet's two runway tables answer one question: **with no salary, how long do
 
 **Table 1: full burn.** Living costs as budgeted in the cashflows sheet, discretionary included.
 
-| No salary, full budget |      London |     Malvern |       Hong Kong |
-| ---------------------- | ----------: | ----------: | --------------: |
-| Monthly burn           |      50,418 |      22,886 |          66,916 |
-| Cash only              | 15.6 months | 34.4 months |     11.8 months |
-| Cash + ISAs            |   6.7 years |  14.8 years |       5.0 years |
-| Cash + ISAs + MPF      |   8.8 years |  19.3 years | n/a while in HK |
+| No salary, full budget                        |      London |     Malvern |       Hong Kong |
+| --------------------------------------------- | ----------: | ----------: | --------------: |
+| Living costs per month, full budget           |      70,234 |      62,284 |          86,498 |
+| Letting costs and property tax, less rents in |     −19,816 |     −39,398 |         −19,582 |
+| Monthly burn (after rent and property tax)    |      50,418 |      22,886 |          66,916 |
+| Cash only                                     | 15.6 months | 34.4 months |     11.8 months |
+| Cash + MPF | 3.4 years | 7.4 years | n/a while in HK |
+| Cash + ISAs                                   |   6.7 years |  14.8 years |       5.0 years |
+| Cash + ISAs + MPF                             |   8.8 years |  19.3 years | n/a while in HK |
 
 **Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Verified live values as of 26 Sep 2026:
 
 | No salary, lean budget | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Living costs per month, full budget (for comparison) | 70,234 | 62,284 | 86,498 |
 | Living costs per month, lean budget | 47,953 | 44,143 | 69,005 |
-| Monthly burn, full (from Table 1, after rent and property tax) | 50,418 | 22,886 | 66,916 |
-| Monthly burn, lean (after rent and property tax) | 28,137 | 4,745 | 49,423 |
+| Letting costs and property tax, less rents in | −19,816 | −39,398 | −19,582 |
+| Monthly burn (after rent and property tax) | 28,137 | 4,745 | 49,423 |
 | Cash only | 28 months | 166 months | 16 months |
+| Cash + MPF | 6.0 years | 36 years | n/a while in HK |
+| Cash + MPF | 6.0 years | 35.7 years | n/a while in HK |
 | Cash + ISAs | 12.0 years | 71 years | 6.8 years |
+| Cash + ISAs + MPF | 15.7 years | 93 years | n/a while in HK |
 
-Living costs are spending before rent; burn is what is left after rent and property tax. Lean burn is lower everywhere, by the discretionary spend removed (about HK$22k London, HK$18k Malvern, HK$17k Hong Kong a month).
+Both tables use the same rents, letting costs and property tax; only the living budget differs. Lean burn is lower everywhere by the discretionary spend removed (about HK$22k London, HK$18k Malvern, HK$17k Hong Kong a month).
 
 **Why Malvern's burn is so low.** Two rents come in (HK$44k a month net of letting costs) against one elsewhere, and non-mortgage living is HK$34k against London's HK$42k and Hong Kong's HK$59k, because Mum absorbs bills and there are no school fees, helper, cleaner or babysitter. The mortgages (HK$28k a month) are the same everywhere and do not separate the scenarios. In the lean case the two rents almost cover everything, so the cash barely moves.
+
+Cash + MPF is the spend-the-pension-before-ISAs case, using HK$2,032,972. Added and verified 26 Sep 2026; all annual savings and validation results unchanged.
 
 **How to read them.**
 - The full-burn table is the planning figure. The lean table is the floor: what happens if spending is cut to essentials during a long search.
@@ -146,6 +153,63 @@ Living costs are spending before rent; burn is what is left after rent and prope
 - Runway is held constant: no rent rises, no inflation, no investment returns, no salary part-way through.
 
 **Where the Malvern figures are generous.** The cashflows sheet carries HK$1,000 a month for Mum's bills and HK$1,000 for a car; the financial model's honest Malvern figure used about HK$5,000 board and HK$2,250 car. On those, the full burn is about HK$28,000 a month and cash-only runway about 28 months. Malvern is also the only scenario resting on two rents, so one void month costs HK$25k to 27k. The prudent Malvern planning figure is therefore about HK$28,000 a month with a void allowance, not HK$22,886. Against that, HK$4,000 of the Malvern budget is commuting that does not apply with no job.
+
+---
+
+## 3c. Surviving at Mum's house
+
+The Malvern no-salary case, old cashflow-sheet burn block against the new savings-sheet runway (26 Sep 2026). The old block used gross rents with no letting costs and no property tax, which is why it flattered Malvern most: Malvern is the only scenario with two properties let, so it carries both sets of costs.
+
+| Malvern, no salary | Old cashflow block (July) | New savings sheet (25 Sep) |
+|---|---:|---:|
+| **Monthly figures, HK$** | | |
+| Living costs (incl. mortgages HK$27,958) | 62,284 | 62,284 |
+| Rents in, gross (Pine View 27,000 + Cecil Road 25,000) | −52,000 | −52,000 |
+| Letting costs, both properties | not included | 7,538 |
+| Property tax (HK Property Tax 3,097 + UK tax on Cecil Road 1,968) | not included | 5,064 |
+| **Monthly burn, full budget** | **10,284** | **22,886** |
+| Lean living costs (non-optional only) | 44,143 | 44,143 |
+| **Monthly burn, lean budget** | cash-positive (−7,857) | **4,745** |
+| **Pots, HK$** | | |
+| Net cash | 605,428 | 788,273 |
+| Cash + MPF | 1,850,127 | 2,032,972 |
+| Cash + ISAs | 3,871,418 | 4,054,263 |
+| Cash + ISAs + MPF | 5,116,117 | 5,298,962 |
+| **Runway, full budget** | | |
+| Cash only | 58.9 months | 34.4 months |
+| Cash + MPF | 180 months (15 yrs) | 89 months (7.4 yrs) |
+| Cash + ISAs | 376 months (31 yrs) | 177 months (14.8 yrs) |
+| Cash + ISAs + MPF | 497 months (41 yrs) | 232 months (19.3 yrs) |
+| **Runway, lean budget** | | |
+| Cash only | never depletes | 166 months (13.8 yrs) |
+| Cash + MPF | never depletes | 428 months (36 yrs) |
+| Cash + ISAs | never depletes | 854 months (71 yrs) |
+| Cash + ISAs + MPF | never depletes | 1,117 months (93 yrs) |
+
+**What is in the Malvern budget.** Both mortgages are inside the HK$62,284 living budget and are its largest item.
+
+| Malvern, full budget, per month | HK$ |
+|---|---:|
+| Pine View mortgage: principal 13,689 + interest 12,138 | 25,827 |
+| Cecil Road mortgage interest | 2,131 |
+| Dining | 9,589 |
+| Groceries | 6,000 |
+| Transport (incl. rail 2,000, car contribution 1,000) | 4,400 |
+| Travel | 3,300 |
+| Bills (incl. Mum's bills 1,000, Claude and Codex 400) | 3,238 |
+| Hotel, two nights a week | 2,000 |
+| Shopping, beauty, health, leisure, Amex | 4,800 |
+| **Living budget** | **62,284** |
+| Letting costs, both properties | +7,538 |
+| Property tax | +5,064 |
+| Rents in | −52,000 |
+| **Burn** | **22,886** |
+
+HK$28k of mortgage goes out each month and HK$52k of rent comes in. The rent covers the mortgages, the letting costs and the tax with HK$11k to spare; that spare plus cash pays for the HK$34k of actual living. The properties pay for themselves and part of the household, and Mum's house costs almost nothing. The burn also looks lower than it feels because HK$13.7k of the HK$22.9k is Pine View principal: in net-worth terms the loss is about HK$9k a month.
+
+**Read.** Living at Mum's with both properties let, the rents nearly cover the mortgages and bare living, so cash barely moves. On the full budget the cash alone lasts nearly three years and cash plus ISAs almost fifteen. The old block's figures were roughly double and should not be quoted.
+
+**Planning figure.** The sheet carries HK$1,000 a month for Mum's bills and HK$1,000 for a car; the financial model's honest Malvern uplift is about HK$5,000 board and HK$2,250 car. It also assumes both properties let continuously; one void month costs HK$25k to 27k. On the honest uplift the full burn is about HK$28,000 a month and cash-only runway about 28 months. Against that, HK$4,000 of the budget is hotel and rail for hybrid commuting, which does not apply with no job.
 
 ---
 

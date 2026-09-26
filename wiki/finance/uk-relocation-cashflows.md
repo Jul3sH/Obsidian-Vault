@@ -122,12 +122,12 @@ Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use th
 
 Both blocks sit below the "Numeric model inputs" on the Formula validation tab, appended 25 Sep 2026. Interpretation is in [[uk-relocation-savings-comparison]] §3b.
 
-**Inputs (B69:B80).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
+**Inputs (B69:B80).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + MPF 2,032,972, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
 
 **Table 1, full burn.**
 - Annual net savings = the Zero columns' row 31 (London B31, Malvern H31, HK N31).
 - Monthly burn = −annual net savings ÷ 12.
-- Months = available funds ÷ monthly burn, for three pot combinations; years = months ÷ 12.
+- Months = available funds ÷ monthly burn, for four pot combinations (cash; cash + MPF; cash + ISAs; cash + ISAs + MPF); years = months ÷ 12. Cash + MPF added 26 Sep 2026: the "spend the pension before the ISAs" case.
 - If burn is zero or negative the cell shows "No depletion". The MPF combination shows "n/a while in HK" for the HK column because MPF is only accessible on permanent departure.
 
 **Table 2, lean burn.**

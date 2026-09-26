@@ -544,6 +544,22 @@ Draft v4 (26 Sep, Julian's final wording; urgency line dropped because Stephan a
 >
 > Safe flight.
 
+Wobble at the send point (26 Sep): Julian considered not sending and letting Stephan discuss it with Horst in the abstract, on the worry that a list makes him look demanding (Stephan had said "details later" at lunch). Claude's read: waiting is the option with the documented cost (lunch, limo, 16 Sep, silence, "in terms of projects": each step vaguer and later); two of the three items were already raised with Horst present; Horst's own style rewards decisiveness; the message goes to Stephan, who chooses what to table. Resolved by adding one softening line that hands Stephan the discretion.
+
+Final v5 (26 Sep, send-ready):
+
+> Hi Stephan, thanks for the call yesterday. Three things it would help to raise with your Dad on the flight:
+>
+> 1) I raised schooling with your Dad at lunch. YMCA are now full and international school fees are a big stretch for me. Are these likely to be covered?
+>
+> 2) Are we now talking about a perm role which would give me some job security, life insurance and medical?
+>
+> 3) When are you talking to Ty and what would be the next concrete step after that?
+>
+> Not asking you to table all of this, just so you know where my head is.
+>
+> Safe flight.
+
 **After sending:** log the sent text as ✅ SENT with the date; pin the Ty meeting date; get the outcome of both conversations with a named next step and owner.
 
 ---
