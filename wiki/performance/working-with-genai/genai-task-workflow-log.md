@@ -239,3 +239,23 @@ steering) so the log is queryable by step as well as by type. Newest first.
 - **Lesson:** Step at fault: routing (should have been by hand). I hold the pen
   on my voice. And don't polish a pending message
   while events are still moving - draft close to the send moment.
+
+## 2026-09-26 · Analysis + sheet build · Worked, at a cost · [[savings-v3-review]]
+
+- **Work:** Rebuilt the relocation savings model: property tax and FIG into the
+  sheet, runway blocks, wiki companions rewritten. Claude did the analysis and
+  the wiki; Codex did the Google Sheet edits; Codex reviewed the sheet.
+- **Check:** Codex independent recalculation of all 18 then 20 columns against
+  Claude's figures; Claude re-reading the sheet after each Codex pass; Julian
+  reading every table.
+- **Outcome:** Worked. Numbers correct and reconciled across sheet, two wiki
+  notes and the financial model. Cost: ~8 attended hours over two days, three
+  Codex allowance exhaustions, and Julian relaying edits between two windows.
+- **Lesson:** Step at fault: routing. Claude's Drive connector cannot write
+  cells, so sheet work went to Codex with Julian as the relay. Either share the
+  sheets with Claude's service account so it edits in place, or run sheet-heavy
+  work in Codex with Claude as reviewer; do not split one task across both with
+  a human in the middle. Second, verification: Claude declared the sheet done
+  without re-reading the scope amendment, which named the double-count it had
+  just introduced. Re-read the record before saying done.
+

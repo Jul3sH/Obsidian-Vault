@@ -204,57 +204,26 @@ The Malvern no-salary case from the savings sheet (26 Sep 2026). Living costs co
 | Cash + ISAs                                                       |   854 months (71 yrs) |
 | Cash + ISAs + MPF                                                 | 1,117 months (93 yrs) |
 
-**What is in the Malvern budget.** Both mortgages are inside the HK$62,284 living budget and are its largest item.
+**What is in the Malvern budget.** Two versions of the same budget: full is everything in the cashflows sheet's Malvern column; lean keeps only the rows the sheet classes as non-optional. Both mortgages are inside both versions and are the largest item.
 
-| Malvern, full budget, per month | HK$ |
-|---|---:|
-| Pine View mortgage: principal 13,689 + interest 12,138 | 25,827 |
-| Cecil Road mortgage interest | 2,131 |
-| Dining | 9,589 |
-| Groceries | 6,000 |
-| Transport (incl. hotel 2,000, rail 2,000, car contribution 1,000) | 6,400 |
-| Travel | 3,300 |
-| Bills (incl. Mum's bills 1,000, Claude and Codex 400) | 3,238 |
-| Shopping, beauty, health, leisure, Amex | 5,800 |
-| **Living budget** | **62,284** |
-| Letting costs, both properties | +7,538 |
-| Property tax | +5,064 |
-| Rents in | −52,000 |
-| **Burn** | **22,886** |
+| Malvern, budget, per month | Lean HK$ | Full HK$ |
+|---|---:|---:|
+| Pine View mortgage: principal 13,689 + interest 12,138 | 25,827 | 25,827 |
+| Cecil Road mortgage interest | 2,131 | 2,131 |
+| Dining (lean: meeting friends, with Sophia and Mum, Sophia's friends; full adds dining out and wine) | 5,000 | 9,589 |
+| Groceries | 6,000 | 6,000 |
+| Transport (lean: Sophia and essentials; full adds rail 2,000, taxis 1,000, car contribution 1,000) | 400 | 4,400 |
+| Travel (lean: school trips; full adds UK holidays and HK trips) | 200 | 3,300 |
+| Bills (lean: Mum's bills 1,000, Claude and Codex 400, mobiles, Evernote, Dropbox; full adds subscriptions and courses) | 1,877 | 3,238 |
+| Hotel, two nights a week | 0 | 2,000 |
+| Shopping, beauty, health, leisure, Amex (lean: gifts, Sophia's clothing, haircuts, gym, pocket money, clubs) | 2,708 | 5,800 |
+| **Living budget** | **44,143** | **62,284** |
+| Letting costs, both properties | +7,538 | +7,538 |
+| Property tax | +5,064 | +5,064 |
+| Rents in | −52,000 | −52,000 |
+| **Burn** | **4,745** | **22,886** |
 
-HK$28k of mortgage goes out each month and HK$52k of rent comes in. The rent covers the mortgages, the letting costs and the tax with HK$11k to spare; that spare plus cash pays for the HK$34k of actual living. The properties pay for themselves and part of the household, and Mum's house costs almost nothing. The burn also looks lower than it feels because HK$13.7k of the HK$22.9k is Pine View principal: in net-worth terms the loss is about HK$9k a month.
-
-**What is in the lean budget.** Lean keeps only the rows the cashflows sheet classes as non-optional. Malvern, monthly HK$:
-
-| Kept in the lean budget | HK$ per month |
-|---|---:|
-| Pine View mortgage: principal 13,689 + interest 12,138 | 25,827 |
-| Cecil Road mortgage interest | 2,131 |
-| Groceries | 6,000 |
-| Dining, non-optional (meeting friends 2,000, with Sophia and Mum 2,000, Sophia with friends 1,000) | 5,000 |
-| Bills, non-optional (Mum's bills 1,000, Claude and Codex 400, two mobiles 400, Evernote and Dropbox 77) | 1,877 |
-| Shopping, non-optional (gifts 500, Sophia's clothing 400, haircuts 200) | 1,100 |
-| Leisure, non-optional (Sophia pocket money 400, clubs 400, YouTube 108) | 908 |
-| Health, non-optional (gym 500, toiletries 100) | 600 |
-| Transport, non-optional (Sophia 200, Julian essentials 200) | 400 |
-| Travel, non-optional (school trips) | 200 |
-| Beauty, non-optional (haircuts) | 100 |
-| **Lean living budget** | **44,143** |
-
-| Dropped from the lean budget | HK$ per month |
-|---|---:|
-| Dining out and wine | 4,589 |
-| Transport, discretionary (rail to London 2,000, taxis 1,000, car contribution 1,000) | 4,000 |
-| UK holidays and HK trips | 3,100 |
-| Subscriptions and courses (Early Adopters 600, Agentic Academy 290, Substack 200, Google AI 100, Whisperflow 100, Wills 71) | 1,361 |
-| Beauty, discretionary (fillers, Botox, creams) | 825 |
-| Amex fee | 667 |
-| Leisure, discretionary (Disney+, ad-hoc) | 600 |
-| Sophia UK sports clubs | 500 |
-| Clothing | 500 |
-| **Total dropped** | **18,142** |
-
-Lean burn = 44,143 + letting costs 7,538 + property tax 5,064 − rents 52,000 = **HK$4,745 a month**. Note that lean drops the car contribution and rail as discretionary, so the board-and-car caveat below applies with more force to the lean case: a rural car is hard to call optional.
+On either budget HK$28k of mortgage goes out each month and HK$52k of rent comes in. The rent covers the mortgages, the letting costs and the tax with HK$11k to spare. On the full budget that spare plus cash pays for HK$34k of actual living, leaving a burn of HK$22,886; on the lean budget actual living is HK$16k, so the rents cover almost all of it and the burn is HK$4,745. The properties pay for themselves and part of the household, and Mum's house costs almost nothing. Both burns look lower than they feel because HK$13.7k a month is Pine View principal: in net-worth terms the full-budget loss is about HK$9k a month and the lean budget is net-worth positive. Lean also drops the car contribution and the rail ticket as discretionary, which is where the board-and-car caveat below bites hardest: a rural car is hard to call optional.
 
 **Read.** Living at Mum's with both properties let, the rents nearly cover the mortgages and bare living, so cash barely moves. On the full budget the cash alone lasts nearly three years and cash plus ISAs almost fifteen.
 
@@ -267,8 +236,9 @@ Lean burn = 44,143 + letting costs 7,538 + property tax 5,064 − rents 52,000 =
 | Car: sheet has HK$1,000 contribution; the model's honest running cost is about £225 (HK$2,250) | +1,250 | 28,136 |
 | Void allowance: one empty month per property per two-year tenancy, about HK$52,000 over 24 months | +2,170 | 30,300 |
 | Commuting: hotel HK$2,000 and rail HK$2,000 exist only with a job | −4,000 | 26,300 |
+| University reserve: £5,000 a year (HK$50,000) in years 1 to 6, not yet in the sheet (see the note at the end of §2) | +4,167 | 30,467 |
 
-Board and car are small lines, but Malvern's advantage is built from small lines, so the HK$5,250 uplift moves cash-only runway from 34 to 28 months. Malvern is the only scenario resting on two rents: a void month at Pine View costs HK$27,000 while management fees and rates continue, and HK$25,000 at Cecil Road. The honest no-salary burn is about HK$26,000 to 28,000 a month, giving 28 to 30 months on cash alone rather than 34. Still the longest of the three, but by less than the raw figure suggests.
+Board and car are small lines, but Malvern's advantage is built from small lines, so the HK$5,250 uplift moves cash-only runway from 34 to 28 months. Malvern is the only scenario resting on two rents: a void month at Pine View costs HK$27,000 while management fees and rates continue, and HK$25,000 at Cecil Road. The university reserve applies to every location, so it does not change the ranking, but it belongs in any Malvern runway figure for the first six years. The honest no-salary burn is about HK$28,000 to 30,500 a month, giving 26 to 28 months on cash alone rather than 34. Still the longest of the three, but by less than the raw figure suggests.
 
 ---
 
