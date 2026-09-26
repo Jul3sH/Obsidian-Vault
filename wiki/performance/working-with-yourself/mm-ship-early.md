@@ -48,6 +48,9 @@ anyone will notice, or to overhaul something that already works.
   before refining further.
 - If you're spending more time organising or polishing than delivering, that's
   the tell.
+- On a high-stakes message, the day it arrives matters more than the wording.
+  The hesitation to send is usually fear of a mistake dressed as care; send it
+  today, because the window may close overnight (added 26 Sep 2026).
 - Never change systems, tools, or processes right when you're new to an
   environment; wait until you're settled.
 
@@ -76,3 +79,5 @@ the article wins pending correction.
 | Pre-wiki | Persevered with a complex, time-consuming Evernote system for months | Kept trying to make it work before admitting it wasn't, and only then changed it; the fix was to ask regularly "is this working as intended?" | [[Lesson learnt - be honest with myself whether things are working or not, and change them if not]] |
 | Pre-wiki | Built and refined a new Jira prioritisation SOP entirely on paper | Testing it immediately revealed it was far too complicated; the fix was to test earlier and more often, not perfect it in the abstract first | [[raw/_processed/lessonslearnt3rd100/Lesson learnt\|Lesson Learnt (Jira SOP over-engineered)]] |
 | Pre-wiki | Drawn to study the parts of a technology he already understood | As a technical leader, recognised the need to grasp what a technology achieves rather than deep-diving into mechanics for their own sake | [[lesson learnt - perfectionism - don't unnecessarily deep dive]] |
+| 2026-09-24 | Deliberated over whether to send the YMCA return enquiry that day or sit on it to restructure it | Sent it the same day after a prompt to get on with it; the reply was needed for the Stephan call the next morning and a day's delay would have left me without it. The hesitation was "should I think about the structure more", which is perfectionism, which is fear of making a mistake | Julian, 26 Sep 2026 (this card) |
+| 2026-09-24 | Sent a high-stakes message to Stephan straight away rather than polishing it, as I usually want to with messages like this | He was about to board a flight with his dad; a day later would have missed him. Being timely proved more important than sending a perfect message, and that is the point | Julian, 26 Sep 2026 (this card) |
