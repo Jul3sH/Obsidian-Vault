@@ -35,6 +35,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-26)
 
+**26 Sept - Housing running costs separated:** Cashflow now provides full/lean expenses excluding Housing (rows169/170); savings property rows carry occupied-home running costs. Mortgage payments remain in cashflow; hotels moved to discretionary Transport. Parent compared440 outputs with no changes. Companions: [[uk-relocation-cashflows]], [[uk-relocation-savings-comparison]]; verification: [[savings-v3-review]].
+
 **26 Sept - Cash + MPF runway added:** Both full and lean tables now show the pension-before-ISAs case. All20 annual savings and both validation rows unchanged. Exact cells/results: [[savings-v3-review]].
 
 **26 Sept - DB FLAT: ASKING-PRICE OFFER (HK$27k/month), TENANTS WANT TO MOVE ASAP; TTI PROCESS NOW DATED.** The offer (reported to Stephan 25 Sept, [[tti-comms-log]]) collides with the HK-return question: accepting it lets the flat for a term Julian would need to unwind if he returns, and Julian told Stephan he would live in the flat, not rent, if relocating with Sophia. Stephan is taking the job to Horst on their flight 26 Sept and to Ty next week ([[tti-role]] status). The flat decision therefore needs a dated answer from TTI or a lease shape that survives either outcome. Feeds [[HK-Return-BRAIND]].
@@ -135,8 +137,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 25 Sep 2026):**
 
-- **26 Sep: review the new Cash + MPF runway rows; university inputs have moved to B125:B127.**
-- **26 Sep: review TTI + UNI and TTI(S) + UNI columns T/U and university inputs B120:B121; salary continues after year6.**
+- **26 Sep: review the completed housing split; future budget refreshes use cashflow rows169/170, excluding Housing.** University inputs remain B125:B127.
+- **26 Sep: review TTI + UNI and TTI(S) + UNI columns T/U and university inputs B125:B126; salary continues after year6.**
 - **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
 
 0. ~~Run the Phase 3/4 status sweep~~ **✅ DONE 28 Aug** - full register swept with Julian, all rows live. The six urgent from-UK groundwork items it produced (ToR1, surveys, tax adviser, MPF forms, landlord-utilities homework, IRD rebate) are in the Status header above and in their register rows; they are THIS WEEK's work.
@@ -284,6 +286,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-26 | **Housing split completed.** [Cashflow rows169/170](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137&range=A168:G170) feed excluding-housing budgets; [savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357) deducts occupied-home costs in property rows.440 outputs unchanged. Companions [[uk-relocation-cashflows]] and [[uk-relocation-savings-comparison]] updated; record [[savings-v3-review]]. |
 | 2026-09-26 | **Cash + MPF case added** to both [savings runway tables](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A79:D119). Independent result checks passed; model results unchanged. Manifest: [[savings-v3-review]]. |
 | 2026-09-26 | **DB flat offer logged: asking price, HK$27k/month, tenants want to move ASAP.** Told to Stephan 25 Sept as the trigger for the likely-and-viable question; Stephan now discussing with Horst 26 Sept and Ty next week ([[tti-comms-log]], [[tti-role]]). Decision impact: the letting decision now needs either a dated TTI answer or a lease shape that survives a return; Julian told Stephan he would live in the flat if returning with Sophia. Input for [[HK-Return-BRAIND]]. |
 | 2026-09-26 | **TTI(S) + UNI added** in [column U](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=U1:U32). GBP250k includes GBP20k schooling support. Rationale: [[uk-relocation-savings-comparison]]. Verified all10 projections and both checks. [[savings-v3-review]]. |

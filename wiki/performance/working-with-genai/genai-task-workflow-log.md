@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-26 · Build + Verification · Worked · [[savings-v3-review]] housing split
+
+- **Work:** Coordinated housing cost transfer, hotels to Transport, lean classification preserved, both companions updated. Sol stalled and was interrupted; exact edits handed to Luna at Julian's request for cheaper execution.
+- **Check:** Parent live comparison of440 outputs against fresh snapshots; Luna independent verification. Native cut/paste expanded a housing sum incorrectly; corrected before final check.
+- **Outcome:** Savings, taxes and runway unchanged; living inputs exclude Housing. Parent token checkpoint in deliverable; delegate usage unmeasured.
+- **Lesson:** Routing/verification: use a bounded cell-level brief and snapshots; inspect automatic range expansion after moving cells.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-26 · Build + Verification · Worked · [[savings-v3-review]] Cash + MPF
 
 - **Work:** Added fourth pot and full/lean runway cases.

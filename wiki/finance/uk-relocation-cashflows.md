@@ -2,7 +2,7 @@
 type: model
 tags: [finance, uk-relocation, earnings, savings]
 created: 2026-07-17
-updated: 2026-09-25
+updated: 2026-09-26
 source: UK Relocation savings comparison v3 and UK Relocation Cashflows Google Sheets
 ---
 
@@ -22,10 +22,10 @@ source: UK Relocation savings comparison v3 and UK Relocation Cashflows Google S
 
 | Sheet | Role | Tab to use |
 |---|---|---|
-| [UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) | The model: salary, tax, property rows, savings, cumulative | "Formula validation" (formula-driven; the "Sheet1" tab is a stale fixed-value copy to be deleted) |
-| [UK Relocation Cashflows](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) | Living costs by location, itemised | "Cashflow comparison"; its "Expenses total" row feeds the savings sheet's three living-cost inputs |
+| [UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) | The model: salary, tax, property rows, savings, cumulative | "Formula validation" (formula-driven) |
+| [UK Relocation Cashflows](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) | Living costs by location, itemised | "Cashflow comparison"; its "Expenses total excluding housing" row feeds the savings sheet's three living-cost inputs |
 
-**As of 26 Sep 2026, cashflows sheet state.** Housing now holds only the lived-in home per column (HK 3,525 non-optional + 201.83 contents; London 2,210; Malvern 0 plus the 2,000 hotel), DB figures are 2,054 and 1,196, the Professional Wills duplicate and the HK Oyster line are gone, and the "Expenses total" row (HK 86,498.30, London 70,234.47, Malvern 62,284.47) matches the savings sheet's living-cost inputs. **Still to delete:** the "Cash Inflow" block (two rent rows, seven Tax rows, "Property cash inflow total"), "Non-optional cashflow total", "Cashflow total", and the whole "Cash burn rates" block, all of which are superseded by the savings sheet's property rows and runway blocks. The stray "HK Lettings fee" and "UK Letting/management" rows (values only in the estimate column) can go too. The pot blocks (cash, MPF, ISAs) can stay as the balance record.
+**As of 26 Sep 2026, housing split.** The cashflow expense output excludes Housing running costs; the Housing block remains a supporting breakdown. The Malvern hotel belongs in discretionary Transport. Savings rows18/20 carry property running costs whether let or occupied. Mortgage principal and interest remain in the cashflow living budget. Julian removed the superseded cash-inflow/cash-burn blocks; use savings-sheet runway tables. Verification record: [[savings-v3-review]].
 
 ---
 
@@ -33,8 +33,8 @@ source: UK Relocation savings comparison v3 and UK Relocation Cashflows Google S
 
 | Scenario | Julian lives in | Let | Rent in the model | Letting costs in the model | Lived-in home costs |
 |---|---|---|---|---|---|
-| Hong Kong | Pine View | Cecil Road | £30,000/yr | £4,140/yr | DB management, rates, insurance in living costs (HK$3,726/mo) |
-| London | Cecil Road | Pine View | HK$324,000/yr | HK$49,046/yr | Council tax (discounted), buildings and contents insurance in living costs (HK$2,210/mo) |
+| Hong Kong | Pine View | Cecil Road | £30,000/yr | £4,140/yr | DB management, rates and insurance: HK$44,722/yr in savings row20 |
+| London | Cecil Road | Pine View | HK$324,000/yr | HK$49,046/yr | Council tax, buildings and contents insurance: GBP2,652/yr in savings row18 |
 | Malvern | Mum's | Both | £30,000 + HK$324,000 | £4,140 + HK$49,046 | None; hotel HK$2,000/mo for hybrid commuting stays in living costs |
 
 Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View principal (HK$13,689/mo) sit inside living costs in every scenario. The principal builds equity but reduces cash.
@@ -56,42 +56,44 @@ Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View pr
 | Rents | Pine View HK$27,000/mo (target; agent estimated 22,000); Cecil Road £2,500/mo (target; May 2026 statement) |
 | Letting costs, Pine View | DB management 2,054 + rates 1,196 + buildings insurance 275 per month, plus agent fee HK$13,500 per two-year tenancy: HK$49,046/yr |
 | Letting costs, Cecil Road | Brinkleys £270/mo + rent protection £36/mo + buildings insurance £469/yr: £4,140/yr |
-| Living costs | Cashflows sheet "Expenses total" per location, corrected 25 Sep (see §4); held constant, no inflation |
+| Living costs | Cashflows sheet "Expenses total excluding housing" per location (see §4); mortgage payments retained; held constant, no inflation |
 | Salary growth, investment returns, pension, MPF, starting pot | Not modelled |
 
 ---
 
 ## 4. Living costs (HK$ per month)
 
+As of 26 Sep 2026, housing running costs are separated from the living inputs. This changes presentation, not cash burn.
+
 | | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Cashflows sheet "Expenses total", 25 Sep before correction | 68,296 | 62,355 | 83,342 |
-| Add lived-in home housing (was missing, Housing total broken) | +2,210 | 0 | +3,726 |
-| Remove duplicate Professional Wills | −71 | −71 | −71 |
-| Remove HK contents insurance wrongly in London; remove Oyster from HK | −201 | 0 | −500 |
-| **Corrected monthly living costs** | **70,234** | **62,284** | **86,498** |
-| **Annual (x 12)** | **842,814** | **747,414** | **1,037,980** |
+| Full living inputs excluding Housing | 68,024.47 | 62,284.47 | 82,771.47 |
+| Housing running costs in property rows | 2,210.00 | 0 | 3,726.83 |
+| Combined full household costs | 70,234.47 | 62,284.47 | 86,498.30 |
+| Lean living inputs excluding Housing | 45,742.97 | 44,142.97 | 65,479.97 |
+| Housing retained in lean | 2,210.00 | 0 | 3,525.00 |
 
-HK includes DBIS school fees of HK$20,000/mo. Malvern includes hotel HK$2,000/mo and weekly rail HK$2,000/mo for hybrid commuting, and nothing for accommodation (Mum's house).
+HK includes DBIS school fees HK$20,000/month. Malvern includes hotel HK$2,000/month and rail HK$2,000/month in discretionary Transport. Mortgage interest and principal remain included in all living inputs. HK contents insurance is discretionary: the lean formula adds back HK$2,422/year after full housing is deducted in property row20. The helper input is B132.
+
 
 ---
 
 ## 5. Salary, tax and annual net savings (HK$ per year)
 
-Annual net savings = net take-home + (UK property income − UK letting costs) × 10 + HK property income − HK letting costs − HK Property Tax − UK tax on property (use) − living costs.
+Annual net savings = net take-home + (UK property income − UK property running costs) × 10 + HK property income − HK property running costs − HK Property Tax − UK tax on property (use) − living costs.
 
 | | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
 | Gross salary (GBP) | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 |
 | Gross salary (HKD) | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 |
 | UK property income (GBP) | 0 | 0 | 0 | 0 | 0 | 0 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 |
-| UK property expenses (GBP), let costs | 0 | 0 | 0 | 0 | 0 | 0 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 |
+| UK property expenses (GBP), let or lived in | 2,652 | 2,652 | 2,652 | 2,652 | 2,652 | 2,652 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 |
 | HK property income (HKD) | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 0 | 0 | 0 | 0 | 0 | 0 |
-| HK property expenses (HKD), let costs | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HK property expenses (HKD), let or lived in | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 44,722 | 44,722 | 44,722 | 44,722 | 44,722 | 44,722 |
 | Income tax (HKD) | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 84,850 | 144,350 | 186,850 | 212,350 | 297,350 |
 | NI / HK salaries tax (HKD) | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Net take-home (HKD) | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 665,150 | 955,650 | 1,163,150 | 1,287,650 | 1,702,650 |
-| Living expenses (HKD), incl. lived-in home | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 |
+| Living expenses (HKD), excluding housing running costs | 816,294 | 816,294 | 816,294 | 816,294 | 816,294 | 816,294 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 993,258 | 993,258 | 993,258 | 993,258 | 993,258 | 993,258 |
 | HK Property Tax (HKD) | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 0 | 0 | 0 | 0 | 0 | 0 |
 | UK tax on property, no FIG (HKD) | 0 | 51,269 | 82,736 | 60,026 | 60,026 | 60,026 | 23,615 | 201,155 | 198,655 | 175,945 | 175,945 | 175,945 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
 | UK tax on property, use (HKD) | 0 | 50,280 | 30,280 | 0 | 0 | 0 | 23,615 | 153,269 | 138,629 | 115,919 | 115,919 | 115,919 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
@@ -120,9 +122,9 @@ Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use th
 
 ## 6b. Runway blocks (how the two cash-burn tables are built)
 
-Both blocks sit below the "Numeric model inputs" on the Formula validation tab, appended 25 Sep 2026. Interpretation is in [[uk-relocation-savings-comparison]] §3b.
+Both blocks sit below the "Numeric model inputs" on the Formula validation tab, appended 25 Sep 2026. Interpretation is in [[uk-relocation-savings-comparison]] §3.
 
-**Inputs (B69:B80).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + MPF 2,032,972, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
+**Inputs (B69:B81).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + MPF 2,032,972, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
 
 **Table 1, full burn.**
 - Annual net savings = the Zero columns' row 31 (London B31, Malvern H31, HK N31).
@@ -131,12 +133,12 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 - If burn is zero or negative the cell shows "No depletion". The MPF combination shows "n/a while in HK" for the HK column because MPF is only accessible on permanent departure.
 
 **Table 2, lean burn.**
-- Lean living costs per month (B105:D105) are typed snapshots of the cashflows sheet's "Non-optional expenses total" row (London F, Malvern G, HK E), read 25 Sep 2026: 47,952.97 / 44,142.97 / 69,004.97. Not live-linked; refresh by hand after changing the cashflow budget.
-- Lean annual savings = Zero annual savings + full annual living costs − lean monthly living costs × 12. Rents, letting costs and property tax unchanged.
+- Lean living costs per month (B108:D108) are typed snapshots of the cashflows sheet's "Non-optional expenses excluding housing" row (London F, Malvern G, HK E), read 26 Sep 2026: 45,742.97 / 44,142.97 / 65,479.97. Not live-linked; refresh by hand after changing the cashflow budget.
+- Lean annual savings = Zero annual savings + full annual living costs - lean monthly living costs x12, plus HK discretionary housing add-back B132. This preserves the exclusion of HK contents insurance. Rents, tax and resulting burn are unchanged.
 - Burn and runway rows then follow Table 1's formulas on the lean figures.
-- As of 25 Sep 2026 the calculated rows of Table 2 were still blank in the sheet; expected values are in the findings note.
+- As of 26 Sep 2026 both runway tables are populated; all pot cases retain their previous results after the housing split.
 
-**Not modelled in either:** rent voids, inflation, investment returns, a salary starting part-way, the board and car uplift the financial model applies to Malvern (see findings note §3b).
+**Not modelled in either:** rent voids, inflation, investment returns, a salary starting part-way, the board and car uplift the financial model applies to Malvern (see findings note §4).
 
 ---
 
@@ -144,6 +146,7 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 
 | Date | What changed |
 |---|---|
+| 2026-09-26 | Housing running costs separated into savings rows18/20; full and lean living inputs exclude Housing. Hotel moved to discretionary Transport; mortgages retained in living costs. Savings and runway preserved. |
 | 2026-09-25 | **Runway blocks added** to the savings sheet (full and lean, no salary), documented in §6b. HK living costs refreshed to 86,498.30/mo. |
 | 2026-09-25 | **v3 model.** New savings sheet with 18 columns (135k band added), property income and letting costs in their own rows, HK Property Tax and UK property tax rows with the FIG choice, FIG expiry after four years, HK basic allowance HK$145,000, living costs from the cashflows expense totals corrected by hand. Occupied-home costs counted once, in living costs. Codex review [[uk-relocation-savings-v3-codex-review-2026-09-25]]; record [[savings-v3-review]]; tax working [[tax-rental-incomes]]. Cashflows sheet clean-up still owed. Sections 1 to 6 rebuilt. |
 | 2026-08-04 | Zero-income stress columns, formula-driven cumulative rows, executive summary, four identical salary bands. |

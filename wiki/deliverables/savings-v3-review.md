@@ -191,6 +191,15 @@ Parent independently reread live new formulas/results and compared all60 row12/3
 | C117 | `=IF(ISNUMBER(C113),C113/12,C113)` |
 | D117 | `n/a while in HK` |
 
+## Housing split completed, 26 Sep 2026
+
+User resumed the agreed split after deleting redundant cashflow/burn blocks, then requested cheaper subagents. Sol stalled without edits and was stopped. Parent captured fresh snapshots and gave Luna an exact implementation brief; Luna completed the changes. Parent independently compared440 model outputs, including all20 scenario annual savings,200 cumulative results, taxes, validation rows and both runway tables, with no differences above0.001HKD.
+
+- Cashflow: hotel moved from row111 to139, discretionary Transport; Housing remains a supporting breakdown at113, HK3,726.833333/month, London2,210, Malvern0. Original total at168 unchanged. Full excluding-housing output169: HK82,771.466667, London68,024.466667, Malvern62,284.466667. Lean output170: HK65,479.966667, London45,742.966667, Malvern44,142.966667. Mortgages remain in the living budget.
+- Savings: B64:B66 use full excluding-housing snapshots; B18:G18 contain GBP2,652/year occupied UK costs; N20:U20 contain HKD44,722/year occupied HK costs, including both TTI columns. Letting costs unchanged. Lean B108:D108 use excluding-housing inputs; D110 adds back B132=HKD2,422/year so discretionary HK contents insurance remains excluded. Notes and both companion MDs updated.
+- Independent Luna verification also passed all savings/runway invariants. A124:C124 (unused HK Tax estimate, no scenario amounts) was cleared between snapshots outside the delegate's write ranges; treated as an external edit and left intact, consistent with Julian's ongoing cleanup. The row was not structurally deleted.
+- Row139 category label corrected to Transport discretionary after parent readback. Source hotel subtotal auto-expansion was caught and repaired during the move, before final verification.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
@@ -199,6 +208,7 @@ Parent independently reread live new formulas/results and compared all60 row12/3
 | 2026-09-25 | Codex follow-up verification | Unmeasured incremental tokens | Same thread; live reads, formula comparisons and 198 savings checks. |
 | 2026-09-25 | Parent thread through delegated repairs | 247,200 cumulative tokens; 32,940 since prior measured checkpoint | Includes intervening follow-ups; do not add the cumulative total to the earlier checkpoint. Delegate token effort unmeasured. |
 | 2026-09-25 | Runway build and independent review | Incremental effort unmeasured | Parent cumulative log checkpoint 247200; no new usage beyond prior checkpoint exposed. Sol/Luna delegate totals unavailable. |
+| 2026-09-26 | Housing split parent checkpoint | 236269 cumulative tokens reported by current thread log | Not an incremental task total; not summed with prior checkpoints. Delegate usage unmeasured. |
 | 2026-09-25 | Julian, attended | Unreported | Awaiting Julian's own minutes at handback. |
 
 ## Session Synopsis
