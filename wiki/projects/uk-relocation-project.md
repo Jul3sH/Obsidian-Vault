@@ -35,6 +35,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-26)
 
+**26 Sept - DB FLAT: ASKING-PRICE OFFER (HK$27k/month), TENANTS WANT TO MOVE ASAP; TTI PROCESS NOW DATED.** The offer (reported to Stephan 25 Sept, [[tti-comms-log]]) collides with the HK-return question: accepting it lets the flat for a term Julian would need to unwind if he returns, and Julian told Stephan he would live in the flat, not rent, if relocating with Sophia. Stephan is taking the job to Horst on their flight 26 Sept and to Ty next week ([[tti-role]] status). The flat decision therefore needs a dated answer from TTI or a lease shape that survives either outcome. Feeds [[HK-Return-BRAIND]].
+
 **26 Sept - TTI(S) + UNI added:** Column U models GBP250,000 gross including GBP20,000 schooling support; same university reserve. Rationale: [[uk-relocation-savings-comparison]].
 
 **26 Sept - TTI + UNI scenario added:** Savings column T models GBP230,000 annual HK salary and GBP90,000 university reserve across six years. Reserve stops in year7; salary continues. Verified calculations and editable inputs recorded in [[savings-v3-review]].
@@ -279,6 +281,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-26 | **DB flat offer logged: asking price, HK$27k/month, tenants want to move ASAP.** Told to Stephan 25 Sept as the trigger for the likely-and-viable question; Stephan now discussing with Horst 26 Sept and Ty next week ([[tti-comms-log]], [[tti-role]]). Decision impact: the letting decision now needs either a dated TTI answer or a lease shape that survives a return; Julian told Stephan he would live in the flat if returning with Sophia. Input for [[HK-Return-BRAIND]]. |
 | 2026-09-26 | **TTI(S) + UNI added** in [column U](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=U1:U32). GBP250k includes GBP20k schooling support. Rationale: [[uk-relocation-savings-comparison]]. Verified all10 projections and both checks. [[savings-v3-review]]. |
 | 2026-09-26 | **TTI + UNI added** to [savings column T](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=T1:T32). GBP230k annual gross, GBP15k yearly university reserve for six years. All ten cumulative results verified; retirement not assumed. [[savings-v3-review]]. |
 | 2026-09-25 | **Lean runway added** in [savings rows103:117](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A103:D117). Source row175 expense snapshots; same balances and property treatment. All16 runway outputs verified. Detail: [[savings-v3-review]]. |

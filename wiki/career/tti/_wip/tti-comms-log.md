@@ -470,6 +470,58 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 25 Sep - THE CALL HAPPENED (brief): Stephan takes it to Horst on a flight to Europe Sat 26 Sep, then to Ty next week; he still wants Ty's buy-in
+
+> WhatsApp lead-in, Friday 25 Sep (times as exported), verbatim:
+
+> [25/9/2026, 6:30:05 AM] Julian: … just got an offer on my flat for asking price which has not been easy to get, and they want to move ASAP. I really need some idea of whether TTI is a likely and viable option.
+> [25/9/2026, 7:47:03 AM] Stephan Pudwill: I am on a flight and will call when I land
+> [25/9/2026, 7:47:22 AM] Stephan Pudwill: What rent are they offering?
+> [25/9/2026, 7:47:41 AM] Julian: Ok thanks Stephan. 27k
+> [25/9/2026, 7:47:58 AM] Stephan Pudwill: That's pretty good
+> [25/9/2026, 7:48:32 AM] Julian: Yep, what I was hoping for. I get killed on taxes living in uk though 😬
+> [25/9/2026, 7:49:02 AM] Julian: Where are you flying to?
+> [25/9/2026, 7:54:27 AM] Stephan Pudwill: Vietnam to HK
+> [25/9/2026, 7:55:34 AM] Julian: Wasn't sure if you were heading to the fatherland for Oktoberfest!
+> [25/9/2026, 7:57:53 AM] Stephan Pudwill: I will be, but work related
+> [25/9/2026, 8:16:38 AM] Julian: I don't think I could handle Oktoberfest these days, I'm too much of a pussy!
+> [25/9/2026, 11:17:38 AM] Stephan Pudwill: Question is if you were in HK do you want to be in your place or would you rent? I guess we need to see how things will work out in terms of projects
+> [25/9/2026, 11:22:10 AM] Julian: I want to be in my place if I am going to relocate back to HK with Sophia. We need to talk about your second comment though.
+> [25/9/2026, 12:41:41 PM] Julian: Free?
+
+**The call (Friday 25 Sep, brief; Stephan distracted at points, a child shouting):**
+- Julian apologised for chasing and set out why he needs a read: disruption to Sophia's schooling, UK tax residency, and the DB flat (asking-price offer, HK$27k/month, tenants want to move in ASAP).
+- Stephan asked whether the Clodagh situation had subsided. Julian: "sort of." Julian then put custody on Stephan's radar as a further reason to return: Hong Kong holds the joint-custody jurisdiction and would let him apply for full custody. (Said once, to Stephan only, as one reason among several. The [[horst-meeting-key-asks]] table-manners rule still stands: do not make it the driver, and do not repeat it to Horst.)
+- Stephan's process: he flies to Europe with Horst on Saturday 26 Sep and will discuss it with him on the flight. He then meets Ty next week (early in the week; US or Europe, not pinned) and will discuss it with him. He still wants Ty's buy-in, on the grounds that Julian needs it to do the job properly.
+- Julian's line back: yes, it matters to him too; he does not want to come in and be unable to deliver for lack of support. Unclear whether it landed.
+- Not reached: Stephan's "in terms of projects" comment (11:17 message). Julian had flagged it as needing a conversation.
+
+**Read (26 Sep):** the first dated process since the 14 Sep lunch: two named conversations (Horst on the flight, Ty next week), which is more than any earlier stage produced. Two cautions. (1) "See how things will work out in terms of projects" is the consulting-bridge reframe in embryo ([[horst-meeting-key-asks]] table manners); it needs answering before it hardens into the shape. (2) Ty's buy-in as a precondition puts part of the decision back with the chain that said no on 20 Aug, though Stephan's stated reason (support and information) is the same one Julian gave him. Still no written terms, so the F bar in [[hk-uturn-reopen-2026-09]] stays unmet.
+
+**⏳ NEXT MESSAGE - pre-flight asks for Horst (draft v1, 26 Sep, NOT YET SENT; resume here in the next session):**
+
+Julian's three asks as first stated (26 Sep): (1) schooling, having lost Sophia's YMCA place, to make the financials work; (2) can it be a perm role, with life insurance, medical and job security; (3) is doing it from the UK an option if job volatility is a risk.
+
+Claude's critique against [[horst-meeting-key-asks]]: keep 1 (say "gave up", not "lost": the YMCA return enquiry is drafted, not sent; make it concrete as international school fees in the package); keep 2 but as a statement, not a question, because "can it be perm?" invites the "see how the projects go" reframe Stephan floated on 25 Sep; drop 3 from this message (it contradicts 2 in the same breath, hands Stephan the projects-from-the-UK out, and the strategy holds the UK liaison play as an entry point for use with Stephan, not for Horst on a flight); put the paper third instead (next concrete step, who papers it, when), since every prior stage died between verbal warmth and paper and written terms are the F bar of the reopen test. Guardrails: no custody, no tax, no number.
+
+Draft v1 (Claude-first at Julian's request; to be edited into his voice):
+
+> Hi Stephan, thanks for the call yesterday. Three things it would help to have on the table with your dad on the flight:
+>
+> 1. Schooling. We touched on it at lunch. I gave up Sophia's school place to come back, so I'd need her schooled properly in HK, ideally international school fees in the package.
+>
+> 2. It needs to be a permanent role rather than project work, with medical and life cover. I can only uproot Sophia again for something secure.
+>
+> 3. Once you've spoken to him and to Ty, what's the next concrete step, who puts it on paper, and roughly when? I need to give the flat tenants an answer.
+>
+> Safe flight.
+
+Choices: ask 2 answers "in terms of projects" without quoting it back; ask 3 uses the tenants as the clock because Stephan already asked about the rent, so it reads as fact not pressure; the number stays out (Horst said "no problem" to it, raising it again only reopens it).
+
+**After sending:** log the sent text above as ✅ SENT with the date; pin the Ty meeting date; get the outcome of both conversations with a named next step and owner.
+
+---
+
 ## ✅ SENT 24 Sep - THE CHASE: personal loop closed, Friday 25 Sep call asked for, three real pressures named, help offered
 
 > Sent Thursday 24 Sep (UK), six days after the last exchange. Julian's own draft, one Claude pass (two typo fixes). Verbatim:
