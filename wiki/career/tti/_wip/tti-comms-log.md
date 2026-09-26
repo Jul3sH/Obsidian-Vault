@@ -518,7 +518,21 @@ Draft v1 (Claude-first at Julian's request; to be edited into his voice):
 
 Choices: ask 2 answers "in terms of projects" without quoting it back; ask 3 uses the tenants as the clock because Stephan already asked about the rent, so it reads as fact not pressure; the number stays out (Horst said "no problem" to it, raising it again only reopens it).
 
-**After sending:** log the sent text above as ✅ SENT with the date; pin the Ty meeting date; get the outcome of both conversations with a named next step and owner.
+Julian's v2 (26 Sep, his wording): (1) "I think your Dad indicated schooling wouldn't be a problem. YMCA are full and international school fees are a big stretch for me." (2) "Are we talking about a perm role which would give me some job security, life insurance and medical?" (3) "When are you talking to Ty and what would be the next concrete step? There is urgency on my side to avoid schooling disruption and UK tax residency complications." Claude's checks: the lunch record has Horst saying "no problem" to the number, not to schooling, so line 1 overclaims; "YMCA are full" verified 25 Sep by Bonnie Shing's reply ([[uk-relocation-project]] row 3d.2); ask 1 states the problem without the ask; tax is fine for Stephan but a poor line to relay to Horst, the flat tenants are the better clock.
+
+Draft v3 (26 Sep, Julian's v2 with the checks applied; current candidate):
+
+> Hi Stephan, thanks for the call yesterday. Three things it would help to raise with your Dad on the flight:
+>
+> 1. We raised schooling with your Dad at lunch. YMCA are full, so it would have to be an international school, and those fees are a big stretch for me. I'd need them covered in the package.
+>
+> 2. I'm assuming we're talking about a perm role, with proper job security, life insurance and medical?
+>
+> 3. When are you talking to Ty, and what would be the next concrete step after that? There's urgency on my side: I want to avoid more schooling disruption for Sophia, and I need to give the flat tenants an answer.
+>
+> Safe flight.
+
+**After sending:** log the sent text as ✅ SENT with the date; pin the Ty meeting date; get the outcome of both conversations with a named next step and owner.
 
 ---
 
