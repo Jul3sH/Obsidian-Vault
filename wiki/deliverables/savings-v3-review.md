@@ -146,6 +146,14 @@ Lean annual savings adds back the original annual living costs to B31/H31/N31 an
 
 Verification: live readback plus separate reconciliation against the source discretionary totals and all16 numeric runway outputs passed. Incremental tokens unmeasured.
 
+## TTI + UNI scenario added, 26 Sep 2026
+
+Julian confirmed GBP230,000 annual gross salary (row15), existing HK school fees retained, plus GBP90,000 reserved for future university over the first six years. Added column T, labelled TTI + UNI. Inputs B120=90,000, B121=6; B122 calculates annual HKD reserve using B56. HK salary/property treatment retained explicitly despite the different column label.
+
+At FX10: annual university reserve150,000HKD; salary tax345,000HKD (standard-rate cap); annual unearmarked savings1,002,005.40HKD in years1:6, then1,152,005.40 from year7. Ten-year unearmarked savings10,620,054HKD, with900,000HKD separately reserved. Reserve is not current university expenditure. Salary continues throughout; retiring at61 is not assumed. T26 includes the reserve for initial-year presentation; notes explain the timing.
+
+Verification: all10 cumulative outputs independently recalculated, both scenario checks OK, zero NI and HK non-resident UK-property treatment verified. Original source column S unchanged. Incremental token effort unmeasured.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
