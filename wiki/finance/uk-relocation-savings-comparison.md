@@ -151,7 +151,17 @@ Cash + MPF is the spend-the-pension-before-ISAs case, using HK$2,032,972. Added 
 - HK$164k a year of every burn is Pine View principal, which builds equity. Cash runs down faster than net worth.
 - Runway is held constant: no rent rises, no inflation, no investment returns, no salary part-way through.
 
-**Where the Malvern figures are generous.** The cashflows sheet carries HK$1,000 a month for Mum's bills and HK$1,000 for a car; the financial model's honest Malvern figure used about HK$5,000 board and HK$2,250 car. On those, the full burn is about HK$28,000 a month and cash-only runway about 28 months. Malvern is also the only scenario resting on two rents, so one void month costs HK$25k to 27k. The prudent Malvern planning figure is therefore about HK$28,000 a month with a void allowance, not HK$22,886. Against that, HK$4,000 of the Malvern budget is commuting that does not apply with no job.
+**Where the Malvern figures are generous.** Three adjustments the sheet does not make:
+
+| Malvern, no salary, per month | HK$ | Cumulative |
+|---|---:|---:|
+| Burn as modelled in the sheet | 22,886 | 22,886 |
+| Board: sheet has HK$1,000 for Mum's bills; the financial model's honest figure is about £500 (HK$5,000) | +4,000 | 26,886 |
+| Car: sheet has HK$1,000 contribution; the model's honest running cost is about £225 (HK$2,250) | +1,250 | 28,136 |
+| Void allowance: one empty month per property per two-year tenancy, about HK$52,000 over 24 months | +2,170 | 30,300 |
+| Commuting: hotel HK$2,000 and rail HK$2,000 exist only with a job | −4,000 | 26,300 |
+
+Board and car are small lines, but Malvern's advantage is built from small lines, so the HK$5,250 uplift moves cash-only runway from 34 to 28 months. Malvern is the only scenario resting on two rents: a void month at Pine View costs HK$27,000 while management fees and rates continue, and HK$25,000 at Cecil Road. The honest no-salary burn is about HK$26,000 to 28,000 a month, giving 28 to 30 months on cash alone rather than 34. Still the longest of the three, but by less than the raw figure suggests.
 
 ---
 
