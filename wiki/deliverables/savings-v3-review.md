@@ -29,6 +29,10 @@ Julian authorised the follow-on corrections: remove the duplicate Wills cost and
 
 Julian approved appending formula-based cash-burn/runway tables to the savings sheet, then explicitly authorised Sol to build and Luna to verify. Existing cells (including rows1:66), the cashflow spreadsheet and charts are outside this edit. Editable HKD inputs: cash721,000 and120,000; card bills1,504,40,839,10,384; retained ISAs3,265,990 and MPF1,244,699. Net cash must calculate to788,273. Runway uses the Zero salary scenarios, excludes MPF while staying in HK, guards non-positive burn and identifies retained July pot values. Done when all inputs drive formulas, every runway result is independently verified and the pre-edit snapshot proves existing cells unchanged. Verifiers: Luna independently, then parent handback; Julian reviews presentation.
 
+### Housing split authorised, 26 Sep 2026
+
+Julian chose the simplest split and resumed it after deleting redundant cashflow/burn rows: move occupied-home running costs out of the living-expense inputs and into savings property rows, while retaining mortgage principal/interest in cashflow. Move Malvern hotels to discretionary Transport. Retain the Housing supporting subtotal and add an excluding-housing expense output. Include TTI columns and preserve the lean exclusion of discretionary HK contents insurance. Sol implements both live sheets; Luna and parent verify unchanged annual savings, cumulative results, tax and both runway tables. Existing companion files describe the final split. No new financial assumptions or unrelated deletions.
+
 ## Follow-up verification, 25 Sep 2026 (before delegated repairs)
 
 Read-only check of Julian's updated savings tab: all 18 annual and 180 cumulative results agree with separate arithmetic. All 108 tax/conversion formulas match the staged formulas previously tested against fixed values (100 matches; eight intentional HKD 4 NI rounding corrections). HK allowance 145,000, FIG expiry after Y4, and removal of occupied-home expenses from property rows are correct at the current assumptions.

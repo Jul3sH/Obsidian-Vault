@@ -136,7 +136,6 @@ The sheet's two runway tables answer one question: **with no salary, how long do
 | Monthly burn (after rent and property tax) | 28,137 | 4,745 | 49,423 |
 | Cash only | 28 months | 166 months | 16 months |
 | Cash + MPF | 6.0 years | 36 years | n/a while in HK |
-| Cash + MPF | 6.0 years | 35.7 years | n/a while in HK |
 | Cash + ISAs | 12.0 years | 71 years | 6.8 years |
 | Cash + ISAs + MPF | 15.7 years | 93 years | n/a while in HK |
 
@@ -158,9 +157,9 @@ Cash + MPF is the spend-the-pension-before-ISAs case, using HK$2,032,972. Added 
 
 ## 3c. Surviving at Mum's house
 
-The Malvern no-salary case, old cashflow-sheet burn block against the new savings-sheet runway (26 Sep 2026). The old block used gross rents with no letting costs and no property tax, which is why it flattered Malvern most: Malvern is the only scenario with two properties let, so it carries both sets of costs.
+The Malvern no-salary case, old cashflow-sheet burn block against the new savings-sheet runway (26 Sep 2026). The old block used the September expense totals with the July pot, gross rents, and no letting costs or property tax, which is why it flattered Malvern most: Malvern is the only scenario with two properties let, so it carries both sets of costs.
 
-| Malvern, no salary | Old cashflow block (July) | New savings sheet (25 Sep) |
+| Malvern, no salary | Old cashflow block (old method: gross rents, no letting costs or property tax; September expenses, July pots) | New savings sheet (25 Sep) |
 |---|---:|---:|
 | **Monthly figures, HK$** | | |
 | Living costs (incl. mortgages HK$27,958) | 62,284 | 62,284 |
@@ -198,7 +197,7 @@ The Malvern no-salary case, old cashflow-sheet burn block against the new saving
 | Travel | 3,300 |
 | Bills (incl. Mum's bills 1,000, Claude and Codex 400) | 3,238 |
 | Hotel, two nights a week | 2,000 |
-| Shopping, beauty, health, leisure, Amex | 4,800 |
+| Shopping, beauty, health, leisure, Amex | 5,800 |
 | **Living budget** | **62,284** |
 | Letting costs, both properties | +7,538 |
 | Property tax | +5,064 |

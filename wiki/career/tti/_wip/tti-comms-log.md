@@ -470,6 +470,24 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ SENT Sat 26 Sep - THREE ASKS BEFORE THE HORST FLIGHT: schooling covered? perm with security and cover? Ty date and next concrete step?
+
+> Sent Saturday 26 Sep, before Stephan's flight to Europe with Horst. Julian's wording after six drafting rounds (record in the 25 Sep entry below). Verbatim:
+
+> Hi Stephan, thanks for the call yesterday. Three things on my mind:
+>
+> 1) I raised schooling with you both at lunch. YMCA are now full and international school fees are a big stretch for me. Are these likely to be covered?
+> 2) Are we now talking about a perm role which would give me some job security, life insurance and medical?
+> 3) When are you talking to Ty and what would be the next concrete step after that?
+>
+> Safe flight.
+
+**What it does:** puts must-have 5 (schooling), must-haves 1-2 plus strong ask 9 (perm, security, cover) and the paper question (next concrete step, with the Ty date) from [[horst-meeting-key-asks]] on Stephan's radar before he talks to Horst. Ask 2 is also the answer to his 25 Sep "in terms of projects" line. Every fact is verified: schooling raised at lunch per [[engagement-history]] 14 Sep; YMCA full per Bonnie Shing 25 Sep ([[uk-relocation-project]] row 3d.2). **Deliberately absent:** custody, tax, the number (Horst already said "no problem" to it), the UK-liaison option (an entry point for later, not for Horst), any urgency restatement (Stephan has it from 24-25 Sep), and any softening line that hands Stephan an out.
+
+**NEXT:** Stephan's answer after the flight. Whatever comes back, the three questions each want a yes/no or a date; anything vaguer gets pinned on the Ty meeting date and the next concrete step with an owner. Log the reply here; update [[tti-role]].
+
+---
+
 ## ✅ 25 Sep - THE CALL HAPPENED (brief): Stephan takes it to Horst on a flight to Europe Sat 26 Sep, then to Ty next week; he still wants Ty's buy-in
 
 > WhatsApp lead-in, Friday 25 Sep (times as exported), verbatim:
@@ -498,7 +516,7 @@ renamed: 2026-07-17
 
 **Read (26 Sep):** the first dated process since the 14 Sep lunch: two named conversations (Horst on the flight, Ty next week), which is more than any earlier stage produced. Two cautions. (1) "See how things will work out in terms of projects" is the consulting-bridge reframe in embryo ([[horst-meeting-key-asks]] table manners); it needs answering before it hardens into the shape. (2) Ty's buy-in as a precondition puts part of the decision back with the chain that said no on 20 Aug, though Stephan's stated reason (support and information) is the same one Julian gave him. Still no written terms, so the F bar in [[hk-uturn-reopen-2026-09]] stays unmet.
 
-**⏳ NEXT MESSAGE - pre-flight asks for Horst (draft v1, 26 Sep, NOT YET SENT; resume here in the next session):**
+**✅ SENT Sat 26 Sep - the pre-flight asks (drafting record; sent text in the entry above):**
 
 Julian's three asks as first stated (26 Sep): (1) schooling, having lost Sophia's YMCA place, to make the financials work; (2) can it be a perm role, with life insurance, medical and job security; (3) is doing it from the UK an option if job volatility is a risk.
 
@@ -546,9 +564,9 @@ Draft v4 (26 Sep, Julian's final wording; urgency line dropped because Stephan a
 
 Wobble at the send point (26 Sep): Julian considered not sending and letting Stephan discuss it with Horst in the abstract, on the worry that a list makes him look demanding (Stephan had said "details later" at lunch). Claude's read: waiting is the option with the documented cost (lunch, limo, 16 Sep, silence, "in terms of projects": each step vaguer and later); two of the three items were already raised with Horst present; Horst's own style rewards decisiveness; the message goes to Stephan, who chooses what to table. Resolved by adding one softening line that hands Stephan the discretion.
 
-Final v5 (26 Sep, send-ready):
+Final v6 (26 Sep, send-ready). Two cuts from v5 by Julian: the "raise with your Dad on the flight" lead-in (redundant; Stephan uses his judgement) and the softening line (Julian: it gives him an out, and the record shows he takes outs: limo "end of term", "details later", "in terms of projects"). The three questions stand as direct questions to Stephan.
 
-> Hi Stephan, thanks for the call yesterday. Three things it would help to raise with your Dad on the flight:
+> Hi Stephan, thanks for the call yesterday. Three things on my mind:
 >
 > 1) I raised schooling with your Dad at lunch. YMCA are now full and international school fees are a big stretch for me. Are these likely to be covered?
 >
@@ -556,11 +574,9 @@ Final v5 (26 Sep, send-ready):
 >
 > 3) When are you talking to Ty and what would be the next concrete step after that?
 >
-> Not asking you to table all of this, just so you know where my head is.
->
 > Safe flight.
 
-**After sending:** log the sent text as ✅ SENT with the date; pin the Ty meeting date; get the outcome of both conversations with a named next step and owner.
+Sent 26 Sep with one last edit by Julian: "with your Dad" became "with you both" in ask 1. Sent text logged in the entry above.
 
 ---
 
