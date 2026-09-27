@@ -62,6 +62,14 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   `MM: <Name>`, and listed in `mental-models-index.md`. Defined in
   `documentation-conventions.md` Part 1; reference implementation is
   `mm-verification.md`. Never invent an ad-hoc structure for a mental model.
+- **BRAIND files use the standard twelve-section format** (purpose block, dated
+  status banner, executive summary, Intuition Log, claims to test, B, R, A, N, D,
+  Links, Time and Token Log with Session Synopsis) defined in
+  `documentation-conventions.md` Part 1. One question, one file, named
+  `<Question>-BRAIND.md` in the decision's workspace folder; Julian's words, no
+  coined labels; D written by Julian. An option's B and R rows may be split into
+  `<Option>-BRAIND.md` under the same rules. Reference implementation is
+  `HK-Return-BRAIND.md`.
 - This is an LLM-maintained knowledge base. You are the librarian.
 - The wiki/ folder is YOUR domain: you write and maintain everything in it.
   The user rarely edits wiki files directly.

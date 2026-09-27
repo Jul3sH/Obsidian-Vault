@@ -7,7 +7,11 @@ source: UK Relocation Risks Google Sheet
 	
 # Malvern-BRAIND
 
-High-level, high-impact benefits and risks distilled from the `UK Relocation Risks` Google Sheet, `Risks` tab, rows 1-132, then enriched from the wider `uk-move` BRAINED workspace.
+This file holds the Benefits and Risks (B and R) rows for one option in the UK relocation decision: living in Malvern, as an interim base or a permanent fallback. It was written on 4 Aug 2026 by distilling the `UK Relocation Risks` Google Sheet (`Risks` tab, rows 1-132) and the wider `uk-move` BRAINED workspace, so that each option's upside and downside sat in one place instead of across a 132-row sheet. It is read whenever that option is weighed, and its rows are carried (never rebuilt) into any later BRAIND run on the same question. It is the Malvern side of any later comparison, including the TTI-from-the-UK alternative in [[HK-Return-BRAIND]] A, whose Malvern variant rests on this file. Internal only. Parent decision: [[dec-uk-move]]; format: the BRAIND format in [[documentation-conventions]] Part 1 (this is a split B-and-R file).
+
+**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Time and Token Log
+
+> ⚠ **Status (27 Sep 2026):** one Finance risk added 27 Sep (moving out of Mum's for a relationship, Julian's key financial risk of staying). Purpose block, this banner and the log added the same day to fit the BRAIND format in [[documentation-conventions]]. Other content as written 4 Aug 2026, before the move; the family has been living in Malvern since Sep 2026.
 
 Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-jobdata-2026-07-11]], [[uk-relocation-benefits-register-2026-07-16]], [[uk-move-financial-model]], [[malvern-permanent-feasibility-2026-07-14]], [[schooling-malvern-area]].
 
@@ -76,3 +80,10 @@ Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-jobd
 - Opportunity: a slow-paced Malvern life has real appeal if chosen consciously as a downshift rather than used as a fear response.
 - Risk: the easy daily life can disguise a permanent narrowing of ambition, dating, autonomy, and future optionality.
 - Risk: the "safety net" feeling can be misleading. The BRAINED record repeatedly warns that fear can make a softer holding pattern feel like prudence.
+
+## Time and Token Log
+
+| Date | Type | Amount | Notes |
+|------|------|--------|-------|
+| 2026-08-04 | Machine (interactive session) | unmeasured | File created from the risk register sheet; no log kept at the time |
+| 2026-09-27 | Machine (interactive session) | unmeasured | Purpose block, dated status banner and this log added to fit the BRAIND format; Finance risk row added |

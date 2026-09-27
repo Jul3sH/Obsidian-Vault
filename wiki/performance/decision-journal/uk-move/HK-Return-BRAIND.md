@@ -287,3 +287,7 @@ Carried from [[HK-BRAIND]] into this step (27 Sep): keeping the question open co
 |------|------|--------|-------|
 | 2026-09-24 | Machine (interactive session) | unmeasured | File created; opening intuition dump logged and summarised; registered in workspace index, reopen file, project page and ops log |
 | 2026-09-27 | Machine (interactive session) | unmeasured | Second intuition block logged; claims 3, 10-13 added; R seeded with the CRITICAL job-loss-mid-GCSE chain (Horst removal as trigger); A seeded with the TTI-from-UK alternative; Stephan-timing task opened; six-year executive summary block added (four UK scenarios, two HK TTI rows, years 6/8/10, mirrored to the savings comparison note); moving-out-of-Mum's risk logged then refiled to Malvern-BRAIND Finance at Julian's instruction; claim 14 added; B and R populated from HK-BRAIND (carried / changed / new, each row sourced); N warnings carried; status banner dated; A: TTI-from-the-UK differences table added; claims 10-13 resolved or labelled per Julian; HK rows re-derived with the £120k university reserve |
+
+## Session Synopsis
+
+*(Filled at handback. Julian rates and comments first; the model comments beneath.)*

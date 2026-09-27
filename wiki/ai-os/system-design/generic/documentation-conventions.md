@@ -98,6 +98,47 @@ the same six slots in the same order:
   the `behaviour-check` skill's trigger, widening it if not - in the same operation.
   *(Rule agreed 19 Sep 2026 during [[bias-history-review]].)*
 
+### The BRAIND format (one question, one file)
+
+A BRAIND file is the working file for one decision run through the six
+B-R-A-I-N-D steps ([[brain-brand-framework]]). There is one format. When an
+option's B and R rows outgrow the decision file, they may be split into their own
+`<Option>-BRAIND.md` (as [[HK-BRAIND]], [[London-BRAIND]] and [[Malvern-BRAIND]]
+were in August 2026); a split file holds only the B and R sections for that
+option, follows the same section rules, and opens with a pointer to the decision
+file it belongs to. It is not a different kind of document.
+
+**Naming and location.** `<Question>-BRAIND.md`, H1 the same, in the decision's
+workspace folder under `wiki/performance/decision-journal/`. Frontmatter:
+`type: decision-workspace`, `status: open | committed | reviewed`, `created`,
+`project`, `decision` (the question in one line).
+
+**Fixed sections, in this order.** A missing section is visibly missing.
+
+| # | Section | Holds | Rules |
+|---|---|---|---|
+| 1 | Purpose block + section map | What the file is, why it was opened, how it is used, then one line per section | Per the AGENTS.md purpose-block rule |
+| 2 | Status banner | Dated entries, newest first, each opening `⚠ Status (date):`. Earlier entries are kept below, never overwritten | This is the file's own status log. The project page carries the cross-project view and links here |
+| 3 | Executive summary | The numbers that decide the question, as one table: scenarios described in Julian's words, figures read from the canonical model with the source named | Derived figures are marked derived. A "what these numbers say" list follows, marked untested until B runs |
+| 4 | I - Intuition Log | Append-only dated blocks in Julian's words, recorded before the analysis | The model never rewrites, summarises away, or labels an entry. Later entries may contradict earlier ones; both stand |
+| 5 | What the intuition asks the analysis to check | Numbered table: the claim the gut relies on, Fact / Assumption / Belief, where it gets tested | A resolved claim is marked resolved with the date and Julian's words, never deleted. Referred to by number plus what it says, never number alone |
+| 6 | B - Benefits | Rows by workstream (Wellbeing, Relationships, Finance, Career, Performance, Personal) | Each row says its source: carried from an earlier BRAIND file, carried and changed, or new and dated |
+| 7 | R - Risks | Opens with the ranked table in the AGENTS.md risk-framework shape (cause, event, effect, workstream, rating), then unranked rows by workstream | Only the risks of the option under question live here. Risks of an alternative live in that alternative's own BRAIND file, with a pointer |
+| 8 | A - Alternatives | Every alternative, always including "hold the committed choice". An alternative already covered by an earlier BRAIND file gets a differences table here, not a new file | Warnings the model adds are marked as the model's judgement |
+| 9 | N - Need time / Nothing | What doing nothing means, and the date on which waiting ends | Bounded, so it closes into D |
+| 10 | D - Decision | The committed choice, dated, written by Julian | Never model-drafted ([[mm-commitment-by-proxy-bias]]). Mirrored to the `dec-*.md` entry and the project page in the same operation |
+| 11 | Links | Bare links to the journal entry, related BRAIND files, canonical model, protocol | |
+| 12 | Time and Token Log, Session Synopsis | Per the AGENTS.md rules | A BRAIND file is a deliverable: the Prompt Zero gate applies |
+
+**Rules.**
+- One question, one file. The first BRAIND run (July 2026, [[performance/decision-journal/uk-move/_index|UK relocation workspace]]) was spread across seven files, which is why the single-file form exists.
+- Julian's words, no coined labels. A risk, claim or option is recorded in the words he used; if a shorter handle is needed, ask him for one.
+- Earlier BRAIND files are inputs to a later run and are never rebuilt inside it. Rows are carried with their source named; rows not carried are listed with the reason at the time of carrying.
+- Every status claim inside the file is dated (AGENTS.md rule). On every edit, re-read the banner.
+- Numbers come from the canonical model file and say so; a figure computed outside the model is marked derived and the model change it implies is logged as an open task.
+
+Reference implementation: [[HK-Return-BRAIND]] (opened 24 Sep 2026). Split B-and-R files: [[HK-BRAIND]], [[London-BRAIND]], [[Malvern-BRAIND]] (August 2026; they predate this convention and lack the purpose block and dated status line).
+
 ### When adding hierarchy - Claude's check
 Before creating new folders, nesting, or per-item files, sanity-check:
 - Does this measurably help human navigation? If not, keep it flat.
@@ -295,6 +336,7 @@ Every Project file in `wiki/projects/` must include a `## Project Summary File M
 ---
 
 ## Reference implementations
+- **BRAIND file**: [[HK-Return-BRAIND]] (single-file B-R-A-I-N-D run; format in Part 1).
 - **Folder structure:** `wiki/career/tti/` - root (index only), `_wip/` (the engagement-strategy doc + active drafts), `_reference/`, `_on-hold/`, `_archived/`, each with its own `_index.md`, master index as a folder map.
 - **Engagement-strategy docs:** [[tti-engagement-strategy]] (conversion/sales engagement) and [[dad-engagement-strategy]] (defensive/relationship engagement) - the two shapes the template is designed to fit.
 

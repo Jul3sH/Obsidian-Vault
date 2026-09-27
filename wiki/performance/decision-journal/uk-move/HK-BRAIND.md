@@ -7,7 +7,11 @@ source: UK Relocation Risks Google Sheet
 
 # HK-BRAIND
 
-High-level, high-impact benefits and risks distilled from the `UK Relocation Risks` Google Sheet, `Risks` tab, rows 1-132, then enriched from the wider `uk-move` BRAINED workspace.
+This file holds the Benefits and Risks (B and R) rows for one option in the UK relocation decision: staying in Hong Kong. It was written on 4 Aug 2026 by distilling the `UK Relocation Risks` Google Sheet (`Risks` tab, rows 1-132) and the wider `uk-move` BRAINED workspace, so that each option's upside and downside sat in one place instead of across a 132-row sheet. It is read whenever that option is weighed, and its rows are carried (never rebuilt) into any later BRAIND run on the same question. It is now also the carried-from source for the B and R sections of [[HK-Return-BRAIND]] (the return-to-HK-on-a-TTI-offer question, opened 24 Sep 2026), which records which rows were carried, changed, or not carried and why. Internal only. Parent decision: [[dec-uk-move]]; format: the BRAIND format in [[documentation-conventions]] Part 1 (this is a split B-and-R file).
+
+**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Time and Token Log
+
+> ⚠ **Status (27 Sep 2026):** rows carried into [[HK-Return-BRAIND]] B and R on 27 Sep 2026, each marked carried, changed or new there; the four Joanne rows are left open for re-examination. Purpose block, this banner and the log added 27 Sep to fit the BRAIND format in [[documentation-conventions]]. Content otherwise as written 4 Aug 2026, from before the move.
 
 Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[b1-relationship-belief]], [[b7-lifestyle]], [[uk-relocation-benefits-register-2026-07-16]], [[decision-journal]], [[tti-engagement-strategy]], [[uk-vs-hk-earning-comparison]].
 
@@ -73,3 +77,10 @@ Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[b1-relationship-b
 - Risk: optionality is also the trap. Without a concrete role, staying becomes can-kicking dressed as prudence.
 - Risk: the emotionally warmer Hong Kong option can over-weight hope, relationship comfort, and past lifestyle compared with the current evidence.
 - Risk: Julian has HK permanent residency, so leaving is not legally irreversible. Treating it as a one-way trip is an emotional belief, not a fact.
+
+## Time and Token Log
+
+| Date | Type | Amount | Notes |
+|------|------|--------|-------|
+| 2026-08-04 | Machine (interactive session) | unmeasured | File created from the risk register sheet; no log kept at the time |
+| 2026-09-27 | Machine (interactive session) | unmeasured | Purpose block, dated status banner and this log added to fit the BRAIND format |

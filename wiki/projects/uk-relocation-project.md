@@ -36,6 +36,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-27)
 
+**27 Sept - University reserve applied to every savings scenario:** GBP40,000 total for London/Malvern and GBP160,000 total for HK, funded over six years. Savings now distinguishes before-reserve and available amounts; full and lean runway stop reserve contributions after year six. Inputs B126:B128. Detail: [[uk-relocation-savings-comparison]]; verification record [[savings-v3-review]].
+
 **27 Sept, evening - HK-return intuition moved on; a UK-based TTI alternative is now on the table.** After the redone savings comparison, Julian's gut ranks one chain as CRITICAL: removed after Horst goes, about year three, with Sophia one year into GCSEs, locked into HK international fees and unable to return for home-fee status, and his lean has shifted toward landing the TTI job from a UK base (Malvern or London). Open and urgent: whether to raise that shape with Stephan before he goes to Ty this week. B and R now populated from the August HK-BRAIND at Julian's instruction (each row marked carried, changed or new), unscored; A still not run. Record: [[HK-Return-BRAIND]].
 
 **27 Sept, later still - Wiki companions restructured around how Julian reads them.** [[uk-relocation-savings-comparison]] is now self-contained (deductibility table, model inputs, assumptions, mirrored tables and runway mechanics all inside it). The former model companion is renamed [[uk-relocation-expenses]] and covers the expenses sheet only, which itself is renamed UK Relocation Expenses. Ten inbound links repointed. Record: [[savings-v3-review]].
@@ -146,9 +148,9 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 27 Sep 2026):**
 
-- **27 Sep: confirm the rates-only figure in B59 from the RVD demand note (bounded: +HK$646/yr worst case, immaterial to ranking); refresh [[tax-rental-incomes]] §1, §2 and Key Takeaways to the fuller expense set the sheet uses.** Future budget refreshes use full cashflow168 and lean164, including occupied housing. University inputs remain B125:B127.
-- **26 Sep: review TTI + UNI and TTI(S) + UNI columns T/U and university inputs B125:B126; salary continues after year6.**
-- **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
+- **27 Sep: confirm the rates-only figure in B61 from the RVD demand note (bounded: +HK$646/yr worst case, immaterial to ranking); refresh [[tax-rental-incomes]] §1, §2 and Key Takeaways to the fuller expense set the sheet uses.** Future budget refreshes use full cashflow168 and lean164, including occupied housing. University inputs are now B126:B128.
+- **27 Sep: review available savings after the university reserve in row34 and inputs B126:B128. Reconcile any copied HK-return comparison figures in [[HK-Return-BRAIND]] with [[uk-relocation-savings-comparison]]; salary continues after year6.**
+- **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B71:B77 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
 
 0. ~~Run the Phase 3/4 status sweep~~ **✅ DONE 28 Aug** - full register swept with Julian, all rows live. The six urgent from-UK groundwork items it produced (ToR1, surveys, tax adviser, MPF forms, landlord-utilities homework, IRD rebate) are in the Status header above and in their register rows; they are THIS WEEK's work.
 0a. **(After the groundwork lands) Run the FIT CHECK** - backwards schedule from 15 Sept using lead times and latest-start dates. Post-sweep read: the window looks comfortable (only pack-out, declarations-if-not-remote, helper settlement, DBRC notice, the haematology visit, and wine execution remain in it); the schedule pressure is all in the from-UK groundwork lead times (ToR1 processing, survey availability, adviser booking). No t-shirt re-size, no WSJF re-score (agreed 28 Aug).
@@ -295,6 +297,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-27 | Added all-scenario university reserves in [savings rows31:34](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A31:U34): UK GBP40,000, HK GBP160,000 over6years. Full/lean runway models reserve ending; expenses-sheet rules references updated. Companion [[uk-relocation-savings-comparison]], expense companion [[uk-relocation-expenses]], implementation and verification [[savings-v3-review]]. |
 | 2026-09-27 | [[HK-Return-BRAIND]] second intuition block: ten-year TTI run worth ~4x Malvern but gut says the tenure will not survive Horst leaving; logged as the CRITICAL risk: job lost mid-GCSE, locked into HK fees, home-fee route closed; new Alternative added, TTI job from a UK base (Malvern or London); open task to decide whether to raise it with Stephan before Ty. |
 | 2026-09-27 | [[HK-Return-BRAIND]] promoted to the Trusted Artifacts table (it was in the File Map and status log only). No content change to the workspace; still capture-only pending written TTI terms and the wobble #5 F-N-M-T run. |
 | 2026-09-27 | Companions restructured: model inputs, assumptions, mirrored tables and runway mechanics moved into [[uk-relocation-savings-comparison]] (§6, §7) plus a "What is deductible where" table in §2; uk-relocation-cashflows renamed [[uk-relocation-expenses]] and slimmed to the expenses sheet; Google Sheet renamed UK Relocation Expenses; finance index, File Map and ten inbound links repointed. |

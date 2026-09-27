@@ -74,5 +74,6 @@ BRAND is not a full process - it is a pre-commitment evaluation tool. Pair it wi
 ## Links
 
 - [[choosing-a-decision-framework|Choosing a Decision Framework]] - which framework to use and when
+- [[documentation-conventions|Documentation Conventions]] Part 1 - the fixed file format for a BRAIND run; reference implementation [[HK-Return-BRAIND]]
 - [[sharran-simple-decision-framework|Sharran's Simple Decision Framework]] - real-time problem-solving complement
 - [[seven-step-decision-process|Seven-Step Decision Process]] - full deliberate process for high-stakes decisions
