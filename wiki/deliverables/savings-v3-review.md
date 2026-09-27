@@ -38,6 +38,10 @@ Julian chose the simplest split and resumed it after deleting redundant cashflow
 
 Julian instructed: non-deductible expenses remain in cashflow living expenses; property expense rows contain rental expenses only. Restore occupied costs to living inputs, preserve mortgage handling and distinguish UK overseas-property deductions from HK statutory Property Tax. Parent implements and verifies all20 scenarios and both runway tables. Supersedes the earlier housing transfer.
 
+### Companion restructure authorised, 27 Sep 2026
+
+Julian confirmed he reads the savings companion and sheet and opens the expenses sheet only when a cost may have changed, so both must be self-contained. Scope: move the model inputs, assumptions, mirrored tables and runway mechanics from uk-relocation-cashflows into [[uk-relocation-savings-comparison]]; add the "What is deductible where" table there; slim the remainder to an expenses-sheet companion and rename it [[uk-relocation-expenses]]; rename the Google Sheet to UK Relocation Expenses (Julian); repoint every inbound link. No spreadsheet values change.
+
 ### Visible rules authorised, 27 Sep 2026
 
 Julian requested subagents and clear rules within both spreadsheets. Luna adds visible rules in unused space; parent checks wording and unchanged existing calculations. No numerical assumptions change.
@@ -237,16 +241,24 @@ Findings, none material to the location ranking:
 1. **Rates versus government rent is bounded at +HK$646/yr.** Worst case (14,348 is the combined 5% rates plus 3% government rent bill) puts rates at 8,968 and HK Property Tax at 37,804. In salaried columns the extra HK tax becomes extra UK credit, so the combined bill is unchanged; only the Zero columns move, and cash-only runway by under 0.1 month. Plausibility favours rates-only: 14,348 at 5% implies a rateable value of about HK$23,900/mo, consistent with a HK$22-27k rent; at 8% it implies about HK$14,900/mo, too low. Confirm from the RVD demand note, which itemises the two. Downgraded from unresolved input to a bill check.
 2. **[[tax-rental-incomes]] headline tables lag the sheet.** §1, §2 and Key Takeaways quote £6,475 / £152 / £2,343 on the narrower expense set; the sheet uses the fuller set (£6,003 / £0 / £2,361), as the article's own §3 note anticipates. Refresh them, or anyone quoting the article will differ from the model by about £470/yr. Not edited here.
 3. **[[uk-relocation-project]] Trusted Artifacts described cashflow row 177 as the net-of-property-income cashflow.** Stale: that block was deleted 26 Sep and row 177 is now inside the rules panel. Corrected in this operation to rows 168 (full) and 164 (lean).
-4. **[[uk-relocation-cashflows]] §3 letting-cost lines were reconstructed from rounded monthly figures** (49,050 and £4,141 against sheet inputs 49,046 and 4,140). Restated on the annual basis in this operation.
+4. **[[uk-relocation-expenses]] (then uk-relocation-cashflows) §3 letting-cost lines were reconstructed from rounded monthly figures** (49,050 and £4,141 against sheet inputs 49,046 and 4,140). Restated on the annual basis in this operation.
 5. Cosmetic, cashflow sheet, no numeric effect: column C estimates "HK Lettings fee 1,125" and "UK Letting/management 2,460" are stale against the savings inputs and unused; "Weekly Octopus when working" (E) is labelled non-optional but summed as discretionary, as is the unlabelled London Oyster line. Clear or relabel at the next budget refresh.
 
 Not checked: formulas (values only); FIG eligibility and residence, which remain conditional per Prompt Zero.
+
+## Companion restructure completed, 27 Sep 2026
+
+- [[uk-relocation-savings-comparison]]: §2 gains "What is deductible where"; new §6 model inputs and assumptions (two sheets, property income by scenario, assumptions, living-cost inputs) and §7 mirrored tables and runway mechanics, moved verbatim from the old model companion; change log and how-to-update renumbered §8 and §9; purpose block and map updated.
+- uk-relocation-cashflows renamed [[uk-relocation-expenses]] (git mv, history kept) and rewritten as the expenses-sheet companion: structure, totals rows 164/166/168, what differs by location, what is not in the sheet, refresh procedure, change log.
+- Repointed: all `[[uk-relocation-cashflows` links renamed globally; live references in [[uk-move-financial-model]], [[tax-rental-incomes]], [[uktax-srt-fy26-27]], [[hk-uturn-reopen-2026-09]] and the July number check now point at the savings comparison where the model content lives; finance index and project File Map and Trusted Artifacts rewritten. Historical status-log and ops-log rows keep the renamed link or their dated backticked mention.
+- Google Sheet 1HP-4Gm7... renamed UK Relocation Expenses by Julian; file ID unchanged.
 
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
-| 2026-09-27 | Claude cross-check session (Fable 5.1) | 909,281 tokens (output 143,453 + cache-write 765,828) | Session `c82c95e1`, 32 assistant messages, summed from the transcript JSONL before the final handback message. Cache reads (3.5M) omitted as not effort. Julian's attended minutes: pending at handback. |
+| 2026-09-27 | Julian, attended | 30 min | Self-reported at handback 27 Sep: reviewing the handover, deciding the deductibility table and the companion restructure. |
+| 2026-09-27 | Claude cross-check and companion restructure session (Fable 5.1) | 1,118,916 tokens (output 216,693 + cache-write 902,223) | Session `c82c95e1`, 60 assistant messages, summed from the transcript JSONL at the restructure handback. Cache reads (3.5M) omitted as not effort. Julian's attended minutes: pending at handback. |
 | 2026-09-27 | Luna rules panels and parent verification | Incremental tokens unmeasured | Latest log checkpoint128541 for thread01a0d888-485e-78b0-8818-2f76c850d1ad is cumulative and not comparable with prior checkpoints; delegate usage unavailable. |
 | 2026-09-26 | Codex restored housing split | Unmeasured incremental tokens | Direct native edits,440-output before/after verification; no new subagents. |
 | 2026-09-25 | Codex interactive thread | 214,260 tokens measured at bookkeeping checkpoint | Per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite`; thread `01a0d888-485e-78b0-8818-2f76c850d1ad`. Includes earlier column-edit and connector discussion turns; review-only effort is unmeasured. No external CLI or subagent run. |
@@ -263,3 +275,8 @@ Not checked: formulas (values only); FIG eligibility and residence, which remain
 **Julian (26 Sep 2026): 4 / 5.** About eight hours over two days, spread across getting my head round old files I hadn't seen for a while, understanding how they were structured, and deciding how to restructure them. Less time understanding new concepts than the tax document; this one was many iterations working out the best structure as we went. The output has been good and there were far fewer mistakes than with the tax work. The reason it is a 4 and not a 5: I had to sit in the middle. Claude cannot edit Google Sheets, so I ran two windows and pasted Claude's proposed updates into Codex, with several iterations each way, and I ran out of Codex allowance three times on the $20 subscription because it was doing the heavy lifting while the thinking was still happening in Claude on the $100 subscription. That is frustrating. In future maybe do the work directly in Codex and have Claude review it.
 
 **Claude (beneath, 26 Sep 2026).** Fair rating. The substantive numbers were right and stayed right, and the two-agent relay was the main cost. Two things on my side cost time: I introduced the double-count at the living-cost step and then declared the sheet done before re-reading the scope amendment that would have caught it, and I asked Julian for evidence twice when my connector's cached preview was the problem, not his sheet. The relay itself was avoidable: sharing the sheets with the service account would have let me edit in place. The rest of the iterations were genuine design decisions (housing split, lean versus full, what belongs in which sheet) that only Julian could make, and those went quickly once the numbers were visible in one table.
+
+**Julian (27 Sep 2026): 3 / 5.** Thirty minutes of my time. Three because it used a lot more tokens than it should have. Important to log: this was a bit of refactoring of existing documents and it took far more tokens than it should have because Claude did not use subagents.
+
+**Claude (beneath, 27 Sep 2026).** Agreed. The review itself was cheap and right; the restructure was mechanical (move sections, rename, repoint ten links) and I ran it inline in the main thread, which cost about 1.1M effort tokens for work a briefed subagent on a cheaper model could have done. Saved as the feedback-delegate-execution-to-subagents memory; the instance is logged against the routing card.
+

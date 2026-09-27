@@ -15,6 +15,9 @@ up to three per day; the rest roll forward. Rationale: compounding makes the 1-d
 review the one that must never be missed, the 7-day can slip a day or two, the
 30-day up to a week. The queue exists because a 38-model batch created on 26 Aug
 came due together on 25 Sep, which is unlearnable.
+Since 2026-09-27 each model is announced with its wiki section (Working with GenAI
+/ yourself / others, The human mind), derived from its parent folder, in both the
+terminal line and the instruction to Claude.
 
 ```bash
 #!/bin/bash
@@ -42,6 +45,9 @@ came due together on 25 Sep, which is unlearnable.
 # Priority 2 (rotation): when the queue is empty, pick one mm file by
 # day-of-year for the periodic whole-vault cycle.
 # Fires once per effective day via a state file.
+# Section label (Julian, 2026-09-27): every model is announced with the wiki
+# section it comes from (Working with GenAI / yourself / others, The human
+# mind), derived from its parent folder, so the refresher carries its context.
 MAX_PER_DAY=3
 EFF="-v-5H"
 TODAY=$(date $EFF +%Y-%m-%d)
@@ -51,6 +57,8 @@ QUEUE="$HOME/.claude/mm-daily-reminder-queue"
 echo "$TODAY" > "$STATE"
 touch "$QUEUE"
 WIKI="/Users/julianhart/Obsidian Vault/wiki"
+# awk function: wiki section label from a file path's parent folder.
+SECFN='function sec(p,  d){d=p; sub(/\/[^\/]*$/,"",d); sub(/.*\//,"",d); if(d=="working-with-genai")return "Working with GenAI"; if(d=="working-with-yourself")return "Working with yourself"; if(d=="working-with-others")return "Working with others"; if(d=="the-human-mind")return "The human mind"; return d}'
 # Append newly due files (skip a path already queued at the same rung).
 for RUNG in 1 7 30; do
   D=$(date $EFF -v-${RUNG}d +%Y-%m-%d)
@@ -69,14 +77,15 @@ if [ -s "$QUEUE" ]; then
   printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR>n' > "$QUEUE"
   LEFT=$(grep -c . "$QUEUE")
   # Paths contain spaces (Obsidian Vault), so items are joined with "; ".
-  DUE=$(printf '%s\n' "$TAKE" | awk -F'|' '{printf "%s-day review (due %s): %s; ", $1, $2, $3}')
-  NAMES=$(printf '%s\n' "$TAKE" | awk -F'|' '{n=$3; sub(/.*\//,"",n); sub(/\.md$/,"",n); printf "%s(%sd) ", n, $1}')
+  DUE=$(printf '%s\n' "$TAKE" | awk -F'|' "$SECFN"'{printf "%s-day review (due %s, section: %s): %s; ", $1, $2, sec($3), $3}')
+  NAMES=$(printf '%s\n' "$TAKE" | awk -F'|' "$SECFN"'{n=$3; sub(/.*\//,"",n); sub(/\.md$/,"",n); printf "%s(%sd, %s) ", n, $1, sec($3)}')
   SYS="Mental-model refresher (spaced repetition due): $NAMES($LEFT queued for later days)"
-  MSG="Spaced-repetition refresher (first session of the day). These mental models are due review for retention, listed in priority order (1-day reviews first, then 7-day, then 30-day): $DUE Read each and open your first reply with a short refresher per model (one-liner, reach-for-when, one key principle), then handle the request as normal. Keep it short; $LEFT more are queued for later days."
+  MSG="Spaced-repetition refresher (first session of the day). These mental models are due review for retention, listed in priority order (1-day reviews first, then 7-day, then 30-day): $DUE Read each and open your first reply with a short refresher per model, naming the section it comes from first (section, one-liner, reach-for-when, one key principle), then handle the request as normal. Keep it short; $LEFT more are queued for later days."
 else
   F=$(find "$WIKI" -name "mm-*.md" -not -path "*_archived*" | sort | awk -v n=$(date +%j) '{a[cnt++]=$0} END{print a[n%cnt]}')
-  SYS="Mental-model refresher today: $(basename "$F" .md)"
-  MSG="Daily mental-model refresher (first session of the day): read $F and open your first reply with a two-to-three line refresher covering its one-liner, when to reach for it, and one key principle. Then handle the request as normal. Keep the refresher short."
+  SEC=$(printf '%s\n' "x|x|$F" | awk -F'|' "$SECFN"'{print sec($3)}')
+  SYS="Mental-model refresher today: $(basename "$F" .md) ($SEC)"
+  MSG="Daily mental-model refresher (first session of the day): read $F (section: $SEC) and open your first reply with a two-to-three line refresher naming its section, then covering its one-liner, when to reach for it, and one key principle. Then handle the request as normal. Keep the refresher short."
 fi
 printf '{"systemMessage":"%s","hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":"%s"}}\n' "$SYS" "$MSG"
 ```

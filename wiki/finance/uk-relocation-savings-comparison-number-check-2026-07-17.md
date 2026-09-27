@@ -7,7 +7,7 @@ source: UK Relocation Savings Comparison Google Sheet
 
 # UK Relocation Savings Comparison Number Check 2026-07-17
 
-> Number audit of the **[UK Relocation Savings Comparison Google Sheet](https://docs.google.com/spreadsheets/d/1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM/edit)** against [[uk-relocation-savings-comparison]], [[uk-relocation-cashflows]], and the source **[Relocation Cash Flows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit)**.
+> Number audit of the **[UK Relocation Savings Comparison Google Sheet](https://docs.google.com/spreadsheets/d/1HuBwQvRizmtNmi0CRXHA9R4HC1qPGGxjqzvgt-yD0LM/edit)** against [[uk-relocation-savings-comparison]], [[uk-relocation-expenses]], and the source **[Relocation Cash Flows Google Sheet](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit)**.
 
 ## Key Takeaways
 
@@ -143,5 +143,5 @@ Remaining improvement: consider converting the output Sheet to formulas or linke
 ## Related
 
 - [[uk-relocation-savings-comparison]] - Wiki companion to the output Sheet
-- [[uk-relocation-cashflows]] - Trusted model and assumptions
+- [[uk-relocation-savings-comparison]] - Trusted model and assumptions (moved there 27 Sep 2026 from the note then called uk-relocation-cashflows)
 - [[uk-relocation-project]] - Project status surface

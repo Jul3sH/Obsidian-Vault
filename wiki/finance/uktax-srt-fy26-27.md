@@ -9,7 +9,7 @@ tags: [finance, uk-relocation, tax, residency, srt]
 # UK Statutory Residence Test — Position Summary
 ## Julian Hart & Sophia (age 12) — Tax year 2026/27 and forward exposure
 
-> Canonical UK tax-residency position for Julian and Sophia under the Statutory Residence Test. Supports the [[uk-relocation-project|UK Relocation Project]] and sits alongside [[uk-move-financial-model]] and [[uk-relocation-cashflows]]. Peer-reviewed (Fable, 6 rounds) and adversarially reviewed (Codex) against FA 2013 Sch 45 and the HMRC RFIG manual — see §11 Review record.
+> Canonical UK tax-residency position for Julian and Sophia under the Statutory Residence Test. Supports the [[uk-relocation-project|UK Relocation Project]] and sits alongside [[uk-move-financial-model]] and [[uk-relocation-savings-comparison]]. Peer-reviewed (Fable, 6 rounds) and adversarially reviewed (Codex) against FA 2013 Sch 45 and the HMRC RFIG manual — see §11 Review record.
 
 > ### How to use this document
 > - **⛔ Executive summary — what you must do to stay non-resident.** The compliance rules and the dates they turn on. Read this to act.

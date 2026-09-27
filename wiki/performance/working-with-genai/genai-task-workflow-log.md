@@ -27,6 +27,23 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-27 · Refactor · Worked, at a cost · [[savings-v3-review]] companion restructure
+
+- **Work:** Claude reviewed the restored expense structure, then refactored two
+  existing wiki notes: moved the model inputs, assumptions and mirrored tables into
+  the savings comparison, renamed the cashflows note to uk-relocation-expenses and
+  slimmed it, repointed ten links, indexes and the project surface.
+- **Check:** Claude re-derived every figure by value; Julian read the outcome.
+- **Outcome:** Worked. Content right first time, 30 attended minutes. Cost: about
+  1.1M effort tokens on the main Fable thread for what was mostly mechanical
+  execution.
+- **Lesson:** Step at fault: routing. The review needed the main thread; the
+  refactor did not, and it ran inline anyway. Brief a subagent on a cheaper model
+  for execution and keep the main thread for the brief and the check
+  ([[mm-token-economics]] "delegate the grinding"). Memory:
+  feedback-delegate-execution-to-subagents.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-27 · Build + Verification · Worked · [[savings-v3-review]] visible rules
 
 - **Work:** Luna added visible rules panels in both spreadsheets, at Julian's request for cheaper delegation.

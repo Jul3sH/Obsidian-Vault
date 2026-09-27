@@ -107,6 +107,16 @@ have been commissioned is the expensive mistake, not the cheap one.
 It also assumes per-token billing. Subscription plans meter usage differently; the
 relative shape holds, but absolute figures do not map across.
 
+## Evidence
+
+- **27 Sep 2026, companion restructure (the delegate-the-grinding guideline, broken).**
+  A review plus a mechanical refactor of two wiki notes (move sections, rename,
+  repoint ten links) ran entirely in the main Fable thread: about 1.1M effort
+  tokens for 30 attended minutes, on a task where only the review needed the
+  expensive model. Julian: "you should be using sub agents for the actual work."
+  Log entry: [[genai-task-workflow-log]] 2026-09-27 companion restructure. Memory:
+  feedback-delegate-execution-to-subagents.
+
 ## Detail
 
 [[session-context-loading]] holds the mechanics this model prices: what assembles at

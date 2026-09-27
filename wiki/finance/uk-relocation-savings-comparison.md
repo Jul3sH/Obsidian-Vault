@@ -2,17 +2,17 @@
 type: reference
 tags: [finance, uk-relocation, savings, earnings]
 created: 2026-07-17
-updated: 2026-09-26
-source: UK Relocation savings comparison v3 Google Sheet
+updated: 2026-09-27
+source: UK Relocation savings comparison v3 Google Sheet (living-cost inputs from UK Relocation Expenses)
 ---
 
 # UK Relocation Savings Comparison
 
-> **What this is.** The findings readout for the **[UK Relocation savings comparison v3 Google Sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)** (file ID 1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM, tab "Formula validation"): annual and ten-year savings for London, Malvern and Hong Kong at six salary bands, now including property income, property tax and the FIG regime.
+> **What this is.** The self-contained companion to the **[UK Relocation savings comparison v3 Google Sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)** (file ID 1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM, tab "Formula validation"): annual and ten-year savings for London, Malvern and Hong Kong at six salary bands, now including property income, property tax and the FIG regime.
 > **Why it exists.** The sheet holds numbers; this note holds what they mean. Rebuilt 25 Sep 2026 after the v3 sheet replaced the July model (which had no property tax and netted rents into living costs).
-> **How it is used.** Julian reads §1 to compare locations; §3 gives runway with no salary; §4 explains why Malvern still beats Hong Kong and what living at Mum's costs. Model inputs and assumptions live in [[uk-relocation-cashflows]]; the property tax working is in [[tax-rental-incomes]]. Internal only.
+> **How it is used.** Julian reads §1 to compare locations; §3 gives runway with no salary; §4 explains why Malvern still beats Hong Kong and what living at Mum's costs. §6 holds the model inputs and assumptions and §7 mirrors the sheet's tables and runway mechanics, so nothing here depends on another note; the itemised living costs are in [[uk-relocation-expenses]] and the property tax working in [[tax-rental-incomes]]. Internal only.
 
-**Map:** §1 executive summary · §2 the numbers · §3 cash burn tables and the formula · §4 why Malvern still beats Hong Kong, reviewing both the numbers and the burn tables, including surviving at Mum's house · §5 caveats · §6 change log · §7 how to update.
+**Map:** §1 executive summary · §2 the numbers · §3 cash burn tables and the formula · §4 why Malvern still beats Hong Kong, reviewing both the numbers and the burn tables, including surviving at Mum's house · §5 caveats · §6 model inputs and assumptions · §7 mirrored sheet tables and runway mechanics · §8 change log · §9 how to update.
 
 ---
 
@@ -91,6 +91,21 @@ TTI(S) means an additional GBP20,000 annual schooling allowance on the GBP230,00
 | London (Pine View let) | 37,158 | 0 at £135k+; 30k to 50k at £75k to £110k | 60,026 at £135k+ | Cecil Road is the home, no UK rent |
 | Malvern (both let) | 37,158 | 115,919 at £135k+ | 175,945 at £135k+ | Cecil Road tax cannot be sheltered |
 | Hong Kong (Cecil Road let) | 0 | 23,615 | 23,615 | UK non-resident, personal allowance applies |
+
+### What is deductible where (as of 27 Sep 2026)
+
+The rule the sheet follows: **letting costs of a let property are deductible in the UK; occupied-home costs and mortgage principal are never deductible; Hong Kong ignores actual costs and uses its own formula.** Cell references are to the savings sheet's Formula validation tab.
+
+| Cost | Sits in | UK tax on rental profit | HK Property Tax (Pine View let) |
+|---|---|---|---|
+| Cecil Road letting: Brinkleys management £3,240, rent protection £432, buildings insurance £469 = £4,140/yr | Row 18, only when Cecil Road is let | Deductible | Not applicable (UK property) |
+| Pine View letting: DB management 24,648, rates 14,348, buildings insurance 3,300, agent fee 6,750 (HK$13,500 per two-year tenancy) = HK$49,046/yr | Row 20, only when Pine View is let | Deductible, government rent included if it is in the bill | Only owner-paid rates (B59) are deducted; a flat 20% allowance replaces every other cost. Tax = 15% x 80% x (rent less rates) = HK$37,158 |
+| Mortgage interest: Cecil Road £2,556 (B57), Pine View £14,566 (B58) | Cashflow living costs, every scenario | Not deductible; a 22% tax credit instead, capped at the property tax due | Not deductible |
+| Mortgage principal: Pine View HK$164,268/yr | Cashflow living costs, every scenario | Never | Never |
+| Occupied-home costs: council tax, contents and buildings insurance at Cecil Road when living there; DB management, rates and insurance at Pine View when living there | Cashflow living costs (Housing), rows 18/20 set to zero for that home | Never | Never |
+
+- HK Property Tax paid is credited against the UK tax on the same rent, capped at that UK tax, so the sheet's "UK tax on property" rows are after the credit. Working: [[tax-rental-incomes]].
+- Open check: B59 assumes the HK$14,348 bill is rates only. If it also contains government rent, HK Property Tax rises by at most HK$646/yr; UK deductibility is unaffected. Confirm from the RVD demand note.
 
 ### Note: university costs (intended treatment, as of 26 Sep 2026)
 
@@ -254,10 +269,128 @@ Board and car are small lines, but Malvern's advantage is built from small lines
 
 ---
 
-## 6. Change log
+## 6. Model inputs and assumptions
+
+Moved here from the former model companion on 27 Sep 2026 so this note and the sheet are self-contained. Living-cost itemisation stays in [[uk-relocation-expenses]].
+
+### The two sheets
+
+| Sheet | Role | Tab to use |
+|---|---|---|
+| [UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) | The model: salary, tax, property rows, savings, cumulative, runway | "Formula validation" (formula-driven) |
+| [UK Relocation Expenses](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit) (renamed 27 Sep 2026; was UK Relocation Cashflows) | Living costs by location, itemised | "Cashflow comparison"; row 168 (full) and row 164 (lean) feed the savings sheet's living-cost inputs by hand |
+
+**Do not use the burn rates in [[uk-move-financial-model]] section 0 as inputs. Those figures are superseded.**
+
+### Property income by scenario
+
+| Scenario | Julian lives in | Let | Rent in the model | Letting costs in the model | Lived-in home costs |
+|---|---|---|---|---|---|
+| Hong Kong | Pine View | Cecil Road | £30,000/yr | £4,140/yr | DB management, rates and insurance: HK$44,722/yr in living costs (expenses sheet) |
+| London | Cecil Road | Pine View | HK$324,000/yr | HK$49,046/yr | Council tax, buildings and contents insurance: GBP2,652/yr in living costs (expenses sheet) |
+| Malvern | Mum's | Both | £30,000 + HK$324,000 | £4,140 + HK$49,046 | None; hotel HK$2,000/mo for hybrid commuting stays in living costs |
+
+Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View principal (HK$13,689/mo) sit inside living costs in every scenario. The principal builds equity but reduces cash.
+
+### Assumptions
+
+| Assumption | Value |
+|---|---|
+| Exchange rate | HKD 10 = GBP 1 |
+| Salary tax (UK) | 2026/27 income tax + NI: PA £12,570 tapering above £100k; 20% to £50,270; 40% to £125,140; 45% above; NI 8% then 2% above £50,270 |
+| Property tax (UK) | 2027/28 property income rates 22% / 42% / 47%, mortgage interest credit 22% (Finance Act 2026 s7). Property income stacked on salary; personal allowance tapered on total income; HK tax credited up to the UK tax on the HK rent; interest credit applied before the foreign tax credit |
+| FIG regime | Claim per year on the HK rent, first four UK-resident tax years from 2027/28; costs the personal allowance in the claim year. The sheet takes the lower of claim / no claim per column, and cumulative rows drop the relief from year five |
+| HK Property Tax | 15% of 80% of (rent less rates) = HK$37,158/yr at HK$324,000 rent; London and Malvern only |
+| HK salaries tax | Progressive 2/6/10/14/17% in HK$50,000 bands above basic allowance HK$145,000 (2026/27 onward); 15% standard-rate cap. Child and single-parent allowances not applied |
+| UK tax when non-resident (HK scenario) | Cecil Road profit less personal allowance at 22%, less 22% interest credit: £2,361/yr |
+| Salary bands | £0 / 75k / 110k / 135k / 150k / 200k in every location; HK$ at 10:1. Robert Half UK and HK 2026 guides are context only |
+| Rents | Pine View HK$27,000/mo (target; agent estimated 22,000); Cecil Road £2,500/mo (target; May 2026 statement) |
+| Letting costs, Pine View | Annual basis: DB management 24,648 + rates 14,348 (B59) + buildings insurance 3,300 + agent fee 6,750 (HK$13,500 per two-year tenancy): HK$49,046/yr. Monthly equivalents 2,054 / 1,196 / 275 are rounded; use the annual figures |
+| Letting costs, Cecil Road | Brinkleys £3,240 + rent protection £432 + buildings insurance £469 = £4,141 by arithmetic; sheet input retained at £4,140 (£1 rounding) |
+| Living costs | Expenses sheet "Expenses total" row 168 per location (full) and "Non-optional expenses total" row 164 (lean); mortgage payments retained; held constant, no inflation. Itemisation: [[uk-relocation-expenses]] |
+| Salary growth, investment returns, pension, MPF, starting pot | Not modelled |
+
+### Living-cost inputs (HK$ per month)
+
+Typed snapshots, not live links. Include occupied-home housing and mortgage payments.
+
+| Monthly HKD | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Full living inputs, B64:B66, from expenses row 168 | 70,234.47 | 62,284.47 | 86,498.30 |
+| Lean living inputs, B108:D108, from expenses row 164 | 47,952.97 | 44,142.97 | 69,004.97 |
+
+---
+
+## 7. Mirrored sheet tables and runway mechanics
+
+Mirror of the sheet's Formula validation tab so any agent can resume or review without re-deriving. Values as of 26 Sep 2026; TTI columns T and U are in §2.
+
+### Salary, tax and annual net savings (HK$ per year)
+
+Annual net savings = net take-home + (UK property income − UK property running costs) × 10 + HK property income − HK property running costs − HK Property Tax − UK tax on property (use) − living costs.
+
+| | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Gross salary (GBP) | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 | 0 | 75,000 | 110,000 | 135,000 | 150,000 | 200,000 |
+| Gross salary (HKD) | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 | 0 | 750,000 | 1,100,000 | 1,350,000 | 1,500,000 | 2,000,000 |
+| UK property income (GBP) | 0 | 0 | 0 | 0 | 0 | 0 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 | 30,000 |
+| UK letting expenses (GBP) | 0 | 0 | 0 | 0 | 0 | 0 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 | 4,140 |
+| HK property income (HKD) | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 324,000 | 0 | 0 | 0 | 0 | 0 | 0 |
+| HK letting expenses (HKD) | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 49,046 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Income tax (HKD) | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 174,320 | 334,320 | 469,530 | 537,030 | 762,030 | 0 | 84,850 | 144,350 | 186,850 | 212,350 | 297,350 |
+| NI / HK salaries tax (HKD) | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 35,106 | 42,106 | 47,106 | 50,106 | 60,106 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Net take-home (HKD) | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 540,574 | 723,574 | 833,364 | 912,864 | 1,177,864 | 0 | 665,150 | 955,650 | 1,163,150 | 1,287,650 | 1,702,650 |
+| Living expenses (HKD), including occupied housing | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 842,814 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 747,414 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 | 1,037,980 |
+| HK Property Tax (HKD) | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 0 | 0 | 0 | 0 | 0 | 0 |
+| UK tax on property, no FIG (HKD) | 0 | 51,269 | 82,736 | 60,026 | 60,026 | 60,026 | 23,615 | 201,155 | 198,655 | 175,945 | 175,945 | 175,945 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
+| UK tax on property, use (HKD) | 0 | 50,280 | 30,280 | 0 | 0 | 0 | 23,615 | 153,269 | 138,629 | 115,919 | 115,919 | 115,919 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
+| **Annual net savings (HKD)** | **-605,018** | **-114,724** | **88,276** | **228,346** | **307,846** | **572,846** | **-274,633** | **136,287** | **333,927** | **466,427** | **545,927** | **810,927** | **-802,995** | **-137,845** | **152,655** | **360,155** | **484,655** | **899,655** |
+
+### Cumulative savings Y1 to Y10 (HK$)
+
+Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use the no-FIG tax.
+
+| Year | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| Y1 | -605,018 | -114,724 | 88,276 | 228,346 | 307,846 | 572,846 | -274,633 | 136,287 | 333,927 | 466,427 | 545,927 | 810,927 | -802,995 | -137,845 | 152,655 | 360,155 | 484,655 | 899,655 |
+| Y2 | -1,210,035 | -229,447 | 176,553 | 456,693 | 615,693 | 1,145,693 | -549,265 | 272,575 | 667,855 | 932,855 | 1,091,855 | 1,621,855 | -1,605,989 | -275,689 | 305,311 | 720,311 | 969,311 | 1,799,311 |
+| Y3 | -1,815,053 | -344,171 | 264,829 | 685,039 | 923,539 | 1,718,539 | -823,898 | 408,862 | 1,001,782 | 1,399,282 | 1,637,782 | 2,432,782 | -2,408,984 | -413,534 | 457,966 | 1,080,466 | 1,453,966 | 2,698,966 |
+| Y4 | -2,420,071 | -458,895 | 353,105 | 913,385 | 1,231,385 | 2,291,385 | -1,098,531 | 545,149 | 1,335,709 | 1,865,709 | 2,183,709 | 3,243,709 | -3,211,978 | -551,378 | 610,622 | 1,440,622 | 1,938,622 | 3,598,622 |
+| Y5 | -3,025,088 | -574,607 | 388,926 | 1,081,706 | 1,479,206 | 2,804,206 | -1,373,163 | 633,551 | 1,609,611 | 2,272,111 | 2,669,611 | 3,994,611 | -4,014,973 | -689,223 | 763,277 | 1,800,777 | 2,423,277 | 4,498,277 |
+| Y6 | -3,630,106 | -690,320 | 424,746 | 1,250,026 | 1,727,026 | 3,317,026 | -1,647,796 | 721,952 | 1,883,512 | 2,678,512 | 3,155,512 | 4,745,512 | -4,817,968 | -827,068 | 915,932 | 2,160,932 | 2,907,932 | 5,397,932 |
+| Y7 | -4,235,123 | -806,032 | 460,567 | 1,418,347 | 1,974,847 | 3,829,847 | -1,922,428 | 810,354 | 2,157,414 | 3,084,914 | 3,641,414 | 5,496,414 | -5,620,962 | -964,912 | 1,068,588 | 2,521,088 | 3,392,588 | 6,297,588 |
+| Y8 | -4,840,141 | -921,745 | 496,387 | 1,586,667 | 2,222,667 | 4,342,667 | -2,197,061 | 898,755 | 2,431,315 | 3,491,315 | 4,127,315 | 6,247,315 | -6,423,957 | -1,102,757 | 1,221,243 | 2,881,243 | 3,877,243 | 7,197,243 |
+| Y9 | -5,445,159 | -1,037,458 | 532,207 | 1,754,987 | 2,470,487 | 4,855,487 | -2,471,694 | 987,156 | 2,705,216 | 3,897,716 | 4,613,216 | 6,998,216 | -7,226,951 | -1,240,601 | 1,373,899 | 3,241,399 | 4,361,899 | 8,096,899 |
+| Y10 | -6,050,176 | -1,153,170 | 568,028 | 1,923,308 | 2,718,308 | 5,368,308 | -2,746,326 | 1,075,558 | 2,979,118 | 4,304,118 | 5,099,118 | 7,749,118 | -8,029,946 | -1,378,446 | 1,526,554 | 3,601,554 | 4,846,554 | 8,996,554 |
+
+### Runway blocks (how the two cash-burn tables are built)
+
+Both blocks sit below the "Numeric model inputs" on the Formula validation tab, appended 25 Sep 2026. Interpretation is in §3.
+
+**Inputs (B69:B81).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + MPF 2,032,972, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
+
+**Table 1, full burn.**
+- Annual net savings = the Zero columns' row 31 (London B31, Malvern H31, HK N31).
+- Monthly burn = −annual net savings ÷ 12.
+- Months = available funds ÷ monthly burn, for four pot combinations (cash; cash + MPF; cash + ISAs; cash + ISAs + MPF); years = months ÷ 12. Cash + MPF added 26 Sep 2026: the "spend the pension before the ISAs" case.
+- If burn is zero or negative the cell shows "No depletion". The MPF combination shows "n/a while in HK" for the HK column because MPF is only accessible on permanent departure.
+
+**Table 2, lean burn.**
+- Lean living costs per month (B108:D108) are typed snapshots of the expenses sheet's "Non-optional expenses total" row164 (London F, Malvern G, HK E), read 26 Sep 2026: 47,952.97 / 44,142.97 / 69,004.97. Not live-linked; refresh by hand after changing the expenses budget.
+- Lean annual savings = Zero annual savings + full annual living costs - lean monthly living costs x12. HK contents insurance is excluded through the lean living input. Rents, tax and resulting burn are unchanged.
+- Burn and runway rows then follow Table 1's formulas on the lean figures.
+- As of 26 Sep 2026 both runway tables are populated; all pot cases retain their previous results after restoring occupied-home costs to living expenses.
+
+**Not modelled in either:** rent voids, inflation, investment returns, a salary starting part-way, the board and car uplift the financial model applies to Malvern (see §4).
+
+---
+
+## 8. Change log
 
 | Date | What changed |
 |---|---|
+| 2026-09-27 | Absorbed the model companion: §6 inputs and assumptions, §7 mirrored tables and runway mechanics moved in from the former uk-relocation-cashflows note, which is now [[uk-relocation-expenses]] and covers the expenses sheet only. |
+| 2026-09-27 | Added the "What is deductible where" table to §2 after the Claude cross-check, so this note carries the letting-versus-occupied and UK-versus-HK rule itself. |
 | 2026-09-26 | Restored occupied-home housing to living inputs and letting-only property rows. Full/lean runway, tax and savings unchanged. HK actual letting expenses feed UK overseas-rental profit; HK Property Tax uses its separate statutory calculation. |
 | 2026-09-26 | Earlier, superseded: Housing running costs separated from living inputs; hotel moved to discretionary Transport. Combined spending, savings and runway unchanged. |
 | 2026-09-26 | Added TTI + UNI and TTI(S) + UNI; extra GBP20,000 schooling support treated as gross salary, existing fees and university reserve retained. |
@@ -268,18 +401,18 @@ Board and car are small lines, but Malvern's advantage is built from small lines
 
 ---
 
-## 7. How to update
+## 9. How to update
 
-1. Change inputs in the v3 sheet's "Numeric model inputs" block or the property rows; everything else recalculates. The three living-cost inputs are typed values from the cashflows sheet's "Expenses total" row and must be refreshed by hand.
+1. Change inputs in the v3 sheet's "Numeric model inputs" block or the property rows; everything else recalculates. The full and lean living-cost inputs are typed values from the expenses sheet's rows 168 and 164 and must be refreshed by hand.
 2. Confirm both validation rows read OK.
-3. Update §2 tables here and [[uk-relocation-cashflows]] Sections 2 and 3, and add a change log row in both if the structure changed.
+3. Update the §2, §6 and §7 tables here and add a change log row; if a living cost changed, update [[uk-relocation-expenses]] too.
 4. Keep findings here, not in the sheet.
 
 ---
 
 ## Related
 
-- [[uk-relocation-cashflows]] - model inputs, assumptions and mirrored tables
+- [[uk-relocation-expenses]] - the expenses sheet: itemised living costs by location, full and lean totals, refresh procedure
 - [[tax-rental-incomes]] - the property tax computation behind the tax rows
 - [[uk-relocation-savings-v3-codex-review-2026-09-25]] - the independent check of the sheet
 - [[uk-relocation-project]] - the project this feeds

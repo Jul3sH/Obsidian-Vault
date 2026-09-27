@@ -245,7 +245,7 @@ The 24 Sep version of this note also erred toward the wanted answer: it used 202
 - Capital gains: [CG78310](https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual/cg78310) (foreign currency), [HS283 (2026)](https://www.gov.uk/government/publications/private-residence-relief-hs283-self-assessment-helpsheet/hs283-private-residence-relief-2026)
 - Treaty: [2010 UK-Hong Kong DTA](https://www.gov.uk/government/publications/hong-kong-tax-treaties/2010-uk-hong-kong-double-taxation-agreement-in-force), Art. 6 and 21(2)(a)
 - UK rates 2026/27: [gov.uk](https://www.gov.uk/income-tax-rates)
-- Wiki inputs: [[financial-status-2026-07-07]], [[uk-move-financial-model]] §9, §11, §12, [[uktax-srt-fy26-27]] §5.11, §6.2, §8.8, §9.2, [[uk-relocation-cashflows]]
+- Wiki inputs: [[financial-status-2026-07-07]], [[uk-move-financial-model]] §9, §11, §12, [[uktax-srt-fy26-27]] §5.11, §6.2, §8.8, §9.2, [[uk-relocation-savings-comparison]] §6
 
 ---
 
