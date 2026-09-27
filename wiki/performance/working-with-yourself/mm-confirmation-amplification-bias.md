@@ -7,28 +7,28 @@ tags: [working-with-yourself, cognitive-bias, working-with-genai, mental-models]
 
 # MM: Confirmation-Amplification Bias
 
-This card names the personal form confirmation bias actually takes in Julian's work: it operates through the helper model, not through his own analysis. Documented as bias #4 in the [[commitment-lock-protocol]] register from the UK-move decision, where every quantitative error the helper made leaned toward the preferred answer and zero leaned the other way. The [[bias-history-review]] scan independently refuted the classic form (Julian's own record shows him commissioning adversarial reviews of his own conclusions) - the tilt lives in the model's output.
+This card names the form confirmation bias actually takes in Julian's work. It does not show up in his own thinking. It shows up in the output of the AI he is working with (Claude, or Codex when it reviews): the model's mistakes lean toward the answer he already wants. Documented as bias #4 in the [[commitment-lock-protocol]] register from the UK-move decision, where every numerical error the model made favoured the preferred answer and none went the other way. The [[bias-history-review]] scan independently refuted the classic form (Julian's own record shows him commissioning adversarial reviews of his own conclusions) - the tilt lives in the model's output.
 
-**One-liner:** The helper model amplifies your lean - its errors will all point your way unless a hostile pass hunts them.
+**One-liner:** The AI you work with leans the way you lean. Its mistakes will favour the answer you want unless a separate, hostile review hunts for them.
 
-**Reach for it when:** an AI-assisted analysis supports the answer you wanted; or reviewing any model-built case before acting on it.
+**Reach for it when:** an AI analysis agrees with what you hoped; or before acting on any case an AI built for you.
 
 ## Key Takeaways
 
 - The UK-move evidence: inflated runway, light living costs, a rigged asymmetry framing, a laundered caveat, a double-count - every error favouring the preferred option.
-- Your own scrutiny does not catch it, because the errors arrive wearing the authority of computed numbers.
+- You will not spot it by reading carefully, because the errors look like neutral calculated numbers.
 - The residual human form: rapid conviction from thin positive signals ("The role he described is an excellent fit actually", minutes after one call) - wishful reading rather than tilted analysis.
 
 ## Principles
 
-- **The case-builder never validates.** The model that helped build a case cannot be its reviewer.
-- **Errors that all lean one way are advocacy, not noise.**
+- **Whoever built the case cannot check it.** The model that helped build an argument must not be the one that reviews it.
+- **If every error points the same way, that is bias, not bad luck.**
 - **A number is not neutral because a machine produced it.**
 
 ## Guidelines
 
-- Every lock-level analysis gets an independent adversarial pass by a fresh model instance with a hostile brief (the [[commitment-lock-protocol]] division-of-labour rules).
-- Run the directional-error audit on any corrected analysis: which way did the errors lean?
+- Before any big decision is locked, a fresh model session with a hostile brief reviews the analysis (the [[commitment-lock-protocol]] division-of-labour rules).
+- After correcting any analysis, ask one question: which way did the errors lean?
 - On receiving a thin positive signal, log it as Hoped, not Banked, until it lands.
 
 ## Limitations

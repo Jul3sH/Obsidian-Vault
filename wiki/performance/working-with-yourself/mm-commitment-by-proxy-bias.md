@@ -7,29 +7,29 @@ tags: [working-with-yourself, cognitive-bias, working-with-genai, mental-models]
 
 # MM: Commitment-by-Proxy Bias
 
-This card names the bias of letting the model author a commitment - approving a drafted choice instead of making one. Documented as bias #9 in the [[commitment-lock-protocol]] register: Fable drafted the committed choice and wrote the anchor for the UK move; Julian approved but never authored, and the commitment did not hold.
+This card names the bias of saying yes to a decision Claude wrote up, and mistaking that yes for having decided. Documented as bias #9 in the [[commitment-lock-protocol]] register: Fable drafted the committed choice and wrote the anchor for the UK move; Julian approved but never authored, and the commitment did not hold.
 
-**One-liner:** A commitment the model drafted is not yours until you retype it.
+**One-liner:** If Claude wrote the decision and you only said yes, you have not decided yet. Write it yourself.
 
-**Reach for it when:** any lock-level decision, brief, or grounding statement is about to be recorded - and the words on screen were produced by the model.
+**Reach for it when:** a big decision, or the brief for a piece of work, is about to be recorded as final and Claude produced the words.
 
 ## Key Takeaways
 
-- Approving is cheaper than authoring, and the cheapness is the problem: a commitment that cost nothing to make costs nothing to abandon.
+- Saying yes to a draft is easy. That is the problem: a decision that cost nothing to make costs nothing to abandon.
 - The tell in the evidence: decisions "committed" in model-drafted documents reopened within days. The register holds commitment-by-proxy as its hypothesis for why (medium confidence), and the retyping rule is the test of it.
 - The same mechanism drives unbriefed work drift: gaps Julian leaves get filled with the model's assumptions, and the work becomes the model's idea of the task (the reason Prompt Zero must be in his own words).
 
 ## Principles
 
-- **Authorship is the commitment mechanism.** The act of writing it yourself is what binds.
-- **Approval is a review verdict, not a decision.**
-- **The model can build the case; only Julian can close it.**
+- **Writing it yourself is what makes it stick.**
+- **Saying yes to a draft is checking work, not making a choice.**
+- **Claude can build the case. Only Julian can make the call.**
 
 ## Guidelines
 
 - Lock condition 1: the committed choice is retyped by Julian, never model-drafted ([[commitment-lock-protocol]]).
 - Prompt Zero sections are written in Julian's own words; the model interviews, never drafts (the prompt-zero skill's core rule).
-- If a decision exists only in model-drafted text, treat it as proposed, not committed.
+- If a decision exists only in words Claude wrote, treat it as a proposal, not a commitment.
 
 ## Limitations
 

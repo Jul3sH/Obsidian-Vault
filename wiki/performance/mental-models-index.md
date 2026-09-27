@@ -95,14 +95,14 @@ sentences:
 - [[mm-decision-reopening-bias]] - The feeling that follows a locked decision is forecast, not evidence
 - [[mm-build-dont-adopt-bias]] - Building the system is the dopamine; adoption is the work - no build without a forcing function
 - [[mm-forgotten-system-bias]] - A redesign impulse toward a working system is usually forgetting, not failure - name the failure before touching the design
-- [[mm-confirmation-amplification-bias]] - The helper model amplifies your lean - its errors will all point your way unless a hostile pass hunts them
+- [[mm-confirmation-amplification-bias]] - The AI you work with leans the way you lean. Its mistakes will favour the answer you want unless a separate, hostile review hunts for them.
 - [[mm-recency-bias]] - Conviction re-anchors to the last warm voice, not the evidence
 - [[mm-certainty-spike-bias]] - From someone whose honest outputs are ranges, "100% convinced" is a warning light, not a green one
 - [[mm-answer-first-bias]] - A case written before the review is advocacy, not analysis
 - [[mm-optimism-accounting-bias]] - Hoped-for money is narrative; only banked money is runway
 - [[mm-loss-aversion-bias]] - A fear with no breachable floor gets no vote
 - [[mm-sunk-cost-bias]] - The question is where the money is best deployed now, never how to get back what was paid
-- [[mm-commitment-by-proxy-bias]] - A commitment the model drafted is not yours until you retype it
+- [[mm-commitment-by-proxy-bias]] - If Claude wrote the decision and you only said yes, you have not decided yet. Write it yourself.
 
 ### Working with GenAI
 

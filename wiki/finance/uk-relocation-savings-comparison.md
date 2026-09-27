@@ -74,6 +74,32 @@ TTI(S) means an additional GBP20,000 annual schooling allowance on the GBP230,00
 | High: GBP 150k | 2,718,308 | 5,099,118 | 4,846,554 |
 | Extra High: GBP 200k | 5,368,308 | 7,749,118 | 8,996,554 |
 
+### HK-return comparison at 6, 8 and 10 years (27 Sep 2026)
+
+The scenarios Julian compares for the return-to-HK-on-a-TTI-offer question ([[HK-Return-BRAIND]]). Six years is his minimum requirement and aim; 8 and 10 are the longer-tenure cases. HK$ cumulative net savings.
+
+| Scenario | What it stands for (Julian's words) | Year 6 | Year 8 | Year 10 |
+|---|---|---:|---:|---:|
+| Malvern 135k | What he is likely to earn as a contractor based in Malvern | 2,678,512 | 3,491,315 | 4,304,118 |
+| London 135k | Contractor earnings if circumstances change and he goes to London | 1,250,026 | 1,586,667 | 1,923,308 |
+| Malvern Extra High (£200k) | A TTI role on current salary, done from the UK, Malvern base | 4,745,512 | 6,247,315 | 7,749,118 |
+| London Extra High (£200k) | A TTI role on current salary, done from the UK, London base | 3,317,026 | 4,342,667 | 5,368,308 |
+| HK, TTI + UNI (£230k) | If he goes to Hong Kong. After the £15k/yr university reserve, which stops in year 7 | ~6,012,000 | ~8,316,000 | ~10,620,000 |
+| HK, TTI(S) + UNI (£250k) | If he goes to Hong Kong and gets schooling in the package (£20k/yr allowance, taxed as salary). Same reserve | ~7,032,000 | ~9,676,000 | ~12,320,000 |
+
+UK rows are read from the §7 cumulative table of this note (FIG for years 1 to 4, no-FIG tax from year 5). HK rows are derived from the sheet's annual TTI figures (GBP 100,200 or 117,200 a year for years 1 to 6, then 115,200 or 132,200 once the university reserve stops), summed and converted at FX 10. They are not sheet cumulative cells.
+
+| Ratio | Year 6 | Year 8 | Year 10 |
+|---|---:|---:|---:|
+| HK TTI + UNI vs Malvern 135k | 2.2x | 2.4x | 2.5x |
+| HK TTI + UNI vs Malvern Extra High | 1.3x | 1.3x | 1.4x |
+| HK TTI(S) + UNI vs Malvern 135k | 2.6x | 2.8x | 2.9x |
+| HK TTI(S) + UNI vs Malvern Extra High | 1.5x | 1.6x | 1.6x |
+| Gap, HK TTI + UNI minus Malvern Extra High (HK$) | 1.27M | 2.07M | 2.87M |
+| Gap, HK TTI(S) + UNI minus Malvern Extra High (HK$) | 2.29M | 3.43M | 4.57M |
+
+The £200k band stands in for a UK-based TTI role. The TTI base modelled here is £230k, so the proxy already carries a £30k gross haircut for being UK-based; if the UK version paid the full amount, the Extra High rows would be understated.
+
 ### Tax on salary, effective rate
 
 | Band | UK (London, Malvern) | Hong Kong | Gap |
@@ -389,6 +415,7 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 
 | Date | What changed |
 |---|---|
+| 2026-09-27 | Added the HK-return comparison block at 6, 8 and 10 years (Malvern and London at 135k and Extra High; TTI + UNI and TTI(S) + UNI derived from annual figures). Mirrors the executive summary in HK-Return-BRAIND. |
 | 2026-09-27 | Absorbed the model companion: §6 inputs and assumptions, §7 mirrored tables and runway mechanics moved in from the former uk-relocation-cashflows note, which is now [[uk-relocation-expenses]] and covers the expenses sheet only. |
 | 2026-09-27 | Added the "What is deductible where" table to §2 after the Claude cross-check, so this note carries the letting-versus-occupied and UK-versus-HK rule itself. |
 | 2026-09-26 | Restored occupied-home housing to living inputs and letting-only property rows. Full/lean runway, tax and savings unchanged. HK actual letting expenses feed UK overseas-rental profit; HK Property Tax uses its separate statutory calculation. |

@@ -30,6 +30,6 @@ Every bias with an mm card, wherever the card lives. A bias is a recurring patte
 | Optimism-accounting bias | A number enters a plan or model that depends on something that has not yet happened | [[mm-optimism-accounting-bias]] |
 | Loss-aversion bias | A safe option pulls ahead on protecting something no scenario actually threatens | [[mm-loss-aversion-bias]] |
 | Sunk-cost bias | Holding or continuing anything with reasoning that references what was already spent | [[mm-sunk-cost-bias]] |
-| Commitment-by-proxy bias | A commitment or grounding brief is about to be recorded in model-drafted words | [[mm-commitment-by-proxy-bias]] |
+| Commitment-by-proxy bias | A decision or work brief is about to be recorded as final in words Claude wrote | [[mm-commitment-by-proxy-bias]] |
 | Payoff-vs-prestige bias | Choosing learning or research that feels exciting to explain to people who matter | [[mm-payoff-vs-prestige-bias]] |
 | Fear-disguise bias | An elaborate, reasonable-sounding case is forming against doing something scary | [[mm-fear-disguise-bias]] |

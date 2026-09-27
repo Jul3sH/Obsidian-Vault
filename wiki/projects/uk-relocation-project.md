@@ -36,6 +36,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-27)
 
+**27 Sept, evening - HK-return intuition moved on; a UK-based TTI alternative is now on the table.** After the redone savings comparison, Julian's gut ranks one chain as CRITICAL: removed after Horst goes, about year three, with Sophia one year into GCSEs, locked into HK international fees and unable to return for home-fee status, and his lean has shifted toward landing the TTI job from a UK base (Malvern or London). Open and urgent: whether to raise that shape with Stephan before he goes to Ty this week. Capture only; B/R/A still not run. Record: [[HK-Return-BRAIND]].
+
 **27 Sept, later still - Wiki companions restructured around how Julian reads them.** [[uk-relocation-savings-comparison]] is now self-contained (deductibility table, model inputs, assumptions, mirrored tables and runway mechanics all inside it). The former model companion is renamed [[uk-relocation-expenses]] and covers the expenses sheet only, which itself is renamed UK Relocation Expenses. Ten inbound links repointed. Record: [[savings-v3-review]].
 
 **27 Sept, later - Claude cross-check of the restored expense structure: passed.** Living inputs, single-counting of every property cost, the UK versus HK tax split and both runway tables re-derived by value; no spreadsheet change needed. The rates/government-rent question is bounded at +HK$646/yr worst case and most likely already rates-only. Two stale companion lines corrected; [[tax-rental-incomes]] headline tables still quote the narrower expense set. Record: [[savings-v3-review]].
@@ -293,6 +295,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-27 | [[HK-Return-BRAIND]] second intuition block: ten-year TTI run worth ~4x Malvern but gut says the tenure will not survive Horst leaving; logged as the CRITICAL risk: job lost mid-GCSE, locked into HK fees, home-fee route closed; new Alternative added, TTI job from a UK base (Malvern or London); open task to decide whether to raise it with Stephan before Ty. |
 | 2026-09-27 | [[HK-Return-BRAIND]] promoted to the Trusted Artifacts table (it was in the File Map and status log only). No content change to the workspace; still capture-only pending written TTI terms and the wobble #5 F-N-M-T run. |
 | 2026-09-27 | Companions restructured: model inputs, assumptions, mirrored tables and runway mechanics moved into [[uk-relocation-savings-comparison]] (§6, §7) plus a "What is deductible where" table in §2; uk-relocation-cashflows renamed [[uk-relocation-expenses]] and slimmed to the expenses sheet; Google Sheet renamed UK Relocation Expenses; finance index, File Map and ten inbound links repointed. |
 | 2026-09-27 | Claude cross-check of the restored expense structure: passed. Living inputs, single-counting, UK/HK tax split and runway re-derived by value; no sheet change. Rates question bounded at +HK$646/yr worst case. Stale row-177 description here and the [[uk-relocation-expenses]] §3 letting-cost basis corrected; [[tax-rental-incomes]] headline refresh queued. [[savings-v3-review]]. |
