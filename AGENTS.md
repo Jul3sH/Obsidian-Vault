@@ -62,9 +62,9 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   `MM: <Name>`, and listed in `mental-models-index.md`. Defined in
   `documentation-conventions.md` Part 1; reference implementation is
   `mm-verification.md`. Never invent an ad-hoc structure for a mental model.
-- **BRAIND files use the standard thirteen-section format** (purpose, current
-  status banner, executive summary, Intuition Log, claims to test, B, R, A, N, D,
-  Links, Document Log, Time and Token Log with Session Synopsis) defined in
+- **BRAIND files use the standard twelve-section format** (purpose, status, B, R, A,
+  Intuition Log, claims to test, N, D, Links, Document Log, Time and Token Log with
+  Session Synopsis) defined in
   `documentation-conventions.md` Part 1. One question, one file, named
   `<Question>-BRAIND.md` in the decision's workspace folder; Julian's words, no
   coined labels; D written by Julian. An option's B and R rows may be split into
