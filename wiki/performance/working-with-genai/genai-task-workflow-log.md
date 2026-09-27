@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-27 · Build + Verification · Worked · [[savings-v3-review]] visible rules
+
+- **Work:** Luna added visible rules panels in both spreadsheets, at Julian's request for cheaper delegation.
+- **Check:** Parent reviewed every rule and compared all existing values/formulas against fresh snapshots; unchanged. Clarified tax jurisdiction during review.
+- **Outcome:** Classification and refresh instructions live beside the model. Incremental tokens unmeasured.
+- **Lesson:** Verification: the word deductible needs a named tax jurisdiction when two tax systems apply.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-26 · Build + Verification · Worked · [[savings-v3-review]] restored housing
 
 - **Work:** Restored occupied-home housing to living costs and rental-only property expense rows; aligned both companion notes.

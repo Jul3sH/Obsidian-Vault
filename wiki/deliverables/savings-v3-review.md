@@ -6,6 +6,7 @@ This records the independent review of the v3 relocation savings spreadsheet. Ju
 
 - Serves [[uk-relocation-project]] and its financial comparison.
 - As of 25 Sep 2026: review complete; findings in [[uk-relocation-savings-v3-codex-review-2026-09-25]]. Agreed spreadsheet repairs and appended runway tables completed and independently verified; completion records below.
+- As of 27 Sep 2026: Claude cross-check of the restored expense structure passed; no material defects, no sheet change. Section below.
 
 ## Prompt Zero
 
@@ -36,6 +37,10 @@ Julian chose the simplest split and resumed it after deleting redundant cashflow
 ### Restored split authorised, 26 Sep 2026
 
 Julian instructed: non-deductible expenses remain in cashflow living expenses; property expense rows contain rental expenses only. Restore occupied costs to living inputs, preserve mortgage handling and distinguish UK overseas-property deductions from HK statutory Property Tax. Parent implements and verifies all20 scenarios and both runway tables. Supersedes the earlier housing transfer.
+
+### Visible rules authorised, 27 Sep 2026
+
+Julian requested subagents and clear rules within both spreadsheets. Luna adds visible rules in unused space; parent checks wording and unchanged existing calculations. No numerical assumptions change.
 
 ## Follow-up verification, 25 Sep 2026 (before delegated repairs)
 
@@ -212,10 +217,37 @@ User resumed the agreed split after deleting redundant cashflow/burn blocks, the
 - Verification: fresh live before/after comparison of440 outputs, zero differences above0.001 and no formula errors. All40 validation cells remain OK. Formatting preserved through field-specific writes; API-only visual check. No broader tax-rate or university-reserve changes.
 - Remaining evidence point as of26 Sep: cashflow calls its HK charge "Gov rates & rent" while tax input B59 treats HKD14,348 as rates. Confirm the rates-only component from the bill; government rent must not reduce HK Property Tax. No unsupported numerical change made.
 
+## Visible rules added, 27 Sep 2026
+
+Luna added matching rules panels at savings B134:H143 and cashflow B170:H179: occupied-home versus rental costs, UK versus HK tax deductions, count each cost once, mortgage treatment, full/lean source rows and manual refreshes, and rates-only confirmation. HMRC/IRD links included. Parent reviewed all wording and compared all existing cell values and formulas across savings A1:U132 and cashflow A1:H168: zero differences. New panels use wrapped merged cells; API formatting checked, native render unverified.
+
+## Claude cross-check of the restored structure, 27 Sep 2026
+
+Read-only review by Claude (Fable 5.1) of the 26 to 27 Sep handover. Both live sheets were read by value through the Drive connector (formulas not visible, so formula preservation rests on Codex's 440-output comparison), plus the four companion files.
+
+**Verdict: the expense structure is right, and the two sheets agree with each other and with the companions. No spreadsheet change needed.**
+
+Confirmed by independent arithmetic:
+- All four living inputs re-derived from the itemised cashflow to the cent (full 70,234.47 / 62,284.47 / 86,498.30; lean 47,952.97 / 44,142.97 / 69,004.97); annual living rows equal x12.
+- Each property cost appears once per scenario: occupied-home costs sit in cashflow Housing (HK 3,726.83, London 2,210, Malvern 0) with savings rows 18/20 zero for the occupied home; letting costs appear only in rows 18/20 when let. Mortgage principal and interest are in cashflow only; the UK 22% interest credit and the HK no-deduction are both correct.
+- Jurisdiction split correct: row 20 (49,046, rates included) feeds the UK overseas-property profit; HK Property Tax uses B59 rates and the 20% statutory allowance only. Sheet tax figures (Lon 135k 60,026; non-resident Cecil 23,615; Lon Zero 0) match the fuller-expense-set figures in [[tax-rental-incomes]] §3.
+- Zero-column annual savings, HK Property Tax and both runway tables re-derived by hand; all agree.
+
+Findings, none material to the location ranking:
+1. **Rates versus government rent is bounded at +HK$646/yr.** Worst case (14,348 is the combined 5% rates plus 3% government rent bill) puts rates at 8,968 and HK Property Tax at 37,804. In salaried columns the extra HK tax becomes extra UK credit, so the combined bill is unchanged; only the Zero columns move, and cash-only runway by under 0.1 month. Plausibility favours rates-only: 14,348 at 5% implies a rateable value of about HK$23,900/mo, consistent with a HK$22-27k rent; at 8% it implies about HK$14,900/mo, too low. Confirm from the RVD demand note, which itemises the two. Downgraded from unresolved input to a bill check.
+2. **[[tax-rental-incomes]] headline tables lag the sheet.** §1, §2 and Key Takeaways quote £6,475 / £152 / £2,343 on the narrower expense set; the sheet uses the fuller set (£6,003 / £0 / £2,361), as the article's own §3 note anticipates. Refresh them, or anyone quoting the article will differ from the model by about £470/yr. Not edited here.
+3. **[[uk-relocation-project]] Trusted Artifacts described cashflow row 177 as the net-of-property-income cashflow.** Stale: that block was deleted 26 Sep and row 177 is now inside the rules panel. Corrected in this operation to rows 168 (full) and 164 (lean).
+4. **[[uk-relocation-cashflows]] §3 letting-cost lines were reconstructed from rounded monthly figures** (49,050 and £4,141 against sheet inputs 49,046 and 4,140). Restated on the annual basis in this operation.
+5. Cosmetic, cashflow sheet, no numeric effect: column C estimates "HK Lettings fee 1,125" and "UK Letting/management 2,460" are stale against the savings inputs and unused; "Weekly Octopus when working" (E) is labelled non-optional but summed as discretionary, as is the unlabelled London Oyster line. Clear or relabel at the next budget refresh.
+
+Not checked: formulas (values only); FIG eligibility and residence, which remain conditional per Prompt Zero.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
+| 2026-09-27 | Claude cross-check session (Fable 5.1) | 909,281 tokens (output 143,453 + cache-write 765,828) | Session `c82c95e1`, 32 assistant messages, summed from the transcript JSONL before the final handback message. Cache reads (3.5M) omitted as not effort. Julian's attended minutes: pending at handback. |
+| 2026-09-27 | Luna rules panels and parent verification | Incremental tokens unmeasured | Latest log checkpoint128541 for thread01a0d888-485e-78b0-8818-2f76c850d1ad is cumulative and not comparable with prior checkpoints; delegate usage unavailable. |
 | 2026-09-26 | Codex restored housing split | Unmeasured incremental tokens | Direct native edits,440-output before/after verification; no new subagents. |
 | 2026-09-25 | Codex interactive thread | 214,260 tokens measured at bookkeeping checkpoint | Per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite`; thread `01a0d888-485e-78b0-8818-2f76c850d1ad`. Includes earlier column-edit and connector discussion turns; review-only effort is unmeasured. No external CLI or subagent run. |
 | 2026-09-25 | Codex follow-up verification | Unmeasured incremental tokens | Same thread; live reads, formula comparisons and 198 savings checks. |

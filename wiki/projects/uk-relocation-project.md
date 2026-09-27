@@ -9,7 +9,7 @@ hard-date: 2026-09-15
 wsjf: n/a
 por-key: POR-17
 jira-key: BWS-14
-status-updated: 2026-09-26
+status-updated: 2026-09-27
 ---
 
 This is the status and evidence hub for the UK relocation project. It brings the decision and execution work together so Julian can see the current position, follow the supporting records and choose the next action. Internal only, `send: NEVER`.
@@ -22,7 +22,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 | Artifact                                                                                                                     | What it is                                                                                                                                                                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Relocation Cash Flows](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit)            | Single source of truth for cashflow and expense forecasts (burn rates, pot, runway). Cashflow row 177 = monthly HKD net of property income.                                                                                                             |
+| [Relocation Cash Flows](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit)            | Itemised living costs by location. Row 168 (Expenses total, full) and row 164 (Non-optional total, lean) feed the savings sheet's living inputs; property income, letting costs, property tax and runway live in the savings sheet.                                                                                                             |
 | [[uk-relocation-cashflows\|UK Relocation Cashflows (wiki)]] | Model companion to both Google Sheets: the two sheets and their roles, property income by scenario, assumptions (2027/28 property rates, FIG, HK Property Tax, HK allowance), living costs, mirrored 20-column salary / tax / savings and Y1 to Y10 tables, runway mechanics. Rebuilt 25 Sep 2026. |
 | [UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) | **The live model.** 20 columns (London, Malvern, HK x Zero / 75k / 110k / 135k / 150k / 200k, plus TTI + UNI and TTI(S) + UNI), property income and letting costs, HK Property Tax and UK property tax with the FIG choice, FIG expiry after four years, runway blocks (full and lean, four pot combinations). Tab "Formula validation". Supersedes the July sheet (1HuBwQv..., retired). |
 | [[uk-relocation-savings-comparison\|UK Relocation Savings Comparison (wiki)]] | **Key findings document.** Executive summary, the numbers, cash burn tables with the formula, why Malvern still beats Hong Kong including surviving at Mum's house (lean and full budgets, honest adjustments), caveats, change log. Rebuilt 25 to 26 Sep 2026. |
@@ -33,7 +33,11 @@ This is the status and evidence hub for the UK relocation project. It brings the
 | [[uktax-srt-fy26-27\|UK Tax - Statutory Residence Test FY26/27]] | **Canonical UK tax-residency position for Julian and Sophia.** Statutory Residence Test analysis for 2026/27 and forward exposure to 2028/29: day-count thresholds and dates, the ties position, the Hong Kong flat's role in defeating the second automatic UK test, the boarding-school scenario from Sept 2028, and the third automatic overseas test route if a Hong Kong job proceeds. Verified against FA 2013 Sch 45 and the HMRC RFIG manual; peer-reviewed (Fable, 3 rounds) and adversarially reviewed (Codex). |
 | [[tax-rental-incomes\|Tax on Rental Incomes]] | Tax on letting the DB flat and Cecil Road as a UK resident: four scenarios on 2026/27 and 2027/28 property rates, HK Property Tax, UK credits, and the year-by-year FIG claim rule. Codex-reviewed 25 Sep 2026. |
 
-## Status (as of 2026-09-26)
+## Status (as of 2026-09-27)
+
+**27 Sept, later - Claude cross-check of the restored expense structure: passed.** Living inputs, single-counting of every property cost, the UK versus HK tax split and both runway tables re-derived by value; no spreadsheet change needed. The rates/government-rent question is bounded at +HK$646/yr worst case and most likely already rates-only. Two stale companion lines corrected; [[tax-rental-incomes]] headline tables still quote the narrower expense set. Record: [[savings-v3-review]].
+
+**27 Sept - Cost and tax rules made visible in both spreadsheets:** Rules panels explain cashflow versus letting expenses, jurisdiction-specific deductions, mortgage treatment and manual full/lean input refreshes. Existing values and formulas unchanged. Record: [[savings-v3-review]].
 
 **26 Sept - Occupied-home housing restored to living expenses:** Savings property rows now contain letting expenses only. Full cashflow source168 and lean164 include occupied housing; obsolete outputs169/170 cleared. All440 checked savings, tax and runway outputs unchanged. Details in [[uk-relocation-cashflows]], [[uk-relocation-savings-comparison]] and [[savings-v3-review]].
 
@@ -135,9 +139,9 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Decision: COMMITTED to MOVE, London direct (4-7 Jul).** MOVE committed 4 Jul after full BRAINED analysis and Fable adversarial review. London-direct (live in Cecil Road) resolved 7 Jul and survived a Fable hostile review with conditions. Financials fully modelled: net worth ~£1.2M; London funded ~4 years with zero income on liquid + MPF, ISAs and both properties untouched. **Cecil Road tenant notice SERVED 7 Jul** - the decision is anchored in the world.
 
-**Next actions (prioritised, finance refreshed 25 Sep 2026):**
+**Next actions (prioritised, finance refreshed 27 Sep 2026):**
 
-- **26 Sep: future budget refreshes use full cashflow168 and lean164, including occupied housing. Confirm the HK rates-only component of the combined rates/rent bill against B59.** University inputs remain B125:B127.
+- **27 Sep: confirm the rates-only figure in B59 from the RVD demand note (bounded: +HK$646/yr worst case, immaterial to ranking); refresh [[tax-rental-incomes]] §1, §2 and Key Takeaways to the fuller expense set the sheet uses.** Future budget refreshes use full cashflow168 and lean164, including occupied housing. University inputs remain B125:B127.
 - **26 Sep: review TTI + UNI and TTI(S) + UNI columns T/U and university inputs B125:B126; salary continues after year6.**
 - **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
 
@@ -286,6 +290,8 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-27 | Claude cross-check of the restored expense structure: passed. Living inputs, single-counting, UK/HK tax split and runway re-derived by value; no sheet change. Rates question bounded at +HK$646/yr worst case. Stale row-177 description here and the [[uk-relocation-cashflows]] §3 letting-cost basis corrected; [[tax-rental-incomes]] headline refresh queued. [[savings-v3-review]]. |
+| 2026-09-27 | Luna added visible cost/tax rules in [savings B134:H143](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=B134:H143) and [cashflow B170:H179](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137&range=B170:H179). Parent verified existing values/formulas unchanged and reviewed wording. [[savings-v3-review]]. |
 | 2026-09-26 | Restored occupied-home costs to living expenses in [savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) and cleared obsolete excluding-housing outputs in [cashflow](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit).440 outputs unchanged. Companions [[uk-relocation-cashflows]], [[uk-relocation-savings-comparison]]; record [[savings-v3-review]]. |
 | 2026-09-26 | **Housing split completed.** [Cashflow rows169/170](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137&range=A168:G170) feed excluding-housing budgets; [savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357) deducts occupied-home costs in property rows.440 outputs unchanged. Companions [[uk-relocation-cashflows]] and [[uk-relocation-savings-comparison]] updated; record [[savings-v3-review]]. |
 | 2026-09-26 | **Cash + MPF case added** to both [savings runway tables](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A79:D119). Independent result checks passed; model results unchanged. Manifest: [[savings-v3-review]]. |

@@ -56,8 +56,8 @@ Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View pr
 | UK tax when non-resident (HK scenario) | Cecil Road profit less personal allowance at 22%, less 22% interest credit: £2,361/yr |
 | Salary bands | £0 / 75k / 110k / 135k / 150k / 200k in every location; HK$ at 10:1. Robert Half UK and HK 2026 guides are context only |
 | Rents | Pine View HK$27,000/mo (target; agent estimated 22,000); Cecil Road £2,500/mo (target; May 2026 statement) |
-| Letting costs, Pine View | DB management 2,054 + rates 1,196 + buildings insurance 275 per month, plus agent fee HK$13,500 per two-year tenancy: HK$49,046/yr |
-| Letting costs, Cecil Road | Brinkleys £270/mo + rent protection £36/mo + buildings insurance £469/yr: £4,140/yr |
+| Letting costs, Pine View | Annual basis: DB management 24,648 + rates 14,348 (B59) + buildings insurance 3,300 + agent fee 6,750 (HK$13,500 per two-year tenancy): HK$49,046/yr. Monthly equivalents 2,054 / 1,196 / 275 are rounded; use the annual figures |
+| Letting costs, Cecil Road | Brinkleys £3,240 + rent protection £432 + buildings insurance £469 = £4,141 by arithmetic; sheet input retained at £4,140 (£1 rounding) |
 | Living costs | Cashflows sheet "Expenses total" per location (see §4); mortgage payments retained; held constant, no inflation |
 | Salary growth, investment returns, pension, MPF, starting pot | Not modelled |
 
