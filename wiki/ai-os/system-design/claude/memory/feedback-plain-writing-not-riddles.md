@@ -6,7 +6,7 @@ metadata:
   type: feedback
   created: 2026-08-09
   originSessionId: 0ba631ad-8f02-48f1-bd6f-39c82188c613
-  modified: 2026-09-19T15:51:52.083Z
+  modified: 2026-09-27T00:00:00.000Z
 ---
 
 # Write plainly, quote precisely
@@ -23,5 +23,7 @@ metadata:
 **How to apply:** when summarising a source, prefer quoting close to verbatim over compressing into a punchier claim. When writing generally, favour direct plain sentences over aphoristic rhetorical patterns. This applies everywhere, not just TTI documents.
 
 **Second instance (19 Sep 2026):** *"you're talking cryptic, garbled rubbish. Can you talk in English, please, and drop the jargon?"* Triggered by a results summary containing compressed pipeline-speak: "the scan's 'find new patterns' mandate partially covered the gap, and the confirmed findings map onto some of them." The failure mode extends beyond aphorisms: **status updates and results summaries written in internal shorthand** (mandate, map onto, covered the gap, seeded, tier) instead of plain sentences describing what actually happened. Before sending any summary to Julian, reread it as someone who was not present during the work: every term invented during the task must be replaced with what it plainly means.
+
+**Third instance (27 Sep 2026):** *"what is the 'leaving-Mum's drift'?"* then *"please make sure it's logged using plain English and not your own handmade jargon."* While logging a risk Julian had just described in plain words (get into a relationship, move out of Mum's, savings move toward the London 135k figure), the reply and the file coined shorthand for it ("leaving-Mum's drift", "the London 135k line", "read-across", "proxy", "haircut", "load-bearing"). The rule for wiki files as well as chat: **record a risk, claim or option in the words Julian used, and never give it a coined label.** If a shorter handle is needed, ask him for one.
 
 Related: [[feedback-bare-identifiers]] (same session, same root cause - precision over cleverness in how information is carried to Julian).
