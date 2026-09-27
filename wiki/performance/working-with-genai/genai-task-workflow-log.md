@@ -311,3 +311,23 @@ steering) so the log is queryable by step as well as by type. Newest first.
   confirm before deleting. Delegating the mechanical restructure with a fixed
   spec was the right routing and produced zero content errors.
 
+## 2026-09-27 · Sheet change + companion re-read · Worked, with one self-inflicted loss · [[savings-v3-review]]
+
+- **Work:** Codex built the university reserve into every column of the savings
+  sheet; Claude read the sheet, briefed a subagent with every new figure, and the
+  subagent re-read all nine sections of the companion note. Downstream files
+  updated by Claude.
+- **Check:** Sheet validation cells (all OK); subagent reported item by item and
+  listed what it could not match; Claude spot-checked headings, tables and figures
+  against the sheet; Julian confirmed the reserve total.
+- **Outcome:** Worked. Julian 15 attended minutes. Codex about 699k tokens,
+  subagent 126k. The subagent's "these tables do not exist" report exposed that a
+  Claude edit earlier the same day had deleted two tables from the note; both
+  rebuilt from the sheet.
+- **Lesson:** Step at fault: verification, Claude's. A find-and-replace anchored on
+  a generic table header ("| Scenario ") matched an earlier table and silently
+  removed everything between it and the target. Anchor replacements on a unique
+  heading, and diff the section count before and after any block replacement.
+  Routing worked: sheet to Codex, companion re-read to a subagent with the
+  figures in the brief, verification by the parent.
+

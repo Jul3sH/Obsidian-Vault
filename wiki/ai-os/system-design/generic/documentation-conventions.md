@@ -134,8 +134,8 @@ workspace folder under `wiki/performance/decision-journal/`. Frontmatter:
 
 | # | Section | Holds | Rules |
 |---|---|---|---|
-| 1 | Purpose block + section map | What the file is, why it was opened, how it is used, then one line per section | Per the AGENTS.md purpose-block rule |
-| 2 | Status banner | The current position only, dated, opening `⚠ Status (date):`, a few lines | Rewritten in place when the position changes. Superseded entries move to the Document Log (Part 1 item 6). The project page carries the cross-project view and links here |
+| 1 | Purpose | A `## Purpose` heading and one sentence only: the question (or, for a split file, the option whose B and R rows it holds). No section map: the BRAIND sections are self-explanatory | Per the AGENTS.md purpose rule: the question is the what and the why. Why the file was opened and how it is used go to the Document Log as a dated row (rule set 27 Sep 2026) |
+| 2 | Status | A `## Status` heading, then the banner: the current position of this document only, dated, opening `⚠ Status (date):`, a few lines. Decision and project state go to the project status surface | Rewritten in place when the position changes. Superseded entries move to the Document Log (Part 1 item 6). The project page carries the cross-project view and links here |
 | 3 | Executive summary | The numbers that decide the question, as one table: scenarios described in Julian's words, figures read from the canonical model with the source named | Derived figures are marked derived. A "what these numbers say" list follows, marked untested until B runs |
 | 4 | I - Intuition Log | Append-only dated blocks in Julian's words, recorded before the analysis | The model never rewrites, summarises away, or labels an entry. Later entries may contradict earlier ones; both stand |
 | 5 | What the intuition asks the analysis to check | Numbered table: the claim the gut relies on, Fact / Assumption / Belief, where it gets tested | A resolved claim is marked resolved with the date and Julian's words, never deleted. Referred to by number plus what it says, never number alone |
@@ -155,7 +155,7 @@ workspace folder under `wiki/performance/decision-journal/`. Frontmatter:
 - Every status claim inside the file is dated (AGENTS.md rule). The banner holds the current position only; on every edit, rewrite it and move what it replaced to the Document Log.
 - Numbers come from the canonical model file and say so; a figure computed outside the model is marked derived and the model change it implies is logged as an open task.
 
-Reference implementation: [[HK-Return-BRAIND]] (opened 24 Sep 2026). Split B-and-R files: [[HK-BRAIND]], [[London-BRAIND]], [[Malvern-BRAIND]] (August 2026; they predate this convention and lack the purpose block and dated status line).
+Reference implementation: [[HK-Return-BRAIND]] (opened 24 Sep 2026). Split B-and-R files: [[HK-BRAIND]], [[London-BRAIND]], [[Malvern-BRAIND]] (August 2026; brought to this convention 27 Sep 2026).
 
 ### When adding hierarchy - Claude's check
 Before creating new folders, nesting, or per-item files, sanity-check:

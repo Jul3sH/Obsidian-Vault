@@ -62,7 +62,7 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   `MM: <Name>`, and listed in `mental-models-index.md`. Defined in
   `documentation-conventions.md` Part 1; reference implementation is
   `mm-verification.md`. Never invent an ad-hoc structure for a mental model.
-- **BRAIND files use the standard thirteen-section format** (purpose block, current
+- **BRAIND files use the standard thirteen-section format** (purpose, current
   status banner, executive summary, Intuition Log, claims to test, B, R, A, N, D,
   Links, Document Log, Time and Token Log with Session Synopsis) defined in
   `documentation-conventions.md` Part 1. One question, one file, named
@@ -129,19 +129,21 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
 - When the user asks you to "audit" or "lint", review the wiki for inconsistencies,
   broken links, gaps, and suggest improvements.
 
-## Purpose Block (mandatory, every deliverable and artefact)
+## Purpose (every file opens with one)
 
-**Every file must open with a purpose block, before any other content.** Two to four
-sentences in plain language answering three questions:
+**Every file opens with a `## Purpose` heading, before any other content.** One or two
+sentences in plain language:
 
 1. **What is this?** In one sentence, what the document actually is.
-2. **Why was it created?** What prompted it, and what it is for.
-3. **How is it used?** Who reads it, when, and what they do with it (including
-   `send: NEVER` / internal-only status where that applies).
+2. **Why does it exist?** What it is for. Where the why is obvious from the what (a
+   BRAIND file's purpose is its question), the what alone is enough.
+
+Not how it is used, not who reads it, not its history. Those belong in the body, the
+Document Log, or the project status surface.
 
 **It goes above everything else** - above status callouts, revision history, review
 verdicts, warning banners, and frontmatter-adjacent notes. Where a document is long
-or sectioned, follow the purpose block with a one-line-per-section map so the reader
+or sectioned, follow the purpose with a one-line-per-section map so the reader
 can navigate without reading it end to end.
 
 **Why this rule exists.** A document whose first content is its own revision history,
@@ -149,7 +151,8 @@ a review verdict table, or a hardening log forces the reader to reverse-engineer
 the document is for before they can use it. Meta-content *about* a document is not the
 document. This was written after [[tti-ea-governance-value]] - genuinely high-value
 material - went unused for three weeks partly because opening it presented an
-adversarial-review attack table rather than a statement of what it was.
+adversarial-review attack table rather than a statement of what it was. Cut from
+what/why/how to what/why on 27 Sep 2026: a purpose does not need a how.
 
 **Applies to:** wiki articles, deliverables, artefacts, prep documents, reviews,
 registers, and meeting notes. Index files are exempt (their purpose is self-evident
@@ -370,7 +373,7 @@ and fits one 2h box, the full define/Prompt-Zero ceremony is replaced by a
    2-3 binary done-criteria, the one load-bearing assumption, a named verifier for
    every output.
 2. A terse deliverable record file is written immediately (record, not ceremony:
-   purpose block, criteria, Time and Token Log).
+   purpose, criteria, Time and Token Log).
 3. Execution follows in the same session. Never split admission from execution
    across sessions: context decay doubles the cost.
 4. Unchanged: time/token logging, adversarial coverage, sampling-scope sign-off,

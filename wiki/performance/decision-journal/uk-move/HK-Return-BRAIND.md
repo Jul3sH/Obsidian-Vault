@@ -12,13 +12,9 @@ decision: Return to Hong Kong on a TTI offer
 
 This is the BRAIND workspace for one question: **if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move?**
 
-**Sections:** Purpose and this map · Status banner · Executive summary (six-year comparison) · I - Intuition Log (live, append-only) · What the intuition asks the analysis to check · B - Benefits · R - Risks · A - Alternatives · N - Need time / Nothing · D - Decision · Links · Document Log · Time and Token Log and Session Synopsis
+## Status
 
-> ⚠ **Status (27 Sep 2026):** B and R are populated from the August [[HK-BRAIND]], unscored, with only R row 1 (the CRITICAL job-loss-mid-GCSE chain) ranked. A holds the candidate alternatives listed so far, Julian's 27 Sep lean (TTI from the UK) and its differences table. N and D have not been run.
-> Written terms from Horst are still absent, the wobble #5 F-N-M-T test in [[dec-uk-move]] has not been run, and this file has no `## Prompt Zero` section yet.
-> Standing warning carried from the journal: stay-HK is the emotionally warm option and bias #6 names TTI as a Hoped item. Both 24 Sep intuition entries lean HK; the 27 Sep entries lean toward TTI from the UK. Read them knowing that.
-
-**How this file relates to the earlier documents.** The facts (Horst channel, 14 Sep lunch, custody escalation) are in the [[uk-relocation-project]] status log (13, 17 and 27 Sep rows) and in [[dec-uk-move]] wobble #5, which also holds the pre-named F-N-M-T bar. [[HK-BRAIND]] holds the stay-HK benefits and risks from July and August, written when there was no job. This file is the fresh run for the changed question: HK *with* a senior TTI package, from a UK base already established.
+> ⚠ **Status (27 Sep 2026):** B and R are populated from the August [[HK-BRAIND]], unscored, with only R row 1 (the CRITICAL job-loss-mid-GCSE chain) ranked. A holds the candidate alternatives listed so far, Julian's 27 Sep lean (TTI from the UK) and its differences table. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
@@ -35,7 +31,7 @@ This is the BRAIND workspace for one question: **if TTI puts a written offer on 
 | HK, TTI + UNI (£230k) | If he goes to Hong Kong. After the HK university reserve (GBP 160,000 over six years), which stops in year 7 | 5,312,032 | 7,616,043 | 9,920,054 |
 | HK, TTI(S) + UNI (£250k) | If he goes to Hong Kong and gets schooling in the package (GBP 20k/yr allowance, taxed as salary). Same reserve | 6,332,032 | 8,976,043 | 11,620,054 |
 
-All rows are read from the sheet's cumulative table (FIG for years 1 to 4, no-FIG tax from year 5). Since 27 Sep 2026 the sheet carries a university reserve in every column, excluded from available savings in years 1 to 6: GBP 40,000 over six years everywhere, plus GBP 120,000 in the Hong Kong columns. Open question (27 Sep): Julian named GBP 120,000 as the HK reserve; the sheet carries GBP 160,000 in HK. To confirm.
+All rows are read from the sheet's cumulative table (FIG for years 1 to 4, no-FIG tax from year 5). Since 27 Sep 2026 the sheet carries a university reserve in every column, excluded from available savings in years 1 to 6: GBP 40,000 over six years everywhere, plus GBP 120,000 in the Hong Kong columns. Confirmed by Julian, 27 Sep: the HK reserve total is GBP 160,000.
 
 | Ratio | Year 6 | Year 8 | Year 10 |
 |---|---:|---:|---:|
@@ -151,7 +147,7 @@ Open tasks the intuition set for itself:
 
 - Write the ideal-partner profile, now and at 61, before the R step on relationships runs.
 - Re-examine the four Joanne rows from [[HK-BRAIND]] (left open 27 Sep).
-- Done 27 Sep by Codex: the sheet now carries a university reserve in every column (GBP 40,000 over six years everywhere, plus GBP 120,000 in HK). Still open: confirm whether the HK total should be GBP 120,000 or the GBP 160,000 now in the sheet.
+- Done 27 Sep by Codex: the sheet now carries a university reserve in every column (GBP 40,000 over six years everywhere, plus GBP 120,000 in HK). Julian confirmed the HK total as GBP 160,000 the same day. Closed.
 - **(27 Sep, days not weeks)** Decide whether to raise the UK-based option with Stephan before he speaks to Ty this week. Open question, not yet decided.
 
 ---
@@ -289,9 +285,13 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-27 | Status banner placed under a `## Status` heading, at Julian's instruction. |
+| 2026-09-27 | Sections line removed from under the Purpose, at Julian's instruction: a BRAIND file's sections are self-explanatory. |
+| 2026-09-27 | Status banner cut to the state of this document only, at Julian's instruction. Moved to the [[uk-relocation-project]] Status: written terms from Horst still absent; wobble #5 F-N-M-T not run; the standing journal warning (stay-HK is the emotionally warm option, bias #6 names TTI as a Hoped item) and the note that the 24 Sep intuition entries lean HK while the 27 Sep entries lean toward TTI from the UK. |
+| 2026-09-27 | The "how this file relates to the earlier documents" paragraph was removed from the top of the file at Julian's instruction: history belongs in the log, not the head. What it said: the facts (Horst channel, 14 Sep lunch, custody escalation) are in the [[uk-relocation-project]] status log and [[dec-uk-move]] wobble #5, which also holds the pre-named F-N-M-T bar; [[HK-BRAIND]] holds the stay-HK benefits and risks from July and August, written when there was no job; this file is the fresh run for the changed question, HK with a senior TTI package from a UK base already established. The Links section carries the same pointers. |
 | 2026-09-27 | Purpose cut to the question alone under a Purpose heading, at Julian's instruction. The opening rationale moved here: the file was opened 24 Sep 2026 because the Horst offer looked increasingly likely and Julian wanted the decision structure in place before paper arrived, with gut reads captured in the Intuition Log as they surfaced, B, R, A and N filled in structured sessions, and D closing the file. |
 | 2026-09-27 | Links repointed after the reopen note was folded into the uk-relocation-project status log and deleted; "prior art" wording in the purpose block replaced with plain words. |
-| 2026-09-27 | Executive summary re-read from the sheet after Codex built the university reserve into every column: all six rows are now sheet cells (HK rows no longer derived), ratios updated, open question on GBP 120,000 versus 160,000 for HK recorded. |
+| 2026-09-27 | Executive summary re-read from the sheet after Codex built the university reserve into every column: all six rows are now sheet cells (HK rows no longer derived), ratios updated, HK reserve total confirmed by Julian as GBP 160,000. |
 | 2026-09-27 | Handback recorded: Julian 15 attended minutes and a 5/5 rating; session and subagent token totals logged. |
 | 2026-09-27 | Restructured to the thirteen-section BRAIND order in [[documentation-conventions]]: the two stacked status entries replaced by one current banner, this Document Log added, the section map rewritten. No content row changed. |
 | 2026-09-27 | Superseded status (earlier the same day): "B and R populated from the August [[HK-BRAIND]] at Julian's instruction, ahead of written terms. Rows are carried, changed or new; nothing is scored and only R rows 1 and 2 are ranked. Written terms from Horst are still absent, the wobble #5 F-N-M-T test has still not run, and this file has no `## Prompt Zero` section yet." |

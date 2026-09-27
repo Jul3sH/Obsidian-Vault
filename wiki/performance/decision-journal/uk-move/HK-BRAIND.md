@@ -7,13 +7,18 @@ source: UK Relocation Risks Google Sheet
 
 # HK-BRAIND
 
-This file holds the Benefits and Risks (B and R) rows for one option in the UK relocation decision: staying in Hong Kong. It was written on 4 Aug 2026 by distilling the `UK Relocation Risks` Google Sheet (`Risks` tab, rows 1-132) and the wider `uk-move` BRAINED workspace, so that each option's upside and downside sat in one place instead of across a 132-row sheet. It is read whenever that option is weighed, and its rows are carried (never rebuilt) into any later BRAIND run on the same question. It is now also the carried-from source for the B and R sections of [[HK-Return-BRAIND]] (the return-to-HK-on-a-TTI-offer question, opened 24 Sep 2026), which records which rows were carried, changed, or not carried and why. Internal only. Parent decision: [[dec-uk-move]]; format: the BRAIND format in [[documentation-conventions]] Part 1 (this is a split B-and-R file).
+## Purpose
 
-**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Document Log · Time and Token Log
+This file holds the Benefits and Risks rows for one option in the UK relocation decision: **staying in Hong Kong**.
+
+## Status
 
 > ⚠ **Status (27 Sep 2026):** content as written 4 Aug 2026, from before the move. Rows carried into [[HK-Return-BRAIND]] B and R on 27 Sep 2026, each marked carried, changed or new there; the four Joanne rows are left open for re-examination.
 
 Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[b1-relationship-belief]], [[b7-lifestyle]], [[uk-relocation-benefits-register-2026-07-16]], [[decision-journal]], [[tti-engagement-strategy]], [[uk-vs-hk-earning-comparison]].
+- [[dec-uk-move]] - parent decision
+- [[HK-Return-BRAIND]] - the later question file that carries rows from here (carried-from source for its B and R)
+- [[documentation-conventions]] - BRAIND format, Part 1 (this is a split B-and-R file)
 
 ## Key Takeaways
 
@@ -84,6 +89,9 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-27 | Status banner placed under a `## Status` heading, at Julian's instruction. |
+| 2026-09-27 | Sections line removed from under the Purpose, at Julian's instruction: a BRAIND file's sections are self-explanatory. |
+| 2026-09-27 | Purpose cut to one sentence under a Purpose heading, per Julian's rule for BRAIND files. Opening rationale moved here: written 4 Aug 2026 by distilling the `UK Relocation Risks` Google Sheet (`Risks` tab, rows 1-132) and the wider `uk-move` BRAINED workspace, so that each option's upside and downside sat in one place instead of across a 132-row sheet; read whenever the option is weighed, rows carried (never rebuilt) into any later BRAIND run on the same question; it is the carried-from source for the B and R sections of [[HK-Return-BRAIND]], which records which rows were carried, changed or not carried and why. Internal only. |
 | 2026-09-27 | Purpose block, dated status banner, this Document Log and the Time and Token Log added to fit the BRAIND format in [[documentation-conventions]]. Rows carried into [[HK-Return-BRAIND]] B and R, each marked carried, changed or new there; the four Joanne rows left open for re-examination. |
 | 2026-08-04 | File created from the UK Relocation Risks Google Sheet (Risks tab, rows 1-132) and the uk-move BRAINED workspace. |
 

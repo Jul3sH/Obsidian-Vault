@@ -160,7 +160,7 @@ Contributions stop from year 7. The reserve is earmarked saving, not spending: i
 
 **What the sheet does (27 Sep 2026):** every column carries an "Annual university reserve, years 1 to 6" row and an "Annual available savings after reserve, years 1 to 6" row. The reserve is excluded from available and cumulative savings in years 1 to 6 and the full before-reserve savings are added from year 7; the runway tables include it in the years 1 to 6 burn. The old arrangement (a GBP 15,000 overseas element inside the two TTI columns' living expenses only) is gone.
 
-Open question (27 Sep 2026): Julian named GBP 120,000 as the HK reserve this morning; the sheet carries GBP 160,000 in HK (40,000 baseline plus 120,000 additional). To confirm which was intended.
+Confirmed by Julian, 27 Sep 2026: the HK reserve total is GBP 160,000 (40,000 baseline plus 120,000 additional), as the sheet carries it. which was intended.
 
 ---
 
@@ -444,7 +444,7 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 
 | Date | What changed |
 |---|---|
-| 2026-09-27 | University reserve built into the sheet by Codex (GBP 40,000 every column plus GBP 120,000 HK, over six years, earmarked): new reserve and after-reserve rows, cumulative and runway recalculated piecewise. Every table in this note re-read from the sheet. Open question on whether HK should be 120,000 or 160,000. |
+| 2026-09-27 | University reserve built into the sheet by Codex (GBP 40,000 every column plus GBP 120,000 HK, over six years, earmarked): new reserve and after-reserve rows, cumulative and runway recalculated piecewise. Every table in this note re-read from the sheet. HK total confirmed by Julian as 160,000 later the same day. |
 | 2026-09-27 | HK-return comparison block: HK rows re-derived with a £120k university reserve over six years (degree plus possible masters, Julian's instruction). Sheet B125 still 90,000, to update. UK rows carry no university reserve; noted as a like-for-like gap. |
 | 2026-09-27 | Added the HK-return comparison block at 6, 8 and 10 years (Malvern and London at 135k and Extra High; TTI + UNI and TTI(S) + UNI derived from annual figures). Mirrors the executive summary in HK-Return-BRAIND. |
 | 2026-09-27 | Absorbed the model companion: §6 inputs and assumptions, §7 mirrored tables and runway mechanics moved in from the former uk-relocation-cashflows note, which is now [[uk-relocation-expenses]] and covers the expenses sheet only. |

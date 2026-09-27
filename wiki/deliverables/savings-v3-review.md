@@ -7,7 +7,7 @@ This records the independent review of the v3 relocation savings spreadsheet. Ju
 - Serves [[uk-relocation-project]] and its financial comparison.
 - As of 25 Sep 2026: review complete; findings in [[uk-relocation-savings-v3-codex-review-2026-09-25]]. Agreed spreadsheet repairs and appended runway tables completed and independently verified; completion records below.
 - As of 27 Sep 2026: Claude cross-check of the restored expense structure passed; no material defects, no sheet change. Section below.
-- As of 27 Sep 2026, later: university reserve built into every column of the sheet by Codex; companion note re-read from the sheet. Open question on the HK reserve total (120,000 or 160,000). Section below.
+- As of 27 Sep 2026, later: university reserve built into every column of the sheet by Codex; companion note re-read from the sheet. HK reserve total confirmed as 160,000. Section below.
 
 ## Prompt Zero
 
@@ -259,13 +259,13 @@ Not checked: formulas (values only); FIG eligibility and residence, which remain
 - Codex added to the savings sheet: "Annual net savings before university reserve", "Annual university reserve, years 1 to 6" (HK$66,667 in every UK column, HK$266,667 in every HK column) and "Annual available savings after reserve"; reserve inputs block (baseline GBP 40,000 all locations, additional GBP 120,000 if living in HK, six years); cumulative rows exclude the reserve in years 1 to 6; both runway tables are piecewise (reserve in the burn for six years, then not). The old GBP 15,000 reserve inside the TTI columns' living expenses was removed. All validation checks read OK; Codex reported the checks pass including the point where contributions stop.
 - Claude read the sheet, then a subagent re-read every table in [[uk-relocation-savings-comparison]] from it (§1 to §9, change-log row added). Two §2 tables (cumulative after four and ten years) had been deleted by a Claude edit earlier the same day and were rebuilt from the sheet.
 - Downstream: [[HK-Return-BRAIND]] executive summary (all six rows now sheet cells), [[Malvern-BRAIND]] Finance row, [[uk-relocation-project]] Trusted Artifacts and status.
-- Open (27 Sep): Julian named GBP 120,000 as the HK reserve this morning; the sheet carries GBP 160,000 in HK (40,000 baseline plus 120,000 additional). To confirm.
+- Confirmed by Julian at handback, 27 Sep: the HK reserve total is GBP 160,000 (40,000 baseline plus 120,000 additional), as the sheet carries it.
 
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
-| 2026-09-27 | Julian, attended | to be reported | University reserve piece: briefing Codex, reviewing the sheet result, handing the companion update to Claude. |
+| 2026-09-27 | Julian, attended | 15 min | Self-reported at handback. University reserve piece: briefing Codex, reviewing the sheet result, handing the companion update to Claude. |
 | 2026-09-27 | Codex, university reserve build | 699,140 tokens | Sum of per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite` for the four threads active 15:53 to 15:56 on 27 Sep (197,900 + 188,499 + 183,298 + 129,443). Earlier 06:07 threads excluded as a different task. |
 | 2026-09-27 | Claude subagent, companion note re-read (Fable 5.1) | 126,073 tokens | One delegated pass over all nine sections of the companion note. Parent-session tokens for this piece are inside the session total logged in [[HK-Return-BRAIND]] and are not separated. |
 | 2026-09-27 | Julian, attended | 30 min | Self-reported at handback 27 Sep: reviewing the handover, deciding the deductibility table and the companion restructure. |
@@ -290,4 +290,8 @@ Not checked: formulas (values only); FIG eligibility and residence, which remain
 **Julian (27 Sep 2026): 3 / 5.** Thirty minutes of my time. Three because it used a lot more tokens than it should have. Important to log: this was a bit of refactoring of existing documents and it took far more tokens than it should have because Claude did not use subagents.
 
 **Claude (beneath, 27 Sep 2026).** Agreed. The review itself was cheap and right; the restructure was mechanical (move sections, rename, repoint ten links) and I ran it inline in the main thread, which cost about 1.1M effort tokens for work a briefed subagent on a cheaper model could have done. Saved as the feedback-delegate-execution-to-subagents memory; the instance is logged against the routing card.
+
+**Julian (27 Sep 2026, university reserve piece): 4 / 5.** Fifteen minutes. No further comment given.
+
+**Claude (beneath, 27 Sep 2026).** Fair. The sheet-to-note handoff worked: Codex built the reserve, the subagent re-read every section from figures in its brief, and the checks came back clean. The point off is mine: an edit of mine earlier in the day had deleted two tables from the note, and it was the subagent's report, not my own checking, that found it. The gap between the HK return and the same job from Malvern was unchanged by the reserve, which is the finding that mattered.
 
