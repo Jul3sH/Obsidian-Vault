@@ -52,12 +52,13 @@ Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, writte
 **Relationships**
 
 - **Custody stays under HK jurisdiction,** which is hard for Clodagh to attack; a UK base is exposed to a claim from Waterford. *(New since August, from Julian's 13 Sep capture, now in the [[uk-relocation-project]] status log; custody jurisdiction read still not lawyer-verified.)*
-- **The HK network rebuilds itself through the job:** Julian's HK network is still there and a corporate role rebuilds it through the job rather than through a networking offensive. *(Carried, changed: August required him to rebuild it himself.)*
+- **A chance to build the HK network as a contingency:** the job itself will not particularly build the network, but being back in HK lets Julian go on a networking offensive and build a decent network as a contingency against losing the role, which he should have done previously. *(Carried from HK-BRAIND, changed 27 Sep in Julian's words: the August row assumed he would rebuild it himself; the job is the platform, not the mechanism.)*
 - **A happier HK school for Sophia:** an HK international school is likely to be a happier place for Sophia than her old HK school. *(New, from the reopen file §2. It competes with claim 8, that she is happier at The Chase.)*
 
 **Performance**
 
 - **External structure suits the ADHD:** a corporate HK role gives external structure, which suits Julian's ADHD better than a self-directed build. *(Carried from HK-BRAIND, unchanged, and stronger now that the role is senior and structured.)*
+- **Paid to improve his AI, not learning it unpaid:** Julian not only gets to leverage the AI he has worked with to produce results quickly, he also has a clear purpose for which to apply it, and is getting paid for it. He moves from having to learn AI unpaid to being effectively paid to improve his AI. *(New, 27 Sep, Julian's words.)*
 
 **Personal**
 
@@ -273,6 +274,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-27 | B Performance row added in Julian's words: paid to apply and improve his AI rather than learning it unpaid. |
+| 2026-09-27 | B Relationships network row rewritten in Julian's words: the job does not build the network; being in HK lets him run a networking offensive as a contingency. |
 | 2026-09-27 | The B and R summaries against the three questions changed from tables to bullets, at Julian's instruction: a table cell restricts the answer. |
 | 2026-09-27 | Every B and R row now opens with a bold headline, matching the pattern Julian set in the Finance rows. Typo fixed in the DB-flat row. The R row on comparison figures corrected: all rows are sheet cells since the 27 Sep rebuild. |
 | 2026-09-27 | Julian's three top-of-mind questions (romance, financial need, manageable risks) added under the Purpose; B and R now open with a dated summary of whether each question is answered yet. |
