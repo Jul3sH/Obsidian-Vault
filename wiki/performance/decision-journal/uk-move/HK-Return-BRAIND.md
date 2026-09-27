@@ -81,9 +81,11 @@ Populated 27 Sep 2026 from the Risk rows of [[HK-BRAIND]], reread against the qu
 
 **Pre-run ranking from intuition (27 Sep 2026, Julian's call, not yet tested):**
 
-| Rank | Cause | Event | Effect | Workstream | Pre-run rating |
-|---|---|---|---|---|---|
-| **1 - CRITICAL** | Chairman-sponsored hire over a chain that said no; no one below Horst would defend it; HK schooling means international fees (YMCA place gone) | Horst leaves or stops sponsoring; Julian is removed at about year three, when Sophia is one year into GCSEs | **Locked into HK international fees with no salary, and the UK return that would restore Sophia's home-fee status is closed because it depends on a UK job. The worst of every situation: Sophia's schooling, Julian's income, the university-fee position and Mum's arrangement all lost at once, mid-GCSE, at the worst point to move her again.** | Career, drives Finance and Relationships | Impact High, Probability to be tested in R (gut: material). Julian's rating: highest level |
+- **1 - CRITICAL. Locked into HK international fees with no salary, mid-GCSE, and the UK return that would restore Sophia's home-fee status is closed because it depends on a UK job.** The worst of every situation: Sophia's schooling, Julian's income, the university-fee position and Mum's arrangement all lost at once, at the worst point to move her again.
+  - Cause: a chairman-sponsored hire over a chain that said no; no one below Horst would defend it; HK schooling means international fees (YMCA place gone).
+  - Event: Horst leaves or stops sponsoring; Julian is removed at about year three, when Sophia is one year into GCSEs.
+  - Workstream: Career, drives Finance and Relationships.
+  - Pre-run rating: impact High; probability to be tested in R (gut: material). Julian's rating: highest level.
 
 Candidate responses to test when R runs (untested, not adopted): a fee commitment in the package that survives termination; contractual term and severance sized to the GCSE window; keeping the Malvern base and The Chase place recoverable; the TTI-from-UK alternative in A, which removes the effect entirely. Remaining rows below are not yet ranked. The risks of the UK-based alternative (staying in Malvern, or London) live in [[Malvern-BRAIND]] and [[London-BRAIND]], not here; the 27 Sep risk of moving out of Mum's for a relationship is filed in [[Malvern-BRAIND]] under Finance.
 
@@ -274,6 +276,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-27 | Ranked risk changed from a table to a bullet with bold headline and cause, event, workstream and rating as sub-bullets, at Julian's instruction. |
 | 2026-09-27 | B Performance row added in Julian's words: paid to apply and improve his AI rather than learning it unpaid. |
 | 2026-09-27 | B Relationships network row rewritten in Julian's words: the job does not build the network; being in HK lets him run a networking offensive as a contingency. |
 | 2026-09-27 | The B and R summaries against the three questions changed from tables to bullets, at Julian's instruction: a table cell restricts the answer. |
