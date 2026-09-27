@@ -9,9 +9,9 @@ source: UK Relocation Risks Google Sheet
 
 This file holds the Benefits and Risks (B and R) rows for one option in the UK relocation decision: moving to London directly. It was written on 4 Aug 2026 by distilling the `UK Relocation Risks` Google Sheet (`Risks` tab, rows 1-132) and the wider `uk-move` BRAINED workspace, so that each option's upside and downside sat in one place instead of across a 132-row sheet. It is read whenever that option is weighed, and its rows are carried (never rebuilt) into any later BRAIND run on the same question. It is the London side of any later comparison, including the TTI-from-the-UK alternative in [[HK-Return-BRAIND]] A, whose London variant rests on this file. Internal only. Parent decision: [[dec-uk-move]]; format: the BRAIND format in [[documentation-conventions]] Part 1 (this is a split B-and-R file).
 
-**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Time and Token Log
+**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Document Log · Time and Token Log
 
-> ⚠ **Status (27 Sep 2026):** purpose block, this banner and the log added 27 Sep to fit the BRAIND format in [[documentation-conventions]]. Content as written 4 Aug 2026; not re-read since the move (the family is in Malvern from Sep 2026 and London is now the "if circumstances change" case, see the comparison table in [[uk-relocation-savings-comparison]] §2).
+> ⚠ **Status (27 Sep 2026):** content as written 4 Aug 2026, not re-read since the move. The family is in Malvern from Sep 2026 and London is now the "if circumstances change" case (comparison table in [[uk-relocation-savings-comparison]] §2).
 
 Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-unknowns]], [[uk-relocation-benefits-register-2026-07-16]], [[uk-move-financial-model]], [[sw19-schools-london]], [[uk-job-market-remote-hybrid-split-2026-07-11]].
 
@@ -77,6 +77,15 @@ Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-unkn
 - Risk: the price of that life is a tighter financial runway, so the personal upside depends on rapid career execution.
 - Risk: if fear about money dominates, London can start to feel like a high-pressure bet rather than a chosen life.
 - Risk: Julian may idealise Hong Kong after leaving, especially the flat, sun, and ambient lifestyle, even though the BRAINED capture says he under-used much of it.
+
+## Document Log
+
+Newest first. History of the file only; effort is in the Time and Token Log below.
+
+| Date | Entry |
+|------|-------|
+| 2026-09-27 | Purpose block, dated status banner, this Document Log and the Time and Token Log added to fit the BRAIND format in [[documentation-conventions]]. No content row changed. |
+| 2026-08-04 | File created from the UK Relocation Risks Google Sheet (Risks tab, rows 1-132) and the uk-move BRAINED workspace. |
 
 ## Time and Token Log
 

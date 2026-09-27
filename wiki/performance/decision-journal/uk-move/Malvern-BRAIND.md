@@ -4,14 +4,14 @@ created: 2026-08-04
 project: uk-relocation-project
 source: UK Relocation Risks Google Sheet
 ---
-	
+
 # Malvern-BRAIND
 
 This file holds the Benefits and Risks (B and R) rows for one option in the UK relocation decision: living in Malvern, as an interim base or a permanent fallback. It was written on 4 Aug 2026 by distilling the `UK Relocation Risks` Google Sheet (`Risks` tab, rows 1-132) and the wider `uk-move` BRAINED workspace, so that each option's upside and downside sat in one place instead of across a 132-row sheet. It is read whenever that option is weighed, and its rows are carried (never rebuilt) into any later BRAIND run on the same question. It is the Malvern side of any later comparison, including the TTI-from-the-UK alternative in [[HK-Return-BRAIND]] A, whose Malvern variant rests on this file. Internal only. Parent decision: [[dec-uk-move]]; format: the BRAIND format in [[documentation-conventions]] Part 1 (this is a split B-and-R file).
 
-**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Time and Token Log
+**Sections:** Status · Related · Key Takeaways · Benefits and Risks by workstream · Document Log · Time and Token Log
 
-> ⚠ **Status (27 Sep 2026):** one Finance risk added 27 Sep (moving out of Mum's for a relationship, Julian's key financial risk of staying). Purpose block, this banner and the log added the same day to fit the BRAIND format in [[documentation-conventions]]. Other content as written 4 Aug 2026, before the move; the family has been living in Malvern since Sep 2026.
+> ⚠ **Status (27 Sep 2026):** content as written 4 Aug 2026, before the move, plus one Finance risk added 27 Sep 2026 (moving out of Mum's for a relationship, Julian's key financial risk of staying). The family has been living in Malvern since Sep 2026.
 
 Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-jobdata-2026-07-11]], [[uk-relocation-benefits-register-2026-07-16]], [[uk-move-financial-model]], [[malvern-permanent-feasibility-2026-07-14]], [[schooling-malvern-area]].
 
@@ -51,7 +51,7 @@ Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-jobd
 - Risk: Cecil Road vacant possession is a hard dependency. If the house is let to fund Malvern but cannot be recovered on a dated basis, the planned London exit is blocked.
 - Risk: DB flat rent underperformance or voids are common to both UK options, but they still weaken the search pot.
 - Risk: the independent-Malvern case breaks the model: accommodation, bills, and a car remove the low-burn advantage.
-- Risk (added 27 Sep 2026, Julian's key financial risk of staying): he gets into a relationship and moves out of Mum's, to London or to a rented place in the region. His savings move from the Malvern figure toward the London 135k figure: at year six that is 2.68M falling toward 1.25M as a contractor, or 4.75M toward 3.32M on a TTI salary done from the UK (comparison table in [[uk-relocation-savings-comparison]] §2). Cheaper regional rent, split with a partner, softens the fall but does not remove it, and the model has no column for it yet ([[HK-Return-BRAIND]] claim 14). Julian expects the relationship need back within months.
+- Risk (added 27 Sep 2026, Julian's key financial risk of staying): he gets into a relationship and moves out of Mum's, to London or to a rented place in the region. His savings move from the Malvern figure toward the London 135k figure: at year six that is 2.28M falling toward 0.85M as a contractor, or 4.35M toward 2.92M on a TTI salary done from the UK (sheet figures with the university reserve, 27 Sep 2026) (comparison table in [[uk-relocation-savings-comparison]] §2). Cheaper regional rent, split with a partner, softens the fall but does not remove it, and the model has no column for it yet ([[HK-Return-BRAIND]] claim 14). Julian expects the relationship need back within months.
 - Risk: permanent zero-income or low-income Malvern consumes the liquid pot and MPF, leaving retirement more dependent on ISAs, Cecil Road equity, and the state pension.
 - Risk: honest Malvern costing needs board, car, schooling friction, paid-carer contingency, and a second move. Those costs shrink the runway advantage even if they do not erase it.
 - Risk: MPF withdrawal is still a one-shot permanent-departure act. It creates useful runway, but it also hardens the HK exit and must be timed correctly.
@@ -80,6 +80,16 @@ Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[fable-review-jobd
 - Opportunity: a slow-paced Malvern life has real appeal if chosen consciously as a downshift rather than used as a fear response.
 - Risk: the easy daily life can disguise a permanent narrowing of ambition, dating, autonomy, and future optionality.
 - Risk: the "safety net" feeling can be misleading. The BRAINED record repeatedly warns that fear can make a softer holding pattern feel like prudence.
+
+## Document Log
+
+Newest first. History of the file only; effort is in the Time and Token Log below.
+
+| Date | Entry |
+|------|-------|
+| 2026-09-27 | Finance risk row figures re-read from the sheet after the university reserve was built in. |
+| 2026-09-27 | One Finance risk added: moving out of Mum's for a relationship, Julian's key financial risk of staying, refiled here from [[HK-Return-BRAIND]] at his instruction. Purpose block, dated status banner, this Document Log and the Time and Token Log added the same day to fit the BRAIND format in [[documentation-conventions]]. |
+| 2026-08-04 | File created from the UK Relocation Risks Google Sheet (Risks tab, rows 1-132) and the uk-move BRAINED workspace. |
 
 ## Time and Token Log
 

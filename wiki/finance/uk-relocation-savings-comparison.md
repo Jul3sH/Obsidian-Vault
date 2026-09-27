@@ -8,7 +8,7 @@ source: UK Relocation savings comparison v3 Google Sheet (living-cost inputs fro
 
 # UK Relocation Savings Comparison
 
-> **What this is.** The self-contained companion to the **[UK Relocation savings comparison v3 Google Sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)** (file ID 1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM, tab "Formula validation"): annual and ten-year savings for London, Malvern and Hong Kong at six salary bands, now including property income, property tax and the FIG regime.
+> **What this is.** The self-contained companion to the **[UK Relocation savings comparison v3 Google Sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)** (file ID 1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM, tab "Formula validation"): annual and ten-year savings for London, Malvern and Hong Kong at six salary bands, now including property income, property tax, the FIG regime and, from 27 Sep 2026, the university reserve.
 > **Why it exists.** The sheet holds numbers; this note holds what they mean. Rebuilt 25 Sep 2026 after the v3 sheet replaced the July model (which had no property tax and netted rents into living costs).
 > **How it is used.** Julian reads §1 to compare locations; §3 gives runway with no salary; §4 explains why Malvern still beats Hong Kong and what living at Mum's costs. §6 holds the model inputs and assumptions and §7 mirrors the sheet's tables and runway mechanics, so nothing here depends on another note; the itemised living costs are in [[uk-relocation-expenses]] and the property tax working in [[tax-rental-incomes]]. Internal only.
 
@@ -16,22 +16,23 @@ source: UK Relocation savings comparison v3 Google Sheet (living-cost inputs fro
 
 ---
 
-## 1. Executive summary (as of 26 Sep 2026)
+## 1. Executive summary (as of 27 Sep 2026)
 
 - **Malvern is the strongest saver at every band up to £150k**, and second at £200k. It wins because both properties are let and living costs are lowest, and those two effects outweigh the UK tax bill. It still depends on living with Mum.
-- **Hong Kong overtakes Malvern only at £200k**, where the HK salaries tax cap keeps most of the extra pay. HK's living costs are the highest of the three because of school fees, and university costs in years 1 to 6 are higher from HK because Sophia would pay overseas fees (intended treatment and current sheet state in the note at the end of §2; today only the two TTI columns carry a reserve).
+- **Hong Kong overtakes Malvern only at £200k**, where the HK salaries tax cap keeps most of the extra pay. HK's living costs are the highest of the three because of school fees, and university costs in years 1 to 6 are higher from HK because Sophia would pay overseas fees. The university reserve is in the sheet (27 Sep 2026): GBP 40,000 in every column plus GBP 120,000 extra in the HK columns, both over six years (detail in the note at the end of §2). On the after-reserve figures Malvern stays ahead at £200k in years 1 to 6 (HK$744k against HK$633k) and Hong Kong only edges ahead over ten years (HK$7.40M against HK$7.35M).
 - **London is weakest at every band.** At £75k it loses about HK$115k a year; at £135k it saves HK$228k against Malvern's HK$466k. UK tax on salary is the drag.
-- **With no salary, all three burn cash:** Malvern about HK$275k a year, London HK$605k, Hong Kong HK$803k.
+- **With no salary, all three burn cash:** including the university reserve for years 1 to 6, Malvern about HK$341k a year, London HK$672k, Hong Kong HK$1,070k. After year 6 the burn drops to HK$275k, HK$605k and HK$803k.
 - **Property tax is now in the model and it matters.** Letting Pine View as a UK resident costs HK$37k a year in HK Property Tax plus UK tax that FIG removes for four years only. Letting Cecil Road from Hong Kong costs HK$24k a year in UK tax. Malvern's earlier lead has narrowed by about HK$100k a year at £135k compared with the July model.
-- **The ten-year figures now step down after year four** when FIG expires. At £135k, Malvern reaches HK$4.3M over ten years, Hong Kong HK$3.6M, London HK$1.9M.
+- **The ten-year figures now step down after year four** when FIG expires. At £135k, Malvern reaches HK$3.9M over ten years, Hong Kong HK$2.0M, London HK$1.5M, after the university reserve.
+- **The university reserve is now in the model (27 Sep 2026).** GBP 40,000 over six years in every column, plus GBP 120,000 in the HK columns (GBP 160,000 in Hong Kong). It is earmarked saving, not spending: it lowers available savings in years 1 to 6 but the money remains an asset. On it, the TTI + UNI return reaches HK$5.3M at six years against HK$4.3M for the TTI role done from Malvern (the £200k stand-in).
 
 ---
 
 ## 2. The numbers
 
-Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net rents − property tax − living costs), with occupied-home running costs counted once in living expenses. As of 26 Sep 2026, property rows18/20 contain letting expenses only; living inputs include housing and mortgage payments. Combined costs, savings and runway are unchanged.
+Figures are HK$ per year, the sheet's "Annual net savings before university reserve" row (take-home + net rents − property tax − living costs), with occupied-home running costs counted once in living expenses. From 27 Sep 2026 the sheet also carries the university reserve and the available savings after it (second table below). As of 26 Sep 2026, property rows18/20 contain letting expenses only; living inputs include housing and mortgage payments. Combined costs, savings and runway are unchanged.
 
-### Annual net savings
+### Annual net savings before university reserve
 
 | Band | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
@@ -42,25 +43,71 @@ Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net 
 | High: GBP 150k | 307,846 | 545,927 | 484,655 |
 | Extra High: GBP 200k | 572,846 | 810,927 | 899,655 |
 
-### TTI university scenarios (26 Sep 2026)
+### Annual available savings after reserve, years 1 to 6
+
+| Band | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Zero: GBP 0 | -671,684 | -341,299 | -1,069,661 |
+| Low: GBP 75k | -181,390 | 69,621 | -404,511 |
+| Medium: GBP 110k | 21,610 | 267,261 | -114,011 |
+| Contract: GBP 135k | 161,680 | 399,761 | 93,489 |
+| High: GBP 150k | 241,180 | 479,261 | 217,989 |
+| Extra High: GBP 200k | 506,180 | 744,261 | 632,989 |
+
+The reserve is HK$66,667 a year in London and Malvern and HK$266,667 a year in Hong Kong, in years 1 to 6 only; it stops after year 6, when available savings return to the before-reserve figures.
+
+### Cumulative after four years (end of the FIG window, after the university reserve)
+
+| Band | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Zero: GBP 0 | -2,686,737 | -1,365,197 | -4,278,645 |
+| Low: GBP 75k | -725,561 | 278,483 | -1,618,045 |
+| Medium: GBP 110k | 86,439 | 1,069,043 | -456,045 |
+| Contract: GBP 135k | 646,719 | 1,599,043 | 373,955 |
+| High: GBP 150k | 964,719 | 1,917,043 | 871,955 |
+| Extra High: GBP 200k | 2,024,719 | 2,977,043 | 2,531,955 |
+
+### Cumulative after ten years (FIG expired from year five, after the university reserve)
+
+| Band | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Zero: GBP 0 | -6,450,176 | -3,146,326 | -9,629,946 |
+| Low: GBP 75k | -1,553,170 | 675,558 | -2,978,446 |
+| Medium: GBP 110k | 168,028 | 2,579,118 | -73,446 |
+| Contract: GBP 135k | 1,523,308 | 3,904,118 | 2,001,554 |
+| High: GBP 150k | 2,318,308 | 4,699,118 | 3,246,554 |
+| Extra High: GBP 200k | 4,968,308 | 7,349,118 | 7,396,554 |
+
+Restored 27 Sep 2026: both tables were lost in an edit earlier the same day and are rebuilt here from the sheet's cumulative rows (reserve excluded in years 1 to 6).
+
+### TTI university scenarios (27 Sep 2026)
+
+| Scenario | Gross salary (GBP) | Net take-home (HK$) | Living expenses (HK$) | Savings before reserve (HK$) | University reserve, years 1 to 6 (HK$) | Available savings, years 1 to 6 (GBP/yr) | Available savings from year 7 (GBP/yr) |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| HK, TTI + UNI | 230,000 | 1,955,000 | 1,037,980 | 1,152,005 | 266,667 | 88,533.9 | 115,200.5 |
+| HK, TTI(S) + UNI | 250,000 | 2,125,000 | 1,037,980 | 1,322,005 | 266,667 | 105,533.9 | 132,200.5 |
+
+TTI(S) means a GBP 20,000 schooling allowance taxed as salary; the existing HK school fees stay in living expenses, which are now 1,037,980 in every HK column including these two. The university reserve is the shared HK figure of GBP 160,000 over six years (GBP 40,000 baseline plus GBP 120,000 additional), HK$266,667 a year in the sheet's reserve row, not inside living expenses; contributions stop in year 7. GBP figures are the sheet's HK$ at FX 10. Retirement at 61 is not modelled.
+
+### HK-return comparison at 6, 8 and 10 years
 
 | Scenario | What it stands for (Julian's words) | Year 6 | Year 8 | Year 10 |
 |---|---|---:|---:|---:|
-| Malvern 135k | What he is likely to earn as a contractor based in Malvern | 2,678,512 | 3,491,315 | 4,304,118 |
-| London 135k | Contractor earnings if circumstances change and he goes to London | 1,250,026 | 1,586,667 | 1,923,308 |
-| Malvern Extra High (£200k) | A TTI role on current salary, done from the UK, Malvern base | 4,745,512 | 6,247,315 | 7,749,118 |
-| London Extra High (£200k) | A TTI role on current salary, done from the UK, London base | 3,317,026 | 4,342,667 | 5,368,308 |
-| HK, TTI + UNI (£230k) | If he goes to Hong Kong. After a £20k/yr university reserve for six years (£120k, degree plus a possible masters), which stops in year 7 | ~5,712,000 | ~8,016,000 | ~10,320,000 |
-| HK, TTI(S) + UNI (£250k) | If he goes to Hong Kong and gets schooling in the package (£20k/yr allowance, taxed as salary). Same reserve | ~6,732,000 | ~9,376,000 | ~12,020,000 |
+| Malvern 135k | What he is likely to earn as a contractor based in Malvern | 2,278,512 | 3,091,315 | 3,904,118 |
+| London 135k | Contractor earnings if circumstances change and he goes to London | 850,026 | 1,186,667 | 1,523,308 |
+| Malvern Extra High (£200k) | A TTI role on current salary, done from the UK, Malvern base | 4,345,512 | 5,847,315 | 7,349,118 |
+| London Extra High (£200k) | A TTI role on current salary, done from the UK, London base | 2,917,026 | 3,942,667 | 4,968,308 |
+| HK, TTI + UNI (£230k) | If he goes to Hong Kong. After the HK university reserve (GBP 160,000 over six years), which stops in year 7 | 5,312,032 | 7,616,043 | 9,920,054 |
+| HK, TTI(S) + UNI (£250k) | If he goes to Hong Kong and gets schooling in the package (GBP 20k/yr allowance, taxed as salary). Same reserve | 6,332,032 | 8,976,043 | 11,620,054 |
 
-UK rows are read from the §7 cumulative table of this note (FIG for years 1 to 4, no-FIG tax from year 5). HK rows are derived from the sheet's annual TTI figures (GBP 100,200 or 117,200 a year for years 1 to 6 with the sheet's current £15k reserve, less £5k a year for the £120k reserve Julian set on 27 Sep, then 115,200 or 132,200 once the reserve stops), summed and converted at FX 10. They are not sheet cumulative cells. **Sheet still to update (as of 27 Sep):** university target B125 from 90,000 to 120,000. The UK rows carry no university reserve at all, so the comparison currently favours the UK by whatever a home-fee degree and masters would cost.
+All rows are read from the sheet's cumulative table (FIG for years 1 to 4, no-FIG tax from year 5, university reserve excluded in years 1 to 6, all columns). The 18 band columns are mirrored in §7; the two TTI columns are the sheet's columns T and U.
 
 | Ratio | Year 6 | Year 8 | Year 10 |
 |---|---:|---:|---:|
-| HK TTI + UNI vs Malvern 135k | 2.1x | 2.3x | 2.4x |
-| HK TTI + UNI vs Malvern Extra High | 1.2x | 1.3x | 1.3x |
-| HK TTI(S) + UNI vs Malvern 135k | 2.5x | 2.7x | 2.8x |
-| HK TTI(S) + UNI vs Malvern Extra High | 1.4x | 1.5x | 1.6x |
+| HK TTI + UNI vs Malvern 135k | 2.3x | 2.5x | 2.5x |
+| HK TTI + UNI vs Malvern Extra High | 1.2x | 1.3x | 1.4x |
+| HK TTI(S) + UNI vs Malvern 135k | 2.8x | 2.9x | 3.0x |
+| HK TTI(S) + UNI vs Malvern Extra High | 1.5x | 1.5x | 1.6x |
 | Gap, HK TTI + UNI minus Malvern Extra High (HK$) | 0.97M | 1.77M | 2.57M |
 | Gap, HK TTI(S) + UNI minus Malvern Extra High (HK$) | 1.99M | 3.13M | 4.27M |
 
@@ -99,63 +146,71 @@ The rule the sheet follows: **letting costs of a let property are deductible in 
 - HK Property Tax paid is credited against the UK tax on the same rent, capped at that UK tax, so the sheet's "UK tax on property" rows are after the credit. Working: [[tax-rental-incomes]].
 - Open check: B59 assumes the HK$14,348 bill is rates only. If it also contains government rent, HK Property Tax rises by at most HK$646/yr; UK deductibility is unaffected. Confirm from the RVD demand note.
 
-### Note: university costs (intended treatment, as of 26 Sep 2026)
+### University reserve (in the sheet from 27 Sep 2026)
 
-University starts in year 7 of the projection. The cost should be reserved across years 1 to 6 in every column, with a UK-versus-overseas difference:
+University starts in year 7 of the projection. The cost is reserved across years 1 to 6 in every column, with a UK-versus-overseas difference:
 
 | | Per year, years 1 to 6 | Six-year total | Why |
 |---|---:|---:|---|
-| Every column (London, Malvern, HK) | £5,000 (HK$50,000) | £30,000 | Baseline university cost wherever Julian lives |
-| HK columns, additional | £15,000 (HK$150,000) | £90,000 | If Sophia spends the four years before university overseas in HK, she loses UK home-fee status and pays overseas rates |
-| HK columns, total | £20,000 (HK$200,000) | £120,000 | |
+| Every column (London, Malvern, HK) | GBP 6,667 (HK$66,667) | GBP 40,000 | Baseline university cost wherever Julian lives |
+| HK columns, additional | GBP 20,000 (HK$200,000) | GBP 120,000 | If Sophia spends the four years before university overseas in HK, she loses UK home-fee status and pays overseas rates |
+| HK columns, total | GBP 26,667 (HK$266,667) | GBP 160,000 | |
 
 Contributions stop from year 7. The reserve is earmarked saving, not spending: it lowers available savings in years 1 to 6 but the money remains an asset.
 
-**What the sheet does today:** only the two TTI columns carry a reserve, and only the £15,000 overseas element (HK$150,000 a year in their living expenses). No column carries the £5,000 baseline, and the other HK bands carry nothing. Until the sheet is updated, the TTI columns are not comparable with their neighbours and no column reflects the baseline cost. Applying the intended treatment would lower annual savings in years 1 to 6 by HK$50,000 in every London and Malvern column and by HK$200,000 in every HK column (HK$50,000 more than the TTI columns show now).
+**What the sheet does (27 Sep 2026):** every column carries an "Annual university reserve, years 1 to 6" row and an "Annual available savings after reserve, years 1 to 6" row. The reserve is excluded from available and cumulative savings in years 1 to 6 and the full before-reserve savings are added from year 7; the runway tables include it in the years 1 to 6 burn. The old arrangement (a GBP 15,000 overseas element inside the two TTI columns' living expenses only) is gone.
+
+Open question (27 Sep 2026): Julian named GBP 120,000 as the HK reserve this morning; the sheet carries GBP 160,000 in HK (40,000 baseline plus 120,000 additional). To confirm which was intended.
 
 ---
 
 ## 3. Cash burn tables (runway with no salary)
 
-The sheet's two runway tables answer one question: **with no salary, how long do the pots last in each location?** Both take the Zero column's annual shortfall (rents in, property tax and living costs out, no salary), divide by 12 for a monthly burn, and divide the available funds by that. Pots as of 25 Sep 2026: net cash HK$788,273 (HK$841,000 less HK$52,727 of card bills); ISAs HK$3,265,990 and MPF HK$1,244,699 still at July values.
+The sheet's two runway tables answer one question: **with no salary, how long do the pots last in each location?** Both take the Zero column's annual shortfall (rents in; property tax, living costs and, in years 1 to 6, the university reserve out; no salary), divide by 12 for a monthly burn, and divide the available funds by that. From 27 Sep 2026 the runway is piecewise: the reserve is in the burn for years 1 to 6 and drops out after. Pots as of 25 Sep 2026: net cash HK$788,273 (HK$841,000 less HK$52,727 of card bills); ISAs HK$3,265,990 and MPF HK$1,244,699 still at July values.
 
 **The formula, in three steps.**
 
-1. **Monthly burn** = living costs + letting costs + property tax − rent. Living costs are the cashflows sheet's Expenses total for that location (mortgages included); the other three are the savings sheet's property rows.
+1. **Monthly burn** = living costs + letting costs + property tax − rent + university reserve (years 1 to 6 only). Living costs are the cashflows sheet's Expenses total for that location (mortgages included); letting costs, property tax and rent are the savings sheet's property rows; the reserve is HK$5,556 a month in London and Malvern and HK$22,222 in Hong Kong.
 2. **Available funds** = cash balances less card bills, then optionally plus MPF, plus ISAs, or both.
-3. **Runway:** months = available funds ÷ monthly burn; years = months ÷ 12.
+3. **Runway:** piecewise. If a pot runs out within six years, months = available funds ÷ monthly burn including reserve. Otherwise years = 6 + (available funds − six years of that burn) ÷ the annual burn after year 6, when the reserve has stopped; months = years × 12.
 
-Malvern, full budget: burn = 62,284 + 7,538 + 5,064 − 52,000 = 22,886 a month; months = 788,273 ÷ 22,886 = 34.4. The lean version repeats the three steps with the cashflows sheet's Non-optional expenses total as living costs.
+Malvern, full budget: burn = 62,284 + 7,538 + 5,064 − 52,000 + 5,556 reserve = 28,442 a month; months = 788,273 ÷ 28,442 = 27.7. The lean version repeats the three steps with the cashflows sheet's Non-optional expenses total as living costs.
 
 **Table 1: full burn.** Combined household costs below include housing for comparability. Living inputs include occupied-home housing; property rows deduct letting expenses separately.
 
-| No salary, full budget                        |      London |     Malvern |       Hong Kong |
-| --------------------------------------------- | ----------: | ----------: | --------------: |
-| Combined household costs per month, full budget           |      70,234 |      62,284 |          86,498 |
-| Letting costs and property tax, less rents in |     −19,816 |     −39,398 |         −19,582 |
-| Monthly burn (after rent and property tax)    |      50,418 |      22,886 |          66,916 |
-| Cash only                                     | 15.6 months | 34.4 months |     11.8 months |
-| Cash + MPF | 3.4 years | 7.4 years | n/a while in HK |
-| Cash + ISAs                                   |   6.7 years |  14.8 years |       5.0 years |
-| Cash + ISAs + MPF                             |   8.8 years |  19.3 years | n/a while in HK |
+| No salary, full budget | London | Malvern | Hong Kong |
+|---|---:|---:|---:|
+| Combined household costs per month, full budget | 70,234 | 62,284 | 86,498 |
+| Letting costs and property tax, less rents in | −19,816 | −39,398 | −19,582 |
+| University reserve per month, years 1 to 6 | 5,556 | 5,556 | 22,222 |
+| Monthly burn including reserve, years 1 to 6 | 55,974 | 28,442 | 89,138 |
+| Cash only | 14.1 months | 27.7 months | 8.8 months |
+| Cash + MPF | 3.0 years | 6.0 years | n/a while in HK |
+| Cash + ISAs | 6.0 years | 13.3 years | 3.8 years |
+| Cash + ISAs + MPF | 8.1 years | 17.8 years | n/a while in HK |
 
-**Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Verified live values as of 26 Sep 2026:
+After year 6 the burn drops to the pre-reserve figure (50,418 / 22,886 / 66,916 a month) and the runway formula is piecewise: pots that outlast six years run down at the lower burn from year 7.
+
+**Table 2: lean burn.** Same, but living costs limited to what the cashflows sheet classes as non-optional (drops discretionary dining, subscriptions, cleaner, hotel and rail, and the like). Verified live values as of 27 Sep 2026, university reserve included:
 
 | No salary, lean budget | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
 | Combined household costs per month, lean budget | 47,953 | 44,143 | 69,005 |
 | Letting costs and property tax, less rents in | −19,816 | −39,398 | −19,582 |
-| Monthly burn (after rent and property tax) | 28,137 | 4,745 | 49,423 |
-| Cash only | 28 months | 166 months | 16 months |
-| Cash + MPF | 6.0 years | 36 years | n/a while in HK |
-| Cash + ISAs | 12.0 years | 71 years | 6.8 years |
-| Cash + ISAs + MPF | 15.7 years | 93 years | n/a while in HK |
+| University reserve per month, years 1 to 6 | 5,556 | 5,556 | 22,222 |
+| Monthly burn including reserve, years 1 to 6 | 33,692 | 10,300 | 71,645 |
+| Cash only | 23.4 months | 81.8 months | 11.0 months |
+| Cash + MPF | 5.0 years | 28.7 years | n/a while in HK |
+| Cash + ISAs | 10.8 years | 64.2 years | 4.7 years |
+| Cash + ISAs + MPF | 14.5 years | 86.0 years | n/a while in HK |
+
+After year 6 the lean burn drops to the pre-reserve figure (28,137 / 4,745 / 49,423 a month) and the same piecewise formula applies.
 
 Both tables use the same rents, letting costs and property tax; the full/lean split also preserves the exclusion of discretionary HK contents insurance. The living inputs include occupied-home housing. Lean burn is lower everywhere by the discretionary spend removed (about HK$22k London, HK$18k Malvern, HK$17k Hong Kong a month).
 
 **Why Malvern's burn is so low.** Two rents come in (HK$44k a month net of letting costs) against one elsewhere, and non-mortgage living is HK$34k against London's HK$42k and Hong Kong's HK$59k, because Mum absorbs bills and there are no school fees, helper, cleaner or babysitter. The mortgages (HK$28k a month) are the same everywhere and do not separate the scenarios. In the lean case the two rents almost cover everything, so the cash barely moves.
 
-Cash + MPF is the spend-the-pension-before-ISAs case, using HK$2,032,972. Added and verified 26 Sep 2026; all annual savings and validation results unchanged.
+Cash + MPF is the spend-the-pension-before-ISAs case, using HK$2,032,972. Added 26 Sep 2026; re-verified 27 Sep 2026 with the university reserve in the years 1 to 6 burn; every validation check on the sheet reads OK.
 
 **How to read them.**
 - The full-burn table is the planning figure. The lean table is the floor: what happens if spending is cut to essentials during a long search.
@@ -177,39 +232,42 @@ At £135k, Malvern saves HK$106k a year more than Hong Kong despite paying HK$46
 | Property tax | −129,462 | HK Property Tax plus UK tax on Cecil Road, against HK's UK non-resident tax only |
 | **Net** | **+106,262** | |
 
-The same pattern holds at every band up to £150k. At £200k the salary-tax gap widens to about HK$420k and Hong Kong pulls ahead. After year four, when FIG expires, Malvern's property tax rises by HK$60k a year and the £150k band becomes close to a tie.
+These figures are before the university reserve. After it (27 Sep 2026) Malvern's lead in years 1 to 6 widens to HK$306k, because the HK reserve is HK$200k a year larger. The same pattern holds at every band up to £150k. At £200k the salary-tax gap widens to about HK$420k and Hong Kong pulls ahead before the reserve; after it Malvern stays ahead in years 1 to 6 and Hong Kong only edges ahead over ten years. After year four, when FIG expires, Malvern's property tax rises by HK$60k a year and the £150k band becomes close to a tie.
 
-**What this says about the decision:** Malvern's advantage is not tax efficiency, it is two rents and Mum's house. Remove either (live independently in Malvern, or keep Pine View for yourself) and Hong Kong wins on savings from about £110k upward.
+**What this says about the decision:** Malvern's advantage is not tax efficiency, it is two rents and Mum's house. Remove either (live independently in Malvern, or keep Pine View for yourself) and Hong Kong wins on savings from about £110k upward before the university reserve; with the HK reserve HK$200k a year larger, the crossover sits higher in years 1 to 6.
 
 ### Surviving at Mum's house
 
-The Malvern no-salary case from the savings sheet (26 Sep 2026). Living costs come from the cashflows sheet's expense totals; rents, letting costs, property tax, pots and runway are computed in the savings sheet.
+The Malvern no-salary case from the savings sheet (27 Sep 2026, university reserve included in years 1 to 6). Living costs come from the cashflows sheet's expense totals; rents, letting costs, property tax, pots and runway are computed in the savings sheet.
 
-| Malvern, no salary                                                |                   HK$ |
-| ----------------------------------------------------------------- | --------------------: |
-| **Monthly**                                                       |                       |
-| Living costs, full budget (incl. mortgages HK$27,958)             |                62,284 |
-| Rents in, gross (Pine View 27,000 + Cecil Road 25,000)            |               −52,000 |
-| Letting costs, both properties                                    |                 7,538 |
-| Property tax (HK Property Tax 3,097 + UK tax on Cecil Road 1,968) |                 5,064 |
-| **Monthly burn, full budget**                                     |            **22,886** |
-| Living costs, lean budget (non-optional only)                     |                44,143 |
-| **Monthly burn, lean budget**                                     |             **4,745** |
-| **Pots (cash and cards 25 Sep 2026; ISAs and MPF July 2026)**     |                       |
-| Net cash                                                          |               788,273 |
-| Cash + MPF                                                        |             2,032,972 |
-| Cash + ISAs                                                       |             4,054,263 |
-| Cash + ISAs + MPF                                                 |             5,298,962 |
-| **Runway, full budget**                                           |                       |
-| Cash only                                                         |           34.4 months |
-| Cash + MPF                                                        |   89 months (7.4 yrs) |
-| Cash + ISAs                                                       | 177 months (14.8 yrs) |
-| Cash + ISAs + MPF                                                 | 232 months (19.3 yrs) |
-| **Runway, lean budget**                                           |                       |
-| Cash only                                                         | 166 months (13.8 yrs) |
-| Cash + MPF                                                        |   428 months (36 yrs) |
-| Cash + ISAs                                                       |   854 months (71 yrs) |
-| Cash + ISAs + MPF                                                 | 1,117 months (93 yrs) |
+| Malvern, no salary | HK$ |
+|---|---:|
+| **Monthly** | |
+| Living costs, full budget (incl. mortgages HK$27,958) | 62,284 |
+| Rents in, gross (Pine View 27,000 + Cecil Road 25,000) | −52,000 |
+| Letting costs, both properties | 7,538 |
+| Property tax (HK Property Tax 3,097 + UK tax on Cecil Road 1,968) | 5,064 |
+| University reserve, years 1 to 6 (GBP 40,000 over six years) | 5,556 |
+| **Monthly burn, full budget** | **28,442** |
+| Living costs, lean budget (non-optional only) | 44,143 |
+| **Monthly burn, lean budget** | **10,300** |
+| **Pots (cash and cards 25 Sep 2026; ISAs and MPF July 2026)** | |
+| Net cash | 788,273 |
+| Cash + MPF | 2,032,972 |
+| Cash + ISAs | 4,054,263 |
+| Cash + ISAs + MPF | 5,298,962 |
+| **Runway, full budget** | |
+| Cash only | 27.7 months |
+| Cash + MPF | 71.5 months (6.0 yrs) |
+| Cash + ISAs | 159.7 months (13.3 yrs) |
+| Cash + ISAs + MPF | 214.1 months (17.8 yrs) |
+| **Runway, lean budget** | |
+| Cash only | 81.8 months (6.8 yrs) |
+| Cash + MPF | 344.2 months (28.7 yrs) |
+| Cash + ISAs | 770.2 months (64.2 yrs) |
+| Cash + ISAs + MPF | 1,032.5 months (86.0 yrs) |
+
+Burns include the university reserve for years 1 to 6; after year 6 they fall to 22,886 (full) and 4,745 (lean) and the runway is piecewise.
 
 **What is in the Malvern budget.** Two versions of the same budget: full is everything in the cashflows sheet's Malvern column; lean keeps only the rows the sheet classes as non-optional. Both mortgages are inside both versions and are the largest item.
 
@@ -228,24 +286,24 @@ The Malvern no-salary case from the savings sheet (26 Sep 2026). Living costs co
 | Letting costs, both properties | +7,538 | +7,538 |
 | Property tax | +5,064 | +5,064 |
 | Rents in | −52,000 | −52,000 |
-| **Burn** | **4,745** | **22,886** |
+| University reserve, years 1 to 6 | +5,556 | +5,556 |
+| **Burn** | **10,300** | **28,442** |
 
-On either budget HK$28k of mortgage goes out each month and HK$52k of rent comes in. The rent covers the mortgages, the letting costs and the tax with HK$11k to spare. On the full budget that spare plus cash pays for HK$34k of actual living, leaving a burn of HK$22,886; on the lean budget actual living is HK$16k, so the rents cover almost all of it and the burn is HK$4,745. The properties pay for themselves and part of the household, and Mum's house costs almost nothing. Both burns look lower than they feel because HK$13.7k a month is Pine View principal: in net-worth terms the full-budget loss is about HK$9k a month and the lean budget is net-worth positive. Lean also drops the car contribution and the rail ticket as discretionary, which is where the board-and-car caveat below bites hardest: a rural car is hard to call optional.
+On either budget HK$28k of mortgage goes out each month and HK$52k of rent comes in. The rent covers the mortgages, the letting costs and the tax with HK$11k to spare. On the full budget that spare plus cash pays for HK$34k of actual living, leaving a burn of HK$22,886 before the university reserve and HK$28,442 with it; on the lean budget actual living is HK$16k, so the rents cover almost all of it and the burn is HK$4,745 before the reserve, HK$10,300 with it. The properties pay for themselves and part of the household, and Mum's house costs almost nothing. Both burns look lower than they feel because HK$13.7k a month is Pine View principal and HK$5.6k is the earmarked university reserve: in net-worth terms the full-budget loss is about HK$9k a month and the lean budget is net-worth positive. Lean also drops the car contribution and the rail ticket as discretionary, which is where the board-and-car caveat below bites hardest: a rural car is hard to call optional.
 
-**Read.** Living at Mum's with both properties let, the rents nearly cover the mortgages and bare living, so cash barely moves. On the full budget the cash alone lasts nearly three years and cash plus ISAs almost fifteen.
+**Read.** Living at Mum's with both properties let, the rents nearly cover the mortgages and bare living, so cash barely moves. On the full budget, with the university reserve in the burn, the cash alone lasts 27.7 months (a little over two years) and cash plus ISAs 13.3 years.
 
-**Where the Malvern figures are generous.** Three adjustments the sheet does not make:
+**Where the Malvern figures are generous.** Three adjustments the sheet does not make, starting from the sheet's years 1 to 6 burn with the university reserve (27 Sep 2026):
 
 | Malvern, no salary, per month | HK$ | Cumulative |
 |---|---:|---:|
-| Burn as modelled in the sheet | 22,886 | 22,886 |
-| Board: sheet has HK$1,000 for Mum's bills; the financial model's honest figure is about £500 (HK$5,000) | +4,000 | 26,886 |
-| Car: sheet has HK$1,000 contribution; the model's honest running cost is about £225 (HK$2,250) | +1,250 | 28,136 |
-| Void allowance: one empty month per property per two-year tenancy, about HK$52,000 over 24 months | +2,170 | 30,300 |
-| Commuting: hotel HK$2,000 and rail HK$2,000 exist only with a job | −4,000 | 26,300 |
-| University reserve: £5,000 a year (HK$50,000) in years 1 to 6, not yet in the sheet (see the note at the end of §2) | +4,167 | 30,467 |
+| Burn as modelled in the sheet, including reserve, years 1 to 6 | 28,442 | 28,442 |
+| Board: sheet has HK$1,000 for Mum's bills; the financial model's honest figure is about £500 (HK$5,000) | +4,000 | 32,442 |
+| Car: sheet has HK$1,000 contribution; the model's honest running cost is about £225 (HK$2,250) | +1,250 | 33,692 |
+| Void allowance: one empty month per property per two-year tenancy, about HK$52,000 over 24 months | +2,170 | 35,862 |
+| Commuting: hotel HK$2,000 and rail HK$2,000 exist only with a job | −4,000 | 31,862 |
 
-Board and car are small lines, but Malvern's advantage is built from small lines, so the HK$5,250 uplift moves cash-only runway from 34 to 28 months. Malvern is the only scenario resting on two rents: a void month at Pine View costs HK$27,000 while management fees and rates continue, and HK$25,000 at Cecil Road. The university reserve applies to every location, so it does not change the ranking, but it belongs in any Malvern runway figure for the first six years. The honest no-salary burn is about HK$28,000 to 30,500 a month, giving 26 to 28 months on cash alone rather than 34. Still the longest of the three, but by less than the raw figure suggests.
+Board and car are small lines, but Malvern's advantage is built from small lines, so the HK$5,250 uplift moves cash-only runway from 27.7 to 23.4 months. Malvern is the only scenario resting on two rents: a void month at Pine View costs HK$27,000 while management fees and rates continue, and HK$25,000 at Cecil Road. The university reserve is now in the sheet's burn for years 1 to 6 (27 Sep 2026), so it no longer needs adding here. The honest no-salary burn is about HK$32,000 to 36,000 a month in years 1 to 6, giving 22 to 25 months on cash alone rather than 27.7. Still the longest of the three, but by less than the raw figure suggests.
 
 ---
 
@@ -300,6 +358,7 @@ Mortgage interest (Pine View HK$12,138/mo, Cecil Road £213/mo) and Pine View pr
 | Letting costs, Pine View | Annual basis: DB management 24,648 + rates 14,348 (B59) + buildings insurance 3,300 + agent fee 6,750 (HK$13,500 per two-year tenancy): HK$49,046/yr. Monthly equivalents 2,054 / 1,196 / 275 are rounded; use the annual figures |
 | Letting costs, Cecil Road | Brinkleys £3,240 + rent protection £432 + buildings insurance £469 = £4,141 by arithmetic; sheet input retained at £4,140 (£1 rounding) |
 | Living costs | Expenses sheet "Expenses total" row 168 per location (full) and "Non-optional expenses total" row 164 (lean); mortgage payments retained; held constant, no inflation. Itemisation: [[uk-relocation-expenses]] |
+| University reserve | GBP 40,000 over years 1 to 6 in every column, plus GBP 120,000 in the HK columns; earmarked, excluded from available savings; contributions stop after year 6 (in the sheet from 27 Sep 2026) |
 | Salary growth, investment returns, pension, MPF, starting pot | Not modelled |
 
 ### Living-cost inputs (HK$ per month)
@@ -308,18 +367,18 @@ Typed snapshots, not live links. Include occupied-home housing and mortgage paym
 
 | Monthly HKD | London | Malvern | Hong Kong |
 |---|---:|---:|---:|
-| Full living inputs, B64:B66, from expenses row 168 | 70,234.47 | 62,284.47 | 86,498.30 |
-| Lean living inputs, B108:D108, from expenses row 164 | 47,952.97 | 44,142.97 | 69,004.97 |
+| Full living inputs, B66:B68, from expenses row 168 | 70,234.47 | 62,284.47 | 86,498.30 |
+| Lean living inputs, B110:D110, from expenses row 164 | 47,952.97 | 44,142.97 | 69,004.97 |
 
 ---
 
 ## 7. Mirrored sheet tables and runway mechanics
 
-Mirror of the sheet's Formula validation tab so any agent can resume or review without re-deriving. Values as of 26 Sep 2026; TTI columns T and U are in §2.
+Mirror of the sheet's Formula validation tab so any agent can resume or review without re-deriving. Values as of 27 Sep 2026; university reserve excluded in years 1 to 6; TTI columns T and U are in §2.
 
 ### Salary, tax and annual net savings (HK$ per year)
 
-Annual net savings = net take-home + (UK property income − UK property running costs) × 10 + HK property income − HK property running costs − HK Property Tax − UK tax on property (use) − living costs.
+Annual net savings before university reserve = net take-home + (UK property income − UK property running costs) × 10 + HK property income − HK property running costs − HK Property Tax − UK tax on property (use) − living costs. Annual available savings after reserve, years 1 to 6 = that less the annual university reserve (66,666.67 in London and Malvern, 266,666.67 in Hong Kong, shown rounded below).
 
 | | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -336,42 +395,46 @@ Annual net savings = net take-home + (UK property income − UK property running
 | HK Property Tax (HKD) | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 37,158 | 0 | 0 | 0 | 0 | 0 | 0 |
 | UK tax on property, no FIG (HKD) | 0 | 51,269 | 82,736 | 60,026 | 60,026 | 60,026 | 23,615 | 201,155 | 198,655 | 175,945 | 175,945 | 175,945 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
 | UK tax on property, use (HKD) | 0 | 50,280 | 30,280 | 0 | 0 | 0 | 23,615 | 153,269 | 138,629 | 115,919 | 115,919 | 115,919 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 | 23,615 |
-| **Annual net savings (HKD)** | **-605,018** | **-114,724** | **88,276** | **228,346** | **307,846** | **572,846** | **-274,633** | **136,287** | **333,927** | **466,427** | **545,927** | **810,927** | **-802,995** | **-137,845** | **152,655** | **360,155** | **484,655** | **899,655** |
+| **Annual net savings before university reserve (HKD)** | **-605,018** | **-114,724** | **88,276** | **228,346** | **307,846** | **572,846** | **-274,633** | **136,287** | **333,927** | **466,427** | **545,927** | **810,927** | **-802,995** | **-137,845** | **152,655** | **360,155** | **484,655** | **899,655** |
+| Annual university reserve, years 1 to 6 (HKD) | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 66,667 | 266,667 | 266,667 | 266,667 | 266,667 | 266,667 | 266,667 |
+| **Annual available savings after reserve, years 1 to 6 (HKD)** | **-671,684** | **-181,390** | **21,610** | **161,680** | **241,180** | **506,180** | **-341,299** | **69,621** | **267,261** | **399,761** | **479,261** | **744,261** | **-1,069,661** | **-404,511** | **-114,011** | **93,489** | **217,989** | **632,989** |
+
+The two TTI columns (T and U) carry the same three rows: before reserve 1,152,005 / 1,322,005, reserve 266,667, after reserve 885,339 / 1,055,339 (see §2).
 
 ### Cumulative savings Y1 to Y10 (HK$)
 
-Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use the no-FIG tax.
+Years 1 to 4 use the FIG-reduced tax where a claim is made; years 5 to 10 use the no-FIG tax. Years 1 to 6 accumulate the available savings after the university reserve; from year 7 the full before-reserve savings are added. Values as of 27 Sep 2026.
 
 | Year | Lon Zero | Lon Low | Lon Med | Lon 135k | Lon High | Lon Extra High | Mal Zero | Mal Low | Mal Med | Mal 135k | Mal High | Mal Extra High | HK Zero | HK Low | HK Med | HK 135k | HK High | HK Extra High |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
-| Y1 | -605,018 | -114,724 | 88,276 | 228,346 | 307,846 | 572,846 | -274,633 | 136,287 | 333,927 | 466,427 | 545,927 | 810,927 | -802,995 | -137,845 | 152,655 | 360,155 | 484,655 | 899,655 |
-| Y2 | -1,210,035 | -229,447 | 176,553 | 456,693 | 615,693 | 1,145,693 | -549,265 | 272,575 | 667,855 | 932,855 | 1,091,855 | 1,621,855 | -1,605,989 | -275,689 | 305,311 | 720,311 | 969,311 | 1,799,311 |
-| Y3 | -1,815,053 | -344,171 | 264,829 | 685,039 | 923,539 | 1,718,539 | -823,898 | 408,862 | 1,001,782 | 1,399,282 | 1,637,782 | 2,432,782 | -2,408,984 | -413,534 | 457,966 | 1,080,466 | 1,453,966 | 2,698,966 |
-| Y4 | -2,420,071 | -458,895 | 353,105 | 913,385 | 1,231,385 | 2,291,385 | -1,098,531 | 545,149 | 1,335,709 | 1,865,709 | 2,183,709 | 3,243,709 | -3,211,978 | -551,378 | 610,622 | 1,440,622 | 1,938,622 | 3,598,622 |
-| Y5 | -3,025,088 | -574,607 | 388,926 | 1,081,706 | 1,479,206 | 2,804,206 | -1,373,163 | 633,551 | 1,609,611 | 2,272,111 | 2,669,611 | 3,994,611 | -4,014,973 | -689,223 | 763,277 | 1,800,777 | 2,423,277 | 4,498,277 |
-| Y6 | -3,630,106 | -690,320 | 424,746 | 1,250,026 | 1,727,026 | 3,317,026 | -1,647,796 | 721,952 | 1,883,512 | 2,678,512 | 3,155,512 | 4,745,512 | -4,817,968 | -827,068 | 915,932 | 2,160,932 | 2,907,932 | 5,397,932 |
-| Y7 | -4,235,123 | -806,032 | 460,567 | 1,418,347 | 1,974,847 | 3,829,847 | -1,922,428 | 810,354 | 2,157,414 | 3,084,914 | 3,641,414 | 5,496,414 | -5,620,962 | -964,912 | 1,068,588 | 2,521,088 | 3,392,588 | 6,297,588 |
-| Y8 | -4,840,141 | -921,745 | 496,387 | 1,586,667 | 2,222,667 | 4,342,667 | -2,197,061 | 898,755 | 2,431,315 | 3,491,315 | 4,127,315 | 6,247,315 | -6,423,957 | -1,102,757 | 1,221,243 | 2,881,243 | 3,877,243 | 7,197,243 |
-| Y9 | -5,445,159 | -1,037,458 | 532,207 | 1,754,987 | 2,470,487 | 4,855,487 | -2,471,694 | 987,156 | 2,705,216 | 3,897,716 | 4,613,216 | 6,998,216 | -7,226,951 | -1,240,601 | 1,373,899 | 3,241,399 | 4,361,899 | 8,096,899 |
-| Y10 | -6,050,176 | -1,153,170 | 568,028 | 1,923,308 | 2,718,308 | 5,368,308 | -2,746,326 | 1,075,558 | 2,979,118 | 4,304,118 | 5,099,118 | 7,749,118 | -8,029,946 | -1,378,446 | 1,526,554 | 3,601,554 | 4,846,554 | 8,996,554 |
+| Y1 | -671,684 | -181,390 | 21,610 | 161,680 | 241,180 | 506,180 | -341,299 | 69,621 | 267,261 | 399,761 | 479,261 | 744,261 | -1,069,661 | -404,511 | -114,011 | 93,489 | 217,989 | 632,989 |
+| Y2 | -1,343,369 | -362,781 | 43,219 | 323,359 | 482,359 | 1,012,359 | -682,599 | 139,241 | 534,521 | 799,521 | 958,521 | 1,488,521 | -2,139,323 | -809,023 | -228,023 | 186,977 | 435,977 | 1,265,977 |
+| Y3 | -2,015,053 | -544,171 | 64,829 | 485,039 | 723,539 | 1,518,539 | -1,023,898 | 208,862 | 801,782 | 1,199,282 | 1,437,782 | 2,232,782 | -3,208,984 | -1,213,534 | -342,034 | 280,466 | 653,966 | 1,898,966 |
+| Y4 | -2,686,737 | -725,561 | 86,439 | 646,719 | 964,719 | 2,024,719 | -1,365,197 | 278,483 | 1,069,043 | 1,599,043 | 1,917,043 | 2,977,043 | -4,278,645 | -1,618,045 | -456,045 | 373,955 | 871,955 | 2,531,955 |
+| Y5 | -3,358,421 | -907,940 | 55,593 | 748,373 | 1,145,873 | 2,470,873 | -1,706,496 | 300,218 | 1,276,278 | 1,938,778 | 2,336,278 | 3,661,278 | -5,348,306 | -2,022,556 | -570,056 | 467,444 | 1,089,944 | 3,164,944 |
+| Y6 | -4,030,106 | -1,090,320 | 24,746 | 850,026 | 1,327,026 | 2,917,026 | -2,047,796 | 321,952 | 1,483,512 | 2,278,512 | 2,755,512 | 4,345,512 | -6,417,968 | -2,427,068 | -684,068 | 560,932 | 1,307,932 | 3,797,932 |
+| Y7 | -4,635,123 | -1,206,032 | 60,567 | 1,018,347 | 1,574,847 | 3,429,847 | -2,322,428 | 410,354 | 1,757,414 | 2,684,914 | 3,241,414 | 5,096,414 | -7,220,962 | -2,564,912 | -531,412 | 921,088 | 1,792,588 | 4,697,588 |
+| Y8 | -5,240,141 | -1,321,745 | 96,387 | 1,186,667 | 1,822,667 | 3,942,667 | -2,597,061 | 498,755 | 2,031,315 | 3,091,315 | 3,727,315 | 5,847,315 | -8,023,957 | -2,702,757 | -378,757 | 1,281,243 | 2,277,243 | 5,597,243 |
+| Y9 | -5,845,158 | -1,437,457 | 132,208 | 1,354,988 | 2,070,488 | 4,455,488 | -2,871,693 | 587,157 | 2,305,217 | 3,497,717 | 4,213,217 | 6,598,217 | -8,826,951 | -2,840,601 | -226,101 | 1,641,399 | 2,761,899 | 6,496,899 |
+| Y10 | -6,450,176 | -1,553,170 | 168,028 | 1,523,308 | 2,318,308 | 4,968,308 | -3,146,326 | 675,558 | 2,579,118 | 3,904,118 | 4,699,118 | 7,349,118 | -9,629,946 | -2,978,446 | -73,446 | 2,001,554 | 3,246,554 | 7,396,554 |
 
 ### Runway blocks (how the two cash-burn tables are built)
 
 Both blocks sit below the "Numeric model inputs" on the Formula validation tab, appended 25 Sep 2026. Interpretation is in §3.
 
-**Inputs (B69:B81).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + MPF 2,032,972, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values.
+**Inputs (balances B71:B77, pot combinations B80:B83).** Cash balance 1 HK$721,000, cash balance 2 HK$120,000, three card bills (1,504 + 40,839 + 10,384 = 52,727), ISAs 3,265,990, MPF 1,244,699. Derived: cash total 841,000, net cash 788,273, net cash + MPF 2,032,972, net cash + ISAs 4,054,263, net cash + ISAs + MPF 5,298,962. Cash and cards as of 25 Sep 2026; ISAs and MPF still July 2026 values. Full living inputs are B66:B68. The university reserve inputs (baseline target GBP 40,000, additional HK target GBP 120,000, years contributing 6, and the derived annual HK reserve) sit in the "University reserve inputs" block below the lean block.
 
 **Table 1, full burn.**
-- Annual net savings = the Zero columns' row 31 (London B31, Malvern H31, HK N31).
-- Monthly burn = −annual net savings ÷ 12.
-- Months = available funds ÷ monthly burn, for four pot combinations (cash; cash + MPF; cash + ISAs; cash + ISAs + MPF); years = months ÷ 12. Cash + MPF added 26 Sep 2026: the "spend the pension before the ISAs" case.
+- Annual savings, years 1 to 6 = the Zero columns' "Annual available savings after reserve, years 1 to 6" row (London, Malvern, HK); after year 6 = the "Annual net savings before university reserve" row.
+- Monthly burn including reserve, years 1 to 6 = −annual available savings ÷ 12. Post-reserve annual burn = −annual net savings before reserve.
+- Runway is piecewise, for four pot combinations (cash; cash + MPF; cash + ISAs; cash + ISAs + MPF). If the pot depletes within six years, months = pot ÷ monthly burn including reserve. Otherwise years = 6 + (pot − six years of that burn) ÷ post-reserve annual burn, and months = years × 12. Cash + MPF added 26 Sep 2026: the "spend the pension before the ISAs" case.
 - If burn is zero or negative the cell shows "No depletion". The MPF combination shows "n/a while in HK" for the HK column because MPF is only accessible on permanent departure.
 
 **Table 2, lean burn.**
-- Lean living costs per month (B108:D108) are typed snapshots of the expenses sheet's "Non-optional expenses total" row164 (London F, Malvern G, HK E), read 26 Sep 2026: 47,952.97 / 44,142.97 / 69,004.97. Not live-linked; refresh by hand after changing the expenses budget.
-- Lean annual savings = Zero annual savings + full annual living costs - lean monthly living costs x12. HK contents insurance is excluded through the lean living input. Rents, tax and resulting burn are unchanged.
-- Burn and runway rows then follow Table 1's formulas on the lean figures.
-- As of 26 Sep 2026 both runway tables are populated; all pot cases retain their previous results after restoring occupied-home costs to living expenses.
+- Lean living costs per month (B110:D110) are typed snapshots of the expenses sheet's "Non-optional expenses total" row164 (London F, Malvern G, HK E), read 26 Sep 2026: 47,952.97 / 44,142.97 / 69,004.97. Not live-linked; refresh by hand after changing the expenses budget.
+- Lean annual savings before reserve = Zero annual savings before reserve + full annual living costs - lean monthly living costs x12. Lean available savings, years 1 to 6 = that less the annual university reserve: −404,306 / −123,601 / −859,741. HK contents insurance is excluded through the lean living input. Rents, tax and resulting burn are unchanged.
+- Burn and runway rows then follow Table 1's piecewise formulas on the lean figures.
+- As of 27 Sep 2026 both runway tables are populated on the after-reserve figures for years 1 to 6 and the before-reserve figure after year 6; every validation check on the sheet reads OK.
 
 **Not modelled in either:** rent voids, inflation, investment returns, a salary starting part-way, the board and car uplift the financial model applies to Malvern (see §4).
 
@@ -381,6 +444,7 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 
 | Date | What changed |
 |---|---|
+| 2026-09-27 | University reserve built into the sheet by Codex (GBP 40,000 every column plus GBP 120,000 HK, over six years, earmarked): new reserve and after-reserve rows, cumulative and runway recalculated piecewise. Every table in this note re-read from the sheet. Open question on whether HK should be 120,000 or 160,000. |
 | 2026-09-27 | HK-return comparison block: HK rows re-derived with a £120k university reserve over six years (degree plus possible masters, Julian's instruction). Sheet B125 still 90,000, to update. UK rows carry no university reserve; noted as a like-for-like gap. |
 | 2026-09-27 | Added the HK-return comparison block at 6, 8 and 10 years (Malvern and London at 135k and Extra High; TTI + UNI and TTI(S) + UNI derived from annual figures). Mirrors the executive summary in HK-Return-BRAIND. |
 | 2026-09-27 | Absorbed the model companion: §6 inputs and assumptions, §7 mirrored tables and runway mechanics moved in from the former uk-relocation-cashflows note, which is now [[uk-relocation-expenses]] and covers the expenses sheet only. |
@@ -398,9 +462,10 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 ## 9. How to update
 
 1. Change inputs in the v3 sheet's "Numeric model inputs" block or the property rows; everything else recalculates. The full and lean living-cost inputs are typed values from the expenses sheet's rows 168 and 164 and must be refreshed by hand.
-2. Confirm both validation rows read OK.
-3. Update the §2, §6 and §7 tables here and add a change log row; if a living cost changed, update [[uk-relocation-expenses]] too.
-4. Keep findings here, not in the sheet.
+2. University reserve: edit the baseline and HK-additional targets and the years in the reserve inputs block; the reserve row and everything below recalculates.
+3. Confirm both validation rows read OK.
+4. Update the §2, §6 and §7 tables here and add a change log row; if a living cost changed, update [[uk-relocation-expenses]] too.
+5. Keep findings here, not in the sheet.
 
 ---
 

@@ -514,7 +514,7 @@ renamed: 2026-07-17
 - Julian's line back: yes, it matters to him too; he does not want to come in and be unable to deliver for lack of support. Unclear whether it landed.
 - Not reached: Stephan's "in terms of projects" comment (11:17 message). Julian had flagged it as needing a conversation.
 
-**Read (26 Sep):** the first dated process since the 14 Sep lunch: two named conversations (Horst on the flight, Ty next week), which is more than any earlier stage produced. Two cautions. (1) "See how things will work out in terms of projects" is the consulting-bridge reframe in embryo ([[horst-meeting-key-asks]] table manners); it needs answering before it hardens into the shape. (2) Ty's buy-in as a precondition puts part of the decision back with the chain that said no on 20 Aug, though Stephan's stated reason (support and information) is the same one Julian gave him. Still no written terms, so the F bar in [[hk-uturn-reopen-2026-09]] stays unmet.
+**Read (26 Sep):** the first dated process since the 14 Sep lunch: two named conversations (Horst on the flight, Ty next week), which is more than any earlier stage produced. Two cautions. (1) "See how things will work out in terms of projects" is the consulting-bridge reframe in embryo ([[horst-meeting-key-asks]] table manners); it needs answering before it hardens into the shape. (2) Ty's buy-in as a precondition puts part of the decision back with the chain that said no on 20 Aug, though Stephan's stated reason (support and information) is the same one Julian gave him. Still no written terms, so the F bar in [[dec-uk-move]] wobble #5 stays unmet.
 
 **✅ SENT Sat 26 Sep - the pre-flight asks (drafting record; sent text in the entry above):**
 

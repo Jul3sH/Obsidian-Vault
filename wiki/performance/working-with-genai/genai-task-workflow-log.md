@@ -292,3 +292,22 @@ steering) so the log is queryable by step as well as by type. Newest first.
   without re-reading the scope amendment, which named the double-count it had
   just introduced. Re-read the record before saying done.
 
+## 2026-09-27 · Decision capture + file restructure · Worked · [[HK-Return-BRAIND]]
+
+- **Work:** Julian dumped intuition on the return-to-HK question in chat; Claude
+  logged it in his words, populated B and R from the August HK-BRAIND with each
+  row sourced, built the 6/8/10-year comparison from the savings note, wrote the
+  BRAIND file convention, then delegated the restructure of four files to a
+  subagent.
+- **Check:** Julian reading every table and row as it landed; subagent edits by
+  exact-match assertion with a git diff of removed lines; Claude re-reading
+  headings and banner after the subagent returned.
+- **Outcome:** Worked. Julian 5/5, 15 attended minutes on the refactor. Session
+  1.15M effort tokens plus 109k subagent tokens.
+- **Lesson:** Step at fault: steering, twice, both Claude's. (1) Coined labels
+  and bare claim numbers in summaries forced three clarification rounds; the
+  plain-writing correction now has its third instance. (2) A one-word reading of
+  "forget it" dropped a row Julian wanted kept; when an instruction is one word,
+  confirm before deleting. Delegating the mechanical restructure with a fixed
+  spec was the right routing and produced zero content errors.
+

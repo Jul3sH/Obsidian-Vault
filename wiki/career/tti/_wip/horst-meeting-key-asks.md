@@ -6,7 +6,7 @@ created: 2026-09-13
 
 # Key Asks for Horst Meeting
 
-This file is the negotiation card for the Horst lunch (expected 14 Sep 2026, before the 15 Sep flight), where Horst has said he will discuss the terms of a job. It was created 13 Sep because Julian needs to walk in with a clear, short list of asks, each tied to a known risk from the engagement arc and the UK relocation reopen. Read it before the lunch; the outcome gets logged to [[tti-comms-log]] and feeds [[hk-uturn-reopen-2026-09]].
+This file is the negotiation card for the Horst lunch (expected 14 Sep 2026, before the 15 Sep flight), where Horst has said he will discuss the terms of a job. It was created 13 Sep because Julian needs to walk in with a clear, short list of asks, each tied to a known risk from the engagement arc and the UK relocation reopen. Read it before the lunch; the outcome gets logged to [[tti-comms-log]] and feeds the [[uk-relocation-project]] status log.
 
 > ⚠ As of 24 Sep (Julian's read): the lunch did not follow this card. None of the scripted conversations or asks ran as written; what came out of it is Horst's word that he will sort this out, with execution left to Stephan. Kept as reference material to reuse when written terms are being negotiated, not as a record of what happened. The record is [[engagement-history]] 14 Sep.
 >

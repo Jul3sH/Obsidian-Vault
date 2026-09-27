@@ -8,46 +8,48 @@ decision: Return to Hong Kong on a TTI offer
 
 # HK-Return-BRAIND
 
-This is the BRAIND workspace for one question: **if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move?** It was opened on 24 Sep 2026 because the Horst offer looks increasingly likely and Julian wants the decision structure in place before the paper arrives, with the intuition side captured as it surfaces rather than reconstructed later. Julian appends to the Intuition Log whenever a gut read shows up; the B, R, A and N sections get filled in structured sessions; D closes the file. Internal only.
+## Purpose
 
-**Sections:** Status · Six-year comparison (executive summary) · I - Intuition Log (live, append-only) · What the intuition asks the analysis to check · B · R · A · N · D · Links
+This is the BRAIND workspace for one question: **if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move?**
 
-> ⚠ **Status (27 Sep 2026): B and R populated from the August [[HK-BRAIND]] at Julian's instruction, ahead of written terms.** Rows are carried, changed or new; nothing is scored and only R rows 1 and 2 are ranked. Written terms from Horst are still absent, the wobble #5 F-N-M-T test has still not run, and this file has no `## Prompt Zero` section yet. Earlier status kept below.
->
-> ⚠ **Status (24 Sep 2026): capture only.** No written terms from Horst yet, and the wobble #5 F-N-M-T test in [[dec-uk-move]] has not been run. Until it runs, this file collects intuition and frames the analysis. It does not adjudicate. Standing warning carried over from the journal: stay-HK is the emotionally warm option and bias #6 names TTI as a Hoped item. Both intuition entries below lean HK; read them knowing that.
+**Sections:** Purpose and this map · Status banner · Executive summary (six-year comparison) · I - Intuition Log (live, append-only) · What the intuition asks the analysis to check · B - Benefits · R - Risks · A - Alternatives · N - Need time / Nothing · D - Decision · Links · Document Log · Time and Token Log and Session Synopsis
 
-**Relationship to prior art.** [[hk-uturn-reopen-2026-09]] holds the facts (Horst channel, 14 Sep lunch, custody escalation) and the F-N-M-T slot. [[HK-BRAIND]] holds the stay-HK benefits and risks from July and August, written when there was no job. This file is the fresh run for the changed question: HK *with* a senior TTI package, from a UK base already established.
+> ⚠ **Status (27 Sep 2026):** B and R are populated from the August [[HK-BRAIND]], unscored, with only R row 1 (the CRITICAL job-loss-mid-GCSE chain) ranked. A holds the candidate alternatives listed so far, Julian's 27 Sep lean (TTI from the UK) and its differences table. N and D have not been run.
+> Written terms from Horst are still absent, the wobble #5 F-N-M-T test in [[dec-uk-move]] has not been run, and this file has no `## Prompt Zero` section yet.
+> Standing warning carried from the journal: stay-HK is the emotionally warm option and bias #6 names TTI as a Hoped item. Both 24 Sep intuition entries lean HK; the 27 Sep entries lean toward TTI from the UK. Read them knowing that.
+
+**How this file relates to the earlier documents.** The facts (Horst channel, 14 Sep lunch, custody escalation) are in the [[uk-relocation-project]] status log (13, 17 and 27 Sep rows) and in [[dec-uk-move]] wobble #5, which also holds the pre-named F-N-M-T bar. [[HK-BRAIND]] holds the stay-HK benefits and risks from July and August, written when there was no job. This file is the fresh run for the changed question: HK *with* a senior TTI package, from a UK base already established.
 
 ---
 
 ## Six-year comparison (executive summary, as of 27 Sep 2026)
 
-**Julian's minimum requirement, and what he is aiming for, is six years.** Years 8 and 10 are shown alongside for the longer-tenure cases. Values as of 26 Sep 2026, HK$ cumulative net savings, no salary growth, no returns, no starting pot. The same block is mirrored in [[uk-relocation-savings-comparison]] §2.
+**Julian's minimum requirement, and what he is aiming for, is six years.** Years 8 and 10 are shown alongside for the longer-tenure cases. Values as of 27 Sep 2026 (sheet with the university reserve), HK$ cumulative available savings, no salary growth, no returns, no starting pot. The same block is mirrored in [[uk-relocation-savings-comparison]] §2.
 
 | Scenario | What it stands for (Julian's words) | Year 6 | Year 8 | Year 10 |
 |---|---|---:|---:|---:|
-| Malvern 135k | What he is likely to earn as a contractor based in Malvern | 2,678,512 | 3,491,315 | 4,304,118 |
-| London 135k | Contractor earnings if circumstances change and he goes to London | 1,250,026 | 1,586,667 | 1,923,308 |
-| Malvern Extra High (£200k) | A TTI role on current salary, done from the UK, Malvern base | 4,745,512 | 6,247,315 | 7,749,118 |
-| London Extra High (£200k) | A TTI role on current salary, done from the UK, London base | 3,317,026 | 4,342,667 | 5,368,308 |
-| HK, TTI + UNI (£230k) | If he goes to Hong Kong. After a £20k/yr university reserve for six years (£120k, degree plus a possible masters), which stops in year 7 | ~5,712,000 | ~8,016,000 | ~10,320,000 |
-| HK, TTI(S) + UNI (£250k) | If he goes to Hong Kong and gets schooling in the package (£20k/yr allowance, taxed as salary). Same reserve | ~6,732,000 | ~9,376,000 | ~12,020,000 |
+| Malvern 135k | What he is likely to earn as a contractor based in Malvern | 2,278,512 | 3,091,315 | 3,904,118 |
+| London 135k | Contractor earnings if circumstances change and he goes to London | 850,026 | 1,186,667 | 1,523,308 |
+| Malvern Extra High (£200k) | A TTI role on current salary, done from the UK, Malvern base | 4,345,512 | 5,847,315 | 7,349,118 |
+| London Extra High (£200k) | A TTI role on current salary, done from the UK, London base | 2,917,026 | 3,942,667 | 4,968,308 |
+| HK, TTI + UNI (£230k) | If he goes to Hong Kong. After the HK university reserve (GBP 160,000 over six years), which stops in year 7 | 5,312,032 | 7,616,043 | 9,920,054 |
+| HK, TTI(S) + UNI (£250k) | If he goes to Hong Kong and gets schooling in the package (GBP 20k/yr allowance, taxed as salary). Same reserve | 6,332,032 | 8,976,043 | 11,620,054 |
 
-UK rows are read from the §7 cumulative table of [[uk-relocation-savings-comparison]] (FIG for years 1 to 4, no-FIG tax from year 5). HK rows are derived from the sheet's annual TTI figures (GBP 100,200 or 117,200 a year for years 1 to 6 with the sheet's current £15k reserve, less £5k a year for the £120k reserve Julian set on 27 Sep, then 115,200 or 132,200 once the reserve stops), summed and converted at FX 10. They are not sheet cumulative cells. **Sheet still to update (as of 27 Sep):** university target B125 from 90,000 to 120,000. The UK rows carry no university reserve at all, so the comparison currently favours the UK by whatever a home-fee degree and masters would cost.
+All rows are read from the sheet's cumulative table (FIG for years 1 to 4, no-FIG tax from year 5). Since 27 Sep 2026 the sheet carries a university reserve in every column, excluded from available savings in years 1 to 6: GBP 40,000 over six years everywhere, plus GBP 120,000 in the Hong Kong columns. Open question (27 Sep): Julian named GBP 120,000 as the HK reserve; the sheet carries GBP 160,000 in HK. To confirm.
 
 | Ratio | Year 6 | Year 8 | Year 10 |
 |---|---:|---:|---:|
-| HK TTI + UNI vs Malvern 135k | 2.1x | 2.3x | 2.4x |
-| HK TTI + UNI vs Malvern Extra High | 1.2x | 1.3x | 1.3x |
-| HK TTI(S) + UNI vs Malvern 135k | 2.5x | 2.7x | 2.8x |
-| HK TTI(S) + UNI vs Malvern Extra High | 1.4x | 1.5x | 1.6x |
+| HK TTI + UNI vs Malvern 135k | 2.3x | 2.5x | 2.5x |
+| HK TTI + UNI vs Malvern Extra High | 1.2x | 1.3x | 1.4x |
+| HK TTI(S) + UNI vs Malvern 135k | 2.8x | 2.9x | 3.0x |
+| HK TTI(S) + UNI vs Malvern Extra High | 1.5x | 1.5x | 1.6x |
 | Gap, HK TTI + UNI minus Malvern Extra High (HK$) | 0.97M | 1.77M | 2.57M |
 | Gap, HK TTI(S) + UNI minus Malvern Extra High (HK$) | 1.99M | 3.13M | 4.27M |
 
 **What these numbers say, not yet tested in B:**
 
 - The £200k band stands in for a TTI role done from the UK. The TTI salary in the sheet is £230k, so the two Extra High rows already assume £30k a year less for being UK-based. If TTI paid the full £230k from the UK, those rows would be higher.
-- At six years the HK return is roughly 2.1x Malvern 135k and 1.2x Malvern Extra High on TTI + UNI, and 2.5x and 1.4x on TTI(S) + UNI. The multiples barely move at eight or ten years. Julian's 27 Sep "four times Malvern" was a mistake (his words, later the same day): the ten-year comparison is about 12.0M against 7.75M on the same salary from Malvern (1.6x), or against 4.30M as a Malvern contractor (2.8x).
+- At six years the HK return is roughly 2.3x Malvern 135k and 1.2x Malvern Extra High on TTI + UNI, and 2.8x and 1.5x on TTI(S) + UNI. The multiples barely move at eight or ten years. Julian's 27 Sep "four times Malvern" was a mistake (his words, later the same day): the ten-year comparison is about 12.0M against 7.75M on the same salary from Malvern (1.6x), or against 4.30M as a Malvern contractor (2.8x).
 - The gap between Malvern Extra High and the HK rows, about HK$0.97M (TTI + UNI) or HK$1.99M (TTI(S) + UNI) over six years, is the price of removing the CRITICAL risk in R. That is the number the A-step alternative turns on.
 
 ---
@@ -137,9 +139,9 @@ Feeds B, R and A. Each row is a claim the gut is relying on that has not yet bee
 | 5 | Living with Mum avoids care-home costs later | Assumption | B / Finance and Relationships: is this a real saving, and is it a life Julian would accept for six years |
 | 6 | Romance need will resurface within months and cannot be met from Mum's | Belief | R / Relationships: test against [[b1-relationship-belief]], which already examined fear of being single in the UK |
 | 7 | Appeal drops materially by 61, so waiting for Asia is a losing plan | Belief | R / Personal: name it, then decide whether it actually affects the decision |
-| 8 | Sophia will be happier in the UK | Belief | R / Relationships and Performance: evidence from The Chase so far; compare with the HK international-school card in [[hk-uturn-reopen-2026-09]] |
+| 8 | Sophia will be happier in the UK | Belief | R / Relationships and Performance: evidence from The Chase so far; compare with the HK international-school card in the [[uk-relocation-project]] 27 Sep log row |
 | 9 | Guilt over Clodagh's access is unearned | Belief | Park it. Guilt is data about Julian, not about the decision. Do not let it enter the scoring |
-| 10 | TTI is worth about four times the Malvern outcome | Assumption | **Resolved 27 Sep, Julian: "four times was a mistake."** The comparison he had in mind was the ten-year column: HK TTI(S) + UNI against 7.75M, which is Malvern on the TTI salary (Extra High), giving 1.6x; against Malvern 135k (4.30M) it is 2.8x. At six years: 2.5x and 1.4x (figures after the £120k reserve) |
+| 10 | TTI is worth about four times the Malvern outcome | Assumption | **Resolved 27 Sep, Julian: "four times was a mistake."** The comparison he had in mind was the ten-year column: HK TTI(S) + UNI (11.62M) against 7.35M, which is Malvern on the TTI salary (Extra High), giving 1.6x; against Malvern 135k (3.90M) it is 3.0x. At six years: 2.8x and 1.5x (sheet figures with the university reserve, 27 Sep) |
 | 11 | A UK-based TTI role is obtainable, and Horst and Stephan would accept it | Assumption | **Julian, 27 Sep: "Yes, I need to ask."** A / Career: has anyone at TTI said the role must be in HK? What does "a bit less pay, higher tax" actually come to in the savings comparison's UK columns? |
 | 12 | Horst is partly motivated by annoyance with Stephan, and Stephan would not defend Julian | Belief | **Julian, 27 Sep: "a speculative story, yes."** Stays labelled as such. The boring explanation (Horst wants the capability, Stephan is managing upward) may hold. It does not change the removal risk, which is structural: a chairman-fiat hire over a chain that said no |
 | 13 | Once Sophia is mid-GCSE in HK, a return cannot restore her UK home-fee status | Assumption | **Julian, 27 Sep: "I am sure of this."** Accepted on his word for scoring the CRITICAL row; the residency rule itself has not been looked up |
@@ -149,7 +151,7 @@ Open tasks the intuition set for itself:
 
 - Write the ideal-partner profile, now and at 61, before the R step on relationships runs.
 - Re-examine the four Joanne rows from [[HK-BRAIND]] (left open 27 Sep).
-- Update the savings sheet university target (B125) from 90,000 to 120,000, and decide whether the UK rows should carry a home-fee degree-plus-masters reserve so the comparison is like for like.
+- Done 27 Sep by Codex: the sheet now carries a university reserve in every column (GBP 40,000 over six years everywhere, plus GBP 120,000 in HK). Still open: confirm whether the HK total should be GBP 120,000 or the GBP 160,000 now in the sheet.
 - **(27 Sep, days not weeks)** Decide whether to raise the UK-based option with Stephan before he speaks to Ty this week. Open question, not yet decided.
 
 ---
@@ -160,7 +162,7 @@ Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, writte
 
 **Finance**
 
-- A real senior HK role has the strongest financial upside because low tax keeps most of the pay. *(Carried from HK-BRAIND, now with numbers: about HK$5.7M to 6.7M cumulative at six years against Malvern 4.75M on the same salary from the UK, see the comparison table above.)*
+- A real senior HK role has the strongest financial upside because low tax keeps most of the pay. *(Carried from HK-BRAIND, now with numbers: about HK$5.3M to 6.3M cumulative at six years against Malvern 4.35M on the same salary from the UK, see the comparison table above.)*
 - Low-tax earnings could clear the HK mortgage and allow retirement at 61, when Sophia leaves for university. *(New, 24 Sep intuition; claim 1.)*
 - Living in the DB flat rather than letting it removes the letting costs and HK Property Tax rows, though it also gives up the HK$27k/month offer on the table. *(New, from the 26 Sep flat offer in [[uk-relocation-project]]; needs pricing.)*
 
@@ -172,7 +174,7 @@ Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, writte
 
 **Relationships**
 
-- Joint custody stays under HK jurisdiction, which is hard for Clodagh to attack; a UK base is exposed to a claim from Waterford. *(New since August, from [[hk-uturn-reopen-2026-09]] §2; custody jurisdiction read still not lawyer-verified.)*
+- Joint custody stays under HK jurisdiction, which is hard for Clodagh to attack; a UK base is exposed to a claim from Waterford. *(New since August, from Julian's 13 Sep capture, now in the [[uk-relocation-project]] status log; custody jurisdiction read still not lawyer-verified.)*
 - Julian's HK network is still there and a corporate role rebuilds it through the job rather than through a networking offensive. *(Carried, changed: August required him to rebuild it himself.)*
 - An HK international school is likely to be a happier place for Sophia than her old HK school. *(New, from the reopen file §2. It competes with claim 8, that she is happier at The Chase.)*
 
@@ -193,7 +195,7 @@ Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, writte
 
 ## R - Risks
 
-Populated 27 Sep 2026 from the Risk rows of [[HK-BRAIND]], reread against the question as it now stands, plus the risks raised in this file's intuition entries. Rows 1 and 2 are ranked by Julian; the rest are unranked and unscored. Each row says where it came from.
+Populated 27 Sep 2026 from the Risk rows of [[HK-BRAIND]], reread against the question as it now stands, plus the risks raised in this file's intuition entries. Row 1 is ranked by Julian; the rest are unranked and unscored. Each row says where it came from.
 
 **Pre-run ranking from intuition (27 Sep 2026, Julian's call, not yet tested):**
 
@@ -266,14 +268,14 @@ Carried from [[HK-BRAIND]] into this step (27 Sep): keeping the question open co
 
 ## D - Decision
 
-*(Open. Committed choice is written here dated, then mirrored to [[dec-uk-move]], [[hk-uturn-reopen-2026-09]] §5 and [[uk-relocation-project]].)*
+*(Open. Committed choice is written here dated, then mirrored to [[dec-uk-move]] and [[uk-relocation-project]].)*
 
 ---
 
 ## Links
 
 - [[dec-uk-move]] - canonical committed decision and wobble #5 record; F-N-M-T lives here
-- [[hk-uturn-reopen-2026-09]] - facts of the Horst offer and the custody escalation
+- [[uk-relocation-project]] - status log holds the facts of the Horst offer and the custody escalation (13, 17 and 27 Sep rows)
 - [[HK-BRAIND]] - July and August stay-HK benefits and risks, written without a job
 - [[uk-move-financial-model]] - canonical finance model for claims 1, 2 and 5
 - [[b1-relationship-belief]] - prior belief test on being single in the UK
@@ -281,13 +283,45 @@ Carried from [[HK-BRAIND]] into this step (27 Sep): keeping the question open co
 - [[commitment-lock-protocol]] - reopen test and stand-down rules
 - [[why-brained]] - why BRAIND, and the N-step caveat
 
+## Document Log
+
+Newest first. History of the file only; effort is in the Time and Token Log below.
+
+| Date | Entry |
+|------|-------|
+| 2026-09-27 | Purpose cut to the question alone under a Purpose heading, at Julian's instruction. The opening rationale moved here: the file was opened 24 Sep 2026 because the Horst offer looked increasingly likely and Julian wanted the decision structure in place before paper arrived, with gut reads captured in the Intuition Log as they surfaced, B, R, A and N filled in structured sessions, and D closing the file. |
+| 2026-09-27 | Links repointed after the reopen note was folded into the uk-relocation-project status log and deleted; "prior art" wording in the purpose block replaced with plain words. |
+| 2026-09-27 | Executive summary re-read from the sheet after Codex built the university reserve into every column: all six rows are now sheet cells (HK rows no longer derived), ratios updated, open question on GBP 120,000 versus 160,000 for HK recorded. |
+| 2026-09-27 | Handback recorded: Julian 15 attended minutes and a 5/5 rating; session and subagent token totals logged. |
+| 2026-09-27 | Restructured to the thirteen-section BRAIND order in [[documentation-conventions]]: the two stacked status entries replaced by one current banner, this Document Log added, the section map rewritten. No content row changed. |
+| 2026-09-27 | Superseded status (earlier the same day): "B and R populated from the August [[HK-BRAIND]] at Julian's instruction, ahead of written terms. Rows are carried, changed or new; nothing is scored and only R rows 1 and 2 are ranked. Written terms from Horst are still absent, the wobble #5 F-N-M-T test has still not run, and this file has no `## Prompt Zero` section yet." |
+| 2026-09-27 | The HK rows of the executive summary were re-derived with the £120k university reserve (degree plus a possible masters). |
+| 2026-09-27 | Claims 10 to 13 in the check table (the four-times figure, whether a UK-based TTI role is obtainable, the Horst and Stephan motive read, and whether a return can restore home-fee status) were resolved or labelled in Julian's words. |
+| 2026-09-27 | The TTI-from-the-UK differences table was added to A, with Julian's agreement. |
+| 2026-09-27 | The status banner was dated. |
+| 2026-09-27 | The N-step warnings (analysis loops, drift with a schedule) were carried from [[HK-BRAIND]] into N. |
+| 2026-09-27 | B and R were populated from [[HK-BRAIND]], each row marked carried, changed or new with its source named. |
+| 2026-09-27 | Claim 14 (a regional rental shared with a partner keeps savings above the London figure) was added to the check table. |
+| 2026-09-27 | The risk of moving out of Mum's for a relationship was logged here, then refiled to [[Malvern-BRAIND]] Finance at Julian's instruction. |
+| 2026-09-27 | The six-year executive summary block was added: four UK scenarios, two HK TTI rows, years 6, 8 and 10, mirrored to [[uk-relocation-savings-comparison]]. |
+| 2026-09-27 | The Stephan-timing task (whether to raise the UK-based option before he speaks to Ty) was opened. |
+| 2026-09-27 | A was seeded with the TTI-from-the-UK alternative, Julian's current lean. |
+| 2026-09-27 | R was seeded with the CRITICAL job-loss-mid-GCSE chain, with Horst's removal as the trigger. |
+| 2026-09-27 | Claims 3 and 10 to 13 were added to the check table. |
+| 2026-09-27 | The second intuition block ("After redoing the financial analysis") was logged. |
+| 2026-09-24 | Superseded status: "capture only. No written terms from Horst yet, and the wobble #5 F-N-M-T test in [[dec-uk-move]] has not been run. Until it runs, this file collects intuition and frames the analysis. It does not adjudicate. Standing warning carried over from the journal: stay-HK is the emotionally warm option and bias #6 names TTI as a Hoped item. Both intuition entries below lean HK; read them knowing that." |
+
 ## Time and Token Log
 
 | Date | Type | Amount | Notes |
 |------|------|--------|-------|
 | 2026-09-24 | Machine (interactive session) | unmeasured | File created; opening intuition dump logged and summarised; registered in workspace index, reopen file, project page and ops log |
-| 2026-09-27 | Machine (interactive session) | unmeasured | Second intuition block logged; claims 3, 10-13 added; R seeded with the CRITICAL job-loss-mid-GCSE chain (Horst removal as trigger); A seeded with the TTI-from-UK alternative; Stephan-timing task opened; six-year executive summary block added (four UK scenarios, two HK TTI rows, years 6/8/10, mirrored to the savings comparison note); moving-out-of-Mum's risk logged then refiled to Malvern-BRAIND Finance at Julian's instruction; claim 14 added; B and R populated from HK-BRAIND (carried / changed / new, each row sourced); N warnings carried; status banner dated; A: TTI-from-the-UK differences table added; claims 10-13 resolved or labelled per Julian; HK rows re-derived with the £120k university reserve |
+| 2026-09-27 | Julian, attended | 15 min | Refactoring the file to the BRAIND format only (reviewing the convention and the restructure). Intuition capture time earlier in the day not reported |
+| 2026-09-27 | Machine (interactive session) | 1,145,274 tokens (output 226,685 + cache-write input 918,589; cache reads 24.6M omitted) | Whole session, covering the intuition capture, B/R population, the comparison tables and the convention work; changes listed in the Document Log |
+| 2026-09-27 | Machine (subagent) | 108,511 tokens | Restructure of this file and the three August BRAIND files to the thirteen-section format |
 
 ## Session Synopsis
 
-*(Filled at handback. Julian rates and comments first; the model comments beneath.)*
+**Julian (27 Sep 2026): 5/5.** "Seems to be a good job done of it and quickly without errors." (On the refactoring to the format; 15 attended minutes.)
+
+**Model, beneath:** The refactor went cleanly because the spec was fixed before delegation and the subagent asserted exact matches. What cost time earlier in the session was mine: coined labels ("leaving-Mum's drift", "read-across") and bare claim numbers needed three rounds of clarification; one edit failed on a mismatched row and had to be rerun; and I misread "forget it" as an instruction to drop a row. The numbers work was clean but the HK rows are still derived, not sheet cells.

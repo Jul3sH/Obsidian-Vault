@@ -7,6 +7,7 @@ This records the independent review of the v3 relocation savings spreadsheet. Ju
 - Serves [[uk-relocation-project]] and its financial comparison.
 - As of 25 Sep 2026: review complete; findings in [[uk-relocation-savings-v3-codex-review-2026-09-25]]. Agreed spreadsheet repairs and appended runway tables completed and independently verified; completion records below.
 - As of 27 Sep 2026: Claude cross-check of the restored expense structure passed; no material defects, no sheet change. Section below.
+- As of 27 Sep 2026, later: university reserve built into every column of the sheet by Codex; companion note re-read from the sheet. Open question on the HK reserve total (120,000 or 160,000). Section below.
 
 ## Prompt Zero
 
@@ -250,13 +251,23 @@ Not checked: formulas (values only); FIG eligibility and residence, which remain
 
 - [[uk-relocation-savings-comparison]]: §2 gains "What is deductible where"; new §6 model inputs and assumptions (two sheets, property income by scenario, assumptions, living-cost inputs) and §7 mirrored tables and runway mechanics, moved verbatim from the old model companion; change log and how-to-update renumbered §8 and §9; purpose block and map updated.
 - uk-relocation-cashflows renamed [[uk-relocation-expenses]] (git mv, history kept) and rewritten as the expenses-sheet companion: structure, totals rows 164/166/168, what differs by location, what is not in the sheet, refresh procedure, change log.
-- Repointed: all `[[uk-relocation-cashflows` links renamed globally; live references in [[uk-move-financial-model]], [[tax-rental-incomes]], [[uktax-srt-fy26-27]], [[hk-uturn-reopen-2026-09]] and the July number check now point at the savings comparison where the model content lives; finance index and project File Map and Trusted Artifacts rewritten. Historical status-log and ops-log rows keep the renamed link or their dated backticked mention.
+- Repointed: all `[[uk-relocation-cashflows` links renamed globally; live references in [[uk-move-financial-model]], [[tax-rental-incomes]], [[uktax-srt-fy26-27]], the HK U-turn reopen note (since folded into the project status log, 27 Sep) and the July number check now point at the savings comparison where the model content lives; finance index and project File Map and Trusted Artifacts rewritten. Historical status-log and ops-log rows keep the renamed link or their dated backticked mention.
 - Google Sheet 1HP-4Gm7... renamed UK Relocation Expenses by Julian; file ID unchanged.
+
+## University reserve built in, 27 Sep 2026
+
+- Codex added to the savings sheet: "Annual net savings before university reserve", "Annual university reserve, years 1 to 6" (HK$66,667 in every UK column, HK$266,667 in every HK column) and "Annual available savings after reserve"; reserve inputs block (baseline GBP 40,000 all locations, additional GBP 120,000 if living in HK, six years); cumulative rows exclude the reserve in years 1 to 6; both runway tables are piecewise (reserve in the burn for six years, then not). The old GBP 15,000 reserve inside the TTI columns' living expenses was removed. All validation checks read OK; Codex reported the checks pass including the point where contributions stop.
+- Claude read the sheet, then a subagent re-read every table in [[uk-relocation-savings-comparison]] from it (§1 to §9, change-log row added). Two §2 tables (cumulative after four and ten years) had been deleted by a Claude edit earlier the same day and were rebuilt from the sheet.
+- Downstream: [[HK-Return-BRAIND]] executive summary (all six rows now sheet cells), [[Malvern-BRAIND]] Finance row, [[uk-relocation-project]] Trusted Artifacts and status.
+- Open (27 Sep): Julian named GBP 120,000 as the HK reserve this morning; the sheet carries GBP 160,000 in HK (40,000 baseline plus 120,000 additional). To confirm.
 
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
+| 2026-09-27 | Julian, attended | to be reported | University reserve piece: briefing Codex, reviewing the sheet result, handing the companion update to Claude. |
+| 2026-09-27 | Codex, university reserve build | 699,140 tokens | Sum of per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite` for the four threads active 15:53 to 15:56 on 27 Sep (197,900 + 188,499 + 183,298 + 129,443). Earlier 06:07 threads excluded as a different task. |
+| 2026-09-27 | Claude subagent, companion note re-read (Fable 5.1) | 126,073 tokens | One delegated pass over all nine sections of the companion note. Parent-session tokens for this piece are inside the session total logged in [[HK-Return-BRAIND]] and are not separated. |
 | 2026-09-27 | Julian, attended | 30 min | Self-reported at handback 27 Sep: reviewing the handover, deciding the deductibility table and the companion restructure. |
 | 2026-09-27 | Claude cross-check and companion restructure session (Fable 5.1) | 1,118,916 tokens (output 216,693 + cache-write 902,223) | Session `c82c95e1`, 60 assistant messages, summed from the transcript JSONL at the restructure handback. Cache reads (3.5M) omitted as not effort. Julian's attended minutes: pending at handback. |
 | 2026-09-27 | Luna rules panels and parent verification | Incremental tokens unmeasured | Latest log checkpoint128541 for thread01a0d888-485e-78b0-8818-2f76c850d1ad is cumulative and not comparable with prior checkpoints; delegate usage unavailable. |

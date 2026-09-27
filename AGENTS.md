@@ -62,9 +62,9 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   `MM: <Name>`, and listed in `mental-models-index.md`. Defined in
   `documentation-conventions.md` Part 1; reference implementation is
   `mm-verification.md`. Never invent an ad-hoc structure for a mental model.
-- **BRAIND files use the standard twelve-section format** (purpose block, dated
+- **BRAIND files use the standard thirteen-section format** (purpose block, current
   status banner, executive summary, Intuition Log, claims to test, B, R, A, N, D,
-  Links, Time and Token Log with Session Synopsis) defined in
+  Links, Document Log, Time and Token Log with Session Synopsis) defined in
   `documentation-conventions.md` Part 1. One question, one file, named
   `<Question>-BRAIND.md` in the decision's workspace folder; Julian's words, no
   coined labels; D written by Julian. An option's B and R rows may be split into
@@ -169,6 +169,12 @@ current forever, so it stays wrong silently. A dated one **flags itself to the r
 the moment the date looks old - no memory or discipline required, and it works even
 when the agent forgets. That is the point: the rule has to survive the agent not
 following it.
+
+**The headline status is the current position only.** One dated entry at the top saying
+where the document is at. Superseded statuses and dated change notes go to a
+`## Document Log` at the bottom of the file, newest first. A headline that lists every
+change stops saying where the file is at (rule set 27 Sep 2026; format in
+`documentation-conventions.md` Part 1 item 6).
 
 **And on every edit, re-read the document's own status claims.** If you change what a
 document says, check what it claims about itself in the same operation. Editing content

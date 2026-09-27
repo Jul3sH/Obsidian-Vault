@@ -45,6 +45,23 @@ The motivating case for principle 3. A flat deliverables backlog cross-linked to
 ### 5. Standard recurring artefacts have a fixed name and shape
 Long-running work uses named artefacts with a defined structure, so a reader (human or LLM) always knows which file holds what without opening several to find out. The first standardised one is the **engagement-strategy doc** (see Part 3); the second is the **mental model** (below). When a recurring artefact type appears across two or more areas, give it a standard name and a documented shape here, rather than letting each area invent its own.
 
+### 6. Headline status is current-only; history goes to a Document Log
+
+Any file that carries a status banner shows **one** entry at the top: the current
+position, dated, in a few lines a reader can take in at a glance ("where is this
+at"). It is rewritten in place when the position changes. It never accumulates.
+
+Every superseded status, and every dated note of what changed in the file, goes to
+a `## Document Log` section at the **bottom** of the file: one row per entry,
+newest first, columns Date and Entry. The Document Log records the history of the
+document; the Time and Token Log (where the file has one) records effort only, and
+the two are not merged.
+
+Why: a headline that lists every change since the file opened stops telling the
+reader where the file is at. *(Rule set by Julian, 27 Sep 2026.)* This is the
+in-document form of the [[#The project-file Status surface]] rule: newest position
+first, history below.
+
 ### The mental-model format (six slots, any workstream)
 
 A mental model is a compressed decision aid Julian holds in his head, with the
@@ -118,7 +135,7 @@ workspace folder under `wiki/performance/decision-journal/`. Frontmatter:
 | # | Section | Holds | Rules |
 |---|---|---|---|
 | 1 | Purpose block + section map | What the file is, why it was opened, how it is used, then one line per section | Per the AGENTS.md purpose-block rule |
-| 2 | Status banner | Dated entries, newest first, each opening `⚠ Status (date):`. Earlier entries are kept below, never overwritten | This is the file's own status log. The project page carries the cross-project view and links here |
+| 2 | Status banner | The current position only, dated, opening `⚠ Status (date):`, a few lines | Rewritten in place when the position changes. Superseded entries move to the Document Log (Part 1 item 6). The project page carries the cross-project view and links here |
 | 3 | Executive summary | The numbers that decide the question, as one table: scenarios described in Julian's words, figures read from the canonical model with the source named | Derived figures are marked derived. A "what these numbers say" list follows, marked untested until B runs |
 | 4 | I - Intuition Log | Append-only dated blocks in Julian's words, recorded before the analysis | The model never rewrites, summarises away, or labels an entry. Later entries may contradict earlier ones; both stand |
 | 5 | What the intuition asks the analysis to check | Numbered table: the claim the gut relies on, Fact / Assumption / Belief, where it gets tested | A resolved claim is marked resolved with the date and Julian's words, never deleted. Referred to by number plus what it says, never number alone |
@@ -128,13 +145,14 @@ workspace folder under `wiki/performance/decision-journal/`. Frontmatter:
 | 9 | N - Need time / Nothing | What doing nothing means, and the date on which waiting ends | Bounded, so it closes into D |
 | 10 | D - Decision | The committed choice, dated, written by Julian | Never model-drafted ([[mm-commitment-by-proxy-bias]]). Mirrored to the `dec-*.md` entry and the project page in the same operation |
 | 11 | Links | Bare links to the journal entry, related BRAIND files, canonical model, protocol | |
-| 12 | Time and Token Log, Session Synopsis | Per the AGENTS.md rules | A BRAIND file is a deliverable: the Prompt Zero gate applies |
+| 12 | Document Log | Dated rows, newest first: superseded statuses and what changed in the file | History only; effort goes in the Time and Token Log |
+| 13 | Time and Token Log, Session Synopsis | Per the AGENTS.md rules | A BRAIND file is a deliverable: the Prompt Zero gate applies |
 
 **Rules.**
 - One question, one file. The first BRAIND run (July 2026, [[performance/decision-journal/uk-move/_index|UK relocation workspace]]) was spread across seven files, which is why the single-file form exists.
 - Julian's words, no coined labels. A risk, claim or option is recorded in the words he used; if a shorter handle is needed, ask him for one.
 - Earlier BRAIND files are inputs to a later run and are never rebuilt inside it. Rows are carried with their source named; rows not carried are listed with the reason at the time of carrying.
-- Every status claim inside the file is dated (AGENTS.md rule). On every edit, re-read the banner.
+- Every status claim inside the file is dated (AGENTS.md rule). The banner holds the current position only; on every edit, rewrite it and move what it replaced to the Document Log.
 - Numbers come from the canonical model file and say so; a figure computed outside the model is marked derived and the model change it implies is logged as an open task.
 
 Reference implementation: [[HK-Return-BRAIND]] (opened 24 Sep 2026). Split B-and-R files: [[HK-BRAIND]], [[London-BRAIND]], [[Malvern-BRAIND]] (August 2026; they predate this convention and lack the purpose block and dated status line).
