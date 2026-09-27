@@ -35,7 +35,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-09-26)
 
-**26 Sept - Housing running costs separated:** Cashflow now provides full/lean expenses excluding Housing (rows169/170); savings property rows carry occupied-home running costs. Mortgage payments remain in cashflow; hotels moved to discretionary Transport. Parent compared440 outputs with no changes. Companions: [[uk-relocation-cashflows]], [[uk-relocation-savings-comparison]]; verification: [[savings-v3-review]].
+**26 Sept - Occupied-home housing restored to living expenses:** Savings property rows now contain letting expenses only. Full cashflow source168 and lean164 include occupied housing; obsolete outputs169/170 cleared. All440 checked savings, tax and runway outputs unchanged. Details in [[uk-relocation-cashflows]], [[uk-relocation-savings-comparison]] and [[savings-v3-review]].
 
 **26 Sept - Cash + MPF runway added:** Both full and lean tables now show the pension-before-ISAs case. All20 annual savings and both validation rows unchanged. Exact cells/results: [[savings-v3-review]].
 
@@ -137,7 +137,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 25 Sep 2026):**
 
-- **26 Sep: review the completed housing split; future budget refreshes use cashflow rows169/170, excluding Housing.** University inputs remain B125:B127.
+- **26 Sep: future budget refreshes use full cashflow168 and lean164, including occupied housing. Confirm the HK rates-only component of the combined rates/rent bill against B59.** University inputs remain B125:B127.
 - **26 Sep: review TTI + UNI and TTI(S) + UNI columns T/U and university inputs B125:B126; salary continues after year6.**
 - **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B69:B75 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
 
@@ -286,6 +286,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-26 | Restored occupied-home costs to living expenses in [savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit) and cleared obsolete excluding-housing outputs in [cashflow](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit).440 outputs unchanged. Companions [[uk-relocation-cashflows]], [[uk-relocation-savings-comparison]]; record [[savings-v3-review]]. |
 | 2026-09-26 | **Housing split completed.** [Cashflow rows169/170](https://docs.google.com/spreadsheets/d/1HP-4Gm7TUqftlnCiXFqe34Wpp4torBt3NOZOb9BG4U4/edit?gid=2028208137&range=A168:G170) feed excluding-housing budgets; [savings](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357) deducts occupied-home costs in property rows.440 outputs unchanged. Companions [[uk-relocation-cashflows]] and [[uk-relocation-savings-comparison]] updated; record [[savings-v3-review]]. |
 | 2026-09-26 | **Cash + MPF case added** to both [savings runway tables](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357&range=A79:D119). Independent result checks passed; model results unchanged. Manifest: [[savings-v3-review]]. |
 | 2026-09-26 | **DB flat offer logged: asking price, HK$27k/month, tenants want to move ASAP.** Told to Stephan 25 Sept as the trigger for the likely-and-viable question; Stephan now discussing with Horst 26 Sept and Ty next week ([[tti-comms-log]], [[tti-role]]). Decision impact: the letting decision now needs either a dated TTI answer or a lease shape that survives a return; Julian told Stephan he would live in the flat if returning with Sophia. Input for [[HK-Return-BRAIND]]. |

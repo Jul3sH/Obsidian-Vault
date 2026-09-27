@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-26 · Build + Verification · Worked · [[savings-v3-review]] restored housing
+
+- **Work:** Restored occupied-home housing to living costs and rental-only property expense rows; aligned both companion notes.
+- **Check:**440 live before/after output comparisons; no differences or formula errors. Tax sources distinguish UK overseas-rental expenses from HK statutory deductions.
+- **Outcome:** Requested simpler structure restored. Incremental tokens unmeasured.
+- **Lesson:** Steering: define both the cash-cost owner and tax jurisdiction before moving expenses between sheets. Unchanged totals alone do not establish correct classification.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-09-26 · Build + Verification · Worked · [[savings-v3-review]] housing split
 
 - **Work:** Coordinated housing cost transfer, hotels to Transport, lean classification preserved, both companions updated. Sol stalled and was interrupted; exact edits handed to Luna at Julian's request for cheaper execution.

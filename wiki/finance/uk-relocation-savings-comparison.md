@@ -29,7 +29,7 @@ source: UK Relocation savings comparison v3 Google Sheet
 
 ## 2. The numbers
 
-Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net rents − property tax − living costs), with occupied-home running costs counted once in property rows18/20. As of 26 Sep 2026, living inputs exclude Housing but retain mortgage principal and interest. Combined costs, savings and runway are unchanged.
+Figures are HK$ per year, the sheet's "Annual net savings" row (take-home + net rents − property tax − living costs), with occupied-home running costs counted once in living expenses. As of 26 Sep 2026, property rows18/20 contain letting expenses only; living inputs include housing and mortgage payments. Combined costs, savings and runway are unchanged.
 
 ### Annual net savings
 
@@ -120,7 +120,7 @@ The sheet's two runway tables answer one question: **with no salary, how long do
 
 Malvern, full budget: burn = 62,284 + 7,538 + 5,064 − 52,000 = 22,886 a month; months = 788,273 ÷ 22,886 = 34.4. The lean version repeats the three steps with the cashflows sheet's Non-optional expenses total as living costs.
 
-**Table 1: full burn.** Combined household costs below include housing for comparability. In the sheet, living inputs exclude housing and property rows deduct it separately; the combined burn is unchanged.
+**Table 1: full burn.** Combined household costs below include housing for comparability. Living inputs include occupied-home housing; property rows deduct letting expenses separately.
 
 | No salary, full budget                        |      London |     Malvern |       Hong Kong |
 | --------------------------------------------- | ----------: | ----------: | --------------: |
@@ -144,7 +144,7 @@ Malvern, full budget: burn = 62,284 + 7,538 + 5,064 − 52,000 = 22,886 a month;
 | Cash + ISAs | 12.0 years | 71 years | 6.8 years |
 | Cash + ISAs + MPF | 15.7 years | 93 years | n/a while in HK |
 
-Both tables use the same rents, letting costs and property tax; the full/lean split also preserves the exclusion of discretionary HK contents insurance. Combined household-cost rows include housing for comparison; the underlying sheet separates it. Lean burn is lower everywhere by the discretionary spend removed (about HK$22k London, HK$18k Malvern, HK$17k Hong Kong a month).
+Both tables use the same rents, letting costs and property tax; the full/lean split also preserves the exclusion of discretionary HK contents insurance. The living inputs include occupied-home housing. Lean burn is lower everywhere by the discretionary spend removed (about HK$22k London, HK$18k Malvern, HK$17k Hong Kong a month).
 
 **Why Malvern's burn is so low.** Two rents come in (HK$44k a month net of letting costs) against one elsewhere, and non-mortgage living is HK$34k against London's HK$42k and Hong Kong's HK$59k, because Mum absorbs bills and there are no school fees, helper, cleaner or babysitter. The mortgages (HK$28k a month) are the same everywhere and do not separate the scenarios. In the lean case the two rents almost cover everything, so the cash barely moves.
 
@@ -250,7 +250,7 @@ Board and car are small lines, but Malvern's advantage is built from small lines
 - **Property rates are 2027/28** (22/42/47% on property income, 22% interest credit); salary tax is 2026/27, unchanged for salary.
 - **Rents are targets, not signed:** Pine View HK$27,000, Cecil Road £2,500 a month. Voids and repairs are not modelled.
 - **No salary growth, no investment returns, no starting pot, no pension contributions.** Pension contributions at £135k+ would restore some personal allowance.
-- **Living-cost inputs were corrected by hand on 25 Sep** (housing of the lived-in home restored, DB figures updated, duplicate Wills and HK Oyster removed). Housing running costs are now deducted in savings property rows; cashflow living inputs exclude Housing. Julian deleted the legacy income/burn blocks. See [[savings-v3-review]].
+- **Living-cost inputs were corrected by hand on 25 Sep** (housing of the lived-in home restored, DB figures updated, duplicate Wills and HK Oyster removed). Occupied-home housing is included in cashflow living inputs; savings property rows contain letting expenses only. Julian deleted the legacy income/burn blocks. See [[savings-v3-review]].
 
 ---
 
@@ -258,7 +258,8 @@ Board and car are small lines, but Malvern's advantage is built from small lines
 
 | Date | What changed |
 |---|---|
-| 2026-09-26 | Housing running costs separated from living inputs; hotel moved to discretionary Transport. Combined spending, savings and runway unchanged. |
+| 2026-09-26 | Restored occupied-home housing to living inputs and letting-only property rows. Full/lean runway, tax and savings unchanged. HK actual letting expenses feed UK overseas-rental profit; HK Property Tax uses its separate statutory calculation. |
+| 2026-09-26 | Earlier, superseded: Housing running costs separated from living inputs; hotel moved to discretionary Transport. Combined spending, savings and runway unchanged. |
 | 2026-09-26 | Added TTI + UNI and TTI(S) + UNI; extra GBP20,000 schooling support treated as gross salary, existing fees and university reserve retained. |
 | 2026-09-25 | **Runway tables added** (full and lean, no salary), fed by the Zero columns and the 25 Sep cash and card balances; §4 explains them. HK living costs refreshed to 86,498.30/mo (HK figures moved by HK$10). |
 | 2026-09-25 | **v3 sheet replaces the July model.** New file ([UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit)), 18 columns (135k band added to each location), property income and letting expenses in their own rows, HK Property Tax and UK property tax rows (with and without FIG, and the "use" choice), FIG expiry after four years in the cumulative rows, HK basic allowance HK$145,000 (2026/27 onward), living costs from the cashflows expense totals with the lived-in home's housing restored. Codex adversarial review: [[uk-relocation-savings-v3-codex-review-2026-09-25]]; deliverable record [[savings-v3-review]]. Tax working: [[tax-rental-incomes]]. This note rebuilt around the new results; the July findings are superseded. |
@@ -269,7 +270,7 @@ Board and car are small lines, but Malvern's advantage is built from small lines
 
 ## 7. How to update
 
-1. Change inputs in the v3 sheet's "Numeric model inputs" block or the property rows; everything else recalculates. The three living-cost inputs are typed values from the cashflows sheet's "Expenses total excluding housing" row and must be refreshed by hand.
+1. Change inputs in the v3 sheet's "Numeric model inputs" block or the property rows; everything else recalculates. The three living-cost inputs are typed values from the cashflows sheet's "Expenses total" row and must be refreshed by hand.
 2. Confirm both validation rows read OK.
 3. Update §2 tables here and [[uk-relocation-cashflows]] Sections 2 and 3, and add a change log row in both if the structure changed.
 4. Keep findings here, not in the sheet.

@@ -33,6 +33,10 @@ Julian approved appending formula-based cash-burn/runway tables to the savings s
 
 Julian chose the simplest split and resumed it after deleting redundant cashflow/burn rows: move occupied-home running costs out of the living-expense inputs and into savings property rows, while retaining mortgage principal/interest in cashflow. Move Malvern hotels to discretionary Transport. Retain the Housing supporting subtotal and add an excluding-housing expense output. Include TTI columns and preserve the lean exclusion of discretionary HK contents insurance. Sol implements both live sheets; Luna and parent verify unchanged annual savings, cumulative results, tax and both runway tables. Existing companion files describe the final split. No new financial assumptions or unrelated deletions.
 
+### Restored split authorised, 26 Sep 2026
+
+Julian instructed: non-deductible expenses remain in cashflow living expenses; property expense rows contain rental expenses only. Restore occupied costs to living inputs, preserve mortgage handling and distinguish UK overseas-property deductions from HK statutory Property Tax. Parent implements and verifies all20 scenarios and both runway tables. Supersedes the earlier housing transfer.
+
 ## Follow-up verification, 25 Sep 2026 (before delegated repairs)
 
 Read-only check of Julian's updated savings tab: all 18 annual and 180 cumulative results agree with separate arithmetic. All 108 tax/conversion formulas match the staged formulas previously tested against fixed values (100 matches; eight intentional HKD 4 NI rounding corrections). HK allowance 145,000, FIG expiry after Y4, and removal of occupied-home expenses from property rows are correct at the current assumptions.
@@ -200,10 +204,19 @@ User resumed the agreed split after deleting redundant cashflow/burn blocks, the
 - Independent Luna verification also passed all savings/runway invariants. A124:C124 (unused HK Tax estimate, no scenario amounts) was cleared between snapshots outside the delegate's write ranges; treated as an external edit and left intact, consistent with Julian's ongoing cleanup. The row was not structurally deleted.
 - Row139 category label corrected to Transport discretionary after parent readback. Source hotel subtotal auto-expansion was caught and repaired during the move, before final verification.
 
+## Occupied-home costs restored, 26 Sep 2026
+
+- Savings B18:G18 and N20:U20 zero; rental inputs retained. B64:B66 restored from cashflow168: 70,234.466667 / 62,284.466667 / 86,498.30. Lean B108:D108 restored from164: 47,952.966667 / 44,142.966667 / 69,004.966667. D110 now `=N31+N26-D108*12`; obsolete A132:B132 cleared.
+- Cashflow housing remains part of living costs. Obsolete excluding-housing outputs A169:H170 cleared without deleting rows. Source notes identify full168 and lean164; hotels remain Transport.
+- Property labels/notes distinguish rental cash expenses used for UK rental profit from HK Property Tax's rates plus statutory allowance. Occupied-home costs no longer enter property-tax expense rows. Existing annual rental inputs retained, not reconstructed from rounded monthly descriptions.
+- Verification: fresh live before/after comparison of440 outputs, zero differences above0.001 and no formula errors. All40 validation cells remain OK. Formatting preserved through field-specific writes; API-only visual check. No broader tax-rate or university-reserve changes.
+- Remaining evidence point as of26 Sep: cashflow calls its HK charge "Gov rates & rent" while tax input B59 treats HKD14,348 as rates. Confirm the rates-only component from the bill; government rent must not reduce HK Property Tax. No unsupported numerical change made.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
+| 2026-09-26 | Codex restored housing split | Unmeasured incremental tokens | Direct native edits,440-output before/after verification; no new subagents. |
 | 2026-09-25 | Codex interactive thread | 214,260 tokens measured at bookkeeping checkpoint | Per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite`; thread `01a0d888-485e-78b0-8818-2f76c850d1ad`. Includes earlier column-edit and connector discussion turns; review-only effort is unmeasured. No external CLI or subagent run. |
 | 2026-09-25 | Codex follow-up verification | Unmeasured incremental tokens | Same thread; live reads, formula comparisons and 198 savings checks. |
 | 2026-09-25 | Parent thread through delegated repairs | 247,200 cumulative tokens; 32,940 since prior measured checkpoint | Includes intervening follow-ups; do not add the cumulative total to the earlier checkpoint. Delegate token effort unmeasured. |
