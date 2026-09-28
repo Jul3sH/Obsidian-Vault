@@ -29,7 +29,12 @@ Three questions are top of mind for Julian, and the BRAIND exists to answer them
 **Summary against the three questions (as of 27 Sep 2026):**
 
 - **1. Do I really need to return to HK for romance?** Not yet answered. Tested in the Personal rows below, claims 6 and 7, and [[b1-relationship-belief]].
-- **2. Do I really need to return to HK for financial reasons?** Not yet answered. The Finance rows carry the numbers; Julian has not yet said whether they amount to a need. Tested in the Finance rows below and claims 1, 2 and 15.
+
+It could be my best bet for finding my IGF (Ideal Girlfriend profile) which i'm beginning to think is a westernised 45 year old divorcee Asian. 
+
+- **2. Do I really need to return to HK for financial reasons?** 
+
+
 
 Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, written when there was no job) and the Stay-HK column of [[uk-relocation-benefits-register-2026-07-16]], reread against the question as it now stands: a written senior TTI package, from a UK base already established. Each row says where it came from. Not yet weighed or scored.
 
