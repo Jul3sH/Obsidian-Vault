@@ -43,6 +43,7 @@ Sophia-focused education planning and research, anchored to the UK relocation sc
 
 - [[schooling-malvern-area]] — Malvern-area secondary schools for Year 8+ (Malvern interim scenario)
 - [[schooling-sw19-area]] — SW19 London secondary schools for Year 8+ (London direct scenario)
+- [[GCSE-language-mitigations]] — GCSE language options for a pupil moving between HK and UK schooling mid-secondary: Mandarin-GCSE route vs starting French/German/Spanish from scratch
 
 ## See also
 - [[performance/working-with-others/influencing-and-selling-ideas]] — win-win frameworks applicable to personal relationships
