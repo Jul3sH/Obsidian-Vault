@@ -13,7 +13,7 @@ This file holds the Benefits and Risks rows for one option in the UK relocation 
 
 ## Status
 
-> ⚠ **Status (27 Sep 2026):** content as written 4 Aug 2026, from before the move. Rows carried into [[HK-Return-BRAIND]] B and R on 27 Sep 2026, each marked carried, changed or new there; the four Joanne rows are left open for re-examination.
+> ⚠ **Status (27 Sep 2026):** content as written 4 Aug 2026, from before the move. Rows carried into [[HK-Return-BRAIND]] B and R on 27 Sep 2026, each marked carried, changed or new there; the four Joanne rows were re-examined by Julian on 28 Sep 2026: two entered the UK Relocation Risks sheet (an opportunity to test the relationship, a risk that Joanne needs a decision); the marriage-and-business rows were dropped.
 
 Related: [[uk-relocation-project]], [[benefits]], [[risks]], [[b1-relationship-belief]], [[b7-lifestyle]], [[uk-relocation-benefits-register-2026-07-16]], [[decision-journal]], [[tti-engagement-strategy]], [[uk-vs-hk-earning-comparison]].
 - [[dec-uk-move]] - parent decision

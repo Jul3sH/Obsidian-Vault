@@ -27,15 +27,15 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## B - Benefits
 
-**Source of truth:** the same [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Opp rows tagged Return to HK (10 as of 28 Sep 2026), for the qualitative benefits; [[uk-relocation-savings-comparison]] for every figure. This section is a digest. Refreshed on 28 Sep 2026.
+**Source of truth:** the same [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Opp rows tagged Return to HK (11 as of 28 Sep 2026), for the qualitative benefits; [[uk-relocation-savings-comparison]] for every figure. This section is a digest. Refreshed on 28 Sep 2026.
 
 **Summary against the four questions (as of 28 Sep 2026):**
 
-- **1. Do I really need to return to HK for romance?** Not yet answered. Tested in the Personal rows below, claims 6 and 7, and [[b1-relationship-belief]].
+**Question 1:**  Do I really need to return to HK for romance?** Not yet answered. Tested in the Personal rows below, claims 6 and 7, and [[b1-relationship-belief]].
 
 I'm much more likely to find my IGF (Ideal Girlfriend profile) which I'm beginning to think is a westernised 45 year old divorcee Asian. In UK I am very likely to have to compromise on looks (Youthful and Asian). 
 
-- **2. Do I really need to return to HK for financial reasons?**
+**Question 2:**  Do I really need to return to HK for financial reasons?**
 
 The HK$6M I could save in HK over 6 six years will pay off my mortgage and set me up for retirement. If I can earn HK$2M a year living in Malvern (very unlikely unless it TTI) my HK$4.3M of savings would probably be close enough. 
 
@@ -63,16 +63,17 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 | Living back in Hong Kong | More interesting way to spend my 50s | I get into a meaningful relationship before I lose my appeal in my 60s | Relationships | Material |
 | Living back in Hong Kong | Can find my ideal partner more easily | - | Relationships | Material |
 | Living back in Hong Kong | Chance to properly build a network | It would mean I may have contingencies in place if I lose my TTI job | Relationships | Material |
+| Living back in Hong Kong | Chance to test the relationship with Joanne | It would give us a chance to live together more and test the things I'm worried about | Relationships | - |
 | Schooling paid | Sophia returns to DBIS which she would enjoy | She'd have more time than YMCA, FOBISIA, netball, and football. | Relationships | Material |
 | Schooling paid | May extend to university | This would save me potentially another HK$1,000,000 | Relationships | - |
 
 ## R - Risks
 
-**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (25 risks and 10 opportunities as of 28 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
+**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (27 risks and 11 opportunities as of 28 Sep 2026, refreshed after Julian's review that afternoon). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
 
 **Summary against the four questions in the Purpose (as of 28 Sep 2026):**
 
-- **3. Are the risks and guilt of the move manageable?** 
+**Question 3:** Are the risks and guilt of the move manageable?** 
 
 There only 'unmanageable' risk is that of moving back between years 2 and 6 where I get hit with the double whammy of losing home university status and having to survive in Hong Kong on no salary and high school fees (for up to avoid Sophia moving mid GCSEs or A-levels). 
 
@@ -81,47 +82,39 @@ If the job looks too risky before i even start, I don't go to HK and try to move
 The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of 1 go to boarding school. She can rebuild the relationship on video and through holidays.  
 ### Ranked risks
 
-Rows marked Material in the sheet and scored High before response, Julian's critical one first. Everything else is in the sheet.
+Rows marked Material in the sheet and scored High before response, Julian's critical one first (it now has two effect rows). Everything else is in the sheet.
 
 | Rank | Event (sheet wording) | Effect in one line | Score before, after response | Response headline |
 |---|---|---|---|---|
 | 1 (CRITICAL, Julian 27 Sep) | Lose my TTI job between 2 and six years. | Worst case scenario. I would need to either stay in HK and try to get a job, or move back to UK | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company |
-| 2 | Lose my TTI Job within the first 2 years | I would need to either stay in HK and try to get a job, or move back to UK | High, - | Reduce probability: Prove my value relentlessly and build power within the company |
-| 3 | Lose my TTI Job within the first 2 years | Sophia gets another year behind with French creating a significant 2 years gap | High, Medium | Reduce probability: Learn French in DBIS if the option exists |
-| 4 | Lack of genuine buy-in from US stakeholders | I become a political target and lose my Job if Horst's position weakens | High, - | Fallback: Negotiate a position out of Europe |
-| 5 | Lack of genuine buy-in from HK stakeholders | I can't demonstrate value which creates embarrassment for Horst and Stephan | High, - | Fallback: Negotiate a position out of Europe |
-| 6 | TTI only offer a contract | Financial gains are reduced | High, - | Reduce impact: ask for a fixed term (the sheet's sentence is unfinished) |
-| 7 | TTI offer a non-architectural or junior role | Depending what it is, it could really harm my future prospects | High, - | Reduce impact: Ask to do the Job from UK and look for another job |
-| 8 | Sophia & Clodagh relationship stays broken | Sophia & Clodagh relationship remains broken down | High, Medium | Reduce probability: Do regular face time calls, visit Hong Kong for Christmas and Sophia visits Ireland |
+| 2 (same event, second effect) | Lose my TTI job between 2 and six years. | Worst case scenario. It's mid way through either GCSEs or A-levels and Sophia has to drop back a year | High, - | Reduce impact: I would have to try to survive until she finished the year by taking any job I could get |
+| 3 | Lose my TTI Job within the first 2 years | I would need to either stay in HK and try to get a job, or move back to UK | High, - | Reduce probability: Prove my value relentlessly and build power within the company |
+| 4 | Lose my TTI Job within the first 2 years | Sophia gets another year behind with French creating a significant 2 years gap | High, Medium | Reduce probability: Learn French in DBIS if the option exists |
+| 5 | Lack of genuine buy-in from US stakeholders | I become a political target and lose my Job if Horst's position weakens | High, - | Fallback: Negotiate a position out of Europe |
+| 6 | Lack of genuine buy-in from HK stakeholders | I can't demonstrate value which creates embarrassment for Horst and Stephan | High, - | Fallback: Negotiate a position out of Europe |
+| 7 | TTI only offer a contract | Financial gains are reduced | High, - | Reduce impact: ask for a fixed term (the sheet's sentence is unfinished) |
+| 8 | TTI offer a non-architectural or junior role | Depending what it is, it could really harm my future prospects | High, - | Reduce impact: Ask to do the Job from UK and look for another job |
+| 9 | Sophia & Clodagh relationship stays broken | Sophia & Clodagh relationship remains broken down | High, Medium | Reduce probability: Do regular face time calls, visit Hong Kong for Christmas and Sophia visits Ireland |
 
 ### Cause map
 
-One line per cause in the sheet, covering all 25 risk rows.
+One line per cause in the sheet, covering all 27 risk rows.
 
 | Cause                      | Events | Material | Scored High before response |
 | -------------------------- | ------ | -------- | --------------------------- |
 | Clodagh doesn't move to HK | 3      | 3        | 1                           |
 | Not with Mum in the UK     | 2      | 0        | 2                           |
 | Delay with the decision    | 6      | 2        | 1                           |
+| Joanne needs a decision    | 1      | 0        | 0                           |
 | Resistance to the move     | 3      | 3        | 0                           |
 | TTI offer is suboptimal    | 5      | 5        | 2                           |
-| TTI Job is insecure        | 6      | 5        | 5                           |
-
-### Notes on the analysis (not risks of the option)
-
-- **Returning to Hong Kong is the option Julian feels good about, so the case for it may be weighted by hope rather than evidence.** The pull is a hoped-for salary, the comfort of a possible relationship and the lifestyle he remembers, weighed against what the current evidence says. The TTI job in particular is still hoped for, not banked: no written terms exist. *(Carried from the commitment-lock protocol's bias register, where it is written as "the emotionally warm option"; the same warning sits in the [[uk-relocation-project]] Status.)*
-
-**Rows from August that are not carried** (reasons in the 27 Sep chat review): the no-job premise rows (stress loop without a concrete career answer, holding pattern with no income, self-directed HK-build drift, HK work depending on a networking offensive), the "maximum optionality" benefit, and the July-deadline "fails by extension" row, whose successor is the N step.
-
-**Left open, not carried and not dropped (Julian, 27 Sep):** the four Joanne rows from August (deferring the Joanne decision, marriage to unlock the business, testing living together, the cake business). They are to be re-examined before R is scored; until then the August rows stand as written in [[HK-BRAIND]].
+| TTI Job is insecure        | 7      | 6        | 6                           |
 
 ## A - Alternatives
 
-**Question 4, added by Julian 28 Sep 2026: would I be better off building revenue streams in the UK?** To be answered in this section, in Julian's words. Not yet written.
+**Question 4:** Would I be better off building revenue streams in the UK? 
 
-Would I be happier building revenue streams in UK? 
-
-*(Not yet run. Candidates surfaced so far: full six-year HK return; bounded two-year HK stint then re-decide; hold the UK move and take the TTI relationship remotely or as consulting; hold the UK move outright.)*
+I would no doubt enjoy it technically, but struggling to get customers is not fun, and  there is very little chance of me earning the same money I could earn in 6 years in full time employment at TTI on low taxes. If I earn enough money in six years I won't need any revenue streams after 61, and then i can have hobbies whi 
 
 **Added 27 Sep 2026, Julian's current lean:** land the TTI job and stay UK-based, Malvern or London (both variants, one alternative, no separate BRAIND). Lower pay and higher tax than the HK version, but it addresses the ranked #1 risk above and keeps Sophia at The Chase, Mum's arrangement and the UK residency position. Untested claims: 11 and 12 in the table above. Warning (model's judgement, 27 Sep): an option that avoids choosing between Hong Kong and Malvern can look attractive because it avoids the choice, not because it is best. Test it as a plan on its own merits, with its own risks, before it becomes the lean. This is the pattern named in [[decision-maker-profile]] where a third option turns out to be a way of not deciding. The August file's "Hong Kong keeps all options open" benefit is not carried; this warning is what it became.
 
@@ -209,6 +202,12 @@ Append-only. One dated block per capture. Intuition is recorded first so it is v
 
 ---
 
+### 2026-09-28 · On the bias warning
+
+Julian, on being shown the carried note that returning to Hong Kong is the option he feels good about: "Actually this is not correct. Actually I am very torn. The primary driver is finances and the possibility of earning enough to retire in six years."
+
+---
+
 ## What the intuition asks the analysis to check
 
 Feeds B, R and A. Each row is a claim the gut is relying on that has not yet been tested.
@@ -216,13 +215,13 @@ Feeds B, R and A. Each row is a claim the gut is relying on that has not yet bee
 | # | Claim the gut relies on | Type | Where it gets tested |
 |---|---|---|---|
 | 1 | Six years at TTI clears the HK mortgage and funds retirement at 61 | Assumption | B / Finance: run in [[uk-move-financial-model]] against the verbally accepted HK$2M + 15% |
-| 2 | Extra low-tax earnings outweigh the lost UK home-fee status for university | Assumption | B / R Finance: price the fee gap 62-65 against cumulative net savings; existing estimate ~HKD 1m in [[HK-BRAIND]] |
-| 3 | Job survives six (now ten) years on a high salary | Belief | R / Career: probability of losing the role if Horst goes; what the package looks like without him; term and notice in the written offer. **Ranked #1 by Julian 27 Sep:** the removal-after-Horst mechanism, and that Stephan would not defend him |
-| 4 | Two years is safe and lockable, then decide again | Assumption | A: a bounded two-year variant; check whether it is a real option or deferral in disguise |
-| 5 | Living with Mum avoids care-home costs later | Assumption | B / Finance and Relationships: is this a real saving, and is it a life Julian would accept for six years |
-| 6 | Romance need will resurface within months and cannot be met from Mum's | Belief | R / Relationships: test against [[b1-relationship-belief]], which already examined fear of being single in the UK |
-| 7 | Appeal drops materially by 61, so waiting for Asia is a losing plan | Belief | R / Personal: name it, then decide whether it actually affects the decision |
-| 8 | Sophia will be happier in the UK | Belief | R / Relationships and Performance: evidence from The Chase so far; compare with the HK international-school card in the [[uk-relocation-project]] 27 Sep log row |
+| 3 | Extra low-tax earnings outweigh the lost UK home-fee status for university | Assumption | B / R Finance: price the fee gap 62-65 against cumulative net savings; existing estimate ~HKD 1m in [[HK-BRAIND]] |
+| 4 | Job survives six (now ten) years on a high salary | Belief | R / Career: probability of losing the role if Horst goes; what the package looks like without him; term and notice in the written offer. **Ranked #1 by Julian 27 Sep:** the removal-after-Horst mechanism, and that Stephan would not defend him |
+| 5 | Two years is safe and lockable, then decide again | Assumption | A: a bounded two-year variant; check whether it is a real option or deferral in disguise |
+| 6 | Living with Mum avoids care-home costs later | Assumption | B / Finance and Relationships: is this a real saving, and is it a life Julian would accept for six years |
+| 7 | Romance need will resurface within months and cannot be met from Mum's | Belief | R / Relationships: test against [[b1-relationship-belief]], which already examined fear of being single in the UK |
+| 8 | Appeal drops materially by 61, so waiting for Asia is a losing plan | Belief | R / Personal: name it, then decide whether it actually affects the decision |
+| 9 | Sophia will be happier in the UK | Belief | R / Relationships and Performance: evidence from The Chase so far; compare with the HK international-school card in the [[uk-relocation-project]] 27 Sep log row |
 | 9 | Guilt over Clodagh's access is unearned | Belief | Park it. Guilt is data about Julian, not about the decision. Do not let it enter the scoring |
 | 10 | TTI is worth about four times the Malvern outcome | Assumption | **Resolved 27 Sep, Julian: "four times was a mistake."** The comparison he had in mind was the ten-year column: HK TTI(S) + UNI (11.62M) against 7.35M, which is Malvern on the TTI salary (Extra High), giving 1.6x; against Malvern 135k (3.90M) it is 3.0x. At six years: 2.8x and 1.5x (sheet figures with the university reserve, 27 Sep) |
 | 11 | A UK-based TTI role is obtainable, and Horst and Stephan would accept it | Assumption | **Julian, 27 Sep: "Yes, I need to ask."** A / Career: has anyone at TTI said the role must be in HK? What does "a bit less pay, higher tax" actually come to in the savings comparison's UK columns? |
@@ -234,7 +233,6 @@ Feeds B, R and A. Each row is a claim the gut is relying on that has not yet bee
 Open tasks the intuition set for itself:
 
 - Write the ideal-partner profile, now and at 61, before the R step on relationships runs.
-- Re-examine the four Joanne rows from [[HK-BRAIND]] (left open 27 Sep).
 - Done 27 Sep by Codex: the sheet now carries a university reserve in every column (GBP 40,000 over six years everywhere, plus GBP 120,000 in HK). Julian confirmed the HK total as GBP 160,000 the same day. Closed.
 - **(27 Sep, days not weeks)** Decide whether to raise the UK-based option with Stephan before he speaks to Ty this week. Open question, not yet decided.
 
@@ -269,6 +267,11 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-28 | Digest refreshed from the sheet after Julian's afternoon review: 27 risks and 11 opportunities. New in the ranked table: a second effect row under the critical job-loss event (Sophia mid-GCSE or A-level has to drop back a year). Cause map gains "Joanne needs a decision" (1 row, unscored) and TTI Job is insecure moves to 7 rows, 6 Material, 6 High. Opportunities table gains "Chance to test the relationship with Joanne". |
+| 2026-09-28 | The Joanne rows paragraph removed from R and the matching open task closed: Julian re-examined the four August rows and added two to the sheet, an opportunity "Chance to test the relationship with Joanne" and a risk "Joanne needs a decision". The marriage-and-business rows were not carried. |
+| 2026-09-28 | The Joanne rows paragraph reinstated at the end of R at Julian's instruction: he had not yet reviewed it. Only the August rows-not-carried list stays removed. |
+| 2026-09-28 | Two housekeeping paragraphs removed from the end of R at Julian's instruction. (1) The 27 Sep list of August rows not carried, kept here for the record: **Rows from August that are not carried** (reasons in the 27 Sep chat review): the no-job premise rows (stress loop without a concrete career answer, holding pattern with no income, self-directed HK-build drift, HK work depending on a networking offensive), the "maximum optionality" benefit, and the July-deadline "fails by extension" row, whose successor is the N step. (2) The Joanne rows note, kept here for the record: **Left open, not carried and not dropped (Julian, 27 Sep):** the four Joanne rows from August (deferring the Joanne decision, marriage to unlock the business, testing living together, the cake business). They are to be re-examined before R is scored; until then the August rows stand as written in [[HK-BRAIND]]. The task to re-examine the four Joanne rows remains in the open-tasks list under the check table. |
+| 2026-09-28 | The bias note that returning to Hong Kong is the emotionally warm option dropped, with the whole notes block: it was a July decision-journal framing (stay-HK with no job against the move) carried through the August HK-BRAIND, never Julian's words. His correction recorded in the Intuition Log dated today. R now ends at the cause map plus the two housekeeping paragraphs. |
 | 2026-09-28 | "Neither direction is legally irreversible" dropped from the R notes at Julian's instruction: the point (the visa is not the one-way door, Sophia's schooling timing is) is now carried by the sheet's job-loss rows. |
 | 2026-09-28 | The R note "The warmer option over-weights hope" rewritten in plain words at Julian's instruction ("the warmer option" was protocol jargon for returning to Hong Kong as the emotionally appealing choice). Meaning unchanged. |
 | 2026-09-28 | "The comparison figures are simplified" removed from the R notes at Julian's instruction: the caveat already lives in [[uk-relocation-savings-comparison]] section 5 and is not needed here. |
