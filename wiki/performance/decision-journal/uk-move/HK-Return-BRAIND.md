@@ -12,33 +12,36 @@ decision: Return to Hong Kong on a TTI offer
 
 This is the BRAIND workspace for one question: **if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move?**
 
-Three questions are top of mind for Julian, and the BRAIND exists to answer them:
+Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 1. Do I really need to return to HK for romance?
 2. Do I really need to return to HK for financial reasons?
-3. Are the risks of the move manageable?
+3. Are the risks and guilt of the move manageable?
+4. Would I be better off building revenue streams in UK? 
 
 ## Status
 
-> ⚠ **Status (28 Sep 2026):** B populated and unscored. Risks regrouped 28 Sep by event, effect and mitigation; only the first event is ranked, nothing is scored, and no mitigation is adopted except the standing no-verbal rule. A holds the candidate alternatives and Julian's 27 Sep lean (TTI from the UK). N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (28 Sep 2026):** B and R are now digests of the UK Relocation Risks sheet, which is the source of truth for Return to HK risks and opportunities; the ranked risks and cause map were refreshed from it on 28 Sep. A few rows recorded here await Julian's decision to add them to the sheet or drop them. A holds the candidate alternatives and Julian's 27 Sep lean (TTI from the UK). N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
 ## B - Benefits
 
-**Summary against the three questions (as of 27 Sep 2026):**
+**Source of truth:** the same [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Opp rows tagged Return to HK (10 as of 28 Sep 2026), for the qualitative benefits; [[uk-relocation-savings-comparison]] for every figure. This section is a digest. Refreshed on 28 Sep 2026.
+
+**Summary against the four questions (as of 28 Sep 2026):**
 
 - **1. Do I really need to return to HK for romance?** Not yet answered. Tested in the Personal rows below, claims 6 and 7, and [[b1-relationship-belief]].
 
-It could be my best bet for finding my IGF (Ideal Girlfriend profile) which i'm beginning to think is a westernised 45 year old divorcee Asian. 
+It could be my best bet for finding my IGF (Ideal Girlfriend profile) which i'm beginning to think is a westernised 45 year old divorcee Asian.
 
-- **2. Do I really need to return to HK for financial reasons?** 
+- **2. Do I really need to return to HK for financial reasons?**
 
+The HK$6M I could save in HK over 6 six years will pay off my mortgage and set me up for retirement. If I can HK$2M a year living in Malvern (very unlikely unless it TTI) the the HK$4.3M would probably be close enough. 
 
+However, earning HK$135 in Malvern over six years won't even get me half way there at HK$2.8M, and London at HK
 
-Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, written when there was no job) and the Stay-HK column of [[uk-relocation-benefits-register-2026-07-16]], reread against the question as it now stands: a written senior TTI package, from a UK base already established. Each row says where it came from. Not yet weighed or scored.
-
-**Finance**
+### Priced benefits (from the savings comparison)
 
 - **High earnings and low tax:** at six years the HK return gives about HK$5.3M available savings after the GBP 160,000 university reserve. The same salary done from Malvern gives 4.35M (HK is 1.2x) and from London 2.92M (1.8x). As a contractor on £135k, Malvern gives 2.28M (HK is 2.3x) and London 0.85M (6.2x). *(Carried from HK-BRAIND; numbers from [[uk-relocation-savings-comparison]] §2, 27 Sep sheet.)*
 - **Schooling in the package is worth about HK$1.0M more over six years** (6.33M against 5.31M). HK then leads the same salary from Malvern by about HK$2.0M and from London by about 3.4M. *(New; the negotiation card from the 13 Sep capture.)*
@@ -48,101 +51,88 @@ Populated 27 Sep 2026 from the Opportunity rows of [[HK-BRAIND]] (August, writte
 
 *Note: every figure above is already net of university costs. The HK columns carry a GBP 160,000 reserve over six years and the UK columns GBP 40,000, so the overseas-university negative from the August HK-BRAIND is priced in, not extra.*
 
-**Career**
+### Opportunities in the sheet
 
-- **Fills the EA and director gaps in the CV:** a genuine TTI Enterprise Architecture Director role fills the EA and director gaps in Julian's CV. *(Carried from HK-BRAIND, unchanged.)*
-- **The role is now direct and dated:** Horst lunch 14 Sep, Stephan carrying it to Horst 26 Sep and to Ty this week, rather than the third-hand signal of August. *(Carried, changed: what was "not bankable" in August is now a live process, but still not written.)*
-- **Preserves the highest-earning branch.** The credible HK role preserves the highest-earning branch. *(Carried, changed: in August this "deferred" the UK move; now it reverses a move already made, which is a cost counted in R.)*
+| Cause | Opportunity (sheet wording) | Effect in one line | Category | Decision impact |
+|---|---|---|---|---|
+| Secure a job, good title, good money, low tax | TTI offer Enterprise Architecture Director | Enterprise Architecture and Director gaps on Julian's resume addressed | Career | Material |
+| Secure a job, good title, good money, low tax | Potentially HK$1M a year saving | Financially secure in 5 years and I can retire | Finance | Material |
+| Secure a job, good title, good money, low tax | Guaranteed income from now until retirement | This is an opportunity to have a guaranteed income until I retire in six years | Finance | Material |
+| Living back in Hong Kong | No letting costs, property Tax & can offset mortgage. | This will reduce Pine View costs relative to renting it out. | Finance | Material |
+| Living back in Hong Kong | I can file for custody | I can file for sole custody whilst I am in Hong Kong so that an impending return to my Mum's can't be challenged and Clodagh, and she doesn't get to dictate parenting and visiting. | Relationships | Material |
+| Living back in Hong Kong | More interesting way to spend my 50s | I get into a meaningful relationship before I lose my appeal in my 60s | Relationships | Material |
+| Living back in Hong Kong | Can find my ideal partner more easily | - | Relationships | Material |
+| Living back in Hong Kong | Chance to properly build a network | It would mean I may have contingencies in place if I lose my TTI job | Relationships | Material |
+| Schooling paid | Sophia returns to DBIS which she would enjoy | She'd have more time than YMCA, FOBISIA, netball, and football. | Relationships | Material |
+| Schooling paid | May extend to university | This would save me potentially another HK$1,000,000 | Relationships | - |
 
-**Relationships**
+### Benefits recorded here that are not yet in the sheet
 
-- **Custody stays under HK jurisdiction,** which is hard for Clodagh to attack; a UK base is exposed to a claim from Waterford. *(New since August, from Julian's 13 Sep capture, now in the [[uk-relocation-project]] status log; custody jurisdiction read still not lawyer-verified.)*
-- **A chance to build the HK network as a contingency:** the job itself will not particularly build the network, but being back in HK lets Julian go on a networking offensive and build a decent network as a contingency against losing the role, which he should have done previously. *(Carried from HK-BRAIND, changed 27 Sep in Julian's words: the August row assumed he would rebuild it himself; the job is the platform, not the mechanism.)*
-- **A happier HK school for Sophia:** an HK international school is likely to be a happier place for Sophia than her old HK school. *(New, from the reopen file §2. It competes with claim 8, that she is happier at The Chase.)*
-
-**Performance**
+Carried from the 27 Sep version. Julian to add to the sheet or drop.
 
 - **External structure suits the ADHD:** a corporate HK role gives external structure, which suits Julian's ADHD better than a self-directed build. *(Carried from HK-BRAIND, unchanged, and stronger now that the role is senior and structured.)*
 - **Paid to improve his AI, not learning it unpaid:** Julian not only gets to leverage the AI he has worked with to produce results quickly, he also has a clear purpose for which to apply it, and is getting paid for it. He moves from having to learn AI unpaid to being effectively paid to improve his AI. *(New, 27 Sep, Julian's words.)*
-
-**Personal**
-
 - **Flat, view, sunshine, safety and the dating market:** these are real personal benefits and should not be hand-waved away. *(Carried, unchanged.)*
-- **Romance is the second driver of the pull back:** romance and a partner are the second driver, and Julian expects the need to resurface within months. *(New, 24 Sep intuition; claims 6 and 7. Tested against [[b1-relationship-belief]].)*
-
-**Wellbeing**
-
 - **A known, working health system.** The HK health system is known and working for Julian. *(Carried, unchanged, minor.)*
+- **The role is now direct and dated:** Horst lunch 14 Sep, Stephan carrying it to Horst 26 Sep and to Ty this week, rather than the third-hand signal of August. *(Carried, changed: what was "not bankable" in August is now a live process, but still not written.)*
 
 **Benefit rows from August that are not carried:** listed in the 27 Sep chat review and summarised in the R section note below.
 
 ## R - Risks
 
+**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (25 risks and 10 opportunities as of 28 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
+
 **Summary against the three questions (as of 28 Sep 2026):**
 
-- **3. Are the risks of the move manageable?** Not yet answered. The risks are now grouped by event, with the effects that follow and candidate mitigations under each effect (structure set 28 Sep 2026 at Julian's instruction). Only the first event is ranked; nothing is scored, and no mitigation is adopted except the standing rule not to move on a verbal.
+- **3. Are the risks of the move manageable?** Not yet answered. Every Return to HK row in the sheet now has a cause, event, effect, scores and a response. Residual scores are mostly blank, so nothing is yet shown as reduced. Julian's ranking below is his call; the sheet's Decision Impact column marks which rows can change the choice
 
-Populated 27 Sep 2026 from the Risk rows of [[HK-BRAIND]], reread against the question as it now stands, plus the risks raised in this file's intuition entries; regrouped by event on 28 Sep 2026. Each effect says its source. Each risk is an event (heading), then the effects that follow from it, then under each effect the mitigations that could reduce it: the cause, event, effect and response chain of the AGENTS.md Risk Framework, where "mitigation" is that framework's response. Mitigations are candidates until Julian adopts them; where none has been identified the effect says so. The risks of the UK-based alternative (staying in Malvern, or London) live in [[Malvern-BRAIND]] and [[London-BRAIND]], not here; the 27 Sep risk of moving out of Mum's for a relationship is filed in [[Malvern-BRAIND]] under Finance.
+### Ranked risks
 
-### Ranked CRITICAL by Julian, 27 Sep 2026: Horst leaves or stops sponsoring, and Julian is removed from the TTI job at about year three, when Sophia is one year into GCSEs
+Rows marked Material in the sheet and scored High before response, Julian's critical one first. Everything else is in the sheet.
 
-- **Why it could happen:**
-  - **Internal politics:** a chairman-fiat job over the chain that said no (Tony, Ty) lands on Julian from day one. *(Carried from HK-BRAIND and the reopen file; it is the cause in the CRITICAL row.)*
-  - Cause as written 27 Sep: a chairman-sponsored hire over a chain that said no; no one below Horst would defend it; HK schooling means international fees (YMCA place gone).
-- **Workstream:** Career, drives Finance, Relationships and Sophia's schooling.
-- **Pre-run rating:** impact High; probability to be tested (gut: material). Julian's rating: highest level. Julian's words, 27 Sep: "The worst of every situation: Sophia's schooling, Julian's income, the university-fee position and Mum's arrangement all lost at once, at the worst point to move her again."
+| Rank | Event (sheet wording) | Effect in one line | Score before, after response | Response headline |
+|---|---|---|---|---|
+| 1 (CRITICAL, Julian 27 Sep) | Lose my TTI job between 2 and six years. | Worst case scenario. I would need to either stay in HK and try to get a job, or move back to UK | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company |
+| 2 | Lose my TTI Job within the first 2 years | I would need to either stay in HK and try to get a job, or move back to UK | High, - | Reduce probability: Prove my value relentlessly and build power within the company |
+| 3 | Lose my TTI Job within the first 2 years | Sophia gets another year behind with French creating a significant 2 years gap | High, Medium | Reduce probability: Learn French in DBIS if the option exists |
+| 4 | Lack of genuine buy-in from US stakeholders | I become a political target and lose my Job if Horst's position weakens | High, - | Fallback: Negotiate a position out of Europe |
+| 5 | Lack of genuine buy-in from HK stakeholders | I can't demonstrate value which creates embarrassment for Horst and Stephan | High, - | Fallback: Negotiate a position out of Europe |
+| 6 | TTI only offer a contract | Financial gains are reduced | High, - | Reduce impact: ask for a fixed term (the sheet's sentence is unfinished) |
+| 7 | TTI offer a non-architectural or junior role | Depending what it is, it could really harm my future prospects | High, - | Reduce impact: Ask to do the Job from UK and look for another job |
+| 8 | Sophia & Clodagh relationship stays broken | Sophia & Clodagh relationship remains broken down | High, Medium | Reduce probability: Do regular face time calls, visit Hong Kong for Christmas and Sophia visits Ireland |
 
-**Effects**
+### Cause map
 
-- **Losing the job mid-term or mid-GCSE forces Julian to stay in HK without a job.** Julian's words, 28 Sep. Sizing: the no-salary burn in HK is about HK$803k a year against about HK$275k in Malvern, so each month he is held in HK costs about HK$44k more than leaving; the exposure is set by how long the school year holds him there. *(Carried, changed 28 Sep: August's "staying without a job burns cash" described an open-ended burn with no job; on 27 Sep it became the burn after a job loss; today it is reframed as the forced stay, which is what makes the burn a cost.)*
-  - Mitigations (candidate, untested): severance in the contract sized to cover a full school year; leave at the first natural break in the school year rather than the end of the GCSE course; return to the Malvern base on the 135k contractor fallback. Model's observation, 28 Sep, not yet accepted by Julian: that return does not depend on first having a UK job; it is the same fallback the UK branches rely on.
-- **Locked into HK international school fees with no salary.** *(Finance. From the 27 Sep ranked row.)*
-  - Mitigations (candidate, untested): school fees committed in the package through the end of the academic year in which employment ends (the fee commitment that survives termination, listed 27 Sep).
-- **Sophia moves school again, mid-GCSE, at the worst point to move her.** *(Sophia. From the 27 Sep ranked row.)*
-  - Mitigations (candidate, untested): a contractual fixed term of at least three years, sized to the GCSE window; keeping the Malvern base and The Chase place recoverable; if a return is forced, timing it to the end of Year 11 where notice and severance allow.
-- **The return to the UK comes too late to restore Sophia's home-fee status for university.** Julian, 27 Sep: the return that would restore it is closed because it depends on a UK job. Julian, 28 Sep: the exception for a parent's temporary overseas employment does not apply to him. The loss of home-fee status is also a cost of the move itself; see the next event. *(Finance. From the 27 Sep ranked row; reaffirmed 28 Sep.)*
-  - Mitigations (candidate, untested): a gap year before university to rebuild three years of UK residence; the fee gap (about HK$1M over three years, [[HK-BRAIND]] estimate) is partly carried already by the university reserve in [[uk-relocation-savings-comparison]].
+One line per cause in the sheet, covering all 25 risk rows.
 
-### Unranked: the family moves to Hong Kong
+| Cause | Events | Material | Scored High before response |
+|---|---|---|---|
+| Clodagh doesn't move to HK | 3 | 3 | 1 |
+| Not with Mum in the UK | 2 | 0 | 2 |
+| Delay with the decision | 6 | 2 | 1 |
+| Resistance to the move | 3 | 3 | 0 |
+| TTI offer is suboptimal | 5 | 5 | 2 |
+| TTI Job is insecure | 6 | 5 | 5 |
 
-The effects below follow from the move itself, whether or not the job later lasts.
+### Risks recorded here that are not yet in the sheet
 
-**Effects**
+Carried from the 27 Sep version of this section. Julian to add to the sheet or drop; until then they stand here.
 
-- **Sophia's UK home-fee status for university:** time in HK increases the chance she loses it, estimated at about HK$1M over three years. Julian, 28 Sep: the exception for a parent's temporary overseas employment does not apply, so if she goes to university from HK this is a cost, not a chance. *(Carried, unchanged; claims 2 and 13 test whether a return can restore it.)*
-  - Mitigations: none identified beyond pricing it (the university reserve in the savings sheet).
-- **Sophia's second school move within a year:** she leaves The Chase, which she loves, for a new HK international school, and her peer group is lost twice. *(Carried, inverted: August's "Sophia keeps her DBIS peer group" is now a cost, not a benefit; claim 8.)*
-  - Mitigations: none identified.
-- **French and netball to GCSE at the new school are untested.** *(Carried, changed: August's DBIS rows were about a specific school; the return goes to a school not yet chosen. Add to the school-selection checks.)*
-  - Mitigations: add to the school-selection checks (already noted in the row).
-- **The cheap-school fallback is gone:** YMCA has no Form 2 place and offers a waiting list only, so a return means international fees. *(New, 25 Sep, from [[uk-relocation-project]]; part of the CRITICAL cause.)*
-  - Mitigations (candidate): join the YMCA 2026/27 waiting list (decision deferred to the reopen test, per [[uk-relocation-project]] 25 Sep); schooling in the TTI package as a must-have.
 - **The Mum-care saving is lost:** the saving in the 24 Sep intuition (living with Mum avoids care-home costs) does not exist in this branch, because Julian is in HK. *(New, 24 Sep, claim 5.)*
-  - Mitigations: none identified.
-- **Leaving Mum after she has had them living there:** she would understand, but Julian feels immense guilt, and her health or support needs are harder to respond to from HK. *(Carried and strengthened: August's "Mum remains alone in the UK" is now Mum losing what she has.)*
-  - Mitigations: none identified.
-- **Clodagh will be furious,** and the co-parenting relationship stays exposed to distance and breakdown. Her illness-separation row from August assumed a recovering mother in Ireland and is now partly inverted by the custody escalation. *(Carried, changed, per the reopen file.)*
-  - Mitigations: none identified.
-- **Illness in either parent is harder to manage** with the family split across HK, Ireland and the UK. *(Carried, unchanged.)*
-  - Mitigations: none identified.
-- **Making it harder for Clodagh to see Sophia:** Julian feels guilt about this while believing she has forfeited the consideration. *(New, 24 Sep, claim 9: parked, not scored.)*
-  - Mitigations: not applicable; parked per claim 9.
-
-### Unranked: written terms never arrive, or arrive weaker than the verbal HK$2M + 15%
-
-**Effects**
-
-- **The move is made on a verbal, or on a weaker package than the savings comparison assumes.** Do not move on a verbal. *(Carried, changed: August's "offer-risk not job-risk" and "third-hand signal" are now a direct, dated process, but the written-terms condition stands and is the F in the F-N-M-T test.)*
-  - Mitigation (adopted, standing rule): do not move on a verbal; written terms are the F in the F-N-M-T test in [[dec-uk-move]].
-
-### Unranked: the corporate path runs to 65
-
-**Effects**
-
+- **The cheap-school fallback is gone:** YMCA has no Form 2 place and offers a waiting list only, so a return means international fees. *(New, 25 Sep, from [[uk-relocation-project]]; part of the CRITICAL cause.)*
+- **Sophia's second school move within a year:** she leaves The Chase, which she loves, for a new HK international school, and her peer group is lost twice. *(Carried, inverted: August's "Sophia keeps her DBIS peer group" is now a cost, not a benefit; claim 8.)*
 - **The corporate path can dead-end at 65** and does not build the post-65 consulting or geographically independent future Julian described. *(Carried, unchanged. Partly moot if the plan is six years to 61; not moot if the horizon is ten.)*
-  - Mitigations: none identified.
 
-**Notes on the analysis (not risks of the option)**
+**Mitigations against the job-loss rows, not yet in the sheet.** Written 28 Sep 2026 in this file, before the section became a digest; the sheet's job-loss rows carry only "prove my value", "lock in for 2 years if it's a contract" and an unfinished "ask for a fixed term with". Candidate, untested. Julian to add to the Response Description of the sheet's two job-loss rows or drop.
+
+- A contractual fixed term of at least three years, sized to the GCSE window.
+- Severance sized to cover a full school year.
+- School fees committed in the package through the end of the academic year in which employment ends.
+- Leave at the first natural break in the school year rather than the end of the GCSE course. Sizing: the no-salary burn in HK is about HK$803k a year against about HK$275k in Malvern, so each month of forced stay costs about HK$44k more than leaving.
+- A gap year before university to rebuild three years of UK residence for home-fee status.
+- Keep the Malvern base and The Chase place recoverable. Model's observation, 28 Sep, not yet accepted by Julian: the return to Malvern does not depend on first having a UK job; it is the same fallback the UK branches rely on.
+
+### Notes on the analysis (not risks of the option)
 
 - **The comparison figures are simplified:** they assume no salary growth, no returns and no starting pot. *(New, 27 Sep. The earlier note that the HK rows were derived rather than read from the sheet no longer applies: all rows are sheet cells since the 27 Sep rebuild.)*
 - **The warmer option over-weights hope:** the emotionally warmer HK option over-weights hope, relationship comfort and past lifestyle against current evidence. Bias #6 in [[commitment-lock-protocol]] names TTI as a Hoped item. *(Carried, unchanged; also in the status warning at the top of this file.)*
@@ -153,6 +143,8 @@ The effects below follow from the move itself, whether or not the job later last
 **Left open, not carried and not dropped (Julian, 27 Sep):** the four Joanne rows from August (deferring the Joanne decision, marriage to unlock the business, testing living together, the cake business). They are to be re-examined before R is scored; until then the August rows stand as written in [[HK-BRAIND]].
 
 ## A - Alternatives
+
+Would I be happier building revenue streams in UK? 
 
 *(Not yet run. Candidates surfaced so far: full six-year HK return; bounded two-year HK stint then re-decide; hold the UK move and take the TTI relationship remotely or as consulting; hold the UK move outright.)*
 
@@ -302,6 +294,10 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-28 | The job-loss mitigations written earlier today (fixed term, severance, fees to year end, natural break, gap year, Malvern base) restored to the R block of rows not yet in the sheet; they had been left only in this log when the section became a digest. |
+| 2026-09-28 | Superseded status (28 Sep, earlier): "B populated and unscored. Risks regrouped 28 Sep by event, effect and mitigation; only the first event is ranked, nothing is scored, and no mitigation is adopted except the standing no-verbal rule. A holds the candidate alternatives and Julian's 27 Sep lean (TTI from the UK). N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status." |
+| 2026-09-28 | R rebuilt as a digest of the UK Relocation Risks sheet at Julian's instruction: source line, ranked table (eight Material rows scored High), cause map, rows not yet in the sheet, analysis notes. The event, effect and mitigation rows written earlier today are removed; the sheet holds that structure. Mitigations lost in the move: severance in the contract sized to cover a full school year; leaving at the first natural break in the school year rather than the end of the GCSE course; school fees committed in the package to the end of the academic year in which employment ends; a fixed term of at least three years sized to the GCSE window (the sheet has only "ask for a fixed term", unfinished, and "lock in for 2 years if it's a contract"); a gap year before university to rebuild UK residence; timing a forced return to the end of Year 11; joining the YMCA 2026/27 waiting list. Also dropped: the forced-stay sizing (HK$803k against HK$275k a year, about HK$44k a month), Julian's 27 Sep "worst of every situation" wording, the parked claim 9 note on Clodagh's access, and the standing no-verbal rule (which still lives in [[dec-uk-move]] as the F in F-N-M-T). |
+| 2026-09-28 | B rebuilt as a digest: priced rows kept from the savings comparison, ten sheet opportunities tabled, five rows not yet in the sheet held; six rows removed as represented in the sheet: Fills the EA and director gaps in the CV; Preserves the highest-earning branch; Custody stays under HK jurisdiction; A chance to build the HK network as a contingency; A happier HK school for Sophia; Romance is the second driver of the pull back. |
 | 2026-09-28 | Burn-rate effect under the ranked event reframed in Julian's words: losing the job mid-term or mid-GCSE forces him to stay in HK without a job; the HK$803k against HK$275k figures kept as sizing (about HK$44k a month of forced stay). |
 | 2026-09-28 | Superseded status (27 Sep): "B and R are populated from the August [[HK-BRAIND]], unscored, with only R row 1 (the CRITICAL job-loss-mid-GCSE chain) ranked. A holds the candidate alternatives listed so far, Julian's 27 Sep lean (TTI from the UK) and its differences table. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status." |
 | 2026-09-28 | Risks section regrouped by event, with effects and candidate mitigations under each effect, at Julian's instruction; every 27 Sep row carried verbatim into the new structure; three contract-term mitigations and a gap-year mitigation added as candidates; home-fee loss recorded as an effect of both the ranked event and the move itself. |
@@ -349,6 +345,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-27 | Machine (subagent) | 108,511 tokens | Restructure of this file and the three August BRAIND files to the thirteen-section format |
 | 2026-09-28 | Machine (interactive session) | 694,100 tokens (output 77,263 + cache-write input 616,837; cache reads 4.8M omitted) | Session to this point: rumination discussion, home-fee rule check, Risks restructure brief and verification. Julian's attended minutes pending |
 | 2026-09-28 | Machine (subagent) | 205,505 tokens | Risks section regrouped by event; convention row updated; project status and ops log rows added |
+| 2026-09-28 | Machine (subagent) | 213,917 tokens | B and R rebuilt as digests of the risks sheet |
 
 ## Session Synopsis
 
