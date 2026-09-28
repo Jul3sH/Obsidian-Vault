@@ -113,6 +113,8 @@ The system is built and its outputs exist, but Julian has not yet content-verifi
 - [ ] feedback-narrative-fill memory wiki mirror
 - [ ] Card-floor rule wording in documentation-conventions.md Part 1
 
+*28 Sep 2026 read-through, partial:* mm-loss-aversion-bias and mm-decision-reopening-bias reworded in Julian's words (one-liners now lead with the risk assessment and the F-N-M-T reopen test respectively); mm-optimism-accounting-bias retired (not a personal bias; ruling on register row 6); [[mm-wishful-thinking-bias]] created as the real bias behind the TTI instance, with [[mm-eggs-in-one-basket]] kept as its countermeasure card; behaviour-check trigger 15 added. biases-index back to 17 rows. Remaining register-derived cards (confirmation-amplification, recency, certainty-spike, answer-first, sunk-cost, commitment-by-proxy) still to read.
+
 ## Time and Token Log
 
 | Date | Type | Effort | Notes |
@@ -122,3 +124,11 @@ The system is built and its outputs exist, but Julian has not yet content-verifi
 | 2026-09-19 | Machine (workflow) | 2,237,963 tokens | Full scan run: 20 Haiku scanners + merge + 10 Sonnet adversarial verifiers; 122 raw candidates, 10 merged, verdicts 4 confirmed / 2 uncertain / 4 refuted |
 | 2026-09-19 | Machine (agent) | 130,810 tokens | Artefact-level adversarial review of all created cards, indexes, skill, memory; 12 findings, all fixed |
 | 2026-09-19 | Julian attended | 30 min | Phase 2, system build and run: mapping-table review, verdict discussions, output spot-check (self-reported). Content verification of the produced artefacts deliberately NOT included - it is a separate phase, logged below when done |
+| 2026-09-28 | Julian attended | 15 min | Phase 3 content verification, part 1: four register-derived cards read; two reworded, one retired, one new bias card created (self-reported) |
+| 2026-09-28 | Machine (interactive Claude session) | 139,648 tokens | Output 27,988 + cache-write 111,660 across 35 assistant messages; cache reads 3.59M not counted as effort |
+
+## Session Synopsis
+
+**Julian (28 Sep 2026): 3/5.** The reasoning could have been better.
+
+**Model:** Fair. Two rounds went wrong the same way: I defended the optimism-accounting card using the TTI instance without asking what had actually caused it, then proposed renaming eggs-in-one-basket as the bias before checking whether it was cause or effect. Julian did the causal reasoning both times. What worked: the reuse check found the existing reopen test and the eggs card instead of building new ones, and his ruling landed in his own words.

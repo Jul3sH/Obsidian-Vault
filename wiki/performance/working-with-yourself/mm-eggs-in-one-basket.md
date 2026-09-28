@@ -38,7 +38,8 @@ alternatives has started to feel like wasted effort.
 - **A belief is not an offer.** Until something is signed, the favourite is a
   probability, and probabilities do not warrant exclusivity. Ask what odds you
   would honestly put on it, then ask whether those odds justify an empty pipeline.
-- **Watch the belief machinery, not just the belief.** The certainty is
+- **Watch the belief machinery, not just the belief.** The cause is
+  [[mm-wishful-thinking-bias]]: wanting the outcome inflates its odds. The certainty is
   manufactured by [[mm-narrative-fill-bias]] (the internal narrative) and
   [[mm-confirmation-bias]] (reading every signal as support), amplified by
   invested allies. When those are the sources, the confidence level is

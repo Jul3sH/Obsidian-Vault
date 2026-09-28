@@ -32,3 +32,4 @@ Every bias with an mm card, wherever the card lives. A bias is a recurring patte
 | Commitment-by-proxy bias | A decision or work brief is about to be recorded as final in words Claude wrote | [[mm-commitment-by-proxy-bias]] |
 | Payoff-vs-prestige bias | Choosing learning or research that feels exciting to explain to people who matter | [[mm-payoff-vs-prestige-bias]] |
 | Fear-disguise bias | An elaborate, reasonable-sounding case is forming against doing something scary | [[mm-fear-disguise-bias]] |
+| Wishful-thinking bias | A hoped-for outcome that someone else controls starts to feel certain; planning around it before anything is in writing | [[mm-wishful-thinking-bias]] |

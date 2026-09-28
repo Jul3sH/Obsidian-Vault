@@ -46,6 +46,7 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 - [[mm-loss-aversion-bias]] - A feared loss is a risk. Assess its probability and impact properly before it drives any decision
 - [[mm-sunk-cost-bias]] - The question is where the money is best deployed now, never how to get back what was paid
 - [[mm-commitment-by-proxy-bias]] - If Claude wrote the decision and you only said yes, you have not decided yet. Write it yourself.
+- [[mm-wishful-thinking-bias]] - Wanting something to happen is not evidence that it will
 
 ## Detail Articles
 

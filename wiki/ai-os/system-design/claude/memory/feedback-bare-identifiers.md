@@ -6,7 +6,7 @@ metadata:
   type: feedback
   created: 2026-08-08
   originSessionId: 0ba631ad-8f02-48f1-bd6f-39c82188c613
-  modified: 2026-08-08T12:26:06.107Z
+  modified: 2026-09-28T08:52:03.462Z
 ---
 
 # Bare identifiers are cryptic - always carry the context
@@ -22,5 +22,6 @@ metadata:
 - **Applies to:** review finding IDs (F1, S3, M2), Jira keys (BWS-39, POR-3), section numbers (§4), version labels (v1, v3), and any deliverable slug he is not actively working on in that session.
 - **Exception:** once established in the current turn, short form is fine for the rest of that turn.
 - **Same principle for section references:** *"§4, the mandate section - where the board's authority comes from"* - never a bare *"§4"*.
+- **Labels I coin from Julian's own list count too (added 28 Sep 2026).** Julian listed five relocation worries; I named them "ring 1" to "ring 5" and used "ring 2" as a label in later turns. He asked *"What is 'ring 2', you are using jargon again."* A numbered list he wrote once is not something he is holding a turn later. Restate the worry in words each time ("the job-security worry") rather than by its position in the list. Also caught in the same turn: "claim 13" and "row 1" from the HK-Return BRAIND used bare across turns.
 
 Related: [[user-profile]] (concise outputs he can hold in his head), and the `AGENTS.md` writing-style rule that length is a defect - brevity must not be bought with decodability.

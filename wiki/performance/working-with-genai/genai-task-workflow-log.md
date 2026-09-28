@@ -27,6 +27,23 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-28 · Card review + reasoning · Worked, at a cost · [[bias-history-review]]
+
+- **Work:** Julian read four register-derived bias cards with Claude; Claude
+  reworded two in his words, checked the evidence behind a third, retired it,
+  and built a new bias card for the pattern Julian identified instead.
+- **Check:** Julian's own judgement on each card (Taste work); grep for stale
+  copies of every changed one-liner; mirror diff on the skill.
+- **Outcome:** Worked. Julian 15 attended minutes, rated 3/5. About 140k
+  tokens (output + cache write). Two cards clearer, one retired, one created,
+  skill trigger widened.
+- **Lesson:** Step at fault: reasoning, Claude's. Twice Claude mapped an
+  instance (TTI) to the nearest existing card without asking what caused it,
+  and Julian had to separate cause (wishful thinking) from effect (eggs in one
+  basket). When assigning an instance to a bias, ask "what drove this?" before
+  "which card is closest?". Reuse-before-build worked: the reopen test and the
+  eggs card were found, not rebuilt.
+
 ## 2026-09-27 · Refactor · Worked, at a cost · [[savings-v3-review]] companion restructure
 
 - **Work:** Claude reviewed the restored expense structure, then refactored two
