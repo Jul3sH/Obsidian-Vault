@@ -33,13 +33,13 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 - **1. Do I really need to return to HK for romance?** Not yet answered. Tested in the Personal rows below, claims 6 and 7, and [[b1-relationship-belief]].
 
-It could be my best bet for finding my IGF (Ideal Girlfriend profile) which i'm beginning to think is a westernised 45 year old divorcee Asian.
+I'm much more likely to find my IGF (Ideal Girlfriend profile) which I'm beginning to think is a westernised 45 year old divorcee Asian. In UK I am very likely to have to compromise on looks (Youthful and Asian). 
 
 - **2. Do I really need to return to HK for financial reasons?**
 
-The HK$6M I could save in HK over 6 six years will pay off my mortgage and set me up for retirement. If I can HK$2M a year living in Malvern (very unlikely unless it TTI) the the HK$4.3M would probably be close enough. 
+The HK$6M I could save in HK over 6 six years will pay off my mortgage and set me up for retirement. If I can earn HK$2M a year living in Malvern (very unlikely unless it TTI) my HK$4.3M of savings would probably be close enough. 
 
-However, earning HK$135 in Malvern over six years won't even get me half way there at HK$2.8M, and London at HK
+However, earning HK$135 in Malvern over six years won't even get me half way there at HK$2.8M, and in London it would be a disaster HK$1.33M. 
 
 ### Priced benefits (from the savings comparison)
 
@@ -66,26 +66,19 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 | Schooling paid | Sophia returns to DBIS which she would enjoy | She'd have more time than YMCA, FOBISIA, netball, and football. | Relationships | Material |
 | Schooling paid | May extend to university | This would save me potentially another HK$1,000,000 | Relationships | - |
 
-### Benefits recorded here that are not yet in the sheet
-
-Carried from the 27 Sep version. Julian to add to the sheet or drop.
-
-- **External structure suits the ADHD:** a corporate HK role gives external structure, which suits Julian's ADHD better than a self-directed build. *(Carried from HK-BRAIND, unchanged, and stronger now that the role is senior and structured.)*
-- **Paid to improve his AI, not learning it unpaid:** Julian not only gets to leverage the AI he has worked with to produce results quickly, he also has a clear purpose for which to apply it, and is getting paid for it. He moves from having to learn AI unpaid to being effectively paid to improve his AI. *(New, 27 Sep, Julian's words.)*
-- **Flat, view, sunshine, safety and the dating market:** these are real personal benefits and should not be hand-waved away. *(Carried, unchanged.)*
-- **A known, working health system.** The HK health system is known and working for Julian. *(Carried, unchanged, minor.)*
-- **The role is now direct and dated:** Horst lunch 14 Sep, Stephan carrying it to Horst 26 Sep and to Ty this week, rather than the third-hand signal of August. *(Carried, changed: what was "not bankable" in August is now a live process, but still not written.)*
-
-**Benefit rows from August that are not carried:** listed in the 27 Sep chat review and summarised in the R section note below.
-
 ## R - Risks
 
 **Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (25 risks and 10 opportunities as of 28 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
 
-**Summary against the three questions (as of 28 Sep 2026):**
+**Summary against the four questions in the Purpose (as of 28 Sep 2026):**
 
-- **3. Are the risks of the move manageable?** Not yet answered. Every Return to HK row in the sheet now has a cause, event, effect, scores and a response. Residual scores are mostly blank, so nothing is yet shown as reduced. Julian's ranking below is his call; the sheet's Decision Impact column marks which rows can change the choice
+- **3. Are the risks and guilt of the move manageable?** 
 
+There only 'unmanageable' risk is that of moving back between years 2 and 6 where I get hit with the double whammy of losing home university status and having to survive in Hong Kong on no salary and high school fees (for up to avoid Sophia moving mid GCSEs or A-levels). 
+
+If the job looks too risky before i even start, I don't go to HK and try to move it to UK. 
+
+The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of 1 go to boarding school. She can rebuild the relationship on video and through holidays.  
 ### Ranked risks
 
 Rows marked Material in the sheet and scored High before response, Julian's critical one first. Everything else is in the sheet.
@@ -105,14 +98,14 @@ Rows marked Material in the sheet and scored High before response, Julian's crit
 
 One line per cause in the sheet, covering all 25 risk rows.
 
-| Cause | Events | Material | Scored High before response |
-|---|---|---|---|
-| Clodagh doesn't move to HK | 3 | 3 | 1 |
-| Not with Mum in the UK | 2 | 0 | 2 |
-| Delay with the decision | 6 | 2 | 1 |
-| Resistance to the move | 3 | 3 | 0 |
-| TTI offer is suboptimal | 5 | 5 | 2 |
-| TTI Job is insecure | 6 | 5 | 5 |
+| Cause                      | Events | Material | Scored High before response |
+| -------------------------- | ------ | -------- | --------------------------- |
+| Clodagh doesn't move to HK | 3      | 3        | 1                           |
+| Not with Mum in the UK     | 2      | 0        | 2                           |
+| Delay with the decision    | 6      | 2        | 1                           |
+| Resistance to the move     | 3      | 3        | 0                           |
+| TTI offer is suboptimal    | 5      | 5        | 2                           |
+| TTI Job is insecure        | 6      | 5        | 5                           |
 
 ### Risks recorded here that are not yet in the sheet
 
@@ -143,6 +136,8 @@ Carried from the 27 Sep version of this section. Julian to add to the sheet or d
 **Left open, not carried and not dropped (Julian, 27 Sep):** the four Joanne rows from August (deferring the Joanne decision, marriage to unlock the business, testing living together, the cake business). They are to be re-examined before R is scored; until then the August rows stand as written in [[HK-BRAIND]].
 
 ## A - Alternatives
+
+**Question 4, added by Julian 28 Sep 2026: would I be better off building revenue streams in the UK?** To be answered in this section, in Julian's words. Not yet written.
 
 Would I be happier building revenue streams in UK? 
 
@@ -294,6 +289,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-28 | Julian added a fourth top-of-mind question to the Purpose (would I be better off building revenue streams in the UK?) and widened question 3 to "risks and guilt". Summary headings in B and R now say four questions; a stub for question 4 placed at the top of A, where Julian will answer it. |
+| 2026-09-28 | Julian reviewed the B block "Benefits recorded here that are not yet in the sheet" (external structure suits the ADHD; paid to improve his AI; flat, view, sunshine, safety and the dating market; a known health system; the role now direct and dated) and removed it, together with the line listing August benefit rows not carried. The Benefits section now holds the summary, the priced rows and the sheet opportunities only. |
 | 2026-09-28 | The job-loss mitigations written earlier today (fixed term, severance, fees to year end, natural break, gap year, Malvern base) restored to the R block of rows not yet in the sheet; they had been left only in this log when the section became a digest. |
 | 2026-09-28 | Superseded status (28 Sep, earlier): "B populated and unscored. Risks regrouped 28 Sep by event, effect and mitigation; only the first event is ranked, nothing is scored, and no mitigation is adopted except the standing no-verbal rule. A holds the candidate alternatives and Julian's 27 Sep lean (TTI from the UK). N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status." |
 | 2026-09-28 | R rebuilt as a digest of the UK Relocation Risks sheet at Julian's instruction: source line, ranked table (eight Material rows scored High), cause map, rows not yet in the sheet, analysis notes. The event, effect and mitigation rows written earlier today are removed; the sheet holds that structure. Mitigations lost in the move: severance in the contract sized to cover a full school year; leaving at the first natural break in the school year rather than the end of the GCSE course; school fees committed in the package to the end of the academic year in which employment ends; a fixed term of at least three years sized to the GCSE window (the sheet has only "ask for a fixed term", unfinished, and "lock in for 2 years if it's a contract"); a gap year before university to rebuild UK residence; timing a forced return to the end of Year 11; joining the YMCA 2026/27 waiting list. Also dropped: the forced-stay sizing (HK$803k against HK$275k a year, about HK$44k a month), Julian's 27 Sep "worst of every situation" wording, the parked claim 9 note on Clodagh's access, and the standing no-verbal rule (which still lives in [[dec-uk-move]] as the F in F-N-M-T). |
