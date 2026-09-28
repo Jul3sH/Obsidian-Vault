@@ -107,29 +107,9 @@ One line per cause in the sheet, covering all 25 risk rows.
 | TTI offer is suboptimal    | 5      | 5        | 2                           |
 | TTI Job is insecure        | 6      | 5        | 5                           |
 
-### Risks recorded here that are not yet in the sheet
-
-Carried from the 27 Sep version of this section. Julian to add to the sheet or drop; until then they stand here.
-
-- **The Mum-care saving is lost:** the saving in the 24 Sep intuition (living with Mum avoids care-home costs) does not exist in this branch, because Julian is in HK. *(New, 24 Sep, claim 5.)*
-- **The cheap-school fallback is gone:** YMCA has no Form 2 place and offers a waiting list only, so a return means international fees. *(New, 25 Sep, from [[uk-relocation-project]]; part of the CRITICAL cause.)*
-- **Sophia's second school move within a year:** she leaves The Chase, which she loves, for a new HK international school, and her peer group is lost twice. *(Carried, inverted: August's "Sophia keeps her DBIS peer group" is now a cost, not a benefit; claim 8.)*
-- **The corporate path can dead-end at 65** and does not build the post-65 consulting or geographically independent future Julian described. *(Carried, unchanged. Partly moot if the plan is six years to 61; not moot if the horizon is ten.)*
-
-**Mitigations against the job-loss rows, not yet in the sheet.** Written 28 Sep 2026 in this file, before the section became a digest; the sheet's job-loss rows carry only "prove my value", "lock in for 2 years if it's a contract" and an unfinished "ask for a fixed term with". Candidate, untested. Julian to add to the Response Description of the sheet's two job-loss rows or drop.
-
-- A contractual fixed term of at least three years, sized to the GCSE window.
-- Severance sized to cover a full school year.
-- School fees committed in the package through the end of the academic year in which employment ends.
-- Leave at the first natural break in the school year rather than the end of the GCSE course. Sizing: the no-salary burn in HK is about HK$803k a year against about HK$275k in Malvern, so each month of forced stay costs about HK$44k more than leaving.
-- A gap year before university to rebuild three years of UK residence for home-fee status.
-- Keep the Malvern base and The Chase place recoverable. Model's observation, 28 Sep, not yet accepted by Julian: the return to Malvern does not depend on first having a UK job; it is the same fallback the UK branches rely on.
-
 ### Notes on the analysis (not risks of the option)
 
-- **The comparison figures are simplified:** they assume no salary growth, no returns and no starting pot. *(New, 27 Sep. The earlier note that the HK rows were derived rather than read from the sheet no longer applies: all rows are sheet cells since the 27 Sep rebuild.)*
-- **The warmer option over-weights hope:** the emotionally warmer HK option over-weights hope, relationship comfort and past lifestyle against current evidence. Bias #6 in [[commitment-lock-protocol]] names TTI as a Hoped item. *(Carried, unchanged; also in the status warning at the top of this file.)*
-- **Neither direction is legally irreversible.** HK permanent residency means neither direction is legally irreversible. The reversal that is costly is not the visa; it is a second school move mid-GCSE and the home-fee clock. *(Carried, changed: August said leaving HK is not one-way; the same fact now says returning is not one-way either, except for Sophia's timing.)*
+- **Returning to Hong Kong is the option Julian feels good about, so the case for it may be weighted by hope rather than evidence.** The pull is a hoped-for salary, the comfort of a possible relationship and the lifestyle he remembers, weighed against what the current evidence says. The TTI job in particular is still hoped for, not banked: no written terms exist. *(Carried from the commitment-lock protocol's bias register, where it is written as "the emotionally warm option"; the same warning sits in the [[uk-relocation-project]] Status.)*
 
 **Rows from August that are not carried** (reasons in the 27 Sep chat review): the no-job premise rows (stress loop without a concrete career answer, holding pattern with no income, self-directed HK-build drift, HK work depending on a networking offensive), the "maximum optionality" benefit, and the July-deadline "fails by extension" row, whose successor is the N step.
 
@@ -289,6 +269,14 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-28 | "Neither direction is legally irreversible" dropped from the R notes at Julian's instruction: the point (the visa is not the one-way door, Sophia's schooling timing is) is now carried by the sheet's job-loss rows. |
+| 2026-09-28 | The R note "The warmer option over-weights hope" rewritten in plain words at Julian's instruction ("the warmer option" was protocol jargon for returning to Hong Kong as the emotionally appealing choice). Meaning unchanged. |
+| 2026-09-28 | "The comparison figures are simplified" removed from the R notes at Julian's instruction: the caveat already lives in [[uk-relocation-savings-comparison]] section 5 and is not needed here. |
+| 2026-09-28 | Julian removed the "Mitigations recorded here that are not yet in the sheet" block (fixed term of three years or more; severance covering a school year; school fees to the end of the academic year of termination; leave at the first natural break, with the HK$44k a month forced-stay sizing; a gap year for home-fee status; keep the Malvern base recoverable). R is now a pure digest of the sheet plus the notes on the analysis. |
+| 2026-09-28 | "The corporate path can dead-end at 65" removed from R at Julian's instruction: covered by the sheet's "Lose my Job after six years" row, whose description he changed to "It would be even more difficult to find a job back in the UK at 61 or to set up a consulting practice". Every risk carried from 27 Sep is now either in the sheet or dropped, so the block is renamed to hold only the job-loss mitigations still awaiting a decision. |
+| 2026-09-28 | "Sophia's second school move within a year" removed from R at Julian's instruction: covered by the sheet's "Sophia really doesn't want to go" row, whose description he widened to "as she likes the Chase and her UK friends". |
+| 2026-09-28 | "The cheap-school fallback is gone" removed from R at Julian's instruction: it is an issue (a fact already in force, YMCA has no Form 2 place), not a risk. The fact stays on record in the [[uk-relocation-project]] 25 Sep status row. |
+| 2026-09-28 | "The Mum-care saving is lost" removed from the R block of rows not yet in the sheet: the sheet already holds it as "Mum needs care and I am not living with her" (effect: a costly home; Immaterial). Listed as missing in error. |
 | 2026-09-28 | Julian added a fourth top-of-mind question to the Purpose (would I be better off building revenue streams in the UK?) and widened question 3 to "risks and guilt". Summary headings in B and R now say four questions; a stub for question 4 placed at the top of A, where Julian will answer it. |
 | 2026-09-28 | Julian reviewed the B block "Benefits recorded here that are not yet in the sheet" (external structure suits the ADHD; paid to improve his AI; flat, view, sunshine, safety and the dating market; a known health system; the role now direct and dated) and removed it, together with the line listing August benefit rows not carried. The Benefits section now holds the summary, the priced rows and the sheet opportunities only. |
 | 2026-09-28 | The job-loss mitigations written earlier today (fixed term, severance, fees to year end, natural break, gap year, Malvern base) restored to the R block of rows not yet in the sheet; they had been left only in this log when the section became a digest. |
