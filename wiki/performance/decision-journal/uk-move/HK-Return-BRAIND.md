@@ -94,8 +94,8 @@ Populated 27 Sep 2026 from the Risk rows of [[HK-BRAIND]], reread against the qu
 
 **Effects**
 
-- **A job loss in HK burns HK$803k a year:** if the job goes while the family is in HK, the no-salary burn is about HK$803k a year, against about HK$275k in Malvern. *(Carried, changed: August's "staying without a job burns cash" now describes what happens after a job loss, and feeds the CRITICAL row.)*
-  - Mitigations (candidate, untested): severance in the contract sized to cover a full school year; return to the Malvern base on the 135k contractor fallback. Model's observation, 28 Sep, not yet accepted by Julian: that return does not depend on first having a UK job; it is the same fallback the UK branches rely on.
+- **Losing the job mid-term or mid-GCSE forces Julian to stay in HK without a job.** Julian's words, 28 Sep. Sizing: the no-salary burn in HK is about HK$803k a year against about HK$275k in Malvern, so each month he is held in HK costs about HK$44k more than leaving; the exposure is set by how long the school year holds him there. *(Carried, changed 28 Sep: August's "staying without a job burns cash" described an open-ended burn with no job; on 27 Sep it became the burn after a job loss; today it is reframed as the forced stay, which is what makes the burn a cost.)*
+  - Mitigations (candidate, untested): severance in the contract sized to cover a full school year; leave at the first natural break in the school year rather than the end of the GCSE course; return to the Malvern base on the 135k contractor fallback. Model's observation, 28 Sep, not yet accepted by Julian: that return does not depend on first having a UK job; it is the same fallback the UK branches rely on.
 - **Locked into HK international school fees with no salary.** *(Finance. From the 27 Sep ranked row.)*
   - Mitigations (candidate, untested): school fees committed in the package through the end of the academic year in which employment ends (the fee commitment that survives termination, listed 27 Sep).
 - **Sophia moves school again, mid-GCSE, at the worst point to move her.** *(Sophia. From the 27 Sep ranked row.)*
@@ -302,6 +302,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-28 | Burn-rate effect under the ranked event reframed in Julian's words: losing the job mid-term or mid-GCSE forces him to stay in HK without a job; the HK$803k against HK$275k figures kept as sizing (about HK$44k a month of forced stay). |
 | 2026-09-28 | Superseded status (27 Sep): "B and R are populated from the August [[HK-BRAIND]], unscored, with only R row 1 (the CRITICAL job-loss-mid-GCSE chain) ranked. A holds the candidate alternatives listed so far, Julian's 27 Sep lean (TTI from the UK) and its differences table. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status." |
 | 2026-09-28 | Risks section regrouped by event, with effects and candidate mitigations under each effect, at Julian's instruction; every 27 Sep row carried verbatim into the new structure; three contract-term mitigations and a gap-year mitigation added as candidates; home-fee loss recorded as an effect of both the ranked event and the move itself. |
 | 2026-09-28 | Claim 13 resolved in Julian's words: the temporary-employment exception does not apply to him. |
