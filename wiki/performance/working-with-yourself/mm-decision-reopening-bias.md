@@ -9,7 +9,7 @@ tags: [working-with-yourself, cognitive-bias, decision-making, mental-models]
 
 This card names the bias of emotionally reopening decisions already locked. It is bias #1 in the [[commitment-lock-protocol]]'s register and the reason the commitment-guard skill exists; the [[bias-history-review]] scan returned "uncertain", and the subsequent ruling was confirmed-but-managed: the strongest instances (7 Jul and 18 Aug 2026) track the definition cleanly, several others proved to be legitimate updating on genuinely new facts, and all sit within one saga (the UK move). This card formalises the pattern; the machinery that defends against it already exists.
 
-**One-liner:** The feeling that follows a locked decision is forecast, not evidence.
+**One-liner:** Before reopening a locked decision, run the reopen test: has a new fact arrived, or has anything actually changed? If not, nothing reopens.
 
 **Reach for it when:** doubt returns after a locked decision - especially within 72 hours of the lock, or within 48 hours of a warm conversation.
 
@@ -27,7 +27,8 @@ This card names the bias of emotionally reopening decisions already locked. It i
 
 ## Guidelines
 
-- Run the F-N-M-T reopen test and the 60-second wobble drill from [[commitment-lock-protocol]], and observe its stand-down windows (warm-contact and branch-fire).
+- Run the F-N-M-T reopen test from [[commitment-lock-protocol]]. Four questions: is it a verifiable fact, not a feeling? Was it unknowable at lock time? Would it have changed the verdict? Is it missing from the anchor doc's fear table? All four yes means book a session. Any no means re-read the anchor, do nothing, log one line.
+- Observe the stand-down windows: 48 hours after a warm contact, 72 hours after a branch fires.
 - Re-read the decision's anchor document instead of re-arguing from inside the feeling.
 
 ## Limitations

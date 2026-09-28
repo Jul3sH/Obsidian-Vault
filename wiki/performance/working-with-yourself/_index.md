@@ -37,14 +37,13 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 
 - [[mm-overanalysis-bias]] - Depth is earned by stakes, not by available material - analysis past the decision's needs is cost, not rigour
 - [[mm-commitment-stalling-bias]] - Analysis complete is not decided - the commit point recedes until something external forces it
-- [[mm-decision-reopening-bias]] - The feeling that follows a locked decision is forecast, not evidence
+- [[mm-decision-reopening-bias]] - Before reopening a locked decision, run the reopen test: has a new fact arrived, or has anything actually changed? If not, nothing reopens
 - [[mm-build-dont-adopt-bias]] - Building the system is the dopamine; adoption is the work - no build without a forcing function
 - [[mm-confirmation-amplification-bias]] - The AI you work with leans the way you lean. Its mistakes will favour the answer you want unless a separate, hostile review hunts for them.
 - [[mm-recency-bias]] - Conviction re-anchors to the last warm voice, not the evidence
 - [[mm-certainty-spike-bias]] - From someone whose honest outputs are ranges, "100% convinced" is a warning light, not a green one
 - [[mm-answer-first-bias]] - A case written before the review is advocacy, not analysis
-- [[mm-optimism-accounting-bias]] - Hoped-for money is narrative; only banked money is runway
-- [[mm-loss-aversion-bias]] - A fear with no breachable floor gets no vote
+- [[mm-loss-aversion-bias]] - A feared loss is a risk. Assess its probability and impact properly before it drives any decision
 - [[mm-sunk-cost-bias]] - The question is where the money is best deployed now, never how to get back what was paid
 - [[mm-commitment-by-proxy-bias]] - If Claude wrote the decision and you only said yes, you have not decided yet. Write it yourself.
 

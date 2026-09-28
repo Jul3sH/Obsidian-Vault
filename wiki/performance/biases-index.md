@@ -27,7 +27,6 @@ Every bias with an mm card, wherever the card lives. A bias is a recurring patte
 | Recency bias | A lean or conviction shifted, and the last 48h contained an emotionally significant conversation | [[mm-recency-bias]] |
 | Certainty-spike bias | Feeling completely, suddenly sure on a judgement call | [[mm-certainty-spike-bias]] |
 | Answer-first bias | Drafting a document that argues for a conclusion before the adversarial review has run | [[mm-answer-first-bias]] |
-| Optimism-accounting bias | A number enters a plan or model that depends on something that has not yet happened | [[mm-optimism-accounting-bias]] |
 | Loss-aversion bias | A safe option pulls ahead on protecting something no scenario actually threatens | [[mm-loss-aversion-bias]] |
 | Sunk-cost bias | Holding or continuing anything with reasoning that references what was already spent | [[mm-sunk-cost-bias]] |
 | Commitment-by-proxy bias | A decision or work brief is about to be recorded as final in words Claude wrote | [[mm-commitment-by-proxy-bias]] |

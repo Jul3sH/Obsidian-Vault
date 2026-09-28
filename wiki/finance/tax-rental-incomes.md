@@ -123,7 +123,7 @@ UK tax shown at 2027/28 rates, scenario 2.
 
 ## 3. Shared inputs
 
-FX 10 HKD = £1 (wiki convention). Banked/Hoped per [[mm-optimism-accounting-bias]].
+FX 10 HKD = £1 (wiki convention). Banked/Hoped per the [[commitment-lock-protocol]] register (bias 6).
 
 | Input | Value | Status |
 |---|---:|---|

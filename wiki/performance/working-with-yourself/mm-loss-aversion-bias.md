@@ -9,9 +9,9 @@ tags: [working-with-yourself, cognitive-bias, decision-making, mental-models]
 
 This card names the bias of letting fear of loss vote on a decision when no scenario actually threatens the thing being protected. Documented as bias #7 in the [[commitment-lock-protocol]] register: the whole Malvern lean existed to "protect the bottom line" - a floor no modelled scenario breached.
 
-**One-liner:** A fear with no breachable floor gets no vote.
+**One-liner:** A feared loss is a risk. Assess its probability and impact properly before it drives any decision.
 
-**Reach for it when:** a safe-looking option is pulling ahead and the pull is about protecting something - money, security, a fallback.
+**Reach for it when:** the safer-looking option is winning mainly because it protects something (money, security, a fallback), not because it is better.
 
 ## Key Takeaways
 
@@ -22,7 +22,7 @@ This card names the bias of letting fear of loss vote on a decision when no scen
 ## Principles
 
 - **Fear votes only on scenarios that exist in the model.**
-- **The severity of a loss and its probability are separate numbers; the bias multiplies by the wrong one.**
+- **How bad a loss would be and how likely it is are two different questions. This bias answers the first and treats it as the second.**
 - **Protection has a price - name what the safe option costs before paying it.**
 
 ## Guidelines

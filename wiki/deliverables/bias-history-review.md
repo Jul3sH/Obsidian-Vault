@@ -87,6 +87,8 @@ Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias
 | mm-sunk-cost-bias | Register #8 | Cure: dated review trigger; "best deployed" question |
 | mm-commitment-by-proxy-bias | Register #9 | Cure: retyping rule (lock condition 1) |
 
+*28 Sep 2026: mm-optimism-accounting-bias retired on Julian's read-through. Register-derived only, never scan-tested; the evidence showed model-drafted figures caught by review, not a personal habit; the TTI instance belongs to [[mm-eggs-in-one-basket]] (wishful thinking suppressing action on alternatives). Ruling recorded on register row 6 in [[commitment-lock-protocol]]; biases-index now 16 rows.*
+
 **Renames (3):** mm-stories-arent-evidence → mm-narrative-fill-bias (5 inbound files to repoint); mm-payoff-vs-prestige → mm-payoff-vs-prestige-bias (3); mm-fear-wears-a-disguise → mm-fear-disguise-bias (4).
 
 **Unchanged (2):** mm-visual-representation-bias; mm-confirmation-bias (generic tier).
