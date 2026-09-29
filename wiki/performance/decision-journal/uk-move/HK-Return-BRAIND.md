@@ -18,6 +18,7 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 2. Do I really need to return to HK for financial reasons?
 3. Are the risks and guilt of the move manageable?
 4. Would I be better off building revenue streams in UK? 
+5. Should I pursue a safer compromise and aim for a UK based role?
 
 ## Status
 
@@ -69,7 +70,7 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 ## R - Risks
 
-**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (27 risks and 11 opportunities as of 28 Sep 2026, refreshed after Julian's review that afternoon). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
+**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (28 risks and 11 opportunities as of 28 Sep 2026, refreshed after Julian's review that afternoon). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
 
 **Summary against the four questions in the Purpose (as of 28 Sep 2026):**
 
@@ -98,7 +99,7 @@ Rows marked Material in the sheet and scored High before response, Julian's crit
 
 ### Cause map
 
-One line per cause in the sheet, covering all 27 risk rows.
+One line per cause in the sheet, covering all 28 risk rows.
 
 | Cause                      | Events | Material | Scored High before response |
 | -------------------------- | ------ | -------- | --------------------------- |
@@ -109,6 +110,7 @@ One line per cause in the sheet, covering all 27 risk rows.
 | Resistance to the move     | 3      | 3        | 0                           |
 | TTI offer is suboptimal    | 5      | 5        | 2                           |
 | TTI Job is insecure        | 7      | 6        | 6                           |
+| Leaving the Chase School   | 1      | 0        | 0                           |
 
 ## A - Alternatives
 
@@ -264,6 +266,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-28 | Digest refreshed for Julian's new sheet risk under cause "Leaving the Chase School": the school, having given Sophia one of two places, does not offer one again if the family has to return (Immaterial, Medium). Counts now 28 risks; cause map gains the row. Not in the ranked table (not Material or High). |
 | 2026-09-28 | Julian restructured A: question 4 answered in his words (revenue streams in Malvern would be enjoyable technically but not the money six years at TTI would bring; after 61 he wants hobbies, not revenue streams); the UK-based alternative retitled "Land the TTI job and stay UK-based Malvern"; the model's third-option warning kept; the "untested claims 11 and 12" line and other superfluous content removed by him. Two bare claim numbers in the differences table replaced with the claims in words. Status banner updated to match. |
 | 2026-09-28 | Digest refreshed from the sheet after Julian's afternoon review: 27 risks and 11 opportunities. New in the ranked table: a second effect row under the critical job-loss event (Sophia mid-GCSE or A-level has to drop back a year). Cause map gains "Joanne needs a decision" (1 row, unscored) and TTI Job is insecure moves to 7 rows, 6 Material, 6 High. Opportunities table gains "Chance to test the relationship with Joanne". |
 | 2026-09-28 | The Joanne rows paragraph removed from R and the matching open task closed: Julian re-examined the four August rows and added two to the sheet, an opportunity "Chance to test the relationship with Joanne" and a risk "Joanne needs a decision". The marriage-and-business rows were not carried. |
