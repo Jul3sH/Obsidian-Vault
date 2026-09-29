@@ -18,7 +18,8 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 2. Do I really need to return to HK for financial reasons?
 3. Are the risks and guilt of the move manageable?
 4. Would I be better off building revenue streams in UK? 
-5. Should I pursue a safer compromise and aim for a UK based role?
+5. Is living with Mum for six years realistic, and is moving out viable? 
+6. Should I pursue a safer compromise and aim for a UK based role?
 
 ## Status
 
