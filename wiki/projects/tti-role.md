@@ -7,12 +7,14 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-09-26
+status-updated: 2026-09-29
 ---
 
 # TTI Role
 
-## Status (as of 2026-09-26)
+## Status (as of 2026-09-29)
+
+**29 Sept - TWO MESSAGES TO STEPHAN DRAFTED, NOT SENT.** The three asks of 26 Sept have no reply recorded. After working six candid questions in [[HK-Return-BRAIND]], Julian's order of preference is: the TTI role done from Malvern; Hong Kong on a guaranteed two years with school fees and a planned return; a UK market role as the fallback. Draft A asks whether the same role can be based in the UK, and failing that for a guaranteed two years with schooling. Draft B asks how safe the role is if Horst steps back further. Both are in [[tti-comms-log]] with cautions. Still no written terms. **Now:** Julian edits the drafts into his voice and sends; Draft B is better asked on a call.
 
 **26 Sept - THREE ASKS SENT BEFORE THE HORST FLIGHT.** Julian messaged Stephan on Saturday 26 Sept, before Stephan boarded with Horst: is schooling likely to be covered (YMCA now full, international fees a stretch); is this now a perm role with job security, life insurance and medical; when is the Ty conversation and what is the next concrete step after it. Verbatim and drafting record in [[tti-comms-log]]. Custody, tax, the number, the UK option and any softener deliberately left out. Ball with Stephan.
 
@@ -100,7 +102,11 @@ status-updated: 2026-09-26
 
 **Julian's argument:** "I can close the platform engineering gap by working with existing sysadmins to create repeatable architecture patterns, freeing me to focus on what Ty actually needs: the EA framework + governance that stops the steering-committee chaos. But I can't coordinate directors as a Principal - that's not about ambition, it's about organizational structure. The role requires director-level seniority to have peer authority." This leans the conversation back toward the EA role Ty described, not the system admin job, and frames the director-level requirement as structural necessity, not preferential.
 
-**Next actions (updated 17 Sept):**
+**Next actions (updated 29 Sept):**
+
+0. **Edit and send Draft A to Stephan (UK base, or a guaranteed two years with schooling); ask Draft B (how safe if Horst steps back) on a call.** Drafts in [[tti-comms-log]]. Log the sent text and Stephan's reply there.
+
+**Earlier next actions (as at 17 Sept):**
 0. ~~Horst lunch~~ **HAPPENED 14 Sept** - mandate explicit, number verbally accepted, no written terms or named next step. Full record: [[engagement-history]] 14 Sep entry; outcome-vs-card note in [[horst-meeting-key-asks]].
 0a. ~~Chase Stephan~~ **SENT 24 Sept; call 25 Sept; three asks SENT 26 Sept** (record in [[tti-comms-log]]). Now: **(i) watch for Stephan's answer after the flight, and hold each question to a yes/no or a date; (ii) pin the date and place of the Ty meeting next week; (iii) the "in terms of projects" reframe is answered by ask 2, so hold that line if he softens it** (the pre-committed rule: only a secure, multi-year role justifies uprooting Sophia again). Then: **convert the mandate into written terms.** (likely? resistance? HK or England? hostility and 12-month risk? and the next concrete step with an owner and date). Then: **convert the mandate into written terms.** The list: role and level, the accepted number (HK$2M + 15%), term (multi-year per the card), start date, schooling budget, **flights/relocation (Horst's own 13 Sep suggestion - ask for it)**, and who papers it. Counter the end-of-term drift Stephan floated in the limo with the two business reasons already given: UK tax residency risk and Sophia falling behind.
 0b. **Run the wobble #5 F-N-M-T reopen test** - the stand-down window closed ~15 Sept. Pre-named F bar still unmet: written terms plus a family-lawyer-verified custody read ([[dec-uk-move]] wobble #5). Until F passes, nothing irreversible in either direction.
@@ -140,6 +146,7 @@ status-updated: 2026-09-26
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-29 | **Two messages to Stephan drafted, not sent.** Draft A: can the same role be based in the UK, and if it must be Hong Kong, a guaranteed two years with schooling. Draft B: how safe is the role if Horst steps back. Claude-first at Julian's request, to be edited into his voice. Basis: the six candid questions and break-even check logged in [[HK-Return-BRAIND]] on 29 Sept. Record and cautions: [[tti-comms-log]]. Decision impact: the UK-base answer decides whether Julian's first-choice option exists. |
 | 2026-09-26 | **Three asks sent to Stephan before the Horst flight.** Schooling covered? Perm role with security and cover? Ty date and next concrete step? Six drafting rounds, Julian's wording; Claude fact-checked (Horst said "no problem" to the number, not to schooling, so the line became "I raised schooling with you both"; YMCA full verified by Bonnie Shing 25 Sept). A softening line was drafted and cut by Julian as giving Stephan an out. Record: [[tti-comms-log]]. Decision impact: the three must-haves that decide the reopen test F bar are now explicitly on Stephan's radar before the chairman conversation; next action 0a is now watch-and-hold. |
 | 2026-09-26 | **25 Sept call with Stephan logged.** Brief call after a WhatsApp lead-in (flat offer at HK$27k asking, TTI likely-and-viable question). Stephan will discuss with Horst on their flight to Europe 26 Sept, then with Ty next week; still wants Ty's buy-in so Julian gets support to deliver. Julian named schooling, tax residency and the flat as pressures and raised the HK custody jurisdiction once. Not reached: Stephan's "in terms of projects" line (consulting-bridge risk). Record and read in [[tti-comms-log]]. Decision impact: first dated process since the lunch, but no written terms, so the F bar stays unmet. Next action 0a rewritten: pre-flight message with three asks, pin the Ty date, answer the projects reframe. |
 | 2026-09-24 | **Chase to Stephan sent (Julian's draft, one typo pass).** Asks for a 15-minute call Friday 25 Sept; names schooling, housing and tax residency as live pressures; offers a role shape for Ty's side. No timing, role or Horst mention, so nothing pre-empts the BRAIND. Verbatim, call agenda and escalation rule in [[tti-comms-log]]. |

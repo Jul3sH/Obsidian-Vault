@@ -470,6 +470,41 @@ renamed: 2026-07-17
 
 ---
 
+## 📝 DRAFTS, NOT SENT (as of 29 Sep 2026) - two messages: UK base or a guaranteed two years; how safe is the role if Horst steps back
+
+> As of 29 Sep 2026: drafted by Claude at Julian's request, to be edited into his voice. Neither is sent. The three asks of 26 Sep (entry below) have had no reply recorded here.
+
+**Why these two.** From the 29 Sep session logged in [[HK-Return-BRAIND]] (Intuition Log, 29 Sep blocks). Julian's order of preference: the TTI role done from Malvern; Hong Kong on a guaranteed two years with school fees and a planned return; a UK market role as the fallback. He also wants Stephan's honest read on how safe the role would be for six years.
+
+**Draft A - where the role is based, and the minimum term**
+
+> Hi Stephan, hope the trip went well. Have you managed to speak to Ty yet?
+>
+> One more thing to put in the mix. Sophia has settled really well at school here and I'm wary of moving her again. Could the same role be based in the UK, with regular trips to HK? I can cover the HK and US hours from here.
+>
+> If it has to be HK, I'd need a guaranteed minimum of two years with schooling covered, so I know she's safe until her GCSE years.
+>
+> Which of those looks more realistic?
+
+**Draft B - how safe the role is**
+
+> Stephan, a straight question, and I'd value a straight answer, good or bad.
+>
+> Honestly speaking, how safe would I be over the next six years? Your Dad has been the one pushing this. If he steps back further, who would the role answer to, and would it survive?
+>
+> I'd be moving Sophia back for this, so I need to know what I'd be relying on.
+
+**Claude's cautions (29 Sep 2026):**
+- **Draft A, the UK base.** The 26 Sep critique dropped the UK option because it sat against the perm ask and gave Stephan the projects-from-the-UK route. Draft A answers that by asking for "the same role", not project work. If Stephan replies in terms of projects, that is the consulting reframe and needs correcting at once.
+- **Draft A, facts checked.** Sophia settled at The Chase: [[HK-Return-BRAIND]] Intuition Log 24 Sep. Two years as the most Julian expects to be guaranteed: same file, 29 Sep. Whether Stephan has spoken to Ty is unknown, so the draft asks.
+- **Draft B, the channel.** A written "how safe would I be" invites a warm, vague reply that proves nothing, and Stephan cannot honestly promise six years. It is better asked on a call, with the draft as the opening line. The second sentence is the part he can actually answer.
+- **Draft B, what stays out.** Julian's read that Stephan has no power and will not put his neck out is a read, not a fact ([[HK-Return-BRAIND]] claims table, labelled speculative by Julian on 27 Sep). Nothing in the draft implies it.
+- **Load on Stephan.** With the three asks of 26 Sep unanswered, sending both adds up to five open questions. Suggested order: Draft A by message now, Draft B on the call that follows.
+
+**NEXT:** Julian edits both into his voice and decides the order. Sent text is logged here verbatim; then update [[tti-role]].
+
+---
+
 ## ✅ SENT Sat 26 Sep - THREE ASKS BEFORE THE HORST FLIGHT: schooling covered? perm with security and cover? Ty date and next concrete step?
 
 > Sent Saturday 26 Sep, before Stephan's flight to Europe with Horst. Julian's wording after six drafting rounds (record in the 25 Sep entry below). Verbatim:

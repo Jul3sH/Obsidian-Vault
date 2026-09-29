@@ -265,6 +265,21 @@ Julian's words, spelling corrected only. Asked for Purpose question 5.
 
 ---
 
+### 2026-09-29 · On "unmanageable", Mum's care, and the ranking
+
+Julian's words, spelling corrected only.
+
+**On the Hong Kong risk**
+"I described the Hong Kong risk as 'unmanageable' before I started to look at it in terms of the minimum term required to achieve 'break even' in comparison to staying in Malvern. So it is manageable to a degree, but not fully manageable because I don't think I can get more than 2 years guaranteed (which would be by virtue of a contract)."
+
+**On Mum needing more help**
+"I don't know if Mum will need more physical support. If she gets really bad then a care home is an option, but that comes at great expense. As mentioned, there may be an option to use the care facilities of the Albion Lodge care home across the road."
+
+**On the ranking** (1. TTI role done from Malvern; 2. Hong Kong on a two-year contract with school fees and a planned return; 3. UK market role, likely hybrid)
+"I think the ranking looks right if I can't get a really good guarantee from Stephan. The only thing left is to ask Stephan outright 'Honestly speaking Stephan, how safe would I be for six years'."
+
+---
+
 ## What the intuition asks the analysis to check
 
 Feeds B, R and A. Each row is a claim the gut is relying on that has not yet been tested.
@@ -324,6 +339,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-29 | Intuition Log block added: Julian's revised view of the Hong Kong risk (manageable to a degree), Mum's care, and his conditional agreement to the three-option ranking. |
 | 2026-09-29 | Intuition Log block added for Purpose question 5: Julian's good and bad pictures of six years at Mum's, in his words, with one dated model note. |
 | 2026-09-29 | Intuition Log block added: Julian's answers to six candid questions, two follow-ups and the Chase return risk, in his words, with three dated model checks (break-even double count, two-year return, the moving-out belief). Dictation slip "Loader" corrected to Clodagh on Julian's confirmation. Status banner updated. |
 | 2026-09-29 | Superseded status (28 Sep): "B and R are now digests of the UK Relocation Risks sheet, which is the source of truth for Return to HK risks and opportunities; the ranked risks and cause map were refreshed from it on 28 Sep. A few rows recorded here await Julian's decision to add them to the sheet or drop them. A now answers question 4 in Julian's words (building revenue streams in Malvern: not attractive against six years at TTI) and holds two alternatives, TTI from a UK base in Malvern and the differences table against the Malvern and London BRAINDs. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status." |
