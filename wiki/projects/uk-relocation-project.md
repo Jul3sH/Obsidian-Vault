@@ -9,7 +9,7 @@ hard-date: 2026-09-15
 wsjf: n/a
 por-key: POR-17
 jira-key: BWS-14
-status-updated: 2026-09-28
+status-updated: 2026-09-29
 ---
 
 This is the status and evidence hub for the UK relocation project. It brings the decision and execution work together so Julian can see the current position, follow the supporting records and choose the next action. Internal only, `send: NEVER`.
@@ -35,7 +35,9 @@ This is the status and evidence hub for the UK relocation project. It brings the
 | [[uktax-srt-fy26-27\|UK Tax - Statutory Residence Test FY26/27]] | **Canonical UK tax-residency position for Julian and Sophia.** Statutory Residence Test analysis for 2026/27 and forward exposure to 2028/29: day-count thresholds and dates, the ties position, the Hong Kong flat's role in defeating the second automatic UK test, the boarding-school scenario from Sept 2028, and the third automatic overseas test route if a Hong Kong job proceeds. Verified against FA 2013 Sch 45 and the HMRC RFIG manual; peer-reviewed (Fable, 3 rounds) and adversarially reviewed (Codex). |
 | [[tax-rental-incomes\|Tax on Rental Incomes]] | Tax on letting the DB flat and Cecil Road as a UK resident: four scenarios on 2026/27 and 2027/28 property rates, HK Property Tax, UK credits, and the year-by-year FIG claim rule. Codex-reviewed 25 Sep 2026. |
 
-## Status (as of 2026-09-28)
+## Status (as of 2026-09-29)
+
+**29 Sept - Six candid questions and a break-even check worked with Julian and logged in [[HK-Return-BRAIND]]; a lean recorded, not a decision.** The lean ranks three options (TTI role from Malvern, Hong Kong on a guaranteed two years with school fees, UK market role) and Julian has asked to revisit it; the runs behind it are in [[HK-Return-Counterfactuals]], using the new tool [[counterfactual-questioning]]. Two messages to Stephan are drafted, not sent, in [[tti-comms-log]]. No decision state change: written terms are still absent and the UK move remains committed.
 
 **28 Sept, later - The UK Relocation Risks sheet is now the source of truth for Return to HK risks and opportunities.** Julian rebuilt its Return to HK rows (25 risks, 10 opportunities, with scores, responses and Decision Impact). The B and R sections of [[HK-Return-BRAIND]] are now digests of it: eight ranked Material risks, a cause map, and a short list of rows still only in the BRAIND for Julian to add or drop. New in the sheet and not previously in the BRAIND: the delay cluster (FOBISIA trials, exams, the tenant offer, the 90 and 120 day lines), resistance to the move (injunction, family pleading, Sophia not wanting to go), a suboptimal TTI offer (no schooling, contract only, junior role, hours, travel), and stakeholder buy-in.
 
@@ -159,6 +161,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Next actions (prioritised, finance refreshed 27 Sep 2026):**
 
+- **29 Sep: answer counterfactual runs 3 to 5 in [[HK-Return-Counterfactuals]], then redo the ranking once.**
+- **29 Sep: edit and send Draft A to Stephan** (draft in [[tti-comms-log]]).
 - **27 Sep: confirm the rates-only figure in B61 from the RVD demand note (bounded: +HK$646/yr worst case, immaterial to ranking); refresh [[tax-rental-incomes]] §1, §2 and Key Takeaways to the fuller expense set the sheet uses.** Future budget refreshes use full cashflow168 and lean164, including occupied housing. University inputs are now B126:B128.
 - **27 Sep: review available savings after the university reserve in row34 and inputs B126:B128. Reconcile any copied HK-return comparison figures in [[HK-Return-BRAIND]] with [[uk-relocation-savings-comparison]]; salary continues after year6.**
 - **25 Sep: review the completed lean and non-lean runway tables linked in [[savings-v3-review]]; change B71:B77 as balances move.** Legacy cashflow rental-income reconciliation remains separate from the verified savings/runway model.
@@ -249,6 +253,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 | Decision control | [[uk-relocation-project]] | This project status surface and file map. |
 | Decision workspace | [[uk-move/_index]] | Workspace index for the UK move decision arc, now structured as the BRAINED reading path plus later post-MOVE sub-decisions. |
 | Decision workspace | [[HK-Return-BRAIND]] | BRAIND workspace for the return-to-HK-on-a-TTI-offer question (opened 24 Sep): live Intuition Log, claims-to-test table, B/R/A/N/D slots. |
+| Decision workspace | [[HK-Return-Counterfactuals]] | Counterfactual questioning runs for the return-to-Hong-Kong question: which factors drive the gut feeling |
 | Decision workspace | [[fable-review]] | 4 Jul hostile review of the primary move decision. |
 | Decision workspace | [[fable-review-london-vs-malvern]] | 7 Jul hostile review of London-direct vs Malvern-first. |
 | Decision workspace | [[fable-review-unknowns]] | Unknown-unknowns sweep across execution, timing, career, relationships, and Sophia. |
@@ -307,6 +312,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-29 | **Six candid questions and a break-even check worked with Julian and logged in [[HK-Return-BRAIND]]; counterfactual questioning tool and run record created.** New tool [[counterfactual-questioning]] and run record [[HK-Return-Counterfactuals]] (two runs done, three listed, list closed). Two messages to Stephan drafted, not sent, in [[tti-comms-log]]. A lean of three ranked options recorded: TTI role from Malvern, Hong Kong on a guaranteed two years with school fees, UK market role; Julian has asked to revisit it. Decision impact: no decision state change; written terms still absent; the UK move remains committed. |
 | 2026-09-28 | **UK Relocation Risks sheet made the source of truth for Return to HK risks and opportunities; [[HK-Return-BRAIND]] B and R rebuilt as digests of it.** Julian rebuilt the sheet's Return to HK rows (25 risks, 10 opportunities, scored, with responses and Decision Impact). The BRAIND now carries eight ranked Material risks, a cause map, the ten opportunities, and a short list of rows still only in the BRAIND for Julian to add or drop. New in the sheet: the delay cluster (FOBISIA trials, exams, the tenant offer, the 90 and 120 day lines), resistance to the move, a suboptimal TTI offer, and stakeholder buy-in. Decision impact: none yet; residual scores mostly blank, nothing adopted. |
 | 2026-09-28 | **[[HK-Return-BRAIND]] Risks regrouped by event, effect and mitigation at Julian's instruction; every 27 Sep row carried verbatim.** Julian confirmed the temporary-overseas-employment exception does not apply to him, so loss of Sophia's home-fee status is logged as an effect of the move itself as well as of a job loss after Horst goes; three contract terms (fixed term of three years or more, severance covering a school year, fees to the end of the academic year of termination) and a gap year logged as candidate mitigations. Decision impact: none yet; nothing scored, no mitigation adopted except the standing no-verbal rule, and the Stephan timing question stays open. |
 | 2026-09-27 | **HK-Return-BRAIND: six-year table replaced by six agreed B Finance rows; A cost rows updated; claim 15 added.** HK return at six years about HK$5.3M against 4.35M for the same salary from Malvern and 2.92M from London; schooling in the package adds about 1.0M; the flat-as-home mortgage interest offset is Julian's belief, logged as claim 15 to verify. Decision impact: none new; the numbers are the 27 Sep sheet already in [[uk-relocation-savings-comparison]]. |

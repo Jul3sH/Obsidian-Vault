@@ -8,6 +8,7 @@ Frameworks and mental models for structured decision-making. For Julian's own de
 
 ## Tools (run inside any framework)
 - [[belief-assumption-testing|Belief & Assumption Testing]] - Surface load-bearing claims, label Fact / Assumption / Belief, clarify assumptions and challenge beliefs. The input-cleaning step; how the gut earns its veto.
+- [[counterfactual-questioning|Counterfactual Questioning]] - Find which factor is driving a gut feeling by removing one factor at a time. Finds the driver; Belief & Assumption Testing then tests it.
 
 ## Frameworks
 - [[choosing-a-decision-framework|Choosing a Decision Framework]] - Two-question filter for picking the right framework; ADHD-optimised to avoid analysis paralysis

@@ -27,6 +27,19 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-29 · Wiki drafting (tool definition + decision run record) · Pending · [[HK-Return-BRAIND]]
+
+- **Work:** Two wiki files drafted by the model in an interactive session under
+  the admission fast lane: a tool definition ([[counterfactual-questioning]]) and
+  a decision run record ([[HK-Return-Counterfactuals]]).
+- **Check:** Independent adversarial review by a subagent before Julian's
+  sign-off.
+- **Outcome:** As of 29 Sep 2026: the review returned 19 findings, none fatal,
+  mostly overreach in the model's readings and a lean towards one option. Fixes
+  applied the same day. Pending Julian's review.
+- **Lesson:** None recorded yet.
+- **Deliverable:** [[HK-Return-BRAIND]].
+
 ## 2026-09-28 · Card review + reasoning · Worked, at a cost · [[bias-history-review]]
 
 - **Work:** Julian read four register-derived bias cards with Claude; Claude

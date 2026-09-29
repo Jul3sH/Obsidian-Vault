@@ -82,6 +82,7 @@ Small, bounded execution decisions that surface during Phase 3/4. Each gets its 
 ## 8c. Post-Execution Reopen: HK U-Turn (Sep 2026)
 
 - [[HK-Return-BRAIND|HK-Return-BRAIND]] - BRAIND workspace for the return-to-HK-on-a-TTI-offer question (opened 24 Sep 2026): live append-only Intuition Log, claims-to-test table, and empty B/R/A/N/D slots to be filled once written terms arrive.
+- [[HK-Return-Counterfactuals|HK-Return-Counterfactuals]] - record of the [[counterfactual-questioning]] runs for the return-to-HK question: which factors drive the gut feeling against going.
 
 ## 9. Decision-Support Surfaces
 

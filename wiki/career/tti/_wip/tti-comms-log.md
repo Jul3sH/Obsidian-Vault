@@ -474,7 +474,7 @@ renamed: 2026-07-17
 
 > As of 29 Sep 2026: drafted by Claude at Julian's request, to be edited into his voice. Neither is sent. The three asks of 26 Sep (entry below) have had no reply recorded here.
 
-**Why these two.** From the 29 Sep session logged in [[HK-Return-BRAIND]] (Intuition Log, 29 Sep blocks). Julian's order of preference: the TTI role done from Malvern; Hong Kong on a guaranteed two years with school fees and a planned return; a UK market role as the fallback. He also wants Stephan's honest read on how safe the role would be for six years.
+**Why these two.** From the 29 Sep session logged in [[HK-Return-BRAIND]] (Intuition Log, 29 Sep blocks). A lean built by the model and agreed by Julian with a condition, which he has since asked to revisit: the TTI role done from Malvern; Hong Kong on a guaranteed two years with school fees and a planned return; a UK market role as the fallback. He also wants Stephan's honest read on how safe the role would be for six years.
 
 **Draft A - where the role is based, and the minimum term**
 

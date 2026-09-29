@@ -280,6 +280,23 @@ Julian's words, spelling corrected only.
 
 ---
 
+### 2026-09-29 · Opening statement of the session, and the request to revisit the ranking
+
+Logged late in the session; the first two quotes are from its opening message. Julian's words, spelling corrected only.
+
+**The gut feeling**
+"My gut instinct is telling me not to do it. I don't know if this is because of guilt about my mum, about Clodagh, about disrupting Sophia, whether it's about fear of making a mistake, or whether it's because my gut knows that the success is based on wishful thinking and assumptions when the evidence is pointing towards it being a risky option."
+
+**On a UK role**
+"The question on my mind at the moment is: should I be pursuing a safer compromise, which is to see if I can land a job in the UK? But I don't know if this is just me bottling out. And I'm worried about pursuing that. The momentum might push it that way, and that's not what I really want. I'm going to suddenly realize that I'm still living at my mum's and don't have the lifestyle that I was hoping for."
+
+**On the ranking, after agreeing it with a condition**
+"I want to revisit the decision ranking." He asked for a recap of how the ranking was built and has not yet said what he wants to change.
+
+- *Model note (29 Sep 2026):* an adversarial review found that the model's readings given to Julian in the session overstated three things: that "Relief" showed the pull to Hong Kong was weak, that the bad picture of Malvern was mostly the London commute, and that the ranking reflected his preference. Corrected readings are in [[HK-Return-Counterfactuals]].
+
+---
+
 ## What the intuition asks the analysis to check
 
 Feeds B, R and A. Each row is a claim the gut is relying on that has not yet been tested.
@@ -332,6 +349,8 @@ Carried from [[HK-BRAIND]] into this step (27 Sep): keeping the question open co
 - [[tti-role]] - TTI role status and next actions
 - [[commitment-lock-protocol]] - reopen test and stand-down rules
 - [[why-brained]] - why BRAIND, and the N-step caveat
+- [[HK-Return-Counterfactuals]] - counterfactual questioning runs for this question
+- [[counterfactual-questioning]] - the tool
 
 ## Document Log
 
@@ -339,6 +358,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-29 | Intuition Log block added: Julian's opening statement of the session (the gut feeling, the UK role) and his request to revisit the ranking, with a model note on three overstated readings found by adversarial review. |
+| 2026-09-29 | Links to [[HK-Return-Counterfactuals]] and [[counterfactual-questioning]] added; the counterfactual runs and the ranking are recorded in [[HK-Return-Counterfactuals]]. |
 | 2026-09-29 | Intuition Log block added: Julian's revised view of the Hong Kong risk (manageable to a degree), Mum's care, and his conditional agreement to the three-option ranking. |
 | 2026-09-29 | Intuition Log block added for Purpose question 5: Julian's good and bad pictures of six years at Mum's, in his words, with one dated model note. |
 | 2026-09-29 | Intuition Log block added: Julian's answers to six candid questions, two follow-ups and the Chase return risk, in his words, with three dated model checks (break-even double count, two-year return, the moving-out belief). Dictation slip "Loader" corrected to Clodagh on Julian's confirmation. Status banner updated. |
@@ -412,7 +433,9 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-28 | Machine (interactive session) | 694,100 tokens (output 77,263 + cache-write input 616,837; cache reads 4.8M omitted) | Session to this point: rumination discussion, home-fee rule check, Risks restructure brief and verification. Julian's attended minutes pending |
 | 2026-09-28 | Machine (subagent) | 205,505 tokens | Risks section regrouped by event; convention row updated; project status and ops log rows added |
 | 2026-09-28 | Machine (subagent) | 213,917 tokens | B and R rebuilt as digests of the risks sheet |
-| 2026-09-29 | Machine (interactive session) | 302,791 tokens (output 23,206 + cache-write input 279,585; cache reads 2.9M omitted) | Session to the point of logging the six answers: candid questions, savings sheet and risks sheet read, break-even check. Julian's attended minutes pending |
+| 2026-09-29 | Machine (interactive session) | 582,125 tokens (output 56,402 + cache-write input 525,723; cache reads 7.7M omitted) | Whole session to this point: candid questions, sheet reads, break-even check, two drafts to Stephan, the counterfactual tool and run record, review fixes. Julian's attended minutes pending |
+| 2026-09-29 | Machine (subagent) | 152,808 tokens | Bookkeeping for the two new files: indexes, systems register, convention row, project status, logs |
+| 2026-09-29 | Machine (subagent) | 130,981 tokens | Adversarial review of [[counterfactual-questioning]] and [[HK-Return-Counterfactuals]]: 19 findings, none fatal, applied the same day |
 
 ## Session Synopsis
 
