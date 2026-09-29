@@ -516,7 +516,13 @@ renamed: 2026-07-17
 - **Draft B, what stays out.** Julian's read that Stephan has no power and will not put his neck out is a read, not a fact ([[HK-Return-BRAIND]] claims table, labelled speculative by Julian on 27 Sep). Nothing in the draft implies it.
 - **Load on Stephan.** With the three asks of 26 Sep unanswered, sending both adds up to five open questions. Suggested order: Draft A by message now, Draft B on the call that follows.
 
-**NEXT:** Julian edits both into his voice and decides the order. Sent text is logged here verbatim; then update [[tti-role]].
+**Julian's gist for the reworked message (dictated 29 Sep 2026, not a draft to send):**
+
+> "Look, your dad mentioned the 24-month contract that would renew every couple of years. I'm keen to do that as soon as possible because it needs to coincide ideally with the school terms." Horst also suggested backdating it. Ideally, a 24-month contract should start from the beginning of September.
+
+**Why this framing (29 Sep 2026):** Julian will not move Sophia during her GCSE years, so the clean exit is summer 2028, before Year 10. A 24-month contract from 1 September 2026 ends on 31 August 2028, which matches it. The renewal decision is then needed by about spring 2028. Source for Horst's 24-month and backdating suggestions: Julian's account of a call with Horst, given 29 Sep; the backdating is not otherwise in this log. To be raised in the message or on the call; Julian has not decided which. This supersedes the order in Draft A, which leads with the UK base.
+
+**NEXT:** Julian hears Justin's report on 30 Sep, then writes the message in his voice from the gist above. Sent text is logged here verbatim; then update [[tti-role]].
 
 ---
 
