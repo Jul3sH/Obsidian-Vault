@@ -297,6 +297,48 @@ Logged late in the session; the first two quotes are from its opening message. J
 
 ---
 
+### 2026-09-29 · The three remaining counterfactual runs
+
+Julian's words, spelling corrected only. Conditions of each run are in [[HK-Return-Counterfactuals]].
+
+**On Horst, before the runs**
+"You made an assumption. If Horst wasn't there today, I wouldn't go because the offer wouldn't even be on the table. But as you point out, if I was told Horst may go in 2 years, I would still consider it for the following reason. I could do the 2 years, and if it's looking like he's going to go and I haven't proven myself, I come back and I still get home fees status."
+
+**Run 5, a partner in your life in either place, everything else as it really is: where do you live?**
+"Hong Kong for sure, because of two things. 1) Having my own flat would be easier to have a relationship. 2) Earnings/savings over two years, with the potential of retiring in six if I can keep the job."
+
+**Run 3, six years guaranteed in either place, the same TTI role in both, everything else as it really is: where do you live?**
+"Hong Kong." Then: "More money, living in my own place and better romance options clinched it."
+
+**Run 4, Horst steps back during a two-year contract: do you back yourself to earn the renewal on merit?**
+"This entirely depends on how strong the relationships are and what they've delivered. Can't possibly answer that now."
+
+---
+
+### 2026-09-29 · The ranking adopted, and the conversation behind the mood
+
+Julian's words, spelling corrected only.
+
+**On the ranking** (1. Hong Kong, if terms bound the downside: a guaranteed two years and schooling covered; 2. the TTI role from Malvern, if those terms are refused; 3. a UK market role)
+"I don't think I need to restate the ranking in my own words, I like the summary you've put above, so that should go into the document."
+
+**On what shaped today's answers**
+"I think the only thing to note is that I had a chat with my friend earlier. He was telling me that I'm 55 and I've got to live my life. We might only have 10 years left of enjoying ourselves, and that made me remove the guilt. Sophia will enjoy Hong Kong. Clodagh, unfortunately, I'm going to feel guilty about, but this is the result of her own doing, and my Mum will understand. Had I maybe been feeling in a more empathetic and guilty mode, maybe I would have changed a bit. The crux is that I have to keep reminding myself that I got to put myself somewhat first."
+
+- *Model note (29 Sep 2026):* this is the pattern in [[mm-recency-bias]]: the answers to runs 5, 3 and 4 were given hours after a warm conversation that, in Julian's words, removed the guilt. Under [[commitment-lock-protocol]] no decision state changes within 48 hours of such a contact. Runs 3 and 5 are to be asked again on or after 1 Oct 2026 to see whether the answers hold. Julian wrote "Sophia will enjoy Hong Kong"; the model read that as a change from the 24 Sep entry. Julian corrected this the same day: see the next block.
+
+---
+
+### 2026-09-29 · Correction on Sophia, and the re-run agreed
+
+Julian's words, spelling corrected only.
+
+"To be clear, I didn't say Sophia would be happier in Hong Kong. You've made an assumption. I just chose Hong Kong because it would suit me more, and I decided not to feel guilty. Sophia is beginning to prefer it here. Yes, please rerun this in 48 hours."
+
+- *Model note (29 Sep 2026):* the re-run of runs 3 and 5 is prompted by a session-start reminder from 1 Oct 2026 until the re-ask is recorded in [[HK-Return-Counterfactuals]].
+
+---
+
 ## What the intuition asks the analysis to check
 
 Feeds B, R and A. Each row is a claim the gut is relying on that has not yet been tested.
@@ -318,6 +360,13 @@ Feeds B, R and A. Each row is a claim the gut is relying on that has not yet bee
 | 13 | Once Sophia is mid-GCSE in HK, a return cannot restore her UK home-fee status | Assumption | **Julian, 27 Sep: "I am sure of this."** Accepted on his word for scoring the CRITICAL row; the residency rule itself has not been looked up **Julian, 28 Sep: confirmed; the exception for a parent's temporary overseas employment does not apply to him.** Logged as an effect in Risks under the ranked event and under the move itself. |
 | 14 | A regional rental shared with a partner keeps savings well above the London 135k figure | Assumption | B / Finance: the savings comparison has no such column. Add a "Malvern region, own place, rent shared" scenario at 135k and Extra High to bound the fall between the Malvern and London rows before R rank 2 is scored |
 | 15 | Living in the DB flat as owner-occupier lets Julian offset the mortgage interest against HK tax | Belief | B / Finance: check the HK home loan interest deduction rules (cap and years) against the DB interest of about HK$146k/yr in [[tax-rental-incomes]]; the wiki records interest as not deductible when the flat is let and says nothing yet about the owner-occupier position. Added 27 Sep |
+| 16 | A two-year stay and return keeps Sophia's UK home fee status | Assumption | Added 29 Sep 2026. **Tested 29 Sep 2026: holds, with a margin of about one year.** The rule (UKCISA, House of Commons Library): ordinarily resident in the UK for the full three years before the first day of the first academic year. Sophia is in Year 8 in 2026/27, so university starts about September 2032 and the three years run from about September 2029. A return by summer 2028 is a year clear of that. The latest safe return is before about September 2029, the start of Year 11. Caveats: each university decides fee status itself; a gap year moves the window later. Not professional advice |
+| 17 | A place at The Chase, or another good Malvern school, is available on return | Assumption | Added 29 Sep 2026. Sheet row under "Leaving the Chase School", to be re-rated Material by Julian. Part checkable with the council's in-year process; goodwill with the school is Julian's judgement |
+| 18 | TTI will guarantee two years and cover schooling | Assumption | Added 29 Sep 2026. Only Stephan or Horst can answer: Draft A in [[tti-comms-log]]. Rank 1 depends on it |
+| 19 | Sophia would cope with Hong Kong, although she is beginning to prefer the UK | Belief | Added 29 Sep 2026 and reworded the same day on Julian's correction: he did not say she would be happier in Hong Kong. He chose Hong Kong because it suits him and decided not to feel guilty. Consistent with the first claim 9. Sophia has not been asked |
+| 20 | I will have no life in Malvern | Belief | Added 29 Sep 2026. Tested as a forecast in July ([[b1-relationship-belief]], [[b7-lifestyle]]); now testable against about a month of living there. Matters only if Hong Kong falls through |
+| 21 | Moving out of Mum's would destroy me financially | Belief | Added 29 Sep 2026. The sheet shows positive six-year savings in London at both salaries; the Malvern-region row in claim 14 is still missing. Julian's good picture needs one night a week away, not a second home |
+| 22 | I only have about ten good years left, so I must put myself first | Belief | Added 29 Sep 2026, a friend's words that Julian took on. Name it; decide whether it is a value to act on or a mood |
 
 Open tasks the intuition set for itself:
 
@@ -358,6 +407,9 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-29 | Julian corrected the model's reading on Sophia: he did not say she would be happier in Hong Kong; she is beginning to prefer the UK. Claim 19 reworded and the earlier model note amended. Re-run of runs 3 and 5 agreed, with a session-start reminder from 1 Oct. |
+| 2026-09-29 | Intuition Log block added: Julian adopted the model's three-option ranking (Hong Kong first if terms bound the downside) and named a conversation with a friend as having removed the guilt; model note on the 48-hour hold and the re-ask of runs 3 and 5 on or after 1 Oct. Claims 16 to 22 added to the check table from today's log. |
+| 2026-09-29 | Intuition Log block added: Julian's answers to counterfactual runs 5, 3 and 4 and his statement on Horst. With the job risk removed he chooses Hong Kong. |
 | 2026-09-29 | Intuition Log block added: Julian's opening statement of the session (the gut feeling, the UK role) and his request to revisit the ranking, with a model note on three overstated readings found by adversarial review. |
 | 2026-09-29 | Links to [[HK-Return-Counterfactuals]] and [[counterfactual-questioning]] added; the counterfactual runs and the ranking are recorded in [[HK-Return-Counterfactuals]]. |
 | 2026-09-29 | Intuition Log block added: Julian's revised view of the Hong Kong risk (manageable to a degree), Mum's care, and his conditional agreement to the three-option ranking. |

@@ -84,7 +84,7 @@ idempotent - safe to run repeatedly.
 
 ## Current project settings snapshot
 
-Verbatim snapshot of `<vault>/.claude/settings.json` as of 2026-08-23. Two parts:
+Verbatim snapshot of `<vault>/.claude/settings.json` as of 2026-09-29. Two parts:
 the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
 `hooks` block added 2026-08-20.
 
@@ -100,7 +100,8 @@ the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
       "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
       "mcp__claude_ai_Atlassian__getJiraIssue",
       "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
-      "Bash(node /Users/julianhart/.claude/plugins/cache/openai-codex/codex/1.0.5/scripts/codex-companion.mjs adversarial-review *)"
+      "Bash(node /Users/julianhart/.claude/plugins/cache/openai-codex/codex/1.0.5/scripts/codex-companion.mjs adversarial-review *)",
+      "Edit(~/.claude/skills/commitment-guard/**)"
     ],
     "additionalDirectories": [
       "/Users/julianhart/.claude/skills/define-task"
@@ -113,6 +114,24 @@ the `permissions.allow` list (maintained via `/fewer-permission-prompts`) and a
           {
             "type": "command",
             "command": "echo '{\"hookSpecificOutput\":{\"hookEventName\":\"UserPromptSubmit\",\"additionalContext\":\"Time-tracking check: if this prompt hands back completed attended work on a deliverable (a finished review, a sign-off, corrections returned), ask Julian how many focused minutes it took and record it in that deliverable file under ## Time and Token Log. If the prompt is not a work handback, ignore this note.\"}}'"
+          }
+        ]
+      }
+    ],
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if [ \"$(date -v-5H +%u)\" = \"7\" ] && ! grep -q \"$(date +%Y-%m-%d)\" \"/Users/julianhart/Obsidian Vault/wiki/ai-os/logs/retro-log.md\" 2>/dev/null; then echo '{\"systemMessage\":\"Sunday: no retro logged today - /retro is due.\",\"hookSpecificOutput\":{\"hookEventName\":\"SessionStart\",\"additionalContext\":\"It is Sunday and wiki/ai-os/logs/retro-log.md has no entry dated today. Before other work, prompt Julian once to run /retro (sprint review, 1 win / 1 problem / 1 change, systems-register check, 20 min cap). If he declines or wants to work first, proceed normally and do not nag again this session.\"}}'; fi"
+          },
+          {
+            "type": "command",
+            "command": "/Users/julianhart/.claude/hooks/mm-daily-refresher.sh"
+          },
+          {
+            "type": "command",
+            "command": "F=\"/Users/julianhart/Obsidian Vault/wiki/performance/decision-journal/uk-move/HK-Return-Counterfactuals.md\"; if [ \"$(date +%Y%m%d)\" -ge 20261001 ] && [ -f \"$F\" ] && ! grep -q \"^Re-ask completed (\" \"$F\"; then echo '{\"systemMessage\": \"Counterfactual re-ask is due: runs 3 and 5 for the Hong Kong decision (48-hour hold ended 1 Oct).\", \"hookSpecificOutput\": {\"hookEventName\": \"SessionStart\", \"additionalContext\": \"The 48-hour hold on Julian'\\''s Hong Kong lean ended on 1 Oct 2026. Before other work, prompt Julian once to re-answer counterfactual runs 3 and 5 in wiki/performance/decision-journal/uk-move/HK-Return-Counterfactuals.md, using the same conditions recorded there, and ask whether he has spoken to anyone about the decision in the last 48 hours. Record his answers verbatim in the Intuition Log of HK-Return-BRAIND.md and compare them with the 29 Sep answers. When done, add a line to HK-Return-Counterfactuals.md that starts at the beginning of a line with the words Re-ask completed followed by the date in brackets; that line stops this reminder. If he declines or wants to work first, proceed normally and do not nag again this session.\"}}'; fi"
           }
         ]
       }

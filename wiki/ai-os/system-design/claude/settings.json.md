@@ -21,7 +21,8 @@ is 05:00 UK local time. Plus the UserPromptSubmit time-tracking nudge.
       "mcp__claude_ai_Atlassian__getAccessibleAtlassianResources",
       "mcp__claude_ai_Atlassian__getJiraIssue",
       "mcp__claude_ai_Atlassian__getTransitionsForJiraIssue",
-      "Bash(node /Users/julianhart/.claude/plugins/cache/openai-codex/codex/1.0.5/scripts/codex-companion.mjs adversarial-review *)"
+      "Bash(node /Users/julianhart/.claude/plugins/cache/openai-codex/codex/1.0.5/scripts/codex-companion.mjs adversarial-review *)",
+      "Edit(~/.claude/skills/commitment-guard/**)"
     ],
     "additionalDirectories": [
       "/Users/julianhart/.claude/skills/define-task"
@@ -48,6 +49,10 @@ is 05:00 UK local time. Plus the UserPromptSubmit time-tracking nudge.
           {
             "type": "command",
             "command": "/Users/julianhart/.claude/hooks/mm-daily-refresher.sh"
+          },
+          {
+            "type": "command",
+            "command": "F=\"/Users/julianhart/Obsidian Vault/wiki/performance/decision-journal/uk-move/HK-Return-Counterfactuals.md\"; if [ \"$(date +%Y%m%d)\" -ge 20261001 ] && [ -f \"$F\" ] && ! grep -q \"^Re-ask completed (\" \"$F\"; then echo '{\"systemMessage\": \"Counterfactual re-ask is due: runs 3 and 5 for the Hong Kong decision (48-hour hold ended 1 Oct).\", \"hookSpecificOutput\": {\"hookEventName\": \"SessionStart\", \"additionalContext\": \"The 48-hour hold on Julian'\\''s Hong Kong lean ended on 1 Oct 2026. Before other work, prompt Julian once to re-answer counterfactual runs 3 and 5 in wiki/performance/decision-journal/uk-move/HK-Return-Counterfactuals.md, using the same conditions recorded there, and ask whether he has spoken to anyone about the decision in the last 48 hours. Record his answers verbatim in the Intuition Log of HK-Return-BRAIND.md and compare them with the 29 Sep answers. When done, add a line to HK-Return-Counterfactuals.md that starts at the beginning of a line with the words Re-ask completed followed by the date in brackets; that line stops this reminder. If he declines or wants to work first, proceed normally and do not nag again this session.\"}}'; fi"
           }
         ]
       }

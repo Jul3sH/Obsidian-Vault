@@ -53,6 +53,21 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 29 Sep - JUSTIN BACK IN HK: Stephan is in the office; Justin will speak to him on 30 Sep; Julian holds his message until then
+
+> WhatsApp, Tuesday 29 Sep (times as exported), verbatim. The 11:38 message follows a call on a failing line.
+
+> [29/9/2026, 11:03:15 AM] Julian: Are you in HK?
+> [29/9/2026, 11:28:19 AM] Justin Robinson: Yes, got back this morning
+> [29/9/2026, 11:38:37 AM] Justin Robinson: Line was failing… let me know how you approach him if you do so I can figure the angle tomorrow
+> [29/9/2026, 2:44:36 PM] Julian: I'm going to wait until tomorrow in case you pick up anything useful that indicates what angle I should take. Thanks for offering to go on a reconnaissance.
+
+**From the call (Julian's account, 29 Sep):** Justin is back from Germany. Stephan is in the office. Justin will have a chat with him tomorrow, 30 Sep.
+
+**Consequence (29 Sep 2026):** the two drafts to Stephan (Stephan Pudwill section below) are held until Justin reports back. Julian revisits them on 30 Sep. The standing rules apply: what Justin relays about what was said is useful, his forecasts are weighted low, and nothing sourced from Justin reaches Stephan.
+
+---
+
 ## ✅ 19-25 Aug - JUSTIN THROUGH THE NO: urgency push, angry escalation contained, recon continuing, Kari elicitation tasked
 
 > **The full WhatsApp arc from the eve of Ty's no through the post-decision week (transcript supplied by Julian 26 Aug, times UK).** Justin pushed Stephan on urgency the day before the no, reacted to the rejection with an anger that had to be actively contained, supplied the 24 Aug Stephan-rationalisations intel by phone (logged in [[tti-role]] status 24 Aug), and remains willing to run recon conversations. Two decisions came out of the thread: **Justin is tasked with subtly eliciting Kari's view when Kari returns**, and **Julian declined Justin's push for immediate Stephan re-engagement** - no call until the new angle is worked out; the in-person catch-up during the HK pack-up trip (~5-6 Sept, ~10 days) is the venue.
