@@ -23,7 +23,7 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (28 Sep 2026):** B and R are now digests of the UK Relocation Risks sheet, which is the source of truth for Return to HK risks and opportunities; the ranked risks and cause map were refreshed from it on 28 Sep. A few rows recorded here await Julian's decision to add them to the sheet or drop them. A now answers question 4 in Julian's words (building revenue streams in Malvern: not attractive against six years at TTI) and holds two alternatives, TTI from a UK base in Malvern and the differences table against the Malvern and London BRAINDs. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (29 Sep 2026):** Six candid questions answered by Julian and logged in the Intuition Log (29 Sep block), with a break-even check against the savings sheet. Two of the six Purpose questions are next to be worked: living with Mum for six years, and a UK based role. B and R are digests of the UK Relocation Risks sheet, last refreshed 28 Sep; the sheet row on the Chase return risk is to be re-rated Material by Julian, after which the digest needs a refresh. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
@@ -208,6 +208,63 @@ Julian, on being shown the carried note that returning to Hong Kong is the optio
 
 ---
 
+### 2026-09-29 · Six candid questions
+
+Asked one at a time in a live session; Julian's answers in his words, spelling corrected only. Model checks are marked and sit beneath the answer they refer to.
+
+**1. With nothing to feel guilty about (Sophia thriving in HK, Mum well, Clodagh not a factor), would you sign the offer as it stands?**
+"I don't know because it feels risky."
+
+**2. Same job and package but based in Malvern: relief or disappointment?**
+"Relief."
+
+**3. Is there anything TTI could put in writing that would make you go?**
+"Inclusion of the school fees and a high enough salary to cover the overseas university fees delta of £120,000 in 3 years. So basically I need to earn what I would in Malvern in 3 years on 135K + £120,000 after tax. That is basically the risk break even point. If I look at the savings spreadsheet it appears that would be possible as MAL 135 after 3 years is HK$1,199,282 and TTI(S) + UNI is 3,166,016, so the delta is 1,966,734. Every year I can remain after that is a bonus, however, the trade off is not being near Mum and depriving Sophia of being near her Mum."
+
+"What you're trying to get me to do, which makes sense, is to look at what's acceptable mitigations rather than trying to control a situation I can't. They're not going to give me a 6-year guarantee. So if I compare Malvern on a high salary after 3 years it's 2,232,782, so the delta in that situation is only 933,234, so in that scenario I would be better off staying in Malvern financially, I don't have to trade off on the relationships, but I am trading off my own lifestyle. To expand on that, TTI(S) only becomes £120,000 better off than MAL EH (extra high) at 4 years."
+
+- *Model check (29 Sep 2026):* the four sheet figures are correct, but the TTI(S) + UNI column already sets aside the HK university reserve each year, so by year 3 HK$600k of the extra HK$1.2M is already put away and only HK$600k remains to fund. On that basis HK is ahead at year 3 by HK$1,366,734 against Malvern 135k (break-even about 1.4 years) and by HK$333,234 against Malvern Extra High (break-even about 2.4 years). The second margin is thin: about five months of forced stay in HK with no salary would use it up. Malvern Extra High assumes TTI pays £200k from the UK, which nobody has been asked.
+
+**3a. Why three years?**
+"I chose three years because it matched my break even analysis. What I would really want is a 6 year guarantee, but I know I won't get that. A 2 year guarantee through a contract is an option. If it looks like a renewal isn't going to happen then I could come back to UK for Sophia's GCSEs and I have mitigated the main risk."
+
+- *Model check (29 Sep 2026), assumption not verified:* a return after two years should leave Sophia more than three years of UK residence before university, so the overseas fee cost would not apply. On the sheet's savings before reserve, two years of TTI(S) is then ahead by about HK$1.7M against Malvern 135k and about HK$1.0M against Malvern Extra High. Depends on the end date matching the school calendar, a fixed date for the renewal call, and a school place on return.
+
+**3b. Does passing the money test make you willing to go, or is it the minimum?**
+"Yes, if I can secure enough money to justify the relationship tradeoffs. It's a minimum really. Breaking even is not ideal because I compromise relationships for nothing other than lifestyle, which alone I don't think justifies the move (although I am on the fence)."
+
+**4. Bottling out of what, exactly?**
+"Bottling out of disrupting the status quo, Sophia is happy in her school, Mum is happy that I'm here, Clodagh is beginning to look for work locally."
+
+**5. If you chose the UK role deliberately, with a dated plan to move out of Mum's, would the fear of drifting go away?**
+"It will still be there, but less. But the moving out of Mum's scenario feels unacceptable as it will destroy me financially."
+
+- *Model check (29 Sep 2026):* "destroy me financially" is a belief, not yet tested. The sheet shows six-year savings of HK$0.85M in London on 135k and HK$2.92M in London on the TTI salary; the Malvern-region, own place, rent shared scenario is not modelled.
+
+**6. What would you tell a friend in this situation?**
+"With regards to the job I'd tell him it seems very risky and he should look to negotiate some security or a safer option. With regards to lifestyle, I'd tell him he shouldn't put his life on hold at 55, I would ask him what he'd like his life to look like, and ask him if there's an option that would give him the best of both worlds. If I knew he likes Asian girls I'd ask him if he could do the job from Europe with lots of trips out to Asia. Probably also ask him if he's considered bringing his Asian girlfriend to Europe."
+
+**On the Chase return risk (sheet row "Leaving the Chase School")**
+"It should be material, although I don't think it's something I can confirm. It will remain as speculation. I just have to reduce the risk of not being able to do it by coming up with a good excuse for leaving that opens the door in the future." On goodwill: places are officially down to availability, but Julian contacted the admissions lead directly before applying and she said she would look out for the application, so "you can never underestimate goodwill and relationships."
+
+---
+
+### 2026-09-29 · Living at Mum's for six years, the good picture and the bad one
+
+Julian's words, spelling corrected only. Asked for Purpose question 5.
+
+**The good picture**
+"I think we need to differentiate between week days and weekends. At this stage in my life, during the week I am very happy cohabiting with my Mum and Sophia and focussing on work. That was pretty much how it was in Hong Kong, and I don't really see that changing for the next six years. Part of this, though, what I have enjoyed for the last year and during COVID is working from home. This gives me flexibility to enjoy time with Sophia, not spend time travelling, and I enjoy working from home. Ideally, I'd be working from home in the week from my Mum's."
+
+"The weekends, then, are under consideration. That's when I'd like to spend time, maybe with some friends, and ideally a night a week with a girlfriend, having some fun and some sex. Realistically, that would mean either finding a girlfriend with her own place in the area who is happy with that arrangement, or having to spend money on hotel rooms, having a girlfriend in London who I can see at the weekends with their own place or something like that. But if I could find somebody attractive that I could see once a week, then that would work for me. London would probably be difficult because I've got to cart Sophia around at the weekends and take her to football and stuff."
+
+**The bad picture**
+"The bad version is that I'm spending weekends here in Malvern with my Mum, Sophia is spending all her time with a friend, so I barely see her at the weekend apart from driving her around, I haven't really got a social life apart from going to the village pub and hanging out with people who I don't really relate to. During the week, I'm having to get up really early on a Tuesday, I'm having to commute into London and have a very long day on a Tuesday, need to stay in some cheap digs for two nights because I don't want to spend the money on a nice hotel, I'm then coming home on a Thursday evening after work. This is all to fulfil the 3 days in the office for the hybrid role. I can't really work Fridays and come back on a Saturday morning, as I'm likely to miss football unless I get up very early. It's possible and workable, but probably not ideal."
+
+- *Model note (29 Sep 2026):* the good picture needs about one night a week away, not a second home, so it does not depend on moving out of Mum's. It does depend on working from home and on finding a partner locally, both untested. The bad weekday is the hybrid London role, not Mum's house. Mum's care needs at 86 were asked about and not answered.
+
+---
+
 ## What the intuition asks the analysis to check
 
 Feeds B, R and A. Each row is a claim the gut is relying on that has not yet been tested.
@@ -267,6 +324,9 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-29 | Intuition Log block added for Purpose question 5: Julian's good and bad pictures of six years at Mum's, in his words, with one dated model note. |
+| 2026-09-29 | Intuition Log block added: Julian's answers to six candid questions, two follow-ups and the Chase return risk, in his words, with three dated model checks (break-even double count, two-year return, the moving-out belief). Dictation slip "Loader" corrected to Clodagh on Julian's confirmation. Status banner updated. |
+| 2026-09-29 | Superseded status (28 Sep): "B and R are now digests of the UK Relocation Risks sheet, which is the source of truth for Return to HK risks and opportunities; the ranked risks and cause map were refreshed from it on 28 Sep. A few rows recorded here await Julian's decision to add them to the sheet or drop them. A now answers question 4 in Julian's words (building revenue streams in Malvern: not attractive against six years at TTI) and holds two alternatives, TTI from a UK base in Malvern and the differences table against the Malvern and London BRAINDs. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status." |
 | 2026-09-28 | Digest refreshed for Julian's new sheet risk under cause "Leaving the Chase School": the school, having given Sophia one of two places, does not offer one again if the family has to return (Immaterial, Medium). Counts now 28 risks; cause map gains the row. Not in the ranked table (not Material or High). |
 | 2026-09-28 | Julian restructured A: question 4 answered in his words (revenue streams in Malvern would be enjoyable technically but not the money six years at TTI would bring; after 61 he wants hobbies, not revenue streams); the UK-based alternative retitled "Land the TTI job and stay UK-based Malvern"; the model's third-option warning kept; the "untested claims 11 and 12" line and other superfluous content removed by him. Two bare claim numbers in the differences table replaced with the claims in words. Status banner updated to match. |
 | 2026-09-28 | Digest refreshed from the sheet after Julian's afternoon review: 27 risks and 11 opportunities. New in the ranked table: a second effect row under the critical job-loss event (Sophia mid-GCSE or A-level has to drop back a year). Cause map gains "Joanne needs a decision" (1 row, unscored) and TTI Job is insecure moves to 7 rows, 6 Material, 6 High. Opportunities table gains "Chance to test the relationship with Joanne". |
@@ -336,6 +396,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-28 | Machine (interactive session) | 694,100 tokens (output 77,263 + cache-write input 616,837; cache reads 4.8M omitted) | Session to this point: rumination discussion, home-fee rule check, Risks restructure brief and verification. Julian's attended minutes pending |
 | 2026-09-28 | Machine (subagent) | 205,505 tokens | Risks section regrouped by event; convention row updated; project status and ops log rows added |
 | 2026-09-28 | Machine (subagent) | 213,917 tokens | B and R rebuilt as digests of the risks sheet |
+| 2026-09-29 | Machine (interactive session) | 302,791 tokens (output 23,206 + cache-write input 279,585; cache reads 2.9M omitted) | Session to the point of logging the six answers: candid questions, savings sheet and risks sheet read, break-even check. Julian's attended minutes pending |
 
 ## Session Synopsis
 
