@@ -17,7 +17,7 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 1. Do I really need to return to HK for romance?
 2. Do I really need to return to HK for financial reasons?
 3. Are the risks and guilt of the move manageable?
-4. Would I be better off building revenue streams in UK? 
+4. Would I be better off in the UK? 
 5. Is living with Mum for six years realistic, and is moving out viable? 
 6. Should I pursue a safer compromise and aim for a UK based role?
 
@@ -77,9 +77,17 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 **Question 3:** Are the risks and guilt of the move manageable?** 
 
-There only 'unmanageable' risk is that of moving back between years 2 and 6 where I get hit with the double whammy of losing home university status and having to survive in Hong Kong on no salary and high school fees (for up to avoid Sophia moving mid GCSEs or A-levels). 
+There most severe risk is moving back at the end of year 3 where I get hit with the treble whammy of; 
+1)  Losing home university status*
+2) Having to survive in Hong Kong on no salary for a year until GCSEs finish
+3) High school fees without a salary
 
-If the job looks too risky before i even start, I don't go to HK and try to move it to UK. 
+Other time periods are less risky 
+1) If the job looks too risky before I even start, I don't go to HK and try to move it to UK.
+2) If a renewal after 2 years looks risky i come back for GCSEs 
+3) After 4 years I come back for A-levels* and extra earnings have covered uni fees
+
+* Must check if a gap year counts towards home fees
 
 The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of 1 go to boarding school. She can rebuild the relationship on video and through holidays.  
 ### Ranked risks
@@ -115,12 +123,12 @@ One line per cause in the sheet, covering all 28 risk rows.
 
 ## A - Alternatives
 
-**Question 4:** Would I be better off building revenue streams in the UK? 
+**Question 4:** Would I be better off in the UK? 
 
 **Build multiple revenue streams in Malvern**
 I would no doubt enjoy it technically, but struggling to get customers is not fun, and  there is very little chance of me earning the same money I could earn in 6 years in full time employment at TTI on low taxes. If I earn enough money in six years I won't need any revenue streams after 61, and then I can have hobbies which are much more fun.  
 
-**Live it Malvern and get by with a modest life on modest earnings**
+**Live in Malvern and get by with a modest life on modest earnings**
 If I can get a reasonable job, remain living at Mums, and stop her money getting swallowed up by care homes, I will probably inherit enough for me and Sophia to be ok when I retire. Even if I get outlived, Sophia will benefit.  
 
  **Land the TTI job and stay UK-based Malvern**
