@@ -138,6 +138,17 @@ Added 29 Sep 2026. **Tested 29 Sep 2026: holds, with a margin of about one year.
 
 - *Fuller quote (Julian, 29 Sep 2026):* "For test 1, basically, you got to be back in the UK by September, 3 years before. Realistically, for me, it's 4 years and the reason for that is because I'm not going to change Sophia halfway through her GCSEs."
 
+- *Gap year route checked (model, 29 Sep 2026, at Julian's request). Not professional advice.*
+  - **Possible by the published rule.** The test is ordinary residence in the UK for the three years before the "first day of the first academic year", which for a course starting between 1 August and 31 December is 1 September, and ordinary residence in the UK on that day (UKCISA, Definitions in HE England).
+  - **Dates for a return after GCSEs.** Back in the UK and living here by 1 September 2030; A-levels September 2030 to summer 2032; gap year 2032/33; university from September 2033, so the three years run from 1 September 2030.
+  - **No day count.** "You are ordinarily resident in the residence area for your category if you have habitually, normally and lawfully resided in that area from choice." Case law (Shah): an abode "adopted voluntarily and for settled purposes as part of the regular order of his life for the time being". Duration is "relevant but not determinative".
+  - **Temporary absences are ignored**, including holidays and, under Student Finance England guidance as reported by UKCISA, a gap year spent abroad. "The longer you are physically absent from the residence area, the harder it will be for you to argue that you were only temporarily absent."
+  - **Evidence universities ask for** (Cambridge): documents proving the normal country of residence such as household bills or rental agreements, and employment contracts where a family member worked overseas.
+  - **Who decides.** Each university assesses fee status itself, so two can reach different answers on the same facts.
+  - **Not verified, and it matters for a boarding variant:** the model's recollection is that the regulations exclude residence that was wholly or mainly for the purpose of receiving full-time education. The pages read on 29 Sep did not show this rule. If Sophia boarded in the UK while Julian stayed in Hong Kong, this would need checking before relying on her UK years.
+  - **The temporary-work provision exists:** "If you can demonstrate that you have not been ordinarily resident in the relevant residence area only because you, or a family member, were temporarily working outside the relevant residence area, you will be treated as though you have been ordinarily resident there." In Huddleston a child in Hong Kong for 13 years with her father's work was not treated as UK resident; in Jain a single-term overseas contract with UK property and links kept could be temporary. Julian concluded on 28 Sep that this does not apply to him (claim 13).
+  - **Sources, read 29 Sep 2026:** [UKCISA: Definitions in HE England](https://www.ukcisa.org.uk/student-advice/fees/definitions-in-he-england/); [UKCISA: Ordinary residence case law](https://www.ukcisa.org.uk/student-advice/fees/ordinary-residence-case-law/); [UKCISA: Find a category for HE England](https://www.ukcisa.org.uk/student-advice/find-a-category-for-he-england/); [University of Cambridge: How is my fee status assessed?](https://www.cambridgestudents.cam.ac.uk/fees-and-funding/fees/how-is-my-fee-status-assessed). The House of Commons Library briefing could not be opened.
+
 ### Claim 17: A place at The Chase, or another good Malvern school, is available on return
 
 **Type:** Assumption
@@ -193,6 +204,7 @@ Added 29 Sep 2026. Julian: "Earliest realistic start in Hong Kong is sometime in
 
 | Date | Entry |
 |------|-------|
+| 2026-09-29 | Gap year route checked against UKCISA and one university's guidance and recorded under claim 16, with conditions, evidence and one unverified rule flagged. |
 | 2026-09-29 | Claim 13 note corrected with Julian's words: the job-loss chain stays the worst case because he would not move Sophia mid-GCSE. |
 | 2026-09-29 | Corrected after an adversarial review: Status and Key Takeaways reworded, reading guide completed, dated notes added under claims 3, 13 and 16. The verbatim text under each claim is unchanged. |
 | 2026-09-29 | File created at Julian's instruction. The detail of all 23 claims was moved verbatim from the check table of [[HK-Return-BRAIND]]; sources added under claim 16. |
