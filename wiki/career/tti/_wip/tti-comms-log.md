@@ -489,7 +489,7 @@ renamed: 2026-07-17
 
 > As of 29 Sep 2026: drafted by Claude at Julian's request, to be edited into his voice. Neither is sent. The three asks of 26 Sep (entry below) have had no reply recorded here.
 
-**Why these two.** From the 29 Sep session logged in [[HK-Return-BRAIND]] (Intuition Log, 29 Sep blocks). A lean built by the model and agreed by Julian with a condition, which he has since asked to revisit: the TTI role done from Malvern; Hong Kong on a guaranteed two years with school fees and a planned return; a UK market role as the fallback. He also wants Stephan's honest read on how safe the role would be for six years.
+**Why these two.** From the 29 Sep session logged in [[HK-Return-Counterfactuals]]. A lean built by the model and agreed by Julian with a condition, which he has since asked to revisit: the TTI role done from Malvern; Hong Kong on a guaranteed two years with school fees and a planned return; a UK market role as the fallback. He also wants Stephan's honest read on how safe the role would be for six years.
 
 **Draft A - where the role is based, and the minimum term**
 
@@ -511,7 +511,7 @@ renamed: 2026-07-17
 
 **Claude's cautions (29 Sep 2026):**
 - **Draft A, the UK base.** The 26 Sep critique dropped the UK option because it sat against the perm ask and gave Stephan the projects-from-the-UK route. Draft A answers that by asking for "the same role", not project work. If Stephan replies in terms of projects, that is the consulting reframe and needs correcting at once.
-- **Draft A, facts checked.** Sophia settled at The Chase: [[HK-Return-BRAIND]] Intuition Log 24 Sep. Two years as the most Julian expects to be guaranteed: same file, 29 Sep. Whether Stephan has spoken to Ty is unknown, so the draft asks.
+- **Draft A, facts checked.** Sophia settled at The Chase: [[HK-Return-BRAIND]] Intuition Log 24 Sep. Two years as the most Julian expects to be guaranteed: [[HK-Return-Counterfactuals]], 29 Sep. Whether Stephan has spoken to Ty is unknown, so the draft asks.
 - **Draft B, the channel.** A written "how safe would I be" invites a warm, vague reply that proves nothing, and Stephan cannot honestly promise six years. It is better asked on a call, with the draft as the opening line. The second sentence is the part he can actually answer.
 - **Draft B, what stays out.** Julian's read that Stephan has no power and will not put his neck out is a read, not a fact ([[HK-Return-BRAIND]] claims table, labelled speculative by Julian on 27 Sep). Nothing in the draft implies it.
 - **Load on Stephan.** With the three asks of 26 Sep unanswered, sending both adds up to five open questions. Suggested order: Draft A by message now, Draft B on the call that follows.

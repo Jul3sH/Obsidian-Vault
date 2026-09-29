@@ -23,7 +23,7 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (29 Sep 2026):** Five counterfactual runs and six belief and assumption tests were worked with Julian today and are logged in the Intuition Log (29 Sep blocks) and the check table (claims 16 to 23). Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]]. The lean followed a conversation with a friend, so runs 3 and 5 are re-asked on or after 1 Oct 2026 and nothing changes state before then. Two claims wait for Stephan: the contract terms and the start date. B and R are digests of the UK Relocation Risks sheet, last refreshed 28 Sep; Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go), after which the digest needs a refresh. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (29 Sep 2026):** Five counterfactual runs and six belief and assumption tests were worked with Julian today. The findings are in the Intuition Log (29 Sep block), his answers in full are in [[HK-Return-Counterfactuals]], the verdicts are in the check table, and the detail of each test is in [[HK-Return-Beliefs]]. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]]. The lean followed a conversation with a friend, so runs 3 and 5 are re-asked on or after 1 Oct 2026 and nothing changes state before then. Three claims wait for Stephan or Horst: a UK-based role, the contract terms and the start date. B and R are digests of the UK Relocation Risks sheet, last refreshed 28 Sep; Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go), after which the digest needs a refresh. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
@@ -208,166 +208,51 @@ Julian, on being shown the carried note that returning to Hong Kong is the optio
 
 ---
 
-### 2026-09-29 · Six candid questions
+### 2026-09-29 · Findings from the counterfactual session
 
-Asked one at a time in a live session; Julian's answers in his words, spelling corrected only. Model checks are marked and sit beneath the answer they refer to.
+Summary written by the model at Julian's instruction (29 Sep 2026), corrected the same day after an adversarial review. The BRAIND holds the findings. Julian's answers in full are in [[HK-Return-Counterfactuals]], moved there verbatim from this log; the quotes in bullets 5 and 8 are in [[HK-Return-Beliefs]], claims 16 and 22. Where a bullet is the model's reading it says so.
 
-**1. With nothing to feel guilty about (Sophia thriving in HK, Mum well, Clodagh not a factor), would you sign the offer as it stands?**
-"I don't know because it feels risky."
-
-**2. Same job and package but based in Malvern: relief or disappointment?**
-"Relief."
-
-**3. Is there anything TTI could put in writing that would make you go?**
-"Inclusion of the school fees and a high enough salary to cover the overseas university fees delta of £120,000 in 3 years. So basically I need to earn what I would in Malvern in 3 years on 135K + £120,000 after tax. That is basically the risk break even point. If I look at the savings spreadsheet it appears that would be possible as MAL 135 after 3 years is HK$1,199,282 and TTI(S) + UNI is 3,166,016, so the delta is 1,966,734. Every year I can remain after that is a bonus, however, the trade off is not being near Mum and depriving Sophia of being near her Mum."
-
-"What you're trying to get me to do, which makes sense, is to look at what's acceptable mitigations rather than trying to control a situation I can't. They're not going to give me a 6-year guarantee. So if I compare Malvern on a high salary after 3 years it's 2,232,782, so the delta in that situation is only 933,234, so in that scenario I would be better off staying in Malvern financially, I don't have to trade off on the relationships, but I am trading off my own lifestyle. To expand on that, TTI(S) only becomes £120,000 better off than MAL EH (extra high) at 4 years."
-
-- *Model check (29 Sep 2026):* the four sheet figures are correct, but the TTI(S) + UNI column already sets aside the HK university reserve each year, so by year 3 HK$600k of the extra HK$1.2M is already put away and only HK$600k remains to fund. On that basis HK is ahead at year 3 by HK$1,366,734 against Malvern 135k (break-even about 1.4 years) and by HK$333,234 against Malvern Extra High (break-even about 2.4 years). The second margin is thin: about five months of forced stay in HK with no salary would use it up. Malvern Extra High assumes TTI pays £200k from the UK, which nobody has been asked.
-
-**3a. Why three years?**
-"I chose three years because it matched my break even analysis. What I would really want is a 6 year guarantee, but I know I won't get that. A 2 year guarantee through a contract is an option. If it looks like a renewal isn't going to happen then I could come back to UK for Sophia's GCSEs and I have mitigated the main risk."
-
-- *Model check (29 Sep 2026), assumption not verified:* a return after two years should leave Sophia more than three years of UK residence before university, so the overseas fee cost would not apply. On the sheet's savings before reserve, two years of TTI(S) is then ahead by about HK$1.7M against Malvern 135k and about HK$1.0M against Malvern Extra High. Depends on the end date matching the school calendar, a fixed date for the renewal call, and a school place on return.
-
-**3b. Does passing the money test make you willing to go, or is it the minimum?**
-"Yes, if I can secure enough money to justify the relationship tradeoffs. It's a minimum really. Breaking even is not ideal because I compromise relationships for nothing other than lifestyle, which alone I don't think justifies the move (although I am on the fence)."
-
-**4. Bottling out of what, exactly?**
-"Bottling out of disrupting the status quo, Sophia is happy in her school, Mum is happy that I'm here, Clodagh is beginning to look for work locally."
-
-**5. If you chose the UK role deliberately, with a dated plan to move out of Mum's, would the fear of drifting go away?**
-"It will still be there, but less. But the moving out of Mum's scenario feels unacceptable as it will destroy me financially."
-
-- *Model check (29 Sep 2026):* "destroy me financially" is a belief, not yet tested. The sheet shows six-year savings of HK$0.85M in London on 135k and HK$2.92M in London on the TTI salary; the Malvern-region, own place, rent shared scenario is not modelled.
-
-**6. What would you tell a friend in this situation?**
-"With regards to the job I'd tell him it seems very risky and he should look to negotiate some security or a safer option. With regards to lifestyle, I'd tell him he shouldn't put his life on hold at 55, I would ask him what he'd like his life to look like, and ask him if there's an option that would give him the best of both worlds. If I knew he likes Asian girls I'd ask him if he could do the job from Europe with lots of trips out to Asia. Probably also ask him if he's considered bringing his Asian girlfriend to Europe."
-
-**On the Chase return risk (sheet row "Leaving the Chase School")**
-"It should be material, although I don't think it's something I can confirm. It will remain as speculation. I just have to reduce the risk of not being able to do it by coming up with a good excuse for leaving that opens the door in the future." On goodwill: places are officially down to availability, but Julian contacted the admissions lead directly before applying and she said she would look out for the application, so "you can never underestimate goodwill and relationships."
-
----
-
-### 2026-09-29 · Living at Mum's for six years, the good picture and the bad one
-
-Julian's words, spelling corrected only. Asked for Purpose question 5.
-
-**The good picture**
-"I think we need to differentiate between week days and weekends. At this stage in my life, during the week I am very happy cohabiting with my Mum and Sophia and focussing on work. That was pretty much how it was in Hong Kong, and I don't really see that changing for the next six years. Part of this, though, what I have enjoyed for the last year and during COVID is working from home. This gives me flexibility to enjoy time with Sophia, not spend time travelling, and I enjoy working from home. Ideally, I'd be working from home in the week from my Mum's."
-
-"The weekends, then, are under consideration. That's when I'd like to spend time, maybe with some friends, and ideally a night a week with a girlfriend, having some fun and some sex. Realistically, that would mean either finding a girlfriend with her own place in the area who is happy with that arrangement, or having to spend money on hotel rooms, having a girlfriend in London who I can see at the weekends with their own place or something like that. But if I could find somebody attractive that I could see once a week, then that would work for me. London would probably be difficult because I've got to cart Sophia around at the weekends and take her to football and stuff."
-
-**The bad picture**
-"The bad version is that I'm spending weekends here in Malvern with my Mum, Sophia is spending all her time with a friend, so I barely see her at the weekend apart from driving her around, I haven't really got a social life apart from going to the village pub and hanging out with people who I don't really relate to. During the week, I'm having to get up really early on a Tuesday, I'm having to commute into London and have a very long day on a Tuesday, need to stay in some cheap digs for two nights because I don't want to spend the money on a nice hotel, I'm then coming home on a Thursday evening after work. This is all to fulfil the 3 days in the office for the hybrid role. I can't really work Fridays and come back on a Saturday morning, as I'm likely to miss football unless I get up very early. It's possible and workable, but probably not ideal."
-
-- *Model note (29 Sep 2026):* the good picture needs about one night a week away, not a second home, so it does not depend on moving out of Mum's. It does depend on working from home and on finding a partner locally, both untested. The bad weekday is the hybrid London role, not Mum's house. Mum's care needs at 86 were asked about and not answered.
-
----
-
-### 2026-09-29 · On "unmanageable", Mum's care, and the ranking
-
-Julian's words, spelling corrected only.
-
-**On the Hong Kong risk**
-"I described the Hong Kong risk as 'unmanageable' before I started to look at it in terms of the minimum term required to achieve 'break even' in comparison to staying in Malvern. So it is manageable to a degree, but not fully manageable because I don't think I can get more than 2 years guaranteed (which would be by virtue of a contract)."
-
-**On Mum needing more help**
-"I don't know if Mum will need more physical support. If she gets really bad then a care home is an option, but that comes at great expense. As mentioned, there may be an option to use the care facilities of the Albion Lodge care home across the road."
-
-**On the ranking** (1. TTI role done from Malvern; 2. Hong Kong on a two-year contract with school fees and a planned return; 3. UK market role, likely hybrid)
-"I think the ranking looks right if I can't get a really good guarantee from Stephan. The only thing left is to ask Stephan outright 'Honestly speaking Stephan, how safe would I be for six years'."
-
----
-
-### 2026-09-29 · Opening statement of the session, and the request to revisit the ranking
-
-Logged late in the session; the first two quotes are from its opening message. Julian's words, spelling corrected only.
-
-**The gut feeling**
-"My gut instinct is telling me not to do it. I don't know if this is because of guilt about my mum, about Clodagh, about disrupting Sophia, whether it's about fear of making a mistake, or whether it's because my gut knows that the success is based on wishful thinking and assumptions when the evidence is pointing towards it being a risky option."
-
-**On a UK role**
-"The question on my mind at the moment is: should I be pursuing a safer compromise, which is to see if I can land a job in the UK? But I don't know if this is just me bottling out. And I'm worried about pursuing that. The momentum might push it that way, and that's not what I really want. I'm going to suddenly realize that I'm still living at my mum's and don't have the lifestyle that I was hoping for."
-
-**On the ranking, after agreeing it with a condition**
-"I want to revisit the decision ranking." He asked for a recap of how the ranking was built and has not yet said what he wants to change.
-
-- *Model note (29 Sep 2026):* an adversarial review found that the model's readings given to Julian in the session overstated three things: that "Relief" showed the pull to Hong Kong was weak, that the bad picture of Malvern was mostly the London commute, and that the ranking reflected his preference. Corrected readings are in [[HK-Return-Counterfactuals]].
-
----
-
-### 2026-09-29 · The three remaining counterfactual runs
-
-Julian's words, spelling corrected only. Conditions of each run are in [[HK-Return-Counterfactuals]].
-
-**On Horst, before the runs**
-"You made an assumption. If Horst wasn't there today, I wouldn't go because the offer wouldn't even be on the table. But as you point out, if I was told Horst may go in 2 years, I would still consider it for the following reason. I could do the 2 years, and if it's looking like he's going to go and I haven't proven myself, I come back and I still get home fees status."
-
-**Run 5, a partner in your life in either place, everything else as it really is: where do you live?**
-"Hong Kong for sure, because of two things. 1) Having my own flat would be easier to have a relationship. 2) Earnings/savings over two years, with the potential of retiring in six if I can keep the job."
-
-**Run 3, six years guaranteed in either place, the same TTI role in both, everything else as it really is: where do you live?**
-"Hong Kong." Then: "More money, living in my own place and better romance options clinched it."
-
-**Run 4, Horst steps back during a two-year contract: do you back yourself to earn the renewal on merit?**
-"This entirely depends on how strong the relationships are and what they've delivered. Can't possibly answer that now."
-
----
-
-### 2026-09-29 · The ranking adopted, and the conversation behind the mood
-
-Julian's words, spelling corrected only.
-
-**On the ranking** (1. Hong Kong, if terms bound the downside: a guaranteed two years and schooling covered; 2. the TTI role from Malvern, if those terms are refused; 3. a UK market role)
-"I don't think I need to restate the ranking in my own words, I like the summary you've put above, so that should go into the document."
-
-**On what shaped today's answers**
-"I think the only thing to note is that I had a chat with my friend earlier. He was telling me that I'm 55 and I've got to live my life. We might only have 10 years left of enjoying ourselves, and that made me remove the guilt. Sophia will enjoy Hong Kong. Clodagh, unfortunately, I'm going to feel guilty about, but this is the result of her own doing, and my Mum will understand. Had I maybe been feeling in a more empathetic and guilty mode, maybe I would have changed a bit. The crux is that I have to keep reminding myself that I got to put myself somewhat first."
-
-- *Model note (29 Sep 2026):* this is the pattern in [[mm-recency-bias]]: the answers to runs 5, 3 and 4 were given hours after a warm conversation that, in Julian's words, removed the guilt. Under [[commitment-lock-protocol]] no decision state changes within 48 hours of such a contact. Runs 3 and 5 are to be asked again on or after 1 Oct 2026 to see whether the answers hold. Julian wrote "Sophia will enjoy Hong Kong"; the model read that as a change from the 24 Sep entry. Julian corrected this the same day: see the next block.
-
----
-
-### 2026-09-29 · Correction on Sophia, and the re-run agreed
-
-Julian's words, spelling corrected only.
-
-"To be clear, I didn't say Sophia would be happier in Hong Kong. You've made an assumption. I just chose Hong Kong because it would suit me more, and I decided not to feel guilty. Sophia is beginning to prefer it here. Yes, please rerun this in 48 hours."
-
-- *Model note (29 Sep 2026):* the re-run of runs 3 and 5 is prompted by a session-start reminder from 1 Oct 2026 until the re-ask is recorded in [[HK-Return-Counterfactuals]].
+- **The gut feeling.** "My gut instinct is telling me not to do it." Julian named three possible causes and did not choose between them. With the guilt removed the hesitation stayed: "I don't know because it feels risky." Model's reading of the runs: the job risk is the most likely cause; guilt may still contribute.
+- **What he chose with the risk removed.** Hong Kong, even with the same TTI role on offer from Malvern: "More money, living in my own place and better romance options clinched it."
+- **The pull does not depend on finding a partner there.** With a partner in either place: "Hong Kong for sure, because of two things", his own flat and the earnings. Malvern in that run came without the TTI money.
+- **His money test.** School fees in the package and a salary that clears break-even against Malvern within three years. "It's a minimum really", not enough on its own.
+- **The plan that would bound the risk (terms not confirmed).** "A 2 year guarantee through a contract is an option. If it looks like a renewal isn't going to happen then I could come back to UK for Sophia's GCSEs." On timing: "Realistically, for me, it's 4 years and the reason for that is because I'm not going to change Sophia halfway through her GCSEs."
+- **Keeping the job on merit once Horst steps back.** "Can't possibly answer that now."
+- **Lean adopted.** Hong Kong first if terms bound the downside; the TTI role from Malvern second; a UK market role third. A lean, not a decision.
+- **His reason for weighing himself.** "I would have said I have to think of myself as well as Sophia, not necessarily put myself first." "I have a blood disease and previously had cancer, I may have complications earlier than many." Earlier the same day, after the conversation with a friend: "I have to keep reminding myself that I got to put myself somewhat first."
+- **Hold.** The answers followed a conversation with a friend that removed the guilt. Runs 3 and 5 are asked again on or after 1 Oct 2026.
 
 ---
 
 ## What the intuition asks the analysis to check
 
-Feeds B, R and A. Each row is a claim the gut is relying on that has not yet been tested.
+Feeds B, R and A. Each row is a claim the gut is relying on, with its verdict in one line (written by the model, 29 Sep 2026). The evidence, Julian's words, the numbers and the sources for every claim are in [[HK-Return-Beliefs]].
 
-| # | Claim the gut relies on | Type | Where it gets tested |
+| # | Claim the gut relies on | Type | Verdict in one line |
 |---|---|---|---|
-| 1 | Six years at TTI clears the HK mortgage and funds retirement at 61 | Assumption | B / Finance: run in [[uk-move-financial-model]] against the verbally accepted HK$2M + 15% |
-| 3 | Extra low-tax earnings outweigh the lost UK home-fee status for university | Assumption | B / R Finance: price the fee gap 62-65 against cumulative net savings; existing estimate ~HKD 1m in [[HK-BRAIND]] |
-| 4 | Job survives six (now ten) years on a high salary | Belief | R / Career: probability of losing the role if Horst goes; what the package looks like without him; term and notice in the written offer. **Ranked #1 by Julian 27 Sep:** the removal-after-Horst mechanism, and that Stephan would not defend him |
-| 5 | Two years is safe and lockable, then decide again | Assumption | A: a bounded two-year variant; check whether it is a real option or deferral in disguise |
-| 6 | Living with Mum avoids care-home costs later | Assumption | B / Finance and Relationships: is this a real saving, and is it a life Julian would accept for six years |
-| 7 | Romance need will resurface within months and cannot be met from Mum's | Belief | R / Relationships: test against [[b1-relationship-belief]], which already examined fear of being single in the UK |
-| 8 | Appeal drops materially by 61, so waiting for Asia is a losing plan | Belief | R / Personal: name it, then decide whether it actually affects the decision |
-| 9 | Sophia will be happier in the UK | Belief | R / Relationships and Performance: evidence from The Chase so far; compare with the HK international-school card in the [[uk-relocation-project]] 27 Sep log row |
-| 9 | Guilt over Clodagh's access is unearned | Belief | Park it. Guilt is data about Julian, not about the decision. Do not let it enter the scoring |
-| 10 | TTI is worth about four times the Malvern outcome | Assumption | **Resolved 27 Sep, Julian: "four times was a mistake."** The comparison he had in mind was the ten-year column: HK TTI(S) + UNI (11.62M) against 7.35M, which is Malvern on the TTI salary (Extra High), giving 1.6x; against Malvern 135k (3.90M) it is 3.0x. At six years: 2.8x and 1.5x (sheet figures with the university reserve, 27 Sep) |
-| 11 | A UK-based TTI role is obtainable, and Horst and Stephan would accept it | Assumption | **Julian, 27 Sep: "Yes, I need to ask."** A / Career: has anyone at TTI said the role must be in HK? What does "a bit less pay, higher tax" actually come to in the savings comparison's UK columns? |
-| 12 | Horst is partly motivated by annoyance with Stephan, and Stephan would not defend Julian | Belief | **Julian, 27 Sep: "a speculative story, yes."** Stays labelled as such. The boring explanation (Horst wants the capability, Stephan is managing upward) may hold. It does not change the removal risk, which is structural: a chairman-fiat hire over a chain that said no |
-| 13 | Once Sophia is mid-GCSE in HK, a return cannot restore her UK home-fee status | Assumption | **Julian, 27 Sep: "I am sure of this."** Accepted on his word for scoring the CRITICAL row; the residency rule itself has not been looked up **Julian, 28 Sep: confirmed; the exception for a parent's temporary overseas employment does not apply to him.** Logged as an effect in Risks under the ranked event and under the move itself. |
-| 14 | A regional rental shared with a partner keeps savings well above the London 135k figure | Assumption | B / Finance: the savings comparison has no such column. Add a "Malvern region, own place, rent shared" scenario at 135k and Extra High to bound the fall between the Malvern and London rows before R rank 2 is scored |
-| 15 | Living in the DB flat as owner-occupier lets Julian offset the mortgage interest against HK tax | Belief | B / Finance: check the HK home loan interest deduction rules (cap and years) against the DB interest of about HK$146k/yr in [[tax-rental-incomes]]; the wiki records interest as not deductible when the flat is let and says nothing yet about the owner-occupier position. Added 27 Sep |
-| 16 | A two-year stay and return keeps Sophia's UK home fee status | Assumption | Added 29 Sep 2026. **Tested 29 Sep 2026: holds, with a margin of about one year.** The rule (UKCISA, House of Commons Library): ordinarily resident in the UK for the full three years before the first day of the first academic year. Sophia is in Year 8 in 2026/27, so university starts about September 2032 and the three years run from about September 2029. A return by summer 2028 is a year clear of that. The latest safe return is before about September 2029, the start of Year 11. Caveats: each university decides fee status itself; a gap year moves the window later. Not professional advice. **Julian, 29 Sep:** "Realistically, for me, it's 4 years and the reason for that is because I'm not going to change Sophia halfway through her GCSEs." So the binding limit is the start of Year 10, about September 2028, not the fee rule. The only other clean exit is after GCSEs in summer 2030, which keeps home fees only with a gap year (university from September 2033) |
-| 17 | A place at The Chase, or another good Malvern school, is available on return | Assumption | Added 29 Sep 2026. Sheet row under "Leaving the Chase School", to be re-rated Material by Julian. Part checkable with the council's in-year process; goodwill with the school is Julian's judgement. **Tested 29 Sep 2026, Julian's assessment:** there are three schools in the area and he thinks all are decent. The Chase is probably the best and the ideal return; Hanley Castle is also very good; Dyson Perrins is the least preferred, "it wouldn't be ideal" but "it is still an option". So a place at one of three is likely; a place at The Chase specifically is not assured. Not checked with the council, to avoid alerting the school |
-| 18 | TTI will guarantee two years and cover schooling | Assumption | Added 29 Sep 2026. Only Stephan or Horst can answer: Draft A in [[tti-comms-log]]. Rank 1 depends on it |
-| 19 | Sophia would cope with Hong Kong, although she is beginning to prefer the UK | Belief | Added 29 Sep 2026 and reworded the same day on Julian's correction: he did not say she would be happier in Hong Kong. He chose Hong Kong because it suits him and decided not to feel guilty. Consistent with the first claim 9. Sophia has not been asked. **Tested 29 Sep 2026, direct evidence:** on about 27 Sep Sophia said to Julian, "I'm beginning to really like it here, I miss Hong Kong, but it would be really annoying if we had to move back to Hong [Kong]." So her stated preference is the UK and it is growing; she misses Hong Kong; her word for a move back is "annoying". The two-year plan means two more school moves for her: to Hong Kong now, and back to the UK in summer 2028. **Julian added, 29 Sep:** "I think she's assuming she would be going back to the YMCA. I think if I told her she was going to DBIS, then that would create some excitement and make her more optimistic about going back." This is an assumption about what she assumes; it also depends on schooling being in the package (claim 18) and on a DBIS place, neither confirmed |
-| 20 | I will have no life in Malvern | Belief | Added 29 Sep 2026. Tested as a forecast in July ([[b1-relationship-belief]], [[b7-lifestyle]]); now testable against about a month of living there. Matters only if Hong Kong falls through. **Tested 29 Sep 2026, Julian downgraded it himself:** "I still think it's going to be very difficult for me from here, from my mum's house. I'm determined enough. I'll find a way. It would probably mean spending Saturday nights in London. Possibly going into Birmingham, so, 'I will have no life in Malvern' is an exaggeration. It's unlikely to be as good as my life in Hong Kong, where I have my own flat and don't live with my mum, and where I've got a lot better pulling factor for women who are desirable to me." Survives as a real cost (harder, and worse than Hong Kong), not as "no life". Still a forecast: no lived evidence from the month in Malvern was cited. **Julian added, 29 Sep:** "I could go after football down for the night into London. A bit of a rush, but I could do it if football is on Saturday mornings. It also potentially takes Sophia with me to spend the night with a friend, Edie. Birmingham's a bit unrealistic because I don't know anybody there, and I'm not really going to go in on my own, possibly for dates through dating apps." |
-| 21 | Moving out of Mum's would destroy me financially | Belief | Added 29 Sep 2026. The sheet shows positive six-year savings in London at both salaries; the Malvern-region row in claim 14 is still missing. Julian's good picture needs one night a week away, not a second home. **Tested 29 Sep 2026 against the sheet:** moving out to London costs about HK$1.43M over six years at either salary, about 63% of savings on 135k (2.28M to 0.85M) and about 33% on the TTI salary (4.35M to 2.92M); never a loss. **Julian reworded it:** "It wouldn't destroy me, but I wouldn't really be able to save anything meaningful for retirement." That holds at 135k against his own retirement target; on the TTI salary about two thirds of the savings remain |
-| 22 | I only have about ten good years left, so I must put myself first | Belief | Added 29 Sep 2026, a friend's words that Julian took on. Name it; decide whether it is a value to act on or a mood. **Tested 29 Sep 2026, Julian restated it in his own terms:** "I would have said I have to think of myself as well as Sophia, not necessarily put myself first. Obviously, I still consider my mum, but I do have to live my life. I have a blood disease and previously had cancer, I may have complications earlier than many." The friend's version ("put myself first") is not his; his own version (himself as well as Sophia) predates the conversation and rests on a fact about his health. Under the rule in [[decision-maker-profile]] this is a named, written reason for the gut. The same fact also bears on the sheet row about Julian falling ill in Hong Kong with family far away |
-| 23 | The Hong Kong role starts in October 2026, with pay backdated to the start of October or to September | Assumption | Added 29 Sep 2026. Julian: "Earliest realistic start in Hong Kong is sometime in October, hopefully, they're going to backdate it to the beginning of October and possibly September." Nothing in writing; the three asks of 26 Sep are unanswered. Only Stephan or Horst can answer. With an October start, the stay to a summer 2028 exit is about 21 months. **Julian, later on 29 Sep:** Horst suggested on a call a 24-month contract renewing every couple of years, and suggested backdating. "If they backdate it to September, it's going to be almost 24 months, if they don't, then I'm sure I can work a month out of the UK." So the basis is a verbal suggestion from Horst, by Julian's account; still unwritten. A 24-month contract from 1 September 2026 would end on 31 August 2028, the clean exit before Year 10 |
+| 1 | Six years at TTI clears the HK mortgage and funds retirement at 61 | Assumption | Open as of 29 Sep 2026. Not yet run in the financial model |
+| 3 | Extra low-tax earnings outweigh the lost UK home-fee status for university | Assumption | As of 29 Sep 2026: priced, not judged. The savings sheet has carried the university reserve in every column since 27 Sep 2026 |
+| 4 | Job survives six (now ten) years on a high salary | Belief | Open as of 29 Sep 2026. Julian's top-ranked risk (27 Sep). Related: counterfactual run 4 |
+| 5 | Two years is safe and lockable, then decide again | Assumption | Open as of 29 Sep 2026. The question set for it, real option or deferral in disguise, has not been asked. The return half was tested under claims 16 and 17; "lockable" waits on claims 18 and 23 |
+| 6 | Living with Mum avoids care-home costs later | Assumption | Open as of 29 Sep 2026 |
+| 7 | Romance need will resurface within months and cannot be met from Mum's | Belief | Open as of 29 Sep 2026. Related belief tested under claim 20 |
+| 8 | Appeal drops materially by 61, so waiting for Asia is a losing plan | Belief | Open as of 29 Sep 2026 |
+| 9 | Sophia will be happier in the UK | Belief | Open as of 29 Sep 2026. One remark from Sophia, relayed by Julian and recorded under claim 19, points the same way; she also misses Hong Kong. The Chase evidence has not been gathered |
+| 9 | Guilt over Clodagh's access is unearned | Belief | Parked since 24 Sep 2026. Guilt is kept out of the scoring |
+| 10 | TTI is worth about four times the Malvern outcome | Assumption | Resolved 27 Sep 2026. Julian: "four times was a mistake" |
+| 11 | A UK-based TTI role is obtainable, and Horst and Stephan would accept it | Assumption | Open as of 29 Sep 2026. Only Stephan or Horst can answer; not yet asked |
+| 12 | Horst is partly motivated by annoyance with Stephan, and Stephan would not defend Julian | Belief | Labelled speculative by Julian, 27 Sep 2026 |
+| 13 | Once Sophia is mid-GCSE in HK, a return cannot restore her UK home-fee status | Assumption | Holds in practice, 29 Sep 2026. By the rule under claim 16 a return during Year 10 would keep the status, but Julian will not move Sophia mid-GCSE, so a job loss then means staying to summer 2030 and losing it, unless she takes a gap year. Julian confirmed 28 Sep that the temporary-employment exception does not apply to him |
+| 14 | A regional rental shared with a partner keeps savings well above the London 135k figure | Assumption | Open as of 29 Sep 2026. The sheet has no such scenario yet |
+| 15 | Living in the DB flat as owner-occupier lets Julian offset the mortgage interest against HK tax | Belief | Open as of 29 Sep 2026. Not verified |
+| 16 | A two-year stay and return keeps Sophia's UK home fee status | Assumption | Tested 29 Sep 2026 against the published rule: holds for a return by summer 2028, with about a year's margin; each university decides. Julian: "Realistically, for me, it's 4 years" before university, not three, because he will not move Sophia mid-GCSE |
+| 17 | A place at The Chase, or another good Malvern school, is available on return | Assumption | Assessed by Julian 29 Sep 2026, not checked with the council: three schools he would accept, The Chase first. Whether a place is available is unverified; The Chase is not assured |
+| 18 | TTI will guarantee two years and cover schooling | Assumption | Open as of 29 Sep 2026. Only Stephan or Horst can answer |
+| 19 | Sophia would cope with Hong Kong, although she is beginning to prefer the UK | Belief | Tested 29 Sep 2026 on one remark from Sophia: her growing liking for the UK is supported; whether she would cope is untested. She said a move back would be "really annoying" |
+| 20 | I will have no life in Malvern | Belief | Tested 29 Sep 2026: did not survive as stated. Julian: it "is an exaggeration". Harder, and worse than Hong Kong. Still a forecast; no lived evidence was cited |
+| 21 | Moving out of Mum's would destroy me financially | Belief | Tested 29 Sep 2026 against London only: did not survive as stated. Reworded by Julian; true for saving on 135k, overstated on the TTI salary |
+| 22 | I only have about ten good years left, so I must put myself first | Belief | Tested 29 Sep 2026: restated by Julian as himself as well as Sophia, with his health as the reason |
+| 23 | The Hong Kong role starts in October 2026, with pay backdated to the start of October or to September | Assumption | Open as of 29 Sep 2026. A verbal suggestion from Horst, by Julian's account; nothing in writing |
 
 Open tasks the intuition set for itself:
 
@@ -394,13 +279,14 @@ Carried from [[HK-BRAIND]] into this step (27 Sep): keeping the question open co
 - [[dec-uk-move]] - canonical committed decision and wobble #5 record; F-N-M-T lives here
 - [[uk-relocation-project]] - status log holds the facts of the Horst offer and the custody escalation (13, 17 and 27 Sep rows)
 - [[HK-BRAIND]] - July and August stay-HK benefits and risks, written without a job
-- [[uk-move-financial-model]] - canonical finance model for claims 1, 2 and 5
+- [[uk-move-financial-model]] - canonical finance model for claims 1 and 5
 - [[b1-relationship-belief]] - prior belief test on being single in the UK
 - [[tti-role]] - TTI role status and next actions
 - [[commitment-lock-protocol]] - reopen test and stand-down rules
 - [[why-brained]] - why BRAIND, and the N-step caveat
 - [[HK-Return-Counterfactuals]] - counterfactual questioning runs for this question
 - [[counterfactual-questioning]] - the tool
+- [[HK-Return-Beliefs]] - the detail behind each claim in the check table
 
 ## Document Log
 
@@ -408,6 +294,10 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-29 | Claim 13 verdict corrected on Julian's point: the job-loss chain stays the worst case because he would not move Sophia mid-GCSE, so the fee rule's Year 10 allowance does not help him in practice. The ranked job-loss risks stand as he wrote them. |
+| 2026-09-29 | Corrected after an adversarial review of the restructure (9 serious and 10 minor findings, none fatal; the moves themselves were verified lossless by script). Rewritten: the verdicts for claims 3, 4, 5, the first 9, the second 9, 13, 14, 16, 17, 19, 20 and 21, and the findings block. Main changes: claim 13 is partly contradicted by the rule under claim 16; several verdicts had presented the model's inference as Julian's view. Status now says three claims wait for Stephan or Horst. |
+| 2026-09-29 | At Julian's instruction the detail of all 23 claims in the check table was moved verbatim to [[HK-Return-Beliefs]]. The table here now carries a one-line verdict per claim, written by the model. Claim numbers are unchanged, including the two claims numbered 9 and the absence of a claim 2, because other files cite them. |
+| 2026-09-29 | At Julian's instruction the seven Intuition Log blocks dated 29 Sep were moved verbatim to [[HK-Return-Counterfactuals]] and replaced here by one findings block. This is an exception to the append-only rule, made by Julian: the BRAIND holds the findings, the counterfactual file holds the detail. Earlier Document Log rows that say a block was added here refer to the moved blocks. Time and Token Log and Session Synopsis updated with Julian's hours for 28 and 29 Sep. |
 | 2026-09-29 | Belief and assumption tests completed for the claims Julian can test himself: claims 19 (Sophia, with her own words), 20 (life in Malvern, downgraded by Julian), 21 (moving out, reworded by Julian) and 22 (putting himself first, restated by Julian with his health as the reason). Claims 18 and 23 wait for Stephan. |
 | 2026-09-29 | Belief and assumption tests begun in the check table: claim 16 (home fee status) tested and holds, with Julian's tighter limit of the start of Year 10; claim 17 (school place on return) assessed by Julian across three schools; claim 23 (October start, backdating) added with Horst's verbal suggestion of a 24-month renewing contract. |
 | 2026-09-29 | Julian corrected the model's reading on Sophia: he did not say she would be happier in Hong Kong; she is beginning to prefer the UK. Claim 19 reworded and the earlier model note amended. Re-run of runs 3 and 5 agreed, with a session-start reminder from 1 Oct. |
@@ -485,15 +375,26 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-27 | Julian, attended | 15 min | Refactoring the file to the BRAIND format only (reviewing the convention and the restructure). Intuition capture time earlier in the day not reported |
 | 2026-09-27 | Machine (interactive session) | 1,145,274 tokens (output 226,685 + cache-write input 918,589; cache reads 24.6M omitted) | Whole session, covering the intuition capture, B/R population, the comparison tables and the convention work; changes listed in the Document Log |
 | 2026-09-27 | Machine (subagent) | 108,511 tokens | Restructure of this file and the three August BRAIND files to the thirteen-section format |
-| 2026-09-28 | Machine (interactive session) | 694,100 tokens (output 77,263 + cache-write input 616,837; cache reads 4.8M omitted) | Session to this point: rumination discussion, home-fee rule check, Risks restructure brief and verification. Julian's attended minutes pending |
+| 2026-09-28 | Julian, attended | 240 min | Built the Return to Hong Kong risk register in the sheet: for each risk, the effect with impact and probability reasoning, the response and what it does, and residual scores. His own work, very little from the model. Reported 29 Sep |
+| 2026-09-28 | Julian, attended | 120 min | Updating this BRAIND from the sheet with the model, so the sheet is the source of truth. Reported 29 Sep as "a couple of hours" |
+| 2026-09-28 | Machine (interactive session) | 754,386 tokens (output 88,830 + cache-write input 665,556; cache reads 21.2M omitted) | Final figure for the 28 Sep session: rumination discussion, home-fee rule check, Risks restructure, digest rebuilds. Replaces the mid-session figure of 694,100 |
+| 2026-09-28 | Machine (interactive session) | 217,768 tokens (output 3,401 + cache-write input 214,367; cache reads 1.3M omitted) | The 28 Sep part of a second session that began on 27 Sep and touched this file; measured 29 Sep |
 | 2026-09-28 | Machine (subagent) | 205,505 tokens | Risks section regrouped by event; convention row updated; project status and ops log rows added |
 | 2026-09-28 | Machine (subagent) | 213,917 tokens | B and R rebuilt as digests of the risks sheet |
-| 2026-09-29 | Machine (interactive session) | 812,108 tokens (output 110,126 + cache-write input 701,982; cache reads 20.7M omitted) | Whole session to this point: candid questions, sheet reads, break-even check, two drafts to Stephan, the counterfactual tool and run record, review fixes, five runs, reminder hook, six belief and assumption tests. Julian's attended minutes pending |
+| 2026-09-29 | Julian, attended | 120 min | Counterfactual session and belief tests with the model. Reported 29 Sep as "a couple of hours"; work not finished |
+| 2026-09-29 | Machine (interactive session) | 904,042 tokens (output 147,344 + cache-write input 756,698; cache reads 27.6M omitted) | Whole session to this point: candid questions, sheet reads, break-even check, two drafts to Stephan, the counterfactual tool and run record, five runs, reminder hook, six belief and assumption tests, the move of detail into two supporting files, review fixes |
+| 2026-09-29 | Machine (subagent) | 135,060 tokens | Adversarial review of the restructure: verdicts, findings block, lossless-move check by script |
 | 2026-09-29 | Machine (subagent) | 152,808 tokens | Bookkeeping for the two new files: indexes, systems register, convention row, project status, logs |
 | 2026-09-29 | Machine (subagent) | 93,849 tokens | Settings mirrors refreshed after the reminder hook was added |
 | 2026-09-29 | Machine (subagent) | 130,981 tokens | Adversarial review of [[counterfactual-questioning]] and [[HK-Return-Counterfactuals]]: 19 findings, none fatal, applied the same day |
 
 ## Session Synopsis
+
+**Julian (29 Sep 2026), on building the Return to Hong Kong risk register on 28 Sep: 5/5.** "I rate it as a 5 because I did it myself." "At the time, I was thinking to myself, 'Is this overkill for what I need to do?' I don't, however, think it is, because the problem I have with a big, complex decision like this is that I ruminate over the risks. They go round and round in circles in my head. What I find by doing a detailed risk analysis like this is that it makes me think through the risk, think through the mitigation, think through the residual risk, and whether it's acceptable to me or not after the mitigation. The process of doing this has benefits in terms of the context that I can keep in my head. There was very little work required from the LLM at this stage."
+
+**Model, beneath:** My part in this piece was small, as Julian says. On 29 Sep I advised scoring only eight rows on overanalysis grounds; his reason for the detail, that it stops the rumination, is a benefit I had not weighed. As of 29 Sep the sheet holds impact, probability and a response for 27 of the 28 risks, and residual scores for 5.
+
+**Julian, on updating the BRAIND from the sheet (28 Sep) and the counterfactual session (29 Sep): rating pending as of 29 Sep 2026.** "It's not finished, though." The model's comment waits for his rating.
 
 **Julian (27 Sep 2026): 5/5.** "Seems to be a good job done of it and quickly without errors." (On the refactoring to the format; 15 attended minutes.)
 

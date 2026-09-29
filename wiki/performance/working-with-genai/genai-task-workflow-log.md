@@ -36,7 +36,10 @@ steering) so the log is queryable by step as well as by type. Newest first.
   sign-off.
 - **Outcome:** As of 29 Sep 2026: the review returned 19 findings, none fatal,
   mostly overreach in the model's readings and a lean towards one option. Fixes
-  applied the same day. Pending Julian's review.
+  applied the same day. A second review, of the move of detail into two
+  supporting files, returned 9 serious and 10 minor findings, none fatal: the
+  moves were lossless, but model-written one-line verdicts overstated or
+  presented inference as Julian's view. Fixes applied. Pending Julian's review.
 - **Lesson:** None recorded yet.
 - **Deliverable:** [[HK-Return-BRAIND]].
 
