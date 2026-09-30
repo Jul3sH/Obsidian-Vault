@@ -17,10 +17,8 @@ Seven questions are top of mind for Julian, and the BRAIND exists to answer them
 1. Do I really need to return to HK for romance?
 2. Do I really need to return to HK for financial reasons?
 3. Are the risks and guilt of the move manageable?
-4. Would I be better off in the UK? 
+4. Should I pivot to UK and if so when? 
 5. Is living with Mum for six years realistic, and is moving out viable? 
-6. Should I pursue a safer compromise and aim for a UK based role?
-7. At what point do I pivot to asking for a UK based role? 
 
 ## Status
 
@@ -34,7 +32,7 @@ Seven questions are top of mind for Julian, and the BRAIND exists to answer them
 
 **Summary against the four questions (as of 28 Sep 2026):**
 
-**Question 1:**  Do I really need to return to HK for romance?** Not yet answered. Tested in the Personal rows below, claims 6 and 7, and [[b1-relationship-belief]].
+**Question 1:**  Do I really need to return to HK for romance? [[b1-relationship-belief]].
 
 I'm much more likely to find my IGF (Ideal Girlfriend profile) which I'm beginning to think is a westernised 45 year old divorcee Asian. In UK I am very likely to have to compromise on looks (Youthful and Asian). 
 
@@ -72,24 +70,23 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 ## R - Risks
 
-**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (33 risks and 11 opportunities as of 30 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 30 Sep 2026.
+**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861)
 
-**Summary against the four questions in the Purpose (as of 28 Sep 2026):**
+**Summary of question 3 from the Purpose (as of 28 Sep 2026):**
 
-**Question 3:** Are the risks and guilt of the move manageable?** 
+**Question 3 part 1: Are the risks of the move manageable?**** 
 
-There most severe risk is moving back at the end of year 3 where I get hit with the treble whammy of; 
-1)  Losing home university status*
-2) Having to survive in Hong Kong on no salary for a year until GCSEs finish
+**Most critical risks are if I move balk from years 3 to 7 because**
+1)  I may lose home university status
+2) I may have to survive in Hong Kong on no salary for a year until GCSEs finish
 3) High school fees without a salary
 
-Other time periods are less risky 
+**Risks by period**
 1) If the job looks too risky before I even start, I don't go to HK and try to move it to UK.
-2) If a renewal after 2 years looks risky i come back for GCSEs 
-3) After 4 years I come back for A-levels* and extra earnings have covered uni fees
+2) If a renewal after 2 years looks risky i come back for GCSEs
+3) If a renewal after 4 years looks risky I come back for A-levels and try home status with a gap year, extra earnings have covered uni fees
 
-* Must check if a gap year counts towards home fees
-
+**Question 3 part 2: Is the guilt  the risks of the move manageable?**** 
 The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of 1 go to boarding school. She can rebuild the relationship on video and through holidays.  
 ### Ranked risks
 
@@ -132,7 +129,10 @@ One line per cause in the sheet, covering all 33 risk rows.
 
 ## A - Alternatives
 
-**Question 4:** Would I be better off in the UK? 
+**Question 6:** Would I be better off in the UK? 
+
+**Question 7:** Should I pursue a safer compromise and aim for a UK based role?
+7. At what point do I pivot to asking for a UK based role? 
 
 **Build multiple revenue streams in Malvern**
 I would no doubt enjoy it technically, but struggling to get customers is not fun, and  there is very little chance of me earning the same money I could earn in 6 years in full time employment at TTI on low taxes. If I earn enough money in six years I won't need any revenue streams after 61, and then I can have hobbies which are much more fun.  
