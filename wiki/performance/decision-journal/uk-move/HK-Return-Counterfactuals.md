@@ -16,7 +16,7 @@ This is the record of the [[counterfactual-questioning]] runs for the question i
 
 ## Status
 
-> ⚠ **Status (30 Sep 2026):** runs 5 and 3 re-asked a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026), plus a new variant of run 3 in which the guaranteed job is bad, and runs 4 and 2. Asked while Julian was tired after a bad night, by his own account; the same five are to be asked again after his run today and compared. Tired-state result: run 5 "close", Hong Kong conditional on the job risk being acceptable; run 3 a tie that tipped with whichever factors were in view; run 3 variant UK if the job is certain to be terrible for six years, while in reality he would try two years and aim to prove himself. The adopted ranking stands as a lean until the second set is in. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only.
+> ⚠ **Status (30 Sep 2026, after the second set):** runs 5, 3, 4 and 2 plus a new run 3 variant (the guaranteed job is bad) were asked twice today: tired after a bad night, then clear-headed after a run. The re-ask was a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026). Clear-headed, runs 5 and 3 are a firm Hong Kong, as on 29 Sep; tired, both wavered. Runs 4 and 2 were the same in both states: the answer depends on evidence from the first two years. The run 3 variant follows mood, by Julian's own account. The adopted ranking stands as a lean. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only.
 
 ## Key Takeaways
 
@@ -54,8 +54,15 @@ Same wording as the originals, plus one new variant. The state column is Julian'
 | 3v | As above | New. As run 3, but the US and HK stakeholders never buy in and the job is as bad as the sheet row "TTI job is terrible between years 2 and 6" | "UK in case I can't stand it so much I have to quit." Clarified: that holds only if the job is certain to be terrible for six years; in reality he would possibly go for two years to see if he can prove himself and move into a decent job | A job known to be bad for six years goes to the UK. An uncertain job is handled by the two-year trial with a return before GCSEs, the plan he gave on 29 Sep |
 | 4 | As above | As run 4 above | "It would depend on evidence from the first two years. I would make the judgment call with enough time to come back." | Consistent with 29 Sep. The renewal question is answered by the two-year trial, not in advance |
 | 2 | As above | As run 2 above | "That depends on job security. Disappointment if I think it's guaranteed for 6 years, relief if I think it's risky." | Confirms in Julian's words the 29 Sep reading that the earlier relief was relief from the risk |
+| 5 | Clear-headed after a run and a shower; deliberately reduced sexual drive so romance answers reflect companionship | As run 5 above | "Hong Kong. Better money, my own place." | Back to a firm Hong Kong, as on 29 Sep |
+| 3 | As above | As run 3 above | "Hong Kong." | Firm Hong Kong, as on 29 Sep. No model comment preceded it |
+| 3v | As above | As run 3v above | Bullish, "maybe gravitating towards wishful thinking": Hong Kong, try to turn it around in the first two years and come back before GCSEs if not, for his own place and better romance prospects. Risk-averse: UK. "It's very dependent on how bullish or risk-averse I'm feeling." | The answer that moves with mood, by Julian's own account |
+| 4 | As above | As run 4 above | "That depends on my success in the first two years." | Same as when tired |
+| 2 | As above | As run 2 above | "Depends on whether six years looks likely; if so Hong Kong." Own place, better money due to taxes, romance better | Same as when tired: the answer turns on job security |
 
-To repeat after Julian's run on 30 Sep 2026: runs 5, 3, 3v, 4 and 2, same wording, first answer recorded before any model comment.
+Re-ask completed (30 Sep 2026): both sets are recorded above, tired first, then clear-headed after Julian's run.
+
+**Across the two sets (model reading, 30 Sep 2026):** with job risk taken out (runs 5 and 3), Julian chooses Hong Kong when clear-headed and wavers when tired. With job risk left in (runs 4 and 2), his answer is the same in both states: it depends on evidence from the first two years. With the job known to be bad (3v), the answer follows his mood. His reasons for Hong Kong (money, his own place, romance) are the same in every answer. What moves with mood is how big the job risk feels.
 
 ## Other questions asked in the same session
 
@@ -268,6 +275,24 @@ Julian's words, spelling corrected only.
 
 - *Model note (30 Sep 2026):* the run 3 flip followed the model naming the missing factors, which steers the answer. From the re-run after Julian's run, the first answer is recorded before any comment and any follow-up is neutral. "Warming to UK" is a decision-visualisation-check trigger; the good-day and bad-day pictures of the TTI role from Malvern were deferred to after the run.
 
+---
+
+### 2026-09-30 · Re-runs after Julian's run
+
+Julian's words, spelling corrected only.
+
+**On his state:** "I'm feeling clear-headed because I've just had a run and a shower." He also took a step so that his answers on relationships would focus on companionship rather than a need for sex.
+
+**Run 5:** "Hong Kong. Better money, my own place."
+
+**Run 3:** "Hong Kong."
+
+**Run 3 variant** (after asking what romance is in this run; the model answered that each place comes with its real prospects as he believes them): "This is an interesting one because I've had a run and I'm feeling bullish, maybe gravitating towards wishful thinking, which means the emotional decision is to go to Hong Kong and try and turn things around in the first 2 years, and if it doesn't work, come back to UK before GCSEs. The main driver would probably be that I have my own place, and my romance prospects would be better. However, I suspect you caught me in a different, more risk-averse mood. I would live in the UK. This is one to watch here. It's very dependent on how bullish or risk-averse I'm feeling."
+
+**Run 4:** "That depends on my success in the first two years."
+
+**Run 2:** "Depends on whether six years looks likely, if so Hong Kong. Again, it's down to having my own place, better money due to taxes, and romance being better."
+
 ## Links
 
 - [[HK-Return-BRAIND]] - the decision file; holds the findings and the claims table
@@ -280,6 +305,8 @@ Julian's words, spelling corrected only.
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Second set of re-runs recorded, after Julian's run: rows in the re-runs table, a reading across both sets, answers in full, status rewritten. "Re-ask completed" line added, which clears the session-start reminder. |
+| 2026-09-30 | Superseded status (30 Sep, after the tired set): "runs 5 and 3 re-asked a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026), plus a new variant of run 3 in which the guaranteed job is bad, and runs 4 and 2. Asked while Julian was tired after a bad night, by his own account; the same five are to be asked again after his run today and compared. Tired-state result: run 5 "close", Hong Kong conditional on the job risk being acceptable; run 3 a tie that tipped with whichever factors were in view; run 3 variant UK if the job is certain to be terrible for six years, while in reality he would try two years and aim to prove himself. The adopted ranking stands as a lean until the second set is in. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only." |
 | 2026-09-30 | Runs 5 and 3 re-asked a day early at Julian's instruction, plus a new run 3 variant (the guaranteed job is bad), all in a tired state by his account. Re-runs table and answers in full added; the same three to be repeated after his run. |
 | 2026-09-30 | Superseded status (29 Sep): "all five runs are completed and the list is closed. With the job risk removed, Julian chooses Hong Kong. He adopted the ranking under "Ranking adopted" below on 29 Sep. It is a lean, not a decision. The runs were answered hours after a conversation with a friend that, in Julian's words, removed the guilt, so runs 3 and 5 are to be asked again on or after 1 Oct 2026 and no decision state changes before then. Julian's answers in full are in this file, under "Julian's answers in full"; the BRAIND holds the findings only." |
 | 2026-09-29 | Corrected after an adversarial review: the note on what the adopted ranking rests on now reflects the tests run later the same day; one Key Takeaway narrowed. |

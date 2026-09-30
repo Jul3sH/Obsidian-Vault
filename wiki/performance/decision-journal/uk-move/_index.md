@@ -84,6 +84,7 @@ Small, bounded execution decisions that surface during Phase 3/4. Each gets its 
 - [[HK-Return-BRAIND|HK-Return-BRAIND]] - BRAIND workspace for the return-to-HK-on-a-TTI-offer question (opened 24 Sep 2026): benefits, risks, alternatives, intuition findings and the claims-to-test table for that one question.
 - [[HK-Return-Counterfactuals|HK-Return-Counterfactuals]] - record of the [[counterfactual-questioning]] runs for the return-to-HK question: which factors drive the gut feeling against going.
 - [[HK-Return-Beliefs|HK-Return-Beliefs]] - the evidence behind each belief and assumption in the HK-Return-BRAIND check table.
+- [[HK-Return-Intuition|HK-Return-Intuition]] - Julian's raw intuition captures on the return-to-HK question, dated and in his words.
 
 ## 9. Decision-Support Surfaces
 
