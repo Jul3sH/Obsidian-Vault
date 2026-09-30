@@ -22,7 +22,7 @@ Seven questions are top of mind for Julian, and the BRAIND exists to answer them
 
 ## Status
 
-> ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. The claims table is split: beliefs sit under the Intuition summary, assumptions are a to-do list near the end of the file with four proposed additions awaiting Julian. Still to do in this file: A rewritten to the adopted order, Purpose questions 1, 3, 5 and 6 answered in Julian's words, the N date set, D open pending written terms, and no `## Prompt Zero` section yet. Three assumptions wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. The claims table is split: beliefs sit under the Intuition summary, assumptions are a to-do list near the end of the file with four proposed additions awaiting Julian. A was rewritten by Julian on 30 Sep and stands as he wrote it. Purpose question 5 answered in the Intuition Log on 30 Sep. N run on 30 Sep. D holds the conditional decision (six conditions, the drop-dead date of 14 January 2027, dependencies), written from Julian's agreed terms and awaiting his sign-off. Still to do in this file: D to be signed off in Julian's words once the 48-hour hold ends; and no `## Prompt Zero` section yet. Three assumptions wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
@@ -169,6 +169,8 @@ Raw captures (24, 27, 28 and 30 Sep 2026) are verbatim in [[HK-Return-Intuition]
 
 Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by a blind extraction pass and a Codex adversarial pass, revised with Julian and confirmed by him on 30 Sep 2026. Quotes are his. Under each point: the counterfactual runs that bear on it, from [[HK-Return-Counterfactuals]] (29 Sep, and the two re-runs of 30 Sep, tired then clear-headed). It describes what the gut says; it accepts nothing.
 
+**Question 5: Is living with Mum for six years realistic, and is moving out viable?** (Answered 30 Sep 2026 from Julian's answers of 29 Sep, placed here at his instruction.) Weekdays, yes: cohabiting with Mum and Sophia and focusing on work is how it was in Hong Kong, provided I am working from home. The weekends are what is under consideration: time with friends and ideally one night a week with a girlfriend, which means either someone local with her own place or paying for a hotel. So I do not need to move out; I need one night a week away. Moving out would not destroy me, but on £135k I would not be able to save anything meaningful for retirement. The bad version is weekends in Malvern with no social life and a hybrid London job in the week: "possible and workable, but probably not ideal". Beliefs 20 and 21 sit behind this, under point 2.
+
 **1. The pull to Hong Kong keeps coming back to three things: money, his own place, and romance.** The money is about retiring in six years. His own place matters mainly for romance, and romance also works through the dating market. Money is a minimum, though: "Breaking even is not ideal because I compromise relationships for nothing other than lifestyle."
 - *Supported by run 3 (job risk removed in both places):* he chose Hong Kong, "More money, living in my own place and better romance options clinched it."
 - *Supported by run 5 (a partner in either place), both days:* "Hong Kong for sure", for his own flat and the earnings; on 30 Sep, "Better money, my own place."
@@ -211,15 +213,38 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 
 ## N - Need time / Nothing
 
-*(Not yet run. The forcing date is the arrival of written terms. Doing nothing means the UK move continues as committed. Bound this step so it closes into D and does not become the drift the [[why-brained]] caveat warns about.)*
-
-Carried from [[HK-BRAIND]] into this step (27 Sep): keeping the question open converts uncertainty into analysis loops instead of execution, and a warm process that arrives near a deadline and gets "another month" becomes drift with a schedule. The date on which waiting ends is the arrival of written terms; if they have not arrived by a date Julian sets, the answer is the committed UK move.
+**Run 30 Sep 2026.** Waiting ends when written terms arrive or on the drop-dead date, 14 January 2027, whichever is first. Doing nothing means the UK move continues as committed. The conditions, dependencies and drop-dead reasoning are in D below. Carried from [[HK-BRAIND]] (27 Sep): keeping the question open converts uncertainty into analysis loops instead of execution, and a warm process that arrives near a deadline and gets "another month" becomes drift with a schedule.
 
 ## D - Decision
 
-*(Open. Committed choice is written here dated, then mirrored to [[dec-uk-move]] and [[uk-relocation-project]].)*
+> ⚠ **Status (30 Sep 2026): a conditional decision, written by the model from the conditions and dependencies Julian agreed on 30 Sep, at his instruction. Not yet in his words and not yet signed off. Under [[commitment-lock-protocol]] the committed choice remains the UK move until written terms exist; the 48-hour hold from the 29 Sep conversation ends on 1 Oct 2026. When Julian signs this off, it is dated and mirrored to [[dec-uk-move]] and [[uk-relocation-project]].**
 
----
+**The decision:** go to Hong Kong if the six conditions below are met in writing by 14 January 2027. If TTI offers the role from the UK instead, take it (the second choice). If nothing is in writing by that date, the UK move stands, the flat is let, and the UK market route follows.
+
+**Conditions, agreed by Julian 30 Sep 2026.** The terms the offer must contain for the answer to be yes.
+
+1. A 24-month term, or an equivalent guarantee, aligned to the school year, with the start backdated to September or October 2026.
+2. School fees in the package.
+3. The pay Horst verbally accepted on 14 Sep: HK$2M plus bonus.
+4. An architecture role at director level, not a junior or non-architectural one.
+5. A renewal decision by spring 2028, so that Julian can leave in summer 2028 before Sophia's GCSE courses start.
+6. All of it in writing, and the move made, by the drop-dead date.
+
+**The drop-dead date: 14 January 2027.** Julian and Sophia leave together; he wants her to start at DBIS as soon as possible. The binding date is Sophia's 183rd UK day, 28 January 2027, when she would become UK resident for 2026/27 and give Julian a family tie ([[uktax-srt-fy26-27]]); 14 days are held back for an emergency trip or a Christmas visit, and any UK midnight spends that buffer. Two earlier dates cost future flexibility rather than this year's tax: Sophia crosses 90 days on 27 October 2026 and Julian on 9 November, each cutting the 2027/28 and 2028/29 allowance from 182 to 120 days if the Hong Kong job fails.
+
+**Dependencies (drafted by the model 30 Sep 2026 from the record; Julian to confirm, add or remove).** Things outside the offer that must happen for the plan to work.
+
+| Dependency | Where it stands, 30 Sep 2026 | Owner |
+|---|---|---|
+| Stephan's process with Horst and Ty produces an offer | Three asks unanswered since 26 Sep; Justin's report awaited | Stephan; Julian chases |
+| A place for Sophia at DBIS in her year | Met in principle, 28 to 30 Sep: DBIS has a few places in Year 8 for this term or next; no reapplication fee and the levy already paid is offset; last year's YMCA reports suffice; assessments and a Head of Year interview once she is next in Hong Kong (correspondence verbatim in [[uk-relocation-project]] status log) | Julian |
+| UK day counts stay under the thresholds while this runs | Dates above | Julian |
+| The DB flat is kept for the family, not let | Tenants waiting at HK$27k | Julian |
+| Sophia is told, and the move is timed to a term boundary | She has said a move back would be "really annoying" | Julian |
+| Custody: Julian files once in Hong Kong | He can file; the outcome is separate | Julian |
+| A school place on return in summer 2028 | Held until an offer is real; three schools acceptable | Julian, later |
+
+**What happens otherwise.** If TTI offers the role from the UK instead, that is Julian's second choice and he takes it. If nothing is in writing by 14 January 2027, the UK move stands, the flat is let, and the UK market route follows.
 
 ## Assumptions and the plan to clear them
 
@@ -284,6 +309,10 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | At Julian's instruction the conditional decision was written into D: the decision statement, the six conditions, the drop-dead date with its reasoning, the dependencies table and what happens otherwise, moved from N. N now holds only the waiting rule. D is marked as model-written from Julian's agreed terms and not yet signed off. |
+| 2026-09-30 | N dependencies: the DBIS place marked met in principle after Helen at DBIS confirmed spare places in Year 8 and entry on last year's reports. |
+| 2026-09-30 | N run with Julian: six conditions the offer must contain, the drop-dead date of 14 January 2027 (Sophia's 183rd day less a 14-day buffer, leaving together), a dependencies table drafted for his confirmation, and what happens otherwise. D annotated with the conditional form ready for him to write. |
+| 2026-09-30 | Purpose question 5 (living with Mum for six years, moving out) answered in the Intuition Log from Julian's 29 Sep answers, at his instruction; A rewritten by Julian himself earlier today and left as he wrote it. |
 | 2026-09-30 | The four proposed assumptions decided by Julian: 26 (same pay from the UK) and 28 (£135k earnable in the UK) accepted as open with actions; 27 (schooling extending to university) accepted and parked; 25 (custody filing) struck. |
 | 2026-09-30 | At Julian's instruction the claims table was split: beliefs now sit under the Intuition summary point they belong to (numbers unchanged, evidence in [[HK-Return-Beliefs]]); assumptions moved to a new section near the end, "Assumptions and the plan to clear them", as a to-do list with action, owner and timing, open items first. Claim 15 reclassified from belief to assumption. Four proposed assumptions (25 to 28) added from a sweep of B, R and A for Julian to accept or strike. The old section's two open tasks carried over. |
 | 2026-09-30 | Intuition summary restructured at Julian's instruction: each of the six points followed by the runs that supported or contradicted it, with his words. Content unchanged. |
