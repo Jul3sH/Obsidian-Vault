@@ -12,7 +12,7 @@ decision: Return to Hong Kong on a TTI offer
 
 This is the record of the [[counterfactual-questioning]] runs for the question in [[HK-Return-BRAIND]]: if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move? It exists to show which factors are driving his gut feeling against going.
 
-**Map:** Status · Key Takeaways · The feeling · Runs completed · Re-runs · Other questions asked · Runs still to do · Ranking (superseded) · Ranking adopted · Julian's answers in full · Links · Document Log
+**Map:** Status · Key Takeaways · The feeling · Runs completed · Re-runs · Other questions asked · Runs still to do · Ranking (superseded) · Ranking adopted · Findings from the 29 Sep session · Julian's answers in full · Links · Document Log
 
 ## Status
 
@@ -117,6 +117,22 @@ Written by the model from runs 3 to 5. Julian, 29 Sep: "I like the summary you'v
 **What it rests on (29 Sep 2026):** claims 16 to 19 and 23, with verdicts in the check table of [[HK-Return-BRAIND]] and detail in [[HK-Return-Beliefs]]. Later the same day claims 16, 17 and 19 were tested: home fee status survives a return by summer 2028 by the published rule; Julian would accept any of three schools, with availability unverified; Sophia's one remark is that a move back would be "really annoying". TTI agreeing the terms and the start date wait for Stephan.
 
 **Hold:** to be checked against a re-ask of runs 3 and 5 on or after 1 Oct 2026. A session-start reminder prompts it from that date until the re-ask is recorded here.
+
+## Findings from the 29 Sep session (moved from the BRAIND, 30 Sep 2026)
+
+This block was the BRAIND's Intuition Log entry for 29 Sep. It was moved here verbatim on 30 Sep 2026 at Julian's instruction; the BRAIND now carries the signed-off six-point summary and six lines on how the runs bear on it.
+
+Summary written by the model at Julian's instruction (29 Sep 2026), corrected the same day after an adversarial review. The BRAIND holds the findings. Julian's answers in full are in [[HK-Return-Counterfactuals]], moved there verbatim from this log; the quotes in bullets 5 and 8 are in [[HK-Return-Beliefs]], claims 16 and 22. Where a bullet is the model's reading it says so.
+
+- **The gut feeling.** "My gut instinct is telling me not to do it." Julian named three possible causes and did not choose between them. With the guilt removed the hesitation stayed: "I don't know because it feels risky." Model's reading of the runs: the job risk is the most likely cause; guilt may still contribute.
+- **What he chose with the risk removed.** Hong Kong, even with the same TTI role on offer from Malvern: "More money, living in my own place and better romance options clinched it."
+- **The pull does not depend on finding a partner there.** With a partner in either place: "Hong Kong for sure, because of two things", his own flat and the earnings. Malvern in that run came without the TTI money.
+- **His money test.** School fees in the package and a salary that clears break-even against Malvern within three years. "It's a minimum really", not enough on its own.
+- **The plan that would bound the risk (terms not confirmed).** "A 2 year guarantee through a contract is an option. If it looks like a renewal isn't going to happen then I could come back to UK for Sophia's GCSEs." On timing: "Realistically, for me, it's 4 years and the reason for that is because I'm not going to change Sophia halfway through her GCSEs."
+- **Keeping the job on merit once Horst steps back.** "Can't possibly answer that now."
+- **Lean adopted.** Hong Kong first if terms bound the downside; the TTI role from Malvern second; a UK market role third. A lean, not a decision.
+- **His reason for weighing himself.** "I would have said I have to think of myself as well as Sophia, not necessarily put myself first." "I have a blood disease and previously had cancer, I may have complications earlier than many." Earlier the same day, after the conversation with a friend: "I have to keep reminding myself that I got to put myself somewhat first."
+- **Hold.** The answers followed a conversation with a friend that removed the guilt. Runs 3 and 5 are asked again on or after 1 Oct 2026.
 
 ## Julian's answers in full (29 Sep 2026)
 
@@ -305,6 +321,7 @@ Julian's words, spelling corrected only.
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | The 29 Sep findings block moved here verbatim from the BRAIND's Intuition Log at Julian's instruction. |
 | 2026-09-30 | Second set of re-runs recorded, after Julian's run: rows in the re-runs table, a reading across both sets, answers in full, status rewritten. "Re-ask completed" line added, which clears the session-start reminder. |
 | 2026-09-30 | Superseded status (30 Sep, after the tired set): "runs 5 and 3 re-asked a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026), plus a new variant of run 3 in which the guaranteed job is bad, and runs 4 and 2. Asked while Julian was tired after a bad night, by his own account; the same five are to be asked again after his run today and compared. Tired-state result: run 5 "close", Hong Kong conditional on the job risk being acceptable; run 3 a tie that tipped with whichever factors were in view; run 3 variant UK if the job is certain to be terrible for six years, while in reality he would try two years and aim to prove himself. The adopted ranking stands as a lean until the second set is in. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only." |
 | 2026-09-30 | Runs 5 and 3 re-asked a day early at Julian's instruction, plus a new run 3 variant (the guaranteed job is bad), all in a tired state by his account. Re-runs table and answers in full added; the same three to be repeated after his run. |

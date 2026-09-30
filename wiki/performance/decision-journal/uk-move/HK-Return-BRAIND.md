@@ -78,16 +78,16 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 **Most critical risks are if I move balk from years 3 to 7 because**
 1)  I may lose home university status
-2) I may have to survive in Hong Kong on no salary for a year until GCSEs finish
-3) High school fees without a salary
+2) I may have to survive in HK on no salary for a year until GCSEs or A-levels finish
+3) High school fees 
 
-**Risks by period**
+**Key Risks and mitigations by period**
 1) If the job looks too risky before I even start, I don't go to HK and try to move it to UK.
-2) If a renewal after 2 years looks risky i come back for GCSEs
+2) If a renewal after 2 years looks risky I come back for GCSEs
 3) If a renewal after 4 years looks risky I come back for A-levels and try home status with a gap year, extra earnings have covered uni fees
 
 **Question 3 part 2: Is the guilt  the risks of the move manageable?**** 
-The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of 1 go to boarding school. She can rebuild the relationship on video and through holidays.  
+The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of Sophia's age go to boarding school. She can rebuild the relationship on video and through holidays.  
 ### Ranked risks
 
 Rows marked Material in the sheet and scored High before response, Julian's critical case first (losing the job in the GCSE and A-level years, now four effect rows). Everything else is in the sheet.
@@ -109,8 +109,6 @@ Rows marked Material in the sheet and scored High before response, Julian's crit
 | 13 (new 30 Sep) | TTI job is terrible in the first 2 years | I would not be happy, but I could attempt to find another job or leave before GCSE years | High, - | Reduce impact: Move back to UK for GCSE Years (probability response blank in the sheet) |
 | 14 (new 30 Sep) | TTI Job is terrible after 6 years | I would feel reasonably trapped due to the higher schooling | High, - | Accept: Get on with it as long as I can bear it |
 
-One row added 30 Sep 2026 (effect: we apply for home status and get rejected (either A-levels + gap year or via agency), Material, High, residual medium/high/medium) has no Scenario, Cause or Event filled in, so it sits outside this digest until Julian tags it.
-
 ### Cause map
 
 One line per cause in the sheet, covering all 33 risk rows.
@@ -129,36 +127,39 @@ One line per cause in the sheet, covering all 33 risk rows.
 
 ## A - Alternatives
 
-**Question 6:** Would I be better off in the UK? 
+**Question 4:** Should I pivot to UK and if so when? 
 
-**Question 7:** Should I pursue a safer compromise and aim for a UK based role?
-7. At what point do I pivot to asking for a UK based role? 
+ **London**
+*It's the worst scenario. It's the most expensive place to live with significantly inferior savings potential, and it's as risky as HK if I don't have a job*.
 
-**Build multiple revenue streams in Malvern**
+**Building multiple revenue streams in Malvern**
 I would no doubt enjoy it technically, but struggling to get customers is not fun, and  there is very little chance of me earning the same money I could earn in 6 years in full time employment at TTI on low taxes. If I earn enough money in six years I won't need any revenue streams after 61, and then I can have hobbies which are much more fun.  
 
 **Live in Malvern and get by with a modest life on modest earnings**
 If I can get a reasonable job, remain living at Mums, and stop her money getting swallowed up by care homes, I will probably inherit enough for me and Sophia to be ok when I retire. Even if I get outlived, Sophia will benefit.  
 
- **Land the TTI job and stay UK-based Malvern**
+ **Land the TTI job and stay UK-based in Malvern**
  Lower pay and higher tax than the HK version, but it addresses the ranked #1 risk above and keeps Sophia at The Chase, Mum's arrangement and the UK residency position. 
- 
-Warning: an option that avoids choosing between Hong Kong and Malvern can look attractive because it avoids the choice, not because it is best. Test it as a plan on its own merits, with its own risks, before it becomes the lean. This is the pattern named in 
-[[decision-maker-profile]] where a third option turns out to be a way of not deciding. 
 
-| Area                        | What changes                                                                                                                                                                                                                                                                                                                                                                     | Untested claim                                                                                                                                                                                                      |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Money                       | Salary rises from the 135k contractor figure to the TTI figure. On the 27 Sep sheet that is Malvern 2.28M to 4.35M at year six, London 0.85M to 2.92M. The sheet assumes a UK-based TTI role pays £200k, which is £30k a year less than the £230k assumed for Hong Kong; if TTI paid the full £230k from the UK, the UK figures would be higher and the gap to Hong Kong smaller | Whether TTI would pay the same from the UK: to ask once the role is on the table                                                                                                                                    |
-| Is it obtainable            | Nobody at TTI has yet said whether the role can be done from the UK. Stephan goes to Ty this week, so the shape has to be raised before then or not at all for this round                                                                                                                                                                                                        | Whether a UK-based TTI role is obtainable and Horst and Stephan would accept it (Julian, 27 Sep: "Yes, I need to ask"); open task on the Stephan timing                                                             |
-| Day to day                  | Time-zone overlap with HK is mornings only; travel to HK regularly; Horst's sponsorship still matters, as does the chain that said no                                                                                                                                                                                                                                            | To be described once a UK shape is on the table                                                                                                                                                                     |
-| If the job goes             | Julian is in the UK on the Malvern 135k contractor fallback, Sophia stays at The Chase, no international fees, no home-fee clock. The CRITICAL row in R does not happen                                                                                                                                                                                                          | This is the reason the option exists. It needs the risk of losing the job priced, not assumed away                                                                                                                  |
-| Sophia and Mum              | No second school move; Mum keeps them. The risk of moving out of Mum's for a relationship applies in full ([[Malvern-BRAIND]] Finance)                                                                                                                                                                                                                                           | Whether a regional rental shared with a partner keeps savings well above the London figure: the savings comparison has no such column yet                                                                           |
-| Custody                     | The UK exposure to a claim from Waterford stays; the HK-jurisdiction benefit in B is not gained                                                                                                                                                                                                                                                                                  | Custody read still not lawyer-verified                                                                                                                                                                              |
-| What it costs against going | Doing the TTI job from Malvern earns about HK$1.0M less over six years than moving to Hong Kong, or about HK$2.0M less if schooling is in the HK package. From London the gap is about 2.4M to 3.4M                                                                                                                                                                              | Whether that is a fair price for avoiding the biggest risk (let go after Horst leaves, around year three, with Sophia mid-GCSE and locked into HK international fees) is Julian's judgement to make in this section |
+
+ **Analysis of the TTI job from Malvern versus Hong Kong** 
+
+- **Money.** Salary rises from the 135k contractor figure to the TTI figure. On the 27 Sep sheet that is Malvern 2.28M to 4.35M at year six, London 0.85M to 2.92M. The sheet assumes a UK-based TTI role pays £200k, which is £30k a year less than the £230k assumed for Hong Kong; if TTI paid the full £230k from the UK, the UK figures would be higher and the gap to Hong Kong smaller
+  - *Untested:* Whether TTI would pay the same from the UK: to ask once the role is on the table
+- **Is it obtainable.** Nobody at TTI has yet said whether the role can be done from the UK. Stephan goes to Ty this week, so the shape has to be raised before then or not at all for this round
+  - *Untested:* Whether a UK-based TTI role is obtainable and Horst and Stephan would accept it (Julian, 27 Sep: "Yes, I need to ask"); open task on the Stephan timing
+- **Day to day.** Time-zone overlap with HK is mornings only; travel to HK regularly; Horst's sponsorship still matters, as does the chain that said no
+  - *Untested:* To be described once a UK shape is on the table
+- **If the job goes.** Julian is in the UK on the Malvern 135k contractor fallback, Sophia stays at The Chase, no international fees, no home-fee clock. The CRITICAL row in R does not happen
+  - *Untested:* This is the reason the option exists. It needs the risk of losing the job priced, not assumed away
+- **Sophia and Mum.** No second school move; Mum keeps them. The risk of moving out of Mum's for a relationship applies in full ([[Malvern-BRAIND]] Finance)
+  - *Untested:* Whether a regional rental shared with a partner keeps savings well above the London figure: the savings comparison has no such column yet
+- **Custody.** The UK exposure to a claim from Waterford stays; the HK-jurisdiction benefit in B is not gained
+  - *Untested:* Custody read still not lawyer-verified
+- **What it costs against going.** Doing the TTI job from Malvern earns about HK$1.0M less over six years than moving to Hong Kong, or about HK$2.0M less if schooling is in the HK package. From London the gap is about 2.4M to 3.4M
+  - *Untested:* Whether that is a fair price for avoiding the biggest risk (let go after Horst leaves, around year three, with Sophia mid-GCSE and locked into HK international fees) is Julian's judgement to make in this section
 
 ## I - Intuition Log
-
-Append-only. One dated block per capture. Intuition is recorded first so it is visible before the analysis rationalises it (same rule as the original [[capture|Stage 0]]).
 
 Raw captures (24, 27, 28 and 30 Sep 2026) are verbatim in [[HK-Return-Intuition]]. The summary below stands in for them here.
 
@@ -179,19 +180,14 @@ Drafted by the model from the raw captures, tested by a blind extraction pass an
 
 ---
 
-### 2026-09-29 · Findings from the counterfactual session
+**How the counterfactual runs bear on this summary** (runs of 29 Sep and the two re-runs of 30 Sep, in [[HK-Return-Counterfactuals]]; Julian's answers in full are there):
 
-Summary written by the model at Julian's instruction (29 Sep 2026), corrected the same day after an adversarial review. The BRAIND holds the findings. Julian's answers in full are in [[HK-Return-Counterfactuals]], moved there verbatim from this log; the quotes in bullets 5 and 8 are in [[HK-Return-Beliefs]], claims 16 and 22. Where a bullet is the model's reading it says so.
-
-- **The gut feeling.** "My gut instinct is telling me not to do it." Julian named three possible causes and did not choose between them. With the guilt removed the hesitation stayed: "I don't know because it feels risky." Model's reading of the runs: the job risk is the most likely cause; guilt may still contribute.
-- **What he chose with the risk removed.** Hong Kong, even with the same TTI role on offer from Malvern: "More money, living in my own place and better romance options clinched it."
-- **The pull does not depend on finding a partner there.** With a partner in either place: "Hong Kong for sure, because of two things", his own flat and the earnings. Malvern in that run came without the TTI money.
-- **His money test.** School fees in the package and a salary that clears break-even against Malvern within three years. "It's a minimum really", not enough on its own.
-- **The plan that would bound the risk (terms not confirmed).** "A 2 year guarantee through a contract is an option. If it looks like a renewal isn't going to happen then I could come back to UK for Sophia's GCSEs." On timing: "Realistically, for me, it's 4 years and the reason for that is because I'm not going to change Sophia halfway through her GCSEs."
-- **Keeping the job on merit once Horst steps back.** "Can't possibly answer that now."
-- **Lean adopted.** Hong Kong first if terms bound the downside; the TTI role from Malvern second; a UK market role third. A lean, not a decision.
-- **His reason for weighing himself.** "I would have said I have to think of myself as well as Sophia, not necessarily put myself first." "I have a blood disease and previously had cancer, I may have complications earlier than many." Earlier the same day, after the conversation with a friend: "I have to keep reminding myself that I got to put myself somewhat first."
-- **Hold.** The answers followed a conversation with a friend that removed the guilt. Runs 3 and 5 are asked again on or after 1 Oct 2026.
+1. Supported by run 3 ("More money, living in my own place and better romance options clinched it") and by run 5 both days. Partly contradicted while tired on 30 Sep: "the pull of Hong Kong as a place is disappearing", walked back to "very close lean HK" once money was named.
+2. Supported by run 1 (the hesitation stayed without the guilt, so the pull is real) and by the tired run 3 on 30 Sep, which named Sophia, Mum, Clodagh and enjoying the UK. Not contradicted.
+3. Supported by run 1 ("I don't know because it feels risky"), run 3 (with the risk removed he chooses Hong Kong) and run 2 on 30 Sep ("relief if I think it's risky"). Not contradicted.
+4. Not tested by any run. Run 4 (keeping the job on merit) left it open: "Can't possibly answer that now."
+5. Supported by the tired run 5 ("the risk is acceptable because I can leave after 2 years") and by runs 2 and 4 on 30 Sep in both states ("it would depend on evidence from the first two years"). Not contradicted.
+6. Supported directly by the two re-runs of 30 Sep: runs 3 and 5 firm for Hong Kong after a run, wavering when tired; the bad-job variant follows mood by his own account.
 
 ---
 
@@ -266,6 +262,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | At Julian's instruction the 29 Sep findings block moved out of the Intuition Log to [[HK-Return-Counterfactuals]]; in its place, six lines stating where the counterfactual runs supported or contradicted each point of the signed-off summary. |
+| 2026-09-30 | In A, the differences table for the TTI-from-Malvern option given back its caption (lost on 28 Sep) and converted to bullets at Julian's instruction; wording unchanged. |
 | 2026-09-30 | R digest refreshed from the sheet: the two 'between years 2 and 6' rows replaced by four rows for years 3 and 4 and years 5 and 6 (Relationships and Finance effects), ranked table and cause map rebuilt; one untagged row on home status rejection noted as outside the digest. Counts now 33 risks and 11 opportunities. |
 | 2026-09-30 | Intuition summary (six points) placed in the Intuition Log after Julian confirmed all six; points 4 and 5 carry his corrections from the review (the gap year route is unconfirmed and university-specific; the spring 2028 decision point differs between a contract and a permanent role). The placeholder line removed. |
 | 2026-09-30 | Ranked risk rows 1 and 2 refreshed: Julian added "Pursue home status from HK anyway" to both sheet rows for losing the job between years 2 and 6. |
