@@ -16,7 +16,7 @@ This is the record of the [[counterfactual-questioning]] runs for the question i
 
 ## Status
 
-> ⚠ **Status (30 Sep 2026):** runs 5 and 3 re-asked a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026), plus a new variant of run 3 in which the guaranteed job is bad. Asked while Julian was tired after a bad night, by his own account; the same three are to be asked again after his run today and compared. Tired-state result: run 5 "close", Hong Kong conditional on the job risk being acceptable; run 3 a tie that tipped with whichever factors were in view; run 3 variant UK if the job is certain to be terrible for six years, while in reality he would try two years and aim to prove himself. The adopted ranking stands as a lean until the second set is in. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only.
+> ⚠ **Status (30 Sep 2026):** runs 5 and 3 re-asked a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026), plus a new variant of run 3 in which the guaranteed job is bad, and runs 4 and 2. Asked while Julian was tired after a bad night, by his own account; the same five are to be asked again after his run today and compared. Tired-state result: run 5 "close", Hong Kong conditional on the job risk being acceptable; run 3 a tie that tipped with whichever factors were in view; run 3 variant UK if the job is certain to be terrible for six years, while in reality he would try two years and aim to prove himself. The adopted ranking stands as a lean until the second set is in. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only.
 
 ## Key Takeaways
 
@@ -52,8 +52,10 @@ Same wording as the originals, plus one new variant. The state column is Julian'
 | 5 | Tired, bad night, "panicking about the risks" | As run 5 above | "It's close." Hong Kong if the job-security risk is acceptable over six years, for his own place and twice the earnings; acceptable because he can leave at two years | Down from "Hong Kong for sure". Julian: his own place matters mainly for romance, and romance also drives through the dating market, which this run equalised by design |
 | 3 | As above | As run 3 above | First: very close, leaning UK (better for Sophia, near Mum, no guilt over Clodagh, enjoying the UK). After the model named money and romance as missing: "very close lean HK", for the extra HK$2M | A tie that tipped with whichever factors were in view. The flip followed a model prompt, so the second answer is not clean |
 | 3v | As above | New. As run 3, but the US and HK stakeholders never buy in and the job is as bad as the sheet row "TTI job is terrible between years 2 and 6" | "UK in case I can't stand it so much I have to quit." Clarified: that holds only if the job is certain to be terrible for six years; in reality he would possibly go for two years to see if he can prove himself and move into a decent job | A job known to be bad for six years goes to the UK. An uncertain job is handled by the two-year trial with a return before GCSEs, the plan he gave on 29 Sep |
+| 4 | As above | As run 4 above | "It would depend on evidence from the first two years. I would make the judgment call with enough time to come back." | Consistent with 29 Sep. The renewal question is answered by the two-year trial, not in advance |
+| 2 | As above | As run 2 above | "That depends on job security. Disappointment if I think it's guaranteed for 6 years, relief if I think it's risky." | Confirms in Julian's words the 29 Sep reading that the earlier relief was relief from the risk |
 
-To repeat after Julian's run on 30 Sep 2026: all three, same wording, first answer recorded before any model comment.
+To repeat after Julian's run on 30 Sep 2026: runs 5, 3, 3v, 4 and 2, same wording, first answer recorded before any model comment.
 
 ## Other questions asked in the same session
 
@@ -257,6 +259,10 @@ Julian's words, spelling corrected only.
 **On what softened it:** "I think the reason it's softened, perhaps, is distance from the conversation with my friend, secondly, just the silence from Stephan makes it feel more and more risky. After I spoke to my friend, I was convinced that, to enjoy my life, I really need to be in Hong Kong. Having slept on it, I suspect that I could carve out some sort of social life and maybe even romance for myself here. I think what's going on here is that my fear of it going wrong in Hong Kong is forcing me to look more optimistically at Malvern." And: "my view of Malvern is moving with mood. In fact, also my view of Hong Kong is moving with mood."
 
 **Run 3:** "This is very close so that is quite telling. I think it would be better for Sophia, it'd be nice to be near my mum, I won't feel guilty about Clodagh's relationship with Sophia and I'm quite enjoying the UK myself. I think the pull of Hong Kong as a place is disappearing and I'm warming to UK." After the model noted that money and romance were missing from that answer: "Hmm, unsure. The extra HK$2m will still make a difference so perhaps very close lean HK."
+
+**Run 4:** "It would depend on evidence from the first two years. I would make the judgment call with enough time to come back."
+
+**Run 2:** "That depends on job security. Disappointment if I think it's guaranteed for 6 years, relief if I think it's risky."
 
 **Run 3 variant:** "UK in case I can't stand it so much I have to quit." Then, clarifying: "In reality, I'd possibly go to Hong Kong for 2 years and see if I can prove myself and transition into a decent job. If the question is that it's guaranteed to be terrible for 6 years then UK."
 
