@@ -24,7 +24,7 @@ Seven questions are top of mind for Julian, and the BRAIND exists to answer them
 
 ## Status
 
-> ⚠ **Status (30 Sep 2026):** R refreshed today for a new cause Julian added to the sheet, "TTI Job is suboptimal" (the job is kept but is bad: three rows, all Material and High). Otherwise as at 29 Sep: five counterfactual runs and six belief and assumption tests worked with Julian; findings in the Intuition Log (29 Sep block), answers in full in [[HK-Return-Counterfactuals]], verdicts in the check table, detail in [[HK-Return-Beliefs]]. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]]. Runs 3 and 5 are re-asked on or after 1 Oct 2026 and nothing changes state before then. Three claims wait for Stephan or Horst: a UK-based role, the contract terms and the start date. Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go, and the probability response for the new first-two-years row). N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. Still to do in this file: A rewritten to the adopted order, Purpose questions 1, 3, 5 and 6 answered in Julian's words, the N date set, D open pending written terms, and no `## Prompt Zero` section yet. Three claims wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
@@ -72,7 +72,7 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 ## R - Risks
 
-**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (31 risks and 11 opportunities as of 30 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 30 Sep 2026.
+**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (33 risks and 11 opportunities as of 30 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 30 Sep 2026.
 
 **Summary against the four questions in the Purpose (as of 28 Sep 2026):**
 
@@ -93,26 +93,30 @@ Other time periods are less risky
 The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of 1 go to boarding school. She can rebuild the relationship on video and through holidays.  
 ### Ranked risks
 
-Rows marked Material in the sheet and scored High before response, Julian's critical one first (it now has two effect rows). Everything else is in the sheet.
+Rows marked Material in the sheet and scored High before response, Julian's critical case first (losing the job in the GCSE and A-level years, now four effect rows). Everything else is in the sheet.
 
 | Rank | Event (sheet wording) | Effect in one line | Score before, after response | Response headline |
 |---|---|---|---|---|
-| 1 (CRITICAL, Julian 27 Sep) | Lose my TTI job between years 2 and 6 | Worst case scenario. I would need to either stay in HK and try to get a job, or move back to UK | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company. Reduce impact: Save enough to cover Uni in first 3 years. Pursue home status from HK anyway (sheet as at 30 Sep) |
-| 2 (same event, second effect) | Lose my TTI job between years 2 and 6 | Worst case scenario. It's mid way through either GCSEs or A-levels and Sophia has to drop back a year | High, - | Reduce impact: I would have to try to survive until she finished the year by taking any job I could get. Pursue home status from HK anyway (sheet as at 30 Sep) |
-| 3 | Lose my TTI Job within the first 2 years | I would need to either stay in HK and try to get a job, or move back to UK | High, - | Reduce probability: Prove my value relentlessly and build power within the company |
-| 4 | Lose my TTI Job within the first 2 years | Sophia gets another year behind with French creating a significant 2 years gap | High, Medium | Reduce probability: Learn French in DBIS if the option exists |
-| 5 | Lack of genuine buy-in from US stakeholders | I become a political target and lose my Job if Horst's position weakens | High, - | Fallback: Negotiate a position out of Europe |
-| 6 | Lack of genuine buy-in from HK stakeholders | I can't demonstrate value which creates embarrassment for Horst and Stephan | High, - | Fallback: Negotiate a position out of Europe |
-| 7 | TTI only offer a contract | Financial gains are reduced | High, - | Reduce impact: ask for a fixed term (the sheet's sentence is unfinished) |
-| 8 | TTI offer a non-architectural or junior role | Depending what it is, it could really harm my future prospects | High, - | Reduce impact: Ask to do the Job from UK and look for another job |
-| 9 | Sophia & Clodagh relationship stays broken | Sophia & Clodagh relationship remains broken down | High, Medium | Reduce probability: Do regular face time calls, visit Hong Kong for Christmas and Sophia visits Ireland |
-| 10 (new 30 Sep) | TTI job is terrible between years 2 and 6 | This is the worst case, I would likely be trapped due to need to save for overseas uni fees | High, - | Reduce impact: Look for another well paid Job whilst I still have a job. Reduce probability: Deliver value and ensure I am seen as an asset, and then change role |
-| 11 (new 30 Sep) | TTI job is terrible in the first 2 years | I would not be happy, but I could attempt to find another job or leave before GCSE years | High, - | Reduce impact: Move back to UK for GCSE Years (probability response blank in the sheet) |
-| 12 (new 30 Sep) | TTI Job is terrible after 6 years | I would feel reasonably trapped due to the higher schooling | High, - | Accept: Get on with it as long as I can bear it |
+| 1 (CRITICAL, Julian 27 Sep; restructured 30 Sep) | Lose my TTI job between years 3 and 4 | Worst case scenario. It's mid way through her GCSEs so Sophia's schooling is impacted | High, Medium, RAG Red | Reduce probability: Prove my value relentlessly and build power within the company. Pursue local status. Reduce impact: I would have to try to survive until she finished the year by taking any job I could get |
+| 2 (same event, second effect; restructured 30 Sep) | Lose my TTI job between years 3 and 4 | Worst case scenario. It's mid way through her GCSEs so we are financially impacted | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company. Pursue local status. Reduce impact: Save enough for Uni in first 2-3 years. Move back to UK for A-levels and do a gap year before uni |
+| 3 (restructured 30 Sep) | Lose my TTI job between years 5 and 6 | Worst case scenario. It's mid way through her A-levels so Sophia's schooling is impacted | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company. Pursue local status. Reduce impact: I would have to try to survive until she finished the year by taking any job I could get |
+| 4 (same event, second effect; restructured 30 Sep) | Lose my TTI job between years 5 and 6 | Worst case scenario. It's mid way through her A-levels so we are financially impacted | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company. Pursue local status. Reduce impact: Save enough for Uni in first 4-5 years. Pursue home status from HK anyway |
+| 5 | Lose my TTI Job within the first 2 years | I would need to either stay in HK and try to get a job, or move back to UK | High, - | Reduce probability: Prove my value relentlessly and build power within the company. Try to lock in for 2 years if it's a contract. Discuss this risk with Stephan. Reduce impact: move back to Malvern with Mum and get Sophia back into the Chase or another Malvern school |
+| 6 | Lose my TTI Job within the first 2 years | Sophia gets another year behind with French creating a significant 2 years gap | High, Medium | Reduce probability: Learn French in DBIS if the option exists. Start Duo Lingo if the probability looks high. Reduce impact: Intensive French lessons or private mandarin lessons agreed with the school |
+| 7 | Lack of genuine buy-in from US stakeholders | I become a political target and lose my Job if Horst's position weakens | High, - | Fallback: Negotiate a position out of Europe |
+| 8 | Lack of genuine buy-in from HK stakeholders | I can't demonstrate value which creates embarrassment for Horst and Stephan | High, - | Fallback: Negotiate a position out of Europe |
+| 9 | TTI only offer a contract | Financial gains are reduced | High, - | Reduce impact: ask for a fixed term (the sheet's sentence is unfinished). Reduce probability: push for perm role |
+| 10 | TTI offer a non-architectural or junior role | Depending what it is, it could really harm my future prospects | High, - | Reduce impact: Ask to do the Job from UK and look for another job. Reduce probability: Negotiate a better role |
+| 11 | Sophia & Clodagh relationship stays broken | Sophia & Clodagh relationship remains broken down | High, Medium | Reduce probability: Do regular face time calls, visit Hong Kong for Christmas and Sophia visits Ireland |
+| 12 (new 30 Sep) | TTI job is terrible between years 2 and 6 | This is the worst case, I would likely be trapped due to need to save for overseas uni fees | High, - | Reduce impact: Look for another well paid Job whilst I still have a job. Reduce probability: Deliver value and ensure I am seen as an asset, and then change role |
+| 13 (new 30 Sep) | TTI job is terrible in the first 2 years | I would not be happy, but I could attempt to find another job or leave before GCSE years | High, - | Reduce impact: Move back to UK for GCSE Years (probability response blank in the sheet) |
+| 14 (new 30 Sep) | TTI Job is terrible after 6 years | I would feel reasonably trapped due to the higher schooling | High, - | Accept: Get on with it as long as I can bear it |
+
+One row added 30 Sep 2026 (effect: we apply for home status and get rejected (either A-levels + gap year or via agency), Material, High, residual medium/high/medium) has no Scenario, Cause or Event filled in, so it sits outside this digest until Julian tags it.
 
 ### Cause map
 
-One line per cause in the sheet, covering all 31 risk rows.
+One line per cause in the sheet, covering all 33 risk rows.
 
 | Cause                      | Events | Material | Scored High before response |
 | -------------------------- | ------ | -------- | --------------------------- |
@@ -122,7 +126,7 @@ One line per cause in the sheet, covering all 31 risk rows.
 | Joanne needs a decision    | 1      | 0        | 0                           |
 | Resistance to the move     | 3      | 3        | 0                           |
 | TTI offer is suboptimal    | 5      | 5        | 2                           |
-| TTI Job is insecure        | 7      | 6        | 6                           |
+| TTI Job is insecure        | 9      | 9        | 8                           |
 | TTI Job is suboptimal      | 3      | 3        | 3                           |
 | Leaving the Chase School   | 1      | 0        | 0                           |
 
@@ -156,7 +160,22 @@ Warning: an option that avoids choosing between Hong Kong and Malvern can look a
 
 Append-only. One dated block per capture. Intuition is recorded first so it is visible before the analysis rationalises it (same rule as the original [[capture|Stage 0]]).
 
-Raw captures (24, 27 and 28 Sep 2026) moved verbatim to [[HK-Return-Intuition]] on 30 Sep 2026; a summary replaces this section once Julian signs it off.
+Raw captures (24, 27, 28 and 30 Sep 2026) are verbatim in [[HK-Return-Intuition]]. The summary below stands in for them here.
+
+---
+
+### 2026-09-30 · Intuition summary, signed off by Julian
+
+Drafted by the model from the raw captures, tested by a blind extraction pass and a Codex adversarial pass, then revised with Julian and confirmed by him on 30 Sep 2026. Quotes are his. It describes what the gut says; it accepts nothing (acceptance of residual risks is judged in the sheet and stated in D).
+
+1. **The pull to Hong Kong keeps coming back to three things: money, his own place, and romance.** The money is about retiring in six years. His own place matters mainly for romance, and romance also works through the dating market. Money is a minimum, though: "Breaking even is not ideal because I compromise relationships for nothing other than lifestyle."
+2. **The pull to the UK is Sophia (who is beginning to prefer it here), Mum, not adding to the guilt over Clodagh, and a life here he partly enjoys.** Weekdays at Mum's working from home suit him, and "no life in Malvern" is "an exaggeration".
+3. **The gut feeling against going traces mainly to job security.** It stayed when the guilt was taken away ("it feels risky"), and his relief at a Malvern-based version of the job depends on how risky the job looks. It is the central factor, not the only one.
+4. **The worst case is losing the job once Sophia has started her GCSEs.** He will not move her mid-course, so the exit deadline protects her education as well as the money. The fee part may be recoverable through a return by 1 September 2030 and a gap year, but that is not confirmed: there are no solid success cases, and it may be decided university by university, which is a secondary risk in its own right. Hong Kong without a salary until then is not recoverable.
+5. **His recurring conditional option:** go for two years, try to prove himself, and come back before the GCSEs if it is not working. The decision point is around spring 2028, before the summer exit. What it looks like depends on the form of employment: on a 24-month contract it is the renewal, and renewing means GCSEs in Hong Kong and the gap year route; in a permanent role there is no renewal, so it is either quitting or negotiating a move to the UK. If six years looks unlikely, negotiate the TTI role from Malvern instead. For a job known to be bad, he answers UK when risk-averse and "try to turn it around" when bullish.
+6. **His read of both places moves with his state and with events.** A friend's conversation removed the guilt; a bad night and Stephan's silence made it all feel riskier. The records cannot separate mood from new information. His health is a reason in its own right to weigh himself "as well as Sophia".
+
+**Still open (30 Sep 2026):** his ideal-partner profile, now and at 61; the fear that a UK role is "bottling out"; Faz's view that £135k may be hard to earn in the UK.
 
 ---
 
@@ -247,6 +266,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | R digest refreshed from the sheet: the two 'between years 2 and 6' rows replaced by four rows for years 3 and 4 and years 5 and 6 (Relationships and Finance effects), ranked table and cause map rebuilt; one untagged row on home status rejection noted as outside the digest. Counts now 33 risks and 11 opportunities. |
+| 2026-09-30 | Intuition summary (six points) placed in the Intuition Log after Julian confirmed all six; points 4 and 5 carry his corrections from the review (the gap year route is unconfirmed and university-specific; the spring 2028 decision point differs between a contract and a permanent role). The placeholder line removed. |
 | 2026-09-30 | Ranked risk rows 1 and 2 refreshed: Julian added "Pursue home status from HK anyway" to both sheet rows for losing the job between years 2 and 6. |
 | 2026-09-30 | Claim 24 added (temporary employment provision, parked); claim 13 verdict no longer cites the withdrawn 28 Sep line. |
 | 2026-09-30 | R refreshed for Julian's new sheet cause "TTI Job is suboptimal": three risk rows (terrible in the first 2 years, between years 2 and 6, after 6 years), all Material and scored High before response, added to the ranked table as rows 10 to 12 in sheet order (Julian has not ranked them) and to the cause map. Counts now 31 risks and 11 opportunities. Not carried: a "TTI Job is insecure" row with no scenario tag ("Lack of compelling evidence I will survive 6 years"), excluded as untagged. |
@@ -348,6 +369,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-30 | Machine (subagent, Sonnet) | 92,254 tokens | Pass 1: blind extraction of intuition themes from the raw captures (18 themes, 10 shifts between dates) |
 | 2026-09-30 | Machine (subagent wrapper) | 43,311 tokens | Pass 3 wrapper for the Codex adversarial test of the draft intuition insights |
 | 2026-09-30 | Machine (Codex exec) | 48,937 tokens | Pass 3: Codex adversarial test of the six draft insights (all six mixed; merges proposed). From ~/.codex/logs_2.sqlite |
+| 2026-09-30 | Machine (subagent, Sonnet) | 106,790 tokens | R digest rebuilt from the sheet after Julian's restructure of the job-loss rows (evening) |
 
 ## Session Synopsis
 
