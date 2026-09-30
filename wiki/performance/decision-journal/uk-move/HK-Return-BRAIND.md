@@ -167,27 +167,39 @@ Raw captures (24, 27, 28 and 30 Sep 2026) are verbatim in [[HK-Return-Intuition]
 
 ### 2026-09-30 · Intuition summary, signed off by Julian
 
-Drafted by the model from the raw captures, tested by a blind extraction pass and a Codex adversarial pass, then revised with Julian and confirmed by him on 30 Sep 2026. Quotes are his. It describes what the gut says; it accepts nothing (acceptance of residual risks is judged in the sheet and stated in D).
+Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by a blind extraction pass and a Codex adversarial pass, revised with Julian and confirmed by him on 30 Sep 2026. Quotes are his. Under each point: the counterfactual runs that bear on it, from [[HK-Return-Counterfactuals]] (29 Sep, and the two re-runs of 30 Sep, tired then clear-headed). It describes what the gut says; it accepts nothing.
 
-1. **The pull to Hong Kong keeps coming back to three things: money, his own place, and romance.** The money is about retiring in six years. His own place matters mainly for romance, and romance also works through the dating market. Money is a minimum, though: "Breaking even is not ideal because I compromise relationships for nothing other than lifestyle."
-2. **The pull to the UK is Sophia (who is beginning to prefer it here), Mum, not adding to the guilt over Clodagh, and a life here he partly enjoys.** Weekdays at Mum's working from home suit him, and "no life in Malvern" is "an exaggeration".
-3. **The gut feeling against going traces mainly to job security.** It stayed when the guilt was taken away ("it feels risky"), and his relief at a Malvern-based version of the job depends on how risky the job looks. It is the central factor, not the only one.
-4. **The worst case is losing the job once Sophia has started her GCSEs.** He will not move her mid-course, so the exit deadline protects her education as well as the money. The fee part may be recoverable through a return by 1 September 2030 and a gap year, but that is not confirmed: there are no solid success cases, and it may be decided university by university, which is a secondary risk in its own right. Hong Kong without a salary until then is not recoverable.
-5. **His recurring conditional option:** go for two years, try to prove himself, and come back before the GCSEs if it is not working. The decision point is around spring 2028, before the summer exit. What it looks like depends on the form of employment: on a 24-month contract it is the renewal, and renewing means GCSEs in Hong Kong and the gap year route; in a permanent role there is no renewal, so it is either quitting or negotiating a move to the UK. If six years looks unlikely, negotiate the TTI role from Malvern instead. For a job known to be bad, he answers UK when risk-averse and "try to turn it around" when bullish.
-6. **His read of both places moves with his state and with events.** A friend's conversation removed the guilt; a bad night and Stephan's silence made it all feel riskier. The records cannot separate mood from new information. His health is a reason in its own right to weigh himself "as well as Sophia".
+**1. The pull to Hong Kong keeps coming back to three things: money, his own place, and romance.** The money is about retiring in six years. His own place matters mainly for romance, and romance also works through the dating market. Money is a minimum, though: "Breaking even is not ideal because I compromise relationships for nothing other than lifestyle."
+- *Supported by run 3 (job risk removed in both places):* he chose Hong Kong, "More money, living in my own place and better romance options clinched it."
+- *Supported by run 5 (a partner in either place), both days:* "Hong Kong for sure", for his own flat and the earnings; on 30 Sep, "Better money, my own place."
+- *Partly contradicted while tired on 30 Sep:* run 3 gave "the pull of Hong Kong as a place is disappearing and I'm warming to UK", walked back to "very close lean HK" once money was named.
+
+**2. The pull to the UK is Sophia (who is beginning to prefer it here), Mum, not adding to the guilt over Clodagh, and a life here he partly enjoys.** Weekdays at Mum's working from home suit him, and "no life in Malvern" is "an exaggeration".
+- *Supported by run 1 (guilt removed):* the hesitation stayed, so the UK pull is not only guilt.
+- *Supported by the tired run 3 on 30 Sep,* which named all four in his own words: "better for Sophia, it'd be nice to be near my mum, I won't feel guilty about Clodagh's relationship with Sophia and I'm quite enjoying the UK myself."
+- *Not contradicted by any run.*
+
+**3. The gut feeling against going traces mainly to job security.** It stayed when the guilt was taken away ("it feels risky"), and his relief at a Malvern-based version of the job depends on how risky the job looks. It is the central factor, not the only one.
+- *Supported by run 1:* "I don't know because it feels risky."
+- *Supported by run 3:* with the risk removed he chooses Hong Kong, so the risk is what holds him back.
+- *Supported by run 2 on 30 Sep (same job, based in Malvern):* "Disappointment if I think it's guaranteed for 6 years, relief if I think it's risky."
+- *Not contradicted by any run.*
+
+**4. The worst case is losing the job once Sophia has started her GCSEs.** He will not move her mid-course, so the exit deadline protects her education as well as the money. The fee part may be recoverable through a return by 1 September 2030 and a gap year, but that is not confirmed: there are no solid success cases, and it may be decided university by university, which is a secondary risk in its own right. Hong Kong without a salary until then is not recoverable.
+- *Not tested by any run.* It comes from the risk work ([[HK-Return-Beliefs]], claims 13 and 16, and the sheet rows for years 3 and 4).
+- *Run 4 (keeping the job on merit once Horst steps back) left it open:* "Can't possibly answer that now."
+
+**5. His recurring conditional option:** go for two years, try to prove himself, and come back before the GCSEs if it is not working. The decision point is around spring 2028, before the summer exit. What it looks like depends on the form of employment: on a 24-month contract it is the renewal, and renewing means GCSEs in Hong Kong and the gap year route; in a permanent role there is no renewal, so it is either quitting or negotiating a move to the UK. If six years looks unlikely, negotiate the TTI role from Malvern instead. For a job known to be bad, he answers UK when risk-averse and "try to turn it around" when bullish.
+- *Supported by the tired run 5 on 30 Sep:* "The risk is acceptable because I can leave after 2 years. If it really looked like I will not last six years then I would perhaps pivot, although I would probably look to negotiate the TTI role from Malvern."
+- *Supported by runs 2 and 4 on 30 Sep in both states:* "It would depend on evidence from the first two years. I would make the judgment call with enough time to come back."
+- *Supported by his statement before run 4 on 29 Sep:* if Horst might go in two years he would still consider it, because "I could do the 2 years, and if it's looking like he's going to go and I haven't proven myself, I come back and I still get home fees status."
+- *Not contradicted by any run.*
+
+**6. His read of both places moves with his state and with events.** A friend's conversation removed the guilt; a bad night and Stephan's silence made it all feel riskier. The records cannot separate mood from new information. His health is a reason in its own right to weigh himself "as well as Sophia".
+- *Supported directly by the two re-runs of 30 Sep:* runs 3 and 5 were firm for Hong Kong after a run and wavered when tired; the bad-job variant flipped between the two states, "very dependent on how bullish or risk-averse I am".
+- *Supported by his own account while tired:* "my view of Malvern is moving with mood. In fact, also my view of Hong Kong is moving with mood."
 
 **Still open (30 Sep 2026):** his ideal-partner profile, now and at 61; the fear that a UK role is "bottling out"; Faz's view that £135k may be hard to earn in the UK.
-
----
-
-**How the counterfactual runs bear on this summary** (runs of 29 Sep and the two re-runs of 30 Sep, in [[HK-Return-Counterfactuals]]; Julian's answers in full are there):
-
-1. Supported by run 3 ("More money, living in my own place and better romance options clinched it") and by run 5 both days. Partly contradicted while tired on 30 Sep: "the pull of Hong Kong as a place is disappearing", walked back to "very close lean HK" once money was named.
-2. Supported by run 1 (the hesitation stayed without the guilt, so the pull is real) and by the tired run 3 on 30 Sep, which named Sophia, Mum, Clodagh and enjoying the UK. Not contradicted.
-3. Supported by run 1 ("I don't know because it feels risky"), run 3 (with the risk removed he chooses Hong Kong) and run 2 on 30 Sep ("relief if I think it's risky"). Not contradicted.
-4. Not tested by any run. Run 4 (keeping the job on merit) left it open: "Can't possibly answer that now."
-5. Supported by the tired run 5 ("the risk is acceptable because I can leave after 2 years") and by runs 2 and 4 on 30 Sep in both states ("it would depend on evidence from the first two years"). Not contradicted.
-6. Supported directly by the two re-runs of 30 Sep: runs 3 and 5 firm for Hong Kong after a run, wavering when tired; the bad-job variant follows mood by his own account.
 
 ---
 
@@ -262,6 +274,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Intuition summary restructured at Julian's instruction: each of the six points followed by the runs that supported or contradicted it, with his words. Content unchanged. |
 | 2026-09-30 | At Julian's instruction the 29 Sep findings block moved out of the Intuition Log to [[HK-Return-Counterfactuals]]; in its place, six lines stating where the counterfactual runs supported or contradicted each point of the signed-off summary. |
 | 2026-09-30 | In A, the differences table for the TTI-from-Malvern option given back its caption (lost on 28 Sep) and converted to bullets at Julian's instruction; wording unchanged. |
 | 2026-09-30 | R digest refreshed from the sheet: the two 'between years 2 and 6' rows replaced by four rows for years 3 and 4 and years 5 and 6 (Relationships and Finance effects), ranked table and cause map rebuilt; one untagged row on home status rejection noted as outside the digest. Counts now 33 risks and 11 opportunities. |
