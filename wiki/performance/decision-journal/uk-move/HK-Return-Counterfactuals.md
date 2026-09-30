@@ -114,7 +114,7 @@ Written by the model from runs 3 to 5. Julian, 29 Sep: "I like the summary you'v
 | 2 | The TTI role from Malvern, if those terms are refused |
 | 3 | A UK market role |
 
-**What it rests on (29 Sep 2026):** claims 16 to 19 and 23, with verdicts in the check table of [[HK-Return-BRAIND]] and detail in [[HK-Return-Beliefs]]. Later the same day claims 16, 17 and 19 were tested: home fee status survives a return by summer 2028 by the published rule; Julian would accept any of three schools, with availability unverified; Sophia's one remark is that a move back would be "really annoying". TTI agreeing the terms and the start date wait for Stephan.
+**What it rests on (29 Sep 2026):** claims 16 to 19 and 23 (in [[HK-Return-BRAIND]]: 19 under the Intuition summary, the rest in the assumptions plan; detail in [[HK-Return-Beliefs]]). Later the same day claims 16, 17 and 19 were tested: home fee status survives a return by summer 2028 by the published rule; Julian would accept any of three schools, with availability unverified; Sophia's one remark is that a move back would be "really annoying". TTI agreeing the terms and the start date wait for Stephan.
 
 **Hold:** to be checked against a re-ask of runs 3 and 5 on or after 1 Oct 2026. A session-start reminder prompts it from that date until the re-ask is recorded here.
 

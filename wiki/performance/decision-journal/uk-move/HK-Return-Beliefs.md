@@ -10,13 +10,13 @@ decision: Return to Hong Kong on a TTI offer
 
 ## Purpose
 
-This is the detail behind each belief and assumption in the check table of [[HK-Return-BRAIND]]: the evidence, Julian's words, the numbers and the sources. It exists so the BRAIND can carry one line per claim.
+This is the detail behind each numbered belief and assumption in [[HK-Return-BRAIND]] (beliefs under its Intuition summary, assumptions in its "Assumptions and the plan to clear them" section): the evidence, Julian's words, the numbers and the sources. It exists so the BRAIND can carry one line per claim.
 
 **Map:** Status · Key Takeaways · How to read this file · The claims, in number order · Links · Document Log
 
 ## Status
 
-> ⚠ **Status (29 Sep 2026):** 23 claims are held here. The numbers run to 23 because there is no claim 2 and two claims are numbered 9. Six were tested with Julian on 29 Sep: claims 16, 17, 19, 20, 21 and 22. Claim 13 holds in practice: the rule under claim 16 would allow a return during Year 10, but Julian will not move Sophia mid-GCSE. Claim 10 is resolved, claim 12 is labelled speculative and the second claim 9 is parked. Three can only be answered by Stephan or Horst and have not been asked: claims 11, 18 and 23. Open: claims 1, 3, 4, 5, 6, 7, 8, the first 9, 14 and 15. Verdicts are in the BRAIND table, not here.
+> ⚠ **Status (29 Sep 2026):** 23 claims are held here. The numbers run to 23 because there is no claim 2 and two claims are numbered 9. Six were tested with Julian on 29 Sep: claims 16, 17, 19, 20, 21 and 22. Claim 13 holds in practice: the rule under claim 16 would allow a return during Year 10, but Julian will not move Sophia mid-GCSE. Claim 10 is resolved, claim 12 is labelled speculative and the second claim 9 is parked. Three can only be answered by Stephan or Horst and have not been asked: claims 11, 18 and 23. Open: claims 1, 3, 4, 5, 6, 7, 8, the first 9, 14 and 15. Verdicts and actions are in the BRAIND, not here. Claim 15 was reclassified from belief to assumption on 30 Sep 2026; claims 26, 27 and 28 were accepted by Julian on 30 Sep and have entries below; 25 was struck and has none.
 
 ## Key Takeaways
 
@@ -197,6 +197,24 @@ Added 29 Sep 2026. Julian: "Earliest realistic start in Hong Kong is sometime in
 
 Added 30 Sep 2026 from finding 1 of [[uk-home-fee-status-opus-review-2026-09-30]]. The rule exists (UKCISA, Cambridge, Manchester, Student Finance England). Julian's read the same day: a long shot, hard to argue alongside a plan built on not being UK tax resident, about 90 days in the UK before leaving, and Cecil Road let. Parked as separate work in [[uk-relocation-contract-vs-permanent]]. Not to be counted as a saving unless a university confirms it in writing on an actual contract. Separate from the gap year route, which keeps home fees on a renewal without any contract.
 
+### Claim 26: TTI would pay the same salary from the UK as from Hong Kong
+
+**Type:** Assumption
+
+Added 30 Sep 2026 from a sweep of the BRAIND's A section, accepted by Julian the same day. The savings sheet assumes a UK-based TTI role pays £200k against £230k in Hong Kong; on that assumption Hong Kong leads the Malvern role by about HK$1.0M over six years, or HK$2.0M with schooling in the package. At equal pay the gap shrinks to the tax difference and the schooling. Cleared only by asking Stephan once a UK-based shape is on the table (assumption 11); asking earlier would signal the wrong preference. Julian: "This can remain as an assumption until I need to discuss the option."
+
+### Claim 27: Schooling in the package might extend to university
+
+**Type:** Assumption
+
+Added 30 Sep 2026 from a sweep of the BRAIND's B section, accepted and parked by Julian the same day: "Justin got it, but it doesn't mean I will." From the sheet's opportunity row, worth about HK$1,000,000; not counted in the savings sheet, so upside only. If real it would remove much of the £120,000 university reserve. To be raised with Stephan only after the school fees answer, still unanswered from the 26 Sep asks.
+
+### Claim 28: £135k a year is earnable in the UK on the contractor route
+
+**Type:** Assumption
+
+Added 30 Sep 2026 from a sweep of the BRAIND's A and Intuition sections, accepted by Julian the same day. Every UK fallback figure in [[uk-relocation-savings-comparison]] rests on it: Malvern on 135k gives about HK$2.28M over six years, London about HK$0.85M; on the sheet's 110k column Malvern falls to about HK$1.48M. Faz told Julian on 30 Sep that £135k may be hard to earn, from his own and his friends' experience of the market (capture in [[HK-Return-Intuition]]). Current basis: [[uk-contractor-salary-expectations]]. To clear it: check current listings and two recruiters at Julian's level, remote or hybrid from Malvern, and compare with the earlier job market work.
+
 ## Links
 
 - [[HK-Return-BRAIND]] - the decision file; its check table holds the one-line verdicts
@@ -210,6 +228,8 @@ Added 30 Sep 2026 from finding 1 of [[uk-home-fee-status-opus-review-2026-09-30]
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Claims 26, 27 and 28 added after Julian accepted them; 25 struck. |
+| 2026-09-30 | Purpose and Status updated after the BRAIND's claims table was split into beliefs (under the Intuition summary) and assumptions (a plan near the end). |
 | 2026-09-30 | Claim 24 added (temporary employment provision, parked). The 28 Sep line under claim 13 withdrawn at Julian's instruction, with the transcript evidence noted. |
 | 2026-09-30 | Claim 16 note: the education-purpose rule, unverified on 29 Sep, confirmed by the Opus review of [[uk-home-fee-status]]. |
 | 2026-09-29 | Gap year route checked against UKCISA and one university's guidance and recorded under claim 16, with conditions, evidence and one unverified rule flagged. |
