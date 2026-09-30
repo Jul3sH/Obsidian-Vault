@@ -12,11 +12,11 @@ decision: Return to Hong Kong on a TTI offer
 
 This is the record of the [[counterfactual-questioning]] runs for the question in [[HK-Return-BRAIND]]: if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move? It exists to show which factors are driving his gut feeling against going.
 
-**Map:** Status · Key Takeaways · The feeling · Runs completed · Other questions asked · Runs still to do · Ranking (superseded) · Ranking adopted · Julian's answers in full · Links · Document Log
+**Map:** Status · Key Takeaways · The feeling · Runs completed · Re-runs · Other questions asked · Runs still to do · Ranking (superseded) · Ranking adopted · Julian's answers in full · Links · Document Log
 
 ## Status
 
-> ⚠ **Status (29 Sep 2026):** all five runs are completed and the list is closed. With the job risk removed, Julian chooses Hong Kong. He adopted the ranking under "Ranking adopted" below on 29 Sep. It is a lean, not a decision. The runs were answered hours after a conversation with a friend that, in Julian's words, removed the guilt, so runs 3 and 5 are to be asked again on or after 1 Oct 2026 and no decision state changes before then. Julian's answers in full are in this file, under "Julian's answers in full"; the BRAIND holds the findings only.
+> ⚠ **Status (30 Sep 2026):** runs 5 and 3 re-asked a day early at Julian's instruction (the 48-hour hold ran to 1 Oct; override recorded 30 Sep 2026), plus a new variant of run 3 in which the guaranteed job is bad. Asked while Julian was tired after a bad night, by his own account; the same three are to be asked again after his run today and compared. Tired-state result: run 5 "close", Hong Kong conditional on the job risk being acceptable; run 3 a tie that tipped with whichever factors were in view; run 3 variant UK if the job is certain to be terrible for six years, while in reality he would try two years and aim to prove himself. The adopted ranking stands as a lean until the second set is in. Julian's answers in full are under "Julian's answers in full"; the BRAIND holds the findings only.
 
 ## Key Takeaways
 
@@ -42,6 +42,18 @@ Runs 1 and 2 were two of six candid questions asked before the tool was written 
 | 5 | Romance | Equalise | A partner is in your life in either place. Hong Kong is the TTI role as expected; Malvern is a UK market role, living at Mum's. Where do you live? | "Hong Kong for sure", for his own flat and the earnings | The pull to Hong Kong does not depend on finding a partner there. Malvern here came without the TTI money, so money is part of the answer |
 | 3 | Job security | Guarantee | Six years guaranteed in writing in either place, the same TTI role in both (about HK$6.3M against HK$4.3M in savings), romance as he believes it really is. Where do you live? | "Hong Kong." "More money, living in my own place and better romance options clinched it." | With the risk removed the preference is Hong Kong, with Sophia, Mum and Clodagh all in the picture. Read with run 2, the earlier relief was most likely relief from the risk |
 | 4 | Horst, reframed by Julian as keeping the job on merit | Remove | Horst steps back during a two-year contract. Do you back yourself to earn the renewal? | "Can't possibly answer that now." It depends on the relationships built and what has been delivered | Unknowable in advance. Before the run he said he would still consider going if Horst might leave in two years, because a two-year stay and return keeps home fee status |
+
+## Re-runs (30 Sep 2026)
+
+Same wording as the originals, plus one new variant. The state column is Julian's own account. The last column is the model's reading.
+
+| # | Julian's state | Question | Julian's answer | What it showed |
+|---|---|---|---|---|
+| 5 | Tired, bad night, "panicking about the risks" | As run 5 above | "It's close." Hong Kong if the job-security risk is acceptable over six years, for his own place and twice the earnings; acceptable because he can leave at two years | Down from "Hong Kong for sure". Julian: his own place matters mainly for romance, and romance also drives through the dating market, which this run equalised by design |
+| 3 | As above | As run 3 above | First: very close, leaning UK (better for Sophia, near Mum, no guilt over Clodagh, enjoying the UK). After the model named money and romance as missing: "very close lean HK", for the extra HK$2M | A tie that tipped with whichever factors were in view. The flip followed a model prompt, so the second answer is not clean |
+| 3v | As above | New. As run 3, but the US and HK stakeholders never buy in and the job is as bad as the sheet row "TTI job is terrible between years 2 and 6" | "UK in case I can't stand it so much I have to quit." Clarified: that holds only if the job is certain to be terrible for six years; in reality he would possibly go for two years to see if he can prove himself and move into a decent job | A job known to be bad for six years goes to the UK. An uncertain job is handled by the two-year trial with a return before GCSEs, the plan he gave on 29 Sep |
+
+To repeat after Julian's run on 30 Sep 2026: all three, same wording, first answer recorded before any model comment.
 
 ## Other questions asked in the same session
 
@@ -230,6 +242,26 @@ Julian's words, spelling corrected only.
 
 - *Model note (29 Sep 2026):* the re-run of runs 3 and 5 is prompted by a session-start reminder from 1 Oct 2026 until the re-ask is recorded in this file.
 
+---
+
+### 2026-09-30 · Re-runs while tired
+
+Julian's words, spelling corrected only.
+
+**On his state:** "Had a bad sleep, and I've woken up negative, and now I'm panicking about the risks. I'm going to have a run soon, and I'll be interested to run questions that are associated with the Hong Kong risk after I've had a run."
+
+**Run 5:** "It's close. Hong Kong if I think the job security risk is acceptable over six years as I would have my own place and 2* the earnings over six years. The risk is acceptable because I can leave after at 2 years. If it really looked like I will not last six years then I would perhaps pivot, although I would probably look to negotiate the TTI role from Malvern."
+
+**On romance, after run 5:** "Having my own place is important mainly because of romance. Actually, my Mum's house is very nice, and I quite like living here, so I need to be clear for all of these that having my own place is largely to do with romance." And: "romance is a driver through the dating market as well. I'm much more likely to find somebody in Hong Kong, I believe, who I fancy."
+
+**On what softened it:** "I think the reason it's softened, perhaps, is distance from the conversation with my friend, secondly, just the silence from Stephan makes it feel more and more risky. After I spoke to my friend, I was convinced that, to enjoy my life, I really need to be in Hong Kong. Having slept on it, I suspect that I could carve out some sort of social life and maybe even romance for myself here. I think what's going on here is that my fear of it going wrong in Hong Kong is forcing me to look more optimistically at Malvern." And: "my view of Malvern is moving with mood. In fact, also my view of Hong Kong is moving with mood."
+
+**Run 3:** "This is very close so that is quite telling. I think it would be better for Sophia, it'd be nice to be near my mum, I won't feel guilty about Clodagh's relationship with Sophia and I'm quite enjoying the UK myself. I think the pull of Hong Kong as a place is disappearing and I'm warming to UK." After the model noted that money and romance were missing from that answer: "Hmm, unsure. The extra HK$2m will still make a difference so perhaps very close lean HK."
+
+**Run 3 variant:** "UK in case I can't stand it so much I have to quit." Then, clarifying: "In reality, I'd possibly go to Hong Kong for 2 years and see if I can prove myself and transition into a decent job. If the question is that it's guaranteed to be terrible for 6 years then UK."
+
+- *Model note (30 Sep 2026):* the run 3 flip followed the model naming the missing factors, which steers the answer. From the re-run after Julian's run, the first answer is recorded before any comment and any follow-up is neutral. "Warming to UK" is a decision-visualisation-check trigger; the good-day and bad-day pictures of the TTI role from Malvern were deferred to after the run.
+
 ## Links
 
 - [[HK-Return-BRAIND]] - the decision file; holds the findings and the claims table
@@ -242,6 +274,8 @@ Julian's words, spelling corrected only.
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Runs 5 and 3 re-asked a day early at Julian's instruction, plus a new run 3 variant (the guaranteed job is bad), all in a tired state by his account. Re-runs table and answers in full added; the same three to be repeated after his run. |
+| 2026-09-30 | Superseded status (29 Sep): "all five runs are completed and the list is closed. With the job risk removed, Julian chooses Hong Kong. He adopted the ranking under "Ranking adopted" below on 29 Sep. It is a lean, not a decision. The runs were answered hours after a conversation with a friend that, in Julian's words, removed the guilt, so runs 3 and 5 are to be asked again on or after 1 Oct 2026 and no decision state changes before then. Julian's answers in full are in this file, under "Julian's answers in full"; the BRAIND holds the findings only." |
 | 2026-09-29 | Corrected after an adversarial review: the note on what the adopted ranking rests on now reflects the tests run later the same day; one Key Takeaway narrowed. |
 | 2026-09-29 | At Julian's instruction this file now holds the detail: his answers in full were moved here verbatim from the Intuition Log of [[HK-Return-BRAIND]], which keeps a findings block only. |
 | 2026-09-29 | Wording on Sophia corrected at Julian's instruction; session-start reminder for the re-ask noted. |
