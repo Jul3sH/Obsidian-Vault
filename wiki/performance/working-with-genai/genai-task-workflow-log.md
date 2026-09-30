@@ -27,6 +27,26 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-30 · Filing and adversarial review of Julian's home fee research · Worked · [[uk-relocation-project]]
+
+- **Work:** Julian's own research (60 min with an AI research tool) filed into the
+  wiki by a Sonnet subagent with a two-year date correction, then reviewed by an
+  Opus subagent against its own fourteen sources; ten findings applied one at a
+  time with Julian (60 min).
+- **Check:** Opus adversarial review, read-only, findings in
+  [[uk-home-fee-status-opus-review-2026-09-30]]; nine of fourteen official sources
+  opened and checked, five unopenable and marked as such.
+- **Outcome:** Worked. Rules confirmed correct; the review's value was in omissions
+  (a provision the research missed, Julian's primary plan absent) and in catching
+  the filing agent's overstated takeaways. Julian rated the piece 4/5.
+- **Lesson:** Sonnet is enough for filing, Opus was needed for the review; the
+  filing agent's summary lines are a content-producing stage and need the review
+  to cover them, which it did. Separately: a one-line user reply ("I do not qualify")
+  had been logged on 28 Sep as a settled conclusion without a reason; record the
+  reason or record it as unexplained.
+- **Deliverable:** [[uk-relocation-project]] (home fee status; not a deliverable
+  file, logged on the project page).
+
 ## 2026-09-29 · Wiki drafting (tool definition + decision run record) · Pending · [[HK-Return-BRAIND]]
 
 - **Work:** Two wiki files drafted by the model in an interactive session under

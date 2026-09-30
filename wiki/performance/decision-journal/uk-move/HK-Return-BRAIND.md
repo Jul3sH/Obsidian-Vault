@@ -97,8 +97,8 @@ Rows marked Material in the sheet and scored High before response, Julian's crit
 
 | Rank | Event (sheet wording) | Effect in one line | Score before, after response | Response headline |
 |---|---|---|---|---|
-| 1 (CRITICAL, Julian 27 Sep) | Lose my TTI job between 2 and six years. | Worst case scenario. I would need to either stay in HK and try to get a job, or move back to UK | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company |
-| 2 (same event, second effect) | Lose my TTI job between 2 and six years. | Worst case scenario. It's mid way through either GCSEs or A-levels and Sophia has to drop back a year | High, - | Reduce impact: I would have to try to survive until she finished the year by taking any job I could get |
+| 1 (CRITICAL, Julian 27 Sep) | Lose my TTI job between years 2 and 6 | Worst case scenario. I would need to either stay in HK and try to get a job, or move back to UK | High, Medium | Reduce probability: Prove my value relentlessly and build power within the company. Reduce impact: Save enough to cover Uni in first 3 years. Pursue home status from HK anyway (sheet as at 30 Sep) |
+| 2 (same event, second effect) | Lose my TTI job between years 2 and 6 | Worst case scenario. It's mid way through either GCSEs or A-levels and Sophia has to drop back a year | High, - | Reduce impact: I would have to try to survive until she finished the year by taking any job I could get. Pursue home status from HK anyway (sheet as at 30 Sep) |
 | 3 | Lose my TTI Job within the first 2 years | I would need to either stay in HK and try to get a job, or move back to UK | High, - | Reduce probability: Prove my value relentlessly and build power within the company |
 | 4 | Lose my TTI Job within the first 2 years | Sophia gets another year behind with French creating a significant 2 years gap | High, Medium | Reduce probability: Learn French in DBIS if the option exists |
 | 5 | Lack of genuine buy-in from US stakeholders | I become a political target and lose my Job if Horst's position weakens | High, - | Fallback: Negotiate a position out of Europe |
@@ -194,7 +194,7 @@ Feeds B, R and A. Each row is a claim the gut is relying on, with its verdict in
 | 10 | TTI is worth about four times the Malvern outcome | Assumption | Resolved 27 Sep 2026. Julian: "four times was a mistake" |
 | 11 | A UK-based TTI role is obtainable, and Horst and Stephan would accept it | Assumption | Open as of 29 Sep 2026. Only Stephan or Horst can answer; not yet asked |
 | 12 | Horst is partly motivated by annoyance with Stephan, and Stephan would not defend Julian | Belief | Labelled speculative by Julian, 27 Sep 2026 |
-| 13 | Once Sophia is mid-GCSE in HK, a return cannot restore her UK home-fee status | Assumption | Holds in practice, 29 Sep 2026. By the rule under claim 16 a return during Year 10 would keep the status, but Julian will not move Sophia mid-GCSE, so a job loss then means staying to summer 2030 and losing it, unless she takes a gap year (route checked 29 Sep 2026: possible by the published rule if she is living in the UK by 1 September 2030). Julian confirmed 28 Sep that the temporary-employment exception does not apply to him |
+| 13 | Once Sophia is mid-GCSE in HK, a return cannot restore her UK home-fee status | Assumption | Holds in practice, 29 Sep 2026. By the rule under claim 16 a return during Year 10 would keep the status, but Julian will not move Sophia mid-GCSE, so a job loss then means staying to summer 2030 and losing it, unless she takes a gap year (route checked 29 Sep 2026: possible by the published rule if she is living in the UK by 1 September 2030). The temporary employment provision is parked as claim 24 (30 Sep 2026); the 28 Sep line that Julian had ruled it out is withdrawn |
 | 14 | A regional rental shared with a partner keeps savings well above the London 135k figure | Assumption | Open as of 29 Sep 2026. The sheet has no such scenario yet |
 | 15 | Living in the DB flat as owner-occupier lets Julian offset the mortgage interest against HK tax | Belief | Open as of 29 Sep 2026. Not verified |
 | 16 | A two-year stay and return keeps Sophia's UK home fee status | Assumption | Tested 29 Sep 2026 against the published rule: holds for a return by summer 2028, with about a year's margin; each university decides. Julian: "Realistically, for me, it's 4 years" before university, not three, because he will not move Sophia mid-GCSE |
@@ -205,6 +205,7 @@ Feeds B, R and A. Each row is a claim the gut is relying on, with its verdict in
 | 21 | Moving out of Mum's would destroy me financially | Belief | Tested 29 Sep 2026 against London only: did not survive as stated. Reworded by Julian; true for saving on 135k, overstated on the TTI salary |
 | 22 | I only have about ten good years left, so I must put myself first | Belief | Tested 29 Sep 2026: restated by Julian as himself as well as Sophia, with his health as the reason |
 | 23 | The Hong Kong role starts in October 2026, with pay backdated to the start of October or to September | Assumption | Open as of 29 Sep 2026. A verbal suggestion from Horst, by Julian's account; nothing in writing |
+| 24 | The temporary employment provision could make Sophia's Hong Kong years count as UK residence | Assumption | Parked 30 Sep 2026 as separate work in [[uk-relocation-contract-vs-permanent]]. Julian: a long shot. Not a saving until a university confirms it in writing |
 
 Open tasks the intuition set for itself:
 
@@ -246,6 +247,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Ranked risk rows 1 and 2 refreshed: Julian added "Pursue home status from HK anyway" to both sheet rows for losing the job between years 2 and 6. |
+| 2026-09-30 | Claim 24 added (temporary employment provision, parked); claim 13 verdict no longer cites the withdrawn 28 Sep line. |
 | 2026-09-30 | R refreshed for Julian's new sheet cause "TTI Job is suboptimal": three risk rows (terrible in the first 2 years, between years 2 and 6, after 6 years), all Material and scored High before response, added to the ranked table as rows 10 to 12 in sheet order (Julian has not ranked them) and to the cause map. Counts now 31 risks and 11 opportunities. Not carried: a "TTI Job is insecure" row with no scenario tag ("Lack of compelling evidence I will survive 6 years"), excluded as untagged. |
 | 2026-09-30 | Superseded status (29 Sep): "Five counterfactual runs and six belief and assumption tests were worked with Julian today. [...] B and R are digests of the UK Relocation Risks sheet, last refreshed 28 Sep; Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go), after which the digest needs a refresh. N and D have not been run. No `## Prompt Zero` section yet." |
 | 2026-09-29 | Claim 13 verdict corrected on Julian's point: the job-loss chain stays the worst case because he would not move Sophia mid-GCSE, so the fee rule's Year 10 allowance does not help him in practice. The ranked job-loss risks stand as he wrote them. |

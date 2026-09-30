@@ -112,7 +112,7 @@ Park it. Guilt is data about Julian, not about the decision. Do not let it enter
 
 **Type:** Assumption
 
-**Julian, 27 Sep: "I am sure of this."** Accepted on his word for scoring the CRITICAL row; the residency rule itself has not been looked up **Julian, 28 Sep: confirmed; the exception for a parent's temporary overseas employment does not apply to him.** Logged as an effect in Risks under the ranked event and under the move itself.
+**Julian, 27 Sep: "I am sure of this."** Accepted on his word for scoring the CRITICAL row; the residency rule itself has not been looked up **Julian, 28 Sep: confirmed; the exception for a parent's temporary overseas employment does not apply to him.** (Withdrawn 30 Sep 2026: Julian does not recall this and calls it speculation. The 28 Sep transcript shows a one-line reply, "I do not qualify of the exception", with no reason asked or given. Today's position is in [[uk-relocation-contract-vs-permanent]].) Logged as an effect in Risks under the ranked event and under the move itself.
 
 - *Model note (29 Sep 2026):* the residency rule was looked up the same day under claim 16. By that rule a return during Year 10, before about September 2029, keeps the status, so this claim holds only from Year 11. The model first read this as weakening the ranked job-loss risk. **Julian corrected that the same day:** "It is the worst case because I wouldn't move her half way through her GCSEs. That would mean either dropping her back a year unnecessarily, or having her play catch up for a year (very bad idea as it would affect her results)." So the rule allows a Year 10 return but Julian would not make one. A job loss in the GCSE years means staying in Hong Kong to summer 2030, after which home fee status is lost unless Sophia takes a gap year. The claim holds in practice and the ranked job-loss rows stand.
 
@@ -191,6 +191,12 @@ Added 29 Sep 2026, a friend's words that Julian took on. Name it; decide whether
 
 Added 29 Sep 2026. Julian: "Earliest realistic start in Hong Kong is sometime in October, hopefully, they're going to backdate it to the beginning of October and possibly September." Nothing in writing; the three asks of 26 Sep are unanswered. Only Stephan or Horst can answer. With an October start, the stay to a summer 2028 exit is about 21 months. **Julian, later on 29 Sep:** Horst suggested on a call a 24-month contract renewing every couple of years, and suggested backdating. "If they backdate it to September, it's going to be almost 24 months, if they don't, then I'm sure I can work a month out of the UK." So the basis is a verbal suggestion from Horst, by Julian's account; still unwritten. A 24-month contract from 1 September 2026 would end on 31 August 2028, the clean exit before Year 10
 
+### Claim 24: The temporary employment provision could make Sophia's Hong Kong years count as UK residence
+
+**Type:** Assumption
+
+Added 30 Sep 2026 from finding 1 of [[uk-home-fee-status-opus-review-2026-09-30]]. The rule exists (UKCISA, Cambridge, Manchester, Student Finance England). Julian's read the same day: a long shot, hard to argue alongside a plan built on not being UK tax resident, about 90 days in the UK before leaving, and Cecil Road let. Parked as separate work in [[uk-relocation-contract-vs-permanent]]. Not to be counted as a saving unless a university confirms it in writing on an actual contract. Separate from the gap year route, which keeps home fees on a renewal without any contract.
+
 ## Links
 
 - [[HK-Return-BRAIND]] - the decision file; its check table holds the one-line verdicts
@@ -204,6 +210,7 @@ Added 29 Sep 2026. Julian: "Earliest realistic start in Hong Kong is sometime in
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Claim 24 added (temporary employment provision, parked). The 28 Sep line under claim 13 withdrawn at Julian's instruction, with the transcript evidence noted. |
 | 2026-09-30 | Claim 16 note: the education-purpose rule, unverified on 29 Sep, confirmed by the Opus review of [[uk-home-fee-status]]. |
 | 2026-09-29 | Gap year route checked against UKCISA and one university's guidance and recorded under claim 16, with conditions, evidence and one unverified rule flagged. |
 | 2026-09-29 | Claim 13 note corrected with Julian's words: the job-loss chain stays the worst case because he would not move Sophia mid-GCSE. |

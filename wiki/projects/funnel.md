@@ -1,6 +1,6 @@
 ---
 type: funnel
-updated: 2026-09-22
+updated: 2026-09-30
 ---
 
 # Project Funnel
@@ -28,6 +28,7 @@ Each item carries just enough information to make a meaningful go/no-go decision
 
 | Item | Hypothesis | Trigger | Added | Jira |
 |------|------------|---------|-------|------|
+| Pursue home university fee status from Hong Kong | If Sophia can qualify for home fees while the family lives in Hong Kong (routes heard at a conference presentation Julian attended, plus the temporary employment provision and the links-based approach some universities allow), the £120,000 reserve and the forced return in [[HK-Return-BRAIND]] both fall away | A written TTI offer, or the renewal decision in spring 2028, whichever first. First steps when initiated: compile the conference material; anchor any master's route on Student Finance England guidance section 2.5 (the purpose of residence may change) rather than forum posts, and record where Julian lives during her degree, per finding 9 of [[uk-home-fee-status-opus-review-2026-09-30]] | 2026-09-30 | - |
 
 ## Performance
 

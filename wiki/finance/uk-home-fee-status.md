@@ -15,28 +15,42 @@ This is the reference for how Sophia could qualify for home (rather than oversea
 Prepared 30 September 2026 for England. Planning research, not legal advice; rules and university procedures must be checked again in the relevant application year.
 
 **Map:**
+- How this fits Julian's actual plans: the three returns against the fee rule.
 - Executive assessment: the two scenarios and the headline answer.
 - Core legal concepts: the settled-person route, ordinary residence and the 1 September date.
 - Scenario 1: joint family return for sixth form, with the timeline.
 - Deferred-entry application: how to apply and what universities do with a pending classification.
 - Gap-year conditions: what the gap year can include and the evidence that protects ordinary residence.
 - Scenario 2: student-only return for university, covering the undergraduate degree, the standalone master's and forum evidence.
+- Temporary employment abroad: the provision the report omitted, parked as separate work.
 - Integrated master's: how the initial classification carries through.
 - Side-by-side assessment: the two scenarios compared.
 - Practical recommendations: what to do under each scenario.
 - Source register: official guidance and forum sources [S1] to [S17].
 - Important limitation: the status of the report and the rules risk.
 
-> ⚠ As of 30 Sep 2026: planning research, not legal advice; dates corrected to Sophia's school years on filing; adversarial review pending.
+> ⚠ As of 30 Sep 2026: planning research, not legal advice; dates corrected to Sophia's school years on filing. Adversarially reviewed the same day ([[uk-home-fee-status-opus-review-2026-09-30]], ten findings, none fatal); all ten findings applied with Julian on 30 Sep 2026.
 
 ## Key Takeaways
 
 - The rule is three years of ordinary residence in the UK and Islands before the course starts, counted to 1 September for an autumn entry, not to the first day of lectures.
-- Residence must not be wholly or mainly for education, so the father's joint move is what shows Sophia would live in the UK even without sixth form.
-- The corrected key date is 1 September 2030 for the joint sixth-form return, then a gap year, with university from autumn 2033 on home fees (deferred entry applied for in Year 13).
+- Residence must not be wholly or mainly for education, so the father's joint move helps show Sophia would live in the UK even without sixth form.
+- The corrected key date is 1 September 2030 for the joint sixth-form return, then a gap year, giving a strong but unconfirmed case for home fees at university entry in autumn 2033, subject to each university's assessment (deferred entry applied for in Year 13).
 - A return only for university normally means overseas fees for the whole degree, because the three years must precede the course.
 - A switch to home status for a standalone master's is possible on some reported facts but is uncertain and institution-specific, so plan on overseas fees until the university confirms in writing.
 - There is no fixed day count for fee-status ordinary residence, unlike the tax residence test, so the overall facts decide.
+
+## How this fits Julian's actual plans (added 30 Sep 2026)
+
+The report covers a return for sixth form and a return only for university. Julian's first plan is earlier than both. The rows are the model's summary of the report against the plans in [[HK-Return-Counterfactuals]]; the £120,000 reserve is the extra university cost carried in the Hong Kong columns of [[uk-relocation-savings-comparison]].
+
+| Return | Home fees | Reserve needed |
+|---|---|---|
+| By summer 2028, before GCSEs (the two-year plan) | Yes: four real years in the UK. None of the rest of this document is needed | No |
+| By 1 September 2030, after GCSEs, with a gap year (the renewal path, Scenario 1) | Strong case, subject to each university's assessment; hard date and conditions below | No, if it holds |
+| Not before university (Scenario 2) | Normally overseas fees | Yes, in full |
+
+Julian, 30 Sep 2026: "if I go now for 2 years and come back, I get back in time for GCSEs, and none of this is a problem anyway. We'll qualify for home fees." On the renewal path his read was that renewing "is a problem anyway"; the report says otherwise, provided Sophia is living in the UK by 1 September 2030 and the gap year follows. The renewal decision in spring 2028 is therefore where this document bites: renewing means GCSEs in Hong Kong, a return in summer 2030 with about two months' margin, and a gap year. It also partly repairs the worst case in [[HK-Return-BRAIND]]: if the job ends in the GCSE years and the family stays to summer 2030, the fee loss is recoverable by the same route; the cost of Hong Kong without a salary until then is not.
 
 ## Executive assessment
 
@@ -54,11 +68,11 @@ British citizenship is important but does not by itself establish Home fee statu
 - Be settled in the UK, which a British citizen would ordinarily satisfy.
 - Be ordinarily resident in England on the first day of the first academic year.
 - Have been ordinarily resident in the UK and Islands throughout the preceding three years.
-- Not have been resident during that period wholly or mainly to receive full-time education.[S1][S4][S5]
+- Not have been resident during that period wholly or mainly to receive full-time education.[S3][S4][S5] The regulation (Education (Fees and Awards) (England) Regulations 2007, Schedule 1 paragraph 2(1)(b)) says residence that "has not during any part of the period ... been wholly or mainly for the purpose of receiving full-time education", so the sixth form years and the gap year are each testable on their own; paragraph 2(2) exempts a person treated as ordinarily resident because of a family member's temporary work abroad (the provision in the parked section below). *Added 30 Sep 2026 from the review.*
 
 "Ordinary residence" is a factual concept involving lawful, habitual and normal residence adopted voluntarily for a settled purpose. Temporary absences can be compatible with continuing ordinary residence; there is no simple fee-status day-count equivalent to the statutory residence test used for tax.[S2][S3][S13]
 
-For an autumn-starting degree, the relevant date is normally **1 September**, not the actual first day of lectures. For autumn 2033 entry, the planning window is therefore **1 September 2030 to 31 August 2033**.[S1][S3]
+For an autumn-starting degree, the relevant date is normally **1 September**, not the actual first day of lectures. For autumn 2033 entry, the planning window is therefore **1 September 2030 to 31 August 2033**.[S3][S7]
 
 ## Scenario 1 - joint return for sixth form
 
@@ -93,7 +107,7 @@ At the application date in late 2031 or early 2032, the full three-year period w
 - The planned gap year and continuing UK family home.
 - That complete evidence for the three-year period will be available before enrolment.
 
-Universities may assess prospectively using the deferred start date, mark the classification as pending, initially classify the applicant as Overseas and allow later review, or reserve the right to reassess before enrolment. Published Cardiff guidance expressly identifies a deferred-entry applicant who later meets the residence requirement as a case suitable for reassessment; Kingston also states that changed circumstances before commencement can be reassessed and discusses deferring until the necessary residence has accrued.[S8][S11]
+Universities may assess prospectively using the deferred start date, mark the classification as pending, initially classify the applicant as Overseas and allow later review, or reserve the right to reassess before enrolment. King's College London [S10], verified 30 Sep 2026: "Your fee status is assessed at the time of application ... and takes into consideration a specific start date. If you defer your course start date, be aware that this could affect your fee status ... The Admissions Office reserves the right to re-assess your status for your deferred start date." Published Cardiff guidance is reported to identify a deferred-entry applicant who later meets the residence requirement as a case suitable for reassessment, and Kingston to state that changed circumstances before commencement can be reassessed and to discuss deferring until the necessary residence has accrued.[S8][S11] Both pages could not be opened on 30 Sep 2026, so those two quotes are unverified, and Cardiff is a Welsh university under the Welsh fee regulations.
 
 ### Recommended process
 
@@ -120,6 +134,7 @@ A stronger pattern would include:
 - UK banking, GP registration and official correspondence.
 - No open-ended overseas tenancy or relocation of ordinary life.
 - Travel, internship or employment documents showing fixed start and end dates.
+- Evidence that she will return to the UK before the course starts, and that the return is "other than solely for the purpose of completing the relevant course": Student Finance England's gap year guidance [S12] requires both, and a student abroad on 1 September "must be able to evidence that they will return to the UK prior to the first day of the course". S12 is the 2024/25 edition; recheck the current edition in 2032. *Added 30 Sep 2026 from the review.*
 
 The risk increases if she returns to an established Hong Kong home for most of the year, establishes an open-ended home in another country, or maintains only a nominal UK postal address.
 
@@ -129,11 +144,11 @@ The daughter remains ordinarily resident in Hong Kong until the undergraduate co
 
 ### Undergraduate degree
 
-On the stated facts, she would normally be classified as Overseas when the undergraduate degree starts. Residence after arrival cannot retrospectively satisfy the three-year period preceding that course. A British passport and access to a grandmother's home do not replace the residence requirement.[S1][S4][S5]
+On the stated facts, she would normally be classified as Overseas when the undergraduate degree starts. "Normally" is not "always": Manchester [S5] says a British citizen who has lived abroad "may still be considered ordinarily resident" if strong and regular links to the UK were kept, with at least one visit every two years, while Cambridge [S6] treats most undergraduates as resident where their parents live, so the classification should be asked of each target university rather than assumed, and the reserve should not be cut on the strength of it. Residence after arrival cannot retrospectively satisfy the three-year period preceding that course. A British passport and access to a grandmother's home do not replace the residence requirement.[S1][S4][S5]
 
 Using the grandmother's house during holidays, keeping possessions there and receiving official correspondence would help show residence from arrival. Nevertheless, the institution would examine where she habitually lives and why she moved; an address alone is not conclusive.[S2][S6]
 
-Her classification would not normally convert during Years 2 or 3 merely because she accumulates three years in Britain. Fee status is generally fixed by the circumstances at the course's start and changes during the same course only in specified circumstances.[S14]
+Her classification would not normally convert during Years 2 or 3 merely because she accumulates three years in Britain. Fee status is generally fixed by the circumstances at the course's start and changes during the same course only in specified circumstances.[S1][S14] UKCISA [S1]: "The three years are fixed in time and don't move as you progress through your course."
 
 ### Standalone master's
 
@@ -154,6 +169,7 @@ Evidence should include:
 - UK work, volunteering and community ties.
 - Evidence that Hong Kong is no longer available or used as her normal home.
 - Evidence of an open-ended intention to remain in Britain after graduation.
+- Where her father lives during and after her degree: Cambridge [S6] says "most undergraduates will be deemed ordinarily resident in the same country as their parents". *Added 30 Sep 2026 from the review.*
 
 ### Forum evidence
 
@@ -164,11 +180,19 @@ Forum evidence is anecdotal and cannot establish the law, but it indicates that 
 - The same discussions contain examples of applicants remaining Overseas for a master's despite completing a UK undergraduate degree, because the preceding UK residence appeared principally educational.[S16][S17]
 - Some apparent "successes" are actually discretionary discounts reducing the charge to the Home-fee amount while the student remains formally classified as Overseas. Such a discount is not equivalent to Home status and does not necessarily confer Student Finance eligibility.[S15]
 
+The firmer basis for a change of status is official rather than anecdotal. Student Finance England [S12] section 2.5: "A person who has come to the UK to study or be schooled may initially be ordinarily resident here primarily for educational purposes, but the purpose of residence may subsequently change." *Added 30 Sep 2026 from the review.*
+
 The appropriate Scenario 2 conclusion is therefore:
 
 > A change from Overseas undergraduate status to Home status for a standalone master's is possible on some reported facts, but it is uncertain, institution-specific and dependent on proving genuine permanent UK resettlement rather than simply accumulating three years of university attendance.
 
 Financial planning should assume Overseas fees unless and until the master's university confirms Home status in writing.
+
+## Temporary employment abroad (parked 30 Sep 2026)
+
+The report omits a provision three of its own sources state, raised as finding 1 of the review. UKCISA [S3]: "If you can demonstrate that you have not been ordinarily resident in the relevant residence area only because you, or a family member, were temporarily working outside the relevant residence area, you will be treated as though you have been ordinarily resident there." Cambridge [S6] and Manchester [S5] describe the evidence they want (contracts covering the whole period with start and end dates, confirmation the role is temporary, where the family would live afterwards). Student Finance England [S12] section 2.6 tests whether the contract is renewable or one of a succession, how long the employee has already lived abroad, and a right of return; section 2.4 says absence because of emigration is generally not temporary.
+
+If it applied, Sophia's Hong Kong years would count as UK residence. Julian's read, 30 Sep 2026: a long shot, on a different set of rules from tax residence, and hard to argue while his plan is to avoid UK tax residence, with about 90 days in the UK before leaving and Cecil Road let. Parked as a separate piece of work in [[uk-relocation-contract-vs-permanent]]. Julian, 30 Sep 2026, on a wider point: he attended a conference presentation on ways to qualify for home status while living overseas, has material from it, and would pursue home status from Hong Kong rather than return; that is a likely separate project, parked in the funnel. Not to be counted as a saving unless a university confirms it in writing on an actual contract. An earlier line in the record (28 Sep) saying Julian had concluded the provision does not apply to him is withdrawn: he does not recall it and calls it speculation.
 
 ## Integrated master's
 
@@ -224,6 +248,8 @@ An integrated master's such as an MEng or MMath normally continues the original 
 - **[S13] Student Loans Company - Temporary or occasional absences:** https://www.practitioners.slc.co.uk/media/2041/temp-absence-updates-sb-002.pdf
 - **[S14] University of Oxford - Fee status and changes during a course:** https://www.ox.ac.uk/students/fees-funding/fees/status
 
+Verification on 30 Sep 2026 (review): S1, S2, S3, S5, S6, S7, S9, S10, S12 and S13 opened and checked; S4, S8, S11 and S14 returned errors and are unverified; S15 to S17 could not be opened.
+
 ### Forum evidence
 
 Forum material is included only as anecdotal evidence of how applicants describe outcomes. It is not authoritative guidance.
@@ -242,8 +268,13 @@ This report provides planning analysis under rules and published material availa
 - [[HK-Return-BRAIND]] - the decision file
 - [[uk-relocation-savings-comparison]] - where the GBP 120,000 university reserve is priced
 - [[uktax-srt-fy26-27]] - the tax residence test, a different rule with a day count
+- [[uk-relocation-contract-vs-permanent]] - the parked question of contract against permanent employment
+- [[uk-home-fee-status-opus-review-2026-09-30]] - the adversarial review
 
 ## Document Log
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | Review findings 5 to 9 applied at Julian's instruction: the regulation quoted with its "any part of the period" wording and exemption; deferred entry re-anchored on the verified King's College London source with Cardiff and Kingston marked unverified; the Student Finance England gap year conditions added; citations for the 1 September rule and the fixed three years repointed to S3, S7 and S1; the master's conclusion anchored on Student Finance England section 2.5 and the father's residence added to the evidence list; a verification note added to the source register. |
+| 2026-09-30 | Finding 3 applied: the Manchester and Cambridge qualifier added to the Scenario 2 undergraduate paragraph, wording agreed by Julian. His conference note on pursuing home status from overseas recorded under the parked section. |
+| 2026-09-30 | Review findings 1 and 2 applied with Julian: a section on temporary employment abroad, parked to [[uk-relocation-contract-vs-permanent]]; a table fitting the report to his actual plans, with his words; two Key Takeaways hedged (finding 4, the takeaways were the filing agent's). Status banner updated. |
 | 2026-09-30 | Filed from Julian's research report of the same date. On his instruction: all scenario dates shifted two years earlier to match Sophia's school years (the report assumed sixth form from 2032 and university from 2035; corrected to 2030 and 2033), em dashes and curly quotes replaced. No other wording changed. |
