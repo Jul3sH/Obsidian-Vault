@@ -12,7 +12,7 @@ decision: Return to Hong Kong on a TTI offer
 
 This is the BRAIND workspace for one question: **if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move?**
 
-Four questions are top of mind for Julian, and the BRAIND exists to answer them:
+Seven questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 1. Do I really need to return to HK for romance?
 2. Do I really need to return to HK for financial reasons?
@@ -20,10 +20,11 @@ Four questions are top of mind for Julian, and the BRAIND exists to answer them:
 4. Would I be better off in the UK? 
 5. Is living with Mum for six years realistic, and is moving out viable? 
 6. Should I pursue a safer compromise and aim for a UK based role?
+7. At what point do I pivot to asking for a UK based role? 
 
 ## Status
 
-> ⚠ **Status (29 Sep 2026):** Five counterfactual runs and six belief and assumption tests were worked with Julian today. The findings are in the Intuition Log (29 Sep block), his answers in full are in [[HK-Return-Counterfactuals]], the verdicts are in the check table, and the detail of each test is in [[HK-Return-Beliefs]]. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]]. The lean followed a conversation with a friend, so runs 3 and 5 are re-asked on or after 1 Oct 2026 and nothing changes state before then. Three claims wait for Stephan or Horst: a UK-based role, the contract terms and the start date. B and R are digests of the UK Relocation Risks sheet, last refreshed 28 Sep; Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go), after which the digest needs a refresh. N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (30 Sep 2026):** R refreshed today for a new cause Julian added to the sheet, "TTI Job is suboptimal" (the job is kept but is bad: three rows, all Material and High). Otherwise as at 29 Sep: five counterfactual runs and six belief and assumption tests worked with Julian; findings in the Intuition Log (29 Sep block), answers in full in [[HK-Return-Counterfactuals]], verdicts in the check table, detail in [[HK-Return-Beliefs]]. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]]. Runs 3 and 5 are re-asked on or after 1 Oct 2026 and nothing changes state before then. Three claims wait for Stephan or Horst: a UK-based role, the contract terms and the start date. Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go, and the probability response for the new first-two-years row). N and D have not been run. No `## Prompt Zero` section yet. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
 
@@ -71,7 +72,7 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 ## R - Risks
 
-**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (28 risks and 11 opportunities as of 28 Sep 2026, refreshed after Julian's review that afternoon). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 28 Sep 2026.
+**Source of truth:** the [UK Relocation Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861#gid=1583602861), Risks tab, rows tagged Return to HK (31 risks and 11 opportunities as of 30 Sep 2026). This section is a digest. Edit the sheet first; refresh this section afterwards. Refreshed from the sheet on 30 Sep 2026.
 
 **Summary against the four questions in the Purpose (as of 28 Sep 2026):**
 
@@ -105,10 +106,13 @@ Rows marked Material in the sheet and scored High before response, Julian's crit
 | 7 | TTI only offer a contract | Financial gains are reduced | High, - | Reduce impact: ask for a fixed term (the sheet's sentence is unfinished) |
 | 8 | TTI offer a non-architectural or junior role | Depending what it is, it could really harm my future prospects | High, - | Reduce impact: Ask to do the Job from UK and look for another job |
 | 9 | Sophia & Clodagh relationship stays broken | Sophia & Clodagh relationship remains broken down | High, Medium | Reduce probability: Do regular face time calls, visit Hong Kong for Christmas and Sophia visits Ireland |
+| 10 (new 30 Sep) | TTI job is terrible between years 2 and 6 | This is the worst case, I would likely be trapped due to need to save for overseas uni fees | High, - | Reduce impact: Look for another well paid Job whilst I still have a job. Reduce probability: Deliver value and ensure I am seen as an asset, and then change role |
+| 11 (new 30 Sep) | TTI job is terrible in the first 2 years | I would not be happy, but I could attempt to find another job or leave before GCSE years | High, - | Reduce impact: Move back to UK for GCSE Years (probability response blank in the sheet) |
+| 12 (new 30 Sep) | TTI Job is terrible after 6 years | I would feel reasonably trapped due to the higher schooling | High, - | Accept: Get on with it as long as I can bear it |
 
 ### Cause map
 
-One line per cause in the sheet, covering all 28 risk rows.
+One line per cause in the sheet, covering all 31 risk rows.
 
 | Cause                      | Events | Material | Scored High before response |
 | -------------------------- | ------ | -------- | --------------------------- |
@@ -119,6 +123,7 @@ One line per cause in the sheet, covering all 28 risk rows.
 | Resistance to the move     | 3      | 3        | 0                           |
 | TTI offer is suboptimal    | 5      | 5        | 2                           |
 | TTI Job is insecure        | 7      | 6        | 6                           |
+| TTI Job is suboptimal      | 3      | 3        | 3                           |
 | Leaving the Chase School   | 1      | 0        | 0                           |
 
 ## A - Alternatives
@@ -302,6 +307,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-09-30 | R refreshed for Julian's new sheet cause "TTI Job is suboptimal": three risk rows (terrible in the first 2 years, between years 2 and 6, after 6 years), all Material and scored High before response, added to the ranked table as rows 10 to 12 in sheet order (Julian has not ranked them) and to the cause map. Counts now 31 risks and 11 opportunities. Not carried: a "TTI Job is insecure" row with no scenario tag ("Lack of compelling evidence I will survive 6 years"), excluded as untagged. |
+| 2026-09-30 | Superseded status (29 Sep): "Five counterfactual runs and six belief and assumption tests were worked with Julian today. [...] B and R are digests of the UK Relocation Risks sheet, last refreshed 28 Sep; Julian has sheet ratings to review (the Chase return row, the row on Sophia not wanting to go), after which the digest needs a refresh. N and D have not been run. No `## Prompt Zero` section yet." |
 | 2026-09-29 | Claim 13 verdict corrected on Julian's point: the job-loss chain stays the worst case because he would not move Sophia mid-GCSE, so the fee rule's Year 10 allowance does not help him in practice. The ranked job-loss risks stand as he wrote them. |
 | 2026-09-29 | Corrected after an adversarial review of the restructure (9 serious and 10 minor findings, none fatal; the moves themselves were verified lossless by script). Rewritten: the verdicts for claims 3, 4, 5, the first 9, the second 9, 13, 14, 16, 17, 19, 20 and 21, and the findings block. Main changes: claim 13 is partly contradicted by the rule under claim 16; several verdicts had presented the model's inference as Julian's view. Status now says three claims wait for Stephan or Horst. |
 | 2026-09-29 | At Julian's instruction the detail of all 23 claims in the check table was moved verbatim to [[HK-Return-Beliefs]]. The table here now carries a one-line verdict per claim, written by the model. Claim numbers are unchanged, including the two claims numbered 9 and the absence of a claim 2, because other files cite them. |
@@ -395,6 +402,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-29 | Machine (subagent) | 152,808 tokens | Bookkeeping for the two new files: indexes, systems register, convention row, project status, logs |
 | 2026-09-29 | Machine (subagent) | 93,849 tokens | Settings mirrors refreshed after the reminder hook was added |
 | 2026-09-29 | Machine (subagent) | 130,981 tokens | Adversarial review of [[counterfactual-questioning]] and [[HK-Return-Counterfactuals]]: 19 findings, none fatal, applied the same day |
+| 2026-09-30 | Machine (interactive session) | 137,983 tokens (output 9,362 + cache-write input 128,621; cache reads 1.2M omitted) | R digest refreshed for the new "TTI Job is suboptimal" sheet cause; project status and ops log updated. Measured mid-session |
 
 ## Session Synopsis
 

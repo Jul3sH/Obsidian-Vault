@@ -9,7 +9,7 @@ hard-date: 2026-09-15
 wsjf: n/a
 por-key: POR-17
 jira-key: BWS-14
-status-updated: 2026-09-29
+status-updated: 2026-09-30
 ---
 
 This is the status and evidence hub for the UK relocation project. It brings the decision and execution work together so Julian can see the current position, follow the supporting records and choose the next action. Internal only, `send: NEVER`.
@@ -37,7 +37,9 @@ This is the status and evidence hub for the UK relocation project. It brings the
 | [[uktax-srt-fy26-27\|UK Tax - Statutory Residence Test FY26/27]] | **Canonical UK tax-residency position for Julian and Sophia.** Statutory Residence Test analysis for 2026/27 and forward exposure to 2028/29: day-count thresholds and dates, the ties position, the Hong Kong flat's role in defeating the second automatic UK test, the boarding-school scenario from Sept 2028, and the third automatic overseas test route if a Hong Kong job proceeds. Verified against FA 2013 Sch 45 and the HMRC RFIG manual; peer-reviewed (Fable, 3 rounds) and adversarially reviewed (Codex). |
 | [[tax-rental-incomes\|Tax on Rental Incomes]] | Tax on letting the DB flat and Cecil Road as a UK resident: four scenarios on 2026/27 and 2027/28 property rates, HK Property Tax, UK credits, and the year-by-year FIG claim rule. Codex-reviewed 25 Sep 2026. |
 
-## Status (as of 2026-09-29)
+## Status (as of 2026-09-30)
+
+**30 Sept - New risk cause in the sheet: "TTI Job is suboptimal" (the job is kept but is bad).** Julian added three Return to HK rows: terrible in the first two years, between years two and six ("the worst case, I would likely be trapped due to need to save for overseas uni fees"), and after six years. All Material, all High. [[HK-Return-BRAIND]] R refreshed (31 risks). Decision impact: the lean is unchanged, but this is a downside that contract terms cannot bound. Only leaving by the summer 2028 home-fee cut-off bounds it, and it widens the gap between Hong Kong and the TTI role from Malvern, where a bad job is not a trap.
 
 **29 Sept - Six candid questions and a break-even check worked with Julian and logged in [[HK-Return-BRAIND]]; a lean recorded, not a decision.** The first lean (TTI role from Malvern first) was superseded the same day: with the job risk removed Julian chooses Hong Kong, so the adopted lean is Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third, held for 48 hours because it followed a conversation with a friend; the runs behind it are in [[HK-Return-Counterfactuals]], using the new tool [[counterfactual-questioning]]. Two messages to Stephan are drafted, not sent, in [[tti-comms-log]]. No decision state change: written terms are still absent and the UK move remains committed.
 
@@ -315,6 +317,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-09-30 | **"TTI Job is suboptimal" cause added to the risks sheet by Julian; [[HK-Return-BRAIND]] R refreshed.** Three rows (bad job in years 0-2, 2-6, 6+), all Material and High; ranked table rows 10 to 12, cause map, counts now 31 risks and 11 opportunities. Found: row 27 of the sheet ("Lack of compelling evidence I will survive 6 years", cause TTI Job is insecure) has no scenario tag, so it sits outside the digest; the first-two-years row has no probability response. Decision impact: lean unchanged; the Hong Kong option now carries a second failure mode, alongside losing the job, that the 2-year guarantee and schooling asks do not cover. |
 | 2026-09-29 | [[HK-Return-Counterfactuals]] and [[HK-Return-Beliefs]] added to the Trusted Artifacts table at Julian's instruction, beneath [[HK-Return-BRAIND]], whose description was brought up to date. All three are also in the File Map. |
 | 2026-09-29 | **Belief and assumption tests run; BRAIND slimmed to findings.** Six tests worked with Julian: by the published rule a return by summer 2028 keeps Sophia's home fee status; Julian would accept any of three Malvern schools, availability unverified; Sophia's one remark is that a move back would be "really annoying"; two fears about Malvern were reworded by Julian; his reason for weighing himself is his health. The fee rule would allow a return during Year 10, but Julian will not move Sophia mid-GCSE, so the ranked job-loss risks stand as written. At his instruction the detail moved out of [[HK-Return-BRAIND]] into [[HK-Return-Counterfactuals]] and the new [[HK-Return-Beliefs]]. Julian logged 240 minutes building the risk register on 28 Sep (rated 5/5) and 240 minutes across 28 and 29 Sep on the BRAIND and counterfactual work. Decision impact: the lean stands; the contract terms and start date wait for Stephan. |
 | 2026-09-29 | **Counterfactual runs completed; lean changed to Hong Kong first; 48-hour hold.** All five runs in [[HK-Return-Counterfactuals]] are done: with the job risk removed Julian chooses Hong Kong. Lean adopted by Julian: Hong Kong first if terms bound the downside (guaranteed two years, schooling covered), the TTI role from Malvern second, a UK market role third. The answers followed a conversation with a friend that removed the guilt, so runs 3 and 5 are re-asked on or after 1 Oct. Seven new claims added to the check table in [[HK-Return-BRAIND]]. Justin speaks to Stephan on 30 Sept; Julian's message is held until then ([[tti-comms-log]]). Decision impact: none yet; written terms still absent; the UK move remains committed. |
