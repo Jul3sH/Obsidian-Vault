@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
+                "file": "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HK-Return-BRAIND"
+              "title": "choosing-a-decision-framework"
             }
           }
         ]
@@ -81,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -204,8 +203,16 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
-    "wiki/ai-os/logs/log-2026-Q4.md",
+    "wiki/performance/working-with-genai/mm-fluency-bias.md",
+    "wiki/performance/decision-frameworks/sharran-simple-decision-framework.md",
+    "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
     "wiki/performance/decision-frameworks/first-decision-framework.md",
+    "wiki/performance/decision-frameworks/brain-brand-framework.md",
+    "wiki/performance/decision-frameworks/seven-step-decision-process.md",
+    "wiki/performance/decision-frameworks/counterfactual-questioning.md",
+    "wiki/performance/decision-frameworks/belief-assumption-testing.md",
+    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
+    "wiki/ai-os/logs/log-2026-Q4.md",
     "wiki/projects/uk-relocation-project.md",
     "wiki/finance/uk-relocation-contract-vs-permanent.md",
     "wiki/finance/uk-home-fee-status-opus-review-2026-09-30.md",
@@ -216,20 +223,12 @@
     "Home status university fees.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-Counterfactuals.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-Intuition.md",
-    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-Beliefs.md",
     "wiki/performance/decision-frameworks/_index.md",
-    "wiki/performance/decision-frameworks/counterfactual-questioning.md",
     "wiki/finance/uk-relocation-savings-comparison.md",
     "wiki/relationships/GCSE-language-mitigations.md",
     "wiki/performance/working-with-yourself/mm-wishful-thinking-bias.md",
     "wiki/performance/decision-journal/uk-move/b1-relationship-belief.md",
-    "wiki/ai-os/system-design/generic/documentation-conventions.md",
-    "wiki/performance/decision-journal/uk-move/HK-BRAIND.md",
-    "wiki/finance/uk-relocation-expenses.md",
-    "wiki/ai-os/system-design/claude/memory/feedback-delegate-execution-to-subagents.md",
-    "wiki/finance/uk-relocation-cashflows.md",
-    "wiki/finance/uk-relocation-savings-v3-codex-review-2026-09-25.md",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",

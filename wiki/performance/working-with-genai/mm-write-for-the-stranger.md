@@ -85,8 +85,8 @@ document he could not re-enter would be worthless at exactly the point he needed
 when the facts changed and the analysis had to be re-run.
 
 The related discovery is that this discipline doubles as a check:
-[[mm-clarity-is-verification]] - demanding plain restatement surfaces errors as well as
+[[mm-fluency-bias]] - demanding plain restatement surfaces errors as well as
 ambiguity.
 
-Related: [[mm-clarity-is-verification]], [[mm-confidence-inheritance]].
+Related: [[mm-fluency-bias]], [[mm-confidence-inheritance]].
 Row in [[mental-models-index]].

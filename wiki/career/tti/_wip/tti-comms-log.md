@@ -510,9 +510,9 @@ renamed: 2026-07-17
 
 ---
 
-## ⏳ 1 Oct - FINAL, TO SEND after an unanswered call: the dated ask (DBIS 20 Oct, paperwork by the 12th), buy-in at execution time, early indication if not
+## ⏳ 1 Oct - FINAL, HELD: Stephan called back then said "I can't talk right now"; Julian waits for tomorrow's call. The dated ask (DBIS 20 Oct, paperwork by the 12th), buy-in at execution time, early indication if not
 
-> As of 1 Oct 2026, about 05:30 Hong Kong time (National Day): Julian called Stephan, no answer; he will send this if there is no reply within an hour or two. Julian's wording, fact-checked against the record; every fact is on file except the tenant deadline, which is his. Final text:
+> As of 1 Oct 2026 (National Day in Hong Kong): Julian called Stephan at about 05:30 HK time, no answer. About an hour later Stephan called back, once, while Julian was on another call. An hour after that Julian called again; Stephan answered and said "I can't talk right now". Julian is holding the message until tomorrow, 2 Oct, to see whether Stephan calls or can be reached; if they speak, the message's points are the agenda for the call. Julian's read that the callback may have been a pocket dial or going through the motions is a read; the plain facts are that Stephan returned the call and then answered. Julian's wording, fact-checked against the record; every fact is on file except the tenant deadline, which is his. Final text:
 
 > Hi Stephan,
 >

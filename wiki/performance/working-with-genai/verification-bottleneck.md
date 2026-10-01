@@ -100,7 +100,7 @@ This one operates *across* outputs, lowering how much checking you attempt at al
 working signal for thinking quality, and it tells you where to slow down. AI output
 severs that signal. Wrong material is exactly as polished as right material, so the
 checking that survived the first bias has nothing to snag on. This one operates
-*within* an output.
+*within* an output. Card and examples: [[mm-fluency-bias]].
 
 **Template blindness.** Consistent formatting and structural repetition habituate
 the eye. By the thirtieth identically shaped output you are pattern-matching the

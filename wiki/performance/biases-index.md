@@ -23,6 +23,7 @@ Every bias with an mm card, wherever the card lives. A bias is a recurring patte
 | Build-don't-adopt bias | Designing a new system, process, register, or structure, and the designing feels energising | [[mm-build-dont-adopt-bias]] |
 | Forgotten-system bias | Proposing to change, reroute, merge, or restructure an existing system, process, or convention - especially with no named failure | [[mm-forgotten-system-bias]] |
 | Confirmation-amplification bias | An AI-assisted analysis supports the answer you wanted | [[mm-confirmation-amplification-bias]] |
+| Fluency bias | Reading AI output you will act on, and a passage reads fine but you could not explain it in your own words | [[mm-fluency-bias]] |
 | Confirmation bias (generic) | Gathering or weighing evidence while already holding a belief | [[mm-confirmation-bias]] |
 | Recency bias | A lean or conviction shifted, and the last 48h contained an emotionally significant conversation | [[mm-recency-bias]] |
 | Certainty-spike bias | Feeling completely, suddenly sure on a judgement call | [[mm-certainty-spike-bias]] |

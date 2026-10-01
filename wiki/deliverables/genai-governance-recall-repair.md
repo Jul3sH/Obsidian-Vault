@@ -42,7 +42,7 @@ because **biases had a recall mechanism and mental models had none.**
 | AGENTS.md rule | Session Synopsis governance: Julian rates first, model comments beneath, three non-overlapping slots for synopsis / workflow-log / card |
 | [[mm-facts-first]] | New card — every fact arriving mid-analysis invalidates work already done |
 | [[mm-confidence-inheritance]] | New card — a conclusion can be no more certain than its weakest input |
-| [[mm-clarity-is-verification]] | New card — asking what a sentence means finds errors, not just ambiguity |
+| [[mm-fluency-bias]] | New card — asking what a sentence means finds errors, not just ambiguity |
 | [[mm-write-for-the-stranger]] | New card — write for the version of you who has lost the context |
 | [[mm-verification]] | Three cryptic principles rewritten in plain English, **and the "residual" claim corrected** — automated review and human reading catch different error *classes*, not different amounts |
 | [[mm-confirmation-amplification-bias]] | Evidence logged: all ten miscalibration errors from the SRT run tabled, showing every one leant toward the more reassuring reading |
