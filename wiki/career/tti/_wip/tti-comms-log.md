@@ -510,6 +510,30 @@ renamed: 2026-07-17
 
 ---
 
+## ⏳ 1 Oct - FINAL, TO SEND after an unanswered call: the dated ask (DBIS 20 Oct, paperwork by the 12th), buy-in at execution time, early indication if not
+
+> As of 1 Oct 2026, about 05:30 Hong Kong time (National Day): Julian called Stephan, no answer; he will send this if there is no reply within an hour or two. Julian's wording, fact-checked against the record; every fact is on file except the tenant deadline, which is his. Final text:
+
+> Hi Stephan,
+>
+> Tried to call you. Did you speak to your Dad? When I spoke to him on the 13th a job sounded imminent. I'm concerned we are now seeking buy-in from the people who said no in August, when we could be working on the buy-in at execution time.
+>
+> If it's happening, speed matters to me now, and it's not just about UK tax residency. Sophia needs to be back after half term (20 October) to avoid missing athletics season and being disadvantaged in her exams. This is achievable if the paperwork can be done by around the 12th, a month on from lunch with your Dad.
+>
+> If it's not going to happen then I really need an early indication to avoid losing the only tenant offer I've had in two months, and to focus my attention on alternatives.
+>
+> Are you free to catch up so we can discuss this and see if there's anything I can help with?
+>
+> Julian
+
+**What it does:** turns the question into a dated yes-or-no (paperwork by 12 Oct for a DBIS start on 20 Oct), answers Stephan's end-of-term suggestion from the 14 Sep limo, reframes the Ty buy-in as something to earn at execution rather than a gate (Julian had agreed on 25 Sep that buy-in matters, so the line says what changed), and gives him permission for bad news. "Alternatives" keeps the UK-based TTI option open without naming it. Deliberately absent: the number, contract terms, backdating, schooling cover, custody, the 27 Oct date (for the call), and any mention of Horst being messaged.
+
+**Decided the same evening through [[first-decision-framework|FIRST]]:** call Stephan on 2 Oct; message Horst on the morning of 2 Oct as an update and a request for advice, giving him the question to put to Stephan ("you don't need to do that, go to HR and get it done" is the outcome Julian wants). Julian's 10-10-10 on the Horst message: ten minutes, worried about causing tension between them; ten months, no real bearing, everyone knows Horst is forcing it through; ten years, opinions on it do not matter.
+
+**Supersedes** Draft A and Draft B in the next entry, which stay for the record.
+
+---
+
 ## 📝 DRAFTS, NOT SENT (as of 29 Sep 2026) - two messages: UK base or a guaranteed two years; how safe is the role if Horst steps back
 
 > As of 29 Sep 2026: drafted by Claude at Julian's request, to be edited into his voice. Neither is sent. The three asks of 26 Sep (entry below) have had no reply recorded here.
