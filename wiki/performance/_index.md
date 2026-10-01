@@ -40,7 +40,7 @@ Covers personal productivity systems, execution discipline, habit formation, and
 - [[decision-frameworks/_index|Decision Frameworks]] — Frameworks and mental models for structured decision-making
   - [[decision-frameworks/choosing-a-decision-framework|Choosing a Decision Framework]] — Two-question filter to pick the right framework; ADHD-optimised
   - [[decision-frameworks/first-decision-framework|FIRST Decision Framework]] - Five-step first pass for small decisions: Facts, Issue, Repercussions, Scenarios, Then
-  - [[decision-frameworks/brain-brand-framework|BRAIN / BRAND Framework]] — Pre-commitment evaluation checklist
+  - [[decision-frameworks/braind-framework|BRAIND Framework]] - Default framework for evaluating one option in depth
   - [[decision-frameworks/seven-step-decision-process|Seven-Step Decision Process]] — Full deliberate process for high-stakes decisions
 
 - [[performance/decision-journal/_index|Decision Journal]] — The live decision record: journal convention, register, one file per decision, lock protocol, and profile

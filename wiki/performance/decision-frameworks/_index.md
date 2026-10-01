@@ -13,7 +13,7 @@ Frameworks and mental models for structured decision-making. For Julian's own de
 ## Frameworks
 - [[first-decision-framework|FIRST Decision Framework]] - Julian's five-step first pass for small decisions needing an answer now: Facts, Issue, Repercussions, Scenarios, Then. Escalates to BRAIND when it outgrows it.
 - [[choosing-a-decision-framework|Choosing a Decision Framework]] - Two-question filter for picking the right framework; ADHD-optimised to avoid analysis paralysis
-- [[brain-brand-framework|BRAIN / BRAND Framework]] - Pre-commitment evaluation checklist: Benefits, Risks, Alternatives, Need time/Nothing, Decision
+- [[braind-framework|BRAIND Framework]] - Default framework for evaluating one option in depth: Benefits, Risks, Alternatives, Intuition, Need time/Nothing, Decision
 - [[seven-step-decision-process|Seven-Step Decision Process]] - Full deliberate process for high-stakes or complex decisions; covers problem definition through review
 
 ## Sources (superseded, kept for the record)

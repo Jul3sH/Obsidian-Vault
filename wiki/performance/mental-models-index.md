@@ -110,8 +110,7 @@ sentences:
 - [[mm-rule-layering]] - Fast learns, slow remembers - and must is not should
 - [[mm-verification]] - Generation scaled and verification did not
 - [[mm-facts-first]] - Every fact that arrives mid-analysis invalidates the work already done
-- [[mm-confidence-inheritance]] - A conclusion can be no more certain than its weakest input
-- [[mm-fluency-bias]] - Always seek clarity, because it will often uncover errors. Don't skip it because something is polished: with AI, everything looks polished
+- [[mm-fluency-bias]] - Always seek clarity, because it will often uncover errors. Don't skip it because something is polished: with AI, everything looks polished. And when it sounds certain, ask what checked it
 - [[mm-write-for-the-stranger]] - Write for the version of you who has forgotten everything except that this mattered
 -
 - [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect

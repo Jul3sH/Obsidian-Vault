@@ -41,7 +41,7 @@ because **biases had a recall mechanism and mental models had none.**
 | `## Session Synopsis` | New standard section in all three define-* templates + wiki mirrors, with a defined 1–5 rating scale |
 | AGENTS.md rule | Session Synopsis governance: Julian rates first, model comments beneath, three non-overlapping slots for synopsis / workflow-log / card |
 | [[mm-facts-first]] | New card — every fact arriving mid-analysis invalidates work already done |
-| [[mm-confidence-inheritance]] | New card — a conclusion can be no more certain than its weakest input |
+| [[mm-fluency-bias]] | New card — a conclusion can be no more certain than its weakest input |
 | [[mm-fluency-bias]] | New card — asking what a sentence means finds errors, not just ambiguity |
 | [[mm-write-for-the-stranger]] | New card — write for the version of you who has lost the context |
 | [[mm-verification]] | Three cryptic principles rewritten in plain English, **and the "residual" claim corrected** — automated review and human reading catch different error *classes*, not different amounts |
@@ -97,5 +97,5 @@ adjustment · 3 mixed, got there but the route was wasteful or needed too much s
 ## Links
 - **Project:** [[../projects/ai-os|AI OS]]
 - **Triggered by:** [[uktax-srt-fy26-27]]
-- **Cards created:** [[mm-facts-first]], [[mm-confidence-inheritance]]
+- **Cards created:** [[mm-facts-first]], [[mm-fluency-bias]]
 - **Governs:** [[mm-admission-qualification]] (retroactive record rule)

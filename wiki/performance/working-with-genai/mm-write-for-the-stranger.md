@@ -66,7 +66,7 @@ whether it will still be usable once the reasoning behind it has left your head.
 - Leave the working in. The derivation of a date or figure is what lets it be checked
   and rebuilt later; the bare number cannot be.
 - Say what was assumed as well as what was established - see
-  [[mm-confidence-inheritance]]. The stranger cannot tell them apart otherwise.
+  [[mm-fluency-bias]]. The stranger cannot tell them apart otherwise.
 
 ## Limitations
 
@@ -88,5 +88,5 @@ The related discovery is that this discipline doubles as a check:
 [[mm-fluency-bias]] - demanding plain restatement surfaces errors as well as
 ambiguity.
 
-Related: [[mm-fluency-bias]], [[mm-confidence-inheritance]].
+Related: [[mm-fluency-bias]].
 Row in [[mental-models-index]].

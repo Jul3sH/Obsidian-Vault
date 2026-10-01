@@ -9,7 +9,7 @@ tags: [decision-making, decision-frameworks]
 
 ## Purpose
 
-FIRST is Julian's five-step process for small decisions that need an answer now: Facts, Issue, Repercussions, Scenarios, Then. It exists because it is the first framework to reach for on any decision, and the one that shows when a decision has grown too big for it and needs [[brain-brand-framework|BRAIND]].
+FIRST is Julian's five-step process for small decisions that need an answer now: Facts, Issue, Repercussions, Scenarios, Then. It exists because it is the first framework to reach for on any decision, and the one that shows when a decision has grown too big for it and needs [[braind-framework|BRAIND]].
 
 > As of 1 Oct 2026: built by Julian in session, from Sharran Srivatsaa's four steps with a 10-10-10 check added between the risk step and the next steps. One worked example. Not a published method.
 
@@ -38,7 +38,7 @@ FIRST is Julian's five-step process for small decisions that need an answer now:
 |---|---|
 | The issue fits in a sentence, the choice can be undone or is modest, an answer is needed today | FIRST |
 | The issue will not fit in a sentence after step 2 | Stay at step 2 until it does, or move to BRAIND |
-| Options need widening, or the choice cannot be undone, or it earns a journal entry | [[brain-brand-framework|BRAIND]] |
+| Options need widening, or the choice cannot be undone, or it earns a journal entry | [[braind-framework|BRAIND]] |
 | Hours or days are available and the stakes are high | [[seven-step-decision-process|Seven-step process]] |
 
 The picker is [[choosing-a-decision-framework]].
@@ -70,12 +70,14 @@ What the run changed: the message's target (Stephan not doing what his father to
 ## Links
 
 - [[choosing-a-decision-framework]] - the picker
-- [[brain-brand-framework]] - where a decision goes when it outgrows this
+- [[braind-framework]] - where a decision goes when it outgrows this
 - [[decision-maker-profile]] - why Julian needs a committed next step within minutes
+- [[mm-facts-first]] - the principle behind step 1: get the facts that could reverse the answer before analysing
 
 ## Document Log
 
 | Date | Entry |
 |------|-------|
 | 2026-10-01 | File created from the session in which Julian built the process on the message-to-Stephan decision. |
+| 2026-10-01 | Linked [[mm-facts-first]] as the principle behind the Facts step. |
 | 2026-10-01 | The test against BRAIND corrected in Julian's terms: both look at one thing; FIRST validates an action, BRAIND evaluates one option in depth and locks it; the earlier "which path" framing withdrawn. |

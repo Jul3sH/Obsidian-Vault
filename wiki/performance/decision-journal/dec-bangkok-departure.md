@@ -10,7 +10,7 @@ This is the journal record of the Bangkok departure decision: fly to London on W
 
 - **Decide-by:** not recorded (the flight booking acted as the de-facto forcing function)
 - **Review-on:** 2026-09-21 (first weekend back: did Sophia join the club, was there a game on Sat 19 Sep, and was the earlier return worth what it gave up?)
-- **Framework:** BRAIND (the default framework - see [[choosing-a-decision-framework]] and [[brain-brand-framework]]), previously written as "BRAINED" in [[dec-uk-move]]; BRAIND is the standard spelling from 4 Sep 2026.
+- **Framework:** BRAIND (the default framework - see [[choosing-a-decision-framework]] and [[braind-framework]]), previously written as "BRAINED" in [[dec-uk-move]]; BRAIND is the standard spelling from 4 Sep 2026.
 - **The decision:** Leave Bangkok for London on Friday 18 Sep or Wednesday 16 Sep, both on air miles. The ideal day, Thursday 17 (back for Friday, around all weekend for Sophia), has no air-miles availability, and paying cash one-way is expensive with two suitcases. Context: the plan is to leave Hong Kong on the Wednesday afternoon (keeping the morning with Joanne) and spend two nights in Bangkok for the medical checkup. Making the Wednesday 16 Sep BKK-London flight instead means leaving Hong Kong at 8 am Tuesday (the only premium-economy air-miles HK-BKK flight with the two-bag allowance), losing more Hong Kong time and the goodbye morning with Joanne.
 
 ## B - Benefits
@@ -82,4 +82,4 @@ Mitigations of the gut concerns: air miles (transfer more Amex points to BA and 
 - [[decisions-register]] - this decision's register row
 - [[commitment-lock-protocol]] - the F-N-M-T test the reversal bypassed
 - [[decision-maker-profile]] - the ~72h un-deciding pattern this instance confirms
-- [[brain-brand-framework]] - the BRAIND framework
+- [[braind-framework]] - the BRAIND framework

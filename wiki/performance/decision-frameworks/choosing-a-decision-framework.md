@@ -9,7 +9,7 @@ There are many decision frameworks. The risk with ADHD is analysis paralysis - s
 
 ## The Default (Julian, 4 Sep 2026)
 
-**BRAIND is the default framework for any decision that gets a journal entry** ([[brain-brand-framework]]: Benefits, Risks, Alternatives, Intuition, Need time, Decision - the union of BRAIN and BRAND, first used on [[dec-uk-move|the UK-move decision]], where it was spelled "BRAINED"; BRAIND is the standard spelling from 4 Sep 2026). The filter below still applies to quick, easily-reversible, in-the-moment calls that never reach the journal - that is where the Sharran default holds. A journalled decision using anything other than BRAIND records why in its entry.
+**BRAIND is the default framework for any decision that gets a journal entry** ([[braind-framework]]: Benefits, Risks, Alternatives, Intuition, Need time, Decision - the union of BRAIN and BRAND, first used on [[dec-uk-move|the UK-move decision]], where it was spelled "BRAINED"; BRAIND is the standard spelling from 4 Sep 2026). The filter below still applies to quick, easily-reversible, in-the-moment calls that never reach the journal - that is where the Sharran default holds. A journalled decision using anything other than BRAIND records why in its entry.
 
 ## The First Pass (Julian, 1 Oct 2026)
 
@@ -29,7 +29,7 @@ There are many decision frameworks. The risk with ADHD is analysis paralysis - s
 
 **Q3: Do I have time to research?**
 
-- **No (under an hour)** → Use [[brain-brand-framework|BRAIN/BRAND]]. Structured evaluation without deep research.
+- **No (under an hour)** → Use [[braind-framework|BRAIND]]. Structured evaluation without deep research.
 - **Yes (hours to days)** → Use the [[seven-step-decision-process|7-step process]]. Full deliberate process.
 
 ## Quick Reference Table
@@ -38,12 +38,12 @@ There are many decision frameworks. The risk with ADHD is analysis paralysis - s
 |-----------|-----------|
 | Do I do this or not, now? Live conversation, need next steps | [[first-decision-framework\|FIRST]] |
 | Problem is fuzzy - not sure what I'm deciding | [[first-decision-framework\|FIRST]] steps 1-2 first |
-| Clear decision, need to pressure-test before committing | [[brain-brand-framework\|BRAIN/BRAND]] |
+| Clear decision, need to pressure-test before committing | [[braind-framework\|BRAIND]] |
 | High stakes, irreversible, time to research | [[seven-step-decision-process\|7-step process]] |
 
 ## Framework Comparison
 
-| | [[first-decision-framework\|FIRST]] | [[brain-brand-framework\|BRAIN/BRAND]] | [[seven-step-decision-process\|7-step]] |
+| | [[first-decision-framework\|FIRST]] | [[braind-framework\|BRAIND]] | [[seven-step-decision-process\|7-step]] |
 |--|--|--|--|
 | **Speed** | Minutes | 15-60 min | Hours to days |
 | **Best for** | Validating one action, now | One option in depth, pre-commitment, locked | Complex or irreversible |
@@ -68,5 +68,5 @@ Irreversible decisions are the exception. For anything that cannot be undone - c
 ## Links
 
 - [[first-decision-framework|FIRST Decision Framework]]
-- [[brain-brand-framework|BRAIN / BRAND Framework]]
+- [[braind-framework|BRAIND Framework]]
 - [[seven-step-decision-process|Seven-Step Decision Process]]

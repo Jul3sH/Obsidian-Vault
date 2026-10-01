@@ -88,5 +88,6 @@ last was the most serious: it sat in the document's own open-items register mark
 "worth confirming" for a day, when it was a prerequisite capable of reversing the
 answer for both people.
 
-Related: [[mm-confidence-inheritance]] covers what happens when the analysis is
-stated *as if* the fact base were closed. Row in [[mental-models-index]].
+Related: [[mm-fluency-bias]] covers what happens when the analysis is
+stated *as if* the fact base were closed. [[first-decision-framework]] applies this
+principle as its Facts step for small decisions. Row in [[mental-models-index]].

@@ -10,7 +10,7 @@ The framework chosen to run the UK relocation decision, and *why*, recorded here
 
 ## The framework
 
-**BRAINED** = Benefits, Risks, Alternatives, Intuition, Need time / Nothing, Decision. The acronym is **B-R-A-I-N-D** (six elements, no E - "BRAINED" is only the readable spelling). It is the union of the two [[brain-brand-framework|BRAIN/BRAND]] variants: BRAIN contributes **Intuition**, BRAND contributes **Decision**. Julian's preferred variant because it keeps every element rather than dropping one.
+**BRAINED** = Benefits, Risks, Alternatives, Intuition, Need time / Nothing, Decision. The acronym is **B-R-A-I-N-D** (six elements, no E - "BRAINED" is only the readable spelling). It is the union of the two [[braind-framework|BRAIND]] variants: BRAIN contributes **Intuition**, BRAND contributes **Decision**. Julian's preferred variant because it keeps every element rather than dropping one.
 
 ## Why this model, not the alternatives
 
@@ -50,7 +50,7 @@ The **N** step - "is doing nothing better?" - is the danger zone for a commitmen
 
 ## Links
 
-- [[brain-brand-framework|BRAIN / BRAND / BRAINED Framework]] - the model reference
+- [[braind-framework|BRAIND Framework]] - the model reference
 - [[decision-journal|Decision Journal]] - the canonical decision record (Framework field points here)
 - [[belief-assumption-testing|Belief & Assumption Testing]] - runs inside the R step
 - [[decision-maker-profile|Decision-Maker Profile]] - the standing context this choice is calibrated to

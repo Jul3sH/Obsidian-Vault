@@ -11,7 +11,7 @@ This is the convention and template for logging real decisions: one `dec-<slug>.
 ## How to use it
 
 1. **Open a new `dec-<slug>.md` file** the moment a decision is live. Give it a **Decide-by date** immediately (the forcing function - see [[decision-maker-profile|profile]] Design Principle 1). Add a row to [[decisions-register|the register]] in the same operation.
-2. **Pick a framework** and record *why* that one. **Default: BRAIND** ([[brain-brand-framework]]; run it in a BRAIND file, format in [[documentation-conventions]] Part 1, reference [[HK-Return-BRAIND]]) for any journalled decision - see the default rule in [[choosing-a-decision-framework]]; if a different framework is used, the entry records why.
+2. **Pick a framework** and record *why* that one. **Default: BRAIND** ([[braind-framework]]; run it in a BRAIND file, format in [[documentation-conventions]] Part 1, reference [[HK-Return-BRAIND]]) for any journalled decision - see the default rule in [[choosing-a-decision-framework]]; if a different framework is used, the entry records why.
 3. **Run it.** Capture the analysis verdict and the gut verdict **separately** (Design Principle 3).
 4. **Commit.** Write an explicit "Therefore I choose X." No "TBA." Date it. This closes the door (Design Principle 4).
 5. **Review later.** Come back when evidence arrives. Was it a good decision? Was the *process* good, separately from whether the outcome was lucky? Update the profile if a new pattern shows, and update the register row.

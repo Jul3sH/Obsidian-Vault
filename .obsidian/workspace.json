@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
+                "file": "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "choosing-a-decision-framework"
+              "title": "HK-Return-BRAIND"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 311.421875,
+    "collapsed": true
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -203,11 +204,16 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/decision-frameworks/braind-framework.md",
+    "wiki/performance/decision-journal/dec-uk-move.md",
+    "wiki/performance/decision-journal/dec-stay-with-hannah.md",
+    "wiki/performance/decision-journal/decision-journal.md",
+    "wiki/performance/decision-journal/decisions-register.md",
+    "wiki/performance/decision-frameworks/brain-brand-framework.md",
+    "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
     "wiki/performance/working-with-genai/mm-fluency-bias.md",
     "wiki/performance/decision-frameworks/sharran-simple-decision-framework.md",
-    "wiki/performance/decision-frameworks/choosing-a-decision-framework.md",
     "wiki/performance/decision-frameworks/first-decision-framework.md",
-    "wiki/performance/decision-frameworks/brain-brand-framework.md",
     "wiki/performance/decision-frameworks/seven-step-decision-process.md",
     "wiki/performance/decision-frameworks/counterfactual-questioning.md",
     "wiki/performance/decision-frameworks/belief-assumption-testing.md",
@@ -224,11 +230,6 @@
     "wiki/performance/decision-journal/uk-move/HK-Return-Counterfactuals.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-Intuition.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-Beliefs.md",
-    "wiki/performance/decision-frameworks/_index.md",
-    "wiki/finance/uk-relocation-savings-comparison.md",
-    "wiki/relationships/GCSE-language-mitigations.md",
-    "wiki/performance/working-with-yourself/mm-wishful-thinking-bias.md",
-    "wiki/performance/decision-journal/uk-move/b1-relationship-belief.md",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",

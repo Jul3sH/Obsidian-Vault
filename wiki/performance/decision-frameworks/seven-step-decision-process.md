@@ -46,10 +46,10 @@ The 7-step process is the most complete framework in this folder. Others are spe
 - Steps 1 and 2 are the most commonly skipped - people jump to alternatives before the problem is defined or the information is gathered.
 - Step 7 (review) is the most commonly dropped - without it, no learning occurs and the same decision gets made poorly again.
 - For faster decisions, [[first-decision-framework|FIRST]] covers steps 1, 2 and 6 in a real-time conversation.
-- For pre-commitment evaluation of a clear binary decision, [[brain-brand-framework|BRAIN/BRAND]] covers steps 3, 4, and 5 efficiently.
+- For pre-commitment evaluation of a clear binary decision, [[braind-framework|BRAIND]] covers steps 3, 4, and 5 efficiently.
 
 ## Links
 
 - [[choosing-a-decision-framework|Choosing a Decision Framework]] - which framework to use and when
 - [[first-decision-framework|FIRST Decision Framework]] - speed-optimised subset
-- [[brain-brand-framework|BRAIN / BRAND Framework]] - structured pre-commitment evaluation
+- [[braind-framework|BRAIND Framework]] - structured pre-commitment evaluation

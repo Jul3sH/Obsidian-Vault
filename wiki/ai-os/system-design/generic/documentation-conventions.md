@@ -118,7 +118,7 @@ the same six slots in the same order:
 ### The BRAIND format (one question, one file)
 
 A BRAIND file is the working file for one decision run through the six
-B-R-A-I-N-D steps ([[brain-brand-framework]]). There is one format. When an
+B-R-A-I-N-D steps ([[braind-framework]]). There is one format. When an
 option's B and R rows outgrow the decision file, they may be split into their own
 `<Option>-BRAIND.md` (as [[HK-BRAIND]], [[London-BRAIND]] and [[Malvern-BRAIND]]
 were in August 2026); a split file holds only the B and R sections for that
