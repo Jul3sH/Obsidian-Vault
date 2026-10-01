@@ -53,6 +53,31 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 1 Oct - JUSTIN: no recon report; Julian says he will go to Horst; Horst's 13 Sep WhatsApp put on record
+
+> WhatsApp, Thursday 1 Oct (times as exported), verbatim:
+
+> [1/10/2026, 5:34:13 AM] Julian: Still nothing. It feels like I'm in exactly the same situation and it's going to end the same way. It is almost three weeks since Horst made it sound imminent. Any idea if he's back?
+> [1/10/2026, 6:23:04 AM] Justin Robinson: Did you send him a note yet
+> [1/10/2026, 6:24:16 AM] Julian: I'm going to send one to Horst, fuck waiting for Stephan. Stephan still hasn't responded to my message on Saturday and once again he's kicking the can down the road. There is no need fo a face to face with Ty.
+> [1/10/2026, 6:29:04 AM] Julian: Do you know if Horst is in HK?
+> [1/10/2026, 7:42:48 AM] Justin Robinson: Did he mention face to face?
+> [1/10/2026, 7:43:36 AM] Justin Robinson: Who initiated the lunch, him or his dad?
+> [1/10/2026, 7:52:51 AM] Julian: Yes, and he also mentioned "wouldn't it be better fur Sophia to start her new school in term 2", so he's already looking for reasons to procrastinate
+> [1/10/2026, 7:53:40 AM] Julian: He Did by proxy, whilst not confirmed explicitly it's pretty clear his Dad asked for it
+> [1/10/2026, 7:53:59 AM] Julian: Hi Julian,
+> How are you doing.
+> Looking forward having lunch with you tomorrow Monday with Stephan.
+> Have a nice Sunday
+> Best HJP
+> [1/10/2026, 7:55:08 AM] Julian: ..and he called me minutes after and we spoke. He basically said he was going to get me a job
+
+**What it adds (1 Oct 2026):** no report from Justin of a chat with Stephan on 30 Sep. Julian's account: Justin suggested he speak to Horst. Horst's own WhatsApp of Sunday 13 Sep is now on record verbatim (relayed by Julian in this thread), which confirms a direct written channel to Horst exists. Stephan's end-of-term line is quoted here as "wouldn't it be better for Sophia to start her new school in term 2"; the lunch record has it as "move her at the end of the term?" (limo, 14 Sep). The standing rules on Justin apply: his relays of what was said are useful, his forecasts weighted low, nothing from him reaches Stephan.
+
+**Decision the same evening (run through [[first-decision-framework|FIRST]]):** message Stephan tonight with the DBIS date; call Stephan on 2 Oct; message Horst on the morning of 2 Oct as an update and a request for advice, after Stephan has had a night to reply. Record in the Stephan Pudwill section below.
+
+---
+
 ## ✅ 29 Sep - JUSTIN BACK IN HK: Stephan is in the office; Justin will speak to him on 30 Sep; Julian holds his message until then
 
 > WhatsApp, Tuesday 29 Sep (times as exported), verbatim. The 11:38 message follows a call on a failing line.
