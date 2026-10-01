@@ -132,4 +132,4 @@ To be filled in conversation, these change the design:
 - [[decision-journal|Decision Journal]] - where decisions get logged, committed, and reviewed
 - [[commitment-avoidance|Commitment Avoidance]] - the broader behavioural pattern (working-with-yourself)
 - [[adhd-aware-work-patterns|ADHD-Aware Work Patterns]] - manufacturing urgency, forcing functions
-- [[sharran-simple-decision-framework|Sharran's Framework]] · [[brain-brand-framework|BRAIN/BRAND]] · [[seven-step-decision-process|7-Step Process]]
+- [[first-decision-framework|FIRST]] · [[brain-brand-framework|BRAIN/BRAND]] · [[seven-step-decision-process|7-Step Process]]

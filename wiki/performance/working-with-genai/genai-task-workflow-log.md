@@ -27,6 +27,27 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-09-30 · Testing a model-drafted intuition summary against the raw captures · Worked · [[uk-relocation-project]]
+
+- **Work:** the model drafted six insights from the counterfactual runs for
+  [[HK-Return-BRAIND]]; a Sonnet subagent extracted themes blind from the raw
+  captures in [[HK-Return-Intuition]] (18 themes); Codex then tested the six
+  insights adversarially against the same captures.
+- **Check:** independence by design: the blind pass never saw the draft, and the
+  Codex pass was told to hunt for evidence against each insight first. Codex
+  quotes spot-checked against the files by the main thread.
+- **Outcome:** Worked. Codex rated all six insights "mixed": "stable" and "every"
+  overreached, a model-prompted answer had been counted as Julian's, and a
+  session was mislabelled clear-headed. The blind pass found five themes the
+  draft had left out. Julian then edited the summary point by point.
+- **Lesson:** a summary drafted from one source (the runs) reads tidier than the
+  raw record supports; a blind extraction plus an against-first adversarial pass
+  caught both overreach and omission cheaply (about 185k tokens). Separately,
+  naming missing factors straight after a counterfactual answer flipped that
+  answer: record the first answer before any model comment.
+
+---
+
 ## 2026-09-30 · Filing and adversarial review of Julian's home fee research · Worked · [[uk-relocation-project]]
 
 - **Work:** Julian's own research (60 min with an AI research tool) filed into the

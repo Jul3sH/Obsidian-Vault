@@ -39,7 +39,7 @@ Covers personal productivity systems, execution discipline, habit formation, and
 
 - [[decision-frameworks/_index|Decision Frameworks]] — Frameworks and mental models for structured decision-making
   - [[decision-frameworks/choosing-a-decision-framework|Choosing a Decision Framework]] — Two-question filter to pick the right framework; ADHD-optimised
-  - [[decision-frameworks/sharran-simple-decision-framework|Sharran's Simple Decision Framework]] — Four-step real-time framework
+  - [[decision-frameworks/first-decision-framework|FIRST Decision Framework]] - Five-step first pass for small decisions: Facts, Issue, Repercussions, Scenarios, Then
   - [[decision-frameworks/brain-brand-framework|BRAIN / BRAND Framework]] — Pre-commitment evaluation checklist
   - [[decision-frameworks/seven-step-decision-process|Seven-Step Decision Process]] — Full deliberate process for high-stakes decisions
 

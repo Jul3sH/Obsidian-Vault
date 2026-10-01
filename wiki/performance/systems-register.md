@@ -1,6 +1,6 @@
 ---
 type: reference
-updated: 2026-09-29
+updated: 2026-10-01
 ---
 
 # Systems Register
@@ -47,6 +47,7 @@ Every time a new system is built, it gets a row here **at creation**, with its a
 | SYS-8 | Routing log (`genai-task-workflow-log.md` + [[mm-work-types]] vocabulary) | 3 Sep 2026 | Journal of work routed to AI so past failures of a work type are consulted before routing similar work again | **Write:** AGENTS.md Time and Token Logging rule - the routing row is appended in the same operation as the Time Log row. **Read:** checked at task creation when routing is decided | Seeded 3 Sep (two TTI rows) | **New** - adopted once three real runs have been logged and one routing decision has consulted it |
 | SYS-9 | Mental-models system (63 `mm-` cards + [[mental-models-index]] + [[biases-index]] + behaviour-check / commitment-guard / decision-visualisation-check skills + spaced-repetition hook; overview: [[mental-models-system]]) | 26-27 Aug 2026 (card set from the 303 lesson files), 19 Sep 2026 (bias layer + dispatcher) | Convert lessons learned into decision aids retrieved at the moment of repetition (trigger-fired, spaced repetition, indexes) instead of appended to a write-only lessons register | **Automatic** - spaced-repetition SessionStart hook fires daily; bias-check and the guard skills are agent-fired on trigger situations; capture is the same-operation evidence-row rule in documentation-conventions | 19-22 Sep 2026: four cards raised live during the missing-person night, evidence rows written the next day; build-dont-adopt raised 22 Sep on the taxonomy near-restructure | **Live** - retrieval fires without Julian needing to remember it exists. Row added 22 Sep when the missing register entry was spotted |
 | SYS-10 | Counterfactual questioning ([[counterfactual-questioning]]) | 29 Sep 2026 | Find which factor drives a gut feeling before weighing options | Named as a tool in the Intuition step of the BRAIND format in [[documentation-conventions]], so every BRAIND run prompts it. First use 29 Sep 2026 in [[HK-Return-Counterfactuals]], which has three runs still to do as of 29 Sep 2026 | 29 Sep 2026 | **New** |
+| SYS-11 | FIRST decision framework ([[first-decision-framework]]) | 1 Oct 2026 | First-pass process for small decisions needing an answer now; escalates to BRAIND | The framework picker [[choosing-a-decision-framework]] now opens with it, so any decision that reaches the picker starts here. First use 1 Oct 2026 on the message to Stephan; step 4 (10-10-10) not yet used as of 1 Oct 2026 | 1 Oct 2026 | **New** |
 
 ---
 

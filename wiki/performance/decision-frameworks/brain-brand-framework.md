@@ -63,17 +63,17 @@ Three variants exist - choose based on whether you want intuition included and w
 | 6. Take action | Not covered |
 | 7. Review | Not covered |
 
-BRAND is not a full process - it is a pre-commitment evaluation tool. Pair it with [[sharran-simple-decision-framework|Sharran's Step 4]] (map next steps) once the D step is done.
+BRAND is not a full process - it is a pre-commitment evaluation tool. Pair it with [[first-decision-framework|FIRST]] step 5 (Then: next steps) once the D step is done.
 
 ## Key Takeaways
 
 - The N step (Need time / Nothing) is the most important for avoiding sunk-cost decisions - it gives you explicit permission to pause or walk away.
-- BRAND is not a replacement for problem definition. If the problem is still fuzzy, run [[sharran-simple-decision-framework|Sharran's Step 2]] (Isolate the issue) first.
+- BRAND is not a replacement for problem definition. If the problem is still fuzzy, run [[first-decision-framework|FIRST]] step 2 (Issue) first.
 - The I step in BRAIN is valid - intuition encodes pattern-matched experience. Don't discard it; just name it explicitly so it can be weighed alongside evidence.
 
 ## Links
 
 - [[choosing-a-decision-framework|Choosing a Decision Framework]] - which framework to use and when
 - [[documentation-conventions|Documentation Conventions]] Part 1 - the fixed file format for a BRAIND run; reference implementation [[HK-Return-BRAIND]]
-- [[sharran-simple-decision-framework|Sharran's Simple Decision Framework]] - real-time problem-solving complement
+- [[first-decision-framework|FIRST Decision Framework]] - the first pass for small decisions; where a decision starts before it grows into a BRAIND
 - [[seven-step-decision-process|Seven-Step Decision Process]] - full deliberate process for high-stakes decisions

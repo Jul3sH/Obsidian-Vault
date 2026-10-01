@@ -2,6 +2,8 @@
 type: reference
 created: 2026-06-17
 source: Sharran Srivatsaa (entrepreneur, CEO, podcast host)
+status: superseded
+superseded-by: first-decision-framework
 ---
 
 # Sharran's Simple Decision Framework
@@ -9,6 +11,8 @@ source: Sharran Srivatsaa (entrepreneur, CEO, podcast host)
 A four-step framework for structured decision-making from entrepreneur and CEO Sharran Srivatsaa. Built on the premise that most poor decisions happen because there is no framework at all - not because the person lacks intelligence.
 
 ## The Framework
+
+> ⚠ As of 1 Oct 2026: superseded. Julian's version, [[first-decision-framework|FIRST]], adds a 10-10-10 step between steps 3 and 4 and is the framework in use. This page is kept only as the source of FIRST's steps 1, 2, 3 and 5 and is not referred to elsewhere.
 
 | Step | Label | The question to ask |
 |------|-------|---------------------|

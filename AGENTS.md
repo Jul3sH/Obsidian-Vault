@@ -814,8 +814,8 @@ Examples:
 
 - After every compile, refactor, maintenance, or lint operation, append one row
   to the current quarter's log file. No exceptions, no manual input needed.
-- Current log file: **wiki/ai-os/logs/log-2026-Q3.md** (covers July-September 2026)
-- At the start of a new quarter, create a new log file (e.g. wiki/ai-os/logs/log-2026-Q3.md)
+- Current log file: **wiki/ai-os/logs/log-2026-Q4.md** (covers October-December 2026)
+- At the start of a new quarter, create a new log file (e.g. wiki/ai-os/logs/log-2027-Q1.md)
   and update this entry to point to it.
 - Log format, one table row per operation:
   | Date | Type | Detail |

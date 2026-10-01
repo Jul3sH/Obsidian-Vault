@@ -418,7 +418,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-29 | Machine (subagent) | 152,808 tokens | Bookkeeping for the two new files: indexes, systems register, convention row, project status, logs |
 | 2026-09-29 | Machine (subagent) | 93,849 tokens | Settings mirrors refreshed after the reminder hook was added |
 | 2026-09-29 | Machine (subagent) | 130,981 tokens | Adversarial review of [[counterfactual-questioning]] and [[HK-Return-Counterfactuals]]: 19 findings, none fatal, applied the same day |
-| 2026-09-30 | Machine (interactive session) | 137,983 tokens (output 9,362 + cache-write input 128,621; cache reads 1.2M omitted) | R digest refreshed for the new "TTI Job is suboptimal" sheet cause; project status and ops log updated. Measured mid-session |
+| 2026-09-30 | Machine (interactive session) | 723,896 tokens (output 61,929 + cache-write input 661,967; cache reads 17.0M omitted) | Session 098f5c7c, 30 Sep to 1 Oct: R digest for the "TTI Job is suboptimal" cause, counterfactual re-runs tired and clear-headed, intuition captures moved to [[HK-Return-Intuition]], convention row 6 amended, draft summary reconciled from two review passes. Final figure, replaces the mid-session 137,983 |
 | 2026-09-30 | Machine (subagent, Sonnet) | 92,254 tokens | Pass 1: blind extraction of intuition themes from the raw captures (18 themes, 10 shifts between dates) |
 | 2026-09-30 | Machine (subagent wrapper) | 43,311 tokens | Pass 3 wrapper for the Codex adversarial test of the draft intuition insights |
 | 2026-09-30 | Machine (Codex exec) | 48,937 tokens | Pass 3: Codex adversarial test of the six draft insights (all six mixed; merges proposed). From ~/.codex/logs_2.sqlite |

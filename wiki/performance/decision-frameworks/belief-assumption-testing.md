@@ -8,7 +8,7 @@ status: living
 
 > A core tool, not a side activity. Much of Julian's subjective, shifting decision-making rests on **untested beliefs** and **unclarified assumptions**. His gut runs on beliefs; his scenarios rest on assumptions. Surfacing and testing them is what turns a fuzzy, emotion-led decision into one he can trust enough to commit to.
 
-This tool runs *inside* any framework ([[sharran-simple-decision-framework|Sharran's]], [[brain-brand-framework|BRAND]], [[seven-step-decision-process|7-step]]). It is the input-cleaning step.
+This tool runs *inside* any framework ([[first-decision-framework|FIRST]], [[brain-brand-framework|BRAND]], [[seven-step-decision-process|7-step]]). It is the input-cleaning step.
 
 ## Why it matters for Julian specifically
 
