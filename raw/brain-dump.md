@@ -1,6 +1,6 @@
 ---
 type: capture-inbox
-updated: 2026-08-15
+updated: 2026-10-01
 ---
 
 # Brain Dump  -  Capture Inbox
@@ -83,6 +83,27 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 - https://www.instagram.com/reel/DbJJ3hPmn7h/
 - https://www.instagram.com/reel/DbLiVQ8RgYN/
 - https://www.instagram.com/reel/Da3aSqUMFss/
+
+### WhatsApp Someday import (1 Oct 2026)
+
+| Item | Note |
+|------|------|
+| Bashi Fuirkashi reel: building AI agents that get you hired (job-landing programme pitch) | AI-skills angle on job search |
+| Yasar Ahmad reels (x2): interviewing after 45, sell evidence not experience; what to say when they think you're too old | Age-bias interview tactics |
+| Greg Langstaff reel: copy resume bullets into LinkedIn job descriptions for keyword matching | LinkedIn/ATS tactic |
+| Dark Horse reel: five "good employee" habits that block promotion | Career strategy |
+| Justin Ramdeen LinkedIn: eight consultancies find most AI spend can't show a board-level return | Enterprise AI ROI framing for EA roles |
+| Till Schmid LinkedIn: "AI strategy" bundles separate decisions; one named framework per decision | AI governance, EA territory |
+
+**Source links:**
+- https://www.instagram.com/reel/DcEcHBFgBOR/
+- https://www.instagram.com/reel/DcHKl-4EgF7/
+- https://www.instagram.com/reel/DdRTZmnFOwV/
+- https://www.instagram.com/reel/DcPWtHJOdLj/
+- https://www.instagram.com/reel/DdUfDyTO7pG/
+- https://www.linkedin.com/posts/justinramdeen_eight-firms-ran-the-ai-roi-numbers-same-share-7495442605552345088-9Q_V
+- https://www.linkedin.com/posts/till-schmid-profile_ai-strategy-is-becoming-a-dangerously-broad-share-7499025043729956864-VGnH
+
 
 ## Performance
 
@@ -206,6 +227,37 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 - https://www.instagram.com/reel/DbQrgz6haNi/
 - https://omniroute.online/
 - https://github.com/diegosouzapw/OmniRoute
+
+### WhatsApp Someday import (1 Oct 2026)
+
+| Item | Note |
+|------|------|
+| Sam Gaudet reel: top 10 content creators to study in 2026 | Personal-brand reference list |
+| Simply You Grow reel: Jack Dorsey on obsessing over the details that matter | Product/leadership mindset |
+| ThinkGPT post: Barbara Oakley, procrastination as discomfort avoidance, not laziness | Self-management |
+| Manda Chi reel: an FBI technique applied in business (title caption only) | Influence/communication |
+| Sam Stoffel reel: lessons on personal brand and selling your own digital product | Founder/brand advice |
+| Sound-bite reels (x2, Jen Gottlieb + Rob Willis): Eileen Gu's memorable-speaking formula | Communication |
+| Entrepreneurs on IG reel: Tobi Lutke used daily written affirmations to beat fear of public speaking | Mindset |
+| The Wize AI reel: Barbara Minto's Pyramid Principle (McKinsey writing method) | Structured writing |
+| Chase Hughes reel: reading people via baseline, deviation, micro-signals | Influence/communication |
+| Keith Ferrazzi reel: FORD framework (Family, Occupation, Recreation, Dreams) past small talk | Networking conversation |
+| Nina Devouge LinkedIn: build trust before negotiating, with 22 question phrases | Negotiation |
+
+**Source links:**
+- https://www.instagram.com/reel/Db08rfAp45O/
+- https://www.instagram.com/reel/DcMIy0UIZCf/
+- https://www.instagram.com/p/DcVbSdemPCg/
+- https://www.instagram.com/reel/Da-D-K2lRpl/
+- https://www.instagram.com/reel/DcG8zoHR5jj/
+- https://www.instagram.com/reel/DcbHv67B2IB/
+- https://www.instagram.com/reel/Dd09OuPo32q/
+- https://www.instagram.com/reel/DcncLFeK8cP/
+- https://www.instagram.com/reel/DcG53K-hWLN/
+- https://www.instagram.com/reel/DdBb8aFMHv7/
+- https://www.instagram.com/reel/Dd7gEq3gGw8/
+- https://www.linkedin.com/posts/ninadevouge_99-of-people-walk-into-a-negotiation-trying-share-7508084217755394048-0lS4
+
 
 ## Wiki / AI OS
 
@@ -346,6 +398,33 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 - https://www.instagram.com/reel/DbtvMqgJDPI/
 - https://www.instagram.com/p/DcDCzV2jkjt/
 
+### WhatsApp Someday import (1 Oct 2026)
+
+| Item | Note |
+|------|------|
+| Claude self-audit prompt posts (x3, ThinkGPT x2 + AI Guide): time audit (Drucker), limiting paradigm (Proctor), focus killers | Prompt ideas |
+| Agentic Engineering reel: don't ask the agent to do the task yet | Agent steering tip |
+| Ruben Hassid post: 12 AI-writing tells to delete and 11 skills that fix AI slop | Overlaps vault writing-style rules |
+| GitHub repo list posts (x2): open-source tools replacing paid software; top Agent Skills repos (Anthropic Skills, superpowers) | Tooling/skills sources |
+| Nate Herk reel: comment-gated ("Comment 'DIE'"), caption gives no content | Content unknown; open the link to see |
+| Nicolas Boucher LinkedIn: free Claude course for CFOs (links on finance modelling, Excel automation) | Claude learning resource |
+| Rakesh Gohel LinkedIn: Anthropic's free Claude Academy, 15 courses grouped beginner to advanced | Claude learning resource |
+| Neo Kim LinkedIn: 17 AI engineering concepts with links (agents, MCP, RAG, evals, A2A) | Feeds ai-engineering-patterns |
+
+**Source links:**
+- https://www.instagram.com/p/DcIhlKiGC_Q/
+- https://www.instagram.com/p/DcqCqrMmEqY/
+- https://www.instagram.com/p/Dc2Cg-9Csmi/
+- https://www.instagram.com/reel/Dcdu_f3RetX/
+- https://www.instagram.com/p/Dcnx54VkdTV/
+- https://www.instagram.com/p/Dcs-8irjYBN/
+- https://www.instagram.com/p/DdBsPEphdH3/
+- https://www.instagram.com/reel/DdJ5ynbDxqS/
+- https://www.linkedin.com/posts/bouchernicolas_i-built-a-free-claude-course-for-cfos-everything-share-7495556539047620608-9oy2
+- https://www.linkedin.com/posts/rakeshgohel01_aiagents-agenticai-generativeai-share-7496901869043253248-pNZB
+- https://www.linkedin.com/posts/nk-systemdesign-one_if-you-want-to-go-god-level-at-ai-engineering-share-7510321369788850178-I_U-
+
+
 ## Personal
 
 | Item | Note |
@@ -442,3 +521,26 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 - https://www.instagram.com/reel/DbvKkuFtKOW/
 
 Also dropped without attempting a fetch (clearly stale/inaccessible, not worth the round-trip): 2024 Japan ski-trip rental/bus links, a 2024 castmagic.io ad-tracking link, five 2024 photo/video attachments, a 7 Jul vault-path note (already resolved), and a PDF attachment (Find-Skills_Setup_Guide.pdf, content not accessible from the chat export).
+
+### WhatsApp Someday import (1 Oct 2026)
+
+| Item | Note |
+|------|------|
+| Dr Trevor Bachmeyer reel: claims ADHD is curable (mitochondrial/metabolic framing) | Contested claim, treat sceptically |
+| Healthivora post: Dorian Yates to Huberman, 8 low-volume muscle-building principles | Training |
+| Elevate Mind post: magnesium glycinate's effects on mood | Supplement |
+| Raising-daughters posts (x3): what fathers should teach daughters; healthy vs one-sided friendships | Parenting, Sophia |
+| Humour meme reel (justmorenasworld) | Entertainment |
+
+**Source links:**
+- https://www.instagram.com/reel/Dbt3c6_RUMk/
+- https://www.instagram.com/p/DdI-Jt2GT8X/
+- https://www.instagram.com/p/Dcb_bYcxl17/
+- https://www.instagram.com/p/DdhPmLKj8UO/
+- https://www.instagram.com/p/DdoLCO6kzkW/
+- https://www.instagram.com/p/Ddp4LbVGZDh/
+- https://www.instagram.com/reel/Ddx0lDRtAFI/
+
+**Dropped as unavailable (1):**
+- https://www.instagram.com/p/DcobwFzjJ9t/ (post removed or link broken)
+

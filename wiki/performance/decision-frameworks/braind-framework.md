@@ -10,7 +10,7 @@ source: Medical informed consent literature; widely adapted for general decision
 
 BRAIND (Benefits, Risks, Alternatives, Intuition, Need time / Nothing, Decision) is Julian's default framework for evaluating one option in depth before committing to it. It is used for any decision that gets a journal entry, and for decisions that have outgrown [[first-decision-framework|FIRST]].
 
-Sections: The Variants · The Questions · When to Use · Complex decisions · How It Compares to the 7-Step Process · Key Takeaways · Links · Document Log
+Sections: The Variants · The Questions · When to Use (incl. the Assumptions section) · Complex decisions · How It Compares to the 7-Step Process · Key Takeaways · Links · Document Log
 
 ## The Variants
 
@@ -53,16 +53,17 @@ BRAIND comes from the medical informed-consent checklist BRAIN and its variants.
 - The issue will not fit in a sentence after [[first-decision-framework|FIRST]] step 2
 - You have one clear option to evaluate before committing (yes/no, or option A with alternatives named)
 
-A BRAIND run is written as a `<Question>-BRAIND.md` file in the fixed format in [[documentation-conventions]] Part 1; reference implementation [[HK-Return-BRAIND]].
+A BRAIND run is written as a `<Question>-BRAIND.md` file in the fixed format in [[documentation-conventions]] Part 1; reference implementation [[HK-Return-BRAIND]]. Beyond the six steps, the file carries an **Assumptions and the plan to clear them** section between I and N: a numbered table of every assumption the B, R, A and I sections rest on, each with the action that clears it, who and when, open items first. It turns the analysis into checks that can be closed, rather than doubts that keep the decision open.
 
 ## Complex decisions
 
-When a decision touches several areas of life at once, two methods map into the framework. Both were used on [[HK-Return-BRAIND]].
+When a decision touches several areas of life at once, or depends on things not yet settled, three methods map into the framework. All three were used on [[HK-Return-BRAIND]]; the formatting rules for each are in [[documentation-conventions]] Part 1.
 
 | Method | Applies to | How |
 |--------|-----------|-----|
 | **1. Split by workstream** | B, R, A, I | Give each section a subsection per workstream the decision affects (Wellbeing, Relationships, Finance, Career, Performance, Personal), and include only the ones that apply. This shows where the benefits and risks actually sit, and stops one workstream (usually Finance) from crowding out the rest. |
-| **2. Clarify the intuition** | I | Run [[counterfactual-questioning]] to find which factor is driving the gut feeling (remove one factor at a time and see if the feeling changes), then [[belief-assumption-testing]] to label the beliefs behind it as Fact, Assumption or Belief and test them. The Intuition section then says what the gut is telling you and what it rests on, not just how it feels. |
+| **2. Clarify the intuition** | I | Run [[counterfactual-questioning]] to find which factor is driving the gut feeling (remove one factor at a time and see if the feeling changes), then [[belief-assumption-testing]] to label the beliefs behind it as Fact, Assumption or Belief and test them. The Intuition section then says what the gut is telling you and what it rests on, not just how it feels: each core intuition is a numbered point, with the runs that support or contradict it and the beliefs behind it nested beneath. |
+| **3. Conditions and dependencies** | D | When the decision is dictated by terms still to be met, or by events outside your control, write it as a conditional decision: the decision sentence, then the **conditions** (the terms that must hold for a yes), the **dependencies** (what else must happen, with owner and where it stands), and **what happens otherwise** if a condition fails or the deadline passes. |
 
 On HK-Return the raw intuition captures, the counterfactual runs and the beliefs each live in their own file ([[HK-Return-Intuition]], [[HK-Return-Counterfactuals]], [[HK-Return-Beliefs]]), and the I section holds a signed-off summary linking to them.
 
@@ -87,6 +88,7 @@ BRAIND is a pre-commitment evaluation tool, not a full process. Pair it with [[f
 - BRAIND is not a replacement for problem definition. If the problem is still fuzzy, run [[first-decision-framework|FIRST]] step 2 (Issue) first.
 - The I step is valid - intuition encodes pattern-matched experience. Name it so it can be weighed alongside evidence, and on complex decisions clarify it with counterfactual questioning and belief testing.
 - For multi-dimensional decisions, split B, R, A and I by workstream so no area of life is left out.
+- Every assumption gets an action that clears it. A decision that hangs on unmet terms is written with its conditions, dependencies and fallback, so it can still be locked.
 
 ## Links
 
@@ -100,4 +102,5 @@ BRAIND is a pre-commitment evaluation tool, not a full process. Pair it with [[f
 
 | Date | Entry |
 |------|-------|
+| 2026-10-01 | Assumptions section added under When to Use; Complex decisions extended to three methods (nested runs and beliefs under each intuition; conditions and dependencies in D), matching documentation-conventions rows 6 and 9. |
 | 2026-10-01 | Renamed from brain-brand-framework to braind-framework at Julian's instruction; variant column spelled BRAIND; default changed from BRAND to BRAIND; Purpose and the "Complex decisions" section (workstream split, intuition clarification) added. |

@@ -67,7 +67,7 @@ loading model, memory system, or skill mechanism, it belongs in that agent's wra
   Session Synopsis) defined in
   `documentation-conventions.md` Part 1. One question, one file, named
   `<Question>-BRAIND.md` in the decision's workspace folder; Julian's words, no
-  coined labels; D written by Julian. An option's B and R rows may be split into
+  coined labels; how much of D a model drafts is Julian's call. An option's B and R rows may be split into
   `<Option>-BRAIND.md` under the same rules. Reference implementation is
   `HK-Return-BRAIND.md`.
 - This is an LLM-maintained knowledge base. You are the librarian.

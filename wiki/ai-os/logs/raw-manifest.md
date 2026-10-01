@@ -19,6 +19,7 @@ purpose: Track compile status of all raw/ inbox files. Processed files move to r
 
 | File | Destination in wiki | Compile date |
 |------|-------------------|--------------|
+| WhatsApp Someday: 2026-10-01_chat.txt (Dropbox `5-Performance/Whatsapp someday/`, not vault `raw/`) | raw/brain-dump.md (all 4 workstreams) | 2026-10-01 |
 | home-fee-status-report.md (arrived as a chat attachment, not via raw/) | [[uk-home-fee-status]] | 2026-09-30 (dates corrected on filing) |
 | WhatsApp Someday: 2026-08-15_chat.txt (Dropbox `5-Performance/Whatsapp someday/`, not vault `raw/`) | raw/brain-dump.md (all 4 workstreams) + dad-health-discussions.md + commitment-avoidance.md | 2026-08-15 |
 | Auntie Hil Whatsapp messages.md | relationships/Dad/ (dad-finance-discussions, dad-health-discussions) | 2026-06-01 |

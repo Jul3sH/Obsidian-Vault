@@ -38,7 +38,7 @@ Covers personal productivity systems, execution discipline, habit formation, and
 > The **home of the decision-making system**. Every workstream's `## Decisions` section points back here for the shared method + journal.
 
 - [[decision-frameworks/_index|Decision Frameworks]] — Frameworks and mental models for structured decision-making
-  - [[decision-frameworks/choosing-a-decision-framework|Choosing a Decision Framework]] — Two-question filter to pick the right framework; ADHD-optimised
+  - [[decision-frameworks/choosing-a-decision-framework|Choosing a Decision Framework]] - The picker: start with FIRST, escalate to BRAIND, then the seven-step process
   - [[decision-frameworks/first-decision-framework|FIRST Decision Framework]] - Five-step first pass for small decisions: Facts, Issue, Repercussions, Scenarios, Then
   - [[decision-frameworks/braind-framework|BRAIND Framework]] - Default framework for evaluating one option in depth
   - [[decision-frameworks/seven-step-decision-process|Seven-Step Decision Process]] — Full deliberate process for high-stakes decisions
