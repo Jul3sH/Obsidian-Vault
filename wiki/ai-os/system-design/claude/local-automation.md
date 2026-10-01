@@ -1,12 +1,12 @@
 ---
 type: reference
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-10-01
 ---
 
 # Local Automation (launchd) - DISCONTINUED 2026-08-15
 
-**⚠ As of 15 Aug 2026: this automation was built, tested, and then turned off the same day.** The plist has been deleted and the launchd job unloaded. [[../../skills/whatsapp-someday/SKILL|whatsapp-someday]] is manual-only now (`/whatsapp-someday`). This document is kept as a record of what was built and why it was dropped, not as documentation of something currently running.
+**⚠ As of 1 Oct 2026: nothing of this automation remains on the machine.** The plist, wrapper script and logs are all deleted; the script survives only as its wiki mirror. [[../../skills/whatsapp-someday/SKILL|whatsapp-someday]] is manual-only now (`/whatsapp-someday`). This document is kept as a record of what was built and why it was dropped, not as documentation of something currently running.
 
 **Why it was dropped:** the last unresolved piece was getting Julian a real notification when a run succeeded, since nobody watches an unattended run. The sanctioned in-session tool (`PushNotification`) turned out to depend on a terminal context that a headless launchd-invoked process doesn't have, so it silently did nothing. Chasing a working replacement (native macOS notifications via a file-based handoff from the headless session to the wrapper script, verified through `launchctl kickstart` rather than Claude's own sandboxed Bash tool) turned into enough back-and-forth debugging that Julian called it: *"This is getting too complicated... Let's forget the automation part."* Given the actual weekly volume is one file, manually running `/whatsapp-someday` costs Julian little and keeps him watching the run in real time - which was always a cleaner solution to "how do I know it worked" than any notification mechanism could be.
 
@@ -39,8 +39,8 @@ That consent was given on 2026-08-15, in response to a direct question naming th
 
 **Label:** `com.julianhart.whatsapp-someday`
 **Plist location (live, not mirrored in full below - see the exact copy underneath):** `~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist`
-**Wrapper script:** `~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh` (mirrored at [[../../skills/whatsapp-someday/scripts/run_weekly|run_weekly.md]])
-**Logs:** `~/.claude/skills/whatsapp-someday/logs/` (per-run logs plus launchd's own stdout/stderr capture)
+**Wrapper script:** `~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh` (deleted 1 Oct 2026; mirrored at [[../../skills/whatsapp-someday/scripts/run_weekly|run_weekly.md]])
+**Logs:** `~/.claude/skills/whatsapp-someday/logs/` (deleted 1 Oct 2026; held per-run logs plus launchd's own stdout/stderr capture)
 
 **Trigger design:** Julian's stated requirement was "fire when I log on, at any point on Saturdays" rather than one fixed clock time, since the laptop isn't always on. This is approximated with `RunAtLoad` (fires on every fresh login) plus six `StartCalendarInterval` checkpoints spread across Saturday (09:00, 12:00, 15:00, 18:00, 21:00, 23:30) as a safety net for a session that stays logged in but asleep/awake without a fresh login event - macOS launchd runs a missed calendar-interval job shortly after the next wake if the Mac was asleep at the scheduled time. This is not a literal login-hook; it's a reasonable approximation using launchd's actual catch-up behaviour, and is disclosed as such rather than overclaimed.
 
@@ -113,3 +113,8 @@ Nobody watches this job run. The compliance question - did it actually fire, did
 ## Wiki mirror confirmation
 
 This file mirrors the live plist at `~/Library/LaunchAgents/com.julianhart.whatsapp-someday.plist` and documents the wrapper script mirrored separately at [[../../skills/whatsapp-someday/scripts/run_weekly|run_weekly.md]]. Both are tracked in [[hidden-file-sync|Hidden File Sync]].
+
+## Document Log
+
+- **1 Oct 2026:** wrapper script and logs folder deleted after checking nothing called them (launchd, cron, Claude/Codex config); script kept as wiki mirror.
+- **15 Aug 2026:** automation built, tested and turned off the same day; plist deleted and launchd job unloaded.

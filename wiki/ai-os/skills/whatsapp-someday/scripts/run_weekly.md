@@ -1,4 +1,5 @@
 > Mirror copy, exact. Source: `~/.claude/skills/whatsapp-someday/scripts/run_weekly.sh`
+> **As of 1 Oct 2026: source deleted** (unused since the launchd job was removed on 15 Aug). This mirror is now the only copy, kept as the record of what was built. See [[local-automation]].
 > Stored as Markdown per skill-conventions (scripts are never stored as raw executable files in the wiki).
 
 ```bash
