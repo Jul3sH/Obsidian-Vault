@@ -53,6 +53,22 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 2 Oct - JUSTIN CALL: HK old-timers' jobs being hollowed out by the US, his own included; the call that prompted the board-risk brief
+
+> Call on Friday 2 Oct 2026. Julian's account, given the same day. No verbatim.
+
+**What Justin said (Julian's summary):** a lot of concern inside the company about jobs. Long-serving Hong Kong staff are seeing their roles hollowed out by the US. Justin's own job is being hollowed out, as are others'.
+
+**What it adds (2 Oct 2026):**
+- This call is what prompted Julian to commission the board-risk analysis ([[TTI-board-risk-brief]]), answered by Astra, Gemini and DeepSeek and reviewed in [[TTI-board-risk-Fable-Council]].
+- The council's reading of the same facts: hollowing of HK roles is what ordinary succession and US operating dominance look like from inside; it is not evidence of a coup against the Pudwills. It is also the exact mechanism (agenda, budget, information withdrawn, no board event) that threatens Julian's own role.
+- Nothing new on Stephan: no recon report from the 30 Sep plan, and Justin's own exposure (he read himself as having about six months left, 20 Aug) colours the account.
+- Standing rules unchanged: Justin's relays of what was said are useful, his forecasts and interpretations weighted low, nothing from him reaches Stephan or Horst.
+
+**Angle change this produced (Julian, 2 Oct evening):** instead of a list of demands, frame the next message to Stephan around what is in it for him, offering the UK-based same role as the shape that makes his life easier with Horst and Ty. The 1 Oct draft is held, unsent, while that is worked out.
+
+---
+
 ## ✅ 1 Oct - JUSTIN: no recon report; Julian says he will go to Horst; Horst's 13 Sep WhatsApp put on record
 
 > WhatsApp, Thursday 1 Oct (times as exported), verbatim:
@@ -511,6 +527,8 @@ renamed: 2026-07-17
 ---
 
 ## ⏳ 1 Oct - FINAL, HELD: Stephan called back then said "I can't talk right now"; Julian waits for tomorrow's call. The dated ask (DBIS 20 Oct, paperwork by the 12th), buy-in at execution time, early indication if not
+
+> **Update 2 Oct 2026 (Friday):** no contact from Stephan today; he has not called or messaged. The message below is still held, unsent. Julian's read of the 1 Oct callback: it rang once, so a minimum-attempt call back; that is his read, the facts are as recorded. Julian understands Stephan flies to the US next week to meet Horst. Julian's instruction, 2 Oct evening: the drafted message is NOT to be sent yet. Working intention only, from the council review ([[TTI-board-risk-Fable-Council]]) the same day: a message before Stephan flies, so he carries the questions to Horst rather than improvising, would add the council's two questions (who papers the contract, who does Julian report to) and name the UK base as an option Julian would accept, the same role rather than consultancy. Julian drafts; Claude critiques. The Horst message decided on 1 Oct has not gone either.
 
 > As of 1 Oct 2026 (National Day in Hong Kong): Julian called Stephan at about 05:30 HK time, no answer. About an hour later Stephan called back, once, while Julian was on another call. An hour after that Julian called again; Stephan answered and said "I can't talk right now". Julian is holding the message until tomorrow, 2 Oct, to see whether Stephan calls or can be reached; if they speak, the message's points are the agenda for the call. Julian's read that the callback may have been a pocket dial or going through the motions is a read; the plain facts are that Stephan returned the call and then answered. Julian's wording, fact-checked against the record; every fact is on file except the tenant deadline, which is his. Final text:
 
