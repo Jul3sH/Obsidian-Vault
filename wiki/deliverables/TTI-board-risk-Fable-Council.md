@@ -168,7 +168,7 @@ Clarifications agreed 2 October (Julian chose the recommended option on each):
 
 | Date | Segment | Who | Tokens / minutes | Notes |
 |---|---|---|---|---|
-| 2026-10-02 | Brief and clarifications | Julian | Unmeasured | Focused minutes not yet self-reported as of this handback. |
+| 2026-10-02 | Brief, clarifications and review of the verdict | Julian | 30 min | Self-reported at handback, 2 Oct evening. |
 | 2026-10-02 | Fact-check subagent | Claude (Fable 5.1) | 154,256 tokens | Web verification of 18 public claims. |
 | 2026-10-02 | Three reviewer subagents | Claude (Fable 5.1) | 262,961 tokens | Evidence 87,201; decision logic 88,619; blind spots 87,141. Run in parallel. |
 | 2026-10-02 | Adversarial check of synthesis | Claude (Fable 5.1) | 105,255 tokens | Verifier over the chairman verdict before handback. |
@@ -176,7 +176,9 @@ Clarifications agreed 2 October (Julian chose the recommended option on each):
 
 ## Session Synopsis
 
-As of 2 October 2026: awaiting Julian's rating and read; model comment follows his.
+**Julian, 2 Oct 2026: 5/5.** "I was particularly impressed with the large language model deriving the answer that actually needed to be answered (so, not necessarily about an aggressive board takeover, but about the threat to my job through succession or poor reporting lines). It only took 30 minutes of my time so it was a good use of AI. I suspect it was token intensive using the best frontier models, but the results were good."
+
+**Model comment (Fable 5.1), beneath Julian's.** The reframing he values was Astra's and DeepSeek's before it was the council's; the council's contribution was to verify it against primary sources, rank the three on the same bar, and correct the brief's own premises (no COO, Horst's age, no entrenchment). The four scoping questions at the start did most of the work: choosing the job decision as the benchmark is what let the verdict say the takeover number does not drive the choice. What cost time: the adversarial pass caught the chairman draft breaching the standing assumption it had marked DeepSeek down for, and three pieces of jargon ("fiat", "written floor", "interested witness") each needed a plain-language fix after Julian asked. Token cost was high: about 1.1M effort tokens here, on top of roughly 390k across the three source reviews.
 
 ## Document Log
 

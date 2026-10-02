@@ -441,7 +441,7 @@ steering) so the log is queryable by step as well as by type. Newest first.
   Routing worked: sheet to Codex, companion re-read to a subagent with the
   figures in the brief, verification by the parent.
 
-## 2026-10-02 · Critique (council review of three model outputs) · Worked, rating pending · [[TTI-board-risk-Fable-Council]]
+## 2026-10-02 · Critique (council review of three model outputs) · Worked · [[TTI-board-risk-Fable-Council]]
 
 - **Work:** Julian asked for an LLM council over the Astra, Gemini and DeepSeek
   board-risk reviews. Claude asked four scoping questions first (format,
@@ -453,8 +453,10 @@ steering) so the log is queryable by step as well as by type. Newest first.
   4 partly, 1 contradicted, 1 unverifiable); adversarial pass returned twelve
   findings, none blocking, all applied before the file reached the vault.
   Julian's read of the verdict is the remaining check.
-- **Outcome:** Worked on the machine side; Julian's rating and minutes pending
-  at handback. Subagents 522k tokens; main session 575k effort tokens.
+- **Outcome:** Worked. Julian 5/5, 30 attended minutes; his read: the model
+  derived the question that actually needed answering (job threat via
+  succession and reporting lines, not a board coup). Subagents 522k tokens;
+  main session 575k effort tokens.
 - **Lesson:** Step at fault: steering, Claude's. The chairman draft stated the
   "boring explanation" of the rejection as fact, the same standing-assumption
   breach it marked DeepSeek down for, and offered a reporting line into Stephan
