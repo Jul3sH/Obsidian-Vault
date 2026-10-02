@@ -440,3 +440,25 @@ steering) so the log is queryable by step as well as by type. Newest first.
   heading, and diff the section count before and after any block replacement.
   Routing worked: sheet to Codex, companion re-read to a subagent with the
   figures in the brief, verification by the parent.
+
+## 2026-10-02 · Critique (council review of three model outputs) · Worked, rating pending · [[TTI-board-risk-Fable-Council]]
+
+- **Work:** Julian asked for an LLM council over the Astra, Gemini and DeepSeek
+  board-risk reviews. Claude asked four scoping questions first (format,
+  benchmark, verification depth, standing assumption), then anonymised the three
+  reviews and ran four subagents in parallel: a web fact-check of 18 public
+  claims and three reviewer lenses (evidence, decision logic, blind spots).
+  Claude synthesised as chairman; an adversarial subagent checked the synthesis.
+- **Check:** fact-check against TTI and HKEX primary documents (12 confirmed,
+  4 partly, 1 contradicted, 1 unverifiable); adversarial pass returned twelve
+  findings, none blocking, all applied before the file reached the vault.
+  Julian's read of the verdict is the remaining check.
+- **Outcome:** Worked on the machine side; Julian's rating and minutes pending
+  at handback. Subagents 522k tokens; main session 575k effort tokens.
+- **Lesson:** Step at fault: steering, Claude's. The chairman draft stated the
+  "boring explanation" of the rejection as fact, the same standing-assumption
+  breach it marked DeepSeek down for, and offered a reporting line into Stephan
+  that its own clash section had already discounted. The adversarial pass caught
+  both; a synthesis stage needs its own verifier, which is the 23 Aug rule
+  working as intended. Routing the three lenses as separate subagents with
+  blind labels produced consistent rankings without anchoring on model names.

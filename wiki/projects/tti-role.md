@@ -18,6 +18,8 @@ The project record for securing a TTI role, including the employment position, s
 
 ## Status (as of 2026-10-02)
 
+**2 October: [[TTI-board-risk-Fable-Council]] delivered, a council review of the three independent reviews.** Astra ranked strongest (every public claim confirmed against primary sources), DeepSeek second (decisive on the job, loose arithmetic), Gemini not to be relied on for figures. The council's answer: hostile displacement of both Pudwills within six years is low (planning figure around 10-15%, low confidence); loss of family control by ordinary succession is likely; the role being hollowed or ended inside two years on current unwritten terms is high, with sponsor loss alone roughly one in six over two years. Fact-check corrections to the brief: TTI has no Group COO, Frank Chan is Hong Kong-side, Horst is 81 now and 87 at the end of the window, and nothing in the Articles entrenches him. Review advice, not an acceptance decision.
+
 **2 October: [[TTI-board-risk-DeepseekV4pro]] delivered, an independent board and succession-risk review written without reading the Astra or Gemini reviews.** Its conclusion: a hostile board-led displacement of both Pudwills within six years is unlikely (roughly 5-10% overall); ordinary succession is the base case; the higher risk is Julian's role being blocked or ended inside two years, because it rests on Horst's verbal mandate against a written institutional no, with reporting line, budget, term and termination protection all unagreed. This is review advice, not Julian's acceptance decision.
 
 **2 October: [[TTI-board-risk-Astra]] revised at Julian's instruction to treat Ty's rejection rationale as untrusted formal messaging.** Astra's judgement is that a role blocked or reduced without a takeover is the more immediate employment risk. A hostile displacement of both Pudwills is possible but not the base case; the numerical range in the review is subjective and low-confidence. This is review advice, not Julian's acceptance decision.
@@ -30,16 +32,19 @@ The project record for securing a TTI role, including the employment position, s
 
 ### Next Actions (as of 2026-10-02)
 
-1. Julian reviews [[TTI-board-risk-DeepseekV4pro]] alongside [[TTI-board-risk-Astra]] and corrects any private-source interpretations. The independent review is now delivered.
-2. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
-3. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
-4. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
+1. Julian reads [[TTI-board-risk-Fable-Council]] (verdict first), corrects any private-source interpretations, and records his rating and minutes in its Session Synopsis and Time and Token Log.
+2. The council's one thing first: one written message to Stephan asking who papers the contract and who Julian reports to, with a deadline. Diagnostic, not a request for endorsement.
+3. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
+4. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
+5. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
 
 ### Project Summary File Map
 
 | Area | File | Role |
 |---|---|---|
+| Employment risk | [[TTI-board-risk-Fable-Council]] | Council verdict over the three independent board-risk reviews, with fact-check and scorecard. Read this first. |
 | Employment risk | [[TTI-board-risk-Astra]] | Independent board, succession and role-support risk assessment. |
+| Employment risk | [[TTI-board-risk-DeepseekV4pro]], [[TTI-board-risk-Geminipro]] | The other two independent reviews; brief in [[TTI-board-risk-brief]]. |
 | Communications | [[tti-comms-log]] | Written exchanges and recorded calls, including the hiring rejection. |
 | Sponsor history | [[engagement-history]] | Meeting records, including Horst's September mandate. |
 | Negotiation | [[horst-meeting-key-asks]] | Role and package questions for the chairman-backed appointment. |
@@ -49,6 +54,7 @@ The project record for securing a TTI role, including the employment position, s
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-02 | Delivered [[TTI-board-risk-Fable-Council]]: chairman review of the Astra, Gemini and DeepSeek reviews with a web fact-check (18 claims), three reviewer lenses and an adversarial pass. Scorecard: Astra 4.4, DeepSeek 3.2, Gemini 1.5 out of 5. Council answer: hostile displacement low (around 10-15%), succession likely, role hollowed or ended inside two years high on current terms. Brief corrected: no COO exists; Horst is 81 to 87 across the window; no founder entrenchment in the Articles. Decision impact: the takeover probability does not drive the job decision, sponsor-loss probability does; do not unwind the UK move until written multi-year terms, a reporting line outside the chain that said no, and a funded first assignment all exist. One thing first: a diagnostic message to Stephan on who papers the contract and who Julian reports to. |
 | 2026-10-02 | Delivered [[TTI-board-risk-DeepseekV4pro]], an independent board/succession review written without the Astra or Gemini reviews. Finding: hostile displacement of both Pudwills unlikely (5-10%); ordinary succession is the base case; the role is the real exposure, likely blocked or ended inside two years without written terms. Decision impact: obtain written reporting line, budget, term and termination protection before treating the mandate as secure employment; no acceptance or relocation decision made. |
 | 2026-10-02 | Prepared the [[TTI-board-risk-Astra#Claude review prompt]] at Julian's request. It includes his job-risk context and instruction to distrust the rejection rationale, without exposing Astra's conclusions. Decision impact: enables an independent second opinion; Claude has not been run here. |
 | 2026-10-02 | Revised [[TTI-board-risk-Astra]] on Julian's instruction: assume the rejection explanation is an untrusted formal narrative. Removed the claim that earlier HK-supportive remarks materially rebut territorial resistance. Decision impact: assess cooperation through commitments and actions; hidden motives and any board coalition remain unestablished. |

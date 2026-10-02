@@ -37,6 +37,9 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 - [[../projects/tti-role|TTI Role]]
 - [[TTI-board-risk-Astra]] - Independent review of TTI board, succession and employment risk.
 - [[TTI-board-risk-DeepseekV4pro]] - Independent board and succession-risk review (DeepSeek V4 Pro).
+- [[TTI-board-risk-Geminipro]] - Independent board-risk review (Gemini Pro), written without wiki access.
+- [[TTI-board-risk-brief]] - The risk-analysis question as posed to the three models.
+- [[TTI-board-risk-Fable-Council]] - Council review of the Astra, Gemini and DeepSeek reviews: scorecard, fact-check, synthesised verdict.
 - [[TTI-board-current]] - Current TTI board: 13 directors, backgrounds, and the Hong Kong vs US split.
 - [[../projects/clsa-role|CLSA — Head of Network Services]]
 - [[../projects/job-search-pipeline|Job Search Pipeline]]
