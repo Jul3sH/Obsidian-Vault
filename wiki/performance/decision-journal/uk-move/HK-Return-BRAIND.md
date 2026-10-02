@@ -22,6 +22,8 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
+> ⚠ **Status (2 Oct 2026):** the council review of the three board-risk assessments ([[TTI-board-risk-Fable-Council]]) is folded into R as a dated read with the sheet changes listed for Codex to apply; the sheet itself is unchanged as of today. Julian's 2 Oct capture is in the Intuition Log. A carries one dated council note under "If the job goes". D, the conditional decision, is unchanged and still awaits sign-off in Julian's words. The held Stephan message stays unsent on Julian's instruction.
+>
 > ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. The claims table is split: beliefs sit under the Intuition summary, assumptions are a to-do list near the end of the file with four proposed additions awaiting Julian. A was rewritten by Julian on 30 Sep and stands as he wrote it. Purpose question 5 answered in the Intuition Log on 30 Sep. N run on 30 Sep. D holds the conditional decision (six conditions, terms in writing by 27 October 2026 and the move complete by 14 January 2027, dependencies), written from Julian's agreed terms and awaiting his sign-off. Still to do in this file: D to be signed off in Julian's words once the 48-hour hold ends; and no `## Prompt Zero` section yet. Three assumptions wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status.
 
 ---
@@ -113,6 +115,35 @@ Rows marked Material in the sheet and scored High before response, Julian's crit
 | 13 (new 30 Sep) | TTI job is terrible in the first 2 years | I would not be happy, but I could attempt to find another job or leave before GCSE years | High, - | Reduce impact: Move back to UK for GCSE Years (probability response blank in the sheet) |
 | 14 (new 30 Sep) | TTI Job is terrible after 6 years | I would feel reasonably trapped due to the higher schooling | High, - | Accept: Get on with it as long as I can bear it |
 
+### Council read and sheet changes, 2 Oct 2026
+
+Source: [[TTI-board-risk-Fable-Council]], the chairman review of the Astra, Gemini and DeepSeek board-risk reviews. What it changes in R, mapped to the three sheet causes. The sheet is unchanged as of 2 Oct; the row changes below are for Codex to apply.
+
+**The council's three events, against the sheet's causes:**
+
+| Council event | Council view | Sheet cause it lands on | When Julian can see it |
+|---|---|---|---|
+| Hostile displacement of both Pudwills by Oct 2032 | Low, around 10-15%, low confidence. Does not drive the decision | None directly | Never, before the fact |
+| Family loses effective control by ordinary succession | Likely. Horst is 81 now, 87 at the end of the window | TTI Job is insecure (years 3 to 6 rows) | At the spring 2028 renewal |
+| Role hollowed, reduced or ended inside two years on current unwritten terms | High. Sponsor loss alone about one in six over two years; the role reports into the chain that said no; Stephan has already deferred to Ty | TTI offer is suboptimal (visible first), then TTI Job is insecure and TTI Job is suboptimal | Before moving, in the offer |
+
+**What changes in the risk picture:**
+- The exposure is there from day one, not from Horst's retirement. The August no happened with Horst as chairman. Horst leaving removes the last protection; it does not start the problem. So the defence is the reporting line and the written floor, not Horst's longevity.
+- Years 1 and 2 are the high-probability window and the cheapest failure (home fees kept, a Malvern school available, French the main casualty). Years 3 to 6 are only reached by choosing to renew in spring 2028; the renewal gate is the control.
+- Hollowing is being kept and paid with no work routed, not being fired. That is the "TTI job is terrible" rows, and the "years 2 to 6, trapped by uni fees" row is the worst case: a hollow role that keeps paying through the renewal is the trap. Being let go in year one would at least trigger the return.
+- "Prove my value relentlessly" cannot work from inside a hollowed role, because nobody routes the work to prove anything with. The response that works is structural and testable before anyone moves: a written floor (multi-year term, termination protection) approved through TTI's own machinery rather than slipped in quietly; a reporting line and performance assessor outside the chain that said no; a named operating sponsor with a funded first assignment.
+- The UK-based same role turns a catastrophic failure into a cheap one (income lost, nothing else) but does not fix the support problem; out of sight makes hollowing easier.
+
+**Sheet changes for Codex to apply** (sheet "Risks"; columns: D Risk Cause, E Risk Event, F Risk Effect, G Decision Impact, H Impact, I Probability, J Risk, K Response, L Response Description, M to O residual, W LLM evaluation). Identify rows by the exact text in E, and where two rows share an event, by the first line of F. Leave Julian's wording elsewhere untouched.
+
+| # | Rows | Change |
+|---|---|---|
+| 1 | E = "Lose my TTI Job within the first 2 years" (both rows) | I: Medium to High. J stays high. In F, replace the line "- Medium probability: Horst should still be around for the next couple of years" with "- High probability: the role is exposed from day one if it reports into the chain that said no. Horst being chairman didn't stop the August no." W: "Council 2 Oct: the hollowing risk sits in months 1 to 24. Cheapest failure window: home fees kept." |
+| 2 | E = "Lose my TTI job between years 3 and 4", "between years 5 and 6", "between years 4 and 6" (five rows) | Scores unchanged. W: "Council 2 Oct: only reached if I choose to renew in spring 2028 without the three tests met (written floor, reporting line outside the chain that said no, named sponsor with funded work). The renewal gate is the control." |
+| 3 | E = "Lack of genuine buy-in from US stakeholders" | K: "Reduce impact & probability". L: "Probability: written floor (multi-year term, termination protection) approved through HR or the Remuneration Committee, not slipped in quietly; reporting line and performance assessor outside the chain that said no; named operating sponsor with a funded first assignment. Test all three before I move anyone. Impact: the UK-based same role as the fallback shape; hold the spring 2028 exit." M to O: Julian to score. W: "Council 2 Oct: this is the sitting-duck row. The exposure starts on day one, not when Horst goes." |
+| 4 | E = "TTI job is terrible in the first 2 years", "between years 2 and 6", "after 6 years" (three rows) | L, probability part (blank on the first row): "Probability: the same three tests as the buy-in row. Value can't be shown if no work is routed to me." W: "Council 2 Oct: this is the hollowing outcome, kept and paid with nothing to do. The years 2 to 6 row is the trap; the spring 2028 renewal is the exit." |
+| 5 | New row under D = "TTI offer is suboptimal" | A: Return to HK. B: Risk. C: Career. E: "Offer names no reporting line outside the chain that said no, and no sponsor with funded work". F: "**I'd be reporting into the people who said no in August, with nothing to do.** / - High impact: it's the hollowing set up from day one, before I've moved anyone / - High probability: nothing is agreed as of 2 Oct and Stephan is seeking Ty's buy-in". G: Material. H: high. I: high. J: high. K: Reduce probability. L: "Probability: ask who papers the contract and who I report to before anything else; don't move on an offer that fails the three tests. Impact: the UK-based same role as the fallback shape." W: "Council 2 Oct: the leading indicator for both later causes." |
+
 ### Cause map
 
 One line per cause in the sheet, covering all 33 risk rows.
@@ -156,6 +187,7 @@ If I can get a reasonable job, remain living at Mums, and stop her money getting
   - *Untested:* To be described once a UK shape is on the table
 - **If the job goes.** Julian is in the UK on the Malvern 135k contractor fallback, Sophia stays at The Chase, no international fees, no home-fee clock. The CRITICAL row in R does not happen
   - *Untested:* This is the reason the option exists. It needs the risk of losing the job priced, not assumed away
+  - *Council read, 2 Oct 2026 ([[TTI-board-risk-Fable-Council]]):* priced as far as the evidence allows. The high-probability failure is the role hollowed inside two years, not a board event; sponsor loss alone is about one in six over two years. The UK base turns that failure from catastrophic to cheap, and does not fix the support problem: out of sight makes hollowing easier, and the reporting-line test applies in either geography
 - **Sophia and Mum.** No second school move; Mum keeps them. The risk of moving out of Mum's for a relationship applies in full ([[Malvern-BRAIND]] Finance)
   - *Untested:* Whether a regional rental shared with a partner keeps savings well above the London figure: the savings comparison has no such column yet
 - **Custody.** The UK exposure to a claim from Waterford stays; the HK-jurisdiction benefit in B is not gained
@@ -166,6 +198,16 @@ If I can get a reasonable job, remain living at Mums, and stop her money getting
 ## I - Intuition Log
 
 Raw captures (24, 27, 28 and 30 Sep 2026) are verbatim in [[HK-Return-Intuition]]. The summary below stands in for them here.
+
+---
+
+### 2026-10-02 · Capture, Julian's words, after the council review
+
+"As I understand it, the real risk is about my job being hollowed out and reporting into a detractor, so I am a sitting duck when Horst retires from the board for whatever reason."
+
+Same day, on the Stephan message: "Instead of making a load of demands, I was thinking perhaps I need to look at it from the angle of what's in this for Stephan. If I suggest UK and give him some things to consider, it may make his life easier."
+
+The council's one correction to the first sentence (the exposure starts on day one, not at Horst's retirement) is in R, not here.
 
 ---
 
@@ -313,6 +355,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-02 | Council review folded in: R gains a dated "Council read and sheet changes" block (three events mapped to the sheet's causes, the recalibration, and five row changes for Codex to apply); A gains one dated council note under "If the job goes"; Intuition Log gains Julian's 2 Oct capture in his words; status banner updated. Sheet and D unchanged. |
 | 2026-09-30 | D: the single drop-dead date split into two at Julian's instruction. Terms in writing by 27 October 2026 (anchor: Sophia's 90th UK day); move complete by 14 January 2027 (tax). DBIS and Chase term dates added from the schools' websites. |
 | 2026-09-30 | At Julian's instruction the conditional decision was written into D: the decision statement, the six conditions, the drop-dead date with its reasoning, the dependencies table and what happens otherwise, moved from N. N now holds only the waiting rule. D is marked as model-written from Julian's agreed terms and not yet signed off. |
 | 2026-09-30 | N dependencies: the DBIS place marked met in principle after Helen at DBIS confirmed spare places in Year 8 and entry on last year's reports. |
