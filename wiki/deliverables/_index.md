@@ -48,6 +48,7 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 | [[techtronic-covid-essay-ideas|Techtronic Covid Essay Ideas]] | Relationships | 2h | queued |
 | [[savings-v3-review|Savings v3 Review]] | Finance | 8h attended (fast lane, amended scope) | done (26 Sep 2026) |
 | [[bias-history-review|Bias History Review]] | Performance | 2h (fast lane) | in progress (19 Sep 2026) |
+| [[nbj-youtube-notebooks|NBJ YouTube Notebooks]] | Performance | 1h per run (fast lane) | ongoing record |
 
 ## BAU / Standalone
 
