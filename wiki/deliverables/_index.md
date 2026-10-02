@@ -35,6 +35,9 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 
 - [[../projects/uk-relocation-project|UK Relocation Project]]
 - [[../projects/tti-role|TTI Role]]
+- [[TTI-board-risk-Astra]] - Independent review of TTI board, succession and employment risk.
+- [[TTI-board-risk-DeepseekV4pro]] - Independent board and succession-risk review (DeepSeek V4 Pro).
+- [[TTI-board-current]] - Current TTI board: 13 directors, backgrounds, and the Hong Kong vs US split.
 - [[../projects/clsa-role|CLSA — Head of Network Services]]
 - [[../projects/job-search-pipeline|Job Search Pipeline]]
 - [[../projects/automated-linkedin-networking|Automated LinkedIn Networking]]

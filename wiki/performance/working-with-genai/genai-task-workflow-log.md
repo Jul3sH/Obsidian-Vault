@@ -6,6 +6,10 @@ status: active
 tags: [working-with-genai, routing, log]
 ---
 
+## Purpose
+
+A record of routed GenAI work, its checks, outcomes and mechanical lessons.
+
 # GenAI Task Workflow Log
 
 This is the journal of work run through the [[genai-task-workflow]] chain: one
@@ -26,6 +30,30 @@ chain step went wrong (admission / work type / verification / routing /
 steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
+
+## 2026-10-02 · Review prompt · Worked · [[TTI-board-risk-Astra]]
+
+- **Work:** Prepared the requested standalone Claude review prompt, saved within the existing deliverable.
+- **Check:** Matched the user's original scenario, job decision and formal-narrative instruction; excluded prior model conclusions.
+- **Outcome:** As of 2 October: prompt delivered; no Claude run. Incremental tokens unmeasured separately.
+- **Lesson:** Verification: preserve independent judgement by handing over the brief and original evidence rather than the first review's conclusions.
+- **Deliverable:** [[TTI-board-risk-Astra#Claude review prompt]].
+
+## 2026-10-02 · Critique amendment · Worked · [[TTI-board-risk-Astra]]
+
+- **Work:** Applied Julian's instruction to treat the rejection rationale as an untrusted formal narrative.
+- **Check:** Re-read the review; distinguished rejection, stated explanations and inferred motives; removed reassurance inferred from earlier supportive comments. Checked the project summary for the same issue.
+- **Outcome:** As of 2 October: review and project updated. Territorial resistance remains plausible; a board coalition remains unestablished. Incremental tokens unmeasured; cumulative thread checkpoint 221,484 includes the prior run.
+- **Lesson:** Verification: formal correspondence establishes what was communicated; treating its rationale or diplomatic encouragement as genuine motivation can create false reassurance.
+- **Deliverable:** [[TTI-board-risk-Astra]].
+
+## 2026-10-02 · Research + Critique · Worked · [[TTI-board-risk-Astra]]
+
+- **Work:** One independent review of TTI board/succession risk and Julian's exposure in a Horst-mandated role.
+- **Check:** Astra traced public claims to TTI/HKEX documents and read the verbatim rejection plus earlier supporting calls; checked counterevidence and distinguished reported interests from votes. Single-review scope requested by Julian; no separate reviewer.
+- **Outcome:** As of 2 October: review delivered; operating support and employment protections remain unagreed. Hostile takeover is not the base case; employment exposure does not require one. Julian's assessment pending. Thread usage 204,555 tokens at checkpoint, including earlier model-selection work; review-only usage unmeasured.
+- **Lesson:** Verification: check the original correspondence before adopting political explanations; supportive earlier calls can materially qualify a later rejection. A faction label is not evidence of a voting coalition.
+- **Deliverable:** [[TTI-board-risk-Astra]].
 
 ## 2026-10-02 · Build + Verification · Worked · [[nbj-youtube-notebooks]] Aug & Sep 2026
 
@@ -412,4 +440,3 @@ steering) so the log is queryable by step as well as by type. Newest first.
   heading, and diff the section count before and after any block replacement.
   Routing worked: sheet to Codex, companion re-read to a subagent with the
   figures in the brief, verification by the parent.
-
