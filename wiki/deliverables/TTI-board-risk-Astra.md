@@ -174,6 +174,7 @@ Ask only clarifications that could change the conclusion; investigate what you c
 | 2026-10-02 | Claude review prompt | Codex / Astra | Unmeasured separately | Follow-up drafting in the same thread; no separate model run. |
 | 2026-10-02 | Independent review | Codex / Astra | 204,555 tokens at handback checkpoint | Per-thread peak in `~/.codex/logs_2.sqlite`; includes prior model-selection discussion. Review-only usage unmeasured; checkpoint excludes the final bookkeeping/check call. |
 | 2026-10-02 | Formal-narrative assumption amendment | Codex / Astra | Unmeasured separately | Cumulative thread checkpoint 221,484 tokens; includes the earlier 204,555-token checkpoint, so do not add the two. |
+| 2026-10-02 | Thread total at close | Codex / Astra | 233,975 tokens (cumulative) | Astra's reported per-thread total covering model selection, the report, both revisions and the Claude prompt. Supersedes the 204,555 and 221,484 checkpoints above as the thread figure; do not add the three. Review-only usage was never measured separately. |
 | 2026-10-02 | Brief and review | Julian | Unmeasured | Focused minutes not yet self-reported as of this handback. |
 
 ## Session Synopsis

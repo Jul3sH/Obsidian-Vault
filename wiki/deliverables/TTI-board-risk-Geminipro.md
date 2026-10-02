@@ -77,3 +77,9 @@ To definitively map out the takeover timeline and strategy, the following factor
       
     
 4. **Robert Getz's Mandate:** As Lead Independent Director with a deep private equity background, has Getz initiated any preliminary strategic reviews or MBO feasibility studies on behalf of the independent board members?
+## Time and Token Log
+
+| Date | Segment | Who | Tokens / minutes | Notes |
+|---|---|---|---|---|
+| 2026-10-02 | Independent review | Gemini Pro | Unmeasured | Gemini's own self-estimate when asked (2 Oct): roughly 550 to 600 output tokens and 4,500 to 5,500 input tokens (prompt, the TTI Board Analysis attachment, session context). No API telemetry available, so logged as unmeasured. No wiki access. |
+| 2026-10-02 | Brief and review | Julian | Unmeasured | Focused minutes to follow once Julian has reviewed [[TTI-board-risk-Fable-Council]]. |

@@ -43,6 +43,13 @@ Questions that could change the conclusion: (1) Is there any board or Nomination
 
 TTI Corporate Information (ttigroup.com); Forbes profile of Horst Julius Pudwill (age, net worth); Wikipedia/Techtronic Industries (founding 1985, listing, Richman); [[TTI-board-current]]; [[tti-comms-log]] and [[engagement-history]] (recorded rejection, 14 Sep mandate). Astra and Gemini reviews not read.
 
+## Time and Token Log
+
+| Date | Segment | Who | Tokens / minutes | Notes |
+|---|---|---|---|---|
+| 2026-10-02 | Independent review | OpenCode / DeepSeek V4 Pro | 148,786 tokens | Measured from the OpenCode database (session "Obsidian directory location check", 21 assistant messages): input 127,669, output 5,431, reasoning 15,686, cache write 0. Cache reads 2.14M omitted as not effort. Provider-reported cost about US$0.08. OpenCode's own in-session estimate was 150-200k. |
+| 2026-10-02 | Brief and review | Julian | Unmeasured | Focused minutes to follow once Julian has reviewed [[TTI-board-risk-Fable-Council]]. |
+
 ## Document Log
 
 | Date | Change |

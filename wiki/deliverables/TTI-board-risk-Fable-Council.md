@@ -42,9 +42,9 @@ As of 2 October 2026: council verdict delivered, adversarially checked, ready fo
 
 - **Nobody priced the one number that is actually pricable: losing the sponsor inside two years.** For a man of 81, two-year mortality alone is roughly one in ten (the chairman's estimate from published male life tables for Hong Kong and Germany, about 5% a year at that age); add incapacity and retirement and one in six is a defensible planning figure. That is a rough actuarial number, not a calibrated forecast, but it is better founded than any takeover percentage in the three reviews.
 - **Who controls the Sunning Inc. and Cordless shares after Horst** (trust, estate, spouse) is the decisive six-year ownership question. Astra notes it as unestablished; nobody looked, and public sources do not say. This is the variable that would turn succession into something sharper.
-- **A quiet, backdated contract is governance by fiat.** DeepSeek calls it a warning; nobody asked how a fiat hire fares at its first performance review, or what it signals about how Horst governs and therefore how the operating chain will treat his appointees once he is gone.
+- **A quiet, backdated contract is a job that exists because one man said so.** DeepSeek calls it a warning; nobody asked how a hire made by the chairman's say-so, with no owner inside the organisation, fares at its first performance review, or what it signals about how Horst governs and therefore how the operating chain will treat his appointees once he is gone.
 - **Richman is 66.** His own succession sits inside the window. Only Astra mentions it, in one clause.
-- **The mandate rests on one interested witness.** The 13 and 14 September record is Julian's recollection, amended from memory on 1 October. None of the three weighted it by source quality.
+- **The mandate rests on Julian's own recollection.** The only record of what Horst said on 13 and 14 September is Julian's memory of it, with the backdated-contract detail added from memory on 1 October; nothing is in writing from Horst or Stephan, and Julian is the person with most at stake in how it is remembered. That does not make it wrong, but it is weaker evidence than a written offer, and none of the three reviews discounted for it.
 - **The boring explanation was never stated in full.** One reading the council finds at least as plausible as the threat theory, and no better evidenced: Ty was handed an unbudgeted senior hire via the chairman's son in the week he was cutting headcount, and could not justify it to the people he was laying off. Horst heard that someone he had decided to help was refused and overrode it, as founders do. Stephan, knowing an override without Ty will not stick, slowed it down. No threat, no coalition. Astra came closest; DeepSeek installed Julian's "turkeys don't vote for Christmas" theory as the established cause instead, which the standing assumption does not license any more than it licenses Ty's stated reason.
 
 ### Root-cause and precedent check
@@ -62,7 +62,7 @@ One written message to Stephan, because Horst left execution with him, asking tw
 
 ## Scorecard
 
-Scores are 1 to 5, averaged from the three reviewer lenses; the fact-check row is shown separately and does not alter the numbers. The three were scored blind (as Responses A, B, C) and are named here.
+These scores rate the quality of each review (how well it handled evidence, reasoned about probability, tested the brief's premises and served the job decision). They are not probabilities of a takeover or of losing the job; those are in the table further down. Scores are 1 to 5, averaged from the three reviewer lenses; the fact-check row is shown separately and does not alter the numbers. The three were scored blind (as Responses A, B, C) and are named here.
 
 | | Astra | DeepSeek V4 Pro | Gemini Pro |
 |---|---|---|---|
