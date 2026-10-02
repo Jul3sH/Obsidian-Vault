@@ -12,7 +12,7 @@ decision: Return to Hong Kong on a TTI offer
 
 This is the BRAIND workspace for one question: **if TTI puts a written offer on the table, does Julian move back to Hong Kong or hold the committed UK move?**
 
-Seven questions are top of mind for Julian, and the BRAIND exists to answer them:
+Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 1. Do I really need to return to HK for romance?
 2. Do I really need to return to HK for financial reasons?
@@ -77,9 +77,9 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 **Question 3 part 1: Are the risks of the move manageable?**** 
 
 **Most critical risks are if I move balk from years 3 to 7 because**
-1)  I may lose home university status
+1) I may lose home university status
 2) I may have to survive in HK on no salary for a year until GCSEs or A-levels finish
-3) High school fees 
+3) Sophia ending up in a bad stream for GCSEs
 
 **Key Risks and mitigations by period**
 1) If the job looks too risky before I even start, I don't go to HK and try to move it to UK.
@@ -88,6 +88,10 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 
 **Question 3 part 2: Is the guilt  the risks of the move manageable?**** 
 The guilt of moving to HK with Sophia would eat me up for a bit, but the move would be justified after Clodagh's failures and many kids of Sophia's age go to boarding school. She can rebuild the relationship on video and through holidays.  
+
+**Question 5: Is living with Mum for six years realistic, and is moving out viable?** 
+
+
 ### Ranked risks
 
 Rows marked Material in the sheet and scored High before response, Julian's critical case first (losing the job in the GCSE and A-level years, now four effect rows). Everything else is in the sheet.

@@ -27,6 +27,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-02 · Build + Verification · Worked · [[nbj-youtube-notebooks]] Aug & Sep 2026
+
+- **Work:** `/youtube-notebook` loaded 36 Nate B Jones long-form videos (1 Aug - 30 Sep 2026) into a new NotebookLM notebook with one native briefing each.
+- **Check:** Mechanical: dual-path enumeration PASS (0 gaps) and four-way reconciliation PASS (36/36). Briefing content deliberately not reviewed, by Julian's call.
+- **Outcome:** Clean single run, no resume needed. 169,143 session tokens.
+- **Lesson:** None new; the skill's mechanical verification was sufficient for this work type.
+- **Deliverable:** [[nbj-youtube-notebooks]].
+
 ## 2026-09-30 · Testing a model-drafted intuition summary against the raw captures · Worked · [[uk-relocation-project]]
 
 - **Work:** the model drafted six insights from the counterfactual runs for

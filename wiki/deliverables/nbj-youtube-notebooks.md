@@ -16,7 +16,7 @@ The ongoing fast-lane record for loading Nate B Jones's YouTube videos into Note
 
 ## Status
 
-**As of 2 Oct 2026:** Aug & Sep 2026 run in progress (36 sources added; briefings generating).
+**As of 2 Oct 2026:** Aug & Sep 2026 run complete, reconciliation PASS. Awaiting Julian's usability confirmation (criterion 3).
 
 ## Brief (Admission Fast Lane, agreed 2026-10-02)
 
@@ -35,12 +35,13 @@ The ongoing fast-lane record for loading Nate B Jones's YouTube videos into Note
 
 | Date | Notebook | Window | Videos | Verification | Reconciliation |
 |------|----------|--------|--------|--------------|----------------|
-| 2026-10-02 | NBJ August & September 2026 | 1 Aug - 30 Sep 2026, long-form only | 36 | PASS, 0 gaps | pending |
+| 2026-10-02 | NBJ August & September 2026 | 1 Aug - 30 Sep 2026, long-form only | 36 | PASS, 0 gaps | PASS: 36/36 sources, briefings, files, headers. Notebook `be67caba-9804-4abf-a7f9-f47a3c7c9bb6`; files in `~/Downloads/NBJ August & September 2026 Briefings/` |
 
 ## Time and Token Log
 
 | Date | Type | Effort | Notes |
 |------|------|--------|-------|
+| 2026-10-02 | Machine (interactive Claude session) | 169,143 tokens | Output 19,102 + cache-write 150,041 across 36 assistant messages; cache reads 3.0M not counted. Covers interview, enumeration, build orchestration and bookkeeping. NotebookLM briefing generation runs on Google's side and is not in this figure |
 
 ## Session Synopsis
 
