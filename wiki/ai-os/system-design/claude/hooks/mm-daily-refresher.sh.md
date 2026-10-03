@@ -18,6 +18,12 @@ came due together on 25 Sep, which is unlearnable.
 Since 2026-09-27 each model is announced with its wiki section (Working with GenAI
 / yourself / others, The human mind), derived from its parent folder, in both the
 terminal line and the instruction to Claude.
+Since 2026-10-03 the script also runs a separate **feature review** on the same
+rules: reference articles flagged `review: feature` in frontmatter are reviewed at
+1, 7 and 30 days from their `review-start:` date, in their own queue
+(`~/.claude/feature-daily-reminder-queue`) with their own cap of three per day,
+shown in addition to the models; every 1-day review is always shown. On a quiet
+day one flagged feature rotates in. Set up by [[claude-code-feature-articles]].
 
 ```bash
 #!/bin/bash
@@ -48,17 +54,46 @@ terminal line and the instruction to Claude.
 # Section label (Julian, 2026-09-27): every model is announced with the wiki
 # section it comes from (Working with GenAI / yourself / others, The human
 # mind), derived from its parent folder, so the refresher carries its context.
+#
+# Feature review (Julian, 2026-10-03): steering is a mental model, but each
+# mechanism (hooks, rules, output styles, subagents, skills...) is a feature,
+# documented as a reference article, not an mm card. Features get their own
+# spaced repetition on the same rules, in a separate queue with its own cap of
+# MAX_PER_DAY (shown in addition to the models). A file opts in with frontmatter
+# `review: feature`; its 1/7/30-day clock runs from `review-start:` (not
+# `created:`), so an older article joins the cycle on the day it is flagged.
+# When no feature is due, one flagged feature rotates in by day-of-year.
+# Queue line format as for models; queue file feature-daily-reminder-queue.
+# WIKI and the state/queue paths derive from REFRESHER_WIKI / HOME so the
+# script can be dry-run against a scratch copy without consuming the real day.
 MAX_PER_DAY=3
 EFF="-v-5H"
 TODAY=$(date $EFF +%Y-%m-%d)
 STATE="$HOME/.claude/mm-daily-reminder-last"
 QUEUE="$HOME/.claude/mm-daily-reminder-queue"
+FQUEUE="$HOME/.claude/feature-daily-reminder-queue"
 [ "$(cat "$STATE" 2>/dev/null)" = "$TODAY" ] && exit 0
 echo "$TODAY" > "$STATE"
-touch "$QUEUE"
-WIKI="/Users/julianhart/Obsidian Vault/wiki"
+touch "$QUEUE" "$FQUEUE"
+WIKI="${REFRESHER_WIKI:-/Users/julianhart/Obsidian Vault/wiki}"
 # awk function: wiki section label from a file path's parent folder.
-SECFN='function sec(p,  d){d=p; sub(/\/[^\/]*$/,"",d); sub(/.*\//,"",d); if(d=="working-with-genai")return "Working with GenAI"; if(d=="working-with-yourself")return "Working with yourself"; if(d=="working-with-others")return "Working with others"; if(d=="the-human-mind")return "The human mind"; return d}'
+SECFN='function sec(p,  d){d=p; sub(/\/[^\/]*$/,"",d); sub(/.*\//,"",d); if(d=="working-with-genai")return "Working with GenAI"; if(d=="working-with-yourself")return "Working with yourself"; if(d=="working-with-others")return "Working with others"; if(d=="the-human-mind")return "The human mind"; if(d=="claude-anthropic")return "Claude & Anthropic"; return d}'
+
+# take_due QUEUEFILE: print today's items (every 1-day item, then 7-day and
+# 30-day up to MAX_PER_DAY in total) and rewrite the queue with the rest.
+take_due() {
+  local Q="$1" SORTED ONE REST N1 SLOTS
+  # Order: rung 1, then 7, then 30; oldest due date first within a rung.
+  SORTED=$(sort -t'|' -k1,1n -k2,2 -k3,3 "$Q")
+  ONE=$(printf '%s\n' "$SORTED" | grep '^1|')
+  REST=$(printf '%s\n' "$SORTED" | grep -v '^1|')
+  N1=$(printf '%s\n' "$ONE" | grep -c .)
+  SLOTS=$((MAX_PER_DAY - N1)); [ "$SLOTS" -lt 0 ] && SLOTS=0
+  printf '%s\n%s\n' "$ONE" "$(printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR<=n')" | grep .
+  printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR>n' > "$Q"
+}
+
+# --- Mental models ---
 # Append newly due files (skip a path already queued at the same rung).
 for RUNG in 1 7 30; do
   D=$(date $EFF -v-${RUNG}d +%Y-%m-%d)
@@ -67,14 +102,7 @@ for RUNG in 1 7 30; do
   done
 done
 if [ -s "$QUEUE" ]; then
-  # Order: rung 1, then 7, then 30; oldest due date first within a rung.
-  SORTED=$(sort -t'|' -k1,1n -k2,2 -k3,3 "$QUEUE")
-  ONE=$(printf '%s\n' "$SORTED" | grep '^1|')
-  REST=$(printf '%s\n' "$SORTED" | grep -v '^1|')
-  N1=$(printf '%s\n' "$ONE" | grep -c .)
-  SLOTS=$((MAX_PER_DAY - N1)); [ "$SLOTS" -lt 0 ] && SLOTS=0
-  TAKE=$(printf '%s\n%s\n' "$ONE" "$(printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR<=n')" | grep .)
-  printf '%s\n' "$REST" | grep . | awk -v n="$SLOTS" 'NR>n' > "$QUEUE"
+  TAKE=$(take_due "$QUEUE")
   LEFT=$(grep -c . "$QUEUE")
   # Paths contain spaces (Obsidian Vault), so items are joined with "; ".
   DUE=$(printf '%s\n' "$TAKE" | awk -F'|' "$SECFN"'{printf "%s-day review (due %s, section: %s): %s; ", $1, $2, sec($3), $3}')
@@ -86,6 +114,30 @@ else
   SEC=$(printf '%s\n' "x|x|$F" | awk -F'|' "$SECFN"'{print sec($3)}')
   SYS="Mental-model refresher today: $(basename "$F" .md) ($SEC)"
   MSG="Daily mental-model refresher (first session of the day): read $F (section: $SEC) and open your first reply with a two-to-three line refresher naming its section, then covering its one-liner, when to reach for it, and one key principle. Then handle the request as normal. Keep the refresher short."
+fi
+
+# --- Features ---
+for RUNG in 1 7 30; do
+  D=$(date $EFF -v-${RUNG}d +%Y-%m-%d)
+  grep -rlE "^review-start: $D" --include="*.md" "$WIKI" 2>/dev/null | grep -v "_archived" | sort | while IFS= read -r f; do
+    grep -q "^review: feature" "$f" || continue
+    grep -qxF "$RUNG|$TODAY|$f" "$FQUEUE" || grep -q "^$RUNG|[0-9-]*|$f\$" "$FQUEUE" || echo "$RUNG|$TODAY|$f" >> "$FQUEUE"
+  done
+done
+if [ -s "$FQUEUE" ]; then
+  FTAKE=$(take_due "$FQUEUE")
+  FLEFT=$(grep -c . "$FQUEUE")
+  FDUE=$(printf '%s\n' "$FTAKE" | awk -F'|' "$SECFN"'{printf "%s-day review (due %s, section: %s): %s; ", $1, $2, sec($3), $3}')
+  FNAMES=$(printf '%s\n' "$FTAKE" | awk -F'|' "$SECFN"'{n=$3; sub(/.*\//,"",n); sub(/\.md$/,"",n); printf "%s(%sd, %s) ", n, $1, sec($3)}')
+  SYS="$SYS | Feature refresher (spaced repetition due): $FNAMES($FLEFT queued for later days)"
+  MSG="$MSG Feature refresher: these feature articles are also due review, in priority order: $FDUE Read each and, after the mental-model refresher, add a short refresher per feature, naming its section first (section, what the feature is in one line, when to reach for it, one gotcha). Keep it short; $FLEFT more features are queued for later days."
+else
+  FF=$(grep -rl "^review: feature" --include="*.md" "$WIKI" 2>/dev/null | grep -v "_archived" | sort | awk -v n=$(date +%j) '{a[cnt++]=$0} END{if(cnt)print a[n%cnt]}')
+  if [ -n "$FF" ]; then
+    FSEC=$(printf '%s\n' "x|x|$FF" | awk -F'|' "$SECFN"'{print sec($3)}')
+    SYS="$SYS | Feature refresher today: $(basename "$FF" .md) ($FSEC)"
+    MSG="$MSG Daily feature refresher: also read $FF (section: $FSEC) and, after the mental-model refresher, add a two-line feature refresher naming its section, then what the feature is and one gotcha."
+  fi
 fi
 printf '{"systemMessage":"%s","hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":"%s"}}\n' "$SYS" "$MSG"
 ```

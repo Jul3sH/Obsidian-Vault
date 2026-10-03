@@ -13,6 +13,16 @@ tags: [technical, claude, anthropic]
 - [[session-context-loading]] - What occupies the context window: the fixed prefix assembled at session start, what loads lazily, and what grows the transcript irreversibly
 - [[session-transcripts-and-memory]] - Where Claude Code stores raw JSONL session history on disk, and how the Agentic OS memory layer consumes it
 
+## Steering Features
+
+One article per Claude Code steering mechanism. The mental model over them is [[mm-steering]]; these carry the feature detail, which ages with each release.
+
+- [[claude-code-hooks]] - Commands that fire on session and tool events whether or not Claude would choose to; the only mechanism that enforces
+- [[claude-code-path-rules]] - Instruction files in `.claude/rules/` that load only when Claude touches files matching their path patterns
+- [[claude-code-output-styles]] - Files that change Claude Code's system prompt itself: identity, tone and response style
+- [[claude-code-subagents]] - Separate Claude instances with their own system prompt and context; only the final message returns
+- [[claude-code-skills]] - Packaged procedures whose description is always visible and whose body loads only when used
+
 ## Integrations
 
 - [[notebooklm-integration-options]] — Two patterns for connecting Claude agents to NotebookLM (MCP/browser vs Tenglin direct-client); decision rule and comparison table
