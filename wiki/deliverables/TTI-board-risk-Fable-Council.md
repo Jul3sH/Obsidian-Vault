@@ -11,11 +11,28 @@ size: 1
 
 A council review of the three independent TTI board-risk assessments (Astra, Gemini Pro, DeepSeek V4 Pro) answering [[TTI-board-risk-brief]], so Julian has one verified, ranked reading of them instead of three to reconcile himself.
 
-Verdict first; scorecard and per-model notes; fact-check corrections; council answer to the two questions; record last.
+How likely the job is to fail in its first two years (added 3 Oct); then the verdict; scorecard and per-model notes; fact-check corrections; the council's answer to the brief's question and the job question; record last.
 
 # TTI board risk: Fable Council
 
-As of 2 October 2026: council verdict delivered, adversarially checked, ready for Julian's read. Review advice, not an acceptance or relocation decision. Reporting line, budget, performance assessment, term and termination protection remain unagreed.
+As of 3 October 2026: council verdict delivered 2 Oct, adversarially checked, reviewed by Julian (5/5); Claude's estimate of how likely the job is to fail in two years added 3 Oct at his request, at the top of the file. Review advice, not an acceptance or relocation decision. Reporting line, budget, performance assessment, term and termination protection remain unagreed.
+
+## How likely is it that the job fails in the first two years? (added 3 October 2026)
+
+Written by Claude after Julian reviewed the verdict, at his request. These are Claude's best estimates, not measured odds, and not something the three reviews agreed on. **At Julian's instruction the figures are worked as if Horst were 84.** He is 81; Julian wants the extra margin. The figures at 81 are given at the end.
+
+"Fails" means the job is taken away, or kept on paper but emptied out: no work sent your way, no say, a performance review written by people who never wanted you there.
+
+| The job fails within two years | Estimate (Horst taken as 84) | Why |
+|---|---|---|
+| **If you go on today's terms:** nothing in writing, a contract done quietly, reporting into the people who said no in August | **60 to 70%** | Two ways it fails. First, Horst dies or steps back within two years: about one in four for a man of 84 (death alone is about 16% over two years at that age; illness and retirement take it to about 25%). A quiet contract rarely survives the man who arranged it, so nearly all of that ends badly: about 20% of the total. Second, Horst is still there (about 75%) but the people who said no control what work you get, and Stephan has already gone back to them for approval once. I put the chance that a hire forced on an unwilling management by the chairman is emptied out within two years at 50 to 60%: about 40 to 45% of the total. Together, roughly 60 to 70%. |
+| **If three things are in writing before you go:** a 24-month contract approved through HR or the board's pay committee, not slipped in quietly; a boss and a performance reviewer who are not the people who said no; a named manager with a real first assignment and a budget | **25 to 35%** | Horst can still go (25%), but a written 24-month contract pays out even so, and a role the board has approved has other people who own it. Perhaps a third of those cases still end badly: about 8% of the total. If Horst stays and the job has a real manager and real work, the chance of it being emptied out drops to about one in five: about 15% of the total. Together, roughly 25 to 35%. Either way the money is protected by the contract. |
+
+**At Horst's actual age of 81** the chance of losing him within two years is about one in six rather than one in four, and the two rows come out at about 55 to 65% and 20 to 30%. The age changes the numbers by a few points; it does not change the advice.
+
+**What the gap tells you.** The difference between the two rows is who controls your work, not how old Horst is. The three things in writing roughly halve the risk, and they are the only things you can check before anyone moves.
+
+**Where this could be wrong.** Too high: Ty said he "liked you" and left the door open for outside help, so management may be less hostile than the August refusal suggests. Too low: the only record of what Horst promised at the lunch is Julian's memory of it, and three silent weeks from Stephan fit a promise that was weaker than it sounded.
 
 ## Key Takeaways
 
@@ -40,7 +57,7 @@ As of 2 October 2026: council verdict delivered, adversarially checked, ready fo
 
 ### Blind spots the council caught
 
-- **Nobody priced the one number that is actually pricable: losing the sponsor inside two years.** For a man of 81, two-year mortality alone is roughly one in ten (the chairman's estimate from published male life tables for Hong Kong and Germany, about 5% a year at that age); add incapacity and retirement and one in six is a defensible planning figure. That is a rough actuarial number, not a calibrated forecast, but it is better founded than any takeover percentage in the three reviews.
+- **Nobody priced the one number that is actually pricable: losing the sponsor inside two years.** For a man of 81, two-year mortality alone is roughly one in ten (Claude's estimate from published life tables for men in Hong Kong and Germany, about 5% a year at that age); add illness and retirement and one in six is a reasonable figure to plan with. That is a rough estimate from life tables, not a measured probability, but it is better founded than any takeover percentage in the three reviews.
 - **Who controls the Sunning Inc. and Cordless shares after Horst** (trust, estate, spouse) is the decisive six-year ownership question. Astra notes it as unestablished; nobody looked, and public sources do not say. This is the variable that would turn succession into something sharper.
 - **A quiet, backdated contract is a job that exists because one man said so.** DeepSeek calls it a warning; nobody asked how a hire made by the chairman's say-so, with no owner inside the organisation, fares at its first performance review, or what it signals about how Horst governs and therefore how the operating chain will treat his appointees once he is gone.
 - **Richman is 66.** His own succession sits inside the window. Only Astra mentions it, in one clause.
@@ -98,7 +115,7 @@ Also confirmed: HKEX Rule 3.13A removes any independent director with nine or mo
 
 | Question | Council answer | Confidence |
 |---|---|---|
-| Hostile displacement of both Pudwills by US leadership and other directors, attempted and succeeded, by Oct 2032 | Low. The two reviews that priced it gave 5-10% and 10-25%; the chairman's planning figure is around 10-15%. Feasible under the Articles, but no coalition is evidenced and no incentive to confront exists while waiting wins. | Low. Subjective, not calibrated. Reassess on a contested succession, a share sale or trust change, or a demonstrated director coalition. |
+| Hostile displacement of both Pudwills by US leadership and other directors, attempted and succeeded, by Oct 2032 | Low. The two reviews that gave a figure said 5-10% and 10-25%; Claude's best guess is around 10-15%. Feasible under the Articles, but no coalition is evidenced and no incentive to confront exists while waiting wins. | Low. A judgement, not a measured probability. Reassess on a contested succession, a share sale or trust change, or a demonstrated director coalition. |
 | Family loses effective control by ordinary succession by Oct 2032 | Likely, more likely than not. Horst steps back or dies, Frank Chan retires, Stephan remains a passive holder. | Medium. Rests on ages and public roles, not private intentions. |
 | Role blocked, reduced or ended within two years, on current (unwritten) terms | High. Sponsor loss alone is roughly one in six over two years; add an operating chain that said no and a sponsor who delegates execution to the son who defers to that chain. | Medium on direction, low on frequency. Reassess down only when the three conditions in the recommendation exist in writing. |
 
@@ -184,4 +201,5 @@ Clarifications agreed 2 October (Julian chose the recommended option on each):
 
 | Date | Entry |
 |---|---|
+| 2026-10-03 | Added "How likely is it that the job fails in the first two years?" at the top of the file at Julian's request: Claude's two estimates (today's terms versus three things in writing) with the reasoning in plain English; jargon removed at his instruction the same morning; then reworked with Horst taken as 84 rather than 81, also at his instruction, with the age-81 figures kept as a footnote. |
 | 2026-10-02 | Created. Chairman review of the Astra, Gemini and DeepSeek reviews, with fact-check, three reviewer lenses and an adversarial pass on the synthesis. Adversarial pass returned twelve findings (none blocking); all applied before handback. |
