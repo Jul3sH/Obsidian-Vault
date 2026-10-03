@@ -28,6 +28,9 @@ before opening the file, making the call, or committing.
   part, not the doing.
 - Minimal research then start beats extensive research then start; real feedback
   comes from doing, not speculating.
+- "Stress primarily comes from not taking action over something that you can have
+  some control over. Stress doesn't come from hard work. Stress comes from ignoring
+  things that you shouldn't be ignoring." (attributed to Jeff Bezos)
 
 ## Principles
 
@@ -64,6 +67,7 @@ disagree, the article wins pending correction.
 
 | Date | Event | Lesson in action | Source |
 |------|-------|-------------------|--------|
+| 2026-10-03 | Woke up stressed and anxious again because the message to Stephan hadn't gone the day before | Sent it, without knowing if it was perfect, right or wrong, and the anxiety went once it was sent; the stress came from not acting, not from the message | [[tti-comms-log]] (3 Oct entry) |
 | Pre-wiki | Couldn't decide the direction for a slide deck | Opened PowerPoint and started experimenting; the act of starting created the clarity that planning hadn't | [[Lesson Learnt - Start on deliverables immediately to reduce time wasted due to indecision and lack o]] |
 | Pre-wiki | Stressed about an NTP design before starting | Felt relief the moment he actually sat down and began; anticipation plus procrastination had been feeding each other | [[lesson learnt - get started to beat procrastination]] |
 | Pre-wiki | Anxious and trying to meditate the worry away | Nothing worked until he created a task to confront the fear directly at the next opportunity | [[Lesson Learnt - face fear immediately to reduce prolonged misery]] |

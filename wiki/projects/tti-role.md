@@ -7,7 +7,7 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-10-02
+status-updated: 2026-10-03
 ---
 
 ## Purpose
@@ -16,7 +16,9 @@ The project record for securing a TTI role, including the employment position, s
 
 # TTI Role
 
-## Status (as of 2026-10-02)
+## Status (as of 2026-10-03)
+
+**3 October: short prompt sent to Stephan; the tenant offer has been lost.** Julian's message asks whether Stephan spoke to Horst, names the lost tenant offer and the buy-in round with the people who said no in August, asks "do I need to be worried?", gives half term (20 Oct) as the date Sophia needs to be back, and ends asking for the next step and when. Verbatim in [[tti-comms-log]]. The 1 Oct held draft is superseded. Not included: the council's two questions and the UK-based option. Ball with Stephan.
 
 **2 October, evening: Stephan silent, message still held, flight to Horst next week.** Three weeks since the lunch with nothing in writing. Julian tried Stephan on 1 Oct (one-ring callback, then "I can't talk right now"); no contact on 2 Oct. The held message stays unsent on Julian's instruction. Working intention, not decided: a message before Stephan flies, carrying the council's two questions (who papers it, who does Julian report to) and the UK-based same-role option. Julian is weighing the UK base as the lower-cost failure mode: the council's read is that the hollowing risk sits in the first 24 months, which the BRAIND's 24-month term and spring 2028 renewal gate already cap if the term is written; the UK option turns a catastrophic failure into a cheap one but does not fix the support problem.
 
@@ -32,10 +34,10 @@ The project record for securing a TTI role, including the employment position, s
 
 **Review handoff, 2 October:** a standalone Claude prompt is saved in [[TTI-board-risk-Astra#Claude review prompt]]. It carries the brief and source paths without Astra's findings.
 
-### Next Actions (as of 2026-10-02)
+### Next Actions (as of 2026-10-03)
 
 1. Julian reads [[TTI-board-risk-Fable-Council]] (verdict first), corrects any private-source interpretations, and records his rating and minutes in its Session Synopsis and Time and Token Log.
-2. Julian decides whether a message goes before Stephan flies next week. If yes: Julian drafts (council's two questions plus the UK-based same-role option), Claude critiques. The 1 Oct draft and the Horst message remain held.
+2. Wait for Stephan's reply to the 3 Oct message. If it is reassurance without a step and a date, the council's two questions (who papers it, who Julian reports to) and the UK-based option are still unasked; the Horst message remains held.
 3. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
 4. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
 5. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
@@ -56,6 +58,7 @@ The project record for securing a TTI role, including the employment position, s
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-03 | **Short prompt sent to Stephan; tenant offer lost.** Julian's wording after four critique rounds: did you speak to your Dad; tenant offer lost; buy-in from the people who said no; do I need to be worried; Sophia back after half term (20 Oct); what is the next step and when. Verbatim in [[tti-comms-log]]; 1 Oct draft superseded. Decision impact: the flat no longer holds a tenant, so the tenant deadline is gone as a lever; the ask now rests on the 20 Oct school date. |
 | 2026-10-02 | **Stephan contact attempt and today's silence logged; pre-flight message decided.** 1 Oct: Julian called, no answer; one-ring callback; then "I can't talk right now". 2 Oct: no contact. Message held since 1 Oct still unsent. Record in [[tti-comms-log]]. Council read applied to the risk sheet without changing it: years 1-2 job-loss probability should be High not Medium; years 3-6 rows are conditional on the spring 2028 renewal. Decision impact: Julian has held the drafted message, not sent it; a pre-flight message with the two diagnostic questions and the UK base named as acceptable is the working intention, not yet decided; no change to the BRAIND conditional decision or the 27 Oct date. |
 | 2026-10-02 | Delivered [[TTI-board-risk-Fable-Council]]: chairman review of the Astra, Gemini and DeepSeek reviews with a web fact-check (18 claims), three reviewer lenses and an adversarial pass. Scorecard: Astra 4.4, DeepSeek 3.2, Gemini 1.5 out of 5. Council answer: hostile displacement low (around 10-15%), succession likely, role hollowed or ended inside two years high on current terms. Brief corrected: no COO exists; Horst is 81 to 87 across the window; no founder entrenchment in the Articles. Decision impact: the takeover probability does not drive the job decision, sponsor-loss probability does; do not unwind the UK move until written multi-year terms, a reporting line outside the chain that said no, and a funded first assignment all exist. One thing first: a diagnostic message to Stephan on who papers the contract and who Julian reports to. |
 | 2026-10-02 | Delivered [[TTI-board-risk-DeepseekV4pro]], an independent board/succession review written without the Astra or Gemini reviews. Finding: hostile displacement of both Pudwills unlikely (5-10%); ordinary succession is the base case; the role is the real exposure, likely blocked or ended inside two years without written terms. Decision impact: obtain written reporting line, budget, term and termination protection before treating the mandate as secure employment; no acceptance or relocation decision made. |

@@ -526,7 +526,27 @@ renamed: 2026-07-17
 
 ---
 
-## ⏳ 1 Oct - FINAL, HELD: Stephan called back then said "I can't talk right now"; Julian waits for tomorrow's call. The dated ask (DBIS 20 Oct, paperwork by the 12th), buy-in at execution time, early indication if not
+## ✅ SENT 3 Oct - SHORT PROMPT: did you speak to your Dad; tenant offer lost; do I need to be worried; half term 20 Oct; next step and when?
+
+> As of 3 Oct 2026: sent, no reply recorded. Julian's wording; Claude critiqued and fact-checked over four rounds. Final text as sent:
+
+> Hi Stephan,
+>
+> Keen to catch up. Did you speak to your Dad?
+>
+> When I spoke to him three weeks ago a job sounded imminent. I've now lost the only tenant offer I had in two months, and we're seeking buy-in from the people who said no in August. Do I need to be worried?
+>
+> If we're moving back it is getting urgent. Sophia needs to be back after half term (20 Oct) to avoid missing athletics season and being disadvantaged in her exams. So I'm wondering what the next step is, and when?  Julian
+
+**New fact:** the tenant offer on the DB flat (HK$27k, first logged 25 Sep) has been lost. Julian confirmed 3 Oct.
+
+**What it does:** a short prompt for action rather than the full case. It names the cost already incurred (the lost tenant offer), the buy-in round, and the half-term date, and ends on a question he has to answer with a step and a date. Julian chose brevity over the 1 Oct final; what that trades away: the "paperwork by around the 12th" deadline, the buy-in-at-execution alternative, explicit permission for bad news, and the "alternatives" signal. "Do I need to be worried?" was kept by Julian; on its own it invites reassurance, which is why the next-step question was added after it. Not included: the council's two questions (who papers it, who Julian reports to) and the UK-based same-role option from the 2 Oct working intention.
+
+**Supersedes** the 1 Oct final below, which was never sent.
+
+---
+
+## 🗄 SUPERSEDED (never sent) - 1 Oct - FINAL, HELD: Stephan called back then said "I can't talk right now"; Julian waits for tomorrow's call. The dated ask (DBIS 20 Oct, paperwork by the 12th), buy-in at execution time, early indication if not
 
 > **Update 2 Oct 2026 (Friday):** no contact from Stephan today; he has not called or messaged. The message below is still held, unsent. Julian's read of the 1 Oct callback: it rang once, so a minimum-attempt call back; that is his read, the facts are as recorded. Julian understands Stephan flies to the US next week to meet Horst. Julian's instruction, 2 Oct evening: the drafted message is NOT to be sent yet. Working intention only, from the council review ([[TTI-board-risk-Fable-Council]]) the same day: a message before Stephan flies, so he carries the questions to Horst rather than improvising, would add the council's two questions (who papers the contract, who does Julian report to) and name the UK base as an option Julian would accept, the same role rather than consultancy. Julian drafts; Claude critiques. The Horst message decided on 1 Oct has not gone either.
 
