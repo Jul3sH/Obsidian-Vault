@@ -91,7 +91,6 @@ The guilt of moving to HK with Sophia would eat me up for a bit, but the move wo
 
 **Question 5: Is living with Mum for six years realistic, and is moving out viable?** 
 
-
 ### Ranked risks
 
 Rows marked Material in the sheet and scored High before response, Julian's critical case first (losing the job in the GCSE and A-level years, now four effect rows). Everything else is in the sheet.
