@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
+                "file": "wiki/performance/decision-journal/uk-move/HK-Return-legal-position.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HK-Return-BRAIND"
+              "title": "HK-Return-legal-position"
             }
           }
         ]
@@ -76,12 +76,12 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 311.421875,
-    "collapsed": true
+    "width": 311.421875
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -203,6 +203,8 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
+    "wiki/performance/decision-journal/uk-move/HK-Return-legal-position.md",
     "wiki/deliverables/TTI-board-risk-Fable-Council.md",
     "wiki/deliverables/TTI-board-risk-Astra.md",
     "wiki/technology/claude-anthropic/claude-code-skills.md",
@@ -215,7 +217,6 @@
     "wiki/deliverables/TTI-board-risk-Geminipro.md",
     "wiki/deliverables/TTI-board-current.md",
     "wiki/deliverables/TTI-board-risk-DeepseekV4pro.md",
-    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "TTI-board-risk-Gemini Pro",
     "wiki/deliverables/nbj-youtube-notebooks.md",
     "wiki/performance/decision-frameworks/braind-framework.md",
@@ -229,7 +230,6 @@
     "wiki/performance/decision-frameworks/sharran-simple-decision-framework.md",
     "wiki/performance/decision-frameworks/first-decision-framework.md",
     "wiki/performance/decision-frameworks/seven-step-decision-process.md",
-    "wiki/performance/decision-frameworks/counterfactual-questioning.md",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",
