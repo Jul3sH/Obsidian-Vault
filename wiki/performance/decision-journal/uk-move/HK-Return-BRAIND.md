@@ -22,9 +22,7 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (2 Oct 2026):** the council review of the three board-risk assessments ([[TTI-board-risk-Fable-Council]]) is folded into R as a dated read; the five sheet changes it lists were applied by Julian the same evening, so the sheet and R agree as of 2 Oct (34 risk rows). Julian's 2 Oct capture is in the Intuition Log. A carries one dated council note under "If the job goes". D, the conditional decision, is unchanged and still awaits sign-off in Julian's words. The held Stephan message stays unsent on Julian's instruction.
->
-> ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. The claims table is split: beliefs sit under the Intuition summary, assumptions are a to-do list near the end of the file with four proposed additions awaiting Julian. A was rewritten by Julian on 30 Sep and stands as he wrote it. Purpose question 5 answered in the Intuition Log on 30 Sep. N run on 30 Sep. D holds the conditional decision (six conditions, terms in writing by 27 October 2026 and the move complete by 14 January 2027, dependencies), written from Julian's agreed terms and awaiting his sign-off. Still to do in this file: D to be signed off in Julian's words once the 48-hour hold ends; and no `## Prompt Zero` section yet. Three assumptions wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status.
+> ⚠ **Status (4 Oct 2026):** the three legal-position sheet changes are applied and verified by Codex. R now records the injunction delay and tax effect; the cause map reflects 36 populated, tagged Return to HK risk rows. The new High impact / Medium probability / High risk scores remain model proposals for Julian to confirm. D and its consent dependency still await Julian's sign-off; the held Stephan message stays unsent. No `## Prompt Zero` section yet.
 
 ---
 
@@ -145,21 +143,46 @@ Source: [[TTI-board-risk-Fable-Council]], the chairman review of the Astra, Gemi
 | 4 | E = "TTI job is terrible in the first 2 years", "between years 2 and 6", "after 6 years" (three rows) | L, probability part (blank on the first row): "Probability: the same three tests as the buy-in row. Value can't be shown if no work is routed to me." W: "Council 2 Oct: this is the hollowing outcome, kept and paid with nothing to do. The years 2 to 6 row is the trap; the spring 2028 renewal is the exit." |
 | 5 | New row under D = "TTI offer is suboptimal" | A: Return to HK. B: Risk. C: Career. E: "Offer names no reporting line outside the chain that said no, and no sponsor with funded work". F: "**I'd be reporting into the people who said no in August, with nothing to do.** / - High impact: it's the hollowing set up from day one, before I've moved anyone / - High probability: nothing is agreed as of 2 Oct and Stephan is seeking Ty's buy-in". G: Material. H: high. I: high. J: high. K: Reduce probability. L: "Probability: ask who papers the contract and who I report to before anything else; don't move on an offer that fails the three tests. Impact: the UK-based same role as the fallback shape." W: "Council 2 Oct: the leading indicator for both later causes." |
 
+### Legal position and sheet changes, 4 Oct 2026
+
+Source: [[HK-Return-legal-position]] (preliminary, not lawyer-verified) read against [[uktax-srt-fy26-27]]. Raised by Julian on 4 Oct as an assumption that had been missed.
+
+**What was missed.** The plan in D assumes Sophia can leave the UK when Julian decides. The sheet already has both halves of the risk, but nothing connects them. The injunction row treats the effect as a permanent block. The tax row ("I exceed 120 days and Sophia exceeds 183") lists only "Delay with the decision" (TTI) as its cause.
+
+**What the legal position says.**
+- Clodagh can apply urgently for an order stopping Sophia leaving, and could quite possibly get a short-term one, especially if the move looks imminent or concealed.
+- She cannot permanently veto the move. If she refuses consent, a court decides on Sophia's welfare.
+- Her July consent to leaving Hong Kong is not consent to leaving the UK now. Taking Sophia without her consent or a court's permission risks civil liability and possibly criminal liability.
+
+**Why it is a tax risk as well as a legal one.** Clodagh doesn't need to win. A temporary order, or a contested case still running on 28 January 2027, is enough for Sophia to pass 183 days and become UK resident. That gives Julian a family tie, and he will be over 120 days from 9 December, so he becomes resident for 2026/27 too. Julian could avoid this only by leaving alone by 9 December.
+
+**Where it pulls against the legal advice.** The tax deadline is an incentive to tell Clodagh late, which the legal position warns increases the chance of an urgent order and weakens the case. The deadline is a reason to start early. The legal position also advises getting the signed contract before approaching her, and the contract is not yet signed.
+
+**Sheet changes, applied and verified by Codex 4 Oct 2026** (sheet "Risks"; columns as in the 2 Oct block above). Rows are identified by the text in E. Scores in change 1 are the model's proposal for Julian to confirm or change. Julian's wording elsewhere is left untouched.
+
+| # | Rows | Change |
+|---|---|---|
+| 1 | New row, directly below E = "Clodagh gets a legal injunction of some kind" (the same event, second effect) | A: Return to HK. B: Risk. C: Finance. D: "Resistance to the move". E: "Clodagh gets a legal injunction of some kind". F: "**Clodagh's court action holds Sophia here past 28 January, so she becomes UK resident and so do I.** / - High impact: I'd be UK tax resident for 2026/27 even if I'd already left, the same outcome as the 120 and 183 day row / - Medium probability: she doesn't need to win; a temporary order or a contested case still running on 28 Jan is enough, and a contested relocation case can take months". G: Material. H: high. I: medium. J: high. K: Reduce impact & probability. L: "Probability: get Clodagh's informed written consent to the move, ideally made into a court order; instruct an England and Wales relocation solicitor and a Hong Kong family lawyer now; tell her early, never at the last minute; if she refuses, apply to court for permission straight away rather than leave. Impact: decide by early December: if consent or an order isn't in hand, either I'm out by 9 Dec on my own or I accept 2026/27 residence and price it." W: "Legal position 4 Oct (HK-Return-legal-position): she can get a short-term stop quickly but can't permanently veto; a court decides. Leaving without consent or permission risks civil and possibly criminal liability." |
+| 2 | E = "Clodagh gets a legal injunction of some kind" (the existing row) | L: replace "Reduce probability: I need to do my due diligence on the legal situation" with "Reduce probability: legal due diligence done 4 Oct. Get Clodagh's informed written consent, ideally made into a court order; instruct UK and HK lawyers now; tell her early. Reduce impact: if she refuses, apply to court for permission promptly; she can delay the move but can't permanently veto it." W: replace "Do some due diligence on the situation" with "Legal position 4 Oct (HK-Return-legal-position): a permanent block is unlikely, since a court decides if she refuses; the realistic harm is delay, which is the new row below. F says 'legally blocked'; Julian to decide whether to reword it." |
+| 3 | E = "I exceed 120 days and Sophia exceeds 183" | L: append " Also: Clodagh's written consent or a court order in hand before the move date." W: "4 Oct: delay can come from Clodagh as well as TTI; see the injunction rows under 'Resistance to the move'." |
+
+**Applied 4 Oct 2026:** new row at Risks!A19:W19; existing injunction response at L18/W18; tax response at L16/W16. All written values matched on readback; existing wrapping preserved. The new scores remain proposals for Julian to confirm. The live sheet has 36 populated, tagged Return to HK risk rows after insertion, rather than the specified 35; the partly blank row and untagged row are excluded.
+
 ### Cause map
 
-One line per cause in the sheet, covering all 33 risk rows.
+As of 4 Oct 2026: 36 populated risk rows tagged Return to HK. Counts follow the live sheet's cause and scores; the partly blank row and untagged row are excluded.
 
-| Cause                      | Events | Material | Scored High before response |
-| -------------------------- | ------ | -------- | --------------------------- |
-| Clodagh doesn't move to HK | 3      | 3        | 1                           |
-| Not with Mum in the UK     | 2      | 0        | 2                           |
-| Delay with the decision    | 6      | 2        | 1                           |
-| Joanne needs a decision    | 1      | 0        | 0                           |
-| Resistance to the move     | 3      | 3        | 0                           |
-| TTI offer is suboptimal    | 6      | 6        | 3                           |
-| TTI Job is insecure        | 9      | 9        | 8                           |
-| TTI Job is suboptimal      | 3      | 3        | 3                           |
-| Leaving the Chase School   | 1      | 0        | 0                           |
+| Cause | Events | Material | Scored High before response |
+|---|---|---|---|
+| Clodagh doesn't move to HK | 3 | 2 | 1 |
+| Not with Mum in the UK | 2 | 0 | 2 |
+| Delay with the decision | 6 | 2 | 1 |
+| Joanne needs a decision | 1 | 0 | 0 |
+| Resistance to the move | 4 | 4 | 1 |
+| TTI offer is suboptimal | 5 | 5 | 2 |
+| TTI Job is insecure | 10 | 10 | 9 |
+| TTI Job is suboptimal | 4 | 4 | 4 |
+| Leaving the Chase School | 1 | 0 | 0 |
 
 ## A - Alternatives
 
@@ -288,6 +311,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 | UK day counts stay under the thresholds while this runs | Dates above | Julian |
 | The DB flat is kept for the family, not let | Tenants waiting at HK$27k | Julian |
 | Sophia is told, and the move is timed to a term boundary | She has said a move back would be "really annoying" | Julian |
+| Clodagh consents in writing to Sophia leaving the UK, or a court gives permission (added by the model 4 Oct 2026; Julian to confirm) | Not started as of 4 Oct. Her July consent covered leaving Hong Kong, not this move. Needs lawyers in England and Hong Kong instructed, and must be in hand in time to leave by 14 January 2027 ([[HK-Return-legal-position]]; R, 4 Oct block) | Julian |
 | Custody: Julian files once in Hong Kong | He can file; the outcome is separate | Julian |
 | A school place on return in summer 2028 | Held until an offer is real; three schools acceptable | Julian, later |
 
@@ -349,6 +373,8 @@ Open tasks carried from the earlier section:
 - [[HK-Return-Counterfactuals]] - counterfactual questioning runs for this question
 - [[counterfactual-questioning]] - the tool
 - [[HK-Return-Beliefs]] - the evidence behind every numbered belief and assumption in this file
+- [[HK-Return-legal-position]] - preliminary legal position on taking Sophia from the UK to Hong Kong (Clodagh's consent, orders she could seek)
+- [[uktax-srt-fy26-27]] - UK tax residence position and the 120, 183 and 182 day dates
 
 ## Document Log
 
@@ -356,6 +382,9 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-04 | Codex applied all three specified legal-position changes to the UK Relocation Risks sheet and verified every written value. Cause map refreshed from the live sheet: 36 populated tagged risks; Resistance to the move 4 / 4 Material / 1 High. The specified total of 35 was stale. New scores remain proposals; original injunction F wording awaits Julian's decision. Sheet-format verification used API metadata; native visual fit was not checked. |
+| 2026-10-04 | Superseded headline statuses: > ⚠ **Status (4 Oct 2026):** an overlooked risk is added to R: the plan assumed Sophia can leave when Julian chooses, but Clodagh can hold the move up in court, and a hold-up past 28 January 2027 makes them both UK tax resident. Three sheet changes are specified in R ("Legal position and sheet changes, 4 Oct 2026") for Codex to apply; **as of 4 Oct they are not yet applied, so the sheet and R disagree on those three rows.** D gains a model-drafted consent dependency for Julian to confirm. Unchanged since 2 Oct: the council read is folded into R and applied to the sheet; D still awaits sign-off in Julian's words; the held Stephan message stays unsent on Julian's instruction.<br>> ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. The claims table is split: beliefs sit under the Intuition summary, assumptions are a to-do list near the end of the file with four proposed additions awaiting Julian. A was rewritten by Julian on 30 Sep and stands as he wrote it. Purpose question 5 answered in the Intuition Log on 30 Sep. N run on 30 Sep. D holds the conditional decision (six conditions, terms in writing by 27 October 2026 and the move complete by 14 January 2027, dependencies), written from Julian's agreed terms and awaiting his sign-off. Still to do in this file: D to be signed off in Julian's words once the 48-hour hold ends; and no `## Prompt Zero` section yet. Three assumptions wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status. |
+| 2026-10-04 | R: "Legal position and sheet changes, 4 Oct 2026" block added at Julian's instruction (the missed assumption that Sophia can leave when Julian chooses; Clodagh's possible court action turns delay into 2026/27 tax residence for both). Three sheet changes specified for Codex, not yet applied. D gains a model-drafted consent dependency. Links gain the legal position and SRT files. Status banner updated. |
 | 2026-10-03 | R: the chairman's two priced figures for the job risk (today's terms versus tests passed) added to the council read, with the derivation left in the council file. |
 | 2026-10-02 | Council review folded in: R gains a dated "Council read and sheet changes" block (three events mapped to the sheet's causes, the recalibration, and five row changes, applied to the sheet by Julian the same evening: years 1-2 probability to High, years 3-6 notes, buy-in row response rewritten, terrible rows' probability response, one new offer row); A gains one dated council note under "If the job goes"; Intuition Log gains Julian's 2 Oct capture in his words; status banner updated. D unchanged. |
 | 2026-09-30 | D: the single drop-dead date split into two at Julian's instruction. Terms in writing by 27 October 2026 (anchor: Sophia's 90th UK day); move complete by 14 January 2027 (tax). DBIS and Chase term dates added from the schools' websites. |
@@ -451,6 +480,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Type | Amount | Notes |
 |------|------|--------|-------|
+| 2026-10-04 | Machine (Codex interactive) | unmeasured | Mechanical application and verification of the three specified sheet changes; BRAIND and project bookkeeping. Session-specific usage unavailable. |
 | 2026-09-24 | Machine (interactive session) | unmeasured | File created; opening intuition dump logged and summarised; registered in workspace index, reopen file, project page and ops log |
 | 2026-09-27 | Julian, attended | 15 min | Refactoring the file to the BRAIND format only (reviewing the convention and the restructure). Intuition capture time earlier in the day not reported |
 | 2026-09-27 | Machine (interactive session) | 1,145,274 tokens (output 226,685 + cache-write input 918,589; cache reads 24.6M omitted) | Whole session, covering the intuition capture, B/R population, the comparison tables and the convention work; changes listed in the Document Log |
@@ -475,6 +505,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 | 2026-09-30 | Machine (subagent, Sonnet) | 106,790 tokens | R digest rebuilt from the sheet after Julian's restructure of the job-loss rows (evening) |
 
 ## Session Synopsis
+
+**4 Oct 2026, sheet changes:** Julian's rating, comment and attended minutes await his handback. The model's comment waits for Julian's.
 
 **Julian (29 Sep 2026), on building the Return to Hong Kong risk register on 28 Sep: 5/5.** "I rate it as a 5 because I did it myself." "At the time, I was thinking to myself, 'Is this overkill for what I need to do?' I don't, however, think it is, because the problem I have with a big, complex decision like this is that I ruminate over the risks. They go round and round in circles in my head. What I find by doing a detailed risk analysis like this is that it makes me think through the risk, think through the mitigation, think through the residual risk, and whether it's acceptable to me or not after the mitigation. The process of doing this has benefits in terms of the context that I can keep in my head. There was very little work required from the LLM at this stage."
 

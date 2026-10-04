@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-journal/uk-move/HK-Return-legal-position.md",
+                "file": "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HK-Return-legal-position"
+              "title": "HK-Return-BRAIND"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.421875
+    "width": 311.421875,
+    "collapsed": true
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -203,8 +204,10 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
-    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
+    "wiki/performance/decision-journal/uk-move/HK-Return-Beliefs.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-legal-position.md",
+    "wiki/projects/uk-relocation-project.md.tmp.76617.c3bce327a5a7",
+    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "wiki/deliverables/TTI-board-risk-Fable-Council.md",
     "wiki/deliverables/TTI-board-risk-Astra.md",
     "wiki/technology/claude-anthropic/claude-code-skills.md",
@@ -229,7 +232,6 @@
     "wiki/performance/working-with-genai/mm-fluency-bias.md",
     "wiki/performance/decision-frameworks/sharran-simple-decision-framework.md",
     "wiki/performance/decision-frameworks/first-decision-framework.md",
-    "wiki/performance/decision-frameworks/seven-step-decision-process.md",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",
@@ -238,7 +240,6 @@
     "wiki/career/ddg-caio/acme-proposal.pdf",
     "wiki/career/ddg-caio/ddg-alternative-proposal-draft.pdf",
     "wiki/relationships/Divorce/removal-notification-letter.pdf",
-    "wiki/career/ddg-caio",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",

@@ -31,6 +31,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-04 · Sheet update + Verification · Worked · [[HK-Return-BRAIND]]
+
+- **Work:** Applied the three exact legal-position sheet changes and synchronised the BRAIND and project status.
+- **Check:** Live cell metadata before writing; exact readback of all written values; cause-map counts recalculated from populated tagged rows. Native visual fit unverified; wrapping preserved.
+- **Outcome:** As of 4 Oct: changes applied; proposed scores and original injunction effect wording await Julian. Machine effort unmeasured.
+- **Lesson:** Verification: use live row tags and counts when refreshing a digest; the specified total was stale.
+- **Deliverable:** [[HK-Return-BRAIND]].
+
 ## 2026-10-02 · Review prompt · Worked · [[TTI-board-risk-Astra]]
 
 - **Work:** Prepared the requested standalone Claude review prompt, saved within the existing deliverable.
