@@ -79,6 +79,7 @@ Formed by reading only the WhatsApp messages, before reading the other two analy
 - Stephan is Vice-Chairman of a Fortune 500 company; constant travel (Korea, NY, US, Europe), board cycles, results announcements
 - Slow responses do NOT signal disengagement — he always returns and follows through on concrete actions
 - Julian occasionally reads slow responses as the relationship being weak ("I suspect I've left it a little late this week") — this is a misread
+- **Observation, 3 Oct 2026 (one data point): a second message got a reply where the first had not.** The morning message went unread and unanswered; Julian deleted it and sent a replacement at 15:52 HK, and Stephan replied within 14 minutes, late at night for him (Julian's account), offering a call the next day. A second message may be a useful way to get a response. Julian's read (3 Oct): it was the fresh notification, not the new wording. The first message was too long to take in from a notification, and WhatsApp never showed it as read, so Stephan had not seen what it said. Technique to test: if a message sits unread, a second send (a resend or short follow-up) puts it back in front of him. Worth trying again and noting here whether it repeats. Record in [[tti-comms-log]].
 
 ### Julian's Patterns — Watch-Outs
 - **Over-apologises** — multiple instances of "forgive me for chasing", "don't want to hassle you". Risk: reads as low-status. Could undermine the value proposition

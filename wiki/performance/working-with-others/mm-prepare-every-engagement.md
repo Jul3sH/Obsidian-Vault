@@ -64,6 +64,10 @@ want out of it.
 - If not in the right state (confidence, sobriety, energy) for an important
   engagement, treat that as information: prepare harder, delay, or make an
   excuse. Do not wing it.
+- Before sending a message that matters, check it achieves the purpose you
+  intend and nothing else. Cut any line that does a second job you did not
+  mean, such as implying blame. A late edit gets the same review as the first
+  draft.
 - Full detail: [[always-prepare-for-engagements]].
 
 ## Limitations
@@ -96,3 +100,4 @@ wins pending correction.
 | Pre-wiki | Got stuck in flow-state polishing for a presentation and an interview, avoiding feedback because it might interrupt the flow, then discovered on delivery he had been on the wrong track | Enforce a checkpoint that forces feedback or clarification before flow-state prep runs away with itself, so the polish lands on the right content | [[Lesson Learnt Get feedback, Interrupt flow]] |
 | Pre-wiki | Nearly put his foot in it with Stuart McIntosh in unscripted small talk about the Lync project | Resist slipping into small talk with senior management unless it is well scripted and rehearsed in advance | [[Lesson Learnt - Small Talk To Senior Management Needs To Be Scripted]] |
 | Pre-wiki | Called a BT sales contact Scammal had introduced, without warning him or preparing, and the call felt pointless | Set a strict time box to prepare, then make the call with clear objectives and a well thought out pitch, rather than calling unprepared just to avoid procrastinating | [[Lesson Learnt Make Sure My Objectives Are Clear And Prepare Before Pitching]] |
+| 2026-10-03 | TTI: reworked the morning message to Stephan without properly reviewing it, and kept a line about the lost tenant offer. On reflection it insinuated his three-week delay had cost me money, which could make him defensive and was not my intention. Deleted it unread a couple of hours later and sent a version without it | Before sending a message, make sure it achieves the purpose I intend and nothing else; if a line does something I did not mean, drop it. A rushed edit needs the same review as the draft | [[tti-comms-log]] |

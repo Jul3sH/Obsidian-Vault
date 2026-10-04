@@ -76,7 +76,7 @@ routing decides the architecture, steering configures it. Full chain:
 
 ## Guidelines
 
-⚠ As of 16 Aug 2026, current for Claude Code. This is the fast-ageing row of the
+⚠ As of 3 Oct 2026, current for Claude Code (skills, subagent and output-style rows rechecked against the docs that day). This is the fast-ageing row of the
 model ([[mm-rule-layering]]): the principles above outlive this table, so on a harness
 change, refresh here without reopening them.
 
@@ -85,7 +85,7 @@ Match the mechanism to what you are installing:
 | What you are installing | Mechanism | Persistence |
 |---|---|---|
 | A **fact** that must always be in context | `CLAUDE.md` / `AGENTS.md`, root or subdirectory | Root: re-supplied. Subdirectory: re-triggered, and lost until that directory is touched again |
-| A **procedure**, run the same way each time | Skill | Transcript-resident: the body degrades on compaction |
+| A **procedure**, run the same way each time | Skill | Transcript-resident, partly re-attached: after a compaction only the first 5,000 tokens per skill return, within a 25,000-token shared budget, most recent first |
 | A **constraint** that binds only certain paths | Rule, path-scoped | Re-triggered by the path |
 | Something that **must happen**, every time, without judgement | Hook | Re-triggered by its event |
 | An **isolated side task** whose middle you do not want to see | Subagent | Separate context; parent persistence does not apply |
@@ -98,15 +98,21 @@ Match the mechanism to what you are installing:
   must happen reliably, it is a hook.
 - Personal preferences go in user-level files, team or project conventions in
   project-level files.
-- Output styles replace the default identity: unless `keep-coding-instructions` is
-  set, the built-in engineering instructions are removed. Reserve for genuine role
-  changes, not for preferences like brevity, which belong in the instruction layer.
+- Output styles change the system prompt itself, whereas `CLAUDE.md` arrives as a
+  user message after it. A custom style removes the built-in engineering
+  instructions unless `keep-coding-instructions: true` is set; with it set, a style
+  is a reasonable home for tone and length (brevity, plain language), and the
+  built-in Concise style is the first thing to try. Without it, reserve styles for
+  genuine role changes. (Corrected 3 Oct 2026: previously said brevity belongs only
+  in the instruction layer.)
 - One deliverable's style or scope belongs in the deliverable's own brief (the
   `## Prompt Zero` section), a recurring format in a skill, a place-bound register
   in a path-scoped rule.
 - Steer a subagent through its own definition, not through the parent
   conversation: subagents run their own system prompts, so the main session's
-  instructions and output style do not follow them.
+  output style and conversation do not follow them. `CLAUDE.md` does, unless the
+  agent sets `omitClaudeMd: true`; a fork inherits everything. (Corrected 3 Oct
+  2026.)
 - If a rule must hold across a whole long session, check its persistence tier and
   not just its authority. Worked example: the public `i-have-adhd` skill puts its
   ruleset in a skill body (transcript-resident), then ships a `SessionStart` hook
@@ -135,3 +141,8 @@ Source: [Steering Claude Code](https://claude.com/blog/steering-claude-code-skil
 (Anthropic). Companions: [[mm-rule-layering]] (the enforcement principle
 generalised to rulebooks), [[mm-routing]] and [[routing-work-to-agents]] (the
 decision upstream of this one).
+
+Feature detail, one article per mechanism (added 3 Oct 2026): [[claude-md-and-memory]],
+[[claude-code-skills]], [[claude-code-path-rules]], [[claude-code-hooks]],
+[[claude-code-subagents]], [[claude-code-output-styles]]. If this table and a
+feature article disagree, the article wins and this file is corrected.

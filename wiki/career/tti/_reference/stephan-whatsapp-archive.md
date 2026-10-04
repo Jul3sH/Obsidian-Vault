@@ -266,6 +266,21 @@ He said he would discuss it later with you and Frank later today.
 
 ---
 
-## Export 4: [drop here]
+## Export 4: 3 Oct 2026 (added 3 Oct 2026)
+
+> Julian sent an earlier version of this message in the morning and deleted it; it is not in the export. Its text is in [[tti-comms-log]].
+
+[3/10/2026, 3:52:25 PM] Julian: Hi Stephan,
+
+Keen to catch up. Did you speak to your Dad?
+
+When I spoke to him three weeks ago a job sounded imminent. I'm concerned the delay is seeking buy-in from the people who said no in August. Do I need to be worried?
+
+If we're moving back it is getting urgent. Sophia needs to be back after half term (20 Oct) to avoid missing athletics season and being disadvantaged in her exams. So I'm wondering what the next step is, and when?  Julian
+[3/10/2026, 4:06:55 PM] Stephan Pudwill: Let's talk tomorrow. We are in the US this coming week and will be with the team Oct 7th
+
+---
+
+## Export 5: [drop here]
 
 > Paste the next WhatsApp export below this line.

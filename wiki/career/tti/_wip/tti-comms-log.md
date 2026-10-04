@@ -526,9 +526,31 @@ renamed: 2026-07-17
 
 ---
 
-## ✅ SENT 3 Oct - SHORT PROMPT: did you speak to your Dad; tenant offer lost; do I need to be worried; half term 20 Oct; next step and when?
+## ✅ SENT 3 Oct - SHORT PROMPT (replacement): did you speak to your Dad; is the delay a buy-in round; half term 20 Oct; next step and when? Stephan: "Let's talk tomorrow"
 
-> As of 3 Oct 2026: sent, no reply recorded. Julian's wording; Claude critiqued and fact-checked over four rounds. Final text as sent:
+> As of 3 Oct 2026: Stephan replied at 16:06, offering to talk tomorrow (Sun 4 Oct). Julian sent a first version in the morning, deleted it a couple of hours later, and sent the replacement below at 15:52. Stephan had not read the first version; Julian deleted it for that reason (confirmed 3 Oct).
+
+**Sent 15:52 (the version that stands), verbatim from the export:**
+
+> Hi Stephan,
+>
+> Keen to catch up. Did you speak to your Dad?
+>
+> When I spoke to him three weeks ago a job sounded imminent. I'm concerned the delay is seeking buy-in from the people who said no in August. Do I need to be worried?
+>
+> If we're moving back it is getting urgent. Sophia needs to be back after half term (20 Oct) to avoid missing athletics season and being disadvantaged in her exams. So I'm wondering what the next step is, and when?  Julian
+
+**Stephan's reply, 16:06, verbatim:**
+
+> Let's talk tomorrow. We are in the US this coming week and will be with the team Oct 7th
+
+**What changed from the morning version:** the lost tenant offer is gone, and "we're seeking buy-in from the people who said no in August" became "I'm concerned the delay is seeking buy-in from the people who said no in August". The buy-in point is now Julian's concern rather than a stated fact. The rest is unchanged.
+
+**What the reply adds:** a reply within 14 minutes, and a call offered by Stephan himself (on 1 Oct Julian had to chase him). He is in the US the week of 5 Oct and "with the team" on 7 Oct. Which team (Horst, Ty, US management) is not stated. No step or date for the role yet. Questions for the call: who "the team" is and what is being decided on the 7th.
+
+**Why the morning version was deleted (Julian, 3 Oct):** he had reworked it that morning without properly reviewing it. The lost-rent line insinuated that Stephan's three-week delay had cost Julian money, which could make him defensive and was not the intention. Lesson logged in [[mm-prepare-every-engagement]].
+
+**Morning version (deleted unread a couple of hours after sending), as recorded earlier today:**
 
 > Hi Stephan,
 >
@@ -540,7 +562,7 @@ renamed: 2026-07-17
 
 **New fact:** the tenant offer on the DB flat (HK$27k, first logged 25 Sep) has been lost. Julian confirmed 3 Oct.
 
-**What it does:** a short prompt for action rather than the full case. It names the cost already incurred (the lost tenant offer), the buy-in round, and the half-term date, and ends on a question he has to answer with a step and a date. Julian chose brevity over the 1 Oct final; what that trades away: the "paperwork by around the 12th" deadline, the buy-in-at-execution alternative, explicit permission for bad news, and the "alternatives" signal. "Do I need to be worried?" was kept by Julian; on its own it invites reassurance, which is why the next-step question was added after it. Not included: the council's two questions (who papers it, who Julian reports to) and the UK-based same-role option from the 2 Oct working intention.
+**What it does:** a short prompt for action rather than the full case. It names the buy-in round (in the replacement, as Julian's concern; the morning version also named the lost tenant offer), and the half-term date, and ends on a question he has to answer with a step and a date. Julian chose brevity over the 1 Oct final; what that trades away: the "paperwork by around the 12th" deadline, the buy-in-at-execution alternative, explicit permission for bad news, and the "alternatives" signal. "Do I need to be worried?" was kept by Julian; on its own it invites reassurance, which is why the next-step question was added after it. Not included: the council's two questions (who papers it, who Julian reports to) and the UK-based same-role option from the 2 Oct working intention.
 
 **Supersedes** the 1 Oct final below, which was never sent.
 

@@ -1,3 +1,10 @@
+---
+type: reference
+tags: [technical, claude, anthropic]
+review: feature
+review-start: 2026-10-04
+---
+
 # CLAUDE.md and Memory
 
 > *How Claude remembers instructions across sessions — and how to control what it knows.*

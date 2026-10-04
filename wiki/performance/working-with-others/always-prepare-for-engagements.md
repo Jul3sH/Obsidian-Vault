@@ -58,3 +58,4 @@ Preparation invested in the wrong content and the "flow state trap" — polishin
 
 | Date | Event | Lesson in action |
 |------|-------|-----------------|
+| 2026-10-03 | TTI: sent Stephan a reworked message without properly reviewing it; a line about the lost tenant offer read as blaming his three-week delay for costing me money. Deleted it unread and resent without it ([[tti-comms-log]]) | Check every message achieves the intended purpose and nothing else before sending; a late edit gets the same review as the first draft |

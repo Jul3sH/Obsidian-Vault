@@ -2,6 +2,8 @@
 type: reference
 created: 2026-08-19
 tags: [technical, claude, anthropic, hooks]
+review: feature
+review-start: 2026-10-04
 ---
 
 # Claude Code Hooks

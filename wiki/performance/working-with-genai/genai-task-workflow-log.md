@@ -464,3 +464,24 @@ steering) so the log is queryable by step as well as by type. Newest first.
   both; a synthesis stage needs its own verifier, which is the 23 Aug rule
   working as intended. Routing the three lenses as separate subagents with
   blind labels produced consistent rankings without anchoring on model names.
+
+## 2026-10-03 · Reference writing + hook extension · Worked · [[claude-code-feature-articles]]
+
+- **Work:** after a Q&A on steering mechanisms, Julian ruled that steering is the
+  mental model and each mechanism a feature. Fast lane by his decision. Claude
+  wrote four feature articles (path rules, output styles, subagents, skills),
+  linked six from mm-steering, and extended the refresher hook with a separate
+  feature review (own queue, cap three, 1-day always shown).
+- **Check:** a subagent gathered facts from the Claude Code docs before writing;
+  a second subagent fact-checked the articles adversarially (no false claims, two
+  omissions fixed); the hook was dry-run in a scratch copy; Julian's reading is
+  deferred to the spaced-repetition reviews.
+- **Outcome:** Worked. Julian 4/5, 15 attended minutes, no corrections; he
+  deferred reading the articles to the refresher cycle. Subagents 164k tokens; main session 224k
+  effort tokens (includes the preceding Q&A).
+- **Lesson:** Step at fault: steering, Claude's. In the Q&A Claude stated three
+  feature facts from memory that the docs then contradicted or did not support
+  (subagents skip CLAUDE.md; a style outweighs CLAUDE.md; skill bodies simply
+  degrade on compaction), and mm-steering carried two of them. Chat answers about
+  harness features need the same docs check as wiki articles, and the pre-write
+  fact-gather is what caught it.
