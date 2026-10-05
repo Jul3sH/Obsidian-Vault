@@ -39,6 +39,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 - **Lesson:** Steering: an always-on skill whose triggers arise mid-conversation inside other work is skipped unless something forces the call; fixed with the feedback-invoke-behaviour-check memory.
 - **Deliverable:** none linked; TTI comms work under [[tti-role]].
 
+## 2026-10-05 · Sheet update + Verification · Worked · [[HK-Return-BRAIND]]
+
+- **Work:** Applied only confirmed change 1 from the 5 Oct sheet instructions, matched by E/F text.
+- **Check:** All four written cells matched on readback; wrapping and every other cell in both injunction rows preserved. No formatting writes.
+- **Outcome:** As of 5 Oct: change 1 Applied; change 2 awaits confirmation. Incremental effort unmeasured.
+- **Lesson:** Verification: match live wording before replacing a sentence; the response label had changed from Impact to Reduce impact.
+- **Deliverable:** [[HK-Return-BRAIND]].
+
 ## 2026-10-04 · Sheet update + Verification · Worked · [[HK-Return-BRAIND]]
 
 - **Work:** Applied the three exact legal-position sheet changes and synchronised the BRAIND and project status.

@@ -28,7 +28,7 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 
 ## Current Strategy (as of 5 October 2026) - Turn Horst's offer into written terms; Hong Kong first, the UK role on the table
 
-> ⚠ **As of 5 Oct 2026: proposed by Claude from the record and Julian's 5 Oct decisions; awaiting Julian's agreement.** Status, next actions and the dated log live in [[tti-role]]; message-level detail in [[tti-comms-log]]; the move decision itself in [[HK-Return-BRAIND]].
+> ⚠ **As of 5 Oct 2026: proposed by Claude from the record and Julian's 5 Oct decisions. Agreed by Julian: the dates in point 1 and the Clodagh sequence in point 6. Points 2 to 5 await his agreement.** Status, next actions and the dated log live in [[tti-role]]; message-level detail in [[tti-comms-log]]; the move decision itself in [[HK-Return-BRAIND]].
 
 **Where it stands:** Horst reopened the employment path on 13 Sep and at the 14 Sep lunch told Stephan to "just make it happen", accepting HK$2M. Nothing is in writing three weeks on. Stephan is seeking Ty's buy-in, the chain that said no on 20 Aug. He meets "the team" in the US on 7 Oct.
 
@@ -36,9 +36,14 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 2. **Protect the first 24 months, not six years.** The tests from [[TTI-board-risk-Fable-Council]], conditions in D since 5 Oct: the contract approved through HR or the board's pay committee, with pay if the role is ended early; a reporting line and performance reviewer outside the chain that said no; a named manager with a funded first assignment. Six years is not asked about, because no one can honestly answer it.
 3. **Hong Kong first, with a UK-based enterprise architecture role on the table** as an easier option for the US side: working to the US-set strategy, title kept as enterprise architecture, not project or contract work.
 4. **Stop a slow no from Ty.** Ask facts, not reassurance: who "the team" is; whether Ty is asked to approve or to support; who papers the contract and when; who Julian reports to; when he hears back. UK tax residency is not used as the urgency, because its dates imply more time than Julian wants TTI to take. Messaging Horst is the held lever if the Ty route stalls.
-5. **If it cannot happen by Christmas, the UK move stands**, the flat is let, and the UK market route follows.
+5. **If there is no offer by Christmas, the UK move stands**, the flat is let, and the UK market route follows. If there is an offer but Clodagh blocks the move, point 6 applies.
+6. **Clodagh: offer first, then her, then Stephan only if needed** (agreed by Julian, 5 Oct). In his words: "Don't mention anything about Clodagh yet. Secure the job." Then: "Get the offer. Tell Clodagh I've got an offer, and I want to sign it. If she says I can't take Sophia, then I need to go back to Stephan and say I need to build in some flexibility to work from the UK whilst I take it through the courts." And if the block outlasts the tax deadline: "I just have to suck it up for this year."
+   - Before the offer: the fixed-fee consultation with an England and Wales international relocation solicitor, so step 4 is ready.
+   - When the offer comes: ask for a few days to "confirm arrangements for Sophia"; get Clodagh's answer inside that window. Consent in writing, done properly, before signing.
+   - If she refuses: to Stephan, "it has to go through the courts", not the detail. The UK-based option already on the table makes the flexibility an easier ask.
+   - Accepted in advance: working from the UK means UK tax residence for 2026/27 (the whole year from 6 April 2026, three years of the harsher day-count table after it, one year of the four-year foreign income relief used). [[uktax-srt-fy26-27]].
 
-**Guardrails:** nothing sourced from Justin reaches Stephan; write every message as if Ty will read it; no custody, tax or Clodagh detail to Stephan or Horst.
+**Guardrails:** nothing sourced from Justin reaches Stephan; write every message as if Ty will read it; no custody, tax or Clodagh detail to Stephan or Horst, and if point 6 reaches Stephan, only "it has to go through the courts".
 
 ---
 
@@ -160,6 +165,11 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 ---
 
 ## Strategy Evolution Log (newest first)
+
+### 5 October 2026, later - Clodagh sequenced after the offer
+- **Trigger:** the legal position ([[HK-Return-legal-position]]) that Sophia's move needs Clodagh's consent or a court's permission, and Julian's read: "I don't think there is any way she is going to agree to this without a battle."
+- **Decision (Julian, 5 Oct):** point 6 of the Current Strategy. Nothing to Stephan about Clodagh now; get the offer; tell Clodagh with the offer in hand and before signing; if she refuses, ask Stephan for flexibility to work from the UK while it goes through the courts, accepting UK tax residence for 2026/27. Also set: target signature 14 Oct for a start after half term, Christmas as the drop-dead; the 27 Oct date dropped.
+- **Rejected:** testing the water with Clodagh now (she would tell Sophia and unsettle her, and early notice raises the risk of an urgent order); telling TTI only at the point of moving; starting work from the UK before the move (makes him UK resident even if all goes well).
 
 ### 5 October 2026 - Hong Kong stays first; the UK role goes on the table; tax residency kept out of the ask
 - **Trigger:** the call Stephan offered for 4 Oct did not happen; he flies to the US 5 Oct and meets "the team" on 7 Oct. Julian woke on 5 Oct worried about job security and rewrote his message to put a UK-based role first.

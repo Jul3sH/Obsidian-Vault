@@ -39,10 +39,11 @@ The project record for securing a TTI role, including the employment position, s
 ### Next Actions (as of 2026-10-05)
 
 1. Julian reads [[TTI-board-risk-Fable-Council]] (verdict first), corrects any private-source interpretations, and records his rating and minutes in its Session Synopsis and Time and Token Log.
-2. Finish and send the written message to Stephan so it reaches him before he lands (Mon 5 Oct, about 18:00 UK) and before the 7 Oct team meeting. Still unasked: who "the team" is and what is decided on the 7th, and the council's two questions (who papers it, who Julian reports to). The Horst message remains held.
-3. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
-4. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
-5. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
+2. Book a fixed-fee consultation with an England and Wales international relocation solicitor before any offer arrives (questions in this session's record, [[tti-engagement-strategy]] point 6). Free first call: Reunite International.
+3. Finish and send the written message to Stephan so it reaches him before he lands (Mon 5 Oct, about 18:00 UK) and before the 7 Oct team meeting. Still unasked: who "the team" is and what is decided on the 7th, and the council's two questions (who papers it, who Julian reports to). The Horst message remains held.
+4. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
+5. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
+6. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
 
 ### Project Summary File Map
 
@@ -60,6 +61,7 @@ The project record for securing a TTI role, including the employment position, s
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-05 | **Clodagh sequenced after the offer; target 14 Oct, drop-dead Christmas.** Nothing to Stephan about Clodagh; offer, then Clodagh before signing; if she refuses, ask Stephan for UK-working flexibility while it goes through the courts, accepting 2026/27 UK tax residence. Solicitor consultation to be booked before the offer. [[tti-engagement-strategy]] point 6; [[HK-Return-BRAIND]] D and R updated. Decision impact: the Clodagh risk no longer blocks the job, only the move date. |
 | 2026-10-05 | **Strategy restated; Hong Kong first, UK role on the table.** [[tti-engagement-strategy]] Current Strategy rewritten (the 24 Aug version had not been updated since Horst's mandate): written terms by 27 Oct, first 24 months protected by the council's tests, UK-based enterprise architecture role offered, call questions against a slow no from Ty, tax residency kept out of the ask. Decision impact: none on the move decision; the message and call now have one written strategy behind them. |
 | 2026-10-05 | **4 Oct: the offered call did not happen; catch-up moved to after Stephan lands in the US (Mon 5 Oct, about 18:00 UK).** WhatsApp verbatim in [[tti-comms-log]]. Julian's read (labelled speculation): avoidance until Stephan has spoken to Horst and Ty. Julian decided to put the case in writing, including a UK-based role. Decision impact: the written message is now the main channel before the 7 Oct meeting; no new facts on the offer. |
 | 2026-10-03 | **Message replaced; Stephan replied "Let's talk tomorrow".** Julian deleted the morning message and sent a replacement at 15:52 without the tenant offer and with the buy-in point as his concern ("I'm concerned the delay is seeking buy-in..."). Stephan replied at 16:06: talk tomorrow; in the US next week; "with the team" on 7 Oct. Verbatim in [[tti-comms-log]]. Decision impact: a call is set for 4 Oct, offered by Stephan; it is the last chance to put the council's two questions to him before he meets the team on 7 Oct. |

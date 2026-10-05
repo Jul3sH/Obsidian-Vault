@@ -22,7 +22,7 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (5 Oct 2026):** D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet.
+> ⚠ **Status (5 Oct 2026):** sheet change 1 (5 Oct) is Applied and verified: F19, I19, L19 and W19 match, with wrapping preserved. Change 2 is not applied, awaiting Julian's confirmation. D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet.
 
 ---
 
@@ -166,6 +166,15 @@ Source: [[HK-Return-legal-position]] (preliminary, not lawyer-verified) read aga
 | 3 | E = "I exceed 120 days and Sophia exceeds 183" | L: append " Also: Clodagh's written consent or a court order in hand before the move date." W: "4 Oct: delay can come from Clodagh as well as TTI; see the injunction rows under 'Resistance to the move'." |
 
 **Applied 4 Oct 2026:** new row at Risks!A19:W19; existing injunction response at L18/W18; tax response at L16/W16. All written values matched on readback; existing wrapping preserved. The new scores remain proposals for Julian to confirm. The live sheet has 36 populated, tagged Return to HK risk rows after insertion, rather than the specified 35; the partly blank row and untagged row are excluded.
+
+### Sheet changes for Codex, 5 Oct 2026
+
+Source: Julian's 5 Oct decisions in [[HK-Return-BRAIND]] D (move by Christmas for DBIS term 2, no mid-term move) and his read of Clodagh: "I don't think there is any way she is going to agree to this without a battle." Sheet "Risks", columns as in the 2 Oct block. Rows identified by the text in E and F. **Applied 5 Oct 2026: change 1 only.** Matched by E and F; F19, I19, L19 and W19 read back with no mismatches. J19 remains high; existing wrapping and all other cells in both injunction rows are unchanged. Change 2 is not applied, awaiting Julian's confirmation.
+
+| # | Row | Change |
+|---|---|---|
+| 1 | Row 19 (E = "Clodagh gets a legal injunction of some kind"; F starts "Clodagh's court action holds Sophia here past 28 January") | F: replace the whole cell with "**Clodagh's court action holds the move past Christmas, so Hong Kong is off for this year.** / - High impact: I won't move Sophia mid term 2, so a case still running at Christmas ends the return for this school year, and a contested case is expensive / - High probability: I don't think there is any way she is going to agree to this without a battle, and a contested relocation case can take months". I: medium to high (Julian, 5 Oct). J stays high. L: replace "tell her early, never at the last minute" with "tell her as soon as the offer is signed, never at the last minute", and replace the whole "Impact: ..." sentence with "Impact: book a fixed-fee consultation with an England and Wales international relocation solicitor before the offer arrives, to test my case and price the contested route; if consent or an order isn't in hand by Christmas, the UK move stands." W: append " 5 Oct: drop-dead is now Christmas (no mid-term move), so the harm is losing this year's return, not tax residence." |
+| 2 | Row 18 (E = "Clodagh gets a legal injunction of some kind"; the original row) | F: **Julian to decide.** Proposed: replace "legally blocked" with "delayed", since a court decides if she refuses and a permanent veto is unlikely. If he keeps "legally blocked", change nothing. |
 
 ### Cause map
 
@@ -395,6 +404,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-05 | Codex applied change 1 from "Sheet changes for Codex, 5 Oct 2026", matched by E and F: F19, I19, L19 and W19. Every written cell matched on readback; wrapping preserved; J19 and the original injunction row unchanged. Live L19 used "Reduce impact:" rather than "Impact:"; its entire impact sentence was replaced with the specified "Impact: book..." sentence. Change 2 not applied, no confirmation supplied. |
+| 2026-10-05 | Superseded headline status: > ⚠ **Status (5 Oct 2026):** D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet. |
 | 2026-10-05 | D: 27 October terms date dropped (its tax anchor no longer applies with a Christmas move); target set by Julian as contract signed by 14 October for a start after the October half term, Christmas staying as the drop-dead. Clodagh consent noted as the constraint on the target. Recorded "for now". |
 | 2026-10-05 | Clodagh consent dependency confirmed by Julian, due before the Christmas move; Intuition Log capture of the 5 Oct morning wobble added in his words. |
 | 2026-10-05 | D: condition 1 extended (pay if ended early or cut down; approved through HR or the pay committee); conditions 7 (reporting line outside the chain that said no) and 8 (named manager with a funded first assignment) added from the council's tests, all agreed by Julian; condition 6 move date changed from 14 January 2027 to Christmas for the start of DBIS term 2 (4 January 2027), Julian's words. The model's 30-day emergency-headroom reasoning for the date was not adopted; Julian's reason is no mid-term move for Sophia. |
@@ -497,6 +508,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Type | Amount | Notes |
 |------|------|--------|-------|
+| 2026-10-05 | Machine (Codex interactive) | unmeasured | Applied only sheet change 1 and read back all four written cells; preserved wrapping and original row; updated application record, Status, Document Log and project bookkeeping. Incremental task usage unavailable. |
 | 2026-10-04 | Machine (Codex interactive) | unmeasured | Mechanical application and verification of the three specified sheet changes; BRAIND and project bookkeeping. Session-specific usage unavailable. |
 | 2026-09-24 | Machine (interactive session) | unmeasured | File created; opening intuition dump logged and summarised; registered in workspace index, reopen file, project page and ops log |
 | 2026-09-27 | Julian, attended | 15 min | Refactoring the file to the BRAIND format only (reviewing the convention and the restructure). Intuition capture time earlier in the day not reported |
