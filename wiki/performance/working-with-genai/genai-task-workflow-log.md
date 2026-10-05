@@ -31,6 +31,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-05 · Message critique + Steering · Partly worked · [[tti-role]]
+
+- **Work:** Critiqued Julian's message to Stephan paragraph by paragraph, ran FIRST on positioning the UK role, and reviewed decision state before sending.
+- **Check:** Facts in the draft checked against the comms log and session transcripts; FIRST answers taken in Julian's words.
+- **Outcome:** As of 5 Oct: HK-lean version and call questions saved in [[tti-comms-log]]. behaviour-check was not invoked at three trigger points (reading Stephan's silence, weighing HK against the UK, the send point); cards were raised informally instead, and commitment-stalling went unraised until Julian asked. Machine effort unmeasured.
+- **Lesson:** Steering: an always-on skill whose triggers arise mid-conversation inside other work is skipped unless something forces the call; fixed with the feedback-invoke-behaviour-check memory.
+- **Deliverable:** none linked; TTI comms work under [[tti-role]].
+
 ## 2026-10-04 · Sheet update + Verification · Worked · [[HK-Return-BRAIND]]
 
 - **Work:** Applied the three exact legal-position sheet changes and synchronised the BRAIND and project status.

@@ -22,7 +22,7 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (4 Oct 2026):** the three legal-position sheet changes are applied and verified by Codex. R now records the injunction delay and tax effect; the cause map reflects 36 populated, tagged Return to HK risk rows. The new High impact / Medium probability / High risk scores remain model proposals for Julian to confirm. D and its consent dependency still await Julian's sign-off; the held Stephan message stays unsent. No `## Prompt Zero` section yet.
+> ⚠ **Status (5 Oct 2026):** D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet.
 
 ---
 
@@ -224,6 +224,18 @@ Raw captures (24, 27, 28 and 30 Sep 2026) are verbatim in [[HK-Return-Intuition]
 
 ---
 
+### 2026-10-05 · Capture, Julian's words, the morning wobble
+
+"The reason I came back and rewrote this message this morning was because of a wobble. This is not an uncommon wobble. We've seen it before. I woke up panicking: if they turned around and offered me the job right now, how would I feel? I started to panic about job security. And that was the cause for me to then come and rewrite this new draft, focusing on positioning the UK as the number one."
+
+"I think my gut is telling me that it's such a low probability of 6 years that I'm really basing this on wishful thinking. I panicked and started to position into position 1. Probably should have done the review."
+
+From the FIRST run the same morning, ten months out: "I may regret not having the balls to just move back to HK. I think this is a wobble." Ten years out: "it really is 'it depends' and I don't have a crystal ball."
+
+Outcome the same day: Hong Kong stays first, with the UK-based role on the table ([[tti-engagement-strategy]], 5 Oct). Bears on point 6 of the summary below (the read moves with state) and point 3 (the gut against going is job security).
+
+---
+
 ### 2026-10-02 · Capture, Julian's words, after the council review
 
 "As I understand it, the real risk is about my job being hollowed out and reporting into a detractor, so I am a sitting duck when Horst retires from the board for whatever reason."
@@ -288,16 +300,18 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 
 > ⚠ **Status (30 Sep 2026): a conditional decision, written by the model from the conditions and dependencies Julian agreed on 30 Sep, at his instruction. Not yet in his words and not yet signed off. Under [[commitment-lock-protocol]] the committed choice remains the UK move until written terms exist; the 48-hour hold from the 29 Sep conversation ends on 1 Oct 2026. When Julian signs this off, it is dated and mirrored to [[dec-uk-move]] and [[uk-relocation-project]].**
 
-**The decision:** go to Hong Kong if the six conditions below are met in writing by 27 October 2026, with the move complete by 14 January 2027. If TTI offers the role from the UK instead, take it (the second choice). If nothing is in writing by 27 October, the UK move stands, the flat is let, and the UK market route follows.
+**The decision:** go to Hong Kong if the eight conditions below are met in writing by 27 October 2026, with the move complete over Christmas for the start of DBIS term 2 (4 January 2027). If TTI offers the role from the UK instead, take it (the second choice). If nothing is in writing by 27 October, the UK move stands, the flat is let, and the UK market route follows.
 
 **Conditions, agreed by Julian 30 Sep 2026.** The terms the offer must contain for the answer to be yes.
 
-1. A 24-month term, or an equivalent guarantee, aligned to the school year, with the start backdated to September or October 2026.
+1. A 24-month term, or an equivalent guarantee, aligned to the school year, with the start backdated to September or October 2026. It includes pay if the role is ended early or cut down, and the contract is approved through HR or the board's pay committee, not slipped in quietly. *(Extended 5 Oct 2026, agreed by Julian: council test 1, [[TTI-board-risk-Fable-Council]].)*
 2. School fees in the package.
 3. The pay Horst verbally accepted on 14 Sep: HK$2M plus bonus.
 4. An architecture role at director level, not a junior or non-architectural one.
 5. A renewal decision by spring 2028, so that Julian can leave in summer 2028 before Sophia's GCSE courses start.
-6. All of it in writing by 27 October 2026, and the move complete by 14 January 2027.
+6. All of it in writing by 27 October 2026, and the move complete over Christmas for the start of DBIS term 2 (4 January 2027). Julian, 5 Oct 2026: "Moving by Christmas for the beginning of term 2 is the absolute drop dead date. I don't want to move mid term 2 even if it's technically possible to avoid UK residency." *(Replaces the 14 January 2027 tax-based date.)*
+7. A reporting line and performance reviewer outside the chain that said no in August. *(Added 5 Oct 2026, agreed by Julian: council test 2.)*
+8. A named manager with a funded first assignment. *(Added 5 Oct 2026, agreed by Julian: council test 3.)*
 
 **Two dates (set by Julian 30 Sep 2026).** Terms in writing by **27 October 2026**: the anchor is Sophia's 90th UK day, which falls on that date; leaving before it would keep both day-count ceilings at 182 for 2027/28 and 2028/29, insurance that matters if the job fails, so a decision that has not arrived by then has already cost something. Terms cannot precede the move, so the 90-day insurance itself is only kept if terms arrive earlier and the move follows at once; the date is the point at which waiting stops. School calendars for timing the move: DBIS half term is 12 to 16 October 2026, its autumn term ends 11 December and spring term starts 4 January 2027 (DBIS term dates page, read 30 Sep); The Chase half term is 26 to 30 October 2026, term ends 18 December, spring term starts 4 January 2027 (school website, read 30 Sep). Move complete by **14 January 2027**: Julian and Sophia leave together; he wants her to start at DBIS as soon as possible. The binding date is Sophia's 183rd UK day, 28 January 2027, when she would become UK resident for 2026/27 and give Julian a family tie ([[uktax-srt-fy26-27]]); 14 days are held back for an emergency trip or a Christmas visit, and any UK midnight spends that buffer. Two earlier dates cost future flexibility rather than this year's tax: Sophia crosses 90 days on 27 October 2026 and Julian on 9 November, each cutting the 2027/28 and 2028/29 allowance from 182 to 120 days if the Hong Kong job fails.
 
@@ -310,7 +324,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 | UK day counts stay under the thresholds while this runs | Dates above | Julian |
 | The DB flat is kept for the family, not let | Tenants waiting at HK$27k | Julian |
 | Sophia is told, and the move is timed to a term boundary | She has said a move back would be "really annoying" | Julian |
-| Clodagh consents in writing to Sophia leaving the UK, or a court gives permission (added by the model 4 Oct 2026; Julian to confirm) | Not started as of 4 Oct. Her July consent covered leaving Hong Kong, not this move. Needs lawyers in England and Hong Kong instructed, and must be in hand in time to leave by 14 January 2027 ([[HK-Return-legal-position]]; R, 4 Oct block) | Julian |
+| Clodagh consents in writing to Sophia leaving the UK, or a court gives permission (added by the model 4 Oct 2026; confirmed by Julian 5 Oct 2026) | Not started as of 4 Oct. Her July consent covered leaving Hong Kong, not this move. Needs lawyers in England and Hong Kong instructed, and must be in hand before the Christmas move (start of DBIS term 2, 4 January 2027; date moved 5 Oct) ([[HK-Return-legal-position]]; R, 4 Oct block) | Julian |
 | Custody: Julian files once in Hong Kong | He can file; the outcome is separate | Julian |
 | A school place on return in summer 2028 | Held until an offer is real; three schools acceptable | Julian, later |
 
@@ -381,6 +395,9 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-05 | Clodagh consent dependency confirmed by Julian, due before the Christmas move; Intuition Log capture of the 5 Oct morning wobble added in his words. |
+| 2026-10-05 | D: condition 1 extended (pay if ended early or cut down; approved through HR or the pay committee); conditions 7 (reporting line outside the chain that said no) and 8 (named manager with a funded first assignment) added from the council's tests, all agreed by Julian; condition 6 move date changed from 14 January 2027 to Christmas for the start of DBIS term 2 (4 January 2027), Julian's words. The model's 30-day emergency-headroom reasoning for the date was not adopted; Julian's reason is no mid-term move for Sophia. |
+| 2026-10-05 | Superseded headline status: > ⚠ **Status (4 Oct 2026):** the three legal-position sheet changes are applied and verified by Codex. R now records the injunction delay and tax effect; the cause map reflects 36 populated, tagged Return to HK risk rows. The new High impact / Medium probability / High risk scores remain model proposals for Julian to confirm. D and its consent dependency still await Julian's sign-off; the held Stephan message stays unsent. No `## Prompt Zero` section yet. |
 | 2026-10-04 | Codex applied all three specified legal-position changes to the UK Relocation Risks sheet and verified every written value. Cause map refreshed from the live sheet: 36 populated tagged risks; Resistance to the move 4 / 4 Material / 1 High. The specified total of 35 was stale. New scores remain proposals; original injunction F wording awaits Julian's decision. Sheet-format verification used API metadata; native visual fit was not checked. |
 | 2026-10-04 | Superseded headline statuses: > ⚠ **Status (4 Oct 2026):** an overlooked risk is added to R: the plan assumed Sophia can leave when Julian chooses, but Clodagh can hold the move up in court, and a hold-up past 28 January 2027 makes them both UK tax resident. Three sheet changes are specified in R ("Legal position and sheet changes, 4 Oct 2026") for Codex to apply; **as of 4 Oct they are not yet applied, so the sheet and R disagree on those three rows.** D gains a model-drafted consent dependency for Julian to confirm. Unchanged since 2 Oct: the council read is folded into R and applied to the sheet; D still awaits sign-off in Julian's words; the held Stephan message stays unsent on Julian's instruction.<br>> ⚠ **Status (30 Sep 2026, evening):** the Intuition summary (six points) is signed off by Julian and sits in the Intuition Log above the 29 Sep findings; raw captures are in [[HK-Return-Intuition]]. R refreshed from the sheet: Julian split the critical job-loss event into years 3 and 4 and years 5 and 6, each with a Relationships and a Finance effect (33 risks, 11 opportunities); one new row on home status being refused is untagged in the sheet and outside the digest until he tags it. Lean adopted by Julian: Hong Kong first if terms bound the downside, the TTI role from Malvern second, a UK market role third; recorded in [[HK-Return-Counterfactuals]], re-runs done 30 Sep. Fee rules are in [[uk-home-fee-status]]; the contract question is parked in [[uk-relocation-contract-vs-permanent]]. The claims table is split: beliefs sit under the Intuition summary, assumptions are a to-do list near the end of the file with four proposed additions awaiting Julian. A was rewritten by Julian on 30 Sep and stands as he wrote it. Purpose question 5 answered in the Intuition Log on 30 Sep. N run on 30 Sep. D holds the conditional decision (six conditions, terms in writing by 27 October 2026 and the move complete by 14 January 2027, dependencies), written from Julian's agreed terms and awaiting his sign-off. Still to do in this file: D to be signed off in Julian's words once the 48-hour hold ends; and no `## Prompt Zero` section yet. Three assumptions wait for Stephan or Horst. Decision and project state: [[uk-relocation-project]] Status. |
 | 2026-10-04 | R: "Legal position and sheet changes, 4 Oct 2026" block added at Julian's instruction (the missed assumption that Sophia can leave when Julian chooses; Clodagh's possible court action turns delay into 2026/27 tax residence for both). Three sheet changes specified for Codex, not yet applied. D gains a model-drafted consent dependency. Links gain the legal position and SRT files. Status banner updated. |

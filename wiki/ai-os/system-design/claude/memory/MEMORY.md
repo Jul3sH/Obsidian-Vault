@@ -24,9 +24,12 @@ Files in this folder are loaded by Claude at the start of each session. One line
 | feedback-visible-waiting-state.md | feedback | When blocked on Julian's input, end the turn with an unmissable ask ("Waiting on you:" + one direct question as the closing line) - never fold the question into a status paragraph |
 | feedback-narrative-fill.md | feedback | The most broadly evidenced of Julian's confirmed biases: fills silence/ambiguity with narratives about others' motives and strategises on them as fact - challenge the story, offer the boring explanation, label speculation |
 | feedback-taxonomy-before-filing.md | feedback | Read wiki/ai-os/taxonomy.md + the destination index's filing test before proposing any file location or structural change; before restructuring, check failing-or-forgotten and raise mm-forgotten-system-bias |
+| feedback-delegate-execution-to-subagents.md | feedback | Main thread thinks, briefs and verifies; execution (multi-file edits, restructures, sheet work, link repointing) goes to subagents |
 
 | feedback-resizing-needs-agreement.md | feedback | Never re-size/re-score a project without asking Julian; size on work REMAINING, not the full activity list |
 
 | [Hold the Pen: Voice Messages](feedback-hold-the-pen-voice-messages.md) | feedback | Outbound personal messages: Julian drafts first, Claude critiques and fact-checks - never Claude-first drafting for his voice |
+
+| [Invoke behaviour-check](feedback-invoke-behaviour-check.md) | feedback | At any behaviour-check trigger (send point, reading someone's silence, weighing options), invoke the skill; never raise a card informally instead |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)

@@ -251,7 +251,7 @@ Whenever any agent produces output that is linked to a Project (a new file, a co
 a completed review, or any work that results in a new row in a Project's File Map), the Project
 status surface (`wiki/projects/[project].md`) MUST be updated in the same operation. No exceptions.
 
-**Three things must all be updated together:**
+**Three things must all be updated together, followed by a strategy check:**
 
 1. **Status section header** - rewrite it to reflect the current position as of today. The most
    recent development goes first, before older standing paragraphs. A reader opening the file
@@ -266,6 +266,13 @@ status surface (`wiki/projects/[project].md`) MUST be updated in the same operat
    what the decision impact is. Link directly to every artefact produced, including spreadsheets
    (.xlsx) and companion docs separately. Do not link only to one and expect the reader to find
    the other.
+
+4. **Strategy check** - if the work changed the strategy (a new direction, a dropped option, a
+   new guardrail), rewrite the Current Strategy section of the workstream's living strategy doc
+   in the same operation, and add a dated row to its Strategy Evolution Log. If the strategy did
+   not change, nothing to do. *(Added 5 Oct 2026: the TTI strategy doc went six weeks stale after
+   the 14 Sep Horst mandate because no step prompted its update; the strategy drifted into project
+   status paragraphs and the comms log.)*
 
 **Why this matters:** the Status section is the only surface Julian reads to understand where a
 project stands. If it is not updated, the project is invisible - the work happened but the project

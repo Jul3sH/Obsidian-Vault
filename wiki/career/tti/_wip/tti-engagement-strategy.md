@@ -26,9 +26,26 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 
 ---
 
-## Current Strategy (updated 24 August 2026) - Post-no relationship strategy: prepare, don't push
+## Current Strategy (as of 5 October 2026) - Turn Horst's offer into written terms; Hong Kong first, the UK role on the table
 
-> **Status:** the employment engagement ended with Ty's written no (20 Aug) and gracious close-outs on both channels (21 Aug). The strategy is now about protecting the residual assets (warm Stephan channel, open Ty door, the Justin listening post) and building the next play properly. Agreed with Julian 24 Aug after Justin relayed Stephan's post-decision rationalisations.
+> ⚠ **As of 5 Oct 2026: proposed by Claude from the record and Julian's 5 Oct decisions; awaiting Julian's agreement.** Status, next actions and the dated log live in [[tti-role]]; message-level detail in [[tti-comms-log]]; the move decision itself in [[HK-Return-BRAIND]].
+
+**Where it stands:** Horst reopened the employment path on 13 Sep and at the 14 Sep lunch told Stephan to "just make it happen", accepting HK$2M. Nothing is in writing three weeks on. Stephan is seeking Ty's buy-in, the chain that said no on 20 Aug. He meets "the team" in the US on 7 Oct.
+
+1. **Turn the offer into written terms by 27 October 2026**, against the eight conditions in [[HK-Return-BRAIND]] D: a 24-month term aligned to the school year, school fees, HK$2M plus bonus, a director-level enterprise architecture role, a renewal decision by spring 2028, and a move over Christmas for the start of term 2 (4 January 2027).
+2. **Protect the first 24 months, not six years.** The tests from [[TTI-board-risk-Fable-Council]], conditions in D since 5 Oct: the contract approved through HR or the board's pay committee, with pay if the role is ended early; a reporting line and performance reviewer outside the chain that said no; a named manager with a funded first assignment. Six years is not asked about, because no one can honestly answer it.
+3. **Hong Kong first, with a UK-based enterprise architecture role on the table** as an easier option for the US side: working to the US-set strategy, title kept as enterprise architecture, not project or contract work.
+4. **Stop a slow no from Ty.** Ask facts, not reassurance: who "the team" is; whether Ty is asked to approve or to support; who papers the contract and when; who Julian reports to; when he hears back. UK tax residency is not used as the urgency, because its dates imply more time than Julian wants TTI to take. Messaging Horst is the held lever if the Ty route stalls.
+5. **If nothing is in writing by 27 October, the UK move stands**, the flat is let, and the UK market route follows.
+
+**Guardrails:** nothing sourced from Justin reaches Stephan; write every message as if Ty will read it; no custody, tax or Clodagh detail to Stephan or Horst.
+
+---
+
+## Superseded Strategy (24 August 2026) - Post-no relationship strategy: prepare, don't push
+
+
+> **Status:** SUPERSEDED 5 Oct 2026 (overtaken by Horst's 13-14 Sep mandate; never rewritten at the time). Kept for the record. Point 4 (the UK liaison play) was carried into the current strategy as the UK-based role. Original status: the employment engagement ended with Ty's written no (20 Aug) and gracious close-outs on both channels (21 Aug). The strategy is now about protecting the residual assets (warm Stephan channel, open Ty door, the Justin listening post) and building the next play properly. Agreed with Julian 24 Aug after Justin relayed Stephan's post-decision rationalisations.
 
 ### The four agreed positions (24 Aug)
 
@@ -143,6 +160,11 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 ---
 
 ## Strategy Evolution Log (newest first)
+
+### 5 October 2026 - Hong Kong stays first; the UK role goes on the table; tax residency kept out of the ask
+- **Trigger:** the call Stephan offered for 4 Oct did not happen; he flies to the US 5 Oct and meets "the team" on 7 Oct. Julian woke on 5 Oct worried about job security and rewrote his message to put a UK-based role first.
+- **Decisions (Julian, 5 Oct):** (1) **Hong Kong stays first choice; a UK-based enterprise architecture role is offered as an easier option for the US side**, worded to work to the US-set strategy while keeping the enterprise architecture title. The UK-first version was traced to the morning wobble and dropped ([[tti-comms-log]], FIRST run). (2) **Six years is not the focus**: Stephan cannot honestly answer it, and the plan in [[HK-Return-BRAIND]] needs only the first 24 months protected. (3) **UK tax residency is not to be mentioned to Stephan**: its dates (terms by late October, a move over Christmas) imply more time than Julian wants TTI to take. The urgency rests on wanting an answer, not on the tax calendar. (4) The call asks five questions that produce facts (who "the team" is; whether Ty is asked to approve or to support; who papers the contract and when; who Julian reports to; when he hears back), aimed at his main fear: a hand-off to Ty, two weeks' silence, then a no.
+- **Still open:** whether to message Horst before the 7 Oct meeting (held since 1 Oct); rewriting the Current Strategy section above.
 
 ### 25 August 2026 - Two refinements from the Justin thread (Kari elicitation; Stephan deferred to HK trip)
 - **Trigger:** Justin's 25 Aug offers - an email to Stephan urging renewed advocacy, and repeated pushes for Julian to call Stephan immediately ("he was not busy").

@@ -554,9 +554,11 @@ renamed: 2026-07-17
 >
 > I share your concern about taking on a role without the support I'd need to deliver. This option would give me a chance to demonstrate my value without the inherent risks of moving Sophia back to HK and then finding myself out of work. Once the role is established, I could then consider a move back to Hong Kong.
 >
-> Admittedly I'm pinning my hopes on TTI after your Dad's offer at lunch. If it's Hong Kong, the clock is ticking on how long I can stay in the UK without becoming UK tax resident. If it's not going to happen, I need to mentally move on, get my property back on the market (it's very slow in DB, just one offer in two months) and find a way to start earning again.
+> Admittedly I'm pinning my hopes on TTI after your Dad's offer at lunch. If it's not going to happen, I need to mentally move on, get my property back on the market (it's very slow in DB, just one offer in two months) and find a way to start earning again.
 >
 > Happy to talk it through when you land.
+
+*Edited 5 Oct, later: the tax-residency sentence removed at Julian's instruction; its dates imply more time than he wants TTI to take ([[tti-engagement-strategy]], 5 Oct).*
 >
 > Julian
 
