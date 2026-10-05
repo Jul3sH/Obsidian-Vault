@@ -300,7 +300,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 
 > ⚠ **Status (30 Sep 2026): a conditional decision, written by the model from the conditions and dependencies Julian agreed on 30 Sep, at his instruction. Not yet in his words and not yet signed off. Under [[commitment-lock-protocol]] the committed choice remains the UK move until written terms exist; the 48-hour hold from the 29 Sep conversation ends on 1 Oct 2026. When Julian signs this off, it is dated and mirrored to [[dec-uk-move]] and [[uk-relocation-project]].**
 
-**The decision:** go to Hong Kong if the eight conditions below are met in writing by 27 October 2026, with the move complete over Christmas for the start of DBIS term 2 (4 January 2027). If TTI offers the role from the UK instead, take it (the second choice). If nothing is in writing by 27 October, the UK move stands, the flat is let, and the UK market route follows.
+**The decision:** go to Hong Kong if the eight conditions below are met in writing (target 14 October 2026), with the move complete over Christmas for the start of DBIS term 2 (4 January 2027). If TTI offers the role from the UK instead, take it (the second choice). If nothing is in writing by 27 October, the UK move stands, the flat is let, and the UK market route follows.
 
 **Conditions, agreed by Julian 30 Sep 2026.** The terms the offer must contain for the answer to be yes.
 
@@ -309,7 +309,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 3. The pay Horst verbally accepted on 14 Sep: HK$2M plus bonus.
 4. An architecture role at director level, not a junior or non-architectural one.
 5. A renewal decision by spring 2028, so that Julian can leave in summer 2028 before Sophia's GCSE courses start.
-6. All of it in writing by 27 October 2026, and the move complete over Christmas for the start of DBIS term 2 (4 January 2027). Julian, 5 Oct 2026: "Moving by Christmas for the beginning of term 2 is the absolute drop dead date. I don't want to move mid term 2 even if it's technically possible to avoid UK residency." *(Replaces the 14 January 2027 tax-based date.)*
+6. All of it in writing (target 14 October 2026), and the move complete over Christmas for the start of DBIS term 2 (4 January 2027). Julian, 5 Oct 2026: "Moving by Christmas for the beginning of term 2 is the absolute drop dead date. I don't want to move mid term 2 even if it's technically possible to avoid UK residency." *(Replaces the 14 January 2027 tax-based date.)* **Target (Julian, 5 Oct 2026):** contract signed by **14 October 2026** so Sophia can start at DBIS after the October half term (Monday 19 Oct; 20 Oct if the 19th is the Chung Yeung holiday, to check). The target needs Clodagh's quick informed written consent; Christmas leaves time for a consent order, or the court if she refuses. The 27 October terms date is dropped: its tax anchor (Sophia's 90th UK day) no longer applies once the move is at Christmas.
 7. A reporting line and performance reviewer outside the chain that said no in August. *(Added 5 Oct 2026, agreed by Julian: council test 2.)*
 8. A named manager with a funded first assignment. *(Added 5 Oct 2026, agreed by Julian: council test 3.)*
 
@@ -395,6 +395,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-05 | D: 27 October terms date dropped (its tax anchor no longer applies with a Christmas move); target set by Julian as contract signed by 14 October for a start after the October half term, Christmas staying as the drop-dead. Clodagh consent noted as the constraint on the target. Recorded "for now". |
 | 2026-10-05 | Clodagh consent dependency confirmed by Julian, due before the Christmas move; Intuition Log capture of the 5 Oct morning wobble added in his words. |
 | 2026-10-05 | D: condition 1 extended (pay if ended early or cut down; approved through HR or the pay committee); conditions 7 (reporting line outside the chain that said no) and 8 (named manager with a funded first assignment) added from the council's tests, all agreed by Julian; condition 6 move date changed from 14 January 2027 to Christmas for the start of DBIS term 2 (4 January 2027), Julian's words. The model's 30-day emergency-headroom reasoning for the date was not adopted; Julian's reason is no mid-term move for Sophia. |
 | 2026-10-05 | Superseded headline status: > ⚠ **Status (4 Oct 2026):** the three legal-position sheet changes are applied and verified by Codex. R now records the injunction delay and tax effect; the cause map reflects 36 populated, tagged Return to HK risk rows. The new High impact / Medium probability / High risk scores remain model proposals for Julian to confirm. D and its consent dependency still await Julian's sign-off; the held Stephan message stays unsent. No `## Prompt Zero` section yet. |

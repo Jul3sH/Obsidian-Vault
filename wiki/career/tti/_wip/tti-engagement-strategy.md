@@ -32,11 +32,11 @@ supersedes: [tti-consulting-brief, tti-ai-leadership-brief, stephan-may-2026-fol
 
 **Where it stands:** Horst reopened the employment path on 13 Sep and at the 14 Sep lunch told Stephan to "just make it happen", accepting HK$2M. Nothing is in writing three weeks on. Stephan is seeking Ty's buy-in, the chain that said no on 20 Aug. He meets "the team" in the US on 7 Oct.
 
-1. **Turn the offer into written terms by 27 October 2026**, against the eight conditions in [[HK-Return-BRAIND]] D: a 24-month term aligned to the school year, school fees, HK$2M plus bonus, a director-level enterprise architecture role, a renewal decision by spring 2028, and a move over Christmas for the start of term 2 (4 January 2027).
+1. **Turn the offer into a signed contract by 14 October 2026 (target)**, for a start after the October half term, with Christmas as the drop-dead for a term 2 start; against the eight conditions in [[HK-Return-BRAIND]] D: a 24-month term aligned to the school year, school fees, HK$2M plus bonus, a director-level enterprise architecture role, a renewal decision by spring 2028, and a move over Christmas for the start of term 2 (4 January 2027).
 2. **Protect the first 24 months, not six years.** The tests from [[TTI-board-risk-Fable-Council]], conditions in D since 5 Oct: the contract approved through HR or the board's pay committee, with pay if the role is ended early; a reporting line and performance reviewer outside the chain that said no; a named manager with a funded first assignment. Six years is not asked about, because no one can honestly answer it.
 3. **Hong Kong first, with a UK-based enterprise architecture role on the table** as an easier option for the US side: working to the US-set strategy, title kept as enterprise architecture, not project or contract work.
 4. **Stop a slow no from Ty.** Ask facts, not reassurance: who "the team" is; whether Ty is asked to approve or to support; who papers the contract and when; who Julian reports to; when he hears back. UK tax residency is not used as the urgency, because its dates imply more time than Julian wants TTI to take. Messaging Horst is the held lever if the Ty route stalls.
-5. **If nothing is in writing by 27 October, the UK move stands**, the flat is let, and the UK market route follows.
+5. **If it cannot happen by Christmas, the UK move stands**, the flat is let, and the UK market route follows.
 
 **Guardrails:** nothing sourced from Justin reaches Stephan; write every message as if Ty will read it; no custody, tax or Clodagh detail to Stephan or Horst.
 
