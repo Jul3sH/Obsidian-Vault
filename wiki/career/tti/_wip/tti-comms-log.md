@@ -552,6 +552,16 @@ renamed: 2026-07-17
 - Accepted by Julian with eyes open: working to the US-set strategy gives up some of the leadership framing in exchange for acceptance in principle; the aim is to extend the remit once in. The guard is that it stays an enterprise architecture role.
 - Guardrail: nothing in the message hints at the cybersecurity promotion (source to be confirmed).
 
+**FIRST run on the decision to put the UK option on the table (5 Oct 2026, steps 1 to 4; Then pending).** Framework: [[first-decision-framework]].
+
+| Step | Julian's answer |
+|---|---|
+| Facts | Model-drafted from the record, not corrected by Julian: Horst's 14 Sep offer and HK$2M, nothing in writing; Ty's 20 Aug no; [[HK-Return-BRAIND]] has HK first and the UK-based TTI role second (D unsigned); council estimate 60-70% job failure in two years on today's terms; the UK option makes failure cheaper (no move for Sophia, no Clodagh consent, no tax deadline) but does not fix the support problem; same pay from the UK is an untested assumption |
+| Issue | "The inherent risk of moving and losing my job in the next 6 years." Refined: "It reduces the impact of losing the job, not the probability." |
+| Repercussions | Stephan uses it as an excuse to exit, since it creates work for him, and tells his Dad Julian doesn't want to move to Hong Kong; Horst concludes "Well, he doesn't want to move to Hong Kong. There's no job for him." Response offered: a line keeping Hong Kong explicitly open (the 19 Aug "Hong Kong is still our priority" device), in a UK-lean or HK-lean wording; Julian to choose |
+| Scenarios | 10 minutes: "Not too bothered, just giving him an alternative to consider." 10 months: "I may regret not having the balls to just move back to HK. I think this is a wobble." 10 years: "I would be pissed off if this leaned the options to UK, I'm still working in UK and could be retired if I'd taken a risk and returned to HK, OR I'll be pleased if Horst retires and senior HK employees lose their jobs. So it really is 'it depends' and I don't have a crystal ball." |
+| Then | Pending: Julian to decide whether the message leans UK or HK |
+
 ---
 
 ## ✅ 4 Oct - THE OFFERED CALL DID NOT HAPPEN: Stephan flies to the US 5 Oct; catch-up moved to after he lands (Mon 5 Oct, about 18:00 UK)
