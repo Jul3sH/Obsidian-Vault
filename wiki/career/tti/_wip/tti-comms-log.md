@@ -557,10 +557,10 @@ renamed: 2026-07-17
 > Admittedly I'm pinning my hopes on TTI after your Dad's offer at lunch. If it's not going to happen, I need to mentally move on, get my property back on the market (it's very slow in DB, just one offer in two months) and find a way to start earning again.
 >
 > Happy to talk it through when you land.
-
-*Edited 5 Oct, later: the tax-residency sentence removed at Julian's instruction; its dates imply more time than he wants TTI to take ([[tti-engagement-strategy]], 5 Oct).*
 >
 > Julian
+
+*Edited 5 Oct, later: the tax-residency sentence removed at Julian's instruction; its dates imply more time than he wants TTI to take ([[tti-engagement-strategy]], 5 Oct).*
 
 **Version without the UK option (5 Oct, later; for Julian's review).** Julian agreed to hold the UK option back and raise it on the call only if Ty's buy-in is the obstacle (strategy point 3). Drops paragraph 2 (the UK-based role proposal) and the UK-linked part of paragraph 3; keeps the support sentence, which sets up the reporting-line question. The HK-lean version above is kept for now.
 
@@ -583,7 +583,11 @@ renamed: 2026-07-17
 2. "Who would I be reporting into?"
 3. "Your Dad mentioned a rolling 24-month contract when we spoke. Is that the likely plan, and when could it be on paper?"
 
-**Held in reserve:** "Would a UK base make it easier for Ty?" Only if question 1 shows Ty's buy-in is the obstacle (strategy point 3).
+**Held in reserve:** "Would a UK base make it easier for Ty?" Only if question 1 shows Ty's buy-in is the obstacle (strategy point 3). If used, the case behind it, from paragraphs 2 and 3 of the HK-lean version above: a UK-based enterprise architecture role, working to the global architecture strategy and vision set in the US and delivering it across both regions; the UK's timezone overlaps both Hong Kong (UK mornings) and the US (UK afternoons), so one base covers global demand; it lets Julian prove himself without the risk of moving Sophia back and then finding himself out of work; a move to Hong Kong can follow once the role is established.
+
+**Written recap after the reserve question (proposed, not agreed, 5 Oct):** if the reserve question is used on the call, a recap Stephan can forward to Ty or read at the 7 Oct meeting. Open in [[tti-engagement-strategy]] point 3.
+
+> Thanks Stephan, good to catch up. As discussed, Hong Kong is still my priority, but I was wondering if a UK-based enterprise architecture role might be an easier option for the US team. I'd be working to the global architecture strategy and vision set in the US, and delivering it across both regions. The UK's timezone overlaps well with both Hong Kong and the US for meetings, so I could support global demand from a single base.
 
 *Superseded the same day, kept for the record: the five questions (who "the team" is on the 7th; approve or support; who papers it and when; who Julian reports to; when he hears back).*
 

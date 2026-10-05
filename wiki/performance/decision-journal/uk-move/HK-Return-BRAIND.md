@@ -309,7 +309,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 
 > ⚠ **Status (30 Sep 2026): a conditional decision, written by the model from the conditions and dependencies Julian agreed on 30 Sep, at his instruction. Not yet in his words and not yet signed off. Under [[commitment-lock-protocol]] the committed choice remains the UK move until written terms exist; the 48-hour hold from the 29 Sep conversation ends on 1 Oct 2026. When Julian signs this off, it is dated and mirrored to [[dec-uk-move]] and [[uk-relocation-project]].**
 
-**The decision:** go to Hong Kong if the eight conditions below are met in writing (target 14 October 2026), with the move complete over Christmas for the start of DBIS term 2 (4 January 2027). If TTI offers the role from the UK instead, take it (the second choice). If nothing is in writing by 27 October, the UK move stands, the flat is let, and the UK market route follows.
+**The decision:** go to Hong Kong if the eight conditions below are met in writing (target 14 October 2026), with the move complete over Christmas for the start of DBIS term 2 (4 January 2027). If TTI offers the role from the UK instead, take it (the second choice). If there is no offer by Christmas, the UK move stands, the flat is let, and the UK market route follows.
 
 **Conditions, agreed by Julian 30 Sep 2026.** The terms the offer must contain for the answer to be yes.
 

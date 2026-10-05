@@ -31,6 +31,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-05 · Strategy edit + Adversarial review · Worked · [[tti-engagement-strategy]]
+
+- **Work:** Fable added the open UK-option question to the TTI strategy and reviewed whether to raise the UK option before 7 Oct ([[tti-engagement-strategy-fable-review-2026-10-05]]).
+- **Check:** Review file read back by Claude; Fable's seven flagged inconsistencies checked, five fixed (two strategy contradictions, a stale BRAIND line, a split blockquote), two left as dated or minor.
+- **Outcome:** As of 5 Oct: verdict "hold", with a diagnostic question instead; awaiting Julian. 148,105 subagent tokens.
+- **Lesson:** Verification: same-day strategy edits contradicted each other (point 3 held the UK option, point 6 said it was on the table); a separate reviewer caught it.
+- **Deliverable:** none linked; [[tti-role]].
+
 ## 2026-10-05 · Message critique + Steering · Partly worked · [[tti-role]]
 
 - **Work:** Critiqued Julian's message to Stephan paragraph by paragraph, ran FIRST on positioning the UK role, and reviewed decision state before sending.
