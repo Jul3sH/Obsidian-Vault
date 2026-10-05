@@ -4,7 +4,7 @@ reviewer: Fable
 authority: Fable-review
 source: tti-engagement-strategy
 created: 2026-10-05
-status: open
+status: accepted
 tags: [career, tti, review]
 ---
 
