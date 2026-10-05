@@ -562,12 +562,30 @@ renamed: 2026-07-17
 >
 > Julian
 
-**Questions for the call (5 Oct, agreed by Julian; each gets a fact, not reassurance):**
-1. What's happening on the 7th, and who is "the team"?
-2. Is Ty being asked to approve it, or told it's happening and asked to support it?
-3. Who puts the contract on paper, and when?
-4. Who would I report to?
-5. When will I hear back after the 7th?
+**Version without the UK option (5 Oct, later; for Julian's review).** Julian agreed to hold the UK option back and raise it on the call only if Ty's buy-in is the obstacle (strategy point 3). Drops paragraph 2 (the UK-based role proposal) and the UK-linked part of paragraph 3; keeps the support sentence, which sets up the reporting-line question. The HK-lean version above is kept for now.
+
+> Hi Stephan,
+>
+> I thought I'd put my thoughts in writing so you have a chance to digest them before we speak.
+>
+> Admittedly I'm pinning my hopes on TTI after your Dad's offer at lunch. I share your concern about taking on a role without the support I'd need to deliver, so it would be good to understand how the 7th fits in, and what the next steps and timing look like.
+>
+> If it's not going to happen, I need to mentally move on, get my property back on the market (it's very slow in DB, just one offer in two months) and find a way to start earning again.
+>
+> Happy to talk it through when you land.
+>
+> Julian
+
+**Plan for tonight (5 Oct, agreed by Julian):** no message before the call. If the call happens, Julian asks the three questions below. If it does not, he sends the version without the UK option (above, kept as drafted).
+
+**The three questions for the call (5 Oct, Julian's consolidation of the earlier five plus the rolling-contract question):**
+1. "When I spoke to your Dad three weeks ago a job sounded imminent. I'm concerned the delay is seeking buy-in from the people who said no in August. Do I need to be worried?" *Follow-up if the answer is only reassurance:* "What's happening on the 7th?"
+2. "Who would I be reporting into?"
+3. "Your Dad mentioned a rolling 24-month contract when we spoke. Is that the likely plan, and when could it be on paper?"
+
+**Held in reserve:** "Would a UK base make it easier for Ty?" Only if question 1 shows Ty's buy-in is the obstacle (strategy point 3).
+
+*Superseded the same day, kept for the record: the five questions (who "the team" is on the 7th; approve or support; who papers it and when; who Julian reports to; when he hears back).*
 
 Julian's fear behind them (5 Oct): Stephan hands it to Ty, two more weeks pass, and the answer is no. Six years was deliberately not made the focus: Stephan cannot honestly answer it, and the plan in [[HK-Return-BRAIND]] D only needs the first 24 months protected.
 
