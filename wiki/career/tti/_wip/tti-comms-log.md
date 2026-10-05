@@ -544,6 +544,33 @@ renamed: 2026-07-17
 >
 > Julian
 
+**HK-lean version (5 Oct, later; the one to use if a message goes).** After the FIRST run, Julian traced the UK-first rewrite to a morning wobble about job security and switched to a Hong Kong lean. Two further edits, written as if Ty will read it, since Stephan forwards: "potential detractors" became "without the support I'd need" (Stephan's own word, 25 Sep); "Something to consider when you meet Ty on the 7th" was dropped because it invites the hand-off to Ty.
+
+> Hi Stephan,
+>
+> I thought I'd put my thoughts in writing so you have a chance to digest them before we speak.
+>
+> Hong Kong is still my priority, but I was wondering if a UK-based enterprise architecture role might be an easier option for your US stakeholders? I'd be working to the global architecture strategy and vision set in the US, and delivering it across both regions. The UK's timezone overlaps well with both Hong Kong and the US for meetings, so I could support global demand from a single base.
+>
+> I share your concern about taking on a role without the support I'd need to deliver. This option would give me a chance to demonstrate my value without the inherent risks of moving Sophia back to HK and then finding myself out of work. Once the role is established, I could then consider a move back to Hong Kong.
+>
+> Admittedly I'm pinning my hopes on TTI after your Dad's offer at lunch. If it's Hong Kong, the clock is ticking on how long I can stay in the UK without becoming UK tax resident. If it's not going to happen, I need to mentally move on, get my property back on the market (it's very slow in DB, just one offer in two months) and find a way to start earning again.
+>
+> Happy to talk it through when you land.
+>
+> Julian
+
+**Questions for the call (5 Oct, agreed by Julian; each gets a fact, not reassurance):**
+1. What's happening on the 7th, and who is "the team"?
+2. Is Ty being asked to approve it, or told it's happening and asked to support it?
+3. Who puts the contract on paper, and when?
+4. Who would I report to?
+5. When will I hear back after the 7th?
+
+Julian's fear behind them (5 Oct): Stephan hands it to Ty, two more weeks pass, and the answer is no. Six years was deliberately not made the focus: Stephan cannot honestly answer it, and the plan in [[HK-Return-BRAIND]] D only needs the first 24 months protected.
+
+**The UK-first version above is superseded by this HK-lean version and stays for the record.**
+
 **What it does (Julian's aim, 5 Oct):** gives Stephan something to take to Ty that makes his life easier. Julian's read, which he holds firmly: the US objection is autonomy and control, shown by Ty's 20 Aug "upscaling of talent within the IT group" and a reported promotion of the head of cybersecurity to global head. The draft positions Julian as a neutral who works to the US agenda and does not get in its way, while keeping the title as enterprise architecture. No question is asked, deliberately: Julian's view is that Stephan would not answer one.
 
 **Drafting decisions (5 Oct):**
