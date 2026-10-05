@@ -7,7 +7,7 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-10-03
+status-updated: 2026-10-05
 ---
 
 ## Purpose
@@ -16,7 +16,9 @@ The project record for securing a TTI role, including the employment position, s
 
 # TTI Role
 
-## Status (as of 2026-10-03)
+## Status (as of 2026-10-05)
+
+**4-5 October: the offered call did not happen; Julian is putting the case in writing.** Stephan flies to the US on 5 Oct and proposed catching up after he lands (Mon 5 Oct, about 18:00 UK), before his 7 Oct meeting "with the team"; no time fixed. Julian's read, which he labels speculation, is that Stephan is avoiding the conversation until he has spoken to Horst and Ty. Julian is drafting a written message that proposes a UK-based role (the timezone bridge in [[tti-engagement-strategy]] point 4). Exchange verbatim in [[tti-comms-log]].
 
 **3 October: Stephan replied "Let's talk tomorrow"; call expected Sun 4 Oct.** Julian sent a short prompt in the morning, deleted it a couple of hours later, and sent a replacement at 15:52: did you speak to your Dad; "I'm concerned the delay is seeking buy-in from the people who said no in August"; do I need to be worried; Sophia back after half term (20 Oct); what is the next step and when. The replacement drops the lost tenant offer (the offer is still lost). Stephan replied at 16:06: "Let's talk tomorrow. We are in the US this coming week and will be with the team Oct 7th." Which team is not stated. Both versions and the reply verbatim in [[tti-comms-log]]. The 1 Oct held draft is superseded.
 
@@ -34,10 +36,10 @@ The project record for securing a TTI role, including the employment position, s
 
 **Review handoff, 2 October:** a standalone Claude prompt is saved in [[TTI-board-risk-Astra#Claude review prompt]]. It carries the brief and source paths without Astra's findings.
 
-### Next Actions (as of 2026-10-03)
+### Next Actions (as of 2026-10-05)
 
 1. Julian reads [[TTI-board-risk-Fable-Council]] (verdict first), corrects any private-source interpretations, and records his rating and minutes in its Session Synopsis and Time and Token Log.
-2. Take Stephan's call on Sun 4 Oct. Ask who "the team" on 7 Oct is and what is being decided there, and get a next step with a date. The council's two questions (who papers it, who Julian reports to) and the UK-based option are still unasked; this call is the chance to ask them before he flies. The Horst message remains held.
+2. Finish and send the written message to Stephan so it reaches him before he lands (Mon 5 Oct, about 18:00 UK) and before the 7 Oct team meeting. Still unasked: who "the team" is and what is decided on the 7th, and the council's two questions (who papers it, who Julian reports to). The Horst message remains held.
 3. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
 4. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
 5. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
@@ -58,6 +60,7 @@ The project record for securing a TTI role, including the employment position, s
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-05 | **4 Oct: the offered call did not happen; catch-up moved to after Stephan lands in the US (Mon 5 Oct, about 18:00 UK).** WhatsApp verbatim in [[tti-comms-log]]. Julian's read (labelled speculation): avoidance until Stephan has spoken to Horst and Ty. Julian decided to put the case in writing, including a UK-based role. Decision impact: the written message is now the main channel before the 7 Oct meeting; no new facts on the offer. |
 | 2026-10-03 | **Message replaced; Stephan replied "Let's talk tomorrow".** Julian deleted the morning message and sent a replacement at 15:52 without the tenant offer and with the buy-in point as his concern ("I'm concerned the delay is seeking buy-in..."). Stephan replied at 16:06: talk tomorrow; in the US next week; "with the team" on 7 Oct. Verbatim in [[tti-comms-log]]. Decision impact: a call is set for 4 Oct, offered by Stephan; it is the last chance to put the council's two questions to him before he meets the team on 7 Oct. |
 | 2026-10-03 | **Short prompt sent to Stephan; tenant offer lost.** Julian's wording after four critique rounds: did you speak to your Dad; tenant offer lost; buy-in from the people who said no; do I need to be worried; Sophia back after half term (20 Oct); what is the next step and when. Verbatim in [[tti-comms-log]]; 1 Oct draft superseded. Decision impact: the flat no longer holds a tenant, so the tenant deadline is gone as a lever; the ask now rests on the 20 Oct school date. |
 | 2026-10-02 | **Stephan contact attempt and today's silence logged; pre-flight message decided.** 1 Oct: Julian called, no answer; one-ring callback; then "I can't talk right now". 2 Oct: no contact. Message held since 1 Oct still unsent. Record in [[tti-comms-log]]. Council read applied to the risk sheet without changing it: years 1-2 job-loss probability should be High not Medium; years 3-6 rows are conditional on the spring 2028 renewal. Decision impact: Julian has held the drafted message, not sent it; a pre-flight message with the two diagnostic questions and the UK base named as acceptable is the working intention, not yet decided; no change to the BRAIND conditional decision or the 27 Oct date. |

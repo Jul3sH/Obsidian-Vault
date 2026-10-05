@@ -526,6 +526,54 @@ renamed: 2026-07-17
 
 ---
 
+## 📝 DRAFT, NOT SENT (as of 5 Oct 2026) - the UK-based enterprise architecture role, put in writing before Stephan lands in the US
+
+> As of 5 Oct 2026: Julian's draft, worked through paragraph by paragraph with Claude critiquing. Not sent. To go before Stephan lands (about 18:00 UK, 5 Oct) so it is the agenda for the catch-up he offered. Sent text to be logged verbatim when it goes.
+
+> Hi Stephan,
+>
+> I thought I'd put my thoughts in writing so you have a chance to digest them before we speak.
+>
+> I was wondering if a UK-based enterprise architecture role may appeal more to your US stakeholders? I'd be working to the global architecture strategy and vision set in the US, and delivering it across both regions. The UK's timezone overlaps well with both Hong Kong and the US for meetings, so I could support global demand from a single base.
+>
+> I share your concerns about taking on a role with reporting lines into potential detractors. This option would give me a chance to demonstrate my value without the inherent risks of moving Sophia back to HK and then finding myself out of work. Once the role is established, I could then consider a move back to Hong Kong.
+>
+> Admittedly I'm pinning my hopes on TTI after your Dad's offer at lunch. If it's Hong Kong, the clock is ticking on how long I can stay in the UK without becoming UK tax resident. If it's not going to happen, I need to mentally move on, get my property back on the market (it's very slow in DB, just one offer in two months) and find a way to start earning again.
+>
+> Something to consider when you meet Ty on the 7th. *(optional closing line)*
+>
+> Julian
+
+**What it does (Julian's aim, 5 Oct):** gives Stephan something to take to Ty that makes his life easier. Julian's read, which he holds firmly: the US objection is autonomy and control, shown by Ty's 20 Aug "upscaling of talent within the IT group" and a reported promotion of the head of cybersecurity to global head. The draft positions Julian as a neutral who works to the US agenda and does not get in its way, while keeping the title as enterprise architecture. No question is asked, deliberately: Julian's view is that Stephan would not answer one.
+
+**Drafting decisions (5 Oct):**
+- Cut: "I expect you will be busy again when you arrive" (reads as a dig, since he offered a time); "I apologise for chasing" (the over-apology watch-out in [[tti-stephan-relationship-analysis]]); "execute projects" and "pooled resource" (contractor framing); stating what the US wants (Julian's read, kept out of the text).
+- Changed: "the positive discussions with your Dad" to "your Dad's offer at lunch", to keep Horst's offer front of mind; "permanent move back" to "a move back", since "permanent" makes the UK version sound temporary; "nearly 3 months" to "two months", matching what Stephan was told on 1 Oct; the tax line made conditional on the Hong Kong option.
+- Accepted by Julian with eyes open: working to the US-set strategy gives up some of the leadership framing in exchange for acceptance in principle; the aim is to extend the remit once in. The guard is that it stays an enterprise architecture role.
+- Guardrail: nothing in the message hints at the cybersecurity promotion (source to be confirmed).
+
+---
+
+## ✅ 4 Oct - THE OFFERED CALL DID NOT HAPPEN: Stephan flies to the US 5 Oct; catch-up moved to after he lands (Mon 5 Oct, about 18:00 UK)
+
+> WhatsApp, Sunday 4 Oct (times as exported, UK), verbatim:
+
+> [4/10/2026, 11:03:52 AM] Julian: Hi Stephan, are you travelling tomorrow?
+> [4/10/2026, 4:57:07 PM] Stephan Pudwill: I am. I arrive in the US Monday afternoon
+> [4/10/2026, 4:58:48 PM] Julian: Will you have time to catch up before you fly?
+> [4/10/2026, 4:59:42 PM] Stephan Pudwill: My flight is 9am which is 2am your time. I land at 1pm in the US which is 6pm UK time
+> [4/10/2026, 5:01:05 PM] Julian: What works for you?
+> [4/10/2026, 5:01:38 PM] Stephan Pudwill: Probably better when I land because I will be rushed in the morning and it will be super late for you
+> [4/10/2026, 5:02:34 PM] Julian: Ok, have a good flight and I'll wait until you've settled in the US.
+
+**Facts:** the call Stephan offered on 3 Oct ("Let's talk tomorrow") did not happen. He replied to Julian's 11:03 message almost six hours later. He proposed talking after he lands on Monday 5 Oct (1pm US, 6pm UK), which is before his 7 Oct meeting "with the team". Julian said he would wait until Stephan has settled in the US, so no time is fixed.
+
+**Julian's read (4 Oct, labelled by him as speculation and a story):** Stephan is continuing to avoid talking to him until he has spoken to Horst and Ty. **The other explanation on the same facts:** a Sunday evening in Hong Kong before a 9am long-haul flight; he answered each message within a minute once he picked up the thread, and named a time himself. Both fit; what he does after landing will tell them apart.
+
+**Julian's decision (4 Oct):** put the case in writing rather than rely on a call. Draft under review 5 Oct.
+
+---
+
 ## ✅ SENT 3 Oct - SHORT PROMPT (replacement): did you speak to your Dad; is the delay a buy-in round; half term 20 Oct; next step and when? Stephan: "Let's talk tomorrow"
 
 > As of 3 Oct 2026: Stephan replied at 16:06, offering to talk tomorrow (Sun 4 Oct). Julian sent a first version in the morning, deleted it a couple of hours later, and sent the replacement below at 15:52. Stephan had not read the first version; Julian deleted it for that reason (confirmed 3 Oct).
