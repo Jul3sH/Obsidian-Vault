@@ -22,7 +22,7 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (6 Oct 2026):** Reunite advice taken 6 Oct and recorded in [[HK-Return-legal-position]]; it conflicts with that file on leaving without Clodagh's consent, so a specialist lawyer is the next step. A sheet change adding both to the injunction rows is applied and verified. The earlier 6 Oct sheet change 1 is Applied and verified; the 5 Oct change 2 still awaits Julian's confirmation. D has eight agreed conditions and the July 2028 exit condition; D as a whole remains unsigned. Clodagh consent is due before the Christmas move. No `## Prompt Zero` section yet.
+> ⚠ **Status (6 Oct 2026):** Reunite advice taken 6 Oct and recorded in [[HK-Return-legalbrief-Perplexity]]; it conflicts with that file on leaving without Clodagh's consent, so a specialist lawyer is the next step. A sheet change adding both to the injunction rows is applied and verified. The earlier 6 Oct sheet change 1 is Applied and verified; the 5 Oct change 2 still awaits Julian's confirmation. D has eight agreed conditions and the July 2028 exit condition; D as a whole remains unsigned. Clodagh consent is due before the Christmas move. No `## Prompt Zero` section yet.
 
 ---
 
@@ -146,7 +146,7 @@ Source: [[TTI-board-risk-Fable-Council]], the chairman review of the Astra, Gemi
 
 ### Legal position and sheet changes, 4 Oct 2026
 
-Source: [[HK-Return-legal-position]] (preliminary, not lawyer-verified) read against [[uktax-srt-fy26-27]]. Raised by Julian on 4 Oct as an assumption that had been missed.
+Source: [[HK-Return-legalbrief-Perplexity]] (preliminary, not lawyer-verified) read against [[uktax-srt-fy26-27]]. Raised by Julian on 4 Oct as an assumption that had been missed.
 
 **What was missed.** The plan in D assumes Sophia can leave the UK when Julian decides. The sheet already has both halves of the risk, but nothing connects them. The injunction row treats the effect as a permanent block. The tax row ("I exceed 120 days and Sophia exceeds 183") lists only "Delay with the decision" (TTI) as its cause.
 
@@ -163,8 +163,8 @@ Source: [[HK-Return-legal-position]] (preliminary, not lawyer-verified) read aga
 
 | # | Rows | Change |
 |---|---|---|
-| 1 | New row, directly below E = "Clodagh gets a legal injunction of some kind" (the same event, second effect) | A: Return to HK. B: Risk. C: Finance. D: "Resistance to the move". E: "Clodagh gets a legal injunction of some kind". F: "**Clodagh's court action holds Sophia here past 28 January, so she becomes UK resident and so do I.** / - High impact: I'd be UK tax resident for 2026/27 even if I'd already left, the same outcome as the 120 and 183 day row / - Medium probability: she doesn't need to win; a temporary order or a contested case still running on 28 Jan is enough, and a contested relocation case can take months". G: Material. H: high. I: medium. J: high. K: Reduce impact & probability. L: "Probability: get Clodagh's informed written consent to the move, ideally made into a court order; instruct an England and Wales relocation solicitor and a Hong Kong family lawyer now; tell her early, never at the last minute; if she refuses, apply to court for permission straight away rather than leave. Impact: decide by early December: if consent or an order isn't in hand, either I'm out by 9 Dec on my own or I accept 2026/27 residence and price it." W: "Legal position 4 Oct (HK-Return-legal-position): she can get a short-term stop quickly but can't permanently veto; a court decides. Leaving without consent or permission risks civil and possibly criminal liability." |
-| 2 | E = "Clodagh gets a legal injunction of some kind" (the existing row) | L: replace "Reduce probability: I need to do my due diligence on the legal situation" with "Reduce probability: legal due diligence done 4 Oct. Get Clodagh's informed written consent, ideally made into a court order; instruct UK and HK lawyers now; tell her early. Reduce impact: if she refuses, apply to court for permission promptly; she can delay the move but can't permanently veto it." W: replace "Do some due diligence on the situation" with "Legal position 4 Oct (HK-Return-legal-position): a permanent block is unlikely, since a court decides if she refuses; the realistic harm is delay, which is the new row below. F says 'legally blocked'; Julian to decide whether to reword it." |
+| 1 | New row, directly below E = "Clodagh gets a legal injunction of some kind" (the same event, second effect) | A: Return to HK. B: Risk. C: Finance. D: "Resistance to the move". E: "Clodagh gets a legal injunction of some kind". F: "**Clodagh's court action holds Sophia here past 28 January, so she becomes UK resident and so do I.** / - High impact: I'd be UK tax resident for 2026/27 even if I'd already left, the same outcome as the 120 and 183 day row / - Medium probability: she doesn't need to win; a temporary order or a contested case still running on 28 Jan is enough, and a contested relocation case can take months". G: Material. H: high. I: medium. J: high. K: Reduce impact & probability. L: "Probability: get Clodagh's informed written consent to the move, ideally made into a court order; instruct an England and Wales relocation solicitor and a Hong Kong family lawyer now; tell her early, never at the last minute; if she refuses, apply to court for permission straight away rather than leave. Impact: decide by early December: if consent or an order isn't in hand, either I'm out by 9 Dec on my own or I accept 2026/27 residence and price it." W: "Legal position 4 Oct (HK-Return-legalbrief-Perplexity): she can get a short-term stop quickly but can't permanently veto; a court decides. Leaving without consent or permission risks civil and possibly criminal liability." |
+| 2 | E = "Clodagh gets a legal injunction of some kind" (the existing row) | L: replace "Reduce probability: I need to do my due diligence on the legal situation" with "Reduce probability: legal due diligence done 4 Oct. Get Clodagh's informed written consent, ideally made into a court order; instruct UK and HK lawyers now; tell her early. Reduce impact: if she refuses, apply to court for permission promptly; she can delay the move but can't permanently veto it." W: replace "Do some due diligence on the situation" with "Legal position 4 Oct (HK-Return-legalbrief-Perplexity): a permanent block is unlikely, since a court decides if she refuses; the realistic harm is delay, which is the new row below. F says 'legally blocked'; Julian to decide whether to reword it." |
 | 3 | E = "I exceed 120 days and Sophia exceeds 183" | L: append " Also: Clodagh's written consent or a court order in hand before the move date." W: "4 Oct: delay can come from Clodagh as well as TTI; see the injunction rows under 'Resistance to the move'." |
 
 **Applied 4 Oct 2026:** new row at Risks!A19:W19; existing injunction response at L18/W18; tax response at L16/W16. All written values matched on readback; existing wrapping preserved. The new scores remain proposals for Julian to confirm. The live sheet has 36 populated, tagged Return to HK risk rows after insertion, rather than the specified 35; the partly blank row and untagged row are excluded.
@@ -190,7 +190,7 @@ Source: Julian's 6 Oct fear-busting run on holding back the UK option ([[tti-eng
 
 ### Sheet changes for Codex, 6 Oct 2026 (Reunite advice)
 
-Source: Julian's 6 Oct call with Reunite, recorded in [[HK-Return-legal-position]] ("Reunite advice, 6 Oct 2026"). Sheet "Risks"; identify columns by header text in row 1, as in the block above. **Applied and verified 6 Oct 2026** (rows 17 and 18, columns L and W; all four cells read back with no mismatch).
+Source: Julian's 6 Oct call with Reunite, recorded in [[HK-Return-legalbrief-Perplexity]] ("Reunite advice, 6 Oct 2026"). Sheet "Risks"; identify columns by header text in row 1, as in the block above. **Applied and verified 6 Oct 2026** (rows 17 and 18, columns L and W; all four cells read back with no mismatch).
 
 | # | Row | Change |
 |---|---|---|
@@ -353,7 +353,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 | UK day counts stay under the thresholds while this runs | Dates above | Julian |
 | The DB flat is kept for the family, not let | Tenants waiting at HK$27k | Julian |
 | Sophia is told, and the move is timed to a term boundary | She has said a move back would be "really annoying" | Julian |
-| Clodagh consents in writing to Sophia leaving the UK, or a court gives permission (added by the model 4 Oct 2026; confirmed by Julian 5 Oct 2026) | Not started as of 4 Oct. Her July consent covered leaving Hong Kong, not this move. Needs lawyers in England and Hong Kong instructed, and must be in hand before the Christmas move (start of DBIS term 2, 4 January 2027; date moved 5 Oct) ([[HK-Return-legal-position]]; R, 4 Oct block) | Julian |
+| Clodagh consents in writing to Sophia leaving the UK, or a court gives permission (added by the model 4 Oct 2026; confirmed by Julian 5 Oct 2026) | Not started as of 4 Oct. Her July consent covered leaving Hong Kong, not this move. Needs lawyers in England and Hong Kong instructed, and must be in hand before the Christmas move (start of DBIS term 2, 4 January 2027; date moved 5 Oct) ([[HK-Return-legalbrief-Perplexity]]; R, 4 Oct block) | Julian |
 | Custody: Julian files once in Hong Kong | He can file; the outcome is separate | Julian |
 | A school place on return in summer 2028 | Held until an offer is real; three schools acceptable | Julian, later |
 
@@ -415,7 +415,7 @@ Open tasks carried from the earlier section:
 - [[HK-Return-Counterfactuals]] - counterfactual questioning runs for this question
 - [[counterfactual-questioning]] - the tool
 - [[HK-Return-Beliefs]] - the evidence behind every numbered belief and assumption in this file
-- [[HK-Return-legal-position]] - preliminary legal position on taking Sophia from the UK to Hong Kong (Clodagh's consent, orders she could seek)
+- [[HK-Return-legalbrief-Perplexity]] - preliminary legal position on taking Sophia from the UK to Hong Kong (Clodagh's consent, orders she could seek)
 - [[uktax-srt-fy26-27]] - UK tax residence position and the 120, 183 and 182 day dates
 
 ## Document Log

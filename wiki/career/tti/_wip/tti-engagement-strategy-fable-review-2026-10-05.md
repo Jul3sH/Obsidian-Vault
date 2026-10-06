@@ -25,7 +25,7 @@ Adversarial review of the open sub-item under [[tti-engagement-strategy]] point 
 | Option | Gains | Risks | Evidence |
 |---|---|---|---|
 | Raise now (call plus recap) | If location is the real objection, a yes on 7 Oct instead of a slow no | Horst hears "he doesn't want to move" and the only live offer dies (Julian's own repercussion; speculation about Horst); the recap re-asks the chain that said no, which the council says ends in a second no or a hollow yes; "working to the US-set strategy" gives up the charter positioning | [[tti-comms-log]] FIRST run; [[TTI-board-risk-Fable-Council]] root-cause check |
-| Hold (point 6) | Keeps Horst's HK offer clean, the agreement in principle Julian is aiming for; the later ask is temporary, made with an offer in hand, for an external reason | If an HK hire is dead at Ty's level, Julian learns it weeks later; a location ask after an offer reopens one term | [[tti-engagement-strategy]] point 2; [[HK-Return-legal-position]] |
+| Hold (point 6) | Keeps Horst's HK offer clean, the agreement in principle Julian is aiming for; the later ask is temporary, made with an offer in hand, for an external reason | If an HK hire is dead at Ty's level, Julian learns it weeks later; a location ask after an offer reopens one term | [[tti-engagement-strategy]] point 2; [[HK-Return-legalbrief-Perplexity]] |
 | Middle: diagnose, do not propose | Gets the fact Julian fears without owning a UK proposal; any trigger comes from Stephan (the 24 Aug rule) | Stephan may not answer plainly | [[tti-engagement-strategy]], 24 Aug point 4 |
 
 **Where the record supports the strategy less than it assumes:**

@@ -56,6 +56,7 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 | [[bias-history-review|Bias History Review]] | Performance | 2h (fast lane) | in progress (19 Sep 2026) |
 | [[nbj-youtube-notebooks|NBJ YouTube Notebooks]] | Performance | 1h per run (fast lane) | ongoing record |
 | [[claude-code-feature-articles|Claude Code Feature Articles]] | Performance | 2h (fast lane), 15 min attended | done (3 Oct 2026) |
+| [[legal-position-review|Legal Position Review]] | Personal | 2h (fast lane) | in progress (6 Oct 2026) |
 
 ## BAU / Standalone
 

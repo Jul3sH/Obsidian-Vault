@@ -7,10 +7,10 @@ tags: [relationships, divorce, sophia, legal]
 # Removal Notification Letter to the HK Family Court
 
 **What is this?** The joint letter from Julian and Clodagh to the Hong Kong Family Court Registry advising, retrospectively, that Sophia has been removed from Hong Kong with both parents' consent.
-**Why was it created?** Both parents left Hong Kong with Sophia (Sept 2026) without first informing the court. On the HK lawyer's advice, a simple joint notification is being sent: removal and mutual consent only, no discussion of living or contact arrangements outside Hong Kong.
+**Why was it created?** Both parents left Hong Kong without first informing the court: Sophia left on 30 July 2026 for the summer, and the UK move took effect on 26 August 2026. On the HK lawyer's advice, a simple joint notification is being sent: removal and mutual consent only, no discussion of living or contact arrangements outside Hong Kong.
 **How is it used?** Julian finalises the wording with the lawyer, fills in the addresses and date, both parents sign, and it is posted to the Family Court Registry with a copy of the 2 November 2020 order enclosed. The order itself is documented verbatim in [[court-order-care-and-control]].
 
-> ⚠ As of 6 Oct 2026: signed by both parents with the date lines left blank (signed copy photographed 8 Sep 2026, in Dropbox `2-R&R/Divorce/Leaving HK notification/`). Not filed with the Family Court, per [[HK-Return-legal-position]] (4 Oct). The text below matches the signed copy word for word (Sonnet check, 6 Oct).
+> ⚠ As of 6 Oct 2026: signed by both parents with the date lines left blank (signed copy photographed 8 Sep 2026, in Dropbox `2-R&R/Divorce/Leaving HK notification/`). Not filed with the Family Court, per [[HK-Return-legalbrief-Perplexity]] (4 Oct). The text below matches the signed copy word for word (Sonnet check, 6 Oct).
 
 ## Letter
 
@@ -81,4 +81,5 @@ Date:
 
 | Date | Change |
 |---|---|
+| 2026-10-06 | Departure dates corrected from "Sept 2026" to Julian's confirmed timeline: left Hong Kong 30 July 2026 for the summer, UK move took effect 26 August 2026. |
 | 2026-10-06 | Status updated from the signed JPG: signed, undated, not filed. Superseded: "As of 8 Sep 2026: DRAFT. Not yet reviewed by the HK lawyer, not signed, not sent." |

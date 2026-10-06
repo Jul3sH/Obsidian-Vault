@@ -1,7 +1,7 @@
 ---
 type: review
 reviewer: Sonnet (two subagents, footnotes 1-15 and 17-30), merged by Opus
-source: HK-Return-legal-position
+source: HK-Return-legalbrief-Perplexity
 created: 2026-10-06
 ---
 
@@ -9,7 +9,7 @@ created: 2026-10-06
 
 ## Purpose
 
-A check of whether each source cited in [[HK-Return-legal-position]] (Perplexity output, not lawyers) actually says what the report claims. It exists because AI reports often cite sources that do not support the point.
+A check of whether each source cited in [[HK-Return-legalbrief-Perplexity]] (Perplexity output, not lawyers) actually says what the report claims. It exists because AI reports often cite sources that do not support the point.
 
 > As of 6 Oct 2026: complete for all 27 web footnotes. Footnotes 9, 10 and 16 are Julian's own documents; their transcriptions in [[court-order-care-and-control]] and [[removal-notification-letter]] were checked against the scans the same day and match.
 

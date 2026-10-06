@@ -7,7 +7,7 @@ tags: [relationships, divorce, sophia, legal]
 # Court Order: Care and Control (FCMC 3390/2020)
 
 **What is this?** The full record of the Hong Kong District Court orders of 2 November 2020 governing Sophia's custody, care and control: a summary of key terms followed by a word-for-word transcription of the sealed orders and the attached Parental Agreement.
-**Why was it created?** Julian and Clodagh have both left Hong Kong with Sophia (Sept 2026). This file is the standing reference for what the HK court has on file; the retrospective notification letter lives in [[removal-notification-letter]].
+**Why was it created?** Julian and Clodagh have both left Hong Kong (Sophia left on 30 July 2026 for the summer; the UK move took effect on 26 August 2026). This file is the standing reference for what the HK court has on file; the retrospective notification letter lives in [[removal-notification-letter]].
 **How is it used?** Consulted whenever the HK orders' exact wording matters (removal clause, financial undertakings, parental agreement terms). The transcription below is verbatim from the scanned originals, including their typographical errors.
 
 **Map:** §1 Case reference · §2 Key terms summary · §3 Verbatim: financial support order · §4 Verbatim: care and control order · §5 Verbatim: adjournment and valuations order · §6 Verbatim: Parental Agreement of 28 Aug 2020 · §7 Registry cover letter
@@ -282,4 +282,10 @@ Transcribed word for word from the signed copy attached to the care and control 
 - The 2 Nov 2020 HK orders give joint custody, care and control, and bar removal from Hong Kong without leave or the clause 1 consent mechanism (written undertaking to return plus the other parent's written consent for a specified period).
 - The Parental Agreement of 28 Aug 2020 forms part of the order and gives the Hong Kong courts exclusive jurisdiction over it.
 - Each parent undertook HK$12,500 per month into the joint account for Sophia's expenses.
-- The retrospective notification of Sophia's Sept 2026 removal is drafted in [[removal-notification-letter]].
+- The retrospective notification of Sophia's 2026 removal (left 30 July; UK move from 26 August) is drafted in [[removal-notification-letter]].
+
+## Document Log
+
+| Date | Change |
+|---|---|
+| 2026-10-06 | Departure dates corrected from "Sept 2026" to Julian's confirmed timeline: left Hong Kong 30 July 2026 for the summer, UK move took effect 26 August 2026. |

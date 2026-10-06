@@ -179,7 +179,7 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 - **Open, not decided (5 Oct):** whether to go beyond the reserve question and put the UK base to Stephan on tonight's call with a forwardable recap for Ty, against Julian's fear that a "No, it has to be Hong Kong" closes the fallback point 6 relies on if Clodagh blocks the move. Recorded as an OPEN sub-item under point 3; sent for adversarial review, [[tti-engagement-strategy-fable-review-2026-10-05]].
 
 ### 5 October 2026, later - Clodagh sequenced after the offer
-- **Trigger:** the legal position ([[HK-Return-legal-position]]) that Sophia's move needs Clodagh's consent or a court's permission, and Julian's read: "I don't think there is any way she is going to agree to this without a battle."
+- **Trigger:** the legal position ([[HK-Return-legalbrief-Perplexity]]) that Sophia's move needs Clodagh's consent or a court's permission, and Julian's read: "I don't think there is any way she is going to agree to this without a battle."
 - **Decision (Julian, 5 Oct):** point 6 of the Current Strategy. Nothing to Stephan about Clodagh now; get the offer; tell Clodagh with the offer in hand and before signing; if she refuses, ask Stephan for flexibility to work from the UK while it goes through the courts, accepting UK tax residence for 2026/27. Also set: target signature 14 Oct for a start after half term, Christmas as the drop-dead; the 27 Oct date dropped.
 - **Rejected:** testing the water with Clodagh now (she would tell Sophia and unsettle her, and early notice raises the risk of an urgent order); telling TTI only at the point of moving; starting work from the UK before the move (makes him UK resident even if all goes well).
 
