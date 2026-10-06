@@ -9,7 +9,7 @@ hard-date: 2026-09-15
 wsjf: n/a
 por-key: POR-17
 jira-key: BWS-14
-status-updated: 2026-09-30
+status-updated: 2026-10-06
 ---
 
 This is the status and evidence hub for the UK relocation project. It brings the decision and execution work together so Julian can see the current position, follow the supporting records and choose the next action. Internal only, `send: NEVER`.
@@ -41,6 +41,8 @@ This is the status and evidence hub for the UK relocation project. It brings the
 | [[uk-relocation-contract-vs-permanent\|UK Relocation: Contract versus Permanent Employment]] | Parked placeholder (30 Sep 2026): whether a fixed-term TTI contract beats permanent employment for Sophia's fee status, Julian's tax residence, job security and the negotiation. Questions set, no research yet. |
 
 ## Status (as of 2026-10-06)
+
+**6 Oct - Reunite advice on Clodagh blocking the move: a specialist lawyer is now the next step.** Reunite, the UK charity for the international movement of children, said the UK is unlikely to hold jurisdiction because the move was temporary, and that Julian could probably move without Clodagh's consent. The second point conflicts with [[HK-Return-legal-position]], which says leaving without consent risks a criminal offence; recorded there with questions for the lawyer. Mitigations to add to the injunction rows are specified in [[HK-Return-BRAIND]] R, not yet applied to the sheet.
 
 **6 Oct - Savings line graph added.** [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607) plots cumulative Y1 to Y10 savings for E, K, M, T, U, V, W, X and Y directly from the model. Existing cells unchanged; record in [[uk-relocation-savings-comparison]].
 
@@ -346,6 +348,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-06 | **Reunite advice taken on Clodagh blocking the move.** UK jurisdiction unlikely (temporary move), which agrees with [[HK-Return-legal-position]]; moving without consent "should be okay", which conflicts with it (s1 Child Abduction Act 1984). Recorded in a new section of that file with four questions for a specialist lawyer. Sheet change for both injunction rows (Reunite taken, specialist lawyer next) specified in [[HK-Return-BRAIND]] R, not yet applied. Decision impact: none yet; the consent dependency in D stands until the lawyer answers. |
 | 2026-10-06 | Added [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607) with seven live cumulative savings series over Y1 to Y10. Source cells unchanged. Record: [[uk-relocation-savings-comparison]]. |
 | 2026-10-06 | [[HK-Return-BRAIND]] 6 Oct change 1 inserted as row 21 in the [Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861), matched by headers and cause. All fields and copied formats match; existing rows preserved. Live count 37 tagged risks. Change 2 absent, clarification needed; no rows moved. |
 | 2026-10-06 | **TTI downside and exit scenarios priced** ([[uk-relocation-savings-comparison]] columns W, X, Y; [[HK-Return-BRAIND]] B). Ten years: worst case (job lost after year 3) HK$3.73M against Malvern 135k HK$3.90M; two-year exit then Malvern HK$5.40M (TTI 230) and HK$5.74M (TTI 250). Columns T and U relabelled TTI 230 / TTI 250. Decision impact: the cost of TTI failing is mostly disruption, not money. |

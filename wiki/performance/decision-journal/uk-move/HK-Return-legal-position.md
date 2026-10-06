@@ -1,5 +1,11 @@
 # Proposed Return to Hong Kong with Sophia: Preliminary Legal Position
+## Purpose
+
+A preliminary legal analysis of whether, and how, Julian can take Sophia from the UK back to Hong Kong given Clodagh's rights. It exists so the consent risk is understood before the move is planned around it; it is not lawyer-verified.
+
 ## Scope and status
+> ⚠ As of 6 Oct 2026: not yet reviewed by a specialist lawyer. Reunite's verbal advice of 6 Oct is recorded below and conflicts with this document on leaving without consent.
+
 This is a preliminary legal analysis based on the supplied Hong Kong orders, parental agreement, signed but unfiled notification, and factual account as at 4 October 2026. It is not a substitute for advice from solicitors with international children expertise in both England and Wales and Hong Kong; the interaction between habitual residence, the extant Hong Kong order, and possible concurrent proceedings is fact-sensitive.
 ## Executive assessment
 **The mother can seek to stop the proposed departure, at least temporarily.** She can apply urgently in England and Wales for a prohibited steps order preventing Sophia’s removal, seek surrender or restriction of passports, and, if departure is believed imminent, ask police to consider port-prevention measures. A prohibited steps order is specifically designed to prevent a specified exercise of parental responsibility without the court’s permission.[^1][^2][^3]
@@ -145,6 +151,34 @@ A normal MIAM may be required unless a valid exemption applies. The December dea
 
 ---
 
+## Reunite advice, 6 Oct 2026
+
+Source: Julian's phone call on 6 Oct 2026 with an adviser at [Reunite International](https://www.reunite.org/), the UK charity giving advice, mediation and research on the international movement of children. Verbal, recorded from Julian's account, not legal advice.
+
+**What the adviser said:**
+- The UK is unlikely to hold jurisdiction for Sophia, because the move so far has been temporary.
+- The facts to give: the job stalled and it was uncertain whether it would happen, so we moved to my mum's house, and I put Sophia into school so she would not lose out on her education. The job has now come through and we want to move back to Hong Kong.
+- Julian should be able to move without Clodagh's permission. She could file an abduction claim, but once Sophia is back in Hong Kong and in school it would probably not succeed.
+- Before acting, get advice from a lawyer who specialises in the international movement of children.
+
+**How it reads against this document (model read, 6 Oct 2026, untested):**
+
+| Point | Reunite | This document | Read |
+|---|---|---|---|
+| Jurisdiction | UK unlikely to hold it; the move was temporary | "Jurisdiction is not automatic": the facts point both ways | **Agrees.** The temporary, conditional facts are the ones listed above as pointing to Hong Kong |
+| Leaving without consent | Should be possible | Not advisable: s1 Child Abduction Act 1984 makes taking a child under 16 out of the UK without consent an offence | **Conflicts.** Likely reconciliation: Reunite was speaking about a civil return claim, not the criminal offence, which turns on consent when leaving the UK rather than on how a later return case goes |
+| A return claim after the move | Unlikely to succeed once Sophia is settled | Not covered | Under the 1980 Hague Convention, which Hong Kong applies, being settled in the new place is a defence only when the claim is made more than a year after removal (Article 12). Within the year the case would turn mainly on whether Sophia was habitually resident in England when she left |
+| The facts account | "Temporarily stalled" | "Plan B was activated when the role fell through" | Same events, different wording. The lawyer should settle the accurate wording from the WhatsApp trail; what is said to Clodagh or a court must be the facts as they happened |
+| Existing Hong Kong order and pre-departure orders | Not raised | 2020 order requires consent and a filed undertaking; Clodagh can seek a prohibited steps order or port alert before departure | Unaddressed by Reunite; may not have been in the brief given |
+
+**Questions for the specialist lawyer:**
+1. Is leaving without Clodagh's consent or a court order a section 1 offence here, whatever the habitual-residence answer?
+2. Was Sophia habitually resident in England at the planned departure date, and what evidence moves that?
+3. If Clodagh files a Hague return claim in Hong Kong within the year, how would it run?
+4. Does the 2020 Hong Kong order need a variation or declaration first?
+
+**Mitigation status:** Reunite consulted 6 Oct 2026. Next: instruct an England-and-Wales solicitor specialising in international movement of children (Immediate step 2 above). Reunite also offers mediation, a possible route to the consent outcome.
+
 ## References
 
 1. [Understanding and dealing with issues relating to parental ...](https://www.gov.uk/government/publications/dealing-with-issues-relating-to-parental-responsibility/understanding-and-dealing-with-issues-relating-to-parental-responsibility) - ... parental responsibility can be taken without the consent of the court. Example One parent wants ...
@@ -207,3 +241,8 @@ A normal MIAM may be required unless a valid exemption applies. The December dea
 
 30. [Urgent hearings about child arrangements (CB2)](https://www.gov.uk/government/publications/urgent-court-hearings-about-child-arrangements-cb2/urgent-hearings-about-child-arrangements-cb2) - This meeting will not hold up your application for too long, as it should be held within 15 business...
 
+## Document Log
+
+| Date | Change |
+|---|---|
+| 2026-10-06 | Purpose and dated status line added; Reunite advice section added with comparison against this document and questions for the specialist lawyer. |
