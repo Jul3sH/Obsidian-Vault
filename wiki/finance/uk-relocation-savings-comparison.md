@@ -12,11 +12,11 @@ source: UK Relocation savings comparison v3 Google Sheet (living-cost inputs fro
 > **Why it exists.** The sheet holds numbers; this note holds what they mean. Rebuilt 25 Sep 2026 after the v3 sheet replaced the July model (which had no property tax and netted rents into living costs).
 > **How it is used.** Julian reads §1 to compare locations; §3 gives runway with no salary; §4 explains why Malvern still beats Hong Kong and what living at Mum's costs. §6 holds the model inputs and assumptions and §7 mirrors the sheet's tables and runway mechanics, so nothing here depends on another note; the itemised living costs are in [[uk-relocation-expenses]] and the property tax working in [[tax-rental-incomes]]. Internal only.
 
-**Map:** §1 executive summary · §2 the numbers · §3 cash burn tables and the formula · §4 why Malvern still beats Hong Kong, reviewing both the numbers and the burn tables, including surviving at Mum's house · §5 caveats · §6 model inputs and assumptions · §7 mirrored sheet tables and runway mechanics · §8 change log · §9 how to update.
+**Map:** §1 executive summary · §2 the numbers · §3 cash burn tables and the formula · §4 why Malvern still beats Hong Kong, reviewing both the numbers and the burn tables, including surviving at Mum's house · §5 caveats · §6 model inputs and assumptions · §7 mirrored sheet tables and runway mechanics · §8 change log · §9 how to update · §10 sheet changes for Codex (6 Oct 2026).
 
 ---
 
-## 1. Executive summary (as of 27 Sep 2026)
+## 1. Executive summary (as of 6 Oct 2026)
 
 - **Malvern is the strongest saver at every band up to £150k**, and second at £200k. It wins because both properties are let and living costs are lowest, and those two effects outweigh the UK tax bill. It still depends on living with Mum.
 - **Hong Kong overtakes Malvern only at £200k**, where the HK salaries tax cap keeps most of the extra pay. HK's living costs are the highest of the three because of school fees, and university costs in years 1 to 6 are higher from HK because Sophia would pay overseas fees. The university reserve is in the sheet (27 Sep 2026): GBP 40,000 in every column plus GBP 120,000 extra in the HK columns, both over six years (detail in the note at the end of §2). On the after-reserve figures Malvern stays ahead at £200k in years 1 to 6 (HK$744k against HK$633k) and Hong Kong only edges ahead over ten years (HK$7.40M against HK$7.35M).
@@ -24,6 +24,7 @@ source: UK Relocation savings comparison v3 Google Sheet (living-cost inputs fro
 - **With no salary, all three burn cash:** including the university reserve for years 1 to 6, Malvern about HK$341k a year, London HK$672k, Hong Kong HK$1,070k. After year 6 the burn drops to HK$275k, HK$605k and HK$803k.
 - **Property tax is now in the model and it matters.** Letting Pine View as a UK resident costs HK$37k a year in HK Property Tax plus UK tax that FIG removes for four years only. Letting Cecil Road from Hong Kong costs HK$24k a year in UK tax. Malvern's earlier lead has narrowed by about HK$100k a year at £135k compared with the July model.
 - **The ten-year figures now step down after year four** when FIG expires. At £135k, Malvern reaches HK$3.9M over ten years, Hong Kong HK$2.0M, London HK$1.5M, after the university reserve.
+- **TTI downside and exit scenarios (6 Oct 2026).** Over ten years, the TTI worst case (job lost after year 3, a year with no pay, back to Malvern on £135k, overseas university fees) reaches HK$3.73M, close to staying in Malvern on £135k (HK$3.90M). Two years of TTI then Malvern on £135k, keeping home fees, reaches HK$5.40M on TTI 230 and HK$5.74M on TTI 250. Ten years on TTI 230: HK$9.92M. Columns W, X and Y in the sheet; §2 table.
 - **The university reserve is now in the model (27 Sep 2026).** GBP 40,000 over six years in every column, plus GBP 120,000 in the HK columns (GBP 160,000 in Hong Kong). It is earmarked saving, not spending: it lowers available savings in years 1 to 6 but the money remains an asset. On it, the TTI 230 return reaches HK$5.3M at six years against HK$4.3M for the TTI role done from Malvern (the £200k stand-in).
 
 ---
@@ -99,9 +100,11 @@ Restored 27 Sep 2026: both tables were lost in an edit earlier the same day and 
 | London Extra High (£200k) | A TTI role on current salary, done from the UK, London base | 2,917,026 | 3,942,667 | 4,968,308 |
 | HK, TTI 230 (£230k) | If he goes to Hong Kong on the permanent salary. After the HK university reserve (GBP 160,000 over six years), which stops in year 7 | 5,312,032 | 7,616,043 | 9,920,054 |
 | HK, TTI 250 (£250k) | If he goes to Hong Kong with schooling in the package (HK$200k/yr, taxed as salary), or on the HK$2.5M consulting fee. Same reserve | 6,332,032 | 8,976,043 | 11,620,054 |
-| HK, TTI worst case (lost after year 3) | Goes to Hong Kong on TTI 230, loses the job after year 3, no salary in year 4 while Sophia finishes GCSEs, back to Malvern on £135k from year 5; overseas university rates in years 1 to 6 (column W, 6 Oct 2026) | 1,985,875 | 2,918,729 | 3,731,531 |
+| HK, TTI worst case (lost after year 3) | Goes to Hong Kong on TTI 230, loses the job after year 3, no salary in year 4 while Sophia finishes GCSEs, back to Malvern on £135k from year 5; overseas university rates in years 1 to 6 (column W, 6 Oct 2026) | 1,985,876 | 2,918,731 | 3,731,534 |
+| HK, TTI 250 then Malvern (two-year exit) | Goes to Hong Kong on TTI 250 for two years, then back to Malvern on £135k from year 3 before Sophia's GCSEs; home-fee university reserve (column X, 6 Oct 2026) | 4,109,720 | 4,922,523 | 5,735,326 |
+| HK, TTI 230 then Malvern (two-year exit) | As above on TTI 230 (column Y, 6 Oct 2026) | 3,769,720 | 4,582,523 | 5,395,326 |
 
-All rows are read from the sheet's cumulative table (FIG for years 1 to 4, no-FIG tax from year 5, university reserve excluded in years 1 to 6, all columns). The 18 band columns are mirrored in §7; the two TTI columns are the sheet's columns T ("TTI 230") and U ("TTI 250"). As of 6 Oct 2026 the sheet's top row uses the new labels but its lower block (salary, tax and savings rows) still heads T and U "TTI + UNI" and "TTI(S) + UNI". Columns V and W were added by Julian, cumulative gaps in HK$ (checked 6 Oct 2026 against columns K, M and U): **V "TTI(S)- MAL 135"** is TTI 250 in Hong Kong minus a normal contract salary in Malvern (column U minus Mal 135k, column K), HK$4.05M at year 6 and HK$7.72M at year 10. **W, the TTI worst case (redefined by Julian 6 Oct 2026; values typed in, not formulas):** Julian goes to Hong Kong on TTI 230, loses the job after year 3, earns nothing in year 4 while Sophia finishes her GCSEs in Hong Kong, and moves back to Malvern on £135k in year 5. Sophia no longer qualifies for UK home university fees, so the overseas-rate reserve (HK$266,667 a year) applies in years 1 to 6. Annual basis: years 1 to 3, column T after reserve (885,339); year 4, HK Zero after reserve (column N, -1,069,661); years 5 and 6, Mal 135k before reserve with FIG (466,427) less the overseas reserve (199,760); years 7 and 8, Mal 135k with FIG, no reserve (466,427); years 9 and 10, Mal 135k without FIG (406,401). FIG in years 5 to 8 assumes the return restarts the four-year window after more than ten years non-resident (Julian confirmed the assumption 6 Oct; adviser check advisable); without it, year 10 is about HK$240k lower. Cumulative: 885,339 / 1,770,677 / 2,656,016 / 1,586,355 / 1,786,115 / 1,985,875 / 2,452,302 / 2,918,729 / 3,325,130 / 3,731,531. ⚠ As of 6 Oct 2026: V's year 1 is blank (should be 655,578); V's label still uses the old "TTI(S)" name.
+All rows are read from the sheet's cumulative table (FIG for years 1 to 4, no-FIG tax from year 5, university reserve excluded in years 1 to 6, all columns). The 18 band columns are mirrored in §7; the two TTI columns are the sheet's columns T ("TTI 230") and U ("TTI 250"). As of 6 Oct 2026 both header blocks label T and U "TTI 230" and "TTI 250". Columns V and W were added by Julian, cumulative gaps in HK$ (checked 6 Oct 2026 against columns K, M and U): **V "TTI 250 - MAL 135"** is TTI 250 in Hong Kong minus a normal contract salary in Malvern (column U minus Mal 135k, column K), HK$4.05M at year 6 and HK$7.72M at year 10. **W, the TTI worst case (redefined by Julian 6 Oct 2026; formula-driven from 6 Oct 2026):** Julian goes to Hong Kong on TTI 230, loses the job after year 3, earns nothing in year 4 while Sophia finishes her GCSEs in Hong Kong, and moves back to Malvern on £135k in year 5. Sophia no longer qualifies for UK home university fees, so the overseas-rate reserve (HK$266,667 a year) applies in years 1 to 6. Annual basis: years 1 to 3, column T after reserve (885,339); year 4, HK Zero after reserve (column N, -1,069,661); years 5 and 6, Mal 135k before reserve with FIG (466,427) less the overseas reserve (199,760); years 7 and 8, Mal 135k with FIG, no reserve (466,427); years 9 and 10, Mal 135k without FIG (406,401). FIG in years 5 to 8 assumes the return restarts the four-year window after more than ten years non-resident (Julian confirmed the assumption 6 Oct; adviser check advisable); without it, year 10 is about HK$240k lower. Cumulative (read back 6 Oct 2026): 885,339 / 1,770,677 / 2,656,016 / 1,586,355 / 1,786,116 / 1,985,876 / 2,452,304 / 2,918,731 / 3,325,133 / 3,731,534. As of 6 Oct 2026: V's year 1 formula returns 655,578. W formulas differ from the listed rounded expectations by HK$0 to HK$3, within the HK$5 allowance.
 
 | Ratio | Year 6 | Year 8 | Year 10 |
 |---|---:|---:|---:|
@@ -445,6 +448,11 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 
 | Date | What changed |
 |---|---|
+| 2026-10-06 | Executive summary: TTI downside and exit scenarios bullet added (W, X, Y at year 10); heading redated. |
+| 2026-10-06 | Applied revised §10 changes 1 to 7 including 6b: exact headers, V/W/X/Y formulas, both assumptions. All 41 cells read back; 40 validation checks OK. Maximum differences W HK$3, X/Y HK$4, permitted rounding. §2 W/X/Y figures refreshed. New assumption row inserted after W assumption; existing formulas adjusted automatically, results and formats preserved. |
+| 2026-10-06 | Applied §10 changes 1 to 5 to Formula validation: headers V/W and lower T/U, V Y1 formula, W Y1 to Y10 formulas, and assumption A56:B56. All 17 cells read back exactly; all 40 validation checks OK. W differs from expectations by at most HK$3 (rounding); other cells, formats and wrapping unchanged. |
+| 2026-10-06 | Column Y specified (TTI 230 for two years, then Malvern 135k): expected year 10 HK$5.40M. |
+| 2026-10-06 | Column X specified (TTI 250 for two years, then Malvern 135k from year 3; home-fee university reserve): expected year 10 HK$5.74M; added to the 6/8/10-year table and §10. |
 | 2026-10-06 | Column W redefined as the TTI worst case (job lost after year 3, back to Malvern 135k in year 5, overseas university rates years 1 to 6); added to the 6/8/10-year table. Year 10 HK$3.73M against Malvern 135k HK$3.90M. |
 | 2026-10-06 | Columns T and U relabelled TTI 230 and TTI 250 to match the v3 sheet (the university reserve is in every column, so "+ UNI" dropped); TTI 250 defined as salary plus HK$200k schooling, or the HK$2.5M consulting fee (Julian). New sheet columns V and W noted. All sheet references confirmed as v3. |
 | 2026-09-27 | University reserve built into the sheet by Codex (GBP 40,000 every column plus GBP 120,000 HK, over six years, earmarked): new reserve and after-reserve rows, cumulative and runway recalculated piecewise. Every table in this note re-read from the sheet. HK total confirmed by Julian as 160,000 later the same day. |
@@ -471,6 +479,33 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 5. Keep findings here, not in the sheet.
 
 ---
+
+## 10. Sheet changes for Codex, 6 Oct 2026
+
+**Applied, 6 Oct 2026 (changes 1, 2, 3, 4, 5, 6, 6b and 7).** Sheet: [UK Relocation savings comparison v3](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit), tab "Formula validation". Identify rows by the label in column A, not by row number. Year rows Y1 to Y10 are the cumulative block at the top. Row labels used below:
+
+- **RB** = "Annual net savings before university reserve (HKD)"
+- **RR** = "Annual university reserve, years 1 to 6 (HKD)"
+- **RA** = "Annual available savings after reserve, years 1 to 6 (HKD)"
+- **TN** = "UK tax on property, no FIG (HKD)"; **TF** = "UK tax on property, FIG claimed (HKD)"
+
+| # | Cells | Change |
+|---|---|---|
+| 1 | Top header row, columns V and W | V: "TTI 250 - MAL 135". W: "TTI worst case (lost after Y3)". |
+| 2 | Lower header row (the one starting "Lon Zero" above "Gross salary (GBP)"), columns T and U | T: "TTI 230" (was "TTI + UNI"). U: "TTI 250" (was "TTI(S) + UNI"). |
+| 3 | V, Y1 (blank today) | Formula: U(Y1) minus K(Y1), the same pattern as V's Y2 to Y10. Expected 655,578. |
+| 4 | W, Y1 to Y10 (typed values today) | Replace with formulas, cumulative: Y1 = T[RA]. Y2 = W(Y1) + T[RA]. Y3 = W(Y2) + T[RA]. Y4 = W(Y3) + N[RA]. Y5 = W(Y4) + K[RB] - T[RR]. Y6 = W(Y5) + K[RB] - T[RR]. Y7 = W(Y6) + K[RB]. Y8 = W(Y7) + K[RB]. Y9 = W(Y8) + K[RB] - (K[TN] - K[TF]). Y10 = W(Y9) + K[RB] - (K[TN] - K[TF]). |
+| 5 | Assumptions block, new row at the end | Label "TTI worst case (column W)". Value: "Hong Kong on TTI 230 for years 1 to 3; job lost; no salary in year 4 in Hong Kong while Sophia finishes GCSEs; back to Malvern on 135k from year 5. Overseas university reserve (HK column rate) in years 1 to 6, because Sophia loses UK home-fee status. FIG assumed in years 5 to 8 (return after more than ten years non-resident restarts the window); no FIG in years 9 and 10." |
+
+| 6 | X, header and Y1 to Y10 (new column) | Header: "TTI 250 2 yrs then MAL 135". Formulas, cumulative: Y1 = U[RB] - K[RR]. Y2 = X(Y1) + U[RB] - K[RR]. Y3 to Y6 = previous + K[RA]. Y7 to Y10 = previous + K[RB] - (K[TN] - K[TF]). |
+| 6b | Y, header and Y1 to Y10 (new column) | Header: "TTI 230 2 yrs then MAL 135". Same formulas as X with column T in place of U: Y1 = T[RB] - K[RR]. Y2 = Y(Y1) + T[RB] - K[RR]. Y3 to Y6 = previous + K[RA]. Y7 to Y10 = previous + K[RB] - (K[TN] - K[TF]). |
+| 7 | Assumptions block, new row after change 5 | Label "TTI two-year exit (columns X and Y)". Value: "Hong Kong for years 1 and 2 (X on TTI 250, Y on TTI 230), then Malvern on 135k from year 3 with no gap (the planned exit before Sophia's GCSE courses). Home-fee university reserve (HK$66,667 a year) in years 1 to 6, because the return comes in time to keep UK home-fee status. FIG assumed in years 3 to 6 (return after more than ten years non-resident restarts the window); no FIG in years 7 to 10." |
+
+**Expected values for readback (column W, Y1 to Y10):** 885,339 / 1,770,677 / 2,656,016 / 1,586,355 / 1,786,115 / 1,985,875 / 2,452,302 / 2,918,729 / 3,325,130 / 3,731,531. **Expected values for readback (column Y, Y1 to Y10):** 1,085,338 / 2,170,677 / 2,570,437 / 2,970,197 / 3,369,958 / 3,769,718 / 4,176,119 / 4,582,520 / 4,988,921 / 5,395,322. **Expected values for readback (column X, Y1 to Y10):** 1,255,338 / 2,510,677 / 2,910,437 / 3,310,197 / 3,709,958 / 4,109,718 / 4,516,119 / 4,922,520 / 5,328,921 / 5,735,322. Small rounding differences (under HK$5) are acceptable; anything larger is a wrong reference.
+
+**Leave unchanged:** every other cell, formats and wrapping. Validation rows must still read "OK".
+
+**Readback, 6 Oct 2026:** changes 1, 2, 3, 4, 5, 6, 6b and 7 complete. All 41 written cells match; all 40 validation checks read OK. V Y1 = 655,578. W Y1 to Y10: 885,339 / 1,770,677 / 2,656,016 / 1,586,355 / 1,786,116 / 1,985,876 / 2,452,304 / 2,918,731 / 3,325,133 / 3,731,534. X: 1,255,339 / 2,510,677 / 2,910,438 / 3,310,199 / 3,709,960 / 4,109,720 / 4,516,122 / 4,922,523 / 5,328,925 / 5,735,326. Y: 1,085,339 / 2,170,677 / 2,570,438 / 2,970,199 / 3,369,960 / 3,769,720 / 4,176,122 / 4,582,523 / 4,988,925 / 5,395,326. Maximum differences from expectations: W HK$3, X and Y HK$4, all permitted rounding. Assumption row 57 inserted immediately after the W assumption. Before/after A1:Z160/A1:Z161 comparison confirms other entered values unchanged except automatic formula-reference adjustments; existing numeric results, formats and wrapping preserved.
 
 ## Related
 

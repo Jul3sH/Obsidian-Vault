@@ -50,6 +50,8 @@ However, earning HK$135 in Malvern over six years won't even get me half way the
 - **High earnings and low tax could clear the HK mortgage and allow retirement at 61**, when Sophia leaves for university. *(24 Sep intuition; claim 1.)*
 - **Living in the DB flat rather than letting it removes the letting costs, HK Property Tax, and allows Julian to offset some of the mortgage interest against tax.** It gives up the HK$27k/month letting offer on the table. *(Existing row plus Julian's 27 Sep point; the interest offset is claim 15, not yet verified.)*
 
+- **The downside is close to staying put, and a two-year exit still pays.** *(New, 6 Oct 2026, from [[uk-relocation-savings-comparison]] columns W, X and Y; ten-year cumulative.)* If the job is lost after year 3, with a year of no pay while Sophia finishes her GCSEs in Hong Kong, then Malvern on £135k with overseas university fees, the ten-year total is HK$3.73M against HK$3.90M for staying in Malvern on £135k: about HK$170k behind. Two years of TTI then Malvern on £135k, keeping home fees, reaches HK$5.40M on TTI 230 and HK$5.74M on TTI 250. Both assume a £135k contract straight after the return and FIG on return (Julian confirmed, adviser check advisable).
+
 *Note: every figure above is already net of university costs. The HK columns carry a GBP 160,000 reserve over six years and the UK columns GBP 40,000, so the overseas-university negative from the August HK-BRAIND is priced in, not extra.*
 
 ### Opportunities in the sheet
@@ -317,7 +319,7 @@ Drafted by the model from the raw captures in [[HK-Return-Intuition]], tested by
 2. School fees in the package.
 3. The pay Horst verbally accepted on 14 Sep: HK$2M plus bonus.
 4. An architecture role at director level, not a junior or non-architectural one.
-5. A renewal decision by spring 2028, so that Julian can leave in summer 2028 before Sophia's GCSE courses start.
+5. A renewal decision by spring 2028, so that Julian can leave in summer 2028 before Sophia's GCSE courses start. **Pre-registered exit condition (Julian, 6 Oct 2026):** "I will need to secure the next contract agreement three months in advance, so by around July 2028. If I can't do that then I will need to leave." July works because UK school applications took the first two weeks of July in 2026, and the family would live at Mum's house. The renewal is the control against the worst case (job lost after year 3, Sophia mid-GCSE; [[uk-relocation-savings-comparison]] column W).
 6. All of it in writing (target 14 October 2026), and the move complete over Christmas for the start of DBIS term 2 (4 January 2027). Julian, 5 Oct 2026: "Moving by Christmas for the beginning of term 2 is the absolute drop dead date. I don't want to move mid term 2 even if it's technically possible to avoid UK residency." *(Replaces the 14 January 2027 tax-based date.)* **Target (Julian, 5 Oct 2026):** contract signed by **14 October 2026** so Sophia can start at DBIS after the October half term (Monday 19 Oct; 20 Oct if the 19th is the Chung Yeung holiday, to check). The target needs Clodagh's quick informed written consent; Christmas leaves time for a consent order, or the court if she refuses. The 27 October terms date is dropped: its tax anchor (Sophia's 90th UK day) no longer applies once the move is at Christmas.
 7. A reporting line and performance reviewer outside the chain that said no in August. *(Added 5 Oct 2026, agreed by Julian: council test 2.)*
 8. A named manager with a funded first assignment. *(Added 5 Oct 2026, agreed by Julian: council test 3.)*
@@ -404,6 +406,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-06 | D condition 5: pre-registered exit condition added in Julian's words (next contract agreed by about July 2028, or leave). |
+| 2026-10-06 | B, priced benefits: downside and two-year-exit scenarios added from the savings comparison columns W, X and Y. |
 | 2026-10-05 | Codex applied change 1 from "Sheet changes for Codex, 5 Oct 2026", matched by E and F: F19, I19, L19 and W19. Every written cell matched on readback; wrapping preserved; J19 and the original injunction row unchanged. Live L19 used "Reduce impact:" rather than "Impact:"; its entire impact sentence was replaced with the specified "Impact: book..." sentence. Change 2 not applied, no confirmation supplied. |
 | 2026-10-05 | Superseded headline status: > ⚠ **Status (5 Oct 2026):** D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet. |
 | 2026-10-05 | D: 27 October terms date dropped (its tax anchor no longer applies with a Christmas move); target set by Julian as contract signed by 14 October for a start after the October half term, Christmas staying as the drop-dead. Clodagh consent noted as the constraint on the target. Recorded "for now". |

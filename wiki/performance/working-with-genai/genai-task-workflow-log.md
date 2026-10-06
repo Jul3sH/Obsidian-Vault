@@ -31,6 +31,22 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-06 · Mechanical sheet update · Worked · [[savings-v3-review]]
+
+- **Work:** Applied revised §10 including X/Y two-year exits and assumption.
+- **Check:** 41 cells match; 40 validations OK; W/X/Y within HK$4 of expectations. Mapped before/after comparison checks row insertion and automatic references.
+- **Outcome:** Companion figures updated to live values, §10 Applied.
+- **Lesson:** Verification: compare formula references outside quoted strings when checking native row insertion.
+- **Deliverable:** [[savings-v3-review]].
+
+## 2026-10-06 · Mechanical sheet update · Worked · [[savings-v3-review]]
+
+- **Work:** Applied [[uk-relocation-savings-comparison]] §10 changes 1 to 5.
+- **Check:** All 17 cells read back, 40 validation checks OK; compared other entered values and formats in A1:Z160.
+- **Outcome:** W within HK$3 of expected values, allowed rounding.
+- **Lesson:** Verification: disambiguate repeated column A labels by their block before constructing references.
+- **Deliverable:** [[savings-v3-review]].
+
 ## 2026-10-05 · Strategy edit + Adversarial review · Worked · [[tti-engagement-strategy]]
 
 - **Work:** Fable added the open UK-option question to the TTI strategy and reviewed whether to raise the UK option before 7 Oct ([[tti-engagement-strategy-fable-review-2026-10-05]]).

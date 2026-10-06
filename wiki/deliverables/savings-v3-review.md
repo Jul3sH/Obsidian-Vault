@@ -261,10 +261,20 @@ Not checked: formulas (values only); FIG eligibility and residence, which remain
 - Downstream: [[HK-Return-BRAIND]] executive summary (all six rows now sheet cells), [[Malvern-BRAIND]] Finance row, [[uk-relocation-project]] Trusted Artifacts and status.
 - Confirmed by Julian at handback, 27 Sep: the HK reserve total is GBP 160,000 (40,000 baseline plus 120,000 additional), as the sheet carries it.
 
+## Sheet changes applied, 6 Oct 2026
+
+Julian authorised [[uk-relocation-savings-comparison]] §10 changes 1 to 5. Rows matched by column A labels. Written cells: V1:W1, T14:U14, V2, W2:W11, A56:B56. All 17 read back exactly; all 40 validation checks OK. W differences HK$0 to HK$3 are permitted rounding. Snapshot A1:Z160 confirms other entered values and all cell formats unchanged. No row insertion or formatting writes.
+
+## Revised §10 applied, 6 Oct 2026
+
+Changes 1, 2, 3, 4, 5, 6, 6b and 7 applied by column A labels. All 41 written cells match. All 40 validation checks OK. Maximum expected-value difference: W HK$3; X/Y HK$4, allowed rounding. New assumption row 57 inserted after W assumption. Before/after mapped comparison confirms existing results and formats preserved, with automatic reference adjustments only. Final year 6/8/10 values are in [[uk-relocation-savings-comparison]] §2.
+
 ## Time and Token Log
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
+| 2026-10-06 | Codex, revised §10 including X/Y | Incremental tokens unmeasured | Exact native writes, 41-cell readback, mapped preservation and 30 expected-value checks. Task-specific usage unavailable. |
+| 2026-10-06 | Codex, §10 sheet changes and readback | Incremental tokens unmeasured | Native edits and full bounded before/after comparison; task-specific usage unavailable. |
 | 2026-09-27 | Julian, attended | 15 min | Self-reported at handback. University reserve piece: briefing Codex, reviewing the sheet result, handing the companion update to Claude. |
 | 2026-09-27 | Codex, university reserve build | 699,140 tokens | Sum of per-thread peak `total_usage_tokens` in `~/.codex/logs_2.sqlite` for the four threads active 15:53 to 15:56 on 27 Sep (197,900 + 188,499 + 183,298 + 129,443). Earlier 06:07 threads excluded as a different task. |
 | 2026-09-27 | Claude subagent, companion note re-read (Fable 5.1) | 126,073 tokens | One delegated pass over all nine sections of the companion note. Parent-session tokens for this piece are inside the session total logged in [[HK-Return-BRAIND]] and are not separated. |
