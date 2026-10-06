@@ -42,7 +42,7 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-10-06)
 
-**6 Oct - Savings line graph added.** [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607) plots cumulative Y1 to Y10 savings for E, K, M, V, W, X and Y directly from the model. Existing cells unchanged; record in [[uk-relocation-savings-comparison]].
+**6 Oct - Savings line graph added.** [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607) plots cumulative Y1 to Y10 savings for E, K, M, T, U, V, W, X and Y directly from the model. Existing cells unchanged; record in [[uk-relocation-savings-comparison]].
 
 **6 Oct - UK-option risk added and verified.** [[HK-Return-BRAIND]] 6 Oct change 1 is Applied: asking for the UK after TTI agrees Hong Kong is now a Marginal Career risk, High before response and Medium after. All fields and copied wrapping verified; cause map now 37 tagged risks. Change 2 is absent from the source section and awaits clarification; no rows moved.
 
