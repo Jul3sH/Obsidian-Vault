@@ -22,7 +22,7 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (6 Oct 2026):** Reunite advice taken 6 Oct and recorded in [[HK-Return-legal-position]]; it conflicts with that file on leaving without Clodagh's consent, so a specialist lawyer is the next step. A sheet change adding both to the injunction rows is specified in R, not yet applied. The earlier 6 Oct sheet change 1 is Applied and verified; the 5 Oct change 2 still awaits Julian's confirmation. D has eight agreed conditions and the July 2028 exit condition; D as a whole remains unsigned. Clodagh consent is due before the Christmas move. No `## Prompt Zero` section yet.
+> ⚠ **Status (6 Oct 2026):** Reunite advice taken 6 Oct and recorded in [[HK-Return-legal-position]]; it conflicts with that file on leaving without Clodagh's consent, so a specialist lawyer is the next step. A sheet change adding both to the injunction rows is applied and verified. The earlier 6 Oct sheet change 1 is Applied and verified; the 5 Oct change 2 still awaits Julian's confirmation. D has eight agreed conditions and the July 2028 exit condition; D as a whole remains unsigned. Clodagh consent is due before the Christmas move. No `## Prompt Zero` section yet.
 
 ---
 
@@ -190,7 +190,7 @@ Source: Julian's 6 Oct fear-busting run on holding back the UK option ([[tti-eng
 
 ### Sheet changes for Codex, 6 Oct 2026 (Reunite advice)
 
-Source: Julian's 6 Oct call with Reunite, recorded in [[HK-Return-legal-position]] ("Reunite advice, 6 Oct 2026"). Sheet "Risks"; identify columns by header text in row 1, as in the block above. **As of 6 Oct 2026: not yet applied.**
+Source: Julian's 6 Oct call with Reunite, recorded in [[HK-Return-legal-position]] ("Reunite advice, 6 Oct 2026"). Sheet "Risks"; identify columns by header text in row 1, as in the block above. **Applied and verified 6 Oct 2026** (rows 17 and 18, columns L and W; all four cells read back with no mismatch).
 
 | # | Row | Change |
 |---|---|---|
@@ -424,6 +424,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-06 | Codex applied the Reunite sheet change to both injunction rows (L and W); all four cells read back with no mismatch. |
 | 2026-10-06 | R: "Sheet changes for Codex, 6 Oct 2026 (Reunite advice)" added: one change to both injunction rows (Reunite taken, specialist lawyer next, conflict noted). Not applied. Status banner updated. |
 | 2026-10-06 | Superseded headline status: > ⚠ **Status (6 Oct 2026):** sheet change 1 (6 Oct) is Applied and verified: the new UK-option risk is below the last Resistance to the move row, with exact fields and copied formatting and wrapping. Cause map refreshed: 37 tagged risks. No change 2 is specified in the 6 Oct section, so that check awaits clarification; no rows were moved. The 5 Oct change 2 still awaits Julian's confirmation. D has eight agreed conditions and the July 2028 exit condition; D as a whole remains unsigned. Clodagh consent is due before the Christmas move. No `## Prompt Zero` section yet. |
 | 2026-10-06 | Applied 6 Oct change 1 to the Risks sheet: new row 21 below the last Resistance to the move row, columns resolved by header text. All 23 named fields, requested blanks, copied formats and wrapping verified; existing rows preserved at shifted positions. Cause map refreshed to 37 tagged risks (Resistance 5 / 4 Material / 2 High). Change 2 absent from the 6 Oct section, clarification requested; no rows moved. |
