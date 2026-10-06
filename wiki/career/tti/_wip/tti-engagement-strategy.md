@@ -167,6 +167,11 @@ Convince him that (1) the engineering gap is manageable (work with sysadmins via
 
 ## Strategy Evolution Log (newest first)
 
+### 6 October 2026 - Hold confirmed by worst-case acceptance
+- **Trigger:** no call from Stephan on 5 Oct; Julian unsure again whether to raise the UK option before the 7 Oct meeting. Council run considered and dropped.
+- **Fear-busting run (Julian, 6 Oct):** the worst case of holding is not a no to Hong Kong ("if they say no to Hong Kong, I'm perfectly justified to come back then and suggest the UK") but a yes to Hong Kong followed by a UK request, realistically because Clodagh blocks the move and TTI will not flex. Outcome: the UK move he is already living, plus reputational cost with the Pudwills. Julian: "the real risk here is reputational damage with the Pudwills. I think in that case I leave it."
+- **Decision:** hold stands. No UK option before the 7th.
+
 ### 5 October 2026, evening - UK option held; diagnostic question instead
 - **Decision (Julian, 5 Oct):** accepted the Fable review ([[tti-engagement-strategy-fable-review-2026-10-05]]). No UK proposal tonight and no recap for Ty; the reserve question becomes "Is it the Hong Kong seat that's the problem, or the hire itself?" Reason: nothing from TTI says location is the objection, and a written proposal routed through Stephan to Ty repeats the 20 Aug route.
 

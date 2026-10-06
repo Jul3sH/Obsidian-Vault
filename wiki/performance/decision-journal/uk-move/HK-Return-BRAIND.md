@@ -22,7 +22,7 @@ Five questions are top of mind for Julian, and the BRAIND exists to answer them:
 
 ## Status
 
-> ⚠ **Status (5 Oct 2026):** sheet change 1 (5 Oct) is Applied and verified: F19, I19, L19 and W19 match, with wrapping preserved. Change 2 is not applied, awaiting Julian's confirmation. D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet.
+> ⚠ **Status (6 Oct 2026):** sheet change 1 (6 Oct) is Applied and verified: the new UK-option risk is below the last Resistance to the move row, with exact fields and copied formatting and wrapping. Cause map refreshed: 37 tagged risks. No change 2 is specified in the 6 Oct section, so that check awaits clarification; no rows were moved. The 5 Oct change 2 still awaits Julian's confirmation. D has eight agreed conditions and the July 2028 exit condition; D as a whole remains unsigned. Clodagh consent is due before the Christmas move. No `## Prompt Zero` section yet.
 
 ---
 
@@ -178,9 +178,19 @@ Source: Julian's 5 Oct decisions in [[HK-Return-BRAIND]] D (move by Christmas fo
 | 1 | Row 19 (E = "Clodagh gets a legal injunction of some kind"; F starts "Clodagh's court action holds Sophia here past 28 January") | F: replace the whole cell with "**Clodagh's court action holds the move past Christmas, so Hong Kong is off for this year.** / - High impact: I won't move Sophia mid term 2, so a case still running at Christmas ends the return for this school year, and a contested case is expensive / - High probability: I don't think there is any way she is going to agree to this without a battle, and a contested relocation case can take months". I: medium to high (Julian, 5 Oct). J stays high. L: replace "tell her early, never at the last minute" with "tell her as soon as the offer is signed, never at the last minute", and replace the whole "Impact: ..." sentence with "Impact: book a fixed-fee consultation with an England and Wales international relocation solicitor before the offer arrives, to test my case and price the contested route; if consent or an order isn't in hand by Christmas, the UK move stands." W: append " 5 Oct: drop-dead is now Christmas (no mid-term move), so the harm is losing this year's return, not tax residence." |
 | 2 | Row 18 (E = "Clodagh gets a legal injunction of some kind"; the original row) | F: **Julian to decide.** Proposed: replace "legally blocked" with "delayed", since a court decides if she refuses and a permanent veto is unlikely. If he keeps "legally blocked", change nothing. |
 
+### Sheet changes for Codex, 6 Oct 2026
+
+Source: Julian's 6 Oct fear-busting run on holding back the UK option ([[tti-engagement-strategy]] Evolution Log, 6 Oct). Sheet "Risks". **Identify columns by their header text in row 1, not by letter:** the live headers on 6 Oct run A Scenario to R Exposure(R) HK$, then S (blank, no header), T RAG(R), U RAG Description, V Assumptions, W LLM evaluation, X My Next Actions. Leave column S blank. Scores are the model's proposal; Julian to confirm. **Applied, 6 Oct 2026: change 1.**
+
+| # | Row | Change |
+|---|---|---|
+| 1 | New row, directly below the last row whose Risk Cause is "Resistance to the move"; copy that row's formatting and wrapping | Scenario: Return to HK. RISK/OPP: Risk. Category: Career. Risk Cause: "Resistance to the move". Risk Event: "TTI agrees to Hong Kong, then I ask for the UK". Risk Effect: "**The Pudwills feel messed around after pushing the Hong Kong role through, and the offer is withdrawn.** / - High impact: I lose the job and some standing with Horst and Stephan / - Medium probability: it only happens if Clodagh blocks the move and TTI won't flex on a UK start". Decision Impact: Marginal. Impact: high. Probability: medium. Risk: high. Response: Reduce impact & probability. Response Description: "Probability: Hong Kong stays first and I don't switch on a wobble; show Clodagh the offer before signing, so any block comes before I commit. / Impact: if she refuses, ask for flexibility to start from the UK while it goes through the courts, before signing. Keep it factual, no blame: 'Sophia's mother only refused once I had the offer to show her.'" Imp(R): medium. Prob(R): medium. Risk(R): medium. Imp(R) HK$, Prob(R) %, Exposure(R) HK$: leave blank. RAG(R): Amber. RAG Description: "Accepted 6 Oct: the worst case is reputational, and it ends in the UK move I'm already living." Assumptions: "Clodagh will not agree without a battle (my read, 5 Oct, untested). TTI's flexibility on a UK start is untested. Nothing from TTI says location is the objection (Fable review, 5 Oct)." LLM evaluation: "Fable review 5 Oct: hold; don't propose a UK base before 7 Oct. Raising it now swaps this risk for 'he doesn't want to come to HK', which ends in the same UK outcome." My Next Actions: "Book the fixed-fee relocation solicitor consultation before any offer arrives." |
+
+**Readback, 6 Oct 2026:** new row 21, directly below the last Resistance to the move row (Sophia not wanting to leave The Chase). All 23 named fields match, including the three specified blank financial fields; the unheaded separator remains blank. New-row formatting and wrapping match the predecessor. Existing rows retain their values and formats at their shifted positions, with native formula-reference adjustments only. No mismatch. **Change 2 check, 6 Oct 2026:** no change 2 is present in this section; clarification requested. No rows moved.
+
 ### Cause map
 
-As of 4 Oct 2026: 36 populated risk rows tagged Return to HK. Counts follow the live sheet's cause and scores; the partly blank row and untagged row are excluded.
+As of 6 Oct 2026: 37 populated risk rows tagged Return to HK. Counts follow the live sheet's cause and scores; the partly blank row and untagged row are excluded.
 
 | Cause | Events | Material | Scored High before response |
 |---|---|---|---|
@@ -188,7 +198,7 @@ As of 4 Oct 2026: 36 populated risk rows tagged Return to HK. Counts follow the 
 | Not with Mum in the UK | 2 | 0 | 2 |
 | Delay with the decision | 6 | 2 | 1 |
 | Joanne needs a decision | 1 | 0 | 0 |
-| Resistance to the move | 4 | 4 | 1 |
+| Resistance to the move | 5 | 4 | 2 |
 | TTI offer is suboptimal | 5 | 5 | 2 |
 | TTI Job is insecure | 10 | 10 | 9 |
 | TTI Job is suboptimal | 4 | 4 | 4 |
@@ -406,6 +416,8 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Entry |
 |------|-------|
+| 2026-10-06 | Applied 6 Oct change 1 to the Risks sheet: new row 21 below the last Resistance to the move row, columns resolved by header text. All 23 named fields, requested blanks, copied formats and wrapping verified; existing rows preserved at shifted positions. Cause map refreshed to 37 tagged risks (Resistance 5 / 4 Material / 2 High). Change 2 absent from the 6 Oct section, clarification requested; no rows moved. |
+| 2026-10-06 | Superseded headline status: > ⚠ **Status (5 Oct 2026):** sheet change 1 (5 Oct) is Applied and verified: F19, I19, L19 and W19 match, with wrapping preserved. Change 2 is not applied, awaiting Julian's confirmation. D now has eight conditions: Julian agreed the council's three tests (condition 1 extended; 7 and 8 added) and set the move date as Christmas, for the start of DBIS term 2 on 4 January 2027, in his own words. D as a whole is still not signed off; the Clodagh consent dependency is confirmed, due before the Christmas move. Intuition Log has the 5 Oct morning-wobble capture. No `## Prompt Zero` section yet. |
 | 2026-10-06 | D condition 5: pre-registered exit condition added in Julian's words (next contract agreed by about July 2028, or leave). |
 | 2026-10-06 | B, priced benefits: downside and two-year-exit scenarios added from the savings comparison columns W, X and Y. |
 | 2026-10-05 | Codex applied change 1 from "Sheet changes for Codex, 5 Oct 2026", matched by E and F: F19, I19, L19 and W19. Every written cell matched on readback; wrapping preserved; J19 and the original injunction row unchanged. Live L19 used "Reduce impact:" rather than "Impact:"; its entire impact sentence was replaced with the specified "Impact: book..." sentence. Change 2 not applied, no confirmation supplied. |
@@ -512,6 +524,7 @@ Newest first. History of the file only; effort is in the Time and Token Log belo
 
 | Date | Type | Amount | Notes |
 |------|------|--------|-------|
+| 2026-10-06 | Machine (Codex interactive) | unmeasured | Exact risk-row insertion, header matching, full field and format readback, mapped preservation comparison and live cause counts. Incremental task usage unavailable. |
 | 2026-10-05 | Machine (Codex interactive) | unmeasured | Applied only sheet change 1 and read back all four written cells; preserved wrapping and original row; updated application record, Status, Document Log and project bookkeeping. Incremental task usage unavailable. |
 | 2026-10-04 | Machine (Codex interactive) | unmeasured | Mechanical application and verification of the three specified sheet changes; BRAIND and project bookkeeping. Session-specific usage unavailable. |
 | 2026-09-24 | Machine (interactive session) | unmeasured | File created; opening intuition dump logged and summarised; registered in workspace index, reopen file, project page and ops log |

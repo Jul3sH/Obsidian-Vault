@@ -42,6 +42,10 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 ## Status (as of 2026-10-06)
 
+**6 Oct - Savings line graph added.** [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607) plots cumulative Y1 to Y10 savings for E, K, M, V, W, X and Y directly from the model. Existing cells unchanged; record in [[uk-relocation-savings-comparison]].
+
+**6 Oct - UK-option risk added and verified.** [[HK-Return-BRAIND]] 6 Oct change 1 is Applied: asking for the UK after TTI agrees Hong Kong is now a Marginal Career risk, High before response and Medium after. All fields and copied wrapping verified; cause map now 37 tagged risks. Change 2 is absent from the source section and awaits clarification; no rows moved.
+
 **6 Oct - Savings sheet changes applied and verified.** [[uk-relocation-savings-comparison]] revised §10 is Applied, including both two-year exits in X and Y. All 41 cells read back; 40 validation checks OK. Year 10: W HK$3,731,534, X HK$5,735,326, Y HK$5,395,326. All differences from expectations are under HK$5. Record: [[savings-v3-review]].
 
 **5 Oct - Christmas injunction effect applied to the Risks sheet.** [[HK-Return-BRAIND]] sheet change 1 is Applied and verified (F19, I19, L19, W19): the harm is losing this school year's return if consent or permission is not secured by Christmas; probability is high. Change 2 (the original "legally blocked" effect) awaits Julian's confirmation. D remains unsigned.
@@ -180,7 +184,9 @@ This is the status and evidence hub for the UK relocation project. It brings the
 
 **Decision: COMMITTED to MOVE, London direct (4-7 Jul).** MOVE committed 4 Jul after full BRAINED analysis and Fable adversarial review. London-direct (live in Cecil Road) resolved 7 Jul and survived a Fable hostile review with conditions. Financials fully modelled: net worth ~£1.2M; London funded ~4 years with zero income on liquid + MPF, ISAs and both properties untouched. **Cecil Road tenant notice SERVED 7 Jul** - the decision is anchored in the world.
 
-**Next actions (prioritised, finance refreshed 6 Oct 2026; top item refreshed 5 Oct 2026):**
+**Next actions (prioritised, finance refreshed 6 Oct 2026; top item refreshed 6 Oct 2026):**
+
+- **6 Oct: clarify the unspecified change 2 check in [[HK-Return-BRAIND]]'s 6 Oct sheet instructions; confirm the new risk scores.**
 
 - **5 Oct: Julian decides whether to apply change 2 ("legally blocked" to "delayed"). Book the fixed-fee England and Wales international relocation consultation specified in [[HK-Return-BRAIND]] R before the offer arrives.** Consent or court permission must be in hand by Christmas; tell Clodagh as soon as the offer is signed.
 - **On or after 1 Oct: re-ask counterfactual runs 3 and 5 in [[HK-Return-Counterfactuals]] to see whether the answers hold; Julian reviews the claims table in [[HK-Return-BRAIND]] (claims 16 to 22).**
@@ -340,6 +346,8 @@ These are the live files that make up the UK relocation decision evidence base. 
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-06 | Added [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607) with seven live cumulative savings series over Y1 to Y10. Source cells unchanged. Record: [[uk-relocation-savings-comparison]]. |
+| 2026-10-06 | [[HK-Return-BRAIND]] 6 Oct change 1 inserted as row 21 in the [Risks sheet](https://docs.google.com/spreadsheets/d/1UH4GoX1dSO6uwmd8_GS4uxj7eu4ZxvLKAKsHc3iMaKA/edit?gid=1583602861), matched by headers and cause. All fields and copied formats match; existing rows preserved. Live count 37 tagged risks. Change 2 absent, clarification needed; no rows moved. |
 | 2026-10-06 | **TTI downside and exit scenarios priced** ([[uk-relocation-savings-comparison]] columns W, X, Y; [[HK-Return-BRAIND]] B). Ten years: worst case (job lost after year 3) HK$3.73M against Malvern 135k HK$3.90M; two-year exit then Malvern HK$5.40M (TTI 230) and HK$5.74M (TTI 250). Columns T and U relabelled TTI 230 / TTI 250. Decision impact: the cost of TTI failing is mostly disruption, not money. |
 | 2026-10-06 | Revised [[uk-relocation-savings-comparison]] §10 applied to the [savings sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357), including X/Y two-year exits. 41 cells match; 40 checks OK; maximum rounding difference HK$4. §2 updated to live values. Verification: [[savings-v3-review]]. |
 | 2026-10-06 | Applied and read back [[uk-relocation-savings-comparison]] §10 changes 1 to 5 in the [savings sheet](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=835277357). All 40 checks OK; W within HK$3 rounding; other cells and formats preserved. Decision comparison unchanged. Verification: [[savings-v3-review]]. |

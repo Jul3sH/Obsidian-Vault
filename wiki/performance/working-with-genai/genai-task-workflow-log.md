@@ -31,6 +31,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-06 · Mechanical sheet update · Partly · [[HK-Return-BRAIND]]
+
+- **Work:** Inserted specified UK-option risk below the last Resistance to the move row.
+- **Check:** Header-based writes, exact field readback, copied formats and mapped preservation verified; cause map counted live.
+- **Outcome:** Change 1 Applied; 37 tagged risks. Change 2 absent from source section, clarification requested.
+- **Lesson:** Steering: report missing instructions without guessing the requested check.
+- **Deliverable:** Existing [[HK-Return-BRAIND]] workspace; routine sheet and log update.
+
 ## 2026-10-06 · Mechanical sheet update · Worked · [[savings-v3-review]]
 
 - **Work:** Applied revised §10 including X/Y two-year exits and assumption.

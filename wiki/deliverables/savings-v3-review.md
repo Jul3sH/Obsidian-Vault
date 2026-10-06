@@ -273,6 +273,7 @@ Changes 1, 2, 3, 4, 5, 6, 6b and 7 applied by column A labels. All 41 written ce
 
 | Date | Who / what | Effort | Notes |
 |---|---|---|---|
+| 2026-10-06 | Codex, savings chart | Incremental tokens unmeasured | Added native line chart on new tab for E/K/M/V/W/X/Y, sourced directly from Y1 to Y10. Chart spec verified by API; existing cells unchanged. |
 | 2026-10-06 | Codex, revised §10 including X/Y | Incremental tokens unmeasured | Exact native writes, 41-cell readback, mapped preservation and 30 expected-value checks. Task-specific usage unavailable. |
 | 2026-10-06 | Codex, §10 sheet changes and readback | Incremental tokens unmeasured | Native edits and full bounded before/after comparison; task-specific usage unavailable. |
 | 2026-09-27 | Julian, attended | 15 min | Self-reported at handback. University reserve piece: briefing Codex, reviewing the sheet result, handing the companion update to Claude. |

@@ -448,6 +448,7 @@ Both blocks sit below the "Numeric model inputs" on the Formula validation tab, 
 
 | Date | What changed |
 |---|---|
+| 2026-10-06 | Added [Savings chart](https://docs.google.com/spreadsheets/d/1TS-ve2WfgcBfNYrEaZCbl-4De_JdqHSqQbm_CdSZojM/edit?gid=106202607), a line graph of Y1 to Y10 cumulative HKD savings for E, K, M, V, W, X and Y. Chart reads the source ranges directly, so updates automatically. Existing cells unchanged. |
 | 2026-10-06 | Executive summary: TTI downside and exit scenarios bullet added (W, X, Y at year 10); heading redated. |
 | 2026-10-06 | Applied revised §10 changes 1 to 7 including 6b: exact headers, V/W/X/Y formulas, both assumptions. All 41 cells read back; 40 validation checks OK. Maximum differences W HK$3, X/Y HK$4, permitted rounding. §2 W/X/Y figures refreshed. New assumption row inserted after W assumption; existing formulas adjusted automatically, results and formats preserved. |
 | 2026-10-06 | Applied §10 changes 1 to 5 to Formula validation: headers V/W and lower T/U, V Y1 formula, W Y1 to Y10 formulas, and assumption A56:B56. All 17 cells read back exactly; all 40 validation checks OK. W differs from expectations by at most HK$3 (rounding); other cells, formats and wrapping unchanged. |
