@@ -10,7 +10,7 @@ tags: [relationships, divorce, sophia, legal]
 **Why was it created?** Both parents left Hong Kong with Sophia (Sept 2026) without first informing the court. On the HK lawyer's advice, a simple joint notification is being sent: removal and mutual consent only, no discussion of living or contact arrangements outside Hong Kong.
 **How is it used?** Julian finalises the wording with the lawyer, fills in the addresses and date, both parents sign, and it is posted to the Family Court Registry with a copy of the 2 November 2020 order enclosed. The order itself is documented verbatim in [[court-order-care-and-control]].
 
-> ⚠ As of 8 Sep 2026: DRAFT. Not yet reviewed by the HK lawyer, not signed, not sent.
+> ⚠ As of 6 Oct 2026: signed by both parents with the date lines left blank (signed copy photographed 8 Sep 2026, in Dropbox `2-R&R/Divorce/Leaving HK notification/`). Not filed with the Family Court, per [[HK-Return-legal-position]] (4 Oct). The text below matches the signed copy word for word (Sonnet check, 6 Oct).
 
 ## Letter
 
@@ -76,3 +76,9 @@ Date:
 - Minimal retrospective notification: removal plus mutual consent only, nothing about arrangements outside Hong Kong.
 - Signed by both parents; sent to the Family Court Registry with the 2 Nov 2020 order enclosed.
 - No undertaking to return Sophia to Hong Kong is given; this is a deliberate choice to confirm with the HK lawyer.
+
+## Document Log
+
+| Date | Change |
+|---|---|
+| 2026-10-06 | Status updated from the signed JPG: signed, undated, not filed. Superseded: "As of 8 Sep 2026: DRAFT. Not yet reviewed by the HK lawyer, not signed, not sent." |
