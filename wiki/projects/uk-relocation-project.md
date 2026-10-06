@@ -287,7 +287,7 @@ These are the live files that make up the UK relocation decision evidence base. 
 | Decision workspace | [[HK-Return-Counterfactuals]] | Counterfactual questioning runs for the return-to-Hong-Kong question: which factors drive the gut feeling |
 | Decision workspace | [[HK-Return-Beliefs]] | Evidence behind each belief and assumption in the HK-Return-BRAIND check table |
 | Decision workspace | [[HK-Return-Intuition]] | Julian's raw gut reads on the return-to-Hong-Kong question, dated and in his words; the BRAIND holds the summary |
-| Decision workspace | [[HK-Return-legal-position]] | Preliminary legal position on taking Sophia from the UK to Hong Kong: Clodagh's consent, the orders she could seek, the existing Hong Kong orders, consent and court routes. Not lawyer-verified |
+| Decision workspace | [[HK-Return-legal-position]] | Preliminary legal position on taking Sophia from the UK to Hong Kong: Clodagh's consent, the orders she could seek, the existing Hong Kong orders, consent and court routes. Produced by Perplexity, not a legal team; not lawyer-verified |
 | Decision workspace | [[fable-review]] | 4 Jul hostile review of the primary move decision. |
 | Decision workspace | [[fable-review-london-vs-malvern]] | 7 Jul hostile review of London-direct vs Malvern-first. |
 | Decision workspace | [[fable-review-unknowns]] | Unknown-unknowns sweep across execution, timing, career, relationships, and Sophia. |
