@@ -25,6 +25,8 @@ The reviewed legal position on whether Julian can take Sophia (12) from England 
 
 ## Facts and timeline
 
+**Sophia has lived in Hong Kong for all 12 years of her life** (Julian, 6 Oct 2026). She has been in England since 30 July 2026 and at an English school since 5 September 2026, about two months.
+
 Julian's agreed wording: *"We left on 30 July for the summer, with return tickets for 24 August. A UK move was a fallback if the job fell through. It fell through on 20 August, and we put the fallback into effect on 26 August, when I withdrew Sophia from her Hong Kong school."*
 
 | Date | Event | Source |
@@ -172,4 +174,5 @@ Dropped from the Perplexity report and not relied on here: the Court of Appeal r
 
 | Date | Change |
 |---|---|
+| 2026-10-06 | Facts: added that Sophia has lived in Hong Kong all 12 years of her life (Julian). Timeline: job revival corrected to 13-14 Sep (from "early Oct"). |
 | 2026-10-06 | Created by Fable from the adversarial review and the Sonnet citation check, with Julian's confirmed timeline and the Christmas 2026 deadline. Replaces [[HK-Return-legalbrief-Perplexity]] as the working document. |
