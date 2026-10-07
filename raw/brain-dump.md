@@ -1,6 +1,6 @@
 ---
 type: capture-inbox
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 
 # Brain Dump  -  Capture Inbox
@@ -18,8 +18,8 @@ During a review/compile pass, each item is triaged to exactly one destination  -
 
 | If the item is… | Route it to |
 |-----------------|-------------|
-| A project-sized initiative (≥5h, with a payoff worth a hypothesis) | [[funnel]]  -  add a hypothesis + trigger; gets a POR card |
-| A standalone task/deliverable idea (XXS, <5h) | [[funnel]]  -  add as XXS candidate; no POR card needed until promoted |
+| A project-sized initiative (≥5h, with a payoff worth a hypothesis) | [[funnel]]  -  add a hypothesis + trigger; create its POR card in the same operation |
+| A standalone task/deliverable idea (XXS, <5h) | [[funnel]]  -  add as XXS candidate; create its POR card in the same operation |
 | Reference knowledge or learning to absorb | Compile into the wiki |
 | Going nowhere | Delete it |
 

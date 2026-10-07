@@ -102,6 +102,7 @@ Each funnel row also gets a lightweight card on the [POR board](https://agileict
 - **Label:** `funnel` — distinguishes these from real Projects (which carry no label and have their own `por-key`)
 - **Status:** `Funnel` — this status sits in the board's **Backlog view**, not on the active columns, so it doesn't clutter the board
 - **Description:** Hypothesis + Trigger, copied from the wiki row
+- **When:** in the same operation the funnel row is added, for every row including XXS ideas. Never deferred to `/jira-sync`, which does not read `funnel.md` (rule added 7 Oct 2026)
 
 This gives a visual, drag-to-reorder view of funnel ideas in Jira's Backlog alongside the structured wiki row — the wiki row is the source of truth for content, the Jira card is the visual reminder.
 

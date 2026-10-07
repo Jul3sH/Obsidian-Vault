@@ -1,6 +1,6 @@
 ---
 type: funnel
-updated: 2026-10-06
+updated: 2026-10-07
 ---
 
 # Project Funnel
@@ -15,6 +15,8 @@ Each item carries just enough information to make a meaningful go/no-go decision
 - **Trigger** — what needs to be true for this to move to Review
 - **Added** — date parked
 - **Jira** — POR board card (Epic, label `funnel`, status `Funnel`) — sits in the board's Backlog view as a visual reminder, not on the active columns. Created alongside the row; removed (transitioned/relabelled) when the row graduates via `/project-planner`.
+
+**Adding a row (rule, 7 Oct 2026):** every row gets its POR card in the same operation it is added, whoever adds it and whatever its size (XXS included). Create the card per [[portfolio-backlog]] "Jira representation", move it to `Funnel`, and write the card link into the Jira column. Never write "TBD" or defer to `/jira-sync`: that skill does not read this file, which is how 10 rows ended up with no card before the 6 Oct 2026 triage.
 
 ---
 
