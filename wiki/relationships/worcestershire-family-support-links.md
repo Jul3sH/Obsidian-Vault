@@ -21,19 +21,19 @@ These are the family wellbeing, parenting and family-law services that Worcester
 
 | Service | What it offers | Contact |
 |---|---|---|
-| Local Family Hubs (Worcestershire County Council) | A one-stop shop where children, young people and families can get help and support | Sunshine Family Hub, Swinyard Road, Malvern WR14 1GU. Tel: 01684 577442 |
-| Melo | Early intervention and preventative support for ages 0 to 25 and their families across Herefordshire and Worcestershire, based on what matters to each child | Referral information is on the Melo website |
-| YourSpace | Free mental health and wellbeing hubs for ages 11 to 25. Those 16 and over can refer themselves or just turn up. Under-16s need a parent or professional referral and parental consent | Referral forms are on the Onside website. Hubs in Redditch, Worcester, Droitwich, Evesham and Malvern |
-| Kooth | Free, safe, anonymous online support, counselling and wellbeing tools | Kooth website |
+| Local Family Hubs (Worcestershire County Council) | A one-stop shop where children, young people and families can get help and support | Sunshine Family Hub, Swinyard Road, Malvern WR14 1GU. Tel: 01684 577442 · https://www.worcestershire.gov.uk/council-services/childrens-social-care/virtual-family-hub/best-start-worcestershire/whats-and-things-do/local-family-hubs |
+| Melo | Early intervention and preventative support for ages 0 to 25 and their families across Herefordshire and Worcestershire, based on what matters to each child | https://www.onside-advocacy.org.uk/melo (includes referral information) |
+| YourSpace | Free mental health and wellbeing hubs for ages 11 to 25. Those 16 and over can refer themselves or just turn up. Under-16s need a parent or professional referral and parental consent | https://www.onside-advocacy.org.uk/yourspace (referral forms). Hubs in Redditch, Worcester, Droitwich, Evesham and Malvern |
+| Kooth | Free, safe, anonymous online support, counselling and wellbeing tools | https://www.kooth.com/ |
 | Family Lives | Family support and advice | https://www.familylives.org.uk/ · Tel: 0808 800 2222 |
-| Harmony at Home (Worcestershire County Council) | A Reducing Parental Conflict programme, run with a multi-agency reference group | Worcestershire County Council website |
+| Harmony at Home (Worcestershire County Council) | A Reducing Parental Conflict programme, run with a multi-agency reference group | https://www.worcestershire.gov.uk/council-services/childrens-social-care/virtual-family-hub/harmony-home |
 
 ## Legal and court
 
 | Service | What it offers | Contact |
 |---|---|---|
-| Child Law Advice Line (Coram Children's Legal Centre) | Free legal advice and information on child, family and education law for parents, carers and young people in England | Tel: 0300 330 5480 · childlawadvice.org.uk |
-| Cafcass | Advises the family courts on children's welfare and best interests. Its Parenting Plan page covers "planning together for children", a course that promotes cooperative parenting | https://www.cafcass.gov.uk/ |
+| Child Law Advice Line (Coram Children's Legal Centre) | Free legal advice and information on child, family and education law for parents, carers and young people in England | Tel: 0300 330 5480 · https://childlawadvice.org.uk/clas/contact-child-law-advice/ |
+| Cafcass | Advises the family courts on children's welfare and best interests. Its Parenting Plan page covers "planning together for children", a course that promotes cooperative parenting | https://www.cafcass.gov.uk/ · Parenting Plan: https://www.cafcass.gov.uk/grown-ups/parents-and-carers/divorce-and-separation/parenting-together/parenting-plan/ |
 | Advicenow | Advice and downloadable guides on going to family court, child arrangements, divorce and finance | https://www.advicenow.org.uk/family-court |
 | Family Mediation Council | Family mediation | www.familymediationcouncil.org.uk |
 
@@ -41,7 +41,7 @@ These are the family wellbeing, parenting and family-law services that Worcester
 
 | Service | What it offers | Contact |
 |---|---|---|
-| Child Contact Centres (NACCC) | Finds local child contact centres and the facilities they have, using "Find a centre" and a postcode search. Also has other information for separated parents | www.naccc.org.uk |
+| Child Contact Centres (NACCC) | Finds local child contact centres and the facilities they have, using "Find a centre" and a postcode search. Also has other information for separated parents | http://www.naccc.org.uk/ |
 | Parenting apps | Shared apps both parents use to communicate about the children. Popular ones named: AppClose, Our Family Wizard, TalkingParents, Cozy Family Organiser | Search online |
 
 ## General advice
@@ -49,7 +49,7 @@ These are the family wellbeing, parenting and family-law services that Worcester
 | Service | What it offers | Contact |
 |---|---|---|
 | Worcestershire Citizens Advice | Information and advice on a wide range of topics for people living in or around Worcestershire | https://citizensadviceworcester.org.uk · Tel: 0808 278 7891 · advice@citaworcester.org.uk |
-| Worcestershire County Council Community Services Directory | A directory of local community services | Worcestershire County Council website |
+| Worcestershire County Council Community Services Directory | A directory of local community services | https://www.worcestershire.gov.uk/council-services/communities/community-services-directory |
 
 ## Related
 - [[sophia]] · [[clodagh]]
@@ -57,4 +57,5 @@ These are the family wellbeing, parenting and family-law services that Worcester
 - [[schooling-malvern-area]]
 
 ## Document Log
+- 7 Oct 2026: Added the original email's hyperlinks (supplied by Julian) for Family Hubs, Melo, YourSpace, Kooth, Child Law Advice, Cafcass Parenting Plan, Harmony at Home and the Community Services Directory.
 - 7 Oct 2026: Created from the Family Connect email dated 24 Sep 2026.

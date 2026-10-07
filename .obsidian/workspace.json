@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/projects/cold-outreach-real-estate.md",
+                "file": "wiki/relationships/clodagh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cold-outreach-real-estate"
+              "title": "clodagh"
+            }
+          },
+          {
+            "id": "2d2737ba2f7127fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/relationships/Clodagh Whatsapp to 10-6-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clodagh Whatsapp to 10-6-2026"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.421875,
-    "collapsed": true
+    "width": 311.421875
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -202,14 +216,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ae20498a6ad02b8e",
+  "active": "48fbe0b2cf1dfbe1",
   "lastOpenFiles": [
+    "CLAUDE.md",
+    "wiki/relationships/Clodagh Whatsapp to 10-6-2026.md",
+    "wiki/relationships/clodagh.md",
+    "wiki/projects/cold-outreach-real-estate.md",
+    "raw/Clodagh Whatsapp messages.txt",
     "wiki/relationships/worcestershire-family-support-links.md",
     "wiki/technology/claude-anthropic/ai-native-sdlc-playbook.md",
     "wiki/projects/project-priorities.md",
     "wiki/projects/job-search-pipeline.md",
     "wiki/projects/genai-sa-market-validation.md",
-    "wiki/projects/cold-outreach-real-estate.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "wiki/projects/_archived/agile-claw-mvp.md",
     "wiki/projects/_archived",
@@ -229,9 +247,6 @@
     "wiki/deliverables/TTI-board-risk-Astra.md",
     "wiki/technology/claude-anthropic/claude-code-skills.md",
     "wiki/technology/claude-anthropic/claude-code-subagents.md",
-    "wiki/technology/claude-anthropic/claude-code-output-styles.md",
-    "wiki/technology/claude-anthropic/claude-code-path-rules.md",
-    "wiki/deliverables/claude-code-feature-articles.md",
     "TTI-board-risk-Gemini Pro",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
@@ -239,7 +254,6 @@
     "wiki/ai-os/skills/grilling/agents",
     "wiki/ai-os/skills/grilling",
     "wiki/career/ddg-caio/acme-proposal.pdf",
-    "wiki/career/ddg-caio/ddg-alternative-proposal-draft.pdf",
     "tmp/pdfs/council-tax-demand-2.png",
     "tmp/pdfs/council-tax-demand-1.png",
     "Along with all of these.canvas",
