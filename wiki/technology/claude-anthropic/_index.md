@@ -12,6 +12,7 @@ tags: [technical, claude, anthropic]
 - [[claude-cowork]] — Multi-agent collaboration, skills, hooks, and MCP servers
 - [[session-context-loading]] - What occupies the context window: the fixed prefix assembled at session start, what loads lazily, and what grows the transcript irreversibly
 - [[session-transcripts-and-memory]] - Where Claude Code stores raw JSONL session history on disk, and how the Agentic OS memory layer consumes it
+- [[ai-native-sdlc-playbook]] - Anthropic's AI-Native SDLC Playbook summarised play by play: six stages, the committed-artifact chain (intent.md to spec.md to plan.md), adoption order, and verbatim example files
 
 ## Steering Features
 

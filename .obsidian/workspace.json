@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
+                "file": "wiki/projects/cold-outreach-real-estate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HK-Return-BRAIND"
+              "title": "cold-outreach-real-estate"
             }
           }
         ]
@@ -81,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.421875
+    "width": 311.421875,
+    "collapsed": true
   },
   "right": {
     "id": "23bd47ff2297930e",
@@ -203,6 +204,12 @@
   },
   "active": "ae20498a6ad02b8e",
   "lastOpenFiles": [
+    "wiki/technology/claude-anthropic/ai-native-sdlc-playbook.md",
+    "wiki/projects/project-priorities.md",
+    "wiki/projects/job-search-pipeline.md",
+    "wiki/projects/genai-sa-market-validation.md",
+    "wiki/projects/cold-outreach-real-estate.md",
+    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "wiki/projects/_archived/agile-claw-mvp.md",
     "wiki/projects/_archived",
     "wiki/performance/decision-journal/uk-move/HK-Return-legalbrief-Fable.md",
@@ -217,7 +224,6 @@
     "wiki/performance/decision-journal/uk-move/HK-Return-Beliefs.md",
     "wiki/performance/decision-journal/uk-move/HK-Return-legal-position.md",
     "wiki/projects/uk-relocation-project.md.tmp.76617.c3bce327a5a7",
-    "wiki/performance/decision-journal/uk-move/HK-Return-BRAIND.md",
     "wiki/deliverables/TTI-board-risk-Fable-Council.md",
     "wiki/deliverables/TTI-board-risk-Astra.md",
     "wiki/technology/claude-anthropic/claude-code-skills.md",
@@ -226,12 +232,7 @@
     "wiki/technology/claude-anthropic/claude-code-path-rules.md",
     "wiki/deliverables/claude-code-feature-articles.md",
     "wiki/deliverables/tti-existing-role-brief.md",
-    "wiki/deliverables/TTI-board-risk-brief.md",
-    "wiki/deliverables/TTI-board-risk-Geminipro.md",
-    "wiki/deliverables/TTI-board-current.md",
-    "wiki/deliverables/TTI-board-risk-DeepseekV4pro.md",
     "TTI-board-risk-Gemini Pro",
-    "wiki/deliverables/nbj-youtube-notebooks.md",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
     "wiki/ai-os/skills/bias-check",
