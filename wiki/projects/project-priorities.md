@@ -25,5 +25,4 @@ if cards may have moved on the board since the last pull.
 | [[automated-linkedin-networking\|Automated LinkedIn Networking]] | Career | Build and warm a LinkedIn pipeline of relevant industry contacts ahead of the brand/KPI foundation | 2.2 | M | ready |
 | [[cold-outreach-real-estate\|Cold Outreach — Real Estate]] | Career | Prove I can generate qualified leads at <HK$1,000/lead to unlock a partnership income stream | — | XL | on-hold |
 | [[job-search-pipeline\|Job Search Pipeline]] | Career | Standing top-of-funnel pipeline — trawling, screening, and cold applications; active opportunities spin out as separate projects | — | S | implementing |
-| [[agile-claw-mvp\|Agile Claw MVP]] | Performance | Validate that HK enterprises will pay a commercially viable rate for AI OS consulting | — | L | funnel |
 | [[clsa-role\|CLSA — First Interview (Head of Network Services)]] | Career | First-interview stage: rec, resume tailoring, first-interview prep — delivered and earned a second interview | 7.0 | S | done |

@@ -3,7 +3,7 @@ workstream: performance
 created: 2026-05-13
 revised: 2026-05-25
 status: active
-flow: funnel
+flow: archived
 t-shirt: L
 wsjf: -
 por-key: POR-1
@@ -11,6 +11,12 @@ status-updated: 2026-06-09
 ---
 
 # Agile Claw MVP
+
+## Purpose
+
+Project file for Agile Claw MVP, a hobby idea to build an open-code ClaudClaw OS that would only matter if AI consulting became a decided path.
+
+As of 6 Oct 2026: archived. Removed from the funnel in triage and moved to the brain dump as a hobby idea; POR-1 closed.
 
 ## Status (as of 2026-06-17)
 
@@ -83,5 +89,5 @@ Have a working AI OS deployed and demonstrated so that Agile ICT can pitch it cr
 ---
 
 ## Links
-- **Workstream:** [[../performance/_index|performance]]
-- **Deliverables:** [[../deliverables/_index|deliverables/_index]]
+- **Workstream:** [[performance/_index|performance]]
+- **Deliverables:** [[deliverables/_index|deliverables/_index]]

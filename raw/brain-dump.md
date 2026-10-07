@@ -1,6 +1,6 @@
 ---
 type: capture-inbox
-updated: 2026-10-01
+updated: 2026-10-06
 ---
 
 # Brain Dump  -  Capture Inbox
@@ -258,6 +258,15 @@ not an evaluation. No hypothesis, size, or score is required to drop something h
 - https://www.instagram.com/reel/Dd7gEq3gGw8/
 - https://www.linkedin.com/posts/ninadevouge_99-of-people-walk-into-a-negotiation-trying-share-7508084217755394048-0lS4
 
+
+### Moved from funnel (6 Oct 2026)
+
+| Item | Note |
+|------|------|
+| Agile Claw MVP: open-code ClaudClaw OS as a hobby | Would only matter if Julian decides AI consulting is a path. Moved from funnel 6 Oct 2026; original build scope preserved in [[agile-claw-mvp]] (archived) |
+| Early Adopters ClaudClaw OS: deploy ClaudClaw OS with early adopters to get findings for Agile Claw | Moved from funnel 6 Oct 2026 |
+| Agentic Academy Agentic OS: hands-on test of Agentic Academy's Agentic OS for Agile Claw findings | Moved from funnel 6 Oct 2026 |
+| Workflow-shapes catalogue: menu of multi-agent orchestration shapes (pipeline, fan-out, adversarial verify, judge panel, loop-until-dry) as a section in [[routing-work-prompts]] | Moved from funnel 6 Oct 2026 |
 
 ## Wiki / AI OS
 
@@ -544,3 +553,8 @@ Also dropped without attempting a fetch (clearly stale/inaccessible, not worth t
 **Dropped as unavailable (1):**
 - https://www.instagram.com/p/DcobwFzjJ9t/ (post removed or link broken)
 
+### Moved from funnel (6 Oct 2026)
+
+| Item | Note |
+|------|------|
+| Banter Trainer for Sophia: Claude-based drill for responding to UK-style banter | Simplest path likely an existing app, see [[banter-trainer-mvp]]. Moved from funnel 6 Oct 2026 |

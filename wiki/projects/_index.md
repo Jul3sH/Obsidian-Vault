@@ -24,11 +24,13 @@ Use `/project-planner` to create a new Project through a structured interview.
 - [[cold-outreach-real-estate|Cold Outreach — Real Estate]] — Prove I can generate qualified leads at <HK$1,000/lead for a friend's UK property business; currently gated on a personal-liability go/no-go
 
 ## Performance
-- [[agile-claw-mvp|Agile Claw MVP]] — Validate that HK enterprises will pay a commercially viable rate for AI OS consulting
 - [[ai-engineering-patterns|AI Engineering Patterns]] — Choose the right AI engineering approach for any piece of work via a market-aligned patterns catalog, distilled mental models, and a task-routing skill
 
 ## Personal
 - [[uk-relocation-project|UK Relocation Project]] — Execute the committed move to the UK: Hong Kong exit and UK arrival (decision arc complete; decision anchor lives in the uk-move workspace)
+
+## Archived
+- [[agile-claw-mvp|Agile Claw MVP]] (in `_archived/`): archived project file for an open-code ClaudClaw OS hobby idea
 
 ## Candidates & Parking
 
