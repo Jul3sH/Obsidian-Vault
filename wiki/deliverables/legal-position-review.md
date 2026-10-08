@@ -52,9 +52,10 @@ The fast-lane record for checking the Perplexity-generated [[HK-Return-legalbrie
 | 2026-10-06 | Machine (subagent, Sonnet) | 97,840 tokens | Citation check, footnotes 17-30 |
 | 2026-10-06 | Machine (subagent, Sonnet) | 98,739 tokens | Transcription check against scans |
 | 2026-10-06 | Machine (subagent, Fable) | 187,979 tokens | Brief written (continuation of the review agent; figure as reported for that run) |
-| 2026-10-08 | Machine (interactive session, Opus) | 268,176 tokens | WhatsApp evidence extraction ([[HK-Return-whatsapp-evidence]]); output 32,856 + cache-write 235,320; cache reads 3.96M omitted. Figure taken mid-session |
+| 2026-10-08 | Machine (interactive session, Opus) | 358,124 tokens | WhatsApp evidence extraction and completion ([[HK-Return-whatsapp-evidence]]); output 59,704 + cache-write 298,420; cache reads 10.06M omitted. Figure taken after the completion pass |
 | 2026-10-08 | Machine (subagent, Sonnet) | 161,841 tokens | Adversarial quote check of the evidence file against the export |
 | 2026-10-08 | Machine (subagent, Sonnet) | 103,011 tokens | Linking: indexes, brief evidence list, project status surface |
+| 2026-10-08 | Machine (subagent, Sonnet x2) | unmeasured | Uncapped re-verification and earlier-export extraction; both stalled with no output and no usage reported. Work redone in the interactive session (its tokens fall in that session's row) |
 
 Julian's attended minutes and the interactive session total to be added at handback.
 
