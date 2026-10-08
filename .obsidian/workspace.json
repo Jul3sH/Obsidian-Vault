@@ -27,16 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/relationships/Clodagh Whatsapp to 10-6-2026.md",
+                "file": "wiki/relationships/Clodagh WhatsApp to 2025 to 11-06-2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Clodagh Whatsapp to 10-6-2026"
+              "title": "Clodagh WhatsApp to 2025 to 11-06-2026"
+            }
+          },
+          {
+            "id": "fcd2f2f151323c19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/relationships/Clodagh WhatsApp to 2025 to 11-06-2026.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Clodagh WhatsApp to 2025 to 11-06-2026"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -216,10 +230,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48fbe0b2cf1dfbe1",
+  "active": "fcd2f2f151323c19",
   "lastOpenFiles": [
+    "wiki/relationships/FINNv2.md",
+    "wiki/relationships/communicating-in-close-relationships.md",
+    "wiki/relationships/Cloadgh WhatsApp 2026-06-11 to present.md",
+    "wiki/relationships/Clodagh WhatsApp to 2025 to 11-06-2026.md",
     "CLAUDE.md",
-    "wiki/relationships/Clodagh Whatsapp to 10-6-2026.md",
     "wiki/relationships/clodagh.md",
     "wiki/projects/cold-outreach-real-estate.md",
     "raw/Clodagh Whatsapp messages.txt",
@@ -244,9 +261,6 @@
     "wiki/performance/decision-journal/uk-move/HK-Return-legal-position.md",
     "wiki/projects/uk-relocation-project.md.tmp.76617.c3bce327a5a7",
     "wiki/deliverables/TTI-board-risk-Fable-Council.md",
-    "wiki/deliverables/TTI-board-risk-Astra.md",
-    "wiki/technology/claude-anthropic/claude-code-skills.md",
-    "wiki/technology/claude-anthropic/claude-code-subagents.md",
     "TTI-board-risk-Gemini Pro",
     "wiki/ai-os/skills/behaviour-check",
     "wiki/performance/working-with-yourself/mm-build-dont-adopt-bias.md.tmp.81410.76ce5267014a",
