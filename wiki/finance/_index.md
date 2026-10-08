@@ -26,6 +26,7 @@ Covers personal financial management only: budgeting, savings strategies, invest
 - [[london-monthly-budget|London Monthly Budget]] - Itemised post-move budget (~£4,550/mo ongoing cash burn); line-by-line breakdown + runway + HK comparison
 - [[financial-status-2026-07-07|Financial Status 2026-07-07]] - Current balance sheet: assets, liabilities, Cecil Road income/costs, HK expenses; feeds UK relocation decision
 - [[financial-status-2026-06-22|Financial Status 2026-06-22]] - Superseded historical snapshot
+- [[investment-holdings|Investment Holdings]] - Register of every fund held: ISIN, account, platform, quantity and value
 
 ## Articles
 - [[uk-relocation-savings-v3-codex-review-2026-09-25]] - Independent review of v3 tax calculations, FIG duration, annual savings and source cashflows.
