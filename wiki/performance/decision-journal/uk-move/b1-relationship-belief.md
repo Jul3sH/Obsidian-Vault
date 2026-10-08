@@ -8,7 +8,7 @@ stage: 3 - Challenge (belief B1)
 
 # B1 Belief Test - "I'll be single / can't date women I'm attracted to in the UK"
 
-> The Stage 3 asymmetric challenge on the gut's strongest support, re-run after Julian's 2026-07-02 deep-dive on his relationship history and preferences. Source material now lives in the relationship reference library: [[relationship-views]], [[joanne]], [[clodagh]], [[hannah]]. Feeds the [[decision-journal]] Conflict + resolution field. Framework: [[why-brained|BRAINED]] (this is an **R [move]** item, challenge direction ⚠️ **hard** - it's a con-of-moving).
+> The Stage 3 asymmetric challenge on the gut's strongest support, re-run after Julian's 2026-07-02 deep-dive on his relationship history and preferences. Source material now lives in the relationship reference library: [[relationship-views]], [[joanne]], [[Clodagh Profile]], [[hannah]]. Feeds the [[decision-journal]] Conflict + resolution field. Framework: [[why-brained|BRAINED]] (this is an **R [move]** item, challenge direction ⚠️ **hard** - it's a con-of-moving).
 
 ## Belief as originally stated
 
@@ -28,8 +28,8 @@ The rant didn't defend B1 - it **dissolved it into four distinct claims**, most 
 |---|---|---|
 | **(a) "I need to stay in HK for my current relationship"** | [[joanne]] has offered to come, but as a **Filipino national she requires a spousal visa** - she cannot relocate to the UK without marriage. And she has made clear she wants marriage long-term; Julian would need to move on if he doesn't intend to marry. So: (i) marry → she can join in UK; (ii) don't marry → Joanne stays in HK (or the relationship ends). | **Partially revives.** Not a reason to stay in HK specifically - but the marriage decision is now coupled to both the location call and the relationship's future. Not an HK anchor; a marriage decision anchor. |
 | **(b) "HK gives me abundant easy options I'd lose"** | True that HK offers abundance if single. BUT Julian states he is **not transactional**, always partners up fast ([[hannah]], Naden), and calls the "play around for 5 years" plan a **"false economy"** himself. | Real but self-undercut. |
-| **(c) "Younger attractive women (HK's abundance) are what I want long-term"** | He independently rates a **20-year age gap as higher risk** - gold-digger / ATM / "tolerated later" dynamics. His durable affection is with the *smaller* gap ([[clodagh]], ~10 yrs). | **Inverts** - HK's abundance is skewed to the profile he's flagging as risky. |
-| **(d) "The UK is a relationship desert for me"** | He surfaces a latent UK pull: [[clodagh]] (warmth, even if only friendship) and a new thought that **equal-footing Western companionship might be more rewarding** than a mentor-dynamic relationship. | **Softens toward UK**, not against. |
+| **(c) "Younger attractive women (HK's abundance) are what I want long-term"** | He independently rates a **20-year age gap as higher risk** - gold-digger / ATM / "tolerated later" dynamics. His durable affection is with the *smaller* gap ([[Clodagh Profile]], ~10 yrs). | **Inverts** - HK's abundance is skewed to the profile he's flagging as risky. |
+| **(d) "The UK is a relationship desert for me"** | He surfaces a latent UK pull: [[Clodagh Profile]] (warmth, even if only friendship) and a new thought that **equal-footing Western companionship might be more rewarding** than a mentor-dynamic relationship. | **Softens toward UK**, not against. |
 
 ### The asymmetric challenge (hard, per the ⚠️ rule)
 
@@ -92,7 +92,7 @@ He named the bind: he feels moving to the UK would force him either to **(a) "lo
 - Per the BRAINED rule (analysis wins unless the gut justifies the override *in writing* and the belief survives): **B1 does not clear that bar.**
 
 ## Related
-- [[relationship-views]] · [[joanne]] · [[clodagh]] · [[hannah]] - the source material
+- [[relationship-views]] · [[joanne]] · [[Clodagh Profile]] · [[hannah]] - the source material
 - [[analysis|Stage 1 Analysis]] - the register B1 sits in
 - [[capture|Brain dump]] - raw source
 - [[decision-journal]] - this feeds Conflict + resolution

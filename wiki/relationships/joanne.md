@@ -35,7 +35,7 @@ tags: [relationships]
 ## The marriage question - concerns
 
 1. **Sexual reciprocity / desire signals.** Sex has been very good, but on occasions she hasn't wanted it / been tired, even seeing each other only weekly. Julian raised it (said if sex isn't good it's a non-starter); she attributed it to resenting being "a mistress." The following week she was proactive and initiating; but the most recent weekend she again didn't want to. His **gut fear:** this reluctance *before* marriage predicts pulling back *after* she has the security she wants - risk of drifting toward a sexless marriage. Comparison point: [[hannah]]'s "serve-your-man" disposition regardless of her own mood.
-2. **Change-after-security.** The overarching fear (rooted in [[clodagh]], not in Joanne's conduct): people change once married and secure. See [[relationship-views]].
+2. **Change-after-security.** The overarching fear (rooted in [[Clodagh Profile]], not in Joanne's conduct): people change once married and secure. See [[relationship-views]].
 3. **Forthrightness vs easy-going.** She's more direct/willing to push back than the very easy-going [[hannah]]. As Julian gets older and more tired - and after a prickly, argumentative marriage - part of him wants an easy life. He flags he may be being unfair to her here.
 4. **Age gap / outgrowing / affair risk.** 20 years younger. As he loses energy in later years, she'll still be active and could get bored - and, married and secure ("feet under the table"), might have an affair. He rates her as probably loyal (countryside Filipina, less conventionally striking than [[hannah]], which he cynically counts as lowering flight risk) - but in the UK, with her personality, he expects plenty of male attention.
 5. **Business motive.** She's money-oriented and driven (poor background, single mother of two). He can't fully tell how much her interest in him is entwined with what he can enable. Marriage would let her run a real business; she might succeed independently regardless. He lands on: a risk, but he thinks she has integrity.
@@ -60,11 +60,11 @@ tags: [relationships]
 - Julian's stated marriage motivation (2026-07-03): largely **(a) to unlock the business** and **(b) fear of not finding someone in the UK** - not a deep want to marry her specifically. This distinction matters: a marriage entered for those reasons, not for the relationship itself, carries its own risk.
 - Julian's doubts are **relationship-quality doubts** (desire signals, change-after-security fear, age gap, autonomy), not location doubts - they'd travel with him.
 - The marriage sub-decision has its own strand in the [[decision-journal]]. See [[b1-relationship-belief]] and [[risks|R1 marriage exposure]].
-- Consistent thread: fear of what happens once the incentive to "perform" is removed by security - the same trauma pattern documented in [[relationship-views]] and traced to [[clodagh]].
+- Consistent thread: fear of what happens once the incentive to "perform" is removed by security - the same trauma pattern documented in [[relationship-views]] and traced to [[Clodagh Profile]].
 
 ## Related
 - [[relationship-views]] - the general framework these concerns sit inside
 - [[hannah]] - the ex whose exit changed this relationship's status
-- [[clodagh]] - source of the change-after-security fear
+- [[Clodagh Profile]] - source of the change-after-security fear
 - [[b1-relationship-belief|UK-move B1 belief test]]
 - [[Dad/relationship-dynamics]] - the dependency/leverage parallel in Concern 6

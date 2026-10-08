@@ -119,7 +119,7 @@ banter and bullying, and model that **some bait you exit, you don't answer**:
 - Sophia must not learn that she has to defeat every jab. Given her RSD /
   rejection-sensitivity pattern (see [[sophia]]), "I don't have to win this one,
   I can walk and tell someone" is a *success* state, not a failure.
-- Family landmines (scenario 10, the [[clodagh|Clodagh]]-type jab) are the
+- Family landmines (scenario 10, the [[Clodagh Profile|Clodagh]]-type jab) are the
   clearest case: model the calm exit, never a witty counter.
 
 ## Pre-build conditions

@@ -128,6 +128,7 @@ Reunite's own Prevention Guide (2020) states: "It is a criminal offence to take 
 - DBIS written confirmation: place for term 2 from 4 Jan 2027, fees, pastoral and reintegration plan; records of counselling, incidents and past safeguarding concerns.
 - The full WhatsApp trail with metadata: the summer-trip plan, return tickets, the 20 Aug job confirmation, Clodagh's consents, any discussion of returning if the job revived.
 - Return ticket records (24 Aug) and the Hong Kong school withdrawal email (26 Aug).
+- Asia Miles booking confirmation (booking date before 30 Jul, 24 Aug return) and cancellation record with its date: the return was booked separately so it could be cancelled if the job fell through (Julian, 8 Oct). A cancellation on or after 20 Aug fits the account. Extract of the WhatsApp trail: [[HK-Return-whatsapp-evidence]].
 - Certified copies of the 2 Nov 2020 orders and Parental Agreement; the signed 8 Sep letter; any document varying HK$12,500 to HK$8,500; arrears ledger.
 - UK police incident records, children's-services records and the follow-up safeguarding discussion; Hong Kong police and school records; contemporaneous messages from Clodagh about drinking or missed care; a dated chronology separating observation, Sophia's statements and hearsay.
 - Inventory of Sophia's passports (British, Irish, any other) and who holds them; Hong Kong ID and right-of-abode status.
@@ -174,5 +175,6 @@ Dropped from the Perplexity report and not relied on here: the Court of Appeal r
 
 | Date | Change |
 |---|---|
+| 2026-10-08 | Evidence to gather: added the Asia Miles booking and cancellation records (return booked separately and cancellable, Julian 8 Oct) and a link to [[HK-Return-whatsapp-evidence]]. |
 | 2026-10-06 | Facts: added that Sophia has lived in Hong Kong all 12 years of her life (Julian). Timeline: job revival corrected to 13-14 Sep (from "early Oct"). |
 | 2026-10-06 | Created by Fable from the adversarial review and the Sonnet citation check, with Julian's confirmed timeline and the Christmas 2026 deadline. Replaces [[HK-Return-legalbrief-Perplexity]] as the working document. |

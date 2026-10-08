@@ -85,6 +85,7 @@ Small, bounded execution decisions that surface during Phase 3/4. Each gets its 
 - [[HK-Return-Counterfactuals|HK-Return-Counterfactuals]] - record of the [[counterfactual-questioning]] runs for the return-to-HK question: which factors drive the gut feeling against going.
 - [[HK-Return-Beliefs|HK-Return-Beliefs]] - the evidence behind each belief and assumption in the HK-Return-BRAIND check table.
 - [[HK-Return-Intuition|HK-Return-Intuition]] - Julian's raw intuition captures on the return-to-HK question, dated and in his words.
+- [[HK-Return-whatsapp-evidence|HK-Return-whatsapp-evidence]] - WhatsApp messages (11 Jun to 7 Oct 2026) showing whether the UK move was temporary or permanent, by sender, for the specialist lawyer.
 
 ## 9. Decision-Support Surfaces
 
@@ -96,7 +97,7 @@ Small, bounded execution decisions that surface during Phase 3/4. Each gets its 
 - [[uk-move-financial-model|UK Move Financial Model]] - canonical financial model for burn, pot, runway, property, MPF, FIG tax, and breakeven logic.
 - [[relationship-views]] - relationship patterns and beliefs feeding the B1 test.
 - [[joanne]] - current relationship context and marriage / visa implications.
-- [[clodagh]] - Sophia's mother and UK-proximity context.
+- [[Clodagh Profile]] - Sophia's mother and UK-proximity context.
 - [[hannah]] - prior decision evidence behind the commitment pattern.
 - [[sophia]] - Sophia stakeholder profile and transition context.
 - [[sophia-london-schools|Sophia's London school options]] - SW19 shortlist for Year 8 entry.

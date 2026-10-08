@@ -24,7 +24,7 @@ stage: R - Risks
 
 ### Why the dilution risk is the heavy one
 
-It's not the £4k/yr (trivial) or even the divorce settlement (partly legislated by prenup). It's the **open-ended, relational** drift: years of pressure to divert savings to her sons at Sophia's expense. This is the same pattern Julian names in the [[../../../relationships/Dad/relationship-dynamics|Dad dynamic]] (dependency becoming leverage) and the same **change-after-security fear** rooted in [[../../../relationships/clodagh|Clodagh]] (see [[../../../relationships/relationship-views|relationship views]]).
+It's not the £4k/yr (trivial) or even the divorce settlement (partly legislated by prenup). It's the **open-ended, relational** drift: years of pressure to divert savings to her sons at Sophia's expense. This is the same pattern Julian names in the [[../../../relationships/Dad/relationship-dynamics|Dad dynamic]] (dependency becoming leverage) and the same **change-after-security fear** rooted in [[Clodagh Profile|Clodagh]] (see [[../../../relationships/relationship-views|relationship views]]).
 
 ### Mitigants (and their limits)
 

@@ -52,7 +52,7 @@ These are the family wellbeing, parenting and family-law services that Worcester
 | Worcestershire County Council Community Services Directory | A directory of local community services | https://www.worcestershire.gov.uk/council-services/communities/community-services-directory |
 
 ## Related
-- [[sophia]] · [[clodagh]]
+- [[sophia]] · [[Clodagh Profile]]
 - [[Divorce/_index|Divorce]] has the Hong Kong court orders, including [[court-order-care-and-control]]
 - [[schooling-malvern-area]]
 

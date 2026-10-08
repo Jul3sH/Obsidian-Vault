@@ -17,7 +17,7 @@ The fast-lane record for checking the Perplexity-generated [[HK-Return-legalbrie
 
 ## Status
 
-**As of 6 Oct 2026:** new brief written by Fable ([[HK-Return-legalbrief-Fable]]); criteria 1 and 2 met. Next: Codex review (criterion 3), run by Julian.
+**As of 8 Oct 2026:** WhatsApp evidence file added ([[HK-Return-whatsapp-evidence]]); criteria 1 and 2 met. Next: Codex review (criterion 3), run by Julian.
 
 ## Brief (Admission Fast Lane, agreed 2026-10-06)
 
@@ -41,6 +41,7 @@ The fast-lane record for checking the Perplexity-generated [[HK-Return-legalbrie
 | [[HK-Return-legalbrief-Perplexity-sonnet-review-2026-10-06]] | Citation check of 27 web footnotes |
 | Transcription check (reported in session, no file) | [[court-order-care-and-control]] and [[removal-notification-letter]] match the scans; letter banner corrected to signed, undated, not filed |
 | [[HK-Return-legalbrief-Perplexity]] "Confirmed timeline" section | Julian's agreed departure account (30 Jul, 20 Aug, 26 Aug) |
+| [[HK-Return-whatsapp-evidence]] | WhatsApp evidence on whether the move was temporary or permanent, both sides, for the lawyer (8 Oct) |
 
 ## Time and Token Log
 
@@ -51,9 +52,18 @@ The fast-lane record for checking the Perplexity-generated [[HK-Return-legalbrie
 | 2026-10-06 | Machine (subagent, Sonnet) | 97,840 tokens | Citation check, footnotes 17-30 |
 | 2026-10-06 | Machine (subagent, Sonnet) | 98,739 tokens | Transcription check against scans |
 | 2026-10-06 | Machine (subagent, Fable) | 187,979 tokens | Brief written (continuation of the review agent; figure as reported for that run) |
+| 2026-10-08 | Machine (interactive session, Opus) | 268,176 tokens | WhatsApp evidence extraction ([[HK-Return-whatsapp-evidence]]); output 32,856 + cache-write 235,320; cache reads 3.96M omitted. Figure taken mid-session |
+| 2026-10-08 | Machine (subagent, Sonnet) | 161,841 tokens | Adversarial quote check of the evidence file against the export |
+| 2026-10-08 | Machine (subagent, Sonnet) | 103,011 tokens | Linking: indexes, brief evidence list, project status surface |
 
 Julian's attended minutes and the interactive session total to be added at handback.
 
 ## Session Synopsis
 
 To be filled at handback: Julian's rating and read first, model comment beneath.
+
+## Document Log
+
+| Date | Change |
+|---|---|
+| 2026-10-08 | Status line updated: WhatsApp evidence file added to Outputs. Previous status (6 Oct 2026): new brief written by Fable ([[HK-Return-legalbrief-Fable]]); criteria 1 and 2 met. Next: Codex review (criterion 3), run by Julian. |

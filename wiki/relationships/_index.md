@@ -13,12 +13,12 @@ tags: [relationships]
 > Logged in the [[decision-journal|Decision Journal]]; method in the [[decision-maker-profile|decision-making system]]. Decisions touching Relationships:
 
 - [[decision-journal|Whether to stay with Hannah]] — reviewed; the founding commitment-failure lesson.
-- [[uk-relocation-project|UK Relocation Project]] — cross-cutting; its relationship dimension ([[sophia|Sophia]]'s schooling, [[joanne|Joanne]], [[clodagh|Clodagh]]).
+- [[uk-relocation-project|UK Relocation Project]] — cross-cutting; its relationship dimension ([[sophia|Sophia]]'s schooling, [[joanne|Joanne]], [[Clodagh Profile|Clodagh]]).
 
 ## Julian's views & people
 - [[relationship-views]] — Julian's own framework: what he wants (marriage, long-term companionship, short-term/casual), the stated-vs-revealed tension, and his marriage fears
 - [[joanne]] — Current partner: profile, history, current status, and the live marriage question
-- [[clodagh]] — Ex-wife and Sophia's mother; source of the change-after-security fear; a latent UK pull
+- [[Clodagh Profile]] — Ex-wife and Sophia's mother; source of the change-after-security fear; a latent UK pull
   - [[clodagh-resume-2026-08|Clodagh's resume, Aug 2026]] — CV content reproduced with her new Waterford address/number, plus the reusable format-reproduction method
 - [[sophia]] — Julian's daughter; central stakeholder in the UK move; prefers London; schooling window is the decision's hard anchor
 - [[sophia-london-schools]] — SW19 school options for Year 8 in-year entry: Ricards Lodge (Outstanding), Ursuline (Good, Catholic), Harris (best sport)

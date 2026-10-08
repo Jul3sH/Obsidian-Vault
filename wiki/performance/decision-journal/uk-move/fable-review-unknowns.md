@@ -164,4 +164,4 @@ Three-part, and timing is the point:
 ---
 
 ## Related
-- [[fable-review|Fable Review (MOVE decision, 4 Jul)]] · [[fable-review-london-vs-malvern|Fable Review (London vs Malvern, 7 Jul)]] · [[commitment-lock-protocol|Commitment-Lock Protocol]] · [[sophia|Sophia profile]] · [[joanne|Joanne]] · [[clodagh|Clodagh]] · [[uk-move-financial-model|Financial Model]]
+- [[fable-review|Fable Review (MOVE decision, 4 Jul)]] · [[fable-review-london-vs-malvern|Fable Review (London vs Malvern, 7 Jul)]] · [[commitment-lock-protocol|Commitment-Lock Protocol]] · [[sophia|Sophia profile]] · [[joanne|Joanne]] · [[Clodagh Profile|Clodagh]] · [[uk-move-financial-model|Financial Model]]

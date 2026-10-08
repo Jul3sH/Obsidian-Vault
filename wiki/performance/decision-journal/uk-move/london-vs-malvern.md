@@ -64,7 +64,7 @@ Julian's stated core motivation for Malvern-first is **not** lifestyle - he has 
 
 ## Supporting context (7 Jul): Clodagh → a London-specific factor
 
-New context that further favours London (details: [[clodagh|Clodagh]]):
+New context that further favours London (details: [[Clodagh Profile|Clodagh]]):
 - Clodagh (Sophia's mother) is **leaving HK for Ireland regardless** to recover from addiction. So the move does **not** take Sophia from her mother - staying in HK would (mother gone anyway); the UK brings them onto the same landmass. **Non-contingent pro-move point.**
 - Clodagh owns a London property **on the same street, ~5 min from Cecil Road**. *If* she recovers and returns, Sophia gets an effortless mother relationship **London uniquely enables and Malvern cannot** - plus potential financial contribution (currently modelled £0). **Contingent on a hard, uncertain recovery** - a bonus that strengthens London, not a load-bearing pillar. London stands without it (per [[fable-review-london-vs-malvern|Fable]]).
 - This call is what moved Julian to feeling "100% convinced." Genuine and welcome - but the durable case is the one Fable stress-tested; the Clodagh outcome is upside layered on top, deliberately kept separable so Julian's conviction doesn't hinge on whether she gets sober.

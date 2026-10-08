@@ -77,7 +77,7 @@ Julian's working assumption was ~100k HKD/month. The 12-month actuals (Jul 2025 
 **Findings:**
 - The "100k/month" figure was an **overestimate**. Real run-rate is ~92k, and the **recent trend is ~84k** - the expensive months (Aug/Sep/Oct 2025, 108-121k) are behind him; 2026 is calmer (65-98k).
 - **Annual burn ≈ 1.1M HKD ≈ £110k.** This is the **stake**: every year spent unemployed in HK betting on a role burns ~1.1M of liquid savings. The "£100k bet" framing holds (it's ~£110k).
-- Note the tension with "I live simply in HK": 84-92k/month is **not** a simple-living number. Whatever the root cause (Sophia costs, flat, no contribution from [[../relationships/clodagh|Clodagh]]), the lifestyle he under-uses (see [[decision-journal/uk-move/b7-lifestyle|B7]]) still costs ~£1k/week.
+- Note the tension with "I live simply in HK": 84-92k/month is **not** a simple-living number. Whatever the root cause (Sophia costs, flat, no contribution from [[Clodagh Profile|Clodagh]]), the lifestyle he under-uses (see [[decision-journal/uk-move/b7-lifestyle|B7]]) still costs ~£1k/week.
 
 ### HK expense breakdown by category (7 Jul, stated monthly averages)
 
@@ -180,7 +180,7 @@ Julian has now checked the lower end of the HK market. Lower-paid roles availabl
 
 **The narrower structural finding:** HK$100k/month is a weak recovery floor. It may stop or reduce drawdown, but it is not an obviously strong retirement-rebuilding or DB-flat-repair path. It is materially worse than a true senior HK role, but it is not the same as drift.
 
-**Why the burn is where it is - the Clodagh contribution removal.** The burn rate of ~92k/mo (trending 84k) is not primarily lifestyle inflation. It reflects costs that were previously shared: Sophia's schooling, a domestic helper, flat running costs. When [[../relationships/clodagh|Clodagh]] stopped contributing (she chose to leave; now in UK), those costs fell entirely to Julian. This is the structural break: the same HK lifestyle that was financially sustainable with two contributors is not sustainable with one at a non-premium salary.
+**Why the burn is where it is - the Clodagh contribution removal.** The burn rate of ~92k/mo (trending 84k) is not primarily lifestyle inflation. It reflects costs that were previously shared: Sophia's schooling, a domestic helper, flat running costs. When [[Clodagh Profile|Clodagh]] stopped contributing (she chose to leave; now in UK), those costs fell entirely to Julian. This is the structural break: the same HK lifestyle that was financially sustainable with two contributors is not sustainable with one at a non-premium salary.
 
 **What this means for S1:** S1 (HK corporate) should distinguish two HK outcomes:
 

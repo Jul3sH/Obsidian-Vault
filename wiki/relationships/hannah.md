@@ -31,7 +31,7 @@ tags: [relationships]
 - Serves as (a) the trigger for the current Joanne marriage question, and (b) a commitment-failure case study feeding the [[decision-journal]].
 
 ## Related
-- [[joanne]] · [[clodagh]]
+- [[joanne]] · [[Clodagh Profile]]
 - [[relationship-views]]
 - [[decision-journal]] - "Whether to stay with Hannah" entry
 - [[b1-relationship-belief|UK-move B1 belief test]]

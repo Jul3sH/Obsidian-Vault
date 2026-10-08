@@ -31,6 +31,14 @@ steering) so the log is queryable by step as well as by type. Newest first.
 
 ---
 
+## 2026-10-08 · Evidence extraction + Adversarial review · Partly · [[legal-position-review]]
+
+- **Work:** Opus read the full Clodagh WhatsApp export and listed temporary vs permanent evidence by sender ([[HK-Return-whatsapp-evidence]]).
+- **Check:** Sonnet quote check against the export: no fabricated quotes, but about a dozen rows overstated or lost context (13 Jul elision, 18 Aug "there" meaning HK) and eight omissions.
+- **Outcome:** Corrected; the main finding changed from "consistently conditional" to "mixed" before Julian relied on it.
+- **Lesson:** Verification: an extractor working for one side elides quotes toward that side; a second-model check against the source is what caught it.
+- **Deliverable:** [[legal-position-review]], evidence for the specialist lawyer.
+
 ## 2026-10-06 · Mechanical sheet update · Partly · [[HK-Return-BRAIND]]
 
 - **Work:** Inserted specified UK-option risk below the last Resistance to the move row.

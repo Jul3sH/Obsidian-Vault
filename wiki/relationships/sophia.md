@@ -7,7 +7,7 @@ tags: [relationships, uk-relocation, sophia]
 
 # Sophia
 
-> Julian's daughter and the central stakeholder in the [[_index|UK relocation decision]]. Julian carries sole financial and day-to-day responsibility for her (mother [[clodagh|Clodagh]] not meeting obligations). Her schooling window (Sept 2026) is the decision's hard anchor.
+> Julian's daughter and the central stakeholder in the [[_index|UK relocation decision]]. Julian carries sole financial and day-to-day responsibility for her (mother [[Clodagh Profile|Clodagh]] not meeting obligations). Her schooling window (Sept 2026) is the decision's hard anchor.
 
 ## Quick Reference
 - **Age / Year:** Going into Year 8 (~12-13) from Sept 2026
@@ -135,4 +135,4 @@ See [[sophia-london-schools|London school options (SW19)]]. Working shortlist: *
 ---
 
 ## Related
-- [[sophia-london-schools|London school options (SW19)]] · [[london-vs-malvern|London vs Malvern sub-decision]] · [[uk-relocation-project|UK Relocation Project]] · [[clodagh|Clodagh]] · [[joanne|Joanne]]
+- [[sophia-london-schools|London school options (SW19)]] · [[london-vs-malvern|London vs Malvern sub-decision]] · [[uk-relocation-project|UK Relocation Project]] · [[Clodagh Profile|Clodagh]] · [[joanne|Joanne]]
