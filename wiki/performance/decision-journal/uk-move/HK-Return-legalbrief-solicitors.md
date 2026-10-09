@@ -47,7 +47,7 @@ Sections: questions; responses by solicitor (VWV first).
 
 ### VWV
 
-**Date / adviser:** 9 Oct 2026 (call of about an hour, then a follow-up email). Amy Parker, Senior Associate, VWV Birmingham. Hourly rate £375 + VAT.
+**Date / adviser:** 8 Oct 2026 (call of about an hour, then a follow-up email). Amy Parker, Senior Associate, VWV Birmingham. Hourly rate £375 + VAT.
 
 Only the rows below came up. The call was loose, not a walk through the list; the rest were not covered.
 
@@ -65,7 +65,15 @@ Only the rows below came up. The call was loose, not a walk through the list; th
 - Reunite mediation (reunite.org/mediation-overview): for these types of case.
 - Indira Ramsahoye, 29 Bedford Row chambers: Amy's "highly recommended" barrister. Some barristers take direct access instructions, which would skip the VWV fees (£1,000 + VAT).
 
-**Julian's read (9 Oct 2026):** A nice conversation but closer to a chat. She is an associate and the firm does not specialise in international child law. Their approach contests habitual residence, which is really asking whether I can get away on a technicality, and that is risky. I do not want to spend about £3,000 on that and then find a consent order and a letter to Clodagh would have served me better. Not proceeding with VWV; I will probably call the specialists she named.
+**Julian's read (given 9 Oct 2026 on the 8 Oct call):** A nice conversation but closer to a chat. She is an associate and the firm does not specialise in international child law. Their approach contests habitual residence, which is really asking whether I can get away on a technicality, and that is risky. I do not want to spend about £3,000 on that and then find a consent order and a letter to Clodagh would have served me better. Not proceeding with VWV; I will probably call the specialists she named.
+
+**Julian's reply to Amy (written 9 Oct 2026; whether sent not yet confirmed):**
+
+> Hi Amy,
+> Thanks again for your time yesterday, it was a useful discussion for discovering the habitual residency dependency, and I appreciate your transparency with regards to engaging specialised international relocation/child abduction specialists and associated counsel costs.
+> I will see if the offer comes in, approach my Ex to gauge her response, and then consider the best way to engage.
+> Many thanks,
+> Julian
 
 ### Stowe Family Law
 
@@ -106,10 +114,36 @@ It was a very vague initial discussion. I don't think she was even qualified to 
 
 **Comparison.** Against VWV and Stowe Family Law, she gave me the best feeling so far.
 
+### RWK Goodman
+
+**Date / adviser:** not yet called. Kim Lehal ([profile](https://www.rwkgoodman.com/our-people/kim-lehal/)). Referred by Amy Parker (VWV). As of 9 Oct 2026, priority call for Monday 12 Oct.
+
+**Why her (from her bio, verbatim extract):**
+
+> Kim is a recognised expert practising exclusively in all aspects of international and domestic children law. This includes international child abduction – Hague Convention and Non-Hague Convention wardship proceedings pursuant to the Inherent Jurisdiction of the High Court and relocation proceedings. RWK Goodman is one of the specialist firms appointed by the Ministry of Justice to sit on the Child Abduction: Accredited Solicitors Referral List.
+
+Her bio also covers child arrangements, enforcement of judgments, parental responsibility, domestic abuse and international surrogacy; not relevant here.
+
+| # | Answer |
+|---|---|
+| 1 to 14 | Not yet asked. |
+
+**Julian's read:**
+
+### iFLG (International Family Law Group)
+
+**Date / adviser:** not yet contacted. [iflg.uk.com](https://iflg.uk.com/). Referred by Amy Parker (VWV). As of 9 Oct 2026, Julian is reviewing the website's information first; no named contact yet.
+
+| # | Answer |
+|---|---|
+| 1 to 14 | Not yet asked. |
+
+**Julian's read:**
+
 ## Key Takeaways
 
 - One question list for every solicitor, so answers can be compared row by row.
-- VWV (9 Oct 2026): not proceeding; their route costs about £2,200 to £4,000 + VAT just to get counsel's view on habitual residence.
+- VWV (8 Oct 2026 call): not proceeding; their route costs about £2,200 to £4,000 + VAT just to get counsel's view on habitual residence.
 - Weightmans (9 Oct 2026): lead so far. Plan is a letter to Clodagh, then a consent order, then court only if needed; about 3 hours at £450, roughly £1,350, against VWV's £2,200 to £4,000 + VAT.
 - Stowe Family Law (9 Oct 2026): gatekeeper call, no substance; next step offered was a paid £360 strategy meeting.
 - To be completed after each consultation.
@@ -124,3 +158,7 @@ It was a very vague initial discussion. I don't think she was even qualified to 
 | 2026-10-09 | Replaced the Weightmans placeholder with Julian's account of the call: proposed approach, three issues, fees, his read. Flagged an unclear closing note about Stowe Family Law. |
 | 2026-10-09 | Rewrote the Weightmans entry as Julian's own account at his request: the earlier version over-summarised and lost his reservations (the pitch feel) and the detail of the approach. Question-row mapping dropped. |
 | 2026-10-09 | Added Stowe Family Law: Julian's account of the call with Danielle and their follow-up email verbatim. Removed the open question it answered. |
+| 2026-10-09 | Added Julian's reply to Amy Parker (VWV). |
+| 2026-10-09 | Added an RWK Goodman (Kim Lehal) section ahead of Julian's call; bio extract quoted from her firm profile as Julian supplied it. |
+| 2026-10-09 | Corrected the VWV call date to 8 Oct 2026 (Julian confirmed). |
+| 2026-10-09 | Added an iFLG placeholder section; Julian reviewing their website first. |

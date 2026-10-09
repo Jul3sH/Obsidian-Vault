@@ -25,7 +25,7 @@ The status and evidence hub for making a return to Hong Kong with Sophia possibl
 ## Next Actions
 
 1. Decide whether to instruct Weightmans (Dipika Mistry). If yes, prepare the draft letter to Clodagh with background for her review (Julian's own work).
-2. Call the specialists Amy Parker named (RWK Goodman, iFLG) and consider direct access to Indira Ramsahoye, 29 Bedford Row. Use the question list in the solicitors file.
+2. **Monday 12 Oct: call Kim Lehal, RWK Goodman (priority)**: practises exclusively in international and domestic children law, including abduction and relocation; the firm is on the Ministry of Justice child abduction referral list. Then iFLG ([iflg.uk.com](https://iflg.uk.com/); Julian reviewing their website first) and consider direct access to Indira Ramsahoye, 29 Bedford Row. Use the question list in the solicitors file.
 3. Weigh the consent-order route (proposal letter to Clodagh plus draft consent order) against contesting habitual residence, once a specialist has given a view.
 4. Record each consultation in the solicitors file as it happens.
 
