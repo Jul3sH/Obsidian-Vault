@@ -36,6 +36,7 @@ The status and evidence hub for making a return to Hong Kong with Sophia possibl
 | [[HK-Return-legalbrief-Fable\|Hong Kong Return Legal Brief]] | The legal brief on taking Sophia from England to Hong Kong. Fable-drafted; not lawyer-reviewed; not legal advice. Send to each solicitor beforehand. |
 | [[HK-Return-legalbrief-solicitors\|Hong Kong Return Solicitor Consultations]] | The question list for every solicitor and each one's answers, for comparing before instructing one. |
 | [[HK-Return-legalbrief-Perplexity\|Hong Kong Return Legal Research (Perplexity)]] | The preliminary legal position, including the Reunite advice of 6 Oct. Reviewed by Fable and Sonnet; not lawyer-verified. |
+| [[HK-Return-habitual-residency-perplexity\|Hong Kong Return Habitual Residence (Perplexity)]] | Julian's research on where Sophia is habitually resident, with wiki answers to its evidence list and solicitor questions. Not lawyer-reviewed. |
 
 ## Trusted Artefacts
 
@@ -56,6 +57,7 @@ Kept to a few documents. None finalised as of 9 Oct 2026.
 
 | Date | What happened | Decision impact |
 |---|---|---|
+| 2026-10-09 | Habitual residence research filed with wiki answers [[HK-Return-habitual-residency-perplexity]]; corrects several of its assumptions and finds the Fable brief's 5 Sep school start is probably 4 Sep. | Evidence bundle for the solicitor now mostly mapped; gaps listed. |
 | 2026-10-09 | Stowe Family Law recorded: vague call, offer of a £360 strategy meeting. | None; not a contender on Julian's read. |
 | 2026-10-09 | Weightmans call recorded: letter, then consent order, then court; three issues (habitual residence, consent, protection if he leaves, kept separate for now). Lead so far. | Favours the consent route over contesting habitual residence. |
 | 2026-10-09 | Project opened. VWV consultation recorded in [[HK-Return-legalbrief-solicitors]]; not proceeding with VWV. | None on the return decision; narrows the lawyer shortlist. |
@@ -64,6 +66,7 @@ Kept to a few documents. None finalised as of 9 Oct 2026.
 
 | Date | Who/What | Effort | Notes |
 |---|---|---|---|
+| 2026-10-09 | Claude, subagent (Sonnet) | 194,312 tokens | Drafted wiki answers to the habitual residence research's evidence list and questions |
 
 ## Session Synopsis
 
