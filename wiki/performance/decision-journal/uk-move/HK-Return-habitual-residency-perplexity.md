@@ -27,7 +27,7 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - **"Decided only after arrival":** broadly yes, on Julian's account: the commitment followed the 20 Aug job news, then the acceptance email (21 Aug), the flight cancellation (23 Aug) and the YMCA withdrawal (26 Aug). **Earlier acts, and Julian's explanation (9 Oct 2026):**
   - *Cecil Road notice, served 7 Jul.* A contingency in case they needed to move to London, because the tenancy needs 4 months' notice. He told the tenants periodically that the move was unlikely, and in August confirmed it would not go ahead. Evidence to get: those messages to the tenants.
   - *13 Jul enquiry to The Chase ("We are moving to the Malvern area") and Worcestershire County Council.* Sent to line up a place as a contingency in case he did not get the job.
-  - *Decision journal.* [[dec-uk-move]] records "MOVE to the UK - committed 2026-07-04" and calls the Cecil Road notice a "behavioural down-payment". Julian's position: he committed to nothing until after 20 Aug. Julian's position: it is one of many private working records that are out of date, and he will not volunteer it to a solicitor. It stays unaltered.
+  - *Decision journal.* [[dec-uk-move]] records "MOVE to the UK - committed 2026-07-04" and calls the Cecil Road notice a "behavioural down-payment". Julian's position: he committed to nothing until after 20 Aug. Julian's position (9 Oct 2026): it was an experiment with a decision process, not an authoritative record of what he committed to; it is out of date and he will not volunteer it to a solicitor. It stays unaltered. Do not use it as a source for this file's facts.
 - **"Employment fell through":** the job that failed was the Hong Kong TTI role, and its failure triggered the UK stay. It revived verbally on 14 Sep.
 - **"About one month of school":** she started Friday 4 Sep, so about five weeks by 9 Oct.
 - **"Grandmother's home":** correct, and stated as indefinite.
@@ -44,7 +44,7 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - 13 Jul: Julian to The Chase: "We are moving to the Malvern area" [[schooling-malvern-area]].
 
 *Summer*
-- 30 Jul: left Hong Kong, with a separate return booked for 24 Aug [[HK-Return-legalbrief-Fable]].
+- 30 Jul: left Hong Kong and landed in the UK the same day (Julian, 9 Oct), with a separate return booked for 24 Aug [[HK-Return-legalbrief-Fable]].
 - 18 Aug: The Chase place offered [[schooling-malvern-area]].
 - 20 Aug: TTI no; school visit.
 - 21 Aug: Julian accepts The Chase place by email to Admissions.
@@ -62,7 +62,7 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - **School start.** Julian's 24 Aug message plans the school tour for the 3rd and "her first day of school on the 4th" (Friday 4 Sep 2026) [[Cloadgh WhatsApp 2026-06-11 to present]]. [[uk-relocation-project]] says "3-4 Sept". [[HK-Return-legalbrief-Fable]] says 5 Sep, which is a Saturday, so the brief is probably wrong. Resolved 9 Oct 2026: the school portal confirms Friday 4 Sep; the brief is corrected.
 - **Departure.** The 11 Jul message planned "the evening of the 28th or morning of the 29th"; the actual departure was 30 Jul.
 
-**Gaps:** the arrival date in the UK.
+**Gaps:** none left in the chronology.
 
 **2. Hong Kong instruments.** In the wiki.
 - **The 2020 orders and agreement.** The 2 Nov 2020 orders (FCMC 3390/2020) and the 28 Aug 2020 Parental Agreement are transcribed in [[court-order-care-and-control]]:
@@ -74,17 +74,26 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - **The 8 Sep joint letter.** "We each consented, and continue to consent, to Sophia's removal from Hong Kong." It is signed and undated, has not been filed, and gives no undertaking [[removal-notification-letter]].
 
 **Gaps**
-- Certified sealed copies of the orders.
+- ~~Certified sealed copies of the orders.~~ Julian has a scan; the original sealed orders are in Hong Kong and would need couriering if a solicitor or court requires them (9 Oct 2026). Ask the solicitor whether the scan is enough.
 - No period-specific written consent and no undertaking was ever given.
 - Maintenance: the order says HK$12,500 a month; Julian recalls HK$8,500 [[HK-Return-legalbrief-Fable]].
 
-**3. Travel agreement.** Partly in the wiki.
+**3. Travel agreement.** Mostly in the wiki.
 - **10 May.** Julian: "We travel together, you do a few days in London and then head to [Ireland]". Clodagh: "OK let's aim towards that".
 - **Before 30 Jun.** No message mentions Sophia moving.
 - **11 Jul.** Julian says they go to the UK whatever the decision.
 - **9 Aug.** Julian: "I had return flights lined up". Clodagh: "you told me we all got one way tickets and you sneakily booked return without telling me" [[HK-Return-whatsapp-evidence]].
 
-**Gaps:** the Asia Miles booking and cancellation records, with their dates. Calls and voice notes are not in the exports.
+- **Asia Miles statements (Julian, 9 Oct 2026).** The same two claim numbers, 33503283 and 33503284, link booking and cancellation:
+  - **26 Jul (booked, 4 days before leaving):** two award seats on CX238 London Heathrow to Hong Kong, Premium Economy, 52,000 miles each. Paid for with 81,000 miles converted from American Express the same day. Statement 6 Jul to 6 Aug.
+  - **30 Jul (outbound):** CX257 Hong Kong to London Heathrow, Economy, credited to Julian's account. Consistent with landing on 30 Jul.
+  - **23 Aug (cancelled):** both seats refunded, 52,000 miles each. Statement 6 Aug to 6 Sep.
+  - **Files:** [[HK-Return-asia-miles-statement-2026-07.pdf]] and [[HK-Return-asia-miles-statement-2026-08.pdf]].
+  - **1 Sep:** one Economy seat on CX238, 27,000 miles: Julian's own flight back to Hong Kong to pack up (confirmed by Julian). Not Sophia.
+
+**Gaps**
+- Neither statement shows passenger names or the 24 Aug flight date. The booking confirmation email would; nice to have, not essential.
+- Calls and voice notes are not in the exports.
 
 **4. Communications about the change.** In the wiki (calls missing).
 - **Conditional, Julian:**
@@ -109,14 +118,19 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - **DBIS:** 28 Sep, has Year 8 places for a returning student [[uk-relocation-project]].
 - **The Chase:** council allocation dated 18 Aug, with no temporary or permanent term stated. Julian's rule on 19 Aug: no accept-then-withdraw, in case of a return "in ~12 months" [[schooling-malvern-area]].
 
-**Gaps:** the Chase application form (address and stated duration), attendance records, and pastoral reports.
+- **Chase application (Julian, 9 Oct 2026, from memory):** gave Mum's address; no question on the reason for the move as far as he recalls; listed the Hong Kong school as her current school and attached her school report.
+
+**Gaps:** a copy of the submitted application to confirm there was no reason or duration field (the council can supply one); pastoral reports only if needed.
 
 **6. Living arrangements.** Partly in the wiki.
 - **Where:** Julian's mother's house in Hanley Swan, near Malvern. Register entry 4a.5 reads "Intention: live at Mum's". The Barclays account and the GP proof of address are at Mum's [[uk-relocation-project]].
 - **Said on the Weightmans call:** Julian made clear his "intention to stay in the UK, buy" [[HK-Return-legalbrief-solicitors]].
 - **Other:** Clodagh says Julian's mother is 83. Cecil Road is let, not lived in.
 
-**Gaps:** evidence of his mother's agreement and how secure the arrangement is.
+- **Julian (9 Oct 2026):** his mother understands the arrangement is potentially temporary. Nothing written.
+- **Cuts the other way:** the 28 Aug register entry "Intention: live at Mum's", and Julian telling Weightmans he had intended to stay in the UK and buy.
+
+**Gaps:** nothing in writing. If a solicitor wants it, his mother could give a statement at that point.
 
 **7. Hong Kong continuity.** Partly in the wiki.
 - **The Discovery Bay flat (Julian's):** being prepared to let, and an offer came on 26 Sep. Julian told Stephan he would live there on a return. The tax note says not to let it before 8 Mar 2027 [[uktax-srt-fy26-27]].
@@ -124,22 +138,28 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - **Clodagh's side:** she gave up her Hong Kong flat, dismantled Sophia's room and rehomed the cat [[HK-Return-whatsapp-evidence]].
 
 **Gaps**
-- Whether the flat is let now.
+- ~~Whether the flat is let now.~~ Not let: empty, because the plan is to move back into it (Julian, 9 Oct 2026).
 - What has been shipped.
 - Hong Kong ID, insurance, phone and clubs.
 
-**8. English integration.** Partly in the wiki.
+**8. English integration.** Answered.
 - **As of 28 Aug:** GP forms in hand, NHS dentist on a waitlist, no clubs yet [[uk-relocation-project]].
 - **Later:** football training from 8 Sep and Saturday games, including an away game on 2 Oct [[Cloadgh WhatsApp 2026-06-11 to present]].
 
-**Gaps:** GP confirmation, club records and friendships.
+- **As of 9 Oct (Julian):** registered with a GP, never attended. Has joined a local football club and a netball club. No close friendships; has not met anyone outside school.
+
+- **Dentist (Julian, 9 Oct):** recently registered, not yet visited.
+
+**Gaps:** none.
 
 **9. Employment and finances.** Partly in the wiki.
 - **The job that failed** was the Hong Kong TTI role: Ty's written no on 20 Aug.
 - **The revival:** 14 Sep, HK$2M + 15%, verbally accepted. Nothing in writing as of 9 Oct [[hk-return-project]].
 - **UK income:** about £2,200 a month from Cecil Road rent, living rent-free at Mum's.
 
-**Gaps:** the 20 Aug written no itself, UK job applications, and any written offer.
+- **Ty's written no, 20 Aug (verbatim in [[tti-comms-log]]):** "we can not move forward with a contract for employment", because TTI is mid-change and "it would take a year just to familiarize yourselves with our approach and culture".
+
+**Gaps:** a dated copy of Ty's original message (screenshot or PDF) for the solicitor; UK job applications; any written offer.
 
 **10. Sophia's understanding.** Partly in the wiki.
 - **7 Jul:** unsettled by the move news. She had been told "likely but not yet confirmed" and preferred London [[sophia]].
@@ -150,9 +170,9 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 
 ### Facts requiring confirmation
 
-**1. Arrival and return dates.** Partly in the wiki.
+**1. Arrival and return dates.** Answered.
 - Left Hong Kong 30 Jul, with the return booked for 24 Aug and later cancelled [[HK-Return-legalbrief-Fable]].
-- The arrival day itself is not recorded.
+- Landed in the UK on 30 Jul (Julian, 9 Oct 2026).
 
 **2. What the mother agreed to.** In the wiki.
 - **Agreed:**
@@ -180,13 +200,13 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - YMCA was held over the summer, withdrawn on 26 Aug, and is now full.
 - DBIS has offered re-entry.
 
-**7. Whether the English place is permanent, and the address and duration given.** Partly in the wiki.
+**7. Whether the English place is permanent, and the address and duration given.** Mostly answered.
 - It is a standard council allocation.
-- The address and duration on the application are not recorded. Inference: Mum's address.
+- Application gave Mum's address; no reason or duration asked, as far as Julian recalls (9 Oct 2026).
 
 **8. Whether the grandmother's home is the long-term home.** Partly in the wiki.
 - "Intention: live at Mum's" (28 Aug).
-- How secure that is has not been documented.
+- Julian: his mother understands it as potentially temporary; nothing written (9 Oct 2026).
 
 **9. Belongings and pets.** Partly in the wiki.
 - The cat was rehomed in Hong Kong.
@@ -203,8 +223,8 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - **Threats:** "fight tooth and nail" (23 Aug) and "ironed out in court" (4 Sep).
 - **Proceedings:** none recorded.
 
-**12. Passports, and whether any authority has been contacted.** Partly in the wiki.
-- **Passports:** who holds them is not in the wiki.
+**12. Passports, and whether any authority has been contacted.** Answered.
+- **Passports (Julian, 9 Oct 2026):** Julian holds Sophia's British passport. Her Irish passport is expired; Clodagh has been due to renew it for about three years and has not.
 - **Police:** attended Mum's house on 13 Sep over Clodagh, unrelated to removal [[Clodagh Profile]].
 - **Reunite:** advice line called 6 Oct.
 - **Court:** no filing.
@@ -481,3 +501,14 @@ Nevertheless, there is no “safe” minimum period, and the answer may change a
 | 2026-10-09 | First day of school confirmed as Friday 4 Sep 2026 (school portal); conflict marked resolved. |
 | 2026-10-09 | Corrected the "committed 4 Jul" claim to Julian's account (committed around 20 Aug); added 20 Aug visit, 21 Aug acceptance and 23 Aug flight cancellation to the chronology; kept the pre-departure fallback acts visible. |
 | 2026-10-09 | Added Julian's explanation of the 7 Jul Cecil Road notice and the 13 Jul school enquiries as contingencies. |
+| 2026-10-09 | Recorded that dec-uk-move is an experimental decision-process record, not an authoritative source for what Julian committed to. |
+| 2026-10-09 | Arrival in the UK confirmed as 30 Jul 2026. |
+| 2026-10-09 | Logged the Asia Miles August statement: return seats refunded 23 Aug. |
+| 2026-10-09 | Added the July Asia Miles statement: return seats booked 26 Jul (same claim numbers as the 23 Aug refunds); 1 Sep seat confirmed as Julian's own. |
+| 2026-10-09 | Passports: Julian holds the British passport; Irish passport expired, renewal with Clodagh outstanding about three years. |
+| 2026-10-09 | Hong Kong orders: Julian holds originals and a scan. |
+| 2026-10-09 | Linked Ty's 20 Aug written no from tti-comms-log. |
+| 2026-10-09 | Discovery Bay flat: empty, kept to move back into. Priority gaps now closed apart from a dated copy of Ty's message. |
+| 2026-10-09 | Chase application: Mum's address, Hong Kong school listed, no reason or duration asked (from memory). |
+| 2026-10-09 | UK integration as of 9 Oct: GP registered not attended; football and netball clubs; no friendships outside school. |
+| 2026-10-09 | Mum's house: understood by her as potentially temporary; nothing written. |
