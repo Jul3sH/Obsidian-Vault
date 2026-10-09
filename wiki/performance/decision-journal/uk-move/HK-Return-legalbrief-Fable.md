@@ -25,7 +25,7 @@ The reviewed legal position on whether Julian can take Sophia (12) from England 
 
 ## Facts and timeline
 
-**Sophia has lived in Hong Kong for all 12 years of her life** (Julian, 6 Oct 2026). She has been in England since 30 July 2026 and at an English school since 5 September 2026, about two months.
+**Sophia has lived in Hong Kong for all 12 years of her life** (Julian, 6 Oct 2026). She has been in England since 30 July 2026 and at an English school since 4 September 2026, about two months.
 
 Julian's agreed wording: *"We left on 30 July for the summer, with return tickets for 24 August. A UK move was a fallback if the job fell through. It fell through on 20 August, and we put the fallback into effect on 26 August, when I withdrew Sophia from her Hong Kong school."*
 
@@ -36,7 +36,7 @@ Julian's agreed wording: *"We left on 30 July for the summer, with return ticket
 | 30 Jul 2026 | Left Hong Kong with Sophia for the summer; return tickets 24 Aug | Julian |
 | 20 Aug 2026 | Written confirmation the job had fallen through | Julian |
 | 26 Aug 2026 | Fallback put into effect; Sophia withdrawn from her Hong Kong school | Julian |
-| 5 Sep 2026 | Sophia starts at an English school; living with Julian and his mother in Worcestershire | Julian |
+| 4 Sep 2026 | Sophia starts at an English school; living with Julian and his mother in Worcestershire | Julian |
 | 8 Sep 2026 | Joint letter to HK Family Court Registry notifying removal with mutual consent: signed by both parents, date lines blank, not filed; no undertaking to return given | [[removal-notification-letter]] |
 | 13-14 Sep 2026 | Hong Kong job revived at chairman level: offer intended, terms accepted verbally; nothing in writing as of 6 Oct | [[uk-relocation-project]] |
 | 6 Oct 2026 | Reunite advice line call (verbal) | [[HK-Return-legalbrief-Perplexity]] |
@@ -77,7 +77,7 @@ Reunite's own Prevention Guide (2020) states: "It is a criminal offence to take 
 
 **Fixed time markers that do exist** (none of them defines habitual residence): Hague Art 12 one year from removal before the "settled" defence arises [13]; FLA 1986 s41 one year of deemed continuing English habitual residence after a non-consensual removal [6]; age 16, when both s1 CAA 1984 and the Convention (Art 4) stop applying, 25 May 2030 for Sophia [1][13]. The UK tax rule that 183 days in a tax year makes a person UK resident is a Statutory Residence Test rule for tax and has nothing to do with a child's habitual residence [14].
 
-**Applied (opinion, for the lawyer to test):** integration arguably began on 26 August (decision) or 5 September (school), giving roughly four months by Christmas, comparable to AR v RN. For England: school, home with father and grandmother, an indefinite fallback, documented pre-departure planning. For Hong Kong: return tickets, retained home, twelve years of life and school there, the job-contingent nature of the stay, Sophia's own sense of where home is (Re LC). The honest expectation is that a court could go either way, with a real risk it finds England.
+**Applied (opinion, for the lawyer to test):** integration arguably began on 26 August (decision) or 4 September (school), giving roughly four months by Christmas, comparable to AR v RN. For England: school, home with father and grandmother, an indefinite fallback, documented pre-departure planning. For Hong Kong: return tickets, retained home, twelve years of life and school there, the job-contingent nature of the stay, Sophia's own sense of where home is (Re LC). The honest expectation is that a court could go either way, with a real risk it finds England.
 
 ## The 2020 Hong Kong order
 
@@ -113,7 +113,7 @@ Reunite's own Prevention Guide (2020) states: "It is a criminal offence to take 
 
 ## Questions for the lawyer
 
-1. On these facts (30 Jul summer departure with return tickets, 26 Aug fallback, school from 5 Sep, Hong Kong home retained, pre-departure UK planning in the record), is Sophia habitually resident in England now, and will she be by Christmas? Which single piece of evidence moves it most, given AR v RN?
+1. On these facts (30 Jul summer departure with return tickets, 26 Aug fallback, school from 4 Sep, Hong Kong home retained, pre-departure UK planning in the record), is Sophia habitually resident in England now, and will she be by Christmas? Which single piece of evidence moves it most, given AR v RN?
 2. If Julian leaves without consent, is s1 CAA 1984 engaged regardless of habitual residence, and is the s1(5)(c) defence realistically available if he first makes a documented proposal and is refused? How does the DPP consent gate play with no UK order?
 3. Given s1(7)(b), does Hong Kong court leave count as "appropriate consent" under s1(3)(c), or is only Clodagh's written consent or an English Part II order a clean answer?
 4. If Clodagh applies in Hong Kong within the year: how would the Court of First Instance approach Art 3 (her rights of custody and actual exercise from Ireland), Art 13(b) on the alcohol and safeguarding record, and a 12-year-old's objection? Does the 2020 order carry weight given Art 17?
@@ -175,6 +175,7 @@ Dropped from the Perplexity report and not relied on here: the Court of Appeal r
 
 | Date | Change |
 |---|---|
+| 2026-10-09 | Corrected Sophia's first school day from 5 Sep (a Saturday) to Friday 4 Sep 2026, confirmed by Julian from the school portal; four places. |
 | 2026-10-08 | Evidence to gather: added the Asia Miles booking and cancellation records (return booked separately and cancellable, Julian 8 Oct) and a link to [[HK-Return-whatsapp-evidence]]. |
 | 2026-10-06 | Facts: added that Sophia has lived in Hong Kong all 12 years of her life (Julian). Timeline: job revival corrected to 13-14 Sep (from "early Oct"). |
 | 2026-10-06 | Created by Fable from the adversarial review and the Sonnet citation check, with Julian's confirmed timeline and the Christmas 2026 deadline. Replaces [[HK-Return-legalbrief-Perplexity]] as the working document. |

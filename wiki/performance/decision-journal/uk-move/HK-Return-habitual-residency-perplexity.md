@@ -23,10 +23,13 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 
 ### Corrections to the research's assumptions
 
-- **"Began as a holiday":** true only up to 30 Jun. The UK move was committed internally on 4 Jul, and the return leg depended on the Hong Kong job.
-- **"Decided only after arrival":** no. UK planning came first: Cecil Road notice on 7 Jul, and the enquiry to The Chase on 13 Jul. The definite act was the YMCA withdrawal on 26 Aug.
+- **"Began as a holiday":** partly. The trip left on 30 Jul with return tickets for 24 Aug, and staying depended on the Hong Kong job. *Corrected 9 Oct 2026 by Julian: an earlier draft here said he committed to the move on 4 Jul. His account: he did not commit to staying until he was told, around 20 Aug, that he did not have the job.*
+- **"Decided only after arrival":** broadly yes, on Julian's account: the commitment followed the 20 Aug job news, then the acceptance email (21 Aug), the flight cancellation (23 Aug) and the YMCA withdrawal (26 Aug). **Earlier acts, and Julian's explanation (9 Oct 2026):**
+  - *Cecil Road notice, served 7 Jul.* A contingency in case they needed to move to London, because the tenancy needs 4 months' notice. He told the tenants periodically that the move was unlikely, and in August confirmed it would not go ahead. Evidence to get: those messages to the tenants.
+  - *13 Jul enquiry to The Chase ("We are moving to the Malvern area") and Worcestershire County Council.* Sent to line up a place as a contingency in case he did not get the job.
+  - *Decision journal.* [[dec-uk-move]] records "MOVE to the UK - committed 2026-07-04" and calls the Cecil Road notice a "behavioural down-payment". Julian's position: he committed to nothing until after 20 Aug. Julian's position: it is one of many private working records that are out of date, and he will not volunteer it to a solicitor. It stays unaltered.
 - **"Employment fell through":** the job that failed was the Hong Kong TTI role, and its failure triggered the UK stay. It revived verbally on 14 Sep.
-- **"About one month of school":** she started about 4 Sep, so about five weeks by 9 Oct.
+- **"About one month of school":** she started Friday 4 Sep, so about five weeks by 9 Oct.
 - **"Grandmother's home":** correct, and stated as indefinite.
 - **Hong Kong school:** it was YMCA at departure, not DBIS.
 - **"Mother in Ireland":** not clearly. She was near Malvern as of 7 Oct.
@@ -43,21 +46,23 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 *Summer*
 - 30 Jul: left Hong Kong, with a separate return booked for 24 Aug [[HK-Return-legalbrief-Fable]].
 - 18 Aug: The Chase place offered [[schooling-malvern-area]].
-- 20 Aug: TTI no.
+- 20 Aug: TTI no; school visit.
+- 21 Aug: Julian accepts The Chase place by email to Admissions.
+- 23 Aug: return flights (24 Aug) for Julian and Sophia cancelled.
 - 26 Aug: YMCA withdrawal emailed [[uk-relocation-project]].
 
 *Since school started*
-- About 4 Sep: first day at school.
+- Friday 4 Sep: first day at school (Julian, from the school portal, 9 Oct).
 - 5 to 15 Sep: Julian in Hong Kong packing up.
 - 8 Sep: joint letter to the Hong Kong court.
 - 13 to 14 Sep: TTI revived, verbally only.
 - 8 to 9 Oct: solicitors consulted [[HK-Return-legalbrief-solicitors]].
 
 **Conflicts**
-- **School start.** Julian's 24 Aug message plans the school tour for the 3rd and "her first day of school on the 4th" (Friday 4 Sep 2026) [[Cloadgh WhatsApp 2026-06-11 to present]]. [[uk-relocation-project]] says "3-4 Sept". [[HK-Return-legalbrief-Fable]] says 5 Sep, which is a Saturday, so the brief is probably wrong. Fix it before it goes to a solicitor.
+- **School start.** Julian's 24 Aug message plans the school tour for the 3rd and "her first day of school on the 4th" (Friday 4 Sep 2026) [[Cloadgh WhatsApp 2026-06-11 to present]]. [[uk-relocation-project]] says "3-4 Sept". [[HK-Return-legalbrief-Fable]] says 5 Sep, which is a Saturday, so the brief is probably wrong. Resolved 9 Oct 2026: the school portal confirms Friday 4 Sep; the brief is corrected.
 - **Departure.** The 11 Jul message planned "the evening of the 28th or morning of the 29th"; the actual departure was 30 Jul.
 
-**Gaps:** the first day of school from school records, and the arrival date in the UK.
+**Gaps:** the arrival date in the UK.
 
 **2. Hong Kong instruments.** In the wiki.
 - **The 2020 orders and agreement.** The 2 Nov 2020 orders (FCMC 3390/2020) and the 28 Aug 2020 Parental Agreement are transcribed in [[court-order-care-and-control]]:
@@ -473,3 +478,6 @@ Nevertheless, there is no “safe” minimum period, and the answer may change a
 |---|---|
 | 2026-10-09 | Created with Julian's Perplexity research, verbatim. |
 | 2026-10-09 | Added answers from the wiki to the research's evidence list and questions, with corrections to its assumptions. Flagged the 5 Sep school start in the Fable brief as probably wrong (4 Sep). |
+| 2026-10-09 | First day of school confirmed as Friday 4 Sep 2026 (school portal); conflict marked resolved. |
+| 2026-10-09 | Corrected the "committed 4 Jul" claim to Julian's account (committed around 20 Aug); added 20 Aug visit, 21 Aug acceptance and 23 Aug flight cancellation to the chronology; kept the pre-departure fallback acts visible. |
+| 2026-10-09 | Added Julian's explanation of the 7 Jul Cecil Road notice and the 13 Jul school enquiries as contingencies. |

@@ -57,6 +57,7 @@ Kept to a few documents. None finalised as of 9 Oct 2026.
 
 | Date | What happened | Decision impact |
 |---|---|---|
+| 2026-10-09 | Key August dates recorded: Sophia visited The Chase on 20 Aug; Julian accepted the place by email to Admissions on 21 Aug ("thrilled to accept the offer", start 4 Sep); the 24 Aug Hong Kong return flights for Julian and Sophia were cancelled on 23 Aug 2026; first school day Friday 4 Sep (school portal). Julian's account (9 Oct): he did not commit to staying until told around 20 Aug that he did not have the TTI job. Logged in [[HK-Return-habitual-residency-perplexity]] chronology. | Strengthens the temporary-trip evidence: the return was cancelled only after the job fell through. |
 | 2026-10-09 | Habitual residence research filed with wiki answers [[HK-Return-habitual-residency-perplexity]]; corrects several of its assumptions and finds the Fable brief's 5 Sep school start is probably 4 Sep. | Evidence bundle for the solicitor now mostly mapped; gaps listed. |
 | 2026-10-09 | Stowe Family Law recorded: vague call, offer of a £360 strategy meeting. | None; not a contender on Julian's read. |
 | 2026-10-09 | Weightmans call recorded: letter, then consent order, then court; three issues (habitual residence, consent, protection if he leaves, kept separate for now). Lead so far. | Favours the consent route over contesting habitual residence. |
