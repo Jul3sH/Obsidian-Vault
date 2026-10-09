@@ -69,29 +69,30 @@ Only the rows below came up. The call was loose, not a walk through the list; th
 
 ### Weightmans
 
-**Date / adviser:** 9 Oct 2026 call. Dipika Mistry, Partner, Midlands Family Law Team, Weightmans LLP. Rate £450 an hour (VAT not stated). Tel +44 345 073 9900 ext 128979, DDI +44 116 242 8979, dipika.mistry@weightmans.com. Earlier she emailed after Julian spoke to an unnamed Weightmans colleague.
+**Date / adviser:** 9 Oct 2026 call. Dipika Mistry, Partner, Midlands Family Law Team, Weightmans LLP. Rate £450 an hour (VAT not stated). Tel +44 345 073 9900 ext 128979, DDI +44 116 242 8979, dipika.mistry@weightmans.com. Reached via an unnamed Weightmans colleague Julian spoke to first, who passed the matter to her.
 
-Julian's account; the call did not follow the list, so rows not mentioned are marked.
+**Julian's account, in his words** (dictated 9 Oct; only dictation slips corrected, and any guess at meaning is in [square brackets]). The call did not follow the question list.
 
-| # | Answer |
-|---|---|
-| 1 | Has dealt with several cases of this kind; stressed that it must be prepared very thoroughly. She is a partner. |
-| 3 | Not asked as framed. She flagged a related risk: Julian's stated intention to stay in the UK (buying a home, putting Sophia in a school once the TTI job fell through) could make Sophia habitually resident here, and leaving then risks a child abduction allegation. |
-| 5 | Consent first, then a court order: a consent order is drafted after the letter, once the letter's result is seen. |
-| 9 | Court can be expedited if it is in Sophia's interest: "weeks, could be longer". Julian said he wants it resolved before Christmas; they briefly discussed ways to limit the UK-residence exposure (for example leaving the country for Christmas). |
-| 10 | £450 an hour. Her estimate: a couple of hours to draft and submit a consent order. Julian's own assumption (not hers): about an hour to review the first letter. Roughly 3 hours, about £1,350, if both happen. |
-| 13 | Proposed order of work: (1) a letter to Clodagh setting out the benefits to her; Julian drafts it with all his background, Dipika reviews, they finalise, it goes to Clodagh; (2) a draft consent order, not submitted at once because it may frighten Clodagh, but with large overlap with the letter; (3) a court application only if needed. |
-| 14 | Julian prepares the letter and background himself. Julian said he wants to do what work he can so her paid time is review only, drafting the order only if the hour is already being paid. |
-| Others | Not covered or not recorded. |
+**How it felt.** It was definitely the most comfortable conversation so far. She made a lot of common-sense suggestions proactively, without me seeding the idea. She gave me the best feeling so far.
 
-**Three issues she summarised, which Julian agreed with:**
-1. Habitual residence: his later stated intention to stay (above) may be enough to make Sophia habitually resident in the UK.
-2. Getting Clodagh's consent.
-3. Protection if he leaves: Clodagh might try to take Sophia from Hong Kong. This needs the existing Hong Kong order amended and a new order drafted. Julian chose to keep this out for now: he wants the minimum asked of Clodagh, focused only on Sophia returning to Hong Kong without a block. Dipika's caution: if Clodagh rejects the consent order, all three may have to be dealt with together. Julian's position on 9 Oct: separate for now.
+**Stage 1: the letter to Clodagh.** Her common sense was that the first thing we do is craft a letter to Clodagh setting out the benefits to her. I prepare the document, with all my background on how I think I should approach her. She reviews it, we discuss and finalise it, and it goes to Clodagh.
 
-**Julian's read (9 Oct 2026):** The most comfortable conversation so far. She made common-sense suggestions without being prompted, starting with a letter to Clodagh on the benefits to her. The spiel on why a decent lawyer matters felt a little like a pitch, but she is a partner and he agrees it is win or lose, so getting it right first time matters; he thinks he can manage the cost if he engages her. Best feeling of the solicitors so far. Compared with VWV and Stowe Family Law (his note here was unclear: see below).
+**Then a draft consent order.** We don't necessarily want to draft it and submit it straight away, because that may well scare Clodagh. We need to see how the first letter lands. There should be a fair bit of overlap with the letter. Because she is paid by the hour, we would only draft it if I am already paying for a full hour and there is time left; we don't have to do it up front. I made it clear to Dipika that I want to do what work I can myself and have her reviewing.
 
-**Open (9 Oct 2026):** Julian's note ended "VMV and Stow Family Law" after the rate. Unclear whether that means Stowe Family Law is another solicitor to consult or a comparison. Not yet confirmed.
+**Stage 2: applying for a court order, if consent fails.** She gave me a bit of a spiel on why it's good to have someone decent: she's a partner, she has dealt with several cases like this before, and you need to prepare very, very thoroughly. I do tend to agree it's win or lose, so it's good to get it right first time. But it felt a little like a pitch to spend the time on it. I think I can manage that if I engage her.
+
+**Timing.** As others have said, court can be expedited if it is in Sophia's interest to get it through quickly: could be weeks, could be longer. I raised the deadlines because of UK residency, and we talked briefly about ways to mitigate that (leaving the country for Christmas, etc.), but I made it clear I really want this resolved before Christmas because of the disruption to Sophia.
+
+**The three issues Dipika summarised, which made sense to me:**
+1. **Habitual residence.** I came initially with the intention of returning, but I did make clear my intention to stay in the UK, buy, and put Sophia in a school once the job fell through. That could be sufficient for her to be regarded as habitually resident in the UK, and if so I put myself at risk of child abduction.
+2. **Getting consent.**
+3. **Protecting myself if I leave**, in case Clodagh then tries to turn up in Hong Kong to take Sophia away. This is more about amending the existing Hong Kong court order and drafting a new one. I said I wanted to separate this and not introduce anything that is not required at this point. I want Clodagh to agree to the absolute minimum, without scaring her about the long-term aspects; for now I want to focus purely on getting Sophia back to Hong Kong and Clodagh not blocking it. Dipika's point was: what if we fail and she rejects the consent order? Then we may have to deal with all of this at the same time. I said that for now I want to separate it.
+
+**Costs.** She talked about a couple of hours for drafting a consent order and submitting it. I'm assuming an hour for preparing the first letter. She's £450 an hour. [About 3 hours, roughly £1,350, if both happen: model arithmetic, not her quote.]
+
+**Comparison.** Against VWV and Stowe Family Law, she gave me the best feeling so far.
+
+**Open (9 Oct 2026):** Stowe Family Law appears only in this comparison; no consultation with them is recorded here. Julian to confirm whether one took place.
 
 ## Key Takeaways
 
@@ -108,3 +109,4 @@ Julian's account; the call did not follow the list, so rows not mentioned are ma
 | 2026-10-09 | Added the VWV response (Julian's account of the call plus Amy Parker's email) and set project to hk-return-project. Rows not discussed marked not covered. |
 | 2026-10-09 | Added a Weightmans section: Dipika Mistry's contact details and her offer of a call; no answers yet. |
 | 2026-10-09 | Replaced the Weightmans placeholder with Julian's account of the call: proposed approach, three issues, fees, his read. Flagged an unclear closing note about Stowe Family Law. |
+| 2026-10-09 | Rewrote the Weightmans entry as Julian's own account at his request: the earlier version over-summarised and lost his reservations (the pitch feel) and the detail of the approach. Question-row mapping dropped. |
