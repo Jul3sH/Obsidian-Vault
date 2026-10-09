@@ -13,7 +13,7 @@ The questions Julian asks each family solicitor about taking Sophia from England
 
 Sections: questions; responses by solicitor (VWV first).
 
-> As of 9 Oct 2026: two consultations held. VWV not proceeding; Weightmans (Dipika Mistry) is the lead so far, not yet instructed. Send [[HK-Return-legalbrief-Fable]] to each solicitor beforehand; supporting evidence in [[HK-Return-whatsapp-evidence]].
+> As of 9 Oct 2026: three firms spoken to. VWV not proceeding; Stowe offered only a paid £360 strategy meeting; Weightmans (Dipika Mistry) is the lead so far, not yet instructed. Send [[HK-Return-legalbrief-Fable]] to each solicitor beforehand; supporting evidence in [[HK-Return-whatsapp-evidence]].
 
 ## Consultation Questions
 
@@ -67,6 +67,20 @@ Only the rows below came up. The call was loose, not a walk through the list; th
 
 **Julian's read (9 Oct 2026):** A nice conversation but closer to a chat. She is an associate and the firm does not specialise in international child law. Their approach contests habitual residence, which is really asking whether I can get away on a technicality, and that is risky. I do not want to spend about £3,000 on that and then find a consent order and a letter to Clodagh would have served me better. Not proceeding with VWV; I will probably call the specialists she named.
 
+### Stowe Family Law
+
+**Date / adviser:** call date not given (on or before 9 Oct 2026). Julian thinks he spoke to Danielle; role not given. Offer: an Initial Strategy Meeting, about an hour, £360.
+
+**Julian's account, in his words** (dictated 9 Oct; only dictation slips corrected).
+
+It was a very vague initial discussion. I don't think she was even qualified to talk about the case in detail; she sounded like a front-door gatekeeper of some sort. She then talked about an hour's commitment for a strategy meeting, and said they'd send a follow-up email, which they did. Am I interested in spending £360 talking about what can be done? It's just wasting £360 for them to decide how much they can draw this out and get out of me.
+
+**Their follow-up email (verbatim):**
+
+> We discussed an Initial Strategy Meeting at a cost of £360. This will allow your selected solicitor to explore your current situation, discuss the right outcome for you and for you to reach agreement on the path you will take to achieve this. You will also be given an estimate of the likely costs and timeframes of reaching these goals, together with an insight of the most common events that may occur during the process, and the implications on both time and cost.
+>
+> This Initial Strategy Meeting is also your opportunity to meet your solicitor and hear what they are recommending before fully entrusting your case to us. If you do choose to instruct the firm following the meeting, you will then be asked to sign our terms and conditions.
+
 ### Weightmans
 
 **Date / adviser:** 9 Oct 2026 call. Dipika Mistry, Partner, Midlands Family Law Team, Weightmans LLP. Rate £450 an hour (VAT not stated). Tel +44 345 073 9900 ext 128979, DDI +44 116 242 8979, dipika.mistry@weightmans.com. Reached via an unnamed Weightmans colleague Julian spoke to first, who passed the matter to her.
@@ -92,13 +106,12 @@ Only the rows below came up. The call was loose, not a walk through the list; th
 
 **Comparison.** Against VWV and Stowe Family Law, she gave me the best feeling so far.
 
-**Open (9 Oct 2026):** Stowe Family Law appears only in this comparison; no consultation with them is recorded here. Julian to confirm whether one took place.
-
 ## Key Takeaways
 
 - One question list for every solicitor, so answers can be compared row by row.
 - VWV (9 Oct 2026): not proceeding; their route costs about £2,200 to £4,000 + VAT just to get counsel's view on habitual residence.
 - Weightmans (9 Oct 2026): lead so far. Plan is a letter to Clodagh, then a consent order, then court only if needed; about 3 hours at £450, roughly £1,350, against VWV's £2,200 to £4,000 + VAT.
+- Stowe Family Law (9 Oct 2026): gatekeeper call, no substance; next step offered was a paid £360 strategy meeting.
 - To be completed after each consultation.
 
 ## Document Log
@@ -110,3 +123,4 @@ Only the rows below came up. The call was loose, not a walk through the list; th
 | 2026-10-09 | Added a Weightmans section: Dipika Mistry's contact details and her offer of a call; no answers yet. |
 | 2026-10-09 | Replaced the Weightmans placeholder with Julian's account of the call: proposed approach, three issues, fees, his read. Flagged an unclear closing note about Stowe Family Law. |
 | 2026-10-09 | Rewrote the Weightmans entry as Julian's own account at his request: the earlier version over-summarised and lost his reservations (the pitch feel) and the detail of the approach. Question-row mapping dropped. |
+| 2026-10-09 | Added Stowe Family Law: Julian's account of the call with Danielle and their follow-up email verbatim. Removed the open question it answered. |
