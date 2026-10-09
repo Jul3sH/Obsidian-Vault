@@ -28,6 +28,7 @@ Use `/project-planner` to create a new Project through a structured interview.
 
 ## Personal
 - [[uk-relocation-project|UK Relocation Project]] — Execute the committed move to the UK: Hong Kong exit and UK arrival (decision arc complete; decision anchor lives in the uk-move workspace)
+- [[hk-return-project|Hong Kong Return Project]] — Prepare the return to Hong Kong with Sophia in parallel to the return decision: legal consent route, lawyers, move readiness
 
 ## Archived
 - [[agile-claw-mvp|Agile Claw MVP]] (in `_archived/`): archived project file for an open-code ClaudClaw OS hobby idea
