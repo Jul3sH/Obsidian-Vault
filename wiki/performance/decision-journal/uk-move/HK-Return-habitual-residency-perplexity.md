@@ -15,7 +15,7 @@ Julian's independent research on where Sophia is habitually resident (Hong Kong 
 
 Sections: Answers from the wiki (evidence to assemble; facts requiring confirmation); the research as received.
 
-> As of 9 Oct 2026: research filed verbatim; answers from the wiki drafted and spot-checked, not adversarially reviewed. Julian to fill the gaps.
+> As of 9 Oct 2026: research filed verbatim; answers worked through with Julian item by item. Open: a dated copy of Ty's 20 Aug message; a copy of the Chase application.
 
 ## Answers from the wiki
 
@@ -124,23 +124,22 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 
 **6. Living arrangements.** Partly in the wiki.
 - **Where:** Julian's mother's house in Hanley Swan, near Malvern. Register entry 4a.5 reads "Intention: live at Mum's". The Barclays account and the GP proof of address are at Mum's [[uk-relocation-project]].
-- **Said on the Weightmans call:** Julian made clear his "intention to stay in the UK, buy" [[HK-Return-legalbrief-solicitors]].
+- **Dipika's issue 1 (Weightmans call):** "I came initially with the intention of returning, but I did make clear my intention to stay in the UK and put Sophia in a school once the job fell through." This describes what Julian had made clear after 20 Aug, not something he said to Dipika [[HK-Return-legalbrief-solicitors]]. Julian (9 Oct 2026): he made that intention clear to many people, but not to Clodagh or Sophia, so as not to unsettle Sophia. Note: his written messages to Clodagh after 20 Aug include "emigrating" (26 Aug) and "You agreed to this arrangement" (23 Aug) (evidence item 4). Julian's context (9 Oct 2026): those messages predate his 5 Sep return to Hong Kong and the 13 to 14 Sep news that the job might now happen; the intention to stay ran from 20 Aug to mid-September. Told to others in WhatsApp messages (Julian, 9 Oct 2026); these would only surface if those people became witnesses. Do not delete them.
 - **Other:** Clodagh says Julian's mother is 83. Cecil Road is let, not lived in.
 
 - **Julian (9 Oct 2026):** his mother understands the arrangement is potentially temporary. Nothing written.
-- **Cuts the other way:** the 28 Aug register entry "Intention: live at Mum's", and Julian telling Weightmans he had intended to stay in the UK and buy.
+- **Cuts the other way:** the 28 Aug register entry "Intention: live at Mum's", and Julian's stated intention after the job fell through to stay in the UK and put Sophia in a school (Dipika's issue 1).
 
 **Gaps:** nothing in writing. If a solicitor wants it, his mother could give a statement at that point.
 
-**7. Hong Kong continuity.** Partly in the wiki.
+**7. Hong Kong continuity.** Answered.
 - **The Discovery Bay flat (Julian's):** being prepared to let, and an offer came on 26 Sep. Julian told Stephan he would live there on a return. The tax note says not to let it before 8 Mar 2027 [[uktax-srt-fy26-27]].
 - **The household:** the helper was given notice to about 30 Sep. Freight was not booked as of 28 Aug. Sophia "already did her goodbyes before leaving" [[uk-relocation-project]].
 - **Clodagh's side:** she gave up her Hong Kong flat, dismantled Sophia's room and rehomed the cat [[HK-Return-whatsapp-evidence]].
 
 **Gaps**
 - ~~Whether the flat is let now.~~ Not let: empty, because the plan is to move back into it (Julian, 9 Oct 2026).
-- What has been shipped.
-- Hong Kong ID, insurance, phone and clubs.
+- ~~What has been shipped; Hong Kong ID, insurance, phone.~~ Julian, 9 Oct 2026: Sophia's belongings, her Hong Kong ID card and her phone are all still Hong Kong-based; she has no medical insurance.
 
 **8. English integration.** Answered.
 - **As of 28 Aug:** GP forms in hand, NHS dentist on a waitlist, no clubs yet [[uk-relocation-project]].
@@ -159,11 +158,12 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 
 - **Ty's written no, 20 Aug (verbatim in [[tti-comms-log]]):** "we can not move forward with a contract for employment", because TTI is mid-change and "it would take a year just to familiarize yourselves with our approach and culture".
 
-**Gaps:** a dated copy of Ty's original message (screenshot or PDF) for the solicitor; UK job applications; any written offer.
+- **UK job applications (Julian, 9 Oct 2026):** none since 20 Aug.
+
+**Gaps:** a dated copy of Ty's original message (screenshot or PDF) for the solicitor; any written offer.
 
 **10. Sophia's understanding.** Partly in the wiki.
 - **7 Jul:** unsettled by the move news. She had been told "likely but not yet confirmed" and preferred London [[sophia]].
-- **About 27 Sep:** "I'm beginning to really like it here, I miss Hong Kong, but it would be really annoying if we had to move back".
 - **Since then:** she has not been asked about a return [[HK-Return-Beliefs]].
 
 **Gaps:** school records and anything else neutral and contemporaneous.
@@ -208,14 +208,14 @@ Sections: Answers from the wiki (evidence to assemble; facts requiring confirmat
 - "Intention: live at Mum's" (28 Aug).
 - Julian: his mother understands it as potentially temporary; nothing written (9 Oct 2026).
 
-**9. Belongings and pets.** Partly in the wiki.
+**9. Belongings and pets.** Answered.
 - The cat was rehomed in Hong Kong.
 - Julian hand-carried some of Sophia's things.
-- The rest of the flat's contents are not recorded.
+- Her belongings are still in Hong Kong (Julian, 9 Oct 2026).
 
 **10. Sophia's understanding, home and wishes.** Partly in the wiki.
 - See evidence item 10.
-- She leans to the UK and has not been asked about a return.
+- She has not been asked about a return.
 
 **11. Where the mother is, her contact, and any proceedings.** Partly in the wiki.
 - **Location conflict:** "based in Ireland" in [[HK-Return-legalbrief-Fable]], and the letter gives a Waterford address. But WhatsApp has her near Malvern from at least 23 Sep to 7 Oct: "I'm here until Sunday at least" (24 Sep), "on train to Worcester" (6 Oct).
@@ -512,3 +512,10 @@ Nevertheless, there is no “safe” minimum period, and the answer may change a
 | 2026-10-09 | Chase application: Mum's address, Hong Kong school listed, no reason or duration asked (from memory). |
 | 2026-10-09 | UK integration as of 9 Oct: GP registered not attended; football and netball clubs; no friendships outside school. |
 | 2026-10-09 | Mum's house: understood by her as potentially temporary; nothing written. |
+| 2026-10-09 | Corrected a misquote: the "stay in the UK, buy" intention is from Dipika's issue 1, describing what Julian had made clear after 20 Aug, not something he told her. Full sentence now quoted. |
+| 2026-10-09 | Removed "buy" from the issue 1 sentence: a dictation typo (Julian). |
+| 2026-10-09 | Hong Kong continuity: belongings, HK ID and phone still Hong Kong-based; no insurance. |
+| 2026-10-09 | No UK job applications since 20 Aug. All checklist items worked through with Julian. |
+| 2026-10-09 | Removed Sophia's 27 Sep remark at Julian's direction: his read is that she was being positive about her situation, and it will not be submitted. |
+| 2026-10-09 | Recorded who Julian told of his intention to stay (many people, not Clodagh or Sophia); Sophia's 27 Sep remark was not made to Clodagh. |
+| 2026-10-09 | Intention to stay: told to others in WhatsApp messages. |

@@ -106,7 +106,7 @@ It was a very vague initial discussion. I don't think she was even qualified to 
 **Timing.** As others have said, court can be expedited if it is in Sophia's interest to get it through quickly: could be weeks, could be longer. I raised the deadlines because of UK residency, and we talked briefly about ways to mitigate that (leaving the country for Christmas, etc.), but I made it clear I really want this resolved before Christmas because of the disruption to Sophia.
 
 **The three issues Dipika summarised, which made sense to me:**
-1. **Habitual residence.** I came initially with the intention of returning, but I did make clear my intention to stay in the UK, buy, and put Sophia in a school once the job fell through. That could be sufficient for her to be regarded as habitually resident in the UK, and if so I put myself at risk of child abduction.
+1. **Habitual residence.** I came initially with the intention of returning, but I did make clear my intention to stay in the UK and put Sophia in a school once the job fell through. That could be sufficient for her to be regarded as habitually resident in the UK, and if so I put myself at risk of child abduction.
 2. **Getting consent.**
 3. **Protecting myself if I leave**, in case Clodagh then tries to turn up in Hong Kong to take Sophia away. This is more about amending the existing Hong Kong court order and drafting a new one. I said I wanted to separate this and not introduce anything that is not required at this point. I want Clodagh to agree to the absolute minimum, without scaring her about the long-term aspects; for now I want to focus purely on getting Sophia back to Hong Kong and Clodagh not blocking it. Dipika's point was: what if we fail and she rejects the consent order? Then we may have to deal with all of this at the same time. I said that for now I want to separate it.
 
@@ -162,3 +162,4 @@ Her bio also covers child arrangements, enforcement of judgments, parental respo
 | 2026-10-09 | Added an RWK Goodman (Kim Lehal) section ahead of Julian's call; bio extract quoted from her firm profile as Julian supplied it. |
 | 2026-10-09 | Corrected the VWV call date to 8 Oct 2026 (Julian confirmed). |
 | 2026-10-09 | Added an iFLG placeholder section; Julian reviewing their website first. |
+| 2026-10-09 | Removed "buy" from the issue 1 sentence: a dictation typo (Julian). |

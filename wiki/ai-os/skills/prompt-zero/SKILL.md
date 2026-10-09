@@ -38,7 +38,7 @@ Three outcomes:
 - **Waiver check first:** read `size` from the deliverable frontmatter.
   - **Size 1** (1-4h, up to half a day): offer the waiver *once* - "Size 1, up to half a day. Waive Prompt Zero?" If waived, write the section as `Waived [date] - size 1, [his one-line reason].` and stop. A waiver is logged, never silent.
   - **Size 2+** (5h and above): no waiver. If he pushes back, he set this gate himself; the override belongs in the section as a dated line, not in a conversation.
-- Then run the Seven Questions, one at a time. Wait for a real answer before moving on.
+- Then run the Seven Questions, plus Q8 on sources, one at a time. Wait for a real answer before moving on.
 
 > **Source:** the Seven Questions are **Nate B Jones's**, supplied by Julian and reproduced here in intent. The enforcement around them (hard gates, waiver, the Q2 budget rule) is ours. Attribute them to him if they surface elsewhere in the vault.
 
@@ -51,13 +51,14 @@ Three outcomes:
 | 5 | **What do I already know about this that I haven't written down?** The context, the institutional knowledge, the unwritten rules, the thing obvious to him and invisible to anyone arriving fresh. | This is what evaporates the second someone else starts working without it. Take all of it. |
 | 6 | **What are the pieces?** Components, subtasks, chunks. What comes first, what depends on what, what could run independently. | Builds the decomposition in his head first, where he can see the whole picture and catch dependencies a task list would miss. |
 | 7 | **What's the hard part?** Every task has one genuinely difficult piece and several that are just effort. Where are the judgment calls? Where could it go sideways? Where is he least certain? | This is where the specification needs the most detail, and it is the part most often glossed over because sitting with uncertainty is uncomfortable. |
+| 8 | **Which wiki sources are authoritative for this, and which are off limits?** *(Ours, not Nate's; added 9 Oct 2026.)* For each source: what it is authoritative for, and what it must not be used for. Name anything that must never be used. | The wiki holds superseded and experimental records next to authoritative ones, and a model cannot tell them apart. **The one question where the model may propose:** offer a candidate list from the wiki, and Julian confirms, cuts or adds. Skip if the work draws no facts from the wiki. Evidence: [[mm-name-the-sources]]. |
 
-- Read the seven answers back as the drafted section. He confirms or edits. Then write it into the deliverable file above `## Links`.
+- Read the answers back as the drafted section. He confirms or edits. Then write it into the deliverable file above `## Links`.
 
 ### Rules for the interview
 
-- **Never draft an answer for him.** If he says "you write it", refuse once and offer probes or an example from an unrelated domain instead. Ownership is the entire mechanism.
-- **Q1, Q3 and Q4 are hard gates.** Do not accept a vague answer and move on. Q1 iterates until it is one sentence. Q3 must be describable. Q4 must be a specific failure, not "if it's bad". Q2, Q5, Q6 and Q7 may be recorded as thin or "unresolved" and revisited.
+- **Never draft an answer for him** (Q8 excepted: proposing candidate sources is allowed, he confirms). If he says "you write it", refuse once and offer probes or an example from an unrelated domain instead. Ownership is the entire mechanism.
+- **Q1, Q3 and Q4 are hard gates.** Do not accept a vague answer and move on. Q1 iterates until it is one sentence. Q3 must be describable. Q4 must be a specific failure, not "if it's bad". Q2, Q5, Q6, Q7 and Q8 may be recorded as thin or "unresolved" and revisited.
 - **Q4 gets pushed on hardest.** He will want to skip it because nothing has gone wrong yet. That is precisely why it is available now and will not be later.
 - **Q2 sets the budget for the rest.** A low-stakes answer means run Q3 to Q7 briefly and stop. Do not extract a full specification for something that only needs to exist.
 - **15 minutes.** A ceremony that overruns is a ceremony that gets skipped. Q5 is the one worth overrunning for, and it can be appended to later. If he stalls elsewhere, write "unresolved" and move on rather than losing the session.
@@ -76,6 +77,7 @@ Three outcomes:
 5. **What I know that isn't written down:**
 6. **The pieces:**
 7. **The hard part:**
+8. **Sources (authoritative / off limits):**
 ```
 
 ## Drift path
@@ -89,10 +91,10 @@ Three outcomes:
 
 ## Rules
 
-- Minimal friction. Never volunteer analysis, never expand the seven questions, never fire on routine ops.
+- Minimal friction. Never volunteer analysis, never expand the questions beyond Q1 to Q8, never fire on routine ops.
 - Julian is the principal. If he overrides the gate, comply, and write the override into the section as a dated line so the record shows work started ungrounded.
 - The one thing to say when he wants to skip it: *the model will fill every gap you leave, and it will fill them with the average of the internet.*
 
 ## Related
 
-`wiki/ai-os/skills/prompt-zero/SKILL.md` (mirror) · AGENTS.md § Deliverable-First Working Rule (Step 2 is the gate that fires this) · `/standup` (backstop: catches work started without a brief) · [[systems-register]] SYS-3 · the `feedback-overanalysis-check` memory (discharged by Q2) and `feedback-assumption-audit` (adjacent to Q7).
+`wiki/ai-os/skills/prompt-zero/SKILL.md` (mirror) · AGENTS.md § Deliverable-First Working Rule (Step 2 is the gate that fires this) · `/standup` (backstop: catches work started without a brief) · AGENTS.md § Name the Sources (Q8 records its answer) · [[systems-register]] SYS-3 · the `feedback-overanalysis-check` memory (discharged by Q2) and `feedback-assumption-audit` (adjacent to Q7).

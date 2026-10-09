@@ -549,3 +549,23 @@ steering) so the log is queryable by step as well as by type. Newest first.
   degrade on compaction), and mm-steering carried two of them. Chat answers about
   harness features need the same docs check as wiki articles, and the pre-write
   fact-gather is what caught it.
+
+## 2026-10-09 · Research from the wiki (evidence checklist) · Worked, with a sourcing error · [[hk-return-project]]
+
+- **Work:** Claude briefed a Sonnet subagent to answer a habitual residence
+  report's evidence list and solicitor questions "from the wiki", pointing it at a
+  starting set of files and telling it to search wider. Claude then worked through
+  the gaps with Julian item by item.
+- **Check:** Claude spot-checked twelve quotes and dates against the sources (all
+  matched) and caught a wrong school start date in the legal brief (a Saturday).
+  Julian's item-by-item review was the real check.
+- **Outcome:** Worked, at a cost. Julian 4/5 for the session, 180 attended
+  minutes; subagent 194k tokens, main session 511k effort tokens.
+- **Lesson:** Step at fault: steering, Claude's. "Use the wiki" was the whole
+  source brief. The subagent took "MOVE committed 4 Jul" from dec-uk-move, a
+  decision-process experiment, as fact, and it reached Julian as a correction to
+  his own account. The wiki holds superseded, experimental and working records
+  next to authoritative ones, and a model cannot tell them apart unless told.
+  Name the authoritative sources, what each is authoritative for, and what is out
+  of scope. Applied the same day in [[clodagh-consent-letter]]'s source list.
+  Julian asked for this to become a mental model.

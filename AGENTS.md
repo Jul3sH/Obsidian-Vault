@@ -245,6 +245,21 @@ definitions drift; a single canonical definition with links cannot.
 
 ---
 
+# Name the Sources (all agents)
+
+Before work that takes facts from the wiki for something Julian will act on
+(research, analysis, a draft, a subagent or Codex brief), ask him which files are
+authoritative and which are out of scope, unless the deliverable's Prompt Zero
+already lists them (Q8). Propose the list for him to confirm, with what each file is
+authoritative for and what it must not be used for. Pass the confirmed list into
+every subagent or external-model brief. Not needed for quick factual questions.
+
+Why: the wiki holds superseded and experimental records next to authoritative ones,
+and a model cannot tell them apart. On 9 Oct 2026 a subagent told only "use the wiki"
+took `dec-uk-move` as fact. See [[mm-name-the-sources]].
+
+---
+
 # Project Status Updates (all agents)
 
 Whenever any agent produces output that is linked to a Project (a new file, a corrected artefact,

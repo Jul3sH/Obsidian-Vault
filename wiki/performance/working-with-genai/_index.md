@@ -19,6 +19,7 @@ Scope is the **concepts** - attention, trust, judgement, verification, and how t
 - [[mm-verification|MM: Verification]] - Whether AI work can be checked cheaply enough to be worth commissioning, and by what means
 - [[mm-routing|MM: Routing]] - Choosing between chat, one agent, several agents, or by hand
 - [[mm-steering|MM: Steering]] - How the chosen agent or fleet is made to behave, and why an instruction is not a guarantee
+- [[mm-name-the-sources|MM: Name the Sources]] - Tell the model which wiki sources are authoritative, for what, and which are off limits
 - [[mm-token-economics|MM: Token Economics]] - What a session costs to run, why context is a recurring charge rather than a one-off, and which habits move the number
 - [[mm-blast-radius|MM: Blast Radius]] - Assume the wrong call happens, then decide whether you could live with it
 - [[mm-model-adaptation|MM: Model Adaptation]] - Ask whether the model is missing information or missing a habit, then climb one rung at a time

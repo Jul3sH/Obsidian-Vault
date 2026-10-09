@@ -25,9 +25,10 @@ The status and evidence hub for making a return to Hong Kong with Sophia possibl
 ## Next Actions
 
 1. Decide whether to instruct Weightmans (Dipika Mistry). If yes, prepare the draft letter to Clodagh with background for her review (Julian's own work).
-2. **Monday 12 Oct: call Kim Lehal, RWK Goodman (priority)**: practises exclusively in international and domestic children law, including abduction and relocation; the firm is on the Ministry of Justice child abduction referral list. Then iFLG ([iflg.uk.com](https://iflg.uk.com/); Julian reviewing their website first) and consider direct access to Indira Ramsahoye, 29 Bedford Row. Use the question list in the solicitors file.
-3. Weigh the consent-order route (proposal letter to Clodagh plus draft consent order) against contesting habitual residence, once a specialist has given a view.
-4. Record each consultation in the solicitors file as it happens.
+2. **Sat 10 Oct: draft the letter to Clodagh with Claude** (Julian drafts, Claude critiques; for Dipika's review). Deliverable: [[clodagh-consent-letter]]; Prompt Zero first. Claude drafts, Julian and Codex review.
+3. **Monday 12 Oct: call Kim Lehal, RWK Goodman (priority)**: practises exclusively in international and domestic children law, including abduction and relocation; the firm is on the Ministry of Justice child abduction referral list. Then iFLG ([iflg.uk.com](https://iflg.uk.com/); Julian reviewing their website first) and consider direct access to Indira Ramsahoye, 29 Bedford Row. Use the question list in the solicitors file.
+4. Weigh the consent-order route (proposal letter to Clodagh plus draft consent order) against contesting habitual residence, once a specialist has given a view.
+5. Record each consultation in the solicitors file as it happens.
 
 ## Resources
 
@@ -37,6 +38,7 @@ The status and evidence hub for making a return to Hong Kong with Sophia possibl
 | [[HK-Return-legalbrief-solicitors\|Hong Kong Return Solicitor Consultations]] | The question list for every solicitor and each one's answers, for comparing before instructing one. |
 | [[HK-Return-legalbrief-Perplexity\|Hong Kong Return Legal Research (Perplexity)]] | The preliminary legal position, including the Reunite advice of 6 Oct. Reviewed by Fable and Sonnet; not lawyer-verified. |
 | [[HK-Return-habitual-residency-perplexity\|Hong Kong Return Habitual Residence (Perplexity)]] | Julian's research on where Sophia is habitually resident, with wiki answers to its evidence list and solicitor questions. Not lawyer-reviewed. |
+| [[HK-Return-iflg-relocation-guide\|Hong Kong Return iFLG Child Relocation Guide]] | iFLG's public guide to child relocation law (2021): consent or permission, the welfare test, what an application must cover. |
 
 ## Trusted Artefacts
 
@@ -64,15 +66,25 @@ Kept to a few documents. None finalised as of 9 Oct 2026.
 | 2026-10-09 | Weightmans call recorded: letter, then consent order, then court; three issues (habitual residence, consent, protection if he leaves, kept separate for now). Lead so far. | Favours the consent route over contesting habitual residence. |
 | 2026-10-09 | Project opened. VWV consultation recorded in [[HK-Return-legalbrief-solicitors]]; not proceeding with VWV. | None on the return decision; narrows the lawyer shortlist. |
 
+## Deliverables
+
+| Deliverable | Role |
+|---|---|
+| [[clodagh-consent-letter]] | The letter to Clodagh asking for written consent to the return; Dipika reviews before sending. |
+
 ## Time and Token Log
 
 | Date | Who/What | Effort | Notes |
 |---|---|---|---|
+| 2026-10-09 | Julian, attended | 180 min | Project set-up, five solicitor entries, iFLG guide and habitual residence research filed, evidence checklist worked through, Clodagh letter deliverable set up. Excludes the solicitor calls themselves. |
+| 2026-10-09 | Claude, interactive session | 511,167 tokens (output 84,420 + cache-write input 426,747; cache reads 27.0M omitted) | Summed per-message usage from the session transcript JSONL (148 assistant messages). Subagent run logged separately below. |
 | 2026-10-09 | Claude, subagent (Sonnet) | 194,312 tokens | Drafted wiki answers to the habitual residence research's evidence list and questions |
 
 ## Session Synopsis
 
-Open as of 9 Oct 2026; filled at handback.
+**Julian (9 Oct 2026), on the set-up and evidence session: 4/5.** No comment given beyond the rating.
+
+**Model, beneath:** What worked: the item-by-item checklist turned vague gaps into confirmed facts, and two checks paid off (the brief's 5 Sep school start was a Saturday; the Asia Miles claim numbers tie the 26 Jul booking to the 23 Aug cancellation). What cost time, all on my side: the Weightmans entry was over-summarised and had to be rewritten in Julian's words; I misattributed Dipika's issue 1 as something said to her; the subagent took "committed 4 Jul" from dec-uk-move as fact; and I asked for evidence that was not needed (attendance records, photos of belongings).
 
 ## Links
 

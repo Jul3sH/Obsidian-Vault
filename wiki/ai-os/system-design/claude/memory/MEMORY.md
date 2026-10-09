@@ -28,8 +28,6 @@ Files in this folder are loaded by Claude at the start of each session. One line
 
 | feedback-resizing-needs-agreement.md | feedback | Never re-size/re-score a project without asking Julian; size on work REMAINING, not the full activity list |
 
-| [Hold the Pen: Voice Messages](feedback-hold-the-pen-voice-messages.md) | feedback | Outbound personal messages: Julian drafts first, Claude critiques and fact-checks - never Claude-first drafting for his voice |
-
 | [Invoke behaviour-check](feedback-invoke-behaviour-check.md) | feedback | At any behaviour-check trigger (send point, reading someone's silence, weighing options), invoke the skill; never raise a card informally instead |
 
 (Feedback memories added as `feedback-*.md` when corrections occur.)

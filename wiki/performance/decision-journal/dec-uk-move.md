@@ -6,6 +6,10 @@ created: 2026-06-20
 
 # Decision: Whether to move back to the UK
 
+## Purpose
+
+> **Note (9 Oct 2026, Julian): this file was an experiment with a decision process, not an authoritative record of what Julian committed to or when.** Do not cite it as the source for dates or commitments, including for the Hong Kong return; use the dated external record instead (emails, bookings, school records), as in [[HK-Return-habitual-residency-perplexity]]. Kept unaltered below.
+
 This is the full journal record of the UK-move decision, including the wobble log and every reopen attempt. It was split out of the old monolithic `decision-journal.md` on 4 Sep 2026 when the journal was reorganised into one file per decision. Read it when a reopen is attempted (see [[commitment-lock-protocol]]) or when mining bias patterns across decisions.
 
 > **⚡ Status (13 Sep 2026): wobble #5 - Horst (TTI chairman) verbally intends to offer Julian a job, terms at a lunch before the 15 Sept flight; same morning, Clodagh custody escalation (relapse + 3am police incident at Mum's house). STAND-DOWN active per protocol (both triggers inside 48h); F-N-M-T deferred until the window closes ~15 Sept. See the wobble log entry.**
@@ -70,3 +74,9 @@ This is the full journal record of the UK-move decision, including the wobble lo
 - **Retrospective:** *(on 2026-07-31)*
 
 > This is the live test case, deliberately used to pressure-test the methodology. The "push it to December" temptation is the [[commitment-avoidance|Commitment Avoidance]] pattern: December has no anchor. The lead is real but is defused by pre-deciding both branches, not by waiting.
+
+## Document Log
+
+| Date | Change |
+|---|---|
+| 2026-10-09 | Added a Purpose heading and a note that the file was a decision-process experiment, not an authoritative record (Julian). Content otherwise unchanged. |

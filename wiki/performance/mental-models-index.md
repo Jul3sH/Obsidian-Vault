@@ -115,6 +115,7 @@ sentences:
 -
 - [[mm-routing]] - Pick the lightest tool that still leaves you a result you can inspect
 - [[mm-steering]] - An instruction is not a guarantee
+- [[mm-name-the-sources]] - "Use the wiki" is not a source brief
 - [[mm-token-economics]] - Context is rent, not a purchase
 - [[mm-blast-radius]] - Assume the wrong call happens, then decide whether you could live with it
 - [[mm-model-adaptation]] - Ask whether the model is missing information or missing a habit, then climb one rung at a time
