@@ -7,7 +7,7 @@ t-shirt: S
 wsjf: 6.0
 por-key: POR-3
 jira-key: BWS-5
-status-updated: 2026-10-05
+status-updated: 2026-10-10
 ---
 
 ## Purpose
@@ -16,7 +16,9 @@ The project record for securing a TTI role, including the employment position, s
 
 # TTI Role
 
-## Status (as of 2026-10-05)
+## Status (as of 2026-10-10)
+
+**About 5-10 October: work on a role has started inside TTI; nothing in writing yet.** Stephan called (about 5 Oct, Julian's recollection): he has spoken to Tony and Kari, who are working on a security director role in Tony's Hong Kong team, and said having them on side makes Ty easier. On 10 Oct Justin relayed that Kari is writing a brief for Stephan about a job for Julian, and that Tony has been promoted to Executive SVP (not checked). Julian's reads of why (pressure from Horst, Tony forced into it) are logged as speculation. No terms, reporting line, date or Ty view yet; the job-stability risks stand unchanged. Both in [[tti-comms-log]].
 
 **4-5 October: the offered call did not happen; Julian is putting the case in writing.** Stephan flies to the US on 5 Oct and proposed catching up after he lands (Mon 5 Oct, about 18:00 UK), before his 7 Oct meeting "with the team"; no time fixed. Julian's read, which he labels speculation, is that Stephan is avoiding the conversation until he has spoken to Horst and Ty. Julian has decided on a Hong Kong-first message with a UK-based enterprise architecture role on the table, and five call questions; tax residency is not to be used as the urgency. The strategy is now in [[tti-engagement-strategy]] Current Strategy (rewritten 5 Oct, awaiting Julian's agreement). Exchange, draft and questions in [[tti-comms-log]].
 
@@ -36,11 +38,12 @@ The project record for securing a TTI role, including the employment position, s
 
 **Review handoff, 2 October:** a standalone Claude prompt is saved in [[TTI-board-risk-Astra#Claude review prompt]]. It carries the brief and source paths without Astra's findings.
 
-### Next Actions (as of 2026-10-05)
+### Next Actions (as of 2026-10-10)
 
 1. Julian reads [[TTI-board-risk-Fable-Council]] (verdict first), corrects any private-source interpretations, and records his rating and minutes in its Session Synopsis and Time and Token Log.
 2. Book a fixed-fee consultation with an England and Wales international relocation solicitor before any offer arrives (questions in this session's record, [[tti-engagement-strategy]] point 6). Free first call: Reunite International.
-3. Finish and send the written message to Stephan so it reaches him before he lands (Mon 5 Oct, about 18:00 UK) and before the 7 Oct team meeting. Still unasked: who "the team" is and what is decided on the 7th, and the council's two questions (who papers it, who Julian reports to). The Horst message remains held.
+3. Confirm the date of Stephan's call (about 5 Oct) and whether the 5 Oct draft was sent, for the log. Still unasked: what was decided on 7 Oct, and the council's two questions (who papers it, who Julian reports to). The Horst message remains held.
+3a. Find out what the brief Kari is writing says (role, reporting line, term) and when it reaches Stephan; check Tony's promotion against a public source.
 4. Establish the outcome of Justin/Stephan's latest discussion and test what has changed since Ty's rejection through funded work, named operating responsibilities and actual access. Supportive messaging alone does not demonstrate buy-in.
 5. Obtain written role, reporting line, budget/performance authority, compensation, term, start date, schooling/relocation provisions and termination protection. Have the contractual financial floor checked before relying on it through a sponsor change.
 6. Feed the actual offer into [[HK-Return-BRAIND]] and the existing reopening test. This review does not change Julian's relocation decision.
@@ -61,6 +64,7 @@ The project record for securing a TTI role, including the employment position, s
 ### Status log (newest first)
 | Date | Update |
 |------|--------|
+| 2026-10-10 | **Stephan's call (about 5 Oct) and Justin's 10 Oct relay logged.** Tony and Kari working on a security director role in Tony's Hong Kong team; Kari writing a brief for Stephan about a job for Julian; Tony reportedly now Executive SVP. Record in [[tti-comms-log]]. Julian's six-years-safe story after the call logged in [[mm-wishful-thinking-bias]], the weekend avoidance story in [[mm-narrative-fill-bias]]. Decision impact: none yet; first sign of written work on a role, but no commitment from the decider, so no risk row in [[HK-Return-BRAIND]] changes. |
 | 2026-10-05 | **Clodagh sequenced after the offer; target 14 Oct, drop-dead Christmas.** Nothing to Stephan about Clodagh; offer, then Clodagh before signing; if she refuses, ask Stephan for UK-working flexibility while it goes through the courts, accepting 2026/27 UK tax residence. Solicitor consultation to be booked before the offer. [[tti-engagement-strategy]] point 6; [[HK-Return-BRAIND]] D and R updated. Decision impact: the Clodagh risk no longer blocks the job, only the move date. |
 | 2026-10-05 | **Strategy restated; Hong Kong first, UK role on the table.** [[tti-engagement-strategy]] Current Strategy rewritten (the 24 Aug version had not been updated since Horst's mandate): written terms by 27 Oct, first 24 months protected by the council's tests, UK-based enterprise architecture role offered, call questions against a slow no from Ty, tax residency kept out of the ask. Decision impact: none on the move decision; the message and call now have one written strategy behind them. |
 | 2026-10-05 | **4 Oct: the offered call did not happen; catch-up moved to after Stephan lands in the US (Mon 5 Oct, about 18:00 UK).** WhatsApp verbatim in [[tti-comms-log]]. Julian's read (labelled speculation): avoidance until Stephan has spoken to Horst and Ty. Julian decided to put the case in writing, including a UK-based role. Decision impact: the written message is now the main channel before the 7 Oct meeting; no new facts on the offer. |

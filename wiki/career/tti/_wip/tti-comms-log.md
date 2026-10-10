@@ -53,6 +53,24 @@ renamed: 2026-07-17
 
 ---
 
+## ✅ 10 Oct - JUSTIN: Kari is writing a brief for Stephan about a job for Julian; Tony promoted to Executive SVP
+
+> Julian's account, given 10 Oct 2026. Justin's relay of a chance conversation; no verbatim.
+
+**What Justin relayed (relay, weighted as useful):**
+- Justin bumped into Kari. Kari said they are writing a brief, to be given to Stephan, about a job for Julian.
+- Tony has been promoted and is now an Executive SVP.
+
+**Julian's read (10 Oct, SPECULATION):** Stephan has mandated Kari and Tony to work on this, and the pressure has come from Horst. Tony may have been forced into it, so if Tony gains power and Horst steps back, Julian could be exposed. None of this was said by anyone: no one has said who asked for the brief or why, or how Tony feels about it.
+
+**What it adds (10 Oct 2026):**
+- First sign of written work on a role: a brief is being drafted. It is a brief to Stephan, not an offer, and Ty's view is still unknown.
+- Fits the about-5 Oct Stephan call (Tony and Kari working on a security director role in Tony's Hong Kong team).
+- Tony's promotion was not checked against any announcement. If true, the person the role would sit under has more power, which bears on the job-stability rows of [[HK-Return-BRAIND]] either way.
+- Standing rules unchanged: Justin's relays useful, his forecasts weighted low, nothing from him reaches Stephan or Horst.
+
+---
+
 ## ✅ 2 Oct - JUSTIN CALL: HK old-timers' jobs being hollowed out by the US, his own included; the call that prompted the board-risk brief
 
 > Call on Friday 2 Oct 2026. Julian's account, given the same day. No verbatim.
@@ -523,6 +541,20 @@ renamed: 2026-07-17
 ---
 
 ## Stephan Pudwill
+
+---
+
+## ✅ About 5 Oct - STEPHAN CALLED: he has spoken to Tony and Kari; a security director role in Tony's Hong Kong team discussed
+
+> Call logged 10 Oct 2026 from Julian's recollection. Julian thinks it was the Monday (5 Oct, the catch-up Stephan offered for after he landed); the exact day is not on record. No verbatim except the line below. Whether the 5 Oct draft above was sent before the call is not recorded; as of 10 Oct it stays marked not sent.
+
+**Facts (Julian's account):** Stephan phoned Julian. He had spoken to Tony and Kari, and they were discussing a security director role in Tony's team in Hong Kong. Stephan's own words, as Julian recalls them: if he has Kari and Tony on side, who are working on it, it makes it easier to get Ty on side.
+
+**Julian's read:** Stephan sounded upbeat, "a spring in his step", because he is beginning to see a solution. Julian thinks that read is probably right. It is a read of tone, not something Stephan said.
+
+**What it does not tell us:** no written terms, no contract owner, no reporting line, no date, and no word from Ty. Tony and Kari working on it is not Ty's endorsement, which Stephan himself still names as the gate.
+
+**Bias logged (10 Oct):** after this call Julian built a story that, with Tony and Kari on board, the Hong Kong role would be safe for six years, and it began to push him toward "definitely do it" and past the job-stability risks already on record. Logged as an instance in [[mm-wishful-thinking-bias]]. The weekend avoidance story before the call (labelled speculation on 4 Oct, see that entry) is logged in [[mm-narrative-fill-bias]].
 
 ---
 

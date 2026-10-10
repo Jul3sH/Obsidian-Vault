@@ -40,3 +40,11 @@ This card names the bias of believing a hoped-for outcome will happen because I 
 ## Detail
 
 Evidence: the table in [[mm-eggs-in-one-basket]], the TTI record ([[tti-role]], [[tti-comms-log]]), and wobble #5 in [[dec-uk-move]] (Horst, 13 Sep 2026). Related mechanisms: [[mm-narrative-fill-bias]], [[mm-certainty-spike-bias]], and the "wishful reading" line in [[mm-confirmation-amplification-bias]]. Row in [[biases-index]].
+
+## Evidence
+
+Earlier instances are in the [[mm-eggs-in-one-basket]] table; instances from 10 Oct 2026 are logged here.
+
+| Date | Event | Lesson in action | Source |
+|------|-------|-------------------|--------|
+| 2026-10-10 | TTI: after Stephan's call (about 5 Oct) saying Tony and Kari were working on a security director role in Tony's Hong Kong team, I told myself the Hong Kong role would be safe for six years. A small piece of news turned into a story about the whole term. It started to push me towards "definitely do it" and past the job-stability risks I had already identified. Nothing was in writing and Ty had not spoken | A little good news is not a change in the odds. Before it moves the decision, ask which risk row it actually changes; without a written commitment, the answer is none | [[tti-comms-log]], [[HK-Return-BRAIND]] |
