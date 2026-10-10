@@ -19,7 +19,6 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 - [[mm-ship-early]] - Early and done beats late and polished
 - [[mm-setbacks-are-glitches]] - Recover fast: a setback is a data point, not a verdict
 - [[mm-ease-and-grace]] - The composed persona is a decision made in advance, not a mood
-- [[mm-commit-with-a-forcing-function]] - Analysis ends when a deadline, booking, or written choice forces it
 - [[mm-guard-the-critical-path]] - Firefighting is optional; the critical path is not
 - [[mm-price-the-priority]] - Prioritise by tangible cost, not by interest or comfort
 - [[mm-start-with-the-deliverable]] - Open the deliverable first and let the work organise itself around it
@@ -35,8 +34,8 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 
 ### Bias cards (19 Sep 2026, from [[bias-history-review]] and the [[commitment-lock-protocol]] register; all listed in [[biases-index]])
 
-- [[mm-overanalysis-bias]] - Depth is earned by stakes, not by available material - analysis past the decision's needs is cost, not rigour
-- [[mm-commitment-stalling-bias]] - Analysis complete is not decided - the commit point recedes until something external forces it
+- [[mm-analysis-paralysis]] - The decision sets how deep to go, not the material available
+- [[mm-commitment-stalling-bias]] - Analysis complete is not decided; the commit point recedes until a deadline, booking or written choice forces it
 - [[mm-decision-reopening-bias]] - Before reopening a locked decision, run the reopen test: has a new fact arrived, or has anything actually changed? If not, nothing reopens
 - [[mm-build-dont-adopt-bias]] - Building the system is the dopamine; adoption is the work - no build without a forcing function
 - [[mm-confirmation-amplification-bias]] - The AI you work with leans the way you lean. Its mistakes will favour the answer you want unless a separate, hostile review hunts for them.
@@ -63,6 +62,6 @@ Each line names the model(s) built on top of the article.
 - [[adhd-aware-work-patterns]] - Design work around ADHD traits → detail behind [[mm-timebox-the-rabbit-hole]]
 - [[self-judgment-thought-log]] - Running log for self-judgment thoughts and rejection-sensitivity patterns (standalone log, no model above it)
 - [[competence-as-fuel]] - Terminal work is a primary energy and confidence source → detail behind [[mm-competence-as-fuel]]
-- [[commitment-avoidance]] - The open-options trap and forcing-function counter-moves → detail behind [[mm-commit-with-a-forcing-function]]; cross-links the [[decision-maker-profile|Decision-Maker Profile]]
+- [[commitment-avoidance]] - The open-options trap and forcing-function counter-moves → detail behind [[mm-commitment-stalling-bias]]; cross-links the [[decision-maker-profile|Decision-Maker Profile]]
 - [[visual-representation-bias]] - The vivid-but-incomplete mental image trap → detail behind [[mm-visual-representation-bias]]
 - [[payoff-vs-prestige-bias]] - Learning selected for prestige rather than payoff; the Payoff Test → detail behind [[mm-payoff-vs-prestige-bias]]

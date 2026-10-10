@@ -75,5 +75,5 @@ Counterfactual questioning is a technique for finding out which factor is drivin
 - [[belief-assumption-testing]] - the next step once the driver is known
 - [[braind-framework]] - the framework whose Intuition step this tool serves
 - [[decision-maker-profile]] - scenario-churn and the frozen-set counter-move
-- [[mm-overanalysis-bias]] - depth is earned by stakes
+- [[mm-analysis-paralysis]] - depth is earned by stakes
 - [[HK-Return-Counterfactuals]] - first use, 29 Sep 2026

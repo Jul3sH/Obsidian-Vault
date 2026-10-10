@@ -77,7 +77,6 @@ sentences:
 - [[mm-ship-early]] - Early and done beats late and polished
 - [[mm-setbacks-are-glitches]] - Recover fast: a setback is a data point, not a verdict
 - [[mm-ease-and-grace]] - The composed persona is a decision made in advance, not a mood
-- [[mm-commit-with-a-forcing-function]] - Analysis ends when a deadline, booking, or written choice forces it
 - [[mm-guard-the-critical-path]] - Firefighting is optional; the critical path is not
 - [[mm-price-the-priority]] - Prioritise by tangible cost, not by interest or comfort
 - [[mm-start-with-the-deliverable]] - Open the deliverable first and let the work organise itself around it
@@ -90,8 +89,8 @@ sentences:
 - [[mm-visual-representation-bias]] - A vivid picture of the good day is not a decision; ask for the ordinary bad day too
 - [[mm-be-coachable]] - You hired the coach; interrupting them to correct them is paying to not listen
 - [[mm-eggs-in-one-basket]] - Conviction is not an offer; keep the other baskets live until the contract is signed
-- [[mm-overanalysis-bias]] - Depth is earned by stakes, not by available material - analysis past the decision's needs is cost, not rigour
-- [[mm-commitment-stalling-bias]] - Analysis complete is not decided - the commit point recedes until something external forces it
+- [[mm-analysis-paralysis]] - The decision sets how deep to go, not the material available
+- [[mm-commitment-stalling-bias]] - Analysis complete is not decided; the commit point recedes until a deadline, booking or written choice forces it
 - [[mm-decision-reopening-bias]] - Before reopening a locked decision, run the reopen test: has a new fact arrived, or has anything actually changed? If not, nothing reopens
 - [[mm-build-dont-adopt-bias]] - Building the system is the dopamine; adoption is the work - no build without a forcing function
 - [[mm-forgotten-system-bias]] - A redesign impulse toward a working system is usually forgetting, not failure - name the failure before touching the design

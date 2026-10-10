@@ -75,7 +75,7 @@ Rule applied (agreed 19 Sep): every bias has its own six-slot mm card with "bias
 | Card | Evidence source | Links to (detail / cure) |
 |------|----------------|--------------------------|
 | mm-overanalysis-bias | Scan: confirmed, 12 chunks | Cure: decision-feeds test, [[ai-os/skills/prompt-zero/SKILL\|prompt-zero]], [[mm-timebox-the-rabbit-hole]] (rabbit-holing folded in as mechanism) |
-| mm-commitment-stalling-bias | Scan: confirmed, 11 chunks | Detail: [[commitment-avoidance]]; cure: [[mm-commit-with-a-forcing-function]]; mechanism note: options-preservation (autonomy finding folded in) |
+| mm-commitment-stalling-bias | Scan: confirmed, 11 chunks | Detail: [[commitment-avoidance]]; cure: `mm-commit-with-a-forcing-function` (merged into this card 10 Oct 2026); mechanism note: options-preservation (autonomy finding folded in) |
 | mm-decision-reopening-bias | Scan: uncertain, ruled confirmed-but-managed; register #1 | Detail: [[commitment-lock-protocol]]; cure: commitment-guard skill, reopen test |
 | mm-build-dont-adopt-bias | Scan: uncertain, ruled real-but-narrower | Cure: adoption forcing-function, [[systems-register]] rule |
 | mm-confirmation-amplification-bias | Register #4 (personal form of confirmation bias) | Detail: [[commitment-lock-protocol]] division of labour; cure: case-builder never validates |

@@ -133,7 +133,7 @@ Unchanged on purpose: **Prompt Zero still applies** (scope drift on obliged work
 - **Fixed-date work never touches sprint capacity** *(corrected 28 Aug, same day)*. The declared sprint number is set with everything else already accounted for in Julian's judgement; Kanban work draws on the capacity outside it.
 - **Known gap (28 Aug 2026, Julian's technical debt, deliberately deferred):** the BAU Kanban board is not structurally aligned with Portfolio Projects. Do not build alignment as a side effect of routing tasks. As of 6 Oct 2026 the gap is accepted: removed from the funnel in triage; live with it, revisit only if it causes a real traceability failure.
 
-Guard-rail: fixed-date is for genuinely external, committed dates (a departure, a legal deadline, an enrolment window) - not for self-imposed urgency. If the date is Julian's own and movable, it is discretionary and WSJF applies; use a forcing function ([[mm-commit-with-a-forcing-function]]) rather than a class change.
+Guard-rail: fixed-date is for genuinely external, committed dates (a departure, a legal deadline, an enrolment window) - not for self-imposed urgency. If the date is Julian's own and movable, it is discretionary and WSJF applies; use a forcing function ([[mm-commitment-stalling-bias]]) rather than a class change.
 
 This is the quick fix for the broader methodology question logged in `raw/brain-dump.md` (30 Jun: is WSJF right for all workstreams?). That review may replace or extend this; until then, two classes is deliberately all there is.
 

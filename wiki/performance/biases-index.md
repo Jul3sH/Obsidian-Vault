@@ -9,7 +9,7 @@ created: 2026-09-19
 
 ## What belongs here
 
-Every bias with an mm card, wherever the card lives. A bias is a recurring pattern that distorts Julian's decisions or behaviour and has a recognisable trigger situation. Countermeasure and discipline cards (e.g. [[mm-timebox-the-rabbit-hole]], [[mm-commit-with-a-forcing-function]]) are NOT listed here - they belong to [[mental-models-index]] only; the bias card links to them. Adding a row here includes checking the row's situation is covered by the `behaviour-check` skill's triggers, in the same operation.
+Every bias with an mm card, wherever the card lives. A bias is a recurring pattern that distorts Julian's decisions or behaviour and has a recognisable trigger situation. Countermeasure and discipline cards (e.g. [[mm-timebox-the-rabbit-hole]]) are NOT listed here - they belong to [[mental-models-index]] only; the bias card links to them. Adding a row here includes checking the row's situation is covered by the `behaviour-check` skill's triggers, in the same operation.
 
 ## The biases
 
@@ -17,7 +17,7 @@ Every bias with an mm card, wherever the card lives. A bias is a recurring patte
 |------|-----------|------|
 | Visual representation bias | An option starts to feel good via a vivid, pleasant mental image of life under it | [[mm-visual-representation-bias]] |
 | Narrative-fill bias | Interpreting someone's silence, delay, or motives; a story is forming about what others are thinking | [[mm-narrative-fill-bias]] |
-| Overanalysis bias | Scoping or expanding an analysis: another source, another cross-check, another review round | [[mm-overanalysis-bias]] |
+| Analysis paralysis | Scoping or expanding an analysis: another source, another cross-check, another review round | [[mm-analysis-paralysis]] |
 | Commitment-stalling bias | Analysis is done but the choice is not written; a draft gathers "one more" review before sending | [[mm-commitment-stalling-bias]] |
 | Decision-reopening bias | Doubt returns after a locked decision, especially within 72h of the lock or 48h of a warm contact | [[mm-decision-reopening-bias]] |
 | Build-don't-adopt bias | Designing a new system, process, register, or structure, and the designing feels energising | [[mm-build-dont-adopt-bias]] |

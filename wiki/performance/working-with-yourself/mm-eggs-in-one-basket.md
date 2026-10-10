@@ -66,7 +66,7 @@ alternatives has started to feel like wasted effort.
 ## Limitations
 
 This model is NOT the opposite instruction to [[commitment-avoidance]] and
-[[mm-commit-with-a-forcing-function]], and must not be read as licence to hoard
+[[mm-commitment-stalling-bias]], and must not be read as licence to hoard
 options. The distinction: those cover **decisions that are yours to close** -
 close them fast, with forcing functions. This covers **outcomes someone else
 decides** - never let their pending decision close your pipeline for them. Close
