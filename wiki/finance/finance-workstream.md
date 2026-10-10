@@ -58,7 +58,7 @@ What I care about financially — directional guides that shape decisions.
 
 | # | Goal | Measure | Target Date | Status | Epics |
 |---|------|---------|-------------|--------|-------|
-| 1 | Automated investment portfolio strategy live and operational through the AI OS | Binary (operational/not operational) | 30 Jun 2026 | in progress | — |
+| 1 | Automated investment portfolio strategy live and operational through the AI OS | Binary (operational/not operational) | 30 Jun 2026 | in progress | [[portfolio-rebalance-2026]] |
 | 2 | Achieve cash flow neutrality (total income ≥ total outgoings) by 30 Aug 2026, once account balance reaches HK$600,000 | Monthly income ≥ monthly expenses at point of reaching HK$600K | 30 Aug 2026 | in progress | — |
 
 ---

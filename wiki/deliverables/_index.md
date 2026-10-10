@@ -58,6 +58,7 @@ Each Project lists its own deliverables under a `## Deliverables` section on its
 | [[claude-code-feature-articles|Claude Code Feature Articles]] | Performance | 2h (fast lane), 15 min attended | done (3 Oct 2026) |
 | [[legal-position-review|Legal Position Review]] | Personal | 2h (fast lane) | in progress (6 Oct 2026) |
 | [[clodagh-consent-letter|Clodagh Consent Letter]] | Personal | TBC | defined (9 Oct 2026) |
+| [[portfolio-rebalance-2026|Portfolio Rebalance 2026]] | Finance | TBC | defined (10 Oct 2026) |
 
 ## BAU / Standalone
 
