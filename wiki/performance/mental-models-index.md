@@ -80,7 +80,7 @@ sentences:
 - [[mm-guard-the-critical-path]] - Firefighting is optional; the critical path is not
 - [[mm-price-the-priority]] - Prioritise by tangible cost, not by interest or comfort
 - [[mm-start-with-the-deliverable]] - Open the deliverable first and let the work organise itself around it
-- [[mm-competence-as-fuel]] - Confidence is downstream of delivery, not a precondition for it
+- [[mm-evidence-precedes-confidence]] - Confidence follows evidence: deliver first, and let confidence follow
 - [[mm-integrity-is-binary]] - A commitment to yourself is on or off; there is no version of it that bends for a good reason
 - [[mm-systems-are-motivation]] - The tracker is not overhead on the work, it is the engine that gets the work done
 - [[mm-timebox-the-rabbit-hole]] - Curiosity without a timebox is scope creep wearing a productive disguise

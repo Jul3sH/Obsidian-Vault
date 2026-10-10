@@ -14,6 +14,7 @@ Understanding your own ADHD tendencies is a competitive advantage if you design 
 - **Analysis paralysis:** Endless deliberation without a forcing function leads to doing nothing
 - **Bottom-up drift:** Without urgency, defaults to planning, studying, and organising instead of delivering
 - **Deadline activation:** The real focus often only arrives under genuine time pressure
+- **Interest-based energy:** Building and analysing work energises; low-value and political work drains disproportionately. A feature of the operating system, not a character flaw, so design work allocation around it
 
 ## Strategies That Work
 
@@ -42,6 +43,7 @@ Understanding your own ADHD tendencies is a competitive advantage if you design 
 ### Work to Objectively Prioritised Schedules
 - ADHD prioritisation drifts toward the interesting, the comfortable, and the familiar
 - Counter this by building an objective priority list based on cost/impact (not interest)
+- Interest still shapes *how* draining work gets scheduled (short blocks, alongside someone, between energising work), just not *whether* it gets done
 - Review it daily; treat deviations as violations, not flexibility
 - Having a pre-committed schedule removes the decision from the moment — you just follow it
 

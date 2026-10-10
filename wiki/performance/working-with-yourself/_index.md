@@ -22,7 +22,7 @@ Based on Chapter 7 of Josh Kaufman's The Personal MBA.
 - [[mm-guard-the-critical-path]] - Firefighting is optional; the critical path is not
 - [[mm-price-the-priority]] - Prioritise by tangible cost, not by interest or comfort
 - [[mm-start-with-the-deliverable]] - Open the deliverable first and let the work organise itself around it
-- [[mm-competence-as-fuel]] - Confidence is downstream of delivery, not a precondition for it
+- [[mm-evidence-precedes-confidence]] - Confidence follows evidence: deliver first, and let confidence follow
 - [[mm-integrity-is-binary]] - A commitment to yourself is on or off; there is no version of it that bends for a good reason
 - [[mm-systems-are-motivation]] - The tracker is not overhead on the work, it is the engine that gets the work done
 - [[mm-timebox-the-rabbit-hole]] - Curiosity without a timebox is scope creep wearing a productive disguise
@@ -61,7 +61,6 @@ Each line names the model(s) built on top of the article.
 - [[perfectionism-vs-speed-of-delivery]] - Deliver quick wins and iterate → detail behind [[mm-ship-early]]
 - [[adhd-aware-work-patterns]] - Design work around ADHD traits → detail behind [[mm-timebox-the-rabbit-hole]]
 - [[self-judgment-thought-log]] - Running log for self-judgment thoughts and rejection-sensitivity patterns (standalone log, no model above it)
-- [[competence-as-fuel]] - Terminal work is a primary energy and confidence source → detail behind [[mm-competence-as-fuel]]
 - [[commitment-avoidance]] - The open-options trap and forcing-function counter-moves → detail behind [[mm-commitment-stalling-bias]]; cross-links the [[decision-maker-profile|Decision-Maker Profile]]
 - [[visual-representation-bias]] - The vivid-but-incomplete mental image trap → detail behind [[mm-visual-representation-bias]]
 - [[payoff-vs-prestige-bias]] - Learning selected for prestige rather than payoff; the Payoff Test → detail behind [[mm-payoff-vs-prestige-bias]]

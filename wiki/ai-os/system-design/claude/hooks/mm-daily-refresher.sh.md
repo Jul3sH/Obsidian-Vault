@@ -24,6 +24,9 @@ rules: reference articles flagged `review: feature` in frontmatter are reviewed 
 (`~/.claude/feature-daily-reminder-queue`) with their own cap of three per day,
 shown in addition to the models; every 1-day review is always shown. On a quiet
 day one flagged feature rotates in. Set up by [[claude-code-feature-articles]].
+Since 2026-10-10 every refresher must be written in plain English for someone who
+has not read the article (technical terms explained in a few words), after a
+feature one-liner came out too cryptic to follow.
 
 ```bash
 #!/bin/bash
@@ -139,5 +142,9 @@ else
     MSG="$MSG Daily feature refresher: also read $FF (section: $FSEC) and, after the mental-model refresher, add a two-line feature refresher naming its section, then what the feature is and one gotcha."
   fi
 fi
+# Plain-English rule (Julian, 2026-10-10): one-line refreshers compressed into
+# jargon that only made sense after reading the article. Applies to every
+# refresher, model and feature alike.
+MSG="$MSG Write each refresher in plain English for someone who has not read the article: no unexplained technical terms, and if one is unavoidable, say what it means in a few words."
 printf '{"systemMessage":"%s","hookSpecificOutput":{"hookEventName":"SessionStart","additionalContext":"%s"}}\n' "$SYS" "$MSG"
 ```

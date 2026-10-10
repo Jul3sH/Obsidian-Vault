@@ -66,4 +66,4 @@ tags: [working-with-yourself, self-management, adhd, rejection-sensitivity, care
 - [[adhd-aware-work-patterns]]
 - [[beating-procrastination-face-fear-get-started]]
 - [[emotional-resilience-recover-from-setbacks]]
-- [[competence-as-fuel]]
+- [[mm-evidence-precedes-confidence]]

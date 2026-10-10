@@ -65,7 +65,7 @@ renamed: 2026-07-17
 
 **What it adds (10 Oct 2026):**
 - First sign of written work on a role: a brief is being drafted. It is a brief to Stephan, not an offer, and Ty's view is still unknown.
-- Fits the about-5 Oct Stephan call (Tony and Kari working on a security director role in Tony's Hong Kong team).
+- Fits the 6 Oct Stephan call (Tony and Kari working on a security director role in Tony's Hong Kong team).
 - Tony's promotion was not checked against any announcement. If true, the person the role would sit under has more power, which bears on the job-stability rows of [[HK-Return-BRAIND]] either way.
 - Standing rules unchanged: Justin's relays useful, his forecasts weighted low, nothing from him reaches Stephan or Horst.
 
@@ -544,9 +544,9 @@ renamed: 2026-07-17
 
 ---
 
-## ✅ About 5 Oct - STEPHAN CALLED: he has spoken to Tony and Kari; a security director role in Tony's Hong Kong team discussed
+## ✅ 6 Oct - STEPHAN CALLED (8 minutes): he has spoken to Tony and Kari; a security director role in Tony's Hong Kong team discussed
 
-> Call logged 10 Oct 2026 from Julian's recollection. Julian thinks it was the Monday (5 Oct, the catch-up Stephan offered for after he landed); the exact day is not on record. No verbatim except the line below. Whether the 5 Oct draft above was sent before the call is not recorded; as of 10 Oct it stays marked not sent.
+> Call on Tuesday 6 Oct 2026, 2:10pm HK time, about 8 minutes (date and time confirmed by Julian, 10 Oct). Logged 10 Oct from Julian's recollection. No verbatim except the line below. Whether the 5 Oct draft above was sent before the call is not recorded; as of 10 Oct it stays marked not sent.
 
 **Facts (Julian's account):** Stephan phoned Julian. He had spoken to Tony and Kari, and they were discussing a security director role in Tony's team in Hong Kong. Stephan's own words, as Julian recalls them: if he has Kari and Tony on side, who are working on it, it makes it easier to get Ty on side.
 
